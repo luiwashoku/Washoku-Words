@@ -36,8 +36,7 @@
 
   const STORAGE_KEYS = {
     stats: "washoku-foundation-stats",
-    progress: "washoku-foundation-progress",
-    furigana: "washoku-foundation-furigana"
+    progress: "washoku-foundation-progress"
   };
 
   const state = {
@@ -47,7 +46,6 @@
     questions: [],
     currentQuestionIndex: 0,
     answerLocked: false,
-    furiganaEnabled: true,
     stats: {
       answered: 0,
       correct: 0
@@ -57,13 +55,20 @@
 
   const elements = {};
 
-  document.addEventListener("DOMContentLoaded", initialise);
+  document.addEventListener(
+    "DOMContentLoaded",
+    initialise
+  );
 
   async function initialise() {
     cacheElements();
+
+    document
+      .getElementById("furiganaToggle")
+      ?.remove();
+
     restoreSavedData();
     bindEvents();
-    applyFuriganaSetting();
     renderStats();
 
     state.catalog = await loadCatalog();
@@ -73,50 +78,87 @@
   }
 
   function cacheElements() {
-    elements.homeScreen = document.getElementById("homeScreen");
-    elements.pageScreen = document.getElementById("pageScreen");
-    elements.quizScreen = document.getElementById("quizScreen");
+    elements.homeScreen =
+      document.getElementById("homeScreen");
 
-    elements.categoryGrid = document.getElementById("categoryGrid");
-    elements.lessonList = document.getElementById("lessonList");
+    elements.pageScreen =
+      document.getElementById("pageScreen");
 
-    elements.pageTitle = document.getElementById("pageTitle");
-    elements.pageSubtitle = document.getElementById("pageSubtitle");
+    elements.quizScreen =
+      document.getElementById("quizScreen");
 
-    elements.chapterTag = document.getElementById("chapterTag");
-    elements.questionText = document.getElementById("questionText");
-    elements.answerContainer = document.getElementById("answerContainer");
+    elements.categoryGrid =
+      document.getElementById("categoryGrid");
+
+    elements.lessonList =
+      document.getElementById("lessonList");
+
+    elements.pageTitle =
+      document.getElementById("pageTitle");
+
+    elements.pageSubtitle =
+      document.getElementById("pageSubtitle");
+
+    elements.chapterTag =
+      document.getElementById("chapterTag");
+
+    elements.questionText =
+      document.getElementById("questionText");
+
+    elements.answerContainer =
+      document.getElementById(
+        "answerContainer"
+      );
+
     elements.questionProgress =
-      document.getElementById("questionProgress");
+      document.getElementById(
+        "questionProgress"
+      );
 
-    elements.resultCard = document.getElementById("resultCard");
-    elements.resultTitle = document.getElementById("resultTitle");
+    elements.resultCard =
+      document.getElementById("resultCard");
+
+    elements.resultTitle =
+      document.getElementById("resultTitle");
+
     elements.jpExplanation =
-      document.getElementById("jpExplanation");
+      document.getElementById(
+        "jpExplanation"
+      );
+
     elements.enExplanation =
-      document.getElementById("enExplanation");
+      document.getElementById(
+        "enExplanation"
+      );
 
     elements.answeredCount =
-      document.getElementById("answeredCount");
-    elements.correctCount =
-      document.getElementById("correctCount");
-    elements.accuracy = document.getElementById("accuracy");
+      document.getElementById(
+        "answeredCount"
+      );
 
-    elements.furiganaToggle =
-      document.getElementById("furiganaToggle");
-    elements.backHome = document.getElementById("backHome");
+    elements.correctCount =
+      document.getElementById(
+        "correctCount"
+      );
+
+    elements.accuracy =
+      document.getElementById("accuracy");
+
+    elements.backHome =
+      document.getElementById("backHome");
+
     elements.backToPages =
-      document.getElementById("backToPages");
+      document.getElementById(
+        "backToPages"
+      );
+
     elements.nextQuestion =
-      document.getElementById("nextQuestion");
+      document.getElementById(
+        "nextQuestion"
+      );
   }
 
   function bindEvents() {
-    elements.furiganaToggle.addEventListener(
-      "click",
-      toggleFurigana
-    );
-
     elements.backHome.addEventListener(
       "click",
       returnHome
@@ -134,25 +176,24 @@
   }
 
   function restoreSavedData() {
-    state.stats = readStorage(STORAGE_KEYS.stats, {
-      answered: 0,
-      correct: 0
-    });
+    state.stats = readStorage(
+      STORAGE_KEYS.stats,
+      {
+        answered: 0,
+        correct: 0
+      }
+    );
 
     state.progress = readStorage(
       STORAGE_KEYS.progress,
       {}
     );
-
-    const savedFurigana =
-      localStorage.getItem(STORAGE_KEYS.furigana);
-
-    state.furiganaEnabled = savedFurigana !== "off";
   }
 
   function readStorage(key, fallback) {
     try {
-      const storedValue = localStorage.getItem(key);
+      const storedValue =
+        localStorage.getItem(key);
 
       return storedValue
         ? JSON.parse(storedValue)
@@ -183,9 +224,12 @@
 
   async function loadCatalog() {
     try {
-      const response = await fetch("data/catalog.json", {
-        cache: "no-store"
-      });
+      const response = await fetch(
+        "data/catalog.json",
+        {
+          cache: "no-store"
+        }
+      );
 
       if (!response.ok) {
         throw new Error(
@@ -193,7 +237,8 @@
         );
       }
 
-      const catalog = await response.json();
+      const catalog =
+        await response.json();
 
       if (!Array.isArray(catalog)) {
         throw new Error(
@@ -201,7 +246,9 @@
         );
       }
 
-      return catalog.filter(isValidCatalogEntry);
+      return catalog.filter(
+        isValidCatalogEntry
+      );
     } catch (error) {
       console.info(
         "No lesson catalog is available yet.",
@@ -225,63 +272,90 @@
   function renderCategories() {
     elements.categoryGrid.replaceChildren();
 
-    CATEGORY_CONFIG.forEach((category) => {
-      const lessons = getLessonsForCategory(
-        category.id
-      );
+    CATEGORY_CONFIG.forEach(
+      (category) => {
+        const lessons =
+          getLessonsForCategory(
+            category.id
+          );
 
-      const questionCount = lessons.reduce(
-        (total, lesson) =>
-          total + getDeclaredQuestionCount(lesson),
-        0
-      );
+        const questionCount =
+          lessons.reduce(
+            (total, lesson) =>
+              total +
+              getDeclaredQuestionCount(
+                lesson
+              ),
+            0
+          );
 
-      const button =
-        document.createElement("button");
+        const button =
+          document.createElement(
+            "button"
+          );
 
-      button.type = "button";
-      button.className = "category-card";
+        button.type = "button";
+        button.className =
+          "category-card";
 
-      button.setAttribute(
-        "aria-label",
-        `Open ${category.title}`
-      );
+        button.setAttribute(
+          "aria-label",
+          `Open ${category.title}`
+        );
 
-      button.innerHTML = `
-        <strong>${escapeHtml(category.title)}</strong>
-        <span>
-          ${lessons.length} lessons ·
-          ${questionCount} questions
-        </span>
-      `;
+        button.innerHTML = `
+          <strong>
+            ${escapeHtml(category.title)}
+          </strong>
 
-      button.addEventListener("click", () => {
-        playSound("click");
-        openCategory(category);
-      });
+          <span>
+            ${lessons.length} lessons ·
+            ${questionCount} questions
+          </span>
+        `;
 
-      elements.categoryGrid.appendChild(button);
-    });
+        button.addEventListener(
+          "click",
+          () => {
+            playSound("click");
+            openCategory(category);
+          }
+        );
+
+        elements.categoryGrid.appendChild(
+          button
+        );
+      }
+    );
   }
 
-  function getLessonsForCategory(categoryId) {
+  function getLessonsForCategory(
+    categoryId
+  ) {
     return state.catalog
       .filter(
         (lesson) =>
           lesson.category === categoryId
       )
       .sort((a, b) => {
-        const pageA = Number(a.page) || 0;
-        const pageB = Number(b.page) || 0;
+        const pageA =
+          Number(a.page) || 0;
+
+        const pageB =
+          Number(b.page) || 0;
 
         return pageA - pageB;
       });
   }
 
-  function getDeclaredQuestionCount(lesson) {
-    const count = Number(lesson.questionCount);
+  function getDeclaredQuestionCount(
+    lesson
+  ) {
+    const count =
+      Number(lesson.questionCount);
 
-    return Number.isFinite(count) && count > 0
+    return Number.isFinite(count) &&
+      count > 0
       ? count
       : 0;
   }
@@ -292,15 +366,20 @@
     elements.pageTitle.textContent =
       category.title;
 
-    const lessons = getLessonsForCategory(
-      category.id
-    );
+    const lessons =
+      getLessonsForCategory(
+        category.id
+      );
 
-    const totalQuestions = lessons.reduce(
-      (total, lesson) =>
-        total + getDeclaredQuestionCount(lesson),
-      0
-    );
+    const totalQuestions =
+      lessons.reduce(
+        (total, lesson) =>
+          total +
+          getDeclaredQuestionCount(
+            lesson
+          ),
+        0
+      );
 
     elements.pageSubtitle.textContent =
       `${lessons.length} lessons · ` +
@@ -310,20 +389,25 @@
     showScreen("pages");
   }
 
-  function renderLessonList(lessons) {
+   function renderLessonList(lessons) {
     elements.lessonList.replaceChildren();
 
     if (lessons.length === 0) {
       const emptyState =
         document.createElement("div");
 
-      emptyState.className = "lesson-card";
+      emptyState.className =
+        "lesson-card";
 
       emptyState.innerHTML = `
         <div class="lesson-copy">
-          <strong>Questions coming soon</strong>
+          <strong>
+            Questions coming soon
+          </strong>
+
           <span>
-            We will add this section page by page.
+            We will add this section
+            page by page.
           </span>
         </div>
       `;
@@ -340,20 +424,26 @@
         getLessonProgress(lesson.id);
 
       const count =
-        getDeclaredQuestionCount(lesson);
+        getDeclaredQuestionCount(
+          lesson
+        );
 
       const button =
-        document.createElement("button");
+        document.createElement(
+          "button"
+        );
 
       button.type = "button";
-      button.className = "lesson-card";
+      button.className =
+        "lesson-card";
 
       button.innerHTML = `
         <span class="lesson-copy">
           <strong>
             Page ${escapeHtml(
               String(lesson.page ?? "")
-            )} · ${escapeHtml(lesson.title)}
+            )} ·
+            ${escapeHtml(lesson.title)}
           </strong>
 
           <span>
@@ -370,17 +460,25 @@
         </span>
       `;
 
-      button.addEventListener("click", () => {
-        playSound("click");
-        openLesson(lesson);
-      });
+      button.addEventListener(
+        "click",
+        () => {
+          playSound("click");
+          openLesson(lesson);
+        }
+      );
 
-      elements.lessonList.appendChild(button);
+      elements.lessonList.appendChild(
+        button
+      );
     });
   }
 
-  function getLessonProgress(lessonId) {
-    const saved = state.progress[lessonId];
+  function getLessonProgress(
+    lessonId
+  ) {
+    const saved =
+      state.progress[lessonId];
 
     if (!saved) {
       return {
@@ -402,7 +500,9 @@
 
     try {
       const questions =
-        await loadLessonQuestions(lesson);
+        await loadLessonQuestions(
+          lesson
+        );
 
       if (questions.length === 0) {
         throw new Error(
@@ -411,6 +511,7 @@
       }
 
       state.selectedLesson = lesson;
+
       state.questions =
         shuffleArray(questions);
 
@@ -430,7 +531,9 @@
     }
   }
 
-  function setLessonLoadingState(loading) {
+  function setLessonLoadingState(
+    loading
+  ) {
     elements.pageSubtitle.textContent =
       loading
         ? "Loading lesson…"
@@ -442,15 +545,20 @@
       return "";
     }
 
-    const lessons = getLessonsForCategory(
-      state.selectedCategory.id
-    );
+    const lessons =
+      getLessonsForCategory(
+        state.selectedCategory.id
+      );
 
-    const totalQuestions = lessons.reduce(
-      (total, lesson) =>
-        total + getDeclaredQuestionCount(lesson),
-      0
-    );
+    const totalQuestions =
+      lessons.reduce(
+        (total, lesson) =>
+          total +
+          getDeclaredQuestionCount(
+            lesson
+          ),
+        0
+      );
 
     return (
       `${lessons.length} lessons · ` +
@@ -458,7 +566,9 @@
     );
   }
 
-  async function loadLessonQuestions(lesson) {
+  async function loadLessonQuestions(
+    lesson
+  ) {
     const response = await fetch(
       lesson.file,
       {
@@ -469,11 +579,13 @@
     if (!response.ok) {
       throw new Error(
         `Lesson request failed with ` +
-        `${response.status}: ${lesson.file}`
+        `${response.status}: ` +
+        `${lesson.file}`
       );
     }
 
-    const lessonData = await response.json();
+    const lessonData =
+      await response.json();
 
     const rawQuestions =
       Array.isArray(lessonData)
@@ -496,10 +608,13 @@
     return Boolean(
       question &&
       typeof question.id === "string" &&
-      typeof question.question === "string" &&
+      typeof question.question ===
+        "string" &&
       Array.isArray(question.answers) &&
       question.answers.length >= 2 &&
-      Number.isInteger(question.correct) &&
+      Number.isInteger(
+        question.correct
+      ) &&
       question.correct >= 0 &&
       question.correct <
         question.answers.length
@@ -523,10 +638,11 @@
       state.selectedLesson?.title ||
       "";
 
-elements.questionText.innerHTML =
-  renderStudyText(question.question);
+    elements.questionText.textContent =
+      question.question;
 
-    elements.answerContainer.replaceChildren();
+    elements.answerContainer
+      .replaceChildren();
 
     elements.resultCard.classList.add(
       "hidden"
@@ -540,23 +656,29 @@ elements.questionText.innerHTML =
     question.answers.forEach(
       (answerText, answerIndex) => {
         const button =
-          document.createElement("button");
+          document.createElement(
+            "button"
+          );
 
         button.type = "button";
-        button.className = "answer-button";
-        button.innerHTML =
-  renderStudyText(answerText);
+        button.className =
+          "answer-button";
 
-        button.addEventListener("click", () => {
-          selectAnswer(
-            answerIndex,
-            button
-          );
-        });
+        button.textContent =
+          answerText;
 
-        elements.answerContainer.appendChild(
-          button
+        button.addEventListener(
+          "click",
+          () => {
+            selectAnswer(
+              answerIndex,
+              button
+            );
+          }
         );
+
+        elements.answerContainer
+          .appendChild(button);
       }
     );
 
@@ -582,38 +704,54 @@ elements.questionText.innerHTML =
       ];
 
     const buttons = Array.from(
-      elements.answerContainer.querySelectorAll(
-        ".answer-button"
-      )
+      elements.answerContainer
+        .querySelectorAll(
+          ".answer-button"
+        )
     );
 
     buttons.forEach(
       (button, answerIndex) => {
         button.disabled = true;
 
-        if (answerIndex === question.correct) {
-          button.classList.add("correct");
+        if (
+          answerIndex ===
+          question.correct
+        ) {
+          button.classList.add(
+            "correct"
+          );
         }
       }
     );
 
     const isCorrect =
-      selectedIndex === question.correct;
+      selectedIndex ===
+      question.correct;
 
     if (!isCorrect) {
-      selectedButton.classList.add("wrong");
+      selectedButton.classList.add(
+        "wrong"
+      );
     }
 
     updateStatistics(isCorrect);
     updateLessonProgress(isCorrect);
-    showExplanation(question, isCorrect);
+    showExplanation(
+      question,
+      isCorrect
+    );
 
     playSound(
-      isCorrect ? "correct" : "wrong"
+      isCorrect
+        ? "correct"
+        : "wrong"
     );
   }
 
-  function updateStatistics(isCorrect) {
+  function updateStatistics(
+    isCorrect
+  ) {
     state.stats.answered += 1;
 
     if (isCorrect) {
@@ -628,7 +766,9 @@ elements.questionText.innerHTML =
     renderStats();
   }
 
-  function updateLessonProgress(isCorrect) {
+  function updateLessonProgress(
+    isCorrect
+  ) {
     if (!state.selectedLesson) {
       return;
     }
@@ -645,7 +785,8 @@ elements.questionText.innerHTML =
       current.correct += 1;
     }
 
-    state.progress[lessonId] = current;
+    state.progress[lessonId] =
+      current;
 
     writeStorage(
       STORAGE_KEYS.progress,
@@ -674,18 +815,18 @@ elements.questionText.innerHTML =
       `${accuracy}%`;
   }
 
-  function showExplanation(
+   function showExplanation(
     question,
     isCorrect
   ) {
     elements.resultTitle.textContent =
-      isCorrect ? "Great!" : "Almost.";
+      isCorrect
+        ? "Great!"
+        : "Almost.";
 
-    elements.jpExplanation.innerHTML =
-  renderStudyText(
-    question.jpExplanation ||
-    "解説はまだありません。"
-  );
+    elements.jpExplanation.textContent =
+      question.jpExplanation ||
+      "解説はまだありません。";
 
     elements.enExplanation.textContent =
       question.enExplanation ||
@@ -788,48 +929,6 @@ elements.questionText.innerHTML =
     });
   }
 
-  function toggleFurigana() {
-    state.furiganaEnabled =
-      !state.furiganaEnabled;
-
-    applyFuriganaSetting();
-
-    localStorage.setItem(
-      STORAGE_KEYS.furigana,
-      state.furiganaEnabled
-        ? "on"
-        : "off"
-    );
-
-    playSound("click");
-  }
-
-  function applyFuriganaSetting() {
-    document.body.classList.toggle(
-      "no-furigana",
-      !state.furiganaEnabled
-    );
-
-    elements.furiganaToggle.setAttribute(
-      "aria-pressed",
-      String(state.furiganaEnabled)
-    );
-
-    elements.furiganaToggle.title =
-      state.furiganaEnabled
-        ? "Hide furigana"
-        : "Show furigana";
-  }
-function renderStudyText(value) {
-  if (value === null || value === undefined) {
-    return "";
-  }
-
-  return String(value).replace(
-    /([\u3040-\u30ff\u3400-\u9fff々〆ヵヶー]+)\{([^{}]+)\}/g,
-    "<ruby>$1<rt>$2</rt></ruby>"
-  );
-}
   function shuffleArray(items) {
     const copy = [...items];
 
@@ -907,11 +1006,12 @@ function renderStudyText(value) {
         context.currentTime
       );
 
-      gain.gain.exponentialRampToValueAtTime(
-        0.001,
-        context.currentTime +
-          selected.duration
-      );
+      gain.gain
+        .exponentialRampToValueAtTime(
+          0.001,
+          context.currentTime +
+            selected.duration
+        );
 
       oscillator.connect(gain);
       gain.connect(context.destination);
@@ -947,19 +1047,26 @@ function renderStudyText(value) {
   }
 
   function registerServiceWorker() {
-    if (!("serviceWorker" in navigator)) {
+    if (
+      !(
+        "serviceWorker" in navigator
+      )
+    ) {
       return;
     }
 
-    window.addEventListener("load", () => {
-      navigator.serviceWorker
-        .register("sw.js")
-        .catch((error) => {
-          console.info(
-            "Service worker not available yet.",
-            error
-          );
-        });
-    });
+    window.addEventListener(
+      "load",
+      () => {
+        navigator.serviceWorker
+          .register("sw.js")
+          .catch((error) => {
+            console.info(
+              "Service worker not available yet.",
+              error
+            );
+          });
+      }
+    );
   }
 })();
