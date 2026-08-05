@@ -3,120 +3,120 @@
     "id": "page03-q01",
     "chapter": "味・香り・食感",
     "page": 3,
-    "type": "dialogue",
+    "type": "recognition",
     "difficulty": 2,
-    "question": "先生{せんせい}：このりんごの食感{しょっかん}はどうですか。",
+    "question": "A clear soup tastes gentle and softly rounded, with no harsh edges. Which word fits best?",
     "answers": [
-      "しゃきしゃきしています。",
-      "ぷりぷりしています。",
-      "ねっとりしています。",
-      "ほろほろしています。"
+      "穏(おだ)やか",
+      "力強(ちからづよ)い",
+      "濃厚(のうこう)",
+      "複雑(ふくざつ)"
     ],
-    "correct": 0,
-    "jpExplanation": "りんごは、かむと歯切{はぎ}れがよく、みずみずしいので「しゃきしゃき」が自然{しぜん}です。",
-    "enExplanation": "Apples are naturally described as しゃきしゃき because they are crisp, fresh and crunchy when bitten."
+    "jpExplanation": "「穏(おだ)やか」は、味(あじ)や香(かお)りの刺激(しげき)が強(つよ)すぎず、やさしく落(お)ち着(つ)いた印象(いんしょう)を表(あらわ)します。",
+    "enExplanation": "穏やか describes a gentle, calm and rounded impression without strong edges.",
+    "correct": 0
   },
   {
     "id": "page03-q02",
     "chapter": "味・香り・食感",
     "page": 3,
-    "type": "differentiate",
-    "difficulty": 3,
-    "question": "A dish is full-bodied and rich, but not necessarily excessive. Which word fits best?",
+    "type": "application",
+    "difficulty": 2,
+    "question": "You taste a rich sesame sauce with a dense, full-bodied flavour. Which description is most natural?",
     "answers": [
-      "濃厚{のうこう}",
-      "くどい",
-      "薄{うす}い",
-      "さっぱり"
+      "薄(うす)いです。",
+      "爽(さわ)やかです。",
+      "さっぱりしています。",
+      "濃厚(のうこう)です。"
     ],
-    "correct": 0,
-    "jpExplanation": "「濃厚{のうこう}」は味{あじ}や香{かお}りに厚{あつ}みがあることです。「くどい」は、その濃{こ}さがしつこく感{かん}じられる時{とき}に使{つか}います。",
-    "enExplanation": "濃厚 means rich and full-bodied. くどい goes further and implies that the richness has become excessive or tiring."
+    "jpExplanation": "味(あじ)に厚(あつ)みがあり、しっかりしたコクを感(かん)じる時(とき)は「濃厚(のうこう)」が自然(しぜん)です。",
+    "enExplanation": "濃厚 means rich, dense and full-bodied.",
+    "correct": 3
   },
   {
     "id": "page03-q03",
     "chapter": "味・香り・食感",
     "page": 3,
-    "type": "scenario",
+    "type": "contrast",
     "difficulty": 3,
-    "question": "A sauce tastes good at first, but after several bites it feels heavy and tiring. Which description is best?",
+    "question": "A yuzu dressing is light, clean and refreshing. Which word fits better?",
     "answers": [
+      "重(おも)たい",
       "くどい",
-      "まろやか",
-      "上品{じょうひん}",
-      "繊細{せんさい}"
+      "芳醇(ほうじゅん)",
+      "さっぱり"
     ],
-    "correct": 0,
-    "jpExplanation": "「くどい」は、味{あじ}が濃{こ}すぎたり脂{あぶら}っこすぎたりして、しつこく感{かん}じる時{とき}に使{つか}います。",
-    "enExplanation": "くどい describes a flavour that has become overly rich, cloying or tiring."
+    "jpExplanation": "「さっぱり」は、油(あぶら)っこさや重(おも)さが少(すく)なく、軽(かる)く爽快(そうかい)な味(あじ)わいです。",
+    "enExplanation": "さっぱり describes a light, clean and refreshing taste.",
+    "correct": 3
   },
   {
     "id": "page03-q04",
     "chapter": "味・香り・食感",
     "page": 3,
     "type": "dialogue",
-    "difficulty": 4,
-    "question": "先生{せんせい}：この日本酒{にほんしゅ}は余韻{よいん}がありますね。どういう意味{いみ}ですか。",
+    "difficulty": 3,
+    "question": "先生(せんせい)：この味噌(みそ)はコクがありますね。What does コク mean here?",
     "answers": [
-      "飲{の}み込{こ}んだ後{あと}も、味{あじ}や香{かお}りの印象{いんしょう}が続{つづ}きます。",
-      "口{くち}に強{つよ}い塩味{えんみ}だけが残{のこ}ります。",
-      "飲{の}む前{まえ}から香{かお}りが弱{よわ}いです。",
-      "食感{しょっかん}がもちもちしています。"
+      "A lingering finish",
+      "A floral aroma",
+      "Richness and depth",
+      "A sharp bitterness"
     ],
-    "correct": 0,
-    "jpExplanation": "「余韻{よいん}がある」は、飲{の}み込{こ}んだ後{あと}も味{あじ}や香{かお}りの印象{いんしょう}が続{つづ}くことです。",
-    "enExplanation": "余韻がある means the impression of flavour and aroma continues pleasantly after swallowing."
+    "jpExplanation": "「コク」は、味(あじ)の厚(あつ)みや深(ふか)み、満足感(まんぞくかん)を表(あらわ)します。",
+    "enExplanation": "コク refers to richness, depth and satisfying body in flavour.",
+    "correct": 2
   },
   {
     "id": "page03-q05",
     "chapter": "味・香り・食感",
     "page": 3,
-    "type": "dialogue",
+    "type": "application",
     "difficulty": 3,
-    "question": "料理長{りょうりちょう}：この日本酒{にほんしゅ}、余韻{よいん}はどう？",
+    "question": "You swallow a sake, and its flavour continues pleasantly for several seconds. Which word should you use?",
     "answers": [
-      "長{なが}く残{のこ}ります。",
-      "もちもちしています。",
-      "青臭{あおくさ}い食感{しょっかん}です。",
-      "温{あたた}かい香{かお}りです。"
+      "辛味(からみ)",
+      "塩味(えんみ)",
+      "キレ",
+      "余韻(よいん)"
     ],
-    "correct": 0,
-    "jpExplanation": "「余韻{よいん}はどう？」には、どのくらい続{つづ}くかを答{こた}える「長{なが}く残{のこ}ります」が自然{しぜん}です。",
-    "enExplanation": "The chef is asking about the lingering finish, so 長く残ります is the most natural response."
+    "jpExplanation": "飲(の)み込(こ)んだ後(あと)も味(あじ)や香(かお)りの印象(いんしょう)が続(つづ)くことを「余韻(よいん)」と言(い)います。",
+    "enExplanation": "余韻 means the lingering impression that remains after swallowing.",
+    "correct": 3
   },
   {
     "id": "page03-q06",
     "chapter": "味・香り・食感",
     "page": 3,
-    "type": "differentiate",
-    "difficulty": 3,
-    "question": "Which expression best describes a finish that disappears cleanly and decisively?",
+    "type": "contrast",
+    "difficulty": 4,
+    "question": "Which statement best distinguishes 後味(あとあじ) from 余韻(よいん)?",
     "answers": [
-      "キレがある",
-      "余韻{よいん}が長{なが}い",
-      "くどい",
-      "濃厚{のうこう}"
+      "後味 is only about aroma.",
+      "後味 is the taste left behind; 余韻 emphasizes how the impression continues.",
+      "余韻 is always negative.",
+      "They are completely unrelated."
     ],
-    "correct": 0,
-    "jpExplanation": "「キレがある」は、後味{あとあじ}がすっと切{き}れて、重{おも}さを残{のこ}さない印象{いんしょう}です。",
-    "enExplanation": "キレがある describes a crisp, clean finish that ends decisively rather than lingering heavily."
+    "jpExplanation": "「後味(あとあじ)」は食後(しょくご)に口(くち)に残(のこ)る味(あじ)、「余韻(よいん)」はその印象(いんしょう)が続(つづ)く感覚(かんかく)に焦点(しょうてん)があります。",
+    "enExplanation": "後味 focuses on the taste left in the mouth; 余韻 focuses on the lingering continuation of the impression.",
+    "correct": 1
   },
   {
     "id": "page03-q07",
     "chapter": "味・香り・食感",
     "page": 3,
-    "type": "scenario",
+    "type": "dialogue",
     "difficulty": 3,
-    "question": "A soup is smooth, rounded and gentle, with no sharp edges. Which word fits best?",
+    "question": "料理人(りょうりにん)：この日本酒(にほんしゅ)はキレがあります。What is being praised?",
     "answers": [
-      "まろやか",
-      "力強{ちからづよ}い",
-      "酸{す}っぱい",
-      "キレがある"
+      "It has a fishy smell.",
+      "It is very sweet.",
+      "It has a clean, decisive finish.",
+      "It is extremely spicy."
     ],
-    "correct": 0,
-    "jpExplanation": "「まろやか」は、角{かど}がなく、やさしく丸{まる}みのある味{あじ}わいを表{あらわ}します。",
-    "enExplanation": "まろやか describes a mellow, rounded flavour without harsh or sharp edges."
+    "jpExplanation": "「キレがある」は、後味(あとあじ)が重(おも)く残(のこ)らず、すっと切(き)れる印象(いんしょう)です。",
+    "enExplanation": "キレがある describes a crisp, clean and decisive finish.",
+    "correct": 2
   },
   {
     "id": "page03-q08",
@@ -124,152 +124,152 @@
     "page": 3,
     "type": "scenario",
     "difficulty": 3,
-    "question": "A raw green vegetable has an unpleasant grassy smell. Which expression is most appropriate?",
+    "question": "A cream sauce tastes good at first, but after several bites it feels excessively heavy and tiring. Which word fits best?",
     "answers": [
-      "青臭{あおくさ}い",
-      "生臭{なまぐさ}い",
-      "芳醇{ほうじゅん}",
-      "熟成香{じゅくせいこう}"
+      "上品(じょうひん)",
+      "薄(うす)い",
+      "まろやか",
+      "くどい"
     ],
-    "correct": 0,
-    "jpExplanation": "「青臭{あおくさ}い」は、青{あお}い野菜{やさい}や未熟{みじゅく}な植物{しょくぶつ}のような、生{なま}っぽい緑{みどり}のにおいに使{つか}います。",
-    "enExplanation": "青臭い describes a raw, grassy or green smell, especially from vegetables or immature plant material."
+    "jpExplanation": "「くどい」は、味(あじ)や脂(あぶら)が強(つよ)すぎて、しつこく感(かん)じる時(とき)に使(つか)います。",
+    "enExplanation": "くどい describes a flavour that has become overly rich, cloying or tiring.",
+    "correct": 3
   },
   {
     "id": "page03-q09",
     "chapter": "味・香り・食感",
     "page": 3,
-    "type": "scenario",
+    "type": "contrast",
     "difficulty": 3,
-    "question": "Fresh fish has an unpleasant fish-like smell. Which word fits best?",
+    "question": "A soup is smooth and rounded rather than sharp. Which word is best?",
     "answers": [
-      "生臭{なまぐさ}い",
-      "青臭{あおくさ}い",
-      "華{はな}やか",
-      "芳醇{ほうじゅん}"
+      "えぐみがある",
+      "激辛(げきから)",
+      "生臭(なまぐさ)い",
+      "まろやか"
     ],
-    "correct": 0,
-    "jpExplanation": "「生臭{なまぐさ}い」は、魚{さかな}や肉{にく}などの生{なま}ものに感{かん}じる不快{ふかい}なにおいを表{あらわ}します。",
-    "enExplanation": "生臭い is used for an unpleasant raw or fishy smell from fish, meat or other uncooked animal products."
+    "jpExplanation": "「まろやか」は、角(かど)がなく、丸(まる)みのあるやさしい味(あじ)わいです。",
+    "enExplanation": "まろやか means mellow, smooth and rounded.",
+    "correct": 3
   },
   {
     "id": "page03-q10",
     "chapter": "味・香り・食感",
     "page": 3,
-    "type": "dialogue",
-    "difficulty": 3,
-    "question": "先生{せんせい}：この日本酒{にほんしゅ}は華{はな}やかですね。何{なに}をほめていますか。",
+    "type": "scenario",
+    "difficulty": 4,
+    "question": "Raw bamboo shoot leaves an unpleasant harsh bitterness and astringency. Which word fits best?",
     "answers": [
-      "香{かお}り",
-      "食感{しょっかん}",
-      "温度{おんど}",
-      "塩味{えんみ}"
+      "甘酸(あまず)っぱい",
+      "芳醇(ほうじゅん)",
+      "爽(さわ)やか",
+      "えぐみがある"
     ],
-    "correct": 0,
-    "jpExplanation": "「華{はな}やか」は、花{はな}のように明{あか}るく広{ひろ}がる香{かお}りによく使{つか}います。",
-    "enExplanation": "華やか commonly praises a bright, expressive, floral aroma, especially in sake."
+    "jpExplanation": "「えぐみ」は、舌(した)や喉(のど)に残(のこ)る、刺激的(しげきてき)で不快(ふかい)な苦味(にがみ)や渋(しぶ)みです。",
+    "enExplanation": "えぐみ is a harsh, unpleasant bitterness or astringency.",
+    "correct": 3
   },
   {
     "id": "page03-q11",
     "chapter": "味・香り・食感",
     "page": 3,
-    "type": "differentiate",
-    "difficulty": 4,
-    "question": "Which aroma word suggests richness and abundance rather than brightness and floral expression?",
+    "type": "recognition",
+    "difficulty": 2,
+    "question": "Fresh green pepper has a raw grassy smell. Which description is most natural?",
     "answers": [
-      "芳醇{ほうじゅん}",
-      "華{はな}やか",
-      "爽{さわ}やか",
-      "青臭{あおくさ}い"
+      "芳醇(ほうじゅん)",
+      "花(はな)のような",
+      "熟成香(じゅくせいこう)",
+      "青臭(あおくさ)い"
     ],
-    "correct": 0,
-    "jpExplanation": "「芳醇{ほうじゅん}」は、香{かお}りが豊{ゆた}かでふくらみがある印象{いんしょう}です。「華{はな}やか」は明{あか}るく表現力{ひょうげんりょく}のある香{かお}りです。",
-    "enExplanation": "芳醇 describes a rich, abundant aroma. 華やか is brighter, more floral and expressive."
+    "jpExplanation": "生(なま)の野菜(やさい)や未熟(みじゅく)な植物(しょくぶつ)のような緑(みどり)のにおいには「青臭(あおくさ)い」を使(つか)います。",
+    "enExplanation": "青臭い describes a raw, grassy or green smell.",
+    "correct": 3
   },
   {
     "id": "page03-q12",
     "chapter": "味・香り・食感",
     "page": 3,
-    "type": "scenario",
-    "difficulty": 3,
-    "question": "A dish contains many layers of flavour that reveal themselves gradually. Which overall impression fits best?",
+    "type": "recognition",
+    "difficulty": 2,
+    "question": "A piece of fish has an unpleasant raw fish smell. Which word fits best?",
     "answers": [
-      "複雑{ふくざつ}",
-      "素朴{そぼく}",
-      "薄{うす}い",
-      "さっぱり"
+      "華(はな)やか",
+      "香(かお)り高(だか)い",
+      "生臭(なまぐさ)い",
+      "柑橘系(かんきつけい)"
     ],
-    "correct": 0,
-    "jpExplanation": "「複雑{ふくざつ}」は、複数{ふくすう}の味{あじ}や香{かお}りが重{かさ}なり、単純{たんじゅん}ではない印象{いんしょう}を表{あらわ}します。",
-    "enExplanation": "複雑 describes a layered, multifaceted flavour or aroma that cannot be reduced to one simple impression."
+    "jpExplanation": "魚(さかな)や肉(にく)などの生(なま)ものに感(かん)じる不快(ふかい)なにおいには「生臭(なまぐさ)い」を使(つか)います。",
+    "enExplanation": "生臭い means fishy or unpleasantly raw-smelling.",
+    "correct": 2
   },
   {
     "id": "page03-q13",
     "chapter": "味・香り・食感",
     "page": 3,
-    "type": "scenario",
+    "type": "application",
     "difficulty": 3,
-    "question": "A traditional home-style dish feels simple, honest and rustic rather than elaborate. Which word fits best?",
+    "question": "A roasted tea has an aroma that rises clearly and strongly from the cup. Which expression fits best?",
     "answers": [
-      "素朴{そぼく}",
-      "上品{じょうひん}",
-      "華{はな}やか",
-      "複雑{ふくざつ}"
+      "土(つち)っぽい",
+      "香(かお)り高(だか)い",
+      "薄(うす)い",
+      "塩辛(しおから)い"
     ],
-    "correct": 0,
-    "jpExplanation": "「素朴{そぼく}」は、飾{かざ}りすぎず、自然{しぜん}で飾{かざ}らない印象{いんしょう}を表{あらわ}します。",
-    "enExplanation": "素朴 means simple, unpretentious and rustic, often with a warm, natural feeling."
+    "jpExplanation": "「香(かお)り高(だか)い」は、よい香(かお)りがはっきり豊(ゆた)かに感(かん)じられることです。",
+    "enExplanation": "香り高い means highly aromatic or richly fragrant.",
+    "correct": 1
   },
   {
     "id": "page03-q14",
     "chapter": "味・香り・食感",
     "page": 3,
-    "type": "differentiate",
-    "difficulty": 3,
-    "question": "Which word best describes a refined and elegant impression?",
+    "type": "recognition",
+    "difficulty": 2,
+    "question": "A smoked bonito dish reminds you of smoke. Which phrase fits best?",
     "answers": [
-      "上品{じょうひん}",
-      "力強{ちからづよ}い",
-      "素朴{そぼく}",
-      "激辛{げきから}"
+      "燻製(くんせい)っぽい",
+      "花(はな)のような",
+      "果実味(かじつみ)がある",
+      "爽(さわ)やか"
     ],
-    "correct": 0,
-    "jpExplanation": "「上品{じょうひん}」は、強{つよ}すぎず、洗練{せんれん}されていて品{ひん}のある印象{いんしょう}です。",
-    "enExplanation": "上品 describes a refined, elegant and tasteful impression."
+    "jpExplanation": "煙(けむり)やスモークを思(おも)わせる香(かお)りには「燻製(くんせい)っぽい」を使(つか)います。",
+    "enExplanation": "燻製っぽい means smoky or reminiscent of smoked food.",
+    "correct": 0
   },
   {
     "id": "page03-q15",
     "chapter": "味・香り・食感",
     "page": 3,
-    "type": "differentiate",
-    "difficulty": 3,
-    "question": "Which word suggests subtlety and fine detail rather than bold strength?",
+    "type": "recognition",
+    "difficulty": 2,
+    "question": "Roasted sesame has an aroma similar to nuts. Which phrase is best?",
     "answers": [
-      "繊細{せんさい}",
-      "力強{ちからづよ}い",
-      "濃厚{のうこう}",
-      "激辛{げきから}"
+      "発酵香(はっこうこう)",
+      "ナッツのような",
+      "柑橘系(かんきつけい)",
+      "土(つち)っぽい"
     ],
-    "correct": 0,
-    "jpExplanation": "「繊細{せんさい}」は、細{こま}やかで微妙{びみょう}な違{ちが}いを感{かん}じさせる印象{いんしょう}です。",
-    "enExplanation": "繊細 suggests delicacy, subtle detail and nuance rather than a bold or forceful impression."
+    "jpExplanation": "ごまやアーモンドのような香(こう)ばしい香(かお)りには「ナッツのような」が合(あ)います。",
+    "enExplanation": "ナッツのような describes a nut-like aroma.",
+    "correct": 1
   },
   {
     "id": "page03-q16",
     "chapter": "味・香り・食感",
     "page": 3,
-    "type": "scenario",
-    "difficulty": 4,
-    "question": "A flavour seems simple at first, but reveals more depth the longer you pay attention. Which word fits best?",
+    "type": "application",
+    "difficulty": 3,
+    "question": "A ginjo sake has an expressive aroma reminiscent of blossoms. Which phrase fits best?",
     "answers": [
-      "奥深{おくぶか}い",
-      "薄{うす}い",
-      "軽{かる}い",
-      "穏{おだ}やか"
+      "くどい",
+      "花(はな)のような",
+      "青臭(あおくさ)い",
+      "生臭(なまぐさ)い"
     ],
-    "correct": 0,
-    "jpExplanation": "「奥深{おくぶか}い」は、表面{ひょうめん}だけでは分{わ}からない深{ふか}さや広{ひろ}がりがある印象{いんしょう}です。",
-    "enExplanation": "奥深い describes hidden depth and complexity that becomes more apparent with attention."
+    "jpExplanation": "花(はな)を思(おも)わせる香(かお)りには「花(はな)のような」を使(つか)います。",
+    "enExplanation": "花のような means floral or flower-like.",
+    "correct": 1
   },
   {
     "id": "page03-q17",
@@ -277,151 +277,406 @@
     "page": 3,
     "type": "application",
     "difficulty": 3,
-    "question": "先生{せんせい}：このだしは少{すこ}し薄{うす}いですね。What would improve it most naturally?",
+    "question": "A sake reminds you of pear and melon. Which description is most useful?",
     "answers": [
-      "味{あじ}や香{かお}りの濃度{のうど}を少{すこ}し上{あ}げる。",
-      "食感{しょっかん}をぷりぷりにする。",
-      "温度{おんど}だけを下{さ}げる。",
-      "甘味{あまみ}を強{つよ}くする。"
+      "焼(や)きたての香(かお)り",
+      "果実味(かじつみ)がある",
+      "えぐみがある",
+      "土(つち)っぽい"
     ],
-    "correct": 0,
-    "jpExplanation": "「薄{うす}い」は、味{あじ}や香{かお}りの濃度{のうど}が弱{よわ}いことです。ここでは、だしの濃{こ}さを少{すこ}し上{あ}げるのが自然{しぜん}です。",
-    "enExplanation": "薄い means the flavour concentration is weak, so the natural adjustment is to increase the strength of the dashi."
+    "jpExplanation": "果物(くだもの)を思(おも)わせる味(あじ)や香(かお)りがある時(とき)は「果実味(かじつみ)がある」と言(い)います。",
+    "enExplanation": "果実味がある means having a fruity character.",
+    "correct": 1
   },
   {
     "id": "page03-q18",
     "chapter": "味・香り・食感",
     "page": 3,
-    "type": "dialogue",
-    "difficulty": 3,
-    "question": "料理人{りょうりにん}：この煮物{にもの}、塩味{えんみ}はどうですか。",
+    "type": "recognition",
+    "difficulty": 2,
+    "question": "A mushroom has an earthy, soil-like aroma. Which expression fits best?",
     "answers": [
-      "少{すこ}し強{つよ}いですが、旨味{うまみ}とのバランスはいいです。",
-      "食感{しょっかん}が華{はな}やかです。",
-      "香{かお}りがもちもちしています。",
-      "温度{おんど}が塩辛{しおから}いです。"
+      "まろやか",
+      "香(かお)り高(だか)い",
+      "華(はな)やか",
+      "土(つち)っぽい"
     ],
-    "correct": 0,
-    "jpExplanation": "「塩味{えんみ}はどうですか」は、塩気{しおけ}の強{つよ}さや他{ほか}の味{あじ}とのバランスを聞{き}いています。",
-    "enExplanation": "The chef is asking about saltiness, so the natural response evaluates its strength and balance with umami."
+    "jpExplanation": "土(つち)や森(もり)を思(おも)わせる香(かお)りには「土(つち)っぽい」を使(つか)います。",
+    "enExplanation": "土っぽい means earthy or soil-like.",
+    "correct": 3
   },
   {
     "id": "page03-q19",
     "chapter": "味・香り・食感",
     "page": 3,
-    "type": "application",
-    "difficulty": 3,
-    "question": "A ponzu sauce tastes bright and refreshing because of its citrus. Which word best describes that flavour element?",
+    "type": "contrast",
+    "difficulty": 4,
+    "question": "Which word best describes a rich, abundant aroma, rather than a bright floral one?",
     "answers": [
-      "酸味{さんみ}",
-      "苦味{にがみ}",
-      "塩味{えんみ}",
-      "旨味{うまみ}"
+      "華(はな)やか",
+      "爽(さわ)やか",
+      "青臭(あおくさ)い",
+      "芳醇(ほうじゅん)"
     ],
-    "correct": 0,
-    "jpExplanation": "柑橘{かんきつ}のさわやかな酸{す}っぱさは「酸味{さんみ}」です。",
-    "enExplanation": "The bright sour component from citrus is described as 酸味, acidity."
+    "jpExplanation": "「芳醇(ほうじゅん)」は、香(かお)りに豊(ゆた)かさや厚(あつ)みがある印象(いんしょう)です。",
+    "enExplanation": "芳醇 describes a rich, abundant and full aroma.",
+    "correct": 3
   },
   {
     "id": "page03-q20",
     "chapter": "味・香り・食感",
     "page": 3,
-    "type": "application",
+    "type": "contrast",
     "difficulty": 4,
-    "question": "A dish has rich aroma, layered flavour, a rounded mouthfeel and a long lingering finish. Which overall evaluation is most suitable?",
+    "question": "Which word best describes an aroma that is bright, expressive and often floral?",
     "answers": [
-      "奥深{おくぶか}い",
-      "さっぱり",
-      "薄{うす}い",
-      "素朴{そぼく}"
+      "生臭(なまぐさ)い",
+      "華(はな)やか",
+      "熟成香(じゅくせいこう)",
+      "重(おも)たい"
     ],
-    "correct": 0,
-    "jpExplanation": "香{かお}り・味{あじ}・口当{くちあ}たり・余韻{よいん}に複数{ふくすう}の層{そう}があり、食{た}べるほど深{ふか}さを感{かん}じるので「奥深{おくぶか}い」が最{もっと}も合{あ}います。",
-    "enExplanation": "Because the dish has multiple layers across aroma, flavour, mouthfeel and finish, 奥深い is the best overall evaluation."
+    "jpExplanation": "「華(はな)やか」は、明(あか)るく広(ひろ)がる、表現力(ひょうげんりょく)のある香(かお)りです。",
+    "enExplanation": "華やか describes a bright, expressive and often floral aroma.",
+    "correct": 1
   },
   {
     "id": "page03-q21",
     "chapter": "味・香り・食感",
     "page": 3,
-    "type": "dialogue",
-    "difficulty": 4,
-    "question": "先生{せんせい}：このだしはコクがありますが、くどくありません。どういう意味{いみ}ですか。",
+    "type": "recognition",
+    "difficulty": 2,
+    "question": "A lemon or yuzu aroma belongs to which category?",
     "answers": [
-      "It has depth, but it does not feel excessively heavy.",
-      "It is very salty and spicy.",
-      "It has almost no flavour.",
-      "It has a grassy smell."
+      "燻製(くんせい)っぽい",
+      "柑橘系(かんきつけい)",
+      "発酵香(はっこうこう)",
+      "熟成香(じゅくせいこう)"
     ],
-    "correct": 0,
-    "jpExplanation": "「コクがある」は味{あじ}に厚{あつ}みや深{ふか}みがあることです。「くどくない」は、その濃{こ}さがしつこくないことを表{あらわ}します。",
-    "enExplanation": "The dashi has richness and depth, but that richness does not become cloying or tiring."
+    "jpExplanation": "レモン、ゆず、みかんのような香(かお)りは「柑橘系(かんきつけい)」です。",
+    "enExplanation": "柑橘系 means citrus-like.",
+    "correct": 1
   },
   {
     "id": "page03-q22",
     "chapter": "味・香り・食感",
     "page": 3,
-    "type": "coverage",
-    "difficulty": 2,
-    "question": "Which word best describes a pleasantly mild level of chilli heat?",
+    "type": "recognition",
+    "difficulty": 3,
+    "question": "An aroma reminds you of green herbs and leaves. Which phrase fits best?",
     "answers": [
-      "ピリ辛{ぴりから}",
-      "激辛{げきから}",
-      "中辛{ちゅうから}",
-      "甘酸{あまず}っぱい"
+      "焼(や)きたての香(かお)り",
+      "生臭(なまぐさ)い",
+      "ハーブのような",
+      "芳醇(ほうじゅん)"
     ],
-    "correct": 0,
-    "jpExplanation": "「ピリ辛{ぴりから}」は、舌{した}に少{すこ}し刺激{しげき}を感{かん}じる程度{ていど}の辛{から}さです。",
-    "enExplanation": "ピリ辛 describes a light, pleasantly sharp chilli heat rather than moderate or extreme spiciness."
+    "jpExplanation": "ハーブや葉(は)を思(おも)わせる香(かお)りには「ハーブのような」を使(つか)います。",
+    "enExplanation": "ハーブのような means herbal.",
+    "correct": 2
   },
   {
     "id": "page03-q23",
     "chapter": "味・香り・食感",
     "page": 3,
-    "type": "coverage",
-    "difficulty": 2,
-    "question": "Which word means extremely spicy?",
+    "type": "application",
+    "difficulty": 3,
+    "question": "Miso has a distinctive aroma created through fermentation. Which term fits best?",
     "answers": [
-      "激辛{げきから}",
-      "中辛{ちゅうから}",
-      "ピリ辛{ぴりから}",
-      "まろやか"
+      "炊(た)きたての香(かお)り",
+      "果実味(かじつみ)がある",
+      "発酵香(はっこうこう)",
+      "香(かお)り高(だか)い"
     ],
-    "correct": 0,
-    "jpExplanation": "「激辛{げきから}」は、とても強{つよ}い辛{から}さを表{あらわ}します。",
-    "enExplanation": "激辛 means extremely spicy or intensely hot."
+    "jpExplanation": "発酵(はっこう)によって生(う)まれる独特(どくとく)の香(かお)りを「発酵香(はっこうこう)」と言(い)います。",
+    "enExplanation": "発酵香 means an aroma produced through fermentation.",
+    "correct": 2
   },
   {
     "id": "page03-q24",
     "chapter": "味・香り・食感",
     "page": 3,
-    "type": "coverage",
-    "difficulty": 3,
-    "question": "A food has an aroma reminiscent of smoke. Which expression fits best?",
+    "type": "contrast",
+    "difficulty": 4,
+    "question": "An aged sake develops aromas over time. Which term is more precise than 発酵香(はっこうこう)?",
     "answers": [
-      "燻製{くんせい}っぽい",
-      "果実味{かじつみ}がある",
-      "花{はな}のような",
-      "柑橘系{かんきつけい}"
+      "柑橘系(かんきつけい)",
+      "焼(や)きたての香(かお)り",
+      "熟成香(じゅくせいこう)",
+      "青臭(あおくさ)い"
     ],
-    "correct": 0,
-    "jpExplanation": "「燻製{くんせい}っぽい」は、煙{けむり}やスモークを思{おも}わせる香{かお}りに使{つか}います。",
-    "enExplanation": "燻製っぽい describes an aroma that resembles smoke or smoked food."
+    "jpExplanation": "時間(じかん)をかけた熟成(じゅくせい)によって生(う)まれる香(かお)りは「熟成香(じゅくせいこう)」です。",
+    "enExplanation": "熟成香 means an aroma developed through ageing or maturation.",
+    "correct": 2
   },
   {
     "id": "page03-q25",
     "chapter": "味・香り・食感",
     "page": 3,
-    "type": "coverage",
-    "difficulty": 3,
-    "question": "Which expression best describes a wine or sake with noticeable fruit character?",
+    "type": "recognition",
+    "difficulty": 2,
+    "question": "You open a rice cooker and smell freshly cooked rice. Which phrase fits best?",
     "answers": [
-      "果実味{かじつみ}がある",
-      "土{つち}っぽい",
-      "発酵香{はっこうこう}",
-      "熟成香{じゅくせいこう}"
+      "燻製(くんせい)っぽい",
+      "炊(た)きたての香(かお)り",
+      "土(つち)っぽい",
+      "熟成香(じゅくせいこう)"
     ],
-    "correct": 0,
-    "jpExplanation": "「果実味{かじつみ}がある」は、果物{くだもの}を思{おも}わせる味{あじ}や香{かお}りが感{かん}じられる時{とき}に使{つか}います。",
-    "enExplanation": "果実味がある means that a drink or food has a noticeable fruity character in its flavour or aroma."
+    "jpExplanation": "炊(た)き上(あ)がったばかりのご飯(はん)の香(かお)りは「炊(た)きたての香(かお)り」です。",
+    "enExplanation": "炊きたての香り means the aroma of something freshly cooked, especially rice.",
+    "correct": 1
+  },
+  {
+    "id": "page03-q26",
+    "chapter": "味・香り・食感",
+    "page": 3,
+    "type": "recognition",
+    "difficulty": 2,
+    "question": "Fresh bread has just come out of the oven. Which expression fits best?",
+    "answers": [
+      "焼(や)きたての香(かお)り",
+      "柑橘系(かんきつけい)",
+      "発酵香(はっこうこう)",
+      "青臭(あおくさ)い"
+    ],
+    "jpExplanation": "焼(や)き上(あ)がったばかりのパンや菓子(かし)の香(かお)りは「焼(や)きたての香(かお)り」です。",
+    "enExplanation": "焼きたての香り means the aroma of something freshly baked or grilled.",
+    "correct": 0
+  },
+  {
+    "id": "page03-q27",
+    "chapter": "味・香り・食感",
+    "page": 3,
+    "type": "contrast",
+    "difficulty": 3,
+    "question": "A broth has a clear presence, but it does not feel harsh or aggressive. Which description fits best?",
+    "answers": [
+      "重(おも)たい",
+      "穏(おだ)やか",
+      "強(つよ)い",
+      "激辛(げきから)"
+    ],
+    "jpExplanation": "印象(いんしょう)がやさしく、刺激(しげき)が強(つよ)すぎない時(とき)は「穏(おだ)やか」が合(あ)います。",
+    "enExplanation": "穏やか is appropriate when the impression is gentle rather than forceful.",
+    "correct": 1
+  },
+  {
+    "id": "page03-q28",
+    "chapter": "味・香り・食感",
+    "page": 3,
+    "type": "application",
+    "difficulty": 3,
+    "question": "A curry has an assertive flavour that dominates the palate. Which word fits best?",
+    "answers": [
+      "さっぱり",
+      "繊細(せんさい)",
+      "強(つよ)い",
+      "薄(うす)い"
+    ],
+    "jpExplanation": "味(あじ)や香(かお)りの主張(しゅちょう)がはっきりしている時(とき)は「強(つよ)い」を使(つか)います。",
+    "enExplanation": "強い describes a strong, assertive flavour or aroma.",
+    "correct": 2
+  },
+  {
+    "id": "page03-q29",
+    "chapter": "味・香り・食感",
+    "page": 3,
+    "type": "contrast",
+    "difficulty": 3,
+    "question": "A dish feels clean and easy to eat, without heaviness. Which word is more natural?",
+    "answers": [
+      "重(おも)たい",
+      "軽(かる)い",
+      "濃厚(のうこう)",
+      "くどい"
+    ],
+    "jpExplanation": "口当(くちあ)たりや味(あじ)の印象(いんしょう)が重(おも)くない時(とき)は「軽(かる)い」と言(い)います。",
+    "enExplanation": "軽い describes a light, easy and non-heavy impression.",
+    "correct": 1
+  },
+  {
+    "id": "page03-q30",
+    "chapter": "味・香り・食感",
+    "page": 3,
+    "type": "scenario",
+    "difficulty": 3,
+    "question": "A buttery dish sits heavily on the palate. Which word fits best?",
+    "answers": [
+      "軽(かる)い",
+      "爽(さわ)やか",
+      "重(おも)たい",
+      "繊細(せんさい)"
+    ],
+    "jpExplanation": "脂(あぶら)や濃(こ)さによって口(くち)に重(おも)く感(かん)じる時(とき)は「重(おも)たい」を使(つか)います。",
+    "enExplanation": "重たい describes a heavy impression on the palate.",
+    "correct": 2
+  },
+  {
+    "id": "page03-q31",
+    "chapter": "味・香り・食感",
+    "page": 3,
+    "type": "application",
+    "difficulty": 4,
+    "question": "A kaiseki dish has several flavours, but they fit together harmoniously. Which overall evaluation is best?",
+    "answers": [
+      "バランスがいい",
+      "薄(うす)い",
+      "生臭(なまぐさ)い",
+      "激辛(げきから)"
+    ],
+    "jpExplanation": "複数(ふくすう)の味(あじ)や香(かお)りが互(たが)いに邪魔(じゃま)せず調和(ちょうわ)している時(とき)は「バランスがいい」と言(い)います。",
+    "enExplanation": "バランスがいい means the different elements are harmonious and well balanced.",
+    "correct": 0
+  },
+  {
+    "id": "page03-q32",
+    "chapter": "味・香り・食感",
+    "page": 3,
+    "type": "application",
+    "difficulty": 4,
+    "question": "A sauce reveals sweetness, acidity, umami and roasted aroma in several layers. Which word fits best?",
+    "answers": [
+      "複雑(ふくざつ)",
+      "薄(うす)い",
+      "爽(さわ)やか",
+      "素朴(そぼく)"
+    ],
+    "jpExplanation": "複数(ふくすう)の味(あじ)や香(かお)りが重(かさ)なり、単純(たんじゅん)ではない時(とき)は「複雑(ふくざつ)」です。",
+    "enExplanation": "複雑 describes a layered, multifaceted flavour or aroma.",
+    "correct": 0
+  },
+  {
+    "id": "page03-q33",
+    "chapter": "味・香り・食感",
+    "page": 3,
+    "type": "contrast",
+    "difficulty": 4,
+    "question": "A flavour is subtle and finely detailed rather than bold. Which word fits best?",
+    "answers": [
+      "濃(こ)い",
+      "激辛(げきから)",
+      "力強(ちからづよ)い",
+      "繊細(せんさい)"
+    ],
+    "jpExplanation": "細(こま)やかで微妙(びみょう)な違(ちが)いを感(かん)じさせる味(あじ)には「繊細(せんさい)」を使(つか)います。",
+    "enExplanation": "繊細 means delicate, subtle and finely nuanced.",
+    "correct": 3
+  },
+  {
+    "id": "page03-q34",
+    "chapter": "味・香り・食感",
+    "page": 3,
+    "type": "application",
+    "difficulty": 4,
+    "question": "A dish is refined, restrained and elegant. Which evaluation is most natural?",
+    "answers": [
+      "土(つち)っぽい",
+      "上品(じょうひん)",
+      "力強(ちからづよ)い",
+      "くどい"
+    ],
+    "jpExplanation": "強(つよ)すぎず、洗練(せんれん)されて品(ひん)のある印象(いんしょう)には「上品(じょうひん)」が合(あ)います。",
+    "enExplanation": "上品 means refined, elegant and tasteful.",
+    "correct": 1
+  },
+  {
+    "id": "page03-q35",
+    "chapter": "味・香り・食感",
+    "page": 3,
+    "type": "contrast",
+    "difficulty": 4,
+    "question": "A flavour is bold, energetic and has a firm presence. Which word fits best?",
+    "answers": [
+      "薄(うす)い",
+      "力強(ちからづよ)い",
+      "繊細(せんさい)",
+      "穏(おだ)やか"
+    ],
+    "jpExplanation": "味(あじ)や香(かお)りに明確(めいかく)な存在感(そんざいかん)がある時(とき)は「力強(ちからづよ)い」を使(つか)います。",
+    "enExplanation": "力強い describes a bold, energetic and powerful impression.",
+    "correct": 1
+  },
+  {
+    "id": "page03-q36",
+    "chapter": "味・香り・食感",
+    "page": 3,
+    "type": "application",
+    "difficulty": 4,
+    "question": "A simple countryside dish feels honest, natural and unpretentious. Which word fits best?",
+    "answers": [
+      "華(はな)やか",
+      "素朴(そぼく)",
+      "芳醇(ほうじゅん)",
+      "複雑(ふくざつ)"
+    ],
+    "jpExplanation": "飾(かざ)りすぎず、自然(しぜん)で親(した)しみのある印象(いんしょう)には「素朴(そぼく)」を使(つか)います。",
+    "enExplanation": "素朴 means rustic, simple and unpretentious.",
+    "correct": 1
+  },
+  {
+    "id": "page03-q37",
+    "chapter": "味・香り・食感",
+    "page": 3,
+    "type": "application",
+    "difficulty": 4,
+    "question": "A flavour seems simple at first, but reveals more depth the longer you taste it. Which word fits best?",
+    "answers": [
+      "薄(うす)い",
+      "奥深(おくぶか)い",
+      "軽(かる)い",
+      "塩辛(しおから)い"
+    ],
+    "jpExplanation": "すぐには分(わ)からない深(ふか)さや広(ひろ)がりがある時(とき)は「奥深(おくぶか)い」と言(い)います。",
+    "enExplanation": "奥深い describes hidden depth that reveals itself gradually.",
+    "correct": 1
+  },
+  {
+    "id": "page03-q38",
+    "chapter": "味・香り・食感",
+    "page": 3,
+    "type": "dialogue",
+    "difficulty": 4,
+    "question": "先生(せんせい)：この日本酒(にほんしゅ)は華(はな)やかですか、それとも芳醇(ほうじゅん)ですか。The aroma is bright and floral. What should you answer?",
+    "answers": [
+      "華(はな)やかです。",
+      "生臭(なまぐさ)いです。",
+      "土(つち)っぽいです。",
+      "芳醇(ほうじゅん)です。"
+    ],
+    "jpExplanation": "明(あか)るく花(はな)のように広(ひろ)がる香(かお)りなら「華(はな)やか」が自然(しぜん)です。",
+    "enExplanation": "For a bright, floral and expressive aroma, 華やか is the natural answer.",
+    "correct": 0
+  },
+  {
+    "id": "page03-q39",
+    "chapter": "味・香り・食感",
+    "page": 3,
+    "type": "dialogue",
+    "difficulty": 4,
+    "question": "先生(せんせい)：このだしは濃厚(のうこう)ですが、くどくありません。What is the teacher saying?",
+    "answers": [
+      "It is weak and watery.",
+      "It is very spicy.",
+      "It is rich, but not excessively heavy.",
+      "It has a fishy smell."
+    ],
+    "jpExplanation": "「濃厚(のうこう)」は厚(あつ)みのある味(あじ)、「くどい」は濃(こ)すぎてしつこい味(あじ)です。",
+    "enExplanation": "The dashi has richness and body, but that richness is not cloying.",
+    "correct": 2
+  },
+  {
+    "id": "page03-q40",
+    "chapter": "味・香り・食感",
+    "page": 3,
+    "type": "production",
+    "difficulty": 4,
+    "question": "You taste an aged miso. It is rich, deep and has a mature aroma. Which response is best?",
+    "answers": [
+      "軽(かる)くて、焼(や)きたての香(かお)りです。",
+      "濃厚(のうこう)で、熟成香(じゅくせいこう)があります。",
+      "さっぱりしていて、柑橘系(かんきつけい)です。",
+      "薄(うす)くて、青臭(あおくさ)いです。"
+    ],
+    "jpExplanation": "熟成(じゅくせい)した味噌(みそ)には、濃(こ)い味(あじ)わいと熟成(じゅくせい)による香(かお)りが自然(しぜん)です。",
+    "enExplanation": "For aged miso, 濃厚 and 熟成香 naturally express richness, depth and mature aroma.",
+    "correct": 1
   }
 ]
