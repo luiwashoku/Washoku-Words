@@ -54,18 +54,18 @@
     "id": "page03-q04",
     "chapter": "味・香り・食感",
     "page": 3,
-    "type": "differentiate",
+    "type": "dialogue",
     "difficulty": 4,
-    "question": "Which word focuses most on the impression that continues after swallowing?",
+    "question": "先生{せんせい}：この日本酒{にほんしゅ}は余韻{よいん}がありますね。どういう意味{いみ}ですか。",
     "answers": [
-      "余韻{よいん}",
-      "後味{あとあじ}",
-      "香{かお}り",
-      "コク"
+      "飲{の}み込{こ}んだ後{あと}も、味{あじ}や香{かお}りの印象{いんしょう}が続{つづ}きます。",
+      "口{くち}に強{つよ}い塩味{えんみ}だけが残{のこ}ります。",
+      "飲{の}む前{まえ}から香{かお}りが弱{よわ}いです。",
+      "食感{しょっかん}がもちもちしています。"
     ],
     "correct": 0,
-    "jpExplanation": "「余韻{よいん}」は、飲{の}み込{こ}んだ後{あと}にも続{つづ}く味{あじ}や香{かお}りの印象{いんしょう}です。「後味{あとあじ}」は口{くち}に残{のこ}る味{あじ}そのものに焦点{しょうてん}があります。",
-    "enExplanation": "余韻 emphasizes the lingering continuation of flavour and aroma after swallowing. 後味 focuses more directly on the taste left in the mouth."
+    "jpExplanation": "「余韻{よいん}がある」は、飲{の}み込{こ}んだ後{あと}も味{あじ}や香{かお}りの印象{いんしょう}が続{つづ}くことです。",
+    "enExplanation": "余韻がある means the impression of flavour and aroma continues pleasantly after swallowing."
   },
   {
     "id": "page03-q05",
@@ -275,52 +275,52 @@
     "id": "page03-q17",
     "chapter": "味・香り・食感",
     "page": 3,
-    "type": "differentiate",
-    "difficulty": 2,
-    "question": "Which pair contrasts intensity most directly?",
+    "type": "application",
+    "difficulty": 3,
+    "question": "先生{せんせい}：このだしは少{すこ}し薄{うす}いですね。What would improve it most naturally?",
     "answers": [
-      "濃{こ}い — 薄{うす}い",
-      "華{はな}やか — 芳醇{ほうじゅん}",
-      "甘味{あまみ} — 旨味{うまみ}",
-      "余韻{よいん} — 後味{あとあじ}"
+      "味{あじ}や香{かお}りの濃度{のうど}を少{すこ}し上{あ}げる。",
+      "食感{しょっかん}をぷりぷりにする。",
+      "温度{おんど}だけを下{さ}げる。",
+      "甘味{あまみ}を強{つよ}くする。"
     ],
     "correct": 0,
-    "jpExplanation": "「濃{こ}い」と「薄{うす}い」は、味{あじ}や色{いろ}などの強{つよ}さ・濃度{のうど}の対比{たいひ}です。",
-    "enExplanation": "濃い and 薄い are the clearest direct contrast for concentration or intensity: strong versus light."
+    "jpExplanation": "「薄{うす}い」は、味{あじ}や香{かお}りの濃度{のうど}が弱{よわ}いことです。ここでは、だしの濃{こ}さを少{すこ}し上{あ}げるのが自然{しぜん}です。",
+    "enExplanation": "薄い means the flavour concentration is weak, so the natural adjustment is to increase the strength of the dashi."
   },
   {
     "id": "page03-q18",
     "chapter": "味・香り・食感",
     "page": 3,
-    "type": "grammar-and-vocabulary",
+    "type": "dialogue",
     "difficulty": 3,
-    "question": "Which term is the noun for saltiness as a taste quality?",
+    "question": "料理人{りょうりにん}：この煮物{にもの}、塩味{えんみ}はどうですか。",
     "answers": [
-      "塩味{えんみ}",
-      "塩辛{しおから}い",
-      "旨味{うまみ}",
-      "辛味{からみ}"
+      "少{すこ}し強{つよ}いですが、旨味{うまみ}とのバランスはいいです。",
+      "食感{しょっかん}が華{はな}やかです。",
+      "香{かお}りがもちもちしています。",
+      "温度{おんど}が塩辛{しおから}いです。"
     ],
     "correct": 0,
-    "jpExplanation": "「塩味{えんみ}」は味覚{みかく}の要素{ようそ}としての saltiness を表{あらわ}す名詞{めいし}です。「塩辛{しおから}い」は形容詞{けいようし}です。",
-    "enExplanation": "塩味 is the noun for saltiness as a taste quality. 塩辛い is the adjective meaning salty."
+    "jpExplanation": "「塩味{えんみ}はどうですか」は、塩気{しおけ}の強{つよ}さや他{ほか}の味{あじ}とのバランスを聞{き}いています。",
+    "enExplanation": "The chef is asking about saltiness, so the natural response evaluates its strength and balance with umami."
   },
   {
     "id": "page03-q19",
     "chapter": "味・香り・食感",
     "page": 3,
-    "type": "grammar-and-vocabulary",
+    "type": "application",
     "difficulty": 3,
-    "question": "Which term is the noun for acidity as a flavour component?",
+    "question": "A ponzu sauce tastes bright and refreshing because of its citrus. Which word best describes that flavour element?",
     "answers": [
       "酸味{さんみ}",
-      "酸{す}っぱい",
-      "甘酸{あまず}っぱい",
-      "苦味{にがみ}"
+      "苦味{にがみ}",
+      "塩味{えんみ}",
+      "旨味{うまみ}"
     ],
     "correct": 0,
-    "jpExplanation": "「酸味{さんみ}」は味{あじ}の要素{ようそ}としての酸{す}っぱさを表{あらわ}す名詞{めいし}です。「酸{す}っぱい」は形容詞{けいようし}です。",
-    "enExplanation": "酸味 is the noun for acidity as a flavour component. 酸っぱい is the adjective meaning sour."
+    "jpExplanation": "柑橘{かんきつ}のさわやかな酸{す}っぱさは「酸味{さんみ}」です。",
+    "enExplanation": "The bright sour component from citrus is described as 酸味, acidity."
   },
   {
     "id": "page03-q20",
