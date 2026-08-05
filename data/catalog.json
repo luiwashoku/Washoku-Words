@@ -6,13 +6,13 @@
     "title": "味・香り・食感",
     "file": "data/pages03.json",
     "questionCount": 25
+  },
+  {
+    "id": "page04",
+    "category": "basics",
+    "page": 4,
+    "title": "食感",
+    "file": "data/pages04.json",
+    "questionCount": 30
   }
 ]
-
-{
-  "id": "page04",
-  "category": "basics",
-  "page": 4,
-  "title": "食感",
-  "file": "data/pages04.json"
-}
