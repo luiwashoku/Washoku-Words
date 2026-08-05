@@ -523,8 +523,8 @@
       state.selectedLesson?.title ||
       "";
 
-    elements.questionText.innerHTML =
-      question.question;
+elements.questionText.innerHTML =
+  renderStudyText(question.question);
 
     elements.answerContainer.replaceChildren();
 
@@ -544,7 +544,8 @@
 
         button.type = "button";
         button.className = "answer-button";
-        button.innerHTML = answerText;
+        button.innerHTML =
+  renderStudyText(answerText);
 
         button.addEventListener("click", () => {
           selectAnswer(
@@ -681,8 +682,10 @@
       isCorrect ? "Great!" : "Almost.";
 
     elements.jpExplanation.innerHTML =
-      question.jpExplanation ||
-      "解説はまだありません。";
+  renderStudyText(
+    question.jpExplanation ||
+    "解説はまだありません。"
+  );
 
     elements.enExplanation.textContent =
       question.enExplanation ||
@@ -817,7 +820,16 @@
         ? "Hide furigana"
         : "Show furigana";
   }
+function renderStudyText(value) {
+  if (value === null || value === undefined) {
+    return "";
+  }
 
+  return String(value).replace(
+    /([\u3040-\u30ff\u3400-\u9fff々〆ヵヶー]+)\{([^{}]+)\}/g,
+    "<ruby>$1<rt>$2</rt></ruby>"
+  );
+}
   function shuffleArray(items) {
     const copy = [...items];
 
