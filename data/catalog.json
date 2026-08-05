@@ -16,6 +16,14 @@
   "file": "data/pages04.json",
   "questionCount": 40
 },
+  {
+  "id": "page05",
+  "category": "basics",
+  "page": 5,
+  "title": "調理の基本動詞",
+  "file": "data/pages05.json",
+  "questionCount": 20
+},
     {
   "id": "page54",
   "category": "techniques",
@@ -24,6 +32,5 @@
   "file": "data/pages54.json",
   "questionCount": 30
 }
-  
 
 ]
