@@ -71,8 +71,8 @@ button:focus-visible {
 
 .title-group h1 {
   margin: 0;
-  font-size: clamp(54px, 17vw, 88px);
-  font-weight: 900;
+  font-size: clamp(37.8px, 11.9vw, 61.6px);
+  font-weight: 700;
   line-height: 0.9;
   letter-spacing: -0.08em;
 }
@@ -133,7 +133,7 @@ button:focus-visible {
 .hero h2 {
   margin: 0 0 8px;
   font-size: clamp(28px, 8vw, 40px);
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1.02;
   letter-spacing: -0.045em;
 }
@@ -184,7 +184,7 @@ button:focus-visible {
   margin: 0;
   padding: 20px 20px 12px;
   font-size: 24px;
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: -0.04em;
 }
 
@@ -235,7 +235,7 @@ button:focus-visible {
 .category-card strong {
   display: block;
   font-size: 22px;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1.07;
   letter-spacing: -0.04em;
 }
@@ -264,7 +264,7 @@ button:focus-visible {
 .pageHeader h2 {
   margin: 0;
   font-size: 27px;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1.05;
   letter-spacing: -0.045em;
 }
@@ -315,7 +315,7 @@ button:focus-visible {
 .lesson-copy strong {
   display: block;
   font-size: 21px;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1.15;
   letter-spacing: -0.035em;
 }
@@ -365,7 +365,7 @@ button:focus-visible {
 .question {
   margin-top: 20px;
   font-size: clamp(18px, 4.5vw, 26px);
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1.38;
   letter-spacing: -0.035em;
 }
@@ -426,7 +426,7 @@ button:focus-visible {
 #resultTitle {
   margin: 0 0 16px;
   font-size: 31px;
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: -0.045em;
 }
 
@@ -495,7 +495,7 @@ body.no-furigana rt {
   }
 
   .title-group h1 {
-    font-size: 62px;
+    font-size: 43.4px;
   }
 
   .subtitle {
