@@ -1,43 +1,43 @@
 [
   {
-  "id": "page03",
+  "id": "page01",
   "category": "basics",
-  "page": 3,
+  "page": 1,
   "title": "味・香り・食感",
-  "file": "data/pages03.json",
+  "file": "data/pages01.json",
   "questionCount": 40
 },
   
 {
-  "id": "page04",
+  "id": "page02",
   "category": "basics",
-  "page": 4,
+  "page": 2,
   "title": "食感",
-  "file": "data/pages04.json",
+  "file": "data/pages02.json",
   "questionCount": 40
 },
   {
-  "id": "page05",
+  "id": "page03",
   "category": "basics",
-  "page": 5,
+  "page": 3,
   "title": "調理の基本動詞",
-  "file": "data/pages05.json",
+  "file": "data/pages03.json",
   "questionCount": 20
 },
   {
-  "id": "page06",
+  "id": "page04",
   "category": "basics",
-  "page": 6,
+  "page": 4,
   "title": "調理の基本動詞 II",
-  "file": "data/pages06.json",
+  "file": "data/pages04.json",
   "questionCount": 20
 },
     {
-  "id": "page54",
+  "id": "page52",
   "category": "techniques",
-  "page": 54,
+  "page": 52,
   "title": "火入れ",
-  "file": "data/pages54.json",
+  "file": "data/pages52.json",
   "questionCount": 30
 }
 

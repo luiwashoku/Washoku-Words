@@ -5,32 +5,32 @@
     {
       id: "basics",
       title: "基本のことば",
-      pageRange: "Pages 3–13"
+      pageRange: "Pages 1–11"
     },
     {
       id: "food-culture",
       title: "日本の食文化",
-      pageRange: "Pages 14–29"
+      pageRange: "Pages 12–27"
     },
     {
       id: "fermentation",
       title: "発酵と調味料",
-      pageRange: "Pages 30–48"
+      pageRange: "Pages 28–46"
     },
     {
       id: "techniques",
       title: "技術と料理",
-      pageRange: "Pages 49–63"
+      pageRange: "Pages 47–61"
     },
     {
       id: "conversation",
       title: "日本語で話す",
-      pageRange: "Pages 64–69"
+      pageRange: "Pages 62–67"
     },
     {
       id: "evaluation",
       title: "料理を評価する",
-      pageRange: "Pages 70–73"
+      pageRange: "Pages 68–71"
     }
   ];
 

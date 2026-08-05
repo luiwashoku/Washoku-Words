@@ -1,682 +1,342 @@
 [
   {
     "id": "page03-q01",
-    "chapter": "味・香り・食感",
+    "chapter": "調理の基本動詞",
     "page": 3,
     "type": "recognition",
-    "difficulty": 2,
-    "question": "A clear soup tastes gentle and softly rounded, with no harsh edges. Which word fits best?",
+    "difficulty": 1,
+    "question": "Which verb means \"to chop finely\"?",
     "answers": [
-      "穏(おだ)やか",
-      "力強(ちからづよ)い",
-      "濃厚(のうこう)",
-      "複雑(ふくざつ)"
+      "切る(きる)",
+      "刻む(きざむ)",
+      "むく",
+      "おろす"
     ],
-    "jpExplanation": "「穏(おだ)やか」は、味(あじ)や香(かお)りの刺激(しげき)が強(つよ)すぎず、やさしく落(お)ち着(つ)いた印象(いんしょう)を表(あらわ)します。",
-    "enExplanation": "穏やか describes a gentle, calm and rounded impression without strong edges.",
-    "correct": 0
+    "correct": 1,
+    "jpExplanation": "刻む(きざむ) は、包丁で細かく切ることです。",
+    "enExplanation": "\"刻む\" means to chop ingredients into small pieces."
   },
   {
     "id": "page03-q02",
-    "chapter": "味・香り・食感",
+    "chapter": "調理の基本動詞",
     "page": 3,
-    "type": "application",
-    "difficulty": 2,
-    "question": "You taste a rich sesame sauce with a dense, full-bodied flavour. Which description is most natural?",
+    "type": "recognition",
+    "difficulty": 1,
+    "question": "Which verb means \"to mince\"?",
     "answers": [
-      "薄(うす)いです。",
-      "爽(さわ)やかです。",
-      "さっぱりしています。",
-      "濃厚(のうこう)です。"
+      "みじん切りにする(みじんぎりにする)",
+      "角切りにする(かくぎりにする)",
+      "薄切りにする(うすぎりにする)",
+      "千切り(せんぎり)"
     ],
-    "jpExplanation": "味(あじ)に厚(あつ)みがあり、しっかりしたコクを感(かん)じる時(とき)は「濃厚(のうこう)」が自然(しぜん)です。",
-    "enExplanation": "濃厚 means rich, dense and full-bodied.",
-    "correct": 3
+    "correct": 0,
+    "jpExplanation": "みじん切りは、とても細かく刻む切り方です。",
+    "enExplanation": "Mincing is cutting into very tiny pieces."
   },
   {
     "id": "page03-q03",
-    "chapter": "味・香り・食感",
+    "chapter": "調理の基本動詞",
     "page": 3,
-    "type": "contrast",
-    "difficulty": 3,
-    "question": "A yuzu dressing is light, clean and refreshing. Which word fits better?",
+    "type": "recognition",
+    "difficulty": 1,
+    "question": "Which verb means \"to grate\"?",
     "answers": [
-      "重(おも)たい",
-      "くどい",
-      "芳醇(ほうじゅん)",
-      "さっぱり"
+      "すすぐ",
+      "おろす",
+      "浸す(ひたす)",
+      "むく"
     ],
-    "jpExplanation": "「さっぱり」は、油(あぶら)っこさや重(おも)さが少(すく)なく、軽(かる)く爽快(そうかい)な味(あじ)わいです。",
-    "enExplanation": "さっぱり describes a light, clean and refreshing taste.",
-    "correct": 3
+    "correct": 1,
+    "jpExplanation": "おろす は、おろし金で細かくすることです。",
+    "enExplanation": "\"おろす\" means to grate using a grater."
   },
   {
     "id": "page03-q04",
-    "chapter": "味・香り・食感",
+    "chapter": "調理の基本動詞",
     "page": 3,
-    "type": "dialogue",
-    "difficulty": 3,
-    "question": "先生(せんせい)：この味噌(みそ)はコクがありますね。What does コク mean here?",
+    "type": "recognition",
+    "difficulty": 1,
+    "question": "You want thin cucumber slices. Which expression should you use?",
     "answers": [
-      "A lingering finish",
-      "A floral aroma",
-      "Richness and depth",
-      "A sharp bitterness"
+      "角切りにする(かくぎりにする)",
+      "みじん切りにする(みじんぎりにする)",
+      "薄切りにする(うすぎりにする)",
+      "刻む(きざむ)"
     ],
-    "jpExplanation": "「コク」は、味(あじ)の厚(あつ)みや深(ふか)み、満足感(まんぞくかん)を表(あらわ)します。",
-    "enExplanation": "コク refers to richness, depth and satisfying body in flavour.",
-    "correct": 2
+    "correct": 2,
+    "jpExplanation": "薄切り(うすぎり) は薄いスライスです。",
+    "enExplanation": "\"薄切りにする\" means to slice thinly."
   },
   {
     "id": "page03-q05",
-    "chapter": "味・香り・食感",
+    "chapter": "調理の基本動詞",
     "page": 3,
-    "type": "application",
-    "difficulty": 3,
-    "question": "You swallow a sake, and its flavour continues pleasantly for several seconds. Which word should you use?",
+    "type": "recognition",
+    "difficulty": 1,
+    "question": "Which cutting style makes cube-shaped pieces?",
     "answers": [
-      "辛味(からみ)",
-      "塩味(えんみ)",
-      "キレ",
-      "余韻(よいん)"
+      "角切りにする(かくぎりにする)",
+      "千切り(せんぎり)",
+      "薄切りにする(うすぎりにする)",
+      "おろす"
     ],
-    "jpExplanation": "飲(の)み込(こ)んだ後(あと)も味(あじ)や香(かお)りの印象(いんしょう)が続(つづ)くことを「余韻(よいん)」と言(い)います。",
-    "enExplanation": "余韻 means the lingering impression that remains after swallowing.",
-    "correct": 3
+    "correct": 0,
+    "jpExplanation": "角切り(かくぎり) は四角い形に切ります。",
+    "enExplanation": "\"角切り\" means cutting into cubes."
   },
   {
     "id": "page03-q06",
-    "chapter": "味・香り・食感",
+    "chapter": "調理の基本動詞",
     "page": 3,
-    "type": "contrast",
-    "difficulty": 4,
-    "question": "Which statement best distinguishes 後味(あとあじ) from 余韻(よいん)?",
+    "type": "recognition",
+    "difficulty": 1,
+    "question": "Which word means \"julienne\"?",
     "answers": [
-      "後味 is only about aroma.",
-      "後味 is the taste left behind; 余韻 emphasizes how the impression continues.",
-      "余韻 is always negative.",
-      "They are completely unrelated."
+      "短冊切り(たんざくぎり)",
+      "千切り(せんぎり)",
+      "刻む(きざむ)",
+      "切る(きる)"
     ],
-    "jpExplanation": "「後味(あとあじ)」は食後(しょくご)に口(くち)に残(のこ)る味(あじ)、「余韻(よいん)」はその印象(いんしょう)が続(つづ)く感覚(かんかく)に焦点(しょうてん)があります。",
-    "enExplanation": "後味 focuses on the taste left in the mouth; 余韻 focuses on the lingering continuation of the impression.",
-    "correct": 1
+    "correct": 1,
+    "jpExplanation": "千切り(せんぎり) は細長いせんのように切る方法です。",
+    "enExplanation": "\"千切り\" means julienne or thin strips."
   },
   {
     "id": "page03-q07",
-    "chapter": "味・香り・食感",
+    "chapter": "調理の基本動詞",
     "page": 3,
-    "type": "dialogue",
-    "difficulty": 3,
-    "question": "料理人(りょうりにん)：この日本酒(にほんしゅ)はキレがあります。What is being praised?",
+    "type": "recognition",
+    "difficulty": 1,
+    "question": "Which verb means \"to peel\"?",
     "answers": [
-      "It has a fishy smell.",
-      "It is very sweet.",
-      "It has a clean, decisive finish.",
-      "It is extremely spicy."
+      "むく",
+      "洗う(あらう)",
+      "すすぐ",
+      "切る(きる)"
     ],
-    "jpExplanation": "「キレがある」は、後味(あとあじ)が重(おも)く残(のこ)らず、すっと切(き)れる印象(いんしょう)です。",
-    "enExplanation": "キレがある describes a crisp, clean and decisive finish.",
-    "correct": 2
+    "correct": 0,
+    "jpExplanation": "むく は皮を取ることです。",
+    "enExplanation": "\"むく\" means to peel."
   },
   {
     "id": "page03-q08",
-    "chapter": "味・香り・食感",
+    "chapter": "調理の基本動詞",
     "page": 3,
-    "type": "scenario",
-    "difficulty": 3,
-    "question": "A cream sauce tastes good at first, but after several bites it feels excessively heavy and tiring. Which word fits best?",
+    "type": "recognition",
+    "difficulty": 1,
+    "question": "Which action means \"to rinse\"?",
     "answers": [
-      "上品(じょうひん)",
-      "薄(うす)い",
-      "まろやか",
-      "くどい"
+      "洗う(あらう)",
+      "浸す(ひたす)",
+      "すすぐ",
+      "水気を切る(みずけをきる)"
     ],
-    "jpExplanation": "「くどい」は、味(あじ)や脂(あぶら)が強(つよ)すぎて、しつこく感(かん)じる時(とき)に使(つか)います。",
-    "enExplanation": "くどい describes a flavour that has become overly rich, cloying or tiring.",
-    "correct": 3
+    "correct": 2,
+    "jpExplanation": "すすぐ は水で軽く流すことです。",
+    "enExplanation": "\"すすぐ\" means to rinse."
   },
   {
     "id": "page03-q09",
-    "chapter": "味・香り・食感",
+    "chapter": "調理の基本動詞",
     "page": 3,
-    "type": "contrast",
-    "difficulty": 3,
-    "question": "A soup is smooth and rounded rather than sharp. Which word is best?",
+    "type": "recognition",
+    "difficulty": 1,
+    "question": "Which expression means \"to drain\"?",
     "answers": [
-      "えぐみがある",
-      "激辛(げきから)",
-      "生臭(なまぐさ)い",
-      "まろやか"
+      "浸す(ひたす)",
+      "下ごしらえする(したごしらえする)",
+      "水気を切る(みずけをきる)",
+      "洗う(あらう)"
     ],
-    "jpExplanation": "「まろやか」は、角(かど)がなく、丸(まる)みのあるやさしい味(あじ)わいです。",
-    "enExplanation": "まろやか means mellow, smooth and rounded.",
-    "correct": 3
+    "correct": 2,
+    "jpExplanation": "水気を切る は水をしっかり落とします。",
+    "enExplanation": "\"水気を切る\" means to remove excess water."
   },
   {
     "id": "page03-q10",
-    "chapter": "味・香り・食感",
+    "chapter": "調理の基本動詞",
     "page": 3,
-    "type": "scenario",
-    "difficulty": 4,
-    "question": "Raw bamboo shoot leaves an unpleasant harsh bitterness and astringency. Which word fits best?",
+    "type": "recognition",
+    "difficulty": 1,
+    "question": "Which verb means \"to soak\"?",
     "answers": [
-      "甘酸(あまず)っぱい",
-      "芳醇(ほうじゅん)",
-      "爽(さわ)やか",
-      "えぐみがある"
+      "浸す(ひたす)",
+      "すすぐ",
+      "味見する(あじみする)",
+      "むく"
     ],
-    "jpExplanation": "「えぐみ」は、舌(した)や喉(のど)に残(のこ)る、刺激的(しげきてき)で不快(ふかい)な苦味(にがみ)や渋(しぶ)みです。",
-    "enExplanation": "えぐみ is a harsh, unpleasant bitterness or astringency.",
-    "correct": 3
+    "correct": 0,
+    "jpExplanation": "浸す(ひたす) は液体につけることです。",
+    "enExplanation": "\"浸す\" means to soak in liquid."
   },
   {
     "id": "page03-q11",
-    "chapter": "味・香り・食感",
+    "chapter": "調理の基本動詞",
     "page": 3,
     "type": "recognition",
-    "difficulty": 2,
-    "question": "Fresh green pepper has a raw grassy smell. Which description is most natural?",
+    "difficulty": 1,
+    "question": "Which phrase means \"prep work\"?",
     "answers": [
-      "芳醇(ほうじゅん)",
-      "花(はな)のような",
-      "熟成香(じゅくせいこう)",
-      "青臭(あおくさ)い"
+      "味付けする(あじつけする)",
+      "下ごしらえする(したごしらえする)",
+      "盛り付ける(もりつける)",
+      "寝かせる(ねかせる)"
     ],
-    "jpExplanation": "生(なま)の野菜(やさい)や未熟(みじゅく)な植物(しょくぶつ)のような緑(みどり)のにおいには「青臭(あおくさ)い」を使(つか)います。",
-    "enExplanation": "青臭い describes a raw, grassy or green smell.",
-    "correct": 3
+    "correct": 1,
+    "jpExplanation": "下ごしらえ は料理を始める前の準備です。",
+    "enExplanation": "\"下ごしらえ\" means preparation before cooking."
   },
   {
     "id": "page03-q12",
-    "chapter": "味・香り・食感",
+    "chapter": "調理の基本動詞",
     "page": 3,
     "type": "recognition",
-    "difficulty": 2,
-    "question": "A piece of fish has an unpleasant raw fish smell. Which word fits best?",
+    "difficulty": 1,
+    "question": "Which verb means \"to season\"?",
     "answers": [
-      "華(はな)やか",
-      "香(かお)り高(だか)い",
-      "生臭(なまぐさ)い",
-      "柑橘系(かんきつけい)"
+      "発酵させる(はっこうさせる)",
+      "漬け込む(つけこむ)",
+      "味付けする(あじつけする)",
+      "熟成させる(じゅくせいさせる)"
     ],
-    "jpExplanation": "魚(さかな)や肉(にく)などの生(なま)ものに感(かん)じる不快(ふかい)なにおいには「生臭(なまぐさ)い」を使(つか)います。",
-    "enExplanation": "生臭い means fishy or unpleasantly raw-smelling.",
-    "correct": 2
+    "correct": 2,
+    "jpExplanation": "味付けする は調味料で味を付けます。",
+    "enExplanation": "\"味付けする\" means to add seasoning."
   },
   {
     "id": "page03-q13",
-    "chapter": "味・香り・食感",
+    "chapter": "調理の基本動詞",
     "page": 3,
-    "type": "application",
-    "difficulty": 3,
-    "question": "A roasted tea has an aroma that rises clearly and strongly from the cup. Which expression fits best?",
+    "type": "recognition",
+    "difficulty": 1,
+    "question": "Which verb means \"to marinate\"?",
     "answers": [
-      "土(つち)っぽい",
-      "香(かお)り高(だか)い",
-      "薄(うす)い",
-      "塩辛(しおから)い"
+      "漬け込む(つけこむ)",
+      "寝かせる(ねかせる)",
+      "発酵させる(はっこうさせる)",
+      "味見する(あじみする)"
     ],
-    "jpExplanation": "「香(かお)り高(だか)い」は、よい香(かお)りがはっきり豊(ゆた)かに感(かん)じられることです。",
-    "enExplanation": "香り高い means highly aromatic or richly fragrant.",
-    "correct": 1
+    "correct": 0,
+    "jpExplanation": "漬け込む は液体や調味料につけて味を入れます。",
+    "enExplanation": "\"漬け込む\" means to marinate."
   },
   {
     "id": "page03-q14",
-    "chapter": "味・香り・食感",
+    "chapter": "調理の基本動詞",
     "page": 3,
     "type": "recognition",
-    "difficulty": 2,
-    "question": "A smoked bonito dish reminds you of smoke. Which phrase fits best?",
+    "difficulty": 1,
+    "question": "Which verb means \"to ferment\"?",
     "answers": [
-      "燻製(くんせい)っぽい",
-      "花(はな)のような",
-      "果実味(かじつみ)がある",
-      "爽(さわ)やか"
+      "熟成させる(じゅくせいさせる)",
+      "寝かせる(ねかせる)",
+      "発酵させる(はっこうさせる)",
+      "味付けする(あじつけする)"
     ],
-    "jpExplanation": "煙(けむり)やスモークを思(おも)わせる香(かお)りには「燻製(くんせい)っぽい」を使(つか)います。",
-    "enExplanation": "燻製っぽい means smoky or reminiscent of smoked food.",
-    "correct": 0
+    "correct": 2,
+    "jpExplanation": "発酵させる は微生物の働きで変化させます。",
+    "enExplanation": "\"発酵させる\" means to ferment."
   },
   {
     "id": "page03-q15",
-    "chapter": "味・香り・食感",
+    "chapter": "調理の基本動詞",
     "page": 3,
     "type": "recognition",
-    "difficulty": 2,
-    "question": "Roasted sesame has an aroma similar to nuts. Which phrase is best?",
+    "difficulty": 1,
+    "question": "Which verb means \"to age / mature\"?",
     "answers": [
-      "発酵香(はっこうこう)",
-      "ナッツのような",
-      "柑橘系(かんきつけい)",
-      "土(つち)っぽい"
+      "熟成させる(じゅくせいさせる)",
+      "盛り付ける(もりつける)",
+      "味見する(あじみする)",
+      "切る(きる)"
     ],
-    "jpExplanation": "ごまやアーモンドのような香(こう)ばしい香(かお)りには「ナッツのような」が合(あ)います。",
-    "enExplanation": "ナッツのような describes a nut-like aroma.",
-    "correct": 1
+    "correct": 0,
+    "jpExplanation": "熟成させる は時間をかけて味を深めます。",
+    "enExplanation": "\"熟成させる\" means to age or mature."
   },
   {
     "id": "page03-q16",
-    "chapter": "味・香り・食感",
+    "chapter": "調理の基本動詞",
     "page": 3,
-    "type": "application",
-    "difficulty": 3,
-    "question": "A ginjo sake has an expressive aroma reminiscent of blossoms. Which phrase fits best?",
+    "type": "recognition",
+    "difficulty": 1,
+    "question": "Which verb means \"to let rest\"?",
     "answers": [
-      "くどい",
-      "花(はな)のような",
-      "青臭(あおくさ)い",
-      "生臭(なまぐさ)い"
+      "寝かせる(ねかせる)",
+      "浸す(ひたす)",
+      "味付けする(あじつけする)",
+      "洗う(あらう)"
     ],
-    "jpExplanation": "花(はな)を思(おも)わせる香(かお)りには「花(はな)のような」を使(つか)います。",
-    "enExplanation": "花のような means floral or flower-like.",
-    "correct": 1
+    "correct": 0,
+    "jpExplanation": "寝かせる は時間を置いて休ませます。",
+    "enExplanation": "\"寝かせる\" means to let food rest."
   },
   {
     "id": "page03-q17",
-    "chapter": "味・香り・食感",
+    "chapter": "調理の基本動詞",
     "page": 3,
-    "type": "application",
-    "difficulty": 3,
-    "question": "A sake reminds you of pear and melon. Which description is most useful?",
+    "type": "recognition",
+    "difficulty": 1,
+    "question": "Which verb means \"to taste-test\"?",
     "answers": [
-      "焼(や)きたての香(かお)り",
-      "果実味(かじつみ)がある",
-      "えぐみがある",
-      "土(つち)っぽい"
+      "味見する(あじみする)",
+      "盛り付ける(もりつける)",
+      "漬け込む(つけこむ)",
+      "むく"
     ],
-    "jpExplanation": "果物(くだもの)を思(おも)わせる味(あじ)や香(かお)りがある時(とき)は「果実味(かじつみ)がある」と言(い)います。",
-    "enExplanation": "果実味がある means having a fruity character.",
-    "correct": 1
+    "correct": 0,
+    "jpExplanation": "味見する は味を確認することです。",
+    "enExplanation": "\"味見する\" means to taste while cooking."
   },
   {
     "id": "page03-q18",
-    "chapter": "味・香り・食感",
+    "chapter": "調理の基本動詞",
     "page": 3,
     "type": "recognition",
-    "difficulty": 2,
-    "question": "A mushroom has an earthy, soil-like aroma. Which expression fits best?",
+    "difficulty": 1,
+    "question": "Which expression means \"to brown\"?",
     "answers": [
-      "まろやか",
-      "香(かお)り高(だか)い",
-      "華(はな)やか",
-      "土(つち)っぽい"
+      "焼き色を付ける(やきいろをつける)",
+      "発酵させる(はっこうさせる)",
+      "下ごしらえする(したごしらえする)",
+      "薄切りにする(うすぎりにする)"
     ],
-    "jpExplanation": "土(つち)や森(もり)を思(おも)わせる香(かお)りには「土(つち)っぽい」を使(つか)います。",
-    "enExplanation": "土っぽい means earthy or soil-like.",
-    "correct": 3
+    "correct": 0,
+    "jpExplanation": "焼き色を付ける は表面にきれいな焼き色を作ります。",
+    "enExplanation": "\"焼き色を付ける\" means to brown the surface."
   },
   {
     "id": "page03-q19",
-    "chapter": "味・香り・食感",
+    "chapter": "調理の基本動詞",
     "page": 3,
-    "type": "contrast",
-    "difficulty": 4,
-    "question": "Which word best describes a rich, abundant aroma, rather than a bright floral one?",
+    "type": "recognition",
+    "difficulty": 1,
+    "question": "Which verb means \"to plate\"?",
     "answers": [
-      "華(はな)やか",
-      "爽(さわ)やか",
-      "青臭(あおくさ)い",
-      "芳醇(ほうじゅん)"
+      "のせる",
+      "盛り付ける(もりつける)",
+      "味見する(あじみする)",
+      "刻む(きざむ)"
     ],
-    "jpExplanation": "「芳醇(ほうじゅん)」は、香(かお)りに豊(ゆた)かさや厚(あつ)みがある印象(いんしょう)です。",
-    "enExplanation": "芳醇 describes a rich, abundant and full aroma.",
-    "correct": 3
+    "correct": 1,
+    "jpExplanation": "盛り付ける は料理を器に美しく並べます。",
+    "enExplanation": "\"盛り付ける\" means to arrange food on the plate."
   },
   {
     "id": "page03-q20",
-    "chapter": "味・香り・食感",
-    "page": 3,
-    "type": "contrast",
-    "difficulty": 4,
-    "question": "Which word best describes an aroma that is bright, expressive and often floral?",
-    "answers": [
-      "生臭(なまぐさ)い",
-      "華(はな)やか",
-      "熟成香(じゅくせいこう)",
-      "重(おも)たい"
-    ],
-    "jpExplanation": "「華(はな)やか」は、明(あか)るく広(ひろ)がる、表現力(ひょうげんりょく)のある香(かお)りです。",
-    "enExplanation": "華やか describes a bright, expressive and often floral aroma.",
-    "correct": 1
-  },
-  {
-    "id": "page03-q21",
-    "chapter": "味・香り・食感",
+    "chapter": "調理の基本動詞",
     "page": 3,
     "type": "recognition",
-    "difficulty": 2,
-    "question": "A lemon or yuzu aroma belongs to which category?",
+    "difficulty": 1,
+    "question": "Which verb means \"to place on top\"?",
     "answers": [
-      "燻製(くんせい)っぽい",
-      "柑橘系(かんきつけい)",
-      "発酵香(はっこうこう)",
-      "熟成香(じゅくせいこう)"
+      "のせる",
+      "切る(きる)",
+      "洗う(あらう)",
+      "浸す(ひたす)"
     ],
-    "jpExplanation": "レモン、ゆず、みかんのような香(かお)りは「柑橘系(かんきつけい)」です。",
-    "enExplanation": "柑橘系 means citrus-like.",
-    "correct": 1
-  },
-  {
-    "id": "page03-q22",
-    "chapter": "味・香り・食感",
-    "page": 3,
-    "type": "recognition",
-    "difficulty": 3,
-    "question": "An aroma reminds you of green herbs and leaves. Which phrase fits best?",
-    "answers": [
-      "焼(や)きたての香(かお)り",
-      "生臭(なまぐさ)い",
-      "ハーブのような",
-      "芳醇(ほうじゅん)"
-    ],
-    "jpExplanation": "ハーブや葉(は)を思(おも)わせる香(かお)りには「ハーブのような」を使(つか)います。",
-    "enExplanation": "ハーブのような means herbal.",
-    "correct": 2
-  },
-  {
-    "id": "page03-q23",
-    "chapter": "味・香り・食感",
-    "page": 3,
-    "type": "application",
-    "difficulty": 3,
-    "question": "Miso has a distinctive aroma created through fermentation. Which term fits best?",
-    "answers": [
-      "炊(た)きたての香(かお)り",
-      "果実味(かじつみ)がある",
-      "発酵香(はっこうこう)",
-      "香(かお)り高(だか)い"
-    ],
-    "jpExplanation": "発酵(はっこう)によって生(う)まれる独特(どくとく)の香(かお)りを「発酵香(はっこうこう)」と言(い)います。",
-    "enExplanation": "発酵香 means an aroma produced through fermentation.",
-    "correct": 2
-  },
-  {
-    "id": "page03-q24",
-    "chapter": "味・香り・食感",
-    "page": 3,
-    "type": "contrast",
-    "difficulty": 4,
-    "question": "An aged sake develops aromas over time. Which term is more precise than 発酵香(はっこうこう)?",
-    "answers": [
-      "柑橘系(かんきつけい)",
-      "焼(や)きたての香(かお)り",
-      "熟成香(じゅくせいこう)",
-      "青臭(あおくさ)い"
-    ],
-    "jpExplanation": "時間(じかん)をかけた熟成(じゅくせい)によって生(う)まれる香(かお)りは「熟成香(じゅくせいこう)」です。",
-    "enExplanation": "熟成香 means an aroma developed through ageing or maturation.",
-    "correct": 2
-  },
-  {
-    "id": "page03-q25",
-    "chapter": "味・香り・食感",
-    "page": 3,
-    "type": "recognition",
-    "difficulty": 2,
-    "question": "You open a rice cooker and smell freshly cooked rice. Which phrase fits best?",
-    "answers": [
-      "燻製(くんせい)っぽい",
-      "炊(た)きたての香(かお)り",
-      "土(つち)っぽい",
-      "熟成香(じゅくせいこう)"
-    ],
-    "jpExplanation": "炊(た)き上(あ)がったばかりのご飯(はん)の香(かお)りは「炊(た)きたての香(かお)り」です。",
-    "enExplanation": "炊きたての香り means the aroma of something freshly cooked, especially rice.",
-    "correct": 1
-  },
-  {
-    "id": "page03-q26",
-    "chapter": "味・香り・食感",
-    "page": 3,
-    "type": "recognition",
-    "difficulty": 2,
-    "question": "Fresh bread has just come out of the oven. Which expression fits best?",
-    "answers": [
-      "焼(や)きたての香(かお)り",
-      "柑橘系(かんきつけい)",
-      "発酵香(はっこうこう)",
-      "青臭(あおくさ)い"
-    ],
-    "jpExplanation": "焼(や)き上(あ)がったばかりのパンや菓子(かし)の香(かお)りは「焼(や)きたての香(かお)り」です。",
-    "enExplanation": "焼きたての香り means the aroma of something freshly baked or grilled.",
-    "correct": 0
-  },
-  {
-    "id": "page03-q27",
-    "chapter": "味・香り・食感",
-    "page": 3,
-    "type": "contrast",
-    "difficulty": 3,
-    "question": "A broth has a clear presence, but it does not feel harsh or aggressive. Which description fits best?",
-    "answers": [
-      "重(おも)たい",
-      "穏(おだ)やか",
-      "強(つよ)い",
-      "激辛(げきから)"
-    ],
-    "jpExplanation": "印象(いんしょう)がやさしく、刺激(しげき)が強(つよ)すぎない時(とき)は「穏(おだ)やか」が合(あ)います。",
-    "enExplanation": "穏やか is appropriate when the impression is gentle rather than forceful.",
-    "correct": 1
-  },
-  {
-    "id": "page03-q28",
-    "chapter": "味・香り・食感",
-    "page": 3,
-    "type": "application",
-    "difficulty": 3,
-    "question": "A curry has an assertive flavour that dominates the palate. Which word fits best?",
-    "answers": [
-      "さっぱり",
-      "繊細(せんさい)",
-      "強(つよ)い",
-      "薄(うす)い"
-    ],
-    "jpExplanation": "味(あじ)や香(かお)りの主張(しゅちょう)がはっきりしている時(とき)は「強(つよ)い」を使(つか)います。",
-    "enExplanation": "強い describes a strong, assertive flavour or aroma.",
-    "correct": 2
-  },
-  {
-    "id": "page03-q29",
-    "chapter": "味・香り・食感",
-    "page": 3,
-    "type": "contrast",
-    "difficulty": 3,
-    "question": "A dish feels clean and easy to eat, without heaviness. Which word is more natural?",
-    "answers": [
-      "重(おも)たい",
-      "軽(かる)い",
-      "濃厚(のうこう)",
-      "くどい"
-    ],
-    "jpExplanation": "口当(くちあ)たりや味(あじ)の印象(いんしょう)が重(おも)くない時(とき)は「軽(かる)い」と言(い)います。",
-    "enExplanation": "軽い describes a light, easy and non-heavy impression.",
-    "correct": 1
-  },
-  {
-    "id": "page03-q30",
-    "chapter": "味・香り・食感",
-    "page": 3,
-    "type": "scenario",
-    "difficulty": 3,
-    "question": "A buttery dish sits heavily on the palate. Which word fits best?",
-    "answers": [
-      "軽(かる)い",
-      "爽(さわ)やか",
-      "重(おも)たい",
-      "繊細(せんさい)"
-    ],
-    "jpExplanation": "脂(あぶら)や濃(こ)さによって口(くち)に重(おも)く感(かん)じる時(とき)は「重(おも)たい」を使(つか)います。",
-    "enExplanation": "重たい describes a heavy impression on the palate.",
-    "correct": 2
-  },
-  {
-    "id": "page03-q31",
-    "chapter": "味・香り・食感",
-    "page": 3,
-    "type": "application",
-    "difficulty": 4,
-    "question": "A kaiseki dish has several flavours, but they fit together harmoniously. Which overall evaluation is best?",
-    "answers": [
-      "バランスがいい",
-      "薄(うす)い",
-      "生臭(なまぐさ)い",
-      "激辛(げきから)"
-    ],
-    "jpExplanation": "複数(ふくすう)の味(あじ)や香(かお)りが互(たが)いに邪魔(じゃま)せず調和(ちょうわ)している時(とき)は「バランスがいい」と言(い)います。",
-    "enExplanation": "バランスがいい means the different elements are harmonious and well balanced.",
-    "correct": 0
-  },
-  {
-    "id": "page03-q32",
-    "chapter": "味・香り・食感",
-    "page": 3,
-    "type": "application",
-    "difficulty": 4,
-    "question": "A sauce reveals sweetness, acidity, umami and roasted aroma in several layers. Which word fits best?",
-    "answers": [
-      "複雑(ふくざつ)",
-      "薄(うす)い",
-      "爽(さわ)やか",
-      "素朴(そぼく)"
-    ],
-    "jpExplanation": "複数(ふくすう)の味(あじ)や香(かお)りが重(かさ)なり、単純(たんじゅん)ではない時(とき)は「複雑(ふくざつ)」です。",
-    "enExplanation": "複雑 describes a layered, multifaceted flavour or aroma.",
-    "correct": 0
-  },
-  {
-    "id": "page03-q33",
-    "chapter": "味・香り・食感",
-    "page": 3,
-    "type": "contrast",
-    "difficulty": 4,
-    "question": "A flavour is subtle and finely detailed rather than bold. Which word fits best?",
-    "answers": [
-      "濃(こ)い",
-      "激辛(げきから)",
-      "力強(ちからづよ)い",
-      "繊細(せんさい)"
-    ],
-    "jpExplanation": "細(こま)やかで微妙(びみょう)な違(ちが)いを感(かん)じさせる味(あじ)には「繊細(せんさい)」を使(つか)います。",
-    "enExplanation": "繊細 means delicate, subtle and finely nuanced.",
-    "correct": 3
-  },
-  {
-    "id": "page03-q34",
-    "chapter": "味・香り・食感",
-    "page": 3,
-    "type": "application",
-    "difficulty": 4,
-    "question": "A dish is refined, restrained and elegant. Which evaluation is most natural?",
-    "answers": [
-      "土(つち)っぽい",
-      "上品(じょうひん)",
-      "力強(ちからづよ)い",
-      "くどい"
-    ],
-    "jpExplanation": "強(つよ)すぎず、洗練(せんれん)されて品(ひん)のある印象(いんしょう)には「上品(じょうひん)」が合(あ)います。",
-    "enExplanation": "上品 means refined, elegant and tasteful.",
-    "correct": 1
-  },
-  {
-    "id": "page03-q35",
-    "chapter": "味・香り・食感",
-    "page": 3,
-    "type": "contrast",
-    "difficulty": 4,
-    "question": "A flavour is bold, energetic and has a firm presence. Which word fits best?",
-    "answers": [
-      "薄(うす)い",
-      "力強(ちからづよ)い",
-      "繊細(せんさい)",
-      "穏(おだ)やか"
-    ],
-    "jpExplanation": "味(あじ)や香(かお)りに明確(めいかく)な存在感(そんざいかん)がある時(とき)は「力強(ちからづよ)い」を使(つか)います。",
-    "enExplanation": "力強い describes a bold, energetic and powerful impression.",
-    "correct": 1
-  },
-  {
-    "id": "page03-q36",
-    "chapter": "味・香り・食感",
-    "page": 3,
-    "type": "application",
-    "difficulty": 4,
-    "question": "A simple countryside dish feels honest, natural and unpretentious. Which word fits best?",
-    "answers": [
-      "華(はな)やか",
-      "素朴(そぼく)",
-      "芳醇(ほうじゅん)",
-      "複雑(ふくざつ)"
-    ],
-    "jpExplanation": "飾(かざ)りすぎず、自然(しぜん)で親(した)しみのある印象(いんしょう)には「素朴(そぼく)」を使(つか)います。",
-    "enExplanation": "素朴 means rustic, simple and unpretentious.",
-    "correct": 1
-  },
-  {
-    "id": "page03-q37",
-    "chapter": "味・香り・食感",
-    "page": 3,
-    "type": "application",
-    "difficulty": 4,
-    "question": "A flavour seems simple at first, but reveals more depth the longer you taste it. Which word fits best?",
-    "answers": [
-      "薄(うす)い",
-      "奥深(おくぶか)い",
-      "軽(かる)い",
-      "塩辛(しおから)い"
-    ],
-    "jpExplanation": "すぐには分(わ)からない深(ふか)さや広(ひろ)がりがある時(とき)は「奥深(おくぶか)い」と言(い)います。",
-    "enExplanation": "奥深い describes hidden depth that reveals itself gradually.",
-    "correct": 1
-  },
-  {
-    "id": "page03-q38",
-    "chapter": "味・香り・食感",
-    "page": 3,
-    "type": "dialogue",
-    "difficulty": 4,
-    "question": "先生(せんせい)：この日本酒(にほんしゅ)は華(はな)やかですか、それとも芳醇(ほうじゅん)ですか。The aroma is bright and floral. What should you answer?",
-    "answers": [
-      "華(はな)やかです。",
-      "生臭(なまぐさ)いです。",
-      "土(つち)っぽいです。",
-      "芳醇(ほうじゅん)です。"
-    ],
-    "jpExplanation": "明(あか)るく花(はな)のように広(ひろ)がる香(かお)りなら「華(はな)やか」が自然(しぜん)です。",
-    "enExplanation": "For a bright, floral and expressive aroma, 華やか is the natural answer.",
-    "correct": 0
-  },
-  {
-    "id": "page03-q39",
-    "chapter": "味・香り・食感",
-    "page": 3,
-    "type": "dialogue",
-    "difficulty": 4,
-    "question": "先生(せんせい)：このだしは濃厚(のうこう)ですが、くどくありません。What is the teacher saying?",
-    "answers": [
-      "It is weak and watery.",
-      "It is very spicy.",
-      "It is rich, but not excessively heavy.",
-      "It has a fishy smell."
-    ],
-    "jpExplanation": "「濃厚(のうこう)」は厚(あつ)みのある味(あじ)、「くどい」は濃(こ)すぎてしつこい味(あじ)です。",
-    "enExplanation": "The dashi has richness and body, but that richness is not cloying.",
-    "correct": 2
-  },
-  {
-    "id": "page03-q40",
-    "chapter": "味・香り・食感",
-    "page": 3,
-    "type": "production",
-    "difficulty": 4,
-    "question": "You taste an aged miso. It is rich, deep and has a mature aroma. Which response is best?",
-    "answers": [
-      "軽(かる)くて、焼(や)きたての香(かお)りです。",
-      "濃厚(のうこう)で、熟成香(じゅくせいこう)があります。",
-      "さっぱりしていて、柑橘系(かんきつけい)です。",
-      "薄(うす)くて、青臭(あおくさ)いです。"
-    ],
-    "jpExplanation": "熟成(じゅくせい)した味噌(みそ)には、濃(こ)い味(あじ)わいと熟成(じゅくせい)による香(かお)りが自然(しぜん)です。",
-    "enExplanation": "For aged miso, 濃厚 and 熟成香 naturally express richness, depth and mature aroma.",
-    "correct": 1
+    "correct": 0,
+    "jpExplanation": "のせる は上に置くことです。",
+    "enExplanation": "\"のせる\" means to place something on top."
   }
 ]
