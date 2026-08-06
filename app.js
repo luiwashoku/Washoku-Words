@@ -354,10 +354,16 @@
       )
       .sort((a, b) => {
         const pageA =
-          Number(a.page) || 0;
+          Number.parseInt(
+            String(a.page),
+            10
+          ) || 0;
 
         const pageB =
-          Number(b.page) || 0;
+          Number.parseInt(
+            String(b.page),
+            10
+          ) || 0;
 
         return pageA - pageB;
       });
