@@ -31,6 +31,11 @@
       id: "evaluation",
       title: "料理を評価する",
       pageRange: "Pages 68–71"
+    },
+    {
+      id: "animal-ingredients",
+      title: "動物性食材",
+      pageRange: "Pages 72–84"
     }
   ];
 
