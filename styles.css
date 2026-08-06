@@ -438,11 +438,30 @@ button:focus-visible {
 }
 
 #closeIntroduction {
+  position: relative;
   width: 44px;
   height: 44px;
   flex-basis: 44px;
-  font-size: 27px;
-  line-height: 1;
+}
+
+#closeIntroduction::before,
+#closeIntroduction::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 3px;
+  border-radius: 999px;
+  background: currentColor;
+  content: "";
+}
+
+#closeIntroduction::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+#closeIntroduction::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
 }
 
 .introductionBody {
