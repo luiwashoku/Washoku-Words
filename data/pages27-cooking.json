@@ -1,0 +1,142 @@
+[
+  {
+    "id": "page27-cooking-q01", "chapter": "米の炊き方・料理", "page": 27, "type": "rice-type", "difficulty": 1,
+    "question": "普段(ふだん)のご飯(はん)や寿司(すし)には、もち米(ごめ)ほど粘(ねば)りが強(つよ)くない米(こめ)を使(つか)います。この米(こめ)は何(なん)ですか。",
+    "answers": ["うるち米(まい)", "もち米(ごめ)", "玄米(げんまい)", "古米(こまい)"], "correct": 0,
+    "jpExplanation": "うるち米(まい)は普段(ふだん)のご飯(はん)に使(つか)う米(こめ)です。適度(てきど)な粘(ねば)りがあり、白飯(はくはん)、寿司(すし)、丼(どんぶり)など幅広(はばひろ)く使(つか)えます。",
+    "enExplanation": "Uruchimai is ordinary non-glutinous rice. Its moderate stickiness suits everyday steamed rice, sushi and rice bowls."
+  },
+  {
+    "id": "page27-cooking-q02", "chapter": "米の炊き方・料理", "page": 27, "type": "rice-type", "difficulty": 1,
+    "question": "餅(もち)や赤飯(せきはん)に使(つか)います。炊(た)くと非常(ひじょう)に粘(ねば)りが強(つよ)く、もちもちする米(こめ)はどれですか。",
+    "answers": ["白米(はくまい)", "もち米(ごめ)", "古米(こまい)", "玄米(げんまい)"], "correct": 1,
+    "jpExplanation": "もち米(ごめ)は加熱(かねつ)すると強(つよ)い粘(ねば)りが出(で)ます。この性質(せいしつ)を生(い)かして、餅(もち)、赤飯(せきはん)、おこわを作(つく)ります。",
+    "enExplanation": "Glutinous rice becomes exceptionally sticky and chewy when cooked, which is why it is chosen for mochi, sekihan and okowa."
+  },
+  {
+    "id": "page27-cooking-q03", "chapter": "米の炊き方・料理", "page": 27, "type": "rice-type", "difficulty": 1,
+    "question": "米(こめ)のぬか層(そう)と胚芽(はいが)を残(のこ)しているため、香(こう)ばしく、噛(か)み応(ごた)えがあり、白米(はくまい)より吸水(きゅうすい)に時間(じかん)がかかるものはどれですか。",
+    "answers": ["新米(しんまい)", "もち米(ごめ)", "玄米(げんまい)", "白米(はくまい)"], "correct": 2,
+    "jpExplanation": "玄米(げんまい)には、ぬか層(そう)と胚芽(はいが)が残(のこ)っています。そのため食感(しょっかん)と香(かお)りが強(つよ)く、中心(ちゅうしん)まで水(みず)を届(とど)けるには長(なが)めの吸水(きゅうすい)が必要(ひつよう)です。",
+    "enExplanation": "Brown rice retains its bran and germ, giving it a nuttier flavour and firmer bite but also slowing water absorption."
+  },
+  {
+    "id": "page27-cooking-q04", "chapter": "米の炊き方・料理", "page": 27, "type": "rice-type", "difficulty": 1,
+    "question": "玄米(げんまい)から、ぬか層(そう)と胚芽(はいが)の多(おお)くを取(と)り除(のぞ)いた米(こめ)です。吸水(きゅうすい)しやすく、柔(やわ)らかく炊(た)きやすいものはどれですか。",
+    "answers": ["もち米(ごめ)", "古古米(ここまい)", "玄米(げんまい)", "白米(はくまい)"], "correct": 3,
+    "jpExplanation": "白米(はくまい)は精米(せいまい)によって、ぬか層(そう)などを取(と)り除(のぞ)いた米(こめ)です。玄米(げんまい)より水(みず)を吸(す)いやすく、柔(やわ)らかく炊(た)き上(あ)がります。",
+    "enExplanation": "Polishing removes most bran and germ to make white rice quicker to hydrate and softer when cooked."
+  },
+  {
+    "id": "page27-cooking-q05", "chapter": "米の炊き方・料理", "page": 27, "type": "water-control", "difficulty": 2,
+    "question": "新米(しんまい)は一般(いっぱん)に水分(すいぶん)が多(おお)めです。いつもの米(こめ)と同(おな)じ硬(かた)さに炊(た)きたいとき、まず試(ため)す調整(ちょうせい)はどれですか。",
+    "answers": ["水(みず)を少(すこ)し控(ひか)える", "水(みず)を大幅(おおはば)に増(ふ)やす", "洗米(せんまい)をしない", "蒸(む)らしをしない"], "correct": 0,
+    "jpExplanation": "新米(しんまい)は水分(すいぶん)を比較的(ひかくてき)多(おお)く含(ふく)むため、水(みず)を少(すこ)し控(ひか)えると柔(やわ)らかくなりすぎるのを防(ふせ)げます。ただし品種(ひんしゅ)や好(この)みに合(あ)わせて微調整(びちょうせい)します。",
+    "enExplanation": "New-crop rice often contains more moisture, so slightly reducing added water can prevent an overly soft result; adjust for variety and preference."
+  },
+  {
+    "id": "page27-cooking-q06", "chapter": "米の炊き方・料理", "page": 27, "type": "washing", "difficulty": 2,
+    "question": "最初(さいしょ)に米(こめ)へ水(みず)を入(い)れたら、軽(かる)く混(ま)ぜてすぐ捨(す)てます。なぜですか。",
+    "answers": ["米(こめ)を乾燥(かんそう)させるため", "最初(さいしょ)の濁(にご)りやにおいを米(こめ)が吸(す)いすぎないようにするため", "米(こめ)を発酵(はっこう)させるため", "粘(ねば)りを完全(かんぜん)になくすため"], "correct": 1,
+    "jpExplanation": "乾(かわ)いた米(こめ)は最初(さいしょ)の水(みず)を吸(す)いやすいので、濁(にご)った水(みず)は手早(てばや)く捨(す)てます。その後(あと)、力(ちから)を入(い)れすぎずに洗(あら)います。",
+    "enExplanation": "Dry rice readily absorbs its first water, so draining cloudy water promptly helps avoid carrying unwanted odours into the grain."
+  },
+  {
+    "id": "page27-cooking-q07", "chapter": "米の炊き方・料理", "page": 27, "type": "washing", "difficulty": 2,
+    "question": "現在(げんざい)の精米(せいまい)された米(こめ)を洗(あら)うとき、強(つよ)く押(お)しつぶすように研(と)がない方(ほう)がよい主(おも)な理由(りゆう)は何(なん)ですか。",
+    "answers": ["塩味(しおあじ)が消(き)えるから", "水(みず)が熱(あつ)くなるから", "米粒(こめつぶ)が割(わ)れ、炊(た)き上(あ)がりがべたつきやすくなるから", "米(こめ)が玄米(げんまい)に戻(もど)るから"], "correct": 2,
+    "jpExplanation": "強(つよ)くこすると米粒(こめつぶ)が傷(きず)ついたり割(わ)れたりします。手早(てばや)く、やさしく洗(あら)うと粒(つぶ)の形(かたち)を保(たも)ちやすくなります。",
+    "enExplanation": "Aggressive scrubbing can crack modern polished grains and make the cooked rice pasty; quick, gentle washing preserves their structure."
+  },
+  {
+    "id": "page27-cooking-q08", "chapter": "米の炊き方・料理", "page": 27, "type": "soaking", "difficulty": 1,
+    "question": "炊飯(すいはん)の前(まえ)に米(こめ)を水(みず)に浸(ひた)して吸水(きゅうすい)させる目的(もくてき)は何(なん)ですか。",
+    "answers": ["表面(ひょうめん)だけを焼(や)くため", "米(こめ)を乾(かわ)かすため", "香(かお)りを全部(ぜんぶ)取(と)るため", "中心(ちゅうしん)まで水(みず)を届(とど)け、むらなくふっくら炊(た)くため"], "correct": 3,
+    "jpExplanation": "吸水(きゅうすい)によって米粒(こめつぶ)の中心(ちゅうしん)まで水(みず)が入(はい)ります。加熱(かねつ)したときに芯(しん)が残(のこ)りにくく、全体(ぜんたい)がふっくらします。",
+    "enExplanation": "Soaking hydrates the centre before heating, helping each grain cook evenly without a hard core."
+  },
+  {
+    "id": "page27-cooking-q09", "chapter": "米の炊き方・料理", "page": 27, "type": "measurement", "difficulty": 1,
+    "question": "毎回(まいかい)ほぼ同(おな)じ硬(かた)さに炊(た)くために、最(もっと)も大切(たいせつ)な習慣(しゅうかん)はどれですか。",
+    "answers": ["米(こめ)と水(みず)を正確(せいかく)に量(はか)り、条件(じょうけん)をそろえる", "毎回(まいかい)違(ちが)う鍋(なべ)を使(つか)う", "炊飯中(すいはんちゅう)に何度(なんど)も蓋(ふた)を開(あ)ける", "吸水(きゅうすい)時間(じかん)を毎回(まいかい)変(か)える"], "correct": 0,
+    "jpExplanation": "米(こめ)と水(みず)の比率(ひりつ)は食感(しょっかん)を大(おお)きく左右(さゆう)します。まず同(おな)じ条件(じょうけん)で量(はか)り、品種(ひんしゅ)や新米(しんまい)に合(あ)わせて少(すこ)しずつ調整(ちょうせい)します。",
+    "enExplanation": "A consistent rice-to-water ratio gives a repeatable baseline, after which small adjustments can be made for variety, crop age and preference."
+  },
+  {
+    "id": "page27-cooking-q10", "chapter": "米の炊き方・料理", "page": 27, "type": "cooking-tool", "difficulty": 2,
+    "question": "土鍋(どなべ)で炊(た)く魅力(みりょく)として最(もっと)も適切(てきせつ)なものはどれですか。",
+    "answers": ["必(かなら)ず吸水(きゅうすい)が不要(ふよう)になる", "蓄熱性(ちくねつせい)が高(たか)く、蒸気(じょうき)と熱(ねつ)でふっくら炊(た)け、おこげも作(つく)れる", "米(こめ)が生(なま)のまま保存(ほぞん)できる", "水(みず)を使(つか)わず炊(た)ける"], "correct": 1,
+    "jpExplanation": "土鍋(どなべ)は熱(ねつ)を蓄(たくわ)え、鍋(なべ)の中(なか)を高温(こうおん)に保(たも)ちやすい道具(どうぐ)です。火加減(ひかげん)を調整(ちょうせい)すれば、ふっくらしたご飯(はん)と香(こう)ばしいおこげを楽(たの)しめます。",
+    "enExplanation": "A clay pot retains heat and steam well, producing plump grains and, with controlled heat, a fragrant toasted crust."
+  },
+  {
+    "id": "page27-cooking-q11", "chapter": "米の炊き方・料理", "page": 27, "type": "steaming", "difficulty": 1,
+    "question": "火(ひ)を止(と)めた後(あと)、蓋(ふた)を開(あ)けずに「蒸(む)らす」のはなぜですか。",
+    "answers": ["米(こめ)を冷凍(れいとう)するため", "水分(すいぶん)を全部(ぜんぶ)飛(と)ばすため", "余熱(よねつ)と蒸気(じょうき)を行(い)き渡(わた)らせ、水分(すいぶん)を均一(きんいつ)にするため", "米(こめ)を洗(あら)い直(なお)すため"], "correct": 2,
+    "jpExplanation": "蒸(む)らす間(あいだ)に余熱(よねつ)で炊飯(すいはん)が仕上(しあ)がり、米粒(こめつぶ)の水分(すいぶん)が均一(きんいつ)になります。早(はや)く蓋(ふた)を開(あ)けると蒸気(じょうき)が逃(に)げます。",
+    "enExplanation": "Resting under the lid lets residual heat finish cooking and redistributes moisture evenly through the grains."
+  },
+  {
+    "id": "page27-cooking-q12", "chapter": "米の炊き方・料理", "page": 27, "type": "finishing", "difficulty": 2,
+    "question": "蒸(む)らし終(お)わったご飯(はん)を、しゃもじで底(そこ)から切(き)るようにほぐす目的(もくてき)は何(なん)ですか。",
+    "answers": ["粒(つぶ)を全部(ぜんぶ)つぶすため", "ご飯(はん)を生米(なまごめ)に戻(もど)すため", "塩味(しおあじ)を加(くわ)えるため", "余分(よぶん)な蒸気(じょうき)を逃(に)がし、水分(すいぶん)のむらと固(かた)まりを防(ふせ)ぐため"], "correct": 3,
+    "jpExplanation": "炊(た)き上(あ)がったら粒(つぶ)をつぶさないように切(き)り混(ま)ぜます。余分(よぶん)な蒸気(じょうき)が逃(に)げ、上(うえ)と下(した)の水分(すいぶん)がそろい、べたつきを防(ふせ)げます。",
+    "enExplanation": "Cutting and folding with a rice paddle releases excess steam and evens out moisture without crushing the grains."
+  },
+  {
+    "id": "page27-cooking-q13", "chapter": "米の炊き方・料理", "page": 27, "type": "storage", "difficulty": 2,
+    "question": "炊(た)いたご飯(はん)を「おひつ」に移(うつ)すと、木(き)はどのような働(はたら)きをしますか。",
+    "answers": ["余分(よぶん)な湿気(しっけ)を適度(てきど)に吸(す)い、粒(つぶ)の食感(しょっかん)を保(たも)つ", "ご飯(はん)を油(あぶら)で揚(あ)げる", "米(こめ)を精米(せいまい)する", "ご飯(はん)を発酵(はっこう)させる"], "correct": 0,
+    "jpExplanation": "木製(もくせい)のおひつは余分(よぶん)な湿気(しっけ)を吸(す)い、必要(ひつよう)な水分(すいぶん)は保(たも)ちます。ご飯(はん)が水(みず)っぽくなりにくく、粒(つぶ)の食感(しょっかん)を保(たも)てます。",
+    "enExplanation": "A wooden ohitsu moderates moisture by absorbing excess humidity, helping rice stay distinct rather than wet and clumped."
+  },
+  {
+    "id": "page27-cooking-q14", "chapter": "米の炊き方・料理", "page": 27, "type": "dish-choice", "difficulty": 2,
+    "question": "寿司(すし)の酢飯(すめし)に、ササニシキのような粘(ねば)りが控(ひか)えめの米(こめ)が向(む)く理由(りゆう)は何(なん)ですか。",
+    "answers": ["必(かなら)ず甘(あま)くなるから", "酢(す)を合(あ)わせても粒(つぶ)がほぐれやすく、口(くち)の中(なか)でほどけるから", "炊(た)かずに食(た)べられるから", "魚(さかな)の色(いろ)を変(か)えるから"], "correct": 1,
+    "jpExplanation": "粘(ねば)りが強(つよ)すぎない米(こめ)は、酢(す)を切(き)り混(ま)ぜても団子状(だんごじょう)になりにくく、粒(つぶ)が口(くち)でほどけます。寿司(すし)の具(ぐ)の味(あじ)も生(い)かせます。",
+    "enExplanation": "Less-sticky rice stays distinct after seasoning and separates pleasantly in the mouth, supporting rather than overpowering the topping."
+  },
+  {
+    "id": "page27-cooking-q15", "chapter": "米の炊き方・料理", "page": 27, "type": "dish-choice", "difficulty": 2,
+    "question": "おにぎりには、適度(てきど)な粘(ねば)りのある米(こめ)が向(む)きます。なぜですか。",
+    "answers": ["中(なか)まで乾燥(かんそう)させるため", "箸(はし)で混(ま)ぜ続(つづ)けるため", "粒(つぶ)どうしがまとまり、冷(さ)めても形(かたち)を保(たも)ちやすいから", "酢(す)を必(かなら)ず入(い)れるから"], "correct": 2,
+    "jpExplanation": "適度(てきど)な粘(ねば)りは、強(つよ)く押(お)し固(かた)めなくてもおにぎりの形(かたち)を保(たも)ちます。温(あたた)かいうちに、粒(つぶ)をつぶさないように握(にぎ)ります。",
+    "enExplanation": "Moderate stickiness holds an onigiri together without compressing and crushing the grains, even after it cools."
+  },
+  {
+    "id": "page27-cooking-q16", "chapter": "米の炊き方・料理", "page": 27, "type": "mixed-rice", "difficulty": 2,
+    "question": "炊(た)き込(こ)みご飯(はん)で、醤油(しょうゆ)や出汁(だし)を使(つか)うときに注意(ちゅうい)することは何(なん)ですか。",
+    "answers": ["調味料(ちょうみりょう)は炊(た)いた後(あと)だけ入(い)れる", "具(ぐ)は必(かなら)ず全部(ぜんぶ)つぶす", "米(こめ)を洗(あら)わず大量(たいりょう)の油(あぶら)を加(くわ)える", "調味料(ちょうみりょう)も水分量(すいぶんりょう)に含(ふく)め、全体(ぜんたい)の液体(えきたい)を調整(ちょうせい)する"], "correct": 3,
+    "jpExplanation": "醤油(しょうゆ)、酒(さけ)、出汁(だし)も炊飯(すいはん)の水分(すいぶん)です。別(べつ)に通常量(つうじょうりょう)の水(みず)を加(くわ)えると柔(やわ)らかくなりすぎるため、液体(えきたい)の総量(そうりょう)を調整(ちょうせい)します。",
+    "enExplanation": "Seasonings and dashi count toward the total cooking liquid; adding them on top of the usual water can make the rice too soft."
+  },
+  {
+    "id": "page27-cooking-q17", "chapter": "米の炊き方・料理", "page": 27, "type": "dish-method", "difficulty": 1,
+    "question": "生米(なまごめ)を多(おお)めの水(みず)で柔(やわ)らかく炊(た)き、消化(しょうか)しやすく、穏(おだ)やかな食事(しょくじ)にする料理(りょうり)はどれですか。",
+    "answers": ["お粥(かゆ)", "丼(どんぶり)", "寿司(すし)", "煎餅(せんべい)"], "correct": 0,
+    "jpExplanation": "お粥(かゆ)は生米(なまごめ)を多(おお)めの水(みず)で炊(た)きます。水分(すいぶん)が多(おお)く、粒(つぶ)が柔(やわ)らかいため、体調(たいちょう)が悪(わる)いときや軽(かる)い食事(しょくじ)にも向(む)きます。",
+    "enExplanation": "Okayu cooks raw rice in abundant water for a soft, gentle texture suited to a light meal."
+  },
+  {
+    "id": "page27-cooking-q18", "chapter": "米の炊き方・料理", "page": 27, "type": "dish-method", "difficulty": 1,
+    "question": "すでに炊(た)いたご飯(はん)を出汁(だし)や汁(しる)で煮(に)て、野菜(やさい)、卵(たまご)などを加(くわ)える料理(りょうり)はどれですか。",
+    "answers": ["炊(た)き込(こ)みご飯(はん)", "雑炊(ぞうすい)", "餅(もち)", "白飯(はくはん)"], "correct": 1,
+    "jpExplanation": "雑炊(ぞうすい)は炊(た)いたご飯(はん)を出汁(だし)や鍋(なべ)の残(のこ)り汁(じる)で煮(に)ます。汁(しる)の旨味(うまみ)をご飯(はん)に吸(す)わせる料理(りょうり)です。",
+    "enExplanation": "Zosui simmers already-cooked rice in seasoned broth, often using a hot-pot broth so the grains absorb its accumulated umami."
+  },
+  {
+    "id": "page27-cooking-q19", "chapter": "米の炊き方・料理", "page": 27, "type": "rice-product", "difficulty": 1,
+    "question": "蒸(む)したもち米(ごめ)をついて作(つく)ります。強(つよ)い粘(ねば)りと伸(の)びを生(い)かした食品(しょくひん)はどれですか。",
+    "answers": ["米酢(こめず)", "甘酒(あまざけ)", "餅(もち)", "日本酒(にほんしゅ)"], "correct": 2,
+    "jpExplanation": "餅(もち)は蒸(む)したもち米(ごめ)をつき、粒(つぶ)を一体化(いったいか)させて作(つく)ります。もち米(ごめ)の強(つよ)い粘(ねば)りが、独特(どくとく)の伸(の)びと弾力(だんりょく)になります。",
+    "enExplanation": "Pounding steamed glutinous rice unifies the grains into mochi, transforming their high stickiness into stretch and elasticity."
+  },
+  {
+    "id": "page27-cooking-q20", "chapter": "米の炊き方・料理", "page": 27, "type": "rice-product", "difficulty": 2,
+    "question": "米麹(こめこうじ)は、蒸(む)した米(こめ)に麹菌(こうじきん)を育(そだ)てたものです。日本酒(にほんしゅ)、甘酒(あまざけ)、味噌(みそ)作(づく)りで重要(じゅうよう)な働(はたら)きはどれですか。",
+    "answers": ["米(こめ)を緑色(みどりいろ)にする", "水分(すいぶん)を完全(かんぜん)になくす", "粒(つぶ)を金属(きんぞく)のように硬(かた)くする", "酵素(こうそ)で米(こめ)のでんぷんなどを分解(ぶんかい)し、甘味(あまみ)や発酵(はっこう)の材料(ざいりょう)を生(う)む"], "correct": 3,
+    "jpExplanation": "米麹(こめこうじ)の酵素(こうそ)は、米(こめ)のでんぷんを糖(とう)などに分解(ぶんかい)します。それが甘酒(あまざけ)の甘味(あまみ)になり、日本酒(にほんしゅ)や味噌(みそ)の発酵(はっこう)を支(ささ)えます。",
+    "enExplanation": "Enzymes in rice koji break starch into sugars, creating sweetness directly in amazake and supplying fermentable material for sake and miso."
+  }
+]

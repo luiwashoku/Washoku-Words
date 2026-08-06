@@ -651,6 +651,16 @@
             );
           }
 
+          if (
+            lessonData?.kind ===
+              "rice-varieties" &&
+            Array.isArray(lessonData.items)
+          ) {
+            return buildRiceVarietyQuestions(
+              lessonData.items
+            );
+          }
+
           const rawQuestions =
             Array.isArray(lessonData)
               ? lessonData
@@ -814,6 +824,105 @@
         mode
       )
     );
+  }
+
+  function buildRiceVarietyQuestions(items) {
+    const regions = [
+      ...new Set(
+        items.map((item) => item.region)
+      )
+    ];
+    const questions = [];
+
+    items.forEach((item, index) => {
+      const nameAnswers = buildChoices(
+        item.name,
+        items.map((entry) => entry.name),
+        index * 2 % 4
+      );
+
+      questions.push({
+        id: `page27-variety-q${
+          String(index * 2 + 1).padStart(2, "0")
+        }`,
+        chapter: "米の品種・産地",
+        page: 27,
+        type: "rice-profile",
+        difficulty: 2,
+        question:
+          `${item.region}と結(むす)びつきが強(つよ)く、` +
+          `「${item.profile}」という特徴(とくちょう)` +
+          `があり、${item.use}に向(む)く品種(ひんしゅ)` +
+          `はどれですか。`,
+        answers: nameAnswers.answers,
+        correct: nameAnswers.correct,
+        jpExplanation:
+          `「${item.name}」は${item.region}を` +
+          `代表(だいひょう)する米(こめ)の一(ひと)つで、` +
+          `${item.profile}特徴(とくちょう)があります。` +
+          `${item.use}に使(つか)いやすい品種(ひんしゅ)です。`,
+        enExplanation:
+          `${item.name} is strongly associated with ` +
+          `${item.regionEnglish}: ${item.englishProfile}.`
+      });
+
+      const regionAnswers = buildChoices(
+        item.region,
+        regions,
+        (index * 2 + 1) % 4
+      );
+
+      questions.push({
+        id: `page27-variety-q${
+          String(index * 2 + 2).padStart(2, "0")
+        }`,
+        chapter: "米の品種・産地",
+        page: 27,
+        type: "rice-region",
+        difficulty: 2,
+        question:
+          `「${item.name}」の代表的(だいひょうてき)な` +
+          `産地(さんち)・地域(ちいき)として、` +
+          `最(もっと)も結(むす)びつきが強(つよ)い` +
+          `ものはどれですか。`,
+        answers: regionAnswers.answers,
+        correct: regionAnswers.correct,
+        jpExplanation:
+          `「${item.name}」は${item.region}と` +
+          `強(つよ)く結(むす)びつく品種(ひんしゅ)です。`,
+        enExplanation:
+          `${item.name} is strongly associated with ` +
+          `${item.regionEnglish}.`
+      });
+    });
+
+    return questions;
+  }
+
+  function buildChoices(
+    correctValue,
+    values,
+    correctIndex
+  ) {
+    const alternatives = [
+      ...new Set(values)
+    ].filter(
+      (value) => value !== correctValue
+    );
+    const distractors = shuffleArray(
+      alternatives
+    ).slice(0, 3);
+    const answers = [...distractors];
+    answers.splice(
+      Math.min(correctIndex, answers.length),
+      0,
+      correctValue
+    );
+
+    return {
+      answers,
+      correct: answers.indexOf(correctValue)
+    };
   }
 
   function buildSeafoodQuestion(
