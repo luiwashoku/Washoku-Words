@@ -198,7 +198,7 @@ button:focus-visible {
   content: "";
   min-height: 112px;
   border-top: 2px solid var(--ink);
-  background: #ffcc00;
+  background: var(--depth);
 }
 
 .category-card {
@@ -232,8 +232,8 @@ button:focus-visible {
 }
 
 .category-card:nth-child(5) {
-  color: var(--paper);
-  background: var(--depth);
+  color: var(--ink);
+  background: #ffcc00;
 }
 
 .category-card:nth-child(6) {
