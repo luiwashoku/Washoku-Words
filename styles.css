@@ -194,13 +194,6 @@ button:focus-visible {
   grid-auto-rows: minmax(112px, auto);
 }
 
-#categoryGrid::after {
-  content: "";
-  min-height: 112px;
-  border-top: 2px solid var(--ink);
-  background: var(--depth);
-}
-
 .category-card {
   min-height: 112px;
   padding: 14px 16px;
@@ -246,6 +239,24 @@ button:focus-visible {
     var(--pulse) 48%,
     var(--horizon)
   );
+}
+
+.random-question-card {
+  display: grid;
+  place-items: center;
+  color: var(--ink);
+  background: var(--depth);
+  text-align: center;
+}
+
+.random-question-card:disabled {
+  cursor: wait;
+}
+
+.random-question-card strong {
+  padding: 5px 9px;
+  border: 2px solid var(--ink);
+  background: var(--paper);
 }
 
 .category-card strong {
@@ -521,10 +532,6 @@ body.no-furigana rt {
   .category-card {
     min-height: 108px;
     padding: 13px 14px;
-  }
-
-  #categoryGrid::after {
-    min-height: 108px;
   }
 
   .category-card strong {

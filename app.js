@@ -342,6 +342,32 @@
         );
       }
     );
+
+    const randomButton =
+      document.createElement("button");
+
+    randomButton.type = "button";
+    randomButton.className =
+      "category-card random-question-card";
+    randomButton.setAttribute(
+      "aria-label",
+      "おまかせ問題を始める"
+    );
+    randomButton.innerHTML = `
+      <strong>おまかせ問題</strong>
+    `;
+
+    randomButton.addEventListener(
+      "click",
+      () => {
+        playSound("click");
+        openRandomSession(randomButton);
+      }
+    );
+
+    elements.categoryGrid.appendChild(
+      randomButton
+    );
   }
 
   function getLessonsForCategory(
@@ -644,6 +670,112 @@
       );
 
     return questionGroups.flat();
+  }
+
+  async function openRandomSession(button) {
+    button.disabled = true;
+    button.querySelector("strong").textContent =
+      "読み込み中…";
+
+    try {
+      const loadedLessons =
+        await Promise.all(
+          state.catalog.map(
+            async (lesson) => {
+              try {
+                const questions =
+                  await loadLessonQuestions(
+                    lesson
+                  );
+
+                return {
+                  lesson,
+                  questions:
+                    shuffleArray(questions)
+                };
+              } catch (error) {
+                console.info(
+                  `Skipping ${lesson.id} ` +
+                  "in random practice.",
+                  error
+                );
+
+                return null;
+              }
+            }
+          )
+        );
+
+      const availableLessons =
+        loadedLessons.filter(
+          (entry) =>
+            entry &&
+            entry.questions.length > 0
+        );
+
+      const selectedQuestions = [];
+
+      while (
+        selectedQuestions.length < 10 &&
+        availableLessons.some(
+          (entry) =>
+            entry.questions.length > 0
+        )
+      ) {
+        const round = shuffleArray(
+          availableLessons.filter(
+            (entry) =>
+              entry.questions.length > 0
+          )
+        );
+
+        for (const entry of round) {
+          if (
+            selectedQuestions.length >= 10
+          ) {
+            break;
+          }
+
+          const question =
+            entry.questions.pop();
+
+          selectedQuestions.push({
+            ...question,
+            chapter:
+              `${question.chapter ||
+                entry.lesson.title}` +
+              ` · Page ${entry.lesson.page}`
+          });
+        }
+      }
+
+      if (selectedQuestions.length === 0) {
+        throw new Error(
+          "No questions are available."
+        );
+      }
+
+      state.selectedCategory = null;
+      state.selectedLesson = {
+        id: "random-session",
+        title: "おまかせ問題",
+        isRandom: true
+      };
+      state.questions = selectedQuestions;
+      state.currentQuestionIndex = 0;
+
+      showScreen("quiz");
+      renderCurrentQuestion();
+    } catch (error) {
+      console.error(error);
+      window.alert(
+        "おまかせ問題を読み込めませんでした。"
+      );
+    } finally {
+      button.disabled = false;
+      button.querySelector("strong").textContent =
+        "おまかせ問題";
+    }
   }
 
   function buildSeafoodQuestions(
@@ -973,7 +1105,10 @@
   function updateLessonProgress(
     isCorrect
   ) {
-    if (!state.selectedLesson) {
+    if (
+      !state.selectedLesson ||
+      state.selectedLesson.isRandom
+    ) {
       return;
     }
 
@@ -1072,8 +1207,15 @@
 
   function finishLesson() {
     window.alert(
-      "Lesson complete. Great work!"
+      state.selectedLesson?.isRandom
+        ? "おまかせ問題、完了！"
+        : "Lesson complete. Great work!"
     );
+
+    if (state.selectedLesson?.isRandom) {
+      returnHome();
+      return;
+    }
 
     if (state.selectedCategory) {
       const lessons =
@@ -1091,12 +1233,18 @@
     playSound("click");
 
     state.selectedCategory = null;
+    state.selectedLesson = null;
 
     renderCategories();
     showScreen("home");
   }
 
   function returnToLessonList() {
+    if (state.selectedLesson?.isRandom) {
+      returnHome();
+      return;
+    }
+
     playSound("click");
 
     if (state.selectedCategory) {
