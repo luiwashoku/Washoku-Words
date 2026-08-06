@@ -225,6 +225,30 @@
   },
   "questionCount": 20
 },
+  {
+  "id": "page28-29-science",
+  "category": "fermentation",
+  "page": "28–29",
+  "title": "発酵のしくみ",
+  "file": "data/pages28-29-science.json",
+  "introduction": {
+    "ja": "日本(にほん)の発酵(はっこう)は、一種類(いっしゅるい)の菌(きん)が一度(いちど)に食品(しょくひん)を完成(かんせい)させる仕組(しく)みではありません。まず麹菌(こうじきん)が作(つく)る酵素(こうそ)によって、米(こめ)や麦(むぎ)の、でんぷんは糖(とう)へ、大豆(だいず)の、たんぱく質(しつ)はアミノ酸(さん)やペプチドへ分解(ぶんかい)されます。糖(とう)は甘味(あまみ)になるだけでなく、酵母(こうぼ)がアルコールを作(つく)る材料(ざいりょう)、乳酸菌(にゅうさんきん)が酸(さん)を作(つく)る材料(ざいりょう)にもなります。さらに酢酸菌(さくさんきん)はアルコールを酢酸(さくさん)へ変(か)え、納豆菌(なっとうきん)は大豆(だいず)に独特(どくとく)の粘(ねば)りを生(う)みます。この章(しょう)では、原料(げんりょう)、麹(こうじ)、酵素(こうそ)、微生物(びせいぶつ)の働(はたら)きを経路(けいろ)としてつなぎ、同(おな)じ米(こめ)や大豆(だいず)が、なぜ全(まった)く違(ちが)う食品(しょくひん)へ変(か)わるのかを理解(りかい)します。",
+    "en": "Japanese fermentation is not usually one microorganism completing a food in a single step. Koji mold first supplies enzymes that break the starch of rice or barley into sugars and soybean protein into amino acids and peptides. Sugars provide sweetness, but they also become material from which yeast makes alcohol and lactic acid bacteria make acid. Acetic acid bacteria can then transform alcohol into vinegar, while natto bacteria create the soybean's characteristic sticky texture. This chapter links raw materials, koji, enzymes and microorganisms as pathways, explaining how the same rice or soybean can be directed toward entirely different foods."
+  },
+  "questionCount": 20
+},
+  {
+  "id": "page28-29-culinary",
+  "category": "fermentation",
+  "page": "28–29",
+  "title": "発酵と料理",
+  "file": "data/pages28-29-culinary.json",
+  "introduction": {
+    "ja": "発酵調味料(はっこうちょうみりょう)を使(つか)い分(わ)けるには、その中(なか)で何(なに)が変化(へんか)したかを考(かんが)えます。塩麹(しおこうじ)は塩味(しおあじ)と旨味(うまみ)を加(くわ)えながら肉(にく)や魚(さかな)の、たんぱく質(しつ)に働(はたら)き、甘酒(あまざけ)は、でんぷんから生(う)まれた穏(おだ)やかな甘味(あまみ)を与(あた)えます。味噌(みそ)と醤油(しょうゆ)にはアミノ酸(さん)の旨味(うまみ)と熟成香(じゅくせいこう)があり、味醂(みりん)は甘味(あまみ)、つや、コクを加(くわ)えます。酢(す)や乳酸発酵(にゅうさんはっこう)の酸(さん)、塩分(えんぶん)、アルコール、望(のぞ)ましい微生物(びせいぶつ)の働(はたら)きは、保存(ほぞん)しやすい環境(かんきょう)にも関係(かんけい)します。この章(しょう)では、「発酵食品(はっこうしょくひん)だから使(つか)う」のではなく、甘味(あまみ)、旨味(うまみ)、香(かお)り、柔(やわ)らかさ、酸味(さんみ)、保存(ほぞん)という目的(もくてき)から、適切(てきせつ)な調味料(ちょうみりょう)と工程(こうてい)を選(えら)びます。",
+    "en": "To choose among fermented seasonings, consider what has changed inside each one. Shio koji adds salt and savouriness while its enzymes act on meat or fish proteins; amazake contributes gentle sweetness released from starch. Miso and soy sauce carry amino-acid umami and matured aroma, while mirin supplies sweetness, gloss and depth. The acids of vinegar or lactic fermentation, together with salt, alcohol and the activity of desired microbes, can also help create preservative conditions. This chapter starts from a culinary goal—sweetness, umami, aroma, tenderness, acidity or preservation—and asks which fermented product and process can achieve it."
+  },
+  "questionCount": 20
+},
     {
   "id": "page52",
   "category": "techniques",
