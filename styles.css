@@ -230,6 +230,7 @@ button:focus-visible {
 }
 
 .category-card:nth-child(6) {
+  border-bottom: 2px solid var(--ink);
   background: var(--canvas);
 }
 
