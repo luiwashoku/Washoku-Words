@@ -614,6 +614,17 @@
           const lessonData =
             await response.json();
 
+          if (
+            lessonData?.kind ===
+              "seafood-profiles" &&
+            Array.isArray(lessonData.items)
+          ) {
+            return buildSeafoodQuestions(
+              lessonData.items,
+              lesson.quizMode
+            );
+          }
+
           const rawQuestions =
             Array.isArray(lessonData)
               ? lessonData
@@ -633,6 +644,168 @@
       );
 
     return questionGroups.flat();
+  }
+
+  function buildSeafoodQuestions(
+    items,
+    mode
+  ) {
+    const candidates = items.filter(
+      (item) => {
+        if (mode === "fish-names") {
+          return item.group === "fish";
+        }
+
+        if (mode === "seafood-names") {
+          return item.group !== "fish";
+        }
+
+        if (mode === "flavour-texture") {
+          return Boolean(
+            item.flavour && item.texture
+          );
+        }
+
+        if (mode === "cooking-method") {
+          return Boolean(item.methods);
+        }
+
+        return false;
+      }
+    );
+
+    return candidates.map((item, index) =>
+      buildSeafoodQuestion(
+        item,
+        index,
+        candidates,
+        mode
+      )
+    );
+  }
+
+  function buildSeafoodQuestion(
+    item,
+    index,
+    candidates,
+    mode
+  ) {
+    const readingFirst = index % 2 === 0;
+    const answerValue =
+      mode === "fish-names" ||
+      mode === "seafood-names"
+        ? readingFirst
+          ? item.reading
+          : item.name
+        : `${item.name}(${item.reading})`;
+
+    const valueFor = (candidate) => {
+      if (
+        mode === "fish-names" ||
+        mode === "seafood-names"
+      ) {
+        return readingFirst
+          ? candidate.reading
+          : candidate.name;
+      }
+
+      return (
+        `${candidate.name}` +
+        `(${candidate.reading})`
+      );
+    };
+
+    const distractors = [];
+
+    for (
+      let offset = 1;
+      distractors.length < 3 &&
+      offset < candidates.length;
+      offset += 1
+    ) {
+      const value = valueFor(
+        candidates[
+          (index + offset) %
+            candidates.length
+        ]
+      );
+
+      if (
+        value !== answerValue &&
+        !distractors.includes(value)
+      ) {
+        distractors.push(value);
+      }
+    }
+
+    const correct = index % 4;
+    const answers = [...distractors];
+    answers.splice(correct, 0, answerValue);
+
+    let question;
+    let jpExplanation;
+
+    if (
+      mode === "fish-names" ||
+      mode === "seafood-names"
+    ) {
+      question = readingFirst
+        ? `「${item.name}」はどう読(よ)みますか。`
+        : `「${item.reading}」と読(よ)む` +
+          `魚介(ぎょかい)はどれですか。`;
+
+      jpExplanation =
+        `「${item.name}」は` +
+        `「${item.reading}」と読(よ)みます。`;
+    } else if (mode === "flavour-texture") {
+      question =
+        `味(あじ)は「${item.flavour}」、` +
+        `食感(しょっかん)は` +
+        `「${item.texture}」と表現(ひょうげん)` +
+        `されることが多(おお)い魚介(ぎょかい)` +
+        `はどれですか。`;
+
+      jpExplanation =
+        `「${item.name}(${item.reading})」は、` +
+        `${item.flavour}味(あじ)わいと、` +
+        `${item.texture}食感(しょっかん)が` +
+        `特徴(とくちょう)です。`;
+    } else {
+      question =
+        `「${item.methods}」に` +
+        `よく使(つか)われる魚介(ぎょかい)` +
+        `はどれですか。`;
+
+      jpExplanation =
+        `「${item.name}(${item.reading})」は、` +
+        `${item.methods}などで` +
+        `持(も)ち味(あじ)を生(い)かします。`;
+    }
+
+    return {
+      id: `page22-23-${mode}-q${
+        String(index + 1).padStart(2, "0")
+      }`,
+      chapter:
+        mode === "fish-names"
+          ? "魚の名前"
+          : mode === "seafood-names"
+            ? "魚以外の魚介の名前"
+            : mode === "flavour-texture"
+              ? "魚の味・食感"
+              : "魚の調理法",
+      page: "22–23",
+      type: mode,
+      difficulty:
+        mode.includes("names") ? 2 : 3,
+      question,
+      answers,
+      correct,
+      jpExplanation,
+      enExplanation:
+        `${item.name} (${item.reading}) is ` +
+        `${item.english}.`
+    };
   }
 
   function isValidQuestion(question) {

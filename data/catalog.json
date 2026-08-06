@@ -81,6 +81,42 @@
   ],
   "questionCount": 31
 },
+  {
+  "id": "page22-23-fish-names",
+  "category": "food-culture",
+  "page": "22–23",
+  "title": "魚の名前",
+  "file": "data/seafood22-23.json",
+  "quizMode": "fish-names",
+  "questionCount": 29
+},
+  {
+  "id": "page22-23-seafood-names",
+  "category": "food-culture",
+  "page": "22–23",
+  "title": "魚以外の魚介の名前",
+  "file": "data/seafood22-23.json",
+  "quizMode": "seafood-names",
+  "questionCount": 32
+},
+  {
+  "id": "page22-23-flavour-texture",
+  "category": "food-culture",
+  "page": "22–23",
+  "title": "魚の味・食感",
+  "file": "data/seafood22-23.json",
+  "quizMode": "flavour-texture",
+  "questionCount": 20
+},
+  {
+  "id": "page22-23-cooking-method",
+  "category": "food-culture",
+  "page": "22–23",
+  "title": "魚の調理法",
+  "file": "data/seafood22-23.json",
+  "quizMode": "cooking-method",
+  "questionCount": 20
+},
     {
   "id": "page52",
   "category": "techniques",
