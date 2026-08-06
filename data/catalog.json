@@ -1,20 +1,14 @@
 [
   {
-  "id": "page01",
+  "id": "page01-02",
   "category": "basics",
-  "page": 1,
+  "page": "1–2",
   "title": "味・香り・食感",
-  "file": "data/pages01.json",
-  "questionCount": 40
-},
-  
-{
-  "id": "page02",
-  "category": "basics",
-  "page": 2,
-  "title": "食感",
-  "file": "data/pages02.json",
-  "questionCount": 40
+  "files": [
+    "data/pages01.json",
+    "data/pages02.json"
+  ],
+  "questionCount": 80
 },
   {
   "id": "page03",

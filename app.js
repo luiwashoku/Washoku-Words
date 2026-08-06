@@ -270,7 +270,17 @@
       typeof entry.id === "string" &&
       typeof entry.category === "string" &&
       typeof entry.title === "string" &&
-      typeof entry.file === "string"
+      (
+        typeof entry.file === "string" ||
+        (
+          Array.isArray(entry.files) &&
+          entry.files.length > 0 &&
+          entry.files.every(
+            (file) =>
+              typeof file === "string"
+          )
+        )
+      )
     );
   }
 
@@ -574,39 +584,49 @@
   async function loadLessonQuestions(
     lesson
   ) {
-    const response = await fetch(
-      lesson.file,
-      {
-        cache: "no-store"
-      }
-    );
+    const files = Array.isArray(lesson.files)
+      ? lesson.files
+      : [lesson.file];
 
-    if (!response.ok) {
-      throw new Error(
-        `Lesson request failed with ` +
-        `${response.status}: ` +
-        `${lesson.file}`
+    const questionGroups =
+      await Promise.all(
+        files.map(async (file) => {
+          const response = await fetch(
+            file,
+            {
+              cache: "no-store"
+            }
+          );
+
+          if (!response.ok) {
+            throw new Error(
+              `Lesson request failed with ` +
+              `${response.status}: ${file}`
+            );
+          }
+
+          const lessonData =
+            await response.json();
+
+          const rawQuestions =
+            Array.isArray(lessonData)
+              ? lessonData
+              : lessonData.questions;
+
+          if (!Array.isArray(rawQuestions)) {
+            throw new Error(
+              "Lesson JSON must be an array " +
+              "or contain a questions array."
+            );
+          }
+
+          return rawQuestions.filter(
+            isValidQuestion
+          );
+        })
       );
-    }
 
-    const lessonData =
-      await response.json();
-
-    const rawQuestions =
-      Array.isArray(lessonData)
-        ? lessonData
-        : lessonData.questions;
-
-    if (!Array.isArray(rawQuestions)) {
-      throw new Error(
-        "Lesson JSON must be an array " +
-        "or contain a questions array."
-      );
-    }
-
-    return rawQuestions.filter(
-      isValidQuestion
-    );
+    return questionGroups.flat();
   }
 
   function isValidQuestion(question) {
