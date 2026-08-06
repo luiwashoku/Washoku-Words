@@ -194,6 +194,13 @@ button:focus-visible {
   grid-auto-rows: minmax(112px, auto);
 }
 
+#categoryGrid::after {
+  content: "";
+  min-height: 112px;
+  border-top: 2px solid var(--ink);
+  background: #ffcc00;
+}
+
 .category-card {
   min-height: 112px;
   padding: 14px 16px;
@@ -230,7 +237,6 @@ button:focus-visible {
 }
 
 .category-card:nth-child(6) {
-  border-bottom: 2px solid var(--ink);
   background: var(--canvas);
 }
 
@@ -517,6 +523,10 @@ body.no-furigana rt {
     padding: 13px 14px;
   }
 
+  #categoryGrid::after {
+    min-height: 108px;
+  }
+
   .category-card strong {
     font-size: 20px;
   }
@@ -531,15 +541,5 @@ body.no-furigana rt {
 
   .stat-label {
     font-size: 9px;
-  }
-}
-
-@media (max-width: 350px) {
-  #categoryGrid {
-    grid-template-columns: 1fr;
-  }
-
-  .category-card {
-    border-right: 0;
   }
 }
