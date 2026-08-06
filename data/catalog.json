@@ -11,20 +11,15 @@
   "questionCount": 80
 },
   {
-  "id": "page03",
+  "id": "page03-04",
   "category": "basics",
-  "page": 3,
+  "page": "3–4",
   "title": "調理の基本動詞",
-  "file": "data/pages03.json",
-  "questionCount": 20
-},
-  {
-  "id": "page04",
-  "category": "basics",
-  "page": 4,
-  "title": "調理の基本動詞 II",
-  "file": "data/pages04.json",
-  "questionCount": 20
+  "files": [
+    "data/pages03.json",
+    "data/pages04.json"
+  ],
+  "questionCount": 40
 },
   {
   "id": "page05",
