@@ -157,6 +157,36 @@
         "backToPages"
       );
 
+    elements.lessonIntroductionButton =
+      document.getElementById(
+        "lessonIntroductionButton"
+      );
+
+    elements.lessonIntroductionDialog =
+      document.getElementById(
+        "lessonIntroductionDialog"
+      );
+
+    elements.introductionTitle =
+      document.getElementById(
+        "introductionTitle"
+      );
+
+    elements.introductionJapanese =
+      document.getElementById(
+        "introductionJapanese"
+      );
+
+    elements.introductionEnglish =
+      document.getElementById(
+        "introductionEnglish"
+      );
+
+    elements.closeIntroduction =
+      document.getElementById(
+        "closeIntroduction"
+      );
+
     elements.nextQuestion =
       document.getElementById(
         "nextQuestion"
@@ -173,6 +203,23 @@
       "click",
       returnToLessonList
     );
+
+    elements.lessonIntroductionButton
+      .addEventListener(
+        "click",
+        openLessonIntroduction
+      );
+
+    elements.closeIntroduction.addEventListener(
+      "click",
+      closeLessonIntroduction
+    );
+
+    elements.lessonIntroductionDialog
+      .addEventListener(
+        "click",
+        closeIntroductionFromBackdrop
+      );
 
     elements.nextQuestion.addEventListener(
       "click",
@@ -564,6 +611,7 @@
 
       state.currentQuestionIndex = 0;
 
+      updateLessonIntroduction();
       showScreen("quiz");
       renderCurrentQuestion();
     } catch (error) {
@@ -774,6 +822,7 @@
       state.questions = selectedQuestions;
       state.currentQuestionIndex = 0;
 
+      updateLessonIntroduction();
       showScreen("quiz");
       renderCurrentQuestion();
     } catch (error) {
@@ -785,6 +834,54 @@
       button.disabled = false;
       button.querySelector("strong").textContent =
         "おまかせ問題";
+    }
+  }
+
+  function updateLessonIntroduction() {
+    const introduction =
+      state.selectedLesson?.introduction;
+    const isAvailable = Boolean(
+      introduction?.ja && introduction?.en
+    );
+
+    elements.lessonIntroductionButton
+      .classList.toggle(
+        "hidden",
+        !isAvailable
+      );
+
+    if (!isAvailable) {
+      return;
+    }
+
+    elements.introductionTitle.textContent =
+      state.selectedLesson.title;
+    elements.introductionJapanese.textContent =
+      introduction.ja;
+    elements.introductionEnglish.textContent =
+      introduction.en;
+  }
+
+  function openLessonIntroduction() {
+    if (!state.selectedLesson?.introduction) {
+      return;
+    }
+
+    playSound("click");
+    elements.lessonIntroductionDialog
+      .showModal();
+  }
+
+  function closeLessonIntroduction() {
+    elements.lessonIntroductionDialog.close();
+  }
+
+  function closeIntroductionFromBackdrop(event) {
+    if (
+      event.target ===
+      elements.lessonIntroductionDialog
+    ) {
+      closeLessonIntroduction();
     }
   }
 
