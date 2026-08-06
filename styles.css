@@ -156,7 +156,7 @@ button:focus-visible {
   min-width: 0;
   padding: 17px 10px;
   border-right: 2px solid var(--ink);
-  text-align: left;
+  text-align: center;
 }
 
 .stat:last-child {
