@@ -23,6 +23,10 @@
     "data/pages03.json",
     "data/pages04.json"
   ],
+  "introduction": {
+    "ja": "料理(りょうり)の手順(てじゅん)は、動詞(どうし)を中心(ちゅうしん)に組(く)み立(た)てられています。切(き)る、焼(や)く、煮(に)るといった基本(きほん)の動作(どうさ)に加(くわ)え、刻(きざ)む、すりおろす、和(あ)える、こねるなどの言葉(ことば)は、食材(しょくざい)をどのような状態(じょうたい)にしたいかまで伝(つた)えます。似(に)た動詞(どうし)でも、動(うご)かし方(かた)、火(ひ)や水(みず)の使(つか)い方(かた)、仕上(しあ)がる形(かたち)が異(こと)なります。この章(しょう)では、レシピや料理教室(りょうりきょうしつ)の指示(しじ)を聞(き)いたときに、手(て)の動(うご)きと完成(かんせい)した食材(しょくざい)をすぐ思(おも)い浮(う)かべられるように、調理(ちょうり)の基本動詞(きほんどうし)を学(まな)びます。",
+    "en": "Cooking instructions are built around verbs. Beyond basic actions such as cutting, grilling and simmering, words like chop, grate, dress and knead also tell us what condition the ingredient should reach. Even similar verbs differ in the movement required, the use of heat or water, and the resulting shape or texture. This chapter develops the ability to hear or read an instruction in a recipe or cooking class and immediately picture both the action of the hands and the finished ingredient."
+  },
   "questionCount": 40
 },
   {
@@ -31,6 +35,10 @@
   "page": 5,
   "title": "調理器具",
   "file": "data/pages05.json",
+  "introduction": {
+    "ja": "調理器具(ちょうりきぐ)は、ただ便利(べんり)な道具(どうぐ)ではなく、料理(りょうり)の仕上(しあ)がりを整(ととの)えるための選択(せんたく)です。包丁(ほうちょう)で切(き)る、ざるで水(みず)を切(き)る、おろし金(がね)ですりおろす、蒸(む)し器(き)で湯気(ゆげ)を使(つか)うなど、道具(どうぐ)の形(かたち)と素材(そざい)にはそれぞれ役割(やくわり)があります。正(ただ)しい道具(どうぐ)を選(えら)ぶと、食材(しょくざい)を崩(くず)さず、余分(よぶん)な水分(すいぶん)を除(のぞ)き、火(ひ)を均一(きんいつ)に通(とお)すことができます。この章(しょう)では、器具(きぐ)の名前(なまえ)だけでなく、「何(なに)をするために使(つか)うのか」を動作(どうさ)と結(むす)びつけて学(まな)びます。",
+    "en": "A cooking utensil is not merely a convenience; choosing one helps determine the final condition of a dish. A knife cuts, a colander drains, a grater breaks an ingredient into a fine aromatic pulp, and a steamer cooks gently with vapour. The shape and material of each tool serve a purpose. Selecting the right one can protect delicate ingredients, remove excess water or apply heat evenly. This chapter connects the name of each utensil with the action it performs and the reason a cook reaches for it."
+  },
   "questionCount": 32
 },
   {
@@ -39,6 +47,10 @@
   "page": 6,
   "title": "焼き加減",
   "file": "data/pages06.json",
+  "introduction": {
+    "ja": "焼(や)き加減(かげん)とは、食材(しょくざい)の中(なか)まで、どの程度(ていど)火(ひ)が入(はい)っているかを表(あらわ)す言葉(ことば)です。肉(にく)では、レアからウェルダンまで、中心(ちゅうしん)の色(いろ)、温度(おんど)、柔(やわ)らかさが段階的(だんかいてき)に変(か)わります。一方(いっぽう)、生(なま)、半生(はんなま)、生焼(なまや)け、火(ひ)が通(とお)る、焼(や)きすぎといった表現(ひょうげん)は、さまざまな食材(しょくざい)の加熱状態(かねつじょうたい)を説明(せつめい)するときに使(つか)えます。料理(りょうり)では、好(この)みの食感(しょっかん)を作(つく)ることと、安全(あんぜん)に必要(ひつよう)な加熱(かねつ)をすることの両方(りょうほう)が大切(たいせつ)です。この章(しょう)では、断面(だんめん)の色(いろ)や食感(しょっかん)を思(おも)い浮(う)かべながら、焼(や)き加減(かげん)を説明(せつめい)し、注文(ちゅうもん)する言葉(ことば)を学(まな)びます。",
+    "en": "Yaki-kagen describes how far heat has travelled into an ingredient. With meat, the progression from rare to well-done changes the colour, temperature and tenderness of the centre. More general expressions—raw, partially cooked, undercooked, cooked through and overcooked—can describe the state of many ingredients. Good cooking balances the desired texture with the amount of heat required for safety. This chapter teaches you to picture the colour and texture of a cut surface, describe its doneness, and communicate the result you want when ordering."
+  },
   "questionCount": 20
 },
   {
@@ -47,6 +59,10 @@
   "page": 27,
   "title": "米の品種・産地",
   "file": "data/rice27-varieties.json",
+  "introduction": {
+    "ja": "日本(にほん)の米(こめ)には多(おお)くの品種(ひんしゅ)があり、炊(た)いたときの甘味(あまみ)、粘(ねば)り、硬(かた)さ、粒(つぶ)の大(おお)きさ、つやに違(ちが)いがあります。コシヒカリと新潟県(にいがたけん)、ゆめぴりかと北海道(ほっかいどう)、つや姫(ひめ)と山形県(やまがたけん)のように、品種(ひんしゅ)は代表的(だいひょうてき)な産地(さんち)の気候(きこう)や米作(こめづく)りとも強(つよ)く結(むす)びついています。粘(ねば)りのある米(こめ)は、おにぎりの形(かたち)を保(たも)ちやすく、粒(つぶ)がほぐれやすい米(こめ)は酢飯(すめし)に向(む)きます。大粒(おおつぶ)で硬(かた)めの米(こめ)は、丼(どんぶり)やカレーの味(あじ)を受(う)け止(と)め、冷(さ)めたときの食感(しょっかん)がよい米(こめ)は弁当(べんとう)で力(ちから)を発揮(はっき)します。この章(しょう)では、産地(さんち)と品種名(ひんしゅめい)を覚(おぼ)えるだけでなく、食(た)べたときの特徴(とくちょう)から、どの料理(りょうり)に選(えら)ぶかを考(かんが)えます。",
+    "en": "Japan grows many rice varieties, differing in sweetness, stickiness, firmness, grain size and gloss after cooking. Varieties are also strongly associated with notable producing regions and their climates—for example Koshihikari with Niigata, Yumepirika with Hokkaido and Tsuyahime with Yamagata. Sticky rice holds the shape of onigiri, while grains that separate easily suit vinegared sushi rice. Large, firm grains can stand up to the sauce of donburi or curry, and varieties that remain pleasant when cool are valuable for bento. This chapter goes beyond memorizing variety and region names: it uses eating qualities to consider which rice a cook might choose for a particular dish."
+  },
   "questionCount": 20
 },
   {
@@ -55,6 +71,10 @@
   "page": 27,
   "title": "米の炊き方・料理",
   "file": "data/pages27-cooking.json",
+  "introduction": {
+    "ja": "米(こめ)を炊(た)くことは、米粒(こめつぶ)の中心(ちゅうしん)まで水(みず)を届(とど)け、熱(ねつ)によって、でんぷんを柔(やわ)らかく変化(へんか)させる調理(ちょうり)です。最初(さいしょ)の水(みず)を手早(てばや)く捨(す)て、米粒(こめつぶ)を傷(きず)つけないように洗(あら)い、十分(じゅうぶん)に吸水(きゅうすい)させることが、むらのない炊(た)き上(あ)がりにつながります。加熱後(かねつご)に蒸(む)らすと、余熱(よねつ)と蒸気(じょうき)が行(い)き渡(わた)り、しゃもじで切(き)るようにほぐすと余分(よぶん)な湿気(しっけ)が逃(に)げます。新米(しんまい)、玄米(げんまい)、もち米(ごめ)では、もともとの水分(すいぶん)や構造(こうぞう)が異(こと)なるため、水加減(みずかげん)や吸水時間(きゅうすいじかん)も変(か)わります。この章(しょう)では、洗米(せんまい)から蒸(む)らしまでの各工程(かくこうてい)が何(なに)をしているのかを理解(りかい)し、寿司(すし)、おにぎり、お粥(かゆ)、炊(た)き込(こ)みご飯(はん)など、目的(もくてき)に合(あ)う炊(た)き方(かた)を考(かんが)えます。",
+    "en": "Cooking rice means carrying water to the centre of each grain and using heat to soften and transform its starch. Quickly discarding the first cloudy water, washing without damaging the grains and allowing sufficient absorption all support even cooking. Resting after heating lets residual heat and steam redistribute, while cutting and folding with a rice paddle releases excess moisture. New-crop rice, brown rice and glutinous rice begin with different moisture levels and structures, so their water ratios and soaking times also differ. This chapter explains the purpose of every stage from washing to resting and uses that understanding to choose an approach for sushi, onigiri, okayu, mixed rice and other preparations."
+  },
   "questionCount": 20
 },
   {
@@ -63,6 +83,10 @@
   "page": 26,
   "title": "大豆",
   "file": "data/pages26.json",
+  "introduction": {
+    "ja": "大豆(だいず)は、一粒(ひとつぶ)の豆(まめ)から多(おお)くの重要(じゅうよう)な食品(しょくひん)へ姿(すがた)を変(か)える、和食(わしょく)の基本食材(きほんしょくざい)です。未成熟(みせいじゅく)な豆(まめ)を食(た)べれば枝豆(えだまめ)になり、成熟(せいじゅく)した大豆(だいず)を煮(に)て搾(しぼ)れば豆乳(とうにゅう)、それを固(かた)めれば豆腐(とうふ)、表面(ひょうめん)の膜(まく)を取(と)れば湯葉(ゆば)になります。豆腐(とうふ)を揚(あ)げると、香(こう)ばしさと、出汁(だし)を吸(す)う性質(せいしつ)が加(くわ)わります。さらに、菌(きん)、麹(こうじ)、塩(しお)、時間(じかん)の働(はたら)きによって、納豆(なっとう)、味噌(みそ)、醤油(しょうゆ)のような発酵食品(はっこうしょくひん)へ変化(へんか)し、粘(ねば)り、旨味(うまみ)、香(かお)り、コクを生(う)みます。この章(しょう)では、製品名(せいひんめい)を一(ひと)つずつ覚(おぼ)えるのではなく、どの工程(こうてい)で姿(すがた)が変(か)わり、その結果(けっか)、料理(りょうり)でどんな役割(やくわり)を持(も)つのかを学(まな)びます。",
+    "en": "The soybean is a foundational washoku ingredient because one small bean can become many essential foods. Eaten immature, it is edamame; mature beans cooked and extracted produce soy milk, which can be coagulated into tofu, while the delicate surface film becomes yuba. Frying tofu adds toasted flavour and a porous structure that absorbs dashi. With microorganisms, koji, salt and time, soybeans become fermented foods such as natto, miso and soy sauce, developing stickiness, umami, aroma and depth. Rather than treating every product as an unrelated name, this chapter follows the transformation step by step and connects each process with the resulting ingredient's role in cooking."
+  },
   "questionCount": 20
 },
   {
@@ -71,6 +95,10 @@
   "page": 25,
   "title": "きのこ",
   "file": "data/pages25.json",
+  "introduction": {
+    "ja": "きのこは、傘(かさ)、軸(じく)、ひだ、色(いろ)、生(は)え方(かた)を見ると、それぞれの姿(すがた)を区別(くべつ)しやすくなります。しいたけの丸(まる)い傘(かさ)、えのきの細長(ほそなが)い束(たば)、まいたけの重(かさ)なった薄(うす)い傘(かさ)、きくらげの耳(みみ)のような形(かたち)は、食感(しょっかん)とも結(むす)びついています。加熱(かねつ)すると旨味(うまみ)と香(かお)りが立(た)ち、ぷりぷり、しゃきしゃき、こりこり、ぬるっとした食感(しょっかん)が料理(りょうり)に加(くわ)わります。乾燥(かんそう)しいたけは、戻(もど)し汁(じる)まで出汁(だし)として使(つか)え、まつたけは強(つよ)い香(かお)りを生(い)かす料理(りょうり)に選(えら)ばれます。この章(しょう)では、見(み)た目(め)、香(かお)り、歯触(はざわ)り、調理法(ちょうりほう)を一(ひと)つの記憶(きおく)に結(むす)びつけ、きのこが料理(りょうり)に与(あた)える個性(こせい)を見分(みわ)けます。",
+    "en": "Mushrooms become easier to distinguish when you observe their caps, stems, gills, colours and growth patterns. The rounded cap of shiitake, slender cluster of enoki, overlapping fronds of maitake and ear-like shape of kikurage are also clues to texture. Heating develops aroma and savouriness while adding springy, crisp, crunchy or slippery sensations to a dish. Dried shiitake contributes flavour through both the mushroom and its soaking liquid, whereas matsutake is chosen for preparations that preserve its distinctive perfume. This chapter binds appearance, aroma, mouthfeel and culinary use into one memory, helping you recognize the individual character each mushroom brings to food."
+  },
   "questionCount": 20
 },
   {
@@ -79,6 +107,10 @@
   "page": "7–8",
   "title": "和食・懐石の考え方",
   "file": "data/pages07-08.json",
+  "introduction": {
+    "ja": "和食(わしょく)では、一皿(ひとさら)の味(あじ)だけでなく、食事(しょくじ)全体(ぜんたい)の流(なが)れ、季節(きせつ)、器(うつわ)、盛(も)り付(つ)けまでを一(ひと)つの体験(たいけん)として考(かんが)えます。一汁三菜(いちじゅうさんさい)は料理(りょうり)の役割(やくわり)を整(ととの)える基本(きほん)の形(かたち)であり、懐石(かいせき)では先付(さきづけ)、椀物(わんもの)、向付(むこうづけ)などを順(じゅん)に出(だ)し、味(あじ)や温度(おんど)の変化(へんか)を作(つく)ります。旬(しゅん)には、季節(きせつ)の始(はじ)まりの「走(はし)り」、最盛期(さいせいき)の「盛(さか)り」、終(お)わりを惜(お)しむ「名残(なごり)」があります。素材(そざい)を生(い)かし、余白(よはく)を残(のこ)し、その日(ひ)の客(きゃく)を思(おも)うことが、おもてなしにつながります。この章(しょう)では、料理(りょうり)を構成(こうせい)する言葉(ことば)と、その奥(おく)にある考(かんが)え方(かた)を学(まな)びます。",
+    "en": "Washoku treats more than the flavour of a single plate as important: the progression of the meal, the season, the vessels and the arrangement all form one experience. Ichiju-sansai provides a basic structure of complementary dishes, while kaiseki presents courses such as sakizuke, wanmono and mukozuke in a sequence that varies flavour and temperature. Seasonality also has a progression—hashiri for an ingredient's early arrival, sakari for its peak, and nagori for its lingering final appearance. Bringing out the ingredient, leaving deliberate empty space and considering the particular guest are all expressions of hospitality. This chapter introduces both the vocabulary of a composed Japanese meal and the ideas behind it."
+  },
   "questionCount": 40
 },
   {
@@ -90,6 +122,10 @@
     "data/pages09-11a.json",
     "data/pages09-11b.json"
   ],
+  "introduction": {
+    "ja": "日本語(にほんご)のレシピは、数字(すうじ)だけでなく、食材(しょくざい)の状態(じょうたい)を見(み)て判断(はんだん)する言葉(ことば)を多(おお)く使(つか)います。「適量(てきりょう)」「少々(しょうしょう)」「お好(この)みで」は、目的(もくてき)や味(あじ)に合(あ)わせて量(りょう)を調整(ちょうせい)する表現(ひょうげん)です。また、「火(ひ)が通(とお)るまで」「焼(や)き色(いろ)が付(つ)くまで」「香(かお)りが立(た)つまで」のように、時間(じかん)ではなく変化(へんか)を終点(しゅうてん)にする指示(しじ)もあります。沸騰(ふっとう)、粗熱(あらねつ)、とろみ、水気(みずけ)などを理解(りかい)すると、鍋(なべ)の中(なか)で今(いま)何(なに)が起(お)きているかを読(よ)み取(と)れます。この章(しょう)では、レシピを単(たん)に翻訳(ほんやく)するのではなく、料理人(りょうりにん)が期待(きたい)する量(りょう)、動作(どうさ)、仕上(しあ)がりを判断(はんだん)する力(ちから)を身(み)につけます。",
+    "en": "Japanese recipes often ask the cook to judge the condition of an ingredient rather than follow numbers alone. Expressions such as an appropriate amount, a little, and to taste require adjustment according to purpose and flavour. Instructions may also define an endpoint by a visible or sensory change—until cooked through, until browned, or until the aroma rises—instead of by time. Understanding terms such as boiling, residual warmth, thickening and draining moisture helps you read what is happening inside the pan. This chapter develops the ability to interpret the quantity, action and finished state intended by the cook, rather than merely translating the words of a recipe."
+  },
   "questionCount": 40
 },
   {
@@ -103,6 +139,10 @@
     "data/pages19-20c.json",
     "data/pages19-20d.json"
   ],
+  "introduction": {
+    "ja": "野菜(やさい)の名前(なまえ)を覚(おぼ)えるときは、英語(えいご)の訳(やく)だけでなく、姿(すがた)、手触(てざわ)り、香(かお)り、味(あじ)、料理(りょうり)になったときの変化(へんか)を一緒(いっしょ)に思(おも)い浮(う)かべることが大切(たいせつ)です。葉(は)、茎(くき)、根(ね)、実(み)、芋(いも)では形(かたち)も扱(あつか)い方(かた)も異(こと)なり、しゃきしゃき、ねばねば、ほくほくといった食感(しょっかん)が調理法(ちょうりほう)を選(えら)ぶ手掛(てが)かりになります。春(はる)の山菜(さんさい)のほろ苦(にが)さ、薬味(やくみ)の鮮(あざ)やかな香(かお)り、根菜(こんさい)が煮汁(にじる)を含(ふく)んだ味(あじ)など、野菜(やさい)にはそれぞれ料理(りょうり)の中(なか)で果(は)たす役割(やくわり)があります。この章(しょう)では、特徴(とくちょう)を組(く)み合(あ)わせて野菜(やさい)を見分(みわ)け、日本語(にほんご)の名前(なまえ)から、その姿(すがた)と使(つか)い方(かた)をすぐ描(えが)けるように学(まな)びます。",
+    "en": "To learn a vegetable name well, connect it not only with an English translation but also with its shape, feel, aroma, flavour and transformation during cooking. Leaves, stems, roots, fruits and tubers look different and require different handling; textures such as crisp, sticky or floury offer clues to suitable techniques. The gentle bitterness of spring mountain vegetables, the vivid aroma of garnishes and the way root vegetables absorb seasoned broth each give a vegetable a particular role in a dish. This chapter teaches you to identify vegetables from combined characteristics and to form an immediate mental picture of their appearance and culinary use when you hear the Japanese name."
+  },
   "questionCount": 75
 },
   {
@@ -115,6 +155,10 @@
     "data/pages21b.json",
     "data/pages21c.json"
   ],
+  "introduction": {
+    "ja": "香味野菜(こうみやさい)、薬味(やくみ)、ハーブは、少量(しょうりょう)でも料理(りょうり)の印象(いんしょう)を大(おお)きく変(か)えます。柚子(ゆず)や、すだちの香(かお)りは味(あじ)を軽(かる)やかにし、生姜(しょうが)や山椒(さんしょう)の辛味(からみ)と刺激(しげき)は味(あじ)の輪郭(りんかく)をはっきりさせます。大切(たいせつ)なのは、名前(なまえ)だけでなく、切(き)り方(かた)と加(くわ)える時(とき)を考(かんが)えることです。すりおろすと細胞(さいぼう)が壊(こわ)れて香(かお)りが広(ひろ)がり、細(こま)かく刻(きざ)むと料理(りょうり)全体(ぜんたい)に散(ち)らしやすくなります。仕上(しあ)げに加(くわ)えれば、さわやかな香(かお)りや食感(しょっかん)が残(のこ)り、長(なが)く加熱(かねつ)すれば辛味(からみ)が穏(おだ)やかになり、甘味(あまみ)や深(ふか)みが現(あらわ)れます。この章(しょう)では、それぞれの姿(すがた)と風味(ふうみ)、そして下(した)ごしらえが料理(りょうり)に与(あた)える効果(こうか)を学(まな)びます。",
+    "en": "Aromatic vegetables, garnishes and herbs can transform a dish even in small quantities. The fragrance of yuzu or sudachi makes flavours feel lighter, while the heat and stimulation of ginger or sansho sharpen their outline. Learning the name is only the beginning: the cut and the moment of addition matter too. Grating ruptures cells and releases aromatic juices; fine chopping distributes flavour across a dish. Adding an ingredient at the end preserves fresh aroma and texture, whereas longer heating can soften pungency and reveal sweetness or depth. This chapter connects each ingredient's appearance and flavour with the culinary effect created by its preparation."
+  },
   "questionCount": 31
 },
   {
@@ -123,6 +167,10 @@
   "page": 24,
   "title": "海藻",
   "file": "data/pages24.json",
+  "introduction": {
+    "ja": "海藻(かいそう)は、和食(わしょく)に旨味(うまみ)、香(かお)り、色(いろ)、そして多様(たよう)な食感(しょっかん)を加(くわ)えます。昆布(こんぶ)は水(みず)に浸(ひた)したり温(あたた)めたりして旨味(うまみ)を引(ひ)き出(だ)し、出汁(だし)の土台(どだい)になります。同(おな)じ昆布(こんぶ)でも、澄(す)んだ上品(じょうひん)な出汁(だし)に向(む)くもの、濃厚(のうこう)なコクを出(だ)すもの、柔(やわ)らかく煮(に)て食(た)べるものがあります。わかめのやわらかな歯触(はざわ)り、海苔(のり)の香(こう)ばしさ、ひじきのしっかりした食感(しょっかん)、もずくや、めかぶのぬめりは、それぞれ汁物(しるもの)、和(あ)え物(もの)、煮物(にもの)、酢(す)の物(もの)に違(ちが)う役割(やくわり)を与(あた)えます。この章(しょう)では、海藻(かいそう)を見分(みわ)けるだけでなく、それが料理(りょうり)に何(なに)を加(くわ)えるのかを学(まな)びます。",
+    "en": "Seaweed contributes umami, aroma, colour and a remarkable range of textures to washoku. Kombu releases savoury compounds when soaked or gently heated and forms the foundation of dashi. Yet different kombu may be selected for a clear, elegant stock, a richer broth, or a preparation in which the softened seaweed itself is eaten. Wakame's tender bite, nori's toasted aroma, hijiki's substantial texture and the slipperiness of mozuku or mekabu each play a different role in soups, dressed dishes, simmered foods and vinegared salads. This chapter teaches not only how to recognize each seaweed, but what it contributes to the finished dish."
+  },
   "questionCount": 20
 },
   {
@@ -132,6 +180,10 @@
   "title": "魚の名前",
   "file": "data/seafood22-23.json",
   "quizMode": "fish-names",
+  "introduction": {
+    "ja": "魚(さかな)の名前(なまえ)は、料理教室(りょうりきょうしつ)、市場(いちば)、寿司屋(すしや)の品書(しなが)きで頻繁(ひんぱん)に現(あらわ)れますが、漢字(かんじ)から読(よ)み方(かた)を推測(すいそく)しにくいものが多(おお)くあります。鮪(まぐろ)、鰹(かつお)、鰤(ぶり)、鯖(さば)のような一字(いちじ)の名前(なまえ)に加(くわ)え、本鮪(ほんまぐろ)、目鉢鮪(めばちまぐろ)、黄肌鮪(きはだまぐろ)のように、特徴(とくちょう)を表(あらわ)す字(じ)を組(く)み合(あ)わせた名前(なまえ)もあります。読(よ)みを覚(おぼ)えるときは、文字(もじ)と音(おと)だけでなく、魚(さかな)の姿(すがた)、英語名(えいごめい)、よく見(み)る料理(りょうり)を一(ひと)つの記憶(きおく)に結(むす)びつけましょう。この章(しょう)では、漢字(かんじ)を見(み)て読(よ)み、名前(なまえ)を聞(き)いて魚(さかな)を思(おも)い浮(う)かべるための土台(どだい)を作(つく)ります。",
+    "en": "Fish names appear constantly in cooking classes, markets and sushi menus, yet many of their kanji readings are difficult to predict. Alongside single-character names such as maguro, katsuo, buri and saba are compound names such as hon-maguro, mebachi-maguro and kihada-maguro, whose added characters describe a distinguishing feature. When learning a reading, connect more than written form and sound: attach the fish's appearance, its English name and one familiar culinary setting to the same memory. This chapter builds the foundation for reading fish kanji on sight and forming an immediate image of the ingredient when its Japanese name is spoken."
+  },
   "questionCount": 29
 },
   {
@@ -141,6 +193,10 @@
   "title": "魚以外の魚介の名前",
   "file": "data/seafood22-23.json",
   "quizMode": "seafood-names",
+  "introduction": {
+    "ja": "魚介(ぎょかい)という言葉(ことば)には、魚(さかな)だけでなく、貝類(かいるい)、海老(えび)や蟹(かに)などの甲殻類(こうかくるい)、烏賊(いか)や蛸(たこ)なども含(ふく)まれます。牡蠣(かき)、帆立(ほたて)、浅蜊(あさり)のような貝(かい)は、同(おな)じ仲間(なかま)でも殻(から)の形(かたち)、身(み)の大(おお)きさ、食感(しょっかん)が異(こと)なります。海老(えび)と蟹(かに)は、種類(しゅるい)を表(あらわ)す字(じ)や地域名(ちいきめい)が付(つ)くと、より具体的(ぐたいてき)な名前(なまえ)になります。魚(さかな)と同(おな)じく、魚介(ぎょかい)の漢字(かんじ)にも読(よ)み方(かた)を推測(すいそく)しにくいものが多(おお)くあります。この章(しょう)では、漢字(かんじ)、読(よ)み、英語名(えいごめい)を、殻(から)、脚(あし)、胴(どう)などの見(み)た目(め)と結(むす)びつけ、料理教室(りょうりきょうしつ)や市場(いちば)で名前(なまえ)を聞(き)いたときに食材(しょくざい)を思(おも)い浮(う)かべられるように学(まな)びます。",
+    "en": "The Japanese category gyokai includes not only fish but also shellfish, crustaceans such as shrimp and crab, and cephalopods such as squid and octopus. Shellfish including kaki, hotate and asari differ greatly in shell shape, flesh size and texture despite belonging to the same broad group. Shrimp and crab names become more specific when characters indicating a variety or region are added. As with fish, many seafood kanji have readings that are difficult to predict. This chapter links kanji, pronunciation and English names with visible features such as shells, legs and bodies, so that hearing a name in a market or cooking class produces an immediate image of the ingredient."
+  },
   "questionCount": 32
 },
   {
@@ -150,6 +206,10 @@
   "title": "魚の味・食感",
   "file": "data/seafood22-23.json",
   "quizMode": "flavour-texture",
+  "introduction": {
+    "ja": "魚介(ぎょかい)を選(えら)び、料理(りょうり)に生(い)かすには、味(あじ)と食感(しょっかん)を具体的(ぐたいてき)な日本語(にほんご)で捉(とら)えることが大切(たいせつ)です。脂(あぶら)が乗(の)った魚(さかな)には濃厚(のうこう)な旨味(うまみ)と、なめらかな口(くち)どけがあり、白身魚(しろみざかな)には、あっさりした上品(じょうひん)な味(あじ)と、締(し)まった身(み)を持(も)つものがあります。海老(えび)のぷりぷり、貝(かい)のこりこり、烏賊(いか)のねっとりした歯触(はざわ)りなど、食感(しょっかん)の言葉(ことば)は食材(しょくざい)の構造(こうぞう)まで伝(つた)えます。ただし、魚介(ぎょかい)の状態(じょうたい)は季節(きせつ)、部位(ぶい)、鮮度(せんど)、調理法(ちょうりほう)でも変(か)わります。この章(しょう)では、代表的(だいひょうてき)な特徴(とくちょう)を手掛(てが)かりに魚介(ぎょかい)を見分(みわ)け、その持(も)ち味(あじ)を料理(りょうり)の言葉(ことば)で説明(せつめい)する力(ちから)を育(そだ)てます。",
+    "en": "Choosing seafood and using it well requires precise language for flavour and texture. A fatty fish may offer concentrated umami and a smooth, melting mouthfeel, while some white fish are delicate and clean-tasting with firm flesh. The springiness of shrimp, the crunchy resistance of shellfish and the dense, slightly sticky bite of squid also reveal something about the ingredient's structure. These qualities are not fixed: season, cut, freshness and cooking method can all change them. This chapter uses representative sensory characteristics as clues for identification and develops the vocabulary needed to describe what each seafood brings to a dish."
+  },
   "questionCount": 20
 },
   {
@@ -159,6 +219,10 @@
   "title": "魚の調理法",
   "file": "data/seafood22-23.json",
   "quizMode": "cooking-method",
+  "introduction": {
+    "ja": "魚介(ぎょかい)の調理法(ちょうりほう)は、身(み)の硬(かた)さ、脂(あぶら)の量(りょう)、香(かお)り、骨(ほね)や殻(から)の構造(こうぞう)に合(あ)わせて選(えら)びます。鮮度(せんど)と食感(しょっかん)を直接(ちょくせつ)味(あじ)わう刺身(さしみ)、香(こう)ばしさを加(くわ)えて脂(あぶら)を引(ひ)き立(た)てる塩焼(しおや)き、調味料(ちょうみりょう)を含(ふく)ませて身(み)をしっとり仕上(しあ)げる煮付(につ)けでは、同(おな)じ食材(しょくざい)でも印象(いんしょう)が変(か)わります。炙(あぶ)りは表面(ひょうめん)の香(かお)りを作(つく)りながら中(なか)の生(なま)らしさを残(のこ)し、酢締(すじ)めや漬(づ)けは味(あじ)を加(くわ)えながら身質(みしつ)を整(ととの)えます。この章(しょう)では、代表的(だいひょうてき)な料理(りょうり)から魚介(ぎょかい)を思(おも)い出(だ)し、なぜその調理法(ちょうりほう)が持(も)ち味(あじ)に合(あ)うのかを考(かんが)えます。",
+    "en": "A seafood cooking method is chosen to suit the firmness of the flesh, amount of fat, aroma, and the structure of bones or shells. Sashimi presents freshness and texture directly; salt-grilling adds fragrance and highlights rich oils; simmering lets seasoning enter while keeping the flesh moist. Seared preparations create aroma at the surface while preserving a raw centre, whereas vinegar-curing and marinating add flavour while altering the texture of the flesh. This chapter works backwards from characteristic preparations to the seafood itself and encourages you to consider why a particular method suits the ingredient's natural qualities."
+  },
   "questionCount": 20
 },
     {
@@ -167,6 +231,10 @@
   "page": 52,
   "title": "火入れ",
   "file": "data/pages52.json",
+  "introduction": {
+    "ja": "火入(ひい)れとは、単(たん)に食材(しょくざい)を熱(あつ)くすることではなく、火(ひ)の強(つよ)さ、距離(きょり)、時間(じかん)、水分(すいぶん)、余熱(よねつ)を調整(ちょうせい)して、望(のぞ)む状態(じょうたい)へ導(みちび)くことです。強火(つよび)や近火(ちかび)は表面(ひょうめん)に焼(や)き色(いろ)と香(こう)ばしさを作(つく)りやすく、弱火(よわび)、とろ火(び)、遠火(とおび)は中(なか)まで穏(おだ)やかに火(ひ)を通(とお)したいときに役立(やくだ)ちます。加熱中(かねつちゅう)には、タンパク質(しつ)が固(かた)まり、でんぷんが水(みず)を吸(す)い、表面(ひょうめん)では焼(や)き色(いろ)と香(かお)りが生(う)まれます。しかし、火(ひ)を入(い)れすぎると水分(すいぶん)が失(うしな)われ、身(み)が硬(かた)くなり、野菜(やさい)の歯触(はざわ)りも消(き)えてしまいます。この章(しょう)では、色(いろ)、香(かお)り、音(おと)、弾力(だんりょく)、水分(すいぶん)の変化(へんか)を観察(かんさつ)し、余熱(よねつ)まで計算(けいさん)して、外(そと)と中(なか)を狙(ねら)った食感(しょっかん)に仕上(しあ)げる考(かんが)え方(かた)を学(まな)びます。",
+    "en": "Hi-ire is more than making an ingredient hot. It is the control of heat intensity, distance, time, moisture and carryover cooking to guide food toward a desired state. High heat or a position close to the flame readily creates browning and roasted aroma at the surface; low heat, a very gentle flame or greater distance can help heat travel inward more gradually. During cooking, proteins set, starch absorbs water, and new colour and aroma develop at the surface. Too much heat, however, removes moisture, toughens flesh and erases the fresh bite of vegetables. This chapter teaches you to observe changes in colour, aroma, sound, resilience and moisture—and to account for residual heat—so that the exterior and centre reach the textures you intend."
+  },
   "questionCount": 30
 }
 
