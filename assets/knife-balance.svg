@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" role="img" aria-labelledby="t d">
+  <title id="t">Three knife balance points</title><desc id="d">The same knife with balance points marked toward the blade, near the pinch grip, and toward the handle.</desc>
+  <rect width="800" height="380" rx="22" fill="#fffdf8"/>
+  <g stroke="#171717" stroke-width="6" stroke-linejoin="round" fill="#dfdcfa">
+    <path d="M260 55h410l-75 60H260z"/><path d="M260 55H70v60h190" fill="#8ca5ee"/>
+    <path d="M260 160h410l-75 60H260z"/><path d="M260 160H70v60h190" fill="#8ca5ee"/>
+    <path d="M260 265h410l-75 60H260z"/><path d="M260 265H70v60h190" fill="#8ca5ee"/>
+  </g>
+  <g fill="#e96fba" stroke="#171717" stroke-width="4"><circle cx="380" cy="125" r="15"/><circle cx="260" cy="230" r="15"/><circle cx="165" cy="335" r="15"/></g>
+  <g font-family="sans-serif" font-size="28" font-weight="700" fill="#171717"><text x="705" y="100">A</text><text x="705" y="205">B</text><text x="705" y="310">C</text></g>
+</svg>

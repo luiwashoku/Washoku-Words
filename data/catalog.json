@@ -238,6 +238,327 @@
   "questionCount": 20
 },
   {
+  "id": "page30",
+  "category": "fermentation",
+  "page": 30,
+  "title": "麹",
+  "file": "data/pages30.json",
+  "introduction": {
+    "ja": "麹(こうじ)の力(ちから)は、麹菌(こうじきん)が作(つく)る多様(たよう)な酵素(こうそ)にあります。アミラーゼは米(こめ)や麦(むぎ)の、でんぷんを糖(とう)へ変(か)え、自然(しぜん)な甘味(あまみ)を引(ひ)き出(だ)すと同時(どうじ)に、酵母(こうぼ)がアルコール発酵(はっこう)に使(つか)える材料(ざいりょう)を用意(ようい)します。プロテアーゼは、たんぱく質(しつ)をアミノ酸(さん)やペプチドへ分解(ぶんかい)し、旨味(うまみ)を増(ふ)やし、食材(しょくざい)を柔(やわ)らかくする助(たす)けになります。リパーゼによる脂肪(しぼう)の分解(ぶんかい)も、熟成中(じゅくせいちゅう)の風味(ふうみ)に関(かか)わります。米麹(こめこうじ)、麦麹(むぎこうじ)、豆麹(まめこうじ)という土台(どだい)の違(ちが)いと、塩(しお)、水(みず)、大豆(だいず)、酵母(こうぼ)、時間(じかん)の組(く)み合(あ)わせによって、甘酒(あまざけ)、味噌(みそ)、醤油(しょうゆ)、日本酒(にほんしゅ)、味醂(みりん)、酢(す)などの道(みち)が分(わ)かれます。この章(しょう)では、麹(こうじ)を一(ひと)つの食品名(しょくひんめい)ではなく、原料(げんりょう)を開(ひら)き、次(つぎ)の発酵(はっこう)を可能(かのう)にする仕組(しく)みとして理解(りかい)します。",
+    "en": "Koji's power lies in the many enzymes produced by koji mold. Amylases turn grain starch into sugar, creating natural sweetness while supplying yeast with material for alcoholic fermentation. Proteases split proteins into amino acids and peptides, increasing umami and helping tenderize foods. Lipase activity can also contribute to flavour development as fats are broken down during maturation. Different substrates—rice, barley or soybean koji—and different partners such as salt, water, soybeans, yeast and time direct the pathway toward amazake, miso, soy sauce, sake, mirin or vinegar. This chapter treats koji not as a single food name, but as a system that unlocks raw ingredients and makes later fermentation possible."
+  },
+  "questionCount": 20
+},
+  {
+  "id": "page31-32-character",
+  "category": "fermentation",
+  "page": "31–32",
+  "title": "醤油の個性",
+  "file": "data/pages31-32-character.json",
+  "introduction": {
+    "ja": "醤油(しょうゆ)を選(えら)ぶときは、「濃(こ)い・薄(うす)い」だけでなく、色(いろ)、透明感(とうめいかん)、香(かお)り、塩味(えんみ)、甘味(あまみ)、旨味(うまみ)、コク、口当(くちあ)たり、余韻(よいん)を順(じゅん)に見(み)ます。濃口(こいくち)は大豆(だいず)と小麦(こむぎ)の均衡(きんこう)がよい万能型(ばんのうがた)、淡口(うすくち)は色(いろ)と香(かお)りを抑(おさ)えながら塩分(えんぶん)は比較的(ひかくてき)高(たか)い醤油(しょうゆ)です。大豆中心(だいずちゅうしん)の溜(たまり)は、とろりとして旨味(うまみ)が濃厚(のうこう)です。醤油(しょうゆ)でもう一度(いちど)仕込(しこ)む再仕込(さいしこみ)は、長期熟成(ちょうきじゅくせい)による深(ふか)さと長(なが)い余韻(よいん)を持(も)ち、小麦中心(こむぎちゅうしん)の白(しろ)は最(もっと)も淡(あわ)く、甘味(あまみ)が目立(めだ)ちます。この章(しょう)では、原料(げんりょう)の比率(ひりつ)、仕込(しこ)み方(かた)、熟成期間(じゅくせいきかん)が、グラスの中(なか)で感(かん)じる個性(こせい)へ、どうつながるかを学(まな)びます。",
+    "en": "Choosing soy sauce requires more than judging whether it is dark or light. Observe colour and clarity, then aroma, salinity, sweetness, umami, body, texture and finish. Balanced soybean-and-wheat koikuchi is the versatile reference style. Usukuchi suppresses colour and aroma but is generally relatively salty. Soybean-rich tamari is viscous and intensely savoury. Saishikomi, brewed again with soy sauce and matured longer, offers depth and a lingering finish. Wheat-led shiro is the palest and often notably sweet. This chapter connects ingredient ratios, brewing method and maturation time with the sensory personality found in the tasting cup."
+  },
+  "questionCount": 20
+},
+  {
+  "id": "page31-32-selection",
+  "category": "fermentation",
+  "page": "31–32",
+  "title": "醤油の選び方",
+  "file": "data/pages31-32-selection.json",
+  "introduction": {
+    "ja": "料理(りょうり)に合(あ)う醤油(しょうゆ)は、最(もっと)も高価(こうか)な一本(いっぽん)ではなく、素材(そざい)と調理法(ちょうりほう)に必要(ひつよう)な役割(やくわり)を果(は)たす一本(いっぽん)です。出汁(だし)と野菜(やさい)の色(いろ)を生(い)かすなら淡口(うすくち)、茶碗蒸(ちゃわんむ)しや白身魚(しろみざかな)を明(あか)るく仕上(しあ)げるなら白(しろ)が役立(やくだ)ちます。脂(あぶら)のある刺身(さしみ)、照(て)り焼(や)き、焼(や)いた肉(にく)には、溜(たまり)の濃厚(のうこう)な旨味(うまみ)と、とろみが合(あ)います。再仕込(さいしこみ)は上質(じょうしつ)な刺身(さしみ)や冷奴(ひややっこ)で複雑(ふくざつ)な余韻(よいん)を直接(ちょくせつ)味(あじ)わい、濃口(こいくち)は煮物(にもの)、下味(したあじ)、照(て)り焼(や)き、卓上(たくじょう)まで広(ひろ)く支(ささ)えます。この章(しょう)では、色(いろ)を付(つ)けたいか残(のこ)したいか、醤油(しょうゆ)を立(た)たせたいか控(ひか)えたいかを考(かんが)え、料理(りょうり)ごとに最適(さいてき)な個性(こせい)を選(えら)びます。",
+    "en": "The right soy sauce is not the most expensive bottle but the one that performs the role a particular ingredient and technique require. Use usukuchi when dashi and vegetable colour should lead, and shiro when chawanmushi or white fish must remain pale. Tamari's concentrated umami and viscosity suit rich sashimi, teriyaki and grilled meat. Saishikomi shows its layered finish directly with premium sashimi or chilled tofu, while balanced koikuchi supports everything from marinades and simmering to glazing and table use. This chapter asks whether colour should be added or preserved and whether soy aroma should stand forward or remain restrained, then selects the style accordingly."
+  },
+  "questionCount": 20
+},
+  {
+  "id": "page33-35-character",
+  "category": "fermentation",
+  "page": "33–35",
+  "title": "味噌の個性",
+  "file": "data/pages33-35-character.json",
+  "introduction": {
+    "ja": "味噌(みそ)の個性(こせい)は、白(しろ)か赤(あか)かだけでは説明(せつめい)できません。まず麹(こうじ)の土台(どだい)によって米味噌(こめみそ)、麦味噌(むぎみそ)、豆味噌(まめみそ)に分(わ)かれます。次(つぎ)に、大豆(だいず)に対(たい)する麹(こうじ)の量(りょう)を示(しめ)す麹歩合(こうじぶあい)、塩分(えんぶん)、熟成(じゅくせい)の時間(じかん)と温度(おんど)が、甘味(あまみ)、塩味(えんみ)、旨味(うまみ)、香(かお)り、色(いろ)、余韻(よいん)を作(つく)ります。高麹(こうこうじ)・低塩(ていえん)・短期熟成(たんきじゅくせい)の西京味噌(さいきょうみそ)は甘(あま)く淡(あわ)く、大豆全量(だいずぜんりょう)を豆麹(まめこうじ)にして長(なが)く熟成(じゅくせい)する八丁味噌(はっちょうみそ)は濃厚(のうこう)で深(ふか)い旨味(うまみ)を持(も)ちます。その間(あいだ)に、信州(しんしゅう)、仙台(せんだい)、九州(きゅうしゅう)の麦味噌(むぎみそ)など、地域(ちいき)の気候(きこう)と料理(りょうり)に育(そだ)てられた多様(たよう)な味(あじ)があります。この章(しょう)では、原料(げんりょう)と工程(こうてい)から味(あじ)を予測(よそく)し、色(いろ)、香(かお)り、味(あじ)、余韻(よいん)を順(じゅん)に比較(ひかく)します。",
+    "en": "Miso cannot be understood on a simple white-to-red scale. Koji substrate first distinguishes rice, barley and soybean miso. Koji ratio, salt, maturation time and temperature then shape sweetness, salinity, umami, aroma, colour and finish. High-koji, low-salt, short-aged Saikyo is pale and sweet; Hatcho made from all-soy koji and long maturation is dark with concentrated savouriness. Between them lie Shinshu, Sendai, Kyushu barley miso and many regional expressions adapted to local climate and food. This chapter predicts flavour from raw materials and process, then compares appearance, aroma, palate and finish in sequence."
+  },
+  "questionCount": 20
+},
+  {
+  "id": "page33-35-selection",
+  "category": "fermentation",
+  "page": "33–35",
+  "title": "味噌の選び方",
+  "file": "data/pages33-35-selection.json",
+  "introduction": {
+    "ja": "料理(りょうり)に味噌(みそ)を選(えら)ぶときは、具材(ぐざい)の強(つよ)さ、残(のこ)したい色(いろ)、加熱時間(かねつじかん)、必要(ひつよう)な甘味(あまみ)と旨味(うまみ)を考(かんが)えます。甘(あま)い白味噌(しろみそ)は西京焼(さいきょうや)き、かぼちゃ、柚子(ゆず)、淡色(たんしょく)の和(あ)え物(もの)に向(む)きます。香(かお)りの豊(ゆた)かな麦味噌(むぎみそ)は野菜(やさい)、根菜(こんさい)、きのこを引(ひ)き立(た)て、辛口(からくち)の赤(あか)い米味噌(こめみそ)は豚肉(ぶたにく)、鯖(さば)、力強(ちからづよ)い具材(ぐざい)を受(う)け止(と)めます。豆味噌(まめみそ)は長(なが)い煮込(にこ)みでもコクを失(うしな)いにくく、味噌煮込(みそにこ)みや田楽(でんがく)に深(ふか)さを与(あた)えます。一種類(いっしゅるい)で理想(りそう)に届(とど)かなければ、味噌(みそ)を合(あ)わせて甘味(あまみ)、塩味(えんみ)、香(かお)り、余韻(よいん)を設計(せっけい)できます。この章(しょう)では、最(もっと)も強(つよ)い味噌(みそ)ではなく、料理(りょうり)の目的(もくてき)に最(もっと)も合(あ)う味噌(みそ)を選(えら)びます。",
+    "en": "Choose miso according to ingredient intensity, desired colour, cooking time, sweetness and umami. Sweet white miso suits Saikyo grilling, pumpkin, yuzu and pale dressed dishes. Fragrant barley miso lifts vegetables, roots and mushrooms, while dry red rice miso can meet pork, mackerel and assertive ingredients. Soybean miso retains depth through long cooking and excels in hearty stews or dengaku glaze. When one style cannot create the desired balance, blending can design sweetness, salinity, aroma and finish. This chapter chooses not the strongest miso, but the miso whose character best performs the culinary task."
+  },
+  "questionCount": 20
+},
+  {
+  "id": "page36",
+  "category": "fermentation",
+  "page": 36,
+  "title": "みりん",
+  "file": "data/pages36.json",
+  "introduction": {
+    "ja": "本みりん(ほんみりん)は、単(たん)に液体(えきたい)の砂糖(さとう)ではありません。もち米(ごめ)、米麹(こめこうじ)、焼酎(しょうちゅう)などを糖化(とうか)・熟成(じゅくせい)させることで、ブドウ糖(とう)やオリゴ糖(とう)などの多種類(たしゅるい)の糖(とう)、アミノ酸(さん)、有機酸(ゆうきさん)、香気成分(こうきせいぶん)、約(やく)14%のアルコールを含(ふく)みます。複数(ふくすう)の糖(とう)は柔(やわ)らかな甘味(あまみ)と照(て)りを作(つく)り、アミノ酸(さん)と熟成香(じゅくせいこう)はコクと余韻(よいん)を加(くわ)えます。アルコールは食材(しょくざい)へ浸透(しんとう)して味(あじ)を運(はこ)び、加熱(かねつ)で揮発(きはつ)するときに魚(さかな)や肉(にく)の臭(くさ)みを和(やわ)らげます。照(て)り焼(や)きや煮物(にもの)では、これらの働(はたら)きが同時(どうじ)に必要(ひつよう)だから本みりん(ほんみりん)を選(えら)びます。一方(いっぽう)、強(つよ)く直接的(ちょくせつ)な甘味(あまみ)だけが必要(ひつよう)なら、砂糖(さとう)の方(ほう)が適切(てきせつ)な場合(ばあい)もあります。この章(しょう)では、甘味(あまみ)、アルコール、照(て)り、香(かお)り、加熱反応(かねつはんのう)を目的(もくてき)ごとに分(わ)け、「なぜ、みりんなのか」を判断(はんだん)します。",
+    "en": "True mirin is not liquid sugar. Saccharifying and maturing glutinous rice, rice koji and an alcoholic base creates multiple sugars, amino acids, organic acids, aroma compounds and about 14% alcohol. The varied sugars provide soft sweetness and gloss; amino compounds and matured aromas add body and finish. Alcohol penetrates ingredients, carries seasoning and can reduce meat or fish odours as it evaporates during heating. Mirin is chosen for teriyaki or simmering when several of these effects are needed together. When the only goal is strong, direct sweetness, sugar may be the more precise tool. This chapter separates sweetness, alcohol, gloss, aroma and browning so the learner can decide why mirin belongs in a particular dish."
+  },
+  "questionCount": 20
+},
+  {
+  "id": "page37",
+  "category": "fermentation",
+  "page": 37,
+  "title": "酢",
+  "file": "data/pages37.json",
+  "introduction": {
+    "ja": "酢(す)は、ただ酸(す)っぱいだけの調味料(ちょうみりょう)ではありません。穀物酢(こくもつず)は軽快(けいかい)で輪郭(りんかく)のある酸味(さんみ)、米酢(こめず)は米由来(こめゆらい)の甘味(あまみ)と旨味(うまみ)を伴(ともな)う、まろやかな酸味(さんみ)、りんご酢(ず)は明(あか)るい果実香(かじつこう)を持(も)ちます。米黒酢(こめくろず)は発酵(はっこう)と熟成(じゅくせい)によって色(いろ)、芳醇(ほうじゅん)な香(かお)り、コクを深(ふか)め、熟成酒粕(じゅくせいさけかす)から造(つく)る赤酢(あかず)は江戸前(えどまえ)の酢飯(すめし)に旨味(うまみ)と熟成感(じゅくせいかん)を与(あた)えます。酸度(さんど)の数字(すうじ)と舌(した)で感(かん)じる鋭(するど)さは同(おな)じではなく、甘味(あまみ)、旨味(うまみ)、香(かお)り、料理(りょうり)の油(あぶら)や塩味(えんみ)によって印象(いんしょう)が変(か)わります。この章(しょう)では、どの酢(す)が一番(いちばん)かではなく、料理(りょうり)に必要(ひつよう)な酸味(さんみ)、香(かお)り、色(いろ)、コクから一本(いっぽん)を選(えら)びます。",
+    "en": "Vinegar is more than sourness. Grain vinegar offers clean, clearly defined acidity; rice vinegar combines rounded acidity with rice-derived sweetness and umami; apple vinegar contributes bright fruit aroma. Fermentation and maturation give rice black vinegar darker colour, mellow acidity and substantial depth, while red vinegar made from matured sake lees lends Edomae sushi rice savouriness and aged character. Acidity on a label is not identical to sharpness on the palate: sweetness, umami, aroma, fat and salt all change perception. This chapter does not rank one vinegar as universally best. It selects the bottle whose acidity, aroma, colour and body fit the dish."
+  },
+  "questionCount": 20
+},
+  {
+  "id": "page53-54-vessels",
+  "category": "techniques",
+  "page": "53–54",
+  "title": "器の選び方",
+  "file": "data/pages53-54-vessels.json",
+  "introduction": {"ja":"和食(わしょく)では「器(うつわ)は料理(りょうり)の着物(きもの)」と言(い)われますが、器選(うつわえら)びは飾(かざ)りだけではありません。まず汁気(しるけ)、温度(おんど)、量(りょう)、箸(はし)での取(と)りやすさに合(あ)う形(かたち)を決(き)めます。平皿(ひらざら)は焼物(やきもの)の面(めん)を見(み)せ、長皿(ながざら)は魚(さかな)の軸(じく)を受(う)け止(と)め、鉢(はち)は汁(しる)や、あんを保持(ほじ)します。向付(むこうづけ)、小付(こづけ)、汁椀(しるわん)、飯椀(めしわん)、蓋物(ふたもの)には膳(ぜん)の位置(いち)と食(た)べ方(かた)に結(むす)び付(つ)いた役割(やくわり)があります。次(つぎ)に素材(そざい)を選(えら)びます。漆器(しっき)は軽(かる)く断熱性(だんねつせい)があり、磁器(じき)は白(しろ)く硬(かた)く吸水性(きゅうすいせい)が低(ひく)く、陶器(とうき)は土(つち)の質感(しつかん)と温(ぬく)もり、ガラスは透明感(とうめいかん)と涼感(りょうかん)を与(あた)えます。最後(さいご)に料理(りょうり)との色(いろ)の対比(たいひ)、季節(きせつ)、店(みせ)の表現(ひょうげん)、客(きゃく)と場面(ばめん)を重(かさ)ねます。これらは固定規則(こていきそく)ではなく、意図(いと)を作(つく)るための判断軸(はんだんじく)です。","en":"In washoku, vessels are sometimes called the clothing of food, but selection is not decoration alone. Begin with function: liquid, temperature, portion and chopstick access determine whether the dish needs a plate, long plate, bowl, mukozuke, small vessel or lidded wan. Then choose material. Lacquerware is light and insulating; porcelain is hard, smooth and low-absorption; pottery brings earthy texture and warmth; glass communicates transparency and coolness. Finally layer colour contrast, season, restaurant identity, guest and occasion. These are parameters for forming an intention, not immutable rules."},
+  "questionCount": 20
+},
+  {
+  "id": "page56",
+  "category": "techniques",
+  "page": 56,
+  "title": "食材の組み合わせ",
+  "file": "data/pages56.json",
+  "introduction": {"ja":"食材(しょくざい)の相性(あいしょう)は、「昔(むかし)から一緒(いっしょ)に使(つか)う」という暗記(あんき)ではありません。まず主役(しゅやく)の味(あじ)、香(かお)り、食感(しょっかん)、脂(あぶら)、温度(おんど)を観察(かんさつ)し、何(なに)を足(た)すと魅力(みりょく)が明確(めいかく)になるかを考(かんが)えます。柚子(ゆず)や生姜(しょうが)は香(かお)りで輪郭(りんかく)を作(つく)り、酢(す)や柑橘(かんきつ)は脂(あぶら)の後味(あとあじ)を整(ととの)え、味噌(みそ)や醤油(しょうゆ)は発酵(はっこう)の旨味(うまみ)とコクを重(かさ)ねます。昆布(こんぶ)のグルタミン酸(さん)と鰹節(かつおぶし)のイノシン酸(さん)のように、異(こと)なる旨味(うまみ)を組(く)み合(あ)わせる相乗効果(そうじょうこうか)もあります。柔(やわ)らかい物(もの)に、しゃきしゃき・ぱりぱりを添(そ)える食感(しょっかん)の対比(たいひ)、同(おな)じ季節(きせつ)の食材(しょくざい)で時間(じかん)を表現(ひょうげん)する調和(ちょうわ)も重要(じゅうよう)です。組(く)み合(あ)わせに唯一(ゆいいつ)の正解(せいかい)はありません。強調(きょうちょう)、調和(ちょうわ)、対比(たいひ)の、どれを狙(ねら)うかを決(き)め、少量(しょうりょう)ずつ比較(ひかく)します。","en":"Ingredient compatibility is not a list of traditional pairs to memorize. Begin by observing the principal ingredient's flavour, aroma, texture, fat and temperature, then identify what would make its character clearer. Yuzu and ginger add aromatic definition; vinegar and citrus refresh fatty finishes; miso and soy sauce layer fermented umami and body. Different umami compounds can also reinforce one another, as glutamate from kombu does with inosinate from katsuobushi. Texture may work through contrast—adding crispness to something smooth—while ingredients from the same season can create temporal harmony. There is no single correct pairing independent of intention. Decide whether the goal is emphasis, harmony or contrast, then compare controlled additions in small amounts."},
+  "questionCount": 20
+},
+  {
+  "id": "page57",
+  "category": "techniques",
+  "page": 57,
+  "title": "五味・五色・五法",
+  "file": "data/pages57.json",
+  "introduction": {"ja":"五味(ごみ)・五色(ごしき)・五法(ごほう)は、和食(わしょく)の献立(こんだて)を覚(おぼ)え、見直(みなお)すための三(みっ)つの枠組(わくぐ)みです。五味(ごみ)は甘味(あまみ)・塩味(しおあじ)・酸味(さんみ)・苦味(にがみ)・旨味(うまみ)。五色(ごしき)は白(しろ)・黒(くろ)・赤(あか)・黄(き)・緑(みどり)。五法(ごほう)は生(なま)・煮(に)る・焼(や)く・蒸(む)す・揚(あ)げるです。まず、この十五項目(じゅうごこうもく)を正確(せいかく)に分類(ぶんるい)できるようにします。次(つぎ)に献立全体(こんだてぜんたい)を見(み)て、味(あじ)が一方向(いちほうこう)に偏(かたよ)っていないか、色(いろ)に焦点(しょうてん)があるか、同(おな)じ加熱法(かねつほう)と食感(しょっかん)が続(つづ)いていないかを確認(かくにん)します。三(みっ)つの「五」は、一皿(ひとさら)へ十五項目(じゅうごこうもく)を同量(どうりょう)入(い)れる規則(きそく)ではありません。料理(りょうり)の主役(しゅやく)と意図(いと)を保(たも)ちながら、献立(こんだて)の豊(ゆた)かさと偏(かたよ)りに気(き)づくための記憶(きおく)と設計(せっけい)の道具(どうぐ)です。","en":"Gomi, goshiki and goho are three frameworks for remembering and reviewing a washoku menu. The five flavours are sweet, salty, sour, bitter and umami. The five colours are white, black, red, yellow and green. The five methods are raw, simmered, grilled, steamed and fried. First learn to classify all fifteen accurately. Then use the sets to inspect a meal: is flavour leaning in only one direction, does colour create useful focus, and do the same cooking method and texture repeat too often? The three fives are not a rule requiring equal amounts of all fifteen in every plate. They are memory and design tools for noticing richness and imbalance while preserving the principal ingredient and the cook's intention."},
+  "questionCount": 20
+},
+  {
+  "id": "page58",
+  "category": "techniques",
+  "page": 58,
+  "title": "一汁三菜",
+  "file": "data/pages58.json",
+  "introduction": {"ja":"一汁三菜(いちじゅうさんさい)は、御飯(ごはん)を中心(ちゅうしん)に、一(ひと)つの汁物(しるもの)と三(みっ)つの、おかずを組(く)み合(あ)わせる献立(こんだて)の考(かんが)え方(かた)です。三菜(さんさい)は一般(いっぱん)に、たんぱく質(しつ)の中心(ちゅうしん)となる主菜(しゅさい)、野菜(やさい)や海藻(かいそう)、豆(まめ)、季節(きせつ)の食材(しょくざい)を補(おぎな)う副菜(ふくさい)と副々菜(ふくふくさい)です。御飯(ごはん)、汁物(しるもの)、香(こう)の物(もの)は食事(しょくじ)を支(ささ)えますが、通常(つうじょう)、三菜(さんさい)の数(かず)には入(い)れません。大切(たいせつ)なのは皿数(さらかず)だけではなく、役割(やくわり)の違(ちが)いです。主菜(しゅさい)が濃厚(のうこう)なら副菜(ふくさい)に酸味(さんみ)や瑞々(みずみず)しさを置(お)き、煮物(にもの)が続(つづ)けば焼(や)く・蒸(む)す・和(あ)えるなどで香(かお)りと食感(しょっかん)を変(か)えます。汁物(しるもの)、漬物(つけもの)、主菜(しゅさい)の塩分(えんぶん)も食事全体(しょくじぜんたい)で考(かんが)えます。家庭(かてい)では具沢山(ぐだくさん)の汁物(しるもの)や一皿(ひとさら)に複数(ふくすう)の役割(やくわり)を持(も)たせても、この考(かんが)え方(かた)を活(い)かせます。","en":"Ichiju sansai is a menu structure built around rice, one soup and three dishes. The three dishes usually comprise a protein-centred main and two sides supplying vegetables, seaweed, legumes and seasonal ingredients. Rice, soup and pickles support the meal but normally are not counted among the three dishes. The important point is not plate count alone but differentiated roles. A rich main may need fresh or acidic sides; repeated simmered dishes may need grilled, steamed, raw or dressed elements for aromatic and textural variation. Salt must be allocated across soup, pickles, main and sides rather than judged dish by dish. At home, a substantial soup or one plate carrying several roles can still apply the framework without reproducing a formal multi-dish setting every day."},
+  "questionCount": 20
+},
+  {
+  "id": "page59-60-terms",
+  "category": "techniques",
+  "page": "59–60",
+  "title": "懐石の流れと言葉",
+  "file": "data/pages59-60-terms.json",
+  "introduction": {"ja":"「かいせき」には、茶(ちゃ)の湯(ゆ)で濃茶(こいちゃ)の前(まえ)に客(きゃく)をもてなす懐石(かいせき)・茶懐石(ちゃかいせき)と、酒(さけ)と歓談(かんだん)を楽(たの)しむ料理屋(りょうりや)の会席(かいせき)があります。伝統的(でんとうてき)な茶懐石(ちゃかいせき)は、折敷(おしき)に飯(めし)・汁(しる)・向付(むこうづけ)を載(の)せて始(はじ)まり、煮物椀(にものわん)、焼物(やきもの)、預(あず)け鉢(ばち)、強肴(しいざかな)、八寸(はっすん)、湯桶(ゆとう)、香(こう)の物(もの)などを経(へ)て、主菓子(おもがし)と茶(ちゃ)へ進(すす)みます。流派(りゅうは)や茶事(ちゃじ)で細部(さいぶ)は異(こと)なります。現代(げんだい)の料亭(りょうてい)では、先付(さきづけ)、椀物(わんもの)、お造(つく)り、焼物(やきもの)、炊合(たきあわ)せ、食事(しょくじ)、水菓子(みずがし)、甘味(かんみ)などの名称(めいしょう)で、茶懐石(ちゃかいせき)と会席(かいせき)の要素(ようそ)が交差(こうさ)します。用語(ようご)を固定(こてい)された一覧(いちらん)としてではなく、各皿(かくさら)の役割(やくわり)とコースの流(なが)れとして覚(おぼ)えます。","en":"The sound kaiseki refers to related but distinct traditions: 懐石 or cha-kaiseki, the meal serving guests before koicha in a tea gathering, and 会席, restaurant banquet cuisine organised around sake and conversation. A traditional tea meal begins with rice, soup and mukozuke on an oshiki, then may move through nimono-wan, grilled dish, shared azukebachi, shiizakana, hassun, yuto and pickles before the main sweet and tea; details vary by school and occasion. Modern restaurant courses use terms such as sakizuke, wanmono, otsukuri, yakimono, takiawase, shokuji, mizugashi and kanmi, often blending tea-kaiseki and banquet lineages. Learn terminology through each course's function and progression, not as one immutable list."},
+  "questionCount": 20
+},
+  {
+  "id": "page59-60-philosophy",
+  "category": "techniques",
+  "page": "59–60",
+  "title": "懐石の思想と変化",
+  "file": "data/pages59-60-philosophy.json",
+  "introduction": {"ja":"茶(ちゃ)の湯(ゆ)に伴(ともな)う料理様式(りょうりようしき)は戦国(せんごく)から安土桃山期(あづちももやまき)に形(かたち)を整(ととの)え、千利休(せんのりきゅう)の、わび茶(ちゃ)と結(むす)び付(つ)きました。ただし利休(りきゅう)の時代(じだい)に「懐石(かいせき)」という名称(めいしょう)が現在(げんざい)と同(おな)じように一般的(いっぱんてき)だったとは限(かぎ)らず、料理様式(りょうりようしき)と後世(こうせい)の名称(めいしょう)を分(わ)けて理解(りかい)します。江戸時代(えどじだい)には茶(ちゃ)の湯(ゆ)が大名(だいみょう)、公家(くげ)、僧侶(そうりょ)、町人(ちょうにん)へ広(ひろ)がる一方(いっぽう)、都市(とし)の料理屋(りょうりや)と出版文化(しゅっぱんぶんか)が発達(はったつ)し、酒(さけ)と歓談(かんだん)を中心(ちゅうしん)とする会席料理(かいせきりょうり)が形成(けいせい)されました。現代(げんだい)の料亭(りょうてい)では両者(りょうしゃ)の境界(きょうかい)が交差(こうさ)し、茶懐石(ちゃかいせき)の精神(せいしん)を受(う)け継(つ)ぎながら、華(はな)やかで品数(しなかず)の多(おお)いコースも作(つく)られます。変化(へんか)の中(なか)でも、素材(そざい)を生(い)かす、旬(しゅん)を尊重(そんちょう)する、料理(りょうり)・器(うつわ)・空間(くうかん)を調和(ちょうわ)させる、五感(ごかん)と時間(じかん)を設計(せっけい)する、亭主(ていしゅ)と客(きゃく)が互(たが)いを思(おも)いやるという原理(げんり)が続(つづ)いています。","en":"The tea meal took shape from the Warring States into the Azuchi–Momoyama period and became associated with Sen no Rikyu's wabicha. The form must be distinguished from its later name, however: 懐石 was not necessarily the ordinary label used in Rikyu's own time. During the Edo period, tea spread among daimyo, courtiers, clergy and townspeople, while urban restaurants and print culture fostered 会席 banquet cuisine centred on sake and sociability. Modern restaurants often cross these lineages, expanding tea-derived aesthetics into more elaborate courses. Across those changes, central principles persist: clarify the ingredient, respect season, harmonise food, vessels and setting, compose all five senses through time, and understand hospitality as mutual consideration between host and guest."},
+  "questionCount": 20
+},
+  {
+  "id": "page61-timing",
+  "category": "techniques",
+  "page": 61,
+  "title": "旬の時間と言葉",
+  "file": "data/pages61-timing.json",
+  "introduction": {"ja":"旬(しゅん)は一(ひと)つの日付(ひづけ)ではなく、食材(しょくざい)が季節(きせつ)の中(なか)で変化(へんか)する時間(じかん)の流(なが)れです。最初(さいしょ)に出会(であ)う走(はし)り、味(あじ)・香(かお)り・供給(きょうきゅう)が充実(じゅうじつ)する盛(さか)り、去(さ)る季節(きせつ)を惜(お)しむ名残(なごり)を区別(くべつ)します。初物(はつもの)は、その年(とし)や季節(きせつ)の最初(さいしょ)の収穫(しゅうかく)・漁獲(ぎょかく)、新物(しんもの)は新米(しんまい)や新茶(しんちゃ)のような新(あたら)しい年度(ねんど)の産物(さんぶつ)を強調(きょうちょう)します。旬(しゅん)を迎(むか)える、旬(しゅん)を過(す)ぎる、先取(さきど)り、その時期(じき)ならでは、今(いま)しか味(あじ)わえない、地元(じもと)の旬(しゅん)という言葉(ことば)を、料理人(りょうりにん)との会話(かいわ)で使(つか)います。旬(しゅん)の時期(じき)は気候(きこう)、産地(さんち)、品種(ひんしゅ)、海域(かいいき)、その年(とし)の天候(てんこう)で動(うご)くため、暦(こよみ)だけでなく目(め)、鼻(はな)、手(て)、舌(した)で素材(そざい)を確認(かくにん)します。","en":"Shun is not a single calendar date but an ingredient's movement through seasonal time. Hashiri marks first arrival, sakari the fullest period of flavour, aroma and supply, and nagori the final appreciation of a departing season. Hatsumono celebrates the first harvest or catch, while shinmono identifies the newly harvested or produced crop year, as in new rice or tea. The chapter practises coming into season, passing peak, anticipation, 'only at this time,' 'only now,' and local seasonality as usable chef vocabulary. Exact timing moves with climate, region, variety, fishing waters and annual weather, so seasonality is judged with the senses as well as the calendar."},
+  "questionCount": 16
+},
+  {
+  "id": "page61-spring-summer",
+  "category": "techniques",
+  "page": 61,
+  "title": "春夏の旬",
+  "file": "data/pages61-spring-summer.json",
+  "introduction": {"ja":"春(はる)は芽吹(めぶ)き、柔(やわ)らかさ、苦味(にがみ)、短(みじか)い出会(であ)いを味(あじ)わいます。筍(たけのこ)、山菜(さんさい)、菜(な)の花(はな)、新玉葱(しんたまねぎ)、春(はる)キャベツ、蛍烏賊(ほたるいか)、浅蜊(あさり)、真鯛(まだい)を、見(み)た目(め)、香(かお)り、食感(しょっかん)、下処理(したしょり)、代表的(だいひょうてき)な料理(りょうり)と結(むす)びます。夏(なつ)は鮎(あゆ)、鱧(はも)、枝豆(えだまめ)、茄子(なす)、胡瓜(きゅうり)、トマト、とうもろこし、オクラから、川(かわ)の香(かお)り、骨切(ほねぎ)り、塩茹(しおゆ)で、油(あぶら)との相性(あいしょう)、瑞々(みずみず)しさ、酸味(さんみ)、甘味(あまみ)、ねばねばを覚(おぼ)えます。季節(きせつ)の名前(なまえ)だけでなく、その食材(しょくざい)を聞(き)いた瞬間(しゅんかん)に姿(すがた)と料理(りょうり)が浮(う)かぶことを目指(めざ)します。","en":"Spring is learned through shoots, tenderness, bitterness and brief encounters: bamboo shoot, sansai, nanohana, new onion, spring cabbage, firefly squid, asari and madai are connected to appearance, aroma, texture, preparation and characteristic dishes. Summer moves through ayu, hamo, edamame, eggplant, cucumber, tomato, sweet corn and okra, linking river aroma, bone-cutting, salt-boiling, affinity with oil, moisture, acidity, sweetness and viscosity. The goal is not a season-name list, but an immediate visual and culinary image when each ingredient is heard."},
+  "questionCount": 16
+},
+  {
+  "id": "page61-autumn-winter",
+  "category": "techniques",
+  "page": 61,
+  "title": "秋冬の旬",
+  "file": "data/pages61-autumn-winter.json",
+  "introduction": {"ja":"秋(あき)は香(かお)り、実(みの)り、脂(あぶら)、新(あたら)しい収穫(しゅうかく)を味(あじ)わいます。松茸(まつたけ)、栗(くり)、薩摩芋(さつまいも)、南瓜(かぼちゃ)、秋刀魚(さんま)、戻(もど)り鰹(がつお)、銀杏(ぎんなん)、新米(しんまい)を、香(かお)り、甘味(あまみ)、食感(しょっかん)、脂(あぶら)、炊飯(すいはん)と結(むす)びます。冬(ふゆ)は河豚(ふぐ)、鰤(ぶり)、牡蠣(かき)、真鱈(まだら)、白菜(はくさい)、大根(だいこん)、柚子(ゆず)、ほうれん草(そう)から、専門的(せんもんてき)な安全処理(あんぜんしょり)、寒(さむ)い海(うみ)の脂(あぶら)、濃厚(のうこう)な旨味(うまみ)、鍋(なべ)の温(あたた)かさ、寒(さむ)さで増(ま)す甘味(あまみ)、柑橘(かんきつ)の香(かお)りを覚(おぼ)えます。","en":"Autumn is learned through aroma, harvest, fat and new crops: matsutake, chestnut, sweet potato, pumpkin, sanma, returning bonito, ginkgo and new rice connect to fragrance, sweetness, texture, richness and rice cooking. Winter brings fugu, buri, oyster, cod, Chinese cabbage, daikon, yuzu and spinach, linking licensed safety preparation, cold-water fat, concentrated umami, warming hotpot, cold-enhanced sweetness and citrus aroma."},
+  "questionCount": 16
+},
+  {
+  "id": "page61-expression",
+  "category": "techniques",
+  "page": 61,
+  "title": "旬の献立と表現",
+  "file": "data/pages61-expression.json",
+  "introduction": {"ja":"旬(しゅん)は食材名(しょくざいめい)だけでなく、調理法(ちょうりほう)、器(うつわ)、あしらい、色(いろ)、温度(おんど)、土地(とち)、コースの時間(じかん)で表現(ひょうげん)します。お浸(ひた)しは春野菜(はるやさい)の色(いろ)と歯(は)ごたえ、炊(た)き込(こ)み御飯(ごはん)と土鍋御飯(どなべごはん)は秋(あき)の実(みの)りと香(かお)り、椀物(わんもの)は旬(しゅん)の椀種(わんだね)、出汁(だし)、吸口(すいくち)、器(うつわ)を一体(いったい)にします。焼(や)き魚(ざかな)は旬(しゅん)の脂(あぶら)と皮(かわ)の香(こう)ばしさ、天(てん)ぷらは食材(しょくざい)の香(かお)りと水分(すいぶん)を短時間(たんじかん)で包(つつ)みます。季節(きせつ)の器(うつわ)、あしらい、色(いろ)は料理(りょうり)の意図(いと)と安全性(あんぜんせい)から選(えら)びます。走(はし)り、盛(さか)り、名残(なごり)で成熟度(せいじゅくど)が変(か)われば、切(き)り方(かた)、火入(ひい)れ、調味(ちょうみ)、量(りょう)も変(か)えます。","en":"Season is expressed not only by ingredient names but through technique, vessel, garnish, colour, temperature, locality and the course's movement through time. Ohitashi can preserve spring vegetable colour and bite; mixed or donabe rice gathers autumn harvest and aroma; a wan unifies seasonal principal ingredient, dashi, aromatic accent and vessel. Grilled fish reveals seasonal fat and browned skin, while tempura briefly encloses aroma and moisture. Seasonal vessels, garnishes and colours are selected through intention and safety. As an ingredient moves through hashiri, sakari and nagori, maturity changes, so cut, heat, seasoning and portion may change too."},
+  "questionCount": 16
+},
+  {
+  "id": "page53-54-composition",
+  "category": "techniques",
+  "page": "53–54",
+  "title": "盛り付けの構成",
+  "file": "data/pages53-54-composition.json",
+  "introduction": {"ja":"盛(も)り付(つ)けは料理(りょうり)を皿(さら)へ置(お)く作業(さぎょう)ではなく、客(きゃく)の視線(しせん)と食(た)べる動作(どうさ)を設計(せっけい)することです。まず主役(しゅやく)を決(き)め、量(りょう)、高さ(たか)さ、色(いろ)、位置(いち)で最初(さいしょ)の焦点(しょうてん)を作(つく)ります。非対称(ひたいしょう)な構成(こうせい)と余白(よはく)は動(うご)きと呼吸(こきゅう)を生(う)み、三角形(さんかくけい)の高低差(こうていさ)や奇数(きすう)の集(あつ)まりは自然(しぜん)なリズムを作(つく)りやすくします。赤(あか)、黄(き)、緑(みどり)、白(しろ)、黒(くろ)の五色(ごしき)は義務(ぎむ)ではなく、不足(ふそく)した色(いろ)、温度感(おんどかん)、焦点(しょうてん)を考(かんが)える色彩(しきさい)の道具(どうぐ)です。つま、あしらい、かいしきは味(あじ)、香(かお)り、季節(きせつ)、口直(くちなお)しに意味(いみ)があるものを選(えら)びます。そして料理人側(りょうりにんがわ)ではなく客側(きゃくがわ)から、箸(はし)の入り方(はいりかた)、一口(ひとくち)の組(く)み合(あ)わせ、崩(くず)れ方(かた)まで確認(かくにん)します。技法(ぎほう)を守(まも)ることより、全要素(ぜんようそ)が同(おな)じ意図(いと)を伝(つた)えることが目的(もくてき)です。","en":"Plating designs the diner's gaze and eating action. Establish a principal element, then use mass, height, colour and position to create hierarchy. Asymmetry and negative space can produce movement and breathing room; triangular height and odd groupings often create natural rhythm. The five colours are a palette for diagnosing contrast and visual temperature, not a compulsory checklist. Garnishes should contribute flavour, aroma, season or refreshment. Finally inspect from the guest's viewpoint: chopstick access, bite combinations, stability and how the plate changes while being eaten. The goal is not obedience to a rule, but coherence of intention."},
+  "questionCount": 20
+},
+  {
+  "id": "page51",
+  "category": "techniques",
+  "page": 51,
+  "title": "出汁の選び方",
+  "file": "data/pages51.json",
+  "introduction": {
+    "ja": "出汁(だし)を選(えら)ぶときは、旨味(うまみ)の強(つよ)さだけでなく、香(かお)り、透明感(とうめいかん)、料理(りょうり)の主役(しゅやく)、食事制限(しょくじせいげん)を考(かんが)えます。昆布出汁(こんぶだし)はグルタミン酸(さん)を中心(ちゅうしん)とする静(しず)かで上品(じょうひん)な旨味(うまみ)があり、精進料理(しょうじんりょうり)、白身魚(しろみざかな)、野菜(やさい)を支(ささ)えます。鰹節(かつおぶし)はイノシン酸(さん)と華(はな)やかな燻製香(くんせいこう)を持(も)ち、昆布(こんぶ)と合(あ)わせると旨味(うまみ)の相乗効果(そうじょうこうか)が生(う)まれます。煮干(にぼ)しは、より力強(ちからづよ)い魚香(ぎょこう)と濃厚(のうこう)な旨味(うまみ)で味噌汁(みそしる)や麺(めん)つゆに向(む)き、干(ほ)し椎茸(しいたけ)はグアニル酸(さん)と茸(きのこ)らしい深(ふか)い香(かお)りを植物性(しょくぶつせい)の煮物(にもの)へ加(くわ)えます。一番出汁(いちばんだし)は香(かお)りと澄(す)んだ味(あじ)を見(み)せる椀物(わんもの)、二番出汁(にばんだし)は煮物(にもの)や味噌汁(みそしる)へ出汁殻(だしがら)を有効利用(ゆうこうりよう)します。この章(しょう)では、どの出汁(だし)が一番(いちばん)かではなく、料理(りょうり)に必要(ひつよう)な旨味(うまみ)と香(かお)りを持(も)つ出汁(だし)を選(えら)びます。",
+    "en": "Dashi selection involves more than umami strength: consider aroma, clarity, the leading ingredient and dietary requirements. Kombu provides quiet glutamate-rich savouriness for shojin food, white fish and vegetables. Katsuobushi contributes inosinate and lifted smoky aroma; with kombu it produces powerful umami synergy. Niboshi brings a more assertive fish character suited to miso soup and noodle broth, while dried shiitake supplies guanylate and earthy depth to plant-based simmering. Ichiban dashi showcases fresh aroma and clarity in exposed soups; niban dashi economically reuses the ingredients for simmered and strongly seasoned dishes. This chapter chooses not the universally strongest stock, but the dashi whose aroma and umami chemistry best serve the dish."
+  },
+  "questionCount": 20
+},
+  {
+  "id": "page50",
+  "category": "techniques",
+  "page": 50,
+  "title": "調理器具の選び方",
+  "file": "data/pages50.json",
+  "introduction": {
+    "ja": "和食(わしょく)の調理器具(ちょうりきぐ)は、形(かたち)の伝統(でんとう)だけでなく、材料(ざいりょう)の物理的性質(ぶつりてきせいしつ)を料理(りょうり)へ利用(りよう)しています。薄手(うすで)の雪平鍋(ゆきひらなべ)は火力(かりょく)へ素早(すばや)く反応(はんのう)し、出汁(だし)や少量(しょうりょう)の煮物(にもの)を細(こま)かく管理(かんり)できます。土鍋(どなべ)と厚(あつ)い鉄鍋(てつなべ)は熱(ねつ)を蓄(たくわ)え、炊飯(すいはん)の蒸(む)らしや食材(しょくざい)を追加(ついか)する鍋料理(なべりょうり)の温度(おんど)を安定(あんてい)させます。銅(どう)は熱(ねつ)を素早(すばや)く均一(きんいつ)に伝(つた)え、玉子焼(たまごや)きを短時間(たんじかん)で、ふっくら固(かた)めます。木(き)と竹(たけ)にも役割(やくわり)があります。飯台(はんだい)と、お櫃(ひつ)は米(こめ)の余分(よぶん)な湿気(しっけ)を調整(ちょうせい)し、せいろは湯(ゆ)へ浸(ひた)さず蒸気(じょうき)で食材(しょくざい)を包(つつ)み、巻(ま)き簾(す)は面(めん)で均一(きんいつ)な圧力(あつりょく)を掛(か)けます。すり鉢(ばち)と、おろし金(がね)は細胞(さいぼう)を異(こと)なる方法(ほうほう)で壊(こわ)し、香(かお)り、油(あぶら)、水分(すいぶん)、食感(しょっかん)を引(ひ)き出(だ)します。この章(しょう)では道具名(どうぐめい)ではなく、熱(ねつ)、蒸気(じょうき)、水分(すいぶん)、摩擦(まさつ)、圧力(あつりょく)が料理(りょうり)に、どんな結果(けっか)を作(つく)るかを学(まな)びます。",
+    "en": "Traditional Japanese cooking tools use material physics, not tradition alone. A thin yukihira responds quickly to heat changes for dashi and small simmering jobs. Donabe and heavy iron store heat, stabilizing rice steaming or hotpot temperature as ingredients are added. Copper spreads heat rapidly and evenly so egg can set quickly and remain tender. Wood and bamboo control moisture and pressure: hangiri and ohitsu buffer rice humidity, steamers surround food without immersion, and makisu shapes through evenly distributed pressure. Suribachi and graters rupture cells in different ways, controlling aroma, oil, water and texture. This chapter chooses tools through the result required from heat, steam, moisture, friction and pressure rather than through name recognition."
+  },
+  "questionCount": 20
+},
+  {
+  "id": "page47-49-physics",
+  "category": "techniques",
+  "page": "47–49",
+  "title": "包丁の構造と切断の物理",
+  "file": "data/pages47-49-physics.json",
+  "introduction": {
+    "ja": "包丁(ほうちょう)の切(き)れ味(あじ)は、刃先(はさき)が鋭(するど)いかだけでは決(き)まりません。刃先角度(はさきかくど)が小(ちい)さく、刃先(はさき)の後(うし)ろが薄(うす)いほど食材(しょくざい)へ入(はい)る抵抗(ていこう)と楔作用(くさびさよう)は減(へ)りますが、硬(かた)い食材(しょくざい)、骨(ほね)、横(よこ)ねじりに対(たい)する余裕(よゆう)も小(ちい)さくなります。蛤刃(はまぐりば)の緩(ゆる)い凸面(とつめん)は刃先(はさき)を支(ささ)えながら食材(しょくざい)との接触面積(せっしょくめんせき)を減(へ)らし、裏(うら)すきは片刃(かたば)の裏面(うらめん)の摩擦(まさつ)と密着(みっちゃく)を減(へ)らします。濡(ぬ)れた野菜(やさい)や魚(さかな)が刃(は)へ付(つ)く現象(げんしょう)には、広(ひろ)い接触面(せっしょくめん)、水膜(すいまく)の表面張力(ひょうめんちょうりょく)、食材(しょくざい)の薄(うす)さと柔(やわ)らかさが関係(かんけい)します。槌目(つちめ)やディンプルは接触(せっしょく)を減(へ)らす場合(ばあい)がありますが、食材離(しょくざいばな)れを保証(ほしょう)するものではありません。この章(しょう)では、角度(かくど)、厚(あつ)み、楔(くさび)、摩擦(まさつ)、付着(ふちゃく)、左右非対称(さゆうひたいしょう)、切(き)る動作(どうさ)を結(むす)び、一本(いっぽん)の包丁(ほうちょう)が食材(しょくざい)の中(なか)で、どう働(はたら)くかを考(かんが)えます。",
+    "en": "Knife performance is not determined by apex sharpness alone. A lower edge angle and less thickness behind the edge reduce penetration and wedging resistance, but also reduce tolerance for hard food, bone and twisting. A gently convex hamaguri grind can support the edge while reducing broad contact, and the urasuki hollow on a single bevel reduces friction and adhesion on the back. Wet vegetables and fish cling through broad surface contact, thin liquid films, slice flexibility and pressure effects. Hammering or dimples may interrupt contact but cannot guarantee release. This chapter connects angle, thickness, wedging, friction, adhesion, asymmetry and cutting motion to explain what a knife physically does inside food."
+  },
+  "questionCount": 16
+},
+  {
+  "id": "page47-49-balance",
+  "category": "techniques",
+  "page": "47–49",
+  "title": "包丁の持ち方とバランス",
+  "file": "data/pages47-49-balance.json",
+  "introduction": {
+    "ja": "包丁(ほうちょう)のバランスは、置(お)いた状態(じょうたい)の重心(じゅうしん)だけではありません。料理人(りょうりにん)が包丁(ほうちょう)を柔(やわ)らかく持(も)ち、軽(かる)く上下(じょうげ)させるのは、動(うご)かしたときの慣性(かんせい)、刃先(はさき)の重(おも)さ、戻(もど)り方(かた)、柄(え)の収(おさ)まりを感(かん)じるためです。重心(じゅうしん)がピンチグリップ付近(ふきん)にある包丁(ほうちょう)は中立的(ちゅうりつてき)で方向(ほうこう)を変(か)えやすく、出刃(でば)のように刃側(はがわ)が重(おも)い包丁(ほうちょう)は魚(さかな)をおろす力(ちから)を伝(つた)えやすくなります。しかし、最適(さいてき)な重心(じゅうしん)は一本(いっぽん)に決(き)まりません。手(て)の大(おお)きさ、握(にぎ)る位置(いち)、用途(ようと)、切(き)る動作(どうさ)、作業時間(さぎょうじかん)で評価(ひょうか)が変(か)わります。柔(やわ)らかいピンチグリップ、手首(てくび)の中立(ちゅうりつ)、顎(あご)と峰(みね)の角(かど)、柄(え)の太(ふと)さ、指(ゆび)の空間(くうかん)まで確認(かくにん)し、制御(せいぎょ)しやすく疲(つか)れにくい一本(いっぽん)を選(えら)びます。",
+    "en": "Knife balance is more than the static centre of mass. When a chef holds a knife softly and gives it a small bounce, they are feeling dynamic inertia, tip weight, recovery and how the handle settles in the hand. A balance point near the pinch grip often feels neutral and agile; a forward-weighted deba can transmit useful authority during fish breakdown. No position is universally ideal, however. Hand size, grip location, task, cutting motion and session length change perceived control. This chapter examines relaxed pinch grip, neutral wrist alignment, choil and spine comfort, handle thickness, knuckle clearance and safe testing so the learner can choose a knife that remains controllable and comfortable in actual work."
+  },
+  "questionCount": 12
+},
+  {
+  "id": "page47-49",
+  "category": "techniques",
+  "page": "47–49",
+  "title": "包丁の選び方",
+  "file": "data/pages47-49.json",
+  "introduction": {
+    "ja": "包丁(ほうちょう)は名前(なまえ)を暗記(あんき)するものではなく、目的(もくてき)に合(あ)わせて選(えら)ぶ道具(どうぐ)です。柳刃(やなぎば)は長(なが)い一方向(いちほうこう)の引(ひ)き切(ぎ)りで刺身(さしみ)の断面(だんめん)を滑(なめ)らかにし、出刃(でば)は厚(あつ)みと重(おも)さで魚(さかな)をおろします。薄刃(うすば)は片刃(かたば)で精密(せいみつ)な野菜仕事(やさいしごと)、菜切(なきり)は両刃(りょうば)で日常(にちじょう)の刻(きざ)み、三徳(さんとく)と牛刀(ぎゅうとう)は広(ひろ)い用途(ようと)を担(にな)います。鋼材(こうざい)も目的(もくてき)と手入(てい)れで選(えら)びます。白紙(しろがみ)・青紙(あおがみ)などの炭素鋼(たんそこう)は鋭(するど)い刃(は)を作(つく)りやすい一方(いっぽう)、水分(すいぶん)、塩分(えんぶん)、酸(さん)に反応(はんのう)し、野菜(やさい)へ変色(へんしょく)や金属臭(きんぞくしゅう)を移(うつ)すことがあります。ステンレス鋼(こう)は錆(さび)にくく管理(かんり)が容易(ようい)ですが、完全(かんぜん)に手入(てい)れ不要(ふよう)ではありません。この章(しょう)では形(かたち)、刃(は)の構造(こうぞう)、切(き)る動作(どうさ)、断面(だんめん)、鋼材(こうざい)、砥石(といし)、産地(さんち)と作(つく)り手(て)をつなぎ、料理人(りょうりにん)に「何(なに)を使(つか)い、なぜ選(えら)ぶのか」を尋(たず)ねられる言葉(ことば)を身(み)につけます。",
+    "en": "A knife is chosen for a task, not memorized as a name. Yanagiba makes one long draw for a smooth sashimi surface; deba uses thickness and weight for breaking down fish. Single-bevel usuba supports precision vegetable work, double-bevel nakiri everyday chopping, and santoku or gyuto broad general use. Steel must also fit both the desired edge and the owner's maintenance. Carbon steels such as shirogami and aogami take keen edges but react with moisture, salt and acid and may transfer discolouration or metallic aroma to vegetables. Stainless steel resists corrosion and simplifies care but is not maintenance-free. This chapter connects silhouette, bevel, cutting motion, finished surface, steel, whetstones, production regions and makers so the learner can ask a chef not merely what knife they own, but what they use it for and why."
+  },
+  "questionCount": 20
+},
+  {
+  "id": "page47-49-types",
+  "category": "techniques",
+  "page": "47–49",
+  "title": "包丁の種類と作り手",
+  "file": "data/pages47-49-types.json",
+  "introduction": {"ja":"和包丁(わぼうちょう)は形(かたち)ごとに仕事(しごと)が違(ちが)います。蛸引(たこひき)と、ふぐ引(び)きは刺身(さしみ)の精密(せいみつ)な引(ひ)き切(ぎ)り、舟行(ふなゆき)は魚(さかな)を中心(ちゅうしん)とする軽快(けいかい)な多用途(たようと)、骨(ほね)すきは鶏(とり)の関節(かんせつ)、小出刃(こでば)は小魚(こざかな)、筋引(すじひ)きは肉(にく)の整形(せいけい)、ペティは細工(さいく)に向(む)きます。パン切(ぎ)りの波刃(なみば)や中華包丁(ちゅうかぼうちょう)の広(ひろ)い刃面(はめん)にも、形(かたち)に根差(ねざ)した役割(やくわり)があります。重房(しげふさ)、吉金(よしかね)、高田(たかだ)ノ刃物(はもの)、恒一(こうのすけ)、堺菊守(さかいきくもり)、正本(まさもと)、實光(じっこう)、堺孝行(さかいたかゆき)、芦刃物(あしはもの)、藤次郎(とうじろう)などの名前(なまえ)は会話(かいわ)の入口(いりぐち)です。実際(じっさい)には鍛冶屋(かじや)、研(と)ぎ師(し)、産地(さんち)、鋼材(こうざい)、焼入(やきい)れ、刃(は)の形状(けいじょう)と用途(ようと)を尋(たず)ねます。","en":"Knife families encode different jobs. Takohiki and fuguhiki make precise sashimi draw cuts; funayuki is a lighter fish-centred multipurpose form; honesuki traces poultry joints; ko-deba handles small fish; sujihiki trims and slices meat; petty knives perform detail work. Serrated bread blades and the broad face of a Chinese cleaver also express function through geometry. Names in the PDF—Shigefusa, Yoshikane, Takada no Hamono, Konosuke, Sakai Kikumori, Masamoto, Jikko, Sakai Takayuki, Ashi Hamono and Tojiro—are conversation entry points. Meaningful comparison continues with blacksmith, sharpener, region, steel, heat treatment, geometry and intended work."},
+  "questionCount": 12
+},
+  {
+  "id": "page47-49-cuts",
+  "category": "techniques",
+  "page": "47–49",
+  "title": "切り方と目的",
+  "file": "data/pages47-49-cuts.json",
+  "introduction": {"ja":"切(き)り方(かた)は食材(しょくざい)の見(み)た目(め)だけでなく、表面積(ひょうめんせき)、繊維(せんい)の長(なが)さ、厚(あつ)みを変(か)えます。その結果(けっか)、歯(は)ごたえ、火(ひ)の通(とお)る速(はや)さ、味(あじ)の入(はい)り方(かた)、香(かお)りの出方(でかた)が変(か)わります。輪切(わぎ)り、半月切(はんげつぎ)り、いちょう切(ぎ)り、短冊切(たんざくぎ)り、拍子木切(ひょうしぎぎ)り、千切(せんぎ)り、乱切(らんぎ)り、ささがき、桂(かつら)むきなどの基本(きほん)から、面取(めんと)り、隠(かく)し包丁(ぼうちょう)、鹿(か)の子、蛇腹(じゃばら)の目的(もくてき)を学(まな)びます。魚(さかな)では三枚(さんまい)・五枚(ごまい)おろし、背開(せびら)き・腹開(はらびら)き、皮引(かわひ)き・骨抜(ほねぬ)き、薄造(うすづく)り・平造(ひらづく)り・そぎ造(づく)りを、完成(かんせい)する断面(だんめん)と食感(しょっかん)から選(えら)びます。","en":"Cuts change more than appearance: they alter surface area, fibre length and thickness, which changes bite, cooking speed, seasoning penetration and aroma release. This chapter connects foundational shapes—rounds, half-moons, ginkgo cuts, tanzaku, batons, julienne, rangiri, sasagaki and katsuramuki—with the purposes of chamfering, hidden scoring, crosshatching and accordion cuts. Fish work covers three- and five-piece filleting, back and belly opening, skinning and pin-bone removal, then compares paper-thin, standard and diagonal sashimi cuts through their finished surface and texture."},
+  "questionCount": 20
+},
+  {
+  "id": "page46",
+  "category": "fermentation",
+  "page": 46,
+  "title": "調味料の選び方",
+  "file": "data/pages46.json",
+  "introduction": {
+    "ja": "料理(りょうり)で調味料(ちょうみりょう)を選(えら)ぶときは、名前(なまえ)から始(はじ)めるのではなく、今(いま)の味(あじ)と完成(かんせい)させたい味(あじ)の差(さ)から考(かんが)えます。甘味(あまみ)だけを明確(めいかく)に増(ふ)やすなら砂糖(さとう)、甘味(あまみ)に照(て)り、熟成香(じゅくせいこう)、コク、アルコールの調理効果(ちょうりこうか)も必要(ひつよう)なら本みりん(ほんみりん)を選(えら)びます。塩(しお)は色(いろ)や香(かお)りを加(くわ)えず味(あじ)の輪郭(りんかく)を作(つく)り、醤油(しょうゆ)は塩味(しおあじ)と共(とも)に色(いろ)、旨味(うまみ)、発酵香(はっこうこう)を加(くわ)えます。出汁(だし)は塩味(しおあじ)を増(ふ)やしすぎず旨味(うまみ)の土台(どだい)を作(つく)り、味噌(みそ)は塩味(しおあじ)、旨味(うまみ)、香(かお)り、濃度(のうど)を一体(いったい)にします。酢(す)は脂(あぶら)の後味(あとあじ)を切(き)り、柑橘(かんきつ)は酸味(さんみ)と明(あか)るい香(かお)りを加(くわ)えます。調味料(ちょうみりょう)は一(ひと)つの味(あじ)だけを変(か)えるものではありません。この章(しょう)では、甘味(あまみ)、酸味(さんみ)、塩味(しおあじ)、旨味(うまみ)、香(かお)り、色(いろ)、質感(しつかん)への影響(えいきょう)を考(かんが)え、料理(りょうり)の目的(もくてき)に合(あ)う一本(いっぽん)を選(えら)びます。",
+    "en": "Choosing a seasoning begins not with its name, but with the gap between how a dish tastes now and how it should taste when finished. Use sugar for direct sweetness; choose mirin when sweetness must arrive with gloss, matured aroma, depth and alcohol-driven cooking effects. Salt defines flavour without adding colour or fermented aroma, while soy sauce combines salinity with colour, umami and aroma. Dashi builds a savoury foundation without excessive salt; miso integrates salinity, umami, aroma and body. Vinegar cuts through a fatty finish, while citrus contributes acidity plus bright top notes. No seasoning changes only one dimension. This chapter diagnoses sweetness, acidity, salinity, umami, aroma, colour and texture, then selects the tool whose full set of effects moves the dish in the intended direction."
+  },
+  "questionCount": 20
+},
+  {
+  "id": "page41-45-tasting",
+  "category": "fermentation",
+  "page": "41–45",
+  "title": "日本酒の味わい",
+  "file": "data/pages41-45-tasting.json",
+  "introduction": {
+    "ja": "日本酒(にほんしゅ)の味(あじ)は、純米(じゅんまい)や大吟醸(だいぎんじょう)という名前(なまえ)だけでは決(き)まりません。香(かお)りの高低(こうてい)、味(あじ)の濃淡(のうたん)、甘味(あまみ)、酸味(さんみ)、旨味(うまみ)、質感(しつかん)、余韻(よいん)を分(わ)けて観察(かんさつ)します。華(はな)やかな吟醸香(ぎんじょうこう)と軽快(けいかい)な味(あじ)の薫酒(くんしゅ)、香(かお)りも味(あじ)も軽(かる)い爽酒(そうしゅ)、米(こめ)の旨味(うまみ)とコクが豊(ゆた)かな醇酒(じゅんしゅ)、熟成香(じゅくせいこう)と複雑(ふくざつ)な味(あじ)を持(も)つ熟酒(じゅくしゅ)では、合(あ)う料理(りょうり)と温度(おんど)が違(ちが)います。日本酒度(にほんしゅど)のプラスは辛口傾向(からくちけいこう)、マイナスは甘口傾向(あまくちけいこう)を示(しめ)しますが、酸度(さんど)、香(かお)り、アルコール、温度(おんど)も舌(した)で感(かん)じる甘辛(あまから)を変(か)えます。この章(しょう)では、ラベルから味(あじ)を決(き)めつけず、香(かお)りと味(あじ)の輪郭(りんかく)を思(おも)い描(えが)き、料理(りょうり)と提供温度(ていきょうおんど)を選(えら)びます。",
+    "en": "Sake flavour cannot be predicted from labels such as junmai or daiginjo alone. Taste systematically by separating aroma intensity, body, sweetness, acidity, umami, texture and finish. Aromatic-light kunshu, quiet-light soshu, savoury-rich junshu and mature-intense jukushu each suggest different foods and serving temperatures. A positive Sake Meter Value points toward dryness and a negative value toward sweetness, but acidity, aroma, alcohol and temperature all alter the sweetness perceived on the palate. This chapter builds a mental picture from flavour structure, then chooses a pairing and temperature without treating category or prestige as destiny."
+  },
+  "questionCount": 20
+},
+  {
+  "id": "page41-45-science",
+  "category": "fermentation",
+  "page": "41–45",
+  "title": "日本酒の米と造り",
+  "file": "data/pages41-45-science.json",
+  "introduction": {
+    "ja": "日本酒(にほんしゅ)の味(あじ)は、米(こめ)の選択(せんたく)から始(はじ)まります。山田錦(やまだにしき)などの酒造好適米(しゅぞうこうてきまい)は大粒(おおつぶ)で、中心(ちゅうしん)に心白(しんぱく)と呼(よ)ばれる疎(そ)な部分(ぶぶん)があり、高度精米(こうどせいまい)に耐(た)え、麹菌(こうじきん)が内部(ないぶ)へ入(はい)りやすい特徴(とくちょう)があります。精米歩合(せいまいぶあい)50%とは玄米(げんまい)の重量(じゅうりょう)の半分(はんぶん)が残(のこ)るという意味(いみ)で、外層(がいそう)の、たんぱく質(しつ)や脂質(ししつ)を減(へ)らすと繊細(せんさい)な酒質(しゅしつ)を作(つく)りやすくなります。しかし数字(すうじ)は品質順位(ひんしつじゅんい)ではありません。麹(こうじ)が、でんぷんを糖(とう)へ変(か)え、酵母(こうぼ)が糖(とう)をアルコールと香気成分(こうきせいぶん)へ変(か)える並行複発酵(へいこうふくはっこう)、酒母(しゅぼ)、三段仕込(さんだんじこ)み、発酵温度(はっこうおんど)、火入(ひい)れ、熟成(じゅくせい)が組(く)み合(あ)わさって一本(いっぽん)の酒(さけ)になります。この章(しょう)では、精米歩合(せいまいぶあい)、心白(しんぱく)、純米(じゅんまい)、吟醸(ぎんじょう)、生酒(なまざけ)、原酒(げんしゅ)、日本酒度(にほんしゅど)、酸度(さんど)を製造工程(せいぞうこうてい)と味(あじ)につなげます。",
+    "en": "Sake flavour begins with rice choice. Brewing varieties such as Yamada Nishiki tend to have large grains and a loosely structured opaque centre called shinpaku, allowing deep polishing and helping koji grow into the grain. A 50% polishing ratio means half the original brown-rice weight remains; removing outer proteins and lipids can support a cleaner, more delicate style, but the number is not a quality ranking. In multiple parallel fermentation, koji converts starch into sugar while yeast simultaneously converts sugar into alcohol and aroma compounds. Starter culture, three-stage addition, temperature, pasteurization and maturation then shape the final bottle. This chapter connects polishing ratio, shinpaku, junmai, ginjo, nama, genshu, Sake Meter Value and acidity to both production science and flavour."
+  },
+  "questionCount": 20
+},
+  {
+  "id": "page39-40",
+  "category": "fermentation",
+  "page": "39–40",
+  "title": "甘酒",
+  "file": "data/pages39-40.json",
+  "introduction": {
+    "ja": "甘酒(あまざけ)には、名前(なまえ)は同(おな)じでも作(つく)り方(かた)も味(あじ)も異(こと)なる二(ふた)つの系統(けいとう)があります。米麹甘酒(こめこうじあまざけ)は、御飯(ごはん)や米(こめ)に米麹(こめこうじ)と水(みず)を合(あ)わせ、55〜60℃程度(どていど)で保温(ほおん)して作(つく)ります。麹(こうじ)の酵素(こうそ)が、でんぷんをブドウ糖(とう)などへ分解(ぶんかい)するため、砂糖(さとう)を加(くわ)えなくても自然(しぜん)に甘(あま)く、一般(いっぱん)にアルコールを含(ふく)みません。一方(いっぽう)、酒粕甘酒(さけかすあまざけ)は、日本酒(にほんしゅ)の、もろみを搾(しぼ)った後(あと)の酒粕(さけかす)を湯(ゆ)に溶(と)かし、通常(つうじょう)は砂糖(さとう)で甘味(あまみ)を整(ととの)えます。酒蔵(さかぐら)を思(おも)わせる芳醇(ほうじゅん)な香(かお)りがあり、原料(げんりょう)の酒粕(さけかす)にはアルコールが残(のこ)ることがあります。加熱(かねつ)で減(へ)らせますが、家庭調理(かていちょうり)だけで0%を保証(ほしょう)することはできません。この章(しょう)では、原材料(げんざいりょう)、甘味(あまみ)の生(う)まれ方(かた)、香(かお)り、アルコール表示(ひょうじ)を比(くら)べ、目的(もくてき)に合(あ)う甘酒(あまざけ)を選(えら)びます。",
+    "en": "Amazake names two drinks with fundamentally different ingredients, processes and flavours. Koji amazake combines cooked rice or rice with rice koji and water, held near 55–60°C so koji enzymes convert starch into glucose and other sugars. It can therefore taste naturally sweet without added sugar and is generally alcohol-free. Sake-lees amazake dissolves the pressed residue of sake production in hot water and usually adds sugar because the lees themselves are not very sweet. It has a pronounced, brewery-like aroma, and its sake lees may retain alcohol. Heating can reduce that alcohol but home preparation cannot guarantee a final 0%. This chapter compares ingredients, the source of sweetness, aroma and alcohol labelling so the learner can identify and choose the appropriate kind of amazake."
+  },
+  "questionCount": 20
+},
+  {
+  "id": "page38",
+  "category": "fermentation",
+  "page": 38,
+  "title": "塩麹・醤油麹",
+  "file": "data/pages38.json",
+  "introduction": {
+    "ja": "塩麹(しおこうじ)と醤油麹(しょうゆこうじ)は、どちらも肉(にく)、魚(さかな)、野菜(やさい)に使(つか)える実用的(じつようてき)な調味料(ちょうみりょう)です。塩麹(しおこうじ)は、素材(そざい)の色(いろ)を濃(こ)くせず、穏(おだ)やかな塩味(しおあじ)、甘味(あまみ)、旨味(うまみ)を加(くわ)えるため、鶏胸肉(とりむねにく)、白身魚(しろみざかな)、淡色野菜(たんしょくやさい)、スープ、即席漬(そくせきづ)けに向(む)きます。醤油麹(しょうゆこうじ)は、醤油(しょうゆ)の色(いろ)と香(かお)りに麹(こうじ)の甘味(あまみ)と旨味(うまみ)を重(かさ)ね、生姜焼(しょうがや)き、鮭(さけ)、茸(きのこ)、焼(や)き野菜(やさい)、和(あ)え物(もの)、冷奴(ひややっこ)を力強(ちからづよ)くまとめます。肉(にく)や魚(さかな)に使(つか)うときは、厚(あつ)さに合(あ)わせて漬(つ)け時間(じかん)を調整(ちょうせい)し、塩味(しおあじ)が入りすぎないようにします。麹(こうじ)の糖(とう)は焦(こ)げやすいため、焼(や)く前(まえ)に余分(よぶん)な粒(つぶ)をぬぐい、弱(よわ)めの火(ひ)で調理(ちょうり)します。この章(しょう)では、完成(かんせい)させたい色(いろ)、香(かお)り、旨味(うまみ)、食感(しょっかん)から、どちらを、いつ、どのように使(つか)うかを選(えら)びます。",
+    "en": "Shio koji and shoyu koji are both practical seasonings for meat, fish and vegetables. Shio koji contributes gentle salinity, sweetness and umami without strongly colouring an ingredient, so it suits chicken breast, white fish, pale vegetables, soup and quick pickles. Shoyu koji layers koji sweetness and savouriness onto soy colour and aroma, giving more definition to ginger pork, salmon, mushrooms, grilled vegetables, dressed greens and chilled tofu. For meat or fish, marinating time should follow thickness so salt and enzymatic action do not go too far. Koji sugars scorch readily, so excess solids should be wiped away and heat kept moderate. This chapter chooses which seasoning to use—and when and how to use it—from the desired colour, aroma, umami and texture of the finished dish."
+  },
+  "questionCount": 20
+},
+  {
   "id": "page28-29-culinary",
   "category": "fermentation",
   "page": "28–29",

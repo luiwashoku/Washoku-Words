@@ -110,6 +110,12 @@
     elements.questionText =
       document.getElementById("questionText");
 
+    elements.questionVisual =
+      document.getElementById("questionVisual");
+
+    elements.questionImage =
+      document.getElementById("questionImage");
+
     elements.answerContainer =
       document.getElementById(
         "answerContainer"
@@ -1182,6 +1188,24 @@
 
     elements.questionText.textContent =
       question.question;
+
+    if (question.image) {
+      elements.questionImage.src =
+        question.image;
+      elements.questionImage.alt =
+        question.imageAlt || "";
+      elements.questionVisual.classList.remove(
+        "hidden"
+      );
+    } else {
+      elements.questionImage.removeAttribute(
+        "src"
+      );
+      elements.questionImage.alt = "";
+      elements.questionVisual.classList.add(
+        "hidden"
+      );
+    }
 
     elements.answerContainer
       .replaceChildren();
