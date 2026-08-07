@@ -1206,8 +1206,15 @@
       question.question;
 
     if (question.image) {
+      const [imagePath, imageFragment] =
+        question.image.split("#", 2);
+      const imageSource = imageFragment
+        ? `${imagePath}${imagePath.includes("?") ? "&" : "?"}` +
+          `highlight=${encodeURIComponent(imageFragment)}#${imageFragment}`
+        : imagePath;
+
       elements.questionImage.src =
-        question.image;
+        imageSource;
       elements.questionImage.alt =
         question.imageAlt || "";
       elements.questionVisual.classList.remove(
