@@ -733,7 +733,23 @@
         })
       );
 
-    return questionGroups.flat();
+    return questionGroups
+      .flat()
+      .map(shuffleQuestionAnswers);
+  }
+
+  function shuffleQuestionAnswers(question) {
+    const correctAnswer =
+      question.answers[question.correct];
+    const answers = shuffleArray(
+      question.answers
+    );
+
+    return {
+      ...question,
+      answers,
+      correct: answers.indexOf(correctAnswer)
+    };
   }
 
   async function openRandomSession(button) {
