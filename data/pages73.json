@@ -1,0 +1,116 @@
+[
+  {
+    "id":"page73-q01","chapter":"鶏の部位・図で覚える","page":73,"type":"recognition","difficulty":2,
+    "question":"この部位(ぶい)は何(なん)ですか。","image":"assets/chicken_parts.svg#furisode","imageAlt":"鶏の肩と翼の付け根の部位がオレンジ色に示されている",
+    "answers":["ふりそで","せせり","手羽元(てばもと)","むね肉(にく)"],"correct":0,
+    "jpExplanation":"肩(かた)から翼(つばさ)の付(つ)け根(ね)にある肉(にく)は「ふりそで」です。少量(しょうりょう)しか取(と)れない部位(ぶい)です。","enExplanation":"Furisode is the shoulder meat at the wing root and is obtained only in a small quantity."
+  },
+  {
+    "id":"page73-q02","chapter":"鶏の部位・図で覚える","page":73,"type":"recognition","difficulty":2,
+    "question":"この部位(ぶい)は何(なん)ですか。","image":"assets/chicken_parts.svg#seseri","imageAlt":"鶏の首の肉がオレンジ色に示されている",
+    "answers":["皮(かわ)","せせり","ささみ","ハラミ"],"correct":1,
+    "jpExplanation":"首(くび)の周囲(しゅうい)の肉(にく)は「せせり」です。よく動(うご)く部分(ぶぶん)なので、弾力(だんりょく)と旨味(うまみ)があります。","enExplanation":"Seseri is neck meat. Frequent movement gives it a springy texture and concentrated savouriness."
+  },
+  {
+    "id":"page73-q03","chapter":"鶏の部位・図で覚える","page":73,"type":"recognition","difficulty":1,
+    "question":"この部位(ぶい)は何(なん)ですか。","image":"assets/chicken_parts.svg#kawa","imageAlt":"鶏の首の表面にある皮の部分がオレンジ色に示されている",
+    "answers":["せせり","ぼんじり","皮(かわ)","むね肉(にく)"],"correct":2,
+    "jpExplanation":"鶏(とり)の表面(ひょうめん)を覆(おお)う部分(ぶぶん)は「皮(かわ)」です。焼(や)くと脂(あぶら)が出(で)て、香(こう)ばしく、ぱりっとした食感(しょっかん)になります。","enExplanation":"Kawa is chicken skin. Cooking renders its fat and can create a crisp, aromatic surface."
+  },
+  {
+    "id":"page73-q04","chapter":"鶏の部位・図で覚える","page":73,"type":"recognition","difficulty":1,
+    "question":"この部位(ぶい)は何(なん)ですか。","image":"assets/chicken_parts.svg#muneniku","imageAlt":"鶏の胸の大きな筋肉がオレンジ色に示されている",
+    "answers":["モモ","ささみ","ふりそで","むね肉(にく)"],"correct":3,
+    "jpExplanation":"胸(むね)の大(おお)きな筋肉(きんにく)は「むね肉」です。脂肪(しぼう)が比較的(ひかくてき)少(すく)なく、あっさりしています。","enExplanation":"Mune-niku is breast meat. It is relatively lean and mild in flavour."
+  },
+  {
+    "id":"page73-q05","chapter":"鶏の部位・図で覚える","page":73,"type":"recognition","difficulty":2,
+    "question":"この部位(ぶい)は何(なん)ですか。","image":"assets/chicken_parts.svg#sasami","imageAlt":"鶏の胸肉の内側にある細長い部位がオレンジ色に示されている",
+    "answers":["ささみ","むね肉(にく)","せせり","そりれす"],"correct":0,
+    "jpExplanation":"むね肉(にく)の内側(うちがわ)にある細長(ほそなが)い筋肉(きんにく)は「ささみ」です。脂肪(しぼう)が少(すく)なく、柔(やわ)らかい部位(ぶい)です。","enExplanation":"Sasami is the tenderloin inside the breast. It is lean and tender."
+  },
+  {
+    "id":"page73-q06","chapter":"鶏の部位・図で覚える","page":73,"type":"recognition","difficulty":2,
+    "question":"この部位(ぶい)は何(なん)ですか。","image":"assets/chicken_parts.svg#yagen","imageAlt":"鶏の胸の中央にある細い軟骨がオレンジ色に示されている",
+    "answers":["ヒザ軟骨(なんこつ)","ヤゲン軟骨(なんこつ)","つなぎ","ささみ"],"correct":1,
+    "jpExplanation":"胸骨(きょうこつ)の先端側(せんたんがわ)にある軟骨(なんこつ)は「ヤゲン軟骨」です。こりこりした食感(しょっかん)があります。","enExplanation":"Yagen nankotsu is cartilage at the breastbone and is valued for its crunchy texture."
+  },
+  {
+    "id":"page73-q07","chapter":"鶏の部位・図で覚える","page":73,"type":"recognition","difficulty":1,
+    "question":"この部位(ぶい)は何(なん)ですか。","image":"assets/chicken_parts.svg#tebasaki","imageAlt":"鶏の翼の先端部分がオレンジ色に示されている",
+    "answers":["手羽元(てばもと)","手羽中(てばなか)","手羽先(てばさき)","ふりそで"],"correct":2,
+    "jpExplanation":"翼(つばさ)の先端側(せんたんがわ)は「手羽先」です。骨(ほね)、皮(かわ)、結合組織(けつごうそしき)が多(おお)い部位(ぶい)です。","enExplanation":"Tebasaki is the outer wing tip, with abundant skin, bone, and connective tissue."
+  },
+  {
+    "id":"page73-q08","chapter":"鶏の部位・図で覚える","page":73,"type":"recognition","difficulty":1,
+    "question":"この部位(ぶい)は何(なん)ですか。","image":"assets/chicken_parts.svg#tebanaka","imageAlt":"鶏の翼の中央部分がオレンジ色に示されている",
+    "answers":["手羽先(てばさき)","手羽元(てばもと)","ふりそで","手羽中(てばなか)"],"correct":3,
+    "jpExplanation":"手羽先(てばさき)と手羽元(てばもと)の間(あいだ)にある翼(つばさ)の中央部(ちゅうおうぶ)は「手羽中」です。","enExplanation":"Tebanaka is the middle wing section between the wing tip and drumette."
+  },
+  {
+    "id":"page73-q09","chapter":"鶏の部位・図で覚える","page":73,"type":"recognition","difficulty":1,
+    "question":"この部位(ぶい)は何(なん)ですか。","image":"assets/chicken_parts.svg#tebamoto","imageAlt":"鶏の胴体に最も近い翼の部分がオレンジ色に示されている",
+    "answers":["手羽元(てばもと)","手羽中(てばなか)","せせり","モモ"],"correct":0,
+    "jpExplanation":"胴体(どうたい)に最(もっと)も近(ちか)い翼(つばさ)の部分(ぶぶん)は「手羽元」です。英語(えいご)では drumette と呼(よ)ばれます。","enExplanation":"Tebamoto is the wing section nearest the body, called the drumette in English."
+  },
+  {
+    "id":"page73-q10","chapter":"鶏の部位・図で覚える","page":73,"type":"recognition","difficulty":2,
+    "question":"この部位(ぶい)は何(なん)ですか。","image":"assets/chicken_parts.svg#bonjiri","imageAlt":"鶏の尾の付け根がオレンジ色に示されている",
+    "answers":["皮(かわ)","ぼんじり","せせり","ふりそで"],"correct":1,
+    "jpExplanation":"尾(お)の付(つ)け根(ね)にある脂(あぶら)の多(おお)い部位(ぶい)は「ぼんじり」です。","enExplanation":"Bonjiri is the fatty cut around the base of the tail."
+  },
+  {
+    "id":"page73-q11","chapter":"鶏の部位・図で覚える","page":73,"type":"recognition","difficulty":3,
+    "question":"この部位(ぶい)は何(なん)ですか。","image":"assets/chicken_parts.svg#egg-system","imageAlt":"鶏の未成熟卵黄と、それにつながる卵管がオレンジ色に示されている",
+    "answers":["ハツ・はつもと・つなぎ","モモ・そりれす","きんかん・ちょうちん","レバー・白(しろ)レバー"],"correct":2,
+    "jpExplanation":"丸(まる)い未成熟卵黄(みせいじゅくらんおう)が「きんかん」で、卵管(らんかん)につながった状態(じょうたい)を含(ふく)む希少部位(きしょうぶい)が「ちょうちん」です。図(ず)では一(ひと)つのまとまりとして示(しめ)しています。","enExplanation":"Kinkan are the immature yolks; chōchin is the yolk with its attached oviduct. The connected system is highlighted together."
+  },
+  {
+    "id":"page73-q13","chapter":"鶏の部位・図で覚える","page":73,"type":"recognition","difficulty":1,
+    "question":"この部位(ぶい)は何(なん)ですか。","image":"assets/chicken_parts.svg#momo","imageAlt":"鶏の腿の大きな外側の形がオレンジ色に示されている",
+    "answers":["むね肉(にく)・ささみ","ハツ・つなぎ","手羽先(てばさき)・手羽中(てばなか)","モモ・そりれす"],"correct":3,
+    "jpExplanation":"大(おお)きな腿肉(ももにく)が「モモ」で、「そりれす」はその付(つ)け根(ね)、骨盤(こつばん)の近(ちか)くにある小(ちい)さな肉(にく)です。そりれすは大(おお)きなモモの形(かたち)に含(ふく)まれ、内側(うちがわ)の小(ちい)さな輪郭(りんかく)はヒザ軟骨(なんこつ)です。","enExplanation":"Momo is the large thigh shape; soriresu is a small portion within that broader cut near the pelvis. The separately outlined inner shape is knee cartilage."
+  },
+  {
+    "id":"page73-q15","chapter":"鶏の内臓・希少部位","page":73,"type":"recognition","difficulty":2,
+    "question":"この部位(ぶい)は何(なん)ですか。","image":"assets/chicken_parts.svg#heart-system","imageAlt":"鶏の心臓、その根元、つながる大動脈がオレンジ色に示されている",
+    "answers":["ハツ・はつもと・つなぎ","レバー・白(しろ)レバー","きんかん・ちょうちん","モモ・そりれす"],"correct":0,
+    "jpExplanation":"心臓(しんぞう)が「ハツ」、その根元(ねもと)が「はつもと」、心臓(しんぞう)につながる大動脈(だいどうみゃく)が「つなぎ」です。図(ず)では連続(れんぞく)する構造(こうぞう)として示(しめ)しています。","enExplanation":"Hatsu is the heart, hatsumoto its root, and tsunagi the connected aorta. They are highlighted as one connected structure."
+  },
+  {
+    "id":"page73-q18","chapter":"鶏の内臓・希少部位","page":73,"type":"recognition","difficulty":2,
+    "question":"この部位(ぶい)は何(なん)ですか。","image":"assets/chicken_parts.svg#liver","imageAlt":"鶏の肝臓の形がオレンジ色に示されている",
+    "answers":["砂肝(すなぎも)","レバー・白(しろ)レバー","ハツ・はつもと・つなぎ","きんかん・ちょうちん"],"correct":1,
+    "jpExplanation":"この形(かたち)は肝臓(かんぞう)の「レバー」です。同(おな)じ部位(ぶい)でも、脂肪(しぼう)が多(おお)く白(しろ)っぽいものは「白レバー」と呼(よ)ばれます。","enExplanation":"This shape is the liver. The same anatomical part is called shiro-rebā when it is pale and fatty."
+  },
+  {
+    "id":"page73-q19","chapter":"鶏の内臓・希少部位","page":73,"type":"recognition","difficulty":3,
+    "question":"この部位(ぶい)は何(なん)ですか。","image":"assets/chicken_parts.svg#harami-part","imageAlt":"鶏の横隔膜に当たるハラミの位置がオレンジ色に示されている","answers":["せせり","ふりそで","ハラミ","そりれす"],"correct":2,
+    "jpExplanation":"横隔膜(おうかくまく)に当(あ)たる薄(うす)い筋肉(きんにく)の部位(ぶい)は「ハラミ」です。","enExplanation":"Harami is the thin muscular cut corresponding to the diaphragm."
+  },
+  {
+    "id":"page73-q20","chapter":"鶏の内臓・希少部位","page":73,"type":"recognition","difficulty":2,
+    "question":"この部位(ぶい)は何(なん)ですか。","image":"assets/chicken_parts.svg#sunagimo","imageAlt":"鶏の砂肝がオレンジ色に示されている","answers":["ハツ","レバー","はつもと","砂肝(すなぎも)"],"correct":3,
+    "jpExplanation":"餌(えさ)を砕(くだ)く筋肉質(きんにくしつ)の胃(い)は「砂肝」です。脂肪(しぼう)が少(すく)なく、こりこりした食感(しょっかん)があります。","enExplanation":"Sunagimo is the muscular gizzard used to grind food, producing its characteristic crunchy texture."
+  },
+  {
+    "id":"page73-q21","chapter":"鶏の内臓・希少部位","page":73,"type":"recognition","difficulty":2,
+    "question":"この部位(ぶい)は何(なん)ですか。","image":"assets/chicken_parts.svg#hiza-nankotsu","imageAlt":"鶏のモモの形の内側にあるヒザ軟骨がオレンジ色に示されている","answers":["ヒザ軟骨(なんこつ)","ヤゲン軟骨(なんこつ)","手羽中(てばなか)","そりれす"],"correct":0,
+    "jpExplanation":"脚(あし)の膝関節(ひざかんせつ)にある丸(まる)い軟骨(なんこつ)は「ヒザ軟骨」です。胸骨側(きょうこつがわ)のヤゲン軟骨(なんこつ)と区別(くべつ)します。","enExplanation":"Hiza nankotsu is knee cartilage and is distinct from yagen cartilage at the breastbone."
+  },
+  {
+    "id":"page73-q22","chapter":"鶏を表す言葉","page":73,"type":"recognition","difficulty":1,
+    "question":"性別(せいべつ)を限定(げんてい)しない、一般的(いっぱんてき)な呼(よ)び方(かた)はどれですか。","answers":["雌鶏(めんどり)","鶏(にわとり)","雄鶏(おんどり)","若鶏(わかどり)"],"correct":1,
+    "jpExplanation":"性別(せいべつ)を限定(げんてい)しない一般的(いっぱんてき)な chicken は「鶏(にわとり)」です。","enExplanation":"Niwatori is the general word for a chicken without specifying sex."
+  },
+  {
+    "id":"page73-q23","chapter":"鶏を表す言葉","page":73,"type":"recognition","difficulty":1,
+    "question":"成長(せいちょう)した雌(めす)の鶏(にわとり)を何(なん)と呼(よ)びますか。","answers":["雄鶏(おんどり)","若鶏(わかどり)","雌鶏(めんどり)","親鶏(おやどり)"],"correct":2,
+    "jpExplanation":"成長(せいちょう)した雌(めす)の鶏(にわとり)、つまり hen は「雌鶏(めんどり)」です。","enExplanation":"Mendori means an adult female chicken, or hen."
+  },
+  {
+    "id":"page73-q24","chapter":"鶏を表す言葉","page":73,"type":"recognition","difficulty":1,
+    "question":"成長(せいちょう)した雄(おす)の鶏(にわとり)を何(なん)と呼(よ)びますか。","answers":["雌鶏(めんどり)","若鶏(わかどり)","鶏(にわとり)","雄鶏(おんどり)"],"correct":3,
+    "jpExplanation":"成長(せいちょう)した雄(おす)の鶏(にわとり)、つまり rooster は「雄鶏(おんどり)」です。","enExplanation":"Ondori means an adult male chicken, or rooster."
+  }
+]

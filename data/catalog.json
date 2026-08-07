@@ -619,6 +619,30 @@
   "questionCount": 100
 },
   {
+  "id": "page72",
+  "category": "animal-ingredients",
+  "page": 72,
+  "title": "肉の基礎知識",
+  "file": "data/pages72.json",
+  "introduction": {
+    "ja": "肉(にく)を理解(りかい)するには、部位名(ぶいめい)だけでなく、構造(こうぞう)、脂(あぶら)、食感(しょっかん)、切(き)り方(かた)、加熱後(かねつご)の扱(あつか)いを一(ひと)つの流(なが)れとして考(かんが)えます。筋目(すじめ)と繊維(せんい)を見(み)て切(き)る方向(ほうこう)を選(えら)び、赤身(あかみ)、脂身(あぶらみ)、霜降(しもふ)り、サシを区別(くべつ)します。旨味(うまみ)、風味(ふうみ)、弾力(だんりょく)、歯(は)ごたえ、ジューシーさを別々(べつべつ)に評価(ひょうか)し、熟成(じゅくせい)と歩留(ぶど)まり、焼(や)き色(いろ)、休(やす)ませる理由(りゆう)を実際(じっさい)の調理(ちょうり)へ結(むす)び付(つ)けます。",
+    "en": "Understanding meat requires one connected picture of structure, fat, texture, cutting direction, cooking, and post-cooking handling. Read the grain and fibres, distinguish lean meat, external fat, marbling and intramuscular fat, and evaluate umami, aroma, springiness, chew and juiciness separately. Then connect aging and yield with browning, controlled heat, resting, and slicing."
+  },
+  "questionCount": 40
+},
+  {
+  "id": "page73",
+  "category": "animal-ingredients",
+  "page": 73,
+  "title": "鶏の部位",
+  "file": "data/pages73.json",
+  "introduction": {
+    "ja": "鶏(とり)は、翼(つばさ)、胸(むね)、脚(あし)、内臓(ないぞう)など、位置(いち)によって部位名(ぶいめい)が変(か)わります。まず図(ず)の位置(いち)と名前(なまえ)を結(むす)び付(つ)け、料理教室(りょうりきょうしつ)や焼鳥店(やきとりてん)で部位名(ぶいめい)を聞(き)いたときに、鶏(とり)のどこなのかを思(おも)い浮(う)かべられるようにします。",
+    "en": "Chicken cut names correspond to distinct areas of the wing, breast, legs, skin, and organs. Connect each Japanese name to its physical position so that you can immediately picture the cut when it is mentioned in a cooking class or yakitori restaurant."
+  },
+  "questionCount": 20
+},
+  {
   "id": "page62-63",
   "category": "conversation",
   "page": "62–63",

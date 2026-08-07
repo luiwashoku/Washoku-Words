@@ -537,16 +537,15 @@ button:focus-visible {
 
 .questionVisual {
   margin: 18px 0 0;
-  padding: 12px;
-  border: 2px solid var(--ink);
-  border-radius: 18px;
-  background: var(--canvas);
+  padding: 0;
+  border: 0;
+  background: transparent;
 }
 
 .questionVisual img {
   display: block;
   width: 100%;
-  max-height: 300px;
+  height: clamp(340px, 65vw, 460px);
   object-fit: contain;
 }
 
