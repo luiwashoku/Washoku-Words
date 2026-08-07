@@ -4,14 +4,14 @@
 }
 
 :root {
-  --canvas: #dfdcfa;
-  --horizon: #8ca5ee;
-  --pulse: #e96fba;
-  --ember: #fa631a;
-  --bronze: #8e7b23;
-  --depth: #0f463b;
-  --ink: #171717;
-  --paper: #fffdf8;
+  --canvas: #dbb8ff;
+  --horizon: #aee6ed;
+  --pulse: #f2bb05;
+  --ember: #ff5b22;
+  --bronze: #3939ff;
+  --depth: #3939ff;
+  --ink: #111111;
+  --paper: #f7f4ee;
 
   font-family:
     -apple-system,
@@ -22,18 +22,18 @@
     sans-serif;
 
   color: var(--ink);
-  background: var(--canvas);
+  background: var(--screen-canvas, var(--paper));
 }
 
 html {
   min-height: 100%;
-  background: var(--canvas);
+  background: var(--screen-canvas, var(--paper));
 }
 
 body {
   min-height: 100vh;
   margin: 0;
-  background: var(--canvas);
+  background: var(--screen-canvas, var(--paper));
 }
 
 button {
@@ -131,7 +131,7 @@ button:focus-visible {
 .hero {
   padding: 24px 22px;
   border-bottom: 2px solid var(--ink);
-  background: var(--horizon);
+  background: var(--ember);
 }
 
 .hero h2 {
@@ -215,44 +215,11 @@ button:focus-visible {
   border-right: 0;
 }
 
-.category-card:nth-child(1) {
-  background: var(--pulse);
-}
-
-.category-card:nth-child(2) {
-  background: var(--ember);
-}
-
-.category-card:nth-child(3) {
-  background: var(--horizon);
-}
-
-.category-card:nth-child(4) {
-  background: var(--bronze);
-}
-
-.category-card:nth-child(5) {
-  color: var(--ink);
-  background: #ffcc00;
-}
-
-.category-card:nth-child(6) {
-  background: var(--canvas);
-}
-
-.category-card:nth-child(7) {
-  background: color-mix(
-    in srgb,
-    var(--pulse) 48%,
-    var(--horizon)
-  );
-}
-
 .random-question-card {
   display: grid;
   place-items: center;
   color: var(--ink);
-  background: var(--depth);
+  background: var(--ink);
   text-align: center;
 }
 
@@ -292,6 +259,16 @@ button:focus-visible {
   gap: 16px;
   padding: 18px;
   border-bottom: 2px solid var(--ink);
+}
+
+.pageHeader {
+  background: var(
+    --category-color,
+    var(--horizon)
+  );
+}
+
+.quizHeader {
   background: var(--horizon);
 }
 
@@ -332,18 +309,6 @@ button:focus-visible {
 
 .lesson-card:last-child {
   border-bottom: 0;
-}
-
-.lesson-card:nth-child(3n + 1) {
-  background: var(--canvas);
-}
-
-.lesson-card:nth-child(3n + 2) {
-  background: color-mix(in srgb, var(--horizon) 62%, white);
-}
-
-.lesson-card:nth-child(3n) {
-  background: color-mix(in srgb, var(--pulse) 56%, white);
 }
 
 .lesson-copy strong {
@@ -408,7 +373,7 @@ button:focus-visible {
 }
 
 #lessonIntroductionDialog::backdrop {
-  background: rgb(15 70 59 / 58%);
+  background: rgb(5 5 5 / 62%);
 }
 
 .introductionHeader {
@@ -478,11 +443,7 @@ button:focus-visible {
 }
 
 .introductionBody section[lang="en"] {
-  background: color-mix(
-    in srgb,
-    var(--horizon) 45%,
-    white
-  );
+  background: var(--horizon);
 }
 
 .introductionBody h3 {
@@ -643,7 +604,7 @@ button:focus-visible {
   border: 2px solid var(--ink);
   border-radius: 18px;
   background: var(--depth);
-  color: var(--paper);
+  color: var(--ink);
   font-size: 17px;
   font-weight: 900;
   cursor: pointer;

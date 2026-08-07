@@ -5,37 +5,51 @@
     {
       id: "basics",
       title: "基本のことば",
-      pageRange: "Pages 1–11"
+      pageRange: "Pages 1–11",
+      color: "var(--ember)",
+      canvas: "var(--horizon)"
     },
     {
       id: "food-culture",
       title: "日本の食文化",
-      pageRange: "Pages 12–27"
+      pageRange: "Pages 12–27",
+      color: "var(--horizon)",
+      canvas: "var(--canvas)"
     },
     {
       id: "fermentation",
       title: "発酵と調味料",
-      pageRange: "Pages 28–46"
+      pageRange: "Pages 28–46",
+      color: "var(--canvas)",
+      canvas: "var(--pulse)"
     },
     {
       id: "techniques",
       title: "技術と料理",
-      pageRange: "Pages 47–61"
+      pageRange: "Pages 47–61",
+      color: "var(--pulse)",
+      canvas: "var(--horizon)"
     },
     {
       id: "conversation",
       title: "日本語で話す",
-      pageRange: "Pages 62–67"
+      pageRange: "Pages 62–67",
+      color: "var(--bronze)",
+      canvas: "var(--canvas)"
     },
     {
       id: "evaluation",
       title: "料理を評価する",
-      pageRange: "Pages 68–71"
+      pageRange: "Pages 68–71",
+      color: "var(--ember)",
+      canvas: "var(--canvas)"
     },
     {
       id: "animal-ingredients",
       title: "動物性食材",
-      pageRange: "Pages 72–84"
+      pageRange: "Pages 72–84",
+      color: "var(--horizon)",
+      canvas: "var(--pulse)"
     }
   ];
 
@@ -83,6 +97,9 @@
   }
 
   function cacheElements() {
+    elements.topbar =
+      document.querySelector(".topbar");
+
     elements.homeScreen =
       document.getElementById("homeScreen");
 
@@ -366,6 +383,9 @@
         button.className =
           "category-card";
 
+        button.style.background =
+          category.color;
+
         button.setAttribute(
           "aria-label",
           `Open ${category.title}`
@@ -462,6 +482,11 @@
 
   function openCategory(category) {
     state.selectedCategory = category;
+
+    elements.pageScreen.style.setProperty(
+      "--category-color",
+      category.color
+    );
 
     elements.pageTitle.textContent =
       category.title;
@@ -1513,6 +1538,22 @@
   }
 
   function showScreen(screenName) {
+    const screenCanvas =
+      screenName === "pages" &&
+      state.selectedCategory
+        ? state.selectedCategory.canvas
+        : "var(--paper)";
+
+    document.documentElement.style.setProperty(
+      "--screen-canvas",
+      screenCanvas
+    );
+
+    elements.topbar?.classList.toggle(
+      "hidden",
+      screenName === "quiz"
+    );
+
     elements.homeScreen.classList.toggle(
       "hidden",
       screenName !== "home"
