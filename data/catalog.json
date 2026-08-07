@@ -643,6 +643,18 @@
   "questionCount": 20
 },
   {
+  "id": "page76",
+  "category": "animal-ingredients",
+  "page": 76,
+  "title": "牛の部位",
+  "file": "data/pages76.json",
+  "introduction": {
+    "ja": "牛肉(ぎゅうにく)の部位(ぶい)を、名前(なまえ)だけでなく牛(うし)の体(からだ)の位置(いち)と結(むす)び付(つ)けます。オレンジ色(いろ)の区画(くかく)を見(み)て、背中(せなか)、肩(かた)、腹(はら)、後脚(こうきゃく)などの位置関係(いちかんけい)から部位名(ぶいめい)を選(えら)びます。",
+    "en": "Connect each beef-cut name to its physical position on the animal. Use the orange regions to build a visual map of the shoulder, back, belly, and hindquarter."
+  },
+  "questionCount": 16
+},
+  {
   "id": "page62-63",
   "category": "conversation",
   "page": "62–63",
