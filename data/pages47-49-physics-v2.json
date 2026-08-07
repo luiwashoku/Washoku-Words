@@ -1,22 +1,350 @@
 [
-  {"id":"page47-49-physics-v2-q01","chapter":"包丁の構造と切断の物理","page":"47–49","type":"application","difficulty":1,"image":"assets/knife_2.svg#double-bevel","imageAlt":"左側の左右対称な両刃の断面がオレンジ色で示されている","question":"図(ず)の両刃(りょうば)を選(えら)ぶ利点(りてん)は何(なん)ですか。","answers":["左右(さゆう)から刃(は)が付(つ)き、比較的(ひかくてき)まっすぐ進(すす)みやすく、幅広(はばひろ)い作業(さぎょう)に使(つか)いやすい","必(かなら)ず片刃(かたば)より薄(うす)い刺身(さしみ)を作(つく)れる","右利(みぎき)き専用(せんよう)になる","裏(うら)すきが必(かなら)ず付(つ)く"],"correct":0,"jpExplanation":"両刃(りょうば)は左右(さゆう)に刃面(はめん)があり、力(ちから)が比較的(ひかくてき)均衡(きんこう)しやすいため、まっすぐ切(き)り進(すす)みやすく、左右(さゆう)の利(き)き手(て)や幅広(はばひろ)い一般調理(いっぱんちょうり)へ対応(たいおう)しやすい構造(こうぞう)です。","enExplanation":"Double-bevel geometry balances its two faces relatively evenly, encouraging straighter tracking and broad general-purpose use from either hand."},
-  {"id":"page47-49-physics-v2-q02","chapter":"包丁の構造と切断の物理","page":"47–49","type":"application","difficulty":2,"image":"assets/knife_2.svg#single-bevel","imageAlt":"右側の左右非対称な片刃の断面がオレンジ色で示されている","question":"図(ず)の片刃(かたば)を刺身(さしみ)や精密(せいみつ)な野菜仕事(やさいしごと)に選(えら)ぶ利点(りてん)は何(なん)ですか。","answers":["左右(さゆう)が完全(かんぜん)に対称(たいしょう)だから","片側(かたがわ)の刃面(はめん)を基準(きじゅん)に厚(あつ)さと切断面(せつだんめん)を精密(せいみつ)に管理(かんり)しやすい","硬(かた)い骨(ほね)を必(かなら)ず安全(あんぜん)に叩(たた)ける","研(と)がなくても切(き)れ続(つづ)ける"],"correct":1,"jpExplanation":"片刃(かたば)は左右非対称(さゆうひたいしょう)の形(かたち)を利用(りよう)し、平(たい)らな側(がわ)を食材(しょくざい)や仕上(しあ)げる面(めん)の基準(きじゅん)にして、刺身(さしみ)や桂剥(かつらむ)きなどを精密(せいみつ)に行(おこな)います。","enExplanation":"Single-bevel geometry provides a reference face that skilled users exploit for precise thickness and clean presentation surfaces."},
-  {"id":"page47-49-physics-v2-q03","chapter":"包丁の構造と切断の物理","page":"47–49","type":"comparison","difficulty":2,"image":"assets/knife_2.svg#double-bevel","imageAlt":"左側の左右対称な両刃の断面がオレンジ色で示されている","question":"図(ず)の構造(こうぞう)が、一般的(いっぱんてき)に左右(さゆう)どちらの利(き)き手(て)でも扱(あつか)いやすい理由(りゆう)は何(なん)ですか。","answers":["片側(かたがわ)だけが大(おお)きく削(けず)られているから","刃(は)が食材(しょくざい)へ触(ふ)れないから","左右(さゆう)の刃面(はめん)が概(おおむ)ね対称(たいしょう)で、横方向(よこほうこう)の力(ちから)が偏(かたよ)りにくいから","柄(え)が必(かなら)ず丸(まる)いから"],"correct":2,"jpExplanation":"両刃(りょうば)は左右(さゆう)の形状(けいじょう)と抵抗(ていこう)が近(ちか)く、食材(しょくざい)から受(う)ける横方向(よこほうこう)の力(ちから)が片側(かたがわ)へ偏(かたよ)りにくい構造(こうぞう)です。非対称(ひたいしょう)に研(と)いだ両刃(りょうば)では挙動(きょどう)も変(か)わります。","enExplanation":"Similar geometry on both faces reduces lateral force imbalance, although intentionally asymmetric double-bevel sharpening can alter that behaviour."},
-  {"id":"page47-49-physics-v2-q04","chapter":"包丁の構造と切断の物理","page":"47–49","type":"contrast","difficulty":3,"image":"assets/knife_2.svg#single-bevel","imageAlt":"右側の左右非対称な片刃の断面がオレンジ色で示されている","question":"図(ず)の片刃(かたば)を使(つか)うときに理解(りかい)すべき代償(だいしょう)は何(なん)ですか。","answers":["必(かなら)ず食材(しょくざい)が刃(は)に付(つ)かない","左右(さゆう)どちらでも全(まった)く同(おな)じ挙動(きょどう)になる","研(と)ぎ方(かた)は両刃(りょうば)と完全(かんぜん)に同(おな)じである","利(き)き手(て)に合(あ)う構造(こうぞう)と専用(せんよう)の研(と)ぎが必要(ひつよう)で、左右(さゆう)の圧力差(あつりょくさ)による曲(ま)がりも管理(かんり)する"],"correct":3,"jpExplanation":"片刃(かたば)は表(おもて)の斜面(しゃめん)と裏(うら)の形(かたち)が異(こと)なります。高(たか)い精度(せいど)を得(え)られる一方(いっぽう)、利(き)き手(て)、裏押(うらお)し、刃面(はめん)の研(と)ぎ、切(き)り進(すす)む方向(ほうこう)を理解(りかい)する必要(ひつよう)があります。","enExplanation":"Single bevel rewards precision but is handed, needs specialised sharpening and can steer because its two faces experience unequal pressure."},
-  {"id":"page47-49-physics-v2-q05","chapter":"包丁の構造と切断の物理","page":"47–49","type":"comparison","difficulty":2,"question":"刃先角度(はさきかくど)が小(ちい)さく、刃先(はさき)の後方(こうほう)も薄(うす)い包丁(ほうちょう)は、柔(やわ)らかい食材(しょくざい)でどう感(かん)じやすいですか。","answers":["抵抗(ていこう)が少(すく)なく入(はい)りやすいが、硬(かた)い物(もの)や横(よこ)ねじりでは欠(か)けに注意(ちゅうい)する","抵抗(ていこう)が必(かなら)ず最大(さいだい)になる","刃先(はさき)が厚(あつ)いほど薄(うす)く切(き)れる","鋼材(こうざい)に関係(かんけい)なく骨用(ほねよう)になる"],"correct":0,"jpExplanation":"小(ちい)さい角度(かくど)と薄(うす)い形状(けいじょう)は食材(しょくざい)へ入(はい)る抵抗(ていこう)を減(へ)らしますが、刃先(はさき)を支(ささ)える金属量(きんぞくりょう)も減(へ)るため耐久性(たいきゅうせい)との交換(こうかん)になります。","enExplanation":"Acute, thin geometry lowers penetration resistance but leaves less supporting metal behind the edge."},
-  {"id":"page47-49-physics-v2-q06","chapter":"包丁の構造と切断の物理","page":"47–49","type":"scenario","difficulty":2,"question":"鋭(するど)く研(と)げているのに人参(にんじん)が途中(とちゅう)で「ぱきっ」と割(わ)れます。疑(うたが)うべき形状(けいじょう)は何(なん)ですか。","answers":["柄(え)の色(いろ)","刃先(はさき)後方(こうほう)が厚(あつ)く、楔(くさび)として食材(しょくざい)を強(つよ)く押(お)し広(ひろ)げている","箱(はこ)の形(かたち)","刃(は)の刻印(こくいん)"],"correct":1,"jpExplanation":"刃先(はさき)だけ鋭(するど)くても、その後(うし)ろが厚(あつ)いと硬(かた)い野菜(やさい)へ楔力(くさびりょく)が働(はたら)き、実際(じっさい)の切断面(せつだんめん)より先(さき)を割(わ)ります。","enExplanation":"A sharp apex cannot compensate for excessive thickness behind the edge, which wedges hard vegetables apart ahead of the cut."},
-  {"id":"page47-49-physics-v2-q07","chapter":"包丁の構造と切断の物理","page":"47–49","type":"application","difficulty":2,"question":"南瓜(かぼちゃ)など硬(かた)い食材(しょくざい)に対(たい)し、刃先(はさき)を少(すこ)し大(おお)きい角度(かくど)にする理由(りゆう)は何(なん)ですか。","answers":["抵抗(ていこう)を必(かなら)ずゼロにする","食材(しょくざい)を甘(あま)くする","刃先(はさき)を支(ささ)える金属(きんぞく)を増(ふ)やし、欠(か)けや潰(つぶ)れへの耐久性(たいきゅうせい)を高(たか)める","錆(さび)を完全(かんぜん)に防(ふせ)ぐ"],"correct":2,"jpExplanation":"角度(かくど)を大(おお)きくすると切(き)り込(こ)みは重(おも)くなりますが、刃先(はさき)の強度(きょうど)が上(あ)がります。用途(ようと)に応(おう)じて鋭(するど)さと耐久性(たいきゅうせい)を交換(こうかん)します。","enExplanation":"A wider edge angle sacrifices some penetration ease to put more supporting metal behind the apex."},
-  {"id":"page47-49-physics-v2-q08","chapter":"包丁の構造と切断の物理","page":"47–49","type":"comparison","difficulty":3,"question":"刃先(はさき)の角度(かくど)だけでなく、その少(すこ)し上(うえ)の厚(あつ)みを料理人(りょうりにん)が気(き)にする理由(りゆう)は何(なん)ですか。","answers":["包装(ほうそう)だけに関係(かんけい)するから","厚(あつ)いほど全食材(ぜんしょくざい)に最適(さいてき)だから","薄(うす)いほど骨(ほね)に安全(あんぜん)だから","刃先(はさき)後方(こうほう)の厚(あつ)みが切(き)り込(こ)み抵抗(ていこう)と楔作用(くさびさよう)を大(おお)きく左右(さゆう)するから"],"correct":3,"jpExplanation":"刃先(はさき)は切断(せつだん)を始(はじ)めますが、食材(しょくざい)の中(なか)を刃(は)が進(すす)む性能(せいのう)は刃先後方(はさきこうほう)の厚(あつ)みと研削形状(けんさくけいじょう)に強(つよ)く依存(いぞん)します。","enExplanation":"Apex sharpness starts the cut; behind-edge thickness and grind govern how the blade continues through food."},
-  {"id":"page47-49-physics-v2-q09","chapter":"包丁の構造と切断の物理","page":"47–49","type":"scenario","difficulty":3,"question":"水分(すいぶん)の多(おお)い薄切(うすぎ)りの食材(しょくざい)が、平(たい)らな刃面(はめん)へ広(ひろ)く付(つ)きやすい理由(りゆう)は何(なん)ですか。","answers":["広(ひろ)い接触面(せっしょくめん)と薄(うす)い水膜(すいまく)が密着(みっちゃく)を作(つく)るため","鋼材名(こうざいめい)が長(なが)いため","刃(は)が食材(しょくざい)を磁化(じか)するため","野菜(やさい)に重力(じゅうりょく)がないため"],"correct":0,"jpExplanation":"柔(やわ)らかく薄(うす)い食材(しょくざい)は刃面(はめん)へ沿(そ)い、接触面積(せっしょくめんせき)が増(ふ)えます。水膜(すいまく)の表面張力(ひょうめんちょうりょく)と圧力差(あつりょくさ)も付着(ふちゃく)を助(たす)けます。","enExplanation":"Thin flexible food conforms to the blade, and a liquid film plus broad contact promotes adhesion."},
-  {"id":"page47-49-physics-v2-q10","chapter":"包丁の構造と切断の物理","page":"47–49","type":"application","difficulty":3,"question":"蛤刃(はまぐりば)の緩(ゆる)い凸面(とつめん)が食材(しょくざい)の離(はな)れを助(たす)けることがあるのはなぜですか。","answers":["刃(は)を必(かなら)ず柔(やわ)らかくするから","平面(へいめん)より接触面積(せっしょくめんせき)を減(へ)らし、切(き)れた食材(しょくざい)を外側(そとがわ)へ導(みちび)くから","水分(すいぶん)を全部(ぜんぶ)蒸発(じょうはつ)させるから","食材(しょくざい)を磁石(じしゃく)で押(お)すから"],"correct":1,"jpExplanation":"緩(ゆる)い凸面(とつめん)は平(たい)らな面(めん)より食材(しょくざい)との広(ひろ)い密着(みっちゃく)を減(へ)らし、切断後(せつだんご)の食材(しょくざい)を少(すこ)し外側(そとがわ)へ押(お)し分(わ)けます。","enExplanation":"A gentle convex face can interrupt broad contact and guide cut food outward, improving release in some situations."},
-  {"id":"page47-49-physics-v2-q11","chapter":"包丁の構造と切断の物理","page":"47–49","type":"application","difficulty":3,"question":"片刃(かたば)の裏(うら)にある浅(あさ)い凹(へこ)み「裏(うら)すき」の役割(やくわり)は何(なん)ですか。","answers":["刃(は)を重(おも)くするだけ","接触面積(せっしょくめんせき)を最大(さいだい)にする","食材(しょくざい)との接触(せっしょく)と摩擦(まさつ)を減(へ)らし、裏面(うらめん)を精密(せいみつ)に管理(かんり)しやすくする","飾(かざ)りだけ"],"correct":2,"jpExplanation":"裏(うら)すきは裏面全体(うらめんぜんたい)が食材(しょくざい)や砥石(といし)へ触(ふ)れるのを避(さ)けます。周囲(しゅうい)の平(たい)らな部分(ぶぶん)を裏押(うらお)しして精度(せいど)を保(たも)ちます。","enExplanation":"Urasuki reduces broad contact and leaves narrow lands that can be maintained precisely through uraoshi."},
-  {"id":"page47-49-physics-v2-q12","chapter":"包丁の構造と切断の物理","page":"47–49","type":"contrast","difficulty":3,"question":"槌目(つちめ)やディンプルがある包丁(ほうちょう)なら、どの食材(しょくざい)も絶対(ぜったい)に付(つ)かないと言(い)えますか。","answers":["必(かなら)ず付(つ)かない","片刃(かたば)だけは付(つ)かない","鋼材(こうざい)が硬(かた)ければ付(つ)かない","言(い)えない。凹凸(おうとつ)は接触(せっしょく)を減(へ)らす場合(ばあい)があるが、水分(すいぶん)、薄(うす)さ、刃面(はめん)、切(き)り方(かた)も影響(えいきょう)する"],"correct":3,"jpExplanation":"凹凸(おうとつ)が接触(せっしょく)を中断(ちゅうだん)する効果(こうか)は、食材(しょくざい)が凹凸(おうとつ)の位置(いち)まで届(とど)くか、どの程度(ていど)しなるか、水分(すいぶん)がどれほどあるかで変(か)わります。","enExplanation":"Texture may interrupt contact, but release still depends on food flexibility, moisture, blade geometry and cutting motion."},
-  {"id":"page47-49-physics-v2-q13","chapter":"包丁の構造と切断の物理","page":"47–49","type":"application","difficulty":3,"question":"長(なが)い柳刃(やなぎば)で引(ひ)き切(ぎ)りを使(つか)うと、押(お)し潰(つぶ)す力(ちから)を減(へ)らしやすいのはなぜですか。","answers":["刃先(はさき)を横方向(よこほうこう)にも移動(いどう)させ、接触位置(せっしょくいち)を連続的(れんぞくてき)に変(か)えながら切断(せつだん)するから","刃(は)が食材(しょくざい)へ触(ふ)れないから","身(み)を往復(おうふく)して削(けず)るから","刃(は)を温(あたた)めるから"],"correct":0,"jpExplanation":"引(ひ)き切(ぎ)りは刃先(はさき)を食材(しょくざい)へ押(お)し下(さ)げるだけでなく、刃(は)の長(なが)さ方向(ほうこう)へ移動(いどう)させ、局所的(きょくしょてき)な切断(せつだん)を連続(れんぞく)させます。","enExplanation":"Drawing moves fresh edge continuously through the contact zone, reducing the need for one large compressive push."},
-  {"id":"page47-49-physics-v2-q14","chapter":"包丁の構造と切断の物理","page":"47–49","type":"comparison","difficulty":3,"question":"押(お)し切(ぎ)り、引(ひ)き切(ぎ)り、上下(じょうげ)の刻(きざ)みを使(つか)い分(わ)ける判断軸(はんだんじく)はどれですか。","answers":["包丁(ほうちょう)の値段(ねだん)だけ","刃線(はせん)、刃渡(はわた)り、食材(しょくざい)の柔(やわ)らかさ、作(つく)りたい断面(だんめん)、まな板(いた)との接触(せっしょく)","柄(え)の色(いろ)だけ","箱(はこ)の大(おお)きさだけ"],"correct":1,"jpExplanation":"平(たい)らな刃線(はせん)は上下(じょうげ)の刻(きざ)み、長(なが)い刃(は)は引(ひ)き切(ぎ)り、反(そ)りは前後(ぜんご)の動作(どうさ)に関係(かんけい)します。食材(しょくざい)と仕上(しあ)げる断面(だんめん)も一緒(いっしょ)に考(かんが)えます。","enExplanation":"Motion should match edge profile, blade length, food texture, desired surface and how the edge meets the board."},
-  {"id":"page47-49-physics-v2-q15","chapter":"包丁の構造と切断の物理","page":"47–49","type":"application","difficulty":3,"question":"包丁(ほうちょう)が刃元(はもと)から切(き)っ先(さき)へ徐々(じょじょ)に薄(うす)くなる先細(さきぼそ)りは、何(なに)に影響(えいきょう)しますか。","answers":["刃(は)の色(いろ)だけ","鋼材名(こうざいめい)だけ","切(き)っ先(さき)の質量(しつりょう)と抵抗(ていこう)を減(へ)らし、細(こま)かい作業(さぎょう)と動的(どうてき)なバランスを変(か)える","錆(さび)を完全(かんぜん)に防(ふせ)ぐ"],"correct":2,"jpExplanation":"先端(せんたん)へ向(む)かって厚(あつ)みと質量(しつりょう)が減(へ)ると、切(き)っ先(さき)を食材(しょくざい)へ入(い)れる抵抗(ていこう)と慣性(かんせい)が変(か)わり、操作感(そうさかん)にも影響(えいきょう)します。","enExplanation":"Distal taper reduces thickness and mass toward the tip, changing penetration, inertia and fine control."},
-  {"id":"page47-49-physics-v2-q16","chapter":"包丁の構造と切断の物理","page":"47–49","type":"scenario","difficulty":3,"question":"薄(うす)い刃(は)が食材(しょくざい)の中(なか)で動(うご)かなくなりました。横(よこ)へ捻(ひね)って抜(ぬ)くのが危険(きけん)なのはなぜですか。","answers":["刃(は)が甘(あま)くなるから","柄(え)の色(いろ)が変(か)わるから","食材(しょくざい)が凍(こお)るから","薄(うす)い刃先(はさき)へ横方向(よこほうこう)の曲(ま)げ荷重(かじゅう)が掛(か)かり、欠(か)けや変形(へんけい)を起(お)こしやすいから"],"correct":3,"jpExplanation":"包丁(ほうちょう)は主(おも)に刃(は)の進行方向(しんこうほうこう)へ力(ちから)を受(う)けるように使(つか)います。食材(しょくざい)の中(なか)で横(よこ)へ捻(ひね)ると、薄(うす)い刃先(はさき)へ大(おお)きな曲(ま)げ応力(おうりょく)が集中(しゅうちゅう)します。","enExplanation":"Twisting applies lateral bending stress to a thin edge, concentrating force in a direction the blade tolerates poorly."},
-  {"id":"page47-49-physics-v2-q17","chapter":"包丁の構造と切断の物理","page":"47–49","type":"scenario","difficulty":4,"question":"右利(みぎき)き用(よう)の片刃(かたば)が切(き)り進(すす)むと片側(かたがわ)へ曲(ま)がります。主(おも)な原因(げんいん)は何(なん)ですか。","answers":["左右非対称(さゆうひたいしょう)の刃面(はめん)で食材(しょくざい)から受(う)ける圧力(あつりょく)が異(こと)なるから","柄(え)が木製(もくせい)だから","包丁(ほうちょう)が古(ふる)いから","鋼材名(こうざいめい)が短(みじか)いから"],"correct":0,"jpExplanation":"片刃(かたば)は表(おもて)の斜面(しゃめん)と裏(うら)の形(かたち)が異(こと)なります。技術(ぎじゅつ)や研(と)ぎが合(あ)わないと左右(さゆう)の力(ちから)が釣(つ)り合(あ)わず、ステアリングが起(お)こります。","enExplanation":"Asymmetric blade faces experience unequal pressure, so technique or incorrect sharpening can make a single bevel steer."},
-  {"id":"page47-49-physics-v2-q18","chapter":"包丁の構造と切断の物理","page":"47–49","type":"comparison","difficulty":4,"question":"同(おな)じ鋼材(こうざい)と刃先角度(はさきかくど)でも、二本(にほん)の包丁(ほうちょう)の切(き)り込(こ)みが違(ちが)うのはなぜですか。","answers":["同(おな)じ鋼材(こうざい)なら違(ちが)いは起(お)こらない","刃先後方(はさきこうほう)の厚(あつ)み、研削形状(けんさくけいじょう)、表面(ひょうめん)、刃渡(はわた)り、切(き)る動作(どうさ)が異(こと)なるから","価格(かかく)だけが切断(せつだん)を決(き)めるから","刻印(こくいん)が摩擦(まさつ)をゼロにするから"],"correct":1,"jpExplanation":"切断性能(せつだんせいのう)は刃先(はさき)だけの数字(すうじ)ではありません。刃(は)全体(ぜんたい)が食材(しょくざい)へ入(はい)るときの楔(くさび)、摩擦(まさつ)、付着(ふちゃく)、動作(どうさ)が組(く)み合(あ)わさります。","enExplanation":"Identical steel and apex angle do not fix behind-edge thickness, grind, surface contact, blade length or cutting motion."},
-  {"id":"page47-49-physics-v2-q19","chapter":"包丁の構造と切断の物理","page":"47–49","type":"dialogue","difficulty":4,"question":"料理人(りょうりにん)へ包丁(ほうちょう)の物理(ぶつり)を尋(たず)ねる有益(ゆうえき)な質問(しつもん)はどれですか。","answers":["一番高価(いちばんこうか)ですか","模様(もよう)が多(おお)いですか","刃先後方(はさきこうほう)の厚(あつ)み、左右(さゆう)の研(と)ぎ比率(ひりつ)、食材離(しょくざいばな)れ、得意(とくい)な切(き)る動作(どうさ)はどうですか","箱(はこ)は何色(なにいろ)ですか"],"correct":2,"jpExplanation":"厚(あつ)み、左右差(さゆうさ)、食材離(しょくざいばな)れ、動作(どうさ)を聞(き)くと、その包丁(ほうちょう)が食材(しょくざい)の中(なか)でどう働(はたら)くかを具体的(ぐたいてき)に話(はな)せます。","enExplanation":"Questions about thickness, asymmetry, food release and motion reveal how the knife actually behaves in food."},
-  {"id":"page47-49-physics-v2-q20","chapter":"包丁の構造と切断の物理","page":"47–49","type":"production","difficulty":4,"question":"食材(しょくざい)が付(つ)きにくく、よく切(き)れる包丁(ほうちょう)を評価(ひょうか)する最(もっと)もよい考(かんが)え方(かた)はどれですか。","answers":["刃先(はさき)の鋭(するど)さだけを見る","鋼材名(こうざいめい)だけを見る","ディンプルの数(かず)だけを見る","刃先(はさき)、後方(こうほう)の厚(あつ)み、凸面(とつめん)、左右差(さゆうさ)、表面(ひょうめん)、食材(しょくざい)の水分(すいぶん)、切(き)る動作(どうさ)を一体(いったい)で考(かんが)える"],"correct":3,"jpExplanation":"切(き)れ味(あじ)と食材離(しょくざいばな)れは一(ひと)つの特徴(とくちょう)で決(き)まりません。刃(は)の形状(けいじょう)、食材(しょくざい)の性質(せいしつ)、使用者(しようしゃ)の動作(どうさ)が相互(そうご)に作用(さよう)します。","enExplanation":"Cutting and release emerge from geometry, surface, food properties and user motion rather than one isolated feature."}
+  {
+    "id": "page47-49-physics-v2-q01",
+    "chapter": "包丁の構造と切断の物理",
+    "page": "47–49",
+    "type": "application",
+    "difficulty": 1,
+    "image": "assets/knife_2.svg#double-bevel",
+    "imageAlt": "左側の左右対称な両刃の断面がオレンジ色で示されている",
+    "question": "図(ず)の両刃(りょうば)を選(えら)ぶ利点(りてん)は何(なん)ですか。\nWhat is the benefit of choosing the double-bevel construction shown?",
+    "answers": [
+      "左右(さゆう)から刃(は)が付(つ)き、比較的(ひかくてき)まっすぐ進(すす)みやすく、幅広(はばひろ)い作業(さぎょう)に使(つか)いやすい",
+      "必(かなら)ず片刃(かたば)より薄(うす)い刺身(さしみ)を作(つく)れる",
+      "右利(みぎき)き専用(せんよう)になる",
+      "裏(うら)すきが必(かなら)ず付(つ)く"
+    ],
+    "correct": 0,
+    "jpExplanation": "両刃(りょうば)は左右(さゆう)に刃面(はめん)があり、力(ちから)が比較的(ひかくてき)均衡(きんこう)しやすいため、まっすぐ切(き)り進(すす)みやすく、左右(さゆう)の利(き)き手(て)や幅広(はばひろ)い一般調理(いっぱんちょうり)へ対応(たいおう)しやすい構造(こうぞう)です。",
+    "enExplanation": "Double-bevel geometry balances its two faces relatively evenly, encouraging straighter tracking and broad general-purpose use from either hand."
+  },
+  {
+    "id": "page47-49-physics-v2-q02",
+    "chapter": "包丁の構造と切断の物理",
+    "page": "47–49",
+    "type": "application",
+    "difficulty": 2,
+    "image": "assets/knife_2.svg#single-bevel",
+    "imageAlt": "右側の左右非対称な片刃の断面がオレンジ色で示されている",
+    "question": "図(ず)の片刃(かたば)を刺身(さしみ)や精密(せいみつ)な野菜仕事(やさいしごと)に選(えら)ぶ利点(りてん)は何(なん)ですか。\nWhat benefit does the single-bevel construction shown offer for sashimi and precise vegetable work?",
+    "answers": [
+      "左右(さゆう)が完全(かんぜん)に対称(たいしょう)だから",
+      "片側(かたがわ)の刃面(はめん)を基準(きじゅん)に厚(あつ)さと切断面(せつだんめん)を精密(せいみつ)に管理(かんり)しやすい",
+      "硬(かた)い骨(ほね)を必(かなら)ず安全(あんぜん)に叩(たた)ける",
+      "研(と)がなくても切(き)れ続(つづ)ける"
+    ],
+    "correct": 1,
+    "jpExplanation": "片刃(かたば)は左右非対称(さゆうひたいしょう)の形(かたち)を利用(りよう)し、平(たい)らな側(がわ)を食材(しょくざい)や仕上(しあ)げる面(めん)の基準(きじゅん)にして、刺身(さしみ)や桂剥(かつらむ)きなどを精密(せいみつ)に行(おこな)います。",
+    "enExplanation": "Single-bevel geometry provides a reference face that skilled users exploit for precise thickness and clean presentation surfaces."
+  },
+  {
+    "id": "page47-49-physics-v2-q03",
+    "chapter": "包丁の構造と切断の物理",
+    "page": "47–49",
+    "type": "comparison",
+    "difficulty": 2,
+    "image": "assets/knife_2.svg#double-bevel",
+    "imageAlt": "左側の左右対称な両刃の断面がオレンジ色で示されている",
+    "question": "図(ず)の構造(こうぞう)が、一般的(いっぱんてき)に左右(さゆう)どちらの利(き)き手(て)でも扱(あつか)いやすい理由(りゆう)は何(なん)ですか。\nWhy is the illustrated construction generally easier to use with either hand?",
+    "answers": [
+      "片側(かたがわ)だけが大(おお)きく削(けず)られているから",
+      "刃(は)が食材(しょくざい)へ触(ふ)れないから",
+      "左右(さゆう)の刃面(はめん)が概(おおむ)ね対称(たいしょう)で、横方向(よこほうこう)の力(ちから)が偏(かたよ)りにくいから",
+      "柄(え)が必(かなら)ず丸(まる)いから"
+    ],
+    "correct": 2,
+    "jpExplanation": "両刃(りょうば)は左右(さゆう)の形状(けいじょう)と抵抗(ていこう)が近(ちか)く、食材(しょくざい)から受(う)ける横方向(よこほうこう)の力(ちから)が片側(かたがわ)へ偏(かたよ)りにくい構造(こうぞう)です。非対称(ひたいしょう)に研(と)いだ両刃(りょうば)では挙動(きょどう)も変(か)わります。",
+    "enExplanation": "Similar geometry on both faces reduces lateral force imbalance, although intentionally asymmetric double-bevel sharpening can alter that behaviour."
+  },
+  {
+    "id": "page47-49-physics-v2-q04",
+    "chapter": "包丁の構造と切断の物理",
+    "page": "47–49",
+    "type": "contrast",
+    "difficulty": 3,
+    "image": "assets/knife_2.svg#single-bevel",
+    "imageAlt": "右側の左右非対称な片刃の断面がオレンジ色で示されている",
+    "question": "図(ず)の片刃(かたば)を使(つか)うときに理解(りかい)すべき代償(だいしょう)は何(なん)ですか。\nWhat trade-off must be understood when using the illustrated single-bevel construction?",
+    "answers": [
+      "必(かなら)ず食材(しょくざい)が刃(は)に付(つ)かない",
+      "左右(さゆう)どちらでも全(まった)く同(おな)じ挙動(きょどう)になる",
+      "研(と)ぎ方(かた)は両刃(りょうば)と完全(かんぜん)に同(おな)じである",
+      "利(き)き手(て)に合(あ)う構造(こうぞう)と専用(せんよう)の研(と)ぎが必要(ひつよう)で、左右(さゆう)の圧力差(あつりょくさ)による曲(ま)がりも管理(かんり)する"
+    ],
+    "correct": 3,
+    "jpExplanation": "片刃(かたば)は表(おもて)の斜面(しゃめん)と裏(うら)の形(かたち)が異(こと)なります。高(たか)い精度(せいど)を得(え)られる一方(いっぽう)、利(き)き手(て)、裏押(うらお)し、刃面(はめん)の研(と)ぎ、切(き)り進(すす)む方向(ほうこう)を理解(りかい)する必要(ひつよう)があります。",
+    "enExplanation": "Single bevel rewards precision but is handed, needs specialised sharpening and can steer because its two faces experience unequal pressure."
+  },
+  {
+    "id": "page47-49-physics-v2-q05",
+    "chapter": "包丁の構造と切断の物理",
+    "page": "47–49",
+    "type": "comparison",
+    "difficulty": 2,
+    "question": "刃先角度(はさきかくど)が小(ちい)さく、刃先(はさき)の後方(こうほう)も薄(うす)い包丁(ほうちょう)は、柔(やわ)らかい食材(しょくざい)でどう感(かん)じやすいですか。\nHow is a knife with an acute edge and little thickness behind it likely to feel in soft food?",
+    "answers": [
+      "抵抗(ていこう)が少(すく)なく入(はい)りやすいが、硬(かた)い物(もの)や横(よこ)ねじりでは欠(か)けに注意(ちゅうい)する",
+      "抵抗(ていこう)が必(かなら)ず最大(さいだい)になる",
+      "刃先(はさき)が厚(あつ)いほど薄(うす)く切(き)れる",
+      "鋼材(こうざい)に関係(かんけい)なく骨用(ほねよう)になる"
+    ],
+    "correct": 0,
+    "jpExplanation": "小(ちい)さい角度(かくど)と薄(うす)い形状(けいじょう)は食材(しょくざい)へ入(はい)る抵抗(ていこう)を減(へ)らしますが、刃先(はさき)を支(ささ)える金属量(きんぞくりょう)も減(へ)るため耐久性(たいきゅうせい)との交換(こうかん)になります。",
+    "enExplanation": "Acute, thin geometry lowers penetration resistance but leaves less supporting metal behind the edge."
+  },
+  {
+    "id": "page47-49-physics-v2-q06",
+    "chapter": "包丁の構造と切断の物理",
+    "page": "47–49",
+    "type": "scenario",
+    "difficulty": 2,
+    "question": "鋭(するど)く研(と)げているのに人参(にんじん)が途中(とちゅう)で「ぱきっ」と割(わ)れます。疑(うたが)うべき形状(けいじょう)は何(なん)ですか。\nThe edge is sharp, yet a carrot cracks apart midway through the cut. Which geometry should you suspect?",
+    "answers": [
+      "柄(え)の色(いろ)",
+      "刃先(はさき)後方(こうほう)が厚(あつ)く、楔(くさび)として食材(しょくざい)を強(つよ)く押(お)し広(ひろ)げている",
+      "箱(はこ)の形(かたち)",
+      "刃(は)の刻印(こくいん)"
+    ],
+    "correct": 1,
+    "jpExplanation": "刃先(はさき)だけ鋭(するど)くても、その後(うし)ろが厚(あつ)いと硬(かた)い野菜(やさい)へ楔力(くさびりょく)が働(はたら)き、実際(じっさい)の切断面(せつだんめん)より先(さき)を割(わ)ります。",
+    "enExplanation": "A sharp apex cannot compensate for excessive thickness behind the edge, which wedges hard vegetables apart ahead of the cut."
+  },
+  {
+    "id": "page47-49-physics-v2-q07",
+    "chapter": "包丁の構造と切断の物理",
+    "page": "47–49",
+    "type": "application",
+    "difficulty": 2,
+    "question": "南瓜(かぼちゃ)など硬(かた)い食材(しょくざい)に対(たい)し、刃先(はさき)を少(すこ)し大(おお)きい角度(かくど)にする理由(りゆう)は何(なん)ですか。\nWhy use a somewhat wider edge angle for hard ingredients such as squash?",
+    "answers": [
+      "抵抗(ていこう)を必(かなら)ずゼロにする",
+      "食材(しょくざい)を甘(あま)くする",
+      "刃先(はさき)を支(ささ)える金属(きんぞく)を増(ふ)やし、欠(か)けや潰(つぶ)れへの耐久性(たいきゅうせい)を高(たか)める",
+      "錆(さび)を完全(かんぜん)に防(ふせ)ぐ"
+    ],
+    "correct": 2,
+    "jpExplanation": "角度(かくど)を大(おお)きくすると切(き)り込(こ)みは重(おも)くなりますが、刃先(はさき)の強度(きょうど)が上(あ)がります。用途(ようと)に応(おう)じて鋭(するど)さと耐久性(たいきゅうせい)を交換(こうかん)します。",
+    "enExplanation": "A wider edge angle sacrifices some penetration ease to put more supporting metal behind the apex."
+  },
+  {
+    "id": "page47-49-physics-v2-q08",
+    "chapter": "包丁の構造と切断の物理",
+    "page": "47–49",
+    "type": "comparison",
+    "difficulty": 3,
+    "question": "刃先(はさき)の角度(かくど)だけでなく、その少(すこ)し上(うえ)の厚(あつ)みを料理人(りょうりにん)が気(き)にする理由(りゆう)は何(なん)ですか。\nWhy do cooks care about the thickness just above the edge, not only the edge angle?",
+    "answers": [
+      "包装(ほうそう)だけに関係(かんけい)するから",
+      "厚(あつ)いほど全食材(ぜんしょくざい)に最適(さいてき)だから",
+      "薄(うす)いほど骨(ほね)に安全(あんぜん)だから",
+      "刃先(はさき)後方(こうほう)の厚(あつ)みが切(き)り込(こ)み抵抗(ていこう)と楔作用(くさびさよう)を大(おお)きく左右(さゆう)するから"
+    ],
+    "correct": 3,
+    "jpExplanation": "刃先(はさき)は切断(せつだん)を始(はじ)めますが、食材(しょくざい)の中(なか)を刃(は)が進(すす)む性能(せいのう)は刃先後方(はさきこうほう)の厚(あつ)みと研削形状(けんさくけいじょう)に強(つよ)く依存(いぞん)します。",
+    "enExplanation": "Apex sharpness starts the cut; behind-edge thickness and grind govern how the blade continues through food."
+  },
+  {
+    "id": "page47-49-physics-v2-q09",
+    "chapter": "包丁の構造と切断の物理",
+    "page": "47–49",
+    "type": "scenario",
+    "difficulty": 3,
+    "question": "水分(すいぶん)の多(おお)い薄切(うすぎ)りの食材(しょくざい)が、平(たい)らな刃面(はめん)へ広(ひろ)く付(つ)きやすい理由(りゆう)は何(なん)ですか。\nWhy do thin, moist slices tend to cling broadly to a flat blade face?",
+    "answers": [
+      "広(ひろ)い接触面(せっしょくめん)と薄(うす)い水膜(すいまく)が密着(みっちゃく)を作(つく)るため",
+      "鋼材名(こうざいめい)が長(なが)いため",
+      "刃(は)が食材(しょくざい)を磁化(じか)するため",
+      "野菜(やさい)に重力(じゅうりょく)がないため"
+    ],
+    "correct": 0,
+    "jpExplanation": "柔(やわ)らかく薄(うす)い食材(しょくざい)は刃面(はめん)へ沿(そ)い、接触面積(せっしょくめんせき)が増(ふ)えます。水膜(すいまく)の表面張力(ひょうめんちょうりょく)と圧力差(あつりょくさ)も付着(ふちゃく)を助(たす)けます。",
+    "enExplanation": "Thin flexible food conforms to the blade, and a liquid film plus broad contact promotes adhesion."
+  },
+  {
+    "id": "page47-49-physics-v2-q10",
+    "chapter": "包丁の構造と切断の物理",
+    "page": "47–49",
+    "type": "application",
+    "difficulty": 3,
+    "question": "蛤刃(はまぐりば)の緩(ゆる)い凸面(とつめん)が食材(しょくざい)の離(はな)れを助(たす)けることがあるのはなぜですか。\nWhy can the gentle convexity of a hamaguri grind sometimes improve food release?",
+    "answers": [
+      "刃(は)を必(かなら)ず柔(やわ)らかくするから",
+      "平面(へいめん)より接触面積(せっしょくめんせき)を減(へ)らし、切(き)れた食材(しょくざい)を外側(そとがわ)へ導(みちび)くから",
+      "水分(すいぶん)を全部(ぜんぶ)蒸発(じょうはつ)させるから",
+      "食材(しょくざい)を磁石(じしゃく)で押(お)すから"
+    ],
+    "correct": 1,
+    "jpExplanation": "緩(ゆる)い凸面(とつめん)は平(たい)らな面(めん)より食材(しょくざい)との広(ひろ)い密着(みっちゃく)を減(へ)らし、切断後(せつだんご)の食材(しょくざい)を少(すこ)し外側(そとがわ)へ押(お)し分(わ)けます。",
+    "enExplanation": "A gentle convex face can interrupt broad contact and guide cut food outward, improving release in some situations."
+  },
+  {
+    "id": "page47-49-physics-v2-q11",
+    "chapter": "包丁の構造と切断の物理",
+    "page": "47–49",
+    "type": "application",
+    "difficulty": 3,
+    "question": "片刃(かたば)の裏(うら)にある浅(あさ)い凹(へこ)み「裏(うら)すき」の役割(やくわり)は何(なん)ですか。\nWhat is the role of the shallow hollow on the back of a single-bevel knife?",
+    "answers": [
+      "刃(は)を重(おも)くするだけ",
+      "接触面積(せっしょくめんせき)を最大(さいだい)にする",
+      "食材(しょくざい)との接触(せっしょく)と摩擦(まさつ)を減(へ)らし、裏面(うらめん)を精密(せいみつ)に管理(かんり)しやすくする",
+      "飾(かざ)りだけ"
+    ],
+    "correct": 2,
+    "jpExplanation": "裏(うら)すきは裏面全体(うらめんぜんたい)が食材(しょくざい)や砥石(といし)へ触(ふ)れるのを避(さ)けます。周囲(しゅうい)の平(たい)らな部分(ぶぶん)を裏押(うらお)しして精度(せいど)を保(たも)ちます。",
+    "enExplanation": "Urasuki reduces broad contact and leaves narrow lands that can be maintained precisely through uraoshi."
+  },
+  {
+    "id": "page47-49-physics-v2-q12",
+    "chapter": "包丁の構造と切断の物理",
+    "page": "47–49",
+    "type": "contrast",
+    "difficulty": 3,
+    "question": "槌目(つちめ)やディンプルがある包丁(ほうちょう)なら、どの食材(しょくざい)も絶対(ぜったい)に付(つ)かないと言(い)えますか。\nCan a hammered or dimpled blade guarantee that no ingredient will ever stick?",
+    "answers": [
+      "必(かなら)ず付(つ)かない",
+      "片刃(かたば)だけは付(つ)かない",
+      "鋼材(こうざい)が硬(かた)ければ付(つ)かない",
+      "言(い)えない。凹凸(おうとつ)は接触(せっしょく)を減(へ)らす場合(ばあい)があるが、水分(すいぶん)、薄(うす)さ、刃面(はめん)、切(き)り方(かた)も影響(えいきょう)する"
+    ],
+    "correct": 3,
+    "jpExplanation": "凹凸(おうとつ)が接触(せっしょく)を中断(ちゅうだん)する効果(こうか)は、食材(しょくざい)が凹凸(おうとつ)の位置(いち)まで届(とど)くか、どの程度(ていど)しなるか、水分(すいぶん)がどれほどあるかで変(か)わります。",
+    "enExplanation": "Texture may interrupt contact, but release still depends on food flexibility, moisture, blade geometry and cutting motion."
+  },
+  {
+    "id": "page47-49-physics-v2-q13",
+    "chapter": "包丁の構造と切断の物理",
+    "page": "47–49",
+    "type": "application",
+    "difficulty": 3,
+    "question": "長(なが)い柳刃(やなぎば)で引(ひ)き切(ぎ)りを使(つか)うと、押(お)し潰(つぶ)す力(ちから)を減(へ)らしやすいのはなぜですか。\nWhy does a draw cut with a long yanagiba reduce the need for crushing downward force?",
+    "answers": [
+      "刃先(はさき)を横方向(よこほうこう)にも移動(いどう)させ、接触位置(せっしょくいち)を連続的(れんぞくてき)に変(か)えながら切断(せつだん)するから",
+      "刃(は)が食材(しょくざい)へ触(ふ)れないから",
+      "身(み)を往復(おうふく)して削(けず)るから",
+      "刃(は)を温(あたた)めるから"
+    ],
+    "correct": 0,
+    "jpExplanation": "引(ひ)き切(ぎ)りは刃先(はさき)を食材(しょくざい)へ押(お)し下(さ)げるだけでなく、刃(は)の長(なが)さ方向(ほうこう)へ移動(いどう)させ、局所的(きょくしょてき)な切断(せつだん)を連続(れんぞく)させます。",
+    "enExplanation": "Drawing moves fresh edge continuously through the contact zone, reducing the need for one large compressive push."
+  },
+  {
+    "id": "page47-49-physics-v2-q14",
+    "chapter": "包丁の構造と切断の物理",
+    "page": "47–49",
+    "type": "comparison",
+    "difficulty": 3,
+    "question": "押(お)し切(ぎ)り、引(ひ)き切(ぎ)り、上下(じょうげ)の刻(きざ)みを使(つか)い分(わ)ける判断軸(はんだんじく)はどれですか。\nWhat factors determine whether to push-cut, draw-cut or chop vertically?",
+    "answers": [
+      "包丁(ほうちょう)の値段(ねだん)だけ",
+      "刃線(はせん)、刃渡(はわた)り、食材(しょくざい)の柔(やわ)らかさ、作(つく)りたい断面(だんめん)、まな板(いた)との接触(せっしょく)",
+      "柄(え)の色(いろ)だけ",
+      "箱(はこ)の大(おお)きさだけ"
+    ],
+    "correct": 1,
+    "jpExplanation": "平(たい)らな刃線(はせん)は上下(じょうげ)の刻(きざ)み、長(なが)い刃(は)は引(ひ)き切(ぎ)り、反(そ)りは前後(ぜんご)の動作(どうさ)に関係(かんけい)します。食材(しょくざい)と仕上(しあ)げる断面(だんめん)も一緒(いっしょ)に考(かんが)えます。",
+    "enExplanation": "Motion should match edge profile, blade length, food texture, desired surface and how the edge meets the board."
+  },
+  {
+    "id": "page47-49-physics-v2-q15",
+    "chapter": "包丁の構造と切断の物理",
+    "page": "47–49",
+    "type": "application",
+    "difficulty": 3,
+    "question": "包丁(ほうちょう)が刃元(はもと)から切(き)っ先(さき)へ徐々(じょじょ)に薄(うす)くなる先細(さきぼそ)りは、何(なに)に影響(えいきょう)しますか。\nWhat does gradual thinning from heel to tip affect?",
+    "answers": [
+      "刃(は)の色(いろ)だけ",
+      "鋼材名(こうざいめい)だけ",
+      "切(き)っ先(さき)の質量(しつりょう)と抵抗(ていこう)を減(へ)らし、細(こま)かい作業(さぎょう)と動的(どうてき)なバランスを変(か)える",
+      "錆(さび)を完全(かんぜん)に防(ふせ)ぐ"
+    ],
+    "correct": 2,
+    "jpExplanation": "先端(せんたん)へ向(む)かって厚(あつ)みと質量(しつりょう)が減(へ)ると、切(き)っ先(さき)を食材(しょくざい)へ入(い)れる抵抗(ていこう)と慣性(かんせい)が変(か)わり、操作感(そうさかん)にも影響(えいきょう)します。",
+    "enExplanation": "Distal taper reduces thickness and mass toward the tip, changing penetration, inertia and fine control."
+  },
+  {
+    "id": "page47-49-physics-v2-q16",
+    "chapter": "包丁の構造と切断の物理",
+    "page": "47–49",
+    "type": "scenario",
+    "difficulty": 3,
+    "question": "薄(うす)い刃(は)が食材(しょくざい)の中(なか)で動(うご)かなくなりました。横(よこ)へ捻(ひね)って抜(ぬ)くのが危険(きけん)なのはなぜですか。\nA thin blade is stuck in an ingredient. Why is twisting it sideways to free it dangerous?",
+    "answers": [
+      "刃(は)が甘(あま)くなるから",
+      "柄(え)の色(いろ)が変(か)わるから",
+      "食材(しょくざい)が凍(こお)るから",
+      "薄(うす)い刃先(はさき)へ横方向(よこほうこう)の曲(ま)げ荷重(かじゅう)が掛(か)かり、欠(か)けや変形(へんけい)を起(お)こしやすいから"
+    ],
+    "correct": 3,
+    "jpExplanation": "包丁(ほうちょう)は主(おも)に刃(は)の進行方向(しんこうほうこう)へ力(ちから)を受(う)けるように使(つか)います。食材(しょくざい)の中(なか)で横(よこ)へ捻(ひね)ると、薄(うす)い刃先(はさき)へ大(おお)きな曲(ま)げ応力(おうりょく)が集中(しゅうちゅう)します。",
+    "enExplanation": "Twisting applies lateral bending stress to a thin edge, concentrating force in a direction the blade tolerates poorly."
+  },
+  {
+    "id": "page47-49-physics-v2-q17",
+    "chapter": "包丁の構造と切断の物理",
+    "page": "47–49",
+    "type": "scenario",
+    "difficulty": 4,
+    "question": "右利(みぎき)き用(よう)の片刃(かたば)が切(き)り進(すす)むと片側(かたがわ)へ曲(ま)がります。主(おも)な原因(げんいん)は何(なん)ですか。\nA right-handed single-bevel knife steers sideways as it cuts. What is the main cause?",
+    "answers": [
+      "左右非対称(さゆうひたいしょう)の刃面(はめん)で食材(しょくざい)から受(う)ける圧力(あつりょく)が異(こと)なるから",
+      "柄(え)が木製(もくせい)だから",
+      "包丁(ほうちょう)が古(ふる)いから",
+      "鋼材名(こうざいめい)が短(みじか)いから"
+    ],
+    "correct": 0,
+    "jpExplanation": "片刃(かたば)は表(おもて)の斜面(しゃめん)と裏(うら)の形(かたち)が異(こと)なります。技術(ぎじゅつ)や研(と)ぎが合(あ)わないと左右(さゆう)の力(ちから)が釣(つ)り合(あ)わず、ステアリングが起(お)こります。",
+    "enExplanation": "Asymmetric blade faces experience unequal pressure, so technique or incorrect sharpening can make a single bevel steer."
+  },
+  {
+    "id": "page47-49-physics-v2-q18",
+    "chapter": "包丁の構造と切断の物理",
+    "page": "47–49",
+    "type": "comparison",
+    "difficulty": 4,
+    "question": "同(おな)じ鋼材(こうざい)と刃先角度(はさきかくど)でも、二本(にほん)の包丁(ほうちょう)の切(き)り込(こ)みが違(ちが)うのはなぜですか。\nWhy can two knives penetrate food differently even with the same steel and edge angle?",
+    "answers": [
+      "同(おな)じ鋼材(こうざい)なら違(ちが)いは起(お)こらない",
+      "刃先後方(はさきこうほう)の厚(あつ)み、研削形状(けんさくけいじょう)、表面(ひょうめん)、刃渡(はわた)り、切(き)る動作(どうさ)が異(こと)なるから",
+      "価格(かかく)だけが切断(せつだん)を決(き)めるから",
+      "刻印(こくいん)が摩擦(まさつ)をゼロにするから"
+    ],
+    "correct": 1,
+    "jpExplanation": "切断性能(せつだんせいのう)は刃先(はさき)だけの数字(すうじ)ではありません。刃(は)全体(ぜんたい)が食材(しょくざい)へ入(はい)るときの楔(くさび)、摩擦(まさつ)、付着(ふちゃく)、動作(どうさ)が組(く)み合(あ)わさります。",
+    "enExplanation": "Identical steel and apex angle do not fix behind-edge thickness, grind, surface contact, blade length or cutting motion."
+  },
+  {
+    "id": "page47-49-physics-v2-q19",
+    "chapter": "包丁の構造と切断の物理",
+    "page": "47–49",
+    "type": "dialogue",
+    "difficulty": 4,
+    "question": "料理人(りょうりにん)へ包丁(ほうちょう)の物理(ぶつり)を尋(たず)ねる有益(ゆうえき)な質問(しつもん)はどれですか。\nWhich question would lead to a useful discussion with a chef about knife physics?",
+    "answers": [
+      "一番高価(いちばんこうか)ですか",
+      "模様(もよう)が多(おお)いですか",
+      "刃先後方(はさきこうほう)の厚(あつ)み、左右(さゆう)の研(と)ぎ比率(ひりつ)、食材離(しょくざいばな)れ、得意(とくい)な切(き)る動作(どうさ)はどうですか",
+      "箱(はこ)は何色(なにいろ)ですか"
+    ],
+    "correct": 2,
+    "jpExplanation": "厚(あつ)み、左右差(さゆうさ)、食材離(しょくざいばな)れ、動作(どうさ)を聞(き)くと、その包丁(ほうちょう)が食材(しょくざい)の中(なか)でどう働(はたら)くかを具体的(ぐたいてき)に話(はな)せます。",
+    "enExplanation": "Questions about thickness, asymmetry, food release and motion reveal how the knife actually behaves in food."
+  },
+  {
+    "id": "page47-49-physics-v2-q20",
+    "chapter": "包丁の構造と切断の物理",
+    "page": "47–49",
+    "type": "production",
+    "difficulty": 4,
+    "question": "食材(しょくざい)が付(つ)きにくく、よく切(き)れる包丁(ほうちょう)を評価(ひょうか)する最(もっと)もよい考(かんが)え方(かた)はどれですか。\nWhat is the best way to evaluate a knife that cuts well and releases food effectively?",
+    "answers": [
+      "刃先(はさき)の鋭(するど)さだけを見る",
+      "鋼材名(こうざいめい)だけを見る",
+      "ディンプルの数(かず)だけを見る",
+      "刃先(はさき)、後方(こうほう)の厚(あつ)み、凸面(とつめん)、左右差(さゆうさ)、表面(ひょうめん)、食材(しょくざい)の水分(すいぶん)、切(き)る動作(どうさ)を一体(いったい)で考(かんが)える"
+    ],
+    "correct": 3,
+    "jpExplanation": "切(き)れ味(あじ)と食材離(しょくざいばな)れは一(ひと)つの特徴(とくちょう)で決(き)まりません。刃(は)の形状(けいじょう)、食材(しょくざい)の性質(せいしつ)、使用者(しようしゃ)の動作(どうさ)が相互(そうご)に作用(さよう)します。",
+    "enExplanation": "Cutting and release emerge from geometry, surface, food properties and user motion rather than one isolated feature."
+  }
 ]

@@ -1,140 +1,140 @@
 [
   {
     "id":"page28-29-science-q01","chapter":"発酵のしくみ","page":"28–29","type":"microorganism-role","difficulty":1,
-    "question":"蒸(む)した米(こめ)や麦(むぎ)に麹菌(こうじきん)を育(そだ)てると、発酵食品(はっこうしょくひん)の出発点(しゅっぱつてん)になるものができます。何(なん)ですか。",
+    "question":"蒸(む)した米(こめ)や麦(むぎ)に麹菌(こうじきん)を育(そだ)てると、発酵食品(はっこうしょくひん)の出発点(しゅっぱつてん)になるものができます。何(なん)ですか。\nWhat fermentation starter is made by growing koji mold on steamed rice or barley?",
     "answers":["麹(こうじ)","酵母(こうぼ)","乳酸(にゅうさん)","諸味(もろみ)"],"correct":0,
     "jpExplanation":"麹(こうじ)は、蒸(む)した穀物(こくもつ)などに麹菌(こうじきん)を繁殖(はんしょく)させたものです。麹菌(こうじきん)が作(つく)る酵素(こうそ)が、でんぷんや、たんぱく質(しつ)を分解(ぶんかい)します。",
     "enExplanation":"Koji is steamed grain cultured with koji mold. Its enzymes begin breaking starch and protein into compounds other microorganisms and cooks can use."
   },
   {
     "id":"page28-29-science-q02","chapter":"発酵のしくみ","page":"28–29","type":"fermentation-pathway","difficulty":1,
-    "question":"蒸(む)した米(こめ)に麹菌(こうじきん)を育(そだ)てました。できるものはどれですか。",
+    "question":"蒸(む)した米(こめ)に麹菌(こうじきん)を育(そだ)てました。できるものはどれですか。\nWhat is produced by growing koji mold on steamed rice?",
     "answers":["麦麹(むぎこうじ)","米麹(こめこうじ)","豆麹(まめこうじ)","酒粕(さけかす)"],"correct":1,
     "jpExplanation":"米(こめ)を土台(どだい)に麹菌(こうじきん)を育(そだ)てたものが米麹(こめこうじ)です。甘酒(あまざけ)、米味噌(こめみそ)、日本酒(にほんしゅ)などの製造(せいぞう)に使(つか)われます。",
     "enExplanation":"Culturing koji mold on steamed rice produces rice koji, used in amazake, rice miso, sake and other fermented products."
   },
   {
     "id":"page28-29-science-q03","chapter":"発酵のしくみ","page":"28–29","type":"fermentation-pathway","difficulty":1,
-    "question":"麦(むぎ)に麹菌(こうじきん)を育(そだ)てたものです。麦味噌(むぎみそ)や麦焼酎(むぎじょうちゅう)の発酵(はっこう)を支(ささ)えるものはどれですか。",
+    "question":"麦(むぎ)に麹菌(こうじきん)を育(そだ)てたものです。麦味噌(むぎみそ)や麦焼酎(むぎじょうちゅう)の発酵(はっこう)を支(ささ)えるものはどれですか。\nWhich koji is made on barley and supports barley miso and barley shochu?",
     "answers":["米麹(こめこうじ)","豆麹(まめこうじ)","麦麹(むぎこうじ)","納豆菌(なっとうきん)"],"correct":2,
     "jpExplanation":"麦麹(むぎこうじ)は麦(むぎ)に麹菌(こうじきん)を繁殖(はんしょく)させたものです。麦(むぎ)のでんぷんなどを分解(ぶんかい)する酵素(こうそ)を供給(きょうきゅう)します。",
     "enExplanation":"Barley koji is koji mold cultured on barley. Its enzymes make the barley's components available during the production of barley miso or shochu."
   },
   {
     "id":"page28-29-science-q04","chapter":"発酵のしくみ","page":"28–29","type":"fermentation-pathway","difficulty":1,
-    "question":"大豆(だいず)そのものに麹菌(こうじきん)を育(そだ)て、豆味噌(まめみそ)や八丁味噌(はっちょうみそ)につなげる出発点(しゅっぱつてん)はどれですか。",
+    "question":"大豆(だいず)そのものに麹菌(こうじきん)を育(そだ)て、豆味噌(まめみそ)や八丁味噌(はっちょうみそ)につなげる出発点(しゅっぱつてん)はどれですか。\nWhich starter grows koji mold directly on soybeans and leads to soybean miso and Hatcho miso?",
     "answers":["塩麹(しおこうじ)","米麹(こめこうじ)","麦麹(むぎこうじ)","豆麹(まめこうじ)"],"correct":3,
     "jpExplanation":"豆麹(まめこうじ)は大豆(だいず)に麹菌(こうじきん)を育(そだ)てたものです。大豆(だいず)と豆麹(まめこうじ)を中心(ちゅうしん)に、塩(しお)を加(くわ)えて豆味噌(まめみそ)を仕込(しこ)みます。",
     "enExplanation":"Soybean koji is koji mold grown directly on soybeans. With soybeans and salt, it forms the basis of soybean miso such as Hatcho miso."
   },
   {
     "id":"page28-29-science-q05","chapter":"発酵のしくみ","page":"28–29","type":"enzyme-transformation","difficulty":2,
-    "question":"米(こめ)のでんぷんが、そのままでは甘(あま)くないのに、米麹(こめこうじ)と温(あたた)めると甘(あま)くなります。中心(ちゅうしん)となる変化(へんか)はどれですか。",
+    "question":"米(こめ)のでんぷんが、そのままでは甘(あま)くないのに、米麹(こめこうじ)と温(あたた)めると甘(あま)くなります。中心(ちゅうしん)となる変化(へんか)はどれですか。\nRice starch becomes sweet when warmed with rice koji. What is the central transformation?",
     "answers":["麹(こうじ)の酵素(こうそ)が、でんぷんを糖(とう)に分解(ぶんかい)する","酵母(こうぼ)が、たんぱく質(しつ)を塩(しお)に変(か)える","酢酸菌(さくさんきん)が水(みず)を油(あぶら)に変(か)える","乳酸菌(にゅうさんきん)が糖(とう)を、でんぷんに戻(もど)す"],"correct":0,
     "jpExplanation":"麹菌(こうじきん)が作(つく)る糖化酵素(とうかこうそ)は、でんぷんをブドウ糖(とう)などに分解(ぶんかい)します。この糖(とう)が甘味(あまみ)となり、酵母(こうぼ)の材料(ざいりょう)にもなります。",
     "enExplanation":"Koji enzymes hydrolyse starch into sugars. Those sugars taste sweet and can also serve as food for yeast."
   },
   {
     "id":"page28-29-science-q06","chapter":"発酵のしくみ","page":"28–29","type":"enzyme-transformation","difficulty":2,
-    "question":"味噌(みそ)や醤油(しょうゆ)の熟成中(じゅくせいちゅう)、大豆(だいず)の、たんぱく質(しつ)が分解(ぶんかい)されると、旨味(うまみ)が増(ま)します。主(おも)に何(なに)が生(う)まれるからですか。",
+    "question":"味噌(みそ)や醤油(しょうゆ)の熟成中(じゅくせいちゅう)、大豆(だいず)の、たんぱく質(しつ)が分解(ぶんかい)されると、旨味(うまみ)が増(ま)します。主(おも)に何(なに)が生(う)まれるからですか。\nWhy does breaking down soybean protein during miso and soy-sauce aging increase umami?",
     "answers":["二酸化炭素(にさんかたんそ)だけ","アミノ酸(さん)やペプチド","でんぷんだけ","酸素(さんそ)だけ"],"correct":1,
     "jpExplanation":"麹(こうじ)の、たんぱく質分解酵素(しつぶんかいこうそ)は、大豆(だいず)の、たんぱく質(しつ)をアミノ酸(さん)やペプチドへ分解(ぶんかい)します。これらが旨味(うまみ)や複雑(ふくざつ)な味(あじ)につながります。",
     "enExplanation":"Koji proteases break soybean proteins into peptides and amino acids, many of which contribute savouriness and complexity."
   },
   {
     "id":"page28-29-science-q07","chapter":"発酵のしくみ","page":"28–29","type":"microorganism-role","difficulty":1,
-    "question":"麹(こうじ)が作(つく)った糖(とう)を使(つか)い、日本酒(にほんしゅ)などでアルコールと二酸化炭素(にさんかたんそ)を生(う)み出(だ)す微生物(びせいぶつ)はどれですか。",
+    "question":"麹(こうじ)が作(つく)った糖(とう)を使(つか)い、日本酒(にほんしゅ)などでアルコールと二酸化炭素(にさんかたんそ)を生(う)み出(だ)す微生物(びせいぶつ)はどれですか。\nWhich microorganism uses sugars made by koji to produce alcohol and carbon dioxide in sake?",
     "answers":["麹菌(こうじきん)","酢酸菌(さくさんきん)","酵母(こうぼ)","納豆菌(なっとうきん)"],"correct":2,
     "jpExplanation":"酵母(こうぼ)は糖(とう)を利用(りよう)して、アルコールと二酸化炭素(にさんかたんそ)を作(つく)ります。麹(こうじ)が糖(とう)を用意(ようい)し、酵母(こうぼ)がアルコール発酵(はっこう)を進(すす)めます。",
     "enExplanation":"Yeast converts sugar into alcohol and carbon dioxide. In sake, koji supplies the sugar and yeast carries out alcoholic fermentation."
   },
   {
     "id":"page28-29-science-q08","chapter":"発酵のしくみ","page":"28–29","type":"microorganism-role","difficulty":2,
-    "question":"漬物(つけもの)や発酵中(はっこうちゅう)の味噌(みそ)で、糖(とう)から乳酸(にゅうさん)を作(つく)り、酸味(さんみ)と保存(ほぞん)しやすい環境(かんきょう)に関(かか)わる菌(きん)はどれですか。",
+    "question":"漬物(つけもの)や発酵中(はっこうちゅう)の味噌(みそ)で、糖(とう)から乳酸(にゅうさん)を作(つく)り、酸味(さんみ)と保存(ほぞん)しやすい環境(かんきょう)に関(かか)わる菌(きん)はどれですか。\nWhich bacteria convert sugars into lactic acid, contributing acidity and a preservative environment?",
     "answers":["酵母(こうぼ)","納豆菌(なっとうきん)","麹菌(こうじきん)","乳酸菌(にゅうさんきん)"],"correct":3,
     "jpExplanation":"乳酸菌(にゅうさんきん)は糖(とう)から乳酸(にゅうさん)を作(つく)ります。酸味(さんみ)を生(う)み、pHを下(さ)げることで好(この)ましくない微生物(びせいぶつ)が増(ふ)えにくい環境(かんきょう)にもつながります。",
     "enExplanation":"Lactic acid bacteria convert sugars into lactic acid, adding sourness and lowering pH, which can make growth conditions less favourable for unwanted microbes."
   },
   {
     "id":"page28-29-science-q09","chapter":"発酵のしくみ","page":"28–29","type":"microorganism-role","difficulty":2,
-    "question":"酒(さけ)に含(ふく)まれるアルコールを酢酸(さくさん)へ変(か)え、米酢(こめず)の酸味(さんみ)を作(つく)る微生物(びせいぶつ)はどれですか。",
+    "question":"酒(さけ)に含(ふく)まれるアルコールを酢酸(さくさん)へ変(か)え、米酢(こめず)の酸味(さんみ)を作(つく)る微生物(びせいぶつ)はどれですか。\nWhich microorganism converts alcohol into acetic acid, creating rice vinegar’s acidity?",
     "answers":["酢酸菌(さくさんきん)","麹菌(こうじきん)","納豆菌(なっとうきん)","酵母(こうぼ)"],"correct":0,
     "jpExplanation":"酢酸菌(さくさんきん)はアルコールを酢酸(さくさん)へ変(か)えます。つまり米酢(こめず)には、米(こめ)のでんぷんから糖(とう)、アルコール、酢酸(さくさん)へ進(すす)む連続(れんぞく)した変化(へんか)があります。",
     "enExplanation":"Acetic acid bacteria oxidize alcohol into acetic acid. Rice vinegar therefore depends on a chain from rice starch to sugar, alcohol and finally acid."
   },
   {
     "id":"page28-29-science-q10","chapter":"発酵のしくみ","page":"28–29","type":"microorganism-role","difficulty":1,
-    "question":"蒸(む)した大豆(だいず)に作用(さよう)し、納豆(なっとう)特有(とくゆう)の糸(いと)を引(ひ)く粘(ねば)りを作(つく)る菌(きん)はどれですか。",
+    "question":"蒸(む)した大豆(だいず)に作用(さよう)し、納豆(なっとう)特有(とくゆう)の糸(いと)を引(ひ)く粘(ねば)りを作(つく)る菌(きん)はどれですか。\nWhich bacterium creates natto’s characteristic stringy stickiness?",
     "answers":["乳酸菌(にゅうさんきん)","納豆菌(なっとうきん)","酢酸菌(さくさんきん)","酵母(こうぼ)"],"correct":1,
     "jpExplanation":"納豆菌(なっとうきん)は蒸(む)した大豆(だいず)を発酵(はっこう)させ、ポリグルタミン酸(さん)を中心(ちゅうしん)とする粘質物(ねんしつぶつ)を作(つく)ります。これが糸(いと)を引(ひ)く食感(しょっかん)の中心(ちゅうしん)です。",
     "enExplanation":"Natto bacteria ferment steamed soybeans and produce a viscous material rich in poly-gamma-glutamic acid, creating natto's characteristic strings."
   },
   {
     "id":"page28-29-science-q11","chapter":"発酵のしくみ","page":"28–29","type":"fermentation-pathway","difficulty":2,
-    "question":"米麹(こめこうじ)と米(こめ)と水(みず)を適切(てきせつ)な温度(おんど)で保(たも)ち、酵母(こうぼ)によるアルコール発酵(はっこう)を主役(しゅやく)にしません。甘(あま)い飲(の)み物(もの)は何(なん)ですか。",
+    "question":"米麹(こめこうじ)と米(こめ)と水(みず)を適切(てきせつ)な温度(おんど)で保(たも)ち、酵母(こうぼ)によるアルコール発酵(はっこう)を主役(しゅやく)にしません。甘(あま)い飲(の)み物(もの)は何(なん)ですか。\nWhich sweet drink uses rice koji, rice, and water without making alcoholic fermentation the main process?",
     "answers":["日本酒(にほんしゅ)","米酢(こめず)","麹甘酒(こうじあまざけ)","醤油(しょうゆ)"],"correct":2,
     "jpExplanation":"麹甘酒(こうじあまざけ)の甘味(あまみ)は、麹(こうじ)の酵素(こうそ)が米(こめ)のでんぷんを糖(とう)に分解(ぶんかい)して生(う)まれます。基本的(きほんてき)にアルコール発酵(はっこう)で甘味(あまみ)を作(つく)るのではありません。",
     "enExplanation":"Koji amazake becomes sweet through enzymatic saccharification of rice starch, not through alcoholic fermentation."
   },
   {
     "id":"page28-29-science-q12","chapter":"発酵のしくみ","page":"28–29","type":"fermentation-science","difficulty":3,
-    "question":"日本酒(にほんしゅ)の醪(もろみ)では、麹(こうじ)による糖化(とうか)と酵母(こうぼ)によるアルコール発酵(はっこう)が同(おな)じ容器(ようき)で進(すす)みます。二(ふた)つの役割(やくわり)の組(く)み合(あ)わせはどれですか。",
+    "question":"日本酒(にほんしゅ)の醪(もろみ)では、麹(こうじ)による糖化(とうか)と酵母(こうぼ)によるアルコール発酵(はっこう)が同(おな)じ容器(ようき)で進(すす)みます。二(ふた)つの役割(やくわり)の組(く)み合(あ)わせはどれですか。\nIn sake moromi, which pairing correctly describes koji saccharification and yeast fermentation?",
     "answers":["麹(こうじ)がアルコールを酢(す)にし、酵母(こうぼ)が塩(しお)を作(つく)る","麹(こうじ)が酸素(さんそ)を作(つく)り、酵母(こうぼ)が米(こめ)を蒸(む)す","麹(こうじ)が糖(とう)を酸(さん)にし、酵母(こうぼ)が酸(さん)を、でんぷんにする","麹(こうじ)が、でんぷんを糖(とう)にし、酵母(こうぼ)が糖(とう)をアルコールにする"],"correct":3,
     "jpExplanation":"米(こめ)のでんぷんは酵母(こうぼ)が直接(ちょくせつ)使(つか)いにくいため、まず麹(こうじ)の酵素(こうそ)が糖(とう)にします。その糖(とう)を酵母(こうぼ)がアルコールへ変(か)えます。",
     "enExplanation":"Koji enzymes continuously release sugars from rice starch while yeast converts those sugars into alcohol in the same mash."
   },
   {
     "id":"page28-29-science-q13","chapter":"発酵のしくみ","page":"28–29","type":"fermentation-pathway","difficulty":3,
-    "question":"米(こめ)から米酢(こめず)ができるまでの変化(へんか)を、正(ただ)しい順番(じゅんばん)で表(あらわ)したものはどれですか。",
+    "question":"米(こめ)から米酢(こめず)ができるまでの変化(へんか)を、正(ただ)しい順番(じゅんばん)で表(あらわ)したものはどれですか。\nWhich sequence correctly shows the transformations from rice to rice vinegar?",
     "answers":["でんぷん → 糖(とう) → アルコール → 酢酸(さくさん)","でんぷん → 酢酸(さくさん) → 糖(とう) → アルコール","アルコール → でんぷん → 酢酸(さくさん) → 糖(とう)","糖(とう) → でんぷん → アルコール → 塩(しお)"],"correct":0,
     "jpExplanation":"麹(こうじ)が、でんぷんを糖(とう)へ、酵母(こうぼ)が糖(とう)をアルコールへ、酢酸菌(さくさんきん)がアルコールを酢酸(さくさん)へ変(か)えます。複数(ふくすう)の働(はたら)きがつながった経路(けいろ)です。",
     "enExplanation":"Rice vinegar is a linked pathway: koji releases sugar, yeast produces alcohol, and acetic acid bacteria turn that alcohol into acetic acid."
   },
   {
     "id":"page28-29-science-q14","chapter":"発酵のしくみ","page":"28–29","type":"fermentation-pathway","difficulty":2,
-    "question":"蒸(む)した大豆(だいず)と炒(い)った小麦(こむぎ)に麹菌(こうじきん)を育(そだ)て、塩水(しおみず)を加(くわ)えて諸味(もろみ)にし、熟成後(じゅくせいご)に搾(しぼ)ります。何(なに)を作(つく)る流(なが)れですか。",
+    "question":"蒸(む)した大豆(だいず)と炒(い)った小麦(こむぎ)に麹菌(こうじきん)を育(そだ)て、塩水(しおみず)を加(くわ)えて諸味(もろみ)にし、熟成後(じゅくせいご)に搾(しぼ)ります。何(なに)を作(つく)る流(なが)れですか。\nWhich product is made from soybean-and-wheat koji, brine, moromi aging, and pressing?",
     "answers":["納豆(なっとう)","醤油(しょうゆ)","甘酒(あまざけ)","米酢(こめず)"],"correct":1,
     "jpExplanation":"醤油(しょうゆ)は大豆(だいず)と小麦(こむぎ)の醤油麹(しょうゆこうじ)に塩水(しおみず)を加(くわ)え、諸味(もろみ)を発酵(はっこう)・熟成(じゅくせい)させて搾(しぼ)ります。",
     "enExplanation":"Soy sauce is produced by fermenting and aging a salty moromi mash made from soybean-and-wheat koji, then pressing out the liquid."
   },
   {
     "id":"page28-29-science-q15","chapter":"発酵のしくみ","page":"28–29","type":"fermentation-pathway","difficulty":1,
-    "question":"蒸(む)した大豆(だいず)に米麹(こめこうじ)と塩(しお)を混(ま)ぜ、発酵(はっこう)・熟成(じゅくせい)させます。できるものはどれですか。",
+    "question":"蒸(む)した大豆(だいず)に米麹(こめこうじ)と塩(しお)を混(ま)ぜ、発酵(はっこう)・熟成(じゅくせい)させます。できるものはどれですか。\nWhat is produced by fermenting and aging steamed soybeans with rice koji and salt?",
     "answers":["豆味噌(まめみそ)","麦味噌(むぎみそ)","米味噌(こめみそ)","醤油(しょうゆ)"],"correct":2,
     "jpExplanation":"大豆(だいず)に米麹(こめこうじ)と塩(しお)を加(くわ)えると米味噌(こめみそ)の経路(けいろ)になります。「米」は主(おも)に麹(こうじ)の土台(どだい)を示(しめ)します。",
     "enExplanation":"Steamed soybeans fermented with rice koji and salt become rice miso; “rice” identifies the substrate used to make the koji."
   },
   {
     "id":"page28-29-science-q16","chapter":"発酵のしくみ","page":"28–29","type":"comparison","difficulty":2,
-    "question":"米味噌(こめみそ)、麦味噌(むぎみそ)、豆味噌(まめみそ)を分(わ)ける重要(じゅうよう)な違(ちが)いはどれですか。",
+    "question":"米味噌(こめみそ)、麦味噌(むぎみそ)、豆味噌(まめみそ)を分(わ)ける重要(じゅうよう)な違(ちが)いはどれですか。\nWhat important difference distinguishes rice miso, barley miso, and soybean miso?",
     "answers":["使(つか)う水(みず)の色(いろ)だけ","容器(ようき)の形(かたち)だけ","食(た)べる時刻(じこく)だけ","麹(こうじ)を作(つく)る土台(どだい)が米(こめ)、麦(むぎ)、大豆(だいず)のどれか"],"correct":3,
     "jpExplanation":"三(みっ)つの名前(なまえ)は、米麹(こめこうじ)、麦麹(むぎこうじ)、豆麹(まめこうじ)という麹(こうじ)の違(ちが)いと結(むす)びつきます。それが風味(ふうみ)の違(ちが)いにも関係(かんけい)します。",
     "enExplanation":"The categories chiefly reflect whether the koji substrate is rice, barley or soybean, a choice that also influences the eventual flavour."
   },
   {
     "id":"page28-29-science-q17","chapter":"発酵のしくみ","page":"28–29","type":"preservation-science","difficulty":2,
-    "question":"味噌(みそ)や醤油(しょうゆ)の仕込(しこ)みに塩(しお)を使(つか)う理由(りゆう)として、最(もっと)も適切(てきせつ)なものはどれですか。",
+    "question":"味噌(みそ)や醤油(しょうゆ)の仕込(しこ)みに塩(しお)を使(つか)う理由(りゆう)として、最(もっと)も適切(てきせつ)なものはどれですか。\nWhat is the best reason salt is used when preparing miso and soy sauce?",
     "answers":["味(あじ)を付(つ)け、好(この)ましくない微生物(びせいぶつ)を抑(おさ)えながら、耐塩性(たいえんせい)の微生物(びせいぶつ)が働(はたら)ける環境(かんきょう)を作(つく)る","すべての酵素(こうそ)を必(かなら)ず壊(こわ)す","大豆(だいず)を米(こめ)に変(か)える","発酵時間(はっこうじかん)を必(かなら)ずゼロにする"],"correct":0,
     "jpExplanation":"塩(しお)は調味(ちょうみ)と保存(ほぞん)に関(かか)わり、微生物(びせいぶつ)の増殖(ぞうしょく)を選択的(せんたくてき)に抑(おさ)えます。塩(しお)に強(つよ)い酵母(こうぼ)や乳酸菌(にゅうさんきん)などは、その環境(かんきょう)でも働(はたら)けます。",
     "enExplanation":"Salt seasons the product and selectively suppresses many unwanted organisms while salt-tolerant fermentation microbes can continue working."
   },
   {
     "id":"page28-29-science-q18","chapter":"発酵のしくみ","page":"28–29","type":"process-control","difficulty":2,
-    "question":"発酵(はっこう)で温度管理(おんどかんり)が重要(じゅうよう)なのはなぜですか。",
+    "question":"発酵(はっこう)で温度管理(おんどかんり)が重要(じゅうよう)なのはなぜですか。\nWhy is temperature control important in fermentation?",
     "answers":["温度(おんど)は色(いろ)にしか影響(えいきょう)しないから","微生物(びせいぶつ)と酵素(こうそ)には働(はたら)きやすい温度範囲(おんどはんい)があり、高(たか)すぎると働(はたら)きが失(うしな)われることもあるから","高温(こうおん)ほど、どの発酵(はっこう)も必(かなら)ず良(よ)くなるから","低温(ていおん)では時間(じかん)が止(と)まるから"],"correct":1,
     "jpExplanation":"酵素反応(こうそはんのう)と微生物(びせいぶつ)の増殖(ぞうしょく)は温度(おんど)で速(はや)さが変(か)わります。低(ひく)すぎると進(すす)みにくく、高(たか)すぎると酵素(こうそ)が壊(こわ)れたり菌(きん)が弱(よわ)ったりします。",
     "enExplanation":"Temperature controls enzyme reaction rates and microbial growth. Too cold can slow the process; excessive heat can inactivate enzymes or damage the desired organisms."
   },
   {
     "id":"page28-29-science-q19","chapter":"発酵のしくみ","page":"28–29","type":"ecosystem-reasoning","difficulty":3,
-    "question":"味噌(みそ)や醤油(しょうゆ)が、単純(たんじゅん)な塩味(しおあじ)ではなく、旨味(うまみ)、酸味(さんみ)、香(かお)りを重(かさ)ねて持(も)つ理由(りゆう)はどれですか。",
+    "question":"味噌(みそ)や醤油(しょうゆ)が、単純(たんじゅん)な塩味(しおあじ)ではなく、旨味(うまみ)、酸味(さんみ)、香(かお)りを重(かさ)ねて持(も)つ理由(りゆう)はどれですか。\nWhy do miso and soy sauce possess layered umami, acidity, and aroma rather than simple saltiness?",
     "answers":["塩(しお)だけが、すべての香(かお)りを作(つく)るから","材料(ざいりょう)が変化(へんか)しないから","麹菌(こうじきん)の酵素(こうそ)、乳酸菌(にゅうさんきん)、酵母(こうぼ)などが異(こと)なる役割(やくわり)を重(かさ)ねるから","容器(ようき)の名前(なまえ)が長(なが)いから"],"correct":2,
     "jpExplanation":"麹(こうじ)の酵素(こうそ)が糖(とう)やアミノ酸(さん)を作(つく)り、乳酸菌(にゅうさんきん)が酸(さん)を、酵母(こうぼ)がアルコールや香気成分(こうきせいぶん)を生(う)みます。複数(ふくすう)の働(はたら)きが複雑(ふくざつ)な味(あじ)になります。",
     "enExplanation":"Complex flavour emerges because koji enzymes release sugars and amino acids while lactic acid bacteria and yeast add acids, alcohol and aroma compounds."
   },
   {
     "id":"page28-29-science-q20","chapter":"発酵のしくみ","page":"28–29","type":"systems-thinking","difficulty":3,
-    "question":"同(おな)じ米(こめ)から甘酒(あまざけ)、日本酒(にほんしゅ)、米酢(こめず)という違(ちが)う食品(しょくひん)ができる根本的(こんぽんてき)な理由(りゆう)はどれですか。",
+    "question":"同(おな)じ米(こめ)から甘酒(あまざけ)、日本酒(にほんしゅ)、米酢(こめず)という違(ちが)う食品(しょくひん)ができる根本的(こんぽんてき)な理由(りゆう)はどれですか。\nWhy can the same rice become amazake, sake, or rice vinegar?",
     "answers":["米(こめ)は最初(さいしょ)から三(みっ)つの味(あじ)に分(わ)かれている","すべて同(おな)じ工程(こうてい)で、名前(なまえ)だけ変(か)える","米(こめ)の色(いろ)だけで完成品(かんせいひん)が決(き)まる","糖化(とうか)の後(あと)に、酵母(こうぼ)や酢酸菌(さくさんきん)を働(はたら)かせるかなど、経路(けいろ)と終点(しゅうてん)を変(か)えるから"],"correct":3,
     "jpExplanation":"甘酒(あまざけ)は糖化(とうか)の甘味(あまみ)を生(い)かし、日本酒(にほんしゅ)は酵母(こうぼ)でアルコールへ進(すす)め、米酢(こめず)は、さらに酢酸菌(さくさんきん)で酸(さん)へ進(すす)めます。経路(けいろ)の選択(せんたく)が食品(しょくひん)を分(わ)けます。",
     "enExplanation":"Amazake stops at sweet saccharification, sake continues through yeast to alcohol, and rice vinegar continues further through acetic acid bacteria to acid."
