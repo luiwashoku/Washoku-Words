@@ -445,57 +445,69 @@
   "questionCount": 20
 },
   {
-  "id": "page47-49-physics",
+  "id": "page47-49-forms",
   "category": "techniques",
   "page": "47–49",
-  "title": "包丁の構造と切断の物理",
-  "file": "data/pages47-49-physics.json",
+  "title": "包丁の形と種類",
+  "file": "data/pages47-49-forms.json",
   "introduction": {
-    "ja": "包丁(ほうちょう)の切(き)れ味(あじ)は、刃先(はさき)が鋭(するど)いかだけでは決(き)まりません。刃先角度(はさきかくど)が小(ちい)さく、刃先(はさき)の後(うし)ろが薄(うす)いほど食材(しょくざい)へ入(はい)る抵抗(ていこう)と楔作用(くさびさよう)は減(へ)りますが、硬(かた)い食材(しょくざい)、骨(ほね)、横(よこ)ねじりに対(たい)する余裕(よゆう)も小(ちい)さくなります。蛤刃(はまぐりば)の緩(ゆる)い凸面(とつめん)は刃先(はさき)を支(ささ)えながら食材(しょくざい)との接触面積(せっしょくめんせき)を減(へ)らし、裏(うら)すきは片刃(かたば)の裏面(うらめん)の摩擦(まさつ)と密着(みっちゃく)を減(へ)らします。濡(ぬ)れた野菜(やさい)や魚(さかな)が刃(は)へ付(つ)く現象(げんしょう)には、広(ひろ)い接触面(せっしょくめん)、水膜(すいまく)の表面張力(ひょうめんちょうりょく)、食材(しょくざい)の薄(うす)さと柔(やわ)らかさが関係(かんけい)します。槌目(つちめ)やディンプルは接触(せっしょく)を減(へ)らす場合(ばあい)がありますが、食材離(しょくざいばな)れを保証(ほしょう)するものではありません。この章(しょう)では、角度(かくど)、厚(あつ)み、楔(くさび)、摩擦(まさつ)、付着(ふちゃく)、左右非対称(さゆうひたいしょう)、切(き)る動作(どうさ)を結(むす)び、一本(いっぽん)の包丁(ほうちょう)が食材(しょくざい)の中(なか)で、どう働(はたら)くかを考(かんが)えます。",
-    "en": "Knife performance is not determined by apex sharpness alone. A lower edge angle and less thickness behind the edge reduce penetration and wedging resistance, but also reduce tolerance for hard food, bone and twisting. A gently convex hamaguri grind can support the edge while reducing broad contact, and the urasuki hollow on a single bevel reduces friction and adhesion on the back. Wet vegetables and fish cling through broad surface contact, thin liquid films, slice flexibility and pressure effects. Hammering or dimples may interrupt contact but cannot guarantee release. This chapter connects angle, thickness, wedging, friction, adhesion, asymmetry and cutting motion to explain what a knife physically does inside food."
+    "ja": "十五種類(じゅうごしゅるい)の包丁(ほうちょう)を、輪郭(りんかく)、用途(ようと)、両刃(りょうば)・片刃(かたば)の違(ちが)いから見分(みわ)けます。オレンジ色(いろ)の包丁(ほうちょう)と番号(ばんごう)を見(み)て、その包丁(ほうちょう)が何(なに)を切(き)るための形(かたち)なのかを結(むす)び付(つ)けます。",
+    "en": "Learn fifteen knife forms by connecting each silhouette with its purpose and double- or single-bevel construction. The highlighted knife and number make it easier to compare closely related shapes."
   },
-  "questionCount": 16
+  "questionCount": 15
 },
   {
-  "id": "page47-49-balance",
+  "id": "page47-49-materials",
   "category": "techniques",
   "page": "47–49",
-  "title": "包丁の持ち方とバランス",
-  "file": "data/pages47-49-balance.json",
+  "title": "包丁の材質と手入れ",
+  "file": "data/pages47-49-materials.json",
   "introduction": {
-    "ja": "包丁(ほうちょう)のバランスは、置(お)いた状態(じょうたい)の重心(じゅうしん)だけではありません。料理人(りょうりにん)が包丁(ほうちょう)を柔(やわ)らかく持(も)ち、軽(かる)く上下(じょうげ)させるのは、動(うご)かしたときの慣性(かんせい)、刃先(はさき)の重(おも)さ、戻(もど)り方(かた)、柄(え)の収(おさ)まりを感(かん)じるためです。重心(じゅうしん)がピンチグリップ付近(ふきん)にある包丁(ほうちょう)は中立的(ちゅうりつてき)で方向(ほうこう)を変(か)えやすく、出刃(でば)のように刃側(はがわ)が重(おも)い包丁(ほうちょう)は魚(さかな)をおろす力(ちから)を伝(つた)えやすくなります。しかし、最適(さいてき)な重心(じゅうしん)は一本(いっぽん)に決(き)まりません。手(て)の大(おお)きさ、握(にぎ)る位置(いち)、用途(ようと)、切(き)る動作(どうさ)、作業時間(さぎょうじかん)で評価(ひょうか)が変(か)わります。柔(やわ)らかいピンチグリップ、手首(てくび)の中立(ちゅうりつ)、顎(あご)と峰(みね)の角(かど)、柄(え)の太(ふと)さ、指(ゆび)の空間(くうかん)まで確認(かくにん)し、制御(せいぎょ)しやすく疲(つか)れにくい一本(いっぽん)を選(えら)びます。",
-    "en": "Knife balance is more than the static centre of mass. When a chef holds a knife softly and gives it a small bounce, they are feeling dynamic inertia, tip weight, recovery and how the handle settles in the hand. A balance point near the pinch grip often feels neutral and agile; a forward-weighted deba can transmit useful authority during fish breakdown. No position is universally ideal, however. Hand size, grip location, task, cutting motion and session length change perceived control. This chapter examines relaxed pinch grip, neutral wrist alignment, choil and spine comfort, handle thickness, knuckle clearance and safe testing so the learner can choose a knife that remains controllable and comfortable in actual work."
-  },
-  "questionCount": 12
-},
-  {
-  "id": "page47-49",
-  "category": "techniques",
-  "page": "47–49",
-  "title": "包丁の選び方",
-  "file": "data/pages47-49.json",
-  "introduction": {
-    "ja": "包丁(ほうちょう)は名前(なまえ)を暗記(あんき)するものではなく、目的(もくてき)に合(あ)わせて選(えら)ぶ道具(どうぐ)です。柳刃(やなぎば)は長(なが)い一方向(いちほうこう)の引(ひ)き切(ぎ)りで刺身(さしみ)の断面(だんめん)を滑(なめ)らかにし、出刃(でば)は厚(あつ)みと重(おも)さで魚(さかな)をおろします。薄刃(うすば)は片刃(かたば)で精密(せいみつ)な野菜仕事(やさいしごと)、菜切(なきり)は両刃(りょうば)で日常(にちじょう)の刻(きざ)み、三徳(さんとく)と牛刀(ぎゅうとう)は広(ひろ)い用途(ようと)を担(にな)います。鋼材(こうざい)も目的(もくてき)と手入(てい)れで選(えら)びます。白紙(しろがみ)・青紙(あおがみ)などの炭素鋼(たんそこう)は鋭(するど)い刃(は)を作(つく)りやすい一方(いっぽう)、水分(すいぶん)、塩分(えんぶん)、酸(さん)に反応(はんのう)し、野菜(やさい)へ変色(へんしょく)や金属臭(きんぞくしゅう)を移(うつ)すことがあります。ステンレス鋼(こう)は錆(さび)にくく管理(かんり)が容易(ようい)ですが、完全(かんぜん)に手入(てい)れ不要(ふよう)ではありません。この章(しょう)では形(かたち)、刃(は)の構造(こうぞう)、切(き)る動作(どうさ)、断面(だんめん)、鋼材(こうざい)、砥石(といし)、産地(さんち)と作(つく)り手(て)をつなぎ、料理人(りょうりにん)に「何(なに)を使(つか)い、なぜ選(えら)ぶのか」を尋(たず)ねられる言葉(ことば)を身(み)につけます。",
-    "en": "A knife is chosen for a task, not memorized as a name. Yanagiba makes one long draw for a smooth sashimi surface; deba uses thickness and weight for breaking down fish. Single-bevel usuba supports precision vegetable work, double-bevel nakiri everyday chopping, and santoku or gyuto broad general use. Steel must also fit both the desired edge and the owner's maintenance. Carbon steels such as shirogami and aogami take keen edges but react with moisture, salt and acid and may transfer discolouration or metallic aroma to vegetables. Stainless steel resists corrosion and simplifies care but is not maintenance-free. This chapter connects silhouette, bevel, cutting motion, finished surface, steel, whetstones, production regions and makers so the learner can ask a chef not merely what knife they own, but what they use it for and why."
+    "ja": "包丁(ほうちょう)の鋼材(こうざい)は、切(き)れ味(あじ)だけでなく、錆(さ)びにくさ、刃持(はも)ち、研(と)ぎやすさ、食材(しょくざい)との反応(はんのう)、毎日(まいにち)の手入(てい)れを左右(さゆう)します。炭素鋼(たんそこう)とステンレス鋼(こう)、白紙(しろがみ)と青紙(あおがみ)、芯材(しんざい)と地金(じがね)、パティナと赤錆(あかさび)を比(くら)べ、自分(じぶん)の仕事(しごと)と管理習慣(かんりしゅうかん)に合(あ)う材質(ざいしつ)を選(えら)びます。洗浄(せんじょう)、乾燥(かんそう)、保管(ほかん)、砥石(といし)、返(かえ)り、面直(めんなお)しまでを一本(いっぽん)の手入(てい)れの流(なが)れとして学(まな)びます。",
+    "en": "Knife steel affects far more than initial sharpness: it changes corrosion resistance, edge retention, sharpening behaviour, food reactivity and the care demanded every day. This deck compares carbon and stainless steel, shirogami and aogami, core and cladding, stable patina and active rust. It then connects washing, drying, storage, stone progression, burr removal and stone flattening into a practical maintenance routine, so material choice reflects both the work and the care the user can sustain."
   },
   "questionCount": 20
 },
   {
-  "id": "page47-49-types",
+  "id": "page47-49-usage",
   "category": "techniques",
   "page": "47–49",
-  "title": "包丁の種類と作り手",
-  "file": "data/pages47-49-types.json",
-  "introduction": {"ja":"和包丁(わぼうちょう)は形(かたち)ごとに仕事(しごと)が違(ちが)います。蛸引(たこひき)と、ふぐ引(び)きは刺身(さしみ)の精密(せいみつ)な引(ひ)き切(ぎ)り、舟行(ふなゆき)は魚(さかな)を中心(ちゅうしん)とする軽快(けいかい)な多用途(たようと)、骨(ほね)すきは鶏(とり)の関節(かんせつ)、小出刃(こでば)は小魚(こざかな)、筋引(すじひ)きは肉(にく)の整形(せいけい)、ペティは細工(さいく)に向(む)きます。パン切(ぎ)りの波刃(なみば)や中華包丁(ちゅうかぼうちょう)の広(ひろ)い刃面(はめん)にも、形(かたち)に根差(ねざ)した役割(やくわり)があります。重房(しげふさ)、吉金(よしかね)、高田(たかだ)ノ刃物(はもの)、恒一(こうのすけ)、堺菊守(さかいきくもり)、正本(まさもと)、實光(じっこう)、堺孝行(さかいたかゆき)、芦刃物(あしはもの)、藤次郎(とうじろう)などの名前(なまえ)は会話(かいわ)の入口(いりぐち)です。実際(じっさい)には鍛冶屋(かじや)、研(と)ぎ師(し)、産地(さんち)、鋼材(こうざい)、焼入(やきい)れ、刃(は)の形状(けいじょう)と用途(ようと)を尋(たず)ねます。","en":"Knife families encode different jobs. Takohiki and fuguhiki make precise sashimi draw cuts; funayuki is a lighter fish-centred multipurpose form; honesuki traces poultry joints; ko-deba handles small fish; sujihiki trims and slices meat; petty knives perform detail work. Serrated bread blades and the broad face of a Chinese cleaver also express function through geometry. Names in the PDF—Shigefusa, Yoshikane, Takada no Hamono, Konosuke, Sakai Kikumori, Masamoto, Jikko, Sakai Takayuki, Ashi Hamono and Tojiro—are conversation entry points. Meaningful comparison continues with blacksmith, sharpener, region, steel, heat treatment, geometry and intended work."},
-  "questionCount": 12
+  "title": "包丁の使い分け",
+  "file": "data/pages47-49-usage.json",
+  "introduction": {"ja":"包丁(ほうちょう)は名前(なまえ)や価格(かかく)から選(えら)ぶのではなく、食材(しょくざい)、作業(さぎょう)、必要(ひつよう)な断面(だんめん)、切(き)る動作(どうさ)から選(えら)びます。魚(さかな)をおろす出刃(でば)と刺身(さしみ)を引(ひ)く柳刃(やなぎば)、日常(にちじょう)の野菜(やさい)を刻(きざ)む菜切(なきり)と精密(せいみつ)な野菜仕事(やさいしごと)をする薄刃(うすば)、鶏(とり)の関節(かんせつ)を探(さぐ)る骨すき(ほねすき)と肉(にく)を薄(うす)く引(ひ)く筋引(すじひ)きを使(つか)い分(わ)けます。十五種類(じゅうごしゅるい)の形(かたち)を、実際(じっさい)の調理場面(ちょうりばめん)と完成(かんせい)する料理(りょうり)へ結(むす)び付(つ)けます。","en":"Knife choice begins with the food, task, desired surface and cutting motion—not name or price. This deck separates fish breakdown with deba from sashimi slicing with yanagiba; everyday vegetable chopping with nakiri from precision work with usuba; and poultry joint work with honesuki from long meat slicing with sujihiki. All fifteen forms are revisited through real kitchen decisions and the result required on the plate."},
+  "questionCount": 20
 },
   {
-  "id": "page47-49-cuts",
+  "id": "page47-49-handling",
   "category": "techniques",
   "page": "47–49",
-  "title": "切り方と目的",
-  "file": "data/pages47-49-cuts.json",
-  "introduction": {"ja":"切(き)り方(かた)は食材(しょくざい)の見(み)た目(め)だけでなく、表面積(ひょうめんせき)、繊維(せんい)の長(なが)さ、厚(あつ)みを変(か)えます。その結果(けっか)、歯(は)ごたえ、火(ひ)の通(とお)る速(はや)さ、味(あじ)の入(はい)り方(かた)、香(かお)りの出方(でかた)が変(か)わります。輪切(わぎ)り、半月切(はんげつぎ)り、いちょう切(ぎ)り、短冊切(たんざくぎ)り、拍子木切(ひょうしぎぎ)り、千切(せんぎ)り、乱切(らんぎ)り、ささがき、桂(かつら)むきなどの基本(きほん)から、面取(めんと)り、隠(かく)し包丁(ぼうちょう)、鹿(か)の子、蛇腹(じゃばら)の目的(もくてき)を学(まな)びます。魚(さかな)では三枚(さんまい)・五枚(ごまい)おろし、背開(せびら)き・腹開(はらびら)き、皮引(かわひ)き・骨抜(ほねぬ)き、薄造(うすづく)り・平造(ひらづく)り・そぎ造(づく)りを、完成(かんせい)する断面(だんめん)と食感(しょっかん)から選(えら)びます。","en":"Cuts change more than appearance: they alter surface area, fibre length and thickness, which changes bite, cooking speed, seasoning penetration and aroma release. This chapter connects foundational shapes—rounds, half-moons, ginkgo cuts, tanzaku, batons, julienne, rangiri, sasagaki and katsuramuki—with the purposes of chamfering, hidden scoring, crosshatching and accordion cuts. Fish work covers three- and five-piece filleting, back and belly opening, skinning and pin-bone removal, then compares paper-thin, standard and diagonal sashimi cuts through their finished surface and texture."},
+  "title": "包丁の持ち方とバランス",
+  "file": "data/pages47-49-handling.json",
+  "introduction": {
+    "ja": "包丁(ほうちょう)は刃(は)だけでなく、両手(りょうて)と身体(からだ)を一体(いったい)にして扱(あつか)います。ピンチグリップの握圧(あくあつ)、食材(しょくざい)を押(お)さえる猫(ねこ)の手(て)、親指(おやゆび)の位置(いち)、中立(ちゅうりつ)に近(ちか)い手首(てくび)、作業台(さぎょうだい)の高(たか)さを結(むす)び付(つ)けます。重心(じゅうしん)だけでなく、動(うご)かしたときの慣性(かんせい)、先端(せんたん)の重(おも)さ、柄(え)の収(おさ)まり、顎(あご)と峰(みね)の角(かど)、指(ゆび)の空間(くうかん)まで確認(かくにん)し、安全(あんぜん)で疲(つか)れにくい一本(いっぽん)と扱(あつか)い方(かた)を選(えら)びます。",
+    "en": "Knife handling joins both hands and the whole body. This deck connects pinch-grip pressure with the guiding claw hand, thumb position, a near-neutral wrist and suitable board height. Balance is tested dynamically through inertia, tip weight and recovery, while handle fit, choil and spine comfort, knuckle clearance, safe placement and transfer determine whether control remains secure and sustainable during real work."
+  },
+  "questionCount": 20
+},
+  {
+  "id": "page47-49-physics",
+  "category": "techniques",
+  "page": "47–49",
+  "title": "包丁の構造と切断の物理",
+  "file": "data/pages47-49-physics-v2.json",
+  "introduction": {
+    "ja": "包丁(ほうちょう)の切断性能(せつだんせいのう)は、刃先(はさき)が鋭(するど)いかだけでは決(き)まりません。両刃(りょうば)は左右(さゆう)の力(ちから)を比較的(ひかくてき)均衡(きんこう)させ、片刃(かたば)は左右非対称(さゆうひたいしょう)の刃面(はめん)を精密(せいみつ)な断面(だんめん)へ利用(りよう)します。刃先角度(はさきかくど)、後方(こうほう)の厚(あつ)み、楔作用(くさびさよう)、蛤刃(はまぐりば)、裏(うら)すき、先細(さきぼそ)りを、抵抗(ていこう)、耐久性(たいきゅうせい)、食材離(しょくざいばな)れ、左右(さゆう)への曲(ま)がりと結(むす)び付(つ)けます。さらに押(お)し切(ぎ)り、引(ひ)き切(ぎ)り、刻(きざ)み、横(よこ)ねじりが刃(は)と食材(しょくざい)へ与(あた)える力(ちから)を考(かんが)えます。",
+    "en": "Knife performance is not apex sharpness alone. Double bevel distributes forces relatively evenly, while single bevel uses asymmetric faces to control precise presentation surfaces. This deck connects edge angle, behind-edge thickness, wedging, convexity, urasuki and distal taper with penetration, durability, food release and steering. It then examines how push cuts, draw cuts, chopping and lateral twisting load both blade and food, so geometry is understood through the result it produces."
+  },
+  "questionCount": 20
+},
+  {
+  "id": "page47-49-craft",
+  "category": "techniques",
+  "page": "47–49",
+  "title": "包丁の産地と職人技",
+  "file": "data/pages47-49-craft.json",
+  "introduction": {"ja":"一本(いっぽん)の包丁(ほうちょう)は、産地名(さんちめい)や一人(ひとり)の銘(めい)だけでは説明(せつめい)できません。堺(さかい)の鍛造(たんぞう)・研(と)ぎ・柄付(えつ)けの分業(ぶんぎょう)、刀鍛冶(かたなかじ)の歴史(れきし)を持(も)つ関(せき)、鍛造技法(たんぞうぎほう)を継承(けいしょう)する越前(えちぜん)、多様(たよう)な金属加工企業(きんぞくかこうきぎょう)が集(あつ)まる燕三条(つばめさんじょう)を比較(ひかく)します。鍛冶職人(かじしょくにん)、研(と)ぎ職人(しょくにん)、柄付(えつ)け職人(しょくにん)が何(なに)を決(き)めるかを理解(りかい)し、ブランド名(めい)を入口(いりぐち)に、実際(じっさい)の作(つく)り手(て)、鋼材(こうざい)、熱処理(ねつしょり)、形状(けいじょう)、用途(ようと)、研(と)ぎ直(なお)しまで尋(たず)ねられる会話力(かいわりょく)を育(そだ)てます。","en":"A knife cannot be explained by a regional label or one engraved name alone. This deck compares Sakai's specialised division among forging, sharpening and handle fitting; Seki's swordsmith-derived blade industry; Echizen's forged-cutlery tradition; and Tsubame-Sanjo's broad metalworking cluster. It identifies what smiths, sharpeners and handle fitters each determine, then uses brands and makers as starting points for asking about actual craftspeople, steel, heat treatment, geometry, intended work and long-term service."},
   "questionCount": 20
 },
   {

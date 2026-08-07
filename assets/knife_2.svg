@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="Ebene_1" viewBox="0 20 396.31 135">
+  <defs>
+    <style>
+      .cls-1{fill:none;stroke:#1d1d1b;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+      #double-bevel:target~polygon:nth-of-type(3),#single-bevel:target~polygon:nth-of-type(4){fill:#ff6a00}
+    </style>
+  </defs>
+  <g id="double-bevel" class="quiz-marker"/>
+  <g id="single-bevel" class="quiz-marker"/>
+  <polygon class="cls-1" points="154.9 89.73 131.72 122.79 108.53 89.73 108.53 64.31 83.63 64.31 83.63 141.94 178.81 141.94 178.81 64.31 154.9 64.31 154.9 89.73"/>
+  <polygon class="cls-1" points="288.27 64.31 288.27 89.73 288.27 122.79 241.91 76.43 241.91 64.31 217.5 64.31 217.5 141.94 312.68 141.94 312.68 64.31 288.27 64.31"/>
+  <polygon class="cls-1" points="114.48 87.85 114.48 36.01 148.95 36.01 148.95 87.85 131.72 112.43 114.48 87.85"/>
+  <polygon class="cls-1" points="247.85 73.96 247.85 36.01 282.33 36.01 282.33 108.44 247.85 73.96"/>
+</svg>
