@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="Ebene_1" viewBox="0 0 396.31 252.25">
+  <defs>
+    <style>.cls-1,.cls-2{fill:none;stroke:#1d1d1b;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}.cls-2{stroke-dasharray:5 5;}#upper-fillet:target~path:nth-of-type(1),#lower-fillet:target~path:nth-of-type(2),#nakaochi:target~path:nth-of-type(3){fill:#ff6a00}.quiz-dot{display:none;fill:#ff6a00}.quiz-dot:target{display:block}</style>
+  </defs>
+  <g id="upper-fillet" class="quiz-marker"/>
+  <g id="nakaochi" class="quiz-marker"/>
+  <g id="lower-fillet" class="quiz-marker"/>
+  <path class="cls-1" d="M112.22,24.83s95.93-3.93,131.37,7.89c8.98,2.99,15.5,1.9,15.5,1.9v10.61s-9.79-.27-20.67,4.62c-10.88,4.9-56.85,28.01-101.72,27.47,0,0-19.04-29.92-24.48-52.49Z"/>
+  <path class="cls-1" d="M115.64,227.43s95.93,3.93,131.37-7.89c8.98-2.99,15.5-1.9,15.5-1.9v-10.61s-9.79.27-20.67-4.62c-10.88-4.9-56.85-28.01-101.72-27.47,0,0-19.04,29.92-24.48,52.49Z"/>
+  <path class="cls-1" d="M90.13,109.2s94.88-13.34,152.04,11.15c5.71,2.45,19.56-.9,25.38-4.42,5.82-3.52,38.13-16.54,38.13-16.54,0,0-6.89,14.4-23.74,22.97,0,0,15.01,8.58,22.97,18.99,0,0-24.35-3.83-44.57-10.87-20.22-7.04-65.55,29.41-105.06,27.11,0,0,3.52-18.07-4.29-20.68-7.81-2.6-57.89-7.2-57.89-7.2l-2.98-20.52Z"/>
+  <path class="cls-1" d="M149.45,131.76s56.79-5.07,91.18-5.07"/>
+  <line class="cls-1" x1="161.88" y1="116.21" x2="164.21" y2="148.54"/>
+  <line class="cls-1" x1="170.43" y1="115.59" x2="172.77" y2="147.93"/>
+  <line class="cls-1" x1="178.99" y1="114.98" x2="181.32" y2="147.31"/>
+  <line class="cls-1" x1="187.54" y1="114.36" x2="189.88" y2="146.7"/>
+  <line class="cls-1" x1="196.16" y1="114.63" x2="198.29" y2="144.09"/>
+  <line class="cls-1" x1="204.8" y1="115.22" x2="206.71" y2="141.63"/>
+  <line class="cls-1" x1="213.48" y1="116.44" x2="215.06" y2="138.27"/>
+  <path class="cls-2" d="M128.58,50.77s82.56-8.38,125.67-10.57"/>
+  <circle id="back-loin" class="quiz-dot" cx="170" cy="37" r="5"/>
+  <circle id="belly" class="quiz-dot" cx="170" cy="63" r="5"/>
+</svg>

@@ -643,6 +643,42 @@
   "questionCount": 20
 },
   {
+  "id": "page74",
+  "category": "animal-ingredients",
+  "page": 74,
+  "title": "鶏について",
+  "file": "data/pages74.json",
+  "introduction": {
+    "ja": "鶏(とり)を選(えら)ぶときは、地鶏(じどり)や銘柄鶏(めいがらどり)という名前だけでなく、若鶏(わかどり)と親鶏(おやどり)の肉質(にくしつ)、平飼い(ひらがい)・放し飼い(はなしがい)・ケージ飼いの違(ちが)い、飼料(しりょう)が風味(ふうみ)に与(あた)える影響(えいきょう)を分(わ)けて考(かんが)えます。卵(たまご)の飼育表示(しいくひょうじ)と有精卵(ゆうせいらん)・無精卵(むせいらん)も整理(せいり)し、弾力(だんりょく)、歯(は)ごたえ、柔(やわ)らかさ、ジューシーさを具体的(ぐたいてき)に説明できるようにします。",
+    "en": "Understand chicken through category, age, husbandry, feed and sensory quality. Distinguish jidori from branded chicken; young from mature birds; cage-free, free-range, caged and pasture systems; feed and production claims; egg labels; and precise descriptions of firmness, chew, tenderness, juiciness and flavour."
+  },
+  "questionCount": 20
+},
+  {
+  "id": "page75",
+  "category": "animal-ingredients",
+  "page": 75,
+  "title": "卵の部位",
+  "file": "data/pages75.json",
+  "introduction": {
+    "ja": "卵(たまご)の断面図(だんめんず)を見(み)て、色(いろ)が付(つ)いた部分(ぶぶん)や線(せん)を名前(なまえ)と結(むす)び付(つ)けます。卵白(らんぱく)、卵黄(らんおう)、気室(きしつ)は面(めん)として、卵殻(らんかく)、卵膜(らんまく)、卵黄膜(らんおうまく)、カラザは線として見分(みわ)けます。",
+    "en": "Learn the parts of an egg from a cross-section. Filled orange regions identify the white, yolk and air chamber, while orange lines identify the shell, egg membrane, yolk membrane and both chalaza strands."
+  },
+  "questionCount": 7
+},
+  {
+  "id": "page75-about-eggs",
+  "category": "animal-ingredients",
+  "page": 75,
+  "title": "卵について",
+  "file": "data/pages75-about-eggs.json",
+  "introduction": {
+    "ja": "卵(たまご)は、殻(から)の状態(じょうたい)、卵黄(らんおう)の高(たか)さ、卵白(らんぱく)のまとまり、気室(きしつ)の大(おお)きさから鮮度(せんど)を考(かんが)えます。保存(ほぞん)では向(む)きと温度変化(おんどへんか)に注意(ちゅうい)し、調理(ちょうり)では泡立(あわだ)ち、凝固(ぎょうこ)、乳化(にゅうか)という三(みっ)つの働(はたら)きを使(つか)い分(わ)けます。半熟(はんじゅく)、固(かた)ゆで、温泉卵(おんせんたまご)、目玉焼(めだまや)き、卵焼(たまごや)きの仕上(しあ)がりも、加熱方法(かねつほうほう)と結(むす)び付(つ)けて覚(おぼ)えます。",
+    "en": "Understand eggs through freshness, storage and cooking behaviour. Read the shell, yolk, white and air cell; store eggs consistently; and use foaming, coagulation and emulsification deliberately. Connect soft-cooked, hard-boiled, onsen eggs, fried eggs and tamagoyaki to the heat control that creates them."
+  },
+  "questionCount": 20
+},
+  {
   "id": "page76",
   "category": "animal-ingredients",
   "page": 76,
@@ -653,6 +689,138 @@
     "en": "Connect each beef-cut name to its physical position on the animal. Use the orange regions to build a visual map of the shoulder, back, belly, and hindquarter."
   },
   "questionCount": 16
+},
+  {
+  "id": "page76-organs-others",
+  "category": "animal-ingredients",
+  "page": 76,
+  "title": "牛の内臓・その他",
+  "file": "data/pages76-organs-others.json",
+  "introduction": {
+    "ja": "牛(うし)の内臓(ないぞう)は、やわらかさだけでなく、こりこり、しこしこ、ぷりぷり、濃厚(のうこう)、あっさりといった個性(こせい)で選(えら)びます。部位名(ぶいめい)を見(み)て、短時間(たんじかん)で焼(や)くのか、下処理(したしょり)して煮込(にこ)むのか、脂(あぶら)やコラーゲンをどう生(い)かすのかを考(かんが)えます。牛、雌牛(めうし)、雄牛(おうし)、去勢牛(きょせいぎゅう)、子牛(こうし)の違(ちが)いも整理(せいり)します。",
+    "en": "Choose beef organs by their culinary character: crisp, layered, springy, rich, lean, fatty or collagen-rich. Connect each Japanese name to the preparation it needs—quick grilling, careful cleaning, or prolonged simmering—and distinguish the basic Japanese terms for cattle by sex and age."
+  },
+  "questionCount": 24
+},
+  {
+  "id": "page77",
+  "category": "animal-ingredients",
+  "page": 77,
+  "title": "牛について",
+  "file": "data/pages77.json",
+  "introduction": {
+    "ja": "牛肉(ぎゅうにく)は、和牛(わぎゅう)、国産牛(こくさんぎゅう)、交雑牛(こうざつぎゅう)、輸入牛(ゆにゅうぎゅう)という区分(くぶん)を分(わ)け、黒毛和種(くろげわしゅ)と褐毛和種(あかげわしゅ)の個性(こせい)を考(かんが)えます。牧草飼育(ぼくそうしいく)と穀物飼育(こくもつしいく)、放牧(ほうぼく)、飼料(しりょう)、肥育期間(ひいくきかん)が風味(ふうみ)や肉質(にくしつ)にどう関係するかを学(まな)びます。霜降(しもふ)り、赤身(あかみ)、脂(あぶら)の口(くち)どけ、熟成(じゅくせい)、鮮度(せんど)、品質(ひんしつ)、歩留(ぶど)まりを、料理人(りょうりにん)の仕入(しい)れと調理(ちょうり)の視点(してん)で整理(せいり)します。",
+    "en": "Understand beef through breed, production category, feed, husbandry and culinary quality. Distinguish Wagyu, domestic, crossbred and imported beef; compare Japanese Black and Japanese Brown; connect pasture, grain, feed and finishing duration with flavour and texture; and evaluate marbling, lean character, aging, freshness, quality and usable yield as a cook would."
+  },
+  "questionCount": 20
+},
+  {
+  "id": "page78",
+  "category": "animal-ingredients",
+  "page": 78,
+  "title": "魚の外部構造",
+  "file": "data/pages78.json",
+  "introduction": {
+    "ja": "魚(さかな)の外形(がいけい)を見(み)て、オレンジ色(いろ)の点(てん)が示(しめ)す位置(いち)から部位名(ぶいめい)を選(えら)びます。目(め)、鼻孔(びこう)、口(くち)、えらぶた、各(かく)ひれ、側線(そくせん)、尾柄(びへい)、皮(かわ)、うろこを一(ひと)つの魚体図(ぎょたいず)の中で結(むす)び付(つ)けます。",
+    "en": "Learn the external anatomy of a fish by following an orange location dot. Connect the eye, nostril, mouth, gill cover, fins, lateral line, caudal peduncle, skin and scales to one coherent body map."
+  },
+  "questionCount": 16
+},
+  {
+  "id": "page79",
+  "category": "animal-ingredients",
+  "page": 79,
+  "title": "魚の内部",
+  "file": "data/pages79.json",
+  "introduction": {
+    "ja": "魚(さかな)の内部構造(ないぶこうぞう)を、色(いろ)が付(つ)いた形(かたち)や線(せん)から見分(みわ)けます。皮(かわ)、えら、ほほ肉(にく)、かまに加(くわ)え、腹骨(はらぼね)、背骨(せぼね)、中骨(なかぼね)が魚体(ぎょたい)の中でどのようにつながっているかを一(ひと)つの図で整理(せいり)します。",
+    "en": "Learn the fish's internal structure from highlighted shapes and lines. Locate the skin, gills, cheek and collar, then distinguish rib bones, spine and the complete fish frame as connected but different structures."
+  },
+  "questionCount": 11
+},
+  {
+  "id": "page79-three-piece",
+  "category": "animal-ingredients",
+  "page": 79,
+  "title": "三枚おろし",
+  "file": "data/pages79-three-piece.json",
+  "introduction": {
+    "ja": "三枚おろし(さんまいおろし)では、魚(さかな)を上身(うわみ)、中骨(なかぼね)、下身(したみ)の三(みっ)つに分(わ)けます。フィレの中では背身(せみ)と腹身(はらみ)を位置(いち)で見分(みわ)け、骨の周(まわ)りに残(のこ)る中落(なかお)ちも覚(おぼ)えます。",
+    "en": "In three-piece filleting, the fish separates into an upper fillet, central frame and lower fillet. Locate the back loin and belly within a fillet, and recognise nakaochi as the meat remaining around the backbone."
+  },
+  "questionCount": 5
+},
+  {
+  "id": "page82-three-piece-2",
+  "category": "animal-ingredients",
+  "page": 82,
+  "title": "三枚おろし II",
+  "file": "data/pages82-three-piece-2.json",
+  "introduction": {
+    "ja": "三枚おろし(さんまいおろし)を、部位名(ぶいめい)と一連(いちれん)の作業(さぎょう)として理解(りかい)します。切り身(きりみ)、柵(さく)、皮目(かわめ)、骨付き(ほねつき)・骨なし、皮付き(かわつき)・皮なし、上身(うわみ)・下身(したみ)などの状態(じょうたい)を区別(くべつ)し、魚(さかな)の内臓(ないぞう)を確認(かくにん)します。水洗(みずあら)い、うろこ、えら、内臓、血合い(ちあい)の処理(しょり)から、中骨(なかぼね)に沿(そ)う切り方(かた)、腹骨(はらぼね)、小骨(こぼね)、皮、柵への仕上(しあ)げまでを順序(じゅんじょ)で覚(おぼ)えます。",
+    "en": "Treat three-piece filleting as both a vocabulary system and a complete workflow. Distinguish fillets, sashimi blocks, skin and bone states, orientation terms and fish organs; then follow the sequence from washing, scaling, gilling and eviscerating through cutting along the frame, trimming rib and pin bones, skinning, portioning and shaping sashimi blocks."
+  },
+  "questionCount": 40
+},
+  {
+  "id": "page80-about-fish",
+  "category": "animal-ingredients",
+  "page": 80,
+  "title": "魚について",
+  "file": "data/pages80-about-fish.json",
+  "introduction": {
+      "ja": "魚(さかな)を選(えら)ぶときは、天然(てんねん)・養殖(ようしょく)という表示だけで決(き)めず、目(め)、えら、におい、身(み)の締まり(しまり)、脂のり(あぶらのり)、締め方(しめかた)、血抜き(ちぬき)、温度管理(おんどかんり)を総合(そうごう)して考(かんが)えます。旨味(うまみ)、風味(ふうみ)、食感(しょっかん)、濃厚(のうこう)、あっさり、上品(じょうひん)、甘味(あまみ)を分(わ)けて評価(ひょうか)し、刺身(さしみ)、焼(や)く、煮(に)る、蒸(む)す、揚(あ)げる、炙(あぶ)る、昆布締め(こんぶじめ)、西京焼き(さいきょうやき)から目的(もくてき)に合(あ)う方法(ほうほう)を選びます。",
+    "en": "Choose fish by combining visible freshness, odour, firmness, fat, dispatch, bleeding and temperature history rather than relying on a wild/farmed label. Describe umami, aroma, texture, richness, lightness, elegance and sweetness separately, then select raw, grilled, simmered, steamed, fried, seared, kombu-cured or miso-marinated preparations according to the fish's condition and the intended result."
+  },
+  "questionCount": 32
+},
+  {
+  "id": "page81-tuna",
+  "category": "animal-ingredients",
+  "page": 81,
+  "title": "まぐろについて",
+  "file": "data/pages81-tuna.json",
+  "introduction": {
+    "ja": "まぐろの大きな区分を、背節(せぶし)と腹節(はらぶし)から整理(せいり)し、赤身(あかみ)、中トロ(ちゅうとろ)、大トロ(おおとろ)の脂の違い、天身(てんみ)、中落ち(なかおち)、血合い(ちあい)、かま、かまとろ、脳天(のうてん)、ほほ肉(にく)、尾肉(おにく)の位置と使い方を学びます。背かみ(せかみ)・背なか(せなか)・背しも(せしも)、腹一番(はらいちばん)・腹二番(はらにばん)・腹三番(はらさんばん)という分割名も、頭側から尾側への位置関係と結び付けます。",
+    "en": "Build a practical map of tuna from the back and belly loins. Distinguish lean, medium-fatty and fatty tuna; locate premium lean meat, backbone scrapings, bloodline, collar, fatty collar, crown, cheek and tail; and organise the named back and numbered belly blocks by position."
+  },
+  "questionCount": 20
+},
+  {
+  "id": "page83",
+  "category": "animal-ingredients",
+  "page": 83,
+  "title": "豚肉の部位",
+  "file": "data/pages83.json",
+  "introduction": {
+    "ja": "豚肉(ぶたにく)の部位(ぶい)を、豚(ぶた)の体(からだ)の位置(いち)と結(むす)び付(つ)けて覚(おぼ)えます。オレンジ色(いろ)の区画(くかく)から、背中(せなか)、肩(かた)、腹(はら)、モモ、脚(あし)の位置関係(いちかんけい)を確認(かくにん)します。モモには内モモ(うちモモ)と外モモ(そとモモ)が含(ふく)まれ、シンタマはその内側(うちがわ)の小(ちい)さな区画です。スネと足は前脚(ぜんきゃく)・後脚(こうきゃく)の両方を見分(みわ)けます。",
+    "en": "Build a visual map of pork cuts across the back, shoulder, belly, ham and legs. The ham region includes inside and outside ham, while the knuckle is only the small inner circle. Both front and rear shanks and feet are highlighted together so their repeated position is clear."
+  },
+  "questionCount": 22
+},
+  {
+  "id": "page83-pork-organs",
+  "category": "animal-ingredients",
+  "page": 83,
+  "title": "豚の内臓・ホルモン",
+  "file": "data/pages83-pork-organs.json",
+  "introduction": {
+    "ja": "豚(ぶた)の内臓(ないぞう)と副産物(ふくさんぶつ)を、名前(なまえ)だけでなく食感(しょっかん)、風味(ふうみ)、下処理(したしょり)、調理法(ちょうりほう)と結(むす)び付(つ)けます。タン、レバー、ハツ、胃腸(いちょう)などの内臓に加え、耳(みみ)、鼻(はな)、尾(お)、脂(あぶら)、豚足(とんそく)の特徴も整理(せいり)します。豚の内臓は衛生的(えいせいてき)に扱(あつか)い、中心(ちゅうしん)まで十分(じゅうぶん)に加熱(かねつ)します。",
+    "en": "Connect every pork organ and offal name on page 83 with its texture, flavour, preparation and suitable cooking methods. The deck also covers ear, snout, tail, fat and pig's feet. Pork offal must be handled hygienically and cooked thoroughly."
+  },
+  "questionCount": 19
+},
+  {
+  "id": "page84-about-pork",
+  "category": "animal-ingredients",
+  "page": 84,
+  "title": "豚について",
+  "file": "data/pages84-about-pork.json",
+  "introduction": {
+    "ja": "豚肉(ぶたにく)を、産地(さんち)やブランド名だけで判断せず、鮮度(せんど)、赤身(あかみ)、脂身(あぶらみ)、霜降り(しもふり)、肉質(にくしつ)、香り、肉汁(にくじる)を分けて評価(ひょうか)します。国産豚(こくさんぶた)、輸入豚(ゆにゅうぶた)、黒豚(くろぶた)、三元豚(さんげんとん)、四元豚(よんげんとん)、SPF豚、銘柄豚(めいがらぶた)、放牧豚(ほうぼくぶた)の表示が何を伝え、何を保証しないのかも整理します。この第一段階では、料理する前に豚肉を正確に選び、言葉で評価する力を作ります。",
+    "en": "Learn to select and describe pork before cooking it. Distinguish origin, breed, crossbreeding, health programmes, branding and husbandry from actual eating quality, then evaluate lean, fat, marbling, grain, tenderness, firmness, juiciness, moisture, umami, richness, lightness, aroma and bite as separate qualities."
+  },
+  "questionCount": 20
 },
   {
   "id": "page62-63",

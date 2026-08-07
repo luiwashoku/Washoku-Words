@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="Ebene_1" viewBox="0 0 396.31 252.25">
+  <defs>
+    <style>.cls-1{fill:none;stroke:#1d1d1b;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}#spine:target~line.cls-1,#spine:target~path:nth-of-type(5),#rib-bones:target{stroke:#ff6a00}.quiz-dot{display:none;fill:#ff6a00}.quiz-dot:target{display:block}</style>
+  </defs>
+  <g id="spine" class="quiz-marker"/>
+  <path class="cls-1" d="M194.16,21.18s-.38,6.14-4.99,8.82-51.56,22.39-51.56,73.28,35.79,117.02,39.73,122.38c3.94,5.36,16.82-6.2,16.82-6.2"/>
+  <path class="cls-1" d="M145.1,93.75s-.95,19.2,31.77,21.1"/>
+  <path class="cls-1" d="M152.45,107.35c-10.13,1.17-8.79,16.78-8.79,16.78"/>
+  <path class="cls-1" d="M200.76,124.73s23.37,32.35-6.6,34.95c-29.97-2.6-6.6-34.95-6.6-34.95"/>
+  <path class="cls-1" d="M200.76,124.73c0-12.53-6.6-12.06-6.6-12.06,0,0-6.6-.48-6.6,12.06"/>
+  <line class="cls-1" x1="194.16" y1="21.18" x2="194.16" y2="112.68"/>
+  <path class="cls-1" d="M194.16,21.18s.38,6.14,4.99,8.82,51.56,22.39,51.56,73.28-35.79,117.02-39.73,122.38c-3.94,5.36-16.82-6.2-16.82-6.2"/>
+  <path class="cls-1" d="M243.21,93.75s.95,19.2-31.77,21.1"/>
+  <path class="cls-1" d="M244.66,124.13s1.34-15.62-8.79-16.78"/>
+  <path id="rib-bones" class="cls-1" d="M207.02,136.18c32.68,78.37-12.87,77.25-12.87,77.25,0,0-45.54,1.12-12.87-77.25"/>
+  <circle id="pin-bones" class="quiz-dot" cx="170" cy="112" r="5"/>
+  <circle id="bloodline" class="quiz-dot" cx="143" cy="108" r="4"/>
+</svg>
