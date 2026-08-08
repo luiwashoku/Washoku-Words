@@ -5,18 +5,18 @@
     "page": "47–49",
     "type": "knife-form",
     "difficulty": 1,
-    "image": "assets/knife_1.svg#knife-1",
-    "imageAlt": "番号1の包丁全体がオレンジ色で示されている",
+    "image": "assets/knife_real.svg#knife-1",
+    "imageAlt": "番号1の包丁全体と番号がオレンジ色で示されている",
     "question": "牛刀(ぎゅうとう) / Gyuto / Chef’s knife",
     "answers": [
-      "・両刃(りょうば)\n・肉(にく)、魚(さかな)、野菜(やさい)の切(き)り分(わ)けや刻(きざ)みに使(つか)う",
-      "・片刃(かたば)\n・魚(さかな)をおろし、頭(あたま)や骨(ほね)を切(き)る",
-      "・片刃(かたば)\n・野菜(やさい)の薄切(うすぎ)りや桂剥(かつらむ)きに使(つか)う",
-      "・一般(いっぱん)に片刃(かたば)\n・蕎麦(そば)や麺(めん)の生地(きじ)を均一(きんいつ)に切(き)る"
+      "肉(にく)、魚(さかな)、野菜(やさい)など、幅広(はばひろ)い調理作業(ちょうりさぎょう)に使(つか)う",
+      "長(なが)く薄(うす)い刃(は)で刺身(さしみ)を一方向(いちほうこう)に引(ひ)き切(ぎ)りする",
+      "野菜(やさい)の飾(かざ)り切(ぎ)りや細工(さいく)を精密(せいみつ)に行(おこな)う",
+      "大(おお)きく重(おも)い刃(は)を垂直(すいちょく)に下(お)ろし、蕎麦(そば)を均一(きんいつ)な幅(はば)に切(き)る"
     ],
     "correct": 0,
-    "jpExplanation": "牛刀(ぎゅうとう)は両刃(りょうば)で、肉(にく)を中心(ちゅうしん)に魚(さかな)や野菜(やさい)にも使(つか)える汎用性(はんようせい)の高(たか)い包丁(ほうちょう)です。",
-    "enExplanation": "The gyuto is a double-bevel, versatile chef’s knife for meat, fish and vegetables."
+    "jpExplanation": "肉、魚、野菜などに使える万能包丁です。",
+    "enExplanation": "An all-purpose knife for meat, fish, vegetables, and general kitchen work."
   },
   {
     "id": "page47-49-forms-q02",
@@ -24,18 +24,18 @@
     "page": "47–49",
     "type": "knife-form",
     "difficulty": 1,
-    "image": "assets/knife_1.svg#knife-2",
-    "imageAlt": "番号2の包丁全体がオレンジ色で示されている",
-    "question": "三徳包丁(さんとくぼうちょう) / Santoku / All-purpose knife",
+    "image": "assets/knife_real.svg#knife-2",
+    "imageAlt": "番号2の包丁全体と番号がオレンジ色で示されている",
+    "question": "和牛刀(わぎゅうとう) / Wa-Gyuto",
     "answers": [
-      "・片刃(かたば)\n・刺身(さしみ)を長(なが)く引(ひ)き切(ぎ)りする",
-      "・両刃(りょうば)\n・肉(にく)、魚(さかな)、野菜(やさい)を幅広(はばひろ)く調理(ちょうり)する",
-      "・基本(きほん)は両刃(りょうば)\n・鶏(とり)などの骨(ほね)や関節(かんせつ)から肉(にく)を外(はず)す",
-      "・両刃(りょうば)\n・肉(にく)の筋(すじ)を取(と)り、薄(うす)く切(き)る"
+      "角形(かくがた)の刃先(はさき)で刺身(さしみ)を引(ひ)き切(ぎ)りする",
+      "牛刀(ぎゅうとう)の用途(ようと)を、和包丁型(わぼうちょうがた)の柄(え)で扱(あつか)う",
+      "鯵(あじ)などの小魚(こざかな)をおろし、下処理(したしょり)する",
+      "丸(まる)い先端(せんたん)を持(も)つ長刃(ながば)で刺身(さしみ)を引(ひ)き切(ぎ)りする"
     ],
     "correct": 1,
-    "jpExplanation": "三徳包丁(さんとくぼうちょう)は両刃(りょうば)で、肉(にく)・魚(さかな)・野菜(やさい)という三(みっ)つの用途(ようと)に広(ひろ)く使(つか)います。",
-    "enExplanation": "The santoku is a double-bevel all-purpose knife used broadly for meat, fish and vegetables."
+    "jpExplanation": "牛刀に伝統的な和包丁型の柄を組み合わせた包丁です。",
+    "enExplanation": "A gyuto with a traditional Japanese-style handle."
   },
   {
     "id": "page47-49-forms-q03",
@@ -43,18 +43,18 @@
     "page": "47–49",
     "type": "knife-form",
     "difficulty": 1,
-    "image": "assets/knife_1.svg#knife-3",
-    "imageAlt": "番号3の包丁全体がオレンジ色で示されている",
-    "question": "ペティナイフ / Petty knife / Utility knife",
+    "image": "assets/knife_real.svg#knife-3",
+    "imageAlt": "番号3の包丁全体と番号がオレンジ色で示されている",
+    "question": "切付牛刀(きりつけぎゅうとう) / Kiritsuke Gyuto",
     "answers": [
-      "・片刃(かたば)\n・ふぐなどを非常(ひじょう)に薄(うす)く切(き)る",
-      "・両刃(りょうば)\n・肉(にく)、魚(さかな)、野菜(やさい)を切(き)り、刻(きざ)み、潰(つぶ)す",
-      "・両刃(りょうば)\n・果物(くだもの)や小(ちい)さな野菜(やさい)の皮(かわ)むき、飾(かざ)り切(ぎ)り、細(こま)かい作業(さぎょう)に使(つか)う",
-      "・片刃(かたば)\n・魚(さかな)をおろし、野菜(やさい)などの軽(かる)い作業(さぎょう)にも使(つか)う"
+      "鋭(するど)い切付型(きりつけがた)の先端(せんたん)を持(も)つ長刃(ながば)で刺身(さしみ)を切(き)る",
+      "野菜(やさい)の飾(かざ)り切(ぎ)や細(こま)かな細工(さいく)を行(おこな)う",
+      "鋭(するど)い切付型(きりつけがた)の先端(せんたん)と直線的(ちょくせんてき)な刃(は)で精密(せいみつ)に切(き)る",
+      "軽量(けいりょう)な魚用包丁(さかなようぼうちょう)で、魚(さかな)をおろし、船上(せんじょう)の一般作業(いっぱんさぎょう)にも使(つか)う"
     ],
     "correct": 2,
-    "jpExplanation": "ペティナイフは小型(こがた)の両刃(りょうば)で、皮(かわ)むき、飾(かざ)り切(ぎ)り、細(こま)かな下処理(したしょり)に向(む)きます。",
-    "enExplanation": "The petty is a small double-bevel knife suited to peeling, decorative cuts and detailed preparation."
+    "jpExplanation": "鋭角な先端と直線的な刃形を持つ牛刀です。",
+    "enExplanation": "An angular gyuto with an acute tip and straighter profile for precise cutting."
   },
   {
     "id": "page47-49-forms-q04",
@@ -62,18 +62,18 @@
     "page": "47–49",
     "type": "knife-form",
     "difficulty": 1,
-    "image": "assets/knife_1.svg#knife-4",
-    "imageAlt": "番号4の包丁全体がオレンジ色で示されている",
-    "question": "菜切包丁(なきりぼうちょう) / Nakiri / Vegetable knife",
+    "image": "assets/knife_real.svg#knife-4",
+    "imageAlt": "番号4の包丁全体と番号がオレンジ色で示されている",
+    "question": "三徳包丁(さんとくぼうちょう) / Santoku",
     "answers": [
-      "・片刃(かたば)\n・刺身(さしみ)や寿司(すし)の魚(さかな)を引(ひ)き切(ぎ)りする",
-      "・基本(きほん)は片刃(かたば)\n・魚(さかな)をおろし、軽(かる)い一般作業(いっぱんさぎょう)にも使(つか)う",
-      "・両刃(りょうば)\n・肉(にく)の筋(すじ)を取(と)り、薄(うす)く切(き)る",
-      "・両刃(りょうば)\n・野菜(やさい)の切(き)り分(わ)けや刻(きざ)みに使(つか)う"
+      "厚(あつ)く重(おも)い刃(は)で魚(さかな)をおろし、頭(あたま)や骨(ほね)を切(き)る",
+      "野菜(やさい)の薄切(うすぎ)り、桂剥(かつらむ)き、飾(かざ)り切(ぎ)りを精密(せいみつ)に行(おこな)う",
+      "重(おも)い刃(は)で鱧(はも)の細(こま)かい骨(ほね)を皮(かわ)を切(き)らずに細(こま)かく切(き)る",
+      "肉(にく)、魚(さかな)、野菜(やさい)を家庭(かてい)で幅広(はばひろ)く切(き)る"
     ],
     "correct": 3,
-    "jpExplanation": "菜切包丁(なきりぼうちょう)は両刃(りょうば)で、平(たい)らな刃先(はさき)を使(つか)って野菜(やさい)を切(き)り、刻(きざ)みます。",
-    "enExplanation": "The nakiri is a double-bevel vegetable knife designed for cutting and chopping vegetables."
+    "jpExplanation": "日本の家庭で広く使われる万能包丁です。",
+    "enExplanation": "A versatile all-purpose knife commonly used in Japanese households."
   },
   {
     "id": "page47-49-forms-q05",
@@ -81,18 +81,18 @@
     "page": "47–49",
     "type": "knife-form",
     "difficulty": 1,
-    "image": "assets/knife_1.svg#knife-5",
-    "imageAlt": "番号5の包丁全体がオレンジ色で示されている",
-    "question": "筋引包丁(すじひきぼうちょう) / Sujihiki / Slicing knife",
+    "image": "assets/knife_real.svg#knife-5",
+    "imageAlt": "番号5の包丁全体と番号がオレンジ色で示されている",
+    "question": "和三徳(わさんとく) / Wa-Santoku",
     "answers": [
-      "・両刃(りょうば)\n・肉(にく)の筋(すじ)を取(と)り、肉(にく)を薄(うす)く切(き)る",
-      "・片刃(かたば)\n・野菜(やさい)の皮(かわ)むき、薄切(うすぎ)り、飾(かざ)り切(ぎ)りに使(つか)う",
-      "・片刃(かたば)\n・魚(さかな)をおろし、頭(あたま)や骨(ほね)を切(き)る",
-      "・両刃(りょうば)\n・野菜(やさい)の切(き)り分(わ)けや刻(きざ)みに使(つか)う"
+      "三徳包丁(さんとくぼうちょう)の用途(ようと)を、和包丁型(わぼうちょうがた)の柄(え)で扱(あつか)う",
+      "出刃(でば)より細身(ほそみ)で軽(かる)い刃(は)を使(つか)い、魚(さかな)をおろす",
+      "幅広(はばひろ)い刃(は)で野菜(やさい)を切(き)り分(わ)け、刻(きざ)む",
+      "ふぐをおろし、骨(ほね)を処理(しょり)する"
     ],
     "correct": 0,
-    "jpExplanation": "筋引包丁(すじひきぼうちょう)は細長(ほそなが)い両刃(りょうば)で、肉(にく)の筋(すじ)を除(のぞ)き、塊肉(かたまりにく)を薄(うす)く切(き)るのに使(つか)います。",
-    "enExplanation": "The sujihiki is a long double-bevel knife for trimming sinew and slicing meat thinly."
+    "jpExplanation": "三徳包丁に伝統的な和包丁型の柄を組み合わせた包丁です。",
+    "enExplanation": "A santoku with a traditional Japanese-style handle."
   },
   {
     "id": "page47-49-forms-q06",
@@ -100,18 +100,18 @@
     "page": "47–49",
     "type": "knife-form",
     "difficulty": 1,
-    "image": "assets/knife_1.svg#knife-6",
-    "imageAlt": "番号6の包丁全体がオレンジ色で示されている",
-    "question": "蛸引包丁(たこひきぼうちょう) / Takobiki / Sashimi knife",
+    "image": "assets/knife_real.svg#knife-6",
+    "imageAlt": "番号6の包丁全体と番号がオレンジ色で示されている",
+    "question": "柳刃包丁(やなぎばぼうちょう) / Yanagiba",
     "answers": [
-      "・両刃(りょうば)\n・果物(くだもの)や小(ちい)さな野菜(やさい)の細(こま)かい作業(さぎょう)に使(つか)う",
-      "・片刃(かたば)\n・刺身(さしみ)を長(なが)く、きれいに引(ひ)き切(ぎ)りする",
-      "・両刃(りょうば)\n・肉(にく)、魚(さかな)、野菜(やさい)を幅広(はばひろ)く調理(ちょうり)する",
-      "・一般(いっぱん)に片刃(かたば)\n・蕎麦(そば)や麺(めん)の生地(きじ)を均一(きんいつ)に切(き)る"
+      "出刃(でば)と柳刃(やなぎば)の中間的(ちゅうかんてき)な形(かたち)で、魚(さかな)をおろし、身(み)を切(き)る",
+      "長(なが)く薄(うす)い刃(は)で刺身(さしみ)を一方向(いちほうこう)に引(ひ)き切(ぎ)りする",
+      "寿司(すし)などに添(そ)える飾(かざ)りバランを細(こま)かく切(き)る",
+      "薄(うす)い長刃(ながば)で、ふぐを透(す)けるほど薄(うす)く切(き)る"
     ],
     "correct": 1,
-    "jpExplanation": "蛸引包丁(たこひきぼうちょう)は片刃(かたば)で、長(なが)く四角(しかく)い刃(は)を使(つか)って刺身(さしみ)を一方向(いちほうこう)に引(ひ)き切(ぎ)りします。",
-    "enExplanation": "The takobiki is a single-bevel sashimi knife used for long, clean draw cuts."
+    "jpExplanation": "長い刃で刺身を滑らかに引き切りします。",
+    "enExplanation": "A long, thin knife for clean, precise slices of sashimi."
   },
   {
     "id": "page47-49-forms-q07",
@@ -119,18 +119,18 @@
     "page": "47–49",
     "type": "knife-form",
     "difficulty": 1,
-    "image": "assets/knife_1.svg#knife-7",
-    "imageAlt": "番号7の包丁全体がオレンジ色で示されている",
-    "question": "柳刃包丁(やなぎばぼうちょう) / Yanagiba / Sashimi knife",
+    "image": "assets/knife_real.svg#knife-7",
+    "imageAlt": "番号7の包丁全体と番号がオレンジ色で示されている",
+    "question": "蛸引包丁(たこひきぼうちょう) / Takohiki",
     "answers": [
-      "・両刃(りょうば)\n・肉(にく)の筋(すじ)を取(と)り、薄(うす)く切(き)る",
-      "・片刃(かたば)\n・野菜(やさい)の薄切(うすぎ)りや桂剥(かつらむ)きに使(つか)う",
-      "・片刃(かたば)\n・刺身(さしみ)や寿司(すし)の魚(さかな)をきれいに引(ひ)き切(ぎ)りする",
-      "・基本(きほん)は両刃(りょうば)\n・鶏(とり)などの骨(ほね)や関節(かんせつ)から肉(にく)を外(はず)す"
+      "野菜(やさい)の飾(かざ)り切(ぎ)りや細工(さいく)を精密(せいみつ)に行(おこな)う",
+      "大(おお)きく重(おも)い刃(は)を垂直(すいちょく)に下(お)ろし、蕎麦(そば)を均一(きんいつ)な幅(はば)に切(き)る",
+      "角形(かくがた)の刃先(はさき)で刺身(さしみ)を引(ひ)き切(ぎ)りする",
+      "鋭(するど)い角形(かくがた)の先端(せんたん)で鰻(うなぎ)を開(ひら)き、下処理(したしょり)する"
     ],
     "correct": 2,
-    "jpExplanation": "柳刃包丁(やなぎばぼうちょう)は片刃(かたば)で、長(なが)い刃(は)を一方向(いちほうこう)へ引(ひ)き、刺身(さしみ)の断面(だんめん)を美(うつく)しく仕上(しあ)げます。",
-    "enExplanation": "The yanagiba is a long single-bevel knife for clean draw-cutting sashimi and sushi fish."
+    "jpExplanation": "東京・関東に結び付く角形の刺身包丁です。",
+    "enExplanation": "A yanagiba variant for slicing sashimi, traditionally associated with Tokyo and the Kanto region."
   },
   {
     "id": "page47-49-forms-q08",
@@ -138,18 +138,18 @@
     "page": "47–49",
     "type": "knife-form",
     "difficulty": 1,
-    "image": "assets/knife_1.svg#knife-8",
-    "imageAlt": "番号8の包丁全体がオレンジ色で示されている",
-    "question": "ふぐ引包丁(ふぐひきぼうちょう) / Fuguhiki / Fugu-slicing knife",
+    "image": "assets/knife_real.svg#knife-8",
+    "imageAlt": "番号8の包丁全体と番号がオレンジ色で示されている",
+    "question": "切付柳刃(きりつけやなぎば) / Kiritsuke Yanagiba",
     "answers": [
-      "・両刃(りょうば)\n・野菜(やさい)の切(き)り分(わ)けや刻(きざ)みに使(つか)う",
-      "・片刃(かたば)\n・魚(さかな)をおろし、頭(あたま)や骨(ほね)を切(き)る",
-      "・両刃(りょうば)\n・肉(にく)、魚(さかな)、野菜(やさい)を切(き)り、刻(きざ)み、潰(つぶ)す",
-      "・片刃(かたば)\n・ふぐなどを非常(ひじょう)に薄(うす)く切(き)る"
+      "鯵(あじ)などの小魚(こざかな)をおろし、下処理(したしょり)する",
+      "丸(まる)い先端(せんたん)を持(も)つ長刃(ながば)で刺身(さしみ)を引(ひ)き切(ぎ)りする",
+      "肉(にく)の筋(すじ)を取(と)り、長(なが)い刃(は)で肉(にく)を薄(うす)く切(き)る",
+      "鋭(するど)い切付型(きりつけがた)の先端(せんたん)を持(も)つ長刃(ながば)で刺身(さしみ)を切(き)る"
     ],
     "correct": 3,
-    "jpExplanation": "ふぐ引包丁(ふぐひきぼうちょう)は柳刃(やなぎば)より細(ほそ)く薄(うす)い片刃(かたば)で、ふぐなどを透(す)けるほど薄(うす)く切(き)ります。",
-    "enExplanation": "The fuguhiki is a thin single-bevel knife for exceptionally thin slices, especially fugu."
+    "jpExplanation": "柳刃に鋭い切付型の先端を組み合わせた刺身包丁です。",
+    "enExplanation": "A yanagiba variant with an acute kiritsuke-style tip."
   },
   {
     "id": "page47-49-forms-q09",
@@ -157,18 +157,18 @@
     "page": "47–49",
     "type": "knife-form",
     "difficulty": 1,
-    "image": "assets/knife_1.svg#knife-9",
-    "imageAlt": "番号9の包丁全体がオレンジ色で示されている",
-    "question": "鎌形薄刃包丁(かまがたうすばぼうちょう) / Kamagata usuba / Vegetable knife",
+    "image": "assets/knife_real.svg#knife-9",
+    "imageAlt": "番号9の包丁全体と番号がオレンジ色で示されている",
+    "question": "出刃包丁(でばぼうちょう) / Deba",
     "answers": [
-      "・片刃(かたば)\n・野菜(やさい)の皮(かわ)むき、薄切(うすぎ)り、飾(かざ)り切(ぎ)りに使(つか)う",
-      "・両刃(りょうば)\n・肉(にく)、魚(さかな)、野菜(やさい)を幅広(はばひろ)く調理(ちょうり)する",
-      "・片刃(かたば)\n・刺身(さしみ)を長(なが)く引(ひ)き切(ぎ)りする",
-      "・基本(きほん)は片刃(かたば)\n・魚(さかな)をおろし、軽(かる)い一般作業(いっぱんさぎょう)にも使(つか)う"
+      "厚(あつ)く重(おも)い刃(は)で魚(さかな)をおろし、頭(あたま)や骨(ほね)を切(き)る",
+      "野菜(やさい)の飾(かざ)り切(ぎ)や細(こま)かな細工(さいく)を行(おこな)う",
+      "軽量(けいりょう)な魚用包丁(さかなようぼうちょう)で、魚(さかな)をおろし、船上(せんじょう)の一般作業(いっぱんさぎょう)にも使(つか)う",
+      "肉(にく)、魚(さかな)、野菜(やさい)など、幅広(はばひろ)い調理作業(ちょうりさぎょう)に使(つか)う"
     ],
     "correct": 0,
-    "jpExplanation": "鎌形薄刃包丁(かまがたうすばぼうちょう)は片刃(かたば)で、先端(せんたん)の曲線(きょくせん)も使(つか)いながら野菜(やさい)を精密(せいみつ)に切(き)ります。",
-    "enExplanation": "The kamagata usuba is a single-bevel vegetable knife for precise peeling, thin slicing and decorative work."
+    "jpExplanation": "魚をおろし、魚の骨を切るための厚く重い包丁です。",
+    "enExplanation": "A thick, heavy knife for breaking down fish and cutting through fish bones."
   },
   {
     "id": "page47-49-forms-q10",
@@ -176,18 +176,18 @@
     "page": "47–49",
     "type": "knife-form",
     "difficulty": 1,
-    "image": "assets/knife_1.svg#knife-10",
-    "imageAlt": "番号10の包丁全体がオレンジ色で示されている",
-    "question": "薄刃包丁(うすばぼうちょう)・関東型(かんとうがた)／角型(かくがた) / Usuba / Kanto-style vegetable knife",
+    "image": "assets/knife_real.svg#knife-10",
+    "imageAlt": "番号10の包丁全体と番号がオレンジ色で示されている",
+    "question": "相出刃(あいでば) / Ai-Deba",
     "answers": [
-      "・両刃(りょうば)\n・肉(にく)、魚(さかな)、野菜(やさい)の切(き)り分(わ)けや刻(きざ)みに使(つか)う",
-      "・片刃(かたば)\n・野菜(やさい)の薄切(うすぎ)り、桂剥(かつらむ)き、飾(かざ)り切(ぎ)りに使(つか)う",
-      "・基本(きほん)は両刃(りょうば)\n・鶏(とり)などの骨(ほね)や関節(かんせつ)から肉(にく)を外(はず)す",
-      "・両刃(りょうば)\n・果物(くだもの)や小(ちい)さな野菜(やさい)の細(こま)かい作業(さぎょう)に使(つか)う"
+      "野菜(やさい)の薄切(うすぎ)り、桂剥(かつらむ)き、飾(かざ)り切(ぎ)りを精密(せいみつ)に行(おこな)う",
+      "出刃(でば)より細身(ほそみ)で軽(かる)い刃(は)を使(つか)い、魚(さかな)をおろす",
+      "重(おも)い刃(は)で鱧(はも)の細(こま)かい骨(ほね)を皮(かわ)を切(き)らずに細(こま)かく切(き)る",
+      "牛刀(ぎゅうとう)の用途(ようと)を、和包丁型(わぼうちょうがた)の柄(え)で扱(あつか)う"
     ],
     "correct": 1,
-    "jpExplanation": "関東型(かんとうがた)の薄刃包丁(うすばぼうちょう)は角形(かくがた)の片刃(かたば)で、桂剥(かつらむ)きや飾(かざ)り切(ぎ)などの精密(せいみつ)な野菜仕事(やさいしごと)に使(つか)います。",
-    "enExplanation": "The square Kanto-style usuba is a single-bevel knife for precise vegetable work such as katsuramuki and decorative cutting."
+    "jpExplanation": "出刃より細く軽いため、扱いやすい魚用包丁です。",
+    "enExplanation": "A narrower, thinner version of the deba that is lighter and easier to handle."
   },
   {
     "id": "page47-49-forms-q11",
@@ -195,18 +195,18 @@
     "page": "47–49",
     "type": "knife-form",
     "difficulty": 1,
-    "image": "assets/knife_1.svg#knife-11",
-    "imageAlt": "番号11の包丁全体がオレンジ色で示されている",
-    "question": "骨すき包丁(ほねすきぼうちょう) / Honesuki / Boning knife",
+    "image": "assets/knife_real.svg#knife-11",
+    "imageAlt": "番号11の包丁全体と番号がオレンジ色で示されている",
+    "question": "身卸包丁(みおろしぼうちょう) / Mioroshi",
     "answers": [
-      "・一般(いっぱん)に片刃(かたば)\n・蕎麦(そば)や麺(めん)の生地(きじ)を均一(きんいつ)に切(き)る",
-      "・片刃(かたば)\n・ふぐなどを非常(ひじょう)に薄(うす)く切(き)る",
-      "・基本(きほん)は両刃(りょうば)\n・鶏(とり)などの骨(ほね)や関節(かんせつ)から肉(にく)を外(はず)す",
-      "・片刃(かたば)\n・野菜(やさい)の薄切(うすぎ)りや桂剥(かつらむ)きに使(つか)う"
+      "幅広(はばひろ)い刃(は)で野菜(やさい)を切(き)り分(わ)け、刻(きざ)む",
+      "ふぐをおろし、骨(ほね)を処理(しょり)する",
+      "出刃(でば)と柳刃(やなぎば)の中間的(ちゅうかんてき)な形(かたち)で、魚(さかな)をおろし、身(み)を切(き)る",
+      "鋭(するど)い切付型(きりつけがた)の先端(せんたん)と直線的(ちょくせんてき)な刃(は)で精密(せいみつ)に切(き)る"
     ],
     "correct": 2,
-    "jpExplanation": "骨すき包丁(ほねすきぼうちょう)は基本的(きほんてき)に両刃(りょうば)で、尖(とが)った刃先(はさき)を関節(かんせつ)へ入(い)れ、鶏(とり)などの肉(にく)を骨(ほね)から外(はず)します。",
-    "enExplanation": "The honesuki is generally double-bevel and designed to separate poultry meat from bones and joints."
+    "jpExplanation": "魚をおろす作業と切り分けの両方に使う中間的な包丁です。",
+    "enExplanation": "A hybrid between deba and yanagiba for breaking down and slicing fish."
   },
   {
     "id": "page47-49-forms-q12",
@@ -214,18 +214,18 @@
     "page": "47–49",
     "type": "knife-form",
     "difficulty": 1,
-    "image": "assets/knife_1.svg#knife-12",
-    "imageAlt": "番号12の包丁全体がオレンジ色で示されている",
-    "question": "出刃包丁(でばぼうちょう) / Deba / Fish-butchery knife",
+    "image": "assets/knife_real.svg#knife-12",
+    "imageAlt": "番号12の包丁全体と番号がオレンジ色で示されている",
+    "question": "むきもの包丁(むきものぼうちょう) / Mukimono",
     "answers": [
-      "・両刃(りょうば)\n・肉(にく)の筋(すじ)を取(と)り、薄(うす)く切(き)る",
-      "・両刃(りょうば)\n・野菜(やさい)の切(き)り分(わ)けや刻(きざ)みに使(つか)う",
-      "・片刃(かたば)\n・刺身(さしみ)や寿司(すし)の魚(さかな)を引(ひ)き切(ぎ)りする",
-      "・片刃(かたば)\n・魚(さかな)をおろし、頭(あたま)を落(お)とし、骨(ほね)を切(き)る"
+      "寿司(すし)などに添(そ)える飾(かざ)りバランを細(こま)かく切(き)る",
+      "薄(うす)い長刃(ながば)で、ふぐを透(す)けるほど薄(うす)く切(き)る",
+      "肉(にく)、魚(さかな)、野菜(やさい)を家庭(かてい)で幅広(はばひろ)く切(き)る",
+      "野菜(やさい)の飾(かざ)り切(ぎ)りや細工(さいく)を精密(せいみつ)に行(おこな)う"
     ],
     "correct": 3,
-    "jpExplanation": "出刃包丁(でばぼうちょう)は厚(あつ)く重(おも)い片刃(かたば)で、魚(さかな)をおろし、頭(あたま)や骨(ほね)を処理(しょり)します。",
-    "enExplanation": "The deba is a thick, heavy single-bevel knife for breaking down fish, including heads and bones."
+    "jpExplanation": "野菜の飾り切りや精密な細工に使う小型の薄い包丁です。",
+    "enExplanation": "A small, thin knife for garnishing and decorative vegetable work."
   },
   {
     "id": "page47-49-forms-q13",
@@ -233,18 +233,18 @@
     "page": "47–49",
     "type": "knife-form",
     "difficulty": 1,
-    "image": "assets/knife_1.svg#knife-13",
-    "imageAlt": "番号13の包丁全体がオレンジ色で示されている",
-    "question": "舟行包丁(ふなゆきぼうちょう) / Funayuki / Multipurpose fish knife",
+    "image": "assets/knife_real.svg#knife-13",
+    "imageAlt": "番号13の包丁全体と番号がオレンジ色で示されている",
+    "question": "鯵切包丁(あじきりぼうちょう) / Aji-kiri",
     "answers": [
-      "・基本(きほん)は片刃(かたば)\n・魚(さかな)をおろし、野菜(やさい)などの軽(かる)い一般作業(いっぱんさぎょう)にも使(つか)う",
-      "・片刃(かたば)\n・野菜(やさい)の皮(かわ)むき、薄切(うすぎ)り、飾(かざ)り切(ぎ)りに使(つか)う",
-      "・両刃(りょうば)\n・肉(にく)、魚(さかな)、野菜(やさい)を切(き)り、刻(きざ)み、潰(つぶ)す",
-      "・片刃(かたば)\n・ふぐなどを非常(ひじょう)に薄(うす)く切(き)る"
+      "鯵(あじ)などの小魚(こざかな)をおろし、下処理(したしょり)する",
+      "大(おお)きく重(おも)い刃(は)を垂直(すいちょく)に下(お)ろし、蕎麦(そば)を均一(きんいつ)な幅(はば)に切(き)る",
+      "鋭(するど)い角形(かくがた)の先端(せんたん)で鰻(うなぎ)を開(ひら)き、下処理(したしょり)する",
+      "三徳包丁(さんとくぼうちょう)の用途(ようと)を、和包丁型(わぼうちょうがた)の柄(え)で扱(あつか)う"
     ],
     "correct": 0,
-    "jpExplanation": "舟行包丁(ふなゆきぼうちょう)は出刃(でば)より薄(うす)く軽(かる)く、基本(きほん)は片刃(かたば)で、魚(さかな)を中心(ちゅうしん)に軽(かる)い一般調理(いっぱんちょうり)にも使(つか)います。",
-    "enExplanation": "The funayuki is generally single-bevel, lighter than a deba, and useful for fish preparation and lighter general work."
+    "jpExplanation": "小魚をおろすための小型の出刃です。",
+    "enExplanation": "A smaller version of the deba for preparing small fish."
   },
   {
     "id": "page47-49-forms-q14",
@@ -252,18 +252,18 @@
     "page": "47–49",
     "type": "knife-form",
     "difficulty": 1,
-    "image": "assets/knife_1.svg#knife-14",
-    "imageAlt": "番号14の包丁全体がオレンジ色で示されている",
-    "question": "中華包丁(ちゅうかぼうちょう) / Chinese cleaver",
+    "image": "assets/knife_real.svg#knife-14",
+    "imageAlt": "番号14の包丁全体と番号がオレンジ色で示されている",
+    "question": "剣むき(けんむき) / Kenmuki",
     "answers": [
-      "・片刃(かたば)\n・刺身(さしみ)を長(なが)く、きれいに引(ひ)き切(ぎ)りする",
-      "・両刃(りょうば)\n・肉(にく)、魚(さかな)、野菜(やさい)を切(き)り、刻(きざ)み、潰(つぶ)す",
-      "・基本(きほん)は両刃(りょうば)\n・鶏(とり)などの骨(ほね)や関節(かんせつ)から肉(にく)を外(はず)す",
-      "・両刃(りょうば)\n・果物(くだもの)や小(ちい)さな野菜(やさい)の細(こま)かい作業(さぎょう)に使(つか)う"
+      "丸(まる)い先端(せんたん)を持(も)つ長刃(ながば)で刺身(さしみ)を引(ひ)き切(ぎ)りする",
+      "野菜(やさい)の飾(かざ)り切(ぎ)や細(こま)かな細工(さいく)を行(おこな)う",
+      "肉(にく)の筋(すじ)を取(と)り、長(なが)い刃(は)で肉(にく)を薄(うす)く切(き)る",
+      "長(なが)く薄(うす)い刃(は)で刺身(さしみ)を一方向(いちほうこう)に引(ひ)き切(ぎ)りする"
     ],
     "correct": 1,
-    "jpExplanation": "中華包丁(ちゅうかぼうちょう)は両刃(りょうば)で、広(ひろ)い刃(は)を使(つか)って肉(にく)、魚(さかな)、野菜(やさい)を切(き)り、刻(きざ)み、潰(つぶ)します。",
-    "enExplanation": "The Chinese cleaver is double-bevel and uses its broad blade for slicing, chopping, mincing and crushing."
+    "jpExplanation": "野菜の飾り切りや細かな細工に適した小型包丁です。",
+    "enExplanation": "A small knife for preparing garnishes and detailed decorative work."
   },
   {
     "id": "page47-49-forms-q15",
@@ -271,17 +271,207 @@
     "page": "47–49",
     "type": "knife-form",
     "difficulty": 1,
-    "image": "assets/knife_1.svg#knife-15",
-    "imageAlt": "番号15の包丁全体がオレンジ色で示されている",
-    "question": "蕎麦切り包丁(そばきりぼうちょう)／麺切り包丁(めんきりぼうちょう) / Soba knife / Noodle-cutting knife",
+    "image": "assets/knife_real.svg#knife-15",
+    "imageAlt": "番号15の包丁全体と番号がオレンジ色で示されている",
+    "question": "薄刃包丁(うすばぼうちょう) / Usuba",
     "answers": [
-      "・片刃(かたば)\n・魚(さかな)をおろし、頭(あたま)や骨(ほね)を切(き)る",
-      "・両刃(りょうば)\n・肉(にく)、魚(さかな)、野菜(やさい)を幅広(はばひろ)く調理(ちょうり)する",
-      "・一般(いっぱん)に片刃(かたば)\n・蕎麦(そば)や麺(めん)の生地(きじ)を均一(きんいつ)な幅(はば)に切(き)る",
-      "・両刃(りょうば)\n・肉(にく)の筋(すじ)を取(と)り、薄(うす)く切(き)る"
+      "軽量(けいりょう)な魚用包丁(さかなようぼうちょう)で、魚(さかな)をおろし、船上(せんじょう)の一般作業(いっぱんさぎょう)にも使(つか)う",
+      "肉(にく)、魚(さかな)、野菜(やさい)など、幅広(はばひろ)い調理作業(ちょうりさぎょう)に使(つか)う",
+      "野菜(やさい)の薄切(うすぎ)り、桂剥(かつらむ)き、飾(かざ)り切(ぎ)りを精密(せいみつ)に行(おこな)う",
+      "角形(かくがた)の刃先(はさき)で刺身(さしみ)を引(ひ)き切(ぎ)りする"
     ],
     "correct": 2,
-    "jpExplanation": "蕎麦切り包丁(そばきりぼうちょう)・麺切り包丁(めんきりぼうちょう)は一般(いっぱん)に片刃(かたば)で、大(おお)きな刃(は)を垂直(すいちょく)に下(お)ろして生地(きじ)を揃(そろ)った幅(はば)に切(き)ります。",
-    "enExplanation": "Soba and noodle-cutting knives are generally single-bevel and cut folded dough into even-width noodles."
+    "jpExplanation": "精密な野菜仕事に使う薄い片刃の包丁です。",
+    "enExplanation": "A thin vegetable knife for precise slicing, katsuramuki, and decorative cutting."
+  },
+  {
+    "id": "page47-49-forms-q16",
+    "chapter": "包丁の形と種類",
+    "page": "47–49",
+    "type": "knife-form",
+    "difficulty": 1,
+    "image": "assets/knife_real.svg#knife-16",
+    "imageAlt": "番号16の包丁全体と番号がオレンジ色で示されている",
+    "question": "菜切包丁(なきりぼうちょう) / Nakiri",
+    "answers": [
+      "重(おも)い刃(は)で鱧(はも)の細(こま)かい骨(ほね)を皮(かわ)を切(き)らずに細(こま)かく切(き)る",
+      "牛刀(ぎゅうとう)の用途(ようと)を、和包丁型(わぼうちょうがた)の柄(え)で扱(あつか)う",
+      "鋭(するど)い切付型(きりつけがた)の先端(せんたん)を持(も)つ長刃(ながば)で刺身(さしみ)を切(き)る",
+      "幅広(はばひろ)い刃(は)で野菜(やさい)を切(き)り分(わ)け、刻(きざ)む"
+    ],
+    "correct": 3,
+    "jpExplanation": "野菜の切り分けや刻みに使う幅広の包丁です。",
+    "enExplanation": "A broad-bladed knife for slicing and chopping vegetables."
+  },
+  {
+    "id": "page47-49-forms-q17",
+    "chapter": "包丁の形と種類",
+    "page": "47–49",
+    "type": "knife-form",
+    "difficulty": 1,
+    "image": "assets/knife_real.svg#knife-17",
+    "imageAlt": "番号17の包丁全体と番号がオレンジ色で示されている",
+    "question": "バラン切り(ばらんきり) / Baran-kiri",
+    "answers": [
+      "寿司(すし)などに添(そ)える飾(かざ)りバランを細(こま)かく切(き)る",
+      "ふぐをおろし、骨(ほね)を処理(しょり)する",
+      "鋭(するど)い切付型(きりつけがた)の先端(せんたん)と直線的(ちょくせんてき)な刃(は)で精密(せいみつ)に切(き)る",
+      "厚(あつ)く重(おも)い刃(は)で魚(さかな)をおろし、頭(あたま)や骨(ほね)を切(き)る"
+    ],
+    "correct": 0,
+    "jpExplanation": "飾りバランを切るための小型の専門包丁です。",
+    "enExplanation": "A small knife for cutting decorative baran used with sushi and other dishes."
+  },
+  {
+    "id": "page47-49-forms-q18",
+    "chapter": "包丁の形と種類",
+    "page": "47–49",
+    "type": "knife-form",
+    "difficulty": 1,
+    "image": "assets/knife_real.svg#knife-18",
+    "imageAlt": "番号18の包丁全体と番号がオレンジ色で示されている",
+    "question": "蕎麦切包丁(そばきりぼうちょう) / Soba-kiri / Soba knife",
+    "answers": [
+      "薄(うす)い長刃(ながば)で、ふぐを透(す)けるほど薄(うす)く切(き)る",
+      "大(おお)きく重(おも)い刃(は)を垂直(すいちょく)に下(お)ろし、蕎麦(そば)を均一(きんいつ)な幅(はば)に切(き)る",
+      "肉(にく)、魚(さかな)、野菜(やさい)を家庭(かてい)で幅広(はばひろ)く切(き)る",
+      "出刃(でば)より細身(ほそみ)で軽(かる)い刃(は)を使(つか)い、魚(さかな)をおろす"
+    ],
+    "correct": 1,
+    "jpExplanation": "打ちたての蕎麦を均一な幅に切る大型の包丁です。",
+    "enExplanation": "A large, heavy knife for cutting freshly made soba noodles evenly."
+  },
+  {
+    "id": "page47-49-forms-q19",
+    "chapter": "包丁の形と種類",
+    "page": "47–49",
+    "type": "knife-form",
+    "difficulty": 1,
+    "image": "assets/knife_real.svg#knife-19",
+    "imageAlt": "番号19の包丁全体と番号がオレンジ色で示されている",
+    "question": "先丸蛸引(さきまるたこひき) / Sakimaru Takohiki",
+    "answers": [
+      "鋭(するど)い角形(かくがた)の先端(せんたん)で鰻(うなぎ)を開(ひら)き、下処理(したしょり)する",
+      "三徳包丁(さんとくぼうちょう)の用途(ようと)を、和包丁型(わぼうちょうがた)の柄(え)で扱(あつか)う",
+      "丸(まる)い先端(せんたん)を持(も)つ長刃(ながば)で刺身(さしみ)を引(ひ)き切(ぎ)りする",
+      "出刃(でば)と柳刃(やなぎば)の中間的(ちゅうかんてき)な形(かたち)で、魚(さかな)をおろし、身(み)を切(き)る"
+    ],
+    "correct": 2,
+    "jpExplanation": "丸い先端が特徴の蛸引・柳刃系の刺身包丁です。",
+    "enExplanation": "A takohiki or yanagiba variant with a distinctive rounded tip for slicing sashimi."
+  },
+  {
+    "id": "page47-49-forms-q20",
+    "chapter": "包丁の形と種類",
+    "page": "47–49",
+    "type": "knife-form",
+    "difficulty": 1,
+    "image": "assets/knife_real.svg#knife-20",
+    "imageAlt": "番号20の包丁全体と番号がオレンジ色で示されている",
+    "question": "舟行包丁(ふなゆきぼうちょう) / Funayuki",
+    "answers": [
+      "肉(にく)の筋(すじ)を取(と)り、長(なが)い刃(は)で肉(にく)を薄(うす)く切(き)る",
+      "長(なが)く薄(うす)い刃(は)で刺身(さしみ)を一方向(いちほうこう)に引(ひ)き切(ぎ)りする",
+      "野菜(やさい)の飾(かざ)り切(ぎ)りや細工(さいく)を精密(せいみつ)に行(おこな)う",
+      "軽量(けいりょう)な魚用包丁(さかなようぼうちょう)で、魚(さかな)をおろし、船上(せんじょう)の一般作業(いっぱんさぎょう)にも使(つか)う"
+    ],
+    "correct": 3,
+    "jpExplanation": "漁師が船上で使ってきた軽量な多目的魚用包丁です。",
+    "enExplanation": "A relatively light multipurpose fish knife traditionally used by fishermen aboard boats."
+  },
+  {
+    "id": "page47-49-forms-q21",
+    "chapter": "包丁の形と種類",
+    "page": "47–49",
+    "type": "knife-form",
+    "difficulty": 1,
+    "image": "assets/knife_real.svg#knife-21",
+    "imageAlt": "番号21の包丁全体と番号がオレンジ色で示されている",
+    "question": "骨切包丁(ほねきりぼうちょう) / Hamo Honekiri",
+    "answers": [
+      "重(おも)い刃(は)で鱧(はも)の細(こま)かい骨(ほね)を皮(かわ)を切(き)らずに細(こま)かく切(き)る",
+      "肉(にく)、魚(さかな)、野菜(やさい)など、幅広(はばひろ)い調理作業(ちょうりさぎょう)に使(つか)う",
+      "角形(かくがた)の刃先(はさき)で刺身(さしみ)を引(ひ)き切(ぎ)りする",
+      "鯵(あじ)などの小魚(こざかな)をおろし、下処理(したしょり)する"
+    ],
+    "correct": 0,
+    "jpExplanation": "鱧の多数の細骨を細かく切るための重い包丁です。",
+    "enExplanation": "A heavy knife for cutting through the many fine bones of hamo without cutting through the skin."
+  },
+  {
+    "id": "page47-49-forms-q22",
+    "chapter": "包丁の形と種類",
+    "page": "47–49",
+    "type": "knife-form",
+    "difficulty": 1,
+    "image": "assets/knife_real.svg#knife-22",
+    "imageAlt": "番号22の包丁全体と番号がオレンジ色で示されている",
+    "question": "ふぐ出刃(ふぐでば) / Fugu Deba",
+    "answers": [
+      "牛刀(ぎゅうとう)の用途(ようと)を、和包丁型(わぼうちょうがた)の柄(え)で扱(あつか)う",
+      "ふぐをおろし、骨(ほね)を処理(しょり)する",
+      "鋭(するど)い切付型(きりつけがた)の先端(せんたん)を持(も)つ長刃(ながば)で刺身(さしみ)を切(き)る",
+      "野菜(やさい)の飾(かざ)り切(ぎ)や細(こま)かな細工(さいく)を行(おこな)う"
+    ],
+    "correct": 1,
+    "jpExplanation": "ふぐをおろし、骨を扱うための専用出刃です。",
+    "enExplanation": "A specialised deba for breaking down fugu and working through its bones."
+  },
+  {
+    "id": "page47-49-forms-q23",
+    "chapter": "包丁の形と種類",
+    "page": "47–49",
+    "type": "knife-form",
+    "difficulty": 1,
+    "image": "assets/knife_real.svg#knife-23",
+    "imageAlt": "番号23の包丁全体と番号がオレンジ色で示されている",
+    "question": "ふぐ引(ふぐひき) / Fugu-hiki",
+    "answers": [
+      "鋭(するど)い切付型(きりつけがた)の先端(せんたん)と直線的(ちょくせんてき)な刃(は)で精密(せいみつ)に切(き)る",
+      "厚(あつ)く重(おも)い刃(は)で魚(さかな)をおろし、頭(あたま)や骨(ほね)を切(き)る",
+      "薄(うす)い長刃(ながば)で、ふぐを透(す)けるほど薄(うす)く切(き)る",
+      "野菜(やさい)の薄切(うすぎ)り、桂剥(かつらむ)き、飾(かざ)り切(ぎ)りを精密(せいみつ)に行(おこな)う"
+    ],
+    "correct": 2,
+    "jpExplanation": "ふぐの薄造りに使う薄い刺身包丁です。",
+    "enExplanation": "A thin slicing knife for making clean, extremely thin slices of fugu."
+  },
+  {
+    "id": "page47-49-forms-q24",
+    "chapter": "包丁の形と種類",
+    "page": "47–49",
+    "type": "knife-form",
+    "difficulty": 1,
+    "image": "assets/knife_real.svg#knife-24",
+    "imageAlt": "番号24の包丁全体と番号がオレンジ色で示されている",
+    "question": "鰻裂包丁(うなぎさきぼうちょう) / Unagi-saki",
+    "answers": [
+      "肉(にく)、魚(さかな)、野菜(やさい)を家庭(かてい)で幅広(はばひろ)く切(き)る",
+      "出刃(でば)より細身(ほそみ)で軽(かる)い刃(は)を使(つか)い、魚(さかな)をおろす",
+      "幅広(はばひろ)い刃(は)で野菜(やさい)を切(き)り分(わ)け、刻(きざ)む",
+      "鋭(するど)い角形(かくがた)の先端(せんたん)で鰻(うなぎ)を開(ひら)き、下処理(したしょり)する"
+    ],
+    "correct": 3,
+    "jpExplanation": "鰻を開いて下処理するための専用包丁です。",
+    "enExplanation": "A specialised angular knife with a sharp tip for splitting and preparing eel."
+  },
+  {
+    "id": "page47-49-forms-q25",
+    "chapter": "包丁の形と種類",
+    "page": "47–49",
+    "type": "knife-form",
+    "difficulty": 1,
+    "image": "assets/knife_real.svg#knife-25",
+    "imageAlt": "番号25の包丁全体と番号がオレンジ色で示されている",
+    "question": "筋引包丁(すじひきぼうちょう) / Sujihiki",
+    "answers": [
+      "肉(にく)の筋(すじ)を取(と)り、長(なが)い刃(は)で肉(にく)を薄(うす)く切(き)る",
+      "三徳包丁(さんとくぼうちょう)の用途(ようと)を、和包丁型(わぼうちょうがた)の柄(え)で扱(あつか)う",
+      "出刃(でば)と柳刃(やなぎば)の中間的(ちゅうかんてき)な形(かたち)で、魚(さかな)をおろし、身(み)を切(き)る",
+      "寿司(すし)などに添(そ)える飾(かざ)りバランを細(こま)かく切(き)る"
+    ],
+    "correct": 0,
+    "jpExplanation": "肉の筋を取り、肉を滑らかに薄切りする長い包丁です。",
+    "enExplanation": "A long slicing knife for trimming and cleanly slicing meat."
   }
 ]

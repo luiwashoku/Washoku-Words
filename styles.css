@@ -514,6 +514,10 @@ button:focus-visible {
   height: auto;
 }
 
+.questionVisual img[src*="knife_real.svg"] {
+  height: auto;
+}
+
 .questionVisual img[src*="knife_2.svg"] {
   height: auto;
 }
