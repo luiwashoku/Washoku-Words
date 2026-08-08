@@ -515,7 +515,10 @@ button:focus-visible {
 }
 
 .questionVisual img[src*="knife_real.svg"] {
+  width: calc(100% + 36px);
+  max-width: none;
   height: auto;
+  margin-left: -18px;
 }
 
 .questionVisual img[src*="knife_2.svg"] {
