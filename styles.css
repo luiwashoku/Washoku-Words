@@ -335,6 +335,32 @@ button:focus-visible {
 
 /* Quiz */
 
+.grammarDetails {
+  display: grid;
+  gap: 12px;
+  margin: 18px 0;
+  padding: 16px;
+  border: 2px solid var(--ink);
+  background: var(--canvas);
+}
+
+.grammarDetail h4,
+.grammarDetail p {
+  margin: 0;
+}
+
+.grammarDetail h4 {
+  margin-bottom: 3px;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.grammarDetail p {
+  white-space: pre-line;
+}
+
 .quizHeader {
   justify-content: space-between;
 }

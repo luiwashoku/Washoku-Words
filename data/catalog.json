@@ -847,6 +847,20 @@
   "questionCount": 20
 },
   {
+  "id": "golden-grammar",
+  "category": "conversation",
+  "page": "Grammar",
+  "sortOrder": 68,
+  "listLabel": "Grammar deck",
+  "title": "Golden Grammar",
+  "file": "data/golden-grammar.json",
+  "introduction": {
+    "ja": "文(ぶん)の空欄(くうらん)に入(はい)る自然(しぜん)な活用形(かつようけい)を選(えら)び、文脈(ぶんみゃく)の中(なか)で文法(ぶんぽう)を身(み)につけます。答(こた)えた後(あと)に、文法項目(ぶんぽうこうもく)、作(つく)り方(かた)、カジュアルな形(かたち)と例文(れいぶん)を確認(かくにん)します。",
+    "en": "Choose the conjugation that naturally completes each sentence. After answering, review the grammar point, its formation, and a casual form with an example."
+  },
+  "questionCount": 145
+},
+  {
   "id": "page64-65",
   "category": "conversation",
   "page": "64–65",

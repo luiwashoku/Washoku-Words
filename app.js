@@ -149,6 +149,18 @@
     elements.resultTitle =
       document.getElementById("resultTitle");
 
+    elements.grammarDetails =
+      document.getElementById("grammarDetails");
+
+    elements.grammarPoint =
+      document.getElementById("grammarPoint");
+
+    elements.grammarFormation =
+      document.getElementById("grammarFormation");
+
+    elements.grammarCasual =
+      document.getElementById("grammarCasual");
+
     elements.jpExplanation =
       document.getElementById(
         "jpExplanation"
@@ -453,12 +465,14 @@
       )
       .sort((a, b) => {
         const pageA =
+          Number(a.sortOrder) ||
           Number.parseInt(
             String(a.page),
             10
           ) || 0;
 
         const pageB =
+          Number(b.sortOrder) ||
           Number.parseInt(
             String(b.page),
             10
@@ -565,8 +579,9 @@
       button.innerHTML = `
         <span class="lesson-copy">
           <strong>
-            Page ${escapeHtml(
-              String(lesson.page ?? "")
+            ${escapeHtml(
+              lesson.listLabel ||
+              `Page ${lesson.page ?? ""}`
             )} ·
             ${escapeHtml(lesson.title)}
           </strong>
@@ -1448,6 +1463,26 @@
     elements.enExplanation.textContent =
       question.enExplanation ||
       "No English explanation yet.";
+
+    const hasGrammarDetails = Boolean(
+      question.grammarPoint &&
+      question.formation &&
+      question.casualForm
+    );
+
+    elements.grammarDetails.classList.toggle(
+      "hidden",
+      !hasGrammarDetails
+    );
+
+    if (hasGrammarDetails) {
+      elements.grammarPoint.textContent =
+        question.grammarPoint;
+      elements.grammarFormation.textContent =
+        question.formation;
+      elements.grammarCasual.textContent =
+        question.casualForm;
+    }
 
     elements.resultCard.classList.remove(
       "hidden"
