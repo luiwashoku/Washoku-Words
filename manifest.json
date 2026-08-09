@@ -1,0 +1,16 @@
+{
+  "name": "和食探究ノート",
+  "short_name": "和食ノート",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#3939FF",
+  "theme_color": "#3939FF",
+  "icons": [
+    {
+      "src": "assets/appicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
