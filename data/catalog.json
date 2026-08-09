@@ -851,8 +851,8 @@
   "category": "conversation",
   "page": "Grammar",
   "sortOrder": 68,
-  "listLabel": "Grammar deck",
-  "title": "Golden Grammar",
+  "title": "Grammar Drill",
+  "menuColor": "yellow",
   "file": "data/golden-grammar.json",
   "introduction": {
     "ja": "文(ぶん)の空欄(くうらん)に入(はい)る自然(しぜん)な活用形(かつようけい)を選(えら)び、文脈(ぶんみゃく)の中(なか)で文法(ぶんぽう)を身(み)につけます。答(こた)えた後(あと)に、文法項目(ぶんぽうこうもく)、作(つく)り方(かた)、カジュアルな形(かたち)と例文(れいぶん)を確認(かくにん)します。",
@@ -865,14 +865,74 @@
   "category": "conversation",
   "page": "Mimetic",
   "sortOrder": 69,
-  "listLabel": "Language deck",
   "title": "Mimetic Words",
+  "menuColor": "yellow",
   "file": "data/mimetic-words.json",
   "introduction": {
     "ja": "場面(ばめん)や動作(どうさ)の様子(ようす)に合(あ)う擬態語(ぎたいご)を選(えら)びます。日本語(にほんご)の文脈(ぶんみゃく)と英語(えいご)の意味(いみ)を手掛(てが)かりに、似(に)た形(かたち)の言葉(ことば)を使(つか)い分(わ)けます。",
     "en": "Choose the mimetic word that naturally fits each situation. Use the Japanese context and English sentence to distinguish words with similar forms but different meanings."
   },
   "questionCount": 41
+},
+  {
+  "id": "real-conversation-400-1",
+  "category": "conversation",
+  "page": "Conversation I",
+  "sortOrder": 70,
+  "title": "リアル会話 400 I",
+  "menuColor": "yellow",
+  "file": "data/real-conversation-400-1.json",
+  "feedbackMode": "result-only",
+  "introduction": {
+    "ja": "会話(かいわ)でよく使(つか)う語彙(ごい)を、自然(しぜん)な組(く)み合(あ)わせと短(みじか)い文(ぶん)の中(なか)で練習(れんしゅう)します。文脈(ぶんみゃく)に最(もっと)も合(あ)う言葉(ことば)を選(えら)びます。",
+    "en": "Practise useful conversational vocabulary through common word combinations and short contextual sentences. Choose the word that best completes each sentence."
+  },
+  "questionCount": 100
+},
+  {
+  "id": "real-conversation-400-2",
+  "category": "conversation",
+  "page": "Conversation II",
+  "sortOrder": 71,
+  "title": "リアル会話 400 II",
+  "menuColor": "yellow",
+  "file": "data/real-conversation-400-2.json",
+  "feedbackMode": "result-only",
+  "introduction": {
+    "ja": "会話(かいわ)でよく使(つか)う語彙(ごい)を、自然(しぜん)な組(く)み合(あ)わせと短(みじか)い文(ぶん)の中(なか)で練習(れんしゅう)します。文脈(ぶんみゃく)に最(もっと)も合(あ)う言葉(ことば)を選(えら)びます。",
+    "en": "Practise useful conversational vocabulary through common word combinations and short contextual sentences. Choose the word that best completes each sentence."
+  },
+  "questionCount": 100
+},
+  {
+  "id": "real-conversation-400-3",
+  "category": "conversation",
+  "page": "Conversation III",
+  "sortOrder": 72,
+  "title": "リアル会話 400 III",
+  "menuColor": "yellow",
+  "file": "data/real-conversation-400-3.json",
+  "feedbackMode": "result-only",
+  "introduction": {
+    "ja": "会話(かいわ)でよく使(つか)う語彙(ごい)を、自然(しぜん)な組(く)み合(あ)わせと短(みじか)い文(ぶん)の中(なか)で練習(れんしゅう)します。文脈(ぶんみゃく)に最(もっと)も合(あ)う言葉(ことば)を選(えら)びます。",
+    "en": "Practise useful conversational vocabulary through common word combinations and short contextual sentences. Choose the word that best completes each sentence."
+  },
+  "questionCount": 100
+},
+  {
+  "id": "real-conversation-400-4",
+  "category": "conversation",
+  "page": "Conversation IV",
+  "sortOrder": 73,
+  "title": "リアル会話 400 IV",
+  "menuColor": "yellow",
+  "file": "data/real-conversation-400-4.json",
+  "feedbackMode": "result-only",
+  "introduction": {
+    "ja": "会話(かいわ)でよく使(つか)う語彙(ごい)を、自然(しぜん)な組(く)み合(あ)わせと短(みじか)い文(ぶん)の中(なか)で練習(れんしゅう)します。文脈(ぶんみゃく)に最(もっと)も合(あ)う言葉(ことば)を選(えら)びます。",
+    "en": "Practise useful conversational vocabulary through common word combinations and short contextual sentences. Choose the word that best completes each sentence."
+  },
+  "questionCount": 100
 },
   {
   "id": "page64-65",

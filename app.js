@@ -171,6 +171,13 @@
         "enExplanation"
       );
 
+    elements.explanations =
+      Array.from(
+        document.querySelectorAll(
+          "#resultCard .explanation"
+        )
+      );
+
     elements.answeredCount =
       document.getElementById(
         "answeredCount"
@@ -576,14 +583,18 @@
       button.className =
         "lesson-card";
 
+      if (lesson.menuColor === "yellow") {
+        button.classList.add(
+          "lesson-card--yellow"
+        );
+      }
+
       button.innerHTML = `
         <span class="lesson-copy">
           <strong>
-            ${escapeHtml(
-              lesson.listLabel ||
-              `Page ${lesson.page ?? ""}`
-            )} ·
-            ${escapeHtml(lesson.title)}
+            ${lesson.listLabel
+              ? `${escapeHtml(lesson.listLabel)} · `
+              : ""}${escapeHtml(lesson.title)}
           </strong>
 
           <span>
@@ -1469,6 +1480,19 @@
     elements.enExplanation.textContent =
       question.enExplanation ||
       "No English explanation yet.";
+
+    const showExplanations =
+      state.selectedLesson?.feedbackMode !==
+      "result-only";
+
+    elements.explanations.forEach(
+      (explanation) => {
+        explanation.classList.toggle(
+          "hidden",
+          !showExplanations
+        );
+      }
+    );
 
     const hasGrammarDetails = Boolean(
       question.grammarPoint &&

@@ -307,6 +307,10 @@ button:focus-visible {
   cursor: pointer;
 }
 
+.lesson-card--yellow {
+  background: var(--pulse);
+}
+
 .lesson-card:last-child {
   border-bottom: 0;
 }
