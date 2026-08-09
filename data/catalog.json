@@ -861,6 +861,20 @@
   "questionCount": 145
 },
   {
+  "id": "mimetic-words",
+  "category": "conversation",
+  "page": "Mimetic",
+  "sortOrder": 69,
+  "listLabel": "Language deck",
+  "title": "Mimetic Words",
+  "file": "data/mimetic-words.json",
+  "introduction": {
+    "ja": "場面(ばめん)や動作(どうさ)の様子(ようす)に合(あ)う擬態語(ぎたいご)を選(えら)びます。日本語(にほんご)の文脈(ぶんみゃく)と英語(えいご)の意味(いみ)を手掛(てが)かりに、似(に)た形(かたち)の言葉(ことば)を使(つか)い分(わ)けます。",
+    "en": "Choose the mimetic word that naturally fits each situation. Use the Japanese context and English sentence to distinguish words with similar forms but different meanings."
+  },
+  "questionCount": 41
+},
+  {
   "id": "page64-65",
   "category": "conversation",
   "page": "64–65",
