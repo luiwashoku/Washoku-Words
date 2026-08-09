@@ -800,30 +800,36 @@
     try {
       const loadedLessons =
         await Promise.all(
-          state.catalog.map(
-            async (lesson) => {
-              try {
-                const questions =
-                  await loadLessonQuestions(
-                    lesson
+          state.catalog
+            .filter(
+              (lesson) =>
+                lesson.category !==
+                "conversation"
+            )
+            .map(
+              async (lesson) => {
+                try {
+                  const questions =
+                    await loadLessonQuestions(
+                      lesson
+                    );
+
+                  return {
+                    lesson,
+                    questions:
+                      shuffleArray(questions)
+                  };
+                } catch (error) {
+                  console.info(
+                    `Skipping ${lesson.id} ` +
+                    "in random practice.",
+                    error
                   );
 
-                return {
-                  lesson,
-                  questions:
-                    shuffleArray(questions)
-                };
-              } catch (error) {
-                console.info(
-                  `Skipping ${lesson.id} ` +
-                  "in random practice.",
-                  error
-                );
-
-                return null;
+                  return null;
+                }
               }
-            }
-          )
+            )
         );
 
       const availableLessons =
