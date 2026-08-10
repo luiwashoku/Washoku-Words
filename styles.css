@@ -558,8 +558,26 @@ button:focus-visible {
   stroke-linejoin: round;
 }
 
-#speakQuestion svg path:not(:first-child) {
+#speakQuestion .speakerIcon path:not(:first-child) {
   fill: none;
+}
+
+#speakQuestion .resumeIcon,
+#speakQuestion .pauseIcon {
+  display: none;
+}
+
+#speakQuestion.is-paused .speakerIcon,
+#speakQuestion.is-speaking .speakerIcon {
+  display: none;
+}
+
+#speakQuestion.is-paused .resumeIcon {
+  display: block;
+}
+
+#speakQuestion.is-speaking .pauseIcon {
+  display: block;
 }
 
 .questionVisual {

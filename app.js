@@ -73,6 +73,7 @@
   };
 
   const elements = {};
+  let activeJapaneseUtterance = null;
 
   document.addEventListener(
     "DOMContentLoaded",
@@ -285,13 +286,25 @@
       return;
     }
 
+    if (
+      activeJapaneseUtterance &&
+      window.speechSynthesis.speaking
+    ) {
+      if (window.speechSynthesis.paused) {
+        window.speechSynthesis.resume();
+        setSpeechButtonState("speaking");
+      } else {
+        window.speechSynthesis.pause();
+        setSpeechButtonState("paused");
+      }
+
+      return;
+    }
+
     const question =
       state.questions[state.currentQuestionIndex];
-    const japaneseText = question?.question
-      ?.split("\n", 1)[0]
-      .replace(/（[^（）]*）/g, "")
-      .replace(/\([^()]*\)/g, "")
-      .trim();
+    const japaneseText =
+      getJapaneseSpeechText(question?.question);
 
     if (!japaneseText) {
       return;
@@ -331,14 +344,93 @@
       utterance.voice = japaneseVoice;
     }
 
+    utterance.addEventListener("start", () => {
+      if (activeJapaneseUtterance === utterance) {
+        setSpeechButtonState("speaking");
+      }
+    });
+
+    utterance.addEventListener("end", () => {
+      if (activeJapaneseUtterance === utterance) {
+        activeJapaneseUtterance = null;
+        setSpeechButtonState("idle");
+      }
+    });
+
+    utterance.addEventListener("error", () => {
+      if (activeJapaneseUtterance === utterance) {
+        activeJapaneseUtterance = null;
+        setSpeechButtonState("idle");
+      }
+    });
+
     window.speechSynthesis.cancel();
+    activeJapaneseUtterance = utterance;
     window.speechSynthesis.speak(utterance);
+  }
+
+  function getJapaneseSpeechText(text) {
+    if (typeof text !== "string") {
+      return "";
+    }
+
+    return text
+      .split("\n")
+      .filter(isPredominantlyJapaneseLine)
+      .join(" ")
+      .replace(/（[^（）]*）/g, "")
+      .replace(/\([^()]*\)/g, "")
+      .replace(/[＿_]{2,}/g, "……")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function isPredominantlyJapaneseLine(line) {
+    const japaneseCharacters =
+      line.match(/[\u3040-\u30ff\u3400-\u9fff]/g) || [];
+    const latinCharacters =
+      line.match(/[a-z]/gi) || [];
+
+    return (
+      japaneseCharacters.length > 0 &&
+      japaneseCharacters.length >= latinCharacters.length
+    );
+  }
+
+  function setSpeechButtonState(status) {
+    const isPaused = status === "paused";
+    const isSpeaking = status === "speaking";
+
+    elements.speakQuestion.classList.toggle(
+      "is-paused",
+      isPaused
+    );
+    elements.speakQuestion.classList.toggle(
+      "is-speaking",
+      isSpeaking
+    );
+    elements.speakQuestion.setAttribute(
+      "aria-label",
+      isPaused
+        ? "Resume the Japanese sentence"
+        : isSpeaking
+          ? "Pause the Japanese sentence"
+        : "Read the Japanese sentence aloud"
+    );
+    elements.speakQuestion.title = isPaused
+      ? "再開する"
+      : isSpeaking
+        ? "一時停止する"
+        : "日本語を聞く";
   }
 
   function cancelJapaneseSpeech() {
     if ("speechSynthesis" in window) {
       window.speechSynthesis.cancel();
     }
+
+    activeJapaneseUtterance = null;
+    setSpeechButtonState("idle");
   }
 
   function restoreSavedData() {
@@ -1336,9 +1428,9 @@
       question.question;
 
     const canSpeakQuestion =
-      state.selectedLesson?.id === "page24" &&
       "speechSynthesis" in window &&
-      "SpeechSynthesisUtterance" in window;
+      "SpeechSynthesisUtterance" in window &&
+      Boolean(getJapaneseSpeechText(question.question));
 
     elements.speakQuestion.classList.toggle(
       "hidden",
