@@ -360,7 +360,37 @@
         </div>
 
         <div class="explanation">
-          <h4>日本語</h4>
+          <div class="explanationHeader">
+            <h4>日本語</h4>
+
+            <button
+              id="speakExplanation"
+              class="hidden"
+              type="button"
+              aria-label="Read the Japanese explanation aloud"
+              title="解説を聞く"
+            >
+              <svg
+                viewBox="0 0 32 32"
+                aria-hidden="true"
+              >
+                <g class="speakerIcon">
+                  <path d="M7 13h5l6-5v16l-6-5H7z"></path>
+                  <path d="M22 12c1.5 1.2 2.3 2.5 2.3 4s-.8 2.8-2.3 4"></path>
+                  <path d="M25 8.5c2.4 2.1 3.6 4.6 3.6 7.5s-1.2 5.4-3.6 7.5"></path>
+                </g>
+                <path
+                  class="resumeIcon"
+                  d="M11 8l13 8-13 8z"
+                ></path>
+                <path
+                  class="pauseIcon"
+                  d="M10 8h4v16h-4zM19 8h4v16h-4z"
+                ></path>
+              </svg>
+            </button>
+          </div>
+
           <p id="jpExplanation"></p>
         </div>
 

@@ -177,6 +177,9 @@
         "jpExplanation"
       );
 
+    elements.speakExplanation =
+      document.getElementById("speakExplanation");
+
     elements.enExplanation =
       document.getElementById(
         "enExplanation"
@@ -289,6 +292,11 @@
       speakCurrentJapaneseAnswers
     );
 
+    elements.speakExplanation.addEventListener(
+      "click",
+      speakCurrentJapaneseExplanation
+    );
+
     elements.furiganaToggle.addEventListener(
       "click",
       toggleFurigana
@@ -392,6 +400,21 @@
       japaneseText,
       elements.speakAnswers,
       "Japanese answer choices"
+    );
+  }
+
+  function speakCurrentJapaneseExplanation() {
+    const question =
+      state.questions[state.currentQuestionIndex];
+    const japaneseText = getJapaneseSpeechText(
+      question?.jpExplanation ||
+        "解説はまだありません。"
+    );
+
+    speakJapaneseText(
+      japaneseText,
+      elements.speakExplanation,
+      "Japanese explanation"
     );
   }
 
@@ -554,6 +577,11 @@
       elements.speakAnswers,
       "idle",
       "Japanese answer choices"
+    );
+    setSpeechButtonState(
+      elements.speakExplanation,
+      "idle",
+      "Japanese explanation"
     );
   }
 
@@ -1614,6 +1642,10 @@
       "hidden"
     );
 
+    elements.speakExplanation.classList.add(
+      "hidden"
+    );
+
     elements.resultCard.classList.remove(
       "correct-result",
       "wrong-result"
@@ -1799,6 +1831,21 @@
       elements.jpExplanation,
       question.jpExplanation ||
         "解説はまだありません。"
+    );
+
+    const canSpeakExplanation =
+      "speechSynthesis" in window &&
+      "SpeechSynthesisUtterance" in window &&
+      Boolean(
+        getJapaneseSpeechText(
+          question.jpExplanation ||
+            "解説はまだありません。"
+        )
+      );
+
+    elements.speakExplanation.classList.toggle(
+      "hidden",
+      !canSpeakExplanation
     );
 
     elements.enExplanation.textContent =
