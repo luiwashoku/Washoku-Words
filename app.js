@@ -75,6 +75,7 @@
 
   const elements = {};
   let activeJapaneseUtterance = null;
+  let activeSpeechButton = null;
 
   document.addEventListener(
     "DOMContentLoaded",
@@ -127,6 +128,12 @@
 
     elements.speakQuestion =
       document.getElementById("speakQuestion");
+
+    elements.answerSpeechControls =
+      document.getElementById("answerSpeechControls");
+
+    elements.speakAnswers =
+      document.getElementById("speakAnswers");
 
     elements.furiganaToggle =
       document.getElementById("furiganaToggle");
@@ -277,6 +284,11 @@
       speakCurrentJapaneseQuestion
     );
 
+    elements.speakAnswers.addEventListener(
+      "click",
+      speakCurrentJapaneseAnswers
+    );
+
     elements.furiganaToggle.addEventListener(
       "click",
       toggleFurigana
@@ -356,32 +368,61 @@
       return;
     }
 
-    if (
-      activeJapaneseUtterance &&
-      window.speechSynthesis.speaking
-    ) {
-      if (window.speechSynthesis.paused) {
-        window.speechSynthesis.resume();
-        setSpeechButtonState("speaking");
-      } else {
-        window.speechSynthesis.pause();
-        setSpeechButtonState("paused");
-      }
-
-      return;
-    }
-
     const question =
       state.questions[state.currentQuestionIndex];
     const japaneseText =
       getJapaneseSpeechText(question?.question);
 
-    if (!japaneseText) {
+    speakJapaneseText(
+      japaneseText,
+      elements.speakQuestion,
+      "Japanese sentence"
+    );
+  }
+
+  function speakCurrentJapaneseAnswers() {
+    const question =
+      state.questions[state.currentQuestionIndex];
+    const japaneseText = question?.answers
+      ?.map(getJapaneseSpeechText)
+      .filter(Boolean)
+      .join("。 ");
+
+    speakJapaneseText(
+      japaneseText,
+      elements.speakAnswers,
+      "Japanese answer choices"
+    );
+  }
+
+  function speakJapaneseText(text, button, label) {
+    if (
+      !text ||
+      !("speechSynthesis" in window) ||
+      !("SpeechSynthesisUtterance" in window)
+    ) {
       return;
     }
 
+    if (
+      activeJapaneseUtterance &&
+      window.speechSynthesis.speaking
+    ) {
+      if (activeSpeechButton !== button) {
+        cancelJapaneseSpeech();
+      } else if (window.speechSynthesis.paused) {
+        window.speechSynthesis.resume();
+        setSpeechButtonState(button, "speaking", label);
+        return;
+      } else {
+        window.speechSynthesis.pause();
+        setSpeechButtonState(button, "paused", label);
+        return;
+      }
+    }
+
     const utterance =
-      new SpeechSynthesisUtterance(japaneseText);
+      new SpeechSynthesisUtterance(text);
     const voices =
       window.speechSynthesis.getVoices();
     const japaneseVoices = voices.filter(
@@ -416,26 +457,29 @@
 
     utterance.addEventListener("start", () => {
       if (activeJapaneseUtterance === utterance) {
-        setSpeechButtonState("speaking");
+        setSpeechButtonState(button, "speaking", label);
       }
     });
 
     utterance.addEventListener("end", () => {
       if (activeJapaneseUtterance === utterance) {
         activeJapaneseUtterance = null;
-        setSpeechButtonState("idle");
+        activeSpeechButton = null;
+        setSpeechButtonState(button, "idle", label);
       }
     });
 
     utterance.addEventListener("error", () => {
       if (activeJapaneseUtterance === utterance) {
         activeJapaneseUtterance = null;
-        setSpeechButtonState("idle");
+        activeSpeechButton = null;
+        setSpeechButtonState(button, "idle", label);
       }
     });
 
     window.speechSynthesis.cancel();
     activeJapaneseUtterance = utterance;
+    activeSpeechButton = button;
     window.speechSynthesis.speak(utterance);
   }
 
@@ -467,27 +511,27 @@
     );
   }
 
-  function setSpeechButtonState(status) {
+  function setSpeechButtonState(button, status, label) {
     const isPaused = status === "paused";
     const isSpeaking = status === "speaking";
 
-    elements.speakQuestion.classList.toggle(
+    button.classList.toggle(
       "is-paused",
       isPaused
     );
-    elements.speakQuestion.classList.toggle(
+    button.classList.toggle(
       "is-speaking",
       isSpeaking
     );
-    elements.speakQuestion.setAttribute(
+    button.setAttribute(
       "aria-label",
       isPaused
-        ? "Resume the Japanese sentence"
+        ? `Resume the ${label}`
         : isSpeaking
-          ? "Pause the Japanese sentence"
-        : "Read the Japanese sentence aloud"
+          ? `Pause the ${label}`
+        : `Read the ${label} aloud`
     );
-    elements.speakQuestion.title = isPaused
+    button.title = isPaused
       ? "再開する"
       : isSpeaking
         ? "一時停止する"
@@ -500,7 +544,17 @@
     }
 
     activeJapaneseUtterance = null;
-    setSpeechButtonState("idle");
+    activeSpeechButton = null;
+    setSpeechButtonState(
+      elements.speakQuestion,
+      "idle",
+      "Japanese sentence"
+    );
+    setSpeechButtonState(
+      elements.speakAnswers,
+      "idle",
+      "Japanese answer choices"
+    );
   }
 
   function restoreSavedData() {
@@ -1513,6 +1567,19 @@
     elements.speakQuestion.classList.toggle(
       "hidden",
       !canSpeakQuestion
+    );
+
+    const canSpeakAnswers =
+      "speechSynthesis" in window &&
+      "SpeechSynthesisUtterance" in window &&
+      question.answers.some(
+        (answer) =>
+          Boolean(getJapaneseSpeechText(answer))
+      );
+
+    elements.answerSpeechControls.classList.toggle(
+      "hidden",
+      !canSpeakAnswers
     );
 
     if (question.image) {

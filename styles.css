@@ -92,7 +92,8 @@ button:focus-visible {
 #lessonIntroductionButton,
 #closeIntroduction,
 #furiganaToggle,
-#speakQuestion {
+#speakQuestion,
+#speakAnswers {
   display: inline-grid;
   place-items: center;
   width: 50px;
@@ -113,7 +114,8 @@ button:focus-visible {
 #lessonIntroductionButton:active,
 #closeIntroduction:active,
 #furiganaToggle:active,
-#speakQuestion:active {
+#speakQuestion:active,
+#speakAnswers:active {
   transform: translate(2px, 2px);
   box-shadow: 1px 1px 0 var(--ink);
 }
@@ -557,7 +559,8 @@ button:focus-visible {
   min-width: 0;
 }
 
-#speakQuestion {
+#speakQuestion,
+#speakAnswers {
   width: 44px;
   height: 44px;
   flex-basis: 44px;
@@ -565,7 +568,8 @@ button:focus-visible {
   background: var(--horizon);
 }
 
-#speakQuestion svg {
+#speakQuestion svg,
+#speakAnswers svg {
   width: 25px;
   height: 25px;
   overflow: visible;
@@ -576,26 +580,45 @@ button:focus-visible {
   stroke-linejoin: round;
 }
 
-#speakQuestion .speakerIcon path:not(:first-child) {
+#speakQuestion .speakerIcon path:not(:first-child),
+#speakAnswers .speakerIcon path:not(:first-child) {
   fill: none;
 }
 
 #speakQuestion .resumeIcon,
-#speakQuestion .pauseIcon {
+#speakQuestion .pauseIcon,
+#speakAnswers .resumeIcon,
+#speakAnswers .pauseIcon {
   display: none;
 }
 
 #speakQuestion.is-paused .speakerIcon,
-#speakQuestion.is-speaking .speakerIcon {
+#speakQuestion.is-speaking .speakerIcon,
+#speakAnswers.is-paused .speakerIcon,
+#speakAnswers.is-speaking .speakerIcon {
   display: none;
 }
 
-#speakQuestion.is-paused .resumeIcon {
+#speakQuestion.is-paused .resumeIcon,
+#speakAnswers.is-paused .resumeIcon {
   display: block;
 }
 
-#speakQuestion.is-speaking .pauseIcon {
+#speakQuestion.is-speaking .pauseIcon,
+#speakAnswers.is-speaking .pauseIcon {
   display: block;
+}
+
+.answerSpeechControls {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 18px 10px;
+  background: var(--paper);
+}
+
+#speakAnswers {
+  margin-top: 0;
+  background: var(--canvas);
 }
 
 .questionVisual {
