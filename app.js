@@ -127,6 +127,9 @@
     elements.questionText =
       document.getElementById("questionText");
 
+    elements.speakQuestion =
+      document.getElementById("speakQuestion");
+
     elements.questionVisual =
       document.getElementById("questionVisual");
 
@@ -267,6 +270,75 @@
       "click",
       showNextQuestion
     );
+
+    elements.speakQuestion.addEventListener(
+      "click",
+      speakCurrentJapaneseQuestion
+    );
+  }
+
+  function speakCurrentJapaneseQuestion() {
+    if (
+      !("speechSynthesis" in window) ||
+      !("SpeechSynthesisUtterance" in window)
+    ) {
+      return;
+    }
+
+    const question =
+      state.questions[state.currentQuestionIndex];
+    const japaneseText = question?.question
+      ?.split("\n", 1)[0]
+      .replace(/（[^（）]*）/g, "")
+      .replace(/\([^()]*\)/g, "")
+      .trim();
+
+    if (!japaneseText) {
+      return;
+    }
+
+    const utterance =
+      new SpeechSynthesisUtterance(japaneseText);
+    const voices =
+      window.speechSynthesis.getVoices();
+    const japaneseVoices = voices.filter(
+      (voice) => voice.lang
+        .toLowerCase()
+        .startsWith("ja")
+    );
+    const preferredFemaleVoiceNames =
+      /kyoko|nanami|haruka|sayaka|female/i;
+    const japaneseVoice =
+      japaneseVoices.find(
+        (voice) =>
+          voice.lang.toLowerCase() === "ja-jp" &&
+          preferredFemaleVoiceNames.test(voice.name)
+      ) ||
+      japaneseVoices.find(
+        (voice) =>
+          preferredFemaleVoiceNames.test(voice.name)
+      ) ||
+      japaneseVoices.find(
+        (voice) =>
+          voice.lang.toLowerCase() === "ja-jp"
+      ) ||
+      japaneseVoices[0];
+
+    utterance.lang = "ja-JP";
+    utterance.rate = 0.78;
+
+    if (japaneseVoice) {
+      utterance.voice = japaneseVoice;
+    }
+
+    window.speechSynthesis.cancel();
+    window.speechSynthesis.speak(utterance);
+  }
+
+  function cancelJapaneseSpeech() {
+    if ("speechSynthesis" in window) {
+      window.speechSynthesis.cancel();
+    }
   }
 
   function restoreSavedData() {
@@ -1243,6 +1315,7 @@
   }
 
   function renderCurrentQuestion() {
+    cancelJapaneseSpeech();
     state.answerLocked = false;
 
     const question =
@@ -1261,6 +1334,16 @@
 
     elements.questionText.textContent =
       question.question;
+
+    const canSpeakQuestion =
+      state.selectedLesson?.id === "page24" &&
+      "speechSynthesis" in window &&
+      "SpeechSynthesisUtterance" in window;
+
+    elements.speakQuestion.classList.toggle(
+      "hidden",
+      !canSpeakQuestion
+    );
 
     if (question.image) {
       const [imagePath, imageFragment] =
@@ -1573,6 +1656,7 @@
   }
 
   function returnHome() {
+    cancelJapaneseSpeech();
     playSound("click");
 
     state.selectedCategory = null;
@@ -1583,6 +1667,8 @@
   }
 
   function returnToLessonList() {
+    cancelJapaneseSpeech();
+
     if (state.selectedLesson?.isRandom) {
       returnHome();
       return;

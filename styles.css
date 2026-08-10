@@ -90,7 +90,8 @@ button:focus-visible {
 #backHome,
 #backToPages,
 #lessonIntroductionButton,
-#closeIntroduction {
+#closeIntroduction,
+#speakQuestion {
   display: inline-grid;
   place-items: center;
   width: 50px;
@@ -109,7 +110,8 @@ button:focus-visible {
 #backHome:active,
 #backToPages:active,
 #lessonIntroductionButton:active,
-#closeIntroduction:active {
+#closeIntroduction:active,
+#speakQuestion:active {
   transform: translate(2px, 2px);
   box-shadow: 1px 1px 0 var(--ink);
 }
@@ -524,6 +526,40 @@ button:focus-visible {
   font-weight: 700;
   line-height: 1.38;
   letter-spacing: -0.035em;
+}
+
+.questionRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.questionRow .question {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+#speakQuestion {
+  width: 44px;
+  height: 44px;
+  flex-basis: 44px;
+  margin-top: 14px;
+  background: var(--horizon);
+}
+
+#speakQuestion svg {
+  width: 25px;
+  height: 25px;
+  overflow: visible;
+  fill: currentColor;
+  stroke: currentColor;
+  stroke-width: 2.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+#speakQuestion svg path:not(:first-child) {
+  fill: none;
 }
 
 .questionVisual {
