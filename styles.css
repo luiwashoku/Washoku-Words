@@ -91,6 +91,7 @@ button:focus-visible {
 #backToPages,
 #lessonIntroductionButton,
 #closeIntroduction,
+#furiganaToggle,
 #speakQuestion {
   display: inline-grid;
   place-items: center;
@@ -111,6 +112,7 @@ button:focus-visible {
 #backToPages:active,
 #lessonIntroductionButton:active,
 #closeIntroduction:active,
+#furiganaToggle:active,
 #speakQuestion:active {
   transform: translate(2px, 2px);
   box-shadow: 1px 1px 0 var(--ink);
@@ -390,6 +392,22 @@ button:focus-visible {
 #lessonIntroductionButton svg circle:not(:first-child) {
   fill: currentColor;
   stroke: none;
+}
+
+#furiganaToggle {
+  background: var(--pulse);
+  font-size: 12px;
+  letter-spacing: -0.04em;
+}
+
+#furiganaToggle.furigana-off {
+  background: var(--ember);
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+}
+
+.furigana-hidden .furiganaReading {
+  display: none;
 }
 
 #lessonIntroductionDialog {

@@ -65,6 +65,7 @@
     questions: [],
     currentQuestionIndex: 0,
     answerLocked: false,
+    furiganaVisible: true,
     stats: {
       answered: 0,
       correct: 0
@@ -82,10 +83,6 @@
 
   async function initialise() {
     cacheElements();
-
-    document
-      .getElementById("furiganaToggle")
-      ?.remove();
 
     restoreSavedData();
     bindEvents();
@@ -130,6 +127,9 @@
 
     elements.speakQuestion =
       document.getElementById("speakQuestion");
+
+    elements.furiganaToggle =
+      document.getElementById("furiganaToggle");
 
     elements.questionVisual =
       document.getElementById("questionVisual");
@@ -276,6 +276,76 @@
       "click",
       speakCurrentJapaneseQuestion
     );
+
+    elements.furiganaToggle.addEventListener(
+      "click",
+      toggleFurigana
+    );
+  }
+
+  function toggleFurigana() {
+    playSound("click");
+    state.furiganaVisible =
+      !state.furiganaVisible;
+    updateFuriganaControl();
+  }
+
+  function updateFuriganaControl() {
+    const isLessonOpen =
+      Boolean(state.selectedLesson);
+    const furiganaIsHidden =
+      !state.furiganaVisible;
+
+    elements.furiganaToggle.classList.toggle(
+      "hidden",
+      !isLessonOpen
+    );
+    elements.furiganaToggle.classList.toggle(
+      "furigana-off",
+      furiganaIsHidden
+    );
+    elements.furiganaToggle.setAttribute(
+      "aria-pressed",
+      String(furiganaIsHidden)
+    );
+    elements.furiganaToggle.setAttribute(
+      "aria-label",
+      furiganaIsHidden
+        ? "Show furigana"
+        : "Hide furigana"
+    );
+    elements.furiganaToggle.title =
+      furiganaIsHidden
+        ? "ふりがなを表示する"
+        : "ふりがなを隠す";
+    elements.quizScreen.classList.toggle(
+      "furigana-hidden",
+      isLessonOpen && furiganaIsHidden
+    );
+  }
+
+  function setFuriganaAwareText(element, text) {
+    const value = String(text ?? "");
+    const readingPattern =
+      /(\([ぁ-ゖァ-ヺー・\s]+\)|（[ぁ-ゖァ-ヺー・\s]+）)/g;
+    const parts = value.split(readingPattern);
+    const fragment = document.createDocumentFragment();
+
+    parts.forEach((part, index) => {
+      if (index % 2 === 0) {
+        fragment.appendChild(
+          document.createTextNode(part)
+        );
+        return;
+      }
+
+      const reading = document.createElement("span");
+      reading.className = "furiganaReading";
+      reading.textContent = part;
+      fragment.appendChild(reading);
+    });
+
+    element.replaceChildren(fragment);
   }
 
   function speakCurrentJapaneseQuestion() {
@@ -826,6 +896,8 @@
       }
 
       state.selectedLesson = lesson;
+      state.furiganaVisible = true;
+      updateFuriganaControl();
 
       state.questions =
         shuffleArray(questions);
@@ -1062,6 +1134,8 @@
         title: "おまかせ問題",
         isRandom: true
       };
+      state.furiganaVisible = true;
+      updateFuriganaControl();
       state.questions = selectedQuestions;
       state.currentQuestionIndex = 0;
 
@@ -1099,8 +1173,10 @@
 
     elements.introductionTitle.textContent =
       state.selectedLesson.title;
-    elements.introductionJapanese.textContent =
-      introduction.ja;
+    setFuriganaAwareText(
+      elements.introductionJapanese,
+      introduction.ja
+    );
     elements.introductionEnglish.textContent =
       introduction.en;
   }
@@ -1424,8 +1500,10 @@
       state.selectedLesson?.title ||
       "";
 
-    elements.questionText.textContent =
-      question.question;
+    setFuriganaAwareText(
+      elements.questionText,
+      question.question
+    );
 
     const canSpeakQuestion =
       "speechSynthesis" in window &&
@@ -1485,8 +1563,10 @@
         button.className =
           "answer-button";
 
-        button.textContent =
-          answerText;
+        setFuriganaAwareText(
+          button,
+          answerText
+        );
 
         button.addEventListener(
           "click",
@@ -1648,9 +1728,11 @@
         ? "Great!"
         : "Almost.";
 
-    elements.jpExplanation.textContent =
+    setFuriganaAwareText(
+      elements.jpExplanation,
       question.jpExplanation ||
-      "解説はまだありません。";
+        "解説はまだありません。"
+    );
 
     elements.enExplanation.textContent =
       question.enExplanation ||
@@ -1681,12 +1763,18 @@
     );
 
     if (hasGrammarDetails) {
-      elements.grammarPoint.textContent =
-        question.grammarPoint;
-      elements.grammarFormation.textContent =
-        question.formation;
-      elements.grammarCasual.textContent =
-        question.casualForm;
+      setFuriganaAwareText(
+        elements.grammarPoint,
+        question.grammarPoint
+      );
+      setFuriganaAwareText(
+        elements.grammarFormation,
+        question.formation
+      );
+      setFuriganaAwareText(
+        elements.grammarCasual,
+        question.casualForm
+      );
     }
 
     elements.resultCard.classList.remove(
