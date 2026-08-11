@@ -71,6 +71,33 @@
     "page52-q25": "カラメル化(か)"
   };
 
+  const MIMETIC_WORD_TRANSLATIONS = {
+    うっかり: "accidentally / carelessly",
+    がっかり: "disappointed",
+    ぎっしり: "tightly packed",
+    ぎりぎり: "just in time / barely",
+    ぐっすり: "soundly (sleep)",
+    こっそり: "secretly",
+    さっぱり: "light / refreshing",
+    しっかり: "properly / firmly",
+    すっかり: "completely",
+    すっきり: "clear / refreshed / tidy",
+    たっぷり: "plenty / generously",
+    たまたま: "by chance",
+    どっさり: "in large quantities",
+    はっきり: "clearly / distinctly",
+    はっと: "suddenly realizing",
+    びっくり: "surprised / startled",
+    びっしり: "densely covered",
+    ぴったり: "exactly / perfectly",
+    ふっくら: "soft and plump",
+    ほっと: "relieved",
+    やっと: "finally (after difficulty)",
+    やっぱり: "as expected / after all",
+    ゆっくり: "slowly / leisurely",
+    ようやく: "finally / at long last"
+  };
+
   const state = {
     catalog: [],
     selectedCategory: null,
@@ -365,8 +392,25 @@
   }
 
   function renderGrammarIndex() {
-    const items = state.questions.map(
-      (question, questionIndex) => {
+    const questionEntries = state.questions.map(
+      (question, questionIndex) => ({
+        question,
+        questionIndex,
+        label: getGrammarIndexLabel(question)
+      })
+    );
+
+    if (state.selectedLesson?.id === "mimetic-words") {
+      questionEntries.sort((first, second) =>
+        romanizeKanaForSort(first.label).localeCompare(
+          romanizeKanaForSort(second.label),
+          "en"
+        ) || first.questionIndex - second.questionIndex
+      );
+    }
+
+    const items = questionEntries.map(
+      ({ questionIndex, label: labelText }) => {
         const button = document.createElement("button");
         const number = document.createElement("span");
         const label = document.createElement("span");
@@ -382,8 +426,18 @@
         number.textContent = `${questionIndex + 1}.`;
         setFuriganaAwareText(
           label,
-          getGrammarIndexLabel(question)
+          labelText
         );
+
+        if (state.selectedLesson?.id === "mimetic-words") {
+          const translation = document.createElement("span");
+          translation.className = "mimeticTranslation";
+          translation.textContent =
+            ` — ${MIMETIC_WORD_TRANSLATIONS[
+              normalizeIndexLabel(labelText)
+            ] || ""}`;
+          label.appendChild(translation);
+        }
 
         button.append(number, label);
         button.addEventListener("click", () => {
@@ -401,6 +455,61 @@
     );
 
     elements.grammarIndexList.replaceChildren(...items);
+  }
+
+  function romanizeKanaForSort(value) {
+    const kana = normalizeIndexLabel(value).replace(
+      /[ァ-ヶ]/g,
+      (character) =>
+        String.fromCharCode(character.charCodeAt(0) - 0x60)
+    );
+    const combinations = {
+      きゃ: "kya", きゅ: "kyu", きょ: "kyo",
+      しゃ: "sha", しゅ: "shu", しょ: "sho",
+      ちゃ: "cha", ちゅ: "chu", ちょ: "cho",
+      にゃ: "nya", にゅ: "nyu", にょ: "nyo",
+      ひゃ: "hya", ひゅ: "hyu", ひょ: "hyo",
+      みゃ: "mya", みゅ: "myu", みょ: "myo",
+      りゃ: "rya", りゅ: "ryu", りょ: "ryo",
+      ぎゃ: "gya", ぎゅ: "gyu", ぎょ: "gyo",
+      じゃ: "ja", じゅ: "ju", じょ: "jo",
+      びゃ: "bya", びゅ: "byu", びょ: "byo",
+      ぴゃ: "pya", ぴゅ: "pyu", ぴょ: "pyo"
+    };
+    const characters = {
+      あ: "a", い: "i", う: "u", え: "e", お: "o",
+      か: "ka", き: "ki", く: "ku", け: "ke", こ: "ko",
+      さ: "sa", し: "shi", す: "su", せ: "se", そ: "so",
+      た: "ta", ち: "chi", つ: "tsu", て: "te", と: "to",
+      な: "na", に: "ni", ぬ: "nu", ね: "ne", の: "no",
+      は: "ha", ひ: "hi", ふ: "fu", へ: "he", ほ: "ho",
+      ま: "ma", み: "mi", む: "mu", め: "me", も: "mo",
+      や: "ya", ゆ: "yu", よ: "yo",
+      ら: "ra", り: "ri", る: "ru", れ: "re", ろ: "ro",
+      わ: "wa", を: "o", ん: "n",
+      が: "ga", ぎ: "gi", ぐ: "gu", げ: "ge", ご: "go",
+      ざ: "za", じ: "ji", ず: "zu", ぜ: "ze", ぞ: "zo",
+      だ: "da", ぢ: "ji", づ: "zu", で: "de", ど: "do",
+      ば: "ba", び: "bi", ぶ: "bu", べ: "be", ぼ: "bo",
+      ぱ: "pa", ぴ: "pi", ぷ: "pu", ぺ: "pe", ぽ: "po",
+      ぁ: "a", ぃ: "i", ぅ: "u", ぇ: "e", ぉ: "o",
+      ゃ: "ya", ゅ: "yu", ょ: "yo", っ: "", ー: ""
+    };
+    let romaji = "";
+
+    for (let index = 0; index < kana.length; index += 1) {
+      const pair = kana.slice(index, index + 2);
+
+      if (combinations[pair]) {
+        romaji += combinations[pair];
+        index += 1;
+        continue;
+      }
+
+      romaji += characters[kana[index]] || kana[index];
+    }
+
+    return romaji.toLowerCase();
   }
 
   function getGrammarIndexTitle() {

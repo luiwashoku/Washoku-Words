@@ -530,7 +530,11 @@ button:focus-visible {
 
 .grammarIndexNumber {
   font-variant-numeric: tabular-nums;
-  opacity: 0.65;
+}
+
+.mimeticTranslation {
+  font-size: 0.88em;
+  font-weight: 700;
 }
 
 .introductionHeader {
