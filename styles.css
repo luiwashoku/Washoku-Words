@@ -657,6 +657,13 @@ button:focus-visible {
   letter-spacing: -0.035em;
 }
 
+.questionTargetChunk {
+  text-decoration-line: underline;
+  text-decoration-color: var(--bronze);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
+}
+
 .questionRow {
   display: flex;
   align-items: flex-start;

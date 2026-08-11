@@ -957,6 +957,20 @@
     "en": "Build natural conversation through reactions, reasons, comparisons and follow-up questions. Select the chunk that fits both the grammar and the conversational purpose."
   },
   "questionCount": 20
+},
+  {
+  "id": "standard-vs-spoken",
+  "category": "conversation",
+  "page": "Spoken",
+  "sortOrder": 74,
+  "title": "Standard vs Spoken",
+  "menuColor": "yellow",
+  "file": "data/standard-vs-spoken.json",
+  "introduction": {
+    "ja": "書(か)き言葉(ことば)や標準的(ひょうじゅんてき)な形(かたち)が、自然(しぜん)な会話(かいわ)でどのように短(みじか)くなるかを練習(れんしゅう)します。文(ぶん)の下線部(かせんぶ)を見(み)て、意味(いみ)と丁寧(ていねい)さに合(あ)う話(はな)し言葉(ことば)を選(えら)びます。",
+    "en": "Practise how standard Japanese forms contract in natural conversation. Read the underlined chunk and choose the spoken form that preserves its meaning and appropriate register."
+  },
+  "questionCount": 60
 }
 
 ]

@@ -221,11 +221,20 @@
     elements.grammarPoint =
       document.getElementById("grammarPoint");
 
+    elements.grammarPointLabel =
+      document.getElementById("grammarPointLabel");
+
     elements.grammarFormation =
       document.getElementById("grammarFormation");
 
+    elements.grammarFormationLabel =
+      document.getElementById("grammarFormationLabel");
+
     elements.grammarCasual =
       document.getElementById("grammarCasual");
+
+    elements.grammarCasualLabel =
+      document.getElementById("grammarCasualLabel");
 
     elements.jpExplanation =
       document.getElementById(
@@ -525,6 +534,17 @@
   }
 
   function getGrammarIndexLabel(question) {
+    if (
+      state.selectedLesson?.id === "standard-vs-spoken" &&
+      question.grammarPoint &&
+      question.formation
+    ) {
+      return (
+        `${stripRegisterHeading(question.grammarPoint)} vs ` +
+        stripRegisterHeading(question.formation)
+      );
+    }
+
     if (question.grammarPoint) {
       return question.grammarPoint;
     }
@@ -580,6 +600,13 @@
     return String(value || "")
       .replace(/\([ぁ-ゖァ-ヺー・\s]+\)/g, "")
       .replace(/[。！？\s]/g, "");
+  }
+
+  function stripRegisterHeading(value) {
+    return String(value || "")
+      .split("\n")
+      .slice(1)
+      .join("\n");
   }
 
   function hasQuestionIndex(lesson) {
@@ -659,6 +686,36 @@
     });
 
     element.replaceChildren(fragment);
+  }
+
+  function setQuestionText(element, question) {
+    const value = String(question?.question ?? "");
+    const target = question?.underlineChunk;
+    const targetIndex = target
+      ? value.indexOf(target)
+      : -1;
+
+    if (targetIndex < 0) {
+      setFuriganaAwareText(element, value);
+      return;
+    }
+
+    const before = document.createElement("span");
+    const underlined = document.createElement("span");
+    const after = document.createElement("span");
+
+    setFuriganaAwareText(
+      before,
+      value.slice(0, targetIndex)
+    );
+    setFuriganaAwareText(underlined, target);
+    setFuriganaAwareText(
+      after,
+      value.slice(targetIndex + target.length)
+    );
+
+    underlined.className = "questionTargetChunk";
+    element.replaceChildren(before, underlined, after);
   }
 
   function speakCurrentJapaneseQuestion() {
@@ -808,6 +865,10 @@
       .split("\n")
       .filter(isPredominantlyJapaneseLine)
       .join(" ")
+      .replace(
+        /([々〆ヵヶ一-龯]+)[(（]([ぁ-ゖァ-ヺー・\s]+)[)）]/g,
+        "$2"
+      )
       .replace(/（[^（）]*）/g, "")
       .replace(/\([^()]*\)/g, "")
       .replace(/[＿_]{2,}/g, "……")
@@ -1880,9 +1941,9 @@
       state.selectedLesson?.title ||
       "";
 
-    setFuriganaAwareText(
+    setQuestionText(
       elements.questionText,
-      question.question
+      question
     );
 
     const canSpeakQuestion =
@@ -2150,9 +2211,12 @@
       question.enExplanation ||
       "No English explanation yet.";
 
+    const isStandardVsSpoken =
+      state.selectedLesson?.id === "standard-vs-spoken";
     const showExplanations =
       state.selectedLesson?.feedbackMode !==
-      "result-only";
+        "result-only" &&
+      !isStandardVsSpoken;
 
     elements.explanations.forEach(
       (explanation) => {
@@ -2175,17 +2239,34 @@
     );
 
     if (hasGrammarDetails) {
+      elements.grammarPointLabel.textContent =
+        isStandardVsSpoken
+          ? "Standard polite"
+          : "Grammar point";
+      elements.grammarFormationLabel.textContent =
+        isStandardVsSpoken
+          ? "Spoken polite"
+          : "Formation";
+      elements.grammarCasualLabel.textContent =
+        "Casual form";
+
       setFuriganaAwareText(
         elements.grammarPoint,
-        question.grammarPoint
+        isStandardVsSpoken
+          ? stripRegisterHeading(question.grammarPoint)
+          : question.grammarPoint
       );
       setFuriganaAwareText(
         elements.grammarFormation,
-        question.formation
+        isStandardVsSpoken
+          ? stripRegisterHeading(question.formation)
+          : question.formation
       );
       setFuriganaAwareText(
         elements.grammarCasual,
-        question.casualForm
+        isStandardVsSpoken
+          ? stripRegisterHeading(question.casualForm)
+          : question.casualForm
       );
     }
 
