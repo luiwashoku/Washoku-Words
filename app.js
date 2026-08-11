@@ -529,7 +529,11 @@
       return question.grammarPoint;
     }
 
-    if (question.type === "knife-form") {
+    if (
+      question.type === "knife-form" ||
+      state.selectedLesson?.id === "page76-organs-others" ||
+      state.selectedLesson?.id === "page83-pork-organs"
+    ) {
       return question.question;
     }
 
