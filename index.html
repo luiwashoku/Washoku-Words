@@ -204,6 +204,17 @@
           >
             <span aria-hidden="true">ふり</span>
           </button>
+
+          <button
+            id="grammarIndexButton"
+            class="hidden"
+            type="button"
+            aria-label="Show all questions"
+            aria-haspopup="dialog"
+            title="問題一覧を見る"
+          >
+            <span aria-hidden="true">全</span>
+          </button>
         </div>
 
         <span id="questionProgress">
@@ -237,6 +248,29 @@
             <p id="introductionEnglish"></p>
           </section>
         </div>
+      </dialog>
+
+      <dialog
+        id="grammarIndexDialog"
+        aria-labelledby="grammarIndexTitle"
+      >
+        <div class="grammarIndexHeader">
+          <div>
+            <span>問題一覧</span>
+            <h2 id="grammarIndexTitle">All grammar points</h2>
+          </div>
+
+          <button
+            id="closeGrammarIndex"
+            type="button"
+            aria-label="Close grammar point list"
+          ></button>
+        </div>
+
+        <div
+          id="grammarIndexList"
+          class="grammarIndexList"
+        ></div>
       </dialog>
 
       <div class="questionCard">

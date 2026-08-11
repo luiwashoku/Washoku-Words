@@ -92,6 +92,8 @@ button:focus-visible {
 #lessonIntroductionButton,
 #closeIntroduction,
 #furiganaToggle,
+#grammarIndexButton,
+#closeGrammarIndex,
 #speakQuestion,
 #speakAnswers,
 #speakExplanation {
@@ -115,6 +117,8 @@ button:focus-visible {
 #lessonIntroductionButton:active,
 #closeIntroduction:active,
 #furiganaToggle:active,
+#grammarIndexButton:active,
+#closeGrammarIndex:active,
 #speakQuestion:active,
 #speakAnswers:active,
 #speakExplanation:active {
@@ -393,6 +397,10 @@ button:focus-visible {
   stroke-linejoin: round;
 }
 
+#lessonIntroductionButton svg > circle:first-child {
+  fill: var(--pulse);
+}
+
 #lessonIntroductionButton svg circle:not(:first-child) {
   fill: currentColor;
   stroke: none;
@@ -410,11 +418,17 @@ button:focus-visible {
   text-decoration-thickness: 2px;
 }
 
+#grammarIndexButton {
+  background: var(--bronze);
+  font-size: 18px;
+}
+
 .furigana-hidden .furiganaReading {
   display: none;
 }
 
-#lessonIntroductionDialog {
+#lessonIntroductionDialog,
+#grammarIndexDialog {
   width: min(calc(100% - 28px), 620px);
   max-height: min(84vh, 760px);
   padding: 0;
@@ -426,8 +440,97 @@ button:focus-visible {
   box-shadow: 7px 7px 0 var(--ink);
 }
 
-#lessonIntroductionDialog::backdrop {
+#lessonIntroductionDialog::backdrop,
+#grammarIndexDialog::backdrop {
   background: rgb(5 5 5 / 62%);
+}
+
+.grammarIndexHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px;
+  border-bottom: 2px solid var(--ink);
+  background: var(--horizon);
+}
+
+.grammarIndexHeader span {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.09em;
+}
+
+.grammarIndexHeader h2 {
+  margin: 0;
+  font-size: clamp(22px, 6vw, 31px);
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+}
+
+#closeGrammarIndex {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  flex-basis: 44px;
+}
+
+#closeGrammarIndex::before,
+#closeGrammarIndex::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 3px;
+  border-radius: 999px;
+  background: currentColor;
+  content: "";
+}
+
+#closeGrammarIndex::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+#closeGrammarIndex::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.grammarIndexList {
+  display: grid;
+  gap: 10px;
+  padding: 18px;
+}
+
+.grammarIndexItem {
+  display: grid;
+  grid-template-columns: 3ch minmax(0, 1fr);
+  gap: 10px;
+  width: 100%;
+  padding: 13px 14px;
+  border: 2px solid var(--ink);
+  border-radius: 16px;
+  background: var(--paper);
+  text-align: left;
+  font-weight: 800;
+  line-height: 1.4;
+  box-shadow: 3px 3px 0 var(--ink);
+  cursor: pointer;
+}
+
+.grammarIndexItem[aria-current="true"] {
+  background: var(--pulse);
+}
+
+.grammarIndexItem:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 var(--ink);
+}
+
+.grammarIndexNumber {
+  font-variant-numeric: tabular-nums;
+  opacity: 0.65;
 }
 
 .introductionHeader {

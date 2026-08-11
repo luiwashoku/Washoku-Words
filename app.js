@@ -58,6 +58,19 @@
     progress: "washoku-foundation-progress"
   };
 
+  const QUESTION_INDEX_LABELS = {
+    "page04-q06": "沸(わ)かす・茹(ゆ)でる",
+    "page04-q11": "煮込(にこ)む",
+    "page05-q08": "すり鉢(ばち)・すりこぎ",
+    "page05-q09": "まな板(いた)・包丁(ほうちょう)",
+    "page52-q06": "さっと火(ひ)を通(とお)す",
+    "page52-q09": "余熱(よねつ)で火(ひ)を入(い)れる",
+    "page52-q16": "焼(や)き目(め)を付(つ)ける",
+    "page52-q17": "旨味(うまみ)を閉(と)じ込(こ)める",
+    "page52-q24": "メイラード反応(はんのう)",
+    "page52-q25": "カラメル化(か)"
+  };
+
   const state = {
     catalog: [],
     selectedCategory: null,
@@ -65,7 +78,7 @@
     questions: [],
     currentQuestionIndex: 0,
     answerLocked: false,
-    furiganaVisible: true,
+    furiganaVisible: false,
     stats: {
       answered: 0,
       correct: 0
@@ -137,6 +150,21 @@
 
     elements.furiganaToggle =
       document.getElementById("furiganaToggle");
+
+    elements.grammarIndexButton =
+      document.getElementById("grammarIndexButton");
+
+    elements.grammarIndexDialog =
+      document.getElementById("grammarIndexDialog");
+
+    elements.grammarIndexList =
+      document.getElementById("grammarIndexList");
+
+    elements.grammarIndexTitle =
+      document.getElementById("grammarIndexTitle");
+
+    elements.closeGrammarIndex =
+      document.getElementById("closeGrammarIndex");
 
     elements.questionVisual =
       document.getElementById("questionVisual");
@@ -301,6 +329,158 @@
       "click",
       toggleFurigana
     );
+
+    elements.grammarIndexButton.addEventListener(
+      "click",
+      openGrammarIndex
+    );
+
+    elements.closeGrammarIndex.addEventListener(
+      "click",
+      closeGrammarIndex
+    );
+
+    elements.grammarIndexDialog.addEventListener(
+      "click",
+      closeGrammarIndexFromBackdrop
+    );
+  }
+
+  function openGrammarIndex() {
+    if (!hasQuestionIndex(state.selectedLesson)) {
+      return;
+    }
+
+    playSound("click");
+    elements.grammarIndexTitle.textContent =
+      getGrammarIndexTitle();
+    renderGrammarIndex();
+    elements.grammarIndexDialog.showModal();
+
+    requestAnimationFrame(() => {
+      elements.grammarIndexList
+        .querySelector('[aria-current="true"]')
+        ?.scrollIntoView({ block: "center" });
+    });
+  }
+
+  function renderGrammarIndex() {
+    const items = state.questions.map(
+      (question, questionIndex) => {
+        const button = document.createElement("button");
+        const number = document.createElement("span");
+        const label = document.createElement("span");
+
+        button.type = "button";
+        button.className = "grammarIndexItem";
+        button.setAttribute(
+          "aria-current",
+          String(questionIndex === state.currentQuestionIndex)
+        );
+
+        number.className = "grammarIndexNumber";
+        number.textContent = `${questionIndex + 1}.`;
+        setFuriganaAwareText(
+          label,
+          getGrammarIndexLabel(question)
+        );
+
+        button.append(number, label);
+        button.addEventListener("click", () => {
+          playSound("click");
+          closeGrammarIndex();
+
+          if (questionIndex !== state.currentQuestionIndex) {
+            state.currentQuestionIndex = questionIndex;
+            renderCurrentQuestion();
+          }
+        });
+
+        return button;
+      }
+    );
+
+    elements.grammarIndexList.replaceChildren(...items);
+  }
+
+  function getGrammarIndexTitle() {
+    if (state.selectedLesson?.id === "golden-grammar") {
+      return "All grammar points";
+    }
+
+    if (state.selectedLesson?.id === "mimetic-words") {
+      return "All mimetic words";
+    }
+
+    return state.selectedLesson?.title || "All questions";
+  }
+
+  function getGrammarIndexLabel(question) {
+    if (question.grammarPoint) {
+      return question.grammarPoint;
+    }
+
+    if (question.type === "knife-form") {
+      return question.question;
+    }
+
+    if (QUESTION_INDEX_LABELS[question.id]) {
+      return QUESTION_INDEX_LABELS[question.id];
+    }
+
+    const correctAnswer =
+      question.answers[question.correct];
+
+    if (state.selectedLesson?.category === "basics") {
+      if (correctAnswer?.includes("→")) {
+        return correctAnswer;
+      }
+
+      const japaneseTargets = Array.from(
+        question.jpExplanation?.matchAll(/「([^」]+)」/g) || [],
+        (match) => match[1]
+      );
+
+      if (japaneseTargets.length > 0) {
+        const normalizedAnswer =
+          normalizeIndexLabel(correctAnswer);
+        const matchingTargets = japaneseTargets
+          .filter((target) =>
+            normalizedAnswer.includes(
+              normalizeIndexLabel(target)
+            )
+          )
+          .sort(
+            (first, second) =>
+              normalizeIndexLabel(second).length -
+              normalizeIndexLabel(first).length
+          );
+
+        return matchingTargets[0] || japaneseTargets[0];
+      }
+    }
+
+    return correctAnswer || question.id;
+  }
+
+  function normalizeIndexLabel(value) {
+    return String(value || "")
+      .replace(/\([ぁ-ゖァ-ヺー・\s]+\)/g, "")
+      .replace(/[。！？\s]/g, "");
+  }
+
+  function hasQuestionIndex(lesson) {
+    return Boolean(lesson && !lesson.isRandom);
+  }
+
+  function closeGrammarIndex() {
+    elements.grammarIndexDialog.close();
+  }
+
+  function closeGrammarIndexFromBackdrop(event) {
+    if (event.target === elements.grammarIndexDialog) {
+      closeGrammarIndex();
+    }
   }
 
   function toggleFurigana() {
@@ -978,7 +1158,7 @@
       }
 
       state.selectedLesson = lesson;
-      state.furiganaVisible = true;
+      state.furiganaVisible = false;
       updateFuriganaControl();
 
       state.questions =
@@ -1216,7 +1396,7 @@
         title: "おまかせ問題",
         isRandom: true
       };
-      state.furiganaVisible = true;
+      state.furiganaVisible = false;
       updateFuriganaControl();
       state.questions = selectedQuestions;
       state.currentQuestionIndex = 0;
@@ -1237,6 +1417,11 @@
   }
 
   function updateLessonIntroduction() {
+    elements.grammarIndexButton.classList.toggle(
+      "hidden",
+      !hasQuestionIndex(state.selectedLesson)
+    );
+
     const introduction =
       state.selectedLesson?.introduction;
     const isAvailable = Boolean(
