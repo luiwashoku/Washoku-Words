@@ -728,8 +728,14 @@
 
     const question =
       state.questions[state.currentQuestionIndex];
-    const japaneseText =
-      getJapaneseSpeechText(question?.question);
+    const japaneseText = getJapaneseSpeechText(
+      question?.question,
+      {
+        stripDialogueLabels:
+          state.selectedLesson?.id ===
+          "make-these-automatic"
+      }
+    );
 
     speakJapaneseText(
       japaneseText,
@@ -742,7 +748,9 @@
     const question =
       state.questions[state.currentQuestionIndex];
     const japaneseText = question?.answers
-      ?.map(getJapaneseSpeechText)
+      ?.map((answer) =>
+        getJapaneseSpeechText(answer)
+      )
       .filter(Boolean)
       .join("。 ");
 
@@ -856,12 +864,19 @@
     window.speechSynthesis.speak(utterance);
   }
 
-  function getJapaneseSpeechText(text) {
+  function getJapaneseSpeechText(
+    text,
+    { stripDialogueLabels = false } = {}
+  ) {
     if (typeof text !== "string") {
       return "";
     }
 
-    return text
+    const preparedText = stripDialogueLabels
+      ? text.replace(/^[ＡＢAB][：:]\s*/gm, "")
+      : text;
+
+    return preparedText
       .split("\n")
       .filter(isPredominantlyJapaneseLine)
       .join(" ")
