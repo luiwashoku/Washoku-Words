@@ -959,10 +959,24 @@
   "questionCount": 20
 },
   {
+  "id": "make-these-automatic",
+  "category": "conversation",
+  "page": "Automatic",
+  "sortOrder": 74,
+  "title": "Make these automatic",
+  "menuColor": "yellow",
+  "file": "data/make-these-automatic.json",
+  "introduction": {
+    "ja": "会話(かいわ)をつなぐ言葉(ことば)、自然(しぜん)な反応(はんのう)、意見(いけん)、理由(りゆう)、習慣(しゅうかん)、経験(けいけん)、予定(よてい)など、毎日(まいにち)の会話(かいわ)で何度(なんど)も使(つか)う150のチャンクを練習(れんしゅう)します。短(みじか)い二人(ふたり)の会話(かいわ)を読(よ)み、空欄(くうらん)に最(もっと)も自然(しぜん)に入(はい)る表現(ひょうげん)を選(えら)びます。",
+    "en": "Make 150 high-frequency Japanese chunks automatic through short, natural two-person exchanges. Choose the expression that best completes each everyday conversation, including reactions, opinions, explanations, habits, experiences, plans and decisions."
+  },
+  "questionCount": 150
+},
+  {
   "id": "standard-vs-spoken",
   "category": "conversation",
   "page": "Spoken",
-  "sortOrder": 74,
+  "sortOrder": 75,
   "title": "Standard vs Spoken",
   "menuColor": "yellow",
   "file": "data/standard-vs-spoken.json",
