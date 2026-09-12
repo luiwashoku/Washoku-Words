@@ -8,15 +8,15 @@
     :root { --page-background: #f2efe9; font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Hiragino Sans", "Yu Gothic", sans-serif; }
     * { box-sizing: border-box; }
     html, body { width: 100%; min-height: 100%; margin: 0; background: var(--page-background); }
-    body { display: flex; min-height: 100svh; flex-direction: column; align-items: center; justify-content: center; overflow: hidden; }
-    .vegetable-test { position: relative; width: min(100vw, calc((100svh - 76px) * 1.414286)); aspect-ratio: 1683 / 1190; max-height: calc(100svh - 76px); flex: 0 0 auto; container-type: inline-size; background: url("assets/vegetables-page.png") center / contain no-repeat; }
-    .rollover-title { position: absolute; top: -2%; left: 50%; z-index: 1; width: max-content; max-width: 96%; margin: 0; padding: clamp(4px, 0.35cqw, 6px) clamp(7px, 0.65cqw, 11px); transform: translateX(-50%); border: clamp(1px, 0.12cqw, 2px) solid #111; border-radius: clamp(4px, 0.42cqw, 7px); background: rgba(247, 244, 238, 0.94); box-shadow: clamp(1px, 0.12cqw, 2px) clamp(1px, 0.12cqw, 2px) 0 #111; font-size: clamp(14px, 2.25cqw, 36px); font-weight: 800; line-height: 1.15; text-align: center; }
+    body { --top-space: max(28px, env(safe-area-inset-top)); --bottom-space: max(32px, env(safe-area-inset-bottom)); --image-height: calc(100svh - var(--top-space) - var(--bottom-space) - 58px); display: flex; min-height: 100svh; padding: var(--top-space) 0 var(--bottom-space); flex-direction: column; align-items: center; justify-content: center; overflow: hidden; }
+    .vegetable-test { position: relative; width: min(100vw, calc(var(--image-height) * 1683 / 1190)); aspect-ratio: 1683 / 1190; max-height: var(--image-height); flex: 0 0 auto; container-type: inline-size; background: url("assets/vegetables-page.png") center / contain no-repeat; }
+    .rollover-title { position: absolute; top: 0; left: 50%; z-index: 1; width: max-content; max-width: 96%; margin: 0; padding: clamp(4px, 0.35cqw, 6px) clamp(7px, 0.65cqw, 11px); transform: translateX(-50%); border: clamp(1px, 0.12cqw, 2px) solid #111; border-radius: clamp(4px, 0.42cqw, 7px); background: rgba(247, 244, 238, 0.94); box-shadow: clamp(1px, 0.12cqw, 2px) clamp(1px, 0.12cqw, 2px) 0 #111; font-size: clamp(14px, 2.25cqw, 36px); font-weight: 800; line-height: 1.15; text-align: center; }
     .vegetable { position: absolute; left: calc(var(--x) * 1%); top: calc(var(--y) * 1%); display: grid; width: var(--hit-width, clamp(42px, 10.5%, 150px)); min-height: clamp(42px, 6vw, 74px); padding: 5px 7px; transform: translate(-50%, -50%); place-items: center; border: 0; border-radius: 12px; color: #111; background: transparent; cursor: pointer; -webkit-tap-highlight-color: transparent; }
     .vegetable:focus-visible { outline: 3px solid #3939ff; outline-offset: 2px; }
     .answer-bubble { display: none; padding: clamp(9px, 0.85cqw, 14px) clamp(4px, 0.42cqw, 7px) clamp(3px, 0.24cqw, 4px); border: clamp(1px, 0.12cqw, 2px) solid #111; border-radius: clamp(4px, 0.42cqw, 7px); background: rgba(247, 244, 238, 0.94); box-shadow: clamp(1px, 0.12cqw, 2px) clamp(1px, 0.12cqw, 2px) 0 #111; font-size: clamp(8px, 1.15cqw, 19px); font-weight: 800; line-height: 1.15; white-space: nowrap; }
     .vegetable rt { font-size: 0.56em; font-weight: 700; }
     .vegetable.revealed .answer-bubble { display: block; }
-    .page-navigation { z-index: 2; display: flex; flex: 0 0 auto; gap: 12px; margin-top: 8px; padding-bottom: env(safe-area-inset-bottom); }
+    .page-navigation { z-index: 2; display: flex; flex: 0 0 auto; gap: 12px; margin-top: 8px; }
     .page-arrow { display: grid; width: 50px; height: 50px; padding: 0; place-items: center; border: 2px solid #111; border-radius: 50%; color: #111; background: #f7f4ee; box-shadow: 3px 3px 0 #111; cursor: pointer; }
     .page-arrow svg { width: 25px; height: 25px; fill: none; stroke: currentColor; stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; }
     .page-arrow:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 #111; }
@@ -830,6 +830,21 @@
         ["杜若", "かきつばた", 59.4, 56.3], ["百合", "ゆり", 71.3, 56.3], ["菜の花", "なのはな", 82.0, 56.3],
         ["蒲公英", "たんぽぽ", 17.8, 73.1], ["秋桜", "コスモス", 28.5, 73.1], ["金木犀", "きんもくせい", 38.6, 73.1], ["沈丁花", "じんちょうげ", 48.7, 73.1],
         ["水仙", "すいせん", 59.4, 73.1], ["雪割草", "ゆきわりそう", 71.3, 73.1], ["福寿草", "ふくじゅそう", 82.0, 73.1]
+      ]
+    }, {
+      image: "assets/fruits-nuts-japanese-vegetation-page.png",
+      title: "実・木の実と日本の自然（み・きのみとにほんのしぜん）",
+      label: "Japanese fruits, nuts and vegetation vocabulary test",
+      hitWidth: "10%",
+      items: [
+        ["柿", "かき", 19.0, 23.5], ["栗", "くり", 31.0, 23.5], ["銀杏", "ぎんなん", 42.5, 23.5],
+        ["梅", "うめ", 55.0, 23.5], ["柚子", "ゆず", 67.0, 23.5], ["蜜柑", "みかん", 80.5, 23.5],
+        ["金柑", "きんかん", 19.0, 40.0], ["山椒", "さんしょう", 31.0, 40.0], ["枇杷", "びわ", 42.5, 40.0],
+        ["無花果", "いちじく", 56.0, 40.0], ["山桃", "やまもも", 69.5, 40.0], ["団栗", "どんぐり", 81.5, 40.0],
+        ["竹林", "ちくりん", 18.0, 57.0], ["杉林", "すぎばやし", 28.5, 57.0], ["松林", "まつばやし", 40.5, 57.0],
+        ["雑木林", "ぞうきばやし", 54.0, 57.0], ["苔庭", "こけにわ", 67.5, 57.0], ["生垣", "いけがき", 80.5, 59.0],
+        ["盆栽", "ぼんさい", 19.0, 76.0], ["枝垂れ桜", "しだれざくら", 33.0, 76.0],
+        ["枝垂れ柳", "しだれやなぎ", 47.5, 76.0], ["紅葉", "こうよう", 63.0, 76.0], ["新緑", "しんりょく", 79.5, 76.0]
       ]
     }];
     const test = document.getElementById("vegetableTest");
