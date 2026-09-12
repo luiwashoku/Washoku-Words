@@ -9,10 +9,10 @@
     * { box-sizing: border-box; }
     html, body { width: 100%; min-height: 100%; margin: 0; background: var(--page-background); }
     body { display: flex; min-height: 100svh; flex-direction: column; align-items: center; justify-content: center; overflow: hidden; }
-    .vegetable-test { position: relative; width: min(100vw, calc((100svh - 76px) * 1.414286)); aspect-ratio: 1683 / 1190; max-height: calc(100svh - 76px); flex: 0 0 auto; background: url("assets/vegetables-page.png") center / contain no-repeat; }
+    .vegetable-test { position: relative; width: min(100vw, calc((100svh - 76px) * 1.414286)); aspect-ratio: 1683 / 1190; max-height: calc(100svh - 76px); flex: 0 0 auto; container-type: inline-size; background: url("assets/vegetables-page.png") center / contain no-repeat; }
     .vegetable { position: absolute; left: calc(var(--x) * 1%); top: calc(var(--y) * 1%); display: grid; width: clamp(42px, 10.5%, 150px); min-height: clamp(42px, 6vw, 74px); padding: 5px 7px; transform: translate(-50%, -50%); place-items: center; border: 0; border-radius: 12px; color: #111; background: transparent; cursor: pointer; -webkit-tap-highlight-color: transparent; }
     .vegetable:focus-visible { outline: 3px solid #3939ff; outline-offset: 2px; }
-    .vegetable ruby { display: none; padding: 9px 7px 4px; border: 2px solid #111; border-radius: 7px; background: rgba(247, 244, 238, 0.94); box-shadow: 2px 2px 0 #111; font-size: clamp(11px, 1.35vw, 21px); font-weight: 800; line-height: 1.15; white-space: nowrap; }
+    .vegetable ruby { display: none; padding: clamp(5px, 0.55cqw, 9px) clamp(4px, 0.42cqw, 7px) clamp(3px, 0.24cqw, 4px); border: clamp(1px, 0.12cqw, 2px) solid #111; border-radius: clamp(4px, 0.42cqw, 7px); background: rgba(247, 244, 238, 0.94); box-shadow: clamp(1px, 0.12cqw, 2px) clamp(1px, 0.12cqw, 2px) 0 #111; font-size: clamp(8px, 1.15cqw, 19px); font-weight: 800; line-height: 1.15; white-space: nowrap; }
     .vegetable rt { font-size: 0.56em; font-weight: 700; }
     .vegetable.revealed ruby { display: ruby; }
     .page-navigation { z-index: 2; display: flex; flex: 0 0 auto; gap: 12px; margin-top: 8px; padding-bottom: env(safe-area-inset-bottom); }
