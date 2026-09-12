@@ -10,8 +10,8 @@
     html, body { width: 100%; min-height: 100%; margin: 0; background: var(--page-background); }
     body { display: flex; min-height: 100svh; flex-direction: column; align-items: center; justify-content: center; overflow: hidden; }
     .vegetable-test { position: relative; width: min(100vw, calc((100svh - 76px) * 1.414286)); aspect-ratio: 1683 / 1190; max-height: calc(100svh - 76px); flex: 0 0 auto; container-type: inline-size; background: url("assets/vegetables-page.png") center / contain no-repeat; }
-    .rollover-title { position: absolute; top: 1.8%; left: 50%; z-index: 1; margin: 0; transform: translateX(-50%); font-size: clamp(14px, 2.25cqw, 36px); font-weight: 800; line-height: 1.15; white-space: nowrap; }
-    .vegetable { position: absolute; left: calc(var(--x) * 1%); top: calc(var(--y) * 1%); display: grid; width: clamp(42px, 10.5%, 150px); min-height: clamp(42px, 6vw, 74px); padding: 5px 7px; transform: translate(-50%, -50%); place-items: center; border: 0; border-radius: 12px; color: #111; background: transparent; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+    .rollover-title { position: absolute; top: -2%; left: 50%; z-index: 1; width: max-content; max-width: 96%; margin: 0; padding: clamp(4px, 0.35cqw, 6px) clamp(7px, 0.65cqw, 11px); transform: translateX(-50%); border: clamp(1px, 0.12cqw, 2px) solid #111; border-radius: clamp(4px, 0.42cqw, 7px); background: rgba(247, 244, 238, 0.94); box-shadow: clamp(1px, 0.12cqw, 2px) clamp(1px, 0.12cqw, 2px) 0 #111; font-size: clamp(14px, 2.25cqw, 36px); font-weight: 800; line-height: 1.15; text-align: center; }
+    .vegetable { position: absolute; left: calc(var(--x) * 1%); top: calc(var(--y) * 1%); display: grid; width: var(--hit-width, clamp(42px, 10.5%, 150px)); min-height: clamp(42px, 6vw, 74px); padding: 5px 7px; transform: translate(-50%, -50%); place-items: center; border: 0; border-radius: 12px; color: #111; background: transparent; cursor: pointer; -webkit-tap-highlight-color: transparent; }
     .vegetable:focus-visible { outline: 3px solid #3939ff; outline-offset: 2px; }
     .answer-bubble { display: none; padding: clamp(9px, 0.85cqw, 14px) clamp(4px, 0.42cqw, 7px) clamp(3px, 0.24cqw, 4px); border: clamp(1px, 0.12cqw, 2px) solid #111; border-radius: clamp(4px, 0.42cqw, 7px); background: rgba(247, 244, 238, 0.94); box-shadow: clamp(1px, 0.12cqw, 2px) clamp(1px, 0.12cqw, 2px) 0 #111; font-size: clamp(8px, 1.15cqw, 19px); font-weight: 800; line-height: 1.15; white-space: nowrap; }
     .vegetable rt { font-size: 0.56em; font-weight: 700; }
@@ -474,6 +474,57 @@
         ["かつお節", "かつおぶし", 68.3, 71.4],
         ["刻み海苔", "きざみのり", 80.8, 71.4]
       ]
+    }, {
+      image: "assets/tableware-vessels-page.png",
+      title: "和食の器（わしょくのうつわ）",
+      label: "Japanese tableware and vessels vocabulary test",
+      hitWidth: "8%",
+      items: [
+        ["器", "うつわ", 15.5, 21.0], ["茶碗", "ちゃわん", 23.8, 21.0], ["汁椀", "しるわん", 32.1, 21.0],
+        ["丼", "どんぶり", 40.4, 21.0], ["小鉢", "こばち", 48.7, 21.0], ["小皿", "こざら", 56.4, 21.0],
+        ["中皿", "ちゅうざら", 64.8, 21.0], ["大皿", "おおざら", 74.3, 21.0], ["取り皿", "とりざら", 84.4, 21.0],
+        ["丸皿", "まるざら", 15.5, 31.5], ["角皿", "かくざら", 24.1, 31.5], ["長角皿", "ちょうかくざら", 34.2, 31.5],
+        ["半月皿", "はんげつざら", 45.2, 31.5], ["八角皿", "はっかくざら", 54.1, 31.5], ["変形皿", "へんけいざら", 64.2, 31.5],
+        ["高台皿", "こうだいざら", 74.3, 31.5], ["高坏", "たかつき", 84.1, 31.5],
+        ["鉢", "はち", 16.0, 43.3], ["中鉢", "ちゅうばち", 26.1, 43.3], ["大鉢", "おおばち", 38.6, 43.3],
+        ["浅鉢", "あさばち", 50.5, 43.3], ["深鉢", "ふかばち", 61.2, 43.3], ["盛鉢", "もりばち", 71.9, 43.3],
+        ["片口", "かたくち", 83.2, 43.3],
+        ["向付", "むこうづけ", 16.0, 54.6], ["吸物椀", "すいものわん", 25.0, 54.6], ["煮物椀", "にものわん", 32.7, 54.6],
+        ["蓋物", "ふたもの", 40.4, 54.6], ["蒸し碗", "むしわん", 47.5, 54.6], ["そば猪口", "そばちょこ", 55.3, 54.6],
+        ["薬味皿", "やくみざら", 61.2, 54.6], ["刺身皿", "さしみざら", 71.3, 54.6], ["焼物皿", "やきものざら", 83.2, 54.6],
+        ["徳利", "とっくり", 15.5, 68.1], ["片口", "かたくち", 22.6, 68.1], ["お猪口", "おちょこ", 30.3, 68.1],
+        ["ぐい呑み", "ぐいのみ", 36.8, 68.1], ["盃", "さかずき", 44.6, 68.1],
+        ["湯呑み", "ゆのみ", 51.7, 68.1], ["急須", "きゅうす", 61.2, 68.1], ["土瓶", "どびん", 73.7, 68.1],
+        ["抹茶碗", "まっちゃわん", 84.4, 68.1],
+        ["箸", "はし", 20.2, 80.7], ["箸置き", "はしおき", 34.5, 80.7], ["れんげ", "れんげ", 46.3, 80.7],
+        ["お盆", "おぼん", 61.2, 80.7], ["敷物", "しきもの", 79.0, 80.7]
+      ]
+    }, {
+      image: "assets/fermented-foods-seasonings-page.png",
+      title: "発酵食品と発酵調味料（はっこうしょくひんとはっこうちょうみりょう）",
+      label: "Japanese fermented foods and seasonings vocabulary test",
+      hitWidth: "7.5%",
+      items: [
+        ["麹", "こうじ", 15.5, 18.5], ["米麹", "こめこうじ", 25.6, 18.5], ["麦麹", "むぎこうじ", 35.7, 18.5],
+        ["豆麹", "まめこうじ", 45.8, 18.5], ["生麹", "なまこうじ", 56.4, 18.5], ["乾燥麹", "かんそうこうじ", 67.1, 18.5],
+        ["種麹", "たねこうじ", 81.4, 18.5],
+        ["塩麹", "しおこうじ", 19.0, 29.4], ["醤油麹", "しょうゆこうじ", 33.3, 29.4], ["玉ねぎ麹", "たまねぎこうじ", 47.5, 29.4],
+        ["にんにく麹", "にんにくこうじ", 64.2, 29.4], ["甘酒", "あまざけ", 79.0, 29.4],
+        ["味噌", "みそ", 13.7, 40.3], ["米味噌", "こめみそ", 24.1, 40.3], ["麦味噌", "むぎみそ", 34.2, 40.3],
+        ["豆味噌", "まめみそ", 44.3, 40.3], ["白味噌", "しろみそ", 54.4, 40.3], ["赤味噌", "あかみそ", 64.8, 40.3],
+        ["八丁味噌", "はっちょうみそ", 75.5, 40.3], ["合わせ味噌", "あわせみそ", 86.2, 40.3],
+        ["醤油", "しょうゆ", 13.7, 51.3], ["濃口醤油", "こいくちしょうゆ", 25.0, 51.3], ["薄口醤油", "うすくちしょうゆ", 36.8, 51.3],
+        ["たまり醤油", "たまりしょうゆ", 48.1, 51.3], ["白醤油", "しろしょうゆ", 60.0, 51.3], ["再仕込み醤油", "さいしこみしょうゆ", 71.3, 51.3],
+        ["諸味", "もろみ", 86.2, 51.3],
+        ["酢", "す", 12.5, 62.2], ["米酢", "こめず", 20.2, 62.2], ["黒酢", "くろず", 28.5, 62.2],
+        ["穀物酢", "こくもつす", 36.2, 62.2], ["玄米酢", "げんまいす", 44.0, 62.2],
+        ["日本酒", "にほんしゅ", 51.7, 62.2], ["料理酒", "りょうりしゅ", 60.0, 62.2], ["味醂", "みりん", 67.7, 62.2],
+        ["酒粕", "さけかす", 77.2, 62.2], ["みりん粕", "みりんかす", 86.2, 62.2],
+        ["ぬか漬け", "ぬかづけ", 13.7, 73.1], ["ぬか床", "ぬかどこ", 24.7, 73.1], ["米ぬか", "こめぬか", 35.1, 73.1],
+        ["すぐき漬け", "すぐきづけ", 45.2, 73.1], ["野沢菜漬け", "のざわなづけ", 55.3, 73.1], ["高菜漬け", "たかなづけ", 65.4, 73.1],
+        ["柴漬け", "しばづけ", 75.5, 73.1], ["たくあん", "たくあん", 85.6, 73.1],
+        ["納豆", "なっとう", 14.9, 84.0], ["寺納豆", "てらなっとう", 26.7, 84.0], ["浜納豆", "はまなっとう", 38.6, 84.0]
+      ]
     }];
     const test = document.getElementById("vegetableTest");
     const previousPage = document.querySelector(".page-arrow.previous");
@@ -524,6 +575,7 @@
         button.type = "button";
         button.style.setProperty("--x", x);
         button.style.setProperty("--y", y);
+        if (page.hitWidth) button.style.setProperty("--hit-width", page.hitWidth);
         button.setAttribute("aria-label", `Reveal ${name}`);
         button.setAttribute("aria-pressed", "false");
         const bubble = document.createElement("span");
