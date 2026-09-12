@@ -10,11 +10,12 @@
     html, body { width: 100%; min-height: 100%; margin: 0; background: var(--page-background); }
     body { display: flex; min-height: 100svh; flex-direction: column; align-items: center; justify-content: center; overflow: hidden; }
     .vegetable-test { position: relative; width: min(100vw, calc((100svh - 76px) * 1.414286)); aspect-ratio: 1683 / 1190; max-height: calc(100svh - 76px); flex: 0 0 auto; container-type: inline-size; background: url("assets/vegetables-page.png") center / contain no-repeat; }
+    .rollover-title { position: absolute; top: 1.8%; left: 50%; z-index: 1; margin: 0; transform: translateX(-50%); font-size: clamp(14px, 2.25cqw, 36px); font-weight: 800; line-height: 1.15; white-space: nowrap; }
     .vegetable { position: absolute; left: calc(var(--x) * 1%); top: calc(var(--y) * 1%); display: grid; width: clamp(42px, 10.5%, 150px); min-height: clamp(42px, 6vw, 74px); padding: 5px 7px; transform: translate(-50%, -50%); place-items: center; border: 0; border-radius: 12px; color: #111; background: transparent; cursor: pointer; -webkit-tap-highlight-color: transparent; }
     .vegetable:focus-visible { outline: 3px solid #3939ff; outline-offset: 2px; }
-    .vegetable ruby { display: none; padding: clamp(5px, 0.55cqw, 9px) clamp(4px, 0.42cqw, 7px) clamp(3px, 0.24cqw, 4px); border: clamp(1px, 0.12cqw, 2px) solid #111; border-radius: clamp(4px, 0.42cqw, 7px); background: rgba(247, 244, 238, 0.94); box-shadow: clamp(1px, 0.12cqw, 2px) clamp(1px, 0.12cqw, 2px) 0 #111; font-size: clamp(8px, 1.15cqw, 19px); font-weight: 800; line-height: 1.15; white-space: nowrap; }
+    .answer-bubble { display: none; padding: clamp(9px, 0.85cqw, 14px) clamp(4px, 0.42cqw, 7px) clamp(3px, 0.24cqw, 4px); border: clamp(1px, 0.12cqw, 2px) solid #111; border-radius: clamp(4px, 0.42cqw, 7px); background: rgba(247, 244, 238, 0.94); box-shadow: clamp(1px, 0.12cqw, 2px) clamp(1px, 0.12cqw, 2px) 0 #111; font-size: clamp(8px, 1.15cqw, 19px); font-weight: 800; line-height: 1.15; white-space: nowrap; }
     .vegetable rt { font-size: 0.56em; font-weight: 700; }
-    .vegetable.revealed ruby { display: ruby; }
+    .vegetable.revealed .answer-bubble { display: block; }
     .page-navigation { z-index: 2; display: flex; flex: 0 0 auto; gap: 12px; margin-top: 8px; padding-bottom: env(safe-area-inset-bottom); }
     .page-arrow { display: grid; width: 50px; height: 50px; padding: 0; place-items: center; border: 2px solid #111; border-radius: 50%; color: #111; background: #f7f4ee; box-shadow: 3px 3px 0 #111; cursor: pointer; }
     .page-arrow svg { width: 25px; height: 25px; fill: none; stroke: currentColor; stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; }
@@ -35,6 +36,7 @@
   <script>
     const rolloverPages = [{
       image: "assets/vegetables-page.png",
+      title: "野菜（やさい）",
       label: "Japanese vegetable vocabulary test",
       items: [
       ["白菜", "はくさい", 22.6, 13.7], ["キャベツ", "きゃべつ", 32.3, 13.7], ["ほうれん草", "ほうれんそう", 41.4, 13.7], ["小松菜", "こまつな", 49.9, 13.7], ["水菜", "みずな", 58.0, 13.7], ["レタス", "れたす", 68.6, 13.7], ["青梗菜", "ちんげんさい", 79.3, 13.7],
@@ -47,6 +49,7 @@
       ]
     }, {
       image: "assets/aromatic-leaves-page.png",
+      title: "香味野菜と葉もの（こうみやさいとはもの）",
       label: "Japanese aromatic vegetables and leaves vocabulary test",
       items: [
         ["大葉・青じそ", "おおば・あおじそ", 18.1, 39.2],
@@ -63,6 +66,7 @@
       ]
     }, {
       image: "assets/western-herbs-page.png",
+      title: "ハーブ（はーぶ）",
       label: "Japanese Western herbs vocabulary test",
       items: [
         ["バジル", "ばじる", 18.2, 22.9],
@@ -92,6 +96,7 @@
       ]
     }, {
       image: "assets/fruits-page.png",
+      title: "果物（くだもの）",
       label: "Japanese fruits vocabulary test",
       items: [
         ["りんご", "りんご", 18.1, 24.1],
@@ -124,6 +129,7 @@
       ]
     }, {
       image: "assets/berries-melons-tropical-page.png",
+      title: "ベリー類・瓜・南国の果物（べりーるい・うり・なんごくのくだもの）",
       label: "Japanese berries, melons, and tropical fruits vocabulary test",
       items: [
         ["いちご", "いちご", 18.4, 20.2],
@@ -154,6 +160,7 @@
       ]
     }, {
       image: "assets/japanese-mushrooms-page.png",
+      title: "きのこ",
       label: "Japanese mushrooms vocabulary test",
       items: [
         ["椎茸", "しいたけ", 22.6, 24.8],
@@ -173,6 +180,7 @@
       ]
     }, {
       image: "assets/fish-shellfish-page.png",
+      title: "魚（さかな）",
       label: "Japanese fish and shellfish vocabulary test",
       items: [
         ["鮪", "まぐろ", 19.6, 20.0],
@@ -209,6 +217,7 @@
       ]
     }, {
       image: "assets/fish-seasonality-page.png",
+      title: "魚の旬（さかなのしゅん）",
       label: "Japanese seasonal fish vocabulary test",
       items: [
         ["ホタルイカ", "ほたるいか", 15.5, 19.7],
@@ -247,6 +256,7 @@
       ]
     }, {
       image: "assets/preparation-techniques-page.png",
+      title: "下ごしらえ（したごしらえ）",
       label: "Japanese preparation techniques vocabulary test",
       items: [
         ["洗う", "あらう", 22.0, 27.3],
@@ -275,6 +285,7 @@
       ]
     }, {
       image: "assets/cutting-techniques-page.png",
+      title: "切り方（きりかた）",
       label: "Japanese cutting techniques vocabulary test",
       items: [
         ["輪切り", "わぎり", 22.0, 29.4],
@@ -298,6 +309,7 @@
       ]
     }, {
       image: "assets/fish-preparation-page.png",
+      title: "魚の下ごしらえ（さかなのしたごしらえ）",
       label: "Japanese fish preparation vocabulary test",
       items: [
         ["うろこを取る", "うろこをとる", 24.4, 26.9],
@@ -313,6 +325,7 @@
       ]
     }, {
       image: "assets/cooking-techniques-page.png",
+      title: "調理法（ちょうりほう）",
       label: "Japanese cooking techniques vocabulary test",
       items: [
         ["焼く", "やく", 22.0, 26.9],
@@ -333,6 +346,133 @@
         ["霜降り", "しもふり", 25.0, 73.1],
         ["下茹で", "したゆで", 41.6, 73.1],
         ["落とし蓋", "おとしぶた", 58.8, 73.1]
+      ]
+    }, {
+      image: "assets/dried-ingredients-page.png",
+      title: "乾物（かんぶつ）",
+      label: "Japanese dried ingredients vocabulary test",
+      items: [
+        ["昆布", "こんぶ", 20.8, 23.5],
+        ["鰹節", "かつおぶし", 38.6, 23.5],
+        ["煮干し", "にぼし", 58.2, 23.5],
+        ["干し椎茸", "ほししいたけ", 77.2, 23.5],
+        ["切り干し大根", "きりぼしだいこん", 20.8, 40.3],
+        ["干瓢", "かんぴょう", 38.6, 40.3],
+        ["高野豆腐", "こうやどうふ", 58.2, 40.3],
+        ["麩", "ふ", 77.2, 40.3],
+        ["車麩", "くるまふ", 20.8, 57.1],
+        ["ひじき", "ひじき", 38.6, 57.1],
+        ["わかめ", "わかめ", 58.2, 57.1],
+        ["海苔", "のり", 77.2, 57.1],
+        ["干し海老", "ほしえび", 20.8, 74.8],
+        ["桜えび", "さくらえび", 38.6, 74.8],
+        ["するめ", "するめ", 58.2, 74.8],
+        ["干し貝柱", "ほしかいばしら", 77.2, 74.8]
+      ]
+    }, {
+      image: "assets/seaweeds-page.png",
+      title: "海藻（かいそう）",
+      label: "Japanese seaweeds vocabulary test",
+      items: [
+        ["昆布", "こんぶ", 23.8, 29.4],
+        ["わかめ", "わかめ", 41.0, 29.4],
+        ["海苔", "のり", 58.8, 29.4],
+        ["青のり", "あおのり", 76.1, 29.4],
+        ["あおさ", "あおさ", 23.8, 48.7],
+        ["ひじき", "ひじき", 41.0, 48.7],
+        ["もずく", "もずく", 58.8, 48.7],
+        ["めかぶ", "めかぶ", 76.1, 48.7],
+        ["とろろ昆布", "とろろこんぶ", 23.8, 68.9],
+        ["塩昆布", "しおこんぶ", 41.0, 68.9],
+        ["茎わかめ", "くきわかめ", 58.8, 68.9],
+        ["海ぶどう", "うみぶどう", 76.1, 68.9]
+      ]
+    }, {
+      image: "assets/dashi-ingredients-page.png",
+      title: "だしの材料（だしのざいりょう）",
+      label: "Japanese dashi ingredients vocabulary test",
+      items: [
+        ["昆布", "こんぶ", 25.0, 26.9],
+        ["鰹節", "かつおぶし", 41.0, 26.9],
+        ["花かつお", "はなかつお", 58.8, 26.9],
+        ["煮干し", "にぼし", 77.2, 26.9],
+        ["いりこ", "いりこ", 25.0, 43.7],
+        ["干し椎茸", "ほししいたけ", 41.0, 43.7],
+        ["焼きあご", "やきあご", 58.8, 43.7],
+        ["あご煮干し", "あごにぼし", 77.2, 43.7],
+        ["宗田節", "そうだぶし", 25.0, 59.7],
+        ["鯖節", "さばぶし", 41.0, 59.7],
+        ["むろあじ節", "むろあじぶし", 58.8, 59.7],
+        ["鮪節", "まぐろぶし", 77.2, 59.7],
+        ["干し海老", "ほしえび", 38.6, 74.8],
+        ["干し貝柱", "ほしかいばしら", 59.4, 74.8]
+      ]
+    }, {
+      image: "assets/tofu-soy-products-page.png",
+      title: "豆腐・大豆製品（とうふ・だいずせいひん）",
+      label: "Japanese tofu and soybean products vocabulary test",
+      items: [
+        ["絹ごし豆腐", "きぬごしどうふ", 19.0, 28.6],
+        ["木綿豆腐", "もめんどうふ", 32.7, 28.6],
+        ["焼き豆腐", "やきどうふ", 45.8, 28.6],
+        ["油揚げ", "あぶらあげ", 58.8, 28.6],
+        ["厚揚げ", "あつあげ", 70.7, 28.6],
+        ["がんもどき", "がんもどき", 82.0, 28.6],
+        ["高野豆腐", "こうやどうふ", 20.2, 49.6],
+        ["湯葉", "ゆば", 34.5, 49.6],
+        ["おから", "おから", 50.5, 49.6],
+        ["豆乳", "とうにゅう", 65.4, 49.6],
+        ["納豆", "なっとう", 80.8, 49.6],
+        ["大豆", "だいず", 21.4, 71.4],
+        ["枝豆", "えだまめ", 41.0, 71.4],
+        ["きな粉", "きなこ", 69.8, 71.4]
+      ]
+    }, {
+      image: "assets/seasonings-page.png",
+      title: "調味料（ちょうみりょう）",
+      label: "Japanese seasonings vocabulary test",
+      items: [
+        ["醤油", "しょうゆ", 21.7, 29.4],
+        ["薄口醤油", "うすくちしょうゆ", 30.9, 29.4],
+        ["濃口醤油", "こいくちしょうゆ", 40.4, 29.4],
+        ["味噌", "みそ", 52.3, 29.4],
+        ["白味噌", "しろみそ", 65.4, 29.4],
+        ["赤味噌", "あかみそ", 77.8, 29.4],
+        ["味醂", "みりん", 22.0, 50.4],
+        ["料理酒", "りょうりしゅ", 32.7, 50.4],
+        ["酢", "す", 44.0, 50.4],
+        ["米酢", "こめず", 54.7, 50.4],
+        ["塩", "しお", 66.5, 50.4],
+        ["砂糖", "さとう", 78.4, 50.4],
+        ["白だし", "しろだし", 23.8, 69.7],
+        ["めんつゆ", "めんつゆ", 35.7, 69.7],
+        ["ポン酢", "ぽんず", 50.5, 69.7],
+        ["ごま油", "ごまあぶら", 63.0, 69.7],
+        ["ラー油", "らーゆ", 76.1, 69.7]
+      ]
+    }, {
+      image: "assets/condiments-garnishes-page.png",
+      title: "薬味（やくみ）",
+      label: "Japanese condiments and garnishes vocabulary test",
+      items: [
+        ["ねぎ", "ねぎ", 20.8, 29.4],
+        ["万能ねぎ", "ばんのうねぎ", 30.3, 29.4],
+        ["生姜", "しょうが", 42.8, 29.4],
+        ["おろし生姜", "おろししょうが", 55.9, 29.4],
+        ["わさび", "わさび", 68.3, 29.4],
+        ["大葉", "おおば", 81.4, 29.4],
+        ["みょうが", "みょうが", 19.6, 51.3],
+        ["大根おろし", "だいこんおろし", 32.1, 51.3],
+        ["もみじおろし", "もみじおろし", 45.2, 51.3],
+        ["柚子", "ゆず", 58.8, 51.3],
+        ["柚子胡椒", "ゆずこしょう", 70.7, 51.3],
+        ["山椒", "さんしょう", 81.4, 51.3],
+        ["粉山椒", "こなざんしょう", 19.0, 71.4],
+        ["七味唐辛子", "しちみとうがらし", 31.5, 71.4],
+        ["一味唐辛子", "いちみとうがらし", 43.4, 71.4],
+        ["白ごま", "しろごま", 55.9, 71.4],
+        ["かつお節", "かつおぶし", 68.3, 71.4],
+        ["刻み海苔", "きざみのり", 80.8, 71.4]
       ]
     }];
     const test = document.getElementById("vegetableTest");
@@ -373,6 +513,11 @@
       test.style.backgroundImage = `url("${page.image}")`;
       test.setAttribute("aria-label", page.label);
 
+      const title = document.createElement("h1");
+      title.className = "rollover-title";
+      title.textContent = `${currentPage + 1}. ${page.title}`;
+      test.append(title);
+
       page.items.forEach(([name, reading, x, y, spokenReading]) => {
         const button = document.createElement("button");
         button.className = "vegetable";
@@ -381,12 +526,15 @@
         button.style.setProperty("--y", y);
         button.setAttribute("aria-label", `Reveal ${name}`);
         button.setAttribute("aria-pressed", "false");
+        const bubble = document.createElement("span");
+        bubble.className = "answer-bubble";
         const ruby = document.createElement("ruby");
         ruby.append(name);
         const furigana = document.createElement("rt");
         furigana.textContent = reading;
         ruby.append(furigana);
-        button.append(ruby);
+        bubble.append(ruby);
+        button.append(bubble);
         button.addEventListener("click", () => {
           const revealed = button.classList.toggle("revealed");
           button.setAttribute("aria-pressed", String(revealed));
