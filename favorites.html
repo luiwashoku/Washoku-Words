@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>野菜テスト — 和食探究ノート</title>
+  <style>
+    :root { --page-background: #f2efe9; font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Hiragino Sans", "Yu Gothic", sans-serif; }
+    * { box-sizing: border-box; }
+    html, body { width: 100%; min-height: 100%; margin: 0; background: var(--page-background); }
+    body { display: flex; min-height: 100svh; flex-direction: column; align-items: center; justify-content: center; overflow: hidden; }
+    .vegetable-test { position: relative; width: min(100vw, calc((100svh - 76px) * 1.414286)); aspect-ratio: 1683 / 1190; max-height: calc(100svh - 76px); flex: 0 0 auto; background: url("assets/vegetables-page.png") center / contain no-repeat; }
+    .vegetable { position: absolute; left: calc(var(--x) * 1%); top: calc(var(--y) * 1%); display: grid; width: clamp(42px, 10.5%, 150px); min-height: clamp(42px, 6vw, 74px); padding: 5px 7px; transform: translate(-50%, -50%); place-items: center; border: 0; border-radius: 12px; color: #111; background: transparent; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+    .vegetable:focus-visible { outline: 3px solid #3939ff; outline-offset: 2px; }
+    .vegetable ruby { display: none; padding: 9px 7px 4px; border: 2px solid #111; border-radius: 7px; background: rgba(247, 244, 238, 0.94); box-shadow: 2px 2px 0 #111; font-size: clamp(11px, 1.35vw, 21px); font-weight: 800; line-height: 1.15; white-space: nowrap; }
+    .vegetable rt { font-size: 0.56em; font-weight: 700; }
+    .vegetable.revealed ruby { display: ruby; }
+    .page-navigation { z-index: 2; display: flex; flex: 0 0 auto; gap: 12px; margin-top: 8px; padding-bottom: env(safe-area-inset-bottom); }
+    .page-arrow { display: grid; width: 50px; height: 50px; padding: 0; place-items: center; border: 2px solid #111; border-radius: 50%; color: #111; background: #f7f4ee; box-shadow: 3px 3px 0 #111; cursor: pointer; }
+    .page-arrow svg { width: 25px; height: 25px; fill: none; stroke: currentColor; stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; }
+    .page-arrow:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 #111; }
+    .page-arrow:focus-visible { outline: 4px solid #f2bb05; outline-offset: 3px; }
+  </style>
+</head>
+<body>
+  <main id="vegetableTest" class="vegetable-test" aria-label="Japanese vegetable vocabulary test"></main>
+  <nav class="page-navigation" aria-label="Test pages">
+    <button class="page-arrow previous" type="button" aria-label="Previous page">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M17.5 7.5 9 16l8.5 8.5M9.5 16H23"></path></svg>
+    </button>
+    <button class="page-arrow next" type="button" aria-label="Next page">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="m14.5 7.5 8.5 8.5-8.5 8.5M22.5 16H9"></path></svg>
+    </button>
+  </nav>
+  <script>
+    const rolloverPages = [{
+      image: "assets/vegetables-page.png",
+      label: "Japanese vegetable vocabulary test",
+      items: [
+      ["白菜", "はくさい", 22.6, 13.7], ["キャベツ", "きゃべつ", 32.3, 13.7], ["ほうれん草", "ほうれんそう", 41.4, 13.7], ["小松菜", "こまつな", 49.9, 13.7], ["水菜", "みずな", 58.0, 13.7], ["レタス", "れたす", 68.6, 13.7], ["青梗菜", "ちんげんさい", 79.3, 13.7],
+      ["大根", "だいこん", 23.5, 29.4], ["かぶ", "かぶ", 38.6, 29.4], ["れんこん", "れんこん", 51.7, 29.4], ["ごぼう", "ごぼう", 64.1, 29.4], ["にんじん", "にんじん", 76.6, 29.4],
+      ["長ねぎ", "ながねぎ", 22.9, 42.4], ["玉ねぎ", "たまねぎ", 36.0, 42.4], ["赤玉ねぎ", "あかたまねぎ", 44.7, 42.4], ["にんにく", "にんにく", 55.5, 42.4], ["しょうが", "しょうが", 66.2, 42.4], ["みょうが", "みょうが", 78.0, 42.4],
+      ["なす", "なす", 20.0, 55.2], ["トマト", "とまと", 26.9, 55.2], ["きゅうり", "きゅうり", 34.0, 55.2], ["ししとう", "ししとう", 41.0, 55.2], ["ピーマン", "ぴーまん", 46.7, 55.2], ["パプリカ", "ぱぷりか", 53.4, 55.2], ["オクラ", "おくら", 60.5, 55.2], ["ゴーヤ", "ごーや", 67.6, 55.2], ["ズッキーニ", "ずっきーに", 73.7, 55.2], ["かぼちゃ", "かぼちゃ", 80.8, 55.2],
+      ["ブロッコリー", "ぶろっこりー", 22.6, 67.5], ["カリフラワー", "かりふらわー", 35.3, 67.5], ["芽キャベツ", "めきゃべつ", 48.5, 67.5], ["アスパラガス", "あすぱらがす", 63.0, 67.5], ["たけのこ", "たけのこ", 78.2, 67.5],
+      ["さつまいも", "さつまいも", 21.9, 78.2], ["じゃがいも", "じゃがいも", 35.4, 78.2], ["里芋", "さといも", 48.6, 78.2], ["山芋", "やまいも", 63.3, 78.2], ["長芋", "ながいも", 76.6, 78.2],
+      ["枝豆", "えだまめ", 23.4, 89.3], ["さやえんどう", "さやえんどう", 37.1, 89.3], ["いんげん", "いんげん", 49.9, 89.3], ["ふき", "ふき", 65.1, 89.3], ["こごみ", "こごみ", 78.5, 89.3]
+      ]
+    }, {
+      image: "assets/aromatic-leaves-page.png",
+      label: "Japanese aromatic vegetables and leaves vocabulary test",
+      items: [
+        ["大葉・青じそ", "おおば・あおじそ", 18.1, 39.2],
+        ["赤じそ", "あかじそ", 30.3, 39.2],
+        ["三つ葉", "みつば", 43.4, 39.2],
+        ["木の芽", "きのめ", 56.4, 39.2],
+        ["春菊", "しゅんぎく", 70.1, 39.2],
+        ["せり", "せり", 83.2, 39.2],
+        ["よもぎ", "よもぎ", 18.4, 62.0],
+        ["笹の葉", "ささのは", 33.2, 62.0],
+        ["柿の葉", "かきのは", 48.2, 62.0],
+        ["桜の葉", "さくらのは", 62.7, 62.0],
+        ["朴の葉", "ほおのは", 80.8, 62.0]
+      ]
+    }, {
+      image: "assets/western-herbs-page.png",
+      label: "Japanese Western herbs vocabulary test",
+      items: [
+        ["バジル", "ばじる", 18.2, 22.9],
+        ["イタリアンパセリ", "いたりあんぱせり", 31.5, 22.5],
+        ["パセリ", "ぱせり", 43.5, 22.9],
+        ["コリアンダー／パクチー", "こりあんだー／ぱくちー", 57.0, 22.9],
+        ["ディル", "でぃる", 69.8, 22.7],
+        ["ミント", "みんと", 82.4, 22.3],
+        ["ミント", "みんと", 19.3, 39.8],
+        ["スペアミント", "すぺあみんと", 35.2, 39.4],
+        ["ペパーミント", "ぺぱーみんと", 50.3, 40.1],
+        ["チャイブ", "ちゃいぶ", 65.4, 39.8],
+        ["セルフィーユ", "せるふぃーゆ", 82.2, 39.5],
+        ["ローズマリー", "ろーずまりー", 16.2, 57.5],
+        ["タイム", "たいむ", 27.0, 57.5],
+        ["オレガノ", "おれがの", 38.1, 57.5],
+        ["マジョラム", "まじょらむ", 49.3, 57.5],
+        ["セージ", "せーじ", 62.5, 57.5],
+        ["タラゴン", "たらごん", 74.7, 57.5],
+        ["サマーセイボリー", "さまーせいぼりー", 84.6, 57.5],
+        ["レモンバーム", "れもんばーむ", 17.8, 76.1],
+        ["レモングラス", "れもんぐらす", 29.3, 76.1],
+        ["フェンネル", "ふぇんねる", 41.0, 76.1],
+        ["フェンネルの葉", "ふぇんねるのは", 52.9, 76.1],
+        ["ローリエ／月桂樹の葉", "ろーりえ／げっけいじゅのは", 69.6, 76.1],
+        ["ラベンダー", "らべんだー", 83.5, 76.1]
+      ]
+    }, {
+      image: "assets/fruits-page.png",
+      label: "Japanese fruits vocabulary test",
+      items: [
+        ["りんご", "りんご", 18.1, 24.1],
+        ["梨", "なし", 27.8, 24.1],
+        ["洋梨", "ようなし", 37.2, 24.1],
+        ["桃", "もも", 47.1, 24.1],
+        ["すもも", "すもも", 58.5, 24.1],
+        ["梅", "うめ", 70.2, 24.1],
+        ["杏", "あんず", 81.4, 24.1],
+        ["さくらんぼ", "さくらんぼ", 18.1, 42.0],
+        ["ぶどう", "ぶどう", 27.6, 42.0],
+        ["マスカット", "ますかっと", 37.4, 42.0],
+        ["柿", "かき", 47.5, 42.0],
+        ["いちじく", "いちじく", 59.1, 42.0],
+        ["ざくろ", "ざくろ", 70.1, 42.0],
+        ["びわ", "びわ", 81.4, 42.0],
+        ["みかん", "みかん", 18.2, 59.7],
+        ["温州みかん", "うんしゅうみかん", 28.2, 59.7],
+        ["オレンジ", "おれんじ", 37.6, 59.7],
+        ["レモン", "れもん", 48.6, 59.7],
+        ["ライム", "らいむ", 59.5, 59.7],
+        ["柚子", "ゆず", 70.6, 59.7],
+        ["すだち", "すだち", 81.4, 59.7],
+        ["かぼす", "かぼす", 18.4, 75.6],
+        ["金柑", "きんかん", 29.7, 75.6],
+        ["伊予柑", "いよかん", 40.4, 75.6],
+        ["八朔", "はっさく", 53.5, 75.6],
+        ["文旦", "ぶんたん", 66.0, 75.6],
+        ["グレープフルーツ", "ぐれーぷふるーつ", 80.8, 75.6]
+      ]
+    }];
+    const test = document.getElementById("vegetableTest");
+    const previousPage = document.querySelector(".page-arrow.previous");
+    const nextPage = document.querySelector(".page-arrow.next");
+    let currentPage = 0;
+
+    function speakJapanese(text) {
+      if (!("speechSynthesis" in window) || !("SpeechSynthesisUtterance" in window)) return;
+
+      const utterance = new SpeechSynthesisUtterance(text);
+      const knownFemaleNames = /kyoko|nanami|haruka|sayaka|ayumi|aoi|hina|ichika|mayu|mizuki|nozomi|shiori|female|女性/i;
+      const knownMaleNames = /otoya|keita|daichi|naoki|male|男性/i;
+      const japaneseVoices = window.speechSynthesis.getVoices()
+        .filter((voice) => voice.lang.toLowerCase().startsWith("ja"))
+        .sort((first, second) => {
+          const score = (voice) => {
+            const language = voice.lang.toLowerCase().replace("_", "-");
+            return (knownFemaleNames.test(voice.name) ? 100 : 0)
+              - (knownMaleNames.test(voice.name) ? 100 : 0)
+              + (language === "ja-jp" ? 30 : 0)
+              + (voice.localService ? 20 : 0)
+              + (voice.default ? 5 : 0);
+          };
+          return score(second) - score(first);
+        });
+      utterance.voice = japaneseVoices[0] || null;
+      utterance.lang = "ja-JP";
+      utterance.rate = 0.78;
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(utterance);
+    }
+
+    function renderRolloverPage() {
+      const page = rolloverPages[currentPage];
+      window.speechSynthesis?.cancel();
+      test.replaceChildren();
+      test.style.backgroundImage = `url("${page.image}")`;
+      test.setAttribute("aria-label", page.label);
+
+      page.items.forEach(([name, reading, x, y]) => {
+        const button = document.createElement("button");
+        button.className = "vegetable";
+        button.type = "button";
+        button.style.setProperty("--x", x);
+        button.style.setProperty("--y", y);
+        button.setAttribute("aria-label", `Reveal ${name}`);
+        button.setAttribute("aria-pressed", "false");
+        const ruby = document.createElement("ruby");
+        ruby.append(name);
+        const furigana = document.createElement("rt");
+        furigana.textContent = reading;
+        ruby.append(furigana);
+        button.append(ruby);
+        button.addEventListener("click", () => {
+          const revealed = button.classList.toggle("revealed");
+          button.setAttribute("aria-pressed", String(revealed));
+          // Give each vocabulary item a distinct pause when one label contains several words.
+          if (revealed) speakJapanese(reading.replace(/[・／/]/g, "。"));
+        });
+        test.append(button);
+      });
+    }
+
+    function changeRolloverPage(direction) {
+      currentPage = (currentPage + direction + rolloverPages.length) % rolloverPages.length;
+      renderRolloverPage();
+    }
+
+    previousPage.addEventListener("click", () => changeRolloverPage(-1));
+    nextPage.addEventListener("click", () => changeRolloverPage(1));
+    renderRolloverPage();
+  </script>
+</body>
+</html>

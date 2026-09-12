@@ -111,6 +111,28 @@ button:focus-visible {
   cursor: pointer;
 }
 
+.icon-button {
+  text-decoration: none;
+}
+
+.icon-button svg {
+  width: 27px;
+  height: 27px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: 2.2;
+}
+
+.star-link svg {
+  fill: var(--bronze);
+  stroke: var(--ink);
+}
+
+.star-link {
+  background: var(--canvas);
+}
+
 .icon-button:active,
 #backHome:active,
 #backToPages:active,
