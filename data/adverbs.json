@@ -1,0 +1,954 @@
+[
+  {
+    "id": "adverbs-q001",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "例外(れいがい)なく全員が必要なので、申込書(もうしこみしょ)は__________提出(ていしゅつ)してください。",
+    "answers": [
+      "たまに",
+      "もしかしたら",
+      "めったに",
+      "必ず(かならず)"
+    ],
+    "correct": 3,
+    "jpExplanation": "「必ず」は、例外なくするように求める表現です。",
+    "enExplanation": "必ず makes this an unconditional requirement, not a prediction with a numerical probability."
+  },
+  {
+    "id": "adverbs-q002",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "本人の署名(しょめい)も確認できたので、これは__________彼が書いた手紙です。",
+    "answers": [
+      "ひょっとして",
+      "たまに",
+      "間違いなく(まちがいなく)",
+      "徐々に(じょじょに)"
+    ],
+    "correct": 2,
+    "jpExplanation": "証拠があり、判断に疑いがないことを表します。",
+    "enExplanation": "間違いなく expresses confidence supported here by a verified signature."
+  },
+  {
+    "id": "adverbs-q003",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "合格者一覧(ごうかくしゃいちらん)に自分の番号があるので、合格したことは__________分かっています。",
+    "answers": [
+      "もしかしたら",
+      "確実に(かくじつに)",
+      "たまに",
+      "だんだん"
+    ],
+    "correct": 1,
+    "jpExplanation": "「確実に分かる」は、はっきりした根拠があって分かることです。",
+    "enExplanation": "確実に conveys certainty here because the result has been checked, rather than merely guessed."
+  },
+  {
+    "id": "adverbs-q004",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 3,
+    "question": "まだ結果は出ていませんが、あれだけ練習した彼なら__________合格すると信じています。",
+    "answers": [
+      "きっと",
+      "まったく",
+      "めったに",
+      "徐々に(じょじょに)"
+    ],
+    "correct": 0,
+    "jpExplanation": "「きっと」は、強い期待や確信を込めた予想に使えます。",
+    "enExplanation": "きっと can convey a confident expectation or hope without claiming that the outcome has already been verified."
+  },
+  {
+    "id": "adverbs-q005",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 3,
+    "question": "詳しくは覚えていませんが、あの店の開店時間は__________十時だと思います。",
+    "answers": [
+      "必ず(かならず)",
+      "絶対に(ぜったいに)",
+      "たぶん",
+      "全然(ぜんぜん)"
+    ],
+    "correct": 2,
+    "jpExplanation": "記憶が確かではないので、控えめな予想を表す「たぶん」が合います。",
+    "enExplanation": "たぶん fits an uncertain recollection; 必ず and 絶対に express certainty inconsistent with the stated doubt."
+  },
+  {
+    "id": "adverbs-q006",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 3,
+    "question": "断定(だんてい)はできませんが、この足跡(あしあと)は__________猫のものでしょう。",
+    "answers": [
+      "いつも",
+      "全部(ぜんぶ)",
+      "絶対に(ぜったいに)",
+      "おそらく"
+    ],
+    "correct": 3,
+    "jpExplanation": "「おそらく」は、根拠から可能性が高いと考えるときに使います。",
+    "enExplanation": "おそらく marks a likely inference. It overlaps with たぶん and is not assigned a fixed probability."
+  },
+  {
+    "id": "adverbs-q007",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 3,
+    "question": "名前がまだ分からないのですが、あの人は__________新しい先生ではありませんか。",
+    "answers": [
+      "必ず(かならず)",
+      "たくさん",
+      "だんだん",
+      "ひょっとして"
+    ],
+    "correct": 3,
+    "jpExplanation": "「ひょっとして」は、思い浮かんだ可能性を相手に確かめるときに使えます。",
+    "enExplanation": "ひょっとして introduces a tentative possibility, often in a question seeking confirmation."
+  },
+  {
+    "id": "adverbs-q008",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 3,
+    "question": "予定はまだ未定(みてい)ですが、__________明日は休めるかもしれません。",
+    "answers": [
+      "もしかしたら",
+      "必ず(かならず)",
+      "絶対に(ぜったいに)",
+      "全然(ぜんぜん)"
+    ],
+    "correct": 0,
+    "jpExplanation": "「もしかしたら」は「かもしれない」と一緒に可能性を表せます。",
+    "enExplanation": "もしかしたら…かもしれない presents a possibility without guaranteeing it."
+  },
+  {
+    "id": "adverbs-q009",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "何があっても約束を破るつもりはないので、__________秘密(ひみつ)は話しません。",
+    "answers": [
+      "あまり",
+      "絶対に(ぜったいに)",
+      "めったに",
+      "たまに"
+    ],
+    "correct": 1,
+    "jpExplanation": "「絶対に〜ない」は、強い否定や決意を表します。",
+    "enExplanation": "絶対に…ない expresses an absolute refusal or determination here, not merely low frequency."
+  },
+  {
+    "id": "adverbs-q010",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "休日も平日も例外なく、私は__________朝六時に起きます。",
+    "answers": [
+      "時々(ときどき)",
+      "いつも",
+      "たまに",
+      "めったに"
+    ],
+    "correct": 1,
+    "jpExplanation": "例外のない習慣なので「いつも」が合います。",
+    "enExplanation": "いつも expresses the regular habit; the explicit lack of exceptions rules out occasional frequency."
+  },
+  {
+    "id": "adverbs-q011",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "毎日ではありませんが、週に四、五回はこの店で昼食を取るので、ここには__________来ます。",
+    "answers": [
+      "たまに",
+      "めったに",
+      "全然(ぜんぜん)",
+      "よく"
+    ],
+    "correct": 3,
+    "jpExplanation": "週に何度も来るので、頻度が高い「よく」が合います。",
+    "enExplanation": "よく means often here. Frequency words depend on context, not fixed percentages."
+  },
+  {
+    "id": "adverbs-q012",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "十回のうち八、九回は弁当を持ってくるので、昼食は__________自分で用意します。",
+    "answers": [
+      "たまに",
+      "全然(ぜんぜん)",
+      "たいてい",
+      "ひょっとして"
+    ],
+    "correct": 2,
+    "jpExplanation": "ほとんどの場合に当てはまる習慣を「たいてい」で表します。",
+    "enExplanation": "たいてい means usually or in most cases, allowing occasional exceptions."
+  },
+  {
+    "id": "adverbs-q013",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "毎週ではありませんが、月に何度か、休日には__________パンを焼きます。",
+    "answers": [
+      "必ず(かならず)",
+      "いつも",
+      "全然(ぜんぜん)",
+      "時々(ときどき)"
+    ],
+    "correct": 3,
+    "jpExplanation": "定期的に毎回ではなく、何度かするので「時々」です。",
+    "enExplanation": "時々 describes occasional recurrence. It can overlap with たまに, which is deliberately not a competing choice here."
+  },
+  {
+    "id": "adverbs-q014",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "普段は自炊(じすい)していますが、年に数回だけ__________高級な店で食事をします。",
+    "answers": [
+      "たまに",
+      "いつも",
+      "必ず(かならず)",
+      "たいてい"
+    ],
+    "correct": 0,
+    "jpExplanation": "普段の習慣とは違い、少ない機会にすることを表します。",
+    "enExplanation": "たまに means once in a while; the rare treat contrasts with the usual habit of cooking at home."
+  },
+  {
+    "id": "adverbs-q015",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "月に一度くらいしか映画館へ行かないので、映画は__________見に行きません。",
+    "answers": [
+      "必ず(かならず)",
+      "あまり",
+      "いつも",
+      "たくさん"
+    ],
+    "correct": 1,
+    "jpExplanation": "「あまり〜ない」は、ここでは頻度が高くないことを表します。",
+    "enExplanation": "あまり…ない means not often here, rather than low probability or no visits at all."
+  },
+  {
+    "id": "adverbs-q016",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "一年に一度あるかないかなので、ここでは雪は__________降りません。",
+    "answers": [
+      "よく",
+      "いつも",
+      "めったに",
+      "必ず(かならず)"
+    ],
+    "correct": 2,
+    "jpExplanation": "「めったに〜ない」は、起こることが非常に少ない様子です。",
+    "enExplanation": "めったに…ない means rarely; it still allows exceptional occurrences."
+  },
+  {
+    "id": "adverbs-q017",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "生まれてから一度も飲んだことがなく、お酒は__________飲みません。",
+    "answers": [
+      "あまり",
+      "めったに",
+      "少し(すこし)",
+      "全然(ぜんぜん)"
+    ],
+    "correct": 3,
+    "jpExplanation": "一度も飲んでいないので、ここでは「全然〜ない」です。",
+    "enExplanation": "全然 with this negative means not at all; あまり and めったに permit some occurrence."
+  },
+  {
+    "id": "adverbs-q018",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "一口で汗が出るほど、このカレーは__________辛いです。",
+    "answers": [
+      "とても",
+      "ちょっと",
+      "少し(すこし)",
+      "全然(ぜんぜん)"
+    ],
+    "correct": 0,
+    "jpExplanation": "強い辛さを肯定文で表すので「とても」が合います。",
+    "enExplanation": "とても intensifies the adjective. 全然 is practised with a negative in this deck; it is not an affirmative intensifier in this sentence."
+  },
+  {
+    "id": "adverbs-q019",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "信じられないほど大きなパフェを見て、思わず「__________大きいね」と言いました。",
+    "answers": [
+      "すごく",
+      "少し(すこし)",
+      "ちょっと",
+      "あまり"
+    ],
+    "correct": 0,
+    "jpExplanation": "驚くほどの大きさを、くだけた言い方の「すごく」で強めます。",
+    "enExplanation": "すごく is a common conversational intensifier. The striking size rules out the small-degree choices."
+  },
+  {
+    "id": "adverbs-q020",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 3,
+    "question": "まだ完成ではありませんが、工事は七割まで進み、__________できあがっています。",
+    "answers": [
+      "全然(ぜんぜん)",
+      "全部(ぜんぶ)",
+      "かなり",
+      "ちょっと"
+    ],
+    "correct": 2,
+    "jpExplanation": "完成には届かないものの、進み具合が大きいので「かなり」です。",
+    "enExplanation": "かなり expresses a substantial extent without saying everything is complete."
+  },
+  {
+    "id": "adverbs-q021",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 3,
+    "question": "小さい店なので空いていると思ったのに、客が多くて__________混んでいます。",
+    "answers": [
+      "全然(ぜんぜん)",
+      "結構(けっこう)",
+      "めったに",
+      "少しも(すこしも)"
+    ],
+    "correct": 1,
+    "jpExplanation": "「結構」は、ここでは予想以上の程度を表します。",
+    "enExplanation": "結構 can mean quite or more than expected; it does not always mean a weaker degree than とても."
+  },
+  {
+    "id": "adverbs-q022",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "ほんのわずかに塩味が足りないので、塩を__________足してください。",
+    "answers": [
+      "全部(ぜんぶ)",
+      "ちょっと",
+      "たくさん",
+      "全然(ぜんぜん)"
+    ],
+    "correct": 1,
+    "jpExplanation": "足りない量がわずかなので、追加する量も少なくします。",
+    "enExplanation": "ちょっと indicates a small addition here; in other contexts it can soften a request or refusal."
+  },
+  {
+    "id": "adverbs-q023",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "満腹(まんぷく)に近いので、ご飯はほんの__________だけください。",
+    "answers": [
+      "たくさん",
+      "全部(ぜんぶ)",
+      "少し(すこし)",
+      "多く(おおく)"
+    ],
+    "correct": 2,
+    "jpExplanation": "「ほんの少しだけ」で、とても少ない量を求めています。",
+    "enExplanation": "少し expresses a small amount. ほんの…だけ reinforces that only a little is wanted."
+  },
+  {
+    "id": "adverbs-q024",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 3,
+    "question": "砂糖を控えたので、このケーキは__________甘くありません。",
+    "answers": [
+      "あまり",
+      "とても",
+      "すごく",
+      "必ず(かならず)"
+    ],
+    "correct": 0,
+    "jpExplanation": "「あまり〜ない」は、甘さの程度が高くないことです。",
+    "enExplanation": "あまり…ない means not very sweet here, not probably not sweet."
+  },
+  {
+    "id": "adverbs-q025",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "暖房(だんぼう)がよく効いていて、部屋の中は少しも寒くなく、__________寒くありません。",
+    "answers": [
+      "全然(ぜんぜん)",
+      "あまり",
+      "かなり",
+      "とても"
+    ],
+    "correct": 0,
+    "jpExplanation": "「少しも〜ない」と同じく、寒さを感じないことを表します。",
+    "enExplanation": "全然…ない expresses a complete negative here; あまり…ない would merely reduce the degree."
+  },
+  {
+    "id": "adverbs-q026",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "優勝(ゆうしょう)を目指して、持てる力をすべて出し、__________練習しました。",
+    "answers": [
+      "適当に(てきとうに)",
+      "たまに",
+      "一生懸命(いっしょうけんめい)",
+      "全然(ぜんぜん)"
+    ],
+    "correct": 2,
+    "jpExplanation": "力を尽くして取り組む様子を「一生懸命」で表します。",
+    "enExplanation": "一生懸命 describes wholehearted effort rather than guaranteeing success."
+  },
+  {
+    "id": "adverbs-q027",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "宿題を忘れず、指示どおり最後まで__________やってから遊びます。",
+    "answers": [
+      "適当に(てきとうに)",
+      "ひょっとして",
+      "ちゃんと",
+      "全然(ぜんぜん)"
+    ],
+    "correct": 2,
+    "jpExplanation": "必要なことをきちんと行うという意味の「ちゃんと」です。",
+    "enExplanation": "ちゃんと means properly, meeting expectations; here it concerns completing the assigned work as instructed."
+  },
+  {
+    "id": "adverbs-q028",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "瓶(びん)が倒れないよう、両手で__________持ってください。",
+    "answers": [
+      "しっかり",
+      "たぶん",
+      "めったに",
+      "だんだん"
+    ],
+    "correct": 0,
+    "jpExplanation": "手から落ちないよう、確かに支えることを表します。",
+    "enExplanation": "しっかり means firmly or securely here; elsewhere it can mean thoroughly or adequately."
+  },
+  {
+    "id": "adverbs-q029",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "冗談(じょうだん)でごまかさず、この問題について__________考えてください。",
+    "answers": [
+      "真面目に(まじめに)",
+      "適当に(てきとうに)",
+      "幸いにも(さいわいにも)",
+      "たまたま"
+    ],
+    "correct": 0,
+    "jpExplanation": "ふざけずに問題に向き合う態度を「真面目に」で表します。",
+    "enExplanation": "真面目に asks for serious consideration, contrasting with joking or treating the matter carelessly."
+  },
+  {
+    "id": "adverbs-q030",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 3,
+    "question": "難しくても途中で諦(あきら)めず、最後まで__________やり遂(と)げたいです。",
+    "answers": [
+      "めったに",
+      "頑張って(がんばって)",
+      "ひょっとして",
+      "全然(ぜんぜん)"
+    ],
+    "correct": 1,
+    "jpExplanation": "困難があっても努力を続ける気持ちを表します。",
+    "enExplanation": "頑張って is the て-form of a verb, functioning here as a manner expression; not every item in the list is a dictionary-class adverb."
+  },
+  {
+    "id": "adverbs-q031",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 3,
+    "question": "集合時間は九時ですが、準備のため八時半に、いつもより__________来てください。",
+    "answers": [
+      "遅く(おそく)",
+      "徐々に(じょじょに)",
+      "だんだん",
+      "早く(はやく)"
+    ],
+    "correct": 3,
+    "jpExplanation": "ここでは動作の速度ではなく、来る時刻が前であることです。",
+    "enExplanation": "早く means earlier here. Distinguish early timing from 速く, which explicitly concerns speed."
+  },
+  {
+    "id": "adverbs-q032",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "発車(はっしゃ)まであと一分しかないので、__________駅へ向かいます。",
+    "answers": [
+      "ゆっくり",
+      "徐々に(じょじょに)",
+      "だんだん",
+      "急いで(いそいで)"
+    ],
+    "correct": 3,
+    "jpExplanation": "時間がないため、急ぐ必要があります。",
+    "enExplanation": "急いで describes hurrying under time pressure; it is a verb's て-form used adverbially."
+  },
+  {
+    "id": "adverbs-q033",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "時間は十分あるので、急がずに__________食べてください。",
+    "answers": [
+      "急いで(いそいで)",
+      "ゆっくり",
+      "早く(はやく)",
+      "慌てて(あわてて)"
+    ],
+    "correct": 1,
+    "jpExplanation": "「急がずに」という指示に合う速度は「ゆっくり」です。",
+    "enExplanation": "ゆっくり means slowly or at leisure here; the context explicitly removes any need to rush."
+  },
+  {
+    "id": "adverbs-q034",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 3,
+    "question": "一度に全部入れるとだまになるので、水を少量ずつ__________加えます。",
+    "answers": [
+      "一気に(いっきに)",
+      "徐々に(じょじょに)",
+      "全部(ぜんぶ)",
+      "全然(ぜんぜん)"
+    ],
+    "correct": 1,
+    "jpExplanation": "少量ずつ段階を踏んで加えることを表します。",
+    "enExplanation": "徐々に describes gradual, staged addition rather than adding everything in one go."
+  },
+  {
+    "id": "adverbs-q035",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 3,
+    "question": "最初は百回も跳べませんでしたが、練習を重ねて__________長く跳べるようになりました。",
+    "answers": [
+      "だんだん",
+      "全然(ぜんぜん)",
+      "めったに",
+      "ひょっとして"
+    ],
+    "correct": 0,
+    "jpExplanation": "時間と練習に伴って、能力が少しずつ変わっています。",
+    "enExplanation": "だんだん describes progressive change over time, not simply moving slowly."
+  },
+  {
+    "id": "adverbs-q036",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "一グラムの違いも出したくないので、はかりで__________量ります。",
+    "answers": [
+      "正確に(せいかくに)",
+      "適当に(てきとうに)",
+      "だいたい",
+      "たまに"
+    ],
+    "correct": 0,
+    "jpExplanation": "誤差を出さず、数値を合わせるための「正確に」です。",
+    "enExplanation": "正確に means accurately; the explicit need to avoid even a gram of error excludes rough estimation."
+  },
+  {
+    "id": "adverbs-q037",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 3,
+    "question": "細かい数は数えていませんが、参加者は__________三十人くらいです。",
+    "answers": [
+      "必ず(かならず)",
+      "徐々に(じょじょに)",
+      "めったに",
+      "だいたい"
+    ],
+    "correct": 3,
+    "jpExplanation": "正確な数ではなく、おおよその数を表します。",
+    "enExplanation": "だいたい gives an approximation here, not the probability of an event."
+  },
+  {
+    "id": "adverbs-q038",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 4,
+    "question": "真剣に選ばず、よく見もしないで__________選んだので、サイズが合いませんでした。",
+    "answers": [
+      "正確に(せいかくに)",
+      "慎重に(しんちょうに)",
+      "一生懸命(いっしょうけんめい)",
+      "適当に(てきとうに)"
+    ],
+    "correct": 3,
+    "jpExplanation": "ここでは十分に考えず、いい加減に選ぶ意味です。",
+    "enExplanation": "適当に means carelessly or without much thought here; in other contexts it can mean appropriately, so it is not always negative."
+  },
+  {
+    "id": "adverbs-q039",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "百人分の汁物を作るので、野菜を__________買っておきます。",
+    "answers": [
+      "たくさん",
+      "ほんの少し(すこし)",
+      "めったに",
+      "全然(ぜんぜん)"
+    ],
+    "correct": 0,
+    "jpExplanation": "多くの人の分を作るため、大きい量が必要です。",
+    "enExplanation": "たくさん indicates a large quantity, here justified by cooking for a hundred people."
+  },
+  {
+    "id": "adverbs-q040",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 4,
+    "question": "一人でも__________の人に来てほしいので、広く知らせます。",
+    "answers": [
+      "たくさん",
+      "全然(ぜんぜん)",
+      "多く(おおく)",
+      "いつも"
+    ],
+    "correct": 2,
+    "jpExplanation": "人数を増やしたいときの自然な表現は「一人でも多くの人」です。",
+    "enExplanation": "一人でも多くの人 is the natural construction for reaching as many people as possible; たくさん is not interchangeable in this exact frame."
+  },
+  {
+    "id": "adverbs-q041",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "十個あった団子を一つも残さず食べたので、__________なくなりました。",
+    "answers": [
+      "少し(すこし)",
+      "たまに",
+      "全部(ぜんぶ)",
+      "主に(おもに)"
+    ],
+    "correct": 2,
+    "jpExplanation": "一つも残っていないため、全体を表す「全部」です。",
+    "enExplanation": "全部 means all of the set, not just a large or main portion."
+  },
+  {
+    "id": "adverbs-q042",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 3,
+    "question": "古い道具なので重いと思っていましたが、持ってみると__________軽かったです。",
+    "answers": [
+      "予想どおり(よそうどおり)",
+      "やっぱり",
+      "意外に(いがいに)",
+      "全然(ぜんぜん)"
+    ],
+    "correct": 2,
+    "jpExplanation": "予想と違う結果だったので「意外に」です。",
+    "enExplanation": "意外に marks a result contrary to expectation; やっぱり and 予想どおり would confirm the expectation instead."
+  },
+  {
+    "id": "adverbs-q043",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "楽しみにしていた公演ですが、__________中止(ちゅうし)になってしまいました。",
+    "answers": [
+      "幸いにも(さいわいにも)",
+      "喜んで(よろこんで)",
+      "一生懸命(いっしょうけんめい)",
+      "残念ながら(ざんねんながら)"
+    ],
+    "correct": 3,
+    "jpExplanation": "望んでいたことが実現せず、残念に思う気持ちを添えます。",
+    "enExplanation": "残念ながら frames the cancellation as regrettable from the speaker's perspective."
+  },
+  {
+    "id": "adverbs-q044",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "財布(さいふ)を落としましたが、__________親切な人が届けてくれました。",
+    "answers": [
+      "残念ながら(ざんねんながら)",
+      "めったに",
+      "全然(ぜんぜん)",
+      "幸いにも(さいわいにも)"
+    ],
+    "correct": 3,
+    "jpExplanation": "困った状況でよいことが起きたので「幸いにも」です。",
+    "enExplanation": "幸いにも marks a fortunate development within an otherwise worrying situation."
+  },
+  {
+    "id": "adverbs-q045",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 3,
+    "question": "評判(ひょうばん)どおり味がよく、人気の店だけあって__________おいしいです。",
+    "answers": [
+      "意外に(いがいに)",
+      "全然(ぜんぜん)",
+      "やっぱり",
+      "めったに"
+    ],
+    "correct": 2,
+    "jpExplanation": "評判から期待していたことが確認されたので「やっぱり」です。",
+    "enExplanation": "やっぱり confirms an expectation here; it can also express returning to an earlier choice in other contexts."
+  },
+  {
+    "id": "adverbs-q046",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 4,
+    "question": "普段はよく食べる私でも、十人前の料理を一人で食べるのは__________無理です。",
+    "answers": [
+      "徐々に(じょじょに)",
+      "さすがに",
+      "たくさん",
+      "幸いにも(さいわいにも)"
+    ],
+    "correct": 1,
+    "jpExplanation": "普段の能力にも限度があり、この程度になると無理だと認めています。",
+    "enExplanation": "さすがに acknowledges a limit even given the person's usual capacity; it is not simply a general translation of 'even'."
+  },
+  {
+    "id": "adverbs-q047",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "sequence",
+    "difficulty": 2,
+    "question": "調理を始める前の最初の作業として、__________手を洗います。",
+    "answers": [
+      "まず",
+      "最後に(さいごに)",
+      "それから",
+      "次に(つぎに)"
+    ],
+    "correct": 0,
+    "jpExplanation": "一連の作業の最初を示すので「まず」です。",
+    "enExplanation": "まず introduces the first step; the sentence explicitly identifies it as the beginning."
+  },
+  {
+    "id": "adverbs-q048",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "sequence",
+    "difficulty": 2,
+    "question": "作業は洗う、切る、煮るの順なので、野菜を洗ったら、__________切ります。",
+    "answers": [
+      "次に(つぎに)",
+      "最後に(さいごに)",
+      "同時に(どうじに)",
+      "最初から(さいしょから)"
+    ],
+    "correct": 0,
+    "jpExplanation": "示された順番で、洗うことの次にする作業です。",
+    "enExplanation": "次に introduces the next step. 最後に would wrongly make cutting the final step when simmering still follows."
+  },
+  {
+    "id": "adverbs-q049",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "sequence",
+    "difficulty": 2,
+    "question": "食事を済ませ、__________散歩に出かける予定です。",
+    "answers": [
+      "同時に(どうじに)",
+      "それから",
+      "めったに",
+      "全然(ぜんぜん)"
+    ],
+    "correct": 1,
+    "jpExplanation": "食事の後に別の行動を続けるので「それから」です。",
+    "enExplanation": "それから connects a subsequent action. 次に and そして can overlap, so they are not competing choices here."
+  },
+  {
+    "id": "adverbs-q050",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "sequence",
+    "difficulty": 3,
+    "question": "前菜もおいしく、__________デザートも素晴らしかったので、また来たいです。",
+    "answers": [
+      "しかし",
+      "そして",
+      "それなのに",
+      "残念ながら(ざんねんながら)"
+    ],
+    "correct": 1,
+    "jpExplanation": "同じ方向のよい評価を追加しています。",
+    "enExplanation": "そして adds another positive point here, rather than introducing a contrast or an unfortunate event."
+  },
+  {
+    "id": "adverbs-q051",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "sequence",
+    "difficulty": 2,
+    "question": "盛り付けまで終えたので、仕上げとして__________ねぎを散らして完成です。",
+    "answers": [
+      "まず",
+      "最初に(さいしょに)",
+      "めったに",
+      "最後に(さいごに)"
+    ],
+    "correct": 3,
+    "jpExplanation": "完成の直前にする仕上げの作業です。",
+    "enExplanation": "最後に marks the finishing step; まず and 最初に would place it at the beginning."
+  },
+  {
+    "id": "adverbs-q052",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "どの料理も好きですが、__________茶碗蒸し(ちゃわんむし)が好きです。",
+    "answers": [
+      "全部(ぜんぶ)",
+      "特に(とくに)",
+      "めったに",
+      "徐々に(じょじょに)"
+    ],
+    "correct": 1,
+    "jpExplanation": "好きな料理の中で、一つを強調して取り上げています。",
+    "enExplanation": "特に singles out chawanmushi as an especially strong preference within a broader liking."
+  },
+  {
+    "id": "adverbs-q053",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 4,
+    "question": "普段は入れない部屋ですが、今日は許可をもらって__________見せていただきました。",
+    "answers": [
+      "いつも",
+      "たいてい",
+      "めったに",
+      "特別に(とくべつに)"
+    ],
+    "correct": 3,
+    "jpExplanation": "通常とは違う扱いを受けたことを表します。",
+    "enExplanation": "特別に marks an exceptional arrangement or special permission, not merely emphasis on degree."
+  },
+  {
+    "id": "adverbs-q054",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "売上(うりあげ)の八割が弁当なので、この店は__________弁当を売っています。",
+    "answers": [
+      "全部(ぜんぶ)",
+      "少しだけ(すこしだけ)",
+      "主に(おもに)",
+      "めったに"
+    ],
+    "correct": 2,
+    "jpExplanation": "全体の中心となるものを「主に」で表します。",
+    "enExplanation": "主に means mainly; the stated share is dominant but not the whole business."
+  },
+  {
+    "id": "adverbs-q055",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 4,
+    "question": "春の野菜をいろいろ買いましたが、__________菜の花(なのはな)が一番楽しみです。",
+    "answers": [
+      "全部(ぜんぶ)",
+      "中でも(なかでも)",
+      "それから",
+      "たいてい"
+    ],
+    "correct": 1,
+    "jpExplanation": "すでに挙げた集合の中から、一つを取り上げています。",
+    "enExplanation": "中でも selects an item from an already established group; it overlaps with 特に, which is not offered against it here."
+  },
+  {
+    "id": "adverbs-q056",
+    "chapter": "副詞",
+    "page": 1,
+    "type": "application",
+    "difficulty": 2,
+    "question": "発酵食品(はっこうしょくひん)には、__________味噌(みそ)や納豆(なっとう)があります。",
+    "answers": [
+      "必ず(かならず)",
+      "徐々に(じょじょに)",
+      "例えば(たとえば)",
+      "めったに"
+    ],
+    "correct": 2,
+    "jpExplanation": "大きい分類について具体的な例を挙げています。",
+    "enExplanation": "例えば introduces concrete examples of a category; it does not claim the list is exhaustive."
+  }
+]

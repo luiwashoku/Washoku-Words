@@ -847,7 +847,6 @@
   "page": "Conversation",
   "sortOrder": 62,
   "title": "会話で使えるフレーズ",
-  "menuColor": "yellow",
   "file": "data/useful-conversation-chunks.json",
   "introduction": {
     "ja": "和食(わしょく)や旬(しゅん)についての質問(しつもん)、ぴったりの言葉(ことば)の聞(き)き方(かた)、リアクション、理由(りゆう)、意見(いけん)、経験(けいけん)、予定(よてい)など、会話(かいわ)で使(つか)えるフレーズを練習(れんしゅう)します。文脈(ぶんみゃく)に合(あ)う自然(しぜん)な表現(ひょうげん)を選(えら)びます。",
@@ -875,7 +874,6 @@
   "page": "Mimetic",
   "sortOrder": 69,
   "title": "Mimetic Words",
-  "menuColor": "yellow",
   "file": "data/mimetic-words.json",
   "introduction": {
     "ja": "場面(ばめん)や動作(どうさ)の様子(ようす)に合(あ)う擬態語(ぎたいご)を選(えら)びます。日本語(にほんご)の文脈(ぶんみゃく)と英語(えいご)の意味(いみ)を手掛(てが)かりに、似(に)た形(かたち)の言葉(ことば)を使(つか)い分(わ)けます。",
@@ -889,7 +887,6 @@
   "page": "Conversation I",
   "sortOrder": 70,
   "title": "会話でよく使う言葉 ①",
-  "menuColor": "yellow",
   "file": "data/real-conversation-400-1.json",
   "feedbackMode": "result-only",
   "introduction": {
@@ -904,7 +901,6 @@
   "page": "Conversation II",
   "sortOrder": 71,
   "title": "会話でよく使う言葉 ②",
-  "menuColor": "yellow",
   "file": "data/real-conversation-400-2.json",
   "feedbackMode": "result-only",
   "introduction": {
@@ -919,7 +915,6 @@
   "page": "Conversation III",
   "sortOrder": 72,
   "title": "会話でよく使う言葉 ③",
-  "menuColor": "yellow",
   "file": "data/real-conversation-400-3.json",
   "feedbackMode": "result-only",
   "introduction": {
@@ -934,7 +929,6 @@
   "page": "Conversation IV",
   "sortOrder": 73,
   "title": "会話でよく使う言葉 ④",
-  "menuColor": "yellow",
   "file": "data/real-conversation-400-4.json",
   "feedbackMode": "result-only",
   "introduction": {
@@ -952,13 +946,37 @@
   "page": "Spoken",
   "sortOrder": 75,
   "title": "Standard vs Spoken",
-  "menuColor": "yellow",
   "file": "data/standard-vs-spoken.json",
   "introduction": {
     "ja": "書(か)き言葉(ことば)や標準的(ひょうじゅんてき)な形(かたち)が、自然(しぜん)な会話(かいわ)でどのように短(みじか)くなるかを練習(れんしゅう)します。文(ぶん)の下線部(かせんぶ)を見(み)て、意味(いみ)と丁寧(ていねい)さに合(あ)う話(はな)し言葉(ことば)を選(えら)びます。",
     "en": "Practise how standard Japanese forms contract in natural conversation. Read the underlined chunk and choose the spoken form that preserves its meaning and appropriate register."
   },
   "questionCount": 120
+},
+  {
+  "id": "adjectives",
+  "category": "conversation",
+  "page": 1,
+  "sortOrder": 76,
+  "title": "形容詞",
+  "file": "data/adjectives.json",
+  "introduction": {
+    "ja": "一人(ひとり)の発言(はつげん)を読(よ)み、空欄(くうらん)に合(あ)う言葉(ことば)を選(えら)びます。人(ひと)の気持(きも)ちや性格(せいかく)、物(もの)の大きさ、温度(おんど)、味(あじ)などを表(あらわ)す形容詞(けいようし)と関連(かんれん)する表現(ひょうげん)を、文脈(ぶんみゃく)の中(なか)で練習(れんしゅう)します。似(に)た言葉(ことば)の使(つか)い分(わ)けや活用(かつよう)も確認(かくにん)します。",
+    "en": "Complete single-speaker statements with the adjective or descriptive expression that fits the context. Practise feelings, personality, dimensions, temperature and taste, alongside similar-word distinctions and adjective forms."
+  },
+  "questionCount": 64
+},
+  {
+  "id": "adverbs",
+  "category": "conversation",
+  "page": 1,
+  "sortOrder": 77,
+  "title": "副詞",
+  "file": "data/adverbs.json",
+  "introduction": {
+    "ja": "一文(いちぶん)の空欄(くうらん)に合う副詞(ふくし)や関連(かんれん)する表現(ひょうげん)を選びます。量(りょう)、頻度(ひんど)、程度(ていど)、確信(かくしん)、動作(どうさ)の様子(ようす)、順序(じゅんじょ)、気持ちを文脈(ぶんみゃく)に合わせて伝える練習(れんしゅう)です。",
+    "en": "Complete one-sentence statements with the adverb or related expression that fits. Practise quantity, frequency, degree, certainty, manner, sequence and the speaker’s attitude in context."
+  },
+  "questionCount": 56
 }
-
 ]
