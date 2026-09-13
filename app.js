@@ -732,8 +732,7 @@
       question?.question,
       {
         stripDialogueLabels:
-          state.selectedLesson?.id ===
-          "make-these-automatic"
+          question?.id?.startsWith("make-automatic-")
       }
     );
 
@@ -967,6 +966,29 @@
       STORAGE_KEYS.progress,
       {}
     );
+    migrateConversationProgress();
+  }
+
+  function migrateConversationProgress() {
+    const mergedId = "useful-conversation-chunks";
+    const sourceIds = [
+      "page62-63", "page64-65", "page66-67",
+      "make-these-automatic"
+    ];
+    const savedIds = sourceIds.filter(
+      (id) => Object.hasOwn(state.progress, id)
+    );
+    if (savedIds.length === 0) return;
+
+    const merged = getLessonProgress(mergedId);
+    savedIds.forEach((id) => {
+      const saved = getLessonProgress(id);
+      merged.completed += saved.completed;
+      merged.correct += saved.correct;
+      delete state.progress[id];
+    });
+    state.progress[mergedId] = merged;
+    writeStorage(STORAGE_KEYS.progress, state.progress);
   }
 
   function readStorage(key, fallback) {

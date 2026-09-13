@@ -645,6 +645,7 @@
   {
   "id": "page73",
   "category": "animal-ingredients",
+  "menuColor": "yellow",
   "page": 73,
   "title": "鶏の部位",
   "file": "data/pages73.json",
@@ -669,6 +670,7 @@
   {
   "id": "page75",
   "category": "animal-ingredients",
+  "menuColor": "yellow",
   "page": 75,
   "title": "卵の部位",
   "file": "data/pages75.json",
@@ -693,6 +695,7 @@
   {
   "id": "page76",
   "category": "animal-ingredients",
+  "menuColor": "yellow",
   "page": 76,
   "title": "牛の部位",
   "file": "data/pages76.json",
@@ -729,6 +732,7 @@
   {
   "id": "page78",
   "category": "animal-ingredients",
+  "menuColor": "yellow",
   "page": 78,
   "title": "魚の外部構造",
   "file": "data/pages78.json",
@@ -741,6 +745,7 @@
   {
   "id": "page79",
   "category": "animal-ingredients",
+  "menuColor": "yellow",
   "page": 79,
   "title": "魚の内部",
   "file": "data/pages79.json",
@@ -753,6 +758,7 @@
   {
   "id": "page79-three-piece",
   "category": "animal-ingredients",
+  "menuColor": "yellow",
   "page": 79,
   "title": "三枚おろし",
   "file": "data/pages79-three-piece.json",
@@ -801,6 +807,7 @@
   {
   "id": "page83",
   "category": "animal-ingredients",
+  "menuColor": "yellow",
   "page": 83,
   "title": "豚肉の部位",
   "file": "data/pages83.json",
@@ -835,16 +842,18 @@
   "questionCount": 20
 },
   {
-  "id": "page62-63",
+  "id": "useful-conversation-chunks",
   "category": "conversation",
-  "page": "62–63",
-  "title": "和食と旬を話す",
-  "file": "data/pages62-63.json",
+  "page": "Conversation",
+  "sortOrder": 62,
+  "title": "会話で使えるフレーズ",
+  "menuColor": "yellow",
+  "file": "data/useful-conversation-chunks.json",
   "introduction": {
-    "ja": "和食(わしょく)の考(かんが)え方(かた)と旬(しゅん)について、意味(いみ)に合(あ)う日本語(にほんご)のチャンクを選(えら)びます。目的(もくてき)、比較(ひかく)、理由(りゆう)、限定(げんてい)、追加(ついか)を一(ひと)つのまとまりとして覚(おぼ)え、料理人(りょうりにん)へ自然(しぜん)に質問(しつもん)する練習(れんしゅう)をします。",
-    "en": "Practise washoku philosophy and seasonality through complete conversational chunks. Choose Japanese that correctly expresses purpose, comparison, reason, limitation or addition while asking natural questions of a chef."
+    "ja": "和食(わしょく)や旬(しゅん)についての質問(しつもん)、ぴったりの言葉(ことば)の聞(き)き方(かた)、リアクション、理由(りゆう)、意見(いけん)、経験(けいけん)、予定(よてい)など、会話(かいわ)で使(つか)えるフレーズを練習(れんしゅう)します。文脈(ぶんみゃく)に合(あ)う自然(しぜん)な表現(ひょうげん)を選(えら)びます。",
+    "en": "Practise useful conversational phrases for discussing washoku and seasonality, asking for the right word, reacting naturally, and expressing reasons, opinions, experiences and plans. Choose the expression that fits each context."
   },
-  "questionCount": 20
+  "questionCount": 210
 },
   {
   "id": "golden-grammar",
@@ -858,7 +867,7 @@
     "ja": "文(ぶん)の空欄(くうらん)に入(はい)る自然(しぜん)な活用形(かつようけい)を選(えら)び、文脈(ぶんみゃく)の中(なか)で文法(ぶんぽう)を身(み)につけます。答(こた)えた後(あと)に、文法項目(ぶんぽうこうもく)、作(つく)り方(かた)、カジュアルな形(かたち)と例文(れいぶん)を確認(かくにん)します。",
     "en": "Choose the conjugation that naturally completes each sentence. After answering, review the grammar point, its formation, and a casual form with an example."
   },
-  "questionCount": 145
+  "questionCount": 187
 },
   {
   "id": "mimetic-words",
@@ -879,7 +888,7 @@
   "category": "conversation",
   "page": "Conversation I",
   "sortOrder": 70,
-  "title": "リアル会話 400 I",
+  "title": "会話でよく使う言葉 ①",
   "menuColor": "yellow",
   "file": "data/real-conversation-400-1.json",
   "feedbackMode": "result-only",
@@ -894,7 +903,7 @@
   "category": "conversation",
   "page": "Conversation II",
   "sortOrder": 71,
-  "title": "リアル会話 400 II",
+  "title": "会話でよく使う言葉 ②",
   "menuColor": "yellow",
   "file": "data/real-conversation-400-2.json",
   "feedbackMode": "result-only",
@@ -909,7 +918,7 @@
   "category": "conversation",
   "page": "Conversation III",
   "sortOrder": 72,
-  "title": "リアル会話 400 III",
+  "title": "会話でよく使う言葉 ③",
   "menuColor": "yellow",
   "file": "data/real-conversation-400-3.json",
   "feedbackMode": "result-only",
@@ -924,7 +933,7 @@
   "category": "conversation",
   "page": "Conversation IV",
   "sortOrder": 73,
-  "title": "リアル会話 400 IV",
+  "title": "会話でよく使う言葉 ④",
   "menuColor": "yellow",
   "file": "data/real-conversation-400-4.json",
   "feedbackMode": "result-only",
@@ -934,44 +943,9 @@
   },
   "questionCount": 100
 },
-  {
-  "id": "page64-65",
-  "category": "conversation",
-  "page": "64–65",
-  "title": "ぴったりの言葉を聞く",
-  "file": "data/pages64-65.json",
-  "introduction": {
-    "ja": "感(かん)じたことは分(わ)かっていても、ぴったりの日本語(にほんご)が出(で)ないことがあります。「例えば、この魚(さかな)を食(た)べると」「～ような感(かん)じがします」「何(なん)と言(い)えばいいか分(わ)からないんですが」などを使(つか)い、経験(けいけん)を説明(せつめい)して相手(あいて)から言葉(ことば)を引(ひ)き出(だ)す流(なが)れを練習(れんしゅう)します。",
-    "en": "When the sensation is clear but the Japanese word is missing, describe the experience and invite the other person to supply it. Practise approximate descriptions, requests for the right word and meaning checks."
-  },
-  "questionCount": 20
-},
-  {
-  "id": "page66-67",
-  "category": "conversation",
-  "page": "66–67",
-  "title": "リアクションと会話の流れ",
-  "file": "data/pages66-67.json",
-  "introduction": {
-    "ja": "自然(しぜん)な会話(かいわ)は、短(みじか)い反応(はんのう)、理由(りゆう)、比較(ひかく)、続(つづ)きの質問(しつもん)で作(つく)られます。「なるほど」で受(う)け止(と)め、「なぜなら」で理由(りゆう)を示(しめ)し、「～と比(くら)べると」で比(くら)べ、「どうしてですか」で話(はなし)を続(つづ)ける練習(れんしゅう)をします。",
-    "en": "Build natural conversation through reactions, reasons, comparisons and follow-up questions. Select the chunk that fits both the grammar and the conversational purpose."
-  },
-  "questionCount": 20
-},
-  {
-  "id": "make-these-automatic",
-  "category": "conversation",
-  "page": "Automatic",
-  "sortOrder": 74,
-  "title": "Make these automatic",
-  "menuColor": "yellow",
-  "file": "data/make-these-automatic.json",
-  "introduction": {
-    "ja": "会話(かいわ)をつなぐ言葉(ことば)、自然(しぜん)な反応(はんのう)、意見(いけん)、理由(りゆう)、習慣(しゅうかん)、経験(けいけん)、予定(よてい)など、毎日(まいにち)の会話(かいわ)で何度(なんど)も使(つか)う150のチャンクを練習(れんしゅう)します。短(みじか)い二人(ふたり)の会話(かいわ)を読(よ)み、空欄(くうらん)に最(もっと)も自然(しぜん)に入(はい)る表現(ひょうげん)を選(えら)びます。",
-    "en": "Make 150 high-frequency Japanese chunks automatic through short, natural two-person exchanges. Choose the expression that best completes each everyday conversation, including reactions, opinions, explanations, habits, experiences, plans and decisions."
-  },
-  "questionCount": 150
-},
+  
+  
+  
   {
   "id": "standard-vs-spoken",
   "category": "conversation",

@@ -6,11 +6,11 @@
 :root {
   --canvas: #DDB8D8;
   --horizon: #8DACE5;
-  --pulse: #EADBA0;
+  --pulse: #B99B85;
   --ember: #F29B3B;
   --bronze: #F9B2B2;
-  --depth: #52604A;
-  --ink: #263024;
+  --depth: #4B352A;
+  --ink: #111111;
   --paper: #F2EFE9;
 
   font-family:
@@ -477,7 +477,7 @@ button:focus-visible {
 
 #lessonIntroductionDialog::backdrop,
 #grammarIndexDialog::backdrop {
-  background: rgb(38 48 36 / 62%);
+  background: rgb(75 53 42 / 62%);
 }
 
 .grammarIndexHeader {

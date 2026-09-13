@@ -369,5 +369,845 @@
   {"id":"golden-grammar-q142","chapter":"Grammar Drill","page":142,"type":"production","difficulty":2,"question":"明日は __________ 雨だと思います。\n\nIt'll probably rain tomorrow.","answers":["きっと","たぶん","必ず","たしかに"],"correct":1,"grammarPoint":"たぶん — probably / maybe","formation":"たぶん + sentence","casualForm":"たぶん\n「田中さんも来る？」「たぶん来ると思う。」","jpExplanation":"確信はないが、可能性が高いと考える日常的な推測を表します。","enExplanation":"たぶん is an everyday way to express an uncertain but likely prediction or assumption."},
   {"id":"golden-grammar-q143","chapter":"Grammar Drill","page":143,"type":"production","difficulty":2,"question":"この映画、 __________ 気に入ると思います。\n\nI'm sure you'll like this movie.","answers":["たぶん","きっと","もしかしたら","なんとなく"],"correct":1,"grammarPoint":"きっと — surely / I'm sure / most likely","formation":"きっと + sentence","casualForm":"きっと\n先生なら、きっと分かるよ。","jpExplanation":"「たぶん」より強い自信を持った予測を表します。","enExplanation":"きっと conveys stronger confidence than たぶん: the speaker feels sure or highly confident."},
   {"id":"golden-grammar-q144","chapter":"Grammar Drill","page":144,"type":"production","difficulty":3,"question":"もう一度言って __________ か。\n\nCould you say that one more time?","answers":["あげます","もらえます","くれました","しまいます"],"correct":1,"grammarPoint":"～てもらえますか — could you do… for me?","formation":"V て-form + もらえますか","casualForm":"～てもらえる？\nちょっと見てもらえる？","jpExplanation":"相手の行為を自分が受ける形で、丁寧に依頼します。より丁寧には「～ていただけますか」を使います。","enExplanation":"てもらえますか politely requests an action as a favor received by the speaker; ていただけますか is more polite."},
-  {"id":"golden-grammar-q145","chapter":"Grammar Drill","page":145,"type":"production","difficulty":2,"question":"最近、電車の中で日本語を勉強する __________。\n\nRecently, I often study Japanese on the train.","answers":["ことがあります","ことが多いです","ようにしています","ことになりました"],"correct":1,"grammarPoint":"～ことが多い — often / tend to / it is often the case that","formation":"V dictionary + ことが多い\nV ない-form + ことが多い\nN + が多い","casualForm":"～ことが多い\n週末は家で過ごすことが多い。","jpExplanation":"毎回ではない習慣や、よく起こる傾向を表します。","enExplanation":"ことが多い describes a frequent habit or tendency without claiming it happens every single time."}
+  {"id":"golden-grammar-q145","chapter":"Grammar Drill","page":145,"type":"production","difficulty":2,"question":"最近、電車の中で日本語を勉強する __________。\n\nRecently, I often study Japanese on the train.","answers":["ことがあります","ことが多いです","ようにしています","ことになりました"],"correct":1,"grammarPoint":"～ことが多い — often / tend to / it is often the case that","formation":"V dictionary + ことが多い\nV ない-form + ことが多い\nN + が多い","casualForm":"～ことが多い\n週末は家で過ごすことが多い。","jpExplanation":"毎回ではない習慣や、よく起こる傾向を表します。","enExplanation":"ことが多い describes a frequent habit or tendency without claiming it happens every single time."},
+  {
+    "id": "golden-grammar-q146",
+    "chapter": "文法ドリル",
+    "page": 146,
+    "type": "production",
+    "difficulty": 2,
+    "question": "料理する __________ です。\n\nI am good at cooking.",
+    "answers": [
+      "のが苦手",
+      "のが好き",
+      "のが得意",
+      "のが嫌い"
+    ],
+    "correct": 2,
+    "grammarPoint": "～のが得意(とくい) — be good at doing",
+    "formation": "V dictionary + のが得意\n料理する + のが得意",
+    "casualForm": "料理するのが得意。",
+    "jpExplanation": "「の」で料理するという動作を名詞のように扱います。「得意(とくい)」は上手にできることです。「好き」は好みを表し、上手かどうかとは別です。",
+    "enExplanation": "の nominalizes the action; が marks what you are good at. 好き expresses enjoyment, not skill, while 苦手 means difficulty and 嫌い means dislike."
+  },
+  {
+    "id": "golden-grammar-q147",
+    "chapter": "文法ドリル",
+    "page": 147,
+    "type": "production",
+    "difficulty": 2,
+    "question": "早起きする __________ です。\n\nI find getting up early difficult.",
+    "answers": [
+      "のが苦手",
+      "のが得意",
+      "のが好き",
+      "のが楽しみ"
+    ],
+    "correct": 0,
+    "grammarPoint": "～のが苦手(にがて) — find doing difficult",
+    "formation": "V dictionary + のが苦手",
+    "casualForm": "早起きするの、苦手なんだ。",
+    "jpExplanation": "「苦手(にがて)」は上手にできないことや、抵抗を感じることを表します。ここでは早起きがうまくできないという意味です。",
+    "enExplanation": "苦手 describes difficulty or discomfort with an activity. It does not necessarily mean that you dislike it; 得意 is the opposite."
+  },
+  {
+    "id": "golden-grammar-q148",
+    "chapter": "文法ドリル",
+    "page": 148,
+    "type": "production",
+    "difficulty": 2,
+    "question": "知らない街を歩く __________ です。\n\nI enjoy walking around unfamiliar towns.",
+    "answers": [
+      "のが好き",
+      "のが嫌い",
+      "のが苦手",
+      "のが心配"
+    ],
+    "correct": 0,
+    "grammarPoint": "～のが好き — enjoy doing",
+    "formation": "V dictionary + のが好き",
+    "casualForm": "知らない街を歩くの、好き。",
+    "jpExplanation": "「歩くの」で動作をまとめ、「好き」でその動作を楽しむ気持ちを表します。",
+    "enExplanation": "の turns walking into the activity being discussed. 好き expresses enjoyment; the other choices express dislike, difficulty or worry."
+  },
+  {
+    "id": "golden-grammar-q149",
+    "chapter": "文法ドリル",
+    "page": 149,
+    "type": "production",
+    "difficulty": 2,
+    "question": "人を待つ __________ です。\n\nI dislike waiting for people.",
+    "answers": [
+      "のが嫌い",
+      "のが好き",
+      "のが楽しみ",
+      "のが得意"
+    ],
+    "correct": 0,
+    "grammarPoint": "～のが嫌い(きらい) — dislike doing",
+    "formation": "V dictionary + のが嫌い",
+    "casualForm": "人を待つの、嫌いなんだ。",
+    "jpExplanation": "「嫌い(きらい)」はその動作を好まないという気持ちです。「苦手」よりも直接的に嫌だと伝えます。",
+    "enExplanation": "の nominalizes waiting and 嫌い explicitly expresses dislike. The alternatives express liking, anticipation or ability."
+  },
+  {
+    "id": "golden-grammar-q150",
+    "chapter": "文法ドリル",
+    "page": 150,
+    "type": "production",
+    "difficulty": 3,
+    "question": "電車に乗っている __________、ずっと音楽を聞いていた。\n\nI listened to music throughout the time I was on the train.",
+    "answers": [
+      "間(あいだ)",
+      "間に(あいだに)",
+      "前に",
+      "たびに"
+    ],
+    "correct": 0,
+    "grammarPoint": "～間(あいだ) — throughout the time that",
+    "formation": "V ている + 間\nN + の + 間",
+    "casualForm": "電車に乗ってる間、ずっと音楽を聞いてた。",
+    "jpExplanation": "「間(あいだ)」は、ある期間にわたって動作が続くことを表します。「間に」はその期間内に起こる出来事に注目します。",
+    "enExplanation": "間 frames an activity continuing throughout a period. 間に locates an event within that period; 前に means before, and たびに means every time."
+  },
+  {
+    "id": "golden-grammar-q151",
+    "chapter": "文法ドリル",
+    "page": 151,
+    "type": "production",
+    "difficulty": 2,
+    "question": "寝る __________、ちょっと動画を見る。\n\nI will watch some videos until I go to bed.",
+    "answers": [
+      "までに",
+      "まで",
+      "前から",
+      "ときだけ"
+    ],
+    "correct": 1,
+    "grammarPoint": "～まで — until",
+    "formation": "V dictionary + まで",
+    "casualForm": "寝るまで、ちょっと動画見る。",
+    "jpExplanation": "「まで」は動作が続く終わりの時点です。「までに」は何かを済ませる期限なので、ここで伝えたい意味とは違います。",
+    "enExplanation": "まで gives the endpoint of an ongoing activity. までに sets a completion deadline instead; watching continues until bedtime here."
+  },
+  {
+    "id": "golden-grammar-q152",
+    "chapter": "文法ドリル",
+    "page": 152,
+    "type": "production",
+    "difficulty": 3,
+    "question": "友達が来る __________、部屋を片付けておきたい。\n\nI want to have the room tidied by the time my friend arrives.",
+    "answers": [
+      "までに",
+      "まで",
+      "間ずっと",
+      "たびに"
+    ],
+    "correct": 0,
+    "grammarPoint": "～までに — by / no later than",
+    "formation": "V dictionary + までに",
+    "casualForm": "友達が来るまでに、片付けときたい。",
+    "jpExplanation": "「までに」は完了させたい期限です。友達が来た時点では、片付けが終わっているようにしたいという意味です。",
+    "enExplanation": "までに sets a deadline for completion. まで would emphasize continuing the activity until arrival rather than having it finished by then."
+  },
+  {
+    "id": "golden-grammar-q153",
+    "chapter": "文法ドリル",
+    "page": 153,
+    "type": "production",
+    "difficulty": 3,
+    "question": "夜にコーヒーを飲む __________、いつも眠れなくなる。\n\nWhenever I drink coffee at night, I end up unable to sleep.",
+    "answers": [
+      "なら",
+      "のに",
+      "と",
+      "ために"
+    ],
+    "correct": 2,
+    "grammarPoint": "～と — whenever / a regular consequence",
+    "formation": "V dictionary / V ない + と + result",
+    "casualForm": "コーヒー飲むと、眠れなくなる。",
+    "jpExplanation": "「と」は、前のことが起こるといつも同じ結果になる関係を表します。「なら」は話題を受けて条件を示すときなどに使います。",
+    "enExplanation": "と links a trigger to a regular consequence. なら takes up a condition or topic, のに introduces an unexpected contrast, and ために expresses purpose or cause."
+  },
+  {
+    "id": "golden-grammar-q154",
+    "chapter": "文法ドリル",
+    "page": 154,
+    "type": "production",
+    "difficulty": 3,
+    "question": "大丈夫。心配する __________。\n\nIt is all right. Do not worry. (Use a blunt prohibition.)",
+    "answers": [
+      "よ",
+      "ね",
+      "か",
+      "な"
+    ],
+    "correct": 3,
+    "grammarPoint": "V dictionary + な — do not; blunt prohibition",
+    "formation": "V dictionary + な\n心配する + な",
+    "casualForm": "心配するな。\nやわらかく言うなら「心配しないで」。",
+    "jpExplanation": "辞書形の後の「な」は強い禁止です。「心配するな」は励ましにも使えますが、相手との関係によっては強く響きます。",
+    "enExplanation": "Dictionary form + な is a blunt prohibition. It can reassure in 心配するな but is not a generally polite request. よ and ね do not negate the action, and か makes a question."
+  },
+  {
+    "id": "golden-grammar-q155",
+    "chapter": "文法ドリル",
+    "page": 155,
+    "type": "production",
+    "difficulty": 2,
+    "question": "私は、よく __________ が好きです。\n\nI like people who travel often.",
+    "answers": [
+      "旅行して人",
+      "旅行する人",
+      "旅行します人",
+      "旅行するの人"
+    ],
+    "correct": 1,
+    "grammarPoint": "V dictionary + 人 — a person who does",
+    "formation": "Plain verb clause + 人\nよく旅行する + 人",
+    "casualForm": "よく旅行する人が好き。",
+    "jpExplanation": "「旅行する」がすぐ後ろの「人」を説明します。動詞の普通形を使い、「の」や「ます」を間に入れません。",
+    "enExplanation": "A plain-form verb clause modifies 人 directly. No の is inserted, and neither ます nor a bare て-form can replace the noun-modifying plain form here."
+  },
+  {
+    "id": "golden-grammar-q156",
+    "chapter": "文法ドリル",
+    "page": 156,
+    "type": "production",
+    "difficulty": 2,
+    "question": "旅行に __________、もう準備した？\n\nHave you prepared the things you are taking on the trip?",
+    "answers": [
+      "持っていくもの",
+      "持っていくのもの",
+      "持っていきますもの",
+      "持っていってもの"
+    ],
+    "correct": 0,
+    "grammarPoint": "V dictionary + もの — things one does something with/to",
+    "formation": "Plain verb clause + もの\n持っていく + もの",
+    "casualForm": "持っていくもの、もう準備した？",
+    "jpExplanation": "「持っていく」は、どんな物かを説明しています。動詞と「もの」の間に「の」は必要ありません。",
+    "enExplanation": "持っていく directly modifies もの: the things to take. This is a noun-modifying clause, not the nominalizer の followed by another noun."
+  },
+  {
+    "id": "golden-grammar-q157",
+    "chapter": "文法ドリル",
+    "page": 157,
+    "type": "production",
+    "difficulty": 2,
+    "question": "東京で __________、もう決めた？\n\nHave you decided where you will stay in Tokyo?",
+    "answers": [
+      "泊まるの場所",
+      "泊まります場所",
+      "泊まって場所",
+      "泊まる場所"
+    ],
+    "correct": 3,
+    "grammarPoint": "V dictionary + 場所(ばしょ) — a place to do",
+    "formation": "Plain verb clause + 場所",
+    "casualForm": "東京で泊まる場所、決めた？",
+    "jpExplanation": "「泊まる」が「場所(ばしょ)」を説明します。「泊まるの場所」とは言いません。",
+    "enExplanation": "A place can be modified directly by the plain-form action performed there. 泊まる場所 means a place to stay; の is not inserted after the verb."
+  },
+  {
+    "id": "golden-grammar-q158",
+    "chapter": "文法ドリル",
+    "page": 158,
+    "type": "production",
+    "difficulty": 2,
+    "question": "最近、ゆっくり __________ がない。\n\nRecently, I have not had time to rest properly.",
+    "answers": [
+      "休むの時間",
+      "休みます時間",
+      "休んで時間",
+      "休む時間"
+    ],
+    "correct": 3,
+    "grammarPoint": "V dictionary + 時間 — time to do",
+    "formation": "Plain verb clause + 時間",
+    "casualForm": "ゆっくり休む時間がない。",
+    "jpExplanation": "「休む時間」は休むための時間です。「休む」が直接「時間」を説明します。",
+    "enExplanation": "休む directly modifies 時間 to identify what the time is for. A plain verb attaches to the noun without の or ます."
+  },
+  {
+    "id": "golden-grammar-q159",
+    "chapter": "文法ドリル",
+    "page": 159,
+    "type": "production",
+    "difficulty": 3,
+    "question": "自分に合う、日本語を __________ を探している。\n\nI am looking for a way of studying Japanese that suits me.",
+    "answers": [
+      "勉強するの方法",
+      "勉強する方法",
+      "勉強します方法",
+      "勉強して方法"
+    ],
+    "correct": 1,
+    "grammarPoint": "V dictionary + 方法(ほうほう) — a way to do",
+    "formation": "Plain verb clause + 方法",
+    "casualForm": "自分に合う勉強方法を探してる。",
+    "jpExplanation": "「勉強する」が「方法(ほうほう)」を説明しています。普通形の動詞をそのまま名詞の前に置きます。",
+    "enExplanation": "The plain clause 日本語を勉強する modifies 方法 directly. The alternatives incorrectly insert の or use a form that cannot directly modify the noun here."
+  },
+  {
+    "id": "golden-grammar-q160",
+    "chapter": "文法ドリル",
+    "page": 160,
+    "type": "production",
+    "difficulty": 3,
+    "question": "友達が車で送ってくれたから、タクシーを使わ __________。\n\nMy friend drove me, so I managed without taking a taxi.",
+    "answers": [
+      "なければならなかった",
+      "ないで済んだ",
+      "ないことにした",
+      "なくてもよかったのに"
+    ],
+    "correct": 1,
+    "grammarPoint": "～ないで済む(すむ) — manage without doing",
+    "formation": "V ない-form + で済む\n使わない + で済んだ",
+    "casualForm": "タクシー使わないで済んだ。",
+    "jpExplanation": "「ないで済む」は、必要になりそうだったことをせずに済ませられる表現です。ここでは友達が送ってくれたので、タクシーが不要になりました。",
+    "enExplanation": "ないで済んだ says the situation was resolved without needing the action. A decision not to act is different; なければならなかった means it was required, and よかったのに adds regret or criticism."
+  },
+  {
+    "id": "golden-grammar-q161",
+    "chapter": "文法ドリル",
+    "page": 161,
+    "type": "production",
+    "difficulty": 4,
+    "question": "食べ __________ けど、あまり好きじゃない。\n\nIt is not that I never eat it, but I do not like it much.",
+    "answers": [
+      "たことがない",
+      "るはずがない",
+      "ないほうがいい",
+      "ないことはない"
+    ],
+    "correct": 3,
+    "grammarPoint": "～ないことはない — it is not that one does not/cannot",
+    "formation": "V ない-form + ことはない",
+    "casualForm": "食べないことはないけど、あまり好きじゃない。",
+    "jpExplanation": "否定を重ねて、完全には否定しないと伝えます。ここでは「食べることもある」と控えめに認めています。",
+    "enExplanation": "The double negative gives a qualified admission: you do eat it sometimes. It does not say you have never eaten it, that eating it is impossible, or that avoiding it is advisable."
+  },
+  {
+    "id": "golden-grammar-q162",
+    "chapter": "文法ドリル",
+    "page": 162,
+    "type": "production",
+    "difficulty": 3,
+    "question": "この話は秘密だから、他の人には言わ __________。\n\nThis is a secret, so I want you not to tell anyone else.",
+    "answers": [
+      "なくてもいい",
+      "ないでほしい",
+      "ないことにした",
+      "なければならない"
+    ],
+    "correct": 1,
+    "grammarPoint": "～ないでほしい — want someone not to do",
+    "formation": "V ない-form + でほしい",
+    "casualForm": "他の人には言わないでほしい。",
+    "jpExplanation": "相手にしてほしくない行為を伝えます。「なくてもいい」はしなくてよいという許可で、秘密にしてほしいという希望とは違います。",
+    "enExplanation": "ないでほしい expresses a wish about another person not acting. なくてもいい removes an obligation; ないことにした states a decision; なければならない imposes an obligation."
+  },
+  {
+    "id": "golden-grammar-q163",
+    "chapter": "文法ドリル",
+    "page": 163,
+    "type": "production",
+    "difficulty": 4,
+    "question": "実際に見 __________、決められない。\n\nI cannot decide until I have actually seen it first.",
+    "answers": [
+      "ているうちに",
+      "てからでないと",
+      "てもかまわないと",
+      "てよかったら"
+    ],
+    "correct": 1,
+    "grammarPoint": "～てからでないと — not until after doing",
+    "formation": "V て-form + からでないと + negative possibility",
+    "casualForm": "見てからじゃないと、決められない。",
+    "jpExplanation": "先に見ることが、決めるための条件です。「てからでないと」の後には、できないことなどが続きます。",
+    "enExplanation": "This makes completing the first action a prerequisite. The negative main clause says deciding is not possible until that prerequisite has been met."
+  },
+  {
+    "id": "golden-grammar-q164",
+    "chapter": "文法ドリル",
+    "page": 164,
+    "type": "production",
+    "difficulty": 3,
+    "question": "日本に行っ __________、日本料理にもっと興味を持つようになった。\n\nEver since I went to Japan, I have become more interested in Japanese cuisine.",
+    "answers": [
+      "ている間に",
+      "てからでないと",
+      "ても",
+      "て以来(いらい)"
+    ],
+    "correct": 3,
+    "grammarPoint": "～て以来(いらい) — ever since doing",
+    "formation": "V て-form + 以来",
+    "casualForm": "日本に行って以来、日本料理がもっと好きになった。",
+    "jpExplanation": "「て以来(いらい)」は、過去の出来事を始まりとして、その後の状態が続いていることを表します。",
+    "enExplanation": "て以来 establishes a past event as the starting point of a continuing state. It is not an interval during the trip or a prerequisite for a later action."
+  },
+  {
+    "id": "golden-grammar-q165",
+    "chapter": "文法ドリル",
+    "page": 165,
+    "type": "production",
+    "difficulty": 3,
+    "question": "受付はもう終わった。今さら急い __________ よ。\n\nRegistration is already closed. There is no point hurrying now.",
+    "answers": [
+      "ではいけない",
+      "でほしい",
+      "でよかった",
+      "でも意味がない"
+    ],
+    "correct": 3,
+    "grammarPoint": "～ても意味がない — there is no point in doing",
+    "formation": "V て-form + も意味がない\n急いで + も意味がない",
+    "casualForm": "今さら急いでも意味ないよ。",
+    "jpExplanation": "急いでも目的を達成できないので、その行動に意味がないと言っています。禁止や希望ではありません。",
+    "enExplanation": "Even if you hurry, it will not achieve the aim. This expresses pointlessness, not a prohibition, a wish for action, or relief about a past action."
+  },
+  {
+    "id": "golden-grammar-q166",
+    "chapter": "文法ドリル",
+    "page": 166,
+    "type": "production",
+    "difficulty": 3,
+    "question": "もう店は閉まっている。今電話し __________ よ。\n\nThe shop is already closed. Calling now would be futile.",
+    "answers": [
+      "てはいけない",
+      "てほしい",
+      "てよかった",
+      "ても無駄(むだ)だ"
+    ],
+    "correct": 3,
+    "grammarPoint": "～ても無駄(むだ) — doing would be futile",
+    "formation": "V て-form + も無駄だ",
+    "casualForm": "今電話しても無駄だよ。",
+    "jpExplanation": "「ても無駄(むだ)」は、その行動をしても期待する結果が得られないという判断です。「てはいけない」は禁止です。",
+    "enExplanation": "ても無駄 judges that the effort will not bring the intended result. It is stronger than merely saying the action is not required and does not itself mean it is forbidden."
+  },
+  {
+    "id": "golden-grammar-q167",
+    "chapter": "文法ドリル",
+    "page": 167,
+    "type": "production",
+    "difficulty": 2,
+    "question": "昨日、返信するのを忘れ __________。\n\nSorry I forgot to reply yesterday. (Apologize casually to a friend.)",
+    "answers": [
+      "てありがとう",
+      "てごめん",
+      "なくていい",
+      "てほしい"
+    ],
+    "correct": 1,
+    "grammarPoint": "～てごめん — sorry for doing",
+    "formation": "V て-form + ごめん",
+    "casualForm": "返信するの忘れてごめん。",
+    "jpExplanation": "「てごめん」で、自分の行動について親しい相手に謝ります。「ありがとう」は感謝、「ほしい」は希望です。",
+    "enExplanation": "The て-form names what you are apologizing for. ごめん is casual; the alternatives express thanks, lack of obligation, or a wish."
+  },
+  {
+    "id": "golden-grammar-q168",
+    "chapter": "文法ドリル",
+    "page": 168,
+    "type": "production",
+    "difficulty": 2,
+    "question": "遅れ __________。\n\nI am sorry for being late. (Apologize politely.)",
+    "answers": [
+      "てすみません",
+      "ても大丈夫です",
+      "てください",
+      "てよかったです"
+    ],
+    "correct": 0,
+    "grammarPoint": "～てすみません — politely apologize for doing",
+    "formation": "V て-form + すみません",
+    "casualForm": "友達には「遅れてごめん」。",
+    "jpExplanation": "「てすみません」は自分の行動について丁寧に謝る形です。「ても大丈夫」は相手を安心させる表現で、謝罪ではありません。",
+    "enExplanation": "すみません makes this an apology. ても大丈夫 permits or reassures, てください requests an action, and てよかった expresses relief."
+  },
+  {
+    "id": "golden-grammar-q169",
+    "chapter": "文法ドリル",
+    "page": 169,
+    "type": "production",
+    "difficulty": 2,
+    "question": "駅まで迎えに来 __________。\n\nThank you for coming to pick me up at the station.",
+    "answers": [
+      "てあげてありがとう",
+      "てもらってください",
+      "てほしくない",
+      "てくれてありがとう"
+    ],
+    "correct": 3,
+    "grammarPoint": "～てくれてありがとう — thank someone for doing",
+    "formation": "V て-form + くれてありがとう",
+    "casualForm": "迎えに来てくれてありがとう。",
+    "jpExplanation": "相手が自分のためにしてくれた行為に感謝します。「あげる」では恩恵の向きが逆になります。",
+    "enExplanation": "くれる presents the action as a favor received from the listener. あげる reverses that direction, and the other choices are not expressions of thanks."
+  },
+  {
+    "id": "golden-grammar-q170",
+    "chapter": "文法ドリル",
+    "page": 170,
+    "type": "production",
+    "difficulty": 3,
+    "question": "この話は秘密です。他の人に言っ __________。\n\nThis is a secret. I do not want you to tell anyone else.",
+    "answers": [
+      "てほしくない",
+      "てもかまわない",
+      "てくれてよかった",
+      "ておいてほしい"
+    ],
+    "correct": 0,
+    "grammarPoint": "～てほしくない — do not want someone to do",
+    "formation": "V て-form + ほしくない",
+    "casualForm": "他の人に言ってほしくない。",
+    "jpExplanation": "「ほしくない」は「ほしい」の否定で、相手の行動を望まないと伝えます。「ないでほしい」も近い意味です。",
+    "enExplanation": "てほしくない negates your desire for the action. てもかまわない permits it, てくれてよかった welcomes it, and ておいてほしい requests it in advance."
+  },
+  {
+    "id": "golden-grammar-q171",
+    "chapter": "文法ドリル",
+    "page": 171,
+    "type": "production",
+    "difficulty": 3,
+    "question": "大事な約束を忘れ __________。\n\nI am sorry I ended up forgetting our important promise.",
+    "answers": [
+      "てくれてありがとう",
+      "てもかまわない",
+      "てしまってごめん",
+      "ておいてほしい"
+    ],
+    "correct": 2,
+    "grammarPoint": "～てしまってごめん — apologize for an unfortunate completed action",
+    "formation": "V て-form + しまって + ごめん",
+    "casualForm": "大事な約束、忘れちゃってごめん。",
+    "jpExplanation": "「てしまって」で残念な結果を表し、「ごめん」で謝ります。「てしまって」は会話で「ちゃって」になります。",
+    "enExplanation": "しまって adds the sense of an unfortunate outcome to the apology. In casual speech てしまって contracts to ちゃって; でしまって becomes じゃって."
+  },
+  {
+    "id": "golden-grammar-q172",
+    "chapter": "文法ドリル",
+    "page": 172,
+    "type": "production",
+    "difficulty": 3,
+    "question": "電車に乗っ __________、ずっと音楽を聞いていた。\n\nI was listening to music the whole time I was riding the train.",
+    "answers": [
+      "ている間(あいだ)",
+      "ている間に(あいだに)",
+      "た後で",
+      "てからでないと"
+    ],
+    "correct": 0,
+    "grammarPoint": "～ている間(あいだ) — while an action continues",
+    "formation": "V ている + 間\n乗っている + 間",
+    "casualForm": "電車に乗ってる間、ずっと音楽を聞いてた。",
+    "jpExplanation": "「ている間(あいだ)」で動作が続く期間を示します。過去の話でも、その期間の中で続いていた状態には「乗っている間」が使えます。",
+    "enExplanation": "The ongoing form supplies the period throughout which the other activity continues. It can occur in a past narrative; 間に instead focuses on something happening within the period."
+  },
+  {
+    "id": "golden-grammar-q173",
+    "chapter": "文法ドリル",
+    "page": 173,
+    "type": "production",
+    "difficulty": 3,
+    "question": "シャワーを浴び __________、電話が一度かかってきた。\n\nThe phone rang once while I was taking a shower.",
+    "answers": [
+      "るまでずっと",
+      "てからでないと",
+      "ている間に(あいだに)",
+      "るたびに"
+    ],
+    "correct": 2,
+    "grammarPoint": "～ている間に(あいだに) — an event occurs while doing",
+    "formation": "V ている + 間に",
+    "casualForm": "シャワー浴びてる間に、電話がかかってきた。",
+    "jpExplanation": "シャワーを浴びる期間の中で、一度電話が来たという出来事を示します。「間に」は期間内の出来事に注目します。",
+    "enExplanation": "間に locates the single phone call within the ongoing shower. It does not mean the phone rang continuously until the shower or on every occasion."
+  },
+  {
+    "id": "golden-grammar-q174",
+    "chapter": "文法ドリル",
+    "page": 174,
+    "type": "production",
+    "difficulty": 3,
+    "question": "先生、今日は来 __________。\n\nTeacher, thank you very much for coming today. (Honor the teacher’s action.)",
+    "answers": [
+      "てあげてありがとうございます",
+      "てくださってありがとうございます",
+      "ていただいてください",
+      "てもかまいません"
+    ],
+    "correct": 1,
+    "grammarPoint": "～てくださってありがとうございます — respectfully thank someone for doing",
+    "formation": "V て-form + くださって + ありがとうございます",
+    "casualForm": "友達には「来てくれてありがとう」。",
+    "jpExplanation": "「くださる」は「くれる」の尊敬語です。先生が来た行為を高めて、その行為に感謝しています。",
+    "enExplanation": "くださる respectfully describes the giver’s action. くださって connects it to thanks; あげる does not honor a favor received from the teacher."
+  },
+  {
+    "id": "golden-grammar-q175",
+    "chapter": "文法ドリル",
+    "page": 175,
+    "type": "production",
+    "difficulty": 3,
+    "question": "先生に作文をちょっと見 __________。\n\nI would like to have my teacher take a look at my composition.",
+    "answers": [
+      "てあげたい",
+      "てしまいたい",
+      "ておきたい",
+      "てもらいたい"
+    ],
+    "correct": 3,
+    "grammarPoint": "～てもらいたい — want to have someone do",
+    "formation": "Person + に + V て-form + もらいたい",
+    "casualForm": "先生にちょっと見てもらいたい。",
+    "jpExplanation": "先生が作文を見る行為を、自分が受けたいという希望です。「あげたい」なら自分が相手のためにする方向です。",
+    "enExplanation": "もらいたい expresses wanting to receive the action from the person marked by に. あげたい reverses who provides the favor; the other forms express completing or preparing your own action."
+  },
+  {
+    "id": "golden-grammar-q176",
+    "chapter": "文法ドリル",
+    "page": 176,
+    "type": "production",
+    "difficulty": 3,
+    "question": "こちらに名前を書い __________ です。\n\nI would like you to write your name here. (Use a humble, polite expression.)",
+    "answers": [
+      "てあげたい",
+      "てもかまわない",
+      "ていただきたい",
+      "てくださった"
+    ],
+    "correct": 2,
+    "grammarPoint": "～ていただきたい — would like someone to do; humble request",
+    "formation": "V て-form + いただきたいです",
+    "casualForm": "友達には「ここに名前を書いてもらいたい」。",
+    "jpExplanation": "「いただきたい」は「もらいたい」の謙譲表現です。相手の行為を自分が受ける形で、丁寧に希望を伝えます。",
+    "enExplanation": "いただきたい is the humble counterpart of もらいたい. It expresses a polite wish to receive the listener’s action, rather than permission or a completed favor."
+  },
+  {
+    "id": "golden-grammar-q177",
+    "chapter": "文法ドリル",
+    "page": 177,
+    "type": "production",
+    "difficulty": 3,
+    "question": "明日の会議で使うので、今日中に送っ __________。\n\nI need it for tomorrow’s meeting, so it would help me if you sent it today.",
+    "answers": [
+      "ても無駄だ",
+      "てあげると助かる",
+      "てくれると助かる",
+      "てしまってごめん"
+    ],
+    "correct": 2,
+    "grammarPoint": "～てくれると助かる — it would help me if you did",
+    "formation": "V て-form + くれると助かる",
+    "casualForm": "今日中に送ってくれると助かる。",
+    "jpExplanation": "「くれる」で相手から自分への行為を表し、「助かる」でその行為が役に立つと伝えます。依頼を少し間接的にできます。",
+    "enExplanation": "The speaker describes how receiving the action would help, making an indirect request. あげる reverses the favor’s direction; the other options express futility or an apology."
+  },
+  {
+    "id": "golden-grammar-q178",
+    "chapter": "文法ドリル",
+    "page": 178,
+    "type": "production",
+    "difficulty": 3,
+    "question": "分からないなら、担当者に直接聞い __________？\n\nIf you do not understand, why don’t you ask the person responsible directly?",
+    "answers": [
+      "ても無駄",
+      "たことがある",
+      "てはいけない",
+      "たらどう"
+    ],
+    "correct": 3,
+    "grammarPoint": "～たらどう？ — why don’t you do…?",
+    "formation": "V た-form + らどう\n聞いた + らどう",
+    "casualForm": "直接聞いたらどう？",
+    "jpExplanation": "「たらどう」は相手に行動を提案する表現です。ここでは、直接聞くことを勧めています。",
+    "enExplanation": "たらどう offers a suggestion. The other answers ask about futility, experience, or prohibition, none of which matches the intended advice."
+  },
+  {
+    "id": "golden-grammar-q179",
+    "chapter": "文法ドリル",
+    "page": 179,
+    "type": "production",
+    "difficulty": 2,
+    "question": "昨日 __________、覚えてる？\n\nDo you remember what I said yesterday?",
+    "answers": [
+      "言ったこと",
+      "言いましたこと",
+      "言ってこと",
+      "言ったのこと"
+    ],
+    "correct": 0,
+    "grammarPoint": "V た-form + こと — what someone did/said",
+    "formation": "V た-form + こと",
+    "casualForm": "昨日言ったこと、覚えてる？",
+    "jpExplanation": "「言ったこと」は発言した内容を表します。過去の普通形「言った」が直接「こと」を説明します。",
+    "enExplanation": "こと refers to the content of what was said. The past plain form modifies it directly; ました, a bare て-form, and an inserted の are not the construction here."
+  },
+  {
+    "id": "golden-grammar-q180",
+    "chapter": "文法ドリル",
+    "page": 180,
+    "type": "production",
+    "difficulty": 2,
+    "question": "昨日 __________、誰？\n\nWho was the person who called yesterday?",
+    "answers": [
+      "電話してきました人",
+      "電話してきて人",
+      "電話してきた人",
+      "電話してきたの人"
+    ],
+    "correct": 2,
+    "grammarPoint": "V た-form + 人 — the person who did",
+    "formation": "V た-form clause + 人",
+    "casualForm": "昨日電話してきた人、誰？",
+    "jpExplanation": "「電話してきた」が「人」を説明しています。「た」は過去の出来事を表し、名詞に直接つながります。",
+    "enExplanation": "The past clause identifies the person by a completed action. It modifies 人 without の and uses plain rather than polite verb form."
+  },
+  {
+    "id": "golden-grammar-q181",
+    "chapter": "文法ドリル",
+    "page": 181,
+    "type": "production",
+    "difficulty": 2,
+    "question": "昨日 __________、もう届いた。\n\nThe things I bought yesterday have already arrived.",
+    "answers": [
+      "買いましたもの",
+      "買ってもの",
+      "買ったもの",
+      "買ったのもの"
+    ],
+    "correct": 2,
+    "grammarPoint": "V た-form + もの — the things one did something to",
+    "formation": "V た-form + もの",
+    "casualForm": "昨日買ったもの、もう届いた。",
+    "jpExplanation": "「買った」がどの物かを説明します。買うという行動は過去なので「買ったもの」です。",
+    "enExplanation": "The past plain form identifies things by the completed purchase. There is no の between the verb clause and もの."
+  },
+  {
+    "id": "golden-grammar-q182",
+    "chapter": "文法ドリル",
+    "page": 182,
+    "type": "production",
+    "difficulty": 3,
+    "question": "昨日 __________ を教えて。\n\nTell me the reason you did not come yesterday.",
+    "answers": [
+      "来ませんでした理由",
+      "来なくて理由",
+      "来なかった理由",
+      "来なかったの理由"
+    ],
+    "correct": 2,
+    "grammarPoint": "Past plain clause + 理由(りゆう) — the reason for doing/not doing",
+    "formation": "V た-form / V なかった + 理由",
+    "casualForm": "昨日来なかった理由、教えて。",
+    "jpExplanation": "過去の否定「来なかった」が「理由(りゆう)」を説明します。「理由」の前も動詞の普通形を使います。",
+    "enExplanation": "The clause uses the past negative plain form directly before 理由. This tests past noun modification, including a negative event, rather than a polite sentence followed by a noun."
+  },
+  {
+    "id": "golden-grammar-q183",
+    "chapter": "文法ドリル",
+    "page": 183,
+    "type": "production",
+    "difficulty": 4,
+    "question": "やると決め __________、最後まで責任を持ってやる。\n\nNow that I have decided to do it, I will take responsibility and see it through.",
+    "answers": [
+      "る前に",
+      "ている間に",
+      "た以上(いじょう)",
+      "るかどうか"
+    ],
+    "correct": 2,
+    "grammarPoint": "～た以上(いじょう) — now that one has done, one must…",
+    "formation": "V た-form + 以上（は）",
+    "casualForm": "やると決めた以上、最後までやる。",
+    "jpExplanation": "「た以上(いじょう)」は、すでにした決定を前提に、責任や決意などを続けます。単に出来事の順番を言うだけではありません。",
+    "enExplanation": "以上 treats the completed decision as a premise that entails commitment or responsibility. It is stronger than merely saying after, and is not a question about whether to decide."
+  },
+  {
+    "id": "golden-grammar-q184",
+    "chapter": "文法ドリル",
+    "page": 184,
+    "type": "production",
+    "difficulty": 3,
+    "question": "いろいろ調べ __________、このホテルに決めた。\n\nAs a result of researching various options, I chose this hotel.",
+    "answers": [
+      "る前に",
+      "た結果(けっか)",
+      "るために",
+      "ているところで"
+    ],
+    "correct": 1,
+    "grammarPoint": "～た結果(けっか) — as a result of doing",
+    "formation": "V た-form + 結果",
+    "casualForm": "いろいろ調べた結果、このホテルにした。",
+    "jpExplanation": "調べたことから得られた結論を「結果(けっか)」で示します。「ために」は目的、「前に」はそれより前の時点です。",
+    "enExplanation": "た結果 connects completed investigation to the decision it produced. The other choices describe an earlier time, a purpose, or an interruption during the process."
+  },
+  {
+    "id": "golden-grammar-q185",
+    "chapter": "文法ドリル",
+    "page": 185,
+    "type": "production",
+    "difficulty": 3,
+    "question": "今朝は急いでいて、鍵をかけ __________。\n\nI was in a hurry this morning and forgot to lock the door.",
+    "answers": [
+      "直した",
+      "忘れた",
+      "続けた",
+      "始めた"
+    ],
+    "correct": 1,
+    "grammarPoint": "V stem + 忘れる — forget to do",
+    "formation": "V ます-stem + 忘れる\nかけます → かけ + 忘れた",
+    "casualForm": "鍵、かけ忘れた。",
+    "jpExplanation": "「かけ忘れた」は鍵をかける行動をし忘れたことです。物を置いてくる「鍵を忘れた」とは違います。",
+    "enExplanation": "Attaching 忘れる to the stem says you omitted the action. 鍵を忘れた would mean forgetting the key itself; the other choices mean redo, continue, and begin."
+  },
+  {
+    "id": "golden-grammar-q186",
+    "chapter": "文法ドリル",
+    "page": 186,
+    "type": "production",
+    "difficulty": 4,
+    "question": "寝 __________、電話がかかってきた。\n\nJust as I was about to go to sleep, the phone rang.",
+    "answers": [
+      "たことがあったら",
+      "るようになったら",
+      "ないことにしたら",
+      "ようとしたら"
+    ],
+    "correct": 3,
+    "grammarPoint": "Volitional + とする — be about to / attempt to do",
+    "formation": "V volitional + とする\n寝よう + としたら",
+    "casualForm": "寝ようとしたら、電話が来た。",
+    "jpExplanation": "「寝ようとしたら」は寝る動作に移ろうとしたところで別のことが起きたと表します。「とする」は試みを表すこともあります。",
+    "enExplanation": "Volitional + とする marks an attempt or the moment before an action. Here たら introduces the phone call that interrupts that moment, not a new habit or a past experience."
+  },
+  {
+    "id": "golden-grammar-q187",
+    "chapter": "文法ドリル",
+    "page": 187,
+    "type": "production",
+    "difficulty": 4,
+    "question": "何度聞いても、彼は理由を話 __________。\n\nNo matter how often I ask, he makes no attempt to explain his reasons.",
+    "answers": [
+      "そうとしない",
+      "したことがない",
+      "せるようになった",
+      "したがっている"
+    ],
+    "correct": 0,
+    "grammarPoint": "Volitional + としない — make no attempt to do",
+    "formation": "V volitional + としない\n話そう + としない",
+    "casualForm": "全然話そうとしない。",
+    "jpExplanation": "「話そうとしない」は話す意志や試みが見られないことです。「話せない」のような能力の不足とは区別します。",
+    "enExplanation": "Volitional + としない describes an absence of willingness or attempt. It is not simply inability, lack of past experience, or a desire to speak."
+  }
 ]
