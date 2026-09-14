@@ -883,6 +883,21 @@
     "questionCount": 80
   },
   {
+    "id": "conjugation-drill",
+    "category": "conversation",
+    "page": "Conjugation",
+    "sortOrder": 68.75,
+    "title": "Conjugation Drill",
+    "menuColor": "yellow",
+    "answerMode": "reveal",
+    "file": "data/conjugation-drill.json",
+    "introduction": {
+      "ja": "文(ぶん)と動詞(どうし)の形(かたち)を見(み)て、頭(あたま)の中(なか)で答(こた)えを考(かんが)えます。「Check answer」で答(こた)えと短(みじか)い活用(かつよう)のルールを確認(かくにん)します。",
+      "en": "Batch 1: 30 contextual verb questions. Think of the missing form, then tap Check answer to see the answer and the short rule together. No typing required. Optionally choose Practise again later to revisit an item after a few other answers or at the end."
+    },
+    "questionCount": 30
+  },
+  {
   "id": "mimetic-words",
   "category": "conversation",
   "page": "Mimetic",

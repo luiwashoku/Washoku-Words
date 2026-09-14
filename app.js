@@ -55,7 +55,8 @@
 
   const STORAGE_KEYS = {
     stats: "washoku-foundation-stats",
-    progress: "washoku-foundation-progress"
+    progress: "washoku-foundation-progress",
+    conjugation: "washoku-conjugation-performance"
   };
 
   const QUESTION_INDEX_LABELS = {
@@ -105,6 +106,8 @@
     questions: [],
     currentQuestionIndex: 0,
     answerLocked: false,
+    conjugation: { families: {}, items: {} },
+    conjugationSession: null,
     furiganaVisible: false,
     stats: {
       answered: 0,
@@ -136,6 +139,8 @@
   }
 
   function cacheElements() {
+    elements.conjugationFeedback = document.getElementById("conjugationFeedback");
+
     elements.topbar =
       document.querySelector(".topbar");
 
@@ -453,7 +458,12 @@
           playSound("click");
           closeGrammarIndex();
 
-          if (questionIndex !== state.currentQuestionIndex) {
+          if (questionIndex !== state.currentQuestionIndex ||
+              state.conjugationSession?.reviewQuestion) {
+            if (state.conjugationSession) {
+              state.conjugationSession.reviewQuestion = null;
+              state.conjugationSession.resumeIndex = null;
+            }
             state.currentQuestionIndex = questionIndex;
             renderCurrentQuestion();
           }
@@ -727,7 +737,7 @@
     }
 
     const question =
-      state.questions[state.currentQuestionIndex];
+      getCurrentQuestion();
     const japaneseText = getJapaneseSpeechText(
       question?.question,
       {
@@ -745,7 +755,7 @@
 
   function speakCurrentJapaneseAnswers() {
     const question =
-      state.questions[state.currentQuestionIndex];
+      getCurrentQuestion();
     const japaneseText = question?.answers
       ?.map((answer) =>
         getJapaneseSpeechText(answer)
@@ -762,7 +772,7 @@
 
   function speakCurrentJapaneseExplanation() {
     const question =
-      state.questions[state.currentQuestionIndex];
+      getCurrentQuestion();
     const japaneseText = getJapaneseSpeechText(
       question?.jpExplanation ||
         "解説はまだありません。"
@@ -966,6 +976,11 @@
       STORAGE_KEYS.progress,
       {}
     );
+    const conjugation = readStorage(STORAGE_KEYS.conjugation, {}) || {};
+    state.conjugation = {
+      families: conjugation.families || {},
+      items: conjugation.items || {}
+    };
     migrateConversationProgress();
   }
 
@@ -1306,7 +1321,7 @@
 
           <span>
             ${progress.completed}/${count}
-            completed
+            ${lesson.answerMode === "reveal" ? "practised" : "completed"}
           </span>
         </span>
 
@@ -1369,6 +1384,7 @@
       }
 
       state.selectedLesson = lesson;
+      state.conjugationSession = createConjugationSession();
       state.furiganaVisible = false;
       updateFuriganaControl();
 
@@ -1499,6 +1515,8 @@
   }
 
   function shuffleQuestionAnswers(question) {
+    if (question.answerMode === "reveal") return question;
+
     const correctAnswer =
       question.answers[question.correct];
     const answers = shuffleArray(
@@ -1943,21 +1961,183 @@
     };
   }
 
-  function isValidQuestion(question) {
-    return Boolean(
-      question &&
-      typeof question.id === "string" &&
-      typeof question.question ===
-        "string" &&
-      Array.isArray(question.answers) &&
-      question.answers.length >= 2 &&
-      Number.isInteger(
-        question.correct
-      ) &&
-      question.correct >= 0 &&
-      question.correct <
-        question.answers.length
+  function getCurrentQuestion() {
+    return (state.selectedLesson?.answerMode === "reveal" &&
+      state.conjugationSession?.reviewQuestion) ||
+      state.questions[state.currentQuestionIndex];
+  }
+
+  function createConjugationSession() {
+    return {
+      steps: 0,
+      pending: [],
+      reviewQuestion: null,
+      resumeIndex: null,
+      reviewedIds: new Set()
+    };
+  }
+
+
+
+  function renderConjugationReveal(question) {
+    const panel = document.createElement("div");
+    panel.className = "conjugationForm";
+    const target = document.createElement("p");
+    target.className = "conjugationTarget";
+    const verb = question.verb === question.verbReading
+      ? question.verb : `${question.verb}(${question.verbReading})`;
+    setFuriganaAwareText(target, `${verb} → ${question.formLabel}`);
+    const check = document.createElement("button");
+    check.id = "checkConjugationAnswer";
+    check.type = "button";
+    check.className = "answer-button conjugationSubmit";
+    check.textContent = "Check answer";
+    check.addEventListener("click", () => {
+      if (state.answerLocked) return;
+      state.answerLocked = true;
+      check.disabled = true;
+      check.textContent = "Answer shown";
+      recordConjugationReveal(question);
+      state.conjugationSession.steps += 1;
+      showExplanation(question, null);
+      renderConjugationFeedback(question);
+      playSound("click");
+    });
+    panel.append(target, check);
+    elements.answerContainer.appendChild(panel);
+  }
+
+  function recordConjugationReveal(question) {
+    // Revealing is practice, not a correct or incorrect production attempt.
+    const familyKey = question.conjugationFamily;
+    const family = state.conjugation.families[familyKey] || {};
+    state.conjugation.families[familyKey] = {
+      ...family,
+      reveals: (Number(family.reveals) || 0) + 1
+    };
+    const previous = state.conjugation.items[question.id] || {};
+    state.conjugation.items[question.id] = {
+      ...previous,
+      reveals: (Number(previous.reveals) || 0) + 1
+    };
+    writeStorage(STORAGE_KEYS.conjugation, state.conjugation);
+    const lessonId = state.selectedLesson.id;
+    const progress = state.progress[lessonId] || {};
+    const attemptedIds = new Set(progress.attemptedIds || []);
+    attemptedIds.add(question.id);
+    state.progress[lessonId] = {
+      ...progress,
+      completed: attemptedIds.size,
+      attemptedIds: [...attemptedIds]
+    };
+    writeStorage(STORAGE_KEYS.progress, state.progress);
+  }
+
+  function queueConjugationReview(question) {
+    const session = state.conjugationSession;
+    if (!session.reviewedIds.has(question.id) &&
+        !session.pending.some((entry) => entry.id === question.id)) {
+      session.pending.push({ id: question.id, due: session.steps + 3 });
+    }
+  }
+
+  function renderConjugationFeedback(question) {
+    const feedback = elements.conjugationFeedback;
+    feedback.replaceChildren();
+    const label = document.createElement("label");
+    label.htmlFor = "conjugationAnswer";
+    label.className = "conjugationAnswerLabel";
+    label.textContent = "Correct answer";
+    const answer = document.createElement("input");
+    answer.id = "conjugationAnswer";
+    answer.type = "text";
+    answer.lang = "ja";
+    answer.readOnly = true;
+    answer.value = question.answers[question.correct];
+
+    const rule = document.createElement("div");
+    rule.className = "conjugationRule";
+    const ruleText = document.createElement("p");
+    const group = {
+      "group-1": "Group 1", "group-2": "Group 2", irregular: "Irregular"
+    }[question.verbGroup];
+    setFuriganaAwareText(ruleText,
+      `${question.verb} → ${question.answers[question.correct]}\n` +
+      `${group}\n${question.rule}`
     );
+    rule.appendChild(ruleText);
+    feedback.append(label, answer, rule);
+
+    // Optional self-directed review, without guessing whether recall was correct.
+    const session = state.conjugationSession;
+    if (!session.reviewedIds.has(question.id)) {
+      const again = document.createElement("button");
+      again.type = "button";
+      again.className = "conjugationAgain";
+      again.textContent = "Practise again later";
+      const queued = () => {
+        again.disabled = true;
+        again.textContent = "Queued for review";
+      };
+      if (session.pending.some((entry) => entry.id === question.id)) queued();
+      again.addEventListener("click", () => {
+        queueConjugationReview(question);
+        queued();
+        playSound("click");
+      });
+      feedback.appendChild(again);
+    }
+  }
+
+
+
+  function showNextConjugationQuestion() {
+    if (!state.answerLocked) return;
+    const session = state.conjugationSession;
+    const nextIndex = session.reviewQuestion
+      ? session.resumeIndex : state.currentQuestionIndex + 1;
+    session.reviewQuestion = null;
+    const ready = session.pending.findIndex(
+      (entry) => entry.due <= session.steps || nextIndex >= state.questions.length
+    );
+    if (ready >= 0) {
+      const entry = session.pending.splice(ready, 1)[0];
+      session.reviewQuestion = state.questions.find(
+        (question) => question.id === entry.id
+      );
+      session.reviewedIds.add(entry.id);
+      session.resumeIndex = nextIndex;
+      renderCurrentQuestion();
+    } else if (nextIndex >= state.questions.length) {
+      finishLesson();
+    } else {
+      state.currentQuestionIndex = nextIndex;
+      renderCurrentQuestion();
+    }
+  }
+
+  function isValidQuestion(question) {
+    const common = question &&
+      typeof question.id === "string" &&
+      typeof question.question === "string" &&
+      Array.isArray(question.answers) &&
+      Number.isInteger(question.correct) &&
+      question.correct >= 0 && question.correct < question.answers.length;
+    if (!common) return false;
+    if (question.answerMode === "reveal") {
+      return question.answers.length === 1 &&
+        typeof question.answers[0] === "string" &&
+        Array.isArray(question.acceptedAnswers) &&
+        question.acceptedAnswers.length > 0 &&
+        question.acceptedAnswers.every((answer) =>
+          typeof answer === "string" && answer.trim().length > 0
+        ) &&
+        question.acceptedAnswers.includes(question.answers[0]) &&
+        ["group-1", "group-2", "irregular"].includes(question.verbGroup) &&
+        ["verb", "verbReading", "verbGroup", "formLabel", "conjugationFamily", "rule"]
+          .every((key) => typeof question[key] === "string" && question[key]);
+    }
+    return question.answers.length >= 2;
   }
 
   function renderCurrentQuestion() {
@@ -1965,9 +2145,7 @@
     state.answerLocked = false;
 
     const question =
-      state.questions[
-        state.currentQuestionIndex
-      ];
+      getCurrentQuestion();
 
     elements.questionProgress.textContent =
       `${state.currentQuestionIndex + 1} / ` +
@@ -1983,6 +2161,11 @@
       question
     );
 
+    if (question.answerMode === "reveal" && state.conjugationSession?.reviewQuestion) {
+      elements.questionProgress.textContent = "Review";
+    }
+    elements.conjugationFeedback.classList.add("hidden");
+
     const canSpeakQuestion =
       "speechSynthesis" in window &&
       "SpeechSynthesisUtterance" in window &&
@@ -1994,6 +2177,7 @@
     );
 
     const canSpeakAnswers =
+      question.answerMode !== "reveal" &&
       "speechSynthesis" in window &&
       "SpeechSynthesisUtterance" in window &&
       question.answers.some(
@@ -2044,10 +2228,13 @@
 
     elements.resultCard.classList.remove(
       "correct-result",
-      "wrong-result"
+      "wrong-result",
+      "reveal-result"
     );
 
-    question.answers.forEach(
+    if (question.answerMode === "reveal") {
+      renderConjugationReveal(question);
+    } else question.answers.forEach(
       (answerText, answerIndex) => {
         const button =
           document.createElement(
@@ -2095,9 +2282,7 @@
     state.answerLocked = true;
 
     const question =
-      state.questions[
-        state.currentQuestionIndex
-      ];
+      getCurrentQuestion();
 
     const buttons = Array.from(
       elements.answerContainer
@@ -2251,6 +2436,7 @@
     const isStandardVsSpoken =
       state.selectedLesson?.id === "standard-vs-spoken";
     const showExplanations =
+      question.answerMode !== "reveal" &&
       state.selectedLesson?.feedbackMode !==
         "result-only" &&
       !isStandardVsSpoken;
@@ -2265,6 +2451,7 @@
     );
 
     const hasGrammarDetails = Boolean(
+      question.answerMode !== "reveal" &&
       question.grammarPoint &&
       question.formation &&
       question.casualForm
@@ -2307,12 +2494,16 @@
       );
     }
 
-    elements.resultCard.classList.remove(
-      "hidden"
-    );
+    const reveal = question.answerMode === "reveal";
+    elements.conjugationFeedback.classList.toggle("hidden", !reveal);
+    if (reveal) {
+      elements.resultTitle.textContent = "Answer";
+      elements.speakExplanation.classList.add("hidden");
+    }
+    elements.resultCard.classList.remove("hidden");
 
     elements.resultCard.classList.add(
-      isCorrect
+      reveal ? "reveal-result" : isCorrect
         ? "correct-result"
         : "wrong-result"
     );
@@ -2326,6 +2517,11 @@
   }
 
   function showNextQuestion() {
+    if (getCurrentQuestion()?.answerMode === "reveal") {
+      playSound("click");
+      showNextConjugationQuestion();
+      return;
+    }
     playSound("click");
 
     const isLastQuestion =
@@ -2345,7 +2541,9 @@
     window.alert(
       state.selectedLesson?.isRandom
         ? "おまかせ問題、完了！"
-        : "Lesson complete. Great work!"
+        : state.selectedLesson?.answerMode === "reveal"
+          ? "Practice complete. Keep practising across verbs and contexts."
+          : "Lesson complete. Great work!"
     );
 
     if (state.selectedLesson?.isRandom) {

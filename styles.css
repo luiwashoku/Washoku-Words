@@ -986,3 +986,86 @@ body.no-furigana rt {
     font-size: 9px;
   }
 }
+
+/* Conjugation reveal uses the shared quiz card and feedback layout. */
+.conjugationForm {
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+}
+
+.conjugationTarget {
+  margin: 0 0 4px;
+  font-size: 19px;
+  font-weight: 800;
+  overflow-wrap: anywhere;
+}
+
+.conjugationAnswerLabel {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+#conjugationAnswer {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  min-height: 58px;
+  padding: 12px 14px;
+  border: 2px solid var(--ink);
+  border-radius: 18px;
+  background: var(--paper);
+  color: var(--ink);
+  font: inherit;
+  font-size: 22px;
+}
+
+#conjugationAnswer:focus-visible,
+.conjugationSubmit:focus-visible,
+.conjugationAgain:focus-visible {
+  outline: 3px solid var(--depth);
+  outline-offset: 3px;
+}
+
+.conjugationSubmit {
+  text-align: center;
+  background: var(--depth);
+  color: var(--paper);
+}
+
+#resultCard.reveal-result {
+  background: var(--horizon);
+}
+
+.conjugationFeedback {
+  overflow-wrap: anywhere;
+}
+
+.conjugationRule {
+  margin: 14px 0;
+  padding: 14px;
+  border: 2px solid var(--ink);
+  border-radius: 18px;
+  background: var(--paper);
+}
+
+.conjugationRule p {
+  margin: 0;
+  white-space: pre-line;
+  line-height: 1.6;
+}
+
+.conjugationAgain {
+  padding: 10px 14px;
+  border: 2px solid var(--ink);
+  border-radius: 14px;
+  background: var(--paper);
+  color: var(--ink);
+  font: inherit;
+  cursor: pointer;
+}
+
+.conjugationAgain:disabled {
+  cursor: default;
+}
