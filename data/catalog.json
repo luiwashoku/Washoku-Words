@@ -869,6 +869,20 @@
   "questionCount": 187
 },
   {
+    "id": "particle-drill",
+    "category": "conversation",
+    "page": "Particles",
+    "sortOrder": 68.5,
+    "title": "Particle Drill",
+    "menuColor": "yellow",
+    "file": "data/particle-drill.json",
+    "introduction": {
+      "ja": "文(ぶん)と場面(ばめん)に合(あ)う助詞(じょし)を選(えら)びます。基本(きほん)、使(つか)い分(わ)け、意味(いみ)を変(か)える助詞(じょし)、組(く)み合(あ)わせ、会話(かいわ)での省略(しょうりゃく)を練習(れんしゅう)します。省略(しょうりゃく)の問題(もんだい)では、自然(しぜん)な会話(かいわ)を読(よ)んで、省(はぶ)かれた助詞(じょし)を戻(もど)します。",
+      "en": "Choose the particle that fits the sentence and situation. Practice core particles, common contrasts, limiting meanings, combinations, and casual omission. In omission items, restore a particle in an already natural casual sentence. Context matters: some particles, such as に and へ with destinations, can both be correct, so these drills avoid treating interchangeable choices as errors."
+    },
+    "questionCount": 80
+  },
+  {
   "id": "mimetic-words",
   "category": "conversation",
   "page": "Mimetic",

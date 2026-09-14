@@ -1,0 +1,2342 @@
+[
+  {
+    "id": "particle-drill-q01",
+    "chapter": "基本の助詞",
+    "page": 1,
+    "type": "production",
+    "difficulty": 1,
+    "question": "田中(たなか)さんは会社員(かいしゃいん)です。私(わたし)＿＿＿学生(がくせい)です。\n\nTanaka is an office worker. As for me, I am a student.",
+    "answers": [
+      "で",
+      "は",
+      "を",
+      "に"
+    ],
+    "correct": 1,
+    "sentence": "田中(たなか)さんは会社員(かいしゃいん)です。私(わたし)＿＿＿学生(がくせい)です。",
+    "correctParticle": "は",
+    "distractors": [
+      "を",
+      "に",
+      "で"
+    ],
+    "explanation": "Use は to introduce what you are saying about yourself.",
+    "particleCategory": "core",
+    "particleFocus": "は",
+    "drillFormat": "sentence",
+    "grammarPoint": "は — Tanaka is an office worker. As for me, I am a student.",
+    "jpExplanation": "「は」で自分(じぶん)を話題(わだい)にします。",
+    "enExplanation": "Use は to introduce what you are saying about yourself."
+  },
+  {
+    "id": "particle-drill-q02",
+    "chapter": "基本の助詞",
+    "page": 2,
+    "type": "production",
+    "difficulty": 2,
+    "question": "コーヒー＿＿＿飲(の)みますが、お酒(さけ)は飲(の)みません。\n\nI drink coffee, but I do not drink alcohol.",
+    "answers": [
+      "に",
+      "と",
+      "は",
+      "へ"
+    ],
+    "correct": 2,
+    "sentence": "コーヒー＿＿＿飲(の)みますが、お酒(さけ)は飲(の)みません。",
+    "correctParticle": "は",
+    "distractors": [
+      "に",
+      "へ",
+      "と"
+    ],
+    "explanation": "Use は to contrast coffee with alcohol.",
+    "particleCategory": "core",
+    "particleFocus": "は",
+    "drillFormat": "sentence",
+    "grammarPoint": "は — I drink coffee, but I do not drink alcohol.",
+    "jpExplanation": "「は」でコーヒーとお酒(さけ)を比(くら)べます。",
+    "enExplanation": "Use は to contrast coffee with alcohol."
+  },
+  {
+    "id": "particle-drill-q03",
+    "chapter": "基本の助詞",
+    "page": 3,
+    "type": "production",
+    "difficulty": 1,
+    "question": "Ａ：誰(だれ)が予約(よやく)しましたか。\nＢ：私(わたし)＿＿＿予約(よやく)しました。\n\nA: Who made the reservation?\nB: I did.",
+    "answers": [
+      "を",
+      "へ",
+      "が",
+      "で"
+    ],
+    "correct": 2,
+    "sentence": "Ａ：誰(だれ)が予約(よやく)しましたか。\nＢ：私(わたし)＿＿＿予約(よやく)しました。",
+    "correctParticle": "が",
+    "distractors": [
+      "を",
+      "で",
+      "へ"
+    ],
+    "explanation": "Use が to identify the person answering “who?”.",
+    "particleCategory": "core",
+    "particleFocus": "が",
+    "drillFormat": "sentence",
+    "grammarPoint": "が — A: Who made the reservation?",
+    "jpExplanation": "「誰(だれ)が」に答(こた)える人(ひと)を「が」で示(しめ)します。",
+    "enExplanation": "Use が to identify the person answering “who?”."
+  },
+  {
+    "id": "particle-drill-q04",
+    "chapter": "基本の助詞",
+    "page": 4,
+    "type": "production",
+    "difficulty": 1,
+    "question": "駅前(えきまえ)に新(あたら)しいホテル＿＿＿できました。\n\nA new hotel has opened in front of the station.",
+    "answers": [
+      "を",
+      "が",
+      "へ",
+      "で"
+    ],
+    "correct": 1,
+    "sentence": "駅前(えきまえ)に新(あたら)しいホテル＿＿＿できました。",
+    "correctParticle": "が",
+    "distractors": [
+      "を",
+      "で",
+      "へ"
+    ],
+    "explanation": "Use が to introduce the new hotel that has appeared.",
+    "particleCategory": "core",
+    "particleFocus": "が",
+    "drillFormat": "sentence",
+    "grammarPoint": "が — A new hotel has opened in front of the station.",
+    "jpExplanation": "新(あたら)しくできたホテルを「が」で示(しめ)します。",
+    "enExplanation": "Use が to introduce the new hotel that has appeared."
+  },
+  {
+    "id": "particle-drill-q05",
+    "chapter": "基本の助詞",
+    "page": 5,
+    "type": "production",
+    "difficulty": 1,
+    "question": "朝(あさ)、パン＿＿＿食(た)べました。\n\nI ate bread this morning.",
+    "answers": [
+      "に",
+      "へ",
+      "を",
+      "で"
+    ],
+    "correct": 2,
+    "sentence": "朝(あさ)、パン＿＿＿食(た)べました。",
+    "correctParticle": "を",
+    "distractors": [
+      "に",
+      "で",
+      "へ"
+    ],
+    "explanation": "Use を for the thing you eat.",
+    "particleCategory": "core",
+    "particleFocus": "を",
+    "drillFormat": "sentence",
+    "grammarPoint": "を — I ate bread this morning.",
+    "jpExplanation": "食(た)べる物(もの)に「を」を付(つ)けます。",
+    "enExplanation": "Use を for the thing you eat."
+  },
+  {
+    "id": "particle-drill-q06",
+    "chapter": "基本の助詞",
+    "page": 6,
+    "type": "production",
+    "difficulty": 1,
+    "question": "この漢字(かんじ)＿＿＿読(よ)んでください。\n\nPlease read this kanji.",
+    "answers": [
+      "を",
+      "に",
+      "へ",
+      "と"
+    ],
+    "correct": 0,
+    "sentence": "この漢字(かんじ)＿＿＿読(よ)んでください。",
+    "correctParticle": "を",
+    "distractors": [
+      "に",
+      "へ",
+      "と"
+    ],
+    "explanation": "Use を for what someone reads.",
+    "particleCategory": "core",
+    "particleFocus": "を",
+    "drillFormat": "sentence",
+    "grammarPoint": "を — Please read this kanji.",
+    "jpExplanation": "読(よ)む対象(たいしょう)を「を」で示(しめ)します。",
+    "enExplanation": "Use を for what someone reads."
+  },
+  {
+    "id": "particle-drill-q07",
+    "chapter": "基本の助詞",
+    "page": 7,
+    "type": "production",
+    "difficulty": 1,
+    "question": "京都(きょうと)＿＿＿三日間(みっかかん)泊(と)まります。\n\nI am staying in Kyoto for three days.",
+    "answers": [
+      "が",
+      "に",
+      "と",
+      "を"
+    ],
+    "correct": 1,
+    "sentence": "京都(きょうと)＿＿＿三日間(みっかかん)泊(と)まります。",
+    "correctParticle": "に",
+    "distractors": [
+      "を",
+      "が",
+      "と"
+    ],
+    "explanation": "泊まる uses に for the place where you stay.",
+    "particleCategory": "core",
+    "particleFocus": "に",
+    "drillFormat": "sentence",
+    "grammarPoint": "に — I am staying in Kyoto for three days.",
+    "jpExplanation": "「泊(と)まる」場所(ばしょ)には「に」を使(つか)います。",
+    "enExplanation": "泊まる uses に for the place where you stay."
+  },
+  {
+    "id": "particle-drill-q08",
+    "chapter": "基本の助詞",
+    "page": 8,
+    "type": "production",
+    "difficulty": 1,
+    "question": "七時(しちじ)＿＿＿起(お)きます。\n\nI get up at seven.",
+    "answers": [
+      "へ",
+      "に",
+      "で",
+      "を"
+    ],
+    "correct": 1,
+    "sentence": "七時(しちじ)＿＿＿起(お)きます。",
+    "correctParticle": "に",
+    "distractors": [
+      "を",
+      "で",
+      "へ"
+    ],
+    "explanation": "Use に for the specific time an event happens.",
+    "particleCategory": "core",
+    "particleFocus": "に",
+    "drillFormat": "sentence",
+    "grammarPoint": "に — I get up at seven.",
+    "jpExplanation": "時刻(じこく)を「に」で示(しめ)します。",
+    "enExplanation": "Use に for the specific time an event happens."
+  },
+  {
+    "id": "particle-drill-q09",
+    "chapter": "基本の助詞",
+    "page": 9,
+    "type": "production",
+    "difficulty": 1,
+    "question": "駅(えき)までバス＿＿＿行(い)きます。\n\nI will go to the station by bus.",
+    "answers": [
+      "に",
+      "で",
+      "を",
+      "へ"
+    ],
+    "correct": 1,
+    "sentence": "駅(えき)までバス＿＿＿行(い)きます。",
+    "correctParticle": "で",
+    "distractors": [
+      "に",
+      "を",
+      "へ"
+    ],
+    "explanation": "Use で for the means of transport.",
+    "particleCategory": "core",
+    "particleFocus": "で",
+    "drillFormat": "sentence",
+    "grammarPoint": "で — I will go to the station by bus.",
+    "jpExplanation": "交通手段(こうつうしゅだん)には「で」を使(つか)います。",
+    "enExplanation": "Use で for the means of transport."
+  },
+  {
+    "id": "particle-drill-q10",
+    "chapter": "基本の助詞",
+    "page": 10,
+    "type": "production",
+    "difficulty": 1,
+    "question": "野菜(やさい)を包丁(ほうちょう)＿＿＿切(き)ります。\n\nI cut the vegetables with a kitchen knife.",
+    "answers": [
+      "へ",
+      "を",
+      "で",
+      "に"
+    ],
+    "correct": 2,
+    "sentence": "野菜(やさい)を包丁(ほうちょう)＿＿＿切(き)ります。",
+    "correctParticle": "で",
+    "distractors": [
+      "に",
+      "を",
+      "へ"
+    ],
+    "explanation": "Use で for the tool used to do something.",
+    "particleCategory": "core",
+    "particleFocus": "で",
+    "drillFormat": "sentence",
+    "grammarPoint": "で — I cut the vegetables with a kitchen knife.",
+    "jpExplanation": "使(つか)う道具(どうぐ)を「で」で示(しめ)します。",
+    "enExplanation": "Use で for the tool used to do something."
+  },
+  {
+    "id": "particle-drill-q11",
+    "chapter": "基本の助詞",
+    "page": 11,
+    "type": "production",
+    "difficulty": 1,
+    "question": "「こちら＿＿＿どうぞ」と店員(てんいん)さんが言(い)いました。\n\nThe staff member said, “This way, please.”",
+    "answers": [
+      "が",
+      "と",
+      "を",
+      "へ"
+    ],
+    "correct": 3,
+    "sentence": "「こちら＿＿＿どうぞ」と店員(てんいん)さんが言(い)いました。",
+    "correctParticle": "へ",
+    "distractors": [
+      "を",
+      "が",
+      "と"
+    ],
+    "explanation": "Use へ to point someone in a direction. に can also mark destinations; こちらをどうぞ would mean “this one, please.”",
+    "particleCategory": "core",
+    "particleFocus": "へ",
+    "drillFormat": "sentence",
+    "grammarPoint": "へ — The staff member said, “This way, please.”",
+    "jpExplanation": "方向(ほうこう)を案内(あんない)するとき、「こちらへどうぞ」と言(い)えます。",
+    "enExplanation": "Use へ to point someone in a direction. に can also mark destinations; こちらをどうぞ would mean “this one, please.”"
+  },
+  {
+    "id": "particle-drill-q12",
+    "chapter": "基本の助詞",
+    "page": 12,
+    "type": "production",
+    "difficulty": 2,
+    "question": "京都(きょうと)＿＿＿の行(い)き方(かた)を教(おし)えてください。\n\nPlease tell me how to get to Kyoto.",
+    "answers": [
+      "が",
+      "を",
+      "に",
+      "へ"
+    ],
+    "correct": 3,
+    "sentence": "京都(きょうと)＿＿＿の行(い)き方(かた)を教(おし)えてください。",
+    "correctParticle": "へ",
+    "distractors": [
+      "に",
+      "を",
+      "が"
+    ],
+    "explanation": "Use へ before の to modify 行き方. にの is not used.",
+    "particleCategory": "core",
+    "particleFocus": "へ",
+    "drillFormat": "sentence",
+    "grammarPoint": "へ — Please tell me how to get to Kyoto.",
+    "jpExplanation": "名詞(めいし)につなぐときは「への」です。「にの」とは言(い)いません。",
+    "enExplanation": "Use へ before の to modify 行き方. にの is not used."
+  },
+  {
+    "id": "particle-drill-q13",
+    "chapter": "基本の助詞",
+    "page": 13,
+    "type": "production",
+    "difficulty": 1,
+    "question": "注文(ちゅうもん)は、カレー＿＿＿サラダを一(ひと)つずつお願(ねが)いします。\n\nFor my order, one curry and one salad, please.",
+    "answers": [
+      "と",
+      "へ",
+      "が",
+      "で"
+    ],
+    "correct": 0,
+    "sentence": "注文(ちゅうもん)は、カレー＿＿＿サラダを一(ひと)つずつお願(ねが)いします。",
+    "correctParticle": "と",
+    "distractors": [
+      "が",
+      "で",
+      "へ"
+    ],
+    "explanation": "Use と to join the two things being ordered.",
+    "particleCategory": "core",
+    "particleFocus": "と",
+    "drillFormat": "sentence",
+    "grammarPoint": "と — For my order, one curry and one salad, please.",
+    "jpExplanation": "二(ふた)つの物(もの)を「と」で並(なら)べます。",
+    "enExplanation": "Use と to join the two things being ordered."
+  },
+  {
+    "id": "particle-drill-q14",
+    "chapter": "基本の助詞",
+    "page": 14,
+    "type": "production",
+    "difficulty": 1,
+    "question": "先生(せんせい)は「もう一度(いちど)練習(れんしゅう)してください」＿＿＿言(い)いました。\n\nThe teacher said, “Please practice one more time.”",
+    "answers": [
+      "と",
+      "を",
+      "に",
+      "で"
+    ],
+    "correct": 0,
+    "sentence": "先生(せんせい)は「もう一度(いちど)練習(れんしゅう)してください」＿＿＿言(い)いました。",
+    "correctParticle": "と",
+    "distractors": [
+      "を",
+      "に",
+      "で"
+    ],
+    "explanation": "Use と to mark the quoted sentence.",
+    "particleCategory": "core",
+    "particleFocus": "と",
+    "drillFormat": "sentence",
+    "grammarPoint": "と — The teacher said, “Please practice one more time.”",
+    "jpExplanation": "言(い)った言葉(ことば)を「と」で示(しめ)します。",
+    "enExplanation": "Use と to mark the quoted sentence."
+  },
+  {
+    "id": "particle-drill-q15",
+    "chapter": "基本の助詞",
+    "page": 15,
+    "type": "production",
+    "difficulty": 1,
+    "question": "これは私(わたし)＿＿＿傘(かさ)です。\n\nThis is my umbrella.",
+    "answers": [
+      "に",
+      "を",
+      "の",
+      "で"
+    ],
+    "correct": 2,
+    "sentence": "これは私(わたし)＿＿＿傘(かさ)です。",
+    "correctParticle": "の",
+    "distractors": [
+      "を",
+      "に",
+      "で"
+    ],
+    "explanation": "Use の to connect the owner with the thing they own.",
+    "particleCategory": "core",
+    "particleFocus": "の",
+    "drillFormat": "sentence",
+    "grammarPoint": "の — This is my umbrella.",
+    "jpExplanation": "持(も)ち主(ぬし)と物(もの)を「の」でつなぎます。",
+    "enExplanation": "Use の to connect the owner with the thing they own."
+  },
+  {
+    "id": "particle-drill-q16",
+    "chapter": "基本の助詞",
+    "page": 16,
+    "type": "production",
+    "difficulty": 1,
+    "question": "駅(えき)＿＿＿名前(なまえ)を忘(わす)れました。\n\nI forgot the name of the station.",
+    "answers": [
+      "に",
+      "の",
+      "を",
+      "へ"
+    ],
+    "correct": 1,
+    "sentence": "駅(えき)＿＿＿名前(なまえ)を忘(わす)れました。",
+    "correctParticle": "の",
+    "distractors": [
+      "を",
+      "に",
+      "へ"
+    ],
+    "explanation": "Use の to connect “station” and “name.”",
+    "particleCategory": "core",
+    "particleFocus": "の",
+    "drillFormat": "sentence",
+    "grammarPoint": "の — I forgot the name of the station.",
+    "jpExplanation": "「駅(えき)の名前(なまえ)」のように名詞(めいし)をつなぎます。",
+    "enExplanation": "Use の to connect “station” and “name.”"
+  },
+  {
+    "id": "particle-drill-q17",
+    "chapter": "基本の助詞",
+    "page": 17,
+    "type": "production",
+    "difficulty": 1,
+    "question": "Ａ：私(わたし)、明日(あした)休(やす)みなんです。\nＢ：そうなんですね。私(わたし)＿＿＿休(やす)みです。\n\nA: I have tomorrow off.\nB: Oh, I have it off too.",
+    "answers": [
+      "を",
+      "に",
+      "で",
+      "も"
+    ],
+    "correct": 3,
+    "sentence": "Ａ：私(わたし)、明日(あした)休(やす)みなんです。\nＢ：そうなんですね。私(わたし)＿＿＿休(やす)みです。",
+    "correctParticle": "も",
+    "distractors": [
+      "を",
+      "に",
+      "で"
+    ],
+    "explanation": "Use も to add yourself to the same situation.",
+    "particleCategory": "core",
+    "particleFocus": "も",
+    "drillFormat": "sentence",
+    "grammarPoint": "も — A: I have tomorrow off.",
+    "jpExplanation": "同(おな)じだと伝(つた)えるときは「も」です。",
+    "enExplanation": "Use も to add yourself to the same situation."
+  },
+  {
+    "id": "particle-drill-q18",
+    "chapter": "基本の助詞",
+    "page": 18,
+    "type": "production",
+    "difficulty": 2,
+    "question": "Ａ：この店(みせ)、安(やす)いですね。\nＢ：ええ。それに、味(あじ)＿＿＿いいんです。\n\nA: This place is inexpensive.\nB: Yes, and the food tastes good too.",
+    "answers": [
+      "へ",
+      "を",
+      "も",
+      "で"
+    ],
+    "correct": 2,
+    "sentence": "Ａ：この店(みせ)、安(やす)いですね。\nＢ：ええ。それに、味(あじ)＿＿＿いいんです。",
+    "correctParticle": "も",
+    "distractors": [
+      "を",
+      "で",
+      "へ"
+    ],
+    "explanation": "Use も to add another positive point.",
+    "particleCategory": "core",
+    "particleFocus": "も",
+    "drillFormat": "sentence",
+    "grammarPoint": "も — A: This place is inexpensive.",
+    "jpExplanation": "別(べつ)のよい点(てん)を「も」で加(くわ)えます。",
+    "enExplanation": "Use も to add another positive point."
+  },
+  {
+    "id": "particle-drill-q19",
+    "chapter": "助詞の使い分け",
+    "page": 19,
+    "type": "contrast",
+    "difficulty": 3,
+    "question": "Complete the clause describing 店: “the restaurant that I reserved.”\n\n私(わたし)＿＿＿予約(よやく)した店(みせ)は、駅(えき)の近(ちか)くです。\n\nThe restaurant I reserved is near the station.",
+    "answers": [
+      "を",
+      "は",
+      "に",
+      "が"
+    ],
+    "correct": 3,
+    "sentence": "私(わたし)＿＿＿予約(よやく)した店(みせ)は、駅(えき)の近(ちか)くです。",
+    "correctParticle": "が",
+    "distractors": [
+      "は",
+      "を",
+      "に"
+    ],
+    "explanation": "Use が for the subject inside the clause describing 店. は marks 店 as the topic of the whole sentence.",
+    "particleCategory": "contrasts",
+    "particleFocus": "は vs が",
+    "drillFormat": "contrast",
+    "grammarPoint": "は vs が — The restaurant I reserved is near the station.",
+    "jpExplanation": "「私(わたし)が予約(よやく)した」が店(みせ)を説明(せつめい)します。その中(なか)の主語(しゅご)は「が」です。",
+    "enExplanation": "Use が for the subject inside the clause describing 店. は marks 店 as the topic of the whole sentence."
+  },
+  {
+    "id": "particle-drill-q20",
+    "chapter": "助詞の使い分け",
+    "page": 20,
+    "type": "contrast",
+    "difficulty": 2,
+    "question": "予約(よやく)には、何(なに)＿＿＿必要(ひつよう)ですか。\n\nWhat is needed to make a reservation?",
+    "answers": [
+      "が",
+      "を",
+      "は",
+      "へ"
+    ],
+    "correct": 0,
+    "sentence": "予約(よやく)には、何(なに)＿＿＿必要(ひつよう)ですか。",
+    "correctParticle": "が",
+    "distractors": [
+      "は",
+      "を",
+      "へ"
+    ],
+    "explanation": "Use が after the question word 何 to ask for the unknown required thing.",
+    "particleCategory": "contrasts",
+    "particleFocus": "は vs が",
+    "drillFormat": "contrast",
+    "grammarPoint": "は vs が — What is needed to make a reservation?",
+    "jpExplanation": "必要(ひつよう)な物(もの)を尋(たず)ねるときは「何(なに)が」です。",
+    "enExplanation": "Use が after the question word 何 to ask for the unknown required thing."
+  },
+  {
+    "id": "particle-drill-q21",
+    "chapter": "助詞の使い分け",
+    "page": 21,
+    "type": "contrast",
+    "difficulty": 3,
+    "question": "英語(えいご)＿＿＿話(はな)しますが、日本語(にほんご)はまだ話(はな)しません。\n\nI speak English, but I do not speak Japanese yet.",
+    "answers": [
+      "が",
+      "は",
+      "に",
+      "へ"
+    ],
+    "correct": 1,
+    "sentence": "英語(えいご)＿＿＿話(はな)しますが、日本語(にほんご)はまだ話(はな)しません。",
+    "correctParticle": "は",
+    "distractors": [
+      "が",
+      "に",
+      "へ"
+    ],
+    "explanation": "は replaces the object marker を to contrast the two languages. が would incorrectly make English the speaker.",
+    "particleCategory": "contrasts",
+    "particleFocus": "は vs が",
+    "drillFormat": "contrast",
+    "grammarPoint": "は vs が — I speak English, but I do not speak Japanese yet.",
+    "jpExplanation": "話(はな)す言語(げんご)を比(くら)べるので、「を」の代(か)わりに「は」を使(つか)います。",
+    "enExplanation": "は replaces the object marker を to contrast the two languages. が would incorrectly make English the speaker."
+  },
+  {
+    "id": "particle-drill-q22",
+    "chapter": "助詞の使い分け",
+    "page": 22,
+    "type": "contrast",
+    "difficulty": 2,
+    "question": "誰(だれ)＿＿＿この鍵(かぎ)を持(も)っていますか。\n\nWho has this key?",
+    "answers": [
+      "は",
+      "を",
+      "が",
+      "で"
+    ],
+    "correct": 2,
+    "sentence": "誰(だれ)＿＿＿この鍵(かぎ)を持(も)っていますか。",
+    "correctParticle": "が",
+    "distractors": [
+      "は",
+      "を",
+      "で"
+    ],
+    "explanation": "Use が after 誰 when asking for an unknown person.",
+    "particleCategory": "contrasts",
+    "particleFocus": "は vs が",
+    "drillFormat": "contrast",
+    "grammarPoint": "は vs が — Who has this key?",
+    "jpExplanation": "誰(だれ)か分(わ)からない人(ひと)を尋(たず)ねるときは「誰が」です。",
+    "enExplanation": "Use が after 誰 when asking for an unknown person."
+  },
+  {
+    "id": "particle-drill-q23",
+    "chapter": "助詞の使い分け",
+    "page": 23,
+    "type": "contrast",
+    "difficulty": 2,
+    "question": "公園(こうえん)で走(はし)りました。公園(こうえん)＿＿＿猫(ねこ)がいました。\n\nI ran in the park. There was a cat in the park.",
+    "answers": [
+      "へ",
+      "を",
+      "で",
+      "に"
+    ],
+    "correct": 3,
+    "sentence": "公園(こうえん)で走(はし)りました。公園(こうえん)＿＿＿猫(ねこ)がいました。",
+    "correctParticle": "に",
+    "distractors": [
+      "で",
+      "を",
+      "へ"
+    ],
+    "explanation": "Use に for the location of existence with いました; で marks the running activity.",
+    "particleCategory": "contrasts",
+    "particleFocus": "に vs で",
+    "drillFormat": "contrast",
+    "grammarPoint": "に vs で — I ran in the park. There was a cat in the park.",
+    "jpExplanation": "「いる」場所(ばしょ)は「に」、動作(どうさ)をする場所(ばしょ)は「で」です。",
+    "enExplanation": "Use に for the location of existence with いました; で marks the running activity."
+  },
+  {
+    "id": "particle-drill-q24",
+    "chapter": "助詞の使い分け",
+    "page": 24,
+    "type": "contrast",
+    "difficulty": 2,
+    "question": "図書館(としょかん)に友達(ともだち)がいます。私(わたし)は図書館(としょかん)＿＿＿勉強(べんきょう)します。\n\nMy friend is at the library. I study at the library.",
+    "answers": [
+      "を",
+      "で",
+      "へ",
+      "に"
+    ],
+    "correct": 1,
+    "sentence": "図書館(としょかん)に友達(ともだち)がいます。私(わたし)は図書館(としょかん)＿＿＿勉強(べんきょう)します。",
+    "correctParticle": "で",
+    "distractors": [
+      "に",
+      "を",
+      "へ"
+    ],
+    "explanation": "Use で for the place where studying happens.",
+    "particleCategory": "contrasts",
+    "particleFocus": "に vs で",
+    "drillFormat": "contrast",
+    "grammarPoint": "に vs で — My friend is at the library. I study at the library.",
+    "jpExplanation": "勉強(べんきょう)という動作(どうさ)をする場所(ばしょ)は「で」です。",
+    "enExplanation": "Use で for the place where studying happens."
+  },
+  {
+    "id": "particle-drill-q25",
+    "chapter": "助詞の使い分け",
+    "page": 25,
+    "type": "contrast",
+    "difficulty": 2,
+    "question": "The key should end up resting on the desk, not merely be handled near it.\n\n机(つくえ)＿＿＿鍵(かぎ)を置(お)いてください。\n\nPlease put the key on the desk.",
+    "answers": [
+      "を",
+      "で",
+      "と",
+      "に"
+    ],
+    "correct": 3,
+    "sentence": "机(つくえ)＿＿＿鍵(かぎ)を置(お)いてください。",
+    "correctParticle": "に",
+    "distractors": [
+      "で",
+      "を",
+      "と"
+    ],
+    "explanation": "Use に for the surface where the key ends up.",
+    "particleCategory": "contrasts",
+    "particleFocus": "に vs で",
+    "drillFormat": "contrast",
+    "grammarPoint": "に vs で — Please put the key on the desk.",
+    "jpExplanation": "置(お)く先(さき)を「に」で示(しめ)します。",
+    "enExplanation": "Use に for the surface where the key ends up."
+  },
+  {
+    "id": "particle-drill-q26",
+    "chapter": "助詞の使い分け",
+    "page": 26,
+    "type": "contrast",
+    "difficulty": 2,
+    "question": "駅前(えきまえ)のカフェ＿＿＿友達(ともだち)を待(ま)っています。\n\nI am waiting for my friend at the café in front of the station.",
+    "answers": [
+      "へ",
+      "を",
+      "で",
+      "に"
+    ],
+    "correct": 2,
+    "sentence": "駅前(えきまえ)のカフェ＿＿＿友達(ともだち)を待(ま)っています。",
+    "correctParticle": "で",
+    "distractors": [
+      "に",
+      "を",
+      "へ"
+    ],
+    "explanation": "Use で for the place where waiting happens.",
+    "particleCategory": "contrasts",
+    "particleFocus": "に vs で",
+    "drillFormat": "contrast",
+    "grammarPoint": "に vs で — I am waiting for my friend at the café in front of the station.",
+    "jpExplanation": "待(ま)つ動作(どうさ)をする場所(ばしょ)は「で」です。",
+    "enExplanation": "Use で for the place where waiting happens."
+  },
+  {
+    "id": "particle-drill-q27",
+    "chapter": "助詞の使い分け",
+    "page": 27,
+    "type": "contrast",
+    "difficulty": 2,
+    "question": "京都(きょうと)へ行(い)きます。午後(ごご)三時(さんじ)＿＿＿着(つ)きます。\n\nI am going to Kyoto. I will arrive at 3 p.m.",
+    "answers": [
+      "に",
+      "へ",
+      "を",
+      "で"
+    ],
+    "correct": 0,
+    "sentence": "京都(きょうと)へ行(い)きます。午後(ごご)三時(さんじ)＿＿＿着(つ)きます。",
+    "correctParticle": "に",
+    "distractors": [
+      "へ",
+      "で",
+      "を"
+    ],
+    "explanation": "Both に and へ can mark a destination, but only に marks this specific arrival time.",
+    "particleCategory": "contrasts",
+    "particleFocus": "に vs へ",
+    "drillFormat": "contrast",
+    "grammarPoint": "に vs へ — I am going to Kyoto. I will arrive at 3 p.m.",
+    "jpExplanation": "行(い)き先(さき)には「に」も「へ」も使(つか)えますが、時刻(じこく)は「に」です。",
+    "enExplanation": "Both に and へ can mark a destination, but only に marks this specific arrival time."
+  },
+  {
+    "id": "particle-drill-q28",
+    "chapter": "助詞の使い分け",
+    "page": 28,
+    "type": "contrast",
+    "difficulty": 2,
+    "question": "大阪(おおさか)へ行(い)きます。新幹線(しんかんせん)＿＿＿乗(の)ります。\n\nI am going to Osaka. I will board the Shinkansen.",
+    "answers": [
+      "で",
+      "に",
+      "を",
+      "へ"
+    ],
+    "correct": 1,
+    "sentence": "大阪(おおさか)へ行(い)きます。新幹線(しんかんせん)＿＿＿乗(の)ります。",
+    "correctParticle": "に",
+    "distractors": [
+      "へ",
+      "で",
+      "を"
+    ],
+    "explanation": "乗る takes に for the vehicle you board; へ cannot replace it here.",
+    "particleCategory": "contrasts",
+    "particleFocus": "に vs へ",
+    "drillFormat": "contrast",
+    "grammarPoint": "に vs へ — I am going to Osaka. I will board the Shinkansen.",
+    "jpExplanation": "乗(の)る乗(の)り物(もの)は「に」で示(しめ)します。",
+    "enExplanation": "乗る takes に for the vehicle you board; へ cannot replace it here."
+  },
+  {
+    "id": "particle-drill-q29",
+    "chapter": "助詞の使い分け",
+    "page": 29,
+    "type": "contrast",
+    "difficulty": 2,
+    "question": "友達(ともだち)＿＿＿のプレゼントを買(か)いました。\n\nI bought a present intended for my friend.",
+    "answers": [
+      "へ",
+      "が",
+      "を",
+      "に"
+    ],
+    "correct": 0,
+    "sentence": "友達(ともだち)＿＿＿のプレゼントを買(か)いました。",
+    "correctParticle": "へ",
+    "distractors": [
+      "に",
+      "を",
+      "が"
+    ],
+    "explanation": "Use への before a noun to mark its intended recipient. にの is not used.",
+    "particleCategory": "contrasts",
+    "particleFocus": "に vs へ",
+    "drillFormat": "contrast",
+    "grammarPoint": "に vs へ — I bought a present intended for my friend.",
+    "jpExplanation": "贈(おく)る相手(あいて)を名詞(めいし)につなぐときは「への」です。",
+    "enExplanation": "Use への before a noun to mark its intended recipient. にの is not used."
+  },
+  {
+    "id": "particle-drill-q30",
+    "chapter": "助詞の使い分け",
+    "page": 30,
+    "type": "contrast",
+    "difficulty": 2,
+    "question": "ホテル＿＿＿の道(みち)を教(おし)えてもらいました。\n\nSomeone showed me the way to the hotel.",
+    "answers": [
+      "へ",
+      "が",
+      "に",
+      "を"
+    ],
+    "correct": 0,
+    "sentence": "ホテル＿＿＿の道(みち)を教(おし)えてもらいました。",
+    "correctParticle": "へ",
+    "distractors": [
+      "に",
+      "を",
+      "が"
+    ],
+    "explanation": "Use への when “to the hotel” modifies 道. With 行く alone, both に and へ can mark the destination.",
+    "particleCategory": "contrasts",
+    "particleFocus": "に vs へ",
+    "drillFormat": "contrast",
+    "grammarPoint": "に vs へ — Someone showed me the way to the hotel.",
+    "jpExplanation": "「ホテルへの道(みち)」と言(い)います。「ホテルにの道」とは言いません。",
+    "enExplanation": "Use への when “to the hotel” modifies 道. With 行く alone, both に and へ can mark the destination."
+  },
+  {
+    "id": "particle-drill-q31",
+    "chapter": "助詞の使い分け",
+    "page": 31,
+    "type": "contrast",
+    "difficulty": 2,
+    "question": "東京駅(とうきょうえき)で電車(でんしゃ)に乗(の)りました。次(つぎ)の駅(えき)で電車(でんしゃ)＿＿＿降(お)ります。\n\nI boarded the train at Tokyo Station. I will get off it at the next station.",
+    "answers": [
+      "へ",
+      "で",
+      "に",
+      "を"
+    ],
+    "correct": 3,
+    "sentence": "東京駅(とうきょうえき)で電車(でんしゃ)に乗(の)りました。次(つぎ)の駅(えき)で電車(でんしゃ)＿＿＿降(お)ります。",
+    "correctParticle": "を",
+    "distractors": [
+      "に",
+      "で",
+      "へ"
+    ],
+    "explanation": "Use を for the vehicle you leave; use に for the vehicle you board.",
+    "particleCategory": "contrasts",
+    "particleFocus": "に vs を",
+    "drillFormat": "contrast",
+    "grammarPoint": "に vs を — I boarded the train at Tokyo Station. I will get off it at the next station.",
+    "jpExplanation": "乗(の)るときは「に」、降(お)りる乗(の)り物(もの)は「を」です。",
+    "enExplanation": "Use を for the vehicle you leave; use に for the vehicle you board."
+  },
+  {
+    "id": "particle-drill-q32",
+    "chapter": "助詞の使い分け",
+    "page": 32,
+    "type": "contrast",
+    "difficulty": 2,
+    "question": "八時(はちじ)にホテル＿＿＿出(で)ます。\n\nI will leave the hotel at eight.",
+    "answers": [
+      "に",
+      "と",
+      "で",
+      "を"
+    ],
+    "correct": 3,
+    "sentence": "八時(はちじ)にホテル＿＿＿出(で)ます。",
+    "correctParticle": "を",
+    "distractors": [
+      "に",
+      "で",
+      "と"
+    ],
+    "explanation": "Use を for the place you leave.",
+    "particleCategory": "contrasts",
+    "particleFocus": "に vs を",
+    "drillFormat": "contrast",
+    "grammarPoint": "に vs を — I will leave the hotel at eight.",
+    "jpExplanation": "出発(しゅっぱつ)する場所(ばしょ)を「を」で示(しめ)します。",
+    "enExplanation": "Use を for the place you leave."
+  },
+  {
+    "id": "particle-drill-q33",
+    "chapter": "助詞の使い分け",
+    "page": 33,
+    "type": "contrast",
+    "difficulty": 2,
+    "question": "椅子(いす)を動(うご)かしました。その椅子(いす)＿＿＿座(すわ)ってください。\n\nI moved the chair. Please sit on that chair.",
+    "answers": [
+      "と",
+      "を",
+      "で",
+      "に"
+    ],
+    "correct": 3,
+    "sentence": "椅子(いす)を動(うご)かしました。その椅子(いす)＿＿＿座(すわ)ってください。",
+    "correctParticle": "に",
+    "distractors": [
+      "を",
+      "で",
+      "と"
+    ],
+    "explanation": "Use に for the seat you settle onto; を marked the chair when it was moved.",
+    "particleCategory": "contrasts",
+    "particleFocus": "に vs を",
+    "drillFormat": "contrast",
+    "grammarPoint": "に vs を — I moved the chair. Please sit on that chair.",
+    "jpExplanation": "座(すわ)る場所(ばしょ)には「に」を使(つか)います。",
+    "enExplanation": "Use に for the seat you settle onto; を marked the chair when it was moved."
+  },
+  {
+    "id": "particle-drill-q34",
+    "chapter": "助詞の使い分け",
+    "page": 34,
+    "type": "contrast",
+    "difficulty": 2,
+    "question": "駅(えき)に着(つ)いたら、改札(かいさつ)＿＿＿通(とお)ってください。\n\nWhen you arrive at the station, go through the ticket gates.",
+    "answers": [
+      "で",
+      "に",
+      "を",
+      "と"
+    ],
+    "correct": 2,
+    "sentence": "駅(えき)に着(つ)いたら、改札(かいさつ)＿＿＿通(とお)ってください。",
+    "correctParticle": "を",
+    "distractors": [
+      "に",
+      "で",
+      "と"
+    ],
+    "explanation": "Use を for the route or point you pass through.",
+    "particleCategory": "contrasts",
+    "particleFocus": "に vs を",
+    "drillFormat": "contrast",
+    "grammarPoint": "に vs を — When you arrive at the station, go through the ticket gates.",
+    "jpExplanation": "通(とお)る場所(ばしょ)を「を」で示(しめ)します。",
+    "enExplanation": "Use を for the route or point you pass through."
+  },
+  {
+    "id": "particle-drill-q35",
+    "chapter": "助詞の使い分け",
+    "page": 35,
+    "type": "contrast",
+    "difficulty": 3,
+    "question": "The teacher is the person you asked, not someone asking alongside you.\n\n先生(せんせい)＿＿＿質問(しつもん)をしました。\n\nI asked the teacher a question.",
+    "answers": [
+      "と",
+      "で",
+      "に",
+      "を"
+    ],
+    "correct": 2,
+    "sentence": "先生(せんせい)＿＿＿質問(しつもん)をしました。",
+    "correctParticle": "に",
+    "distractors": [
+      "と",
+      "を",
+      "で"
+    ],
+    "explanation": "Use に for the person you direct a question to; と would make the teacher a fellow questioner.",
+    "particleCategory": "contrasts",
+    "particleFocus": "と vs に",
+    "drillFormat": "contrast",
+    "grammarPoint": "と vs に — I asked the teacher a question.",
+    "jpExplanation": "質問(しつもん)する相手(あいて)は「に」です。",
+    "enExplanation": "Use に for the person you direct a question to; と would make the teacher a fellow questioner."
+  },
+  {
+    "id": "particle-drill-q36",
+    "chapter": "助詞の使い分け",
+    "page": 36,
+    "type": "contrast",
+    "difficulty": 2,
+    "question": "友達(ともだち)＿＿＿一緒(いっしょ)に映画(えいが)を見(み)ました。\n\nI watched a movie together with my friend.",
+    "answers": [
+      "を",
+      "へ",
+      "と",
+      "に"
+    ],
+    "correct": 2,
+    "sentence": "友達(ともだち)＿＿＿一緒(いっしょ)に映画(えいが)を見(み)ました。",
+    "correctParticle": "と",
+    "distractors": [
+      "に",
+      "を",
+      "へ"
+    ],
+    "explanation": "Use と with 一緒に for the person accompanying you.",
+    "particleCategory": "contrasts",
+    "particleFocus": "と vs に",
+    "drillFormat": "contrast",
+    "grammarPoint": "と vs に — I watched a movie together with my friend.",
+    "jpExplanation": "一緒(いっしょ)に行動(こうどう)する人(ひと)は「と」です。",
+    "enExplanation": "Use と with 一緒に for the person accompanying you."
+  },
+  {
+    "id": "particle-drill-q37",
+    "chapter": "助詞の使い分け",
+    "page": 37,
+    "type": "contrast",
+    "difficulty": 3,
+    "question": "Your coworker receives the email; they are not helping you send it.\n\n同僚(どうりょう)＿＿＿メールを送(おく)りました。\n\nI sent an email to my coworker.",
+    "answers": [
+      "と",
+      "で",
+      "を",
+      "に"
+    ],
+    "correct": 3,
+    "sentence": "同僚(どうりょう)＿＿＿メールを送(おく)りました。",
+    "correctParticle": "に",
+    "distractors": [
+      "と",
+      "を",
+      "で"
+    ],
+    "explanation": "Use に for the recipient; と would mean sending it together with the coworker.",
+    "particleCategory": "contrasts",
+    "particleFocus": "と vs に",
+    "drillFormat": "contrast",
+    "grammarPoint": "と vs に — I sent an email to my coworker.",
+    "jpExplanation": "メールを送(おく)る相手(あいて)は「に」です。",
+    "enExplanation": "Use に for the recipient; と would mean sending it together with the coworker."
+  },
+  {
+    "id": "particle-drill-q38",
+    "chapter": "助詞の使い分け",
+    "page": 38,
+    "type": "contrast",
+    "difficulty": 2,
+    "question": "来週(らいしゅう)、友達(ともだち)＿＿＿結婚(けっこん)します。\n\nNext week I am marrying my friend.",
+    "answers": [
+      "と",
+      "を",
+      "で",
+      "に"
+    ],
+    "correct": 0,
+    "sentence": "来週(らいしゅう)、友達(ともだち)＿＿＿結婚(けっこん)します。",
+    "correctParticle": "と",
+    "distractors": [
+      "に",
+      "を",
+      "で"
+    ],
+    "explanation": "結婚する uses と for the person you marry.",
+    "particleCategory": "contrasts",
+    "particleFocus": "と vs に",
+    "drillFormat": "contrast",
+    "grammarPoint": "と vs に — Next week I am marrying my friend.",
+    "jpExplanation": "結婚(けっこん)する相手(あいて)には「と」を使(つか)います。",
+    "enExplanation": "結婚する uses と for the person you marry."
+  },
+  {
+    "id": "particle-drill-q39",
+    "chapter": "助詞の使い分け",
+    "page": 39,
+    "type": "contrast",
+    "difficulty": 2,
+    "question": "カード＿＿＿払(はら)います。\n\nI will pay by card.",
+    "answers": [
+      "で",
+      "を",
+      "に",
+      "と"
+    ],
+    "correct": 0,
+    "sentence": "カード＿＿＿払(はら)います。",
+    "correctParticle": "で",
+    "distractors": [
+      "と",
+      "に",
+      "を"
+    ],
+    "explanation": "Use で for the method of payment.",
+    "particleCategory": "contrasts",
+    "particleFocus": "で vs と",
+    "drillFormat": "contrast",
+    "grammarPoint": "で vs と — I will pay by card.",
+    "jpExplanation": "支払(しはら)いの方法(ほうほう)には「で」を使(つか)います。",
+    "enExplanation": "Use で for the method of payment."
+  },
+  {
+    "id": "particle-drill-q40",
+    "chapter": "助詞の使い分け",
+    "page": 40,
+    "type": "contrast",
+    "difficulty": 2,
+    "question": "店員(てんいん)さんに「カードで払(はら)います」＿＿＿言(い)いました。\n\nI told the staff member, “I will pay by card.”",
+    "answers": [
+      "と",
+      "に",
+      "で",
+      "を"
+    ],
+    "correct": 0,
+    "sentence": "店員(てんいん)さんに「カードで払(はら)います」＿＿＿言(い)いました。",
+    "correctParticle": "と",
+    "distractors": [
+      "で",
+      "に",
+      "を"
+    ],
+    "explanation": "で inside the quote marks the method; と after the quote marks what was said.",
+    "particleCategory": "contrasts",
+    "particleFocus": "で vs と",
+    "drillFormat": "contrast",
+    "grammarPoint": "で vs と — I told the staff member, “I will pay by card.”",
+    "jpExplanation": "方法(ほうほう)は「で」、言(い)った言葉(ことば)は「と」です。",
+    "enExplanation": "で inside the quote marks the method; と after the quote marks what was said."
+  },
+  {
+    "id": "particle-drill-q41",
+    "chapter": "助詞の使い分け",
+    "page": 41,
+    "type": "contrast",
+    "difficulty": 3,
+    "question": "You made the final decision yourself; you are not choosing a person for a role.\n\n友達(ともだち)と相談(そうだん)しましたが、最後(さいご)は自分(じぶん)＿＿＿決(き)めました。\n\nI discussed it with a friend, but in the end I decided for myself.",
+    "answers": [
+      "を",
+      "で",
+      "に",
+      "と"
+    ],
+    "correct": 1,
+    "sentence": "友達(ともだち)と相談(そうだん)しましたが、最後(さいご)は自分(じぶん)＿＿＿決(き)めました。",
+    "correctParticle": "で",
+    "distractors": [
+      "と",
+      "に",
+      "を"
+    ],
+    "explanation": "Use 自分で for doing something yourself; と marks the person you consult with.",
+    "particleCategory": "contrasts",
+    "particleFocus": "で vs と",
+    "drillFormat": "contrast",
+    "grammarPoint": "で vs と — I discussed it with a friend, but in the end I decided for myself.",
+    "jpExplanation": "「自分(じぶん)で」は自分(じぶん)の判断(はんだん)で行(おこな)うことです。",
+    "enExplanation": "Use 自分で for doing something yourself; と marks the person you consult with."
+  },
+  {
+    "id": "particle-drill-q42",
+    "chapter": "助詞の使い分け",
+    "page": 42,
+    "type": "contrast",
+    "difficulty": 2,
+    "question": "夕食(ゆうしょく)は、母(はは)＿＿＿二人(ふたり)で作(つく)りました。\n\nMy mother and I made dinner together, just the two of us.",
+    "answers": [
+      "と",
+      "を",
+      "に",
+      "で"
+    ],
+    "correct": 0,
+    "sentence": "夕食(ゆうしょく)は、母(はは)＿＿＿二人(ふたり)で作(つく)りました。",
+    "correctParticle": "と",
+    "distractors": [
+      "で",
+      "に",
+      "を"
+    ],
+    "explanation": "Use と for your companion; 二人で says how many people did it.",
+    "particleCategory": "contrasts",
+    "particleFocus": "で vs と",
+    "drillFormat": "contrast",
+    "grammarPoint": "で vs と — My mother and I made dinner together, just the two of us.",
+    "jpExplanation": "一緒(いっしょ)に作(つく)った人(ひと)は「と」、人数(にんずう)は「で」です。",
+    "enExplanation": "Use と for your companion; 二人で says how many people did it."
+  },
+  {
+    "id": "particle-drill-q43",
+    "chapter": "意味を変える助詞",
+    "page": 43,
+    "type": "production",
+    "difficulty": 2,
+    "question": "注文(ちゅうもん)はコーヒー＿＿＿です。食(た)べ物(もの)はいりません。\n\nMy order is only coffee. I do not need any food.",
+    "answers": [
+      "さえ",
+      "だけ",
+      "しか",
+      "まで"
+    ],
+    "correct": 1,
+    "sentence": "注文(ちゅうもん)はコーヒー＿＿＿です。食(た)べ物(もの)はいりません。",
+    "correctParticle": "だけ",
+    "distractors": [
+      "しか",
+      "まで",
+      "さえ"
+    ],
+    "explanation": "Use だけ with an affirmative predicate to mean only. しか requires a negative predicate.",
+    "particleCategory": "limiting",
+    "particleFocus": "だけ",
+    "drillFormat": "sentence",
+    "grammarPoint": "だけ — My order is only coffee. I do not need any food.",
+    "jpExplanation": "「だけ」は肯定(こうてい)の文(ぶん)で「それだけ」と言(い)えます。「しか」は否定(ひてい)と使(つか)います。",
+    "enExplanation": "Use だけ with an affirmative predicate to mean only. しか requires a negative predicate."
+  },
+  {
+    "id": "particle-drill-q44",
+    "chapter": "意味を変える助詞",
+    "page": 44,
+    "type": "production",
+    "difficulty": 2,
+    "question": "今日(きょう)は見(み)る＿＿＿にします。買(か)いません。\n\nToday I will just look. I will not buy anything.",
+    "answers": [
+      "さえ",
+      "だけ",
+      "しか",
+      "こそ"
+    ],
+    "correct": 1,
+    "sentence": "今日(きょう)は見(み)る＿＿＿にします。買(か)いません。",
+    "correctParticle": "だけ",
+    "distractors": [
+      "しか",
+      "こそ",
+      "さえ"
+    ],
+    "explanation": "見るだけにする means deciding to limit yourself to looking.",
+    "particleCategory": "limiting",
+    "particleFocus": "だけ",
+    "drillFormat": "sentence",
+    "grammarPoint": "だけ — Today I will just look. I will not buy anything.",
+    "jpExplanation": "「見るだけにする」は、見(み)ることにとどめるという意味(いみ)です。",
+    "enExplanation": "見るだけにする means deciding to limit yourself to looking."
+  },
+  {
+    "id": "particle-drill-q45",
+    "chapter": "意味を変える助詞",
+    "page": 45,
+    "type": "production",
+    "difficulty": 2,
+    "question": "You have exactly 1,000 yen, and no more. Say that this amount is all you have.\n\n財布(さいふ)に千円(せんえん)＿＿＿ありません。\n\nI have only 1,000 yen in my wallet.",
+    "answers": [
+      "しか",
+      "だけ",
+      "でも",
+      "こそ"
+    ],
+    "correct": 0,
+    "sentence": "財布(さいふ)に千円(せんえん)＿＿＿ありません。",
+    "correctParticle": "しか",
+    "distractors": [
+      "だけ",
+      "こそ",
+      "でも"
+    ],
+    "explanation": "Use しか with ありません to mean no more than this amount.",
+    "particleCategory": "limiting",
+    "particleFocus": "しか",
+    "drillFormat": "sentence",
+    "grammarPoint": "しか — I have only 1,000 yen in my wallet.",
+    "jpExplanation": "「しか」は「ありません」などの否定(ひてい)と使(つか)います。",
+    "enExplanation": "Use しか with ありません to mean no more than this amount."
+  },
+  {
+    "id": "particle-drill-q46",
+    "chapter": "意味を変える助詞",
+    "page": 46,
+    "type": "production",
+    "difficulty": 2,
+    "question": "One hour is possible, but any longer is impossible.\n\n今日(きょう)は一時間(いちじかん)＿＿＿勉強(べんきょう)できません。\n\nToday I can study for only one hour.",
+    "answers": [
+      "だけ",
+      "まで",
+      "こそ",
+      "しか"
+    ],
+    "correct": 3,
+    "sentence": "今日(きょう)は一時間(いちじかん)＿＿＿勉強(べんきょう)できません。",
+    "correctParticle": "しか",
+    "distractors": [
+      "だけ",
+      "まで",
+      "こそ"
+    ],
+    "explanation": "Use しか with できません to set a strict limit on the available time.",
+    "particleCategory": "limiting",
+    "particleFocus": "しか",
+    "drillFormat": "sentence",
+    "grammarPoint": "しか — Today I can study for only one hour.",
+    "jpExplanation": "「一時間(いちじかん)しかできない」は、それより長(なが)くはできないという意味(いみ)です。",
+    "enExplanation": "Use しか with できません to set a strict limit on the available time."
+  },
+  {
+    "id": "particle-drill-q47",
+    "chapter": "意味を変える助詞",
+    "page": 47,
+    "type": "production",
+    "difficulty": 2,
+    "question": "この店(みせ)は夜(よる)九時(くじ)＿＿＿開(あ)いています。\n\nThis shop stays open until 9 p.m.",
+    "answers": [
+      "こそ",
+      "しか",
+      "だけ",
+      "まで"
+    ],
+    "correct": 3,
+    "sentence": "この店(みせ)は夜(よる)九時(くじ)＿＿＿開(あ)いています。",
+    "correctParticle": "まで",
+    "distractors": [
+      "しか",
+      "だけ",
+      "こそ"
+    ],
+    "explanation": "Use まで for the endpoint of a continuing state.",
+    "particleCategory": "limiting",
+    "particleFocus": "まで",
+    "drillFormat": "sentence",
+    "grammarPoint": "まで — This shop stays open until 9 p.m.",
+    "jpExplanation": "続(つづ)く状態(じょうたい)の終(お)わりを「まで」で示(しめ)します。",
+    "enExplanation": "Use まで for the endpoint of a continuing state."
+  },
+  {
+    "id": "particle-drill-q48",
+    "chapter": "意味を変える助詞",
+    "page": 48,
+    "type": "production",
+    "difficulty": 2,
+    "question": "このバスは駅(えき)＿＿＿行(い)きます。その先(さき)には行(い)きません。\n\nThis bus goes as far as the station, and no farther.",
+    "answers": [
+      "まで",
+      "しか",
+      "こそ",
+      "と"
+    ],
+    "correct": 0,
+    "sentence": "このバスは駅(えき)＿＿＿行(い)きます。その先(さき)には行(い)きません。",
+    "correctParticle": "まで",
+    "distractors": [
+      "しか",
+      "と",
+      "こそ"
+    ],
+    "explanation": "Use まで for the last point reached.",
+    "particleCategory": "limiting",
+    "particleFocus": "まで",
+    "drillFormat": "sentence",
+    "grammarPoint": "まで — This bus goes as far as the station, and no farther.",
+    "jpExplanation": "行(い)く範囲(はんい)の終(お)わりを「まで」で示(しめ)します。",
+    "enExplanation": "Use まで for the last point reached."
+  },
+  {
+    "id": "particle-drill-q49",
+    "chapter": "意味を変える助詞",
+    "page": 49,
+    "type": "production",
+    "difficulty": 3,
+    "question": "Suggest tea as one possibility, without insisting on it or expressing surprise.\n\n少(すこ)し休(やす)みませんか。お茶(ちゃ)＿＿＿飲(の)みましょう。\n\nShall we take a break? Let’s have some tea or something.",
+    "answers": [
+      "でも",
+      "まで",
+      "こそ",
+      "しか"
+    ],
+    "correct": 0,
+    "sentence": "少(すこ)し休(やす)みませんか。お茶(ちゃ)＿＿＿飲(の)みましょう。",
+    "correctParticle": "でも",
+    "distractors": [
+      "しか",
+      "こそ",
+      "まで"
+    ],
+    "explanation": "Use でも to make a relaxed suggestion, with tea as one possible choice.",
+    "particleCategory": "limiting",
+    "particleFocus": "でも — suggestion / even if",
+    "drillFormat": "sentence",
+    "grammarPoint": "でも — suggestion / even if — Shall we take a break? Let’s have some tea or something.",
+    "jpExplanation": "「でも」は、お茶(ちゃ)などを気軽(きがる)に提案(ていあん)するときに使(つか)います。",
+    "enExplanation": "Use でも to make a relaxed suggestion, with tea as one possible choice."
+  },
+  {
+    "id": "particle-drill-q50",
+    "chapter": "意味を変える助詞",
+    "page": 50,
+    "type": "production",
+    "difficulty": 3,
+    "question": "The point is that solo guests are welcome, not that the venue has a one-person limit.\n\n予約(よやく)は必要(ひつよう)ありません。一人(ひとり)＿＿＿入(はい)れます。\n\nNo reservation is needed. You can come in even if you are on your own.",
+    "answers": [
+      "しか",
+      "こそ",
+      "まで",
+      "でも"
+    ],
+    "correct": 3,
+    "sentence": "予約(よやく)は必要(ひつよう)ありません。一人(ひとり)＿＿＿入(はい)れます。",
+    "correctParticle": "でも",
+    "distractors": [
+      "しか",
+      "こそ",
+      "まで"
+    ],
+    "explanation": "一人でも means that being alone does not prevent you from entering.",
+    "particleCategory": "limiting",
+    "particleFocus": "でも — suggestion / even if",
+    "drillFormat": "sentence",
+    "grammarPoint": "でも — suggestion / even if — No reservation is needed. You can come in even if you are on your own.",
+    "jpExplanation": "「一人(ひとり)でも」は、一人(ひとり)の場合(ばあい)も大丈夫(だいじょうぶ)という意味(いみ)です。",
+    "enExplanation": "一人でも means that being alone does not prevent you from entering."
+  },
+  {
+    "id": "particle-drill-q51",
+    "chapter": "意味を変える助詞",
+    "page": 51,
+    "type": "production",
+    "difficulty": 3,
+    "question": "Emphasize that even a tiny basic break was impossible, not merely that one kind of time was missing.\n\n忙(いそが)しすぎて、水(みず)を飲(の)む時間(じかん)＿＿＿ありませんでした。\n\nI was so busy that I did not even have time to drink water.",
+    "answers": [
+      "だけ",
+      "こそ",
+      "しか",
+      "さえ"
+    ],
+    "correct": 3,
+    "sentence": "忙(いそが)しすぎて、水(みず)を飲(の)む時間(じかん)＿＿＿ありませんでした。",
+    "correctParticle": "さえ",
+    "distractors": [
+      "だけ",
+      "こそ",
+      "しか"
+    ],
+    "explanation": "Use さえ to stress that even this minimal thing was unavailable.",
+    "particleCategory": "limiting",
+    "particleFocus": "さえ",
+    "drillFormat": "sentence",
+    "grammarPoint": "さえ — I was so busy that I did not even have time to drink water.",
+    "jpExplanation": "最低限(さいていげん)の時間(じかん)もなかったことを「さえ」で強調(きょうちょう)します。",
+    "enExplanation": "Use さえ to stress that even this minimal thing was unavailable."
+  },
+  {
+    "id": "particle-drill-q52",
+    "chapter": "意味を変える助詞",
+    "page": 52,
+    "type": "production",
+    "difficulty": 3,
+    "question": "パスポート＿＿＿あれば、この手続(てつづ)きができます。\n\nAs long as you have your passport, you can complete this procedure.",
+    "answers": [
+      "まで",
+      "さえ",
+      "こそ",
+      "しか"
+    ],
+    "correct": 1,
+    "sentence": "パスポート＿＿＿あれば、この手続(てつづ)きができます。",
+    "correctParticle": "さえ",
+    "distractors": [
+      "しか",
+      "まで",
+      "こそ"
+    ],
+    "explanation": "Use さえ～ば to express the one sufficient condition.",
+    "particleCategory": "limiting",
+    "particleFocus": "さえ",
+    "drillFormat": "sentence",
+    "grammarPoint": "さえ — As long as you have your passport, you can complete this procedure.",
+    "jpExplanation": "「さえ～ば」は、それがあれば十分(じゅうぶん)だと伝(つた)えます。",
+    "enExplanation": "Use さえ～ば to express the one sufficient condition."
+  },
+  {
+    "id": "particle-drill-q53",
+    "chapter": "意味を変える助詞",
+    "page": 53,
+    "type": "production",
+    "difficulty": 2,
+    "question": "Ａ：ありがとうございました。\nＢ：こちら＿＿＿、ありがとうございました。\n\nA: Thank you very much.\nB: No, thank you.",
+    "answers": [
+      "こそ",
+      "だけ",
+      "まで",
+      "しか"
+    ],
+    "correct": 0,
+    "sentence": "Ａ：ありがとうございました。\nＢ：こちら＿＿＿、ありがとうございました。",
+    "correctParticle": "こそ",
+    "distractors": [
+      "しか",
+      "まで",
+      "だけ"
+    ],
+    "explanation": "こちらこそ returns the thanks: I am the one who should thank you.",
+    "particleCategory": "limiting",
+    "particleFocus": "こそ",
+    "drillFormat": "sentence",
+    "grammarPoint": "こそ — A: Thank you very much.",
+    "jpExplanation": "「こちらこそ」は、自分(じぶん)の方(ほう)がお礼(れい)を言(い)いたいと伝(つた)える表現(ひょうげん)です。",
+    "enExplanation": "こちらこそ returns the thanks: I am the one who should thank you."
+  },
+  {
+    "id": "particle-drill-q54",
+    "chapter": "意味を変える助詞",
+    "page": 54,
+    "type": "production",
+    "difficulty": 3,
+    "question": "Express firm determination about today, not a tentative suggestion of a day.\n\n昨日(きのう)はできなかったけど、今日(きょう)＿＿＿この仕事(しごと)を終(お)わらせます。\n\nI could not do it yesterday, but today I will definitely finish this work.",
+    "answers": [
+      "さえ",
+      "でも",
+      "しか",
+      "こそ"
+    ],
+    "correct": 3,
+    "sentence": "昨日(きのう)はできなかったけど、今日(きょう)＿＿＿この仕事(しごと)を終(お)わらせます。",
+    "correctParticle": "こそ",
+    "distractors": [
+      "しか",
+      "さえ",
+      "でも"
+    ],
+    "explanation": "Use こそ to emphasize determination: this time, today in particular.",
+    "particleCategory": "limiting",
+    "particleFocus": "こそ",
+    "drillFormat": "sentence",
+    "grammarPoint": "こそ — I could not do it yesterday, but today I will definitely finish this work.",
+    "jpExplanation": "「今日(きょう)こそ」で、今日(きょう)は必(かなら)ずという気持(きも)ちを強(つよ)く表(あらわ)します。",
+    "enExplanation": "Use こそ to emphasize determination: this time, today in particular."
+  },
+  {
+    "id": "particle-drill-q55",
+    "chapter": "助詞の組み合わせ",
+    "page": 55,
+    "type": "production",
+    "difficulty": 3,
+    "question": "大阪(おおさか)には泊(と)まりません。京都(きょうと)＿＿＿泊(と)まります。\n\nI will not stay in Osaka. I will stay in Kyoto.",
+    "answers": [
+      "とは",
+      "には",
+      "へは",
+      "をは"
+    ],
+    "correct": 1,
+    "sentence": "大阪(おおさか)には泊(と)まりません。京都(きょうと)＿＿＿泊(と)まります。",
+    "correctParticle": "には",
+    "distractors": [
+      "へは",
+      "とは",
+      "をは"
+    ],
+    "explanation": "に marks where you stay; は contrasts Kyoto with Osaka.",
+    "particleCategory": "combinations",
+    "particleFocus": "には",
+    "drillFormat": "sentence",
+    "grammarPoint": "には — I will not stay in Osaka. I will stay in Kyoto.",
+    "jpExplanation": "泊(と)まる場所(ばしょ)の「に」に、比(くら)べる「は」を付(つ)けます。",
+    "enExplanation": "に marks where you stay; は contrasts Kyoto with Osaka."
+  },
+  {
+    "id": "particle-drill-q56",
+    "chapter": "助詞の組み合わせ",
+    "page": 56,
+    "type": "production",
+    "difficulty": 2,
+    "question": "私(わたし)＿＿＿弟(おとうと)がいますが、姉(あね)はいません。\n\nI have a younger brother, but no older sister.",
+    "answers": [
+      "には",
+      "では",
+      "とは",
+      "へは"
+    ],
+    "correct": 0,
+    "sentence": "私(わたし)＿＿＿弟(おとうと)がいますが、姉(あね)はいません。",
+    "correctParticle": "には",
+    "distractors": [
+      "では",
+      "へは",
+      "とは"
+    ],
+    "explanation": "Use には to frame the person who has this family relationship.",
+    "particleCategory": "combinations",
+    "particleFocus": "には",
+    "drillFormat": "sentence",
+    "grammarPoint": "には — I have a younger brother, but no older sister.",
+    "jpExplanation": "家族(かぞく)について「私(わたし)には弟(おとうと)がいます」と言(い)えます。",
+    "enExplanation": "Use には to frame the person who has this family relationship."
+  },
+  {
+    "id": "particle-drill-q57",
+    "chapter": "助詞の組み合わせ",
+    "page": 57,
+    "type": "production",
+    "difficulty": 3,
+    "question": "ここ＿＿＿写真(しゃしん)を撮(と)らないでください。撮影(さつえい)は外(そと)でお願(ねが)いします。\n\nPlease do not take photos here. Please take them outside.",
+    "answers": [
+      "には",
+      "とは",
+      "では",
+      "へは"
+    ],
+    "correct": 2,
+    "sentence": "ここ＿＿＿写真(しゃしん)を撮(と)らないでください。撮影(さつえい)は外(そと)でお願(ねが)いします。",
+    "correctParticle": "では",
+    "distractors": [
+      "には",
+      "とは",
+      "へは"
+    ],
+    "explanation": "で marks where the activity happens; は singles out this area for the restriction.",
+    "particleCategory": "combinations",
+    "particleFocus": "では",
+    "drillFormat": "sentence",
+    "grammarPoint": "では — Please do not take photos here. Please take them outside.",
+    "jpExplanation": "動作(どうさ)の場所(ばしょ)の「で」に「は」を付(つ)け、この場所(ばしょ)について伝(つた)えます。",
+    "enExplanation": "で marks where the activity happens; は singles out this area for the restriction."
+  },
+  {
+    "id": "particle-drill-q58",
+    "chapter": "助詞の組み合わせ",
+    "page": 58,
+    "type": "production",
+    "difficulty": 2,
+    "question": "これは私(わたし)の荷物(にもつ)＿＿＿ありません。\n\nThis is not my luggage.",
+    "answers": [
+      "には",
+      "へは",
+      "では",
+      "とは"
+    ],
+    "correct": 2,
+    "sentence": "これは私(わたし)の荷物(にもつ)＿＿＿ありません。",
+    "correctParticle": "では",
+    "distractors": [
+      "には",
+      "とは",
+      "へは"
+    ],
+    "explanation": "ではありません is the polite negative form of です.",
+    "particleCategory": "combinations",
+    "particleFocus": "では",
+    "drillFormat": "sentence",
+    "grammarPoint": "では — This is not my luggage.",
+    "jpExplanation": "「です」の丁寧(ていねい)な否定形(ひていけい)は「ではありません」です。",
+    "enExplanation": "ではありません is the polite negative form of です."
+  },
+  {
+    "id": "particle-drill-q59",
+    "chapter": "助詞の組み合わせ",
+    "page": 59,
+    "type": "production",
+    "difficulty": 2,
+    "question": "京都(きょうと)に泊(と)まりました。大阪(おおさか)＿＿＿泊(と)まりました。\n\nI stayed in Kyoto. I stayed in Osaka too.",
+    "answers": [
+      "をも",
+      "にも",
+      "へも",
+      "とも"
+    ],
+    "correct": 1,
+    "sentence": "京都(きょうと)に泊(と)まりました。大阪(おおさか)＿＿＿泊(と)まりました。",
+    "correctParticle": "にも",
+    "distractors": [
+      "へも",
+      "とも",
+      "をも"
+    ],
+    "explanation": "に marks the place you stay; も adds another place.",
+    "particleCategory": "combinations",
+    "particleFocus": "にも",
+    "drillFormat": "sentence",
+    "grammarPoint": "にも — I stayed in Kyoto. I stayed in Osaka too.",
+    "jpExplanation": "泊(と)まる場所(ばしょ)の「に」に、追加(ついか)の「も」を付(つ)けます。",
+    "enExplanation": "に marks the place you stay; も adds another place."
+  },
+  {
+    "id": "particle-drill-q60",
+    "chapter": "助詞の組み合わせ",
+    "page": 60,
+    "type": "production",
+    "difficulty": 2,
+    "question": "Both Tanaka and Sato received an email from you.\n\n田中(たなか)さんにメールを送(おく)りました。佐藤(さとう)さん＿＿＿送(おく)りました。\n\nI emailed Tanaka. I emailed Sato too.",
+    "answers": [
+      "をも",
+      "にも",
+      "でも",
+      "とも"
+    ],
+    "correct": 1,
+    "sentence": "田中(たなか)さんにメールを送(おく)りました。佐藤(さとう)さん＿＿＿送(おく)りました。",
+    "correctParticle": "にも",
+    "distractors": [
+      "でも",
+      "とも",
+      "をも"
+    ],
+    "explanation": "に marks the recipient and も means also.",
+    "particleCategory": "combinations",
+    "particleFocus": "にも",
+    "drillFormat": "sentence",
+    "grammarPoint": "にも — I emailed Tanaka. I emailed Sato too.",
+    "jpExplanation": "送(おく)る相手(あいて)の「に」に「も」を付(つ)けます。",
+    "enExplanation": "に marks the recipient and も means also."
+  },
+  {
+    "id": "particle-drill-q61",
+    "chapter": "助詞の組み合わせ",
+    "page": 61,
+    "type": "production",
+    "difficulty": 2,
+    "question": "会社(かいしゃ)で仕事(しごと)をします。家(いえ)＿＿＿仕事(しごと)をします。\n\nI work at the office. I also work at home.",
+    "answers": [
+      "でも",
+      "にも",
+      "へも",
+      "とも"
+    ],
+    "correct": 0,
+    "sentence": "会社(かいしゃ)で仕事(しごと)をします。家(いえ)＿＿＿仕事(しごと)をします。",
+    "correctParticle": "でも",
+    "distractors": [
+      "にも",
+      "とも",
+      "へも"
+    ],
+    "explanation": "This でも is で + も: an activity location plus also.",
+    "particleCategory": "combinations",
+    "particleFocus": "でも — で + も",
+    "drillFormat": "sentence",
+    "grammarPoint": "でも — で + も — I work at the office. I also work at home.",
+    "jpExplanation": "動作(どうさ)の場所(ばしょ)を示(しめ)す「で」に「も」を付(つ)けます。",
+    "enExplanation": "This でも is で + も: an activity location plus also."
+  },
+  {
+    "id": "particle-drill-q62",
+    "chapter": "助詞の組み合わせ",
+    "page": 62,
+    "type": "production",
+    "difficulty": 2,
+    "question": "現金(げんきん)で払(はら)えます。カード＿＿＿払(はら)えます。\n\nYou can pay cash. You can also pay by card.",
+    "answers": [
+      "へも",
+      "とも",
+      "でも",
+      "にも"
+    ],
+    "correct": 2,
+    "sentence": "現金(げんきん)で払(はら)えます。カード＿＿＿払(はら)えます。",
+    "correctParticle": "でも",
+    "distractors": [
+      "にも",
+      "とも",
+      "へも"
+    ],
+    "explanation": "で marks the payment method; も adds another accepted method.",
+    "particleCategory": "combinations",
+    "particleFocus": "でも — で + も",
+    "drillFormat": "sentence",
+    "grammarPoint": "でも — で + も — You can pay cash. You can also pay by card.",
+    "jpExplanation": "支払方法(しはらいほうほう)の「で」に「も」を付(つ)けます。",
+    "enExplanation": "で marks the payment method; も adds another accepted method."
+  },
+  {
+    "id": "particle-drill-q63",
+    "chapter": "助詞の組み合わせ",
+    "page": 63,
+    "type": "production",
+    "difficulty": 2,
+    "question": "「だし」＿＿＿、どんな意味(いみ)ですか。\n\nWhat does “dashi” mean?",
+    "answers": [
+      "には",
+      "へは",
+      "とは",
+      "では"
+    ],
+    "correct": 2,
+    "sentence": "「だし」＿＿＿、どんな意味(いみ)ですか。",
+    "correctParticle": "とは",
+    "distractors": [
+      "には",
+      "では",
+      "へは"
+    ],
+    "explanation": "Use とは to ask about the meaning of a quoted word.",
+    "particleCategory": "combinations",
+    "particleFocus": "とは",
+    "drillFormat": "sentence",
+    "grammarPoint": "とは — What does “dashi” mean?",
+    "jpExplanation": "言葉(ことば)の意味(いみ)を尋(たず)ねるときは「とは」が使(つか)えます。",
+    "enExplanation": "Use とは to ask about the meaning of a quoted word."
+  },
+  {
+    "id": "particle-drill-q64",
+    "chapter": "助詞の組み合わせ",
+    "page": 64,
+    "type": "production",
+    "difficulty": 3,
+    "question": "兄(あに)とは仲(なか)がいいですが、弟(おとうと)＿＿＿よくけんかします。\n\nI get along with my older brother, but I often argue with my younger brother.",
+    "answers": [
+      "とは",
+      "では",
+      "へは",
+      "には"
+    ],
+    "correct": 0,
+    "sentence": "兄(あに)とは仲(なか)がいいですが、弟(おとうと)＿＿＿よくけんかします。",
+    "correctParticle": "とは",
+    "distractors": [
+      "には",
+      "では",
+      "へは"
+    ],
+    "explanation": "と marks the person you argue with; は contrasts the two relationships.",
+    "particleCategory": "combinations",
+    "particleFocus": "とは",
+    "drillFormat": "sentence",
+    "grammarPoint": "とは — I get along with my older brother, but I often argue with my younger brother.",
+    "jpExplanation": "相手(あいて)を示(しめ)す「と」に、対比(たいひ)の「は」を付(つ)けます。",
+    "enExplanation": "と marks the person you argue with; は contrasts the two relationships."
+  },
+  {
+    "id": "particle-drill-q65",
+    "chapter": "助詞の組み合わせ",
+    "page": 65,
+    "type": "production",
+    "difficulty": 2,
+    "question": "先生(せんせい)＿＿＿質問(しつもん)をノートに書(か)いておきました。\n\nI wrote down my questions for the teacher in my notebook.",
+    "answers": [
+      "がの",
+      "への",
+      "をの",
+      "にの"
+    ],
+    "correct": 1,
+    "sentence": "先生(せんせい)＿＿＿質問(しつもん)をノートに書(か)いておきました。",
+    "correctParticle": "への",
+    "distractors": [
+      "にの",
+      "をの",
+      "がの"
+    ],
+    "explanation": "Use への when the intended recipient modifies a noun. にの is not a particle combination.",
+    "particleCategory": "combinations",
+    "particleFocus": "への",
+    "drillFormat": "sentence",
+    "grammarPoint": "への — I wrote down my questions for the teacher in my notebook.",
+    "jpExplanation": "「先生(せんせい)への質問(しつもん)」のように、相手(あいて)を名詞(めいし)につなぎます。",
+    "enExplanation": "Use への when the intended recipient modifies a noun. にの is not a particle combination."
+  },
+  {
+    "id": "particle-drill-q66",
+    "chapter": "助詞の組み合わせ",
+    "page": 66,
+    "type": "production",
+    "difficulty": 2,
+    "question": "京都(きょうと)＿＿＿切符(きっぷ)を二枚(にまい)ください。\n\nTwo tickets to Kyoto, please.",
+    "answers": [
+      "にの",
+      "がの",
+      "への",
+      "をの"
+    ],
+    "correct": 2,
+    "sentence": "京都(きょうと)＿＿＿切符(きっぷ)を二枚(にまい)ください。",
+    "correctParticle": "への",
+    "distractors": [
+      "にの",
+      "をの",
+      "がの"
+    ],
+    "explanation": "Use への to connect the destination with 切符.",
+    "particleCategory": "combinations",
+    "particleFocus": "への",
+    "drillFormat": "sentence",
+    "grammarPoint": "への — Two tickets to Kyoto, please.",
+    "jpExplanation": "行(い)き先(さき)を名詞(めいし)につなぐときは「への」です。",
+    "enExplanation": "Use への to connect the destination with 切符."
+  },
+  {
+    "id": "particle-drill-q67",
+    "chapter": "助詞の組み合わせ",
+    "page": 67,
+    "type": "production",
+    "difficulty": 2,
+    "question": "母(はは)＿＿＿手紙(てがみ)が届(とど)きました。\n\nA letter from my mother arrived.",
+    "answers": [
+      "にの",
+      "からの",
+      "までの",
+      "をの"
+    ],
+    "correct": 1,
+    "sentence": "母(はは)＿＿＿手紙(てがみ)が届(とど)きました。",
+    "correctParticle": "からの",
+    "distractors": [
+      "までの",
+      "にの",
+      "をの"
+    ],
+    "explanation": "から marks the sender; の connects that information to 手紙.",
+    "particleCategory": "combinations",
+    "particleFocus": "からの",
+    "drillFormat": "sentence",
+    "grammarPoint": "からの — A letter from my mother arrived.",
+    "jpExplanation": "送(おく)り主(ぬし)の「から」に「の」を付(つ)けます。",
+    "enExplanation": "から marks the sender; の connects that information to 手紙."
+  },
+  {
+    "id": "particle-drill-q68",
+    "chapter": "助詞の組み合わせ",
+    "page": 68,
+    "type": "production",
+    "difficulty": 2,
+    "question": "駅(えき)＿＿＿帰(かえ)り道(みち)で、パンを買(か)いました。\n\nI bought bread on my way home from the station.",
+    "answers": [
+      "にの",
+      "がの",
+      "からの",
+      "をの"
+    ],
+    "correct": 2,
+    "sentence": "駅(えき)＿＿＿帰(かえ)り道(みち)で、パンを買(か)いました。",
+    "correctParticle": "からの",
+    "distractors": [
+      "にの",
+      "をの",
+      "がの"
+    ],
+    "explanation": "から marks the starting point; の connects it to 帰り道.",
+    "particleCategory": "combinations",
+    "particleFocus": "からの",
+    "drillFormat": "sentence",
+    "grammarPoint": "からの — I bought bread on my way home from the station.",
+    "jpExplanation": "出発点(しゅっぱつてん)を「からの」で名詞(めいし)につなぎます。",
+    "enExplanation": "から marks the starting point; の connects it to 帰り道."
+  },
+  {
+    "id": "particle-drill-q69",
+    "chapter": "助詞の組み合わせ",
+    "page": 69,
+    "type": "production",
+    "difficulty": 2,
+    "question": "You are at the hotel and want to reach the station; the station is the endpoint.\n\n駅(えき)＿＿＿道(みち)を教(おし)えてください。\n\nPlease tell me the route from here to the station.",
+    "answers": [
+      "までの",
+      "からの",
+      "をの",
+      "にの"
+    ],
+    "correct": 0,
+    "sentence": "駅(えき)＿＿＿道(みち)を教(おし)えてください。",
+    "correctParticle": "までの",
+    "distractors": [
+      "からの",
+      "にの",
+      "をの"
+    ],
+    "explanation": "まで marks the endpoint; の connects it to 道.",
+    "particleCategory": "combinations",
+    "particleFocus": "までの",
+    "drillFormat": "sentence",
+    "grammarPoint": "までの — Please tell me the route from here to the station.",
+    "jpExplanation": "目的地(もくてきち)までの道(みち)なので「までの」です。",
+    "enExplanation": "まで marks the endpoint; の connects it to 道."
+  },
+  {
+    "id": "particle-drill-q70",
+    "chapter": "助詞の組み合わせ",
+    "page": 70,
+    "type": "production",
+    "difficulty": 2,
+    "question": "Departure has not happened yet. You are waiting for it.\n\n出発(しゅっぱつ)＿＿＿時間(じかん)、ここで待(ま)ちましょう。\n\nLet’s wait here for the time remaining until departure.",
+    "answers": [
+      "をの",
+      "からの",
+      "にの",
+      "までの"
+    ],
+    "correct": 3,
+    "sentence": "出発(しゅっぱつ)＿＿＿時間(じかん)、ここで待(ま)ちましょう。",
+    "correctParticle": "までの",
+    "distractors": [
+      "からの",
+      "にの",
+      "をの"
+    ],
+    "explanation": "まで marks when the waiting interval ends; の modifies 時間.",
+    "particleCategory": "combinations",
+    "particleFocus": "までの",
+    "drillFormat": "sentence",
+    "grammarPoint": "までの — Let’s wait here for the time remaining until departure.",
+    "jpExplanation": "出発(しゅっぱつ)する時(とき)までの時間(じかん)を表(あらわ)します。",
+    "enExplanation": "まで marks when the waiting interval ends; の modifies 時間."
+  },
+  {
+    "id": "particle-drill-q71",
+    "chapter": "会話での助詞の省略",
+    "page": 71,
+    "type": "dialogue",
+    "difficulty": 2,
+    "question": "友達(ともだち)：明日(あした)、休(やす)み？\n\n明日(あした)＿＿＿休(やす)み？\n\nAre you off tomorrow?\nRestore the omitted particle.",
+    "answers": [
+      "と",
+      "へ",
+      "を",
+      "は"
+    ],
+    "correct": 3,
+    "sentence": "明日(あした)＿＿＿休(やす)み？",
+    "correctParticle": "は",
+    "distractors": [
+      "を",
+      "へ",
+      "と"
+    ],
+    "explanation": "Casual speech can leave the topic marker は unspoken when the topic is clear. Keeping it is also natural.",
+    "particleCategory": "omission",
+    "particleFocus": "は — omitted topic",
+    "drillFormat": "omission",
+    "grammarPoint": "は — omitted topic — Are you off tomorrow?",
+    "jpExplanation": "話題(わだい)が分(わ)かる会話(かいわ)では「は」を省(はぶ)けます。付(つ)けても自然(しぜん)です。",
+    "enExplanation": "Casual speech can leave the topic marker は unspoken when the topic is clear. Keeping it is also natural.",
+    "spokenSentence": "明日(あした)、休(やす)み？",
+    "omittedParticle": "は"
+  },
+  {
+    "id": "particle-drill-q72",
+    "chapter": "会話での助詞の省略",
+    "page": 72,
+    "type": "dialogue",
+    "difficulty": 2,
+    "question": "友達(ともだち)：この店(みせ)、初(はじ)めて？\n\nこの店(みせ)＿＿＿初(はじ)めて？\n\nIs this your first time at this place?\nRestore the omitted particle.",
+    "answers": [
+      "から",
+      "は",
+      "を",
+      "へ"
+    ],
+    "correct": 1,
+    "sentence": "この店(みせ)＿＿＿初(はじ)めて？",
+    "correctParticle": "は",
+    "distractors": [
+      "を",
+      "へ",
+      "から"
+    ],
+    "explanation": "A clear conversational topic can be spoken without は; the pause helps signal it.",
+    "particleCategory": "omission",
+    "particleFocus": "は — omitted topic",
+    "drillFormat": "omission",
+    "grammarPoint": "は — omitted topic — Is this your first time at this place?",
+    "jpExplanation": "「この店(みせ)」を話題(わだい)にするとき、会話(かいわ)では「は」を省(はぶ)けます。",
+    "enExplanation": "A clear conversational topic can be spoken without は; the pause helps signal it.",
+    "spokenSentence": "この店(みせ)、初(はじ)めて？",
+    "omittedParticle": "は"
+  },
+  {
+    "id": "particle-drill-q73",
+    "chapter": "会話での助詞の省略",
+    "page": 73,
+    "type": "dialogue",
+    "difficulty": 2,
+    "question": "友達(ともだち)：雨(あめ)、降(ふ)ってきたね。\n\n雨(あめ)＿＿＿降(ふ)ってきたね。\n\nIt has started raining, hasn’t it?\nRestore the omitted particle.",
+    "answers": [
+      "に",
+      "で",
+      "を",
+      "が"
+    ],
+    "correct": 3,
+    "sentence": "雨(あめ)＿＿＿降(ふ)ってきたね。",
+    "correctParticle": "が",
+    "distractors": [
+      "を",
+      "に",
+      "で"
+    ],
+    "explanation": "In casual observations, が after the obvious subject can be omitted.",
+    "particleCategory": "omission",
+    "particleFocus": "が — omitted subject",
+    "drillFormat": "omission",
+    "grammarPoint": "が — omitted subject — It has started raining, hasn’t it?",
+    "jpExplanation": "目(め)の前(まえ)の様子(ようす)を話(はな)す会話(かいわ)では、「雨(あめ)が」の「が」を省(はぶ)くことがあります。",
+    "enExplanation": "In casual observations, が after the obvious subject can be omitted.",
+    "spokenSentence": "雨(あめ)、降(ふ)ってきたね。",
+    "omittedParticle": "が"
+  },
+  {
+    "id": "particle-drill-q74",
+    "chapter": "会話での助詞の省略",
+    "page": 74,
+    "type": "dialogue",
+    "difficulty": 2,
+    "question": "友達(ともだち)：お腹(なか)すいた。\n\nお腹(なか)＿＿＿すいた。\n\nI’m hungry.\nRestore the omitted particle.",
+    "answers": [
+      "で",
+      "が",
+      "に",
+      "を"
+    ],
+    "correct": 1,
+    "sentence": "お腹(なか)＿＿＿すいた。",
+    "correctParticle": "が",
+    "distractors": [
+      "を",
+      "に",
+      "で"
+    ],
+    "explanation": "お腹すいた is a common casual version of お腹がすいた.",
+    "particleCategory": "omission",
+    "particleFocus": "が — omitted subject",
+    "drillFormat": "omission",
+    "grammarPoint": "が — omitted subject — I’m hungry.",
+    "jpExplanation": "「お腹(なか)がすいた」は、会話(かいわ)でよく「お腹(なか)すいた」になります。",
+    "enExplanation": "お腹すいた is a common casual version of お腹がすいた.",
+    "spokenSentence": "お腹(なか)すいた。",
+    "omittedParticle": "が"
+  },
+  {
+    "id": "particle-drill-q75",
+    "chapter": "会話での助詞の省略",
+    "page": 75,
+    "type": "dialogue",
+    "difficulty": 2,
+    "question": "友達(ともだち)：昼(ひる)ご飯(はん)、食(た)べた？\n\n昼(ひる)ご飯(はん)＿＿＿食(た)べた？\n\nHave you eaten lunch?\nRestore the omitted particle.",
+    "answers": [
+      "で",
+      "へ",
+      "と",
+      "を"
+    ],
+    "correct": 3,
+    "sentence": "昼(ひる)ご飯(はん)＿＿＿食(た)べた？",
+    "correctParticle": "を",
+    "distractors": [
+      "と",
+      "へ",
+      "で"
+    ],
+    "explanation": "Casual conversation often drops を when the object of eating is clear.",
+    "particleCategory": "omission",
+    "particleFocus": "を — omitted object",
+    "drillFormat": "omission",
+    "grammarPoint": "を — omitted object — Have you eaten lunch?",
+    "jpExplanation": "食(た)べる物(もの)が分(わ)かるので、会話(かいわ)では「を」を省(はぶ)けます。",
+    "enExplanation": "Casual conversation often drops を when the object of eating is clear.",
+    "spokenSentence": "昼(ひる)ご飯(はん)、食(た)べた？",
+    "omittedParticle": "を"
+  },
+  {
+    "id": "particle-drill-q76",
+    "chapter": "会話での助詞の省略",
+    "page": 76,
+    "type": "dialogue",
+    "difficulty": 2,
+    "question": "友達(ともだち)：この映画(えいが)、見(み)た？\n\nこの映画(えいが)＿＿＿見(み)た？\n\nHave you seen this movie?\nRestore the omitted particle.",
+    "answers": [
+      "を",
+      "に",
+      "と",
+      "へ"
+    ],
+    "correct": 0,
+    "sentence": "この映画(えいが)＿＿＿見(み)た？",
+    "correctParticle": "を",
+    "distractors": [
+      "に",
+      "へ",
+      "と"
+    ],
+    "explanation": "The movie is the object of 見る. Casual speech can omit を here.",
+    "particleCategory": "omission",
+    "particleFocus": "を — omitted object",
+    "drillFormat": "omission",
+    "grammarPoint": "を — omitted object — Have you seen this movie?",
+    "jpExplanation": "見(み)る物(もの)を示(しめ)す「を」は、このような会話(かいわ)で省(はぶ)けます。",
+    "enExplanation": "The movie is the object of 見る. Casual speech can omit を here.",
+    "spokenSentence": "この映画(えいが)、見(み)た？",
+    "omittedParticle": "を"
+  },
+  {
+    "id": "particle-drill-q77",
+    "chapter": "会話での助詞の省略",
+    "page": 77,
+    "type": "dialogue",
+    "difficulty": 2,
+    "question": "友達(ともだち)：ドア、閉(し)めて。\n\nドア＿＿＿閉(し)めて。\n\nClose the door.\nRestore the omitted particle.",
+    "answers": [
+      "で",
+      "に",
+      "へ",
+      "を"
+    ],
+    "correct": 3,
+    "sentence": "ドア＿＿＿閉(し)めて。",
+    "correctParticle": "を",
+    "distractors": [
+      "に",
+      "へ",
+      "で"
+    ],
+    "explanation": "The door is the object of 閉める. Dropping を is natural in a short casual request to a friend.",
+    "particleCategory": "omission",
+    "particleFocus": "を — omitted object",
+    "drillFormat": "omission",
+    "grammarPoint": "を — omitted object — Close the door.",
+    "jpExplanation": "親(した)しい相手(あいて)への短(みじか)い頼(たの)みでは「を」を省(はぶ)けます。",
+    "enExplanation": "The door is the object of 閉める. Dropping を is natural in a short casual request to a friend.",
+    "spokenSentence": "ドア、閉(し)めて。",
+    "omittedParticle": "を"
+  },
+  {
+    "id": "particle-drill-q78",
+    "chapter": "会話での助詞の省略",
+    "page": 78,
+    "type": "dialogue",
+    "difficulty": 2,
+    "question": "友達(ともだち)：明日(あした)、何時(なんじ)起(お)きる？\n\n明日(あした)、何時(なんじ)＿＿＿起(お)きる？\n\nWhat time will you get up tomorrow?\nRestore the omitted particle.",
+    "answers": [
+      "を",
+      "と",
+      "に",
+      "へ"
+    ],
+    "correct": 2,
+    "sentence": "明日(あした)、何時(なんじ)＿＿＿起(お)きる？",
+    "correctParticle": "に",
+    "distractors": [
+      "を",
+      "へ",
+      "と"
+    ],
+    "explanation": "In a casual question, に after 何時 can be omitted. Do not generalize this to every use of に.",
+    "particleCategory": "omission",
+    "particleFocus": "に — omitted time / destination",
+    "drillFormat": "omission",
+    "grammarPoint": "に — omitted time / destination — What time will you get up tomorrow?",
+    "jpExplanation": "会話(かいわ)では「何時(なんじ)に」の「に」を省(はぶ)けます。どんな「に」でも省けるわけではありません。",
+    "enExplanation": "In a casual question, に after 何時 can be omitted. Do not generalize this to every use of に.",
+    "spokenSentence": "明日(あした)、何時(なんじ)起(お)きる？",
+    "omittedParticle": "に"
+  },
+  {
+    "id": "particle-drill-q79",
+    "chapter": "会話での助詞の省略",
+    "page": 79,
+    "type": "dialogue",
+    "difficulty": 2,
+    "question": "友達(ともだち)：今日(きょう)、学校(がっこう)行(い)く？\n\n今日(きょう)、学校(がっこう)＿＿＿行(い)く？\n\nAre you going to school today?\nRestore the omitted particle.",
+    "answers": [
+      "を",
+      "と",
+      "に",
+      "で"
+    ],
+    "correct": 2,
+    "sentence": "今日(きょう)、学校(がっこう)＿＿＿行(い)く？",
+    "correctParticle": "に",
+    "distractors": [
+      "を",
+      "で",
+      "と"
+    ],
+    "explanation": "A familiar destination can appear without に in casual speech. 学校へ行く is also correct; this drill restores に.",
+    "particleCategory": "omission",
+    "particleFocus": "に — omitted time / destination",
+    "drillFormat": "omission",
+    "grammarPoint": "に — omitted time / destination — Are you going to school today?",
+    "jpExplanation": "会話(かいわ)では行(い)き先(さき)の「に」を省(はぶ)けます。「学校(がっこう)へ行く」も正(ただ)しい言(い)い方(かた)です。",
+    "enExplanation": "A familiar destination can appear without に in casual speech. 学校へ行く is also correct; this drill restores に.",
+    "spokenSentence": "今日(きょう)、学校(がっこう)行(い)く？",
+    "omittedParticle": "に"
+  },
+  {
+    "id": "particle-drill-q80",
+    "chapter": "会話での助詞の省略",
+    "page": 80,
+    "type": "dialogue",
+    "difficulty": 2,
+    "question": "友達(ともだち)：七時(しちじ)、起(お)こして。\n\n七時(しちじ)＿＿＿起(お)こして。\n\nWake me at seven.\nRestore the omitted particle.",
+    "answers": [
+      "と",
+      "へ",
+      "に",
+      "を"
+    ],
+    "correct": 2,
+    "sentence": "七時(しちじ)＿＿＿起(お)こして。",
+    "correctParticle": "に",
+    "distractors": [
+      "を",
+      "へ",
+      "と"
+    ],
+    "explanation": "Casual requests can drop に after a clear clock time. Keep particles when omission would obscure the relationship.",
+    "particleCategory": "omission",
+    "particleFocus": "に — omitted time / destination",
+    "drillFormat": "omission",
+    "grammarPoint": "に — omitted time / destination — Wake me at seven.",
+    "jpExplanation": "時刻(じこく)が分(わ)かる短(みじか)い会話(かいわ)では「に」を省(はぶ)けます。意味(いみ)が分かりにくくなるときは残(のこ)します。",
+    "enExplanation": "Casual requests can drop に after a clear clock time. Keep particles when omission would obscure the relationship.",
+    "spokenSentence": "七時(しちじ)、起(お)こして。",
+    "omittedParticle": "に"
+  }
+]
