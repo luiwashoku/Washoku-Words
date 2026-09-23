@@ -1143,7 +1143,8 @@ body.no-furigana rt {
 }
 
 .sentence-builder .answer-button:disabled {
-  opacity: 0.5;
+  background: var(--paper);
+  opacity: 1;
 }
 
 .sentence-chunk:focus-visible {
