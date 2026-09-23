@@ -944,6 +944,10 @@
       window.speechSynthesis.cancel();
     }
 
+    const correctSentenceButton = document.getElementById("speakCorrectSentence");
+    if (correctSentenceButton) {
+      setSpeechButtonState(correctSentenceButton, "idle", "correct sentence");
+    }
     activeJapaneseUtterance = null;
     activeSpeechButton = null;
     setSpeechButtonState(
@@ -1515,7 +1519,7 @@
   }
 
   function shuffleQuestionAnswers(question) {
-    if (question.answerMode === "reveal") return question;
+    if (["reveal", "sentence-builder"].includes(question.answerMode)) return question;
 
     const correctAnswer =
       question.answers[question.correct];
@@ -2116,6 +2120,130 @@
     }
   }
 
+  function celebrateCorrectAnswer(container) {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+    container.querySelectorAll(".sentence-confetti").forEach((burst) => burst.remove());
+    const burst = document.createElement("div");
+    burst.className = "sentence-confetti";
+    burst.setAttribute("aria-hidden", "true");
+    const colors = ["--horizon", "--ember", "--bronze", "--canvas", "--pulse"];
+    for (let index = 0; index < 40; index += 1) {
+      const piece = document.createElement("span");
+      piece.className = "sentence-confetti-piece";
+      const fromLeft = index % 2 === 0;
+      const travel = (18 + Math.random() * 65) * (fromLeft ? 1 : -1);
+      piece.style.left = fromLeft ? "0" : "100%";
+      piece.style.setProperty("--confetti-color", `var(${colors[index % colors.length]})`);
+      piece.style.setProperty("--travel-mid", `${travel * 0.5}vw`);
+      piece.style.setProperty("--travel-end", `${travel}vw`);
+      piece.style.setProperty("--rise", `${-20 - Math.random() * 35}vh`);
+      piece.style.setProperty("--spin", `${(fromLeft ? 1 : -1) * (180 + Math.random() * 360)}deg`);
+      piece.style.animationDelay = `${Math.random() * 180}ms`;
+      burst.appendChild(piece);
+    }
+    container.appendChild(burst);
+    window.setTimeout(() => burst.remove(), 1800);
+  }
+
+  function renderSentenceBuilder(question) {
+    let selected = [];
+    const game = document.createElement("div");
+    game.className = "sentence-builder";
+    const answer = document.createElement("div");
+    answer.className = "sentence-answer";
+    answer.setAttribute("role", "group");
+    answer.setAttribute("aria-label", "Your sentence");
+    const bank = document.createElement("div");
+    bank.className = "sentence-bank";
+    bank.setAttribute("role", "group");
+    bank.setAttribute("aria-label", "Available chunks");
+    const submit = document.createElement("button");
+    submit.type = "button";
+    submit.className = "answer-button";
+    submit.textContent = "Ready";
+    const feedback = document.createElement("p");
+    feedback.className = "sentence-feedback";
+    feedback.setAttribute("role", "status");
+    const feedbackRow = document.createElement("div");
+    feedbackRow.className = "sentence-feedback-row hidden";
+    const speakCorrect = elements.speakExplanation.cloneNode(true);
+    speakCorrect.id = "speakCorrectSentence";
+    speakCorrect.className = "";
+    setSpeechButtonState(speakCorrect, "idle", "correct sentence");
+    speakCorrect.classList.toggle("hidden",
+      !("speechSynthesis" in window && "SpeechSynthesisUtterance" in window)
+    );
+    speakCorrect.addEventListener("click", () => {
+      speakJapaneseText(
+        getJapaneseSpeechText(question.answers[0]),
+        speakCorrect,
+        "correct sentence"
+      );
+    });
+    feedbackRow.append(feedback, speakCorrect);
+    const retry = document.createElement("button");
+    retry.type = "button";
+    retry.className = "answer-button hidden";
+    retry.textContent = "Try again";
+    retry.addEventListener("click", renderCurrentQuestion);
+    const buttons = question.chunks.map((chunk, index) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = `sentence-chunk sentence-chunk--${index % 5}`;
+      setFuriganaAwareText(button, chunk);
+      button.addEventListener("click", () => {
+        if (state.answerLocked || selected.includes(index)) return;
+        selected.push(index);
+        renderAnswer();
+      });
+      return button;
+    });
+    shuffleArray(buttons).forEach((button) => bank.appendChild(button));
+    function renderAnswer() {
+      answer.replaceChildren();
+      selected.forEach((index) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = `sentence-chunk sentence-chunk--${index % 5}`;
+        setFuriganaAwareText(button, question.chunks[index]);
+        button.setAttribute("aria-label", `Remove ${question.chunks[index]}`);
+        button.disabled = state.answerLocked;
+        button.addEventListener("click", () => {
+          if (state.answerLocked) return;
+          selected = selected.filter((item) => item !== index);
+          renderAnswer();
+          buttons[index].focus();
+        });
+        answer.appendChild(button);
+      });
+      buttons.forEach((button, index) => {
+        button.disabled = state.answerLocked || selected.includes(index);
+        button.classList.toggle("used", selected.includes(index));
+      });
+      submit.disabled = state.answerLocked || selected.length === 0;
+    }
+    submit.addEventListener("click", () => {
+      if (state.answerLocked || !selected.length) return;
+      state.answerLocked = true;
+      const sentence = selected.map((index) => question.chunks[index]).join("");
+      const correct = question.acceptedSequences.some((sequence) =>
+        sequence.map((index) => question.chunks[index]).join("") === sentence
+      );
+      renderAnswer();
+      setFuriganaAwareText(feedback, `Correct sentence: ${question.answers[0]}`);
+      feedbackRow.classList.remove("hidden");
+      retry.classList.remove("hidden");
+      updateStatistics(correct);
+      updateLessonProgress(correct);
+      showExplanation(question, correct);
+      playSound(correct ? "correct" : "wrong");
+    });
+    game.append(answer, bank, submit, feedbackRow, retry);
+    elements.answerContainer.appendChild(game);
+    renderAnswer();
+  }
+
   function isValidQuestion(question) {
     const common = question &&
       typeof question.id === "string" &&
@@ -2124,6 +2252,18 @@
       Number.isInteger(question.correct) &&
       question.correct >= 0 && question.correct < question.answers.length;
     if (!common) return false;
+    if (question.answerMode === "sentence-builder") {
+      return question.answers.length === 1 &&
+        Array.isArray(question.chunks) &&
+        question.chunks.every((chunk) => typeof chunk === "string" && chunk.trim()) &&
+        Array.isArray(question.acceptedSequences) &&
+        question.acceptedSequences.length > 0 &&
+        question.acceptedSequences.every((sequence) =>
+          Array.isArray(sequence) && sequence.length > 0 &&
+          new Set(sequence).size === sequence.length &&
+          sequence.every((index) => Number.isInteger(index) && index >= 0 && index < question.chunks.length)
+        );
+    }
     if (question.answerMode === "reveal") {
       return question.answers.length === 1 &&
         typeof question.answers[0] === "string" &&
@@ -2141,6 +2281,7 @@
   }
 
   function renderCurrentQuestion() {
+    elements.quizScreen.querySelectorAll(".sentence-confetti").forEach((burst) => burst.remove());
     cancelJapaneseSpeech();
     state.answerLocked = false;
 
@@ -2177,7 +2318,7 @@
     );
 
     const canSpeakAnswers =
-      question.answerMode !== "reveal" &&
+      ! ["reveal", "sentence-builder"].includes(question.answerMode) &&
       "speechSynthesis" in window &&
       "SpeechSynthesisUtterance" in window &&
       question.answers.some(
@@ -2232,7 +2373,9 @@
       "reveal-result"
     );
 
-    if (question.answerMode === "reveal") {
+    if (question.answerMode === "sentence-builder") {
+      renderSentenceBuilder(question);
+    } else if (question.answerMode === "reveal") {
       renderConjugationReveal(question);
     } else question.answers.forEach(
       (answerText, answerIndex) => {
@@ -2403,6 +2546,8 @@
     question,
     isCorrect
   ) {
+    if (isCorrect === true) celebrateCorrectAnswer(elements.quizScreen);
+
     elements.resultTitle.textContent =
       isCorrect
         ? "Great!"

@@ -1,0 +1,167 @@
+[
+  {
+    "id": "game-prototype-q02",
+    "chapter": "Game Prototype · Sentence building",
+    "type": "production",
+    "difficulty": 3,
+    "answerMode": "sentence-builder",
+    "question": "The fish at this restaurant is fresh, and the prices are reasonable too, so I want to come again.",
+    "chunks": [
+      "この店(みせ)は",
+      "魚(さかな)が",
+      "新鮮(しんせん)だ",
+      "し",
+      "値段(ねだん)も",
+      "手頃(てごろ)なので",
+      "また",
+      "来たい(きたい)です",
+      "新鮮(しんせん)な",
+      "来ます(きます)",
+      "来た(きた)"
+    ],
+    "answers": [
+      "この店(みせ)は魚(さかな)が新鮮(しんせん)だし値段(ねだん)も手頃(てごろ)なのでまた来たい(きたい)です。"
+    ],
+    "correct": 0,
+    "acceptedSequences": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "jpExplanation": "「し」で理由(りゆう)を重(かさ)ねます。「新鮮だし」の「だ」は必要(ひつよう)です。「来たいです」は希望(きぼう)を表(あらわ)します。",
+    "enExplanation": "し adds one reason alongside another. With the な-adjective 新鮮, use 新鮮だし, not 新鮮なし. も adds “too,” and なので connects the reasons to your wish to return. 来たいです expresses wanting to come; 来ます simply says you will come."
+  },
+  {
+    "id": "game-prototype-q03",
+    "chapter": "Game Prototype · Sentence building",
+    "type": "production",
+    "difficulty": 3,
+    "answerMode": "sentence-builder",
+    "question": "On my days off, I do things like bake bread and make soup at home.",
+    "chunks": [
+      "休み(やすみ)の日(ひ)は",
+      "家(いえ)で",
+      "パンを",
+      "焼い(やい)",
+      "たり",
+      "スープを",
+      "作っ(つくっ)",
+      "たり",
+      "しています",
+      "焼く(やく)",
+      "作る(つくる)",
+      "しました"
+    ],
+    "answers": [
+      "休み(やすみ)の日(ひ)は家(いえ)でパンを焼い(やい)たりスープを作っ(つくっ)たりしています。"
+    ],
+    "correct": 0,
+    "acceptedSequences": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      [
+        0,
+        1,
+        5,
+        6,
+        7,
+        2,
+        3,
+        4,
+        8
+      ],
+      [
+        1,
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      [
+        1,
+        0,
+        5,
+        6,
+        7,
+        2,
+        3,
+        4,
+        8
+      ]
+    ],
+    "jpExplanation": "「焼いたり、作ったりしています」は、普段(ふだん)することの例(れい)を挙(あ)げています。ほかのこともする可能性(かのうせい)があります。",
+    "enExplanation": "〜たり〜たりする lists examples rather than every activity. Form it from the past form + り: 焼いた → 焼いたり, 作った → 作ったり. Here the tiles split these as 焼い + たり and 作っ + たり. With “on my days off,” しています describes a recurring habit; しました would describe past activity. Either activity can come first."
+  },
+  {
+    "id": "game-prototype-q04",
+    "chapter": "Game Prototype · Sentence building",
+    "type": "production",
+    "difficulty": 3,
+    "answerMode": "sentence-builder",
+    "question": "I want to practise over and over until ordering in Japanese no longer feels scary.",
+    "chunks": [
+      "日本語(にほんご)で",
+      "注文(ちゅうもん)する",
+      "のが",
+      "怖く(こわく)",
+      "なく",
+      "なる",
+      "まで",
+      "何度(なんど)も",
+      "練習(れんしゅう)したいです",
+      "怖い(こわい)",
+      "なって",
+      "なった"
+    ],
+    "answers": [
+      "日本語(にほんご)で注文(ちゅうもん)するのが怖く(こわく)なくなるまで何度(なんど)も練習(れんしゅう)したいです。"
+    ],
+    "correct": 0,
+    "acceptedSequences": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      [
+        7,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8
+      ]
+    ],
+    "jpExplanation": "「怖くなくなる」は、怖い状態(じょうたい)から、怖くない状態へ変(か)わることです。「まで」は練習を続(つづ)ける目安(めやす)を示(しめ)します。",
+    "enExplanation": "の turns “ordering in Japanese” into the subject of 怖い. 怖い → 怖くない → 怖くなくなる means “become no longer scared.” まで marks the point you want to reach. Use the dictionary form なる before まで for this future change, not なって or なった. 何度も means repeatedly."
+  }
+]

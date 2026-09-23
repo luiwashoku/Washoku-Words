@@ -96,7 +96,8 @@ button:focus-visible {
 #closeGrammarIndex,
 #speakQuestion,
 #speakAnswers,
-#speakExplanation {
+#speakExplanation,
+#speakCorrectSentence {
   display: inline-grid;
   place-items: center;
   width: 50px;
@@ -156,7 +157,8 @@ button:focus-visible {
 #closeGrammarIndex:active,
 #speakQuestion:active,
 #speakAnswers:active,
-#speakExplanation:active {
+#speakExplanation:active,
+#speakCorrectSentence:active {
   transform: translate(2px, 2px);
   box-shadow: 1px 1px 0 var(--ink);
 }
@@ -712,7 +714,8 @@ button:focus-visible {
 
 #speakQuestion,
 #speakAnswers,
-#speakExplanation {
+#speakExplanation,
+#speakCorrectSentence {
   width: 44px;
   height: 44px;
   flex-basis: 44px;
@@ -722,7 +725,8 @@ button:focus-visible {
 
 #speakQuestion svg,
 #speakAnswers svg,
-#speakExplanation svg {
+#speakExplanation svg,
+#speakCorrectSentence svg {
   width: 25px;
   height: 25px;
   overflow: visible;
@@ -735,7 +739,8 @@ button:focus-visible {
 
 #speakQuestion .speakerIcon path:not(:first-child),
 #speakAnswers .speakerIcon path:not(:first-child),
-#speakExplanation .speakerIcon path:not(:first-child) {
+#speakExplanation .speakerIcon path:not(:first-child),
+#speakCorrectSentence .speakerIcon path:not(:first-child) {
   fill: none;
 }
 
@@ -744,7 +749,9 @@ button:focus-visible {
 #speakAnswers .resumeIcon,
 #speakAnswers .pauseIcon,
 #speakExplanation .resumeIcon,
-#speakExplanation .pauseIcon {
+#speakCorrectSentence .resumeIcon,
+#speakExplanation .pauseIcon,
+#speakCorrectSentence .pauseIcon {
   display: none;
 }
 
@@ -753,19 +760,23 @@ button:focus-visible {
 #speakAnswers.is-paused .speakerIcon,
 #speakAnswers.is-speaking .speakerIcon,
 #speakExplanation.is-paused .speakerIcon,
-#speakExplanation.is-speaking .speakerIcon {
+#speakCorrectSentence.is-paused .speakerIcon,
+#speakExplanation.is-speaking .speakerIcon,
+#speakCorrectSentence.is-speaking .speakerIcon {
   display: none;
 }
 
 #speakQuestion.is-paused .resumeIcon,
 #speakAnswers.is-paused .resumeIcon,
-#speakExplanation.is-paused .resumeIcon {
+#speakExplanation.is-paused .resumeIcon,
+#speakCorrectSentence.is-paused .resumeIcon {
   display: block;
 }
 
 #speakQuestion.is-speaking .pauseIcon,
 #speakAnswers.is-speaking .pauseIcon,
-#speakExplanation.is-speaking .pauseIcon {
+#speakExplanation.is-speaking .pauseIcon,
+#speakCorrectSentence.is-speaking .pauseIcon {
   display: block;
 }
 
@@ -781,7 +792,8 @@ button:focus-visible {
   background: var(--canvas);
 }
 
-#speakExplanation {
+#speakExplanation,
+#speakCorrectSentence {
   width: 40px;
   height: 40px;
   flex-basis: 40px;
@@ -1068,4 +1080,138 @@ body.no-furigana rt {
 
 .conjugationAgain:disabled {
   cursor: default;
+}
+
+.sentence-builder {
+  display: grid;
+  gap: 16px;
+}
+
+.sentence-builder p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.sentence-answer,
+.sentence-bank {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.sentence-answer {
+  min-height: 100px;
+  padding: 16px;
+  border: 2px solid var(--ink);
+  border-radius: 16px;
+  background: var(--canvas);
+}
+
+.sentence-chunk {
+  min-height: 48px;
+  padding: 10px 14px;
+  border: 2px solid var(--ink);
+  border-radius: 12px;
+  background: var(--chunk-color, var(--paper));
+  box-shadow: 3px 3px 0 var(--ink);
+  color: var(--ink);
+  font: inherit;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.sentence-chunk--0 { --chunk-color: var(--horizon); }
+.sentence-chunk--1 { --chunk-color: var(--ember); }
+.sentence-chunk--2 { --chunk-color: var(--bronze); }
+.sentence-chunk--3 { --chunk-color: var(--canvas); }
+.sentence-chunk--4 { --chunk-color: var(--pulse); }
+
+.sentence-chunk:active:not(:disabled) {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 var(--ink);
+}
+
+.sentence-chunk.used {
+  transform: translate(2px, 2px);
+  box-shadow: inset 3px 3px 0 var(--ink);
+}
+
+.sentence-chunk:disabled {
+  cursor: default;
+}
+
+.sentence-builder .answer-button:disabled {
+  opacity: 0.5;
+}
+
+.sentence-chunk:focus-visible {
+  outline: 3px solid var(--ember);
+  outline-offset: 3px;
+}
+
+.sentence-feedback {
+  font-weight: 700;
+}
+
+.sentence-feedback-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.sentence-feedback-row .sentence-feedback {
+  flex: 1;
+  min-width: 0;
+}
+
+.sentence-confetti {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.sentence-confetti-piece {
+  position: absolute;
+  top: 65%;
+  width: 14px;
+  height: 22px;
+  border: 2px solid var(--ink);
+  background: var(--confetti-color);
+  box-shadow: 2px 2px 0 var(--ink);
+  animation: sentence-confetti-burst 1500ms both;
+}
+
+.sentence-confetti-piece:nth-child(3n) {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+}
+
+.sentence-confetti-piece:nth-child(3n + 1) {
+  width: 12px;
+  height: 12px;
+}
+
+@keyframes sentence-confetti-burst {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+    animation-timing-function: ease-out;
+  }
+  45% {
+    transform: translate(var(--travel-mid), var(--rise)) rotate(var(--spin));
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translate(var(--travel-end), 110vh) rotate(calc(var(--spin) * 2));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sentence-confetti {
+    display: none;
+  }
 }
