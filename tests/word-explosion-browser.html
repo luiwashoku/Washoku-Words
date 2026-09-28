@@ -24,6 +24,8 @@
   let failExamples = false;
   let missingExample = false;
   let dispose;
+  const spoken = [];
+  let stops = 0;
   function assert(condition, message) {
     if (!condition) throw new Error(message);
   }
@@ -45,7 +47,15 @@
       return nativeFetch(url, options);
     };
     const start = () => WordExplosionGame.mount(container, {
-      file: "test-vocabulary.txt", playSound() {}, celebrate() {}
+      file: "test-vocabulary.txt", playSound() {}, celebrate() {},
+      stopSpeech() { stops += 1; },
+      createExampleSpeechButton(text) {
+        const button = document.createElement("button");
+        button.className = "icon-button explosion-example-speech";
+        button.textContent = "Listen";
+        button.addEventListener("click", () => spoken.push(text));
+        return button;
+      }
     });
     const hidden = () => getComputedStyle(container.querySelector(".explosion-examples")).display === "none";
     const ready = () => container.querySelectorAll(".explosion-word").length === 3;
@@ -76,6 +86,10 @@
       const word = words.find((entry) => entry.english === promptOrder[index]);
       assert(card.querySelector('[lang="ja"]').textContent === bank[word.japanese].japanese, "Japanese matches the round word");
       assert(card.querySelector('[lang="en"]').textContent === bank[word.japanese].english, "Translation matches the round word");
+      const voice = card.querySelector(".explosion-example-speech");
+      assert(voice === card.lastElementChild, "Voice button follows the sentences");
+      voice.click();
+      assert(spoken[index] === bank[word.japanese].japanese, "Voice button speaks its Japanese example");
     });
     for (const width of [720, 320]) {
       document.getElementById("fixture").style.width = `${width}px`;
@@ -88,10 +102,14 @@
         assert(card.scrollWidth <= card.clientWidth + 1, `Example text fits at ${width}px`);
       }
     }
+    const stopsBeforeNext = stops;
     container.querySelector(".explosion-next").click();
+    assert(stops === stopsBeforeNext + 1, "Next round stops speech");
     assert(hidden(), "Next round hides examples");
     assert(container.querySelectorAll(".explosion-example").length === 0, "Next round clears previous sentences");
+    const stopsBeforeLeaving = stops;
     dispose();
+    assert(stops === stopsBeforeLeaving + 1, "Leaving stops speech");
     assert(container.children.length === 0, "Leaving removes examples and game");
     failExamples = true;
     dispose = start();
@@ -110,7 +128,7 @@
     await waitFor(ready);
     words.forEach(solve);
     assert(container.querySelectorAll(".explosion-example").length === 3, "Retry loads examples successfully");
-    result.textContent = "PASS: reveal timing, three matching bilingual examples, desktop/mobile layout, next-round reset, cleanup, fetch failure and missing-example retry.";
+    result.textContent = "PASS: reveal timing, three matching bilingual examples, voice button placement and Japanese text, speech cleanup, desktop/mobile layout, next-round reset, cleanup, fetch failure and missing-example retry.";
   } catch (error) {
     result.textContent = `FAIL: ${error.stack}`;
   } finally {

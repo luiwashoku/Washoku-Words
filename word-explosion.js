@@ -67,7 +67,7 @@
     return { type: "pending", text };
   }
 
-  function mount(container, { file, playSound, celebrate }) {
+  function mount(container, { file, playSound, celebrate, createExampleSpeechButton, stopSpeech = () => {} }) {
     let alive = true;
     let round;
     let entries;
@@ -196,6 +196,9 @@
         english.lang = "en";
         english.textContent = word.example.english;
         card.append(heading, japanese, english);
+        if (createExampleSpeechButton) {
+          card.appendChild(createExampleSpeechButton(word.example.japanese));
+        }
         return card;
       }));
       examples.classList.remove("hidden");
@@ -261,6 +264,7 @@
     }
 
     function nextRound() {
+      stopSpeech();
       clearFeedback();
       burstTimers.forEach((timer) => window.clearTimeout(timer));
       burstTimers.clear();
@@ -355,6 +359,7 @@
     });
     load();
     return () => {
+      stopSpeech();
       alive = false;
       controller.abort();
       dialog.close();

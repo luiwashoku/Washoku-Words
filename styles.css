@@ -732,7 +732,8 @@ button:focus-visible {
 #speakQuestion svg,
 #speakAnswers svg,
 #speakExplanation svg,
-#speakCorrectSentence svg {
+#speakCorrectSentence svg,
+.explosion-example-speech svg {
   width: 25px;
   height: 25px;
   overflow: visible;
@@ -746,7 +747,8 @@ button:focus-visible {
 #speakQuestion .speakerIcon path:not(:first-child),
 #speakAnswers .speakerIcon path:not(:first-child),
 #speakExplanation .speakerIcon path:not(:first-child),
-#speakCorrectSentence .speakerIcon path:not(:first-child) {
+#speakCorrectSentence .speakerIcon path:not(:first-child),
+.explosion-example-speech .speakerIcon path:not(:first-child) {
   fill: none;
 }
 
@@ -757,7 +759,9 @@ button:focus-visible {
 #speakExplanation .resumeIcon,
 #speakCorrectSentence .resumeIcon,
 #speakExplanation .pauseIcon,
-#speakCorrectSentence .pauseIcon {
+#speakCorrectSentence .pauseIcon,
+.explosion-example-speech .pauseIcon,
+.explosion-example-speech .resumeIcon {
   display: none;
 }
 
@@ -768,21 +772,25 @@ button:focus-visible {
 #speakExplanation.is-paused .speakerIcon,
 #speakCorrectSentence.is-paused .speakerIcon,
 #speakExplanation.is-speaking .speakerIcon,
-#speakCorrectSentence.is-speaking .speakerIcon {
+#speakCorrectSentence.is-speaking .speakerIcon,
+.explosion-example-speech.is-speaking .speakerIcon,
+.explosion-example-speech.is-paused .speakerIcon {
   display: none;
 }
 
 #speakQuestion.is-paused .resumeIcon,
 #speakAnswers.is-paused .resumeIcon,
 #speakExplanation.is-paused .resumeIcon,
-#speakCorrectSentence.is-paused .resumeIcon {
+#speakCorrectSentence.is-paused .resumeIcon,
+.explosion-example-speech.is-paused .resumeIcon {
   display: block;
 }
 
 #speakQuestion.is-speaking .pauseIcon,
 #speakAnswers.is-speaking .pauseIcon,
 #speakExplanation.is-speaking .pauseIcon,
-#speakCorrectSentence.is-speaking .pauseIcon {
+#speakCorrectSentence.is-speaking .pauseIcon,
+.explosion-example-speech.is-speaking .pauseIcon {
   display: block;
 }
 
@@ -1481,4 +1489,14 @@ body.no-furigana rt {
 /* Announce revealed answers without duplicating the answer box visually. */
 .explosion-status-quiet {
   clip-path: inset(50%);
+}
+
+.explosion-example-speech {
+  margin-top: 12px;
+  background: var(--pulse);
+}
+
+.explosion-example-speech:disabled {
+  opacity: 0.5;
+  cursor: default;
 }

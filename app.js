@@ -952,6 +952,9 @@
     if (correctSentenceButton) {
       setSpeechButtonState(correctSentenceButton, "idle", "correct sentence");
     }
+    document.querySelectorAll(".explosion-example-speech").forEach((button) => {
+      setSpeechButtonState(button, "idle", "Japanese example sentence");
+    });
     activeJapaneseUtterance = null;
     activeSpeechButton = null;
     setSpeechButtonState(
@@ -1385,6 +1388,20 @@
       closeWordExplosion = window.WordExplosionGame.mount(elements.wordExplosionGame, {
         file: lesson.file,
         playSound,
+        stopSpeech: cancelJapaneseSpeech,
+        createExampleSpeechButton(text) {
+          const button = elements.speakExplanation.cloneNode(true);
+          button.removeAttribute("id");
+          button.className = "icon-button explosion-example-speech";
+          const supported = "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
+          button.disabled = !supported;
+          setSpeechButtonState(button, "idle", "Japanese example sentence");
+          if (!supported) button.title = "Speech playback is not available in this browser";
+          button.addEventListener("click", () => {
+            speakJapaneseText(getJapaneseSpeechText(text), button, "Japanese example sentence");
+          });
+          return button;
+        },
         celebrate: celebrateCorrectAnswer
       });
       return;

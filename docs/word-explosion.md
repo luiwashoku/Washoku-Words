@@ -32,3 +32,5 @@ osascript -l JavaScript tests/word-explosion.test.js
 For a local preview, run `python3 -m http.server 8000` and open `http://localhost:8000`. Open via HTTP, since browsers restrict fetching the TXT vocabulary when opening the HTML as a local file.
 
 With the preview server running, open `http://localhost:8000/tests/word-explosion-browser.html` for browser checks of example visibility, Japanese/English pairing, desktop and narrow layouts, round reset, cleanup, and loading retries. The page reports PASS or FAIL at the top.
+
+Each example has a voice button beneath it, using the app's Japanese speech controls. Click to listen, pause, or resume. Playing a different example, starting a new round, or leaving the game stops the previous audio. Parenthetical readings are converted to spoken Japanese without repeating the kanji. Browsers without speech synthesis show a disabled voice button.
