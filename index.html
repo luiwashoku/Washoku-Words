@@ -175,6 +175,17 @@
 
     </section>
 
+    <section id="wordExplosionScreen" class="hidden" aria-labelledby="wordExplosionTitle">
+      <div class="pageHeader">
+        <button id="backFromExplosion" type="button" aria-label="Back to lessons">←</button>
+        <div>
+          <h2 id="wordExplosionTitle">単語爆発</h2>
+        </div>
+        <button id="explosionIndexButton" class="icon-button" type="button" aria-label="Show all words" aria-haspopup="dialog" title="単語一覧を見る" disabled>全</button>
+      </div>
+      <div id="wordExplosionGame"></div>
+    </section>
+
     <section
       id="quizScreen"
       class="hidden"
@@ -463,6 +474,7 @@
 
   </div>
 
+  <script src="word-explosion.js"></script>
   <script src="app.js"></script>
 
 </body>

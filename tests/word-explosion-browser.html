@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<base href="../">
+<title>Word Explosion example checks</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+  #fixture { width: 720px; max-width: 100%; margin: auto; }
+  #result { white-space: pre-wrap; }
+</style>
+<pre id="result">RUNNING</pre>
+<div id="fixture">
+  <button id="explosionIndexButton" type="button">全</button>
+  <div id="wordExplosionGame"></div>
+</div>
+<script src="word-explosion.js"></script>
+<script>
+(async () => {
+  const result = document.getElementById("result");
+  const container = document.getElementById("wordExplosionGame");
+  const nativeFetch = window.fetch.bind(window);
+  const vocabulary = "notice | きづく (気づく)\ncontinue | つづける (続ける)\ncompare | くらべる (比べる)";
+  let failExamples = false;
+  let missingExample = false;
+  let dispose;
+  function assert(condition, message) {
+    if (!condition) throw new Error(message);
+  }
+  async function waitFor(predicate) {
+    for (let i = 0; i < 100; i += 1) {
+      if (predicate()) return;
+      await new Promise((resolve) => setTimeout(resolve, 20));
+    }
+    throw new Error("Timed out waiting for game state");
+  }
+  try {
+    const bank = await nativeFetch("data/word-explosion-examples.json").then((response) => response.json());
+    window.fetch = async (url, options) => {
+      if (url === "test-vocabulary.txt") return new Response(vocabulary);
+      if (url === "data/word-explosion-examples.json") {
+        if (failExamples) return new Response("Unavailable", { status: 503 });
+        if (missingExample) return new Response("{}");
+      }
+      return nativeFetch(url, options);
+    };
+    const start = () => WordExplosionGame.mount(container, {
+      file: "test-vocabulary.txt", playSound() {}, celebrate() {}
+    });
+    const hidden = () => getComputedStyle(container.querySelector(".explosion-examples")).display === "none";
+    const ready = () => container.querySelectorAll(".explosion-word").length === 3;
+    const words = WordExplosionGame.parseVocabulary(vocabulary);
+    function solve(word) {
+      for (const char of word.japanese) {
+        const button = [...container.querySelectorAll(".explosion-pool button")]
+          .find((tile) => !tile.disabled && tile.textContent === char);
+        assert(button, `Available tile for ${char}`);
+        button.click();
+      }
+    }
+    dispose = start();
+    await waitFor(ready);
+    assert(hidden(), "Examples hidden before solving");
+    container.querySelector(".explosion-word").click();
+    assert(hidden(), "Revealing an answer does not show examples");
+    solve(words[0]);
+    solve(words[1]);
+    assert(hidden(), "Examples hidden after only two words");
+    solve(words[2]);
+    assert(!hidden(), "Examples visible after round clear");
+    assert(container.querySelector(".explosion-status").textContent === "Round clear!", "Round clear status");
+    const cards = [...container.querySelectorAll(".explosion-example")];
+    assert(cards.length === 3, "Exactly three example cards");
+    const promptOrder = [...container.querySelectorAll(".explosion-word strong")].map((node) => node.textContent);
+    cards.forEach((card, index) => {
+      const word = words.find((entry) => entry.english === promptOrder[index]);
+      assert(card.querySelector('[lang="ja"]').textContent === bank[word.japanese].japanese, "Japanese matches the round word");
+      assert(card.querySelector('[lang="en"]').textContent === bank[word.japanese].english, "Translation matches the round word");
+    });
+    for (const width of [720, 320]) {
+      document.getElementById("fixture").style.width = `${width}px`;
+      const examples = container.querySelector(".explosion-examples").getBoundingClientRect();
+      const status = container.querySelector(".explosion-status").getBoundingClientRect();
+      const next = container.querySelector(".explosion-next").getBoundingClientRect();
+      assert(examples.top >= status.bottom, `Examples below round clear at ${width}px`);
+      assert(next.top >= examples.bottom, `Next button below examples at ${width}px`);
+      for (const card of cards) {
+        assert(card.scrollWidth <= card.clientWidth + 1, `Example text fits at ${width}px`);
+      }
+    }
+    container.querySelector(".explosion-next").click();
+    assert(hidden(), "Next round hides examples");
+    assert(container.querySelectorAll(".explosion-example").length === 0, "Next round clears previous sentences");
+    dispose();
+    assert(container.children.length === 0, "Leaving removes examples and game");
+    failExamples = true;
+    dispose = start();
+    await waitFor(() => container.textContent.includes("Examples request failed"));
+    assert(!ready(), "Failed example fetch does not start a round");
+    failExamples = false;
+    container.querySelector(".explosion-next").click();
+    await waitFor(ready);
+    dispose();
+    missingExample = true;
+    dispose = start();
+    await waitFor(() => container.textContent.includes("Missing example for notice"));
+    assert(!ready(), "Missing translation data does not start a round");
+    missingExample = false;
+    container.querySelector(".explosion-next").click();
+    await waitFor(ready);
+    words.forEach(solve);
+    assert(container.querySelectorAll(".explosion-example").length === 3, "Retry loads examples successfully");
+    result.textContent = "PASS: reveal timing, three matching bilingual examples, desktop/mobile layout, next-round reset, cleanup, fetch failure and missing-example retry.";
+  } catch (error) {
+    result.textContent = `FAIL: ${error.stack}`;
+  } finally {
+    window.fetch = nativeFetch;
+  }
+})();
+</script>
+</html>

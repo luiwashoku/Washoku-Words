@@ -117,6 +117,7 @@
   };
 
   const elements = {};
+  let closeWordExplosion = null;
   let activeJapaneseUtterance = null;
   let activeSpeechButton = null;
 
@@ -139,6 +140,8 @@
   }
 
   function cacheElements() {
+    elements.wordExplosionScreen = document.getElementById("wordExplosionScreen");
+    elements.wordExplosionGame = document.getElementById("wordExplosionGame");
     elements.conjugationFeedback = document.getElementById("conjugationFeedback");
 
     elements.topbar =
@@ -319,6 +322,7 @@
   }
 
   function bindEvents() {
+    document.getElementById("backFromExplosion").addEventListener("click", returnToLessonList);
     elements.backHome.addEventListener(
       "click",
       returnHome
@@ -1324,8 +1328,9 @@
           </strong>
 
           <span>
-            ${progress.completed}/${count}
-            ${lesson.answerMode === "reveal" ? "practised" : "completed"}
+            ${lesson.gameMode === "word-explosion"
+              ? "Hiragana word game · Play"
+              : `${progress.completed}/${count} ${lesson.answerMode === "reveal" ? "practised" : "completed"}`}
           </span>
         </span>
 
@@ -1373,6 +1378,17 @@
   }
 
   async function openLesson(lesson) {
+    if (lesson.gameMode === "word-explosion") {
+      cancelJapaneseSpeech();
+      state.selectedLesson = lesson;
+      showScreen("word-explosion");
+      closeWordExplosion = window.WordExplosionGame.mount(elements.wordExplosionGame, {
+        file: lesson.file,
+        playSound,
+        celebrate: celebrateCorrectAnswer
+      });
+      return;
+    }
     setLessonLoadingState(true);
 
     try {
@@ -2742,6 +2758,11 @@
   }
 
   function showScreen(screenName) {
+    if (closeWordExplosion) {
+      closeWordExplosion();
+      closeWordExplosion = null;
+    }
+    elements.wordExplosionScreen.classList.toggle("hidden", screenName !== "word-explosion");
     const screenCanvas =
       screenName === "pages" &&
       state.selectedCategory
@@ -2755,7 +2776,7 @@
 
     elements.topbar?.classList.toggle(
       "hidden",
-      screenName === "quiz"
+      screenName === "quiz" || screenName === "word-explosion"
     );
 
     elements.homeScreen.classList.toggle(

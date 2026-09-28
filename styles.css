@@ -89,6 +89,7 @@ button:focus-visible {
 .icon-button,
 #backHome,
 #backToPages,
+#backFromExplosion,
 #lessonIntroductionButton,
 #closeIntroduction,
 #furiganaToggle,
@@ -150,6 +151,7 @@ button:focus-visible {
 .icon-button:active,
 #backHome:active,
 #backToPages:active,
+#backFromExplosion:active,
 #lessonIntroductionButton:active,
 #closeIntroduction:active,
 #furiganaToggle:active,
@@ -167,7 +169,8 @@ button:focus-visible {
 
 #homeScreen,
 #pageScreen,
-#quizScreen {
+#quizScreen,
+#wordExplosionScreen {
   overflow: hidden;
   border: 2px solid var(--ink);
   border-radius: 30px;
@@ -455,7 +458,8 @@ button:focus-visible {
   text-decoration-thickness: 2px;
 }
 
-#grammarIndexButton {
+#grammarIndexButton,
+#explosionIndexButton {
   background: var(--bronze);
   font-size: 18px;
 }
@@ -465,7 +469,8 @@ button:focus-visible {
 }
 
 #lessonIntroductionDialog,
-#grammarIndexDialog {
+#grammarIndexDialog,
+.explosion-index-dialog {
   width: min(calc(100% - 28px), 620px);
   max-height: min(84vh, 760px);
   padding: 0;
@@ -478,7 +483,8 @@ button:focus-visible {
 }
 
 #lessonIntroductionDialog::backdrop,
-#grammarIndexDialog::backdrop {
+#grammarIndexDialog::backdrop,
+.explosion-index-dialog::backdrop {
   background: rgb(75 53 42 / 62%);
 }
 
@@ -1215,4 +1221,264 @@ body.no-furigana rt {
   .sentence-confetti {
     display: none;
   }
+}
+
+/* Word Explosion: solid colors, chunky borders, and tactile tiles. */
+#explosionIndexButton { margin-left: auto; }
+
+.explosion-index-list {
+  margin: 0;
+  padding: 12px 24px 24px 52px;
+}
+
+.explosion-index-list li {
+  padding: 12px 4px;
+  border-bottom: 1px solid var(--ink);
+  overflow-wrap: anywhere;
+}
+
+.explosion-index-list strong,
+.explosion-index-list span {
+  display: block;
+}
+
+.explosion-index-list span { margin-top: 4px; }
+
+#wordExplosionGame {
+  display: grid;
+  min-height: 660px;
+  grid-template-rows: minmax(100px, auto) 110px minmax(min-content, 1fr) 40px minmax(66px, auto);
+  gap: 28px;
+  padding: 22px 18px 28px;
+}
+
+.explosion-prompts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.explosion-word {
+  position: relative;
+  display: grid;
+  place-content: center;
+  min-height: 100px;
+  padding: 14px 8px;
+  border: 3px solid var(--ink);
+  border-radius: 18px;
+  background: var(--explosion-color);
+  box-shadow: 4px 4px 0 var(--ink);
+  text-align: center;
+  text-transform: uppercase;
+  overflow-wrap: anywhere;
+  font-size: clamp(16px, 4vw, 24px);
+  font-family: inherit;
+  color: var(--ink);
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.explosion-word:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 6px;
+}
+
+.explosion-word strong {
+  font-weight: 900;
+}
+
+.explosion-color-0 { --explosion-color: var(--ember); }
+.explosion-color-1 { --explosion-color: var(--horizon); }
+.explosion-color-2 { --explosion-color: var(--canvas); }
+
+.explosion-word.is-completed {
+  border-color: transparent;
+  background: none;
+  box-shadow: none;
+  cursor: default;
+}
+
+.explosion-word.is-gone {
+  visibility: hidden;
+  animation: none;
+}
+
+.explosion-word.is-completed strong {
+  visibility: hidden;
+}
+
+.explosion-burst {
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  width: calc(100% + 20px);
+  height: auto;
+  aspect-ratio: 1.25;
+  translate: 0 -50%;
+  overflow: visible;
+  pointer-events: none;
+  transform-origin: center;
+  animation: explosion-rock 260ms steps(1, end) 2;
+}
+
+@keyframes explosion-rock {
+  0%, 100% { transform: rotate(-7deg); }
+  50% { transform: rotate(7deg); }
+}
+
+.explosion-burst polygon {
+  fill: var(--explosion-color);
+  stroke: var(--ink);
+  stroke-width: 3px;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 4;
+}
+
+.explosion-selection {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  min-height: 0;
+  min-width: 0;
+  overflow-x: auto;
+  padding: 14px;
+  border: 4px solid var(--ink);
+  border-radius: 18px;
+  background: var(--paper);
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.explosion-pool {
+  min-width: 0;
+  align-content: start;
+  align-items: flex-start;
+  padding: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.explosion-tile {
+  flex: 0 0 64px;
+  width: 64px;
+  min-height: 64px;
+  padding: 8px;
+  border: 2px solid var(--ink);
+  border-radius: 15px;
+  background: var(--explosion-color, var(--bronze));
+  color: var(--ink);
+  box-shadow: 4px 4px 0 var(--ink);
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1.2;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.explosion-tile:active:not(:disabled),
+.explosion-tile.is-selected {
+  transform: translate(2px, 2px);
+  box-shadow: inset 3px 3px 0 var(--ink);
+}
+
+.explosion-tile:disabled { cursor: default; }
+/* Keep other tiles in place when a solved word uses up its characters. */
+.explosion-tile.is-consumed { visibility: hidden; }
+
+.explosion-selection.explosion-miss {
+  background: var(--bronze);
+  animation: explosion-shake 240ms ease-in-out;
+}
+
+.explosion-status:empty { display: block; }
+
+.explosion-next.hidden {
+  display: block !important;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.explosion-status {
+  min-height: 1.6em;
+  margin: 0;
+  text-align: center;
+  font-weight: 700;
+}
+
+.explosion-clear {
+  font-size: 26px;
+  animation: explosion-pop 320ms ease-out;
+}
+
+.explosion-next {
+  background: var(--ember);
+  text-align: center;
+}
+
+.explosion-footer {
+  display: grid;
+  gap: 24px;
+  min-width: 0;
+}
+
+.explosion-examples {
+  padding: clamp(14px, 3vw, 24px);
+  border: 3px solid var(--ink);
+  border-radius: 18px;
+  background: var(--paper);
+  box-shadow: 4px 4px 0 var(--ink);
+  overflow-wrap: anywhere;
+}
+
+.explosion-examples h3 { margin: 0 0 18px; }
+
+.explosion-example + .explosion-example {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid var(--ink);
+}
+
+.explosion-example h4 { margin: 0 0 8px; }
+
+.explosion-example p {
+  margin: 6px 0 0;
+  line-height: 1.7;
+}
+
+.explosion-example p[lang="ja"] { font-size: 20px; }
+
+@keyframes explosion-pop {
+  0% { transform: scale(1); }
+  35% { transform: scale(1.12) rotate(-3deg); }
+  70% { transform: scale(0.96) rotate(2deg); }
+  100% { transform: scale(1); }
+}
+
+@keyframes explosion-shake {
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .explosion-word.is-completed,
+  .explosion-burst,
+  .explosion-selection.explosion-miss,
+  .explosion-clear {
+    animation: none;
+  }
+  .explosion-word.is-completed { visibility: hidden; }
+}
+
+.explosion-answer-reading,
+.explosion-answer-kanji { flex-shrink: 0; }
+
+.explosion-answer-kanji { font-size: 24px; }
+
+/* Announce revealed answers without duplicating the answer box visually. */
+.explosion-status-quiet {
+  clip-path: inset(50%);
 }
