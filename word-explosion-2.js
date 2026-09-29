@@ -162,7 +162,13 @@
       again.classList.add("hidden");
       example.classList.add("hidden");
       example.replaceChildren();
-      const distractors = shuffle(entries.filter((entry) => entry.english !== word.english)).slice(0, 2);
+      const distractors = [];
+      for (const entry of shuffle(entries)) {
+        if (entry.japanese === word.japanese || entry.english.toLowerCase() === word.english.toLowerCase() ||
+            distractors.some((other) => other.english.toLowerCase() === entry.english.toLowerCase())) continue;
+        distractors.push(entry);
+        if (distractors.length === 2) break;
+      }
       const meanings = shuffle([word.english, ...distractors.map((entry) => entry.english)]);
       choices.replaceChildren(...meanings.map((meaning) => {
         const button = document.createElement("button");

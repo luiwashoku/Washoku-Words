@@ -39,7 +39,11 @@
     const q = (s) => d.querySelector(s);
     assert(q("#wordExplosionTitle").textContent === "単語爆発2", "Correct screen title");
     assert(q(".listening-box").textContent === "?", "Word hidden initially");
-    const first = entries.find((entry) => entry.japanese === spoken[0]?.text);
+    const exampleFor = (word) => bank[`${word.japanese}|${word.kanji}`] || bank[word.japanese];
+    const activeWord = (text) => entries.find((entry) => entry.japanese === text &&
+      [...d.querySelectorAll(".listening-choice")].some((button) => button.textContent === entry.english));
+    const wordKey = (word) => `${word.japanese}|${word.kanji}`;
+    const first = activeWord(spoken[0]?.text);
     assert(first && spoken.length === 1 && spoken[0].lang === "ja-JP", "Dataset word automatically spoken");
     assert(q(".listening-example").classList.contains("hidden"), "Example hidden before answer");
     q(".listening-replay").click();
@@ -62,30 +66,30 @@
       assert(replay.top >= box.bottom && pool.top >= replay.bottom, `Vertical order at ${width}px`);
       assert(d.documentElement.scrollWidth <= w.innerWidth + 1, `No clipping at ${width}px`);
     }
-    assert(q('.listening-example [lang="ja"]').textContent === bank[first.japanese].japanese, "Same Japanese example as original game");
-    assert(q('.listening-example [lang="en"]').textContent === bank[first.japanese].english, "Same English translation as original game");
+    assert(q('.listening-example [lang="ja"]').textContent === exampleFor(first).japanese, "Same Japanese example as original game");
+    assert(q('.listening-example [lang="en"]').textContent === exampleFor(first).english, "Same English translation as original game");
     q('.listening-example button').click();
     assert(spoken[spoken.length - 1].lang === "ja-JP" && !/[()（）]/.test(spoken[spoken.length - 1].text), "Sentence audio with readings prepared");
     const beforeReset = spoken.length;
     q(".listening-again").click();
     assert(q(".listening-box").textContent === "?" && spoken.length === beforeReset + 1, "Reset and auto replay");
     assert(q(".listening-example").classList.contains("hidden") && !q('.listening-example p'), "Next word clears sample");
-    const seen = new Set([first.japanese]);
+    const seen = new Set([wordKey(first)]);
     const originalMatchMedia = w.matchMedia.bind(w);
     w.matchMedia = (query) => query.includes("prefers-reduced-motion") ? {matches: true} : originalMatchMedia(query);
     for (let i = 1; i < entries.length; i++) {
-      const current = entries.find((entry) => entry.japanese === spoken[spoken.length - 1].text);
-      assert(current && !seen.has(current.japanese), "Every dataset word is playable without repeats");
-      seen.add(current.japanese);
+      const current = activeWord(spoken[spoken.length - 1].text);
+      assert(current && !seen.has(wordKey(current)), "Every dataset word is playable without repeats");
+      seen.add(wordKey(current));
       assert(new Set(choices().map((b) => b.textContent)).size === 3, "Three distinct choices");
       choices().find((b) => b.textContent === current.english).click();
-      assert(q('.listening-example [lang="ja"]').textContent === bank[current.japanese].japanese, "Matching sample for every word");
-      assert(q('.listening-example [lang="en"]').textContent === bank[current.japanese].english, "Matching translation for every word");
+      assert(q('.listening-example [lang="ja"]').textContent === exampleFor(current).japanese, "Matching sample for every word");
+      assert(q('.listening-example [lang="en"]').textContent === exampleFor(current).english, "Matching translation for every word");
       assert(d.documentElement.scrollWidth <= w.innerWidth + 1, "All words and examples fit on mobile");
       q(".listening-again").click();
     }
     w.matchMedia = originalMatchMedia;
-    const current = entries.find((entry) => entry.japanese === spoken[spoken.length - 1].text);
+    const current = activeWord(spoken[spoken.length - 1].text);
     choices().find((b) => b.textContent === current.english).click();
     const beforeExit = canceled;
     q("#backFromExplosion").click();
@@ -97,7 +101,7 @@
     q("#backFromExplosion").click();
     lesson().click();
     await until(() => choices().length === 3);
-    const last = entries.find((entry) => entry.japanese === spoken[spoken.length - 1].text);
+    const last = activeWord(spoken[spoken.length - 1].text);
     choices().find((b) => b.textContent === last.english).click();
     await until(() => q(".listening-reading"));
     frame.style.width = "390px";

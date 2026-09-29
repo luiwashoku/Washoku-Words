@@ -4,7 +4,7 @@ Open **日本語で話す → 単語爆発2**. The listening game uses the same 
 
 - Each round automatically speaks one Japanese word while the box shows “?”.
 - The speaker below the box replays the word from the start.
-- Three shuffled English choices contain the answer and two other vocabulary meanings.
+- Three shuffled English choices contain the answer and two distinct other vocabulary meanings. Words with the same hiragana reading as the answer are excluded from the other choices.
 - Incorrect guesses keep the word hidden and allow another attempt.
 - The correct answer bursts the box, then reveals hiragana and kanji when available.
 - After the reveal, the same Japanese example and English translation used in 単語爆発 appear below the choices, with a sentence voice button.

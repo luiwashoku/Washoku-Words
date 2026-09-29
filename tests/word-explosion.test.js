@@ -20,18 +20,25 @@ assert(entries.length >= 3, "Vocabulary supports a complete round");
 const examples = JSON.parse(read(root + "data/word-explosion-examples.json"));
 assert(Object.keys(examples).length === entries.length, "Example bank matches the vocabulary");
 entries.forEach((entry) => {
-  const example = examples[entry.japanese];
+  const example = examples[`${entry.japanese}|${entry.kanji}`] || examples[entry.japanese];
   assert(example && typeof example.japanese === "string" && example.japanese.trim(), `Japanese example for ${entry.english}`);
   assert(typeof example.english === "string" && example.english.trim(), `English translation for ${entry.english}`);
   assert(!/[{}]|<\/?(?:ruby|rt)>/.test(example.japanese), "Examples use parenthetical readings");
 });
 const extended = game.parseVocabulary(read(root + "word explosion.txt") + "\nred | あか\n");
 assert(extended.length === entries.length + 1, "New text lines become vocabulary without code changes");
-const tolerant = game.parseVocabulary("\uFEFF# words\r\nApple | りんご\r\n\r\nfox | きつね\r\ncat | ねこ\r\nAPPLE | あか\r\nfruit | りんご\r\n");
-assert(tolerant.length === 3, "Ignore blank/comment lines and duplicate prompts/answers");
+const tolerant = game.parseVocabulary("\uFEFF# words\r\nApple | りんご\r\n\r\nfox | きつね\r\ncat | ねこ\r\nAPPLE | りんご\r\nfruit | りんご\r\n");
+assert(tolerant.length === 3, "Ignore blank/comment lines and duplicate Japanese entries");
 rejects("apple | りんご\nfox | きつね");
 rejects("apple | apple\nfox | きつね\ncat | ねこ");
 rejects("apple | りんご | extra\nfox | きつね\ncat | ねこ");
+const homophones = game.parseVocabulary("choice | せんたく (選択)\nlaundry | せんたく (洗濯)\nsearch | さがす (探す)\nsearch | けんさく (検索)\ncat | ねこ\n");
+assert(homophones.length === 5, "Keep distinct words with the same reading or English meaning");
+for (let i = 0; i < 100; i++) {
+  const sample = game.createRound(homophones);
+  assert(new Set(sample.words.map((w) => w.japanese)).size === 3, "Avoid homophones in one tile round");
+  assert(new Set(sample.words.map((w) => w.english)).size === 3, "Avoid identical prompts in one tile round");
+}
 const fixed = game.parseVocabulary("apple | りんご\nfox | きつね\ncat | ねこ");
 let round = game.createRound(fixed);
 function tileFor(round, char) {

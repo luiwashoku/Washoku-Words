@@ -3,7 +3,6 @@
 
   function parseVocabulary(text, { includeDuplicates = false } = {}) {
     const entries = [];
-    const englishSeen = new Set();
     const japaneseSeen = new Set();
     text.replace(/^\uFEFF/, "").split(/\r?\n/).forEach((line, index) => {
       if (!line.trim() || line.trim().startsWith("#")) return;
@@ -15,10 +14,9 @@
       const english = fields[0];
       const japanese = answer[1];
       const kanji = (answer[2] || answer[3] || "").trim();
-      const key = english.toLowerCase();
-      if (!includeDuplicates && (englishSeen.has(key) || japaneseSeen.has(japanese))) return;
-      englishSeen.add(key);
-      japaneseSeen.add(japanese);
+      const key = `${japanese}|${kanji}`;
+      if (!includeDuplicates && japaneseSeen.has(key)) return;
+      japaneseSeen.add(key);
       entries.push({ english, japanese, kanji });
     });
     if (entries.length < 3) {
@@ -36,7 +34,7 @@
     if (!examplesResponse.ok) throw new Error(`Examples request failed (${examplesResponse.status}).`);
     const [text, exampleBank] = await Promise.all([response.text(), examplesResponse.json()]);
     const entries = parseVocabulary(text).map((word) => {
-      const example = exampleBank[word.japanese];
+      const example = exampleBank[`${word.japanese}|${word.kanji}`] || exampleBank[word.japanese];
       if (typeof example?.japanese !== "string" || !example.japanese.trim() ||
           typeof example?.english !== "string" || !example.english.trim()) {
         throw new Error(`Missing example for ${word.english}.`);
@@ -57,7 +55,14 @@
 
   function createRound(entries) {
     if (entries.length < 3) throw new Error("A round needs at least 3 vocabulary entries.");
-    const words = shuffle(entries).slice(0, 3).map((word) => ({ ...word, completed: false }));
+    const words = [];
+    for (const word of shuffle(entries)) {
+      if (words.some((chosen) => chosen.japanese === word.japanese ||
+          chosen.english.toLowerCase() === word.english.toLowerCase())) continue;
+      words.push({ ...word, completed: false });
+      if (words.length === 3) break;
+    }
+    if (words.length < 3) throw new Error("A round needs 3 distinct English prompts and hiragana answers.");
     const characters = words.flatMap((word) => Array.from(word.japanese));
     const tiles = shuffle(characters.map((character, id) => ({ id, character, used: false })));
     return { words, tiles, selected: [] };
