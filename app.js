@@ -131,7 +131,6 @@
 
     restoreSavedData();
     bindEvents();
-    renderStats();
 
     state.catalog = await loadCatalog();
     renderCategories();
@@ -263,19 +262,6 @@
           "#resultCard .explanation"
         )
       );
-
-    elements.answeredCount =
-      document.getElementById(
-        "answeredCount"
-      );
-
-    elements.correctCount =
-      document.getElementById(
-        "correctCount"
-      );
-
-    elements.accuracy =
-      document.getElementById("accuracy");
 
     elements.backHome =
       document.getElementById("backHome");
@@ -2542,7 +2528,6 @@
       state.stats
     );
 
-    renderStats();
   }
 
   function updateLessonProgress(
@@ -2576,26 +2561,6 @@
     );
   }
 
-  function renderStats() {
-    elements.answeredCount.textContent =
-      state.stats.answered;
-
-    elements.correctCount.textContent =
-      state.stats.correct;
-
-    const accuracy =
-      state.stats.answered > 0
-        ? Math.round(
-            (
-              state.stats.correct /
-              state.stats.answered
-            ) * 100
-          )
-        : 0;
-
-    elements.accuracy.textContent =
-      `${accuracy}%`;
-  }
 
    function showExplanation(
     question,

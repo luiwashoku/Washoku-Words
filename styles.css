@@ -4,12 +4,12 @@
 }
 
 :root {
-  --canvas: #DDB8D8;
-  --horizon: #8DACE5;
-  --pulse: #B99B85;
-  --ember: #F29B3B;
-  --bronze: #F9B2B2;
-  --depth: #4B352A;
+  --canvas: #FFB8DE;
+  --horizon: #8980FF;
+  --pulse: #F2EFE9;
+  --ember: #FF5100;
+  --bronze: #00CC92;
+  --depth: #F2EFE9;
   --ink: #111111;
   --paper: #F2EFE9;
 
@@ -42,7 +42,7 @@ button {
 }
 
 button:focus-visible {
-  outline: 4px solid var(--depth);
+  outline: 4px solid var(--ink);
   outline-offset: 3px;
 }
 
@@ -187,53 +187,11 @@ button:focus-visible {
 }
 
 .hero h2 {
-  margin: 0 0 8px;
+  margin: 0;
   font-size: clamp(28px, 8vw, 40px);
   font-weight: 700;
   line-height: 1.02;
   letter-spacing: -0.045em;
-}
-
-.hero p {
-  margin: 0;
-  font-size: 15px;
-  font-weight: 900;
-  line-height: 1.45;
-}
-
-.stats {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  border-bottom: 2px solid var(--ink);
-  background: var(--canvas);
-}
-
-.stat {
-  min-width: 0;
-  padding: 17px 10px;
-  border-right: 2px solid var(--ink);
-  text-align: center;
-}
-
-.stat:last-child {
-  border-right: 0;
-}
-
-.stat-number {
-  display: block;
-  font-size: clamp(26px, 8vw, 40px);
-  font-weight: 900;
-  line-height: 1;
-  letter-spacing: -0.05em;
-}
-
-.stat-label {
-  display: block;
-  margin-top: 7px;
-  font-size: 11px;
-  font-weight: 900;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
 }
 
 .categories h3 {
@@ -485,7 +443,7 @@ button:focus-visible {
 #lessonIntroductionDialog::backdrop,
 #grammarIndexDialog::backdrop,
 .explosion-index-dialog::backdrop {
-  background: rgb(75 53 42 / 62%);
+  background: rgb(17 17 17 / 62%);
 }
 
 .grammarIndexHeader {
@@ -702,7 +660,7 @@ button:focus-visible {
 
 .questionTargetChunk {
   text-decoration-line: underline;
-  text-decoration-color: var(--depth);
+  text-decoration-color: var(--ink);
   text-decoration-thickness: 3px;
   text-underline-offset: 5px;
 }
@@ -949,7 +907,7 @@ button:focus-visible {
   border: 2px solid var(--ink);
   border-radius: 18px;
   background: var(--depth);
-  color: var(--paper);
+  color: var(--ink);
   font-size: 17px;
   font-weight: 900;
   cursor: pointer;
@@ -1000,17 +958,6 @@ body.no-furigana rt {
     font-size: 20px;
   }
 
-  .stats {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .stat {
-    padding: 15px 8px;
-  }
-
-  .stat-label {
-    font-size: 9px;
-  }
 }
 
 /* Conjugation reveal uses the shared quiz card and feedback layout. */
@@ -1050,14 +997,14 @@ body.no-furigana rt {
 #conjugationAnswer:focus-visible,
 .conjugationSubmit:focus-visible,
 .conjugationAgain:focus-visible {
-  outline: 3px solid var(--depth);
+  outline: 3px solid var(--ink);
   outline-offset: 3px;
 }
 
 .conjugationSubmit {
   text-align: center;
   background: var(--depth);
-  color: var(--paper);
+  color: var(--ink);
 }
 
 #resultCard.reveal-result {

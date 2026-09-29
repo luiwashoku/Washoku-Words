@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>野菜テスト — 和食探究ノート</title>
   <style>
-    :root { --page-background: #4B352A; --illustration-background: #F2EFE9; font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Hiragino Sans", "Yu Gothic", sans-serif; }
+    :root { --page-background: #F2EFE9; --illustration-background: #F2EFE9; font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Hiragino Sans", "Yu Gothic", sans-serif; }
     * { box-sizing: border-box; }
     html, body { width: 100%; min-height: 100%; margin: 0; background: var(--page-background); }
     body { --top-space: calc(88px + env(safe-area-inset-top)); --bottom-space: max(32px, env(safe-area-inset-bottom)); --image-height: calc(100svh - var(--top-space) - var(--bottom-space) - 68px); display: flex; min-height: 100svh; padding: var(--top-space) 0 var(--bottom-space); flex-direction: column; align-items: center; justify-content: center; overflow: hidden; }
     .vegetable-test { position: relative; width: min(calc(100vw - 40px), calc(var(--image-height) * 1683 / 1190)); aspect-ratio: 1683 / 1190; max-height: var(--image-height); flex: 0 0 auto; container-type: inline-size; border-radius: 30px; background: var(--illustration-background) url("assets/vegetables-page.png") center / contain no-repeat; outline: 2px solid #111; box-shadow: 6px 6px 0 #111; }
     .rollover-title { position: absolute; bottom: calc(100% + 14px); left: 50%; z-index: 1; width: max-content; max-width: 96%; margin: 0; padding: clamp(4px, 0.35cqw, 6px) clamp(7px, 0.65cqw, 11px); transform: translateX(-50%); border: clamp(1px, 0.12cqw, 2px) solid #111; border-radius: clamp(4px, 0.42cqw, 7px); background: rgba(242, 239, 233, 0.96); box-shadow: clamp(1px, 0.12cqw, 2px) clamp(1px, 0.12cqw, 2px) 0 #111; font-size: clamp(14px, 2.25cqw, 36px); font-weight: 800; line-height: 1.15; text-align: center; }
     .vegetable { position: absolute; left: calc(var(--x) * 1%); top: calc(var(--y) * 1%); display: grid; width: var(--hit-width, clamp(42px, 10.5%, 150px)); min-height: clamp(42px, 6vw, 74px); padding: 5px 7px; transform: translate(-50%, -50%); place-items: center; border: 0; border-radius: 12px; color: #111; background: transparent; cursor: pointer; -webkit-tap-highlight-color: transparent; }
-    .vegetable:focus-visible { outline: 3px solid #4B352A; outline-offset: 2px; }
+    .vegetable:focus-visible { outline: 3px solid #111; outline-offset: 2px; }
     .answer-bubble { display: none; padding: clamp(9px, 0.85cqw, 14px) clamp(4px, 0.42cqw, 7px) clamp(3px, 0.24cqw, 4px); border: clamp(1px, 0.12cqw, 2px) solid #111; border-radius: clamp(4px, 0.42cqw, 7px); background: rgba(242, 239, 233, 0.96); box-shadow: clamp(1px, 0.12cqw, 2px) clamp(1px, 0.12cqw, 2px) 0 #111; font-size: clamp(8px, 1.15cqw, 19px); font-weight: 800; line-height: 1.15; white-space: nowrap; }
     .vegetable rt { font-size: 0.56em; font-weight: 700; }
     .vegetable.revealed .answer-bubble { display: block; }
@@ -20,7 +20,7 @@
     .page-arrow { display: grid; width: 50px; height: 50px; padding: 0; place-items: center; border: 2px solid #111; border-radius: 50%; color: #111; background: var(--illustration-background); box-shadow: 3px 3px 0 #111; cursor: pointer; }
     .page-arrow svg { width: 25px; height: 25px; fill: none; stroke: currentColor; stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; }
     .page-arrow:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 #111; }
-    .page-arrow:focus-visible { outline: 4px solid #B99B85; outline-offset: 3px; }
+    .page-arrow:focus-visible { outline: 4px solid #111; outline-offset: 3px; }
     .back-home { position: fixed; top: calc(16px + env(safe-area-inset-top)); left: calc(16px + env(safe-area-inset-left)); z-index: 3; text-decoration: none; }
     @media (max-width: 600px) {
       body { --top-space: calc(144px + env(safe-area-inset-top)); }
