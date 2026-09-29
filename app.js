@@ -1093,6 +1093,7 @@
       typeof entry.category === "string" &&
       typeof entry.title === "string" &&
       (
+        entry.gameMode === "word-explosion-2" ||
         typeof entry.file === "string" ||
         (
           Array.isArray(entry.files) &&
@@ -1331,7 +1332,9 @@
           </strong>
 
           <span>
-            ${lesson.gameMode === "word-explosion"
+            ${lesson.gameMode === "word-explosion-2"
+              ? "Listen and choose · Play"
+              : lesson.gameMode === "word-explosion"
               ? "Hiragana word game · Play"
               : `${progress.completed}/${count} ${lesson.answerMode === "reveal" ? "practised" : "completed"}`}
           </span>
@@ -1380,28 +1383,47 @@
     };
   }
 
+  function createExampleSpeechButton(text) {
+    const button = elements.speakExplanation.cloneNode(true);
+    button.removeAttribute("id");
+    button.className = "icon-button explosion-example-speech";
+    const supported = "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
+    button.disabled = !supported;
+    setSpeechButtonState(button, "idle", "Japanese example sentence");
+    if (!supported) button.title = "Speech playback is not available in this browser";
+    button.addEventListener("click", () => {
+      speakJapaneseText(getJapaneseSpeechText(text), button, "Japanese example sentence");
+    });
+    return button;
+  }
+
   async function openLesson(lesson) {
+    if (lesson.gameMode === "word-explosion-2") {
+      cancelJapaneseSpeech();
+      state.selectedLesson = lesson;
+      showScreen("word-explosion");
+      document.getElementById("wordExplosionTitle").textContent = lesson.title;
+      document.getElementById("explosionIndexButton").classList.add("hidden");
+      closeWordExplosion = window.WordExplosionListeningGame.mount(elements.wordExplosionGame, {
+        file: lesson.file,
+        createExampleSpeechButton,
+        playSound,
+        stopSpeech: cancelJapaneseSpeech,
+        speakerTemplate: elements.speakExplanation
+      });
+      return;
+    }
     if (lesson.gameMode === "word-explosion") {
       cancelJapaneseSpeech();
       state.selectedLesson = lesson;
       showScreen("word-explosion");
+      document.getElementById("wordExplosionTitle").textContent = lesson.title;
+      document.getElementById("explosionIndexButton").classList.remove("hidden");
       closeWordExplosion = window.WordExplosionGame.mount(elements.wordExplosionGame, {
         file: lesson.file,
         playSound,
         stopSpeech: cancelJapaneseSpeech,
-        createExampleSpeechButton(text) {
-          const button = elements.speakExplanation.cloneNode(true);
-          button.removeAttribute("id");
-          button.className = "icon-button explosion-example-speech";
-          const supported = "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
-          button.disabled = !supported;
-          setSpeechButtonState(button, "idle", "Japanese example sentence");
-          if (!supported) button.title = "Speech playback is not available in this browser";
-          button.addEventListener("click", () => {
-            speakJapaneseText(getJapaneseSpeechText(text), button, "Japanese example sentence");
-          });
-          return button;
-        },
+        createExampleSpeechButton,
         celebrate: celebrateCorrectAnswer
       });
       return;

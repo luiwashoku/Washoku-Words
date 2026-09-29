@@ -1500,3 +1500,101 @@ body.no-furigana rt {
   opacity: 0.5;
   cursor: default;
 }
+
+/* One-word listening prototype. */
+#wordExplosionGame.listening-game {
+  min-height: 580px;
+  grid-template-rows: auto auto minmax(36px, auto) auto auto auto;
+  justify-items: center;
+  align-content: center;
+  gap: 20px;
+  padding: 28px 24px 36px;
+}
+
+.listening-stage {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  min-height: 260px;
+}
+
+.listening-box {
+  position: relative;
+  display: grid;
+  place-content: center;
+  gap: 8px;
+  width: min(240px, 100%);
+  padding: 20px 12px;
+  overflow-wrap: anywhere;
+  min-height: 220px;
+  border: 4px solid var(--ink);
+  border-radius: 24px;
+  background: var(--ember);
+  box-shadow: 7px 7px 0 var(--ink);
+  text-align: center;
+  font-size: 100px;
+  font-weight: 900;
+}
+
+.listening-box.is-bursting {
+  border-color: transparent;
+  background: transparent;
+  box-shadow: none;
+}
+
+.listening-burst {
+  position: absolute;
+  inset: -14px;
+  width: calc(100% + 28px);
+  height: calc(100% + 28px);
+  animation: explosion-rock 260ms steps(1, end) 2;
+}
+
+.listening-burst polygon {
+  fill: var(--ember);
+  stroke: var(--ink);
+  stroke-width: 3px;
+  stroke-linejoin: round;
+}
+
+.listening-reading { font-size: clamp(30px, 8vw, 44px); }
+.listening-kanji { font-size: 32px; font-weight: 600; }
+.listening-box.is-revealed { background: var(--canvas); }
+
+.listening-replay {
+  width: 60px;
+  height: 60px;
+  background: var(--horizon);
+}
+
+.listening-replay.is-speaking { background: var(--canvas); }
+.listening-replay:disabled { opacity: 0.5; cursor: default; }
+.listening-replay svg { fill: currentColor; }
+.listening-replay .speakerIcon path:not(:first-child) { fill: none; }
+.listening-status { min-height: 1.5em; margin: 0; text-align: center; }
+
+.listening-choices {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  width: 100%;
+}
+
+.listening-choice {
+  min-width: 0;
+  padding: 18px 8px;
+  text-align: center;
+  overflow-wrap: anywhere;
+  font-size: clamp(16px, 3.5vw, 23px);
+  background: var(--paper);
+}
+
+.listening-choice.is-wrong { background: var(--bronze); }
+.listening-choice.is-correct { background: var(--canvas); }
+.listening-choice:disabled { opacity: 1; cursor: default; }
+.listening-again { background: var(--horizon); text-align: center; }
+.listening-example { width: 100%; min-width: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  .listening-burst { animation: none; }
+}

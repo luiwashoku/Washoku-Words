@@ -27,6 +27,25 @@
     return entries;
   }
 
+  async function loadVocabulary(file, signal) {
+    const [response, examplesResponse] = await Promise.all([
+      fetch(file, { cache: "no-store", signal }),
+      fetch("data/word-explosion-examples.json", { cache: "no-store", signal })
+    ]);
+    if (!response.ok) throw new Error(`Vocabulary request failed (${response.status}).`);
+    if (!examplesResponse.ok) throw new Error(`Examples request failed (${examplesResponse.status}).`);
+    const [text, exampleBank] = await Promise.all([response.text(), examplesResponse.json()]);
+    const entries = parseVocabulary(text).map((word) => {
+      const example = exampleBank[word.japanese];
+      if (typeof example?.japanese !== "string" || !example.japanese.trim() ||
+          typeof example?.english !== "string" || !example.english.trim()) {
+        throw new Error(`Missing example for ${word.english}.`);
+      }
+      return { ...word, example };
+    });
+    return { entries, allWords: parseVocabulary(text, { includeDuplicates: true }) };
+  }
+
   function shuffle(items) {
     const result = [...items];
     for (let i = result.length - 1; i > 0; i -= 1) {
@@ -312,24 +331,10 @@
       next.classList.add("hidden");
       status.textContent = "Loading words…";
       try {
-        const [response, examplesResponse] = await Promise.all([
-          fetch(file, { cache: "no-store", signal: controller.signal }),
-          fetch("data/word-explosion-examples.json", { cache: "no-store", signal: controller.signal })
-        ]);
-        if (!response.ok) throw new Error(`Vocabulary request failed (${response.status}).`);
-        if (!examplesResponse.ok) throw new Error(`Examples request failed (${examplesResponse.status}).`);
-        const [text, exampleBank] = await Promise.all([response.text(), examplesResponse.json()]);
+        const loaded = await loadVocabulary(file, controller.signal);
         if (!alive) return;
-        const loadedEntries = parseVocabulary(text).map((word) => {
-          const example = exampleBank[word.japanese];
-          if (typeof example?.japanese !== "string" || !example.japanese.trim() ||
-              typeof example?.english !== "string" || !example.english.trim()) {
-            throw new Error(`Missing example for ${word.english}.`);
-          }
-          return { ...word, example };
-        });
-        entries = loadedEntries;
-        const allWords = parseVocabulary(text, { includeDuplicates: true });
+        entries = loaded.entries;
+        const allWords = loaded.allWords;
         title.textContent = `単語一覧 · ${allWords.length}`;
         wordList.replaceChildren(...allWords.map((word) => {
           const item = document.createElement("li");
@@ -371,5 +376,5 @@
     };
   }
 
-  window.WordExplosionGame = { parseVocabulary, createRound, selectTile, mount };
+  window.WordExplosionGame = { parseVocabulary, loadVocabulary, createRound, selectTile, mount };
 })();

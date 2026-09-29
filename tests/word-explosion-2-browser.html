@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>単語爆発2 checks</title>
+<style>body { margin: 0; font-family: sans-serif; } iframe { width: 390px; height: 850px; border: 0; } #result { white-space: pre-wrap; }</style>
+<pre id="result">RUNNING</pre>
+<iframe src="../index.html" title="App preview"></iframe>
+<script>
+(async () => {
+  const frame = document.querySelector("iframe");
+  const result = document.getElementById("result");
+  const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+  const assert = (value, message) => { if (!value) throw new Error(message); };
+  async function until(fn) {
+    for (let i = 0; i < 200; i++) { if (fn()) return; await wait(25); }
+    throw new Error("Timed out");
+  }
+  try {
+    await until(() => frame.contentDocument?.querySelector(".category-card"));
+    const w = frame.contentWindow, d = frame.contentDocument;
+    const spoken = [];
+    let canceled = 0;
+    class Utterance extends w.EventTarget { constructor(text) { super(); this.text = text; } }
+    Object.defineProperty(w, "SpeechSynthesisUtterance", { configurable: true, value: Utterance });
+    Object.defineProperty(w, "speechSynthesis", { configurable: true, value: {
+      getVoices: () => [{ lang: "ja-JP", name: "Kyoko" }],
+      cancel() { canceled++; },
+      speak(utterance) { spoken.push(utterance); utterance.dispatchEvent(new w.Event("start")); }
+    } });
+    [...d.querySelectorAll(".category-card")].find((b) => b.textContent.includes("日本語で話す")).click();
+    const lesson = () => [...d.querySelectorAll(".lesson-card")].find((b) => b.querySelector("strong").textContent.trim() === "単語爆発2");
+    await until(lesson);
+    const vocabulary = await fetch("../word%20explosion.txt").then((r) => r.text());
+    const entries = w.WordExplosionGame.parseVocabulary(vocabulary);
+    const bank = await fetch("../data/word-explosion-examples.json").then((r) => r.json());
+    lesson().click();
+    await until(() => d.querySelectorAll(".listening-choice").length === 3);
+    const q = (s) => d.querySelector(s);
+    assert(q("#wordExplosionTitle").textContent === "単語爆発2", "Correct screen title");
+    assert(q(".listening-box").textContent === "?", "Word hidden initially");
+    const first = entries.find((entry) => entry.japanese === spoken[0]?.text);
+    assert(first && spoken.length === 1 && spoken[0].lang === "ja-JP", "Dataset word automatically spoken");
+    assert(q(".listening-example").classList.contains("hidden"), "Example hidden before answer");
+    q(".listening-replay").click();
+    assert(spoken.length === 2 && spoken[1].text === first.japanese, "Replay speaks again");
+    const choices = () => [...d.querySelectorAll(".listening-choice")];
+    assert(choices().length === 3, "Three choices");
+    choices().find((b) => b.textContent !== first.english).click();
+    assert(q(".listening-box").textContent === "?" && !q(".listening-reading"), "Wrong choice keeps word hidden");
+    choices().find((b) => b.textContent === first.english).click();
+    assert(q(".listening-burst") || q(".listening-reading"), "Correct answer bursts or reveals with reduced motion");
+    await until(() => q(".listening-reading"));
+    assert(q(".listening-reading").textContent === first.japanese && (q(".listening-kanji")?.textContent || "") === first.kanji, "Correct reveal");
+    assert(choices().every((b) => b.disabled), "Choices locked after solving");
+    for (const width of [720, 320]) {
+      frame.style.width = `${width}px`;
+      await wait(40);
+      const box = q(".listening-box").getBoundingClientRect();
+      const replay = q(".listening-replay").getBoundingClientRect();
+      const pool = q(".listening-choices").getBoundingClientRect();
+      assert(replay.top >= box.bottom && pool.top >= replay.bottom, `Vertical order at ${width}px`);
+      assert(d.documentElement.scrollWidth <= w.innerWidth + 1, `No clipping at ${width}px`);
+    }
+    assert(q('.listening-example [lang="ja"]').textContent === bank[first.japanese].japanese, "Same Japanese example as original game");
+    assert(q('.listening-example [lang="en"]').textContent === bank[first.japanese].english, "Same English translation as original game");
+    q('.listening-example button').click();
+    assert(spoken[spoken.length - 1].lang === "ja-JP" && !/[()（）]/.test(spoken[spoken.length - 1].text), "Sentence audio with readings prepared");
+    const beforeReset = spoken.length;
+    q(".listening-again").click();
+    assert(q(".listening-box").textContent === "?" && spoken.length === beforeReset + 1, "Reset and auto replay");
+    assert(q(".listening-example").classList.contains("hidden") && !q('.listening-example p'), "Next word clears sample");
+    const seen = new Set([first.japanese]);
+    const originalMatchMedia = w.matchMedia.bind(w);
+    w.matchMedia = (query) => query.includes("prefers-reduced-motion") ? {matches: true} : originalMatchMedia(query);
+    for (let i = 1; i < entries.length; i++) {
+      const current = entries.find((entry) => entry.japanese === spoken[spoken.length - 1].text);
+      assert(current && !seen.has(current.japanese), "Every dataset word is playable without repeats");
+      seen.add(current.japanese);
+      assert(new Set(choices().map((b) => b.textContent)).size === 3, "Three distinct choices");
+      choices().find((b) => b.textContent === current.english).click();
+      assert(q('.listening-example [lang="ja"]').textContent === bank[current.japanese].japanese, "Matching sample for every word");
+      assert(q('.listening-example [lang="en"]').textContent === bank[current.japanese].english, "Matching translation for every word");
+      assert(d.documentElement.scrollWidth <= w.innerWidth + 1, "All words and examples fit on mobile");
+      q(".listening-again").click();
+    }
+    w.matchMedia = originalMatchMedia;
+    const current = entries.find((entry) => entry.japanese === spoken[spoken.length - 1].text);
+    choices().find((b) => b.textContent === current.english).click();
+    const beforeExit = canceled;
+    q("#backFromExplosion").click();
+    await wait(600);
+    assert(canceled > beforeExit && !q(".listening-reading"), "Leaving cancels speech and pending reveal");
+    [...d.querySelectorAll(".lesson-card")].find((b) => b.querySelector("strong").textContent.trim() === "単語爆発").click();
+    await until(() => q(".explosion-word"));
+    assert(q("#wordExplosionTitle").textContent === "単語爆発" && !q("#explosionIndexButton").classList.contains("hidden"), "Original game header restored");
+    q("#backFromExplosion").click();
+    lesson().click();
+    await until(() => choices().length === 3);
+    const last = entries.find((entry) => entry.japanese === spoken[spoken.length - 1].text);
+    choices().find((b) => b.textContent === last.english).click();
+    await until(() => q(".listening-reading"));
+    frame.style.width = "390px";
+    result.textContent = "PASS: shared dataset, all words without repeats, matching bilingual samples, sentence speech, autoplay/replay, guesses, reveal, mobile layout, cleanup, original-game return. Speech API mocked; audible playback needs a device voice.";
+  } catch (error) { result.textContent = `FAIL: ${error.stack}`; }
+})();
+</script>
+</html>
