@@ -814,6 +814,11 @@
       /kyoko|nanami|haruka|sayaka|female/i;
     const japaneseVoice =
       japaneseVoices.find(
+        (voice) => /hattori/i.test(voice.name) &&
+          /enhanced/i.test(`${voice.name} ${voice.voiceURI}`)
+      ) ||
+      japaneseVoices.find((voice) => /hattori/i.test(voice.name)) ||
+      japaneseVoices.find(
         (voice) =>
           voice.lang.toLowerCase() === "ja-jp" &&
           preferredFemaleVoiceNames.test(voice.name)
@@ -829,7 +834,7 @@
       japaneseVoices[0];
 
     utterance.lang = "ja-JP";
-    utterance.rate = 0.78;
+    utterance.rate = 0.65;
 
     if (japaneseVoice) {
       utterance.voice = japaneseVoice;
@@ -1303,9 +1308,9 @@
       button.className =
         "lesson-card";
 
-      if (lesson.menuColor === "yellow") {
+      if (["yellow", "green"].includes(lesson.menuColor)) {
         button.classList.add(
-          "lesson-card--yellow"
+          `lesson-card--${lesson.menuColor}`
         );
       }
 

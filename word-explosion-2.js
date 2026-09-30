@@ -60,9 +60,12 @@
       utterance = null;
       const current = new SpeechSynthesisUtterance(word.japanese);
       current.lang = "ja-JP";
-      current.rate = 0.78;
+      current.rate = 0.65;
       const voices = window.speechSynthesis.getVoices().filter((voice) => voice.lang.toLowerCase().startsWith("ja"));
-      const voice = voices.find((voice) => /kyoko|nanami|haruka|sayaka/i.test(voice.name)) || voices[0];
+      const voice = voices.find((voice) => /hattori/i.test(voice.name) && /enhanced/i.test(`${voice.name} ${voice.voiceURI}`))
+        || voices.find((voice) => /hattori/i.test(voice.name))
+        || voices.find((voice) => /kyoko|nanami|haruka|sayaka/i.test(voice.name))
+        || voices[0];
       if (voice) current.voice = voice;
       current.addEventListener("start", () => {
         if (alive && utterance === current) {

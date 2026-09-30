@@ -479,6 +479,7 @@
   },
   {
     "id": "page47-49-forms",
+    "menuColor": "green",
     "category": "techniques",
     "page": "47–49",
     "title": "包丁の形と種類",
@@ -527,6 +528,7 @@
   },
   {
     "id": "page47-49-physics",
+    "menuColor": "green",
     "category": "techniques",
     "page": "47–49",
     "title": "包丁の構造と切断の物理",
@@ -635,6 +637,7 @@
   },
   {
     "id": "game-prototype",
+    "menuColor": "green",
     "category": "conversation",
     "sortOrder": 67.9,
     "title": "文作り",
@@ -643,6 +646,7 @@
   },
   {
     "id": "word-explosion",
+    "menuColor": "green",
     "category": "conversation",
     "sortOrder": 67.95,
     "title": "単語爆発",
@@ -652,6 +656,7 @@
   },
   {
     "id": "word-explosion-2",
+    "menuColor": "green",
     "category": "conversation",
     "sortOrder": 67.96,
     "title": "単語爆発2",
@@ -710,7 +715,7 @@
   {
     "id": "page73",
     "category": "animal-ingredients",
-    "menuColor": "yellow",
+    "menuColor": "green",
     "page": 73,
     "title": "鶏の部位",
     "file": "data/pages73.json",
@@ -735,7 +740,7 @@
   {
     "id": "page75",
     "category": "animal-ingredients",
-    "menuColor": "yellow",
+    "menuColor": "green",
     "page": 75,
     "title": "卵の部位",
     "file": "data/pages75.json",
@@ -760,7 +765,7 @@
   {
     "id": "page76",
     "category": "animal-ingredients",
-    "menuColor": "yellow",
+    "menuColor": "green",
     "page": 76,
     "title": "牛の部位",
     "file": "data/pages76.json",
@@ -797,7 +802,7 @@
   {
     "id": "page78",
     "category": "animal-ingredients",
-    "menuColor": "yellow",
+    "menuColor": "green",
     "page": 78,
     "title": "魚の外部構造",
     "file": "data/pages78.json",
@@ -810,7 +815,7 @@
   {
     "id": "page79",
     "category": "animal-ingredients",
-    "menuColor": "yellow",
+    "menuColor": "green",
     "page": 79,
     "title": "魚の内部",
     "file": "data/pages79.json",
@@ -823,7 +828,7 @@
   {
     "id": "page79-three-piece",
     "category": "animal-ingredients",
-    "menuColor": "yellow",
+    "menuColor": "green",
     "page": 79,
     "title": "三枚おろし",
     "file": "data/pages79-three-piece.json",
@@ -872,7 +877,7 @@
   {
     "id": "page83",
     "category": "animal-ingredients",
-    "menuColor": "yellow",
+    "menuColor": "green",
     "page": 83,
     "title": "豚肉の部位",
     "file": "data/pages83.json",

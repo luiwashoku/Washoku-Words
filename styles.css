@@ -321,6 +321,10 @@ button:focus-visible {
   background: var(--pulse);
 }
 
+.lesson-card--green {
+  background: var(--bronze);
+}
+
 .lesson-card:last-child {
   border-bottom: 0;
 }
