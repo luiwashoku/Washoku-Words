@@ -71,9 +71,16 @@ button:focus-visible {
   margin-bottom: 16px;
 }
 
+.title-group {
+  flex: 1;
+  min-width: 0;
+  container-type: inline-size;
+}
+
 .title-group h1 {
   margin: 0;
-  font-size: clamp(37.8px, 11.9vw, 61.6px);
+  font-size: min(61.6px, 13cqw);
+  white-space: nowrap;
   font-weight: 700;
   line-height: 0.9;
   letter-spacing: -0.08em;
@@ -967,23 +974,50 @@ body.no-furigana rt {
     padding-left: 10px;
   }
 
-  .title-group h1 {
-    font-size: 43.4px;
-  }
-
   .subtitle {
     max-width: 220px;
   }
 
+}
+
+/* Keep two columns on phones, with a separate area for each graphic. */
+@media (max-width: 600px) {
+  #homeScreen {
+    --category-art-size: clamp(48px, 14vw, 84px);
+    --line-weight: calc(var(--category-art-size) * 0.03614);
+  }
+
+  #categoryGrid {
+    grid-auto-rows: minmax(112px, auto);
+  }
+
   .category-card {
-    min-height: 132px;
-    padding: 13px 14px;
+    min-height: 112px;
+    padding: 12px 10px;
+  }
+
+  .category-card:not(.random-question-card) {
+    padding-right: calc(var(--category-art-size) + 18px);
+  }
+
+  .category-card:not(.random-question-card)::before {
+    right: 10px;
+    width: var(--category-art-size);
+    height: var(--category-art-size);
   }
 
   .category-card strong {
-    font-size: 20px;
+    font-size: clamp(16px, 3.4vw, 20px);
+    line-height: 1.25;
+    overflow-wrap: anywhere;
   }
 
+  .category-card span {
+    margin-top: 6px;
+    font-size: clamp(10px, 2vw, 12px);
+    letter-spacing: 0;
+    overflow-wrap: anywhere;
+  }
 }
 
 /* Conjugation reveal uses the shared quiz card and feedback layout. */
