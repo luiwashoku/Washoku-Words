@@ -58,7 +58,9 @@
       if (!alive || !word) return;
       stopSpeech();
       utterance = null;
-      const current = new SpeechSynthesisUtterance(word.japanese);
+      const text = window.getJapaneseSpeechText(word.japanese);
+      if (!text) return;
+      const current = new SpeechSynthesisUtterance(text);
       current.lang = "ja-JP";
       current.rate = 0.65;
       const voices = window.speechSynthesis.getVoices().filter((voice) => voice.lang.toLowerCase().startsWith("ja"));

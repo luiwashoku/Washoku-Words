@@ -40,6 +40,7 @@
       <svg viewBox="0 0 32 32" aria-hidden="true"><path d="m14.5 7.5 8.5 8.5-8.5 8.5M22.5 16H9"></path></svg>
     </button>
   </nav>
+  <script src="japanese-speech.js"></script>
   <script>
     const rolloverPages = [{
       image: "assets/vegetables-page.png",
@@ -1300,6 +1301,8 @@
 
     function speakJapanese(text) {
       if (!("speechSynthesis" in window) || !("SpeechSynthesisUtterance" in window)) return;
+      text = window.getJapaneseSpeechText(text);
+      if (!text) return;
 
       const utterance = new SpeechSynthesisUtterance(text);
       const knownFemaleNames = /kyoko|nanami|haruka|sayaka|ayumi|aoi|hina|ichika|mayu|mizuki|nozomi|shiori|female|女性/i;

@@ -8,8 +8,9 @@ function assert(condition, message) {
 }
 const root = $.NSFileManager.defaultManager.currentDirectoryPath.js + "/";
 const source = read(root + "app.js");
-const speechSource = source.slice(source.indexOf("  function getJapaneseSpeechText("), source.indexOf("  function setSpeechButtonState("));
-const speechText = new Function(`${speechSource}\nreturn getJapaneseSpeechText;`)();
+const speechHost = {};
+new Function("window", read(root + "japanese-speech.js"))(speechHost);
+const speechText = speechHost.getJapaneseSpeechText;
 const grammar = JSON.parse(read(root + "data/golden-grammar.json"));
 assert(grammar.length === 189, "Grammar drill keeps all 189 questions");
 const first = grammar.find((question) => question.id === "golden-grammar-q01");

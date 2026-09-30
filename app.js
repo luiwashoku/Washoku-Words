@@ -117,6 +117,7 @@
   };
 
   const elements = {};
+  const getJapaneseSpeechText = window.getJapaneseSpeechText;
   let closeWordExplosion = null;
   let activeJapaneseUtterance = null;
   let activeSpeechButton = null;
@@ -741,13 +742,7 @@
 
     const question =
       getCurrentQuestion();
-    const japaneseText = getJapaneseSpeechText(
-      question?.question,
-      {
-        stripDialogueLabels:
-          question?.id?.startsWith("make-automatic-")
-      }
-    );
+    const japaneseText = question?.question;
 
     speakJapaneseText(
       japaneseText,
@@ -759,12 +754,7 @@
   function speakCurrentJapaneseAnswers() {
     const question =
       getCurrentQuestion();
-    const japaneseText = question?.answers
-      ?.map((answer) =>
-        getJapaneseSpeechText(answer)
-      )
-      .filter(Boolean)
-      .join("。 ");
+    const japaneseText = question?.answers?.join("。 \n");
 
     speakJapaneseText(
       japaneseText,
@@ -776,10 +766,7 @@
   function speakCurrentJapaneseExplanation() {
     const question =
       getCurrentQuestion();
-    const japaneseText = getJapaneseSpeechText(
-      question?.jpExplanation ||
-        "解説はまだありません。"
-    );
+    const japaneseText = question?.jpExplanation || "解説はまだありません。";
 
     speakJapaneseText(
       japaneseText,
@@ -789,6 +776,7 @@
   }
 
   function speakJapaneseText(text, button, label) {
+    text = getJapaneseSpeechText(text);
     if (
       !text ||
       !("speechSynthesis" in window) ||
@@ -884,45 +872,6 @@
     activeJapaneseUtterance = utterance;
     activeSpeechButton = button;
     window.speechSynthesis.speak(utterance);
-  }
-
-  function getJapaneseSpeechText(
-    text,
-    { stripDialogueLabels = false } = {}
-  ) {
-    if (typeof text !== "string") {
-      return "";
-    }
-
-    const preparedText = stripDialogueLabels
-      ? text.replace(/^[ＡＢAB][：:]\s*/gm, "")
-      : text;
-
-    return preparedText
-      .split("\n")
-      .filter(isPredominantlyJapaneseLine)
-      .join(" ")
-      .replace(
-        /([々〆ヵヶ一-龯]+)[(（]([ぁ-ゖァ-ヺー・\s]+)[)）]/g,
-        "$2"
-      )
-      .replace(/（[^（）]*）/g, "")
-      .replace(/\([^()]*\)/g, "")
-      .replace(/[＿_]{2,}/g, "……")
-      .replace(/\s+/g, " ")
-      .trim();
-  }
-
-  function isPredominantlyJapaneseLine(line) {
-    const japaneseCharacters =
-      line.match(/[\u3040-\u30ff\u3400-\u9fff]/g) || [];
-    const latinCharacters =
-      line.match(/[a-z]/gi) || [];
-
-    return (
-      japaneseCharacters.length > 0 &&
-      japaneseCharacters.length >= latinCharacters.length
-    );
   }
 
   function setSpeechButtonState(button, status, label) {
@@ -1405,7 +1354,7 @@
     setSpeechButtonState(button, "idle", "Japanese example sentence");
     if (!supported) button.title = "Speech playback is not available in this browser";
     button.addEventListener("click", () => {
-      speakJapaneseText(getJapaneseSpeechText(text), button, "Japanese example sentence");
+      speakJapaneseText(text, button, "Japanese example sentence");
     });
     return button;
   }
@@ -2281,7 +2230,7 @@
     );
     speakCorrect.addEventListener("click", () => {
       speakJapaneseText(
-        getJapaneseSpeechText(question.answers[0]),
+        question.answers[0],
         speakCorrect,
         "correct sentence"
       );
