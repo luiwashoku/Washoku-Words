@@ -17,17 +17,17 @@
     "formLabel": "て-form",
     "conjugationFamily": "te",
     "pattern": "group-1-ku-te",
-    "grammarPoint": "聞く → て-form",
+    "grammarPoint": "聞(き)く → て-form",
     "answers": [
-      "聞いて"
+      "聞(き)いて"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "聞いて",
+      "聞(き)いて",
       "きいて"
     ],
     "rule": "く → いて",
-    "jpExplanation": "聞く → 聞いて",
+    "jpExplanation": "聞(き)く → 聞(き)いて",
     "enExplanation": "く → いて"
   },
   {
@@ -48,17 +48,17 @@
     "formLabel": "た-form (plain past)",
     "conjugationFamily": "ta",
     "pattern": "group-2-ta",
-    "grammarPoint": "食べる → た-form (plain past)",
+    "grammarPoint": "食(た)べる → た-form (plain past)",
     "answers": [
-      "食べた"
+      "食(た)べた"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "食べた",
+      "食(た)べた",
       "たべた"
     ],
     "rule": "Remove る + た",
-    "jpExplanation": "食べる → 食べた",
+    "jpExplanation": "食(た)べる → 食(た)べた",
     "enExplanation": "Remove る + た"
   },
   {
@@ -79,17 +79,17 @@
     "formLabel": "ない-form (plain negative)",
     "conjugationFamily": "nai",
     "pattern": "irregular-kuru-nai",
-    "grammarPoint": "来る → ない-form (plain negative)",
+    "grammarPoint": "来(く)る → ない-form (plain negative)",
     "answers": [
-      "来ない"
+      "来(こ)ない"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "来ない",
+      "来(こ)ない",
       "こない"
     ],
     "rule": "くる → こない",
-    "jpExplanation": "来る → 来ない",
+    "jpExplanation": "来(く)る → 来(こ)ない",
     "enExplanation": "くる → こない"
   },
   {
@@ -110,17 +110,17 @@
     "formLabel": "Potential (plain, standard form)",
     "conjugationFamily": "potential",
     "pattern": "group-1-su-potential",
-    "grammarPoint": "話す → Potential (plain, standard form)",
+    "grammarPoint": "話(はな)す → Potential (plain, standard form)",
     "answers": [
-      "話せる"
+      "話(はな)せる"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "話せる",
+      "話(はな)せる",
       "はなせる"
     ],
     "rule": "す → せる",
-    "jpExplanation": "話す → 話せる",
+    "jpExplanation": "話(はな)す → 話(はな)せる",
     "enExplanation": "す → せる"
   },
   {
@@ -141,18 +141,18 @@
     "formLabel": "て-form",
     "conjugationFamily": "te",
     "pattern": "group-1-iku-te",
-    "grammarPoint": "行く → て-form",
+    "grammarPoint": "行(い)く → て-form",
     "answers": [
-      "行って"
+      "行(い)って"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "行って",
+      "行(い)って",
       "いって"
     ],
-    "rule": "Exception: 行く → 行って (not 行いて)",
-    "jpExplanation": "行く → 行って",
-    "enExplanation": "Exception: 行く → 行って (not 行いて)"
+    "rule": "Exception: 行(い)く → 行(い)って (not 行(おこな)いて)",
+    "jpExplanation": "行(い)く → 行(い)って",
+    "enExplanation": "Exception: 行(い)く → 行(い)って (not 行(おこな)いて)"
   },
   {
     "id": "conjugation-drill-q006",
@@ -172,17 +172,17 @@
     "formLabel": "ます-form (polite)",
     "conjugationFamily": "polite",
     "pattern": "group-1-ru-masu",
-    "grammarPoint": "帰る → ます-form (polite)",
+    "grammarPoint": "帰(かえ)る → ます-form (polite)",
     "answers": [
-      "帰ります"
+      "帰(かえ)ります"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "帰ります",
+      "帰(かえ)ります",
       "かえります"
     ],
     "rule": "Group 1: る → り + ます",
-    "jpExplanation": "帰る → 帰ります",
+    "jpExplanation": "帰(かえ)る → 帰(かえ)ります",
     "enExplanation": "Group 1: る → り + ます"
   },
   {
@@ -203,17 +203,17 @@
     "formLabel": "ない-form (plain negative)",
     "conjugationFamily": "nai",
     "pattern": "group-1-mu-nai",
-    "grammarPoint": "飲む → ない-form (plain negative)",
+    "grammarPoint": "飲(の)む → ない-form (plain negative)",
     "answers": [
-      "飲まない"
+      "飲(の)まない"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "飲まない",
+      "飲(の)まない",
       "のまない"
     ],
     "rule": "む → ま + ない",
-    "jpExplanation": "飲む → 飲まない",
+    "jpExplanation": "飲(の)む → 飲(の)まない",
     "enExplanation": "む → ま + ない"
   },
   {
@@ -234,17 +234,17 @@
     "formLabel": "なかった-form (plain past negative)",
     "conjugationFamily": "nakatta",
     "pattern": "group-2-nakatta",
-    "grammarPoint": "見る → なかった-form (plain past negative)",
+    "grammarPoint": "見(み)る → なかった-form (plain past negative)",
     "answers": [
-      "見なかった"
+      "見(み)なかった"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "見なかった",
+      "見(み)なかった",
       "みなかった"
     ],
     "rule": "Remove る + なかった",
-    "jpExplanation": "見る → 見なかった",
+    "jpExplanation": "見(み)る → 見(み)なかった",
     "enExplanation": "Remove る + なかった"
   },
   {
@@ -265,17 +265,17 @@
     "formLabel": "て-form",
     "conjugationFamily": "te",
     "pattern": "group-1-tsu-te",
-    "grammarPoint": "持つ → て-form",
+    "grammarPoint": "持(も)つ → て-form",
     "answers": [
-      "持って"
+      "持(も)って"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "持って",
+      "持(も)って",
       "もって"
     ],
     "rule": "つ → って",
-    "jpExplanation": "持つ → 持って",
+    "jpExplanation": "持(も)つ → 持(も)って",
     "enExplanation": "つ → って"
   },
   {
@@ -296,17 +296,17 @@
     "formLabel": "～たい (want to)",
     "conjugationFamily": "tai",
     "pattern": "group-1-ku-tai",
-    "grammarPoint": "行く → ～たい (want to)",
+    "grammarPoint": "行(い)く → ～たい (want to)",
     "answers": [
-      "行きたい"
+      "行(い)きたい"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "行きたい",
+      "行(い)きたい",
       "いきたい"
     ],
     "rule": "く → き + たい",
-    "jpExplanation": "行く → 行きたい",
+    "jpExplanation": "行(い)く → 行(い)きたい",
     "enExplanation": "く → き + たい"
   },
   {
@@ -327,17 +327,17 @@
     "formLabel": "ない-form (plain negative)",
     "conjugationFamily": "nai",
     "pattern": "group-2-nai",
-    "grammarPoint": "食べる → ない-form (plain negative)",
+    "grammarPoint": "食(た)べる → ない-form (plain negative)",
     "answers": [
-      "食べない"
+      "食(た)べない"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "食べない",
+      "食(た)べない",
       "たべない"
     ],
     "rule": "Remove る + ない",
-    "jpExplanation": "食べる → 食べない",
+    "jpExplanation": "食(た)べる → 食(た)べない",
     "enExplanation": "Remove る + ない"
   },
   {
@@ -358,17 +358,17 @@
     "formLabel": "た-form (plain past)",
     "conjugationFamily": "ta",
     "pattern": "irregular-kuru-ta",
-    "grammarPoint": "来る → た-form (plain past)",
+    "grammarPoint": "来(く)る → た-form (plain past)",
     "answers": [
-      "来た"
+      "来(き)た"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "来た",
+      "来(き)た",
       "きた"
     ],
     "rule": "くる → きた",
-    "jpExplanation": "来る → 来た",
+    "jpExplanation": "来(く)る → 来(き)た",
     "enExplanation": "くる → きた"
   },
   {
@@ -389,17 +389,17 @@
     "formLabel": "て-form",
     "conjugationFamily": "te",
     "pattern": "group-1-mu-te",
-    "grammarPoint": "飲む → て-form",
+    "grammarPoint": "飲(の)む → て-form",
     "answers": [
-      "飲んで"
+      "飲(の)んで"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "飲んで",
+      "飲(の)んで",
       "のんで"
     ],
     "rule": "む → んで",
-    "jpExplanation": "飲む → 飲んで",
+    "jpExplanation": "飲(の)む → 飲(の)んで",
     "enExplanation": "む → んで"
   },
   {
@@ -450,17 +450,17 @@
     "formLabel": "Potential (plain, standard form)",
     "conjugationFamily": "potential",
     "pattern": "group-2-potential",
-    "grammarPoint": "見る → Potential (plain, standard form)",
+    "grammarPoint": "見(み)る → Potential (plain, standard form)",
     "answers": [
-      "見られる"
+      "見(み)られる"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "見られる",
+      "見(み)られる",
       "みられる"
     ],
     "rule": "Remove る + られる (standard potential)",
-    "jpExplanation": "見る → 見られる",
+    "jpExplanation": "見(み)る → 見(み)られる",
     "enExplanation": "Remove る + られる (standard potential)"
   },
   {
@@ -481,17 +481,17 @@
     "formLabel": "ない-form (plain negative)",
     "conjugationFamily": "nai",
     "pattern": "group-1-ru-nai",
-    "grammarPoint": "帰る → ない-form (plain negative)",
+    "grammarPoint": "帰(かえ)る → ない-form (plain negative)",
     "answers": [
-      "帰らない"
+      "帰(かえ)らない"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "帰らない",
+      "帰(かえ)らない",
       "かえらない"
     ],
     "rule": "Group 1: る → ら + ない",
-    "jpExplanation": "帰る → 帰らない",
+    "jpExplanation": "帰(かえ)る → 帰(かえ)らない",
     "enExplanation": "Group 1: る → ら + ない"
   },
   {
@@ -512,17 +512,17 @@
     "formLabel": "ます-form (polite)",
     "conjugationFamily": "polite",
     "pattern": "group-1-su-masu",
-    "grammarPoint": "話す → ます-form (polite)",
+    "grammarPoint": "話(はな)す → ます-form (polite)",
     "answers": [
-      "話します"
+      "話(はな)します"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "話します",
+      "話(はな)します",
       "はなします"
     ],
     "rule": "す → し + ます",
-    "jpExplanation": "話す → 話します",
+    "jpExplanation": "話(はな)す → 話(はな)します",
     "enExplanation": "す → し + ます"
   },
   {
@@ -543,17 +543,17 @@
     "formLabel": "～たら",
     "conjugationFamily": "tara",
     "pattern": "group-1-tsu-tara",
-    "grammarPoint": "持つ → ～たら",
+    "grammarPoint": "持(も)つ → ～たら",
     "answers": [
-      "持ったら"
+      "持(も)ったら"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "持ったら",
+      "持(も)ったら",
       "もったら"
     ],
     "rule": "つ → った + ら",
-    "jpExplanation": "持つ → 持ったら",
+    "jpExplanation": "持(も)つ → 持(も)ったら",
     "enExplanation": "つ → った + ら"
   },
   {
@@ -604,17 +604,17 @@
     "formLabel": "Potential (plain, standard form)",
     "conjugationFamily": "potential",
     "pattern": "group-1-mu-potential",
-    "grammarPoint": "飲む → Potential (plain, standard form)",
+    "grammarPoint": "飲(の)む → Potential (plain, standard form)",
     "answers": [
-      "飲める"
+      "飲(の)める"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "飲める",
+      "飲(の)める",
       "のめる"
     ],
     "rule": "む → める",
-    "jpExplanation": "飲む → 飲める",
+    "jpExplanation": "飲(の)む → 飲(の)める",
     "enExplanation": "む → める"
   },
   {
@@ -635,17 +635,17 @@
     "formLabel": "～ば",
     "conjugationFamily": "ba",
     "pattern": "group-1-ku-ba",
-    "grammarPoint": "聞く → ～ば",
+    "grammarPoint": "聞(き)く → ～ば",
     "answers": [
-      "聞けば"
+      "聞(き)けば"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "聞けば",
+      "聞(き)けば",
       "きけば"
     ],
     "rule": "く → け + ば",
-    "jpExplanation": "聞く → 聞けば",
+    "jpExplanation": "聞(き)く → 聞(き)けば",
     "enExplanation": "く → け + ば"
   },
   {
@@ -666,17 +666,17 @@
     "formLabel": "ません-form (polite negative)",
     "conjugationFamily": "polite",
     "pattern": "group-2-masen",
-    "grammarPoint": "食べる → ません-form (polite negative)",
+    "grammarPoint": "食(た)べる → ません-form (polite negative)",
     "answers": [
-      "食べません"
+      "食(た)べません"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "食べません",
+      "食(た)べません",
       "たべません"
     ],
     "rule": "Remove る + ません",
-    "jpExplanation": "食べる → 食べません",
+    "jpExplanation": "食(た)べる → 食(た)べません",
     "enExplanation": "Remove る + ません"
   },
   {
@@ -697,17 +697,17 @@
     "formLabel": "Potential (plain, standard form)",
     "conjugationFamily": "potential",
     "pattern": "irregular-kuru-potential",
-    "grammarPoint": "来る → Potential (plain, standard form)",
+    "grammarPoint": "来(く)る → Potential (plain, standard form)",
     "answers": [
-      "来られる"
+      "来(こ)られる"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "来られる",
+      "来(こ)られる",
       "こられる"
     ],
     "rule": "くる → こられる",
-    "jpExplanation": "来る → 来られる",
+    "jpExplanation": "来(く)る → 来(こ)られる",
     "enExplanation": "くる → こられる"
   },
   {
@@ -728,17 +728,17 @@
     "formLabel": "～たら",
     "conjugationFamily": "tara",
     "pattern": "group-1-ku-tara",
-    "grammarPoint": "聞く → ～たら",
+    "grammarPoint": "聞(き)く → ～たら",
     "answers": [
-      "聞いたら"
+      "聞(き)いたら"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "聞いたら",
+      "聞(き)いたら",
       "きいたら"
     ],
     "rule": "く → いた + ら",
-    "jpExplanation": "聞く → 聞いたら",
+    "jpExplanation": "聞(き)く → 聞(き)いたら",
     "enExplanation": "く → いた + ら"
   },
   {
@@ -759,17 +759,17 @@
     "formLabel": "Volitional (plain)",
     "conjugationFamily": "volitional",
     "pattern": "group-1-su-volitional",
-    "grammarPoint": "話す → Volitional (plain)",
+    "grammarPoint": "話(はな)す → Volitional (plain)",
     "answers": [
-      "話そう"
+      "話(はな)そう"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "話そう",
+      "話(はな)そう",
       "はなそう"
     ],
     "rule": "す → そ + う",
-    "jpExplanation": "話す → 話そう",
+    "jpExplanation": "話(はな)す → 話(はな)そう",
     "enExplanation": "す → そ + う"
   },
   {
@@ -790,18 +790,18 @@
     "formLabel": "た-form (plain past)",
     "conjugationFamily": "ta",
     "pattern": "group-1-iku-ta",
-    "grammarPoint": "行く → た-form (plain past)",
+    "grammarPoint": "行(い)く → た-form (plain past)",
     "answers": [
-      "行った"
+      "行(い)った"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "行った",
+      "行(い)った",
       "いった"
     ],
-    "rule": "Exception: 行く → 行った (not 行いた)",
-    "jpExplanation": "行く → 行った",
-    "enExplanation": "Exception: 行く → 行った (not 行いた)"
+    "rule": "Exception: 行(い)く → 行(い)った (not 行(おこな)いた)",
+    "jpExplanation": "行(い)く → 行(い)った",
+    "enExplanation": "Exception: 行(い)く → 行(い)った (not 行(おこな)いた)"
   },
   {
     "id": "conjugation-drill-q027",
@@ -821,17 +821,17 @@
     "formLabel": "～ている (full plain form)",
     "conjugationFamily": "te-iru",
     "pattern": "group-1-tsu-te-iru",
-    "grammarPoint": "持つ → ～ている (full plain form)",
+    "grammarPoint": "持(も)つ → ～ている (full plain form)",
     "answers": [
-      "持っている"
+      "持(も)っている"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "持っている",
+      "持(も)っている",
       "もっている"
     ],
     "rule": "つ → って + いる",
-    "jpExplanation": "持つ → 持っている",
+    "jpExplanation": "持(も)つ → 持(も)っている",
     "enExplanation": "つ → って + いる"
   },
   {
@@ -882,17 +882,17 @@
     "formLabel": "～たら",
     "conjugationFamily": "tara",
     "pattern": "group-1-ru-tara",
-    "grammarPoint": "帰る → ～たら",
+    "grammarPoint": "帰(かえ)る → ～たら",
     "answers": [
-      "帰ったら"
+      "帰(かえ)ったら"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "帰ったら",
+      "帰(かえ)ったら",
       "かえったら"
     ],
     "rule": "Group 1: る → った + ら",
-    "jpExplanation": "帰る → 帰ったら",
+    "jpExplanation": "帰(かえ)る → 帰(かえ)ったら",
     "enExplanation": "Group 1: る → った + ら"
   },
   {
@@ -913,17 +913,17 @@
     "formLabel": "～たい (want to)",
     "conjugationFamily": "tai",
     "pattern": "group-2-tai",
-    "grammarPoint": "見る → ～たい (want to)",
+    "grammarPoint": "見(み)る → ～たい (want to)",
     "answers": [
-      "見たい"
+      "見(み)たい"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "見たい",
+      "見(み)たい",
       "みたい"
     ],
     "rule": "Remove る + たい",
-    "jpExplanation": "見る → 見たい",
+    "jpExplanation": "見(み)る → 見(み)たい",
     "enExplanation": "Remove る + たい"
   },
   {
@@ -944,17 +944,17 @@
     "formLabel": "て-form",
     "conjugationFamily": "te",
     "pattern": "group-2-te",
-    "grammarPoint": "食べる → て-form",
+    "grammarPoint": "食(た)べる → て-form",
     "answers": [
-      "食べて"
+      "食(た)べて"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "食べて",
+      "食(た)べて",
       "たべて"
     ],
     "rule": "Remove る + て",
-    "jpExplanation": "食べる → 食べて",
+    "jpExplanation": "食(た)べる → 食(た)べて",
     "enExplanation": "Remove る + て"
   },
   {
@@ -975,17 +975,17 @@
     "formLabel": "た-form (plain past)",
     "conjugationFamily": "ta",
     "pattern": "group-1-ru-ta",
-    "grammarPoint": "帰る → た-form (plain past)",
+    "grammarPoint": "帰(かえ)る → た-form (plain past)",
     "answers": [
-      "帰った"
+      "帰(かえ)った"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "帰った",
+      "帰(かえ)った",
       "かえった"
     ],
     "rule": "Group 1: る → った",
-    "jpExplanation": "帰る → 帰った",
+    "jpExplanation": "帰(かえ)る → 帰(かえ)った",
     "enExplanation": "Group 1: る → った"
   },
   {
@@ -1006,17 +1006,17 @@
     "formLabel": "ない-form (plain negative)",
     "conjugationFamily": "nai",
     "pattern": "group-1-su-nai",
-    "grammarPoint": "話す → ない-form (plain negative)",
+    "grammarPoint": "話(はな)す → ない-form (plain negative)",
     "answers": [
-      "話さない"
+      "話(はな)さない"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "話さない",
+      "話(はな)さない",
       "はなさない"
     ],
     "rule": "す → さ + ない",
-    "jpExplanation": "話す → 話さない",
+    "jpExplanation": "話(はな)す → 話(はな)さない",
     "enExplanation": "す → さ + ない"
   },
   {
@@ -1037,17 +1037,17 @@
     "formLabel": "Potential (plain, standard form)",
     "conjugationFamily": "potential",
     "pattern": "group-2-potential",
-    "grammarPoint": "食べる → Potential (plain, standard form)",
+    "grammarPoint": "食(た)べる → Potential (plain, standard form)",
     "answers": [
-      "食べられる"
+      "食(た)べられる"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "食べられる",
+      "食(た)べられる",
       "たべられる"
     ],
     "rule": "Remove る + られる (potential: can eat)",
-    "jpExplanation": "食べる → 食べられる",
+    "jpExplanation": "食(た)べる → 食(た)べられる",
     "enExplanation": "Remove る + られる (potential: can eat)"
   },
   {
@@ -1068,17 +1068,17 @@
     "formLabel": "～たい (want to)",
     "conjugationFamily": "tai",
     "pattern": "group-1-tsu-tai",
-    "grammarPoint": "持つ → ～たい (want to)",
+    "grammarPoint": "持(も)つ → ～たい (want to)",
     "answers": [
-      "持ちたい"
+      "持(も)ちたい"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "持ちたい",
+      "持(も)ちたい",
       "もちたい"
     ],
     "rule": "つ → ち + たい",
-    "jpExplanation": "持つ → 持ちたい",
+    "jpExplanation": "持(も)つ → 持(も)ちたい",
     "enExplanation": "つ → ち + たい"
   },
   {
@@ -1099,17 +1099,17 @@
     "formLabel": "～たら",
     "conjugationFamily": "tara",
     "pattern": "irregular-kuru-tara",
-    "grammarPoint": "来る → ～たら",
+    "grammarPoint": "来(く)る → ～たら",
     "answers": [
-      "来たら"
+      "来(き)たら"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "来たら",
+      "来(き)たら",
       "きたら"
     ],
     "rule": "くる → きた + ら",
-    "jpExplanation": "来る → 来たら",
+    "jpExplanation": "来(く)る → 来(き)たら",
     "enExplanation": "くる → きた + ら"
   },
   {
@@ -1130,17 +1130,17 @@
     "formLabel": "ます-form (polite)",
     "conjugationFamily": "polite",
     "pattern": "group-1-mu-masu",
-    "grammarPoint": "飲む → ます-form (polite)",
+    "grammarPoint": "飲(の)む → ます-form (polite)",
     "answers": [
-      "飲みます"
+      "飲(の)みます"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "飲みます",
+      "飲(の)みます",
       "のみます"
     ],
     "rule": "む → み + ます",
-    "jpExplanation": "飲む → 飲みます",
+    "jpExplanation": "飲(の)む → 飲(の)みます",
     "enExplanation": "む → み + ます"
   },
   {
@@ -1161,17 +1161,17 @@
     "formLabel": "ない-form (plain negative)",
     "conjugationFamily": "nai",
     "pattern": "group-1-ku-nai",
-    "grammarPoint": "行く → ない-form (plain negative)",
+    "grammarPoint": "行(い)く → ない-form (plain negative)",
     "answers": [
-      "行かない"
+      "行(い)かない"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "行かない",
+      "行(い)かない",
       "いかない"
     ],
     "rule": "く → か + ない",
-    "jpExplanation": "行く → 行かない",
+    "jpExplanation": "行(い)く → 行(い)かない",
     "enExplanation": "く → か + ない"
   },
   {
@@ -1192,17 +1192,17 @@
     "formLabel": "て-form",
     "conjugationFamily": "te",
     "pattern": "group-1-gu-te",
-    "grammarPoint": "泳ぐ → て-form",
+    "grammarPoint": "泳(およ)ぐ → て-form",
     "answers": [
-      "泳いで"
+      "泳(およ)いで"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "泳いで",
+      "泳(およ)いで",
       "およいで"
     ],
     "rule": "ぐ → いで",
-    "jpExplanation": "泳ぐ → 泳いで",
+    "jpExplanation": "泳(およ)ぐ → 泳(およ)いで",
     "enExplanation": "ぐ → いで"
   },
   {
@@ -1223,17 +1223,17 @@
     "formLabel": "た-form (plain past)",
     "conjugationFamily": "ta",
     "pattern": "group-2-ta",
-    "grammarPoint": "見る → た-form (plain past)",
+    "grammarPoint": "見(み)る → た-form (plain past)",
     "answers": [
-      "見た"
+      "見(み)た"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "見た",
+      "見(み)た",
       "みた"
     ],
     "rule": "Remove る + た",
-    "jpExplanation": "見る → 見た",
+    "jpExplanation": "見(み)る → 見(み)た",
     "enExplanation": "Remove る + た"
   },
   {
@@ -1254,17 +1254,17 @@
     "formLabel": "Potential (plain, standard form)",
     "conjugationFamily": "potential",
     "pattern": "group-1-ku-potential",
-    "grammarPoint": "聞く → Potential (plain, standard form)",
+    "grammarPoint": "聞(き)く → Potential (plain, standard form)",
     "answers": [
-      "聞ける"
+      "聞(き)ける"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "聞ける",
+      "聞(き)ける",
       "きける"
     ],
     "rule": "く → ける",
-    "jpExplanation": "聞く → 聞ける",
+    "jpExplanation": "聞(き)く → 聞(き)ける",
     "enExplanation": "く → ける"
   },
   {
@@ -1285,17 +1285,17 @@
     "formLabel": "Volitional (plain)",
     "conjugationFamily": "volitional",
     "pattern": "group-2-volitional",
-    "grammarPoint": "見る → Volitional (plain)",
+    "grammarPoint": "見(み)る → Volitional (plain)",
     "answers": [
-      "見よう"
+      "見(み)よう"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "見よう",
+      "見(み)よう",
       "みよう"
     ],
     "rule": "Remove る + よう",
-    "jpExplanation": "見る → 見よう",
+    "jpExplanation": "見(み)る → 見(み)よう",
     "enExplanation": "Remove る + よう"
   },
   {
@@ -1346,17 +1346,17 @@
     "formLabel": "Causative (plain form)",
     "conjugationFamily": "causative",
     "pattern": "group-1-su-causative",
-    "grammarPoint": "話す → Causative (plain form)",
+    "grammarPoint": "話(はな)す → Causative (plain form)",
     "answers": [
-      "話させる"
+      "話(はなし)させる"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "話させる",
+      "話(はなし)させる",
       "はなさせる"
     ],
     "rule": "す → さ + せる (have someone speak)",
-    "jpExplanation": "話す → 話させる",
+    "jpExplanation": "話(はな)す → 話(はな)させる",
     "enExplanation": "す → さ + せる (have someone speak)"
   },
   {
@@ -1377,17 +1377,17 @@
     "formLabel": "た-form (plain past)",
     "conjugationFamily": "ta",
     "pattern": "group-1-bu-ta",
-    "grammarPoint": "遊ぶ → た-form (plain past)",
+    "grammarPoint": "遊(あそ)ぶ → た-form (plain past)",
     "answers": [
-      "遊んだ"
+      "遊(あそ)んだ"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "遊んだ",
+      "遊(あそ)んだ",
       "あそんだ"
     ],
     "rule": "ぶ → んだ",
-    "jpExplanation": "遊ぶ → 遊んだ",
+    "jpExplanation": "遊(あそ)ぶ → 遊(あそ)んだ",
     "enExplanation": "ぶ → んだ"
   },
   {
@@ -1408,17 +1408,17 @@
     "formLabel": "～ば",
     "conjugationFamily": "ba",
     "pattern": "group-1-ru-ba",
-    "grammarPoint": "帰る → ～ば",
+    "grammarPoint": "帰(かえ)る → ～ば",
     "answers": [
-      "帰れば"
+      "帰(かえ)れば"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "帰れば",
+      "帰(かえ)れば",
       "かえれば"
     ],
     "rule": "Group 1: る → れ + ば",
-    "jpExplanation": "帰る → 帰れば",
+    "jpExplanation": "帰(かえ)る → 帰(かえ)れば",
     "enExplanation": "Group 1: る → れ + ば"
   },
   {
@@ -1439,17 +1439,17 @@
     "formLabel": "～ている (full plain form)",
     "conjugationFamily": "te-iru",
     "pattern": "irregular-kuru-te-iru",
-    "grammarPoint": "来る → ～ている (full plain form)",
+    "grammarPoint": "来(く)る → ～ている (full plain form)",
     "answers": [
-      "来ている"
+      "来(き)ている"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "来ている",
+      "来(き)ている",
       "きている"
     ],
     "rule": "くる → きて + いる (has come and is here)",
-    "jpExplanation": "来る → 来ている",
+    "jpExplanation": "来(く)る → 来(き)ている",
     "enExplanation": "くる → きて + いる (has come and is here)"
   },
   {
@@ -1470,17 +1470,17 @@
     "formLabel": "Causative (plain form)",
     "conjugationFamily": "causative",
     "pattern": "group-2-causative",
-    "grammarPoint": "食べる → Causative (plain form)",
+    "grammarPoint": "食(た)べる → Causative (plain form)",
     "answers": [
-      "食べさせる"
+      "食(た)べさせる"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "食べさせる",
+      "食(た)べさせる",
       "たべさせる"
     ],
     "rule": "Remove る + させる (let someone eat)",
-    "jpExplanation": "食べる → 食べさせる",
+    "jpExplanation": "食(た)べる → 食(た)べさせる",
     "enExplanation": "Remove る + させる (let someone eat)"
   },
   {
@@ -1501,17 +1501,17 @@
     "formLabel": "なかった-form (plain past negative)",
     "conjugationFamily": "nakatta",
     "pattern": "group-1-tsu-nakatta",
-    "grammarPoint": "持つ → なかった-form (plain past negative)",
+    "grammarPoint": "持(も)つ → なかった-form (plain past negative)",
     "answers": [
-      "持たなかった"
+      "持(も)たなかった"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "持たなかった",
+      "持(も)たなかった",
       "もたなかった"
     ],
     "rule": "つ → た + なかった",
-    "jpExplanation": "持つ → 持たなかった",
+    "jpExplanation": "持(も)つ → 持(も)たなかった",
     "enExplanation": "つ → た + なかった"
   },
   {
@@ -1562,17 +1562,17 @@
     "formLabel": "～たい (want to)",
     "conjugationFamily": "tai",
     "pattern": "group-1-ru-tai",
-    "grammarPoint": "帰る → ～たい (want to)",
+    "grammarPoint": "帰(かえ)る → ～たい (want to)",
     "answers": [
-      "帰りたい"
+      "帰(かえ)りたい"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "帰りたい",
+      "帰(かえ)りたい",
       "かえりたい"
     ],
     "rule": "Group 1: る → り + たい",
-    "jpExplanation": "帰る → 帰りたい",
+    "jpExplanation": "帰(かえ)る → 帰(かえ)りたい",
     "enExplanation": "Group 1: る → り + たい"
   },
   {
@@ -1623,17 +1623,17 @@
     "formLabel": "Volitional (plain)",
     "conjugationFamily": "volitional",
     "pattern": "group-1-mu-volitional",
-    "grammarPoint": "飲む → Volitional (plain)",
+    "grammarPoint": "飲(の)む → Volitional (plain)",
     "answers": [
-      "飲もう"
+      "飲(の)もう"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "飲もう",
+      "飲(の)もう",
       "のもう"
     ],
     "rule": "む → も + う",
-    "jpExplanation": "飲む → 飲もう",
+    "jpExplanation": "飲(の)む → 飲(の)もう",
     "enExplanation": "む → も + う"
   },
   {
@@ -1654,18 +1654,18 @@
     "formLabel": "Potential (plain, standard form)",
     "conjugationFamily": "potential",
     "pattern": "group-1-ku-potential",
-    "grammarPoint": "行く → Potential (plain, standard form)",
+    "grammarPoint": "行(い)く → Potential (plain, standard form)",
     "answers": [
-      "行ける"
+      "行(い)ける"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "行ける",
+      "行(い)ける",
       "いける"
     ],
-    "rule": "く → ける (行く is regular in this form)",
-    "jpExplanation": "行く → 行ける",
-    "enExplanation": "く → ける (行く is regular in this form)"
+    "rule": "く → ける (行(い)く is regular in this form)",
+    "jpExplanation": "行(い)く → 行(い)ける",
+    "enExplanation": "く → ける (行(い)く is regular in this form)"
   },
   {
     "id": "conjugation-drill-q055",
@@ -1685,17 +1685,17 @@
     "formLabel": "Causative (plain form)",
     "conjugationFamily": "causative",
     "pattern": "irregular-kuru-causative",
-    "grammarPoint": "来る → Causative (plain form)",
+    "grammarPoint": "来(く)る → Causative (plain form)",
     "answers": [
-      "来させる"
+      "来(き)させる"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "来させる",
+      "来(き)させる",
       "こさせる"
     ],
     "rule": "くる → こさせる (make someone come)",
-    "jpExplanation": "来る → 来させる",
+    "jpExplanation": "来(く)る → 来(き)させる",
     "enExplanation": "くる → こさせる (make someone come)"
   },
   {
@@ -1716,17 +1716,17 @@
     "formLabel": "Passive (plain form)",
     "conjugationFamily": "passive",
     "pattern": "group-1-ku-passive",
-    "grammarPoint": "聞く → Passive (plain form)",
+    "grammarPoint": "聞(き)く → Passive (plain form)",
     "answers": [
-      "聞かれる"
+      "聞(き)かれる"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "聞かれる",
+      "聞(き)かれる",
       "きかれる"
     ],
     "rule": "く → か + れる (be asked)",
-    "jpExplanation": "聞く → 聞かれる",
+    "jpExplanation": "聞(き)く → 聞(き)かれる",
     "enExplanation": "く → か + れる (be asked)"
   },
   {
@@ -1747,17 +1747,17 @@
     "formLabel": "ません-form (polite negative)",
     "conjugationFamily": "polite",
     "pattern": "group-1-tsu-masen",
-    "grammarPoint": "持つ → ません-form (polite negative)",
+    "grammarPoint": "持(も)つ → ません-form (polite negative)",
     "answers": [
-      "持ちません"
+      "持(も)ちません"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "持ちません",
+      "持(も)ちません",
       "もちません"
     ],
     "rule": "つ → ち + ません",
-    "jpExplanation": "持つ → 持ちません",
+    "jpExplanation": "持(も)つ → 持(も)ちません",
     "enExplanation": "つ → ち + ません"
   },
   {
@@ -1778,17 +1778,17 @@
     "formLabel": "～ば",
     "conjugationFamily": "ba",
     "pattern": "group-2-ba",
-    "grammarPoint": "見る → ～ば",
+    "grammarPoint": "見(み)る → ～ば",
     "answers": [
-      "見れば"
+      "見(み)れば"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "見れば",
+      "見(み)れば",
       "みれば"
     ],
     "rule": "Remove る + れば",
-    "jpExplanation": "見る → 見れば",
+    "jpExplanation": "見(み)る → 見(み)れば",
     "enExplanation": "Remove る + れば"
   },
   {
@@ -1809,17 +1809,17 @@
     "formLabel": "Passive (plain form)",
     "conjugationFamily": "passive",
     "pattern": "group-2-passive",
-    "grammarPoint": "食べる → Passive (plain form)",
+    "grammarPoint": "食(た)べる → Passive (plain form)",
     "answers": [
-      "食べられる"
+      "食(た)べられる"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "食べられる",
+      "食(た)べられる",
       "たべられる"
     ],
     "rule": "Remove る + られる (passive: be eaten)",
-    "jpExplanation": "食べる → 食べられる",
+    "jpExplanation": "食(た)べる → 食(た)べられる",
     "enExplanation": "Remove る + られる (passive: be eaten)"
   },
   {
@@ -1840,17 +1840,17 @@
     "formLabel": "て-form",
     "conjugationFamily": "te",
     "pattern": "group-1-su-te",
-    "grammarPoint": "話す → て-form",
+    "grammarPoint": "話(はな)す → て-form",
     "answers": [
-      "話して"
+      "話(はな)して"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "話して",
+      "話(はな)して",
       "はなして"
     ],
     "rule": "す → して; いるところ stays outside the blank",
-    "jpExplanation": "話す → 話して",
+    "jpExplanation": "話(はな)す → 話(はな)して",
     "enExplanation": "す → して; いるところ stays outside the blank"
   },
   {
@@ -1871,17 +1871,17 @@
     "formLabel": "て-form",
     "conjugationFamily": "te",
     "pattern": "group-1-ru-te",
-    "grammarPoint": "帰る → て-form",
+    "grammarPoint": "帰(かえ)る → て-form",
     "answers": [
-      "帰って"
+      "帰(かえ)って"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "帰って",
+      "帰(かえ)って",
       "かえって"
     ],
     "rule": "Group 1: る → って",
-    "jpExplanation": "帰る → 帰って",
+    "jpExplanation": "帰(かえ)る → 帰(かえ)って",
     "enExplanation": "Group 1: る → って"
   },
   {
@@ -1932,17 +1932,17 @@
     "formLabel": "た-form (plain past)",
     "conjugationFamily": "ta",
     "pattern": "group-1-ku-ta",
-    "grammarPoint": "聞く → た-form (plain past)",
+    "grammarPoint": "聞(き)く → た-form (plain past)",
     "answers": [
-      "聞いた"
+      "聞(き)いた"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "聞いた",
+      "聞(き)いた",
       "きいた"
     ],
     "rule": "く → いた",
-    "jpExplanation": "聞く → 聞いた",
+    "jpExplanation": "聞(き)く → 聞(き)いた",
     "enExplanation": "く → いた"
   },
   {
@@ -1963,17 +1963,17 @@
     "formLabel": "ない-form (plain negative)",
     "conjugationFamily": "nai",
     "pattern": "group-1-tsu-nai",
-    "grammarPoint": "持つ → ない-form (plain negative)",
+    "grammarPoint": "持(も)つ → ない-form (plain negative)",
     "answers": [
-      "持たない"
+      "持(も)たない"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "持たない",
+      "持(も)たない",
       "もたない"
     ],
     "rule": "つ → た + ない; で stays outside the blank",
-    "jpExplanation": "持つ → 持たない",
+    "jpExplanation": "持(も)つ → 持(も)たない",
     "enExplanation": "つ → た + ない; で stays outside the blank"
   },
   {
@@ -1994,17 +1994,17 @@
     "formLabel": "Volitional (plain)",
     "conjugationFamily": "volitional",
     "pattern": "group-1-ku-volitional",
-    "grammarPoint": "行く → Volitional (plain)",
+    "grammarPoint": "行(い)く → Volitional (plain)",
     "answers": [
-      "行こう"
+      "行(い)こう"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "行こう",
+      "行(い)こう",
       "いこう"
     ],
     "rule": "く → こ + う",
-    "jpExplanation": "行く → 行こう",
+    "jpExplanation": "行(い)く → 行(い)こう",
     "enExplanation": "く → こ + う"
   },
   {
@@ -2025,17 +2025,17 @@
     "formLabel": "ます-form (polite)",
     "conjugationFamily": "polite",
     "pattern": "irregular-kuru-masu",
-    "grammarPoint": "来る → ます-form (polite)",
+    "grammarPoint": "来(く)る → ます-form (polite)",
     "answers": [
-      "来ます"
+      "来(き)ます"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "来ます",
+      "来(き)ます",
       "きます"
     ],
     "rule": "くる → き + ます",
-    "jpExplanation": "来る → 来ます",
+    "jpExplanation": "来(く)る → 来(き)ます",
     "enExplanation": "くる → き + ます"
   },
   {
@@ -2056,17 +2056,17 @@
     "formLabel": "～たい (want to)",
     "conjugationFamily": "tai",
     "pattern": "group-2-tai",
-    "grammarPoint": "食べる → ～たい (want to)",
+    "grammarPoint": "食(た)べる → ～たい (want to)",
     "answers": [
-      "食べたい"
+      "食(た)べたい"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "食べたい",
+      "食(た)べたい",
       "たべたい"
     ],
     "rule": "Remove る + たい",
-    "jpExplanation": "食べる → 食べたい",
+    "jpExplanation": "食(た)べる → 食(た)べたい",
     "enExplanation": "Remove る + たい"
   },
   {
@@ -2087,17 +2087,17 @@
     "formLabel": "Passive (plain form)",
     "conjugationFamily": "passive",
     "pattern": "group-2-passive",
-    "grammarPoint": "見る → Passive (plain form)",
+    "grammarPoint": "見(み)る → Passive (plain form)",
     "answers": [
-      "見られる"
+      "見(み)られる"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "見られる",
+      "見(み)られる",
       "みられる"
     ],
     "rule": "Remove る + られる (passive: be watched)",
-    "jpExplanation": "見る → 見られる",
+    "jpExplanation": "見(み)る → 見(み)られる",
     "enExplanation": "Remove る + られる (passive: be watched)"
   },
   {
@@ -2118,17 +2118,17 @@
     "formLabel": "ない-form (plain negative)",
     "conjugationFamily": "nai",
     "pattern": "group-2-nai",
-    "grammarPoint": "見る → ない-form (plain negative)",
+    "grammarPoint": "見(み)る → ない-form (plain negative)",
     "answers": [
-      "見ない"
+      "見(み)ない"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "見ない",
+      "見(み)ない",
       "みない"
     ],
     "rule": "Remove る + ない; で stays outside the blank",
-    "jpExplanation": "見る → 見ない",
+    "jpExplanation": "見(み)る → 見(み)ない",
     "enExplanation": "Remove る + ない; で stays outside the blank"
   },
   {
@@ -2149,17 +2149,17 @@
     "formLabel": "～たら",
     "conjugationFamily": "tara",
     "pattern": "group-2-tara",
-    "grammarPoint": "見る → ～たら",
+    "grammarPoint": "見(み)る → ～たら",
     "answers": [
-      "見たら"
+      "見(み)たら"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "見たら",
+      "見(み)たら",
       "みたら"
     ],
     "rule": "Remove る + たら",
-    "jpExplanation": "見る → 見たら",
+    "jpExplanation": "見(み)る → 見(み)たら",
     "enExplanation": "Remove る + たら"
   },
   {
@@ -2180,17 +2180,17 @@
     "formLabel": "～ば",
     "conjugationFamily": "ba",
     "pattern": "group-1-su-ba",
-    "grammarPoint": "話す → ～ば",
+    "grammarPoint": "話(はな)す → ～ば",
     "answers": [
-      "話せば"
+      "話(はな)せば"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "話せば",
+      "話(はな)せば",
       "はなせば"
     ],
     "rule": "す → せ + ば",
-    "jpExplanation": "話す → 話せば",
+    "jpExplanation": "話(はな)す → 話(はな)せば",
     "enExplanation": "す → せ + ば"
   },
   {
@@ -2211,18 +2211,18 @@
     "formLabel": "Causative-passive (short plain form)",
     "conjugationFamily": "causative-passive",
     "pattern": "group-1-mu-causative-passive-short",
-    "grammarPoint": "飲む → Causative-passive (short plain form)",
+    "grammarPoint": "飲(の)む → Causative-passive (short plain form)",
     "answers": [
-      "飲まされる"
+      "飲(の)まされる"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "飲まされる",
+      "飲(の)まされる",
       "のまされる"
     ],
-    "rule": "む → ま + される (short for 飲ませられる)",
-    "jpExplanation": "飲む → 飲まされる",
-    "enExplanation": "む → ま + される (short for 飲ませられる)"
+    "rule": "む → ま + される (short for 飲(の)ませられる)",
+    "jpExplanation": "飲(の)む → 飲(の)まされる",
+    "enExplanation": "む → ま + される (short for 飲(の)ませられる)"
   },
   {
     "id": "conjugation-drill-q073",
@@ -2242,17 +2242,17 @@
     "formLabel": "て-form",
     "conjugationFamily": "te",
     "pattern": "group-1-nu-te",
-    "grammarPoint": "死ぬ → て-form",
+    "grammarPoint": "死(し)ぬ → て-form",
     "answers": [
-      "死んで"
+      "死(し)んで"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "死んで",
+      "死(し)んで",
       "しんで"
     ],
     "rule": "ぬ → んで",
-    "jpExplanation": "死ぬ → 死んで",
+    "jpExplanation": "死(し)ぬ → 死(し)んで",
     "enExplanation": "ぬ → んで"
   },
   {
@@ -2273,17 +2273,17 @@
     "formLabel": "た-form (plain past)",
     "conjugationFamily": "ta",
     "pattern": "group-1-mu-ta",
-    "grammarPoint": "飲む → た-form (plain past)",
+    "grammarPoint": "飲(の)む → た-form (plain past)",
     "answers": [
-      "飲んだ"
+      "飲(の)んだ"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "飲んだ",
+      "飲(の)んだ",
       "のんだ"
     ],
     "rule": "む → んだ",
-    "jpExplanation": "飲む → 飲んだ",
+    "jpExplanation": "飲(の)む → 飲(の)んだ",
     "enExplanation": "む → んだ"
   },
   {
@@ -2304,17 +2304,17 @@
     "formLabel": "Potential (plain, standard form)",
     "conjugationFamily": "potential",
     "pattern": "group-1-gu-potential",
-    "grammarPoint": "泳ぐ → Potential (plain, standard form)",
+    "grammarPoint": "泳(およ)ぐ → Potential (plain, standard form)",
     "answers": [
-      "泳げる"
+      "泳(およ)げる"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "泳げる",
+      "泳(およ)げる",
       "およげる"
     ],
     "rule": "ぐ → げる",
-    "jpExplanation": "泳ぐ → 泳げる",
+    "jpExplanation": "泳(およ)ぐ → 泳(およ)げる",
     "enExplanation": "ぐ → げる"
   },
   {
@@ -2365,17 +2365,17 @@
     "formLabel": "ない-form (plain negative)",
     "conjugationFamily": "nai",
     "pattern": "group-1-ku-nai",
-    "grammarPoint": "聞く → ない-form (plain negative)",
+    "grammarPoint": "聞(き)く → ない-form (plain negative)",
     "answers": [
-      "聞かない"
+      "聞(き)かない"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "聞かない",
+      "聞(き)かない",
       "きかない"
     ],
     "rule": "く → か + ない",
-    "jpExplanation": "聞く → 聞かない",
+    "jpExplanation": "聞(き)く → 聞(き)かない",
     "enExplanation": "く → か + ない"
   },
   {
@@ -2396,17 +2396,17 @@
     "formLabel": "Volitional (plain)",
     "conjugationFamily": "volitional",
     "pattern": "irregular-kuru-volitional",
-    "grammarPoint": "来る → Volitional (plain)",
+    "grammarPoint": "来(く)る → Volitional (plain)",
     "answers": [
-      "来よう"
+      "来(こ)よう"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "来よう",
+      "来(こ)よう",
       "こよう"
     ],
     "rule": "くる → こよう",
-    "jpExplanation": "来る → 来よう",
+    "jpExplanation": "来(く)る → 来(こ)よう",
     "enExplanation": "くる → こよう"
   },
   {
@@ -2427,17 +2427,17 @@
     "formLabel": "～たい (want to)",
     "conjugationFamily": "tai",
     "pattern": "group-1-mu-tai",
-    "grammarPoint": "飲む → ～たい (want to)",
+    "grammarPoint": "飲(の)む → ～たい (want to)",
     "answers": [
-      "飲みたい"
+      "飲(の)みたい"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "飲みたい",
+      "飲(の)みたい",
       "のみたい"
     ],
     "rule": "む → み + たい",
-    "jpExplanation": "飲む → 飲みたい",
+    "jpExplanation": "飲(の)む → 飲(の)みたい",
     "enExplanation": "む → み + たい"
   },
   {
@@ -2458,17 +2458,17 @@
     "formLabel": "Passive (plain form)",
     "conjugationFamily": "passive",
     "pattern": "group-1-su-passive",
-    "grammarPoint": "話す → Passive (plain form)",
+    "grammarPoint": "話(はな)す → Passive (plain form)",
     "answers": [
-      "話される"
+      "話(はな)される"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "話される",
+      "話(はな)される",
       "はなされる"
     ],
     "rule": "す → さ + れる (be spoken)",
-    "jpExplanation": "話す → 話される",
+    "jpExplanation": "話(はな)す → 話(はな)される",
     "enExplanation": "す → さ + れる (be spoken)"
   },
   {
@@ -2489,17 +2489,17 @@
     "formLabel": "～たら",
     "conjugationFamily": "tara",
     "pattern": "group-2-tara",
-    "grammarPoint": "食べる → ～たら",
+    "grammarPoint": "食(た)べる → ～たら",
     "answers": [
-      "食べたら"
+      "食(た)べたら"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "食べたら",
+      "食(た)べたら",
       "たべたら"
     ],
     "rule": "Remove る + たら",
-    "jpExplanation": "食べる → 食べたら",
+    "jpExplanation": "食(た)べる → 食(た)べたら",
     "enExplanation": "Remove る + たら"
   },
   {
@@ -2520,17 +2520,17 @@
     "formLabel": "～ば",
     "conjugationFamily": "ba",
     "pattern": "group-2-ba",
-    "grammarPoint": "食べる → ～ば",
+    "grammarPoint": "食(た)べる → ～ば",
     "answers": [
-      "食べれば"
+      "食(た)べれば"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "食べれば",
+      "食(た)べれば",
       "たべれば"
     ],
     "rule": "Remove る + れば",
-    "jpExplanation": "食べる → 食べれば",
+    "jpExplanation": "食(た)べる → 食(た)べれば",
     "enExplanation": "Remove る + れば"
   },
   {
@@ -2551,17 +2551,17 @@
     "formLabel": "Potential (plain, standard form)",
     "conjugationFamily": "potential",
     "pattern": "group-1-tsu-potential",
-    "grammarPoint": "持つ → Potential (plain, standard form)",
+    "grammarPoint": "持(も)つ → Potential (plain, standard form)",
     "answers": [
-      "持てる"
+      "持(も)てる"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "持てる",
+      "持(も)てる",
       "もてる"
     ],
     "rule": "つ → てる",
-    "jpExplanation": "持つ → 持てる",
+    "jpExplanation": "持(も)つ → 持(も)てる",
     "enExplanation": "つ → てる"
   },
   {
@@ -2612,17 +2612,17 @@
     "formLabel": "なかった-form (plain past negative)",
     "conjugationFamily": "nakatta",
     "pattern": "group-1-ru-nakatta",
-    "grammarPoint": "帰る → なかった-form (plain past negative)",
+    "grammarPoint": "帰(かえ)る → なかった-form (plain past negative)",
     "answers": [
-      "帰らなかった"
+      "帰(かえ)らなかった"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "帰らなかった",
+      "帰(かえ)らなかった",
       "かえらなかった"
     ],
     "rule": "Group 1: る → ら + なかった",
-    "jpExplanation": "帰る → 帰らなかった",
+    "jpExplanation": "帰(かえ)る → 帰(かえ)らなかった",
     "enExplanation": "Group 1: る → ら + なかった"
   },
   {
@@ -2643,17 +2643,17 @@
     "formLabel": "Causative-passive (plain form)",
     "conjugationFamily": "causative-passive",
     "pattern": "group-2-causative-passive",
-    "grammarPoint": "食べる → Causative-passive (plain form)",
+    "grammarPoint": "食(た)べる → Causative-passive (plain form)",
     "answers": [
-      "食べさせられる"
+      "食(た)べさせられる"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "食べさせられる",
+      "食(た)べさせられる",
       "たべさせられる"
     ],
     "rule": "Remove る + させられる (be made to eat)",
-    "jpExplanation": "食べる → 食べさせられる",
+    "jpExplanation": "食(た)べる → 食(た)べさせられる",
     "enExplanation": "Remove る + させられる (be made to eat)"
   },
   {
@@ -2674,18 +2674,18 @@
     "formLabel": "Potential negative (plain form)",
     "conjugationFamily": "potential",
     "pattern": "group-1-mu-potential-negative",
-    "grammarPoint": "飲む → Potential negative (plain form)",
+    "grammarPoint": "飲(の)む → Potential negative (plain form)",
     "answers": [
-      "飲めない"
+      "飲(の)めない"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "飲めない",
+      "飲(の)めない",
       "のめない"
     ],
-    "rule": "飲める → 飲めない (cannot drink)",
-    "jpExplanation": "飲む → 飲めない",
-    "enExplanation": "飲める → 飲めない (cannot drink)"
+    "rule": "飲(の)める → 飲(の)めない (cannot drink)",
+    "jpExplanation": "飲(の)む → 飲(の)めない",
+    "enExplanation": "飲(の)める → 飲(の)めない (cannot drink)"
   },
   {
     "id": "conjugation-drill-q088",
@@ -2735,17 +2735,17 @@
     "formLabel": "Prohibitive (dictionary form + な)",
     "conjugationFamily": "prohibitive",
     "pattern": "group-1-ku-prohibitive",
-    "grammarPoint": "行く → Prohibitive (dictionary form + な)",
+    "grammarPoint": "行(い)く → Prohibitive (dictionary form + な)",
     "answers": [
-      "行くな"
+      "行(い)くな"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "行くな",
+      "行(い)くな",
       "いくな"
     ],
     "rule": "Dictionary form + な; strong prohibition for an urgent warning",
-    "jpExplanation": "行く → 行くな",
+    "jpExplanation": "行(い)く → 行(い)くな",
     "enExplanation": "Dictionary form + な; strong prohibition for an urgent warning"
   },
   {
@@ -2766,18 +2766,18 @@
     "formLabel": "～たかった (wanted to)",
     "conjugationFamily": "tai",
     "pattern": "group-2-tai-past",
-    "grammarPoint": "見る → ～たかった (wanted to)",
+    "grammarPoint": "見(み)る → ～たかった (wanted to)",
     "answers": [
-      "見たかった"
+      "見(み)たかった"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "見たかった",
+      "見(み)たかった",
       "みたかった"
     ],
-    "rule": "見たい → 見たかった (wanted to see)",
-    "jpExplanation": "見る → 見たかった",
-    "enExplanation": "見たい → 見たかった (wanted to see)"
+    "rule": "見(み)たい → 見(み)たかった (wanted to see)",
+    "jpExplanation": "見(み)る → 見(み)たかった",
+    "enExplanation": "見(み)たい → 見(み)たかった (wanted to see)"
   },
   {
     "id": "conjugation-drill-q091",
@@ -2797,17 +2797,17 @@
     "formLabel": "て-form",
     "conjugationFamily": "te",
     "pattern": "group-1-u-te",
-    "grammarPoint": "買う → て-form",
+    "grammarPoint": "買(か)う → て-form",
     "answers": [
-      "買って"
+      "買(か)って"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "買って",
+      "買(か)って",
       "かって"
     ],
     "rule": "う → って",
-    "jpExplanation": "買う → 買って",
+    "jpExplanation": "買(か)う → 買(か)って",
     "enExplanation": "う → って"
   },
   {
@@ -2828,17 +2828,17 @@
     "formLabel": "て-form",
     "conjugationFamily": "te",
     "pattern": "group-2-te",
-    "grammarPoint": "開ける → て-form",
+    "grammarPoint": "開(あ)ける → て-form",
     "answers": [
-      "開けて"
+      "開(あ)けて"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "開けて",
+      "開(あ)けて",
       "あけて"
     ],
     "rule": "Remove る + て",
-    "jpExplanation": "開ける → 開けて",
+    "jpExplanation": "開(あ)ける → 開(あ)けて",
     "enExplanation": "Remove る + て"
   },
   {
@@ -2859,17 +2859,17 @@
     "formLabel": "た-form (plain past)",
     "conjugationFamily": "ta",
     "pattern": "group-1-mu-ta",
-    "grammarPoint": "読む → た-form (plain past)",
+    "grammarPoint": "読(よ)む → た-form (plain past)",
     "answers": [
-      "読んだ"
+      "読(よ)んだ"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "読んだ",
+      "読(よ)んだ",
       "よんだ"
     ],
     "rule": "む → んだ",
-    "jpExplanation": "読む → 読んだ",
+    "jpExplanation": "読(よ)む → 読(よ)んだ",
     "enExplanation": "む → んだ"
   },
   {
@@ -2890,17 +2890,17 @@
     "formLabel": "た-form (plain past)",
     "conjugationFamily": "ta",
     "pattern": "group-1-ru-ta",
-    "grammarPoint": "入る → た-form (plain past)",
+    "grammarPoint": "入(はい)る → た-form (plain past)",
     "answers": [
-      "入った"
+      "入(はい)った"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "入った",
+      "入(はい)った",
       "はいった"
     ],
     "rule": "Group 1: る → った",
-    "jpExplanation": "入る → 入った",
+    "jpExplanation": "入(はい)る → 入(はい)った",
     "enExplanation": "Group 1: る → った"
   },
   {
@@ -2921,17 +2921,17 @@
     "formLabel": "ない-form (plain negative)",
     "conjugationFamily": "nai",
     "pattern": "group-1-u-nai",
-    "grammarPoint": "使う → ない-form (plain negative)",
+    "grammarPoint": "使(つか)う → ない-form (plain negative)",
     "answers": [
-      "使わない"
+      "使(つか)わない"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "使わない",
+      "使(つか)わない",
       "つかわない"
     ],
     "rule": "う → わ + ない; で stays outside the blank",
-    "jpExplanation": "使う → 使わない",
+    "jpExplanation": "使(つか)う → 使(つか)わない",
     "enExplanation": "う → わ + ない; で stays outside the blank"
   },
   {
@@ -2952,17 +2952,17 @@
     "formLabel": "ない-form (plain negative)",
     "conjugationFamily": "nai",
     "pattern": "group-2-nai",
-    "grammarPoint": "起きる → ない-form (plain negative)",
+    "grammarPoint": "起(お)きる → ない-form (plain negative)",
     "answers": [
-      "起きない"
+      "起(お)きない"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "起きない",
+      "起(お)きない",
       "おきない"
     ],
     "rule": "Remove る + ない",
-    "jpExplanation": "起きる → 起きない",
+    "jpExplanation": "起(お)きる → 起(お)きない",
     "enExplanation": "Remove る + ない"
   },
   {
@@ -2983,17 +2983,17 @@
     "formLabel": "Potential (plain, standard form)",
     "conjugationFamily": "potential",
     "pattern": "group-1-mu-potential",
-    "grammarPoint": "読む → Potential (plain, standard form)",
+    "grammarPoint": "読(よ)む → Potential (plain, standard form)",
     "answers": [
-      "読める"
+      "読(よ)める"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "読める",
+      "読(よ)める",
       "よめる"
     ],
     "rule": "む → める",
-    "jpExplanation": "読む → 読める",
+    "jpExplanation": "読(よ)む → 読(よ)める",
     "enExplanation": "む → める"
   },
   {
@@ -3014,17 +3014,17 @@
     "formLabel": "Potential (plain, standard form)",
     "conjugationFamily": "potential",
     "pattern": "group-2-potential",
-    "grammarPoint": "開ける → Potential (plain, standard form)",
+    "grammarPoint": "開(あ)ける → Potential (plain, standard form)",
     "answers": [
-      "開けられる"
+      "開(あ)けられる"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "開けられる",
+      "開(あ)けられる",
       "あけられる"
     ],
     "rule": "Remove る + られる (potential)",
-    "jpExplanation": "開ける → 開けられる",
+    "jpExplanation": "開(あ)ける → 開(あ)けられる",
     "enExplanation": "Remove る + られる (potential)"
   },
   {
@@ -3045,17 +3045,17 @@
     "formLabel": "～たい (want to)",
     "conjugationFamily": "tai",
     "pattern": "group-2-tai",
-    "grammarPoint": "寝る → ～たい (want to)",
+    "grammarPoint": "寝(ね)る → ～たい (want to)",
     "answers": [
-      "寝たい"
+      "寝(ね)たい"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "寝たい",
+      "寝(ね)たい",
       "ねたい"
     ],
     "rule": "Remove る + たい",
-    "jpExplanation": "寝る → 寝たい",
+    "jpExplanation": "寝(ね)る → 寝(ね)たい",
     "enExplanation": "Remove る + たい"
   },
   {
@@ -3076,17 +3076,17 @@
     "formLabel": "～たい (want to)",
     "conjugationFamily": "tai",
     "pattern": "group-1-u-tai",
-    "grammarPoint": "買う → ～たい (want to)",
+    "grammarPoint": "買(か)う → ～たい (want to)",
     "answers": [
-      "買いたい"
+      "買(か)いたい"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "買いたい",
+      "買(か)いたい",
       "かいたい"
     ],
     "rule": "う → い + たい",
-    "jpExplanation": "買う → 買いたい",
+    "jpExplanation": "買(か)う → 買(か)いたい",
     "enExplanation": "う → い + たい"
   },
   {
@@ -3107,17 +3107,17 @@
     "formLabel": "～たら",
     "conjugationFamily": "tara",
     "pattern": "group-1-ku-tara",
-    "grammarPoint": "書く → ～たら",
+    "grammarPoint": "書(か)く → ～たら",
     "answers": [
-      "書いたら"
+      "書(か)いたら"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "書いたら",
+      "書(か)いたら",
       "かいたら"
     ],
     "rule": "く → いた + ら",
-    "jpExplanation": "書く → 書いたら",
+    "jpExplanation": "書(か)く → 書(か)いたら",
     "enExplanation": "く → いた + ら"
   },
   {
@@ -3138,17 +3138,17 @@
     "formLabel": "～たら",
     "conjugationFamily": "tara",
     "pattern": "group-1-ru-tara",
-    "grammarPoint": "入る → ～たら",
+    "grammarPoint": "入(はい)る → ～たら",
     "answers": [
-      "入ったら"
+      "入(はい)ったら"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "入ったら",
+      "入(はい)ったら",
       "はいったら"
     ],
     "rule": "Group 1: る → った + ら",
-    "jpExplanation": "入る → 入ったら",
+    "jpExplanation": "入(はい)る → 入(はい)ったら",
     "enExplanation": "Group 1: る → った + ら"
   },
   {
@@ -3169,17 +3169,17 @@
     "formLabel": "～たら",
     "conjugationFamily": "tara",
     "pattern": "group-2-tara",
-    "grammarPoint": "寝る → ～たら",
+    "grammarPoint": "寝(ね)る → ～たら",
     "answers": [
-      "寝たら"
+      "寝(ね)たら"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "寝たら",
+      "寝(ね)たら",
       "ねたら"
     ],
     "rule": "Remove る + たら",
-    "jpExplanation": "寝る → 寝たら",
+    "jpExplanation": "寝(ね)る → 寝(ね)たら",
     "enExplanation": "Remove る + たら"
   },
   {
@@ -3200,17 +3200,17 @@
     "formLabel": "～ば",
     "conjugationFamily": "ba",
     "pattern": "group-1-tsu-ba",
-    "grammarPoint": "待つ → ～ば",
+    "grammarPoint": "待(ま)つ → ～ば",
     "answers": [
-      "待てば"
+      "待(ま)てば"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "待てば",
+      "待(ま)てば",
       "まてば"
     ],
     "rule": "つ → て + ば",
-    "jpExplanation": "待つ → 待てば",
+    "jpExplanation": "待(ま)つ → 待(ま)てば",
     "enExplanation": "つ → て + ば"
   },
   {
@@ -3231,17 +3231,17 @@
     "formLabel": "～ば",
     "conjugationFamily": "ba",
     "pattern": "group-1-u-ba",
-    "grammarPoint": "使う → ～ば",
+    "grammarPoint": "使(つか)う → ～ば",
     "answers": [
-      "使えば"
+      "使(つか)えば"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "使えば",
+      "使(つか)えば",
       "つかえば"
     ],
     "rule": "う → え + ば",
-    "jpExplanation": "使う → 使えば",
+    "jpExplanation": "使(つか)う → 使(つか)えば",
     "enExplanation": "う → え + ば"
   },
   {
@@ -3262,17 +3262,17 @@
     "formLabel": "Volitional (plain)",
     "conjugationFamily": "volitional",
     "pattern": "group-1-ru-volitional",
-    "grammarPoint": "入る → Volitional (plain)",
+    "grammarPoint": "入(はい)る → Volitional (plain)",
     "answers": [
-      "入ろう"
+      "入(はい)ろう"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "入ろう",
+      "入(はい)ろう",
       "はいろう"
     ],
     "rule": "Group 1: る → ろ + う",
-    "jpExplanation": "入る → 入ろう",
+    "jpExplanation": "入(はい)る → 入(はい)ろう",
     "enExplanation": "Group 1: る → ろ + う"
   },
   {
@@ -3293,17 +3293,17 @@
     "formLabel": "Volitional (plain)",
     "conjugationFamily": "volitional",
     "pattern": "group-2-volitional",
-    "grammarPoint": "寝る → Volitional (plain)",
+    "grammarPoint": "寝(ね)る → Volitional (plain)",
     "answers": [
-      "寝よう"
+      "寝(ね)よう"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "寝よう",
+      "寝(ね)よう",
       "ねよう"
     ],
     "rule": "Remove る + よう",
-    "jpExplanation": "寝る → 寝よう",
+    "jpExplanation": "寝(ね)る → 寝(ね)よう",
     "enExplanation": "Remove る + よう"
   },
   {
@@ -3324,18 +3324,18 @@
     "formLabel": "ます-form (polite)",
     "conjugationFamily": "polite",
     "pattern": "group-1-su-masu",
-    "grammarPoint": "帰す → ます-form (polite)",
+    "grammarPoint": "帰(かえ)す → ます-form (polite)",
     "answers": [
-      "帰します"
+      "帰(かえ)します"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "帰します",
+      "帰(かえ)します",
       "かえします"
     ],
-    "rule": "す → し + ます; 帰す means send someone home",
-    "jpExplanation": "帰す → 帰します",
-    "enExplanation": "す → し + ます; 帰す means send someone home"
+    "rule": "す → し + ます; 帰(かえ)す means send someone home",
+    "jpExplanation": "帰(かえ)す → 帰(かえ)します",
+    "enExplanation": "す → し + ます; 帰(かえ)す means send someone home"
   },
   {
     "id": "conjugation-drill-q109",
@@ -3355,17 +3355,17 @@
     "formLabel": "Passive (plain form)",
     "conjugationFamily": "passive",
     "pattern": "group-1-u-passive",
-    "grammarPoint": "使う → Passive (plain form)",
+    "grammarPoint": "使(つか)う → Passive (plain form)",
     "answers": [
-      "使われる"
+      "使(つか)われる"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "使われる",
+      "使(つか)われる",
       "つかわれる"
     ],
     "rule": "う → わ + れる",
-    "jpExplanation": "使う → 使われる",
+    "jpExplanation": "使(つか)う → 使(つか)われる",
     "enExplanation": "う → わ + れる"
   },
   {
@@ -3386,17 +3386,17 @@
     "formLabel": "Passive (plain form)",
     "conjugationFamily": "passive",
     "pattern": "group-1-ku-passive",
-    "grammarPoint": "書く → Passive (plain form)",
+    "grammarPoint": "書(か)く → Passive (plain form)",
     "answers": [
-      "書かれる"
+      "書(か)かれる"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "書かれる",
+      "書(か)かれる",
       "かかれる"
     ],
     "rule": "く → か + れる",
-    "jpExplanation": "書く → 書かれる",
+    "jpExplanation": "書(か)く → 書(か)かれる",
     "enExplanation": "く → か + れる"
   },
   {
@@ -3417,17 +3417,17 @@
     "formLabel": "Causative (plain form)",
     "conjugationFamily": "causative",
     "pattern": "group-1-tsu-causative",
-    "grammarPoint": "待つ → Causative (plain form)",
+    "grammarPoint": "待(ま)つ → Causative (plain form)",
     "answers": [
-      "待たせる"
+      "待(ま)たせる"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "待たせる",
+      "待(ま)たせる",
       "またせる"
     ],
     "rule": "つ → た + せる",
-    "jpExplanation": "待つ → 待たせる",
+    "jpExplanation": "待(ま)つ → 待(ま)たせる",
     "enExplanation": "つ → た + せる"
   },
   {
@@ -3448,17 +3448,17 @@
     "formLabel": "Causative (standard plain form)",
     "conjugationFamily": "causative",
     "pattern": "group-2-causative",
-    "grammarPoint": "寝る → Causative (standard plain form)",
+    "grammarPoint": "寝(ね)る → Causative (standard plain form)",
     "answers": [
-      "寝させる"
+      "寝(ね)させる"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "寝させる",
+      "寝(ね)させる",
       "ねさせる"
     ],
     "rule": "Remove る + させる",
-    "jpExplanation": "寝る → 寝させる",
+    "jpExplanation": "寝(ね)る → 寝(ね)させる",
     "enExplanation": "Remove る + させる"
   },
   {
@@ -3479,18 +3479,18 @@
     "formLabel": "Causative-passive (short plain form)",
     "conjugationFamily": "causative-passive",
     "pattern": "group-1-tsu-causative-passive",
-    "grammarPoint": "待つ → Causative-passive (short plain form)",
+    "grammarPoint": "待(ま)つ → Causative-passive (short plain form)",
     "answers": [
-      "待たされる"
+      "待(ま)たされる"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "待たされる",
+      "待(ま)たされる",
       "またされる"
     ],
-    "rule": "つ → た + される (short for 待たせられる)",
-    "jpExplanation": "待つ → 待たされる",
-    "enExplanation": "つ → た + される (short for 待たせられる)"
+    "rule": "つ → た + される (short for 待(ま)たせられる)",
+    "jpExplanation": "待(ま)つ → 待(ま)たされる",
+    "enExplanation": "つ → た + される (short for 待(ま)たせられる)"
   },
   {
     "id": "conjugation-drill-q114",
@@ -3510,18 +3510,18 @@
     "formLabel": "Causative-passive (short plain form)",
     "conjugationFamily": "causative-passive",
     "pattern": "group-1-ku-causative-passive",
-    "grammarPoint": "書く → Causative-passive (short plain form)",
+    "grammarPoint": "書(か)く → Causative-passive (short plain form)",
     "answers": [
-      "書かされる"
+      "書(か)かされる"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "書かされる",
+      "書(か)かされる",
       "かかされる"
     ],
-    "rule": "く → か + される (short for 書かせられる)",
-    "jpExplanation": "書く → 書かされる",
-    "enExplanation": "く → か + される (short for 書かせられる)"
+    "rule": "く → か + される (short for 書(か)かせられる)",
+    "jpExplanation": "書(か)く → 書(か)かされる",
+    "enExplanation": "く → か + される (short for 書(か)かせられる)"
   },
   {
     "id": "conjugation-drill-q115",
@@ -3541,17 +3541,17 @@
     "formLabel": "なかった-form (plain past negative)",
     "conjugationFamily": "nakatta",
     "pattern": "group-1-u-nakatta",
-    "grammarPoint": "買う → なかった-form (plain past negative)",
+    "grammarPoint": "買(か)う → なかった-form (plain past negative)",
     "answers": [
-      "買わなかった"
+      "買(か)わなかった"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "買わなかった",
+      "買(か)わなかった",
       "かわなかった"
     ],
     "rule": "う → わ + なかった",
-    "jpExplanation": "買う → 買わなかった",
+    "jpExplanation": "買(か)う → 買(か)わなかった",
     "enExplanation": "う → わ + なかった"
   },
   {
@@ -3572,18 +3572,18 @@
     "formLabel": "Potential past negative (plain, standard form)",
     "conjugationFamily": "potential",
     "pattern": "group-2-potential-negative-past",
-    "grammarPoint": "起きる → Potential past negative (plain, standard form)",
+    "grammarPoint": "起(お)きる → Potential past negative (plain, standard form)",
     "answers": [
-      "起きられなかった"
+      "起(お)きられなかった"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "起きられなかった",
+      "起(お)きられなかった",
       "おきられなかった"
     ],
-    "rule": "起きられる → 起きられなかった",
-    "jpExplanation": "起きる → 起きられなかった",
-    "enExplanation": "起きられる → 起きられなかった"
+    "rule": "起(お)きられる → 起(お)きられなかった",
+    "jpExplanation": "起(お)きる → 起(お)きられなかった",
+    "enExplanation": "起(お)きられる → 起(お)きられなかった"
   },
   {
     "id": "conjugation-drill-q117",
@@ -3603,17 +3603,17 @@
     "formLabel": "～ている (full plain form)",
     "conjugationFamily": "te-iru",
     "pattern": "group-1-mu-te-iru",
-    "grammarPoint": "読む → ～ている (full plain form)",
+    "grammarPoint": "読(よ)む → ～ている (full plain form)",
     "answers": [
-      "読んでいる"
+      "読(よ)んでいる"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "読んでいる",
+      "読(よ)んでいる",
       "よんでいる"
     ],
     "rule": "む → んで + いる",
-    "jpExplanation": "読む → 読んでいる",
+    "jpExplanation": "読(よ)む → 読(よ)んでいる",
     "enExplanation": "む → んで + いる"
   },
   {
@@ -3634,17 +3634,17 @@
     "formLabel": "ませんでした (polite past negative)",
     "conjugationFamily": "polite",
     "pattern": "group-1-ku-masen-deshita",
-    "grammarPoint": "行く → ませんでした (polite past negative)",
+    "grammarPoint": "行(い)く → ませんでした (polite past negative)",
     "answers": [
-      "行きませんでした"
+      "行(い)きませんでした"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "行きませんでした",
+      "行(い)きませんでした",
       "いきませんでした"
     ],
     "rule": "く → き + ませんでした",
-    "jpExplanation": "行く → 行きませんでした",
+    "jpExplanation": "行(い)く → 行(い)きませんでした",
     "enExplanation": "く → き + ませんでした"
   },
   {
@@ -3665,17 +3665,17 @@
     "formLabel": "～ていた (plain past ongoing state)",
     "conjugationFamily": "te-iru",
     "pattern": "irregular-te-ita",
-    "grammarPoint": "来る → ～ていた (plain past ongoing state)",
+    "grammarPoint": "来(く)る → ～ていた (plain past ongoing state)",
     "answers": [
-      "来ていた"
+      "来(き)ていた"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "来ていた",
+      "来(き)ていた",
       "きていた"
     ],
     "rule": "くる → きて + いた",
-    "jpExplanation": "来る → 来ていた",
+    "jpExplanation": "来(く)る → 来(き)ていた",
     "enExplanation": "くる → きて + いた"
   },
   {
@@ -3696,18 +3696,18 @@
     "formLabel": "～たくない (do not want to)",
     "conjugationFamily": "tai",
     "pattern": "group-1-ku-tai-negative",
-    "grammarPoint": "聞く → ～たくない (do not want to)",
+    "grammarPoint": "聞(き)く → ～たくない (do not want to)",
     "answers": [
-      "聞きたくない"
+      "聞(き)きたくない"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "聞きたくない",
+      "聞(き)きたくない",
       "ききたくない"
     ],
-    "rule": "聞きたい → 聞きたくない",
-    "jpExplanation": "聞く → 聞きたくない",
-    "enExplanation": "聞きたい → 聞きたくない"
+    "rule": "聞(き)きたい → 聞(き)きたくない",
+    "jpExplanation": "聞(き)く → 聞(き)きたくない",
+    "enExplanation": "聞(き)きたい → 聞(き)きたくない"
   },
   {
     "id": "conjugation-drill-q121",
@@ -3817,17 +3817,17 @@
     "formLabel": "ない-form (plain negative)",
     "conjugationFamily": "nai",
     "pattern": "group-1-ru-nai",
-    "grammarPoint": "分かる → ない-form (plain negative)",
+    "grammarPoint": "分(わ)かる → ない-form (plain negative)",
     "answers": [
-      "分からない"
+      "分(わ)からない"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "分からない",
+      "分(わ)からない",
       "わからない"
     ],
     "rule": "Group 1: る → ら + ない",
-    "jpExplanation": "分かる → 分からない",
+    "jpExplanation": "分(わ)かる → 分(わ)からない",
     "enExplanation": "Group 1: る → ら + ない"
   },
   {
@@ -3848,17 +3848,17 @@
     "formLabel": "て-form",
     "conjugationFamily": "te",
     "pattern": "group-1-ru-te",
-    "grammarPoint": "作る → て-form",
+    "grammarPoint": "作(つく)る → て-form",
     "answers": [
-      "作って"
+      "作(つく)って"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "作って",
+      "作(つく)って",
       "つくって"
     ],
     "rule": "Group 1: る → って",
-    "jpExplanation": "作る → 作って",
+    "jpExplanation": "作(つく)る → 作(つく)って",
     "enExplanation": "Group 1: る → って"
   },
   {
@@ -3879,18 +3879,18 @@
     "formLabel": "て-form",
     "conjugationFamily": "te",
     "pattern": "group-1-ru-te",
-    "grammarPoint": "切る → て-form",
+    "grammarPoint": "切(き)る → て-form",
     "answers": [
-      "切って"
+      "切(き)って"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "切って",
+      "切(き)って",
       "きって"
     ],
-    "rule": "切る (cut), Group 1: る → って",
-    "jpExplanation": "切る → 切って",
-    "enExplanation": "切る (cut), Group 1: る → って"
+    "rule": "切(き)る (cut), Group 1: る → って",
+    "jpExplanation": "切(き)る → 切(き)って",
+    "enExplanation": "切(き)る (cut), Group 1: る → って"
   },
   {
     "id": "conjugation-drill-q127",
@@ -3910,18 +3910,18 @@
     "formLabel": "て-form",
     "conjugationFamily": "te",
     "pattern": "group-2-te",
-    "grammarPoint": "着る → て-form",
+    "grammarPoint": "着(き)る → て-form",
     "answers": [
-      "着て"
+      "着(き)て"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "着て",
+      "着(き)て",
       "きて"
     ],
-    "rule": "着る (wear), Group 2: remove る + て",
-    "jpExplanation": "着る → 着て",
-    "enExplanation": "着る (wear), Group 2: remove る + て"
+    "rule": "着(き)る (wear), Group 2: remove る + て",
+    "jpExplanation": "着(き)る → 着(き)て",
+    "enExplanation": "着(き)る (wear), Group 2: remove る + て"
   },
   {
     "id": "conjugation-drill-q128",
@@ -3941,17 +3941,17 @@
     "formLabel": "～たら",
     "conjugationFamily": "tara",
     "pattern": "group-2-tara",
-    "grammarPoint": "出る → ～たら",
+    "grammarPoint": "出(で)る → ～たら",
     "answers": [
-      "出たら"
+      "出(で)たら"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "出たら",
+      "出(で)たら",
       "でたら"
     ],
     "rule": "Remove る + たら",
-    "jpExplanation": "出る → 出たら",
+    "jpExplanation": "出(で)る → 出(で)たら",
     "enExplanation": "Remove る + たら"
   },
   {
@@ -3972,18 +3972,18 @@
     "formLabel": "て-form",
     "conjugationFamily": "te",
     "pattern": "group-1-u-te",
-    "grammarPoint": "言う → て-form",
+    "grammarPoint": "言(い)う → て-form",
     "answers": [
-      "言って"
+      "言(い)って"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "言って",
+      "言(い)って",
       "いって"
     ],
-    "rule": "う → って; 言って is read いって",
-    "jpExplanation": "言う → 言って",
-    "enExplanation": "う → って; 言って is read いって"
+    "rule": "う → って; 言(い)って is read いって",
+    "jpExplanation": "言(い)う → 言(い)って",
+    "enExplanation": "う → って; 言(い)って is read いって"
   },
   {
     "id": "conjugation-drill-q130",
@@ -4093,17 +4093,17 @@
     "formLabel": "ない-form (plain negative)",
     "conjugationFamily": "nai",
     "pattern": "group-2-nai",
-    "grammarPoint": "入れる → ない-form (plain negative)",
+    "grammarPoint": "入(い)れる → ない-form (plain negative)",
     "answers": [
-      "入れない"
+      "入(い)れない"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "入れない",
+      "入(い)れない",
       "いれない"
     ],
     "rule": "Group 2: remove る + ない",
-    "jpExplanation": "入れる → 入れない",
+    "jpExplanation": "入(い)れる → 入(い)れない",
     "enExplanation": "Group 2: remove る + ない"
   },
   {
@@ -4214,17 +4214,17 @@
     "formLabel": "た-form (plain past)",
     "conjugationFamily": "ta",
     "pattern": "group-1-ru-ta",
-    "grammarPoint": "分かる → た-form (plain past)",
+    "grammarPoint": "分(わ)かる → た-form (plain past)",
     "answers": [
-      "分かった"
+      "分(わ)かった"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "分かった",
+      "分(わ)かった",
       "わかった"
     ],
     "rule": "Group 1: る → った",
-    "jpExplanation": "分かる → 分かった",
+    "jpExplanation": "分(わ)かる → 分(わ)かった",
     "enExplanation": "Group 1: る → った"
   },
   {
@@ -4245,17 +4245,17 @@
     "formLabel": "Potential (plain, standard form)",
     "conjugationFamily": "potential",
     "pattern": "group-1-ru-potential",
-    "grammarPoint": "作る → Potential (plain, standard form)",
+    "grammarPoint": "作(つく)る → Potential (plain, standard form)",
     "answers": [
-      "作れる"
+      "作(つく)れる"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "作れる",
+      "作(つく)れる",
       "つくれる"
     ],
     "rule": "Group 1: る → れ + る",
-    "jpExplanation": "作る → 作れる",
+    "jpExplanation": "作(つく)る → 作(つく)れる",
     "enExplanation": "Group 1: る → れ + る"
   },
   {
@@ -4276,18 +4276,18 @@
     "formLabel": "ない-form (plain negative)",
     "conjugationFamily": "nai",
     "pattern": "group-1-ru-nai",
-    "grammarPoint": "切る → ない-form (plain negative)",
+    "grammarPoint": "切(き)る → ない-form (plain negative)",
     "answers": [
-      "切らない"
+      "切(き)らない"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "切らない",
+      "切(き)らない",
       "きらない"
     ],
-    "rule": "切る (cut), Group 1: る → ら + ない",
-    "jpExplanation": "切る → 切らない",
-    "enExplanation": "切る (cut), Group 1: る → ら + ない"
+    "rule": "切(き)る (cut), Group 1: る → ら + ない",
+    "jpExplanation": "切(き)る → 切(き)らない",
+    "enExplanation": "切(き)る (cut), Group 1: る → ら + ない"
   },
   {
     "id": "conjugation-drill-q140",
@@ -4307,18 +4307,18 @@
     "formLabel": "ない-form (plain negative)",
     "conjugationFamily": "nai",
     "pattern": "group-2-nai",
-    "grammarPoint": "着る → ない-form (plain negative)",
+    "grammarPoint": "着(き)る → ない-form (plain negative)",
     "answers": [
-      "着ない"
+      "着(き)ない"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "着ない",
+      "着(き)ない",
       "きない"
     ],
-    "rule": "着る (wear), Group 2: remove る + ない",
-    "jpExplanation": "着る → 着ない",
-    "enExplanation": "着る (wear), Group 2: remove る + ない"
+    "rule": "着(き)る (wear), Group 2: remove る + ない",
+    "jpExplanation": "着(き)る → 着(き)ない",
+    "enExplanation": "着(き)る (wear), Group 2: remove る + ない"
   },
   {
     "id": "conjugation-drill-q141",
@@ -4338,17 +4338,17 @@
     "formLabel": "Volitional (plain)",
     "conjugationFamily": "volitional",
     "pattern": "group-2-volitional",
-    "grammarPoint": "出る → Volitional (plain)",
+    "grammarPoint": "出(で)る → Volitional (plain)",
     "answers": [
-      "出よう"
+      "出(で)よう"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "出よう",
+      "出(で)よう",
       "でよう"
     ],
     "rule": "Remove る + よう",
-    "jpExplanation": "出る → 出よう",
+    "jpExplanation": "出(で)る → 出(で)よう",
     "enExplanation": "Remove る + よう"
   },
   {
@@ -4369,17 +4369,17 @@
     "formLabel": "ない-form (plain negative)",
     "conjugationFamily": "nai",
     "pattern": "group-1-u-nai",
-    "grammarPoint": "言う → ない-form (plain negative)",
+    "grammarPoint": "言(い)う → ない-form (plain negative)",
     "answers": [
-      "言わない"
+      "言(い)わない"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "言わない",
+      "言(い)わない",
       "いわない"
     ],
     "rule": "う → わ + ない",
-    "jpExplanation": "言う → 言わない",
+    "jpExplanation": "言(い)う → 言(い)わない",
     "enExplanation": "う → わ + ない"
   },
   {
@@ -4490,18 +4490,18 @@
     "formLabel": "て-form",
     "conjugationFamily": "te",
     "pattern": "group-2-te",
-    "grammarPoint": "入れる → て-form",
+    "grammarPoint": "入(い)れる → て-form",
     "answers": [
-      "入れて"
+      "入(い)れて"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "入れて",
+      "入(い)れて",
       "いれて"
     ],
-    "rule": "入れる, Group 2: remove る + て; 入る → 入って is Group 1",
-    "jpExplanation": "入れる → 入れて",
-    "enExplanation": "入れる, Group 2: remove る + て; 入る → 入って is Group 1"
+    "rule": "入(い)れる, Group 2: remove る + て; 入(はい)る → 入(はい)って is Group 1",
+    "jpExplanation": "入(い)れる → 入(い)れて",
+    "enExplanation": "入(い)れる, Group 2: remove る + て; 入(はい)る → 入(はい)って is Group 1"
   },
   {
     "id": "conjugation-drill-q147",
@@ -4581,17 +4581,17 @@
     "formLabel": "～たら",
     "conjugationFamily": "tara",
     "pattern": "group-1-ru-tara",
-    "grammarPoint": "分かる → ～たら",
+    "grammarPoint": "分(わ)かる → ～たら",
     "answers": [
-      "分かったら"
+      "分(わ)かったら"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "分かったら",
+      "分(わ)かったら",
       "わかったら"
     ],
     "rule": "Group 1: る → った + ら",
-    "jpExplanation": "分かる → 分かったら",
+    "jpExplanation": "分(わ)かる → 分(わ)かったら",
     "enExplanation": "Group 1: る → った + ら"
   },
   {
@@ -4612,17 +4612,17 @@
     "formLabel": "～たい (want to)",
     "conjugationFamily": "tai",
     "pattern": "group-1-ru-tai",
-    "grammarPoint": "作る → ～たい (want to)",
+    "grammarPoint": "作(つく)る → ～たい (want to)",
     "answers": [
-      "作りたい"
+      "作(つく)りたい"
     ],
     "correct": 0,
     "acceptedAnswers": [
-      "作りたい",
+      "作(つく)りたい",
       "つくりたい"
     ],
     "rule": "Group 1: る → り + たい",
-    "jpExplanation": "作る → 作りたい",
+    "jpExplanation": "作(つく)る → 作(つく)りたい",
     "enExplanation": "Group 1: る → り + たい"
   }
 ]

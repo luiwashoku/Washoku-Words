@@ -5,7 +5,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "例外(れいがい)なく全員が必要なので、申込書(もうしこみしょ)は__________提出(ていしゅつ)してください。",
+    "question": "例外(れいがい)なく全員(ぜんいん)が必要(ひつよう)なので、申込書(もうしこみしょ)は__________提出(ていしゅつ)してください。",
     "answers": [
       "たまに",
       "もしかしたら",
@@ -13,8 +13,8 @@
       "必ず(かならず)"
     ],
     "correct": 3,
-    "jpExplanation": "「必ず」は、例外なくするように求める表現です。",
-    "enExplanation": "必ず makes this an unconditional requirement, not a prediction with a numerical probability."
+    "jpExplanation": "「必(かなら)ず」は、例外(れいがい)なくするように求(もと)める表現(ひょうげん)です。",
+    "enExplanation": "必(かなら)ず makes this an unconditional requirement, not a prediction with a numerical probability."
   },
   {
     "id": "adverbs-q002",
@@ -22,7 +22,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "本人の署名(しょめい)も確認できたので、これは__________彼が書いた手紙です。",
+    "question": "本人(ほんにん)の署名(しょめい)も確認(かくにん)できたので、これは__________彼(かれ)が書(か)いた手紙(てがみ)です。",
     "answers": [
       "ひょっとして",
       "たまに",
@@ -30,8 +30,8 @@
       "徐々に(じょじょに)"
     ],
     "correct": 2,
-    "jpExplanation": "証拠があり、判断に疑いがないことを表します。",
-    "enExplanation": "間違いなく expresses confidence supported here by a verified signature."
+    "jpExplanation": "証拠(しょうこ)があり、判断(はんだん)に疑(うたが)いがないことを表(あらわ)します。",
+    "enExplanation": "間違(まちが)いなく expresses confidence supported here by a verified signature."
   },
   {
     "id": "adverbs-q003",
@@ -39,7 +39,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "合格者一覧(ごうかくしゃいちらん)に自分の番号があるので、合格したことは__________分かっています。",
+    "question": "合格者一覧(ごうかくしゃいちらん)に自分(じぶん)の番号(ばんごう)があるので、合格(ごうかく)したことは__________分(わ)かっています。",
     "answers": [
       "もしかしたら",
       "確実に(かくじつに)",
@@ -47,8 +47,8 @@
       "だんだん"
     ],
     "correct": 1,
-    "jpExplanation": "「確実に分かる」は、はっきりした根拠があって分かることです。",
-    "enExplanation": "確実に conveys certainty here because the result has been checked, rather than merely guessed."
+    "jpExplanation": "「確実(かくじつ)に分(わ)かる」は、はっきりした根拠(こんきょ)があって分(わ)かることです。",
+    "enExplanation": "確実(かくじつ)に conveys certainty here because the result has been checked, rather than merely guessed."
   },
   {
     "id": "adverbs-q004",
@@ -56,7 +56,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 3,
-    "question": "まだ結果は出ていませんが、あれだけ練習した彼なら__________合格すると信じています。",
+    "question": "まだ結果(けっか)は出(で)ていませんが、あれだけ練習(れんしゅう)した彼(かれ)なら__________合格(ごうかく)すると信(しん)じています。",
     "answers": [
       "きっと",
       "まったく",
@@ -64,7 +64,7 @@
       "徐々に(じょじょに)"
     ],
     "correct": 0,
-    "jpExplanation": "「きっと」は、強い期待や確信を込めた予想に使えます。",
+    "jpExplanation": "「きっと」は、強(つよ)い期待(きたい)や確信(かくしん)を込(こ)めた予想(よそう)に使(つか)えます。",
     "enExplanation": "きっと can convey a confident expectation or hope without claiming that the outcome has already been verified."
   },
   {
@@ -73,7 +73,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 3,
-    "question": "詳しくは覚えていませんが、あの店の開店時間は__________十時だと思います。",
+    "question": "詳(くわ)しくは覚(おぼ)えていませんが、あの店(みせ)の開店(かいてん)時間(じかん)は__________十(じゅう)時(じ)だと思(おも)います。",
     "answers": [
       "必ず(かならず)",
       "絶対に(ぜったいに)",
@@ -81,8 +81,8 @@
       "全然(ぜんぜん)"
     ],
     "correct": 2,
-    "jpExplanation": "記憶が確かではないので、控えめな予想を表す「たぶん」が合います。",
-    "enExplanation": "たぶん fits an uncertain recollection; 必ず and 絶対に express certainty inconsistent with the stated doubt."
+    "jpExplanation": "記憶(きおく)が確(たし)かではないので、控(ひか)えめな予想(よそう)を表(あらわ)す「たぶん」が合(あ)います。",
+    "enExplanation": "たぶん fits an uncertain recollection; 必(かなら)ず and 絶対(ぜったい)に express certainty inconsistent with the stated doubt."
   },
   {
     "id": "adverbs-q006",
@@ -90,7 +90,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 3,
-    "question": "断定(だんてい)はできませんが、この足跡(あしあと)は__________猫のものでしょう。",
+    "question": "断定(だんてい)はできませんが、この足跡(あしあと)は__________猫(ねこ)のものでしょう。",
     "answers": [
       "いつも",
       "全部(ぜんぶ)",
@@ -98,7 +98,7 @@
       "おそらく"
     ],
     "correct": 3,
-    "jpExplanation": "「おそらく」は、根拠から可能性が高いと考えるときに使います。",
+    "jpExplanation": "「おそらく」は、根拠(こんきょ)から可能(かのう)性(せい)が高(たか)いと考(かんが)えるときに使(つか)います。",
     "enExplanation": "おそらく marks a likely inference. It overlaps with たぶん and is not assigned a fixed probability."
   },
   {
@@ -107,7 +107,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 3,
-    "question": "名前がまだ分からないのですが、あの人は__________新しい先生ではありませんか。",
+    "question": "名前(なまえ)がまだ分(わ)からないのですが、あの人(ひと)は__________新(あたら)しい先生(せんせい)ではありませんか。",
     "answers": [
       "必ず(かならず)",
       "たくさん",
@@ -115,7 +115,7 @@
       "ひょっとして"
     ],
     "correct": 3,
-    "jpExplanation": "「ひょっとして」は、思い浮かんだ可能性を相手に確かめるときに使えます。",
+    "jpExplanation": "「ひょっとして」は、思(おも)い浮(う)かんだ可能(かのう)性(せい)を相手(あいて)に確(たし)かめるときに使(つか)えます。",
     "enExplanation": "ひょっとして introduces a tentative possibility, often in a question seeking confirmation."
   },
   {
@@ -124,7 +124,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 3,
-    "question": "予定はまだ未定(みてい)ですが、__________明日は休めるかもしれません。",
+    "question": "予定(よてい)はまだ未定(みてい)ですが、__________明日(あした)は休(やす)めるかもしれません。",
     "answers": [
       "もしかしたら",
       "必ず(かならず)",
@@ -132,7 +132,7 @@
       "全然(ぜんぜん)"
     ],
     "correct": 0,
-    "jpExplanation": "「もしかしたら」は「かもしれない」と一緒に可能性を表せます。",
+    "jpExplanation": "「もしかしたら」は「かもしれない」と一緒(いっしょ)に可能(かのう)性(せい)を表(あらわ)せます。",
     "enExplanation": "もしかしたら…かもしれない presents a possibility without guaranteeing it."
   },
   {
@@ -141,7 +141,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "何があっても約束を破るつもりはないので、__________秘密(ひみつ)は話しません。",
+    "question": "何(なん)があっても約束(やくそく)を破(やぶ)るつもりはないので、__________秘密(ひみつ)は話(はな)しません。",
     "answers": [
       "あまり",
       "絶対に(ぜったいに)",
@@ -149,8 +149,8 @@
       "たまに"
     ],
     "correct": 1,
-    "jpExplanation": "「絶対に〜ない」は、強い否定や決意を表します。",
-    "enExplanation": "絶対に…ない expresses an absolute refusal or determination here, not merely low frequency."
+    "jpExplanation": "「絶対(ぜったい)に〜ない」は、強(つよ)い否定(ひてい)や決意(けつい)を表(あらわ)します。",
+    "enExplanation": "絶対(ぜったい)に…ない expresses an absolute refusal or determination here, not merely low frequency."
   },
   {
     "id": "adverbs-q010",
@@ -158,7 +158,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "休日も平日も例外なく、私は__________朝六時に起きます。",
+    "question": "休日(きゅうじつ)も平日(へいじつ)も例外(れいがい)なく、私(わたし)は__________朝(あさ)六(ろく)時(じ)に起(お)きます。",
     "answers": [
       "時々(ときどき)",
       "いつも",
@@ -166,7 +166,7 @@
       "めったに"
     ],
     "correct": 1,
-    "jpExplanation": "例外のない習慣なので「いつも」が合います。",
+    "jpExplanation": "例外(れいがい)のない習慣(しゅうかん)なので「いつも」が合(あ)います。",
     "enExplanation": "いつも expresses the regular habit; the explicit lack of exceptions rules out occasional frequency."
   },
   {
@@ -175,7 +175,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "毎日ではありませんが、週に四、五回はこの店で昼食を取るので、ここには__________来ます。",
+    "question": "毎日(まいにち)ではありませんが、週(しゅう)に四(よん)、五(ご)回(かい)はこの店(みせ)で昼食(ちゅうしょく)を取(と)るので、ここには__________来(き)ます。",
     "answers": [
       "たまに",
       "めったに",
@@ -183,7 +183,7 @@
       "よく"
     ],
     "correct": 3,
-    "jpExplanation": "週に何度も来るので、頻度が高い「よく」が合います。",
+    "jpExplanation": "週(しゅう)に何(なん)度(ど)も来(く)るので、頻度(ひんど)が高(たか)い「よく」が合(あ)います。",
     "enExplanation": "よく means often here. Frequency words depend on context, not fixed percentages."
   },
   {
@@ -192,7 +192,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "十回のうち八、九回は弁当を持ってくるので、昼食は__________自分で用意します。",
+    "question": "十(じゅう)回(かい)のうち八(はち)、九(きゅう)回(かい)は弁当(べんとう)を持(も)ってくるので、昼食(ちゅうしょく)は__________自分(じぶん)で用意(ようい)します。",
     "answers": [
       "たまに",
       "全然(ぜんぜん)",
@@ -200,7 +200,7 @@
       "ひょっとして"
     ],
     "correct": 2,
-    "jpExplanation": "ほとんどの場合に当てはまる習慣を「たいてい」で表します。",
+    "jpExplanation": "ほとんどの場合(ばあい)に当(あ)てはまる習慣(しゅうかん)を「たいてい」で表(あらわ)します。",
     "enExplanation": "たいてい means usually or in most cases, allowing occasional exceptions."
   },
   {
@@ -209,7 +209,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "毎週ではありませんが、月に何度か、休日には__________パンを焼きます。",
+    "question": "毎週(まいしゅう)ではありませんが、月(つき)に何(なん)度(ど)か、休日(きゅうじつ)には__________パンを焼(や)きます。",
     "answers": [
       "必ず(かならず)",
       "いつも",
@@ -217,8 +217,8 @@
       "時々(ときどき)"
     ],
     "correct": 3,
-    "jpExplanation": "定期的に毎回ではなく、何度かするので「時々」です。",
-    "enExplanation": "時々 describes occasional recurrence. It can overlap with たまに, which is deliberately not a competing choice here."
+    "jpExplanation": "定期(ていき)的(てき)に毎回(まいかい)ではなく、何(なん)度(ど)かするので「時々(ときどき)」です。",
+    "enExplanation": "時々(ときどき) describes occasional recurrence. It can overlap with たまに, which is deliberately not a competing choice here."
   },
   {
     "id": "adverbs-q014",
@@ -226,7 +226,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "普段は自炊(じすい)していますが、年に数回だけ__________高級な店で食事をします。",
+    "question": "普段(ふだん)は自炊(じすい)していますが、年(ねん)に数回(すうかい)だけ__________高級(こうきゅう)な店(みせ)で食事(しょくじ)をします。",
     "answers": [
       "たまに",
       "いつも",
@@ -234,7 +234,7 @@
       "たいてい"
     ],
     "correct": 0,
-    "jpExplanation": "普段の習慣とは違い、少ない機会にすることを表します。",
+    "jpExplanation": "普段(ふだん)の習慣(しゅうかん)とは違(ちが)い、少(すく)ない機会(きかい)にすることを表(あらわ)します。",
     "enExplanation": "たまに means once in a while; the rare treat contrasts with the usual habit of cooking at home."
   },
   {
@@ -243,7 +243,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "月に一度くらいしか映画館へ行かないので、映画は__________見に行きません。",
+    "question": "月(つき)に一(いち)度(ど)くらいしか映画(えいが)館(かん)へ行(い)かないので、映画(えいが)は__________見(み)に行(い)きません。",
     "answers": [
       "必ず(かならず)",
       "あまり",
@@ -251,7 +251,7 @@
       "たくさん"
     ],
     "correct": 1,
-    "jpExplanation": "「あまり〜ない」は、ここでは頻度が高くないことを表します。",
+    "jpExplanation": "「あまり〜ない」は、ここでは頻度(ひんど)が高(たか)くないことを表(あらわ)します。",
     "enExplanation": "あまり…ない means not often here, rather than low probability or no visits at all."
   },
   {
@@ -260,7 +260,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "一年に一度あるかないかなので、ここでは雪は__________降りません。",
+    "question": "一(いち)年(ねん)に一(いち)度(ど)あるかないかなので、ここでは雪(ゆき)は__________降(ふ)りません。",
     "answers": [
       "よく",
       "いつも",
@@ -268,7 +268,7 @@
       "必ず(かならず)"
     ],
     "correct": 2,
-    "jpExplanation": "「めったに〜ない」は、起こることが非常に少ない様子です。",
+    "jpExplanation": "「めったに〜ない」は、起(お)こることが非常(ひじょう)に少(すく)ない様子(ようす)です。",
     "enExplanation": "めったに…ない means rarely; it still allows exceptional occurrences."
   },
   {
@@ -277,7 +277,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "生まれてから一度も飲んだことがなく、お酒は__________飲みません。",
+    "question": "生(う)まれてから一(いち)度(ど)も飲(の)んだことがなく、お酒(さけ)は__________飲(の)みません。",
     "answers": [
       "あまり",
       "めったに",
@@ -285,8 +285,8 @@
       "全然(ぜんぜん)"
     ],
     "correct": 3,
-    "jpExplanation": "一度も飲んでいないので、ここでは「全然〜ない」です。",
-    "enExplanation": "全然 with this negative means not at all; あまり and めったに permit some occurrence."
+    "jpExplanation": "一(いち)度(ど)も飲(の)んでいないので、ここでは「全然(ぜんぜん)〜ない」です。",
+    "enExplanation": "全然(ぜんぜん) with this negative means not at all; あまり and めったに permit some occurrence."
   },
   {
     "id": "adverbs-q018",
@@ -294,7 +294,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "一口で汗が出るほど、このカレーは__________辛いです。",
+    "question": "一口(ひとくち)で汗(あせ)が出(で)るほど、このカレーは__________辛(から)いです。",
     "answers": [
       "とても",
       "ちょっと",
@@ -302,8 +302,8 @@
       "全然(ぜんぜん)"
     ],
     "correct": 0,
-    "jpExplanation": "強い辛さを肯定文で表すので「とても」が合います。",
-    "enExplanation": "とても intensifies the adjective. 全然 is practised with a negative in this deck; it is not an affirmative intensifier in this sentence."
+    "jpExplanation": "強(つよ)い辛(から)さを肯定(こうてい)文(ぶん)で表(あらわ)すので「とても」が合(あ)います。",
+    "enExplanation": "とても intensifies the adjective. 全然(ぜんぜん) is practised with a negative in this deck; it is not an affirmative intensifier in this sentence."
   },
   {
     "id": "adverbs-q019",
@@ -311,7 +311,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "信じられないほど大きなパフェを見て、思わず「__________大きいね」と言いました。",
+    "question": "信(しん)じられないほど大(おお)きなパフェを見(み)て、思(おも)わず「__________大(おお)きいね」と言(い)いました。",
     "answers": [
       "すごく",
       "少し(すこし)",
@@ -319,7 +319,7 @@
       "あまり"
     ],
     "correct": 0,
-    "jpExplanation": "驚くほどの大きさを、くだけた言い方の「すごく」で強めます。",
+    "jpExplanation": "驚(おどろ)くほどの大(おお)きさを、くだけた言(い)い方(かた)の「すごく」で強(つよ)めます。",
     "enExplanation": "すごく is a common conversational intensifier. The striking size rules out the small-degree choices."
   },
   {
@@ -328,7 +328,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 3,
-    "question": "まだ完成ではありませんが、工事は七割まで進み、__________できあがっています。",
+    "question": "まだ完成(かんせい)ではありませんが、工事(こうじ)は七(なな)割(わり)まで進(すす)み、__________できあがっています。",
     "answers": [
       "全然(ぜんぜん)",
       "全部(ぜんぶ)",
@@ -336,7 +336,7 @@
       "ちょっと"
     ],
     "correct": 2,
-    "jpExplanation": "完成には届かないものの、進み具合が大きいので「かなり」です。",
+    "jpExplanation": "完成(かんせい)には届(とど)かないものの、進(すす)み具合(ぐあい)が大(おお)きいので「かなり」です。",
     "enExplanation": "かなり expresses a substantial extent without saying everything is complete."
   },
   {
@@ -345,7 +345,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 3,
-    "question": "小さい店なので空いていると思ったのに、客が多くて__________混んでいます。",
+    "question": "小(ちい)さい店(みせ)なので空(す)いていると思(おも)ったのに、客(きゃく)が多(おお)くて__________混(こ)んでいます。",
     "answers": [
       "全然(ぜんぜん)",
       "結構(けっこう)",
@@ -353,8 +353,8 @@
       "少しも(すこしも)"
     ],
     "correct": 1,
-    "jpExplanation": "「結構」は、ここでは予想以上の程度を表します。",
-    "enExplanation": "結構 can mean quite or more than expected; it does not always mean a weaker degree than とても."
+    "jpExplanation": "「結構(けっこう)」は、ここでは予想(よそう)以上(いじょう)の程度(ていど)を表(あらわ)します。",
+    "enExplanation": "結構(けっこう) can mean quite or more than expected; it does not always mean a weaker degree than とても."
   },
   {
     "id": "adverbs-q022",
@@ -362,7 +362,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "ほんのわずかに塩味が足りないので、塩を__________足してください。",
+    "question": "ほんのわずかに塩味(しおあじ)が足(た)りないので、塩(しお)を__________足(た)してください。",
     "answers": [
       "全部(ぜんぶ)",
       "ちょっと",
@@ -370,7 +370,7 @@
       "全然(ぜんぜん)"
     ],
     "correct": 1,
-    "jpExplanation": "足りない量がわずかなので、追加する量も少なくします。",
+    "jpExplanation": "足(た)りない量(りょう)がわずかなので、追加(ついか)する量(りょう)も少(すく)なくします。",
     "enExplanation": "ちょっと indicates a small addition here; in other contexts it can soften a request or refusal."
   },
   {
@@ -379,7 +379,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "満腹(まんぷく)に近いので、ご飯はほんの__________だけください。",
+    "question": "満腹(まんぷく)に近(ちか)いので、ご飯(はん)はほんの__________だけください。",
     "answers": [
       "たくさん",
       "全部(ぜんぶ)",
@@ -387,8 +387,8 @@
       "多く(おおく)"
     ],
     "correct": 2,
-    "jpExplanation": "「ほんの少しだけ」で、とても少ない量を求めています。",
-    "enExplanation": "少し expresses a small amount. ほんの…だけ reinforces that only a little is wanted."
+    "jpExplanation": "「ほんの少(すこ)しだけ」で、とても少(すく)ない量(りょう)を求(もと)めています。",
+    "enExplanation": "少(すこ)し expresses a small amount. ほんの…だけ reinforces that only a little is wanted."
   },
   {
     "id": "adverbs-q024",
@@ -396,7 +396,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 3,
-    "question": "砂糖を控えたので、このケーキは__________甘くありません。",
+    "question": "砂糖(さとう)を控(ひか)えたので、このケーキは__________甘(あま)くありません。",
     "answers": [
       "あまり",
       "とても",
@@ -404,7 +404,7 @@
       "必ず(かならず)"
     ],
     "correct": 0,
-    "jpExplanation": "「あまり〜ない」は、甘さの程度が高くないことです。",
+    "jpExplanation": "「あまり〜ない」は、甘(あま)さの程度(ていど)が高(たか)くないことです。",
     "enExplanation": "あまり…ない means not very sweet here, not probably not sweet."
   },
   {
@@ -413,7 +413,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "暖房(だんぼう)がよく効いていて、部屋の中は少しも寒くなく、__________寒くありません。",
+    "question": "暖房(だんぼう)がよく効(き)いていて、部屋(へや)の中(なか)は少(すこ)しも寒(さむ)くなく、__________寒(さむ)くありません。",
     "answers": [
       "全然(ぜんぜん)",
       "あまり",
@@ -421,8 +421,8 @@
       "とても"
     ],
     "correct": 0,
-    "jpExplanation": "「少しも〜ない」と同じく、寒さを感じないことを表します。",
-    "enExplanation": "全然…ない expresses a complete negative here; あまり…ない would merely reduce the degree."
+    "jpExplanation": "「少(すこ)しも〜ない」と同(おな)じく、寒(さむ)さを感(かん)じないことを表(あらわ)します。",
+    "enExplanation": "全然(ぜんぜん)…ない expresses a complete negative here; あまり…ない would merely reduce the degree."
   },
   {
     "id": "adverbs-q026",
@@ -430,7 +430,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "優勝(ゆうしょう)を目指して、持てる力をすべて出し、__________練習しました。",
+    "question": "優勝(ゆうしょう)を目指(めざ)して、持(も)てる力(ちから)をすべて出(だ)し、__________練習(れんしゅう)しました。",
     "answers": [
       "適当に(てきとうに)",
       "たまに",
@@ -438,8 +438,8 @@
       "全然(ぜんぜん)"
     ],
     "correct": 2,
-    "jpExplanation": "力を尽くして取り組む様子を「一生懸命」で表します。",
-    "enExplanation": "一生懸命 describes wholehearted effort rather than guaranteeing success."
+    "jpExplanation": "力(ちから)を尽(つ)くして取(と)り組(く)む様子(ようす)を「一生(いっしょう)懸命(けんめい)」で表(あらわ)します。",
+    "enExplanation": "一生(いっしょう)懸命(けんめい) describes wholehearted effort rather than guaranteeing success."
   },
   {
     "id": "adverbs-q027",
@@ -447,7 +447,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "宿題を忘れず、指示どおり最後まで__________やってから遊びます。",
+    "question": "宿題(しゅくだい)を忘(わす)れず、指示(しじ)どおり最後(さいご)まで__________やってから遊(あそ)びます。",
     "answers": [
       "適当に(てきとうに)",
       "ひょっとして",
@@ -455,7 +455,7 @@
       "全然(ぜんぜん)"
     ],
     "correct": 2,
-    "jpExplanation": "必要なことをきちんと行うという意味の「ちゃんと」です。",
+    "jpExplanation": "必要(ひつよう)なことをきちんと行(おこな)うという意味(いみ)の「ちゃんと」です。",
     "enExplanation": "ちゃんと means properly, meeting expectations; here it concerns completing the assigned work as instructed."
   },
   {
@@ -464,7 +464,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "瓶(びん)が倒れないよう、両手で__________持ってください。",
+    "question": "瓶(びん)が倒(たお)れないよう、両手(りょうて)で__________持(も)ってください。",
     "answers": [
       "しっかり",
       "たぶん",
@@ -472,7 +472,7 @@
       "だんだん"
     ],
     "correct": 0,
-    "jpExplanation": "手から落ちないよう、確かに支えることを表します。",
+    "jpExplanation": "手(て)から落(お)ちないよう、確(たし)かに支(ささ)えることを表(あらわ)します。",
     "enExplanation": "しっかり means firmly or securely here; elsewhere it can mean thoroughly or adequately."
   },
   {
@@ -481,7 +481,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "冗談(じょうだん)でごまかさず、この問題について__________考えてください。",
+    "question": "冗談(じょうだん)でごまかさず、この問題(もんだい)について__________考(かんが)えてください。",
     "answers": [
       "真面目に(まじめに)",
       "適当に(てきとうに)",
@@ -489,8 +489,8 @@
       "たまたま"
     ],
     "correct": 0,
-    "jpExplanation": "ふざけずに問題に向き合う態度を「真面目に」で表します。",
-    "enExplanation": "真面目に asks for serious consideration, contrasting with joking or treating the matter carelessly."
+    "jpExplanation": "ふざけずに問題(もんだい)に向(む)き合(あ)う態度(たいど)を「真面目(まじめ)に」で表(あらわ)します。",
+    "enExplanation": "真面目(まじめ)に asks for serious consideration, contrasting with joking or treating the matter carelessly."
   },
   {
     "id": "adverbs-q030",
@@ -498,7 +498,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 3,
-    "question": "難しくても途中で諦(あきら)めず、最後まで__________やり遂(と)げたいです。",
+    "question": "難(むずか)しくても途中(とちゅう)で諦(あきら)めず、最後(さいご)まで__________やり遂(と)げたいです。",
     "answers": [
       "めったに",
       "頑張って(がんばって)",
@@ -506,8 +506,8 @@
       "全然(ぜんぜん)"
     ],
     "correct": 1,
-    "jpExplanation": "困難があっても努力を続ける気持ちを表します。",
-    "enExplanation": "頑張って is the て-form of a verb, functioning here as a manner expression; not every item in the list is a dictionary-class adverb."
+    "jpExplanation": "困難(こんなん)があっても努力(どりょく)を続(つづ)ける気持(きも)ちを表(あらわ)します。",
+    "enExplanation": "頑張(がんば)って is the て-form of a verb, functioning here as a manner expression; not every item in the list is a dictionary-class adverb."
   },
   {
     "id": "adverbs-q031",
@@ -515,7 +515,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 3,
-    "question": "集合時間は九時ですが、準備のため八時半に、いつもより__________来てください。",
+    "question": "集合(しゅうごう)時間(じかん)は九時(くじ)ですが、準備(じゅんび)のため八(はち)時(じ)半(はん)に、いつもより__________来(き)てください。",
     "answers": [
       "遅く(おそく)",
       "徐々に(じょじょに)",
@@ -523,8 +523,8 @@
       "早く(はやく)"
     ],
     "correct": 3,
-    "jpExplanation": "ここでは動作の速度ではなく、来る時刻が前であることです。",
-    "enExplanation": "早く means earlier here. Distinguish early timing from 速く, which explicitly concerns speed."
+    "jpExplanation": "ここでは動作(どうさ)の速度(そくど)ではなく、来(く)る時刻(じこく)が前(まえ)であることです。",
+    "enExplanation": "早(はや)く means earlier here. Distinguish early timing from 速(はや)く, which explicitly concerns speed."
   },
   {
     "id": "adverbs-q032",
@@ -532,7 +532,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "発車(はっしゃ)まであと一分しかないので、__________駅へ向かいます。",
+    "question": "発車(はっしゃ)まであと一分(いっぷん)しかないので、__________駅(えき)へ向(む)かいます。",
     "answers": [
       "ゆっくり",
       "徐々に(じょじょに)",
@@ -540,8 +540,8 @@
       "急いで(いそいで)"
     ],
     "correct": 3,
-    "jpExplanation": "時間がないため、急ぐ必要があります。",
-    "enExplanation": "急いで describes hurrying under time pressure; it is a verb's て-form used adverbially."
+    "jpExplanation": "時間(じかん)がないため、急(いそ)ぐ必要(ひつよう)があります。",
+    "enExplanation": "急(いそ)いで describes hurrying under time pressure; it is a verb's て-form used adverbially."
   },
   {
     "id": "adverbs-q033",
@@ -549,7 +549,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "時間は十分あるので、急がずに__________食べてください。",
+    "question": "時間(じかん)は十分(じゅうぶん)あるので、急(いそ)がずに__________食(た)べてください。",
     "answers": [
       "急いで(いそいで)",
       "ゆっくり",
@@ -557,7 +557,7 @@
       "慌てて(あわてて)"
     ],
     "correct": 1,
-    "jpExplanation": "「急がずに」という指示に合う速度は「ゆっくり」です。",
+    "jpExplanation": "「急(いそ)がずに」という指示(しじ)に合(あ)う速度(そくど)は「ゆっくり」です。",
     "enExplanation": "ゆっくり means slowly or at leisure here; the context explicitly removes any need to rush."
   },
   {
@@ -566,7 +566,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 3,
-    "question": "一度に全部入れるとだまになるので、水を少量ずつ__________加えます。",
+    "question": "一(いち)度(ど)に全部(ぜんぶ)入(い)れるとだまになるので、水(みず)を少量(しょうりょう)ずつ__________加(くわ)えます。",
     "answers": [
       "一気に(いっきに)",
       "徐々に(じょじょに)",
@@ -574,8 +574,8 @@
       "全然(ぜんぜん)"
     ],
     "correct": 1,
-    "jpExplanation": "少量ずつ段階を踏んで加えることを表します。",
-    "enExplanation": "徐々に describes gradual, staged addition rather than adding everything in one go."
+    "jpExplanation": "少量(しょうりょう)ずつ段階(だんかい)を踏(ふ)んで加(くわ)えることを表(あらわ)します。",
+    "enExplanation": "徐々(じょじょ)に describes gradual, staged addition rather than adding everything in one go."
   },
   {
     "id": "adverbs-q035",
@@ -583,7 +583,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 3,
-    "question": "最初は百回も跳べませんでしたが、練習を重ねて__________長く跳べるようになりました。",
+    "question": "最初(さいしょ)は百(ひゃく)回(かい)も跳(と)べませんでしたが、練習(れんしゅう)を重(かさ)ねて__________長(なが)く跳(と)べるようになりました。",
     "answers": [
       "だんだん",
       "全然(ぜんぜん)",
@@ -591,7 +591,7 @@
       "ひょっとして"
     ],
     "correct": 0,
-    "jpExplanation": "時間と練習に伴って、能力が少しずつ変わっています。",
+    "jpExplanation": "時間(じかん)と練習(れんしゅう)に伴(ともな)って、能力(のうりょく)が少(すこ)しずつ変(か)わっています。",
     "enExplanation": "だんだん describes progressive change over time, not simply moving slowly."
   },
   {
@@ -600,7 +600,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "一グラムの違いも出したくないので、はかりで__________量ります。",
+    "question": "一(いち)グラムの違(ちが)いも出(だ)したくないので、はかりで__________量(はか)ります。",
     "answers": [
       "正確に(せいかくに)",
       "適当に(てきとうに)",
@@ -608,8 +608,8 @@
       "たまに"
     ],
     "correct": 0,
-    "jpExplanation": "誤差を出さず、数値を合わせるための「正確に」です。",
-    "enExplanation": "正確に means accurately; the explicit need to avoid even a gram of error excludes rough estimation."
+    "jpExplanation": "誤差(ごさ)を出(だ)さず、数値(すうち)を合(あ)わせるための「正確(せいかく)に」です。",
+    "enExplanation": "正確(せいかく)に means accurately; the explicit need to avoid even a gram of error excludes rough estimation."
   },
   {
     "id": "adverbs-q037",
@@ -617,7 +617,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 3,
-    "question": "細かい数は数えていませんが、参加者は__________三十人くらいです。",
+    "question": "細(こま)かい数(かず)は数(かぞ)えていませんが、参加(さんか)者(しゃ)は__________三十人(じゅうにん)くらいです。",
     "answers": [
       "必ず(かならず)",
       "徐々に(じょじょに)",
@@ -625,7 +625,7 @@
       "だいたい"
     ],
     "correct": 3,
-    "jpExplanation": "正確な数ではなく、おおよその数を表します。",
+    "jpExplanation": "正確(せいかく)な数(かず)ではなく、おおよその数(かず)を表(あらわ)します。",
     "enExplanation": "だいたい gives an approximation here, not the probability of an event."
   },
   {
@@ -634,7 +634,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 4,
-    "question": "真剣に選ばず、よく見もしないで__________選んだので、サイズが合いませんでした。",
+    "question": "真剣(しんけん)に選(えら)ばず、よく見(み)もしないで__________選(えら)んだので、サイズが合(あ)いませんでした。",
     "answers": [
       "正確に(せいかくに)",
       "慎重に(しんちょうに)",
@@ -642,8 +642,8 @@
       "適当に(てきとうに)"
     ],
     "correct": 3,
-    "jpExplanation": "ここでは十分に考えず、いい加減に選ぶ意味です。",
-    "enExplanation": "適当に means carelessly or without much thought here; in other contexts it can mean appropriately, so it is not always negative."
+    "jpExplanation": "ここでは十分(じゅうぶん)に考(かんが)えず、いい加減(かげん)に選(えら)ぶ意味(いみ)です。",
+    "enExplanation": "適当(てきとう)に means carelessly or without much thought here; in other contexts it can mean appropriately, so it is not always negative."
   },
   {
     "id": "adverbs-q039",
@@ -651,7 +651,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "百人分の汁物を作るので、野菜を__________買っておきます。",
+    "question": "百(ひゃく)人(にん)分(ぶん)の汁物(しるもの)を作(つく)るので、野菜(やさい)を__________買(か)っておきます。",
     "answers": [
       "たくさん",
       "ほんの少し(すこし)",
@@ -659,7 +659,7 @@
       "全然(ぜんぜん)"
     ],
     "correct": 0,
-    "jpExplanation": "多くの人の分を作るため、大きい量が必要です。",
+    "jpExplanation": "多(おお)くの人(ひと)の分(ぶん)を作(つく)るため、大(おお)きい量(りょう)が必要(ひつよう)です。",
     "enExplanation": "たくさん indicates a large quantity, here justified by cooking for a hundred people."
   },
   {
@@ -668,7 +668,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 4,
-    "question": "一人でも__________の人に来てほしいので、広く知らせます。",
+    "question": "一人(ひとり)でも__________の人(ひと)に来(き)てほしいので、広(ひろ)く知(し)らせます。",
     "answers": [
       "たくさん",
       "全然(ぜんぜん)",
@@ -676,8 +676,8 @@
       "いつも"
     ],
     "correct": 2,
-    "jpExplanation": "人数を増やしたいときの自然な表現は「一人でも多くの人」です。",
-    "enExplanation": "一人でも多くの人 is the natural construction for reaching as many people as possible; たくさん is not interchangeable in this exact frame."
+    "jpExplanation": "人数(にんずう)を増(ふ)やしたいときの自然(しぜん)な表現(ひょうげん)は「一人(ひとり)でも多(おお)くの人(ひと)」です。",
+    "enExplanation": "一人(ひとり)でも多(おお)くの人(ひと) is the natural construction for reaching as many people as possible; たくさん is not interchangeable in this exact frame."
   },
   {
     "id": "adverbs-q041",
@@ -685,7 +685,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "十個あった団子を一つも残さず食べたので、__________なくなりました。",
+    "question": "十個(じゅっこ)あった団子(だんご)を一(ひと)つも残(のこ)さず食(た)べたので、__________なくなりました。",
     "answers": [
       "少し(すこし)",
       "たまに",
@@ -693,8 +693,8 @@
       "主に(おもに)"
     ],
     "correct": 2,
-    "jpExplanation": "一つも残っていないため、全体を表す「全部」です。",
-    "enExplanation": "全部 means all of the set, not just a large or main portion."
+    "jpExplanation": "一(ひと)つも残(のこ)っていないため、全体(ぜんたい)を表(あらわ)す「全部(ぜんぶ)」です。",
+    "enExplanation": "全部(ぜんぶ) means all of the set, not just a large or main portion."
   },
   {
     "id": "adverbs-q042",
@@ -702,7 +702,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 3,
-    "question": "古い道具なので重いと思っていましたが、持ってみると__________軽かったです。",
+    "question": "古(ふる)い道具(どうぐ)なので重(おも)いと思(おも)っていましたが、持(も)ってみると__________軽(かる)かったです。",
     "answers": [
       "予想どおり(よそうどおり)",
       "やっぱり",
@@ -710,8 +710,8 @@
       "全然(ぜんぜん)"
     ],
     "correct": 2,
-    "jpExplanation": "予想と違う結果だったので「意外に」です。",
-    "enExplanation": "意外に marks a result contrary to expectation; やっぱり and 予想どおり would confirm the expectation instead."
+    "jpExplanation": "予想(よそう)と違(ちが)う結果(けっか)だったので「意外(いがい)に」です。",
+    "enExplanation": "意外(いがい)に marks a result contrary to expectation; やっぱり and 予想(よそう)どおり would confirm the expectation instead."
   },
   {
     "id": "adverbs-q043",
@@ -719,7 +719,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "楽しみにしていた公演ですが、__________中止(ちゅうし)になってしまいました。",
+    "question": "楽(たの)しみにしていた公演(こうえん)ですが、__________中止(ちゅうし)になってしまいました。",
     "answers": [
       "幸いにも(さいわいにも)",
       "喜んで(よろこんで)",
@@ -727,8 +727,8 @@
       "残念ながら(ざんねんながら)"
     ],
     "correct": 3,
-    "jpExplanation": "望んでいたことが実現せず、残念に思う気持ちを添えます。",
-    "enExplanation": "残念ながら frames the cancellation as regrettable from the speaker's perspective."
+    "jpExplanation": "望(のぞ)んでいたことが実現(じつげん)せず、残念(ざんねん)に思(おも)う気持(きも)ちを添(そ)えます。",
+    "enExplanation": "残念(ざんねん)ながら frames the cancellation as regrettable from the speaker's perspective."
   },
   {
     "id": "adverbs-q044",
@@ -736,7 +736,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "財布(さいふ)を落としましたが、__________親切な人が届けてくれました。",
+    "question": "財布(さいふ)を落(お)としましたが、__________親切(しんせつ)な人(ひと)が届(とど)けてくれました。",
     "answers": [
       "残念ながら(ざんねんながら)",
       "めったに",
@@ -744,8 +744,8 @@
       "幸いにも(さいわいにも)"
     ],
     "correct": 3,
-    "jpExplanation": "困った状況でよいことが起きたので「幸いにも」です。",
-    "enExplanation": "幸いにも marks a fortunate development within an otherwise worrying situation."
+    "jpExplanation": "困(こま)った状況(じょうきょう)でよいことが起(お)きたので「幸(さいわ)いにも」です。",
+    "enExplanation": "幸(さいわ)いにも marks a fortunate development within an otherwise worrying situation."
   },
   {
     "id": "adverbs-q045",
@@ -753,7 +753,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 3,
-    "question": "評判(ひょうばん)どおり味がよく、人気の店だけあって__________おいしいです。",
+    "question": "評判(ひょうばん)どおり味(あじ)がよく、人気(にんき)の店(みせ)だけあって__________おいしいです。",
     "answers": [
       "意外に(いがいに)",
       "全然(ぜんぜん)",
@@ -761,7 +761,7 @@
       "めったに"
     ],
     "correct": 2,
-    "jpExplanation": "評判から期待していたことが確認されたので「やっぱり」です。",
+    "jpExplanation": "評判(ひょうばん)から期待(きたい)していたことが確認(かくにん)されたので「やっぱり」です。",
     "enExplanation": "やっぱり confirms an expectation here; it can also express returning to an earlier choice in other contexts."
   },
   {
@@ -770,7 +770,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 4,
-    "question": "普段はよく食べる私でも、十人前の料理を一人で食べるのは__________無理です。",
+    "question": "普段(ふだん)はよく食(た)べる私(わたし)でも、十人(じゅうにん)前(まえ)の料理(りょうり)を一人(ひとり)で食(た)べるのは__________無理(むり)です。",
     "answers": [
       "徐々に(じょじょに)",
       "さすがに",
@@ -778,7 +778,7 @@
       "幸いにも(さいわいにも)"
     ],
     "correct": 1,
-    "jpExplanation": "普段の能力にも限度があり、この程度になると無理だと認めています。",
+    "jpExplanation": "普段(ふだん)の能力(のうりょく)にも限度(げんど)があり、この程度(ていど)になると無理(むり)だと認(みと)めています。",
     "enExplanation": "さすがに acknowledges a limit even given the person's usual capacity; it is not simply a general translation of 'even'."
   },
   {
@@ -787,7 +787,7 @@
     "page": 1,
     "type": "sequence",
     "difficulty": 2,
-    "question": "調理を始める前の最初の作業として、__________手を洗います。",
+    "question": "調理(ちょうり)を始(はじ)める前(まえ)の最初(さいしょ)の作業(さぎょう)として、__________手(て)を洗(あら)います。",
     "answers": [
       "まず",
       "最後に(さいごに)",
@@ -795,7 +795,7 @@
       "次に(つぎに)"
     ],
     "correct": 0,
-    "jpExplanation": "一連の作業の最初を示すので「まず」です。",
+    "jpExplanation": "一連(いちれん)の作業(さぎょう)の最初(さいしょ)を示(しめ)すので「まず」です。",
     "enExplanation": "まず introduces the first step; the sentence explicitly identifies it as the beginning."
   },
   {
@@ -804,7 +804,7 @@
     "page": 1,
     "type": "sequence",
     "difficulty": 2,
-    "question": "作業は洗う、切る、煮るの順なので、野菜を洗ったら、__________切ります。",
+    "question": "作業(さぎょう)は洗(あら)う、切(き)る、煮(に)るの順(じゅん)なので、野菜(やさい)を洗(あら)ったら、__________切(き)ります。",
     "answers": [
       "次に(つぎに)",
       "最後に(さいごに)",
@@ -812,8 +812,8 @@
       "最初から(さいしょから)"
     ],
     "correct": 0,
-    "jpExplanation": "示された順番で、洗うことの次にする作業です。",
-    "enExplanation": "次に introduces the next step. 最後に would wrongly make cutting the final step when simmering still follows."
+    "jpExplanation": "示(しめ)された順番(じゅんばん)で、洗(あら)うことの次(つぎ)にする作業(さぎょう)です。",
+    "enExplanation": "次(つぎ)に introduces the next step. 最後(さいご)に would wrongly make cutting the final step when simmering still follows."
   },
   {
     "id": "adverbs-q049",
@@ -821,7 +821,7 @@
     "page": 1,
     "type": "sequence",
     "difficulty": 2,
-    "question": "食事を済ませ、__________散歩に出かける予定です。",
+    "question": "食事(しょくじ)を済(す)ませ、__________散歩(さんぽ)に出(で)かける予定(よてい)です。",
     "answers": [
       "同時に(どうじに)",
       "それから",
@@ -829,8 +829,8 @@
       "全然(ぜんぜん)"
     ],
     "correct": 1,
-    "jpExplanation": "食事の後に別の行動を続けるので「それから」です。",
-    "enExplanation": "それから connects a subsequent action. 次に and そして can overlap, so they are not competing choices here."
+    "jpExplanation": "食事(しょくじ)の後(あと)に別(べつ)の行動(こうどう)を続(つづ)けるので「それから」です。",
+    "enExplanation": "それから connects a subsequent action. 次(つぎ)に and そして can overlap, so they are not competing choices here."
   },
   {
     "id": "adverbs-q050",
@@ -838,7 +838,7 @@
     "page": 1,
     "type": "sequence",
     "difficulty": 3,
-    "question": "前菜もおいしく、__________デザートも素晴らしかったので、また来たいです。",
+    "question": "前菜(ぜんさい)もおいしく、__________デザートも素晴(すば)らしかったので、また来(き)たいです。",
     "answers": [
       "しかし",
       "そして",
@@ -846,7 +846,7 @@
       "残念ながら(ざんねんながら)"
     ],
     "correct": 1,
-    "jpExplanation": "同じ方向のよい評価を追加しています。",
+    "jpExplanation": "同(おな)じ方向(ほうこう)のよい評価(ひょうか)を追加(ついか)しています。",
     "enExplanation": "そして adds another positive point here, rather than introducing a contrast or an unfortunate event."
   },
   {
@@ -855,7 +855,7 @@
     "page": 1,
     "type": "sequence",
     "difficulty": 2,
-    "question": "盛り付けまで終えたので、仕上げとして__________ねぎを散らして完成です。",
+    "question": "盛(も)り付(つ)けまで終(お)えたので、仕上(しあ)げとして__________ねぎを散(ち)らして完成(かんせい)です。",
     "answers": [
       "まず",
       "最初に(さいしょに)",
@@ -863,8 +863,8 @@
       "最後に(さいごに)"
     ],
     "correct": 3,
-    "jpExplanation": "完成の直前にする仕上げの作業です。",
-    "enExplanation": "最後に marks the finishing step; まず and 最初に would place it at the beginning."
+    "jpExplanation": "完成(かんせい)の直前(ちょくぜん)にする仕上(しあ)げの作業(さぎょう)です。",
+    "enExplanation": "最後(さいご)に marks the finishing step; まず and 最初(さいしょ)に would place it at the beginning."
   },
   {
     "id": "adverbs-q052",
@@ -872,7 +872,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "どの料理も好きですが、__________茶碗蒸し(ちゃわんむし)が好きです。",
+    "question": "どの料理(りょうり)も好(す)きですが、__________茶碗蒸し(ちゃわんむし)が好(す)きです。",
     "answers": [
       "全部(ぜんぶ)",
       "特に(とくに)",
@@ -880,8 +880,8 @@
       "徐々に(じょじょに)"
     ],
     "correct": 1,
-    "jpExplanation": "好きな料理の中で、一つを強調して取り上げています。",
-    "enExplanation": "特に singles out chawanmushi as an especially strong preference within a broader liking."
+    "jpExplanation": "好(す)きな料理(りょうり)の中(なか)で、一(ひと)つを強調(きょうちょう)して取(と)り上(あ)げています。",
+    "enExplanation": "特(とく)に singles out chawanmushi as an especially strong preference within a broader liking."
   },
   {
     "id": "adverbs-q053",
@@ -889,7 +889,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 4,
-    "question": "普段は入れない部屋ですが、今日は許可をもらって__________見せていただきました。",
+    "question": "普段(ふだん)は入(い)れない部屋(へや)ですが、今日(きょう)は許可(きょか)をもらって__________見(み)せていただきました。",
     "answers": [
       "いつも",
       "たいてい",
@@ -897,8 +897,8 @@
       "特別に(とくべつに)"
     ],
     "correct": 3,
-    "jpExplanation": "通常とは違う扱いを受けたことを表します。",
-    "enExplanation": "特別に marks an exceptional arrangement or special permission, not merely emphasis on degree."
+    "jpExplanation": "通常(つうじょう)とは違(ちが)う扱(あつか)いを受(う)けたことを表(あらわ)します。",
+    "enExplanation": "特別(とくべつ)に marks an exceptional arrangement or special permission, not merely emphasis on degree."
   },
   {
     "id": "adverbs-q054",
@@ -906,7 +906,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 2,
-    "question": "売上(うりあげ)の八割が弁当なので、この店は__________弁当を売っています。",
+    "question": "売上(うりあげ)の八(はち)割(わり)が弁当(べんとう)なので、この店(みせ)は__________弁当(べんとう)を売(う)っています。",
     "answers": [
       "全部(ぜんぶ)",
       "少しだけ(すこしだけ)",
@@ -914,8 +914,8 @@
       "めったに"
     ],
     "correct": 2,
-    "jpExplanation": "全体の中心となるものを「主に」で表します。",
-    "enExplanation": "主に means mainly; the stated share is dominant but not the whole business."
+    "jpExplanation": "全体(ぜんたい)の中心(ちゅうしん)となるものを「主(おも)に」で表(あらわ)します。",
+    "enExplanation": "主(おも)に means mainly; the stated share is dominant but not the whole business."
   },
   {
     "id": "adverbs-q055",
@@ -923,7 +923,7 @@
     "page": 1,
     "type": "application",
     "difficulty": 4,
-    "question": "春の野菜をいろいろ買いましたが、__________菜の花(なのはな)が一番楽しみです。",
+    "question": "春(はる)の野菜(やさい)をいろいろ買(か)いましたが、__________菜の花(なのはな)が一番(いちばん)楽(たの)しみです。",
     "answers": [
       "全部(ぜんぶ)",
       "中でも(なかでも)",
@@ -931,8 +931,8 @@
       "たいてい"
     ],
     "correct": 1,
-    "jpExplanation": "すでに挙げた集合の中から、一つを取り上げています。",
-    "enExplanation": "中でも selects an item from an already established group; it overlaps with 特に, which is not offered against it here."
+    "jpExplanation": "すでに挙(あ)げた集合(しゅうごう)の中(なか)から、一(ひと)つを取(と)り上(あ)げています。",
+    "enExplanation": "中(なか)でも selects an item from an already established group; it overlaps with 特(とく)に, which is not offered against it here."
   },
   {
     "id": "adverbs-q056",
@@ -948,7 +948,7 @@
       "めったに"
     ],
     "correct": 2,
-    "jpExplanation": "大きい分類について具体的な例を挙げています。",
-    "enExplanation": "例えば introduces concrete examples of a category; it does not claim the list is exhaustive."
+    "jpExplanation": "大(おお)きい分類(ぶんるい)について具体(ぐたい)的(てき)な例(れい)を挙(あ)げています。",
+    "enExplanation": "例(たと)えば introduces concrete examples of a category; it does not claim the list is exhaustive."
   }
 ]

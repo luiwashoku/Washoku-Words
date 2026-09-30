@@ -8,8 +8,8 @@
     "question": "I was going to go out, but I couldn't be bothered in the end.",
     "focus": [
       "〜つもりだった",
-      "結局",
-      "面倒になる"
+      "結局(けっきょく)",
+      "面倒(めんどう)になる"
     ],
     "register": "casual",
     "chunks": [
@@ -53,8 +53,8 @@
         8
       ]
     ],
-    "jpExplanation": "「つもりだった」は前(まえ)の予定(よてい)です。「面倒になってやめた」で、気持(きも)ちが変(か)わって行(い)かなかったと伝(つた)えます。",
-    "enExplanation": "つもりだった describes an intention you had. 結局 introduces the eventual outcome. 面倒になる means something starts to feel like too much bother; なって connects that feeling to giving up the plan."
+    "jpExplanation": "「つもりだった」は前(まえ)の予定(よてい)です。「面倒(めんどう)になってやめた」で、気持(きも)ちが変(か)わって行(い)かなかったと伝(つた)えます。",
+    "enExplanation": "つもりだった describes an intention you had. 結局(けっきょく) introduces the eventual outcome. 面倒(めんどう)になる means something starts to feel like too much bother; なって connects that feeling to giving up the plan."
   },
   {
     "id": "game-prototype-set02-q02",
@@ -98,8 +98,8 @@
         4
       ]
     ],
-    "jpExplanation": "「どこで食べるか」は、食べる場所(ばしょ)についての疑問(ぎもん)を文(ぶん)の中(なか)に入(い)れた形(かたち)です。「決めてない」は「決めていない」の話(はな)し言葉(ことば)です。",
-    "enExplanation": "どこで食べるか embeds “where to eat” inside the sentence. で marks where an action takes place. まだ決めてない means the decision is still open; 決めてない is the spoken contraction of 決めていない."
+    "jpExplanation": "「どこで食(た)べるか」は、食(た)べる場所(ばしょ)についての疑問(ぎもん)を文(ぶん)の中(なか)に入(い)れた形(かたち)です。「決(き)めてない」は「決(き)めていない」の話(はな)し言葉(ことば)です。",
+    "enExplanation": "どこで食(た)べるか embeds “where to eat” inside the sentence. で marks where an action takes place. まだ決(き)めてない means the decision is still open; 決(き)めてない is the spoken contraction of 決(き)めていない."
   },
   {
     "id": "game-prototype-set02-q03",
@@ -147,8 +147,8 @@
         6
       ]
     ],
-    "jpExplanation": "「どっちでもいい」は、二(ふた)つの選択肢(せんたくし)のどちらでも構(かま)わないという意味(いみ)です。ここでは、相手(あいて)に決めてもらっています。",
-    "enExplanation": "どっちでもいい means either option is fine, while どっちもいい says both are good. 決めていいよ lets the other person choose. The subject of 決めて is understood from the conversation."
+    "jpExplanation": "「どっちでもいい」は、二(ふた)つの選択肢(せんたくし)のどちらでも構(かま)わないという意味(いみ)です。ここでは、相手(あいて)に決(き)めてもらっています。",
+    "enExplanation": "どっちでもいい means either option is fine, while どっちもいい says both are good. 決(き)めていいよ lets the other person choose. The subject of 決(き)めて is understood from the conversation."
   },
   {
     "id": "game-prototype-set02-q04",
@@ -158,9 +158,9 @@
     "answerMode": "sentence-builder",
     "question": "I said I didn't need it, but I ended up buying it anyway.",
     "focus": [
-      "〜って言う",
+      "〜って言(い)う",
       "〜のに",
-      "結局",
+      "結局(けっきょく)",
       "〜ちゃう"
     ],
     "register": "casual",
@@ -202,8 +202,8 @@
         7
       ]
     ],
-    "jpExplanation": "「いらないって言ってたのに」は、前(まえ)に言ったことと結果(けっか)が違(ちが)うと伝(つた)えます。「買っちゃった」は「買ってしまった」のくだけた形(かたち)です。",
-    "enExplanation": "って is a conversational quotation marker. 言ってた contracts 言っていた, and のに highlights the contradiction. 結局買っちゃった gives the outcome with a sense of “despite what I said, I went and bought it.”"
+    "jpExplanation": "「いらないって言(い)ってたのに」は、前(まえ)に言(い)ったことと結果(けっか)が違(ちが)うと伝(つた)えます。「買(か)っちゃった」は「買(か)ってしまった」のくだけた形(かたち)です。",
+    "enExplanation": "って is a conversational quotation marker. 言(い)ってた contracts 言(い)っていた, and のに highlights the contradiction. 結局(けっきょく)買(か)っちゃった gives the outcome with a sense of “despite what I said, I went and bought it.”"
   },
   {
     "id": "game-prototype-set02-q05",
@@ -252,7 +252,7 @@
         6
       ]
     ],
-    "jpExplanation": "「どうせ買うなら」は、買うことを前提(ぜんてい)にしています。「ちゃんとしたもの」は、ここでは品質(ひんしつ)のよいものです。",
+    "jpExplanation": "「どうせ買(か)うなら」は、買(か)うことを前提(ぜんてい)にしています。「ちゃんとしたもの」は、ここでは品質(ひんしつ)のよいものです。",
     "enExplanation": "どうせ〜なら means “if we are going to do it anyway.” ちゃんとした modifies もの and suggests something decent or properly made, rather than simply expensive."
   },
   {
@@ -265,7 +265,7 @@
     "focus": [
       "〜けど",
       "たぶん",
-      "〜と思う"
+      "〜と思(おも)う"
     ],
     "register": "casual/plain",
     "chunks": [
@@ -309,8 +309,8 @@
         8
       ]
     ],
-    "jpExplanation": "「高いけど」で値段(ねだん)の気(き)になる点(てん)を認(みと)めています。「長く」は、使う期間(きかん)を表(あらわ)します。",
-    "enExplanation": "けど acknowledges the downside before explaining why it may still be worthwhile. 長い becomes 長く to describe how long you will use it. たぶん〜と思う presents this as your expectation, not a promise."
+    "jpExplanation": "「高(たか)いけど」で値段(ねだん)の気(き)になる点(てん)を認(みと)めています。「長(なが)く」は、使(つか)う期間(きかん)を表(あらわ)します。",
+    "enExplanation": "けど acknowledges the downside before explaining why it may still be worthwhile. 長(なが)い becomes 長(なが)く to describe how long you will use it. たぶん〜と思(おも)う presents this as your expectation, not a promise."
   },
   {
     "id": "game-prototype-set02-q07",
@@ -321,7 +321,7 @@
     "question": "I don't need it right away, so I'll think about it a little longer.",
     "focus": [
       "〜わけじゃない",
-      "もう少し"
+      "もう少(すこ)し"
     ],
     "register": "casual",
     "chunks": [
@@ -359,8 +359,8 @@
         6
       ]
     ],
-    "jpExplanation": "「今すぐ必要なわけじゃない」は、必要性(ひつようせい)を全部(ぜんぶ)否定(ひてい)せず、急(いそ)ぐ必要はないと伝(つた)えています。",
-    "enExplanation": "〜わけじゃない rejects a stronger assumption: the item is not necessarily unnecessary, but you do not need it immediately. 必要 takes な before わけ. もう少し考える gives yourself more time."
+    "jpExplanation": "「今(いま)すぐ必要(ひつよう)なわけじゃない」は、必要性(ひつようせい)を全部(ぜんぶ)否定(ひてい)せず、急(いそ)ぐ必要(ひつよう)はないと伝(つた)えています。",
+    "enExplanation": "〜わけじゃない rejects a stronger assumption: the item is not necessarily unnecessary, but you do not need it immediately. 必要(ひつよう) takes な before わけ. もう少(すこ)し考(かんが)える gives yourself more time."
   },
   {
     "id": "game-prototype-set02-q08",
@@ -370,8 +370,8 @@
     "answerMode": "sentence-builder",
     "question": "It seemed like a good idea at first.",
     "focus": [
-      "最初は",
-      "〜と思う"
+      "最初(さいしょ)は",
+      "〜と思(おも)う"
     ],
     "register": "casual/plain",
     "chunks": [
@@ -399,8 +399,8 @@
         5
       ]
     ],
-    "jpExplanation": "「最初は」は、初(はじ)めの印象(いんしょう)を伝(つた)えます。あとで考(かんが)えが変(か)わった可能性(かのうせい)も感(かん)じさせます。",
-    "enExplanation": "最初は frames your initial impression and can suggest that it later changed. Keep だ after the noun アイデア inside the thought: いいアイデアだと思った."
+    "jpExplanation": "「最初(さいしょ)は」は、初(はじ)めの印象(いんしょう)を伝(つた)えます。あとで考(かんが)えが変(か)わった可能性(かのうせい)も感(かん)じさせます。",
+    "enExplanation": "最初(さいしょ)は frames your initial impression and can suggest that it later changed. Keep だ after the noun アイデア inside the thought: いいアイデアだと思(おも)った."
   },
   {
     "id": "game-prototype-set02-q09",
@@ -456,7 +456,7 @@
         8
       ]
     ],
-    "jpExplanation": "「考えれば考えるほど」は、考える量(りょう)が増(ふ)えるにつれて、という意味(いみ)です。「わからなくなってきた」は、だんだん判断(はんだん)がつかなくなったと伝(つた)えます。",
+    "jpExplanation": "「考(かんが)えれば考(かんが)えるほど」は、考(かんが)える量(りょう)が増(ふ)えるにつれて、という意味(いみ)です。「わからなくなってきた」は、だんだん判断(はんだん)がつかなくなったと伝(つた)えます。",
     "enExplanation": "Conditional + the same verb + ほど expresses “the more…, the more….” わからなくなる is a change toward not knowing; なってきた describes that change developing up to now. Together they express growing uncertainty."
   },
   {
@@ -468,7 +468,7 @@
     "question": "I know what you mean, but I see it a little differently.",
     "focus": [
       "〜けど",
-      "見方"
+      "見(み)方(かた)"
     ],
     "register": "casual",
     "chunks": [
@@ -515,8 +515,8 @@
         9
       ]
     ],
-    "jpExplanation": "「言いたいことはわかる」で相手(あいて)の考(かんが)えを受(う)け止(と)めてから、自分(じぶん)の見方を伝(つた)えています。",
-    "enExplanation": "言いたいこと means the point someone wants to make. Acknowledge that point with わかるけど before disagreeing. 違う modifies 見方, “way of looking at it,” and してる contracts している."
+    "jpExplanation": "「言(い)いたいことはわかる」で相手(あいて)の考(かんが)えを受(う)け止(と)めてから、自分(じぶん)の見(み)方(かた)を伝(つた)えています。",
+    "enExplanation": "言(い)いたいこと means the point someone wants to make. Acknowledge that point with わかるけど before disagreeing. 違(ちが)う modifies 見(み)方(かた), “way of looking at it,” and してる contracts している."
   },
   {
     "id": "game-prototype-set02-q11",
@@ -526,8 +526,8 @@
     "answerMode": "sentence-builder",
     "question": "I don't think it's a bad idea, but I'm not completely convinced.",
     "focus": [
-      "〜とは思わない",
-      "迷う"
+      "〜とは思(おも)わない",
+      "迷(まよ)う"
     ],
     "register": "casual",
     "chunks": [
@@ -592,8 +592,8 @@
         8
       ]
     ],
-    "jpExplanation": "「悪いアイデアだとは思わない」は、悪いと評価(ひょうか)しているわけではないということです。「迷ってる」で、まだ気持(きも)ちが決(き)まっていないと伝(つた)えます。",
-    "enExplanation": "〜とは思わない denies that particular judgment without giving full approval. 迷ってる means being undecided or hesitant; here it conveys that you are not fully won over."
+    "jpExplanation": "「悪(わる)いアイデアだとは思(おも)わない」は、悪(わる)いと評価(ひょうか)しているわけではないということです。「迷(まよ)ってる」で、まだ気持(きも)ちが決(き)まっていないと伝(つた)えます。",
+    "enExplanation": "〜とは思(おも)わない denies that particular judgment without giving full approval. 迷(まよ)ってる means being undecided or hesitant; here it conveys that you are not fully won over."
   },
   {
     "id": "game-prototype-set02-q12",
@@ -630,7 +630,7 @@
         4
       ]
     ],
-    "jpExplanation": "「考えすぎてる」は「考えすぎている」の話(はな)し言葉(ことば)です。「のかもしれない」で、一(ひと)つの可能性(かのうせい)として伝(つた)えます。",
+    "jpExplanation": "「考(かんが)えすぎてる」は「考(かんが)えすぎている」の話(はな)し言葉(ことば)です。「のかもしれない」で、一(ひと)つの可能性(かのうせい)として伝(つた)えます。",
     "enExplanation": "Verb stem + すぎる means doing too much. すぎてる describes the ongoing state. のかもしれない tentatively interprets the situation, making this softer than directly saying “you are overthinking.”"
   },
   {
@@ -641,9 +641,9 @@
     "answerMode": "sentence-builder",
     "question": "I thought it would bother me more, but I've gotten used to it.",
     "focus": [
-      "気になる",
-      "〜と思ってた",
-      "慣れる"
+      "気(き)になる",
+      "〜と思(おも)ってた",
+      "慣(な)れる"
     ],
     "register": "casual",
     "chunks": [
@@ -687,8 +687,8 @@
         8
       ]
     ],
-    "jpExplanation": "ここでの「気になる」は、気(き)にかかるという意味(いみ)です。「もう慣れた」で、今(いま)は平気(へいき)になったと伝(つた)えます。",
-    "enExplanation": "気になる can mean being bothered, not just being curious. 思ってた gives your earlier expectation, while もう慣れた states that you are now used to it. The expectation and the adjustment are separate parts of the thought."
+    "jpExplanation": "ここでの「気(き)になる」は、気(き)にかかるという意味(いみ)です。「もう慣(な)れた」で、今(いま)は平気(へいき)になったと伝(つた)えます。",
+    "enExplanation": "気(き)になる can mean being bothered, not just being curious. 思(おも)ってた gives your earlier expectation, while もう慣(な)れた states that you are now used to it. The expectation and the adjustment are separate parts of the thought."
   },
   {
     "id": "game-prototype-set02-q14",
@@ -698,7 +698,7 @@
     "answerMode": "sentence-builder",
     "question": "I'm not in a hurry, so whenever is fine.",
     "focus": [
-      "急ぐ",
+      "急(いそ)ぐ",
       "いつでもいい"
     ],
     "register": "casual",
@@ -731,8 +731,8 @@
         4
       ]
     ],
-    "jpExplanation": "「急いでない」は「急いでいない」の話(はな)し言葉(ことば)です。「いつでもいいよ」で、時間(じかん)を相手(あいて)に合(あ)わせられると伝(つた)えます。",
-    "enExplanation": "いつでもいい means any time is fine; いつも means always. 急いでない explains why there is no time pressure, and よ makes the reassurance conversational."
+    "jpExplanation": "「急(いそ)いでない」は「急(いそ)いでいない」の話(はな)し言葉(ことば)です。「いつでもいいよ」で、時間(じかん)を相手(あいて)に合(あ)わせられると伝(つた)えます。",
+    "enExplanation": "いつでもいい means any time is fine; いつも means always. 急(いそ)いでない explains why there is no time pressure, and よ makes the reassurance conversational."
   },
   {
     "id": "game-prototype-set02-q15",
@@ -769,7 +769,7 @@
         4
       ]
     ],
-    "jpExplanation": "「着いてから」は、到着(とうちゃく)したあとという意味(いみ)です。「決めればいいよ」で、今(いま)決めなくてもよいと伝(つた)えています。",
+    "jpExplanation": "「着(つ)いてから」は、到着(とうちゃく)したあとという意味(いみ)です。「決(き)めればいいよ」で、今(いま)決(き)めなくてもよいと伝(つた)えています。",
     "enExplanation": "〜てから sets the sequence: arrive first, decide afterward. 〜ばいい offers a sufficient solution—“we can just decide then”—rather than a strict instruction."
   },
   {
@@ -819,8 +819,8 @@
         6
       ]
     ],
-    "jpExplanation": "「よかったら」は天気の条件(じょうけん)です。「食べてもいいね」は、ここでは外で食べる案(あん)を出(だ)しています。",
-    "enExplanation": "〜たら sets a possible condition. 〜てもいいね can suggest an appealing option, not just grant permission. Use 外で because で marks where the eating happens."
+    "jpExplanation": "「よかったら」は天気(てんき)の条件(じょうけん)です。「食(た)べてもいいね」は、ここでは外(そと)で食(た)べる案(あん)を出(だ)しています。",
+    "enExplanation": "〜たら sets a possible condition. 〜てもいいね can suggest an appealing option, not just grant permission. Use 外(そと)で because で marks where the eating happens."
   },
   {
     "id": "game-prototype-set02-q17",
@@ -864,8 +864,8 @@
         4
       ]
     ],
-    "jpExplanation": "「あんまり」は「あまり」のくだけた形(かたち)です。「先まで予定を決めたくない」は、遠(とお)い先の予定まで決めるのを避(さ)けたいということです。",
-    "enExplanation": "あんまり + negative means “not too much.” 先まで emphasizes planning far ahead; the sentence communicates reluctance to commit too much in advance. 決めたい becomes 決めたくない for “don’t want to decide.”"
+    "jpExplanation": "「あんまり」は「あまり」のくだけた形(かたち)です。「先(さき)まで予定(よてい)を決(き)めたくない」は、遠(とお)い先(さき)の予定(よてい)まで決(き)めるのを避(さ)けたいということです。",
+    "enExplanation": "あんまり + negative means “not too much.” 先(さき)まで emphasizes planning far ahead; the sentence communicates reluctance to commit too much in advance. 決(き)めたい becomes 決(き)めたくない for “don’t want to decide.”"
   },
   {
     "id": "game-prototype-set02-q18",
@@ -875,8 +875,8 @@
     "answerMode": "sentence-builder",
     "question": "Let's just see how we feel that day.",
     "focus": [
-      "〜で決める",
-      "気分"
+      "〜で決(き)める",
+      "気分(きぶん)"
     ],
     "register": "casual",
     "chunks": [
@@ -900,8 +900,8 @@
         3
       ]
     ],
-    "jpExplanation": "「気分で決める」は、そのときの気持(きも)ちを基準(きじゅん)にして決めるということです。「決めよう」は相手(あいて)への提案(ていあん)です。",
-    "enExplanation": "で marks the basis for the decision: how you feel that day. 決めよう is the volitional form used for a shared suggestion, leaving the details open until then."
+    "jpExplanation": "「気分(きぶん)で決(き)める」は、そのときの気持(きも)ちを基準(きじゅん)にして決(き)めるということです。「決(き)めよう」は相手(あいて)への提案(ていあん)です。",
+    "enExplanation": "で marks the basis for the decision: how you feel that day. 決(き)めよう is the volitional form used for a shared suggestion, leaving the details open until then."
   },
   {
     "id": "game-prototype-set02-q19",
@@ -913,7 +913,7 @@
     "focus": [
       "〜てた",
       "〜もので",
-      "済ませる"
+      "済(す)ませる"
     ],
     "register": "casual",
     "chunks": [
@@ -954,8 +954,8 @@
         7
       ]
     ],
-    "jpExplanation": "「残ってたもの」は、冷蔵庫にあった食(た)べ物(もの)です。「それで済ませた」は、それを食べて食事(しょくじ)を終(お)えたということです。",
-    "enExplanation": "〜てた contracts 〜ていた. 残ってた modifies もの, “what was left.” Here もので is the noun もの plus the means particle で—not the explanatory conjunction もので. 〜で済ませた means you made do with that."
+    "jpExplanation": "「残(のこ)ってたもの」は、冷蔵(れいぞう)庫(こ)にあった食(た)べ物(もの)です。「それで済(す)ませた」は、それを食(た)べて食事(しょくじ)を終(お)えたということです。",
+    "enExplanation": "〜てた contracts 〜ていた. 残(のこ)ってた modifies もの, “what was left.” Here もので is the noun もの plus the means particle で—not the explanatory conjunction もので. 〜で済(す)ませた means you made do with that."
   },
   {
     "id": "game-prototype-set02-q20",
@@ -988,8 +988,8 @@
         2
       ]
     ],
-    "jpExplanation": "「買いすぎた」は、必要(ひつよう)な量(りょう)より多(おお)く買ったという意味(いみ)です。「また」で同(おな)じことを繰(く)り返(かえ)したと伝(つた)えます。",
-    "enExplanation": "Use the verb stem before すぎる: 買います → 買いすぎる. すぎた puts it in the past. また adds the familiar feeling of having repeated the same mistake."
+    "jpExplanation": "「買(か)いすぎた」は、必要(ひつよう)な量(りょう)より多(おお)く買(か)ったという意味(いみ)です。「また」で同(おな)じことを繰(く)り返(かえ)したと伝(つた)えます。",
+    "enExplanation": "Use the verb stem before すぎる: 買(か)います → 買(か)いすぎる. すぎた puts it in the past. また adds the familiar feeling of having repeated the same mistake."
   },
   {
     "id": "game-prototype-set02-q21",
@@ -999,7 +999,7 @@
     "answerMode": "sentence-builder",
     "question": "We should use this before it goes bad.",
     "focus": [
-      "〜前に",
+      "〜前(まえ)に",
       "〜ちゃおう"
     ],
     "register": "casual",
@@ -1055,8 +1055,8 @@
         6
       ]
     ],
-    "jpExplanation": "「悪くなる前に」は、傷(いた)むより先(さき)にという意味(いみ)です。「使っちゃおう」は「使ってしまおう」のくだけた提案(ていあん)です。",
-    "enExplanation": "Use the dictionary form before 前に: 悪くなる前に. 使っちゃおう contracts 使ってしまおう and suggests getting it used up. Casual speech often omits を after これ."
+    "jpExplanation": "「悪(わる)くなる前(まえ)に」は、傷(いた)むより先(さき)にという意味(いみ)です。「使(つか)っちゃおう」は「使(つか)ってしまおう」のくだけた提案(ていあん)です。",
+    "enExplanation": "Use the dictionary form before 前(まえ)に: 悪(わる)くなる前(まえ)に. 使(つか)っちゃおう contracts 使(つか)ってしまおう and suggests getting it used up. Casual speech often omits を after これ."
   },
   {
     "id": "game-prototype-set02-q22",
@@ -1066,7 +1066,7 @@
     "answerMode": "sentence-builder",
     "question": "It still tastes fine, so I don't think we need to throw it away.",
     "focus": [
-      "普通に",
+      "普通(ふつう)に",
       "〜なくてもいい"
     ],
     "register": "casual/plain",
@@ -1114,8 +1114,8 @@
         9
       ]
     ],
-    "jpExplanation": "ここでの「普通に食べられる」は、話(はな)し手(て)が食べるのに問題(もんだい)ないと感(かん)じているということです。「捨てなくてもいい」は、捨てる必要(ひつよう)はないという意味(いみ)です。",
-    "enExplanation": "普通に here means “without a problem / perfectly well,” reflecting the speaker’s assessment. 〜なくてもいい removes an obligation: there is no need to throw it away. と思う frames that as the speaker’s opinion."
+    "jpExplanation": "ここでの「普通(ふつう)に食(た)べられる」は、話(はな)し手(て)が食(た)べるのに問題(もんだい)ないと感(かん)じているということです。「捨(す)てなくてもいい」は、捨(す)てる必要(ひつよう)はないという意味(いみ)です。",
+    "enExplanation": "普通(ふつう)に here means “without a problem / perfectly well,” reflecting the speaker’s assessment. 〜なくてもいい removes an obligation: there is no need to throw it away. と思(おも)う frames that as the speaker’s opinion."
   },
   {
     "id": "game-prototype-set02-q23",
@@ -1125,9 +1125,9 @@
     "answerMode": "sentence-builder",
     "question": "I prefer food that isn't too heavily seasoned.",
     "focus": [
-      "味が濃い",
+      "味(あじ)が濃(こ)い",
       "〜すぎない",
-      "〜ほうが好き"
+      "〜ほうが好(す)き"
     ],
     "register": "casual/plain",
     "chunks": [
@@ -1155,8 +1155,8 @@
         5
       ]
     ],
-    "jpExplanation": "「味が濃い」は、味付(あじつ)けが強(つよ)いということです。「濃すぎない」は、濃さが強すぎないという意味(いみ)です。",
-    "enExplanation": "味が濃い describes strong seasoning. Drop the final い before すぎる: 濃い → 濃すぎない. The whole clause describes 料理, and のほうが好き expresses a preference without needing to spell out the other option."
+    "jpExplanation": "「味(あじ)が濃(こ)い」は、味付(あじつ)けが強(つよ)いということです。「濃(こ)すぎない」は、濃(こ)さが強(つよ)すぎないという意味(いみ)です。",
+    "enExplanation": "味(あじ)が濃(こ)い describes strong seasoning. Drop the final い before すぎる: 濃(こ)い → 濃(こ)すぎない. The whole clause describes 料理(りょうり), and のほうが好(す)き expresses a preference without needing to spell out the other option."
   },
   {
     "id": "game-prototype-set02-q24",
@@ -1206,8 +1206,8 @@
         6
       ]
     ],
-    "jpExplanation": "「たくさんは」の「は」は、少(すこ)しなら食べられても、量(りょう)が多(おお)いと難(むずか)しいという対比(たいひ)です。「かな」で断定(だんてい)を避(さ)けています。",
-    "enExplanation": "は contrasts the amount: some may be fine, but a lot would be difficult. 食べられない is the negative potential, “can’t eat.” Sentence-final かな softens this into a tentative personal reaction."
+    "jpExplanation": "「たくさんは」の「は」は、少(すこ)しなら食(た)べられても、量(りょう)が多(おお)いと難(むずか)しいという対比(たいひ)です。「かな」で断定(だんてい)を避(さ)けています。",
+    "enExplanation": "は contrasts the amount: some may be fine, but a lot would be difficult. 食(た)べられない is the negative potential, “can’t eat.” Sentence-final かな softens this into a tentative personal reaction."
   },
   {
     "id": "game-prototype-set02-q25",
@@ -1218,7 +1218,7 @@
     "question": "It's not spicy, but it has a bit of a kick.",
     "focus": [
       "〜くはない",
-      "刺激がある"
+      "刺激(しげき)がある"
     ],
     "register": "casual/plain",
     "chunks": [
@@ -1259,8 +1259,8 @@
         7
       ]
     ],
-    "jpExplanation": "「辛くはない」は、辛さについては否定(ひてい)する言(い)い方(かた)です。「刺激がある」で、ほかのピリッとした感(かん)じを伝(つた)えています。",
-    "enExplanation": "Adjective 〜くはない denies one quality contrastively, leaving room for another. 刺激がある describes a stimulating or sharp sensation; it does not have to mean chili heat."
+    "jpExplanation": "「辛(から)くはない」は、辛(から)さについては否定(ひてい)する言(い)い方(かた)です。「刺激(しげき)がある」で、ほかのピリッとした感(かん)じを伝(つた)えています。",
+    "enExplanation": "Adjective 〜くはない denies one quality contrastively, leaving room for another. 刺激(しげき)がある describes a stimulating or sharp sensation; it does not have to mean chili heat."
   },
   {
     "id": "game-prototype-set02-q26",
@@ -1270,7 +1270,7 @@
     "answerMode": "sentence-builder",
     "question": "I think this would be better with a little more acidity.",
     "focus": [
-      "もう少し",
+      "もう少(すこ)し",
       "〜たほうがいい"
     ],
     "register": "casual/plain",
@@ -1310,8 +1310,8 @@
         6
       ]
     ],
-    "jpExplanation": "「酸味があったほうがいい」は、酸味を加(くわ)えるともっとよくなるという意見(いけん)です。「あった」は、ここでは過去(かこ)の話(はなし)ではありません。",
-    "enExplanation": "〜たほうがいい compares the current situation with a preferable option. あった does not mean the acidity existed in the past here. もう少し asks for a small adjustment, and と思う keeps the suggestion personal."
+    "jpExplanation": "「酸味(さんみ)があったほうがいい」は、酸味(さんみ)を加(くわ)えるともっとよくなるという意見(いけん)です。「あった」は、ここでは過去(かこ)の話(はなし)ではありません。",
+    "enExplanation": "〜たほうがいい compares the current situation with a preferable option. あった does not mean the acidity existed in the past here. もう少(すこ)し asks for a small adjustment, and と思(おも)う keeps the suggestion personal."
   },
   {
     "id": "game-prototype-set02-q27",
@@ -1323,7 +1323,7 @@
     "focus": [
       "〜く",
       "〜と",
-      "全然違う"
+      "全然(ぜんぜん)違(ちが)う"
     ],
     "register": "casual/plain",
     "chunks": [
@@ -1361,8 +1361,8 @@
         6
       ]
     ],
-    "jpExplanation": "「薄く」は切り方(きりかた)を表(あらわ)します。「切ると」は、そう切った場合(ばあい)に起(お)こる変化(へんか)につなげています。",
-    "enExplanation": "薄い becomes 薄く to describe the cutting. Dictionary-form verb + と connects an action to its regular result. 全然違う is a common expression for being completely different; 全然 is natural here without a negative ending."
+    "jpExplanation": "「薄(うす)く」は切り方(きりかた)を表(あらわ)します。「切(き)ると」は、そう切(き)った場合(ばあい)に起(お)こる変化(へんか)につなげています。",
+    "enExplanation": "薄(うす)い becomes 薄(うす)く to describe the cutting. Dictionary-form verb + と connects an action to its regular result. 全然(ぜんぜん)違(ちが)う is a common expression for being completely different; 全然(ぜんぜん) is natural here without a negative ending."
   },
   {
     "id": "game-prototype-set02-q28",
@@ -1372,7 +1372,7 @@
     "answerMode": "sentence-builder",
     "question": "I wasn't hungry, but once I started eating, I got hungry.",
     "focus": [
-      "〜始める",
+      "〜始(はじ)める",
       "〜たら",
       "〜てくる"
     ],
@@ -1444,8 +1444,8 @@
         9
       ]
     ],
-    "jpExplanation": "「食べ始めたら」は、食べることを始めたあとで、という意味(いみ)です。「お腹空いてきた」は、空腹(くうふく)を感(かん)じるようになったと伝(つた)えます。",
-    "enExplanation": "Stem + 始める means starting an action. たら introduces what happened afterward, and 空いてきた describes hunger developing. お腹が空く often loses が in casual conversation. The two identical お腹 tiles can be used interchangeably."
+    "jpExplanation": "「食(た)べ始(はじ)めたら」は、食(た)べることを始(はじ)めたあとで、という意味(いみ)です。「お腹(なか)空(す)いてきた」は、空腹(くうふく)を感(かん)じるようになったと伝(つた)えます。",
+    "enExplanation": "Stem + 始(はじ)める means starting an action. たら introduces what happened afterward, and 空(す)いてきた describes hunger developing. お腹(なか)が空(す)く often loses が in casual conversation. The two identical お腹(なか) tiles can be used interchangeably."
   },
   {
     "id": "game-prototype-set02-q29",
@@ -1455,7 +1455,7 @@
     "answerMode": "sentence-builder",
     "question": "I thought we had some left, but apparently we used it all.",
     "focus": [
-      "〜と思ってた",
+      "〜と思(おも)ってた",
       "〜ちゃう",
       "〜みたい"
     ],
@@ -1504,8 +1504,8 @@
         9
       ]
     ],
-    "jpExplanation": "「まだあると思ってた」は、残(のこ)っているという前(まえ)の考(かんが)えです。「使っちゃったみたい」は、今(いま)の状況(じょうきょう)から全部使ったと判断(はんだん)しています。",
-    "enExplanation": "The present form ある sits inside the earlier thought: you believed some remained. 使っちゃった contracts 使ってしまった and suggests it is all gone. みたい presents that conclusion as an inference rather than a directly remembered fact."
+    "jpExplanation": "「まだあると思(おも)ってた」は、残(のこ)っているという前(まえ)の考(かんが)えです。「使(つか)っちゃったみたい」は、今(いま)の状況(じょうきょう)から全部(ぜんぶ)使(つか)ったと判断(はんだん)しています。",
+    "enExplanation": "The present form ある sits inside the earlier thought: you believed some remained. 使(つか)っちゃった contracts 使(つか)ってしまった and suggests it is all gone. みたい presents that conclusion as an inference rather than a directly remembered fact."
   },
   {
     "id": "game-prototype-set02-q30",
@@ -1554,8 +1554,8 @@
         6
       ]
     ],
-    "jpExplanation": "「そのまま」は、今(いま)の状態(じょうたい)を変(か)えずにという意味(いみ)です。「置いといて」は「置いておいて」の話(はな)し言葉(ことば)です。",
-    "enExplanation": "そのまま means leaving things as they are. 置いといて contracts 置いておいて and works as a casual request. から connects your promise to tidy up later with what you want the other person to do now."
+    "jpExplanation": "「そのまま」は、今(いま)の状態(じょうたい)を変(か)えずにという意味(いみ)です。「置(お)いといて」は「置(お)いておいて」の話(はな)し言葉(ことば)です。",
+    "enExplanation": "そのまま means leaving things as they are. 置(お)いといて contracts 置(お)いておいて and works as a casual request. から connects your promise to tidy up later with what you want the other person to do now."
   },
   {
     "id": "game-prototype-set02-q31",
@@ -1566,7 +1566,7 @@
     "question": "I keep putting it off because it's not urgent.",
     "focus": [
       "つい",
-      "後回しにする",
+      "後回(あとまわ)しにする",
       "〜ちゃう"
     ],
     "register": "casual",
@@ -1605,8 +1605,8 @@
         6
       ]
     ],
-    "jpExplanation": "「後回しにする」は、今(いま)やらずにあとに延(の)ばすことです。「つい」で、気(き)がつくとそうしてしまうという気持(きも)ちを伝(つた)えます。",
-    "enExplanation": "後回しにする is the reusable chunk for putting something off. つい describes slipping into an action without really meaning to. しちゃう contracts してしまう; here its nonpast form describes a recurring tendency."
+    "jpExplanation": "「後回(あとまわ)しにする」は、今(いま)やらずにあとに延(の)ばすことです。「つい」で、気(き)がつくとそうしてしまうという気持(きも)ちを伝(つた)えます。",
+    "enExplanation": "後回(あとまわ)しにする is the reusable chunk for putting something off. つい describes slipping into an action without really meaning to. しちゃう contracts してしまう; here its nonpast form describes a recurring tendency."
   },
   {
     "id": "game-prototype-set02-q32",
@@ -1654,8 +1654,8 @@
     "answerMode": "sentence-builder",
     "question": "It took longer than I expected, but at least it's done.",
     "focus": [
-      "思ったより",
-      "時間がかかる",
+      "思(おも)ったより",
+      "時間(じかん)がかかる",
       "とりあえず"
     ],
     "register": "casual",
@@ -1694,8 +1694,8 @@
         6
       ]
     ],
-    "jpExplanation": "「時間かかった」は「時間がかかった」のくだけた形(かたち)です。「とりあえず終わった」で、まずは終わったことを受(う)け止(と)めています。",
-    "enExplanation": "時間がかかる means “take time”; が is often dropped in casual speech. 思ったより compares it with your expectation. とりあえず終わった acknowledges completion for now, even if other concerns remain."
+    "jpExplanation": "「時間(じかん)かかった」は「時間(じかん)がかかった」のくだけた形(かたち)です。「とりあえず終(お)わった」で、まずは終(お)わったことを受(う)け止(と)めています。",
+    "enExplanation": "時間(じかん)がかかる means “take time”; が is often dropped in casual speech. 思(おも)ったより compares it with your expectation. とりあえず終(お)わった acknowledges completion for now, even if other concerns remain."
   },
   {
     "id": "game-prototype-set02-q34",
@@ -1705,7 +1705,7 @@
     "answerMode": "sentence-builder",
     "question": "There's no point worrying about it now.",
     "focus": [
-      "今さら",
+      "今(いま)さら",
       "〜てもしょうがない"
     ],
     "register": "casual",
@@ -1732,8 +1732,8 @@
         4
       ]
     ],
-    "jpExplanation": "「今さら」は、今になっても遅(おそ)いという気持(きも)ちです。「気にしてもしょうがない」は、気にしても状況(じょうきょう)は変(か)わらないということです。",
-    "enExplanation": "今さら suggests that the useful moment has passed. 〜てもしょうがない means an action would not help now. 気にする means paying attention to or worrying about something; use its て form before も."
+    "jpExplanation": "「今(いま)さら」は、今(いま)になっても遅(おそ)いという気持(きも)ちです。「気(き)にしてもしょうがない」は、気(き)にしても状況(じょうきょう)は変(か)わらないということです。",
+    "enExplanation": "今(いま)さら suggests that the useful moment has passed. 〜てもしょうがない means an action would not help now. 気(き)にする means paying attention to or worrying about something; use its て form before も."
   },
   {
     "id": "game-prototype-set02-q35",
@@ -1743,7 +1743,7 @@
     "answerMode": "sentence-builder",
     "question": "It's annoying, but there's nothing we can do about it.",
     "focus": [
-      "面倒",
+      "面倒(めんどう)",
       "しょうがない"
     ],
     "register": "casual",
@@ -1779,8 +1779,8 @@
         5
       ]
     ],
-    "jpExplanation": "「面倒だけど」で手間(てま)や不満(ふまん)を認(みと)めています。「しょうがないね」は、変(か)えられない状況(じょうきょう)を受(う)け入(い)れる言(い)い方(かた)です。",
-    "enExplanation": "面倒 describes hassle or bother. しょうがない is conversational “it can’t be helped.” ね invites agreement or shares resignation with the other person. Keep だ after 面倒 before けど."
+    "jpExplanation": "「面倒(めんどう)だけど」で手間(てま)や不満(ふまん)を認(みと)めています。「しょうがないね」は、変(か)えられない状況(じょうきょう)を受(う)け入(い)れる言(い)い方(かた)です。",
+    "enExplanation": "面倒(めんどう) describes hassle or bother. しょうがない is conversational “it can’t be helped.” ね invites agreement or shares resignation with the other person. Keep だ after 面倒(めんどう) before けど."
   },
   {
     "id": "game-prototype-set02-q36",
@@ -1790,7 +1790,7 @@
     "answerMode": "sentence-builder",
     "question": "I completely forgot I said I'd do that.",
     "focus": [
-      "〜って言う",
+      "〜って言(い)う",
       "すっかり",
       "〜てた"
     ],
@@ -1833,8 +1833,8 @@
         7
       ]
     ],
-    "jpExplanation": "「それやるって言ったの」は、それをすると言ったことです。「すっかり忘れてた」は、完全(かんぜん)に忘れていたと伝(つた)えます。",
-    "enExplanation": "って quotes the commitment, and の turns “I said I’d do it” into the thing you forgot. Casual speech leaves out を after それ and after の here. すっかり intensifies the forgetting; 忘れてた contracts 忘れていた."
+    "jpExplanation": "「それやるって言(い)ったの」は、それをすると言(い)ったことです。「すっかり忘(わす)れてた」は、完全(かんぜん)に忘(わす)れていたと伝(つた)えます。",
+    "enExplanation": "って quotes the commitment, and の turns “I said I’d do it” into the thing you forgot. Casual speech leaves out を after それ and after の here. すっかり intensifies the forgetting; 忘(わす)れてた contracts 忘(わす)れていた."
   },
   {
     "id": "game-prototype-set02-q37",
@@ -1844,8 +1844,8 @@
     "answerMode": "sentence-builder",
     "question": "I remembered right before I went to bed.",
     "focus": [
-      "〜直前に",
-      "思い出す"
+      "〜直前(ちょくぜん)に",
+      "思(おも)い出(だ)す"
     ],
     "register": "casual/plain",
     "chunks": [
@@ -1867,8 +1867,8 @@
         2
       ]
     ],
-    "jpExplanation": "「寝る直前に」は、寝るすぐ前(まえ)という意味(いみ)です。「思い出した」は、忘(わす)れていたことが頭(あたま)に戻(もど)ってきたということです。",
-    "enExplanation": "Dictionary-form verb + 直前に means immediately before doing it, even in a past account. 思い出す is remembering something that had slipped your mind. 直後に would mean immediately afterward."
+    "jpExplanation": "「寝(ね)る直前(ちょくぜん)に」は、寝(ね)るすぐ前(まえ)という意味(いみ)です。「思(おも)い出(だ)した」は、忘(わす)れていたことが頭(あたま)に戻(もど)ってきたということです。",
+    "enExplanation": "Dictionary-form verb + 直前(ちょくぜん)に means immediately before doing it, even in a past account. 思(おも)い出(だ)す is remembering something that had slipped your mind. 直後(ちょくご)に would mean immediately afterward."
   },
   {
     "id": "game-prototype-set02-q38",
@@ -1878,7 +1878,7 @@
     "answerMode": "sentence-builder",
     "question": "I thought I had more time.",
     "focus": [
-      "〜と思ってた"
+      "〜と思(おも)ってた"
     ],
     "register": "casual",
     "chunks": [
@@ -1904,8 +1904,8 @@
         4
       ]
     ],
-    "jpExplanation": "「まだ時間ある」は、時間が残(のこ)っているという考(かんが)えです。「思ってた」で、前(まえ)はそう考えていたと伝(つた)えます。",
-    "enExplanation": "まだ時間ある states the belief you had at the time. Japanese keeps ある inside that past belief rather than automatically shifting it to あった. 思ってた is conversational 思っていた; the missing が after 時間 is also normal casual speech."
+    "jpExplanation": "「まだ時間(じかん)ある」は、時間(じかん)が残(のこ)っているという考(かんが)えです。「思(おも)ってた」で、前(まえ)はそう考(かんが)えていたと伝(つた)えます。",
+    "enExplanation": "まだ時間(じかん)ある states the belief you had at the time. Japanese keeps ある inside that past belief rather than automatically shifting it to あった. 思(おも)ってた is conversational 思(おも)っていた; the missing が after 時間(じかん) is also normal casual speech."
   },
   {
     "id": "game-prototype-set02-q39",
@@ -1917,7 +1917,7 @@
     "focus": [
       "けっこう",
       "〜けど",
-      "悪くない"
+      "悪(わる)くない"
     ],
     "register": "casual",
     "chunks": [
@@ -1955,8 +1955,8 @@
         6
       ]
     ],
-    "jpExplanation": "「けっこう忙しい」は、忙しさがかなりあるということです。「悪くない」で、その状況(じょうきょう)を前向(まえむ)きに受(う)け止(と)めています。",
-    "enExplanation": "けっこう means fairly or quite. 悪くない literally says “not bad,” but here it positively evaluates being busy. It is an understated conversational way to communicate that you are reasonably happy with the situation."
+    "jpExplanation": "「けっこう忙(いそが)しい」は、忙(いそが)しさがかなりあるということです。「悪(わる)くない」で、その状況(じょうきょう)を前向(まえむ)きに受(う)け止(と)めています。",
+    "enExplanation": "けっこう means fairly or quite. 悪(わる)くない literally says “not bad,” but here it positively evaluates being busy. It is an understated conversational way to communicate that you are reasonably happy with the situation."
   },
   {
     "id": "game-prototype-set02-q40",
@@ -2006,8 +2006,8 @@
         6
       ]
     ],
-    "jpExplanation": "「帰って」は、そのあと家で過(す)ごすことにつなげています。「ゆっくりする」は、ここではのんびり休(やす)むことです。",
-    "enExplanation": "The て form links going home to what you want to do afterward. ゆっくりする means taking it easy or relaxing here, not simply moving slowly. 家で marks where that relaxing happens."
+    "jpExplanation": "「帰(かえ)って」は、そのあと家(いえ)で過(す)ごすことにつなげています。「ゆっくりする」は、ここではのんびり休(やす)むことです。",
+    "enExplanation": "The て form links going home to what you want to do afterward. ゆっくりする means taking it easy or relaxing here, not simply moving slowly. 家(いえ)で marks where that relaxing happens."
   },
   {
     "id": "game-prototype-set02-q41",
@@ -2065,8 +2065,8 @@
         9
       ]
     ],
-    "jpExplanation": "「好きな人が多いのはわかる」は、人気(にんき)があることを認(みと)めています。ここでの「私はそこまでかな」は、自分(じぶん)はそれほどではないという気持(きも)ちを、はっきり言(い)い切(き)らずに伝(つた)えています。",
-    "enExplanation": "のは packages the first clause as something you acknowledge. 私はそこまでかな is an elliptical, hesitant reaction here: the intended “not that enthusiastic myself” is understood from the contrast and conversational context, rather than stated with an explicit negative."
+    "jpExplanation": "「好(す)きな人(ひと)が多(おお)いのはわかる」は、人気(にんき)があることを認(みと)めています。ここでの「私(わたし)はそこまでかな」は、自分(じぶん)はそれほどではないという気持(きも)ちを、はっきり言(い)い切(き)らずに伝(つた)えています。",
+    "enExplanation": "のは packages the first clause as something you acknowledge. 私(わたし)はそこまでかな is an elliptical, hesitant reaction here: the intended “not that enthusiastic myself” is understood from the contrast and conversational context, rather than stated with an explicit negative."
   },
   {
     "id": "game-prototype-set02-q42",
@@ -2076,8 +2076,8 @@
     "answerMode": "sentence-builder",
     "question": "I used to like it more than I do now.",
     "focus": [
-      "前は",
-      "今より"
+      "前(まえ)は",
+      "今(いま)より"
     ],
     "register": "casual/plain",
     "chunks": [
@@ -2101,8 +2101,8 @@
         3
       ]
     ],
-    "jpExplanation": "「前は」は過去(かこ)の気持(きも)ち、「今より」は比(くら)べる相手(あいて)です。今も好きかどうかは、この文(ぶん)だけでは決(き)まりません。",
-    "enExplanation": "より marks the comparison point: now. 好きだった states your former level of liking. The sentence does not say you dislike it now, only that your earlier enthusiasm was stronger."
+    "jpExplanation": "「前(まえ)は」は過去(かこ)の気持(きも)ち、「今(いま)より」は比(くら)べる相手(あいて)です。今(いま)も好(す)きかどうかは、この文(ぶん)だけでは決(き)まりません。",
+    "enExplanation": "より marks the comparison point: now. 好(す)きだった states your former level of liking. The sentence does not say you dislike it now, only that your earlier enthusiasm was stronger."
   },
   {
     "id": "game-prototype-set02-q43",
@@ -2139,7 +2139,7 @@
         4
       ]
     ],
-    "jpExplanation": "「わざわざ」は、特(とく)に手間(てま)をかけてすることです。「買うほどではない」は、そこまでするほどではないという評価(ひょうか)です。",
+    "jpExplanation": "「わざわざ」は、特(とく)に手間(てま)をかけてすることです。「買(か)うほどではない」は、そこまでするほどではないという評価(ひょうか)です。",
     "enExplanation": "わざわざ adds deliberate extra effort. 〜ほどではない says something does not reach the level that would justify that effort. かな softens the judgment into your own tentative assessment."
   },
   {
@@ -2150,8 +2150,8 @@
     "answerMode": "sentence-builder",
     "question": "It's better than I expected, actually.",
     "focus": [
-      "思ってたより",
-      "意外と"
+      "思(おも)ってたより",
+      "意外(いがい)と"
     ],
     "register": "casual",
     "chunks": [
@@ -2180,8 +2180,8 @@
         3
       ]
     ],
-    "jpExplanation": "「思ってたより」は予想(よそう)との比較(ひかく)です。「意外といい」は、よい意味(いみ)で予想と違(ちが)ったという反応(はんのう)です。",
-    "enExplanation": "思ってたより compares the result with your earlier expectation. 意外と adds the speaker’s surprise: “actually, surprisingly good.” いい gives your current impression; よかった would place the evaluation in the past."
+    "jpExplanation": "「思(おも)ってたより」は予想(よそう)との比較(ひかく)です。「意外(いがい)といい」は、よい意味(いみ)で予想(よそう)と違(ちが)ったという反応(はんのう)です。",
+    "enExplanation": "思(おも)ってたより compares the result with your earlier expectation. 意外(いがい)と adds the speaker’s surprise: “actually, surprisingly good.” いい gives your current impression; よかった would place the evaluation in the past."
   },
   {
     "id": "game-prototype-set02-q45",
@@ -2192,7 +2192,7 @@
     "question": "I don't hate it, but I wouldn't choose it myself.",
     "focus": [
       "〜けど",
-      "自分では",
+      "自分(じぶん)では",
       "〜かな"
     ],
     "register": "casual",
@@ -2228,8 +2228,8 @@
         5
       ]
     ],
-    "jpExplanation": "「嫌いじゃない」は嫌(いや)だとは言(い)っていません。「自分では選ばないかな」で、自分が選択(せんたく)するときの気持(きも)ちをやわらかく伝(つた)えます。",
-    "enExplanation": "自分では contrasts your own choice with someone else’s. 嫌いじゃない avoids an outright rejection, while 選ばないかな tentatively says you would not pick it yourself."
+    "jpExplanation": "「嫌(きら)いじゃない」は嫌(いや)だとは言(い)っていません。「自分(じぶん)では選(えら)ばないかな」で、自分(じぶん)が選択(せんたく)するときの気持(きも)ちをやわらかく伝(つた)えます。",
+    "enExplanation": "自分(じぶん)では contrasts your own choice with someone else’s. 嫌(きら)いじゃない avoids an outright rejection, while 選(えら)ばないかな tentatively says you would not pick it yourself."
   },
   {
     "id": "game-prototype-set02-q46",
@@ -2239,7 +2239,7 @@
     "answerMode": "sentence-builder",
     "question": "Once I buy something, I tend to use it for a long time.",
     "focus": [
-      "一度〜たら",
+      "一(いち)度(ど)〜たら",
       "〜ほう"
     ],
     "register": "casual",
@@ -2278,8 +2278,8 @@
         6
       ]
     ],
-    "jpExplanation": "「一度買ったら」は、買ったあとの習慣(しゅうかん)につなげています。「使うほう」は、自分(じぶん)はそういう傾向(けいこう)があるという言(い)い方(かた)です。",
-    "enExplanation": "一度〜たら means “once I’ve done it” here, not a single past event. Sentence-final 〜ほう describes which kind of person you tend to be. Casual speech can leave off the final だ after ほう."
+    "jpExplanation": "「一(いち)度(ど)買(か)ったら」は、買(か)ったあとの習慣(しゅうかん)につなげています。「使(つか)うほう」は、自分(じぶん)はそういう傾向(けいこう)があるという言(い)い方(かた)です。",
+    "enExplanation": "一(いち)度(ど)〜たら means “once I’ve done it” here, not a single past event. Sentence-final 〜ほう describes which kind of person you tend to be. Casual speech can leave off the final だ after ほう."
   },
   {
     "id": "game-prototype-set02-q47",
@@ -2289,7 +2289,7 @@
     "answerMode": "sentence-builder",
     "question": "I'd rather have fewer things that I actually like.",
     "focus": [
-      "気に入る",
+      "気(き)に入(はい)る",
       "〜ていたい"
     ],
     "register": "casual/plain",
@@ -2320,8 +2320,8 @@
         6
       ]
     ],
-    "jpExplanation": "「気に入ったもの」は、自分(じぶん)がよいと思(おも)うものです。「持っていたい」は、持っている状態(じょうたい)を続(つづ)けたいという気持(きも)ちです。",
-    "enExplanation": "気に入る means something appeals to you or suits your taste. 気に入った modifies もの. 持っていたい expresses wanting to keep owning a small number of things, rather than just the act of acquiring them."
+    "jpExplanation": "「気(き)に入(はい)ったもの」は、自分(じぶん)がよいと思(おも)うものです。「持(も)っていたい」は、持(も)っている状態(じょうたい)を続(つづ)けたいという気持(きも)ちです。",
+    "enExplanation": "気(き)に入(はい)る means something appeals to you or suits your taste. 気(き)に入(はい)った modifies もの. 持(も)っていたい expresses wanting to keep owning a small number of things, rather than just the act of acquiring them."
   },
   {
     "id": "game-prototype-set02-q48",
@@ -2331,7 +2331,7 @@
     "answerMode": "sentence-builder",
     "question": "I don't want to buy something just because it's cheap.",
     "focus": [
-      "〜という理由",
+      "〜という理由(りゆう)",
       "〜だけで"
     ],
     "register": "casual/plain",
@@ -2360,8 +2360,8 @@
         5
       ]
     ],
-    "jpExplanation": "「安いという理由」は、安さを理由にすることです。「だけで買いたくない」は、ほかのよさも考(かんが)えて選(えら)びたいという気持(きも)ちです。",
-    "enExplanation": "という links the claim “it’s cheap” to 理由. だけで means on that reason alone. 買いたくない is about what motivates your choice; it does not mean you refuse to buy inexpensive things."
+    "jpExplanation": "「安(やす)いという理由(りゆう)」は、安(やす)さを理由(りゆう)にすることです。「だけで買(か)いたくない」は、ほかのよさも考(かんが)えて選(えら)びたいという気持(きも)ちです。",
+    "enExplanation": "という links the claim “it’s cheap” to 理由(りゆう). だけで means on that reason alone. 買(か)いたくない is about what motivates your choice; it does not mean you refuse to buy inexpensive things."
   },
   {
     "id": "game-prototype-set02-q49",
@@ -2404,8 +2404,8 @@
         4
       ]
     ],
-    "jpExplanation": "「決めなくてもいい」は、決める必要(ひつよう)がないという意味(いみ)です。今日すべてを決める負担(ふたん)を減(へ)らしています。",
-    "enExplanation": "〜なくてもいい removes the need to do something; it does not forbid doing it. 今日全部 makes the scope “everything today,” so some decisions can be left for later."
+    "jpExplanation": "「決(き)めなくてもいい」は、決(き)める必要(ひつよう)がないという意味(いみ)です。今日(きょう)すべてを決(き)める負担(ふたん)を減(へ)らしています。",
+    "enExplanation": "〜なくてもいい removes the need to do something; it does not forbid doing it. 今日(きょう)全部(ぜんぶ) makes the scope “everything today,” so some decisions can be left for later."
   },
   {
     "id": "game-prototype-set02-q50",
@@ -2416,7 +2416,7 @@
     "question": "Let's think about the rest later.",
     "focus": [
       "あとは",
-      "また後で",
+      "また後(あと)で",
       "volitional"
     ],
     "register": "casual",
@@ -2450,8 +2450,8 @@
         4
       ]
     ],
-    "jpExplanation": "「あとは」は、残(のこ)っていることを話題(わだい)にしています。「考えよう」は、相手(あいて)と一緒(いっしょ)にする提案(ていあん)です。",
-    "enExplanation": "あとは refers to the remaining matters. また後で means returning to them later. 考えよう is the volitional form for a shared suggestion, with “we” understood."
+    "jpExplanation": "「あとは」は、残(のこ)っていることを話題(わだい)にしています。「考(かんが)えよう」は、相手(あいて)と一緒(いっしょ)にする提案(ていあん)です。",
+    "enExplanation": "あとは refers to the remaining matters. また後(あと)で means returning to them later. 考(かんが)えよう is the volitional form for a shared suggestion, with “we” understood."
   },
   {
     "id": "game-prototype-set02-q51",
@@ -2497,7 +2497,7 @@
         5
       ]
     ],
-    "jpExplanation": "「おいしければ」は、ご飯がおいしいことを条件(じょうけん)にしています。「どこでもいいよ」は、場所(ばしょ)にはこだわらないということです。",
+    "jpExplanation": "「おいしければ」は、ご飯(はん)がおいしいことを条件(じょうけん)にしています。「どこでもいいよ」は、場所(ばしょ)にはこだわらないということです。",
     "enExplanation": "For an い-adjective, change い to ければ: おいしい → おいしければ. Once that condition is met, どこでもいい leaves the location open. どこも means every place, rather than any place being acceptable."
   },
   {
@@ -2508,9 +2508,9 @@
     "answerMode": "sentence-builder",
     "question": "I thought I'd be tired, but I'm actually fine.",
     "focus": [
-      "〜かと思った",
-      "意外と",
-      "平気"
+      "〜かと思(おも)った",
+      "意外(いがい)と",
+      "平気(へいき)"
     ],
     "register": "casual",
     "chunks": [
@@ -2548,8 +2548,8 @@
         6
       ]
     ],
-    "jpExplanation": "「疲れるかと思った」は、疲れるかもしれないと予想(よそう)していたということです。「意外と平気」で、実際(じっさい)は大丈夫(だいじょうぶ)だと伝(つた)えます。",
-    "enExplanation": "〜かと思った presents an earlier possibility you expected or worried about. 意外と marks the surprising actual outcome. 平気 means you feel fine or can handle it; it is more conversational here than a literal statement about fatigue."
+    "jpExplanation": "「疲(つか)れるかと思(おも)った」は、疲(つか)れるかもしれないと予想(よそう)していたということです。「意外(いがい)と平気(へいき)」で、実際(じっさい)は大丈夫(だいじょうぶ)だと伝(つた)えます。",
+    "enExplanation": "〜かと思(おも)った presents an earlier possibility you expected or worried about. 意外(いがい)と marks the surprising actual outcome. 平気(へいき) means you feel fine or can handle it; it is more conversational here than a literal statement about fatigue."
   },
   {
     "id": "game-prototype-set02-q53",
@@ -2603,8 +2603,8 @@
         7
       ]
     ],
-    "jpExplanation": "「せっかく来たし」は、来た機会(きかい)を生(い)かしたいということです。「見ていこうかな」は、ここで見てから帰(かえ)るか先(さき)へ進(すす)むかを考(かんが)えています。",
-    "enExplanation": "せっかく values the effort or opportunity of having come. し offers that as a reason. 見ていこう suggests taking a look before leaving or moving on; かな makes it a tentative thought to yourself."
+    "jpExplanation": "「せっかく来(き)たし」は、来(き)た機会(きかい)を生(い)かしたいということです。「見(み)ていこうかな」は、ここで見(み)てから帰(かえ)るか先(さき)へ進(すす)むかを考(かんが)えています。",
+    "enExplanation": "せっかく values the effort or opportunity of having come. し offers that as a reason. 見(み)ていこう suggests taking a look before leaving or moving on; かな makes it a tentative thought to yourself."
   },
   {
     "id": "game-prototype-set02-q54",
@@ -2653,8 +2653,8 @@
         6
       ]
     ],
-    "jpExplanation": "「からって」は、それだけを理由(りゆう)にしたくないという言(い)い方(かた)です。「自分まで」で、周りに加(くわ)えて自分もそうすることを表(あらわ)します。",
-    "enExplanation": "〜からって pushes back against “just because…” as a sufficient reason. 自分まで adds “even me / me too” to what others are doing. 急ぎたくない states your own preference, rather than saying others must not rush."
+    "jpExplanation": "「からって」は、それだけを理由(りゆう)にしたくないという言(い)い方(かた)です。「自分(じぶん)まで」で、周(まわ)りに加(くわ)えて自分(じぶん)もそうすることを表(あらわ)します。",
+    "enExplanation": "〜からって pushes back against “just because…” as a sufficient reason. 自分(じぶん)まで adds “even me / me too” to what others are doing. 急(いそ)ぎたくない states your own preference, rather than saying others must not rush."
   },
   {
     "id": "game-prototype-set02-q55",
@@ -2664,8 +2664,8 @@
     "answerMode": "sentence-builder",
     "question": "It's probably better to ask before assuming.",
     "focus": [
-      "決めつける",
-      "〜前に",
+      "決(き)めつける",
+      "〜前(まえ)に",
       "〜たほうがいい"
     ],
     "register": "casual/plain",
@@ -2710,8 +2710,8 @@
         8
       ]
     ],
-    "jpExplanation": "「勝手に決めつける」は、確(たし)かめずにそうだと判断(はんだん)することです。「聞いたほうがいいと思う」は、確認(かくにん)を勧(すす)めています。",
-    "enExplanation": "決めつける means jumping to a fixed conclusion, not simply making a decision. Use its dictionary form before 前に. 聞いたほうがいい is advice; 聞いた does not describe a past question here. と思う softens the recommendation."
+    "jpExplanation": "「勝手(かって)に決(き)めつける」は、確(たし)かめずにそうだと判断(はんだん)することです。「聞(き)いたほうがいいと思(おも)う」は、確認(かくにん)を勧(すす)めています。",
+    "enExplanation": "決(き)めつける means jumping to a fixed conclusion, not simply making a decision. Use its dictionary form before 前(まえ)に. 聞(き)いたほうがいい is advice; 聞(き)いた does not describe a past question here. と思(おも)う softens the recommendation."
   },
   {
     "id": "game-prototype-set02-q56",
@@ -2722,7 +2722,7 @@
     "question": "I understand the reason, but I still find it a little strange.",
     "focus": [
       "それでも",
-      "〜と感じる"
+      "〜と感(かん)じる"
     ],
     "register": "casual/plain",
     "chunks": [
@@ -2763,8 +2763,8 @@
         7
       ]
     ],
-    "jpExplanation": "「それでも」は、理由を理解(りかい)したあとにも気持(きも)ちが変(か)わらないことを表(あらわ)します。この文(ぶん)では「不思議に感じる」という形(かたち)を使(つか)っています。",
-    "enExplanation": "それでも means “even so,” separating understanding the reason from your reaction. This sentence uses 不思議に感じる, “find it strange.” The related pattern 〜と感じる introduces the content of a feeling or judgment; the actual tile here is に, not と."
+    "jpExplanation": "「それでも」は、理由(りゆう)を理解(りかい)したあとにも気持(きも)ちが変(か)わらないことを表(あらわ)します。この文(ぶん)では「不思議(ふしぎ)に感(かん)じる」という形(かたち)を使(つか)っています。",
+    "enExplanation": "それでも means “even so,” separating understanding the reason from your reaction. This sentence uses 不思議(ふしぎ)に感(かん)じる, “find it strange.” The related pattern 〜と感(かん)じる introduces the content of a feeling or judgment; the actual tile here is に, not と."
   },
   {
     "id": "game-prototype-set02-q57",
@@ -2774,7 +2774,7 @@
     "answerMode": "sentence-builder",
     "question": "I didn't mean it that way.",
     "focus": [
-      "そういう意味",
+      "そういう意味(いみ)",
       "〜んじゃない"
     ],
     "register": "casual",
@@ -2801,8 +2801,8 @@
         4
       ]
     ],
-    "jpExplanation": "「そういう意味で」は、その意図(いと)でということです。「言ったんじゃない」は、発言(はつげん)そのものよりも、その受(う)け取(と)り方(かた)を否定(ひてい)しています。",
-    "enExplanation": "そういう意味で refers to the interpretation being discussed. 〜んじゃない corrects that interpretation: you are not necessarily denying that you spoke, but saying that was not your intended meaning."
+    "jpExplanation": "「そういう意味(いみ)で」は、その意図(いと)でということです。「言(い)ったんじゃない」は、発言(はつげん)そのものよりも、その受(う)け取(と)り方(かた)を否定(ひてい)しています。",
+    "enExplanation": "そういう意味(いみ)で refers to the interpretation being discussed. 〜んじゃない corrects that interpretation: you are not necessarily denying that you spoke, but saying that was not your intended meaning."
   },
   {
     "id": "game-prototype-set02-q58",
@@ -2812,8 +2812,8 @@
     "answerMode": "sentence-builder",
     "question": "That's not quite what I meant.",
     "focus": [
-      "言いたかったこと",
-      "〜と違う"
+      "言(い)いたかったこと",
+      "〜と違(ちが)う"
     ],
     "register": "casual",
     "chunks": [
@@ -2843,8 +2843,8 @@
         3
       ]
     ],
-    "jpExplanation": "「言いたかったこと」は、伝(つた)えようとしていた内容(ないよう)です。「と違う」で、その内容との違いを伝えます。",
-    "enExplanation": "言いたかったこと turns what you wanted to say into a noun phrase. と marks what something differs from. ちょっと softens the correction rather than making a blunt “that’s wrong.”"
+    "jpExplanation": "「言(い)いたかったこと」は、伝(つた)えようとしていた内容(ないよう)です。「と違(ちが)う」で、その内容(ないよう)との違(ちが)いを伝(つた)えます。",
+    "enExplanation": "言(い)いたかったこと turns what you wanted to say into a noun phrase. と marks what something differs from. ちょっと softens the correction rather than making a blunt “that’s wrong.”"
   },
   {
     "id": "game-prototype-set02-q59",
@@ -2854,9 +2854,9 @@
     "answerMode": "sentence-builder",
     "question": "I know it's not a big deal, but it still bothers me a little.",
     "focus": [
-      "大したことじゃない",
+      "大(たい)したことじゃない",
       "〜のはわかる",
-      "気になる"
+      "気(き)になる"
     ],
     "register": "casual",
     "chunks": [
@@ -2900,8 +2900,8 @@
         8
       ]
     ],
-    "jpExplanation": "「大したことじゃない」は、大きな問題(もんだい)ではないということです。「のはわかってるけど」で、理解(りかい)と気持(きも)ちが一致(いっち)しないと伝(つた)えます。",
-    "enExplanation": "大したことじゃない minimizes the issue. のは packages that fact as something you understand, while けど introduces the emotional reaction that remains. 気になる means it stays on your mind or bothers you."
+    "jpExplanation": "「大(たい)したことじゃない」は、大(おお)きな問題(もんだい)ではないということです。「のはわかってるけど」で、理解(りかい)と気持(きも)ちが一致(いっち)しないと伝(つた)えます。",
+    "enExplanation": "大(たい)したことじゃない minimizes the issue. のは packages that fact as something you understand, while けど introduces the emotional reaction that remains. 気(き)になる means it stays on your mind or bothers you."
   },
   {
     "id": "game-prototype-set02-q60",
@@ -2912,8 +2912,8 @@
     "question": "I probably wouldn't have noticed if you hadn't mentioned it.",
     "focus": [
       "〜なかったら",
-      "気づく",
-      "〜と思う"
+      "気(き)づく",
+      "〜と思(おも)う"
     ],
     "register": "casual/plain",
     "chunks": [
@@ -2954,8 +2954,8 @@
         7
       ]
     ],
-    "jpExplanation": "「言われなかったら」は、相手(あいて)に言ってもらわなかった場合(ばあい)を考(かんが)えています。「気づかなかったと思う」は、実際(じっさい)とは違(ちが)う結果(けっか)の予想(よそう)です。",
-    "enExplanation": "言われる is the passive “be told.” Its negative past conditional imagines not having been told. 気づかなかった describes the counterfactual result: you would not have noticed. たぶん〜と思う keeps that judgment tentative."
+    "jpExplanation": "「言(い)われなかったら」は、相手(あいて)に言(い)ってもらわなかった場合(ばあい)を考(かんが)えています。「気(き)づかなかったと思(おも)う」は、実際(じっさい)とは違(ちが)う結果(けっか)の予想(よそう)です。",
+    "enExplanation": "言(い)われる is the passive “be told.” Its negative past conditional imagines not having been told. 気(き)づかなかった describes the counterfactual result: you would not have noticed. たぶん〜と思(おも)う keeps that judgment tentative."
   },
   {
     "id": "game-prototype-set02-q61",
@@ -2965,7 +2965,7 @@
     "answerMode": "sentence-builder",
     "question": "I don't want to make a decision while I'm tired.",
     "focus": [
-      "〜時に",
+      "〜時(じ)に",
       "〜たくない"
     ],
     "register": "casual",
@@ -2990,8 +2990,8 @@
         3
       ]
     ],
-    "jpExplanation": "「疲れてる時に」は、疲れている状態(じょうたい)のときです。「決めたくない」で、その状態で判断(はんだん)したくないと伝(つた)えます。",
-    "enExplanation": "疲れてる describes being tired, not the process of becoming tired. 時に sets that situation as the time of the decision. 決めたい becomes 決めたくない for not wanting to decide."
+    "jpExplanation": "「疲(つか)れてる時(とき)に」は、疲(つか)れている状態(じょうたい)のときです。「決(き)めたくない」で、その状態(じょうたい)で判断(はんだん)したくないと伝(つた)えます。",
+    "enExplanation": "疲(つか)れてる describes being tired, not the process of becoming tired. 時(じ)に sets that situation as the time of the decision. 決(き)めたい becomes 決(き)めたくない for not wanting to decide."
   },
   {
     "id": "game-prototype-set02-q62",
@@ -3001,7 +3001,7 @@
     "answerMode": "sentence-builder",
     "question": "I'll think about it again tomorrow with a clear head.",
     "focus": [
-      "落ち着いて",
+      "落(お)ち着(つ)いて",
       "また"
     ],
     "register": "casual/plain",
@@ -3032,8 +3032,8 @@
         3
       ]
     ],
-    "jpExplanation": "「落ち着いて考える」は、気持(きも)ちを静(しず)めて考えることです。「また」は、もう一度(いちど)考えることを表(あらわ)します。",
-    "enExplanation": "落ち着いて describes thinking calmly or with a settled mind. また means returning to the issue, and 明日 makes the plain nonpast 考える a future intention."
+    "jpExplanation": "「落(お)ち着(つ)いて考(かんが)える」は、気持(きも)ちを静(しず)めて考(かんが)えることです。「また」は、もう一度(いちど)考(かんが)えることを表(あらわ)します。",
+    "enExplanation": "落(お)ち着(つ)いて describes thinking calmly or with a settled mind. また means returning to the issue, and 明日(あした) makes the plain nonpast 考(かんが)える a future intention."
   },
   {
     "id": "game-prototype-set02-q63",
@@ -3043,7 +3043,7 @@
     "answerMode": "sentence-builder",
     "question": "There's no need to decide right now.",
     "focus": [
-      "〜必要はない"
+      "〜必要(ひつよう)はない"
     ],
     "register": "casual",
     "chunks": [
@@ -3067,8 +3067,8 @@
         3
       ]
     ],
-    "jpExplanation": "「決める必要はない」は、決めなくてもよいという意味(いみ)です。「今」が、すぐに決める必要はないという範囲(はんい)を示(しめ)します。",
-    "enExplanation": "Dictionary-form verb + 必要はない says something is unnecessary. 今 limits that reassurance to deciding now; it does not say a decision will never be needed."
+    "jpExplanation": "「決(き)める必要(ひつよう)はない」は、決(き)めなくてもよいという意味(いみ)です。「今(いま)」が、すぐに決(き)める必要(ひつよう)はないという範囲(はんい)を示(しめ)します。",
+    "enExplanation": "Dictionary-form verb + 必要(ひつよう)はない says something is unnecessary. 今(いま) limits that reassurance to deciding now; it does not say a decision will never be needed."
   },
   {
     "id": "game-prototype-set02-q64",
@@ -3079,7 +3079,7 @@
     "question": "I'd rather wait a little than regret it later.",
     "focus": [
       "〜より",
-      "後悔する"
+      "後悔(こうかい)する"
     ],
     "register": "casual/plain",
     "chunks": [
@@ -3117,8 +3117,8 @@
         6
       ]
     ],
-    "jpExplanation": "「後悔するより」は、あとで残念(ざんねん)に思(おも)うことと比(くら)べています。「待ちたい」で、自分(じぶん)が選(えら)びたいほうを伝(つた)えます。",
-    "enExplanation": "より can compare actions directly. Put the unwanted possibility before より and the preferred action after it. 待ちたい is the desire form of 待つ."
+    "jpExplanation": "「後悔(こうかい)するより」は、あとで残念(ざんねん)に思(おも)うことと比(くら)べています。「待(ま)ちたい」で、自分(じぶん)が選(えら)びたいほうを伝(つた)えます。",
+    "enExplanation": "より can compare actions directly. Put the unwanted possibility before より and the preferred action after it. 待(ま)ちたい is the desire form of 待(ま)つ."
   },
   {
     "id": "game-prototype-set02-q65",
@@ -3167,8 +3167,8 @@
         6
       ]
     ],
-    "jpExplanation": "「来週になっても」は、来週まで時間(じかん)がたってもという意味(いみ)です。「欲しかったら」で、そのときの気持(きも)ちを条件(じょうけん)にしています。",
-    "enExplanation": "〜ても allows the desire to persist despite time passing. 欲しかったら sets the future condition; its かった does not make this a past event. The plan is to buy only if the desire remains."
+    "jpExplanation": "「来週(らいしゅう)になっても」は、来週(らいしゅう)まで時間(じかん)がたってもという意味(いみ)です。「欲(ほ)しかったら」で、そのときの気持(きも)ちを条件(じょうけん)にしています。",
+    "enExplanation": "〜ても allows the desire to persist despite time passing. 欲(ほ)しかったら sets the future condition; its かった does not make this a past event. The plan is to buy only if the desire remains."
   },
   {
     "id": "game-prototype-set02-q66",
@@ -3220,7 +3220,7 @@
         7
       ]
     ],
-    "jpExplanation": "「買いそうになった」は、もう少(すこ)しで買うところだったということです。「買わなくてよかった」は、買わなかった結果(けっか)をよいと感(かん)じています。",
+    "jpExplanation": "「買(か)いそうになった」は、もう少(すこ)しで買(か)うところだったということです。「買(か)わなくてよかった」は、買(か)わなかった結果(けっか)をよいと感(かん)じています。",
     "enExplanation": "Stem + そうになった means coming close to doing something. 〜なくてよかった expresses relief that you did not do it. It differs from 〜なくてもよかった, which means it was not necessary."
   },
   {
@@ -3270,8 +3270,8 @@
         6
       ]
     ],
-    "jpExplanation": "「高かったからって」は、高かったことだけを理由(りゆう)にはできないということです。「わけじゃない」は、ずっと持ちたいとは限(かぎ)らないと伝(つた)えます。",
-    "enExplanation": "からって challenges price as a sufficient reason. 持っていたい describes wanting to keep owning it. わけじゃない denies that this desire automatically follows; it need not mean you have decided to throw it away."
+    "jpExplanation": "「高(たか)かったからって」は、高(たか)かったことだけを理由(りゆう)にはできないということです。「わけじゃない」は、ずっと持(も)ちたいとは限(かぎ)らないと伝(つた)えます。",
+    "enExplanation": "からって challenges price as a sufficient reason. 持(も)っていたい describes wanting to keep owning it. わけじゃない denies that this desire automatically follows; it need not mean you have decided to throw it away."
   },
   {
     "id": "game-prototype-set02-q68",
@@ -3282,7 +3282,7 @@
     "question": "I didn't expect to like it this much.",
     "focus": [
       "こんなに",
-      "〜とは思わなかった"
+      "〜とは思(おも)わなかった"
     ],
     "register": "casual/plain",
     "chunks": [
@@ -3308,8 +3308,8 @@
         4
       ]
     ],
-    "jpExplanation": "「こんなに」は、好きになる程度(ていど)が大(おお)きいことを表(あらわ)します。「とは思わなかった」は、予想(よそう)していなかったという反応(はんのう)です。",
-    "enExplanation": "こんなに measures the degree: “this much.” 気に入る means liking something or finding it suits you. 〜とは思わなかった highlights an outcome you had not expected."
+    "jpExplanation": "「こんなに」は、好(す)きになる程度(ていど)が大(おお)きいことを表(あらわ)します。「とは思(おも)わなかった」は、予想(よそう)していなかったという反応(はんのう)です。",
+    "enExplanation": "こんなに measures the degree: “this much.” 気(き)に入(はい)る means liking something or finding it suits you. 〜とは思(おも)わなかった highlights an outcome you had not expected."
   },
   {
     "id": "game-prototype-set02-q69",
@@ -3319,9 +3319,9 @@
     "answerMode": "sentence-builder",
     "question": "I've had it for years, but it still works perfectly fine.",
     "focus": [
-      "もう何年も",
+      "もう何(なん)年(ねん)も",
       "まだ",
-      "全然問題ない"
+      "全然(ぜんぜん)問題(もんだい)ない"
     ],
     "register": "casual",
     "chunks": [
@@ -3362,8 +3362,8 @@
         7
       ]
     ],
-    "jpExplanation": "「もう何年も」は、長(なが)い期間(きかん)使っているということです。「まだ全然問題ない」は、今(いま)も問題がないと強(つよ)く伝(つた)えます。",
-    "enExplanation": "何年も emphasizes many years rather than naming a duration. もう looks back over that time; まだ says the good condition continues. 全然問題ない is a conversational way to say there is no problem at all."
+    "jpExplanation": "「もう何(なん)年(ねん)も」は、長(なが)い期間(きかん)使(つか)っているということです。「まだ全然(ぜんぜん)問題(もんだい)ない」は、今(いま)も問題(もんだい)がないと強(つよ)く伝(つた)えます。",
+    "enExplanation": "何(なん)年(ねん)も emphasizes many years rather than naming a duration. もう looks back over that time; まだ says the good condition continues. 全然(ぜんぜん)問題(もんだい)ない is a conversational way to say there is no problem at all."
   },
   {
     "id": "game-prototype-set02-q70",
@@ -3373,8 +3373,8 @@
     "answerMode": "sentence-builder",
     "question": "It was expensive, but I think I got my money's worth.",
     "focus": [
-      "元を取る",
-      "十分"
+      "元(もと)を取(と)る",
+      "十(じゅう)分(ふん)"
     ],
     "register": "casual/plain",
     "chunks": [
@@ -3434,8 +3434,8 @@
         7
       ]
     ],
-    "jpExplanation": "「元は取れた」は、払(はら)ったお金(かね)に見合(みあ)う価値(かち)が得(え)られたということです。実際(じっさい)にお金が戻(もど)ったとは限(かぎ)りません。",
-    "enExplanation": "元を取る is getting value equivalent to the cost. 取れた says you managed to get that value; は highlights the original outlay as the benchmark. 十分 means sufficiently or amply, not the duration “ten minutes.”"
+    "jpExplanation": "「元(もと)は取(と)れた」は、払(はら)ったお金(かね)に見合(みあ)う価値(かち)が得(え)られたということです。実際(じっさい)にお金(かね)が戻(もど)ったとは限(かぎ)りません。",
+    "enExplanation": "元(もと)を取(と)る is getting value equivalent to the cost. 取(と)れた says you managed to get that value; は highlights the original outlay as the benchmark. 十分(じゅうぶん) means sufficiently or amply, not the duration “ten minutes.”"
   },
   {
     "id": "game-prototype-set02-q71",
@@ -3469,8 +3469,8 @@
         3
       ]
     ],
-    "jpExplanation": "「返事したつもりだった」は、返事をしたと自分(じぶん)では思(おも)っていたということです。返事をする予定(よてい)だったという意味(いみ)ではありません。",
-    "enExplanation": "Past-form verb + つもりだった expresses believing you had done it. Dictionary-form 返事するつもりだった would instead describe an intention to reply. This contrast is useful when explaining an oversight."
+    "jpExplanation": "「返事(へんじ)したつもりだった」は、返事(へんじ)をしたと自分(じぶん)では思(おも)っていたということです。返事(へんじ)をする予定(よてい)だったという意味(いみ)ではありません。",
+    "enExplanation": "Past-form verb + つもりだった expresses believing you had done it. Dictionary-form 返事(へんじ)するつもりだった would instead describe an intention to reply. This contrast is useful when explaining an oversight."
   },
   {
     "id": "game-prototype-set02-q72",
@@ -3520,8 +3520,8 @@
         6
       ]
     ],
-    "jpExplanation": "「メッセージは見た」で、見たことは認(みと)めています。「そのまま」は、見たあと何(なに)もせずに時間(じかん)がたったことを表(あらわ)します。",
-    "enExplanation": "は acknowledges that you did at least see it. そのまま carries the situation forward without follow-up, and すっかり means completely. 忘れてた describes the forgotten state that continued afterward."
+    "jpExplanation": "「メッセージは見(み)た」で、見(み)たことは認(みと)めています。「そのまま」は、見(み)たあと何(なに)もせずに時間(じかん)がたったことを表(あらわ)します。",
+    "enExplanation": "は acknowledges that you did at least see it. そのまま carries the situation forward without follow-up, and すっかり means completely. 忘(わす)れてた describes the forgotten state that continued afterward."
   },
   {
     "id": "game-prototype-set02-q73",
@@ -3531,7 +3531,7 @@
     "answerMode": "sentence-builder",
     "question": "I don't want to reply in a hurry and say something weird.",
     "focus": [
-      "急いで",
+      "急(いそ)いで",
       "〜たくない"
     ],
     "register": "casual",
@@ -3570,8 +3570,8 @@
         6
       ]
     ],
-    "jpExplanation": "「急いで返事して」は、急いだ返事のあとに起(お)こりうることにつなげています。「変なこと言いたくない」は、不適切(ふてきせつ)なことを言うのを避(さ)けたい気持(きも)ちです。",
-    "enExplanation": "急いで describes how you reply, and the て form links that action to the unwanted result. 変な modifies こと. Casual speech omits を before 言いたくない here."
+    "jpExplanation": "「急(いそ)いで返事(へんじ)して」は、急(いそ)いだ返事(へんじ)のあとに起(お)こりうることにつなげています。「変(へん)なこと言(い)いたくない」は、不適切(ふてきせつ)なことを言(い)うのを避(さ)けたい気持(きも)ちです。",
+    "enExplanation": "急(いそ)いで describes how you reply, and the て form links that action to the unwanted result. 変(へん)な modifies こと. Casual speech omits を before 言(い)いたくない here."
   },
   {
     "id": "game-prototype-set02-q74",
@@ -3581,7 +3581,7 @@
     "answerMode": "sentence-builder",
     "question": "I thought about saying something, but decided not to.",
     "focus": [
-      "〜ようかと思う",
+      "〜ようかと思(おも)う",
       "やめる"
     ],
     "register": "casual",
@@ -3620,8 +3620,8 @@
         6
       ]
     ],
-    "jpExplanation": "「言おうかと思った」は、言うかどうか考(かんが)えたということです。「やめた」は、ここでは言わないことにしたという意味(いみ)です。",
-    "enExplanation": "Volitional + かと思う expresses considering an action, less firmly than a settled plan. やめた can mean deciding not to proceed; it does not require that you had already started speaking."
+    "jpExplanation": "「言(い)おうかと思(おも)った」は、言(い)うかどうか考(かんが)えたということです。「やめた」は、ここでは言(い)わないことにしたという意味(いみ)です。",
+    "enExplanation": "Volitional + かと思(おも)う expresses considering an action, less firmly than a settled plan. やめた can mean deciding not to proceed; it does not require that you had already started speaking."
   },
   {
     "id": "game-prototype-set02-q75",
@@ -3656,8 +3656,8 @@
         3
       ]
     ],
-    "jpExplanation": "「こんなことで」は、その理由(りゆう)や話題(わだい)を小(ちい)さなものとして見(み)ています。「言い争ってもしょうがない」は、争っても役(やく)に立(た)たないということです。",
-    "enExplanation": "こんなことで minimizes the issue as a reason for arguing. 言い争う means arguing with each other. Its て form + もしょうがない says the argument would not achieve anything useful."
+    "jpExplanation": "「こんなことで」は、その理由(りゆう)や話題(わだい)を小(ちい)さなものとして見(み)ています。「言(い)い争(あらそ)ってもしょうがない」は、争(あらそ)っても役(やく)に立(た)たないということです。",
+    "enExplanation": "こんなことで minimizes the issue as a reason for arguing. 言(い)い争(あらそ)う means arguing with each other. Its て form + もしょうがない says the argument would not achieve anything useful."
   },
   {
     "id": "game-prototype-set02-q76",
@@ -3668,7 +3668,7 @@
     "question": "I don't agree with everything, but I understand where they're coming from.",
     "focus": [
       "〜わけじゃない",
-      "言いたいことはわかる"
+      "言(い)いたいことはわかる"
     ],
     "register": "casual/plain",
     "chunks": [
@@ -3709,8 +3709,8 @@
         7
       ]
     ],
-    "jpExplanation": "「全部に賛成するわけじゃない」は、一部(いちぶ)には賛成できる可能性(かのうせい)を残(のこ)しています。「言いたいことはわかる」で、相手(あいて)の考(かんが)えは理解(りかい)していると伝(つた)えます。",
-    "enExplanation": "〜わけじゃない limits the agreement rather than rejecting everything. 賛成する takes に for what you agree with. 言いたいことはわかる acknowledges the underlying point without requiring full agreement."
+    "jpExplanation": "「全部(ぜんぶ)に賛成(さんせい)するわけじゃない」は、一部(いちぶ)には賛成(さんせい)できる可能性(かのうせい)を残(のこ)しています。「言(い)いたいことはわかる」で、相手(あいて)の考(かんが)えは理解(りかい)していると伝(つた)えます。",
+    "enExplanation": "〜わけじゃない limits the agreement rather than rejecting everything. 賛成(さんせい)する takes に for what you agree with. 言(い)いたいことはわかる acknowledges the underlying point without requiring full agreement."
   },
   {
     "id": "game-prototype-set02-q77",
@@ -3722,7 +3722,7 @@
     "focus": [
       "〜からって",
       "〜まで",
-      "必要はない"
+      "必要(ひつよう)はない"
     ],
     "register": "casual/plain",
     "chunks": [
@@ -3766,8 +3766,8 @@
         8
       ]
     ],
-    "jpExplanation": "「好きだからって」は、みんなの好(この)みを理由(りゆう)に自分(じぶん)も合(あ)わせる必要はないということです。「私まで」で、自分も同(おな)じになることを表(あらわ)します。",
-    "enExplanation": "からって challenges the conclusion drawn from a fact. 私まで means “me too / even me,” while 好きになる describes coming to like it. 必要はない rejects that obligation, not other people’s preference."
+    "jpExplanation": "「好(す)きだからって」は、みんなの好(この)みを理由(りゆう)に自分(じぶん)も合(あ)わせる必要(ひつよう)はないということです。「私(わたし)まで」で、自分(じぶん)も同(おな)じになることを表(あらわ)します。",
+    "enExplanation": "からって challenges the conclusion drawn from a fact. 私(わたし)まで means “me too / even me,” while 好(す)きになる describes coming to like it. 必要(ひつよう)はない rejects that obligation, not other people’s preference."
   },
   {
     "id": "game-prototype-set02-q78",
@@ -3778,7 +3778,7 @@
     "question": "The way I think about it has changed a little over time.",
     "focus": [
       "〜とは",
-      "考え方",
+      "考(かんが)え方(かた)",
       "〜てくる"
     ],
     "register": "casual/plain",
@@ -3819,8 +3819,8 @@
         4
       ]
     ],
-    "jpExplanation": "「前とは」は、以前(いぜん)と比(くら)べていることを示(しめ)します。「変わってきた」は、今(いま)に向(む)かって変化(へんか)が進(すす)んだということです。",
-    "enExplanation": "前とは contrasts your current perspective with before. 考え方 is a way of thinking. 変わってきた looks back at change developing up to now, rather than forward to future change."
+    "jpExplanation": "「前(まえ)とは」は、以前(いぜん)と比(くら)べていることを示(しめ)します。「変(か)わってきた」は、今(いま)に向(む)かって変化(へんか)が進(すす)んだということです。",
+    "enExplanation": "前(まえ)とは contrasts your current perspective with before. 考(かんが)え方(かた) is a way of thinking. 変(か)わってきた looks back at change developing up to now, rather than forward to future change."
   },
   {
     "id": "game-prototype-set02-q79",
@@ -3830,8 +3830,8 @@
     "answerMode": "sentence-builder",
     "question": "I used to care about that more than I do now.",
     "focus": [
-      "前は",
-      "気にする",
+      "前(まえ)は",
+      "気(き)にする",
       "そうでもない"
     ],
     "register": "casual",
@@ -3873,8 +3873,8 @@
         7
       ]
     ],
-    "jpExplanation": "「気にしてた」は、前は気にかけていたということです。「そうでもない」は、今はそれほどではないとやわらかく否定(ひてい)しています。",
-    "enExplanation": "気にする means giving something attention or worrying about it. そうでもない refers back to the earlier degree and softens the negative: not so much now. It need not mean you no longer care at all."
+    "jpExplanation": "「気(き)にしてた」は、前(まえ)は気(き)にかけていたということです。「そうでもない」は、今(いま)はそれほどではないとやわらかく否定(ひてい)しています。",
+    "enExplanation": "気(き)にする means giving something attention or worrying about it. そうでもない refers back to the earlier degree and softens the negative: not so much now. It need not mean you no longer care at all."
   },
   {
     "id": "game-prototype-set02-q80",
@@ -3930,8 +3930,8 @@
         8
       ]
     ],
-    "jpExplanation": "「年を取るにつれて」は、年齢(ねんれい)の変化(へんか)と一緒(いっしょ)に、という意味(いみ)です。「あまり大事じゃなくなってきた」は、重要(じゅうよう)だと感(かん)じる程度(ていど)が下(さ)がってきたということです。",
-    "enExplanation": "Dictionary-form verb + につれて connects two developing changes. 大事じゃなくなる means becoming less important, and てきた traces that change up to now. あまり with the negative avoids saying it has become completely unimportant."
+    "jpExplanation": "「年(ねん)を取(と)るにつれて」は、年齢(ねんれい)の変化(へんか)と一緒(いっしょ)に、という意味(いみ)です。「あまり大事(だいじ)じゃなくなってきた」は、重要(じゅうよう)だと感(かん)じる程度(ていど)が下(さ)がってきたということです。",
+    "enExplanation": "Dictionary-form verb + につれて connects two developing changes. 大事(だいじ)じゃなくなる means becoming less important, and てきた traces that change up to now. あまり with the negative avoids saying it has become completely unimportant."
   },
   {
     "id": "game-prototype-set02-q81",
@@ -3987,8 +3987,8 @@
         8
       ]
     ],
-    "jpExplanation": "「考えてはいる」は、考えていること自体(じたい)は認(みと)めつつ、その先(さき)には進(すす)んでいないと伝(つた)えています。「何も決まってない」は、決定(けってい)がまだないということです。",
-    "enExplanation": "〜てはいる concedes that the activity is happening, then leaves room for a limitation. なんとなく makes the thinking vague or preliminary. 何も + negative means nothing; 決まってない says no decision has been settled."
+    "jpExplanation": "「考(かんが)えてはいる」は、考(かんが)えていること自体(じたい)は認(みと)めつつ、その先(さき)には進(すす)んでいないと伝(つた)えています。「何(なん)も決(き)まってない」は、決定(けってい)がまだないということです。",
+    "enExplanation": "〜てはいる concedes that the activity is happening, then leaves room for a limitation. なんとなく makes the thinking vague or preliminary. 何(なん)も + negative means nothing; 決(き)まってない says no decision has been settled."
   },
   {
     "id": "game-prototype-set02-q82",
@@ -4038,8 +4038,8 @@
         6
       ]
     ],
-    "jpExplanation": "「今できること」は、今の状況(じょうきょう)で実行(じっこう)できることです。「から」が始める場所(ばしょ)や範囲(はんい)を示(しめ)しています。",
-    "enExplanation": "とりあえず sets a practical first step without claiming it is the complete solution. できること turns “what we can do” into a noun phrase. から marks the starting point, and 始めよう invites joint action."
+    "jpExplanation": "「今(いま)できること」は、今(いま)の状況(じょうきょう)で実行(じっこう)できることです。「から」が始(はじ)める場所(ばしょ)や範囲(はんい)を示(しめ)しています。",
+    "enExplanation": "とりあえず sets a practical first step without claiming it is the complete solution. できること turns “what we can do” into a noun phrase. から marks the starting point, and 始(はじ)めよう invites joint action."
   },
   {
     "id": "game-prototype-set02-q83",
@@ -4049,7 +4049,7 @@
     "answerMode": "sentence-builder",
     "question": "There's no point making it more complicated than it needs to be.",
     "focus": [
-      "必要以上に",
+      "必要(ひつよう)以上(いじょう)に",
       "〜ことはない"
     ],
     "register": "casual/plain",
@@ -4080,8 +4080,8 @@
         6
       ]
     ],
-    "jpExplanation": "「必要以上に」は、必要な程度(ていど)を超(こ)えていることです。ここでの「することはない」は、そうする必要がないという意味(いみ)です。",
-    "enExplanation": "必要以上に means beyond what is needed. 複雑にする makes something complicated. Here verb + ことはない means “there is no need to,” not “it never happens.” と思う presents that judgment as your view."
+    "jpExplanation": "「必要(ひつよう)以上(いじょう)に」は、必要(ひつよう)な程度(ていど)を超(こ)えていることです。ここでの「することはない」は、そうする必要(ひつよう)がないという意味(いみ)です。",
+    "enExplanation": "必要(ひつよう)以上(いじょう)に means beyond what is needed. 複雑(ふくざつ)にする makes something complicated. Here verb + ことはない means “there is no need to,” not “it never happens.” と思(おも)う presents that judgment as your view."
   },
   {
     "id": "game-prototype-set02-q84",
@@ -4091,7 +4091,7 @@
     "answerMode": "sentence-builder",
     "question": "It doesn't have to be perfect from the beginning.",
     "focus": [
-      "最初から",
+      "最初(さいしょ)から",
       "〜なくてもいい"
     ],
     "register": "casual/plain",
@@ -4116,7 +4116,7 @@
         3
       ]
     ],
-    "jpExplanation": "「最初から」は、始(はじ)めの段階(だんかい)からという意味(いみ)です。「完璧じゃなくてもいい」は、完璧であることを求(もと)めていません。",
+    "jpExplanation": "「最初(さいしょ)から」は、始(はじ)めの段階(だんかい)からという意味(いみ)です。「完璧(かんぺき)じゃなくてもいい」は、完璧(かんぺき)であることを求(もと)めていません。",
     "enExplanation": "For a noun or な-adjective, じゃなくてもいい allows the state not to hold. Here it removes the pressure to be perfect immediately, without saying quality is unimportant."
   },
   {
@@ -4127,7 +4127,7 @@
     "answerMode": "sentence-builder",
     "question": "We can fix the details later.",
     "focus": [
-      "細かいところ",
+      "細(こま)かいところ",
       "〜ばいい"
     ],
     "register": "casual",
@@ -4164,8 +4164,8 @@
         5
       ]
     ],
-    "jpExplanation": "「細かいところ」は、細部(さいぶ)や小(ちい)さな点(てん)です。「直せばいい」は、あとで直すことで十分(じゅうぶん)だと伝(つた)えています。",
-    "enExplanation": "細かいところ means the details. 直せばいい proposes a sufficient solution: fixing them later will do. 直せば is the conditional of 直す, not its potential form."
+    "jpExplanation": "「細(こま)かいところ」は、細部(さいぶ)や小(ちい)さな点(てん)です。「直(なお)せばいい」は、あとで直(なお)すことで十分(じゅうぶん)だと伝(つた)えています。",
+    "enExplanation": "細(こま)かいところ means the details. 直(なお)せばいい proposes a sufficient solution: fixing them later will do. 直(なお)せば is the conditional of 直(なお)す, not its potential form."
   },
   {
     "id": "game-prototype-set02-q86",
@@ -4175,8 +4175,8 @@
     "answerMode": "sentence-builder",
     "question": "I didn't realize it would take this much work.",
     "focus": [
-      "手間がかかる",
-      "〜とは思わなかった"
+      "手間(てま)がかかる",
+      "〜とは思(おも)わなかった"
     ],
     "register": "casual/plain",
     "chunks": [
@@ -4209,8 +4209,8 @@
         4
       ]
     ],
-    "jpExplanation": "「手間がかかる」は、作業(さぎょう)や準備(じゅんび)に労力(ろうりょく)が必要(ひつよう)だということです。「とは思わなかった」で予想外(よそうがい)だったと伝(つた)えます。",
-    "enExplanation": "手間がかかる refers to the effort, steps, or fuss a task requires, not only elapsed time. こんなに emphasizes the unexpected degree. 〜とは思わなかった expresses the surprised realization."
+    "jpExplanation": "「手間(てま)がかかる」は、作業(さぎょう)や準備(じゅんび)に労力(ろうりょく)が必要(ひつよう)だということです。「とは思(おも)わなかった」で予想外(よそうがい)だったと伝(つた)えます。",
+    "enExplanation": "手間(てま)がかかる refers to the effort, steps, or fuss a task requires, not only elapsed time. こんなに emphasizes the unexpected degree. 〜とは思(おも)わなかった expresses the surprised realization."
   },
   {
     "id": "game-prototype-set02-q87",
@@ -4220,9 +4220,9 @@
     "answerMode": "sentence-builder",
     "question": "Once I start something, I tend to get too absorbed in it.",
     "focus": [
-      "一度〜と",
+      "一(いち)度(ど)〜と",
       "つい",
-      "夢中になる",
+      "夢中(むちゅう)になる",
       "〜すぎる"
     ],
     "register": "casual/plain",
@@ -4264,8 +4264,8 @@
         7
       ]
     ],
-    "jpExplanation": "「始めると」は、始めたときによく起(お)こることにつなげています。「つい夢中になりすぎる」は、気(き)がつくと熱中(ねっちゅう)しすぎているということです。",
-    "enExplanation": "と introduces a recurring consequence. 夢中になる means becoming absorbed, and its stem なり takes すぎる for going too far. つい suggests slipping into it despite your intentions."
+    "jpExplanation": "「始(はじ)めると」は、始(はじ)めたときによく起(お)こることにつなげています。「つい夢中(むちゅう)になりすぎる」は、気(き)がつくと熱中(ねっちゅう)しすぎているということです。",
+    "enExplanation": "と introduces a recurring consequence. 夢中(むちゅう)になる means becoming absorbed, and its stem なり takes すぎる for going too far. つい suggests slipping into it despite your intentions."
   },
   {
     "id": "game-prototype-set02-q88",
@@ -4275,7 +4275,7 @@
     "answerMode": "sentence-builder",
     "question": "I should probably stop here for today.",
     "focus": [
-      "この辺で",
+      "この辺(へん)で",
       "〜ておく",
       "〜たほうがよさそう"
     ],
@@ -4313,8 +4313,8 @@
         5
       ]
     ],
-    "jpExplanation": "「この辺で」は、このくらいの段階(だんかい)でという意味(いみ)です。「やめておいたほうがよさそう」は、先(さき)のことも考(かんが)えて、今(いま)はやめるのがよいという判断(はんだん)です。",
-    "enExplanation": "この辺で marks a sensible stopping point. やめておく suggests leaving things there for now, considering what comes next. たほうがよさそう makes the advice tentative. いい has the special appearance form よさそう."
+    "jpExplanation": "「この辺(へん)で」は、このくらいの段階(だんかい)でという意味(いみ)です。「やめておいたほうがよさそう」は、先(さき)のことも考(かんが)えて、今(いま)はやめるのがよいという判断(はんだん)です。",
+    "enExplanation": "この辺(へん)で marks a sensible stopping point. やめておく suggests leaving things there for now, considering what comes next. たほうがよさそう makes the advice tentative. いい has the special appearance form よさそう."
   },
   {
     "id": "game-prototype-set02-q89",
@@ -4324,8 +4324,8 @@
     "answerMode": "sentence-builder",
     "question": "I don't want to redo everything from scratch.",
     "focus": [
-      "最初から",
-      "やり直す",
+      "最初(さいしょ)から",
+      "やり直(なお)す",
       "〜たくない"
     ],
     "register": "casual",
@@ -4366,8 +4366,8 @@
         4
       ]
     ],
-    "jpExplanation": "「やり直す」は、もう一度(いちど)やることです。「最初から全部」で、一部(いちぶ)の修正(しゅうせい)ではなく、全体(ぜんたい)をやり直すことを表(あらわ)します。",
-    "enExplanation": "Verb stem + 直す means redoing the action. やり直したくない expresses not wanting that repeat effort. また最初から全部 adds that the whole thing would have to start over."
+    "jpExplanation": "「やり直(なお)す」は、もう一度(いちど)やることです。「最初(さいしょ)から全部(ぜんぶ)」で、一部(いちぶ)の修正(しゅうせい)ではなく、全体(ぜんたい)をやり直(なお)すことを表(あらわ)します。",
+    "enExplanation": "Verb stem + 直(なお)す means redoing the action. やり直(なお)したくない expresses not wanting that repeat effort. また最初(さいしょ)から全部(ぜんぶ) adds that the whole thing would have to start over."
   },
   {
     "id": "game-prototype-set02-q90",
@@ -4379,7 +4379,7 @@
     "focus": [
       "〜より",
       "〜たほうが",
-      "楽"
+      "楽(らく)"
     ],
     "register": "casual/plain",
     "chunks": [
@@ -4420,8 +4420,8 @@
         7
       ]
     ],
-    "jpExplanation": "「あとで変えるより」は比(くら)べる相手(あいて)です。「今変えたほうが楽」は、今するほうが負担(ふたん)が少(すく)ないということです。",
-    "enExplanation": "より introduces the less convenient option; たほうが identifies the preferable one. 変えた does not place the change in the past here. 楽 means less effort or trouble, rather than necessarily a simpler technique."
+    "jpExplanation": "「あとで変(か)えるより」は比(くら)べる相手(あいて)です。「今(いま)変(か)えたほうが楽(らく)」は、今(いま)するほうが負担(ふたん)が少(すく)ないということです。",
+    "enExplanation": "より introduces the less convenient option; たほうが identifies the preferable one. 変(か)えた does not place the change in the past here. 楽(らく) means less effort or trouble, rather than necessarily a simpler technique."
   },
   {
     "id": "game-prototype-set02-q91",
@@ -4432,7 +4432,7 @@
     "question": "I don't mind helping, but I can't do everything.",
     "focus": [
       "〜のはいい",
-      "全部は〜ない"
+      "全部(ぜんぶ)は〜ない"
     ],
     "register": "casual",
     "chunks": [
@@ -4473,8 +4473,8 @@
         7
       ]
     ],
-    "jpExplanation": "「手伝うのはいい」は、手伝いには前向(まえむ)きだということです。「全部はできない」は、できる範囲(はんい)に限(かぎ)りがあると伝(つた)えます。",
-    "enExplanation": "Verb + のは makes helping the topic of what is acceptable. 全部はできない is a partial negative: you can help with some of it, but not all. It sets a boundary without refusing to help."
+    "jpExplanation": "「手伝(てつだ)うのはいい」は、手伝(てつだ)いには前向(まえむ)きだということです。「全部(ぜんぶ)はできない」は、できる範囲(はんい)に限(かぎ)りがあると伝(つた)えます。",
+    "enExplanation": "Verb + のは makes helping the topic of what is acceptable. 全部(ぜんぶ)はできない is a partial negative: you can help with some of it, but not all. It sets a boundary without refusing to help."
   },
   {
     "id": "game-prototype-set02-q92",
@@ -4485,7 +4485,7 @@
     "question": "I can do it, but it'll take some time.",
     "focus": [
       "〜けど",
-      "時間がかかる"
+      "時間(じかん)がかかる"
     ],
     "register": "casual",
     "chunks": [
@@ -4540,8 +4540,8 @@
         6
       ]
     ],
-    "jpExplanation": "「できるけど」は、できることを認(みと)めたうえで条件(じょうけん)を付(つ)けています。「時間かかる」は、話(はな)し言葉(ことば)で「が」を省(はぶ)いた形(かたち)です。",
-    "enExplanation": "けど acknowledges ability while adding a practical limitation. 時間がかかる means taking time; casual speech often drops が. ちょっと softens the warning rather than promising an exact short duration."
+    "jpExplanation": "「できるけど」は、できることを認(みと)めたうえで条件(じょうけん)を付(つ)けています。「時間(じかん)かかる」は、話(はな)し言葉(ことば)で「が」を省(はぶ)いた形(かたち)です。",
+    "enExplanation": "けど acknowledges ability while adding a practical limitation. 時間(じかん)がかかる means taking time; casual speech often drops が. ちょっと softens the warning rather than promising an exact short duration."
   },
   {
     "id": "game-prototype-set02-q93",
@@ -4552,7 +4552,7 @@
     "question": "I'd rather know in advance if the plan changes.",
     "focus": [
       "〜なら",
-      "前もって",
+      "前(まえ)もって",
       "〜ておく"
     ],
     "register": "casual/plain",
@@ -4591,8 +4591,8 @@
         6
       ]
     ],
-    "jpExplanation": "「変わるなら」は、変更(へんこう)がある場合(ばあい)を考(かんが)えています。「前もって知っておきたい」は、準備(じゅんび)できるように先(さき)に知りたいということです。",
-    "enExplanation": "なら frames the situation you want to prepare for. 前もって means ahead of time. 知っておきたい combines being informed in preparation with your preference; together they make a practical request for advance notice."
+    "jpExplanation": "「変(か)わるなら」は、変更(へんこう)がある場合(ばあい)を考(かんが)えています。「前(まえ)もって知(し)っておきたい」は、準備(じゅんび)できるように先(さき)に知(し)りたいということです。",
+    "enExplanation": "なら frames the situation you want to prepare for. 前(まえ)もって means ahead of time. 知(し)っておきたい combines being informed in preparation with your preference; together they make a practical request for advance notice."
   },
   {
     "id": "game-prototype-set02-q94",
@@ -4644,8 +4644,8 @@
         7
       ]
     ],
-    "jpExplanation": "「合わせられる」は、相手(あいて)や状況(じょうきょう)に合(あ)わせることができるという意味(いみ)です。「疲れる」は、ここでは急な変化(へんか)への負担(ふたん)を表(あらわ)します。",
-    "enExplanation": "合わせられる is potential here: being able to adjust or accommodate. 変わると introduces the usual effect of a sudden change. 疲れる describes the strain it causes, even though adapting is possible."
+    "jpExplanation": "「合(あ)わせられる」は、相手(あいて)や状況(じょうきょう)に合(あ)わせることができるという意味(いみ)です。「疲(つか)れる」は、ここでは急(きゅう)な変化(へんか)への負担(ふたん)を表(あらわ)します。",
+    "enExplanation": "合(あ)わせられる is potential here: being able to adjust or accommodate. 変(か)わると introduces the usual effect of a sudden change. 疲(つか)れる describes the strain it causes, even though adapting is possible."
   },
   {
     "id": "game-prototype-set02-q95",
@@ -4655,7 +4655,7 @@
     "answerMode": "sentence-builder",
     "question": "I thought we had agreed on that already.",
     "focus": [
-      "〜と思ってた"
+      "〜と思(おも)ってた"
     ],
     "register": "casual",
     "chunks": [
@@ -4681,8 +4681,8 @@
         4
       ]
     ],
-    "jpExplanation": "「決まった」は、話(はなし)が決着(けっちゃく)したということです。「と思ってた」で、前(まえ)はそう理解(りかい)していたと伝(つた)えます。",
-    "enExplanation": "決まった presents the matter as settled, with the people deciding left implicit. 思ってた signals your previous understanding, which is now in question. それは highlights the particular point you believed was settled."
+    "jpExplanation": "「決(き)まった」は、話(はなし)が決着(けっちゃく)したということです。「と思(おも)ってた」で、前(まえ)はそう理解(りかい)していたと伝(つた)えます。",
+    "enExplanation": "決(き)まった presents the matter as settled, with the people deciding left implicit. 思(おも)ってた signals your previous understanding, which is now in question. それは highlights the particular point you believed was settled."
   },
   {
     "id": "game-prototype-set02-q96",
@@ -4692,7 +4692,7 @@
     "answerMode": "sentence-builder",
     "question": "If nobody has a strong preference, let's just go with this one.",
     "focus": [
-      "特に〜ない",
+      "特(とく)に〜ない",
       "〜なら",
       "〜んじゃない？"
     ],
@@ -4735,8 +4735,8 @@
         7
       ]
     ],
-    "jpExplanation": "「特に希望がないなら」は、強(つよ)い希望が出(で)ていない場合(ばあい)です。「これでいいんじゃない？」は、相手(あいて)の同意(どうい)を求(もと)める提案(ていあん)です。",
-    "enExplanation": "特に + negative means no particular preference. これでいい treats this option as sufficient. With questioning intonation, いいんじゃない？ suggests agreement—“wouldn’t this be fine?”—rather than saying it is not good."
+    "jpExplanation": "「特(とく)に希望(きぼう)がないなら」は、強(つよ)い希望(きぼう)が出(で)ていない場合(ばあい)です。「これでいいんじゃない？」は、相手(あいて)の同意(どうい)を求(もと)める提案(ていあん)です。",
+    "enExplanation": "特(とく)に + negative means no particular preference. これでいい treats this option as sufficient. With questioning intonation, いいんじゃない？ suggests agreement—“wouldn’t this be fine?”—rather than saying it is not good."
   },
   {
     "id": "game-prototype-set02-q97",
@@ -4791,8 +4791,8 @@
         8
       ]
     ],
-    "jpExplanation": "「特別なものじゃなくていい」は、特別さを求(もと)めていないということです。「楽なの」は、楽なものという意味(いみ)です。",
-    "enExplanation": "〜じゃなくていい says the special quality is not required. 楽なの replaces もの with の, retaining な after the な-adjective. のがいい gives the actual preference: something comfortable or easy to use."
+    "jpExplanation": "「特別(とくべつ)なものじゃなくていい」は、特別(とくべつ)さを求(もと)めていないということです。「楽(らく)なの」は、楽(らく)なものという意味(いみ)です。",
+    "enExplanation": "〜じゃなくていい says the special quality is not required. 楽(らく)なの replaces もの with の, retaining な after the な-adjective. のがいい gives the actual preference: something comfortable or easy to use."
   },
   {
     "id": "game-prototype-set02-q98",
@@ -4802,9 +4802,9 @@
     "answerMode": "sentence-builder",
     "question": "I don't want to spend the whole day rushing from place to place.",
     "focus": [
-      "一日中",
+      "一日中(いちにちじゅう)",
       "あちこち",
-      "〜て回る"
+      "〜て回(まわ)る"
     ],
     "register": "casual",
     "chunks": [
@@ -4837,8 +4837,8 @@
         4
       ]
     ],
-    "jpExplanation": "「一日中」は一日を通(とお)してということです。「あちこち急いで回る」は、いろいろな場所(ばしょ)へ急いで移動(いどう)する様子(ようす)です。",
-    "enExplanation": "一日中 means all day, and あちこち means various places. 急いで describes the manner of 回る here: rushing around. 回りたくない expresses not wanting that kind of day, rather than not wanting to go anywhere."
+    "jpExplanation": "「一日中(いちにちじゅう)」は一日(いちにち)を通(とお)してということです。「あちこち急(いそ)いで回(まわ)る」は、いろいろな場所(ばしょ)へ急(いそ)いで移動(いどう)する様子(ようす)です。",
+    "enExplanation": "一日中(いちにちじゅう) means all day, and あちこち means various places. 急(いそ)いで describes the manner of 回(まわ)る here: rushing around. 回(まわ)りたくない expresses not wanting that kind of day, rather than not wanting to go anywhere."
   },
   {
     "id": "game-prototype-set02-q99",
@@ -4849,7 +4849,7 @@
     "question": "I'd rather have enough time to enjoy one place properly.",
     "focus": [
       "〜くらい",
-      "時間に余裕がある"
+      "時間(じかん)に余裕(よゆう)がある"
     ],
     "register": "casual/plain",
     "chunks": [
@@ -4909,8 +4909,8 @@
         7
       ]
     ],
-    "jpExplanation": "「楽しめるくらい」は、どの程度(ていど)の余裕がほしいかを示(しめ)しています。「時間に余裕がほしい」は、急(いそ)がずに過(す)ごせる時間を求(もと)めています。",
-    "enExplanation": "くらい sets a practical measure of enough time: enough to be able to enjoy one place without rushing. 楽しめる is potential. 時間に余裕がある is having time to spare; がほしい turns that into what you want."
+    "jpExplanation": "「楽(たの)しめるくらい」は、どの程度(ていど)の余裕(よゆう)がほしいかを示(しめ)しています。「時間(じかん)に余裕(よゆう)がほしい」は、急(いそ)がずに過(す)ごせる時間(じかん)を求(もと)めています。",
+    "enExplanation": "くらい sets a practical measure of enough time: enough to be able to enjoy one place without rushing. 楽(たの)しめる is potential. 時間(じかん)に余裕(よゆう)がある is having time to spare; がほしい turns that into what you want."
   },
   {
     "id": "game-prototype-set02-q100",
@@ -4920,7 +4920,7 @@
     "answerMode": "sentence-builder",
     "question": "Even if things don't go exactly as planned, that's fine.",
     "focus": [
-      "予定通り",
+      "予定(よてい)通(とお)り",
       "〜なくても",
       "それはそれで"
     ],
@@ -4960,7 +4960,7 @@
         6
       ]
     ],
-    "jpExplanation": "「予定通りにいく」は、計画(けいかく)したように進(すす)むことです。「それはそれでいい」は、違(ちが)う結果(けっか)にもよさがあると受(う)け止(と)める言(い)い方(かた)です。",
-    "enExplanation": "予定通りにいく means going according to plan. 〜なくても allows for that not happening. それはそれでいい accepts the alternative on its own terms, rather than insisting it match the original plan."
+    "jpExplanation": "「予定(よてい)通(とお)りにいく」は、計画(けいかく)したように進(すす)むことです。「それはそれでいい」は、違(ちが)う結果(けっか)にもよさがあると受(う)け止(と)める言(い)い方(かた)です。",
+    "enExplanation": "予定(よてい)通(とお)りにいく means going according to plan. 〜なくても allows for that not happening. それはそれでいい accepts the alternative on its own terms, rather than insisting it match the original plan."
   }
 ]
