@@ -4,6 +4,8 @@
 }
 
 :root {
+  /* SVG strokes: 6 units scaled from 166 units to 100px. */
+  --line-weight: 3.614px;
   --canvas: #FFB8DE;
   --horizon: #8980FF;
   --pulse: #F2EFE9;
@@ -104,7 +106,7 @@ button:focus-visible {
   width: 50px;
   height: 50px;
   flex: 0 0 50px;
-  border: 2px solid var(--ink);
+  border: var(--line-weight) solid var(--ink);
   border-radius: 50%;
   background: var(--paper);
   font-size: 18px;
@@ -172,7 +174,7 @@ button:focus-visible {
 #quizScreen,
 #wordExplosionScreen {
   overflow: hidden;
-  border: 2px solid var(--ink);
+  border: var(--line-weight) solid var(--ink);
   border-radius: 30px;
   background: var(--paper);
   box-shadow: 6px 6px 0 var(--ink);
@@ -182,7 +184,7 @@ button:focus-visible {
 
 .hero {
   padding: 24px 22px;
-  border-bottom: 2px solid var(--ink);
+  border-bottom: var(--line-weight) solid var(--ink);
   background: var(--ember);
 }
 
@@ -208,17 +210,36 @@ button:focus-visible {
 #categoryGrid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  grid-auto-rows: minmax(112px, auto);
+  grid-auto-rows: minmax(132px, auto);
 }
 
 .category-card {
-  min-height: 112px;
+  position: relative;
+  isolation: isolate;
+  min-height: 132px;
   padding: 14px 16px;
   border: 0;
-  border-top: 2px solid var(--ink);
-  border-right: 2px solid var(--ink);
+  border-top: var(--line-weight) solid var(--ink);
+  border-right: var(--line-weight) solid var(--ink);
   text-align: left;
   cursor: pointer;
+}
+
+/* Decorative artwork sits between the card color and its text. */
+.category-card:not(.random-question-card)::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  right: 20px;
+  width: 100px;
+  height: 100px;
+  transform: translateY(-50%);
+  background-image: var(--category-art);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+  pointer-events: none;
 }
 
 .category-card:nth-child(even) {
@@ -239,7 +260,7 @@ button:focus-visible {
 
 .random-question-card strong {
   padding: 5px 9px;
-  border: 2px solid var(--ink);
+  border: var(--line-weight) solid var(--ink);
   background: var(--paper);
 }
 
@@ -253,6 +274,7 @@ button:focus-visible {
 
 .category-card span {
   display: block;
+  line-height: 1.6;
   margin-top: 8px;
   font-size: 12px;
   font-weight: 900;
@@ -268,7 +290,7 @@ button:focus-visible {
   align-items: center;
   gap: 16px;
   padding: 18px;
-  border-bottom: 2px solid var(--ink);
+  border-bottom: var(--line-weight) solid var(--ink);
 }
 
 .pageHeader {
@@ -311,7 +333,7 @@ button:focus-visible {
   width: 100%;
   padding: 18px 20px;
   border: 0;
-  border-bottom: 2px solid var(--ink);
+  border-bottom: var(--line-weight) solid var(--ink);
   background: var(--paper);
   text-align: left;
   cursor: pointer;
@@ -358,7 +380,7 @@ button:focus-visible {
   gap: 12px;
   margin: 18px 0;
   padding: 16px;
-  border: 2px solid var(--ink);
+  border: var(--line-weight) solid var(--ink);
   background: var(--canvas);
 }
 
@@ -437,7 +459,7 @@ button:focus-visible {
   max-height: min(84vh, 760px);
   padding: 0;
   overflow: auto;
-  border: 2px solid var(--ink);
+  border: var(--line-weight) solid var(--ink);
   border-radius: 26px;
   background: var(--paper);
   color: var(--ink);
@@ -456,7 +478,7 @@ button:focus-visible {
   justify-content: space-between;
   gap: 16px;
   padding: 18px;
-  border-bottom: 2px solid var(--ink);
+  border-bottom: var(--line-weight) solid var(--ink);
   background: var(--horizon);
 }
 
@@ -514,7 +536,7 @@ button:focus-visible {
   gap: 10px;
   width: 100%;
   padding: 13px 14px;
-  border: 2px solid var(--ink);
+  border: var(--line-weight) solid var(--ink);
   border-radius: 16px;
   background: var(--paper);
   text-align: left;
@@ -548,7 +570,7 @@ button:focus-visible {
   justify-content: space-between;
   gap: 16px;
   padding: 18px;
-  border-bottom: 2px solid var(--ink);
+  border-bottom: var(--line-weight) solid var(--ink);
   background: var(--pulse);
 }
 
@@ -603,7 +625,7 @@ button:focus-visible {
 
 .introductionBody section {
   padding: 17px;
-  border: 2px solid var(--ink);
+  border: var(--line-weight) solid var(--ink);
   border-radius: 20px;
   background: var(--canvas);
 }
@@ -645,7 +667,7 @@ button:focus-visible {
 .chapterTag {
   display: inline-block;
   padding: 7px 10px;
-  border: 2px solid var(--ink);
+  border: var(--line-weight) solid var(--ink);
   border-radius: 999px;
   background: var(--pulse);
   font-size: 12px;
@@ -816,7 +838,7 @@ button:focus-visible {
 .answer-button {
   min-height: 66px;
   padding: 14px 16px;
-  border: 2px solid var(--ink);
+  border: var(--line-weight) solid var(--ink);
   border-radius: 20px;
   background: var(--canvas);
   box-shadow: 3px 3px 0 var(--ink);
@@ -847,7 +869,7 @@ button:focus-visible {
 
 #resultCard {
   padding: 20px 18px;
-  border-top: 2px solid var(--ink);
+  border-top: var(--line-weight) solid var(--ink);
   background: var(--bronze);
 }
 
@@ -869,7 +891,7 @@ button:focus-visible {
 .explanation {
   margin-top: 11px;
   padding: 16px;
-  border: 2px solid var(--ink);
+  border: var(--line-weight) solid var(--ink);
   border-radius: 22px;
   background: var(--paper);
 }
@@ -908,7 +930,7 @@ button:focus-visible {
   width: 100%;
   margin-top: 15px;
   padding: 16px;
-  border: 2px solid var(--ink);
+  border: var(--line-weight) solid var(--ink);
   border-radius: 18px;
   background: var(--depth);
   color: var(--ink);
@@ -954,7 +976,7 @@ body.no-furigana rt {
   }
 
   .category-card {
-    min-height: 108px;
+    min-height: 132px;
     padding: 13px 14px;
   }
 
@@ -990,7 +1012,7 @@ body.no-furigana rt {
   min-width: 0;
   min-height: 58px;
   padding: 12px 14px;
-  border: 2px solid var(--ink);
+  border: var(--line-weight) solid var(--ink);
   border-radius: 18px;
   background: var(--paper);
   color: var(--ink);
@@ -1022,7 +1044,7 @@ body.no-furigana rt {
 .conjugationRule {
   margin: 14px 0;
   padding: 14px;
-  border: 2px solid var(--ink);
+  border: var(--line-weight) solid var(--ink);
   border-radius: 18px;
   background: var(--paper);
 }
@@ -1035,7 +1057,7 @@ body.no-furigana rt {
 
 .conjugationAgain {
   padding: 10px 14px;
-  border: 2px solid var(--ink);
+  border: var(--line-weight) solid var(--ink);
   border-radius: 14px;
   background: var(--paper);
   color: var(--ink);
@@ -1068,7 +1090,7 @@ body.no-furigana rt {
 .sentence-answer {
   min-height: 100px;
   padding: 16px;
-  border: 2px solid var(--ink);
+  border: var(--line-weight) solid var(--ink);
   border-radius: 16px;
   background: var(--canvas);
 }
@@ -1076,7 +1098,7 @@ body.no-furigana rt {
 .sentence-chunk {
   min-height: 48px;
   padding: 10px 14px;
-  border: 2px solid var(--ink);
+  border: var(--line-weight) solid var(--ink);
   border-radius: 12px;
   background: var(--chunk-color, var(--paper));
   box-shadow: 3px 3px 0 var(--ink);
@@ -1145,7 +1167,7 @@ body.no-furigana rt {
   top: 65%;
   width: 14px;
   height: 22px;
-  border: 2px solid var(--ink);
+  border: var(--line-weight) solid var(--ink);
   background: var(--confetti-color);
   box-shadow: 2px 2px 0 var(--ink);
   animation: sentence-confetti-burst 1500ms both;
@@ -1192,7 +1214,7 @@ body.no-furigana rt {
 
 .explosion-index-list li {
   padding: 12px 4px;
-  border-bottom: 1px solid var(--ink);
+  border-bottom: var(--line-weight) solid var(--ink);
   overflow-wrap: anywhere;
 }
 
@@ -1223,7 +1245,7 @@ body.no-furigana rt {
   place-content: center;
   min-height: 100px;
   padding: 14px 8px;
-  border: 3px solid var(--ink);
+  border: var(--line-weight) solid var(--ink);
   border-radius: 18px;
   background: var(--explosion-color);
   box-shadow: 4px 4px 0 var(--ink);
@@ -1303,7 +1325,7 @@ body.no-furigana rt {
   min-width: 0;
   overflow-x: auto;
   padding: 14px;
-  border: 4px solid var(--ink);
+  border: var(--line-weight) solid var(--ink);
   border-radius: 18px;
   background: var(--paper);
   font-size: 32px;
@@ -1326,7 +1348,7 @@ body.no-furigana rt {
   width: 64px;
   min-height: 64px;
   padding: 8px;
-  border: 2px solid var(--ink);
+  border: var(--line-weight) solid var(--ink);
   border-radius: 15px;
   background: var(--explosion-color, var(--bronze));
   color: var(--ink);
@@ -1386,7 +1408,7 @@ body.no-furigana rt {
 
 .explosion-examples {
   padding: clamp(14px, 3vw, 24px);
-  border: 3px solid var(--ink);
+  border: var(--line-weight) solid var(--ink);
   border-radius: 18px;
   background: var(--paper);
   box-shadow: 4px 4px 0 var(--ink);
@@ -1398,7 +1420,7 @@ body.no-furigana rt {
 .explosion-example + .explosion-example {
   margin-top: 20px;
   padding-top: 20px;
-  border-top: 1px solid var(--ink);
+  border-top: var(--line-weight) solid var(--ink);
 }
 
 .explosion-example h4 { margin: 0 0 8px; }
@@ -1478,7 +1500,7 @@ body.no-furigana rt {
   padding: 20px 12px;
   overflow-wrap: anywhere;
   min-height: 220px;
-  border: 4px solid var(--ink);
+  border: var(--line-weight) solid var(--ink);
   border-radius: 24px;
   background: var(--ember);
   box-shadow: 7px 7px 0 var(--ink);
@@ -1571,7 +1593,7 @@ body.no-furigana rt {
   width: min(640px, calc(100% - 28px));
   max-height: 85dvh;
   padding: 22px;
-  border: 2px solid var(--ink);
+  border: var(--line-weight) solid var(--ink);
   background: var(--paper);
   color: var(--ink);
   box-shadow: 6px 6px 0 var(--ink);
@@ -1597,7 +1619,7 @@ body.no-furigana rt {
   width: 100%;
   min-width: 0;
   padding: 14px;
-  border: 2px solid var(--ink);
+  border: var(--line-weight) solid var(--ink);
   border-radius: 0;
   background: var(--paper);
   color: var(--ink);
@@ -1613,7 +1635,7 @@ body.no-furigana rt {
   width: 100%;
   padding: 16px 12px;
   border: 0;
-  border-bottom: 2px solid var(--ink);
+  border-bottom: var(--line-weight) solid var(--ink);
   background: var(--paper);
   color: var(--ink);
   text-align: left;

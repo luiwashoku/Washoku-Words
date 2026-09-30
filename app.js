@@ -1136,8 +1136,12 @@
         button.className =
           "category-card";
 
-        button.style.background =
+        button.style.backgroundColor =
           category.color;
+        button.style.setProperty(
+          "--category-art",
+          `url("assets/category-${category.id}.svg")`
+        );
 
         button.setAttribute(
           "aria-label",
@@ -1150,7 +1154,7 @@
           </strong>
 
           <span>
-            ${lessons.length} lessons ·
+            ${lessons.length} lessons<br>
             ${questionCount} questions
           </span>
         `;
