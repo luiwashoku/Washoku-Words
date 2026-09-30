@@ -53,10 +53,11 @@
     return result;
   }
 
-  function createRound(entries) {
+  function createRound(entries, initialWord) {
     if (entries.length < 3) throw new Error("A round needs at least 3 vocabulary entries.");
     const words = [];
-    for (const word of shuffle(entries)) {
+    const first = initialWord && entries.find((entry) => entry.japanese === initialWord.japanese && entry.kanji === initialWord.kanji);
+    for (const word of first ? [first, ...shuffle(entries)] : shuffle(entries)) {
       if (words.some((chosen) => chosen.japanese === word.japanese ||
           chosen.english.toLowerCase() === word.english.toLowerCase())) continue;
       words.push({ ...word, completed: false });
@@ -91,7 +92,7 @@
     return { type: "pending", text };
   }
 
-  function mount(container, { file, playSound, celebrate, createExampleSpeechButton, stopSpeech = () => {} }) {
+  function mount(container, { file, initialWord, playSound, celebrate, createExampleSpeechButton, stopSpeech = () => {} }) {
     let alive = true;
     let round;
     let entries;
@@ -293,7 +294,8 @@
       burstTimers.forEach((timer) => window.clearTimeout(timer));
       burstTimers.clear();
       container.querySelectorAll(".sentence-confetti").forEach((burst) => burst.remove());
-      round = createRound(entries);
+      round = createRound(entries, initialWord);
+      initialWord = null;
       examples.classList.add("hidden");
       exampleList.replaceChildren();
       next.classList.add("hidden");

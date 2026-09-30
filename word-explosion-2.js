@@ -10,7 +10,7 @@
     return result;
   }
 
-  function mount(container, { file, playSound, stopSpeech, speakerTemplate, createExampleSpeechButton }) {
+  function mount(container, { file, initialWord, playSound, stopSpeech, speakerTemplate, createExampleSpeechButton }) {
     let alive = true;
     let solved = false;
     let revealTimer;
@@ -194,6 +194,11 @@
         const loaded = await window.WordExplosionGame.loadVocabulary(file, controller.signal);
         if (!alive) return;
         entries = loaded.entries;
+        if (initialWord) {
+          const first = entries.find((entry) => entry.japanese === initialWord.japanese && entry.kanji === initialWord.kanji);
+          if (first) queue = [...shuffle(entries.filter((entry) => entry !== first)), first];
+          initialWord = null;
+        }
         again.textContent = "Next word →";
         replay.disabled = !speechSupported;
         reset();

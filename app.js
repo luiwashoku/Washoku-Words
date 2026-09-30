@@ -134,6 +134,15 @@
 
     state.catalog = await loadCatalog();
     renderCategories();
+    window.WashokuSearch.init({
+      catalog: state.catalog,
+      loadQuestions: loadLessonQuestions,
+      getQuestionTitle: getGrammarIndexLabel,
+      openResult: async ({ lesson, question, word }) => {
+        openCategory(CATEGORY_CONFIG.find((category) => category.id === lesson.category));
+        await openLesson(lesson, { questionId: question?.id, initialWord: word });
+      }
+    });
 
     registerServiceWorker();
   }
@@ -533,9 +542,9 @@
     return state.selectedLesson?.title || "All questions";
   }
 
-  function getGrammarIndexLabel(question) {
+  function getGrammarIndexLabel(question, lesson = state.selectedLesson) {
     if (
-      state.selectedLesson?.id === "standard-vs-spoken" &&
+      lesson?.id === "standard-vs-spoken" &&
       question.grammarPoint &&
       question.formation
     ) {
@@ -551,8 +560,8 @@
 
     if (
       question.type === "knife-form" ||
-      state.selectedLesson?.id === "page76-organs-others" ||
-      state.selectedLesson?.id === "page83-pork-organs"
+      lesson?.id === "page76-organs-others" ||
+      lesson?.id === "page83-pork-organs"
     ) {
       return question.question;
     }
@@ -564,7 +573,7 @@
     const correctAnswer =
       question.answers[question.correct];
 
-    if (state.selectedLesson?.category === "basics") {
+    if (lesson?.category === "basics") {
       if (correctAnswer?.includes("→")) {
         return correctAnswer;
       }
@@ -1388,7 +1397,7 @@
     return button;
   }
 
-  async function openLesson(lesson) {
+  async function openLesson(lesson, { questionId, initialWord } = {}) {
     if (lesson.gameMode === "word-explosion-2") {
       cancelJapaneseSpeech();
       state.selectedLesson = lesson;
@@ -1397,6 +1406,7 @@
       document.getElementById("explosionIndexButton").classList.add("hidden");
       closeWordExplosion = window.WordExplosionListeningGame.mount(elements.wordExplosionGame, {
         file: lesson.file,
+        initialWord,
         createExampleSpeechButton,
         playSound,
         stopSpeech: cancelJapaneseSpeech,
@@ -1412,6 +1422,7 @@
       document.getElementById("explosionIndexButton").classList.remove("hidden");
       closeWordExplosion = window.WordExplosionGame.mount(elements.wordExplosionGame, {
         file: lesson.file,
+        initialWord,
         playSound,
         stopSpeech: cancelJapaneseSpeech,
         createExampleSpeechButton,
@@ -1441,7 +1452,9 @@
       state.questions =
         shuffleArray(questions);
 
-      state.currentQuestionIndex = 0;
+      state.currentQuestionIndex = questionId
+        ? Math.max(0, state.questions.findIndex((question) => question.id === questionId))
+        : 0;
 
       updateLessonIntroduction();
       showScreen("quiz");

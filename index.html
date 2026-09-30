@@ -97,6 +97,23 @@
 
     </main>
 
+      <div class="home-search">
+        <button id="openSearch" class="icon-button" type="button" aria-label="Search questions and vocabulary" aria-haspopup="dialog" disabled>
+          <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="13" cy="13" r="8"></circle><path d="m19 19 9 9"></path></svg>
+        </button>
+      </div>
+
+    <dialog id="searchDialog" aria-labelledby="searchTitle">
+      <div class="search-header">
+        <h2 id="searchTitle">検索 · Search</h2>
+        <button id="closeSearch" class="icon-button" type="button" aria-label="Close search">×</button>
+      </div>
+      <label class="search-label" for="searchInput">Japanese or English keywords</label>
+      <input id="searchInput" type="search" placeholder="e.g. rice / ごはん / ご飯" autocomplete="off" enterkeyhint="search">
+      <p id="searchStatus" role="status" aria-live="polite"></p>
+      <div id="searchResults"></div>
+    </dialog>
+
     <section
       id="pageScreen"
       class="hidden"
@@ -429,6 +446,7 @@
 
   <script src="word-explosion.js"></script>
   <script src="word-explosion-2.js"></script>
+  <script src="search.js"></script>
   <script src="app.js"></script>
 
 </body>
