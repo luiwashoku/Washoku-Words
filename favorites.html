@@ -1318,7 +1318,9 @@
           return score(second) - score(first);
         });
       utterance.voice = japaneseVoices.find((voice) => /hattori/i.test(voice.name) && /enhanced/i.test(`${voice.name} ${voice.voiceURI}`))
+        || japaneseVoices.find((voice) => /otoya/i.test(voice.name) && /enhanced/i.test(`${voice.name} ${voice.voiceURI}`))
         || japaneseVoices.find((voice) => /hattori/i.test(voice.name))
+        || japaneseVoices.find((voice) => /otoya/i.test(voice.name))
         || japaneseVoices[0] || null;
       utterance.lang = "ja-JP";
       utterance.rate = 0.65;

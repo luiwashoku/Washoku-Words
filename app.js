@@ -826,7 +826,12 @@
         (voice) => /hattori/i.test(voice.name) &&
           /enhanced/i.test(`${voice.name} ${voice.voiceURI}`)
       ) ||
+      japaneseVoices.find(
+        (voice) => /otoya/i.test(voice.name) &&
+          /enhanced/i.test(`${voice.name} ${voice.voiceURI}`)
+      ) ||
       japaneseVoices.find((voice) => /hattori/i.test(voice.name)) ||
+      japaneseVoices.find((voice) => /otoya/i.test(voice.name)) ||
       japaneseVoices.find(
         (voice) =>
           voice.lang.toLowerCase() === "ja-jp" &&
