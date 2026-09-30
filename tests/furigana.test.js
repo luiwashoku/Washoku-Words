@@ -13,7 +13,7 @@ const speechText = new Function(`${speechSource}\nreturn getJapaneseSpeechText;`
 const grammar = JSON.parse(read(root + "data/golden-grammar.json"));
 assert(grammar.length === 189, "Grammar drill keeps all 189 questions");
 const first = grammar.find((question) => question.id === "golden-grammar-q01");
-assert(speechText(first.question) === "いま、えきでともだちを …… 。", "Speech uses explicit readings and removes the verb hint and English translation");
+assert(speechText(first.question) === "いま、えきでともだちを ……。", "Speech uses explicit readings and removes the verb hint and English translation");
 const reason = grammar.find((question) => question.id === "golden-grammar-q07");
 assert(reason.question.includes("明日(あした)"), "Tomorrow has the intended everyday reading");
 assert(speechText(reason.question).includes("あした"), "Tomorrow is passed to speech as ashita");
