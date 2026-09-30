@@ -543,6 +543,10 @@
   }
 
   function getGrammarIndexLabel(question, lesson = state.selectedLesson) {
+    if (question.answerMode === "response-practice") {
+      return question.question;
+    }
+
     if (
       lesson?.id === "standard-vs-spoken" &&
       question.grammarPoint &&
@@ -1587,7 +1591,7 @@
   }
 
   function shuffleQuestionAnswers(question) {
-    if (["reveal", "sentence-builder"].includes(question.answerMode)) return question;
+    if (["reveal", "sentence-builder", "response-practice"].includes(question.answerMode)) return question;
 
     const correctAnswer =
       question.answers[question.correct];
@@ -2051,6 +2055,39 @@
 
 
 
+  function renderResponsePractice(question) {
+    const reveal = document.createElement("button");
+    reveal.type = "button";
+    reveal.className = "answer-button conjugationSubmit";
+    reveal.textContent = "答えを見る";
+    reveal.addEventListener("click", () => {
+      if (state.answerLocked) return;
+      state.answerLocked = true;
+      reveal.disabled = true;
+      elements.resultTitle.textContent = "返事の例";
+      elements.grammarDetails.classList.add("hidden");
+      elements.explanations.forEach((section) => section.classList.add("hidden"));
+      const examples = document.createElement("div");
+      question.answers.forEach((answer) => {
+        const row = document.createElement("div");
+        row.className = "questionRow";
+        const text = document.createElement("p");
+        setFuriganaAwareText(text, answer);
+        row.append(text, createExampleSpeechButton(answer));
+        examples.appendChild(row);
+      });
+      const note = document.createElement("p");
+      note.textContent = "These are examples of natural replies. Your response can be different.";
+      elements.conjugationFeedback.replaceChildren(examples, note);
+      elements.conjugationFeedback.classList.remove("hidden");
+      elements.resultCard.classList.add("reveal-result");
+      elements.resultCard.classList.remove("hidden");
+      playSound("click");
+      elements.resultCard.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+    elements.answerContainer.appendChild(reveal);
+  }
+
   function renderConjugationReveal(question) {
     const panel = document.createElement("div");
     panel.className = "conjugationForm";
@@ -2313,6 +2350,12 @@
   }
 
   function isValidQuestion(question) {
+    if (question?.answerMode === "response-practice") {
+      return typeof question.id === "string" &&
+        typeof question.question === "string" && question.question.trim().length > 0 &&
+        Array.isArray(question.answers) && question.answers.length > 0 &&
+        question.answers.every((answer) => typeof answer === "string" && answer.trim().length > 0);
+    }
     const common = question &&
       typeof question.id === "string" &&
       typeof question.question === "string" &&
@@ -2386,7 +2429,7 @@
     );
 
     const canSpeakAnswers =
-      ! ["reveal", "sentence-builder"].includes(question.answerMode) &&
+      ! ["reveal", "sentence-builder", "response-practice"].includes(question.answerMode) &&
       "speechSynthesis" in window &&
       "SpeechSynthesisUtterance" in window &&
       question.answers.some(
@@ -2441,7 +2484,9 @@
       "reveal-result"
     );
 
-    if (question.answerMode === "sentence-builder") {
+    if (question.answerMode === "response-practice") {
+      renderResponsePractice(question);
+    } else if (question.answerMode === "sentence-builder") {
       renderSentenceBuilder(question);
     } else if (question.answerMode === "reveal") {
       renderConjugationReveal(question);
