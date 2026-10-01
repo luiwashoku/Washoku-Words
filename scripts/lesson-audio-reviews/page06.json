@@ -1,7 +1,7 @@
 {
   "lesson": "page06",
   "reviewed": true,
-  "reviewNotes": "Checked all 98 speech keys against source furigana. Topic は and contrastive には become わ and にわ; object を is お. Lexical は in はんなま and へ in へんじ remain unchanged. The English medium inside the Japanese question is explicitly read みでぃあむ. Individual choices and joined choices share reviewed readings. No audible pitch certification.",
+  "reviewNotes": "Reviewed every exported speech key against data/pages06.json furigana (20 cards). Doneness loanwords transcribed to hiragana: れあ, みでぃあむ, みでぃあむれあ, みでぃあむうぇる, うぇるだん; ステーキ → すてーき retains the long-vowel mark. Embedded English medium is read みでぃあむ. Explicit topic は contexts use わ, object を uses お; lexical は in はんなま remains unchanged. No directional へ occurs. Display text and lookup keys preserved. No listening or pitch-accent verification.",
   "entries": [
     {
       "key": "ステーキのなかがあかく、かねつじかんがみじかいやきかげんはどれですか。",
