@@ -10,7 +10,7 @@
     return result;
   }
 
-  function mount(container, { file, initialWord, playSound, stopSpeech, speakerTemplate, createExampleSpeechButton }) {
+  function mount(container, { file, initialWord, playSound, stopSpeech, speakerTemplate, createExampleSpeechButton, speakJapaneseText, getRecordedJapaneseFile }) {
     let alive = true;
     let solved = false;
     let revealTimer;
@@ -56,6 +56,10 @@
 
     function speak() {
       if (!alive || !word) return;
+      if (getRecordedJapaneseFile?.(word.japanese)) {
+        speakJapaneseText(word.japanese, replay, "Japanese word");
+        return;
+      }
       stopSpeech();
       utterance = null;
       const text = window.getJapaneseSpeechText(word.japanese);
@@ -204,7 +208,7 @@
           initialWord = null;
         }
         again.textContent = "Next word →";
-        replay.disabled = !speechSupported;
+        replay.disabled = !(getRecordedJapaneseFile?.(entries[0].japanese) || speechSupported);
         reset();
       } catch (error) {
         if (!alive || error.name === "AbortError") return;

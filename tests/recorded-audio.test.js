@@ -3,21 +3,21 @@ ObjC.import('Foundation');
 function read(p) { return $.NSString.stringWithContentsOfFileEncodingError(p,$.NSUTF8StringEncoding,null).js; }
 function assert(v,m) { if(!v) throw new Error(m); }
 const source=read('app.js');
-const functions=source.slice(source.indexOf('  function speakJapaneseText('),source.indexOf('  function restoreSavedData('));
+const functions=source.slice(source.indexOf('  function getRecordedJapaneseFile('),source.indexOf('  function restoreSavedData('));
 const players=[];
 function Audio(src) { this.src=src; this.paused=true; this.currentTime=0; this.events={}; players.push(this); }
 Audio.prototype.addEventListener=function(name,fn){this.events[name]=fn;};
 Audio.prototype.pause=function(){this.paused=true;};
 Audio.prototype.play=function(){this.paused=false; const self=this; return {catch(fn){self.reject=fn;}};};
 function button(){return {classList:{toggle(){}},setAttribute(){}};}
-const host={tasteAudioFiles:{'こしひかり':'rice.mp3','あまい':'sweet.mp3'}};
+const host={tasteAudioFiles:{'こしひかり':'rice.mp3','あまい':'sweet.mp3'},gameAudioFiles:{'ゲーム':'game.mp3'}};
 const api=new Function('window','Audio','document',`
 let activeJapaneseAudio=null,activeJapaneseUtterance=null,activeSpeechButton=null;
 const state={selectedLesson:{id:'taste-words'}};
 const elements={speakQuestion:arguments[3],speakAnswers:arguments[3],speakExplanation:arguments[3]};
 const getJapaneseSpeechText=t=>t;
 ${functions}
-return {speak:speakJapaneseText,cancel:cancelJapaneseSpeech};
+return {speak:speakJapaneseText,cancel:cancelJapaneseSpeech,select:id=>state.selectedLesson={id}};
 `)(host,Audio,{getElementById(){return null;},querySelectorAll(){return [];}},button());
 const a=button(),b=button();
 assert(players.length===0,'No audio loaded before click');
@@ -44,3 +44,15 @@ api.speak('こしひかり',a,'name');
 players[4].events.ended();
 assert(players[4].paused,'End resets playback state');
 console.log('PASS: on-demand MP3 playback, pause/resume, switching, cancellation, stale events and errors.');
+
+['word-explosion','word-explosion-2','game-prototype','three-second-replies'].forEach(id=>{
+  api.select(id);
+  api.speak('ゲーム',a,'game');
+  assert(players[players.length-1].src==='game.mp3','Nova playback for '+id);
+  api.cancel();
+});
+api.select('page01');
+const count=players.length;
+api.speak('ゲーム',a,'game');
+assert(players.length===count,'Game recordings limited to selected game decks');
+console.log('PASS: all four game decks use Nova; unrelated lessons keep their existing speech.');

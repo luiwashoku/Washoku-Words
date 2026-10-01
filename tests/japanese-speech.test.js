@@ -33,7 +33,7 @@ function Utterance(text) { this.text = text; this.addEventListener = () => {}; }
 host.SpeechSynthesisUtterance = Utterance;
 const input = cases[0][0], expected = cases[0][1];
 const app = read("app.js");
-const mainSource = app.slice(app.indexOf("  function speakJapaneseText("), app.indexOf("  function setSpeechButtonState("));
+const mainSource = app.slice(app.indexOf("  function getRecordedJapaneseFile("), app.indexOf("  function setSpeechButtonState("));
 const main = new Function("window", "SpeechSynthesisUtterance", "getJapaneseSpeechText", `
   let activeJapaneseUtterance = null, activeSpeechButton = null, activeJapaneseAudio = null;
   const state = { selectedLesson: null };
@@ -57,6 +57,7 @@ const listening = read("word-explosion-2.js");
 const listeningSource = listening.slice(listening.indexOf("    function speak()"), listening.indexOf("    function reveal()"));
 new Function("window", "SpeechSynthesisUtterance", "word", `
   const alive = true; let utterance = null;
+  const getRecordedJapaneseFile = () => null;
   function stopSpeech() {}
   ${listeningSource}
   speak();

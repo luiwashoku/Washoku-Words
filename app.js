@@ -772,10 +772,17 @@
     );
   }
 
+  function getRecordedJapaneseFile(text) {
+    const id = state.selectedLesson?.id;
+    const files = id === "taste-words" ? window.tasteAudioFiles
+      : ["word-explosion", "word-explosion-2", "game-prototype", "three-second-replies"].includes(id)
+        ? window.gameAudioFiles : null;
+    return files?.[getJapaneseSpeechText(text)];
+  }
+
   function speakJapaneseText(text, button, label) {
     text = getJapaneseSpeechText(text);
-    const audioFile = state.selectedLesson?.id === "taste-words"
-      ? window.tasteAudioFiles?.[text] : null;
+    const audioFile = getRecordedJapaneseFile(text);
     if (audioFile) {
       if (activeJapaneseAudio && activeSpeechButton === button) {
         if (activeJapaneseAudio.paused) {
@@ -1395,8 +1402,7 @@
     const button = elements.speakExplanation.cloneNode(true);
     button.removeAttribute("id");
     button.className = "icon-button explosion-example-speech";
-    const supported = (state.selectedLesson?.id === "taste-words" &&
-      Boolean(window.tasteAudioFiles?.[getJapaneseSpeechText(text)])) ||
+    const supported = Boolean(getRecordedJapaneseFile(text)) ||
       ("speechSynthesis" in window && "SpeechSynthesisUtterance" in window);
     button.disabled = !supported;
     setSpeechButtonState(button, "idle", "Japanese example sentence");
@@ -1420,7 +1426,9 @@
         createExampleSpeechButton,
         playSound,
         stopSpeech: cancelJapaneseSpeech,
-        speakerTemplate: elements.speakExplanation
+        speakerTemplate: elements.speakExplanation,
+        speakJapaneseText,
+        getRecordedJapaneseFile
       });
       return;
     }
@@ -2058,12 +2066,6 @@
     englishTitle.lang = "en";
     englishTitle.textContent = question.englishTitle;
     elements.questionText.appendChild(englishTitle);
-    if (state.selectedLesson?.id === "taste-words") {
-      const audioCredit = document.createElement("small");
-      audioCredit.className = "readingCardAudioCredit";
-      audioCredit.textContent = "AI-generated audio · Nova";
-      elements.questionText.appendChild(audioCredit);
-    }
 
     const content = document.createElement("div");
     content.className = "readingCardSections";
@@ -2330,7 +2332,8 @@
     speakCorrect.className = "";
     setSpeechButtonState(speakCorrect, "idle", "correct sentence");
     speakCorrect.classList.toggle("hidden",
-      !("speechSynthesis" in window && "SpeechSynthesisUtterance" in window)
+      !(getRecordedJapaneseFile(question.answers[0]) ||
+        ("speechSynthesis" in window && "SpeechSynthesisUtterance" in window))
     );
     speakCorrect.addEventListener("click", () => {
       speakJapaneseText(
@@ -2481,8 +2484,7 @@
     elements.conjugationFeedback.classList.add("hidden");
 
     const canSpeakQuestion =
-      ((state.selectedLesson?.id === "taste-words" &&
-        Boolean(window.tasteAudioFiles?.[getJapaneseSpeechText(question.question)])) ||
+      (Boolean(getRecordedJapaneseFile(question.question)) ||
         ("speechSynthesis" in window && "SpeechSynthesisUtterance" in window)) &&
       Boolean(getJapaneseSpeechText(question.question));
 
@@ -2717,8 +2719,8 @@
     );
 
     const canSpeakExplanation =
-      "speechSynthesis" in window &&
-      "SpeechSynthesisUtterance" in window &&
+      (getRecordedJapaneseFile(question.jpExplanation) ||
+        ("speechSynthesis" in window && "SpeechSynthesisUtterance" in window)) &&
       Boolean(
         getJapaneseSpeechText(
           question.jpExplanation ||

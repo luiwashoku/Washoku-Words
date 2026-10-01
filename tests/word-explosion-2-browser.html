@@ -21,6 +21,8 @@
     const w = frame.contentWindow, d = frame.contentDocument;
     const spoken = [];
     let canceled = 0;
+    // Exercise the browser-voice fallback separately from recorded-audio tests.
+    w.gameAudioFiles = {};
     class Utterance extends w.EventTarget { constructor(text) { super(); this.text = text; } }
     Object.defineProperty(w, "SpeechSynthesisUtterance", { configurable: true, value: Utterance });
     Object.defineProperty(w, "speechSynthesis", { configurable: true, value: {

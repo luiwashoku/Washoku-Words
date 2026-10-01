@@ -1,0 +1,66 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Nova game audio checks</title>
+<pre id="result">RUNNING</pre>
+<iframe src="../index.html" title="App"></iframe>
+<script>
+(async () => {
+  const result = document.getElementById('result');
+  const frame = document.querySelector('iframe');
+  const wait = ms => new Promise(resolve => setTimeout(resolve, ms));
+  const assert = (value, message) => { if (!value) throw new Error(message); };
+  async function until(fn) {
+    for (let i = 0; i < 200; i++) { if (fn()) return; await wait(25); }
+    throw new Error('Timed out');
+  }
+  try {
+    await until(() => frame.contentDocument.querySelector('.category-card'));
+    const w = frame.contentWindow, d = frame.contentDocument;
+    const players = [];
+    class Player extends w.EventTarget {
+      constructor(src) { super(); this.src = src; this.paused = true; this.currentTime = 0; players.push(this); }
+      play() { this.paused = false; return Promise.resolve(); }
+      pause() { this.paused = true; }
+    }
+    w.Audio = Player;
+    // Recordings must work even without browser speech support.
+    delete w.speechSynthesis;
+    delete w.SpeechSynthesisUtterance;
+    const q = s => d.querySelector(s);
+    [...d.querySelectorAll('.category-card')].find(b => b.textContent.includes('日本語で話す')).click();
+    async function open(title) {
+      await until(() => [...d.querySelectorAll('.lesson-card strong')].some(b => b.textContent.trim() === title));
+      [...d.querySelectorAll('.lesson-card')].find(b => b.querySelector('strong').textContent.trim() === title).click();
+    }
+    await open('単語爆発2');
+    await until(() => players.length);
+    const first = players[0];
+    assert(first.src.startsWith('audio/game-decks/nova-') && !first.paused, 'Listening game automatically plays Nova');
+    q('.listening-replay').click();
+    assert(first.paused, 'Replay pauses recording');
+    q('.listening-replay').click();
+    assert(!first.paused && players.length === 1, 'Replay resumes same recording');
+    q('#backFromExplosion').click();
+    assert(first.paused && first.currentTime === 0, 'Leaving listening game stops recording');
+    await open('3秒で返して！');
+    await until(() => q('#speakQuestion') && !q('#speakQuestion').classList.contains('hidden'));
+    q('#speakQuestion').click();
+    assert(players.at(-1).src.startsWith('audio/game-decks/nova-'), 'Response prompt uses Nova');
+    q('.conjugationSubmit').click();
+    const replies = [...d.querySelectorAll('#conjugationFeedback .explosion-example-speech')];
+    assert(replies.length === 3 && replies.every(b => !b.disabled), 'All reply speakers available without Web Speech');
+    replies[0].click();
+    assert(players.at(-1).src.startsWith('audio/game-decks/nova-'), 'Response reply uses Nova');
+    q('#backToPages').click();
+    await open('文作り');
+    await until(() => q('.sentence-bank button'));
+    q('.sentence-bank button').click();
+    q('.sentence-builder > .answer-button').click();
+    const correct = q('#speakCorrectSentence');
+    assert(!correct.classList.contains('hidden'), 'Sentence speaker available without Web Speech');
+    correct.click();
+    assert(players.at(-1).src.startsWith('audio/game-decks/nova-'), 'Correct sentence uses Nova');
+    result.textContent = 'PASS: Nova listening autoplay, pause/resume, navigation cancellation, response prompts and replies, and sentence answers without Web Speech.';
+  } catch (error) { result.textContent = 'FAIL: ' + error.stack; }
+})();
+</script>

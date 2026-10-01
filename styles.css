@@ -3,25 +3,6 @@
   box-sizing: border-box;
 }
 
-.tts-sample-link {
-  padding: 12px 16px;
-  border: 1px solid currentColor;
-  border-radius: 12px;
-  background: #00CC92;
-}
-
-.tts-sample-link a {
-  color: inherit;
-  font-weight: 600;
-}
-
-.readingCardAudioCredit {
-  display: block;
-  font-size: 12px;
-  font-weight: 400;
-  margin-top: 8px;
-}
-
 :root {
   /* SVG strokes: 6 units scaled from 166 units to 100px. */
   --line-weight: 3.614px;
