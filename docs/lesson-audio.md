@@ -33,6 +33,7 @@ Existing audio controls still pause/resume and cancel on navigation.
 
 Batch 1: `page01-02`, 味・香り・食感, 80 cards, 271 reviewed speech keys, 270 recordings.
 Individual answer clips play sequentially in displayed order after shuffling.
-Next batch: `page03-04`, 調理の基本動詞.
+Batch 2: `page03-04`, 調理の基本動詞, 40 cards, 159 reviewed speech keys and recordings.
+Next batch: `page05`, 調理器具.
 
 Reading checks are not a certification of audible pitch accent or articulation.
