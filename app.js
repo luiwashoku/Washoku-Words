@@ -818,11 +818,11 @@
       /kyoko|nanami|haruka|sayaka|female/i;
     const japaneseVoice =
       japaneseVoices.find(
-        (voice) => /hattori/i.test(voice.name) &&
+        (voice) => /otoya/i.test(voice.name) &&
           /enhanced/i.test(`${voice.name} ${voice.voiceURI}`)
       ) ||
       japaneseVoices.find(
-        (voice) => /otoya/i.test(voice.name) &&
+        (voice) => /hattori/i.test(voice.name) &&
           /enhanced/i.test(`${voice.name} ${voice.voiceURI}`)
       ) ||
       japaneseVoices.find((voice) => /hattori/i.test(voice.name)) ||

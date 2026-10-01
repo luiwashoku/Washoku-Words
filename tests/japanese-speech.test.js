@@ -22,10 +22,11 @@ const cases = [
 ];
 for (const [input, expected] of cases) assert(prepare(input) === expected, `${input}: got ${prepare(input)}`);
 const spoken = [];
-const voice = { name: "Hattori Enhanced", voiceURI: "hattori-enhanced", lang: "ja-JP" };
+const voice = { name: "Otoya Enhanced", voiceURI: "otoya-enhanced", lang: "ja-JP" };
+const fallbackVoice = { name: "Hattori Enhanced", voiceURI: "hattori-enhanced", lang: "ja-JP" };
 host.speechSynthesis = {
   speaking: false, paused: false,
-  getVoices: () => [voice], cancel() {}, speak(u) { spoken.push(u); },
+  getVoices: () => [fallbackVoice, voice], cancel() {}, speak(u) { spoken.push(u); },
   pause() { this.paused = true; }, resume() { this.paused = false; }
 };
 function Utterance(text) { this.text = text; this.addEventListener = () => {}; }

@@ -1320,8 +1320,8 @@
           };
           return score(second) - score(first);
         });
-      utterance.voice = japaneseVoices.find((voice) => /hattori/i.test(voice.name) && /enhanced/i.test(`${voice.name} ${voice.voiceURI}`))
-        || japaneseVoices.find((voice) => /otoya/i.test(voice.name) && /enhanced/i.test(`${voice.name} ${voice.voiceURI}`))
+      utterance.voice = japaneseVoices.find((voice) => /otoya/i.test(voice.name) && /enhanced/i.test(`${voice.name} ${voice.voiceURI}`))
+        || japaneseVoices.find((voice) => /hattori/i.test(voice.name) && /enhanced/i.test(`${voice.name} ${voice.voiceURI}`))
         || japaneseVoices.find((voice) => /hattori/i.test(voice.name))
         || japaneseVoices.find((voice) => /otoya/i.test(voice.name))
         || japaneseVoices[0] || null;
