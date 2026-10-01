@@ -1685,3 +1685,48 @@ body.no-furigana rt {
   outline-offset: -3px;
   background: var(--bronze);
 }
+
+/* Food description cards share the lesson controls without answer grading. */
+.question:has(> .readingCardEnglishTitle) {
+  font-size: clamp(28px, 6vw, 34px);
+}
+.readingCardEnglishTitle {
+  display: block;
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: normal;
+}
+.readingCardSections {
+  grid-column: 1 / -1;
+  display: grid;
+  gap: 14px;
+}
+.readingCardSection {
+  padding: 18px 0;
+}
+.readingCardSection + .readingCardSection {
+  border-top: 1px solid var(--ink);
+}
+.readingCardSection h3 { margin: 0 0 10px; font-size: 16px; }
+.readingCardSection .questionRow p {
+  flex: 1;
+  margin: 0;
+  font-size: clamp(20px, 5vw, 24px);
+  line-height: 1.8;
+}
+.readingCardSection .explosion-example-speech { flex-shrink: 0; margin-top: 0; }
+#quizScreen:has(.readingCardSections) #speakQuestion,
+.readingCardSection .explosion-example-speech {
+  box-sizing: border-box;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  flex: 0 0 44px;
+  padding: 0;
+}
+.readingCardKeywords { margin: 12px 0 0; font-size: 14px; line-height: 1.6; }
+.readingCardNavigation { display: flex; justify-content: space-between; gap: 16px; }
+.readingCardNavigation .answer-button { width: 66px; padding: 10px; text-align: center; font-size: 28px; }
+.readingCardNavigation .answer-button:disabled { opacity: 0.35; cursor: default; }

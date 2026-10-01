@@ -544,6 +544,9 @@
   }
 
   function getGrammarIndexLabel(question, lesson = state.selectedLesson) {
+    if (question.answerMode === "reading-card") {
+      return `${question.question} · ${question.englishTitle}`;
+    }
     if (question.answerMode === "response-practice") {
       return question.question;
     }
@@ -1298,6 +1301,8 @@
               ? "Listen and choose · Play"
               : lesson.gameMode === "word-explosion"
               ? "Hiragana word game · Play"
+              : lesson.answerMode === "reading-card"
+              ? `${count} ${count === 1 ? "card" : "cards"} · Read`
               : `${progress.completed}/${count} ${lesson.answerMode === "reveal" ? "practised" : "completed"}`}
           </span>
         </span>
@@ -1412,7 +1417,7 @@
       updateFuriganaControl();
 
       state.questions =
-        shuffleArray(questions);
+        lesson.answerMode === "reading-card" ? questions : shuffleArray(questions);
 
       state.currentQuestionIndex = questionId
         ? Math.max(0, state.questions.findIndex((question) => question.id === questionId))
@@ -1540,7 +1545,7 @@
   }
 
   function shuffleQuestionAnswers(question) {
-    if (["reveal", "sentence-builder", "response-practice"].includes(question.answerMode)) return question;
+    if (["reveal", "sentence-builder", "response-practice", "reading-card"].includes(question.answerMode)) return question;
 
     const correctAnswer =
       question.answers[question.correct];
@@ -1567,7 +1572,7 @@
             .filter(
               (lesson) =>
                 lesson.category !==
-                "conversation"
+                "conversation" && lesson.answerMode !== "reading-card"
             )
             .map(
               async (lesson) => {
@@ -2004,6 +2009,56 @@
 
 
 
+  function renderReadingCard(question) {
+    const englishTitle = document.createElement("span");
+    englishTitle.className = "readingCardEnglishTitle";
+    englishTitle.lang = "en";
+    englishTitle.textContent = question.englishTitle;
+    elements.questionText.appendChild(englishTitle);
+
+    const content = document.createElement("div");
+    content.className = "readingCardSections";
+    question.sections.forEach((section) => {
+      const panel = document.createElement("section");
+      panel.className = "readingCardSection";
+      const heading = document.createElement("h3");
+      setFuriganaAwareText(heading, section.title);
+      const row = document.createElement("div");
+      row.className = "questionRow";
+      const description = document.createElement("p");
+      description.lang = "ja";
+      setFuriganaAwareText(description, section.japanese);
+      row.append(description, createExampleSpeechButton(section.japanese));
+      const keywords = document.createElement("p");
+      keywords.className = "readingCardKeywords";
+      keywords.lang = "en";
+      keywords.textContent = section.english;
+      panel.append(heading, row, keywords);
+      content.appendChild(panel);
+    });
+    const navigation = document.createElement("nav");
+    navigation.className = "readingCardNavigation";
+    navigation.setAttribute("aria-label", "Browse cards");
+    [-1, 1].forEach((direction) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "answer-button";
+      button.textContent = direction < 0 ? "←" : "→";
+      button.setAttribute("aria-label", direction < 0 ? "Previous card" : "Next card");
+      const target = state.currentQuestionIndex + direction;
+      button.disabled = target < 0 || target >= state.questions.length;
+      button.addEventListener("click", () => {
+        if (button.disabled) return;
+        playSound("click");
+        state.currentQuestionIndex = target;
+        renderCurrentQuestion();
+      });
+      navigation.appendChild(button);
+    });
+    content.appendChild(navigation);
+    elements.answerContainer.appendChild(content);
+  }
+
   function renderResponsePractice(question) {
     const reveal = document.createElement("button");
     reveal.type = "button";
@@ -2299,6 +2354,15 @@
   }
 
   function isValidQuestion(question) {
+    if (question?.answerMode === "reading-card") {
+      return [question.id, question.question, question.englishTitle].every(
+        (value) => typeof value === "string" && value.trim().length > 0
+      ) && Array.isArray(question.sections) && question.sections.length > 0 &&
+        question.sections.every((section) => section &&
+          [section.title, section.japanese, section.english].every(
+            (value) => typeof value === "string" && value.trim().length > 0
+          ));
+    }
     if (question?.answerMode === "response-practice") {
       return typeof question.id === "string" &&
         typeof question.question === "string" && question.question.trim().length > 0 &&
@@ -2378,7 +2442,7 @@
     );
 
     const canSpeakAnswers =
-      ! ["reveal", "sentence-builder", "response-practice"].includes(question.answerMode) &&
+      ! ["reveal", "sentence-builder", "response-practice", "reading-card"].includes(question.answerMode) &&
       "speechSynthesis" in window &&
       "SpeechSynthesisUtterance" in window &&
       question.answers.some(
@@ -2433,7 +2497,9 @@
       "reveal-result"
     );
 
-    if (question.answerMode === "response-practice") {
+    if (question.answerMode === "reading-card") {
+      renderReadingCard(question);
+    } else if (question.answerMode === "response-practice") {
       renderResponsePractice(question);
     } else if (question.answerMode === "sentence-builder") {
       renderSentenceBuilder(question);
