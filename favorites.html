@@ -41,6 +41,7 @@
     </button>
   </nav>
   <script src="japanese-speech.js"></script>
+  <script src="zukan-audio-manifest.js"></script>
   <script>
     const rolloverPages = [{
       image: "assets/vegetables-page.png",
@@ -146,7 +147,7 @@
         ["ブラックベリー", "ぶらっくべりー", 66.0, 20.2],
         ["クランベリー", "くらんべりー", 82.3, 20.2],
         ["スイカ", "すいか", 20.2, 35.3],
-        ["メロン", "めろん", 38.6, 35.3],
+        ["メロン", "めろん", 38.6, 35.3, "メロン"],
         ["マスクメロン", "ますくめろん", 59.4, 35.3],
         ["プリンスメロン", "ぷりんすめろん", 79.6, 35.3],
         ["バナナ", "ばなな", 17.8, 51.3],
@@ -1299,7 +1300,32 @@
       return (spokenReading ?? reading).replace(/[・／/]/g, "。");
     }
 
+    let activeVocabularyAudio = null;
+
+    function stopVocabularyAudio() {
+      if (activeVocabularyAudio) {
+        activeVocabularyAudio.pause();
+        activeVocabularyAudio.currentTime = 0;
+        activeVocabularyAudio = null;
+      }
+      window.speechSynthesis?.cancel();
+    }
+
     function speakJapanese(text) {
+      text = window.getJapaneseSpeechText(text);
+      stopVocabularyAudio();
+      const file = window.zukanAudioFiles?.[text];
+      if (file) {
+        const audio = new Audio(file);
+        activeVocabularyAudio = audio;
+        const reset = () => {
+          if (activeVocabularyAudio === audio) activeVocabularyAudio = null;
+        };
+        audio.addEventListener("ended", reset);
+        audio.addEventListener("error", reset);
+        audio.play().catch(reset);
+        return;
+      }
       if (!("speechSynthesis" in window) || !("SpeechSynthesisUtterance" in window)) return;
       text = window.getJapaneseSpeechText(text);
       if (!text) return;
@@ -1333,7 +1359,7 @@
 
     function renderRolloverPage() {
       const page = rolloverPages[currentPage];
-      window.speechSynthesis?.cancel();
+      stopVocabularyAudio();
       test.replaceChildren();
       test.style.backgroundImage = `url("${page.image}")`;
       test.setAttribute("aria-label", page.label);
@@ -1377,6 +1403,7 @@
 
     previousPage.addEventListener("click", () => changeRolloverPage(-1));
     nextPage.addEventListener("click", () => changeRolloverPage(1));
+    window.addEventListener("pagehide", stopVocabularyAudio);
     renderRolloverPage();
   </script>
 </body>

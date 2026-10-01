@@ -51,7 +51,7 @@ main(input, button, "test");
 assert(!host.speechSynthesis.paused && spoken.length === 1, "Resume does not create another utterance");
 host.speechSynthesis.speaking = false;
 const favorites = read("favorites.html");
-const favoriteSource = favorites.slice(favorites.indexOf("    function speakJapanese("), favorites.indexOf("    function renderRolloverPage("));
+const favoriteSource = favorites.slice(favorites.indexOf("    let activeVocabularyAudio ="), favorites.indexOf("    function renderRolloverPage("));
 new Function("window", "SpeechSynthesisUtterance", `${favoriteSource}; return speakJapanese;`)(host, Utterance)(input);
 const listening = read("word-explosion-2.js");
 const listeningSource = listening.slice(listening.indexOf("    function speak()"), listening.indexOf("    function reveal()"));
