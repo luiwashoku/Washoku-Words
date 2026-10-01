@@ -56,3 +56,34 @@ const count=players.length;
 api.speak('ゲーム',a,'game');
 assert(players.length===count,'Game recordings limited to selected game decks');
 console.log('PASS: all four game decks use Nova; unrelated lessons keep their existing speech.');
+
+// Reviewed lesson audio is scoped to its lesson and keeps existing playback controls.
+host.lessonAudioFiles = {'page01-02': {'ゲーム': 'lesson.mp3'}};
+api.select('page01-02');
+api.speak('ゲーム',a,'lesson');
+assert(players[players.length-1].src==='lesson.mp3','Reviewed lesson uses Nova');
+api.cancel();
+api.select('page03-04');
+const beforeUnreviewed = players.length;
+api.speak('ゲーム',a,'lesson');
+assert(players.length===beforeUnreviewed,'Unreviewed lessons cannot borrow another lesson recording');
+console.log('PASS: reviewed lesson playback and isolation.');
+
+// Choice order changes after shuffle; play individual clips in the displayed order.
+host.lessonAudioFiles['page01-02'] = {'あまい':'sweet-choice.mp3','にがい':'bitter-choice.mp3'};
+api.select('page01-02');
+api.speak('にがい。 \nあまい',a,'choices');
+const firstChoice = players[players.length-1];
+assert(firstChoice.src==='bitter-choice.mp3','First visible shuffled choice uses Nova');
+firstChoice.events.ended();
+const secondChoice = players[players.length-1];
+assert(secondChoice.src==='sweet-choice.mp3' && !secondChoice.paused,'Playlist follows visible order');
+api.speak('にがい。 \nあまい',a,'choices');
+assert(secondChoice.paused,'Pause works within the choice playlist');
+api.speak('にがい。 \nあまい',a,'choices');
+assert(!secondChoice.paused,'Resume works within the choice playlist');
+api.cancel();
+const afterCancel = players.length;
+secondChoice.events.ended();
+assert(players.length===afterCancel,'Cancelled playlist cannot start another clip');
+console.log('PASS: shuffled answer order, sequential Nova playback, pause/resume and cancellation.');

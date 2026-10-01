@@ -777,13 +777,21 @@
     const files = id === "taste-words" ? window.tasteAudioFiles
       : ["word-explosion", "word-explosion-2", "game-prototype", "three-second-replies"].includes(id)
         ? window.gameAudioFiles : null;
-    return files?.[getJapaneseSpeechText(text)];
+    return window.lessonAudioFiles?.[id]?.[getJapaneseSpeechText(text)]
+      || files?.[getJapaneseSpeechText(text)];
   }
 
   function speakJapaneseText(text, button, label) {
+    // Resolve individual choices before the shared cleaner removes line breaks.
+    const choiceTexts = typeof text === "string" ? text.split(/\n/).filter((part) => part.trim()) : [];
+    const choiceFiles = choiceTexts.length > 1
+      ? choiceTexts.map((part) => getRecordedJapaneseFile(part)
+        || getRecordedJapaneseFile(part.replace(/。\s*$/, ""))) : [];
     text = getJapaneseSpeechText(text);
     const audioFile = getRecordedJapaneseFile(text);
-    if (audioFile) {
+    const audioFiles = choiceFiles.length > 1 && choiceFiles.every(Boolean)
+      ? choiceFiles : audioFile ? [audioFile] : [];
+    if (audioFiles.length) {
       if (activeJapaneseAudio && activeSpeechButton === button) {
         if (activeJapaneseAudio.paused) {
           playRecordedJapanese(activeJapaneseAudio, button, label);
@@ -794,19 +802,25 @@
         return;
       }
       cancelJapaneseSpeech();
-      const audio = new Audio(audioFile);
-      activeJapaneseAudio = audio;
-      activeSpeechButton = button;
-      audio.addEventListener("ended", () => {
-        if (activeJapaneseAudio === audio) cancelJapaneseSpeech();
-      });
-      audio.addEventListener("error", () => {
-        if (activeJapaneseAudio === audio) {
-          cancelJapaneseSpeech();
-          button.title = "Audio could not load. Click to retry.";
-        }
-      });
-      playRecordedJapanese(audio, button, label);
+      let clipIndex = 0;
+      function playNextClip() {
+        const audio = new Audio(audioFiles[clipIndex]);
+        activeJapaneseAudio = audio;
+        activeSpeechButton = button;
+        audio.addEventListener("ended", () => {
+          if (activeJapaneseAudio !== audio) return;
+          if (++clipIndex < audioFiles.length) playNextClip();
+          else cancelJapaneseSpeech();
+        });
+        audio.addEventListener("error", () => {
+          if (activeJapaneseAudio === audio) {
+            cancelJapaneseSpeech();
+            button.title = "Audio could not load. Click to retry.";
+          }
+        });
+        playRecordedJapanese(audio, button, label);
+      }
+      playNextClip();
       return;
     }
     if (activeJapaneseAudio) cancelJapaneseSpeech();

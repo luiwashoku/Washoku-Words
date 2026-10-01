@@ -12,3 +12,12 @@ remaining kanji or katakana inputs before making API calls. Preserve explicit
 readings for rare kanji, aliases, and pronunciation corrections. Text validation
 is not proof of correct audible pitch accent; do not claim listening verification
 without reviewing the recording.
+
+For the rest of the app, generate in lesson batches listed in
+`scripts/lesson-audio-batches.json`. Before rendering, review every speech key
+from `scripts/export-lesson-audio.js` and save exact hiragana inputs in
+`scripts/lesson-audio-reviews/<lesson-id>.json`. Check topic は → わ,
+directional へ → え, and object を → お in context; preserve lexical kana
+such as はな, はっこう, はごたえ, and はいった. Never replace every は globally.
+Use `scripts/generate-lesson-audio.py --lesson <lesson-id>`, which requires
+complete reviewed input coverage. Preserve distinct display text and lookup keys.

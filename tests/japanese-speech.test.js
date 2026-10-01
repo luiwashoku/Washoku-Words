@@ -69,6 +69,6 @@ spoken.forEach(u => {
 });
 for (const file of ["index.html", "favorites.html"]) {
   const html = read(file);
-  assert(html.indexOf('src="japanese-speech.js"') < html.indexOf(file === "index.html" ? 'src="app.js"' : "function speakJapanese("), "Shared helper loaded before use");
+  assert(html.indexOf('src="japanese-speech.js"') < html.indexOf(file === "index.html" ? 'src="app.js' : "function speakJapanese("), "Shared helper loaded before use");
 }
 console.log("PASS: shared Japanese preprocessing, all three TTS entry points, voice/rate, and pause/resume.");
