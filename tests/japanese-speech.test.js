@@ -35,7 +35,8 @@ const input = cases[0][0], expected = cases[0][1];
 const app = read("app.js");
 const mainSource = app.slice(app.indexOf("  function speakJapaneseText("), app.indexOf("  function setSpeechButtonState("));
 const main = new Function("window", "SpeechSynthesisUtterance", "getJapaneseSpeechText", `
-  let activeJapaneseUtterance = null, activeSpeechButton = null;
+  let activeJapaneseUtterance = null, activeSpeechButton = null, activeJapaneseAudio = null;
+  const state = { selectedLesson: null };
   function setSpeechButtonState() {}
   function cancelJapaneseSpeech() { window.speechSynthesis.cancel(); }
   ${mainSource}

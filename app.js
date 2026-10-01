@@ -121,6 +121,7 @@
   let closeWordExplosion = null;
   let activeJapaneseUtterance = null;
   let activeSpeechButton = null;
+  let activeJapaneseAudio = null;
 
   document.addEventListener(
     "DOMContentLoaded",
@@ -736,13 +737,6 @@
   }
 
   function speakCurrentJapaneseQuestion() {
-    if (
-      !("speechSynthesis" in window) ||
-      !("SpeechSynthesisUtterance" in window)
-    ) {
-      return;
-    }
-
     const question =
       getCurrentQuestion();
     const japaneseText = question?.question;
@@ -780,6 +774,35 @@
 
   function speakJapaneseText(text, button, label) {
     text = getJapaneseSpeechText(text);
+    const audioFile = state.selectedLesson?.id === "taste-words"
+      ? window.tasteAudioFiles?.[text] : null;
+    if (audioFile) {
+      if (activeJapaneseAudio && activeSpeechButton === button) {
+        if (activeJapaneseAudio.paused) {
+          playRecordedJapanese(activeJapaneseAudio, button, label);
+        } else {
+          activeJapaneseAudio.pause();
+          setSpeechButtonState(button, "paused", label);
+        }
+        return;
+      }
+      cancelJapaneseSpeech();
+      const audio = new Audio(audioFile);
+      activeJapaneseAudio = audio;
+      activeSpeechButton = button;
+      audio.addEventListener("ended", () => {
+        if (activeJapaneseAudio === audio) cancelJapaneseSpeech();
+      });
+      audio.addEventListener("error", () => {
+        if (activeJapaneseAudio === audio) {
+          cancelJapaneseSpeech();
+          button.title = "Audio could not load. Click to retry.";
+        }
+      });
+      playRecordedJapanese(audio, button, label);
+      return;
+    }
+    if (activeJapaneseAudio) cancelJapaneseSpeech();
     if (
       !text ||
       !("speechSynthesis" in window) ||
@@ -877,6 +900,16 @@
     window.speechSynthesis.speak(utterance);
   }
 
+  function playRecordedJapanese(audio, button, label) {
+    setSpeechButtonState(button, "speaking", label);
+    audio.play().catch(() => {
+      if (activeJapaneseAudio === audio) {
+        cancelJapaneseSpeech();
+        button.title = "Playback could not start. Click to retry.";
+      }
+    });
+  }
+
   function setSpeechButtonState(button, status, label) {
     const isPaused = status === "paused";
     const isSpeaking = status === "speaking";
@@ -905,6 +938,14 @@
   }
 
   function cancelJapaneseSpeech() {
+    if (activeJapaneseAudio) {
+      activeJapaneseAudio.pause();
+      activeJapaneseAudio.currentTime = 0;
+      activeJapaneseAudio = null;
+    }
+    if (activeSpeechButton) {
+      setSpeechButtonState(activeSpeechButton, "idle", "Japanese audio");
+    }
     if ("speechSynthesis" in window) {
       window.speechSynthesis.cancel();
     }
@@ -1354,7 +1395,9 @@
     const button = elements.speakExplanation.cloneNode(true);
     button.removeAttribute("id");
     button.className = "icon-button explosion-example-speech";
-    const supported = "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
+    const supported = (state.selectedLesson?.id === "taste-words" &&
+      Boolean(window.tasteAudioFiles?.[getJapaneseSpeechText(text)])) ||
+      ("speechSynthesis" in window && "SpeechSynthesisUtterance" in window);
     button.disabled = !supported;
     setSpeechButtonState(button, "idle", "Japanese example sentence");
     if (!supported) button.title = "Speech playback is not available in this browser";
@@ -2015,6 +2058,12 @@
     englishTitle.lang = "en";
     englishTitle.textContent = question.englishTitle;
     elements.questionText.appendChild(englishTitle);
+    if (state.selectedLesson?.id === "taste-words") {
+      const audioCredit = document.createElement("small");
+      audioCredit.className = "readingCardAudioCredit";
+      audioCredit.textContent = "AI-generated audio · Nova";
+      elements.questionText.appendChild(audioCredit);
+    }
 
     const content = document.createElement("div");
     content.className = "readingCardSections";
@@ -2432,8 +2481,9 @@
     elements.conjugationFeedback.classList.add("hidden");
 
     const canSpeakQuestion =
-      "speechSynthesis" in window &&
-      "SpeechSynthesisUtterance" in window &&
+      ((state.selectedLesson?.id === "taste-words" &&
+        Boolean(window.tasteAudioFiles?.[getJapaneseSpeechText(question.question)])) ||
+        ("speechSynthesis" in window && "SpeechSynthesisUtterance" in window)) &&
       Boolean(getJapaneseSpeechText(question.question));
 
     elements.speakQuestion.classList.toggle(

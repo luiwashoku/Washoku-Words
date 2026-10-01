@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>コシヒカリ · Audio comparison</title><link rel="stylesheet" href="styles.css">
+<style>main{max-width:760px;margin:auto;padding:28px}h1{font-size:30px}section{border-top:1px solid;padding:20px 0}section p{font-size:22px;line-height:1.8}section div{display:flex;align-items:center;gap:18px;margin:14px 0;flex-wrap:wrap}label{width:80px}audio{max-width:100%}</style>
+<main><a href="./index.html">← Back to decks</a><h1 lang="ja">コシヒカリ</h1><p>Koshihikari rice · AI-generated voice samples</p>
+<p>Nova and Shimmer · tts-1-hd · Speed 1.0</p><p>Each recording reads the text shown above it. Compare Nova's original コシヒカリ with the new こしひかり recording. Replaying uses saved MP3s.</p>
+<section><h2>名前</h2><p lang="ja">コシヒカリ</p><div><label>Nova</label><audio controls preload="none" src="./audio/tts-sample/nova-3ad16b728c4c29c38c41.mp3"></audio></div><div><label>Shimmer</label><audio controls preload="none" src="./audio/tts-sample/shimmer-928c18f15e94a3d82672.mp3"></audio></div></section><section><h2>名前 · Hiragana comparison</h2><p lang="ja">こしひかり</p><div><label>Nova</label><audio controls preload="none" src="./audio/tts-sample/nova-3a1fb79ffb4094cc50a6.mp3"></audio></div></section><section><h2>香り</h2><p lang="ja">たきたて、いいかおり！ほんのりあまいおこめのかおりがしますね。</p><div><label>Nova</label><audio controls preload="none" src="./audio/tts-sample/nova-7200923ad24d7dcc4138.mp3"></audio></div><div><label>Shimmer</label><audio controls preload="none" src="./audio/tts-sample/shimmer-3d7147f93713b27d43af.mp3"></audio></div></section><section><h2>味</h2><p lang="ja">あ、あまい！かむほどあまみがでてきます。うまみもしっかりありますね。</p><div><label>Nova</label><audio controls preload="none" src="./audio/tts-sample/nova-a5166e3a97bcee84f798.mp3"></audio></div><div><label>Shimmer</label><audio controls preload="none" src="./audio/tts-sample/shimmer-8b63b84c943b0ed2cdfa.mp3"></audio></div></section><section><h2>食感</h2><p lang="ja">ふっくらしてるけど、ちゃんともちもちしてて、ねばりもあります。</p><div><label>Nova</label><audio controls preload="none" src="./audio/tts-sample/nova-b1904b15a4936bb6b0ff.mp3"></audio></div><div><label>Shimmer</label><audio controls preload="none" src="./audio/tts-sample/shimmer-d771d82b12d1cd2797f3.mp3"></audio></div></section><p id="status" role="status"></p></main>
+<script>
+const players = [...document.querySelectorAll('audio')];
+players.forEach(player => {
+  player.addEventListener('play', () => {
+    players.forEach(other => { if(other !== player) { other.pause(); other.currentTime = 0; } });
+    document.getElementById('status').textContent = '';
+  });
+  player.addEventListener('error', () => { document.getElementById('status').textContent = 'Could not load this audio file. Please reload and try again.'; });
+});
+</script></html>
