@@ -16,6 +16,8 @@
         ""
       ))
       .filter((line) => {
+        // Percentage-only choices still need a distinct audio lookup key.
+        if (/^\s*\d+(?:\.\d+)?\s*[%％][。.!！?？]?\s*$/.test(line)) return true;
         const japanese = line.match(/[\u3040-\u30ff\u3400-\u9fff]/g) || [];
         const latin = line.match(/[a-z]/gi) || [];
         return japanese.length > 0 && japanese.length >= latin.length;
