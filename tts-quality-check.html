@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Japanese speech comparison</title>
+<style>body{font:17px/1.6 system-ui,sans-serif;max-width:800px;margin:32px auto;padding:0 20px;color:#252525;background:#faf8f4}section{border-top:1px solid #ccc;padding:20px 0}audio{display:block;width:100%;margin:8px 0 20px}button,select{font:inherit;padding:8px;margin:4px 8px 4px 0}.sentence{font-size:23px}label{display:block}</style>
+<main><a href="index.html">← Back to decks</a><h1>Japanese speech comparison</h1>
+<p>Compare the two reported sentences. All recordings below are already saved; replaying them uses no API credits. The browser voice comparison also makes no call to our speech API. Availability depends on your browser and installed voices.</p>
+<label>Japanese browser voice <select id="voices"></select></label><p id="status" role="status"></p>
+<section><h2>新米 · 味</h2><p class="sentence" lang="ja">やさしい甘みがあって、噛んでるとどんどん甘くなってきます。</p>
+<label>Original hiragana recording · Nova / tts-1-hd</label><audio controls preload="none" src="audio/taste-words/nova-a6544cf216b681d55599.mp3"></audio>
+<label>New natural Japanese recording · Nova / tts-1-hd</label><audio controls preload="none" src="audio/taste-words/nova-b379f6522c8130500515.mp3"></audio>
+<button type="button" data-speech="やさしい甘みがあって、噛んでるとどんどん甘くなってきます。">Browser voice · natural Japanese</button>
+<button type="button" data-speech="やさしいあまみがあって、かんでるとどんどんあまくなってきます。">Browser voice · hiragana</button>
+</section>
+<section><h2>干し椎茸のだし · 口当たり</h2><p class="sentence" lang="ja">まろやかで、旨みがじわーっと口の中に広がります。</p>
+<label>Original hiragana recording · Nova / tts-1-hd</label><audio controls preload="none" src="audio/taste-words/nova-8b34138cf29ce0a38b3e.mp3"></audio>
+<label>Spaced hiragana retry · Nova / tts-1-hd</label><audio controls preload="none" src="audio/taste-words/nova-dd9a18c5510ef6c682e0.mp3"></audio>
+<label>New natural Japanese recording · Nova / tts-1-hd</label><audio controls preload="none" src="audio/taste-words/nova-695a7d286d091dbc841d.mp3"></audio>
+<button type="button" data-speech="まろやかで、旨みがじわーっと口の中に広がります。">Browser voice · natural Japanese</button>
+<button type="button" data-speech="まろやかで、うまみがじわーっとくちのなかにひろがります。">Browser voice · hiragana</button>
+</section>
+<button id="stop" type="button">Stop playback</button>
+<p>Listen for missing or invented syllables, correct words, and natural rhythm. If only the new recording improves, the input format contributed. If both Nova recordings are poor while the browser voice is clear, investigate the model/voice next. A fluent Japanese listener should assess pitch accent.</p></main>
+<script>
+const players=[...document.querySelectorAll('audio')], select=document.getElementById('voices'), status=document.getElementById('status');
+const supported='speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
+let voices=[], currentUtterance=null;
+function stop(){players.forEach(p=>{p.pause();p.currentTime=0;});if(supported)window.speechSynthesis.cancel();currentUtterance=null;}
+function updateVoices(){const previous=select.value;voices=supported?window.speechSynthesis.getVoices().filter(v=>/^ja(?:-|$)/i.test(v.lang)):[];select.replaceChildren();voices.forEach((v,i)=>{const o=document.createElement('option');o.value=String(i);o.textContent=v.name+' ('+v.lang+')';select.appendChild(o);});if([...select.options].some(o=>o.value===previous))select.value=previous;document.querySelectorAll('[data-speech]').forEach(b=>b.disabled=!voices.length);status.textContent=voices.length?'':'No Japanese browser voice available. Saved recordings still work.';}
+players.forEach(p=>{p.addEventListener('play',()=>{players.forEach(other=>{if(other!==p){other.pause();other.currentTime=0;}});if(supported)window.speechSynthesis.cancel();});p.addEventListener('error',()=>status.textContent='Could not load recording: '+p.getAttribute('src'));});
+document.querySelectorAll('[data-speech]').forEach(b=>b.addEventListener('click',()=>{stop();const voice=voices[Number(select.value)];if(!voice)return;const u=new SpeechSynthesisUtterance(b.dataset.speech);u.lang='ja-JP';u.voice=voice;u.rate=1;u.onerror=()=>{status.textContent='Browser speech failed. Try another Japanese voice.';};currentUtterance=u;window.speechSynthesis.speak(u);}));
+document.getElementById('stop').addEventListener('click',stop);window.addEventListener('pagehide',stop);if(supported)window.speechSynthesis.addEventListener('voiceschanged',updateVoices);updateVoices();
+</script></html>

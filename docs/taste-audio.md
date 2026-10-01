@@ -23,8 +23,11 @@ Displayed text and furigana are unchanged.
 
 `scripts/taste-speech-overrides.json` contains the 150 reviewed particle
 corrections authorized after the audit, plus the requested retry of the
-干し椎茸のだし mouthfeel sentence. The latter adds word boundaries to the
-speech input while preserving じわーっと. These are exact sentence matches.
+干し椎茸のだし mouthfeel sentence. The latter uses natural Japanese with kanji in the
+speech input while preserving じわーっと; the spaced hiragana retry was
+still reported as garbled and has been replaced. The 新米 sweetness sentence also uses natural Japanese with kanji after
+its hiragana recording was reported as mispronounced. These are exact
+sentence matches.
 The audit files remain a snapshot from before these replacements; their
 old audio links are retained for comparison. The tofu-name and pitch-accent
 findings have not been applied as part of this batch.
