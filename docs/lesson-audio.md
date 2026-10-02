@@ -55,6 +55,10 @@ Batch 50: `golden-grammar`, Grammar Drill, 189 cards, 1,028 reviewed speech keys
 and 1,027 recordings: 377 at speed 1.0 and 650 at 0.85. The input review corrects
 気に入る to きにいる, grammar terms to ますけい and たけい, and unconverted
 間に and 嫌い to あいだに and きらい, with contextual particle checks.
-Next batch: `particle-drill`, Particle Drill (batch 51).
+Batch 51: `particle-drill`, Particle Drill, 80 cards, 266 reviewed speech keys
+and recordings: 160 sentence/dialogue and explanation clips at speed 1.0,
+and 106 particle/short-choice clips at 0.85. The review preserves lexical は
+and checks particle combinations such as へは → えわ and をは → おわ.
+Next batch: `conjugation-drill`, Conjugation Drill (batch 52).
 
 Reading checks are not a certification of audible pitch accent or articulation.
