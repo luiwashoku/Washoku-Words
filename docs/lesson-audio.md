@@ -157,6 +157,13 @@ Batch 70: `page75`, 卵の部位, 7 cards, 23 reviewed speech keys and
 lesson furigana; contextual particles preserve lexical はし and read 気室側へ
 as きしつがわえ. Recording files and reviewed input/speed hashes verified;
 no listening verification performed.
-Next batch to generate: `page75-about-eggs` (batch 71).
+Batch 71: `page75-about-eggs`, 卵について, 20 cards, 127 reviewed speech keys
+and 125 generated recordings: 95 sentence/explanation inputs at speed 1.0
+and 32 vocabulary/short-fragment inputs at 0.85 (30 distinct recordings).
+The review resolves duplicated 放し飼い, supplies cooking-term readings,
+corrects contextual 何を to なにお, and checks particles while preserving
+lexical kana and loanword long vowels. Recording files and reviewed input/speed
+hashes verified; no listening verification performed.
+Next batch to generate: `page76` (batch 72).
 
 Reading checks are not a certification of audible pitch accent or articulation.

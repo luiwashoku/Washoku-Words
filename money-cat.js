@@ -247,8 +247,8 @@
         return;
       }
       const catchY = cat.offsetTop + catHeight * 0.45 - 12;
-      // Two seconds to listen, followed by a six-second fall.
-      const travel = Math.max(0, (elapsed - 2000) / 6000);
+      // Two seconds to listen, followed by a four-second fall.
+      const travel = Math.max(0, (elapsed - 2000) / 4000);
       for (const coin of coins) {
         const size = coin.element.offsetWidth;
         const x = Math.max(0, Math.min(width - size, coin.lane * width - size / 2));
