@@ -2,6 +2,7 @@
 Run: python3 scripts/generate-game-audio.py
 The private key is read from OPENAI_API_KEY or the external local key file.
 """
+import argparse
 import concurrent.futures
 import hashlib
 import json
@@ -15,6 +16,14 @@ import urllib.request
 
 ROOT = Path(__file__).resolve().parent.parent
 rows = json.loads(subprocess.check_output(['/usr/bin/osascript', '-l', 'JavaScript', str(ROOT/'scripts/export-game-audio.js'), str(ROOT)], text=True))
+parser = argparse.ArgumentParser()
+parser.add_argument('--key', action='append', help='Regenerate only these lookup keys, preserving other manifest entries.')
+args = parser.parse_args()
+if args.key:
+    selected = set(args.key)
+    rows = [row for row in rows if row['key'] in selected]
+    if {row['key'] for row in rows} != selected:
+        parser.error('Requested lookup key is missing from exported speech rows')
 key = os.environ.get('OPENAI_API_KEY') or (Path.home()/'.config/washoku-words/openai-api-key').read_text().strip()
 folder = ROOT/'audio/game-decks'
 folder.mkdir(parents=True, exist_ok=True)
@@ -60,7 +69,8 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=32) as pool:
         paths[text] = path
         if len(paths)%25 == 0 or len(paths)==len(unique):
             print('Completed',len(paths),'/',len(unique),flush=True)
-manifest = {row['key']:paths[row['text']] for row in rows}
+manifest = json.loads((folder/'manifest.json').read_text()) if args.key else {}
+manifest.update({row['key']:paths[row['text']] for row in rows})
 (folder/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
 (ROOT/'game-audio-manifest.js').write_text('window.gameAudioFiles = '+json.dumps(manifest,ensure_ascii=False)+';\n')
 print('Complete. MP3 bytes:',sum((ROOT/p).stat().st_size for p in set(paths.values())),flush=True)

@@ -4,7 +4,7 @@
   window.getJapaneseSpeechText = function getJapaneseSpeechText(text) {
     if (typeof text !== "string") return "";
 
-    return text
+    const speech = text
       // Read the annotation instead of its kanji before removing silent notes.
       .replace(/([々〆ヵヶ一-龯]+)[(（]([ぁ-ゖァ-ヺー・\s]+)[)）]/g, "$2")
       .replace(/（[^（）]*）/g, "")
@@ -29,5 +29,9 @@
       .replace(/、{2,}/g, "、")
       .replace(/。{2,}/g, "。")
       .trim();
+    // Bilingual knife labels can have longer English translations than Japanese.
+    // Preserve existing keys and recover only labels otherwise filtered out.
+    return speech || (text.includes(" / ")
+      ? getJapaneseSpeechText(text.split(" / ")[0]) : "");
   };
 })();

@@ -6,11 +6,12 @@ function run(args) {
   eval(read(root + '/japanese-speech.js'));
   eval(read(root + '/word-explosion.js'));
   var overrides = JSON.parse(read(root + '/scripts/taste-speech-overrides.json'));
+  var gameOverrides = JSON.parse(read(root + '/scripts/game-speech-overrides.json'));
   var rows = [];
   function add(text) {
     var key = window.getJapaneseSpeechText(text);
     if (!key) return;
-    rows.push({key: key, text: overrides[key] || key.replace(/^さいしょは/, 'さいしょわ')});
+    rows.push({key: key, text: gameOverrides[key] || overrides[key] || key.replace(/^さいしょは/, 'さいしょわ')});
   }
   ['game-prototype', 'three-second-replies'].forEach(function(id) {
     JSON.parse(read(root + '/data/' + id + '.json')).forEach(function(card) {

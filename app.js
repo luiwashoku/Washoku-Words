@@ -1433,7 +1433,7 @@
       state.selectedLesson = lesson;
       showScreen("word-explosion");
       document.getElementById("wordExplosionTitle").textContent = lesson.title;
-      document.getElementById("explosionIndexButton").classList.add("hidden");
+      document.getElementById("explosionIndexButton").classList.remove("hidden");
       closeWordExplosion = window.WordExplosionListeningGame.mount(elements.wordExplosionGame, {
         file: lesson.file,
         initialWord,

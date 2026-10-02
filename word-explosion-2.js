@@ -54,6 +54,60 @@
     example.setAttribute("aria-label", "Everyday example");
     container.append(stage, replay, status, choices, example, again);
 
+    const indexButton = document.getElementById("explosionIndexButton");
+    indexButton.disabled = true;
+    const dialog = document.createElement("dialog");
+    dialog.className = "explosion-index-dialog";
+    dialog.setAttribute("aria-labelledby", "listeningIndexTitle");
+    const header = document.createElement("div");
+    header.className = "grammarIndexHeader";
+    const title = document.createElement("h2");
+    title.id = "listeningIndexTitle";
+    title.textContent = "単語一覧";
+    const close = document.createElement("button");
+    close.type = "button";
+    close.className = "icon-button";
+    close.textContent = "×";
+    close.setAttribute("aria-label", "Close word list");
+    close.addEventListener("click", () => dialog.close());
+    header.append(title, close);
+    const search = document.createElement("input");
+    search.type = "search";
+    search.placeholder = "Search words · むしろ";
+    search.setAttribute("aria-label", "Search Japanese or English words");
+    const wordList = document.createElement("ol");
+    wordList.className = "explosion-index-list";
+    dialog.append(header, search, wordList);
+    container.appendChild(dialog);
+    function renderWordList() {
+      const query = search.value.trim().normalize("NFC").toLowerCase();
+      wordList.replaceChildren(...entries.filter((entry) =>
+        `${entry.japanese} ${entry.kanji} ${entry.english}`.toLowerCase().includes(query)
+      ).map((entry) => {
+        const item = document.createElement("li");
+        const select = document.createElement("button");
+        select.type = "button";
+        select.className = "answer-button";
+        select.textContent = `${entry.japanese}${entry.kanji ? `（${entry.kanji}）` : ""} · ${entry.english}`;
+        select.setAttribute("aria-label", `Practice ${entry.japanese}`);
+        select.addEventListener("click", () => {
+          dialog.close();
+          queue = [entry];
+          reset();
+          replay.focus({ preventScroll: true });
+        });
+        item.append(select, createExampleSpeechButton(entry.japanese));
+        return item;
+      }));
+    }
+    search.addEventListener("input", renderWordList);
+    indexButton.addEventListener("click", () => {
+      stopSpeech();
+      dialog.showModal();
+      search.focus();
+    }, { signal: controller.signal });
+    dialog.addEventListener("close", stopSpeech);
+
     function speak() {
       if (!alive || !word) return;
       if (getRecordedJapaneseFile?.(word.japanese)) {
@@ -202,6 +256,9 @@
         const loaded = await window.WordExplosionGame.loadVocabulary(file, controller.signal);
         if (!alive) return;
         entries = loaded.entries;
+        title.textContent = `単語一覧 · ${entries.length}`;
+        renderWordList();
+        indexButton.disabled = false;
         if (initialWord) {
           const first = entries.find((entry) => entry.japanese === initialWord.japanese && entry.kanji === initialWord.kanji);
           if (first) queue = [...shuffle(entries.filter((entry) => entry !== first)), first];
@@ -228,6 +285,8 @@
     return () => {
       alive = false;
       controller.abort();
+      dialog.close();
+      indexButton.disabled = true;
       utterance = null;
       window.clearTimeout(revealTimer);
       stopSpeech();
