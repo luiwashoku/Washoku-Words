@@ -57,6 +57,16 @@ api.speak('ゲーム',a,'game');
 assert(players.length===count,'Game recordings limited to selected game decks');
 console.log('PASS: all four game decks use Nova; unrelated lessons keep their existing speech.');
 
+api.select('word-explosion-2');
+api.speak('ゲーム',a,'word');
+const listeningClip = players[players.length-1];
+assert(listeningClip.playbackRate===0.8 && listeningClip.preservesPitch===true,'Listening deck slows Nova while preserving pitch');
+api.cancel();
+api.select('word-explosion');
+api.speak('ゲーム',a,'word');
+assert(players[players.length-1].playbackRate===undefined,'Other decks retain default playback speed');
+api.cancel();
+
 // Reviewed lesson audio is scoped to its lesson and keeps existing playback controls.
 host.lessonAudioFiles = {'page01-02': {'ゲーム': 'lesson.mp3'}};
 api.select('page01-02');

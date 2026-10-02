@@ -10,7 +10,7 @@ Open **日本語で話す → 単語爆発2**. The listening game uses the same 
 - After the reveal, the same Japanese example and English translation used in 単語爆発 appear below the choices, with a sentence voice button.
 - “Next word” clears the example and automatically speaks the next word. All words are shuffled and played once before the list is reshuffled, avoiding an immediate repeat at the boundary.
 
-The game uses the device's Japanese speech synthesis. If autoplay is blocked, the speaker button provides a user-initiated replay. Reduced-motion mode reveals the answer immediately. Leaving the game cancels speech, loading, and the reveal timer. Failed loading can be retried.
+The game uses Nova recordings at 80% playback speed with pitch preserved, and falls back to the device's Japanese speech synthesis when a recording is unavailable. The speaker button restarts the word from the beginning, including during playback. If autoplay is blocked, the speaker button provides a user-initiated replay. Reduced-motion mode reveals the answer immediately. Leaving the game cancels speech, loading, and the reveal timer. Failed loading can be retried.
 
 This is a dynamic game entry with `questionCount: 0`, following the first Word Explosion game's catalog convention.
 

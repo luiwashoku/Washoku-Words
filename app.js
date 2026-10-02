@@ -805,6 +805,10 @@
       let clipIndex = 0;
       function playNextClip() {
         const audio = new Audio(audioFiles[clipIndex]);
+        if (state.selectedLesson?.id === "word-explosion-2") {
+          audio.playbackRate = 0.8;
+          audio.preservesPitch = true;
+        }
         activeJapaneseAudio = audio;
         activeSpeechButton = button;
         audio.addEventListener("ended", () => {

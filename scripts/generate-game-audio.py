@@ -19,6 +19,9 @@ rows = json.loads(subprocess.check_output(['/usr/bin/osascript', '-l', 'JavaScri
 parser = argparse.ArgumentParser()
 parser.add_argument('--key', action='append', help='Regenerate only these lookup keys, preserving other manifest entries.')
 args = parser.parse_args()
+speeds = json.loads((ROOT/'scripts/game-speech-speeds.json').read_text())
+if any(not isinstance(speed, (int, float)) or not 0.25 <= speed <= 4 for speed in speeds.values()):
+    parser.error('Speech speeds must be numbers between 0.25 and 4')
 if args.key:
     selected = set(args.key)
     rows = [row for row in rows if row['key'] in selected]
@@ -27,10 +30,10 @@ if args.key:
 key = os.environ.get('OPENAI_API_KEY') or (Path.home()/'.config/washoku-words/openai-api-key').read_text().strip()
 folder = ROOT/'audio/game-decks'
 folder.mkdir(parents=True, exist_ok=True)
-unique = {row['text'] for row in rows}
+unique = {(row['text'], speeds.get(row['key'], 1.0)) for row in rows}
 
-def generate(text):
-    payload = dict(model='tts-1-hd', voice='nova', input=text, speed=1.0, response_format='mp3')
+def generate(text, speed):
+    payload = dict(model='tts-1-hd', voice='nova', input=text, speed=speed, response_format='mp3')
     digest = hashlib.sha256(json.dumps(payload, ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:20]
     name = 'nova-' + digest + '.mp3'
     path = folder/name
@@ -40,7 +43,7 @@ def generate(text):
     if not path.exists() and sample.exists():
         shutil.copyfile(sample, path)
     if path.exists() and path.stat().st_size:
-        return text, str(path.relative_to(ROOT))
+        return (text, speed), str(path.relative_to(ROOT))
     for attempt in range(4):
         request = urllib.request.Request('https://api.openai.com/v1/audio/speech', data=json.dumps(payload).encode(), headers={'Authorization':'Bearer '+key, 'Content-Type':'application/json'})
         try:
@@ -52,7 +55,7 @@ def generate(text):
             temporary.write_bytes(data)
             temporary.replace(path)
             time.sleep(0.5)
-            return text, str(path.relative_to(ROOT))
+            return (text, speed), str(path.relative_to(ROOT))
         except urllib.error.HTTPError as exc:
             if exc.code not in (429,500,502,503,504) or attempt == 3:
                 raise RuntimeError('OpenAI HTTP '+str(exc.code)) from None
@@ -60,17 +63,17 @@ def generate(text):
         except urllib.error.URLError:
             raise RuntimeError('Network error; rerun to resume cached generation') from None
 
-print('Unique clips:', len(unique), 'Input characters:', sum(map(len,unique)), flush=True)
+print('Unique clips:', len(unique), 'Input characters:', sum(len(text) for text, speed in unique), flush=True)
 paths = {}
 with concurrent.futures.ThreadPoolExecutor(max_workers=32) as pool:
-    jobs = [pool.submit(generate, text) for text in sorted(unique)]
+    jobs = [pool.submit(generate, text, speed) for text, speed in sorted(unique)]
     for job in concurrent.futures.as_completed(jobs):
         text, path = job.result()
         paths[text] = path
         if len(paths)%25 == 0 or len(paths)==len(unique):
             print('Completed',len(paths),'/',len(unique),flush=True)
 manifest = json.loads((folder/'manifest.json').read_text()) if args.key else {}
-manifest.update({row['key']:paths[row['text']] for row in rows})
+manifest.update({row['key']:paths[(row['text'], speeds.get(row['key'], 1.0))] for row in rows})
 (folder/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
 (ROOT/'game-audio-manifest.js').write_text('window.gameAudioFiles = '+json.dumps(manifest,ensure_ascii=False)+';\n')
 print('Complete. MP3 bytes:',sum((ROOT/p).stat().st_size for p in set(paths.values())),flush=True)

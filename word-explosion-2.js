@@ -111,6 +111,7 @@
     function speak() {
       if (!alive || !word) return;
       if (getRecordedJapaneseFile?.(word.japanese)) {
+        stopSpeech();
         speakJapaneseText(word.japanese, replay, "Japanese word");
         return;
       }
