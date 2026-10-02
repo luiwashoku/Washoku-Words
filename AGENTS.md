@@ -23,7 +23,7 @@ Use `scripts/generate-lesson-audio.py --lesson <lesson-id>`, which requires
 complete reviewed input coverage. Preserve distinct display text and lookup keys.
 
 For upcoming Nova batches, use generation speed `1.0` for sentences, dialogue
-prompts (including cloze prompts), and explanations. Use `0.85` for standalone
+prompts (including cloze prompts), and full-sentence explanations. Use `0.85` for standalone
 vocabulary, particles, and very short phrase/grammar fragments. Record the
 generation speed in the review file, using per-entry `speed` overrides as needed;
 this is the Nova generation setting, not a playback-rate change.
