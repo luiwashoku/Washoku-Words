@@ -164,6 +164,98 @@ The review resolves duplicated 放し飼い, supplies cooking-term readings,
 corrects contextual 何を to なにお, and checks particles while preserving
 lexical kana and loanword long vowels. Recording files and reviewed input/speed
 hashes verified; no listening verification performed.
-Next batch to generate: `page76` (batch 72).
+Batch 72: `page76`, 牛の部位, 16 cards, 62 reviewed speech keys and
+62 generated recordings: 17 question/explanation clips at speed 1.0 and
+45 cut-name/short vocabulary-group clips at 0.85. Readings checked against
+lesson furigana, including anatomy terms and long vowels in cut names.
+Contextual particles reviewed while preserving lexical はらみ/はらがわ.
+Recording files and reviewed input/speed hashes verified; no listening verification.
+Batch 73: `page76-organs-others`, 牛の内臓・その他, 24 cards, 168 reviewed
+speech keys and recordings: 139 sentence/definition/explanation inputs at
+speed 1.0 and 29 vocabulary/very short noun-fragment inputs at 0.85.
+Organ names, cooking terminology and cattle names checked against lesson
+furigana; corrected 四つ to よっつ and 一歳 to いっさい. Residual English
+glosses removed from speech, with explanatory cow/bull read as かう/ぶる.
+Contextual particles and lexical kana checked; recording files and reviewed
+input/speed hashes verified. No listening verification performed.
+Batch 74: `page77`, 牛について, 20 cards, 127 reviewed speech keys and
+127 recordings: 90 sentence/explanation inputs at speed 1.0 and 37
+vocabulary/short noun-fragment inputs at 0.85. Readings checked against
+lesson vocabulary/furigana, restoring 霜降り to しもふり, removing duplicated
+ホルモン, and correcting contextual 何を to なにお. Topic/directional/object
+particles checked while preserving lexical kana and loanword long vowels.
+Recording files and reviewed input/speed hashes verified; no listening verification.
+Batch 75: `page78`, 魚の外部構造, 16 cards, 57 reviewed speech keys and
+recordings: 20 question/explanation inputs at speed 1.0 and 37 anatomy-name
+and short vocabulary-group inputs at 0.85. Readings checked against lesson
+furigana, correcting 一対 to いっつい and supplying fin names and 血合い.
+Embedded English terminology uses reviewed hiragana approximations; operculum
+pronunciation checked against https://www.dictionary.com/browse/operculum.
+Contextual particles preserve lexical はら/はいそく/はしる. Recording files
+and reviewed input/speed hashes verified; no listening verification performed.
+Batch 76: `page79`, 魚の内部, 11 cards, 44 reviewed speech keys and
+recordings: 21 question/explanation inputs at speed 1.0 and 23 anatomy-name
+and short vocabulary-group inputs at 0.85. Readings checked against lesson
+furigana, supplying 血合い as ちあい and correcting contextual オレンジ色
+to おれんじいろ. Embedded fish frame uses ふぃっしゅ ふれーむ.
+Contextual particles and lexical kana checked. Recording files and reviewed
+input/speed hashes verified; no listening verification performed.
+Batch 77: `page79-three-piece`, 三枚おろし, 5 cards, 21 reviewed speech
+keys and recordings: 9 question/explanation inputs at speed 1.0 and 12
+vocabulary/short vocabulary-group inputs at 0.85. All fillet/anatomy names
+checked against lesson furigana; contextual particles preserve lexical
+はらみ/はらがわ and loanword long vowels. Recording files and reviewed
+input/speed hashes verified; no listening verification performed.
+Batch 78: `page82-three-piece-2`, 三枚おろし II, 40 cards, 264 reviewed speech
+keys and 263 recordings: 166 sentence/explanation or extended-action inputs at
+speed 1.0 and 98 vocabulary/very short fragment/group inputs at 0.85.
+Readings checked against lesson furigana and catalog vocabulary, resolving
+duplicated 切り身/浮き袋 and residual anatomy kanji. Corrected 骨際 to
+ほねぎわ, 一晩 to ひとばん, and 一切れずつ to ひときれずつ.
+Contextual particles preserve lexical kana, including はらみ/はいそく/はさき
+and びへい. Recording files and reviewed input/speed hashes verified;
+no listening verification performed.
+Batch 79: `page80-about-fish`, 魚について, 32 cards, 187 reviewed speech
+keys and 186 recordings: 109 sentence/explanation or extended-answer inputs
+at speed 1.0 and 78 vocabulary/very short phrase/group inputs at 0.85.
+Readings checked against lesson vocabulary/furigana, resolving residual kanji
+and duplicate cooking-name readings. Corrected いけじめ/しんけいじめ/
+こんぶじめ, 即殺 そくさつ, miso 床 とこ, 甘辛い あまからい,
+品がある ひんがある and contextual 何が なにが. Contextual particles
+preserve lexical はり/はらみ/はさみ and へこんだ/へんしょく.
+Recording files and reviewed input/speed hashes verified; no listening verification.
+Batch 80: `page81-tuna`, まぐろについて, 20 cards, 103 reviewed speech
+keys and recordings: 47 sentence/explanation inputs at speed 1.0 and 56
+vocabulary/very short noun-fragment/group inputs at 0.85. Tuna cut names
+checked against lesson vocabulary/furigana, resolving duplicated 分かれ身
+and ヒレ上 and residual kanji. Corrected contextual 何を to なにお and
+positional 上手側 to かみてがわ. Contextual particles preserve lexical
+はらぶし/はいそく/はらいちばん and しゅうへん; loanword long vowels retained.
+Recording files and reviewed input/speed hashes verified; no listening verification.
+Batch 81: `page83`, 豚肉の部位, 22 cards, 86 reviewed speech keys and
+85 recordings: 29 question/explanation inputs at speed 1.0 and 57 vocabulary
+or short vocabulary-group inputs at 0.85. Readings checked against lesson
+furigana, including 鞍下 くらした and 背脂 せあぶら. Preserved distinct
+ぶたとろ/とんとろ readings and lookup keys. Contextual particles reviewed,
+lexical はらがわ and loanword long vowels retained. Recording files and
+reviewed input/speed hashes verified; no listening verification performed.
+Batch 82: `page83-pork-organs`, 豚の内臓・ホルモン, 19 cards, 132 reviewed
+speech keys and recordings: 113 extended answer-description/list and explanation
+inputs at speed 1.0 and 19 standalone organ-name inputs at 0.85. Readings
+checked against lesson vocabulary/furigana, correcting 横隔膜 to おうかくまく
+and 昆布締め to こんぶじめ. Removed residual English Fat from speech while
+preserving the key. Contextual particles checked, preserving lexical
+はな/はい/はらみ/はぎれ/はごたえ and loanword long vowels. Recording files
+and reviewed input/speed hashes verified; no listening verification performed.
+Batch 83: `page84-about-pork`, 豚について, 20 cards, 131 reviewed speech
+keys and 130 recordings: 100 sentence/explanation or extended-answer inputs
+at speed 1.0 and 31 vocabulary/very short phrase/group inputs at 0.85.
+Readings checked against lesson vocabulary/furigana, restoring しもふり,
+correcting 四つ to よっつ and contextual 何を to なにお, and resolving
+duplicated SPF reading. English expansion uses a reviewed hiragana approximation.
+Contextual particles preserve lexical はし/はごたえ/はいって and こうはい;
+loanword long vowels retained. Recording files and reviewed input/speed hashes
+verified; no listening verification performed.
+All 83 batches in the current queue are marked generated.
 
 Reading checks are not a certification of audible pitch accent or articulation.
