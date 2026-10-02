@@ -1730,3 +1730,4 @@ body.no-furigana rt {
 .readingCardNavigation { display: flex; justify-content: space-between; gap: 16px; }
 .readingCardNavigation .answer-button { width: 66px; padding: 10px; text-align: center; font-size: 28px; }
 .readingCardNavigation .answer-button:disabled { opacity: 0.35; cursor: default; }
+

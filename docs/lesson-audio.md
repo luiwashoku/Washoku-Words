@@ -94,6 +94,50 @@ speech keys and recordings: 411 sentence, explanation or complete reply clips
 at speed 1.0, and 298 vocabulary, short verb form or grammar-fragment clips
 at 0.85. Combined choices containing complete replies use 1.0. The review
 preserves spoken contractions and checks particles without changing lexical kana.
-Next batch: `adjectives`, 形容詞 (batch 59).
+Batch 59: `adjectives`, 形容詞, 64 cards, 348 reviewed speech keys and recordings:
+143 sentence/explanation or complete answer clips at speed 1.0, and 205 adjective
+or short-form clips at 0.85. Residual kanji readings are supplied explicitly;
+the review corrects おちついています, せかいじゅう, ひとでした and いっしゅう.
+Batch 60: `adverbs`, 副詞, 56 cards, 238 reviewed speech keys and recordings:
+112 sentence/explanation clips at speed 1.0, and 126 adverb/short-choice clips
+at 0.85. The review corrects 三十人 to さんじゅうにん, contextual 入れない
+to はいれない, and the duplicated 菜の花 speech input to なのはな.
+All prioritized 日本語で話す batches are now generated.
+Batch 61: `page38`, 塩麹・醤油麹, 20 cards, 115 reviewed speech keys and
+recordings: 77 sentence/explanation or procedural-answer clips at speed 1.0,
+and 38 vocabulary/short-fragment clips at 0.85. Quantities and ranges use
+explicit hiragana readings; lexical は and contextual particles are reviewed.
+Batch 62: `page28-29-culinary`, 発酵と料理, 20 cards, 129 reviewed speech
+keys and recordings: 85 sentence/explanation or complete-answer clips at speed
+1.0, and 44 vocabulary/short-group clips at 0.85. The review explicitly reads
+pH as ぴーえいち and preserves lexical はっこう, はたらき and はんのう.
+Batch 63: `page52`, 火入れ, 30 cards, 120 reviewed speech keys and recordings:
+73 sentence/explanation clips at speed 1.0 and 47 vocabulary/short phrases
+at 0.85. The review corrects とろ火 to とろび, removes trailing English from
+one input, and preserves lexical はごたえ and はなして.
+Batch 64: `page68`, 料理の失敗と改善, 20 cards, 140 reviewed speech keys and
+recordings, all at speed 1.0: sentences, explanations and complete procedural
+answers. Contextual particle checks preserve lexical はいき, はんだん,
+はなします and へらす.
+Batch 65: `page69`, 評価の言葉, 60 cards, 269 reviewed speech keys and
+recordings: 191 sentence/explanation, combined-choice and complete-suggestion
+clips at speed 1.0; 78 short evaluation/paired-phrase clips at 0.85.
+The review corrects 平面的 to へいめんてき, explicitly reads A/B as
+えー/びー, and preserves lexical はぎれ, はごたえ and はっこう.
+Batch 66: `page70-71`, 食に関わる人, 100 cards, 391 reviewed speech keys and
+391 generated recordings: 200 sentence/question/explanation inputs at speed 1.0
+and 191 role-name/short vocabulary-choice inputs at 0.85. The review corrects
+和菓子職人 to わがししょくにん and 竹細工職人 to たけざいくしょくにん,
+checks contextual particles, preserves lexical kana and loanword long vowels,
+and reads A/B/C explicitly. Recording files and input/speed hashes verified;
+listening verification has not been performed.
+Batch 67: `page72`, 肉の基礎知識, 40 cards, 227 reviewed speech keys and
+227 generated recordings: 158 sentence/explanation, complete-answer and
+procedural inputs at speed 1.0; 69 vocabulary/very short phrase inputs at 0.85.
+The review restores しもふり in three explanations, checks 歯へ as はえ,
+preserves lexical kana and explicit source 肉汁 readings, and supplies
+hiragana loanwords, A/B and page-number readings. All recording files and
+input/speed hashes have been verified; listening verification has not been performed.
+Next batch to generate: `page73` (batch 68).
 
 Reading checks are not a certification of audible pitch accent or articulation.
