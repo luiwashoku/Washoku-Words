@@ -4,3 +4,35 @@ A washoku learning app prepared by lui
 # Live Preview
 
 `Shift-Cmd P`: Live Preview: Start Server
+
+
+## Money Cat
+
+The home-screen Money Cat button replaces the random-question entry. The original
+random-question session code remains in `app.js` for future restoration.
+
+Money Cat reuses `WordExplosionGame.loadVocabulary` and the existing
+`gameAudioFiles` lookup/playback helpers from 単語爆発2. It only selects words
+that already have recordings. The source cat is copied unchanged from
+`nopush/cat-03.svg` to `assets/cat-03.svg`; the game scopes its SVG styles, crops
+empty canvas and keeps the floor stationary. Only the held `rect.st3` changes
+color, leaving the collar bell unchanged.
+
+Move the mouse over the play area, or drag anywhere on touch screens. Keyboard
+users can focus the arena and use A/D to move and space to replay. Catch one of
+three English coins. Missed coins repeat the unanswered question without a
+penalty. Ten answered words lead to mistakes with chosen/correct meanings, followed by
+correctly answered words; NEXT preserves the running
+¥ total. Recent-word history and modest mistake weights persist during the
+session. Leaving Money Cat resets the session and cancels its resources.
+
+Run the session/data checks with:
+
+```sh
+osascript -l JavaScript tests/money-cat.test.js
+```
+
+For browser integration checks, serve the repository and open
+`tests/money-cat-browser.html` (phone layout), or add `?desktop` for desktop.
+The harness checks actual DOM collisions, shared audio replay, section money,
+mistake review, SVG coin feedback, responsive bounds and navigation cleanup.

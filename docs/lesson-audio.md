@@ -138,6 +138,25 @@ The review restores しもふり in three explanations, checks 歯へ as はえ,
 preserves lexical kana and explicit source 肉汁 readings, and supplies
 hiragana loanwords, A/B and page-number readings. All recording files and
 input/speed hashes have been verified; listening verification has not been performed.
-Next batch to generate: `page73` (batch 68).
+Batch 68: `page73`, 鶏の部位, 20 cards, 75 reviewed speech keys and
+75 generated recordings: 24 question/explanation inputs at speed 1.0 and
+51 vocabulary/short-group inputs at 0.85. Readings checked against lesson
+furigana, preserving lexical はつ/はつもと and loanword long vowels.
+Mixed English glosses use Japanese-only speech; display and lookup keys stay intact.
+Recording files and reviewed input/speed hashes verified; no listening verification.
+Batch 69: `page74`, 鶏について, 20 cards, 124 reviewed speech keys and
+124 generated recordings: 90 sentence/explanation or reasoned-answer inputs
+at speed 1.0 and 34 vocabulary/short-group inputs at 0.85. The review resolves
+duplicated 平飼い/放し飼い readings and residual 脂のり/強い, corrects
+銘柄鶏 and 世界中, and verifies ケージ飼い as けーじがい against a
+poultry terminology reading source. Contextual particles and lexical kana checked.
+Recording files and reviewed input/speed hashes verified; no listening verification.
+Batch 70: `page75`, 卵の部位, 7 cards, 23 reviewed speech keys and
+23 generated recordings: 9 question/explanation inputs at speed 1.0 and
+14 vocabulary/short-group inputs at 0.85. All egg-part names checked against
+lesson furigana; contextual particles preserve lexical はし and read 気室側へ
+as きしつがわえ. Recording files and reviewed input/speed hashes verified;
+no listening verification performed.
+Next batch to generate: `page75-about-eggs` (batch 71).
 
 Reading checks are not a certification of audible pitch accent or articulation.

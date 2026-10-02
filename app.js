@@ -1200,31 +1200,30 @@
       }
     );
 
-    const randomButton =
-      document.createElement("button");
-
-    randomButton.type = "button";
-    randomButton.className =
-      "category-card random-question-card";
-    randomButton.setAttribute(
-      "aria-label",
-      "おまかせ問題を始める"
-    );
-    randomButton.innerHTML = `
-      <strong>おまかせ問題</strong>
-    `;
-
-    randomButton.addEventListener(
-      "click",
-      () => {
-        playSound("click");
-        openRandomSession(randomButton);
-      }
-    );
-
-    elements.categoryGrid.appendChild(
-      randomButton
-    );
+    const moneyCatButton = document.createElement("button");
+    moneyCatButton.type = "button";
+    moneyCatButton.className = "category-card money-cat-card";
+    moneyCatButton.setAttribute("aria-label", "ネコゲームを始める");
+    moneyCatButton.innerHTML = `<strong lang="ja">ネコゲーム</strong>`;
+    moneyCatButton.addEventListener("click", () => {
+      playSound("click");
+      const lesson = state.catalog.find(entry => entry.id === "word-explosion-2");
+      if (!lesson) return;
+      cancelJapaneseSpeech();
+      state.selectedCategory = null;
+      state.selectedLesson = { ...lesson, isMoneyCat: true };
+      showScreen("word-explosion");
+      document.getElementById("wordExplosionTitle").textContent = "ネコゲーム";
+      document.getElementById("explosionIndexButton").classList.add("hidden");
+      closeWordExplosion = window.MoneyCatGame.mount(elements.wordExplosionGame, {
+        file: lesson.file,
+        stopSpeech: cancelJapaneseSpeech,
+        speakJapaneseText,
+        getRecordedJapaneseFile,
+        speakerTemplate: elements.speakExplanation
+      });
+    });
+    elements.categoryGrid.appendChild(moneyCatButton);
   }
 
   function getLessonsForCategory(
@@ -2898,6 +2897,10 @@
 
   function returnToLessonList() {
     cancelJapaneseSpeech();
+    if (state.selectedLesson?.isMoneyCat) {
+      returnHome();
+      return;
+    }
 
     if (state.selectedLesson?.isRandom) {
       returnHome();

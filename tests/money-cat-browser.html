@@ -1,0 +1,99 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Money Cat browser checks</title>
+<pre id="results">Running…</pre><iframe id="app" src="../index.html" width="390" height="844" style="border:0"></iframe>
+<script>
+const results = document.getElementById('results');
+if (new URLSearchParams(location.search).has('desktop')) { document.getElementById('app').width = 720; document.getElementById('app').height = 900; }
+const wait = () => new Promise(resolve => setTimeout(resolve, 30));
+function assert(condition, message) { if (!condition) throw new Error(message); }
+async function until(check) { for(let i=0;i<150;i++) { if(check()) return; await wait(); } throw new Error('Timed out'); }
+document.getElementById('app').addEventListener('load', async () => {
+ try {
+  const w = document.getElementById('app').contentWindow, d = w.document;
+  await until(() => d.querySelector('.money-cat-card'));
+  let nextId = 0, time = 0, frames = new Map(), clips = [], paused = 0;
+  w.requestAnimationFrame = fn => { frames.set(++nextId, fn); return nextId; };
+  w.cancelAnimationFrame = id => frames.delete(id);
+  class TestAudio extends w.EventTarget {
+    constructor(src) { super(); this.src = src; this.paused = true; clips.push(src); }
+    play() { this.paused = false; return Promise.resolve(); }
+    pause() { this.paused = true; paused++; }
+  }
+  w.Audio = TestAudio;
+  function step(count = 1) { for(let i=0;i<count;i++) { time+=50; const pending=[...frames.values()]; frames.clear(); pending.forEach(fn=>fn(time)); } }
+  const text = await fetch('../word explosion.txt').then(r=>r.text());
+  const words = w.WordExplosionGame.parseVocabulary(text);
+  d.querySelector('.money-cat-card').click();
+  await until(() => d.querySelectorAll('.money-cat-answer').length === 3);
+  assert(d.querySelector('.money-cat-replay .speakerIcon') && !d.querySelector('.money-cat-replay .pauseIcon, .money-cat-replay .resumeIcon'), 'Replay shows one speaker icon');
+  assert(w.getComputedStyle(d.querySelector('.money-cat-arena')).backgroundColor === w.getComputedStyle(d.documentElement).getPropertyValue('--horizon').trim() || w.getComputedStyle(d.querySelector('.money-cat-arena')).backgroundColor === 'rgb(137, 128, 255)', 'Purple arena');
+  assert(d.querySelector('.money-cat-status').textContent === '', 'Instructions removed');
+  assert(d.querySelector('#moneyCatHeldCoin')?.tagName.toLowerCase()==='rect', 'Held coin is specifically targeted');
+  assert(d.querySelector('#moneyCatArt').getAttribute('viewBox')==='200 10 205 260', 'Cat silhouette keeps source geometry');
+  assert(d.querySelector('.money-cat-card strong').textContent === 'ネコゲーム', 'Deck is named ネコゲーム');
+  assert(w.getComputedStyle(d.querySelector('.money-cat-card')).textAlign === 'left', 'Deck text is left aligned');
+  assert(w.getComputedStyle(d.querySelector('#moneyCatHeldCoin')).fill === 'rgb(255, 189, 22)', 'Cat uses rich yolk yellow');
+  assert(w.getComputedStyle(d.querySelector('.money-cat-arena'), '::after').bottom === '0px', 'Black base reaches the bottom edge');
+  assert(!d.querySelector('.random-question-card'), 'Money Cat replaces the random entry');
+  const arena=d.querySelector('.money-cat-arena');
+  step(5);
+  arena.dispatchEvent(new w.PointerEvent('pointermove',{pointerType:'mouse',clientX:-100,bubbles:true}));
+  step(10);
+  assert(d.querySelector('.money-cat-player').getBoundingClientRect().left >= arena.getBoundingClientRect().left, 'Cat stays inside the left bound');
+  arena.dispatchEvent(new w.PointerEvent('pointermove',{pointerType:'mouse',clientX:2000,bubbles:true}));
+  step(10);
+  assert(d.querySelector('.money-cat-player').getBoundingClientRect().right <= arena.getBoundingClientRect().right, 'Cat stays inside the right bound');
+  assert(d.documentElement.scrollWidth <= w.innerWidth, 'Phone layout has no horizontal overflow');
+  assert(arena.getBoundingClientRect().bottom < w.innerHeight, 'Cat and play area fit the phone viewport');
+  const before=d.querySelector('.money-cat-player').getBoundingClientRect().left;
+  arena.dispatchEvent(new w.PointerEvent('pointerdown',{pointerId:7,pointerType:'touch',clientX:20,bubbles:true}));
+  step(3);
+  assert(Math.abs(before-d.querySelector('.money-cat-player').getBoundingClientRect().left)<1,'Touch down does not tap-to-move');
+  arena.dispatchEvent(new w.PointerEvent('pointermove',{pointerId:7,pointerType:'touch',clientX:20,bubbles:true}));
+  step(3);
+  assert(d.querySelector('.money-cat-player').getBoundingClientRect().left<before-10,'Dragging anywhere moves the cat');
+  d.querySelector('.money-cat-replay').click();
+  assert(clips.length===2 && clips[0]===clips[1] && paused>0,'Replay restarts the same shared recording');
+  function pick(correct) {
+    const gameHeight = d.querySelector("#wordExplosionScreen").getBoundingClientRect().height;
+    const meanings=words.filter(word=>w.gameAudioFiles[w.getJapaneseSpeechText(word.japanese)]===clips.at(-1)).map(word=>word.english);
+    const choices=[...d.querySelectorAll('.money-cat-answer')];
+    assert(new Set(choices.map(el=>el.textContent.toLowerCase())).size===3,'Three distinct meanings');
+    const chosen=choices.find(el=>meanings.includes(el.textContent)===correct);
+    assert(chosen,'Target and distractors match existing recordings');
+    step(1);
+    const box=chosen.getBoundingClientRect();
+    arena.dispatchEvent(new w.PointerEvent('pointermove',{pointerType:'mouse',clientX:box.left+box.width/2,bubbles:true}));
+    for(let i=0;i<360 && d.querySelectorAll('.money-cat-answer').length;i++)step();
+    assert(!d.querySelectorAll('.money-cat-answer').length,'Coin collision resolves a question');
+    assert(gameHeight === d.querySelector('#wordExplosionScreen').getBoundingClientRect().height, 'Game height stays stable during feedback');
+    assert(d.querySelector('#moneyCatHeldCoin').classList.contains('money-cat-coin-feedback'), 'Held coin flashes twice');
+    assert(d.querySelector('#moneyCatHeldCoin').style.fill===(correct?'var(--bronze)':'var(--ember)'), 'Only held coin provides feedback');
+    assert(!d.querySelector('#moneyCatArt circle.st3').style.fill,'Collar bell stays gold');
+    const caughtX = d.querySelector('.money-cat-player').getBoundingClientRect().left;
+    const bounds = arena.getBoundingClientRect();
+    arena.dispatchEvent(new w.PointerEvent('pointermove',{pointerType:'mouse',clientX:caughtX < bounds.width / 2 ? bounds.right : bounds.left,bubbles:true}));
+    step(6);
+    assert(Math.abs(d.querySelector('.money-cat-player').getBoundingClientRect().left-caughtX)>10,'Cat continues moving during catch feedback');
+  }
+  for(let i=0;i<10;i++) { pick(true); await until(()=>d.querySelectorAll('.money-cat-answer').length===3 || !d.querySelector('.money-cat-review').classList.contains('hidden')); }
+  assert(d.querySelector('.money-cat-total').textContent==='¥ 10','Ten correct catches produce ¥10');
+  assert(d.querySelector('.money-cat-review h3').textContent==='10 / 10 ✓','Perfect section has simple review');
+  assert(frames.size===0,'Falling stops at review');
+  d.querySelector('.money-cat-next').click();
+  assert(d.querySelector('.money-cat-total').textContent==='¥ 10' && d.querySelector('.money-cat-progress').textContent==='1 / 10','NEXT preserves money and resets progress');
+  pick(false);
+  assert(d.querySelector('.money-cat-total').textContent==='¥ 9','Wrong catch subtracts one');
+  await until(()=>d.querySelectorAll('.money-cat-answer').length===3);
+  for(let i=1;i<10;i++){pick(true);await until(()=>d.querySelectorAll('.money-cat-answer').length===3 || !d.querySelector('.money-cat-review').classList.contains('hidden'));}
+  assert(d.querySelectorAll('.money-cat-review-chosen').length===1,'Review includes one mistaken answer');
+  assert(d.querySelectorAll('.money-cat-review-word').length===10,'Review includes correct words after mistakes');
+  assert(d.querySelector('.money-cat-review-word .money-cat-review-chosen') && d.querySelector('.money-cat-correct-heading'), 'Wrong answer and correction precede correct-word section');
+  assert(d.querySelector('.money-cat-review-word strong').textContent && d.querySelector('.money-cat-review-word p').textContent,'Review includes Japanese and English');
+  d.querySelector('.money-cat-next').click();
+  d.querySelector('#backFromExplosion').click();
+  assert(frames.size===0 && !d.querySelector('.money-cat-game'),'Leaving cancels animation and removes the game');
+  assert(!d.querySelector('#homeScreen').classList.contains('hidden'),'Back returns home');
+  results.textContent='PASS: shared recordings/replay, pointer movement, 20 collisions, money across NEXT, mistake review, coin-only feedback and navigation cleanup.';
+ }catch(error){results.textContent='FAIL: '+error.stack;}
+});
+</script></html>
