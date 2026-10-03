@@ -76,7 +76,7 @@
     search.placeholder = "Search words · むしろ";
     search.setAttribute("aria-label", "Search Japanese or English words");
     const wordList = document.createElement("ol");
-    wordList.className = "explosion-index-list";
+    wordList.className = "explosion-index-list listening-index-list";
     dialog.append(header, search, wordList);
     container.appendChild(dialog);
     function renderWordList() {
@@ -87,7 +87,7 @@
         const item = document.createElement("li");
         const select = document.createElement("button");
         select.type = "button";
-        select.className = "answer-button";
+        select.className = "listening-index-word";
         select.textContent = `${entry.japanese}${entry.kanji ? `（${entry.kanji}）` : ""} · ${entry.english}`;
         select.setAttribute("aria-label", `Practice ${entry.japanese}`);
         select.addEventListener("click", () => {

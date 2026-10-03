@@ -1259,6 +1259,41 @@ body.no-furigana rt {
 
 .explosion-index-list span { margin-top: 4px; }
 
+.listening-index-list {
+  list-style: none;
+  padding: 8px 20px 20px;
+}
+
+.listening-index-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--ink);
+}
+
+.listening-index-word {
+  flex: 1;
+  min-width: 0;
+  min-height: 44px;
+  padding: 4px 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  color: inherit;
+  font: inherit;
+  line-height: 1.4;
+  text-align: left;
+  overflow-wrap: anywhere;
+  cursor: pointer;
+}
+
+.listening-index-word:hover { text-decoration: underline; }
+.listening-index-word:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.listening-index-list li > .icon-button { flex-shrink: 0; }
+
+
 #wordExplosionGame {
   display: grid;
   min-height: 660px;

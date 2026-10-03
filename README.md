@@ -46,4 +46,4 @@ For browser integration checks, serve the repository and open
 The harness checks actual DOM collisions, shared audio replay, section money,
 mistake review, SVG coin feedback, responsive bounds and navigation cleanup.
 
-The temporary 音声チェック deck has a **New** speaker beside each existing recording for the Marin pitch comparison batch. Games use the selected recordings: 49 originals retained from the reviewed keep list, with 543 new recordings activated. See [review notes and source attribution](docs/marin-pitch-comparisons.md) for provisional expressions and listening limitations.
+The temporary 音声チェック deck has a **New** speaker beside each existing recording for the Marin pitch comparison batch. Games use the selected recordings: 50 originals retained from the reviewed keep list, with 542 new recordings activated. See [review notes and source attribution](docs/marin-pitch-comparisons.md) for provisional expressions and listening limitations.
