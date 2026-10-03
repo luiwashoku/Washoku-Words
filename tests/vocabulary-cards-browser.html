@@ -37,8 +37,12 @@
     assert(q('#openVocabularyCards').previousElementSibling.id === 'openSearch', 'Cards button sits beside search');
     assert(w.getComputedStyle(q('#openVocabularyCards')).backgroundColor === 'rgb(137, 128, 255)', 'Purple cards button');
     result.textContent = 'RUNNING: opening study deck';
+    // Keep this exhaustive content/layout check deterministic; shuffle uses Math.random.
+    const originalRandom = w.Math.random;
+    w.Math.random = () => 0.999999;
     q('#openVocabularyCards').click();
     await until(() => q('.vocabulary-study-card:not(.hidden)'));
+    w.Math.random = originalRandom;
     assert(q('#wordExplosionTitle').textContent === 'カード', 'Study deck title');
     assert(q('#explosionIndexButton').classList.contains('hidden'), 'Game index hidden in study deck');
     assert(w.getComputedStyle(d.body).backgroundColor === 'rgb(0, 204, 146)', 'Green page background');

@@ -167,7 +167,11 @@
       try {
         const data = await window.WordExplosionGame.loadVocabulary(file, signal);
         if (!alive) return;
-        entries = data.entries;
+        entries = [...data.entries];
+        for (let i = entries.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [entries[i], entries[j]] = [entries[j], entries[i]];
+        }
         index = 0;
         render();
         status.textContent = "";
