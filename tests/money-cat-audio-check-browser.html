@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><title>Audio check deck tests</title>
+<pre id="results">Running…</pre>
+<iframe id="app" src="../index.html" width="390" height="844"></iframe>
+<script>
+const results = document.getElementById('results');
+const wait = () => new Promise(resolve => setTimeout(resolve, 30));
+function assert(value, message) { if (!value) throw new Error(message); }
+async function until(check) {
+  for (let i = 0; i < 200; i++) { if (check()) return; await wait(); }
+  throw new Error('Timed out');
+}
+document.getElementById('app').addEventListener('load', async () => {
+  try {
+    const w = document.getElementById('app').contentWindow, d = w.document;
+    await until(() => d.querySelector('.money-cat-audio-check-card'));
+    const elements = [], plays = [];
+    class TestAudio {
+      constructor(src) { this.src = src; this.paused = true; elements.push(this); }
+      getAttribute() { return this.src; }
+      play() { this.paused = false; plays.push(this.src); return Promise.resolve(); }
+      pause() { this.paused = true; }
+    }
+    w.Audio = TestAudio;
+    d.querySelector('.money-cat-audio-check-card').click();
+    await until(() => d.querySelectorAll('.audio-check-list li').length > 10);
+    const rows = [...d.querySelectorAll('.audio-check-list li')];
+    const buttons = rows.map(row => row.querySelector('button'));
+    const readings = buttons.map(button => button.getAttribute('aria-label').replace(/^Play /, ''));
+    assert(readings.every((text, i) => !i || readings[i - 1].localeCompare(text, 'ja') <= 0), 'Words follow Japanese reading order');
+    assert(rows.every(row => row.querySelector('[lang="ja"]') && row.querySelectorAll('button:not(.audio-check-trial)').length === 1), 'Each Japanese word has one speaker');
+    assert(rows.some(row => row.textContent.includes('（')), 'Kanji labels include their reading');
+    const fileFor = text => w.wordExplosionAudioFiles?.[text] || w.lessonAudioFiles?.['word-explosion-2']?.[text] || w.gameAudioFiles?.[text];
+    buttons[0].click();
+    assert(plays.at(-1) === fileFor(readings[0]), 'First speaker uses the cat-game recording lookup');
+    buttons[1].click();
+    assert(plays.at(-1) === fileFor(readings[1]) && elements.length === 1, 'Switching words reuses the same native player');
+    buttons[1].click();
+    assert(elements[0].currentTime === 0, 'Repeated taps restart a recording');
+    assert(d.documentElement.scrollWidth <= w.innerWidth, 'Phone list has no horizontal overflow');
+    const trials = await w.fetch('data/marin-audio-trials.json').then(response => response.json());
+    assert(Object.keys(trials).length === 592, 'All 592 recording keys have comparison audio');
+    assert(rows.every(row => row.querySelector('.audio-check-trial')), 'Every vocabulary row has a New button');
+    const trialButton = rows.find(row => row.textContent.includes('明らか')).querySelector('.audio-check-trial');
+    assert(trialButton && trialButton.closest('li').textContent.includes('明らか'), 'Akiraka has a separate trial button');
+    trialButton.click();
+    assert(plays.at(-1).startsWith('audio/marin-pitch-trials/akiraka-'), 'New button plays the candidate without replacing the existing recording');
+    d.getElementById('backFromExplosion').click();
+    assert(elements[0].paused && !d.querySelector('.audio-check-list'), 'Back stops audio and removes the temporary list');
+    d.querySelector('.money-cat-card').click();
+    await until(() => d.querySelector('.money-cat-arena'));
+    assert(!d.getElementById('wordExplosionGame').classList.contains('money-cat-audio-check'), 'Game layout is restored after leaving the checker');
+    d.getElementById('backFromExplosion').click();
+    results.textContent = 'PASS: Japanese word list, reading order, cat recordings, native replay, phone layout, and navigation cleanup.';
+  } catch (error) { results.textContent = 'FAIL: ' + error.stack; }
+});
+</script></html>

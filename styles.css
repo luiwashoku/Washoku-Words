@@ -1786,3 +1786,15 @@ body.no-furigana rt {
 .offline-controls button:disabled { opacity: .6; cursor: default; }
 .offline-controls [role="status"] { order: 1; flex-basis: 100%; font-size: .8rem; }
 .offline-controls [role="status"]:empty { display: none; }
+
+/* Temporary list for reviewing the exact Money Cat recordings. */
+#wordExplosionGame.money-cat-audio-check { display: block; min-height: 0; padding: 12px; }
+.audio-check-list { list-style: none; padding: 0; margin: 0; }
+.audio-check-list li { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 12px 4px; border-bottom: 1px solid var(--ink); }
+.audio-check-list li > span { min-width: 0; overflow-wrap: anywhere; }
+.audio-check-play { flex-shrink: 0; width: 48px; height: 48px; }
+.audio-check-play svg { width: 26px; height: 26px; fill: currentColor; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+.audio-check-play .speakerIcon path:not(:first-child) { fill: none; }
+
+.audio-check-controls { display: flex; gap: 6px; flex-shrink: 0; }
+.audio-check-trial { width: auto; min-width: 48px; padding: 0 10px; display: flex; align-items: center; gap: 4px; font-size: .75rem; }

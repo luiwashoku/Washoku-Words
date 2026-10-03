@@ -8,6 +8,10 @@ A washoku learning app prepared by lui
 
 ## Money Cat
 
+The temporary home-screen 音声チェック deck lists the same recorded vocabulary
+in Japanese reading order, with kanji/readings and one replay button per word.
+Use it to identify pronunciation corrections without playing the game.
+
 The home-screen Money Cat button replaces the random-question entry. The original
 random-question session code remains in `app.js` for future restoration.
 
@@ -41,3 +45,5 @@ For browser integration checks, serve the repository and open
 `tests/money-cat-browser.html` (phone layout), or add `?desktop` for desktop.
 The harness checks actual DOM collisions, shared audio replay, section money,
 mistake review, SVG coin feedback, responsive bounds and navigation cleanup.
+
+The temporary 音声チェック deck has a **New** speaker beside each existing recording for the Marin pitch comparison batch. Game recordings remain unchanged. See [review notes and source attribution](docs/marin-pitch-comparisons.md) for provisional expressions and listening limitations.

@@ -1,0 +1,27 @@
+{
+  "lookup_key": "あきらか",
+  "display": "明らか（あきらか）",
+  "reading_source": "word explosion.txt:184 and scripts/word-explosion-marin-review.json",
+  "pitch_accent": {
+    "dialect": "Tokyo",
+    "accent_number": 2,
+    "mora_pattern": [
+      "low",
+      "high",
+      "low",
+      "low"
+    ],
+    "source": "https://en.wiktionary.org/wiki/明らか"
+  },
+  "listening_verified": false,
+  "payload": {
+    "model": "gpt-4o-mini-tts",
+    "voice": "marin",
+    "input": "あきらか",
+    "speed": 1.0,
+    "response_format": "mp3",
+    "instructions": "Speak standard Tokyo Japanese. Read only the supplied word once, naturally and clearly. The word has four morae: a, ki, ra, ka. Use Tokyo pitch accent type 2 (nakadaka): a is low, ki is high, then drop immediately after ki; ra and ka are low. The pitch pattern is low-high-low-low. Maintain a smooth connected word without pauses between morae, without stress or exaggerated intonation. Do not add a particle, explanation, translation, or any other words."
+  },
+  "file": "audio/marin-pitch-trials/akiraka-367bf3fda86fbe6ed84f.mp3",
+  "original_file": "audio/word-explosion-marin/marin-d63a7ffdd2439562a0b6.mp3"
+}

@@ -1229,6 +1229,24 @@
       });
     });
     elements.categoryGrid.appendChild(moneyCatButton);
+    const audioCheckButton = document.createElement("button");
+    audioCheckButton.type = "button";
+    audioCheckButton.className = "category-card money-cat-audio-check-card";
+    audioCheckButton.innerHTML = "<strong>音声チェック</strong><span>Temporary · cat vocabulary recordings</span>";
+    audioCheckButton.addEventListener("click", () => {
+      const lesson = state.catalog.find(entry => entry.id === "word-explosion-2");
+      if (!lesson) return;
+      cancelJapaneseSpeech();
+      state.selectedCategory = null;
+      state.selectedLesson = {...lesson, isMoneyCat: true};
+      showScreen("word-explosion");
+      document.getElementById("wordExplosionTitle").textContent = "音声チェック";
+      document.getElementById("explosionIndexButton").classList.add("hidden");
+      closeWordExplosion = window.MoneyCatAudioCheck.mount(elements.wordExplosionGame, {
+        file: lesson.file, getRecordedJapaneseFile, speakerTemplate: elements.speakExplanation
+      });
+    });
+    elements.categoryGrid.appendChild(audioCheckButton);
   }
 
   function getLessonsForCategory(
