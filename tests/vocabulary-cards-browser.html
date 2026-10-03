@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vocabulary cards and word list checks</title>
+<style>body { margin: 0; } iframe { width: 390px; height: 850px; border: 0; } #result { white-space: pre-wrap; }</style>
+<pre id="result">RUNNING</pre>
+<iframe src="../index.html" title="App"></iframe>
+<script>
+(async () => {
+  const frame = document.querySelector('iframe');
+  const result = document.getElementById('result');
+  const wait = ms => new Promise(resolve => setTimeout(resolve, ms));
+  const assert = (value, message) => { if (!value) throw new Error(message); };
+  async function until(fn) {
+    for (let i = 0; i < 300; i++) { if (fn()) return; await wait(20); }
+    throw new Error('Timed out');
+  }
+  try {
+    await until(() => frame.contentDocument?.querySelector('#openVocabularyCards:not(:disabled)'));
+    const w = frame.contentWindow, d = frame.contentDocument;
+    const q = selector => d.querySelector(selector);
+    const audio = [];
+    const plays = [];
+    class RecordedAudio extends w.EventTarget {
+      constructor(src) { super(); this.src = src; this.paused = true; this.currentTime = 0; this.playbackRate = 1; audio.push(this); }
+      getAttribute(name) { return name === 'src' ? this.src : null; }
+      play() { this.paused = false; plays.push({audio: this, src: this.src}); return Promise.resolve(); }
+      pause() { this.paused = true; }
+    }
+    w.Audio = RecordedAudio;
+    const vocabulary = await fetch('../word%20explosion.txt').then(r => r.text());
+    const examples = await fetch('../data/word-explosion-examples.json').then(r => r.json());
+    const entries = w.WordExplosionGame.parseVocabulary(vocabulary);
+    const sentenceFor = word => examples[`${word.japanese}|${word.kanji}`] || examples[word.japanese];
+    const speechPath = text => w.gameAudioFiles[w.getJapaneseSpeechText(text)];
+    assert(q('#openVocabularyCards').previousElementSibling.id === 'openSearch', 'Cards button sits beside search');
+    assert(w.getComputedStyle(q('#openVocabularyCards')).backgroundColor === 'rgb(137, 128, 255)', 'Purple cards button');
+    result.textContent = 'RUNNING: opening study deck';
+    q('#openVocabularyCards').click();
+    await until(() => q('.vocabulary-study-card:not(.hidden)'));
+    assert(q('#wordExplosionTitle').textContent === 'カード', 'Study deck title');
+    assert(q('#explosionIndexButton').classList.contains('hidden'), 'Game index hidden in study deck');
+    assert(w.getComputedStyle(d.body).backgroundColor === 'rgb(0, 204, 146)', 'Green page background');
+    assert(w.getComputedStyle(q('.vocabulary-study-card')).borderTopWidth === '0px' && w.getComputedStyle(q('.vocabulary-study-card')).backgroundColor === 'rgba(0, 0, 0, 0)', 'No inner card box');
+    assert(!q('.vocabulary-card-hint'), 'Instruction removed');
+    assert(!q('#wordExplosionScreen').contains(q('.vocabulary-card-navigation')), 'Navigation sits outside the deck box');
+    assert(q('#vocabularyCardTools .offline-controls button').getAttribute('aria-label').includes('カード'), 'Shared offline download control available');
+    const furi = q('#vocabularyCardFurigana');
+    assert(furi.getAttribute('aria-label') === 'Show furigana' && w.getComputedStyle(q('.vocabulary-card-reading')).visibility === 'hidden', 'Furigana starts hidden like the other decks');
+    furi.click();
+    assert(furi.getAttribute('aria-label') === 'Hide furigana' && w.getComputedStyle(q('.vocabulary-card-reading')).visibility === 'visible', 'Toggle reveals the word reading');
+    assert(w.getComputedStyle(q('.vocabulary-card-sentence-row .furiganaReading')).display !== 'none', 'Toggle reveals sentence readings');
+    furi.click();
+    assert(w.getComputedStyle(q('.vocabulary-card-sentence-row .furiganaReading')).display === 'none', 'Toggle hides sentence readings');
+    const buttons = () => [...d.querySelectorAll('.vocabulary-card-navigation button')];
+    const speakers = () => [...d.querySelectorAll('.vocabulary-study-card .explosion-example-speech')];
+    assert(buttons()[0].disabled && !buttons()[1].disabled, 'First-card boundary');
+    assert(q('.vocabulary-card-counter').textContent === `1 / ${entries.length}`, 'Card count matches the shared vocabulary');
+    assert(plays[0].src.startsWith('data:audio/wav;'), 'Opening gesture unlocks the persistent word player');
+    assert(plays.at(-1).src === w.wordExplosionAudioFiles[entries[0].japanese], 'First word plays automatically');
+    const wordAudio = plays.at(-1).audio;
+    const wordArea = q('.vocabulary-card-word-area').getBoundingClientRect();
+    const wordSpeaker = q('.vocabulary-card-word-speaker').getBoundingClientRect();
+    assert(wordSpeaker.top >= wordArea.bottom && Math.abs(wordSpeaker.left + wordSpeaker.width / 2 - w.innerWidth / 2) < 2, 'Word speaker is centered below the invisible vocabulary area');
+    assert(q('.vocabulary-card-example').getBoundingClientRect().top >= q('.vocabulary-card-word-row').getBoundingClientRect().bottom + 60, 'Generous space before the sentence');
+    const navBounds = q('.vocabulary-card-navigation').getBoundingClientRect();
+    assert(navBounds.top >= q('#wordExplosionScreen').getBoundingClientRect().bottom, 'Navigation is below the box');
+    const prevBounds = buttons()[0].getBoundingClientRect(), nextBounds = buttons()[1].getBoundingClientRect();
+    assert(Math.abs((prevBounds.left + nextBounds.right) / 2 - w.innerWidth / 2) < 2, 'Arrows and count form a centered group');
+    speakers()[0].click();
+    assert(plays.at(-1).audio === wordAudio && wordAudio.src === w.wordExplosionAudioFiles[entries[0].japanese], 'Word replay reuses the unlocked player');
+    speakers()[1].click();
+    assert(wordAudio.paused && audio.at(-1).src === speechPath(sentenceFor(entries[0]).japanese), 'Sentence reuses its recording and stops the word');
+    const sentenceAudio = audio.at(-1);
+    buttons()[1].click();
+    assert(sentenceAudio.paused && q('.vocabulary-card-counter').textContent.startsWith('2 /'), 'Moving cancels playback');
+    assert(plays.at(-1).audio === wordAudio && plays.at(-1).src === w.wordExplosionAudioFiles[entries[1].japanese], 'Next word autoplays on the same player');
+    d.dispatchEvent(new w.KeyboardEvent('keydown', {key: 'ArrowLeft', bubbles: true, cancelable: true}));
+    assert(q('.vocabulary-card-counter').textContent.startsWith('1 /'), 'Keyboard previous');
+    d.dispatchEvent(new w.KeyboardEvent('keydown', {key: 'ArrowRight', bubbles: true, cancelable: true}));
+    assert(q('.vocabulary-card-counter').textContent.startsWith('2 /'), 'Keyboard next');
+    function swipe(dx, dy = 0, target = q('.vocabulary-study-card')) {
+      target.dispatchEvent(new w.PointerEvent('pointerdown', {pointerId: 1, pointerType: 'touch', isPrimary: true, clientX: 180, clientY: 200, bubbles: true}));
+      d.dispatchEvent(new w.PointerEvent('pointerup', {pointerId: 1, pointerType: 'touch', isPrimary: true, clientX: 180 + dx, clientY: 200 + dy, bubbles: true}));
+    }
+    swipe(-100);
+    assert(q('.vocabulary-card-counter').textContent.startsWith('3 /'), 'Swipe left goes forward');
+    swipe(100);
+    assert(q('.vocabulary-card-counter').textContent.startsWith('2 /'), 'Swipe right goes back');
+    swipe(-100, 180);
+    assert(q('.vocabulary-card-counter').textContent.startsWith('2 /'), 'Vertical scrolling does not change cards');
+    swipe(-100, 0, speakers()[0]);
+    assert(q('.vocabulary-card-counter').textContent.startsWith('2 /'), 'Speaker gestures do not change cards');
+    buttons()[0].click();
+    frame.style.width = '320px';
+    await wait(40);
+    for (let i = 0; i < entries.length; i++) {
+      if (i % 40 === 0) { result.textContent = `RUNNING: checking card ${i + 1} / ${entries.length}`; await wait(1); }
+      const word = entries[i], example = sentenceFor(word);
+      assert(q('#studyCardWord').textContent === (word.kanji || word.japanese), `Matching word ${i}`);
+      assert(q('.vocabulary-card-meaning').textContent === word.english, `Matching meaning ${i}`);
+      assert(q('.vocabulary-card-sentence-row p').textContent === example.japanese, `Matching Japanese example ${i}`);
+      assert(q('.vocabulary-card-translation').textContent === example.english, `Matching English example ${i}`);
+      assert(speakers().length === 2 && speakers().every(b => !b.disabled), `Both Japanese speakers available ${i}`);
+      assert(d.documentElement.scrollWidth <= w.innerWidth + 1, `No phone overflow ${i}`);
+      assert(q('.vocabulary-card-counter').textContent === `${i + 1} / ${entries.length}`, `Correct counter ${i}`);
+      assert(plays.at(-1).src === w.wordExplosionAudioFiles[word.japanese] && plays.at(-1).audio.playbackRate === 1, `Word autoplays at native 1x ${i}`);
+      if (i < entries.length - 1) buttons()[1].click();
+    }
+    assert(buttons()[1].disabled, 'Last-card boundary');
+    d.dispatchEvent(new w.KeyboardEvent('keydown', {key: 'ArrowRight', bubbles: true, cancelable: true}));
+    assert(q('.vocabulary-card-counter').textContent.startsWith(`${entries.length} /`), 'No wrap past last card');
+    speakers()[0].click();
+    const lastAudio = plays.at(-1).audio;
+    q('#backFromExplosion').click();
+    assert(lastAudio.paused && !q('.vocabulary-study-card') && !q('#homeScreen').classList.contains('hidden'), 'Back stops playback, unmounts, and returns home');
+    assert(q('#vocabularyCardTools').classList.contains('hidden') && q('.vocabulary-card-navigation').classList.contains('hidden') && !d.documentElement.classList.contains('vocabulary-cards-open'), 'Deck tools, navigation and green background are cleaned up');
+    result.textContent = 'RUNNING: opening study deck';
+    q('#openVocabularyCards').click();
+    await until(() => q('.vocabulary-study-card:not(.hidden)'));
+    d.dispatchEvent(new w.KeyboardEvent('keydown', {key: 'ArrowRight', bubbles: true, cancelable: true}));
+    assert(q('.vocabulary-card-counter').textContent.startsWith('2 /'), 'Remount has one keyboard handler');
+    q('#backFromExplosion').click();
+
+    result.textContent = 'RUNNING: opening word popup';
+    [...d.querySelectorAll('.category-card')].find(b => b.textContent.includes('日本語で話す')).click();
+    const lesson = () => [...d.querySelectorAll('.lesson-card')].find(b => b.querySelector('strong').textContent.trim() === '単語爆発2');
+    await until(lesson);
+    lesson().querySelector('.lesson-open').click();
+    await until(() => q('#explosionIndexButton:not(:disabled)'));
+    assert(!q('#explosionIndexButton').classList.contains('hidden'), 'Index is restored after study cards');
+    q('#explosionIndexButton').click();
+    const dialog = q('.explosion-index-dialog');
+    const search = q('.listening-index-search');
+    const list = q('.listening-index-list');
+    assert(dialog.open && dialog.contains(search), 'Search remains inside the word popup');
+    assert(search.parentElement.nextElementSibling === list, 'Search sits immediately above the words');
+    assert(w.getComputedStyle(search).borderTopWidth !== '0px' && w.getComputedStyle(search).backgroundColor === 'rgb(255, 184, 222)', 'Search uses the app graphic style');
+    assert(w.getComputedStyle(list).listStyleType === 'decimal' && list.children[0].value === 1, 'Numbered list');
+    assert(w.getComputedStyle(list.children[0]).display === 'list-item', 'Native number markers remain visible');
+    const matchIndex = entries.findIndex(e => e.japanese === 'ぬるい');
+    search.value = 'ぬるい';
+    search.dispatchEvent(new w.Event('input', {bubbles: true}));
+    assert(list.children.length === 1 && list.children[0].value === matchIndex + 1, 'Filtered rows retain original numbers');
+    search.click();
+    assert(dialog.open, 'Clicking inside keeps the popup open');
+    dialog.dispatchEvent(new w.MouseEvent('click', {clientX: -1, clientY: -1, bubbles: true}));
+    assert(!dialog.open, 'Clicking outside closes the popup');
+    q('#explosionIndexButton').click();
+    list.querySelector('.listening-index-word').click();
+    assert(!dialog.open, 'Selecting a filtered word still starts practice');
+    q('#backFromExplosion').click();
+    result.textContent = 'PASS: all 720 cards, gesture-unlocked word autoplay/replay, native 1x, sentence playback, furigana toggle, download control, green background, no inner box, centered vocabulary/speaker, spacing, external centered navigation, swipes, cleanup, 320px layout and word popup.';
+  } catch (error) { result.textContent = `FAIL: ${error.message}\n${error.stack}`; }
+})();
+</script>
+</html>

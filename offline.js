@@ -80,7 +80,9 @@
     status.setAttribute('role', 'status');
     const button = document.createElement('button');
     button.type = 'button';
-    button.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M5 17v4h14v-4"/></svg>';
+    const downloadIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M5 17v4h14v-4"/></svg>';
+    const downloadedIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>';
+    button.innerHTML = downloadIcon;
     button.title = 'Download for offline';
     button.setAttribute('aria-label', 'Download ' + lesson.title + ' for offline');
     row.append(button, status);
@@ -88,9 +90,10 @@
     let busy = false;
     async function refresh() {
       const downloaded = await saved(lesson.id);
-      status.textContent = downloaded ? 'Available offline' : '';
+      status.textContent = '';
+      button.innerHTML = downloaded ? downloadedIcon : downloadIcon;
       button.classList.toggle('is-downloaded', Boolean(downloaded));
-      button.title = downloaded ? 'Available offline · Remove download' : 'Download for offline';
+      button.title = downloaded ? 'Remove download' : 'Download for offline';
       button.setAttribute('aria-label', (downloaded ? 'Remove offline download: ' : 'Download for offline: ') + lesson.title);
     }
     if (!('caches' in window) || !window.isSecureContext) { status.textContent = 'Offline downloads require HTTPS'; button.disabled = true; return; }

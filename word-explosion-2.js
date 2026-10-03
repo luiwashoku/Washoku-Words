@@ -73,18 +73,25 @@
     header.append(title, close);
     const search = document.createElement("input");
     search.type = "search";
+    search.className = "listening-index-search";
     search.placeholder = "Search words · むしろ";
     search.setAttribute("aria-label", "Search Japanese or English words");
+    const searchRow = document.createElement("div");
+    searchRow.className = "listening-index-search-row";
+    searchRow.appendChild(search);
     const wordList = document.createElement("ol");
     wordList.className = "explosion-index-list listening-index-list";
-    dialog.append(header, search, wordList);
+    dialog.append(header, searchRow, wordList);
     container.appendChild(dialog);
     function renderWordList() {
       const query = search.value.trim().normalize("NFC").toLowerCase();
-      wordList.replaceChildren(...entries.filter((entry) =>
+      wordList.replaceChildren(...entries.map((entry, index) => ({ ...entry, index })).filter((entry) =>
         `${entry.japanese} ${entry.kanji} ${entry.english}`.toLowerCase().includes(query)
       ).map((entry) => {
         const item = document.createElement("li");
+        item.value = entry.index + 1;
+        const row = document.createElement("div");
+        row.className = "listening-index-row";
         const select = document.createElement("button");
         select.type = "button";
         select.className = "listening-index-word";
@@ -96,7 +103,8 @@
           reset();
           replay.focus({ preventScroll: true });
         });
-        item.append(select, createExampleSpeechButton(entry.japanese));
+        row.append(select, createExampleSpeechButton(entry.japanese));
+        item.appendChild(row);
         return item;
       }));
     }
@@ -107,6 +115,12 @@
       search.focus();
     }, { signal: controller.signal });
     dialog.addEventListener("close", stopSpeech);
+    dialog.addEventListener("click", (event) => {
+      if (event.target !== dialog) return;
+      const bounds = dialog.getBoundingClientRect();
+      if (event.clientX < bounds.left || event.clientX > bounds.right ||
+          event.clientY < bounds.top || event.clientY > bounds.bottom) dialog.close();
+    });
 
     function speak() {
       if (!alive || !word) return;

@@ -135,6 +135,7 @@
     bindEvents();
 
     state.catalog = await loadCatalog();
+    document.getElementById("openVocabularyCards").disabled = !state.catalog.some(lesson => lesson.id === "word-explosion-2");
     renderCategories();
     window.WashokuSearch.init({
       catalog: state.catalog,
@@ -320,6 +321,7 @@
 
   function bindEvents() {
     document.getElementById("backFromExplosion").addEventListener("click", returnToLessonList);
+    document.getElementById("openVocabularyCards").addEventListener("click", openVocabularyCards);
     elements.backHome.addEventListener(
       "click",
       returnHome
@@ -980,7 +982,7 @@
       setSpeechButtonState(correctSentenceButton, "idle", "correct sentence");
     }
     document.querySelectorAll(".explosion-example-speech").forEach((button) => {
-      setSpeechButtonState(button, "idle", "Japanese example sentence");
+      setSpeechButtonState(button, "idle", button.dataset.speechLabel || "Japanese example sentence");
     });
     activeJapaneseUtterance = null;
     activeSpeechButton = null;
@@ -1439,19 +1441,42 @@
     };
   }
 
-  function createExampleSpeechButton(text) {
+  function createExampleSpeechButton(text, label = "Japanese example sentence", onPlay) {
     const button = elements.speakExplanation.cloneNode(true);
     button.removeAttribute("id");
     button.className = "icon-button explosion-example-speech";
+    button.dataset.speechLabel = label;
     const supported = Boolean(getRecordedJapaneseFile(text)) ||
       ("speechSynthesis" in window && "SpeechSynthesisUtterance" in window);
     button.disabled = !supported;
-    setSpeechButtonState(button, "idle", "Japanese example sentence");
+    setSpeechButtonState(button, "idle", label);
     if (!supported) button.title = "Speech playback is not available in this browser";
     button.addEventListener("click", () => {
-      speakJapaneseText(text, button, "Japanese example sentence");
+      if (onPlay) onPlay();
+      else speakJapaneseText(text, button, label);
     });
     return button;
+  }
+
+  function openVocabularyCards() {
+    const lesson = state.catalog.find(entry => entry.id === "word-explosion-2");
+    if (!lesson) return;
+    cancelJapaneseSpeech();
+    state.selectedCategory = null;
+    state.selectedLesson = { ...lesson, isStudyCards: true };
+    showScreen("word-explosion");
+    document.getElementById("wordExplosionTitle").textContent = "カード";
+    document.getElementById("explosionIndexButton").classList.add("hidden");
+    closeWordExplosion = window.VocabularyCards.mount(elements.wordExplosionGame, {
+      file: lesson.file,
+      lesson,
+      toolbar: document.getElementById("vocabularyCardTools"),
+      navigation: document.getElementById("vocabularyCardNavigation"),
+      stopSpeech: cancelJapaneseSpeech,
+      createExampleSpeechButton,
+      getRecordedJapaneseFile,
+      setJapaneseText: setFuriganaAwareText
+    });
   }
 
   async function openLesson(lesson, { questionId, initialWord } = {}) {
@@ -2921,7 +2946,7 @@
 
   function returnToLessonList() {
     cancelJapaneseSpeech();
-    if (state.selectedLesson?.isMoneyCat) {
+    if (state.selectedLesson?.isMoneyCat || state.selectedLesson?.isStudyCards) {
       returnHome();
       return;
     }

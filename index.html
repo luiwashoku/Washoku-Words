@@ -48,7 +48,7 @@
 
   <link
     rel="stylesheet"
-    href="styles.css?v=compact-word-list-1"
+    href="styles.css?v=download-tick-1"
   >
 </head>
 
@@ -101,6 +101,7 @@
         <button id="openSearch" class="icon-button" type="button" aria-label="Search questions and vocabulary" aria-haspopup="dialog" disabled>
           <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="13" cy="13" r="8"></circle><path d="m19 19 9 9"></path></svg>
         </button>
+        <button id="openVocabularyCards" class="icon-button" type="button" lang="ja" aria-label="カード — Study vocabulary cards" disabled>カード</button>
       </div>
 
     <dialog id="searchDialog" aria-labelledby="searchTitle">
@@ -152,9 +153,11 @@
           <h2 id="wordExplosionTitle">単語爆発</h2>
         </div>
         <button id="explosionIndexButton" class="icon-button" type="button" aria-label="Show all words" aria-haspopup="dialog" title="単語一覧を見る" disabled>全</button>
+        <div id="vocabularyCardTools" class="vocabulary-card-tools hidden"></div>
       </div>
       <div id="wordExplosionGame"></div>
     </section>
+    <nav id="vocabularyCardNavigation" class="vocabulary-card-navigation hidden" aria-label="Browse vocabulary cards"></nav>
 
     <section
       id="quizScreen"
@@ -446,7 +449,8 @@
 
   <script src="japanese-speech.js"></script>
   <script src="word-explosion.js"></script>
-  <script src="word-explosion-2.js?v=compact-list-1"></script>
+  <script src="word-explosion-2.js?v=word-list-search-1"></script>
+  <script src="vocabulary-cards.js?v=2"></script>
   <script src="money-cat.js?v=15"></script>
   <script src="money-cat-audio-check.js?v=4"></script>
   <script src="search.js"></script>
@@ -454,8 +458,8 @@
   <script src="game-audio-manifest.js?v=marin-expansion-20261003"></script>
   <script src="word-explosion-audio-manifest.js?v=marin-expansion-20261003"></script>
   <script src="lesson-audio-manifest.js?v=reviewed-batch-83"></script>
-  <script src="offline.js?v=2"></script>
-  <script src="app.js?v=coin-correct-1"></script>
+  <script src="offline.js?v=3"></script>
+  <script src="app.js?v=vocabulary-cards-2"></script>
 
 </body>
 </html>

@@ -69,3 +69,27 @@ active selections. Sentence particles and lexical kana are reviewed individually
 Dictionary pitch targets guide generation; audible pitch has not been independently
 listening-verified. Fifteen new connected expressions use provisional phrase
 guidance rather than an unsupported whole-expression accent number.
+
+
+## Vocabulary study cards
+
+The purple **カード** button beside home search opens a study deck from the same
+vocabulary and examples as 単語爆発2. Each card shows the Japanese word, reading,
+English meaning, Japanese example and English translation, with separate speakers
+for the word and sentence. A centered vocabulary area places the word speaker
+below the vocabulary, followed by a generous gap before the sentence. Content
+has no inner box; the page background is green. The header includes a furigana
+toggle and the shared 単語爆発2 offline download control. Word readings and sentence
+readings start hidden, matching the other decks. The arrows and card count sit
+in a centered group below the deck panel.
+
+Existing recordings play at native 1×. Each word plays automatically using the
+same gesture-unlocked native player as Money Cat; the word speaker replays it.
+Playing a sentence stops the word. Swipe left/right, use the arrow buttons, or
+press the keyboard arrow keys to browse; changing cards stops previous playback
+and starts the next word. Going back stops playback and removes the deck controls
+and green background. The first and last cards do not wrap.
+
+The 単語爆発2 全 popup has a styled search field directly above its numbered list.
+Filtered entries keep their original numbers. Clicking outside the popup closes it.
+Browser checks: `tests/vocabulary-cards-browser.html`.

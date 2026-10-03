@@ -1260,16 +1260,49 @@ body.no-furigana rt {
 .explosion-index-list span { margin-top: 4px; }
 
 .listening-index-list {
-  list-style: none;
-  padding: 8px 20px 20px;
+  list-style: decimal;
+  padding: 0 20px 20px 52px;
 }
 
 .listening-index-list li {
+  display: list-item;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--ink);
+}
+
+.listening-index-list li::marker {
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.listening-index-row {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 6px 0;
-  border-bottom: 1px solid var(--ink);
+}
+
+.listening-index-search-row {
+  padding: 16px 20px 12px;
+}
+
+.listening-index-search {
+  display: block;
+  width: 100%;
+  min-height: 48px;
+  padding: 10px 14px;
+  border: var(--line-weight) solid var(--ink);
+  border-radius: 14px;
+  background: var(--canvas);
+  color: var(--ink);
+  box-shadow: 3px 3px 0 var(--ink);
+  font: inherit;
+  font-size: 16px;
+}
+
+.listening-index-search::placeholder { color: var(--ink); opacity: .65; }
+.listening-index-search:focus-visible {
+  outline: 3px solid var(--horizon);
+  outline-offset: 4px;
 }
 
 .listening-index-word {
@@ -1291,7 +1324,7 @@ body.no-furigana rt {
 
 .listening-index-word:hover { text-decoration: underline; }
 .listening-index-word:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
-.listening-index-list li > .icon-button { flex-shrink: 0; }
+.listening-index-row > .icon-button { flex-shrink: 0; margin-top: 0; }
 
 
 #wordExplosionGame {
@@ -1648,6 +1681,8 @@ body.no-furigana rt {
 .home-search {
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 16px;
   padding: 28px 20px max(28px, env(safe-area-inset-bottom));
 }
 
@@ -1657,6 +1692,97 @@ body.no-furigana rt {
   flex-basis: 64px;
   background: var(--bronze);
 }
+
+#openVocabularyCards {
+  width: auto;
+  height: 64px;
+  flex: 0 0 auto;
+  padding: 0 20px;
+  border-radius: 20px;
+  background: var(--horizon);
+  font-size: 20px;
+}
+
+#wordExplosionGame.vocabulary-cards {
+  display: block;
+  min-height: 0;
+  padding: 8px 0 28px;
+}
+
+html.vocabulary-cards-open,
+.vocabulary-cards-open body { background: var(--bronze); }
+
+.study-cards-screen .pageHeader { gap: 12px; padding: 16px 12px; flex-wrap: wrap; }
+.study-cards-screen .pageHeader > div:not(.vocabulary-card-tools) { flex: 1; min-width: 0; }
+.study-cards-screen .pageHeader h2 { font-size: 24px; }
+.study-cards-screen #backFromExplosion { width: 44px; height: 44px; flex-basis: 44px; }
+.vocabulary-card-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.vocabulary-card-tools .icon-button,
+.vocabulary-card-tools .offline-controls button {
+  width: 44px;
+  height: 44px;
+  flex: 0 0 44px;
+  border: var(--line-weight) solid var(--ink);
+  border-radius: 50%;
+  background: var(--paper);
+  box-shadow: 3px 3px 0 var(--ink);
+}
+.vocabulary-card-tools .offline-controls [role="status"] { max-width: 180px; }
+#vocabularyCardFurigana { font-size: 12px; letter-spacing: -.04em; }
+#vocabularyCardFurigana.furigana-off { background: var(--ember); text-decoration: line-through; text-decoration-thickness: 2px; }
+
+.vocabulary-cards-status:empty { display: none; }
+.vocabulary-cards-status { margin: 12px 24px; }
+
+.vocabulary-study-card {
+  padding: 24px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  touch-action: pan-y;
+  overflow-wrap: anywhere;
+}
+
+.vocabulary-card-sentence-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.vocabulary-card-sentence-row > p { flex: 1; min-width: 0; }
+.vocabulary-card-word-row { display: flex; flex-direction: column; align-items: center; text-align: center; }
+.vocabulary-card-word-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: min(100%, 280px);
+  min-height: 240px;
+  aspect-ratio: 1;
+}
+.vocabulary-card-word-speaker { margin-top: 16px !important; }
+.vocabulary-study-card .explosion-example-speech { flex-shrink: 0; margin-top: 0; background: var(--paper); }
+.vocabulary-card-word-row h3 { margin: 0; font-size: clamp(28px, 6vw, 44px); line-height: 1.3; }
+.vocabulary-card-reading { margin: 6px 0 0; font-size: 18px; font-weight: 700; line-height: 1.5; }
+.vocabulary-card-meaning { margin: 16px 0 0; font-size: 17px; font-weight: 700; line-height: 1.5; }
+.vocabulary-cards.furigana-hidden .vocabulary-card-reading { visibility: hidden; }
+.vocabulary-card-example { margin-top: 64px; }
+.vocabulary-card-sentence-row p { margin: 0; font-size: 20px; font-weight: 700; line-height: 1.8; }
+.vocabulary-study-card .furiganaReading { white-space: nowrap; font-size: .75em; font-weight: 500; }
+.vocabulary-card-translation { margin: 14px 0 0; font-size: 16px; line-height: 1.6; }
+
+.vocabulary-card-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 24px auto 0;
+}
+
+.vocabulary-card-navigation .icon-button { background: var(--horizon); font-size: 26px; }
+.vocabulary-card-navigation .icon-button:disabled { opacity: .35; cursor: default; box-shadow: none; }
+.vocabulary-card-counter { min-width: 92px; text-align: center; font-size: 16px; font-weight: 900; font-variant-numeric: tabular-nums; }
 
 #searchDialog {
   width: min(640px, calc(100% - 28px));
@@ -1817,7 +1943,8 @@ body.no-furigana rt {
 .offline-controls { display: contents; }
 .offline-controls button { flex: 0 0 44px; width: 44px; height: 44px; display: inline-flex; align-items: center; justify-content: center; border: 0; border-radius: .6rem; background: transparent; color: inherit; padding: 10px; cursor: pointer; }
 .offline-controls svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
-.offline-controls button.is-downloaded { color: #347044; background: #34704415; }
+.offline-controls button.is-downloaded,
+.vocabulary-card-tools .offline-controls button.is-downloaded { color: var(--ink); background: var(--bronze); opacity: 1; }
 .offline-controls button:disabled { opacity: .6; cursor: default; }
 .offline-controls [role="status"] { order: 1; flex-basis: 100%; font-size: .8rem; }
 .offline-controls [role="status"]:empty { display: none; }
