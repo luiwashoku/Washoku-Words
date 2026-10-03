@@ -22,6 +22,15 @@
     .page-arrow:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 #111; }
     .page-arrow:focus-visible { outline: 4px solid #111; outline-offset: 3px; }
     .back-home { position: fixed; top: calc(16px + env(safe-area-inset-top)); left: calc(16px + env(safe-area-inset-left)); z-index: 3; text-decoration: none; }
+    .zukan-download { position: fixed; top: calc(16px + env(safe-area-inset-top)); right: calc(16px + env(safe-area-inset-right)); z-index: 3; max-width: min(260px, calc(100vw - 100px)); }
+    .offline-controls { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 8px; }
+    .offline-controls button { width: 50px; height: 50px; display: grid; place-items: center; padding: 10px; border: 2px solid #111; border-radius: 50%; background: var(--illustration-background); color: #111; box-shadow: 3px 3px 0 #111; cursor: pointer; }
+    .offline-controls svg { width: 25px; height: 25px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    .offline-controls button.is-downloaded { color: #347044; }
+    .offline-controls button:disabled { opacity: .6; cursor: default; }
+    .offline-controls button:focus-visible { outline: 4px solid #111; outline-offset: 3px; }
+    .offline-controls [role="status"] { flex-basis: 100%; font-size: 12px; text-align: right; }
+    .offline-controls [role="status"]:empty { display: none; }
     @media (max-width: 600px) {
       body { --top-space: calc(144px + env(safe-area-inset-top)); }
     }
@@ -31,6 +40,7 @@
   <a class="page-arrow back-home" href="index.html" aria-label="Back to main page" title="Back to main page">
     <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M17.5 7.5 9 16l8.5 8.5M9.5 16H23"></path></svg>
   </a>
+  <div id="zukanDownload" class="zukan-download"></div>
   <main id="vegetableTest" class="vegetable-test" aria-label="Japanese vegetable vocabulary test"></main>
   <nav class="page-navigation" aria-label="Test pages">
     <button class="page-arrow previous" type="button" aria-label="Previous page">
@@ -42,6 +52,7 @@
   </nav>
   <script src="japanese-speech.js"></script>
   <script src="zukan-audio-manifest.js"></script>
+  <script src="offline.js"></script>
   <script>
     const rolloverPages = [{
       image: "assets/vegetables-page.png",
@@ -1404,6 +1415,12 @@
     previousPage.addEventListener("click", () => changeRolloverPage(-1));
     nextPage.addEventListener("click", () => changeRolloverPage(1));
     window.addEventListener("pagehide", stopVocabularyAudio);
+    window.WashokuOffline.addControls(document.getElementById("zukanDownload"), {
+      id: "zukan", title: "図鑑",
+      files: ["favorites.html", "japanese-speech.js", "zukan-audio-manifest.js", "offline.js"],
+      illustrations: rolloverPages.map(page => page.image),
+      audioFiles: window.zukanAudioFiles
+    });
     renderRolloverPage();
   </script>
 </body>

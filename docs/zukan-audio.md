@@ -24,3 +24,9 @@ Publish `audio/zukan/`, `zukan-audio-manifest.js`, and `favorites.html` together
 Recordings load when an item is revealed. Selecting another item, changing
 pages, or leaving the page stops the previous recording. The existing browser
 voice remains the fallback for vocabulary without a saved recording.
+
+The top-right download button in 図鑑 saves the page, speech scripts, all 56
+illustrations and all Marin MP3s (about 121 MB total). Keep the page open until
+“Available offline” appears. Clicking the saved-download button removes this
+図鑑 download. This uses the shared offline cache and completion markers;
+partial failures are removed and never marked available offline.
