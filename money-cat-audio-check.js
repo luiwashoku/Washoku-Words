@@ -23,8 +23,12 @@
       fetch("data/marin-audio-trials.json", {signal}).then(response => {
         if (!response.ok) throw new Error("Audio trials could not load.");
         return response.json();
+      }),
+      fetch("data/marin-audio-originals.json", {signal}).then(response => {
+        if (!response.ok) throw new Error("Original recordings could not load.");
+        return response.json();
       })
-    ]).then(([{entries}, trials]) => {
+    ]).then(([{entries}, trials, originals]) => {
       if (signal.aborted) return;
       const words = entries.filter(word => getRecordedJapaneseFile(word.japanese));
       words.sort((a, b) => a.japanese.localeCompare(b.japanese, "ja"));
@@ -51,7 +55,7 @@
           button.addEventListener("click", () => {
             const current = ++revision;
             status.textContent = "";
-            player.play(trialFile ? {file: trialFile} : word.japanese).catch(() => {
+            player.play({file: trialFile || originals[word.japanese]}).catch(() => {
               if (!signal.aborted && current === revision) {
                 status.textContent = `Could not play ${word.japanese}. Tap its speaker to retry.`;
               }

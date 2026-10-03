@@ -1,10 +1,10 @@
-The 音声チェック deck offers the existing recording and a separate **New** recording for every vocabulary entry. The 592 unique lookup keys share 592 comparison clips. The original 明らか trial is retained. Neither active game audio manifest was changed.
+The 音声チェック deck offers the existing recording and a separate **New** recording for every vocabulary entry. The 592 unique lookup keys share 592 comparison clips. The original 明らか trial is retained. After listening review, the active game manifests select 49 original recordings for the user’s 50 keep labels (勧める and 進める share すすめる) and 543 new recordings. The original comparison manifest remains in `data/marin-audio-originals.json`; selections are recorded in `scripts/marin-audio-selection.json`.
 
 The hiragana inputs and display labels come from the existing reviewed vocabulary. Each comparison uses Marin (`gpt-4o-mini-tts`) at generation speed 1.0. Most instructions specify a Tokyo accent number and a mora-by-mora low/high contour. Sources, variants, meaning selections and inputs are recorded in `scripts/marin-pitch-review.json`; `scripts/generate-marin-pitch-trials.py` generates resumable comparison batches without touching the active game manifests.
 
 572 entries have numeric dictionary or derived surface targets. Twenty expressions use explicitly provisional component guidance because a complete-expression accent reference was not confirmed: 絶対に、当てにする、文句を言う、気が散る、楽しみにする、柔らかさ、似ている、気がつく、忘れ物をする、責任を持つ、基本的に、意外と、最終的に、地域差、世代差、逆に、一方で、ひょっとして、徐々に、幸いにも. These are candidates for listening review, not certified corrections. Component accents do not establish the accent of an entire compound or phrase.
 
-None of the batch is marked listening-verified. A text pitch target cannot guarantee the generated recording follows it. Listen to New and the existing speaker before choosing replacements.
+The user selected preferred recordings through listening comparison. The batch has not been independently certified for audible pitch correctness and its entries remain marked `listening_verified: false`. A text pitch target cannot guarantee the generated recording follows it. Listen to New and the existing speaker before choosing replacements.
 
 References: [OJAD, University of Tokyo](https://www.gavo.t.u-tokyo.ac.jp/ojad/), [Kanjium](https://github.com/mifunetoshiro/kanjium), and individually linked Japanese Wiktionary/jpdb entries in the review.
 

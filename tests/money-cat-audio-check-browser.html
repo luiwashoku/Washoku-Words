@@ -30,7 +30,8 @@ document.getElementById('app').addEventListener('load', async () => {
     assert(readings.every((text, i) => !i || readings[i - 1].localeCompare(text, 'ja') <= 0), 'Words follow Japanese reading order');
     assert(rows.every(row => row.querySelector('[lang="ja"]') && row.querySelectorAll('button:not(.audio-check-trial)').length === 1), 'Each Japanese word has one speaker');
     assert(rows.some(row => row.textContent.includes('（')), 'Kanji labels include their reading');
-    const fileFor = text => w.wordExplosionAudioFiles?.[text] || w.lessonAudioFiles?.['word-explosion-2']?.[text] || w.gameAudioFiles?.[text];
+    const originals = await w.fetch('data/marin-audio-originals.json').then(response => response.json());
+    const fileFor = text => originals[text];
     buttons[0].click();
     assert(plays.at(-1) === fileFor(readings[0]), 'First speaker uses the cat-game recording lookup');
     buttons[1].click();
@@ -50,6 +51,8 @@ document.getElementById('app').addEventListener('load', async () => {
     d.querySelector('.money-cat-card').click();
     await until(() => d.querySelector('.money-cat-arena'));
     assert(!d.getElementById('wordExplosionGame').classList.contains('money-cat-audio-check'), 'Game layout is restored after leaving the checker');
+    await until(() => Object.values(w.wordExplosionAudioFiles).includes(plays.at(-1)));
+    assert(Object.values(w.wordExplosionAudioFiles).includes(plays.at(-1)), 'Cat game plays the selected active recording');
     d.getElementById('backFromExplosion').click();
     results.textContent = 'PASS: Japanese word list, reading order, cat recordings, native replay, phone layout, and navigation cleanup.';
   } catch (error) { results.textContent = 'FAIL: ' + error.stack; }
