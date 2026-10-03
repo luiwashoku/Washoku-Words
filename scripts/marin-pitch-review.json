@@ -11027,6 +11027,2363 @@
       "matched_form": "発酵する",
       "method": "OJAD dictionary form",
       "word_id": "2591"
+    },
+    "ほぼ": {
+      "text": "ほぼ",
+      "vocabulary": [
+        {
+          "english": "almost / nearly",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 1,
+      "variants": [
+        1
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L116022",
+      "matched_form": "略",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "ふだん": {
+      "text": "ふだん",
+      "vocabulary": [
+        {
+          "english": "usually / normally",
+          "kanji": "普段"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 1,
+      "variants": [
+        1
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L102758",
+      "matched_form": "普段",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "かならず": {
+      "text": "かならず",
+      "vocabulary": [
+        {
+          "english": "surely / definitely",
+          "kanji": "必ず"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L101023",
+      "matched_form": "必ず",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "たぶん": {
+      "text": "たぶん",
+      "vocabulary": [
+        {
+          "english": "probably",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 1,
+      "variants": [
+        1
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L81181",
+      "matched_form": "多分",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "きっと": {
+      "text": "きっと",
+      "vocabulary": [
+        {
+          "english": "certainly / surely",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0,
+        1
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L37987",
+      "matched_form": "急度",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "よく": {
+      "text": "よく",
+      "vocabulary": [
+        {
+          "english": "often",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 1,
+      "variants": [
+        1
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L116746",
+      "matched_form": "良く",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "ときどき": {
+      "text": "ときどき",
+      "vocabulary": [
+        {
+          "english": "sometimes",
+          "kanji": "時々"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0,
+        2
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L58331",
+      "matched_form": "時々",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "たまに": {
+      "text": "たまに",
+      "vocabulary": [
+        {
+          "english": "occasionally",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L41827",
+      "matched_form": "偶に",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "あまり": {
+      "text": "あまり",
+      "vocabulary": [
+        {
+          "english": "not really / not much",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 3,
+      "variants": [
+        3,
+        1,
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L113659",
+      "matched_form": "余り",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "ぜんぜん": {
+      "text": "ぜんぜん",
+      "vocabulary": [
+        {
+          "english": "not at all",
+          "kanji": "全然"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L78070",
+      "matched_form": "全然",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "すこし": {
+      "text": "すこし",
+      "vocabulary": [
+        {
+          "english": "a little",
+          "kanji": "少し"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 2,
+      "variants": [
+        2
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L66333",
+      "matched_form": "少し",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "たくさん": {
+      "text": "たくさん",
+      "vocabulary": [
+        {
+          "english": "many / a lot",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 3,
+      "variants": [
+        3
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L83527",
+      "matched_form": "沢山",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "まず": {
+      "text": "まず",
+      "vocabulary": [
+        {
+          "english": "first / firstly",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 1,
+      "variants": [
+        1
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L76369",
+      "matched_form": "先ず",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "つぎに": {
+      "text": "つぎに",
+      "vocabulary": [
+        {
+          "english": "next",
+          "kanji": "次に"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 2,
+      "variants": [
+        2
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L58470",
+      "matched_form": "次に",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "それから": {
+      "text": "それから",
+      "vocabulary": [
+        {
+          "english": "then / after that",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://en.wiktionary.org/wiki/それから",
+      "matched_form": "それから",
+      "method": "Tokyo pitch notation; contracted spelling retained"
+    },
+    "さいごに": {
+      "text": "さいごに",
+      "vocabulary": [
+        {
+          "english": "finally / lastly",
+          "kanji": "最後に"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 1,
+      "variants": [
+        1
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L53209",
+      "matched_form": "最後",
+      "method": "derived surface target: noun accent retained with に",
+      "status": "derived-surface-target"
+    },
+    "とちゅう": {
+      "text": "とちゅう",
+      "vocabulary": [
+        {
+          "english": "while / on the way",
+          "kanji": "途中"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L91032",
+      "matched_form": "途中",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "まわり": {
+      "text": "まわり",
+      "vocabulary": [
+        {
+          "english": "around / surroundings",
+          "kanji": "周り"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L62315",
+      "matched_form": "周り",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "かた": {
+      "text": "かた",
+      "vocabulary": [
+        {
+          "english": "way / manner",
+          "kanji": "方"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 2,
+      "variants": [
+        2
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L107094",
+      "matched_form": "方",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "なる": {
+      "text": "なる",
+      "vocabulary": [
+        {
+          "english": "become / turn into",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 1,
+      "variants": [
+        1
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L73041",
+      "matched_form": "成る",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "のこす": {
+      "text": "のこす",
+      "vocabulary": [
+        {
+          "english": "remain / leave as is",
+          "kanji": "残す"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 2,
+      "variants": [
+        2
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L55667",
+      "matched_form": "残す",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "おく": {
+      "text": "おく",
+      "vocabulary": [
+        {
+          "english": "put / place / let sit / rest",
+          "kanji": "置く"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L85299",
+      "matched_form": "置く",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "だす": {
+      "text": "だす",
+      "vocabulary": [
+        {
+          "english": "take out / remove",
+          "kanji": "出す"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 1,
+      "variants": [
+        1
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L63815",
+      "matched_form": "出す",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "いれる": {
+      "text": "いれる",
+      "vocabulary": [
+        {
+          "english": "put in",
+          "kanji": "入れる"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L95586",
+      "matched_form": "入れる",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "とりだす": {
+      "text": "とりだす",
+      "vocabulary": [
+        {
+          "english": "take out",
+          "kanji": "取り出す"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 3,
+      "variants": [
+        3,
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L60913",
+      "matched_form": "取り出す",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "ぬる": {
+      "text": "ぬる",
+      "vocabulary": [
+        {
+          "english": "spread / apply",
+          "kanji": "塗る"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L90765",
+      "matched_form": "塗る",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "つつむ": {
+      "text": "つつむ",
+      "vocabulary": [
+        {
+          "english": "wrap",
+          "kanji": "包む"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 2,
+      "variants": [
+        2
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106723",
+      "matched_form": "包む",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "かぶせる": {
+      "text": "かぶせる",
+      "vocabulary": [
+        {
+          "english": "cover",
+          "kanji": "被せる"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 3,
+      "variants": [
+        3
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100262",
+      "matched_form": "被せる",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "かさねる": {
+      "text": "かさねる",
+      "vocabulary": [
+        {
+          "english": "stack / layer",
+          "kanji": "重ねる"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L63359",
+      "matched_form": "重ねる",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "ひっくりかえす": {
+      "text": "ひっくりかえす",
+      "vocabulary": [
+        {
+          "english": "turn over",
+          "kanji": "ひっくり返す"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 5,
+      "variants": [
+        5
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L3704",
+      "matched_form": "ひっくり返す",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "ひやす": {
+      "text": "ひやす",
+      "vocabulary": [
+        {
+          "english": "cool / chill",
+          "kanji": "冷やす"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 2,
+      "variants": [
+        2
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L117400",
+      "matched_form": "冷やす",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "とかす": {
+      "text": "とかす",
+      "vocabulary": [
+        {
+          "english": "melt / dissolve",
+          "kanji": "溶かす"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 2,
+      "variants": [
+        2
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L114127",
+      "matched_form": "溶かす",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "とける": {
+      "text": "とける",
+      "vocabulary": [
+        {
+          "english": "dissolve / melt",
+          "kanji": "溶ける"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 2,
+      "variants": [
+        2
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L114133",
+      "matched_form": "溶ける",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "わかす": {
+      "text": "わかす",
+      "vocabulary": [
+        {
+          "english": "boil / bring to a boil",
+          "kanji": "沸かす"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L104027",
+      "matched_form": "沸かす",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "わく": {
+      "text": "わく",
+      "vocabulary": [
+        {
+          "english": "boil / come to a boil",
+          "kanji": "沸く"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L104037",
+      "matched_form": "沸く",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "しこみ": {
+      "text": "しこみ",
+      "vocabulary": [
+        {
+          "english": "preparation / brewing preparation",
+          "kanji": "仕込み"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L55774",
+      "matched_form": "仕込み",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "しこむ": {
+      "text": "しこむ",
+      "vocabulary": [
+        {
+          "english": "prepare / start a batch",
+          "kanji": "仕込む"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 2,
+      "variants": [
+        2
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L55777",
+      "matched_form": "仕込む",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "じゅくせい": {
+      "text": "じゅくせい",
+      "vocabulary": [
+        {
+          "english": "aging / maturation",
+          "kanji": "熟成"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L63766",
+      "matched_form": "熟成",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "じゅくせいする": {
+      "text": "じゅくせいする",
+      "vocabulary": [
+        {
+          "english": "age / mature",
+          "kanji": "熟成する"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L63766",
+      "matched_form": "熟成",
+      "method": "derived surface target: unaccented 熟成 plus する",
+      "status": "derived-surface-target"
+    },
+    "じょうぞう": {
+      "text": "じょうぞう",
+      "vocabulary": [
+        {
+          "english": "brewing",
+          "kanji": "醸造"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68263",
+      "matched_form": "醸造",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "しょくえんすい": {
+      "text": "しょくえんすい",
+      "vocabulary": [
+        {
+          "english": "salt water / brine",
+          "kanji": "食塩水"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 3,
+      "variants": [
+        3
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68745",
+      "matched_form": "食塩水",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "えきたい": {
+      "text": "えきたい",
+      "vocabulary": [
+        {
+          "english": "liquid / fluid",
+          "kanji": "液体"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L25847",
+      "matched_form": "液体",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "すいぶん": {
+      "text": "すいぶん",
+      "vocabulary": [
+        {
+          "english": "moisture",
+          "kanji": "水分"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 1,
+      "variants": [
+        1
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L72162",
+      "matched_form": "水分",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "のうど": {
+      "text": "のうど",
+      "vocabulary": [
+        {
+          "english": "concentration",
+          "kanji": "濃度"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 1,
+      "variants": [
+        1
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L96440",
+      "matched_form": "濃度",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "おんどかんり": {
+      "text": "おんどかんり",
+      "vocabulary": [
+        {
+          "english": "temperature control",
+          "kanji": "温度管理"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "status": "provisional-components",
+      "components": [
+        {
+          "text": "おんど",
+          "form": "温度",
+          "accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L27746"
+        },
+        {
+          "text": "かんり",
+          "form": "管理",
+          "accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34606"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L27746; https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34606",
+      "guidance": "Read the compound for temperature control as a single natural Japanese technical term, not two disconnected words. Component reference accents do not certify its compound accent.",
+      "method": "natural phrase target; complete-expression dictionary pitch not confirmed"
+    },
+    "ようき": {
+      "text": "ようき",
+      "vocabulary": [
+        {
+          "english": "fermentation vessel / container",
+          "kanji": "容器"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 1,
+      "variants": [
+        1
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L113899",
+      "matched_form": "容器",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "こうてい": {
+      "text": "こうてい",
+      "vocabulary": [
+        {
+          "english": "process / step",
+          "kanji": "工程"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L49288",
+      "matched_form": "工程",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "せいほう": {
+      "text": "せいほう",
+      "vocabulary": [
+        {
+          "english": "method / process",
+          "kanji": "製法"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L74425",
+      "matched_form": "製法",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "げんりょう": {
+      "text": "げんりょう",
+      "vocabulary": [
+        {
+          "english": "raw material",
+          "kanji": "原料"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 3,
+      "variants": [
+        3
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L45519",
+      "matched_form": "原料",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "くべつ": {
+      "text": "くべつ",
+      "vocabulary": [
+        {
+          "english": "difference / distinction",
+          "kanji": "区別"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 1,
+      "variants": [
+        1
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L41293",
+      "matched_form": "区別",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "かんれん": {
+      "text": "かんれん",
+      "vocabulary": [
+        {
+          "english": "relationship / connection",
+          "kanji": "関連"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L35079",
+      "matched_form": "関連",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "いと": {
+      "text": "いと",
+      "vocabulary": [
+        {
+          "english": "purpose / intention",
+          "kanji": "意図"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 1,
+      "variants": [
+        1
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L22138",
+      "matched_form": "意図",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "やくわり": {
+      "text": "やくわり",
+      "vocabulary": [
+        {
+          "english": "role / function",
+          "kanji": "役割"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 3,
+      "variants": [
+        3,
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L112376",
+      "matched_form": "役割",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "はたらき": {
+      "text": "はたらき",
+      "vocabulary": [
+        {
+          "english": "effect / action",
+          "kanji": "働き"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L92678",
+      "matched_form": "働き",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "じょうけん": {
+      "text": "じょうけん",
+      "vocabulary": [
+        {
+          "english": "condition / requirement",
+          "kanji": "条件"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 3,
+      "variants": [
+        3
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68088",
+      "matched_form": "条件",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "ようてん": {
+      "text": "ようてん",
+      "vocabulary": [
+        {
+          "english": "point / important point",
+          "kanji": "要点"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 3,
+      "variants": [
+        3
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L114371",
+      "matched_form": "要点",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "じゅんじょ": {
+      "text": "じゅんじょ",
+      "vocabulary": [
+        {
+          "english": "order / sequence",
+          "kanji": "順序"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 1,
+      "variants": [
+        1
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L64511",
+      "matched_form": "順序",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "こんきょ": {
+      "text": "こんきょ",
+      "vocabulary": [
+        {
+          "english": "reason / basis",
+          "kanji": "根拠"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 1,
+      "variants": [
+        1
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52392",
+      "matched_form": "根拠",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "もしかして": {
+      "text": "もしかして",
+      "vocabulary": [
+        {
+          "english": "maybe",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 1,
+      "variants": [
+        1
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L60453",
+      "matched_form": "若しかして",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "なんか": {
+      "text": "なんか",
+      "vocabulary": [
+        {
+          "english": "somehow / for some reason / kind of / like",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 1,
+      "variants": [
+        1
+      ],
+      "source": "https://en.wiktionary.org/wiki/何か",
+      "matched_form": "何か",
+      "method": "Tokyo pitch notation; contracted spelling retained"
+    },
+    "ただ": {
+      "text": "ただ",
+      "vocabulary": [
+        {
+          "english": "just / only",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 1,
+      "variants": [
+        1
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L83616",
+      "matched_form": "只",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "ふつう": {
+      "text": "ふつう",
+      "vocabulary": [
+        {
+          "english": "normally / usually",
+          "kanji": "普通"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L102763",
+      "matched_form": "普通",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "いまのところ": {
+      "text": "いまのところ",
+      "vocabulary": [
+        {
+          "english": "at the moment / currently",
+          "kanji": "今のところ"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52200",
+      "matched_form": "今のところ",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "それなら": {
+      "text": "それなら",
+      "vocabulary": [
+        {
+          "english": "in that case / then",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "status": "provisional-components",
+      "components": [
+        {
+          "text": "それ",
+          "form": "其れ",
+          "accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L80764"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L80764",
+      "guidance": "Read as the conversational connector meaning in that case, with natural connected Tokyo intonation.",
+      "method": "natural phrase target; complete-expression dictionary pitch not confirmed"
+    },
+    "というか": {
+      "text": "というか",
+      "vocabulary": [
+        {
+          "english": "or rather / I mean... / or rather...",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "status": "provisional-components",
+      "components": [
+        {
+          "text": "いう",
+          "form": "言う",
+          "accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L45974"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L45974",
+      "guidance": "Read as the conversational self-correction to iu ka, with a light quotative to and smoothly connected iu ka.",
+      "method": "natural phrase target; complete-expression dictionary pitch not confirmed"
+    },
+    "っていうより": {
+      "text": "っていうより",
+      "vocabulary": [
+        {
+          "english": "rather than that",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "status": "provisional-components",
+      "components": [
+        {
+          "text": "いう",
+          "form": "言う",
+          "accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L45974"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L45974",
+      "guidance": "Read the contracted conversational phrase tte iu yori, meaning rather than that. Keep the initial small tsu; do not prepend any extra word or vowel.",
+      "method": "natural phrase target; complete-expression dictionary pitch not confirmed"
+    },
+    "そういえば": {
+      "text": "そういえば",
+      "vocabulary": [
+        {
+          "english": "by the way",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "status": "provisional-components",
+      "components": [
+        {
+          "text": "そう",
+          "form": "然う",
+          "accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L77932"
+        },
+        {
+          "text": "いう",
+          "form": "言う",
+          "accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L45974"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L77932; https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L45974",
+      "guidance": "Read as the conversational connector meaning by the way, smoothly linking sou and ieba.",
+      "method": "natural phrase target; complete-expression dictionary pitch not confirmed"
+    },
+    "それで": {
+      "text": "それで",
+      "vocabulary": [
+        {
+          "english": "anyway / so",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "status": "provisional-components",
+      "components": [
+        {
+          "text": "それ",
+          "form": "其れ",
+          "accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L80764"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L80764",
+      "guidance": "Read as the conversational connector meaning so or and then, not as a demonstrative followed by a location marker.",
+      "method": "natural phrase target; complete-expression dictionary pitch not confirmed"
+    },
+    "なるほど": {
+      "text": "なるほど",
+      "vocabulary": [
+        {
+          "english": "I see / that makes sense",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L73046",
+      "matched_form": "成る程",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "まさか": {
+      "text": "まさか",
+      "vocabulary": [
+        {
+          "english": "no way / surely not",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 1,
+      "variants": [
+        1
+      ],
+      "source": "https://en.wiktionary.org/wiki/まさか",
+      "matched_form": "まさか",
+      "method": "Tokyo pitch notation; contracted spelling retained"
+    },
+    "まあ": {
+      "text": "まあ",
+      "vocabulary": [
+        {
+          "english": "well...",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "status": "provisional-components",
+      "components": [
+        {
+          "text": "まあ",
+          "source": "https://en.wiktionary.org/wiki/まあ",
+          "note": "Long-vowel reading and conversational use; no numeric Tokyo accent supplied."
+        }
+      ],
+      "source": "https://en.wiktionary.org/wiki/まあ",
+      "guidance": "Read the hesitant conversational interjection maa, with its full long vowel and relaxed, mild intonation. Do not use a surprised exclamation.",
+      "method": "natural phrase target; complete-expression dictionary pitch not confirmed"
+    },
+    "どうだろう": {
+      "text": "どうだろう",
+      "vocabulary": [
+        {
+          "english": "let's see / I wonder",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "status": "provisional-components",
+      "components": [
+        {
+          "text": "どう",
+          "form": "如何",
+          "accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L95801"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L95801",
+      "guidance": "Read the reflective question dou darou, meaning I wonder, preserving both long vowels and a gentle questioning contour.",
+      "method": "natural phrase target; complete-expression dictionary pitch not confirmed"
+    },
+    "そうかも": {
+      "text": "そうかも",
+      "vocabulary": [
+        {
+          "english": "I guess so / maybe",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "status": "provisional-components",
+      "components": [
+        {
+          "text": "そう",
+          "form": "然う",
+          "accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L77932"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L77932",
+      "guidance": "Read the tentative response sou kamo, meaning maybe so, preserving the long vowel and softly tentative intonation.",
+      "method": "natural phrase target; complete-expression dictionary pitch not confirmed"
+    },
+    "そっか": {
+      "text": "そっか",
+      "vocabulary": [
+        {
+          "english": "I see / oh, right",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "status": "provisional-components",
+      "components": [
+        {
+          "text": "そう",
+          "form": "然う",
+          "accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L77932"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L77932",
+      "guidance": "Read the contracted response sokka, meaning oh I see, with the doubled consonant. This is not the unrelated noun for feet.",
+      "method": "natural phrase target; complete-expression dictionary pitch not confirmed"
+    },
+    "そういうことか": {
+      "text": "そういうことか",
+      "vocabulary": [
+        {
+          "english": "that's what it means",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "status": "provisional-components",
+      "components": [
+        {
+          "text": "そう",
+          "form": "然う",
+          "accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L77932"
+        },
+        {
+          "text": "いう",
+          "form": "言う",
+          "accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L45974"
+        },
+        {
+          "text": "こと",
+          "form": "事",
+          "accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L57947"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L77932; https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L45974; https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L57947",
+      "guidance": "Read the realization sou iu koto ka, meaning oh that is what it means, as one smoothly connected conversational phrase.",
+      "method": "natural phrase target; complete-expression dictionary pitch not confirmed"
+    },
+    "そうだね": {
+      "text": "そうだね",
+      "vocabulary": [
+        {
+          "english": "I guess that's true",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "status": "provisional-components",
+      "components": [
+        {
+          "text": "そう",
+          "form": "然う",
+          "accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L77932"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L77932",
+      "guidance": "Read the agreeing response sou da ne, meaning yes I guess so, preserving the long vowel and a gentle agreeing contour.",
+      "method": "natural phrase target; complete-expression dictionary pitch not confirmed"
+    },
+    "そうなんだけど": {
+      "text": "そうなんだけど",
+      "vocabulary": [
+        {
+          "english": "that's true, but...",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "status": "provisional-components",
+      "components": [
+        {
+          "text": "そう",
+          "form": "然う",
+          "accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L77932"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L77932",
+      "guidance": "Read the concessive response sou nan da kedo, meaning that is true but, as a connected phrase ending with a soft continuation contour.",
+      "method": "natural phrase target; complete-expression dictionary pitch not confirmed"
+    },
+    "なんていうか": {
+      "text": "なんていうか",
+      "vocabulary": [
+        {
+          "english": "how should I put it...",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "status": "provisional-components",
+      "components": [
+        {
+          "text": "なんて",
+          "form": "何て",
+          "accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L28488"
+        },
+        {
+          "text": "いう",
+          "form": "言う",
+          "accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L45974"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L28488; https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L45974",
+      "guidance": "Read the hesitant conversational phrase nante iu ka, meaning how should I put it, smoothly and without added filler words.",
+      "method": "natural phrase target; complete-expression dictionary pitch not confirmed"
+    },
+    "すごい": {
+      "text": "すごい",
+      "vocabulary": [
+        {
+          "english": "amazing / incredible",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 2,
+      "variants": [
+        2
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L72842",
+      "matched_form": "凄い",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "やばい": {
+      "text": "やばい",
+      "vocabulary": [
+        {
+          "english": "terrible / crazy / amazing",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 2,
+      "variants": [
+        2
+      ],
+      "source": "https://en.wiktionary.org/wiki/やばい",
+      "matched_form": "やばい",
+      "method": "Tokyo pitch notation; contracted spelling retained"
+    },
+    "かわいい": {
+      "text": "かわいい",
+      "vocabulary": [
+        {
+          "english": "cute",
+          "kanji": "可愛い"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 3,
+      "variants": [
+        3
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L28803",
+      "matched_form": "可愛い",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "かっこいい": {
+      "text": "かっこいい",
+      "vocabulary": [
+        {
+          "english": "cool / attractive",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 4,
+      "variants": [
+        4
+      ],
+      "source": "https://en.wiktionary.org/wiki/格好いい",
+      "matched_form": "格好いい",
+      "method": "Tokyo pitch notation; contracted spelling retained"
+    },
+    "こわい": {
+      "text": "こわい",
+      "vocabulary": [
+        {
+          "english": "scary",
+          "kanji": "怖い"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 2,
+      "variants": [
+        2
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L102671",
+      "matched_form": "怖い",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "へん": {
+      "text": "へん",
+      "vocabulary": [
+        {
+          "english": "weird / strange",
+          "kanji": "変"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 1,
+      "variants": [
+        1
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L105773",
+      "matched_form": "変",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "おもしろい": {
+      "text": "おもしろい",
+      "vocabulary": [
+        {
+          "english": "interesting / funny",
+          "kanji": "面白い"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 4,
+      "variants": [
+        4
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L110963",
+      "matched_form": "面白い",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "つまらない": {
+      "text": "つまらない",
+      "vocabulary": [
+        {
+          "english": "boring",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 3,
+      "variants": [
+        3
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L37421",
+      "matched_form": "詰まらない",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "たのしい": {
+      "text": "たのしい",
+      "vocabulary": [
+        {
+          "english": "fun / enjoyable",
+          "kanji": "楽しい"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 3,
+      "variants": [
+        3
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L32653",
+      "matched_form": "楽しい",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "うれしい": {
+      "text": "うれしい",
+      "vocabulary": [
+        {
+          "english": "happy / glad",
+          "kanji": "嬉しい"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 3,
+      "variants": [
+        3
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L35786",
+      "matched_form": "嬉しい",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "かなしい": {
+      "text": "かなしい",
+      "vocabulary": [
+        {
+          "english": "sad",
+          "kanji": "悲しい"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0,
+        3
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L99944",
+      "matched_form": "悲しい",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "さびしい": {
+      "text": "さびしい",
+      "vocabulary": [
+        {
+          "english": "lonely",
+          "kanji": "寂しい"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 3,
+      "variants": [
+        3
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L60529",
+      "matched_form": "寂しい",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "はずかしい": {
+      "text": "はずかしい",
+      "vocabulary": [
+        {
+          "english": "embarrassing",
+          "kanji": "恥ずかしい"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 4,
+      "variants": [
+        4
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L85192",
+      "matched_form": "恥ずかしい",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "めんどう": {
+      "text": "めんどう",
+      "vocabulary": [
+        {
+          "english": "annoying / bothersome",
+          "kanji": "面倒"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 3,
+      "variants": [
+        3
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L110952",
+      "matched_form": "面倒",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "うっとうしい": {
+      "text": "うっとうしい",
+      "vocabulary": [
+        {
+          "english": "annoying / irritating",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 5,
+      "variants": [
+        5
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L120857",
+      "matched_form": "鬱陶しい",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "つらい": {
+      "text": "つらい",
+      "vocabulary": [
+        {
+          "english": "painful / tough",
+          "kanji": "辛い"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0,
+        2
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L70760",
+      "matched_form": "辛い",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "きつい": {
+      "text": "きつい",
+      "vocabulary": [
+        {
+          "english": "tough / exhausting / tight",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://en.wiktionary.org/wiki/きつい",
+      "matched_form": "きつい",
+      "method": "Tokyo pitch notation; contracted spelling retained"
+    },
+    "ひどい": {
+      "text": "ひどい",
+      "vocabulary": [
+        {
+          "english": "terrible / awful",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 2,
+      "variants": [
+        2
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L51703",
+      "matched_form": "酷い",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "あぶない": {
+      "text": "あぶない",
+      "vocabulary": [
+        {
+          "english": "dangerous",
+          "kanji": "危ない"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0,
+        3
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L35569",
+      "matched_form": "危ない",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "きまずい": {
+      "text": "きまずい",
+      "vocabulary": [
+        {
+          "english": "awkward / uncomfortable",
+          "kanji": "気まずい"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0,
+        3
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L36347",
+      "matched_form": "気まずい",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "めんどうくさい": {
+      "text": "めんどうくさい",
+      "vocabulary": [
+        {
+          "english": "troublesome / annoying",
+          "kanji": "面倒くさい"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 6,
+      "variants": [
+        6
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L110953",
+      "matched_form": "面倒くさい",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "しかたない": {
+      "text": "しかたない",
+      "vocabulary": [
+        {
+          "english": "unavoidable / can't be helped",
+          "kanji": "仕方ない"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 4,
+      "variants": [
+        4
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L55872",
+      "matched_form": "仕方ない",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "もったいない": {
+      "text": "もったいない",
+      "vocabulary": [
+        {
+          "english": "wasteful / what a waste",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 5,
+      "variants": [
+        5
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L111792",
+      "matched_form": "勿体ない",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "ありがたい": {
+      "text": "ありがたい",
+      "vocabulary": [
+        {
+          "english": "grateful / appreciated",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 4,
+      "variants": [
+        4
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L113015",
+      "matched_form": "有り難い",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "なつかしい": {
+      "text": "なつかしい",
+      "vocabulary": [
+        {
+          "english": "nostalgic",
+          "kanji": "懐かしい"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 4,
+      "variants": [
+        4
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L30938",
+      "matched_form": "懐かしい",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "うらやましい": {
+      "text": "うらやましい",
+      "vocabulary": [
+        {
+          "english": "enviable / jealous",
+          "kanji": "羨ましい"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 5,
+      "variants": [
+        5
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L77343",
+      "matched_form": "羨ましい",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "ざんねん": {
+      "text": "ざんねん",
+      "vocabulary": [
+        {
+          "english": "unfortunate / regrettable",
+          "kanji": "残念"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 3,
+      "variants": [
+        3
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L55718",
+      "matched_form": "残念",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "くやしい": {
+      "text": "くやしい",
+      "vocabulary": [
+        {
+          "english": "frustrating / regrettable",
+          "kanji": "悔しい"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 3,
+      "variants": [
+        3
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L30914",
+      "matched_form": "悔しい",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "こころづよい": {
+      "text": "こころづよい",
+      "vocabulary": [
+        {
+          "english": "reassuring",
+          "kanji": "心強い"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 5,
+      "variants": [
+        5
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L69242",
+      "matched_form": "心強い",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "たよりになる": {
+      "text": "たよりになる",
+      "vocabulary": [
+        {
+          "english": "reliable",
+          "kanji": "頼りになる"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "status": "provisional-components",
+      "components": [
+        {
+          "text": "たより",
+          "form": "頼り",
+          "accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L114794"
+        },
+        {
+          "text": "なる",
+          "form": "成る",
+          "accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L73041"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L114794; https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L73041",
+      "guidance": "Read the phrase tayori ni naru, meaning reliable or someone to count on, with natural connected Tokyo phrase intonation.",
+      "method": "natural phrase target; complete-expression dictionary pitch not confirmed"
+    },
+    "もっとも": {
+      "text": "もっとも",
+      "vocabulary": [
+        {
+          "english": "reasonable / convincing",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 3,
+      "variants": [
+        3,
+        1
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L111816",
+      "matched_form": "尤も",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "とうぜん": {
+      "text": "とうぜん",
+      "vocabulary": [
+        {
+          "english": "obvious / natural",
+          "kanji": "当然"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L92119",
+      "matched_form": "当然",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "ゆるい": {
+      "text": "ゆるい",
+      "vocabulary": [
+        {
+          "english": "loose",
+          "kanji": "緩い"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 2,
+      "variants": [
+        2
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34642",
+      "matched_form": "緩い",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "うすい": {
+      "text": "うすい",
+      "vocabulary": [
+        {
+          "english": "thin / weak / light",
+          "kanji": "薄い"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0,
+        2
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L98238",
+      "matched_form": "薄い",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "こい": {
+      "text": "こい",
+      "vocabulary": [
+        {
+          "english": "thick / strong",
+          "kanji": "濃い"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 1,
+      "variants": [
+        1
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L96424",
+      "matched_form": "濃い",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "ふかい": {
+      "text": "ふかい",
+      "vocabulary": [
+        {
+          "english": "deep",
+          "kanji": "深い"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 2,
+      "variants": [
+        2
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L69818",
+      "matched_form": "深い",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "あさい": {
+      "text": "あさい",
+      "vocabulary": [
+        {
+          "english": "shallow",
+          "kanji": "浅い"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0,
+        2
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L77020",
+      "matched_form": "浅い",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "せまい": {
+      "text": "せまい",
+      "vocabulary": [
+        {
+          "english": "narrow",
+          "kanji": "狭い"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 2,
+      "variants": [
+        2
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L39653",
+      "matched_form": "狭い",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "ひろい": {
+      "text": "ひろい",
+      "vocabulary": [
+        {
+          "english": "wide / spacious",
+          "kanji": "広い"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 2,
+      "variants": [
+        2
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L49340",
+      "matched_form": "広い",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "おもい": {
+      "text": "おもい",
+      "vocabulary": [
+        {
+          "english": "heavy",
+          "kanji": "重い"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L63349",
+      "matched_form": "重い",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "かるい": {
+      "text": "かるい",
+      "vocabulary": [
+        {
+          "english": "light",
+          "kanji": "軽い"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L43205",
+      "matched_form": "軽い",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "こまかい": {
+      "text": "こまかい",
+      "vocabulary": [
+        {
+          "english": "fine / detailed",
+          "kanji": "細かい"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 3,
+      "variants": [
+        3
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L53543",
+      "matched_form": "細かい",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "あらい": {
+      "text": "あらい",
+      "vocabulary": [
+        {
+          "english": "rough / coarse",
+          "kanji": "粗い"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 0,
+      "variants": [
+        0
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L78295",
+      "matched_form": "粗い",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "するどい": {
+      "text": "するどい",
+      "vocabulary": [
+        {
+          "english": "sharp",
+          "kanji": "鋭い"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 3,
+      "variants": [
+        3
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L25824",
+      "matched_form": "鋭い",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "にぶい": {
+      "text": "にぶい",
+      "vocabulary": [
+        {
+          "english": "dull / blunt",
+          "kanji": "鈍い"
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 2,
+      "variants": [
+        2
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L94087",
+      "matched_form": "鈍い",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
+    },
+    "ぬるい": {
+      "text": "ぬるい",
+      "vocabulary": [
+        {
+          "english": "lukewarm",
+          "kanji": ""
+        }
+      ],
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent": 2,
+      "variants": [
+        2
+      ],
+      "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L27678",
+      "matched_form": "温い",
+      "method": "exact dictionary reading and spelling; applicable meaning selected"
     }
   }
 }

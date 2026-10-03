@@ -1,6 +1,8 @@
 """Validate comparison coverage and speech targets without calling the API."""
 import importlib.util
+import hashlib
 import json
+import re
 from pathlib import Path
 import unittest
 
@@ -10,6 +12,47 @@ generator = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(generator)
 
 class PitchComparisons(unittest.TestCase):
+    def test_generated_batch_payloads(self):
+        spec = importlib.util.spec_from_file_location('batch_generator', ROOT / 'scripts/generate-word-explosion-batch.py')
+        batch_generator = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(batch_generator)
+        audio = json.loads((ROOT / 'audio/word-explosion-batches/2026-10-03/manifest.json').read_text())
+        jobs = batch_generator.prepare('2026-10-03')
+        self.assertEqual(len(jobs), 268)
+        for kind, key, folder, payload in jobs:
+            self.assertEqual(payload['voice'], 'marin')
+            self.assertEqual(payload['speed'], 1.0)
+            digest = hashlib.sha256(json.dumps(payload, ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:20]
+            self.assertEqual(audio[kind][key], f'{folder}/marin-{digest}.mp3')
+            self.assertGreater((ROOT / audio[kind][key]).stat().st_size, 100)
+
+    def test_requested_expansion_and_examples(self):
+        batch = json.loads((ROOT / 'scripts/word-explosion-batches/2026-10-03.json').read_text())
+        audio = json.loads((ROOT / 'audio/word-explosion-batches/2026-10-03/manifest.json').read_text())
+        review = json.loads((ROOT / 'scripts/word-explosion-marin-review.json').read_text())['entries']
+        examples = json.loads((ROOT / 'data/word-explosion-examples.json').read_text())
+        game_audio = json.loads((ROOT / 'game-audio-manifest.js').read_text().split(' = ', 1)[1].rstrip(';\n'))
+        self.assertEqual(len(batch['requested_readings']), 144)
+        self.assertEqual(len(batch['new_vocabulary_keys']), 124)
+        self.assertTrue(set(batch['requested_readings']).issubset(review))
+        self.assertEqual(set(audio['vocabulary']), set(batch['new_vocabulary_keys']))
+        self.assertEqual(set(audio['sentences']), {e['key'] for e in batch['sentences']})
+        self.assertEqual({e['vocabulary_key'] for e in batch['sentences']}, set(batch['requested_readings']))
+        for sentence in batch['sentences']:
+            self.assertTrue(re.fullmatch(r'[ぁ-ゖー、。！？!?\s]+', sentence['input']))
+            self.assertLessEqual(len(sentence['input']), 40)
+            self.assertEqual(sentence['speed'], 1.0)
+            self.assertEqual(examples[sentence['vocabulary_key']], {
+                'japanese': sentence['display'], 'english': sentence['english']})
+            self.assertEqual(game_audio[sentence['key']], audio['sentences'][sentence['key']])
+            self.assertTrue((ROOT / game_audio[sentence['key']]).is_file())
+        # Particle correction must retain lexical は, including 発酵 and 入って.
+        inputs = {s['vocabulary_key']: s['input'] for s in batch['sentences']}
+        self.assertIn('はっこうにわ', inputs['おんどかんり'])
+        self.assertIn('めにはいって', inputs['うっとうしい'])
+        self.assertIn('はがするどい', inputs['するどい'])
+        self.assertIn('そのはなし', inputs['おもしろい'])
+
     def test_morae_and_pitch_targets(self):
         self.assertEqual(generator.morae('きょう'), ['きょ', 'う'])
         self.assertEqual(generator.morae('しょっかん'), ['しょ', 'っ', 'か', 'ん'])

@@ -1,4 +1,4 @@
-The 音声チェック deck offers the existing recording and a separate **New** recording for every vocabulary entry. The 592 unique lookup keys share 592 comparison clips. The original 明らか trial is retained. After listening review, the active game manifests select 50 original recordings for the user’s 51 keep labels (勧める and 進める share すすめる) and 542 new recordings. The original comparison manifest remains in `data/marin-audio-originals.json`; selections are recorded in `scripts/marin-audio-selection.json`.
+The 音声チェック deck is currently hidden but retained. The initial 592 vocabulary keys have original/New comparison recordings, with 50 originals selected through listening review (51 labels, since 勧める and 進める share すすめる) and 542 newer recordings. The October 3 expansion adds 124 distinct readings with first-generation Marin pitch-targeted recordings, bringing the active vocabulary to 716 keys: 50 retained originals and 666 pitch-targeted selections. For these additions, the baseline and New manifests initially point to the same recording. The original 見た目 preference is preserved. Baselines remain in `data/marin-audio-originals.json`; selections are recorded in `scripts/marin-audio-selection.json`.
 
 The hiragana inputs and display labels come from the existing reviewed vocabulary. Each comparison uses Marin (`gpt-4o-mini-tts`) at generation speed 1.0. Most instructions specify a Tokyo accent number and a mora-by-mora low/high contour. Sources, variants, meaning selections and inputs are recorded in `scripts/marin-pitch-review.json`; `scripts/generate-marin-pitch-trials.py` generates resumable comparison batches without touching the active game manifests.
 
@@ -9,3 +9,25 @@ The user selected preferred recordings through listening comparison. The batch h
 References: [OJAD, University of Tokyo](https://www.gavo.t.u-tokyo.ac.jp/ojad/), [Kanjium](https://github.com/mifunetoshiro/kanjium), and individually linked Japanese Wiktionary/jpdb entries in the review.
 
 The accent review data derived from Kanjium is attributed to Uros O., the free Japanese pitch accent dictionary/database, and distributed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Modifications include vocabulary selection, sense selection, retained variants, source annotations and instruction targets. This attribution/license applies to the derived review data, not the app's source code. Wiktionary contributions retain their applicable attribution and share-alike terms; per-entry links identify source pages. No dictionary definitions or reference audio are redistributed.
+
+
+The October 3 batch contains 124 new word recordings and 144 short example
+recordings, covering every distinct reading in the supplied list. Its exact
+hiragana sentence inputs, original display text, English translations and lookup
+keys are retained in `scripts/word-explosion-batches/2026-10-03.json`. Sentence
+inputs preserve lexical は (including はっこう, はなし and はいって) and explicitly
+correct contextual particles. Both generation speed and playback speed are 1.0.
+The new first recordings also populate the baseline manifest, without implying
+a separate independently reviewed alternative exists.
+
+Of the new vocabulary targets, 107 have numeric dictionary targets and two have
+derived surface targets (最後に from 最後 plus に, 熟成する from 熟成 plus する).
+Fifteen connected expressions use provisional phrase/component guidance:
+温度管理、それなら、というか、っていうより、そういえば、それで、まあ、どうだろう、
+そうかも、そっか、そういうことか、そうだね、そうなんだけど、なんていうか、頼りになる.
+Their meaning/readings were reviewed, but a numeric whole-expression dictionary
+accent is not asserted. Sentence instructions request natural Tokyo pitch and
+appropriate inflected-form accents; they do not mechanically impose citation
+contours on conjugations. All new clips pass audio-format/duration checks; that
+is not listening or pitch verification. Existing preferred vocabulary clips are
+reused for the 20 already-present requested readings.

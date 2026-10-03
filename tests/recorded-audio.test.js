@@ -60,7 +60,7 @@ console.log('PASS: all four game decks use Nova; unrelated lessons keep their ex
 api.select('word-explosion-2');
 api.speak('ゲーム',a,'word');
 const listeningClip = players[players.length-1];
-assert(listeningClip.playbackRate===0.8 && listeningClip.preservesPitch===true,'Listening deck slows Nova while preserving pitch');
+assert(listeningClip.playbackRate===undefined,'Listening deck uses native 1x playback');
 api.cancel();
 api.select('word-explosion');
 api.speak('ゲーム',a,'word');
@@ -110,7 +110,7 @@ host.lessonAudioFiles['word-explosion'] = {'ゲーム': 'older-lesson.mp3'};
   api.cancel();
   api.speak('れいぶん。', a, 'example');
   assert(players[players.length-1].src === 'nova-example.mp3', 'Example retains Nova for ' + id);
-  if (id === 'word-explosion-2') assert(players[players.length-1].playbackRate === 0.8, 'Example retains slower playback');
+  assert(players[players.length-1].playbackRate === undefined, 'Examples play at native 1x speed for ' + id);
   api.cancel();
 });
 ['game-prototype', 'three-second-replies'].forEach(id => {
@@ -120,3 +120,21 @@ host.lessonAudioFiles['word-explosion'] = {'ゲーム': 'older-lesson.mp3'};
   api.cancel();
 });
 console.log('PASS: Marin vocabulary priority, sentence fallback, and game isolation.');
+
+
+// The requested Marin expansion resolves to its recordings in both games.
+const batch = JSON.parse(read('scripts/word-explosion-batches/2026-10-03.json'));
+const batchAudio = JSON.parse(read('audio/word-explosion-batches/2026-10-03/manifest.json'));
+Object.assign(host.wordExplosionAudioFiles, batchAudio.vocabulary);
+Object.assign(host.gameAudioFiles, batchAudio.sentences);
+['word-explosion', 'word-explosion-2'].forEach(id => {
+  api.select(id);
+  [...Object.entries(batchAudio.vocabulary), ...Object.entries(batchAudio.sentences)].forEach(([key, path]) => {
+    api.speak(key, a, 'Japanese');
+    const player = players[players.length - 1];
+    assert(player.src === path, 'Reviewed Marin recording resolves in ' + id + ': ' + key);
+    assert(player.playbackRate === undefined, 'Reviewed Marin plays at native 1x: ' + key);
+    api.cancel();
+  });
+});
+console.log('PASS: every new Marin vocabulary and example recording resolves in both Word Explosion games at native 1x.');

@@ -46,4 +46,26 @@ For browser integration checks, serve the repository and open
 The harness checks actual DOM collisions, shared audio replay, section money,
 mistake review, SVG coin feedback, responsive bounds and navigation cleanup.
 
-The temporary 音声チェック deck has a **New** speaker beside each existing recording for the Marin pitch comparison batch. Games use the selected recordings: 50 originals retained from the reviewed keep list, with 542 new recordings activated. See [review notes and source attribution](docs/marin-pitch-comparisons.md) for provisional expressions and listening limitations.
+The temporary 音声チェック deck has a **New** speaker beside each existing recording for the Marin pitch comparison batch. Games use the selected recordings: 50 originals retained from the reviewed keep list, with 666 pitch-targeted recordings activated. See [review notes and source attribution](docs/marin-pitch-comparisons.md) for provisional expressions and listening limitations.
+
+
+The October 3 expansion adds 124 vocabulary readings to the shared source used by
+単語爆発, 単語爆発2 and Money Cat. Repeated requested labels are merged; meanings
+such as both uses of おく and きつい remain in their cards. All 144 distinct requested
+readings have short, newly written Marin example sentences. New vocabulary and
+examples use generation speed 1.0 and native 1.0× playback. Existing preferred
+recordings, including the original 見た目, are retained.
+
+Exact sentence inputs, display text and vocabulary keys are saved in
+`scripts/word-explosion-batches/2026-10-03.json`. To validate or resume rendering:
+
+```sh
+python3 scripts/generate-word-explosion-batch.py --batch 2026-10-03 --dry-run
+python3 scripts/generate-word-explosion-batch.py --batch 2026-10-03
+```
+
+The generator saves clips and an incremental batch manifest without changing
+active selections. Sentence particles and lexical kana are reviewed individually.
+Dictionary pitch targets guide generation; audible pitch has not been independently
+listening-verified. Fifteen new connected expressions use provisional phrase
+guidance rather than an unsupported whole-expression accent number.
