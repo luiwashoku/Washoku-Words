@@ -1,4 +1,4 @@
-"""Generate Nova audio for the 図鑑 vocabulary. Reruns reuse content-addressed MP3s.
+"""Generate reviewed Marin audio for the 図鑑 vocabulary. Reruns reuse content-addressed MP3s.
 Run: python3 scripts/generate-zukan-audio.py
 The private key is read from OPENAI_API_KEY or the external local key file.
 """
@@ -9,7 +9,6 @@ import json
 import os
 import re
 from pathlib import Path
-import shutil
 import subprocess
 import time
 import urllib.error
@@ -17,9 +16,16 @@ import urllib.request
 
 ROOT = Path(__file__).resolve().parent.parent
 rows = json.loads(subprocess.check_output(['/usr/bin/osascript', '-l', 'JavaScript', str(ROOT/'scripts/export-zukan-audio.js'), str(ROOT)], text=True))
+review = json.loads((ROOT/'scripts/zukan-marin-review.json').read_text())
+if set(review['entries']) != {row['key'] for row in rows}:
+    raise ValueError('Complete reviewed vocabulary coverage required')
 for row in rows:
-    if not row['text'] or re.search(r'[\u3400-\u9fff々\u30a1-\u30fa]', row['text']):
+    if review['entries'][row['key']]['text'] != row['text']:
+        raise ValueError('Reading changed since review: ' + row['key'])
+    if not re.fullmatch(r'[ぁ-ゖー、。！？!?\s]+', row['text']):
         raise ValueError('Hiragana reading required for ' + row['key'])
+if review['voice'] != 'marin' or review['model'] != 'gpt-4o-mini-tts' or review['speed'] != 1.0:
+    raise ValueError('Expected Marin at normal generation speed 1.0')
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--retry-key', action='append', default=[], help='Regenerate an exact lookup key, bypassing cached audio')
 args = parser.parse_args()
@@ -33,17 +39,10 @@ folder.mkdir(parents=True, exist_ok=True)
 unique = {row['text'] for row in rows}
 
 def generate(text):
-    payload = dict(model='tts-1-hd', voice='nova', input=text, speed=1.0, response_format='mp3')
+    payload = dict(model=review['model'], voice=review['voice'], input=text, speed=review['speed'], response_format='mp3', instructions='Speak in standard Japanese. Read only the supplied vocabulary once, clearly and naturally, with native Japanese pronunciation. Do not add any introduction, translation, or explanation.')
     digest = hashlib.sha256(json.dumps(payload, ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:20]
-    name = 'nova-' + digest + '.mp3'
+    name = 'marin-' + digest + '.mp3'
     path = folder/name
-    sample = ROOT/'audio/game-decks'/name
-    if not sample.exists():
-        sample = ROOT/'audio/taste-words'/name
-    if not sample.exists():
-        sample = ROOT/'audio/tts-sample'/name
-    if text not in retry_texts and not path.exists() and sample.exists():
-        shutil.copyfile(sample, path)
     if text not in retry_texts and path.exists() and path.stat().st_size:
         return text, str(path.relative_to(ROOT))
     for attempt in range(4):
@@ -67,7 +66,7 @@ def generate(text):
 
 print('Unique clips:', len(unique), 'Input characters:', sum(map(len,unique)), flush=True)
 paths = {}
-with concurrent.futures.ThreadPoolExecutor(max_workers=32) as pool:
+with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
     jobs = [pool.submit(generate, text) for text in sorted(unique)]
     for job in concurrent.futures.as_completed(jobs):
         text, path = job.result()

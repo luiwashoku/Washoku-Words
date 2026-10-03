@@ -23,6 +23,10 @@ After “Round clear!”, an Everyday examples section shows one Japanese senten
 
 The game engine and view live in `word-explosion.js`; `app.js` handles the existing deck navigation and provides the shared sounds and confetti. Leaving the screen cancels loading and feedback timers. Reduced-motion preferences suppress animation.
 
+Vocabulary audio in both Word Explosion modes uses Marin (`gpt-4o-mini-tts`) at generation speed `1.0`. Marin vocabulary plays at normal speed in both modes. Sample sentences retain their existing Nova recordings. `word-explosion-audio-manifest.js` maps vocabulary speech keys to MP3s in `audio/word-explosion-marin/`; other decks do not use this mapping. The original Nova files remain available.
+
+To regenerate, review the explicit hiragana in `word explosion.txt` and update `scripts/word-explosion-marin-review.json`, including contextual particle pronunciations. Run `python3 scripts/generate-word-explosion-marin.py`. The vocabulary-only exporter excludes sample sentences, and the generator requires complete reviewed key coverage and hiragana input before API calls. Reruns reuse content-addressed clips. Text review does not verify audible pitch accent.
+
 Run the focused logic checks on macOS from the repository root:
 
 ```sh

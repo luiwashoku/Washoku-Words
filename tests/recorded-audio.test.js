@@ -97,3 +97,26 @@ const afterCancel = players.length;
 secondChoice.events.ended();
 assert(players.length===afterCancel,'Cancelled playlist cannot start another clip');
 console.log('PASS: shuffled answer order, sequential Nova playback, pause/resume and cancellation.');
+
+// Marin vocabulary takes priority only within the two Word Explosion games.
+host.wordExplosionAudioFiles = {'ゲーム': 'audio/word-explosion-marin/marin-vocabulary.mp3'};
+host.gameAudioFiles['れいぶん。'] = 'nova-example.mp3';
+host.lessonAudioFiles['word-explosion'] = {'ゲーム': 'older-lesson.mp3'};
+['word-explosion', 'word-explosion-2'].forEach(id => {
+  api.select(id);
+  api.speak('ゲーム', a, 'word');
+  assert(players[players.length-1].src === 'audio/word-explosion-marin/marin-vocabulary.mp3', 'Marin vocabulary for ' + id);
+  assert(players[players.length-1].playbackRate === undefined, 'Marin vocabulary plays at normal speed for ' + id);
+  api.cancel();
+  api.speak('れいぶん。', a, 'example');
+  assert(players[players.length-1].src === 'nova-example.mp3', 'Example retains Nova for ' + id);
+  if (id === 'word-explosion-2') assert(players[players.length-1].playbackRate === 0.8, 'Example retains slower playback');
+  api.cancel();
+});
+['game-prototype', 'three-second-replies'].forEach(id => {
+  api.select(id);
+  api.speak('ゲーム', a, 'game');
+  assert(players[players.length-1].src === 'game.mp3', 'Other deck retains Nova for ' + id);
+  api.cancel();
+});
+console.log('PASS: Marin vocabulary priority, sentence fallback, and game isolation.');

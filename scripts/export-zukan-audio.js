@@ -12,7 +12,7 @@ function run(args) {
   pages.forEach(function(page) {
     page.items.forEach(function(item) {
       var key = window.getJapaneseSpeechText(speech(item[1], item[4]));
-      // Written-context overrides remain lookup keys; Nova receives checked readings.
+      // Written-context overrides remain lookup keys; TTS receives checked readings.
       var spoken = overrides[key] || (/[㐀-鿿々]/.test(key) ? speech(item[1]) : key);
       spoken = window.getJapaneseSpeechText(spoken).replace(/[ァ-ヶ]/g, function(c) {
         return String.fromCharCode(c.charCodeAt(0) - 0x60);

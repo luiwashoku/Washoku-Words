@@ -1,7 +1,10 @@
-const SHELL = 'washoku-shell-v2';
+const SHELL = 'washoku-shell-v5';
 const FILES = ["./", "app.js", "assets/appicon-512-v2.png", "assets/appicon.svg", "assets/cat-03.svg", "assets/money-cat-card.svg", "audio/effects/money-cat-correct.wav", "data/catalog.json", "game-audio-manifest.js", "index.html", "japanese-speech.js", "lesson-audio-manifest.js", "manifest.json", "money-cat.js", "offline.js", "search.js", "styles.css", "taste-audio-manifest.js", "word-explosion-2.js", "word-explosion.js", "zukan-audio-manifest.js"];
 self.addEventListener('install', event => {
-  event.waitUntil(caches.open(SHELL).then(cache => cache.addAll(FILES)).then(() => self.skipWaiting()));
+  event.waitUntil(caches.open(SHELL).then(cache => cache.addAll([
+    ...FILES, 'word-explosion-audio-manifest.js', 'word explosion.txt',
+    'data/word-explosion-examples.json'
+  ])).then(() => self.skipWaiting()));
 });
 self.addEventListener('activate', event => {
   event.waitUntil(caches.keys().then(names => Promise.all(names.filter(name => name.startsWith('washoku-shell-') && name !== SHELL).map(name => caches.delete(name)))).then(() => self.clients.claim()));

@@ -43,6 +43,9 @@
       }
       const audio = window.lessonAudioFiles?.[lesson.id] || (lesson.id === 'taste-words' ? window.tasteAudioFiles : lesson.gameMode ? window.gameAudioFiles : null);
       Object.values(audio || {}).forEach(path => paths.add(url(path)));
+      if (['word-explosion', 'word-explosion-2'].includes(lesson.id)) {
+        Object.values(window.wordExplosionAudioFiles || {}).forEach(path => paths.add(url(path)));
+      }
       if (lesson.gameMode) {
         paths.add(url('assets/cat-03.svg'));
         paths.add(url('audio/effects/money-cat-correct.wav'));

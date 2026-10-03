@@ -1,0 +1,5352 @@
+{
+  "voice": "marin",
+  "model": "gpt-4o-mini-tts",
+  "speed": 1.0,
+  "source": "word explosion.txt: explicit hiragana checked against vocabulary labels; contextual particles corrected. Audio pitch accent has not been listening-verified.",
+  "entries": {
+    "きづく": {
+      "text": "きづく",
+      "vocabulary": [
+        {
+          "english": "notice",
+          "kanji": "気づく"
+        }
+      ]
+    },
+    "つづける": {
+      "text": "つづける",
+      "vocabulary": [
+        {
+          "english": "continue",
+          "kanji": "続ける"
+        }
+      ]
+    },
+    "くらべる": {
+      "text": "くらべる",
+      "vocabulary": [
+        {
+          "english": "compare",
+          "kanji": "比べる"
+        }
+      ]
+    },
+    "えらぶ": {
+      "text": "えらぶ",
+      "vocabulary": [
+        {
+          "english": "choose",
+          "kanji": "選ぶ"
+        }
+      ]
+    },
+    "ふえる": {
+      "text": "ふえる",
+      "vocabulary": [
+        {
+          "english": "increase",
+          "kanji": "増える"
+        }
+      ]
+    },
+    "へる": {
+      "text": "へる",
+      "vocabulary": [
+        {
+          "english": "decrease",
+          "kanji": "減る"
+        }
+      ]
+    },
+    "のこる": {
+      "text": "のこる",
+      "vocabulary": [
+        {
+          "english": "remain",
+          "kanji": "残る"
+        }
+      ]
+    },
+    "さける": {
+      "text": "さける",
+      "vocabulary": [
+        {
+          "english": "avoid",
+          "kanji": "避ける"
+        }
+      ]
+    },
+    "たしかめる": {
+      "text": "たしかめる",
+      "vocabulary": [
+        {
+          "english": "confirm",
+          "kanji": "確かめる"
+        }
+      ]
+    },
+    "じゅんびする": {
+      "text": "じゅんびする",
+      "vocabulary": [
+        {
+          "english": "prepare",
+          "kanji": "準備する"
+        }
+      ]
+    },
+    "せつめいする": {
+      "text": "せつめいする",
+      "vocabulary": [
+        {
+          "english": "explain",
+          "kanji": "説明する"
+        }
+      ]
+    },
+    "きめる": {
+      "text": "きめる",
+      "vocabulary": [
+        {
+          "english": "decide",
+          "kanji": "決める"
+        }
+      ]
+    },
+    "かえる": {
+      "text": "かえる",
+      "vocabulary": [
+        {
+          "english": "change",
+          "kanji": "変える"
+        }
+      ]
+    },
+    "もどる": {
+      "text": "もどる",
+      "vocabulary": [
+        {
+          "english": "return",
+          "kanji": "戻る"
+        }
+      ]
+    },
+    "いそぐ": {
+      "text": "いそぐ",
+      "vocabulary": [
+        {
+          "english": "hurry",
+          "kanji": "急ぐ"
+        }
+      ]
+    },
+    "さそう": {
+      "text": "さそう",
+      "vocabulary": [
+        {
+          "english": "invite",
+          "kanji": "誘う"
+        }
+      ]
+    },
+    "ことわる": {
+      "text": "ことわる",
+      "vocabulary": [
+        {
+          "english": "refuse",
+          "kanji": "断る"
+        }
+      ]
+    },
+    "さがす": {
+      "text": "さがす",
+      "vocabulary": [
+        {
+          "english": "search",
+          "kanji": "探す"
+        }
+      ]
+    },
+    "みつける": {
+      "text": "みつける",
+      "vocabulary": [
+        {
+          "english": "discover",
+          "kanji": "見つける"
+        }
+      ]
+    },
+    "おぼえる": {
+      "text": "おぼえる",
+      "vocabulary": [
+        {
+          "english": "remember",
+          "kanji": "覚える"
+        }
+      ]
+    },
+    "わすれる": {
+      "text": "わすれる",
+      "vocabulary": [
+        {
+          "english": "forget",
+          "kanji": "忘れる"
+        }
+      ]
+    },
+    "りかいする": {
+      "text": "りかいする",
+      "vocabulary": [
+        {
+          "english": "understand",
+          "kanji": "理解する"
+        }
+      ]
+    },
+    "けいけんする": {
+      "text": "けいけんする",
+      "vocabulary": [
+        {
+          "english": "experience",
+          "kanji": "経験する"
+        }
+      ]
+    },
+    "かんさつする": {
+      "text": "かんさつする",
+      "vocabulary": [
+        {
+          "english": "observe",
+          "kanji": "観察する"
+        }
+      ]
+    },
+    "そうぞうする": {
+      "text": "そうぞうする",
+      "vocabulary": [
+        {
+          "english": "imagine",
+          "kanji": "想像する"
+        }
+      ]
+    },
+    "じょうきょう": {
+      "text": "じょうきょう",
+      "vocabulary": [
+        {
+          "english": "situation",
+          "kanji": "状況"
+        },
+        {
+          "english": "moving / going to Tokyo",
+          "kanji": "上京"
+        }
+      ]
+    },
+    "ちがい": {
+      "text": "ちがい",
+      "vocabulary": [
+        {
+          "english": "difference",
+          "kanji": "違い"
+        }
+      ]
+    },
+    "りゆう": {
+      "text": "りゆう",
+      "vocabulary": [
+        {
+          "english": "reason",
+          "kanji": "理由"
+        }
+      ]
+    },
+    "ほうほう": {
+      "text": "ほうほう",
+      "vocabulary": [
+        {
+          "english": "method",
+          "kanji": "方法"
+        }
+      ]
+    },
+    "じゅんび": {
+      "text": "じゅんび",
+      "vocabulary": [
+        {
+          "english": "preparation",
+          "kanji": "準備"
+        }
+      ]
+    },
+    "かいわ": {
+      "text": "かいわ",
+      "vocabulary": [
+        {
+          "english": "conversation",
+          "kanji": "会話"
+        }
+      ]
+    },
+    "かんけい": {
+      "text": "かんけい",
+      "vocabulary": [
+        {
+          "english": "relationship",
+          "kanji": "関係"
+        }
+      ]
+    },
+    "いんしょう": {
+      "text": "いんしょう",
+      "vocabulary": [
+        {
+          "english": "impression",
+          "kanji": "印象"
+        }
+      ]
+    },
+    "かのうせい": {
+      "text": "かのうせい",
+      "vocabulary": [
+        {
+          "english": "possibility",
+          "kanji": "可能性"
+        }
+      ]
+    },
+    "けっか": {
+      "text": "けっか",
+      "vocabulary": [
+        {
+          "english": "result",
+          "kanji": "結果"
+        }
+      ]
+    },
+    "もくてき": {
+      "text": "もくてき",
+      "vocabulary": [
+        {
+          "english": "purpose",
+          "kanji": "目的"
+        }
+      ]
+    },
+    "しゅうかん": {
+      "text": "しゅうかん",
+      "vocabulary": [
+        {
+          "english": "habit",
+          "kanji": "習慣"
+        }
+      ]
+    },
+    "きょうみ": {
+      "text": "きょうみ",
+      "vocabulary": [
+        {
+          "english": "interest",
+          "kanji": "興味"
+        }
+      ]
+    },
+    "しょっかん": {
+      "text": "しょっかん",
+      "vocabulary": [
+        {
+          "english": "texture",
+          "kanji": "食感"
+        }
+      ]
+    },
+    "ふうみ": {
+      "text": "ふうみ",
+      "vocabulary": [
+        {
+          "english": "flavor",
+          "kanji": "風味"
+        }
+      ]
+    },
+    "ちょうみりょう": {
+      "text": "ちょうみりょう",
+      "vocabulary": [
+        {
+          "english": "seasoning",
+          "kanji": "調味料"
+        }
+      ]
+    },
+    "はっこう": {
+      "text": "はっこう",
+      "vocabulary": [
+        {
+          "english": "fermentation",
+          "kanji": "発酵"
+        }
+      ]
+    },
+    "しょくざい": {
+      "text": "しょくざい",
+      "vocabulary": [
+        {
+          "english": "ingredient",
+          "kanji": "食材"
+        }
+      ]
+    },
+    "ていねい": {
+      "text": "ていねい",
+      "vocabulary": [
+        {
+          "english": "careful",
+          "kanji": "丁寧"
+        }
+      ]
+    },
+    "ひつよう": {
+      "text": "ひつよう",
+      "vocabulary": [
+        {
+          "english": "necessary",
+          "kanji": "必要"
+        }
+      ]
+    },
+    "いがい": {
+      "text": "いがい",
+      "vocabulary": [
+        {
+          "english": "surprising",
+          "kanji": "意外"
+        }
+      ]
+    },
+    "とくに": {
+      "text": "とくに",
+      "vocabulary": [
+        {
+          "english": "especially",
+          "kanji": "特に"
+        }
+      ]
+    },
+    "だんだん": {
+      "text": "だんだん",
+      "vocabulary": [
+        {
+          "english": "gradually",
+          "kanji": ""
+        }
+      ]
+    },
+    "ちゃんと": {
+      "text": "ちゃんと",
+      "vocabulary": [
+        {
+          "english": "properly",
+          "kanji": ""
+        }
+      ]
+    },
+    "なれる": {
+      "text": "なれる",
+      "vocabulary": [
+        {
+          "english": "get used to",
+          "kanji": "慣れる"
+        }
+      ]
+    },
+    "なじむ": {
+      "text": "なじむ",
+      "vocabulary": [
+        {
+          "english": "become familiar",
+          "kanji": "馴染む"
+        }
+      ]
+    },
+    "あきらめる": {
+      "text": "あきらめる",
+      "vocabulary": [
+        {
+          "english": "give up",
+          "kanji": "諦める"
+        }
+      ]
+    },
+    "まにあう": {
+      "text": "まにあう",
+      "vocabulary": [
+        {
+          "english": "make it in time",
+          "kanji": "間に合う"
+        }
+      ]
+    },
+    "まちがえる": {
+      "text": "まちがえる",
+      "vocabulary": [
+        {
+          "english": "make a mistake",
+          "kanji": "間違える"
+        }
+      ]
+    },
+    "なおす": {
+      "text": "なおす",
+      "vocabulary": [
+        {
+          "english": "fix",
+          "kanji": "直す"
+        }
+      ]
+    },
+    "なおる": {
+      "text": "なおる",
+      "vocabulary": [
+        {
+          "english": "be fixed",
+          "kanji": "直る"
+        }
+      ]
+    },
+    "かくす": {
+      "text": "かくす",
+      "vocabulary": [
+        {
+          "english": "hide",
+          "kanji": "隠す"
+        }
+      ]
+    },
+    "かくれる": {
+      "text": "かくれる",
+      "vocabulary": [
+        {
+          "english": "be hidden",
+          "kanji": "隠れる"
+        }
+      ]
+    },
+    "とおりすぎる": {
+      "text": "とおりすぎる",
+      "vocabulary": [
+        {
+          "english": "pass by",
+          "kanji": "通り過ぎる"
+        }
+      ]
+    },
+    "ひろう": {
+      "text": "ひろう",
+      "vocabulary": [
+        {
+          "english": "pick up",
+          "kanji": "拾う"
+        }
+      ]
+    },
+    "すてる": {
+      "text": "すてる",
+      "vocabulary": [
+        {
+          "english": "throw away",
+          "kanji": "捨てる"
+        }
+      ]
+    },
+    "わたす": {
+      "text": "わたす",
+      "vocabulary": [
+        {
+          "english": "hand over",
+          "kanji": "渡す"
+        }
+      ]
+    },
+    "うけとる": {
+      "text": "うけとる",
+      "vocabulary": [
+        {
+          "english": "receive",
+          "kanji": "受け取る"
+        }
+      ]
+    },
+    "とりかえる": {
+      "text": "とりかえる",
+      "vocabulary": [
+        {
+          "english": "replace",
+          "kanji": "取り替える"
+        }
+      ]
+    },
+    "くわえる": {
+      "text": "くわえる",
+      "vocabulary": [
+        {
+          "english": "add",
+          "kanji": "加える"
+        }
+      ]
+    },
+    "とりのぞく": {
+      "text": "とりのぞく",
+      "vocabulary": [
+        {
+          "english": "remove",
+          "kanji": "取り除く"
+        }
+      ]
+    },
+    "まぜる": {
+      "text": "まぜる",
+      "vocabulary": [
+        {
+          "english": "mix",
+          "kanji": "混ぜる"
+        }
+      ]
+    },
+    "ひたす": {
+      "text": "ひたす",
+      "vocabulary": [
+        {
+          "english": "soak",
+          "kanji": "浸す"
+        }
+      ]
+    },
+    "むす": {
+      "text": "むす",
+      "vocabulary": [
+        {
+          "english": "steam",
+          "kanji": "蒸す"
+        }
+      ]
+    },
+    "ゆでる": {
+      "text": "ゆでる",
+      "vocabulary": [
+        {
+          "english": "boil",
+          "kanji": "茹でる"
+        }
+      ]
+    },
+    "やく": {
+      "text": "やく",
+      "vocabulary": [
+        {
+          "english": "grill",
+          "kanji": "焼く"
+        }
+      ]
+    },
+    "さます": {
+      "text": "さます",
+      "vocabulary": [
+        {
+          "english": "cool down",
+          "kanji": "冷ます"
+        }
+      ]
+    },
+    "あたためる": {
+      "text": "あたためる",
+      "vocabulary": [
+        {
+          "english": "warm up",
+          "kanji": "温める"
+        }
+      ]
+    },
+    "みため": {
+      "text": "みため",
+      "vocabulary": [
+        {
+          "english": "appearance",
+          "kanji": "見た目"
+        }
+      ]
+    },
+    "とくちょう": {
+      "text": "とくちょう",
+      "vocabulary": [
+        {
+          "english": "feature",
+          "kanji": "特徴"
+        }
+      ]
+    },
+    "じょうたい": {
+      "text": "じょうたい",
+      "vocabulary": [
+        {
+          "english": "condition",
+          "kanji": "状態"
+        }
+      ]
+    },
+    "かんきょう": {
+      "text": "かんきょう",
+      "vocabulary": [
+        {
+          "english": "environment",
+          "kanji": "環境"
+        }
+      ]
+    },
+    "えいきょう": {
+      "text": "えいきょう",
+      "vocabulary": [
+        {
+          "english": "influence",
+          "kanji": "影響"
+        }
+      ]
+    },
+    "ちしき": {
+      "text": "ちしき",
+      "vocabulary": [
+        {
+          "english": "knowledge",
+          "kanji": "知識"
+        }
+      ]
+    },
+    "ぎじゅつ": {
+      "text": "ぎじゅつ",
+      "vocabulary": [
+        {
+          "english": "technique",
+          "kanji": "技術"
+        }
+      ]
+    },
+    "せんたく": {
+      "text": "せんたく",
+      "vocabulary": [
+        {
+          "english": "choice",
+          "kanji": "選択"
+        },
+        {
+          "english": "laundry",
+          "kanji": "洗濯"
+        }
+      ]
+    },
+    "はんだん": {
+      "text": "はんだん",
+      "vocabulary": [
+        {
+          "english": "decision",
+          "kanji": "判断"
+        }
+      ]
+    },
+    "いけん": {
+      "text": "いけん",
+      "vocabulary": [
+        {
+          "english": "opinion",
+          "kanji": "意見"
+        }
+      ]
+    },
+    "せつめい": {
+      "text": "せつめい",
+      "vocabulary": [
+        {
+          "english": "explanation",
+          "kanji": "説明"
+        }
+      ]
+    },
+    "いみ": {
+      "text": "いみ",
+      "vocabulary": [
+        {
+          "english": "meaning",
+          "kanji": "意味"
+        }
+      ]
+    },
+    "まちがい": {
+      "text": "まちがい",
+      "vocabulary": [
+        {
+          "english": "mistake",
+          "kanji": "間違い"
+        }
+      ]
+    },
+    "きょうつう": {
+      "text": "きょうつう",
+      "vocabulary": [
+        {
+          "english": "common",
+          "kanji": "共通"
+        }
+      ]
+    },
+    "はんたい": {
+      "text": "はんたい",
+      "vocabulary": [
+        {
+          "english": "opposite",
+          "kanji": "反対"
+        }
+      ]
+    },
+    "よそうがい": {
+      "text": "よそうがい",
+      "vocabulary": [
+        {
+          "english": "unexpected",
+          "kanji": "予想外"
+        }
+      ]
+    },
+    "ふくざつ": {
+      "text": "ふくざつ",
+      "vocabulary": [
+        {
+          "english": "complicated",
+          "kanji": "複雑"
+        }
+      ]
+    },
+    "たんじゅん": {
+      "text": "たんじゅん",
+      "vocabulary": [
+        {
+          "english": "simple",
+          "kanji": "単純"
+        }
+      ]
+    },
+    "しぜん": {
+      "text": "しぜん",
+      "vocabulary": [
+        {
+          "english": "natural",
+          "kanji": "自然"
+        }
+      ]
+    },
+    "ふしぎ": {
+      "text": "ふしぎ",
+      "vocabulary": [
+        {
+          "english": "strange",
+          "kanji": "不思議"
+        }
+      ]
+    },
+    "ぜったいに": {
+      "text": "ぜったいに",
+      "vocabulary": [
+        {
+          "english": "definitely",
+          "kanji": "絶対に"
+        }
+      ]
+    },
+    "じつは": {
+      "text": "じつわ",
+      "vocabulary": [
+        {
+          "english": "actually",
+          "kanji": "実は"
+        }
+      ]
+    },
+    "どうやら": {
+      "text": "どうやら",
+      "vocabulary": [
+        {
+          "english": "apparently",
+          "kanji": ""
+        }
+      ]
+    },
+    "なんとなく": {
+      "text": "なんとなく",
+      "vocabulary": [
+        {
+          "english": "somehow",
+          "kanji": ""
+        }
+      ]
+    },
+    "わざと": {
+      "text": "わざと",
+      "vocabulary": [
+        {
+          "english": "on purpose",
+          "kanji": ""
+        }
+      ]
+    },
+    "うけいれる": {
+      "text": "うけいれる",
+      "vocabulary": [
+        {
+          "english": "accept",
+          "kanji": "受け入れる"
+        }
+      ]
+    },
+    "ゆるす": {
+      "text": "ゆるす",
+      "vocabulary": [
+        {
+          "english": "allow",
+          "kanji": "許す"
+        }
+      ]
+    },
+    "しんじる": {
+      "text": "しんじる",
+      "vocabulary": [
+        {
+          "english": "trust",
+          "kanji": "信じる"
+        }
+      ]
+    },
+    "うたがう": {
+      "text": "うたがう",
+      "vocabulary": [
+        {
+          "english": "doubt",
+          "kanji": "疑う"
+        }
+      ]
+    },
+    "きたいする": {
+      "text": "きたいする",
+      "vocabulary": [
+        {
+          "english": "expect",
+          "kanji": "期待する"
+        }
+      ]
+    },
+    "たよる": {
+      "text": "たよる",
+      "vocabulary": [
+        {
+          "english": "depend on",
+          "kanji": "頼る"
+        }
+      ]
+    },
+    "あてにする": {
+      "text": "あてにする",
+      "vocabulary": [
+        {
+          "english": "rely on",
+          "kanji": "当てにする"
+        }
+      ]
+    },
+    "すすめる": {
+      "text": "すすめる",
+      "vocabulary": [
+        {
+          "english": "recommend",
+          "kanji": "勧める"
+        },
+        {
+          "english": "proceed / move forward",
+          "kanji": "進める"
+        }
+      ]
+    },
+    "ていあんする": {
+      "text": "ていあんする",
+      "vocabulary": [
+        {
+          "english": "suggest",
+          "kanji": "提案する"
+        }
+      ]
+    },
+    "たのむ": {
+      "text": "たのむ",
+      "vocabulary": [
+        {
+          "english": "request",
+          "kanji": "頼む"
+        }
+      ]
+    },
+    "もんくをいう": {
+      "text": "もんくおいう",
+      "vocabulary": [
+        {
+          "english": "complain",
+          "kanji": "文句を言う"
+        }
+      ]
+    },
+    "あやまる": {
+      "text": "あやまる",
+      "vocabulary": [
+        {
+          "english": "apologize",
+          "kanji": "謝る"
+        }
+      ]
+    },
+    "あこがれる": {
+      "text": "あこがれる",
+      "vocabulary": [
+        {
+          "english": "admire",
+          "kanji": "憧れる"
+        }
+      ]
+    },
+    "そんけいする": {
+      "text": "そんけいする",
+      "vocabulary": [
+        {
+          "english": "respect",
+          "kanji": "尊敬する"
+        }
+      ]
+    },
+    "ためらう": {
+      "text": "ためらう",
+      "vocabulary": [
+        {
+          "english": "hesitate",
+          "kanji": "躊躇う"
+        }
+      ]
+    },
+    "たえる": {
+      "text": "たえる",
+      "vocabulary": [
+        {
+          "english": "endure",
+          "kanji": "耐える"
+        }
+      ]
+    },
+    "がまんする": {
+      "text": "がまんする",
+      "vocabulary": [
+        {
+          "english": "put up with",
+          "kanji": "我慢する"
+        }
+      ]
+    },
+    "おちつく": {
+      "text": "おちつく",
+      "vocabulary": [
+        {
+          "english": "calm down",
+          "kanji": "落ち着く"
+        }
+      ]
+    },
+    "しゅうちゅうする": {
+      "text": "しゅうちゅうする",
+      "vocabulary": [
+        {
+          "english": "concentrate",
+          "kanji": "集中する"
+        }
+      ]
+    },
+    "きがちる": {
+      "text": "きがちる",
+      "vocabulary": [
+        {
+          "english": "get distracted",
+          "kanji": "気が散る"
+        }
+      ]
+    },
+    "おどろく": {
+      "text": "おどろく",
+      "vocabulary": [
+        {
+          "english": "be surprised",
+          "kanji": "驚く"
+        }
+      ]
+    },
+    "がっかりする": {
+      "text": "がっかりする",
+      "vocabulary": [
+        {
+          "english": "be disappointed",
+          "kanji": ""
+        }
+      ]
+    },
+    "あんしんする": {
+      "text": "あんしんする",
+      "vocabulary": [
+        {
+          "english": "be relieved",
+          "kanji": "安心する"
+        }
+      ]
+    },
+    "まんぞくする": {
+      "text": "まんぞくする",
+      "vocabulary": [
+        {
+          "english": "be satisfied",
+          "kanji": "満足する"
+        }
+      ]
+    },
+    "なっとくする": {
+      "text": "なっとくする",
+      "vocabulary": [
+        {
+          "english": "be convinced",
+          "kanji": "納得する"
+        }
+      ]
+    },
+    "しんぱいする": {
+      "text": "しんぱいする",
+      "vocabulary": [
+        {
+          "english": "worry",
+          "kanji": "心配する"
+        }
+      ]
+    },
+    "きにする": {
+      "text": "きにする",
+      "vocabulary": [
+        {
+          "english": "care about",
+          "kanji": "気にする"
+        }
+      ]
+    },
+    "たのしみにする": {
+      "text": "たのしみにする",
+      "vocabulary": [
+        {
+          "english": "look forward to",
+          "kanji": "楽しみにする"
+        }
+      ]
+    },
+    "おこる": {
+      "text": "おこる",
+      "vocabulary": [
+        {
+          "english": "occur",
+          "kanji": "起こる"
+        }
+      ]
+    },
+    "おきる": {
+      "text": "おきる",
+      "vocabulary": [
+        {
+          "english": "happen",
+          "kanji": "起きる"
+        }
+      ]
+    },
+    "とまる": {
+      "text": "とまる",
+      "vocabulary": [
+        {
+          "english": "stop",
+          "kanji": "止まる"
+        }
+      ]
+    },
+    "とめる": {
+      "text": "とめる",
+      "vocabulary": [
+        {
+          "english": "stop something",
+          "kanji": "止める"
+        }
+      ]
+    },
+    "はじまる": {
+      "text": "はじまる",
+      "vocabulary": [
+        {
+          "english": "begin",
+          "kanji": "始まる"
+        }
+      ]
+    },
+    "はじめる": {
+      "text": "はじめる",
+      "vocabulary": [
+        {
+          "english": "begin something",
+          "kanji": "始める"
+        }
+      ]
+    },
+    "ふやす": {
+      "text": "ふやす",
+      "vocabulary": [
+        {
+          "english": "increase something",
+          "kanji": "増やす"
+        }
+      ]
+    },
+    "へらす": {
+      "text": "へらす",
+      "vocabulary": [
+        {
+          "english": "decrease something",
+          "kanji": "減らす"
+        }
+      ]
+    },
+    "ひろがる": {
+      "text": "ひろがる",
+      "vocabulary": [
+        {
+          "english": "spread",
+          "kanji": "広がる"
+        }
+      ]
+    },
+    "ひろげる": {
+      "text": "ひろげる",
+      "vocabulary": [
+        {
+          "english": "spread something",
+          "kanji": "広げる"
+        }
+      ]
+    },
+    "つながる": {
+      "text": "つながる",
+      "vocabulary": [
+        {
+          "english": "be connected",
+          "kanji": "繋がる"
+        }
+      ]
+    },
+    "つなげる": {
+      "text": "つなげる",
+      "vocabulary": [
+        {
+          "english": "connect",
+          "kanji": "繋げる"
+        }
+      ]
+    },
+    "はなれる": {
+      "text": "はなれる",
+      "vocabulary": [
+        {
+          "english": "be separated",
+          "kanji": "離れる"
+        }
+      ]
+    },
+    "はなす": {
+      "text": "はなす",
+      "vocabulary": [
+        {
+          "english": "separate",
+          "kanji": "離す"
+        }
+      ]
+    },
+    "ゆるむ": {
+      "text": "ゆるむ",
+      "vocabulary": [
+        {
+          "english": "become loose",
+          "kanji": "緩む"
+        }
+      ]
+    },
+    "ゆるめる": {
+      "text": "ゆるめる",
+      "vocabulary": [
+        {
+          "english": "loosen",
+          "kanji": "緩める"
+        }
+      ]
+    },
+    "かたまる": {
+      "text": "かたまる",
+      "vocabulary": [
+        {
+          "english": "become hard",
+          "kanji": "固まる"
+        }
+      ]
+    },
+    "かためる": {
+      "text": "かためる",
+      "vocabulary": [
+        {
+          "english": "harden",
+          "kanji": "固める"
+        }
+      ]
+    },
+    "ちょうせいする": {
+      "text": "ちょうせいする",
+      "vocabulary": [
+        {
+          "english": "adjust",
+          "kanji": "調整する"
+        }
+      ]
+    },
+    "かいぜんする": {
+      "text": "かいぜんする",
+      "vocabulary": [
+        {
+          "english": "improve",
+          "kanji": "改善する"
+        }
+      ]
+    },
+    "はってんする": {
+      "text": "はってんする",
+      "vocabulary": [
+        {
+          "english": "develop",
+          "kanji": "発展する"
+        }
+      ]
+    },
+    "おうようする": {
+      "text": "おうようする",
+      "vocabulary": [
+        {
+          "english": "apply",
+          "kanji": "応用する"
+        }
+      ]
+    },
+    "いかす": {
+      "text": "いかす",
+      "vocabulary": [
+        {
+          "english": "make use of",
+          "kanji": "活かす"
+        }
+      ]
+    },
+    "しらべる": {
+      "text": "しらべる",
+      "vocabulary": [
+        {
+          "english": "investigate",
+          "kanji": "調べる"
+        }
+      ]
+    },
+    "はかる": {
+      "text": "はかる",
+      "vocabulary": [
+        {
+          "english": "measure",
+          "kanji": "測る"
+        }
+      ]
+    },
+    "きろくする": {
+      "text": "きろくする",
+      "vocabulary": [
+        {
+          "english": "record",
+          "kanji": "記録する"
+        }
+      ]
+    },
+    "ぶんるいする": {
+      "text": "ぶんるいする",
+      "vocabulary": [
+        {
+          "english": "classify",
+          "kanji": "分類する"
+        }
+      ]
+    },
+    "ざいりょう": {
+      "text": "ざいりょう",
+      "vocabulary": [
+        {
+          "english": "material",
+          "kanji": "材料"
+        }
+      ]
+    },
+    "ひょうめん": {
+      "text": "ひょうめん",
+      "vocabulary": [
+        {
+          "english": "surface",
+          "kanji": "表面"
+        }
+      ]
+    },
+    "なかみ": {
+      "text": "なかみ",
+      "vocabulary": [
+        {
+          "english": "inside",
+          "kanji": "中身"
+        }
+      ]
+    },
+    "ぶんりょう": {
+      "text": "ぶんりょう",
+      "vocabulary": [
+        {
+          "english": "amount",
+          "kanji": "分量"
+        }
+      ]
+    },
+    "おんど": {
+      "text": "おんど",
+      "vocabulary": [
+        {
+          "english": "temperature",
+          "kanji": "温度"
+        }
+      ]
+    },
+    "しつど": {
+      "text": "しつど",
+      "vocabulary": [
+        {
+          "english": "humidity",
+          "kanji": "湿度"
+        }
+      ]
+    },
+    "あつさ": {
+      "text": "あつさ",
+      "vocabulary": [
+        {
+          "english": "thickness",
+          "kanji": "厚さ"
+        }
+      ]
+    },
+    "かたさ": {
+      "text": "かたさ",
+      "vocabulary": [
+        {
+          "english": "hardness",
+          "kanji": "硬さ"
+        }
+      ]
+    },
+    "やわらかさ": {
+      "text": "やわらかさ",
+      "vocabulary": [
+        {
+          "english": "softness",
+          "kanji": "柔らかさ"
+        }
+      ]
+    },
+    "におい": {
+      "text": "におい",
+      "vocabulary": [
+        {
+          "english": "smell",
+          "kanji": "匂い"
+        }
+      ]
+    },
+    "かおり": {
+      "text": "かおり",
+      "vocabulary": [
+        {
+          "english": "aroma",
+          "kanji": "香り"
+        }
+      ]
+    },
+    "あとあじ": {
+      "text": "あとあじ",
+      "vocabulary": [
+        {
+          "english": "aftertaste",
+          "kanji": "後味"
+        }
+      ]
+    },
+    "こく": {
+      "text": "こく",
+      "vocabulary": [
+        {
+          "english": "richness",
+          "kanji": "コク"
+        }
+      ]
+    },
+    "うまみ": {
+      "text": "うまみ",
+      "vocabulary": [
+        {
+          "english": "umami",
+          "kanji": "旨味"
+        }
+      ]
+    },
+    "にがみ": {
+      "text": "にがみ",
+      "vocabulary": [
+        {
+          "english": "bitterness",
+          "kanji": "苦味"
+        }
+      ]
+    },
+    "さんみ": {
+      "text": "さんみ",
+      "vocabulary": [
+        {
+          "english": "sourness",
+          "kanji": "酸味"
+        }
+      ]
+    },
+    "あまみ": {
+      "text": "あまみ",
+      "vocabulary": [
+        {
+          "english": "sweetness",
+          "kanji": "甘味"
+        }
+      ]
+    },
+    "しおけ": {
+      "text": "しおけ",
+      "vocabulary": [
+        {
+          "english": "saltiness",
+          "kanji": "塩気"
+        }
+      ]
+    },
+    "しっとり": {
+      "text": "しっとり",
+      "vocabulary": [
+        {
+          "english": "moist",
+          "kanji": ""
+        }
+      ]
+    },
+    "ふわふわ": {
+      "text": "ふわふわ",
+      "vocabulary": [
+        {
+          "english": "fluffy",
+          "kanji": ""
+        }
+      ]
+    },
+    "さくさく": {
+      "text": "さくさく",
+      "vocabulary": [
+        {
+          "english": "crispy",
+          "kanji": ""
+        }
+      ]
+    },
+    "かりかり": {
+      "text": "かりかり",
+      "vocabulary": [
+        {
+          "english": "crunchy",
+          "kanji": ""
+        }
+      ]
+    },
+    "ねばねば": {
+      "text": "ねばねば",
+      "vocabulary": [
+        {
+          "english": "sticky",
+          "kanji": ""
+        }
+      ]
+    },
+    "もちもち": {
+      "text": "もちもち",
+      "vocabulary": [
+        {
+          "english": "chewy",
+          "kanji": ""
+        }
+      ]
+    },
+    "なめらか": {
+      "text": "なめらか",
+      "vocabulary": [
+        {
+          "english": "smooth",
+          "kanji": "滑らか"
+        }
+      ]
+    },
+    "さっぱり": {
+      "text": "さっぱり",
+      "vocabulary": [
+        {
+          "english": "refreshing",
+          "kanji": ""
+        }
+      ]
+    },
+    "こってり": {
+      "text": "こってり",
+      "vocabulary": [
+        {
+          "english": "rich",
+          "kanji": ""
+        }
+      ]
+    },
+    "まろやか": {
+      "text": "まろやか",
+      "vocabulary": [
+        {
+          "english": "mild",
+          "kanji": ""
+        }
+      ]
+    },
+    "こうばしい": {
+      "text": "こうばしい",
+      "vocabulary": [
+        {
+          "english": "fragrant",
+          "kanji": "香ばしい"
+        }
+      ]
+    },
+    "せんさい": {
+      "text": "せんさい",
+      "vocabulary": [
+        {
+          "english": "delicate",
+          "kanji": "繊細"
+        }
+      ]
+    },
+    "あきらか": {
+      "text": "あきらか",
+      "vocabulary": [
+        {
+          "english": "obvious",
+          "kanji": "明らか"
+        }
+      ]
+    },
+    "せいかく": {
+      "text": "せいかく",
+      "vocabulary": [
+        {
+          "english": "accurate",
+          "kanji": "正確"
+        },
+        {
+          "english": "personality",
+          "kanji": "性格"
+        }
+      ]
+    },
+    "てきせつ": {
+      "text": "てきせつ",
+      "vocabulary": [
+        {
+          "english": "appropriate",
+          "kanji": "適切"
+        }
+      ]
+    },
+    "こうりつてき": {
+      "text": "こうりつてき",
+      "vocabulary": [
+        {
+          "english": "efficient",
+          "kanji": "効率的"
+        }
+      ]
+    },
+    "ぐたいてき": {
+      "text": "ぐたいてき",
+      "vocabulary": [
+        {
+          "english": "specific",
+          "kanji": "具体的"
+        }
+      ]
+    },
+    "ちゅうしょうてき": {
+      "text": "ちゅうしょうてき",
+      "vocabulary": [
+        {
+          "english": "abstract",
+          "kanji": "抽象的"
+        }
+      ]
+    },
+    "にている": {
+      "text": "にている",
+      "vocabulary": [
+        {
+          "english": "similar",
+          "kanji": "似ている"
+        }
+      ]
+    },
+    "かんぜんに": {
+      "text": "かんぜんに",
+      "vocabulary": [
+        {
+          "english": "completely",
+          "kanji": "完全に"
+        }
+      ]
+    },
+    "けっきょく": {
+      "text": "けっきょく",
+      "vocabulary": [
+        {
+          "english": "eventually",
+          "kanji": "結局"
+        }
+      ]
+    },
+    "あらかじめ": {
+      "text": "あらかじめ",
+      "vocabulary": [
+        {
+          "english": "in advance",
+          "kanji": "予め"
+        }
+      ]
+    },
+    "きがつく": {
+      "text": "きがつく",
+      "vocabulary": [
+        {
+          "english": "notice / realize",
+          "kanji": "気がつく"
+        }
+      ]
+    },
+    "おもいだす": {
+      "text": "おもいだす",
+      "vocabulary": [
+        {
+          "english": "remember / recall",
+          "kanji": "思い出す"
+        }
+      ]
+    },
+    "わすれものをする": {
+      "text": "わすれものおする",
+      "vocabulary": [
+        {
+          "english": "forget something behind",
+          "kanji": "忘れ物をする"
+        }
+      ]
+    },
+    "わかる": {
+      "text": "わかる",
+      "vocabulary": [
+        {
+          "english": "figure out",
+          "kanji": "分かる"
+        }
+      ]
+    },
+    "きになる": {
+      "text": "きになる",
+      "vocabulary": [
+        {
+          "english": "wonder",
+          "kanji": "気になる"
+        }
+      ]
+    },
+    "かまう": {
+      "text": "かまう",
+      "vocabulary": [
+        {
+          "english": "mind / care",
+          "kanji": "構う"
+        }
+      ]
+    },
+    "かんけいする": {
+      "text": "かんけいする",
+      "vocabulary": [
+        {
+          "english": "matter",
+          "kanji": "関係する"
+        }
+      ]
+    },
+    "ことなる": {
+      "text": "ことなる",
+      "vocabulary": [
+        {
+          "english": "be different",
+          "kanji": "異なる"
+        }
+      ]
+    },
+    "あう": {
+      "text": "あう",
+      "vocabulary": [
+        {
+          "english": "match",
+          "kanji": "合う"
+        }
+      ]
+    },
+    "にあう": {
+      "text": "にあう",
+      "vocabulary": [
+        {
+          "english": "suit",
+          "kanji": "似合う"
+        }
+      ]
+    },
+    "うまくいく": {
+      "text": "うまくいく",
+      "vocabulary": [
+        {
+          "english": "get along",
+          "kanji": ""
+        }
+      ]
+    },
+    "なんとかする": {
+      "text": "なんとかする",
+      "vocabulary": [
+        {
+          "english": "manage somehow",
+          "kanji": ""
+        }
+      ]
+    },
+    "かくにんする": {
+      "text": "かくにんする",
+      "vocabulary": [
+        {
+          "english": "make sure",
+          "kanji": "確認する"
+        }
+      ]
+    },
+    "たいおうする": {
+      "text": "たいおうする",
+      "vocabulary": [
+        {
+          "english": "deal with",
+          "kanji": "対応する"
+        }
+      ]
+    },
+    "あつかう": {
+      "text": "あつかう",
+      "vocabulary": [
+        {
+          "english": "handle",
+          "kanji": "扱う"
+        }
+      ]
+    },
+    "かいけつする": {
+      "text": "かいけつする",
+      "vocabulary": [
+        {
+          "english": "solve",
+          "kanji": "解決する"
+        }
+      ]
+    },
+    "ふせぐ": {
+      "text": "ふせぐ",
+      "vocabulary": [
+        {
+          "english": "prevent",
+          "kanji": "防ぐ"
+        }
+      ]
+    },
+    "まもる": {
+      "text": "まもる",
+      "vocabulary": [
+        {
+          "english": "protect",
+          "kanji": "守る"
+        }
+      ]
+    },
+    "ささえる": {
+      "text": "ささえる",
+      "vocabulary": [
+        {
+          "english": "support",
+          "kanji": "支える"
+        }
+      ]
+    },
+    "てつだう": {
+      "text": "てつだう",
+      "vocabulary": [
+        {
+          "english": "help out",
+          "kanji": "手伝う"
+        }
+      ]
+    },
+    "まかせる": {
+      "text": "まかせる",
+      "vocabulary": [
+        {
+          "english": "leave it to someone",
+          "kanji": "任せる"
+        }
+      ]
+    },
+    "せきにんをもつ": {
+      "text": "せきにんおもつ",
+      "vocabulary": [
+        {
+          "english": "take responsibility",
+          "kanji": "責任を持つ"
+        }
+      ]
+    },
+    "たんとうする": {
+      "text": "たんとうする",
+      "vocabulary": [
+        {
+          "english": "be in charge",
+          "kanji": "担当する"
+        }
+      ]
+    },
+    "さんかする": {
+      "text": "さんかする",
+      "vocabulary": [
+        {
+          "english": "participate",
+          "kanji": "参加する"
+        }
+      ]
+    },
+    "きょうりょくする": {
+      "text": "きょうりょくする",
+      "vocabulary": [
+        {
+          "english": "cooperate",
+          "kanji": "協力する"
+        }
+      ]
+    },
+    "きょうゆうする": {
+      "text": "きょうゆうする",
+      "vocabulary": [
+        {
+          "english": "share",
+          "kanji": "共有する"
+        }
+      ]
+    },
+    "れんらくする": {
+      "text": "れんらくする",
+      "vocabulary": [
+        {
+          "english": "contact",
+          "kanji": "連絡する"
+        }
+      ]
+    },
+    "そうだんする": {
+      "text": "そうだんする",
+      "vocabulary": [
+        {
+          "english": "consult",
+          "kanji": "相談する"
+        }
+      ]
+    },
+    "はなしあう": {
+      "text": "はなしあう",
+      "vocabulary": [
+        {
+          "english": "discuss",
+          "kanji": "話し合う"
+        }
+      ]
+    },
+    "つたえる": {
+      "text": "つたえる",
+      "vocabulary": [
+        {
+          "english": "tell / inform",
+          "kanji": "伝える"
+        }
+      ]
+    },
+    "ふれる": {
+      "text": "ふれる",
+      "vocabulary": [
+        {
+          "english": "mention",
+          "kanji": "触れる"
+        }
+      ]
+    },
+    "しつもんする": {
+      "text": "しつもんする",
+      "vocabulary": [
+        {
+          "english": "ask a question",
+          "kanji": "質問する"
+        }
+      ]
+    },
+    "こたえる": {
+      "text": "こたえる",
+      "vocabulary": [
+        {
+          "english": "answer",
+          "kanji": "答える"
+        }
+      ]
+    },
+    "くりかえす": {
+      "text": "くりかえす",
+      "vocabulary": [
+        {
+          "english": "repeat",
+          "kanji": "繰り返す"
+        }
+      ]
+    },
+    "いいかえる": {
+      "text": "いいかえる",
+      "vocabulary": [
+        {
+          "english": "rephrase",
+          "kanji": "言い換える"
+        }
+      ]
+    },
+    "ごかいする": {
+      "text": "ごかいする",
+      "vocabulary": [
+        {
+          "english": "misunderstand",
+          "kanji": "誤解する"
+        }
+      ]
+    },
+    "つうじる": {
+      "text": "つうじる",
+      "vocabulary": [
+        {
+          "english": "be understood",
+          "kanji": "通じる"
+        }
+      ]
+    },
+    "ききとる": {
+      "text": "ききとる",
+      "vocabulary": [
+        {
+          "english": "hear / catch",
+          "kanji": "聞き取る"
+        }
+      ]
+    },
+    "よみとる": {
+      "text": "よみとる",
+      "vocabulary": [
+        {
+          "english": "read / comprehend",
+          "kanji": "読み取る"
+        }
+      ]
+    },
+    "あらわす": {
+      "text": "あらわす",
+      "vocabulary": [
+        {
+          "english": "express",
+          "kanji": "表す"
+        }
+      ]
+    },
+    "ひょうげんする": {
+      "text": "ひょうげんする",
+      "vocabulary": [
+        {
+          "english": "be able to express",
+          "kanji": "表現する"
+        }
+      ]
+    },
+    "してきする": {
+      "text": "してきする",
+      "vocabulary": [
+        {
+          "english": "point out",
+          "kanji": "指摘する"
+        }
+      ]
+    },
+    "きょうちょうする": {
+      "text": "きょうちょうする",
+      "vocabulary": [
+        {
+          "english": "emphasize",
+          "kanji": "強調する"
+        }
+      ]
+    },
+    "はんだんする": {
+      "text": "はんだんする",
+      "vocabulary": [
+        {
+          "english": "judge",
+          "kanji": "判断する"
+        }
+      ]
+    },
+    "おもいこむ": {
+      "text": "おもいこむ",
+      "vocabulary": [
+        {
+          "english": "assume",
+          "kanji": "思い込む"
+        }
+      ]
+    },
+    "かんちがいする": {
+      "text": "かんちがいする",
+      "vocabulary": [
+        {
+          "english": "believe mistakenly",
+          "kanji": "勘違いする"
+        }
+      ]
+    },
+    "よそうする": {
+      "text": "よそうする",
+      "vocabulary": [
+        {
+          "english": "predict",
+          "kanji": "予想する"
+        }
+      ]
+    },
+    "けんとうする": {
+      "text": "けんとうする",
+      "vocabulary": [
+        {
+          "english": "consider",
+          "kanji": "検討する"
+        }
+      ]
+    },
+    "かんがえなおす": {
+      "text": "かんがえなおす",
+      "vocabulary": [
+        {
+          "english": "think over",
+          "kanji": "考え直す"
+        }
+      ]
+    },
+    "おもいつく": {
+      "text": "おもいつく",
+      "vocabulary": [
+        {
+          "english": "come up with",
+          "kanji": "思いつく"
+        }
+      ]
+    },
+    "ためす": {
+      "text": "ためす",
+      "vocabulary": [
+        {
+          "english": "try",
+          "kanji": "試す"
+        }
+      ]
+    },
+    "ちょうせんする": {
+      "text": "ちょうせんする",
+      "vocabulary": [
+        {
+          "english": "challenge / attempt",
+          "kanji": "挑戦する"
+        }
+      ]
+    },
+    "しっぱいする": {
+      "text": "しっぱいする",
+      "vocabulary": [
+        {
+          "english": "fail",
+          "kanji": "失敗する"
+        }
+      ]
+    },
+    "せいこうする": {
+      "text": "せいこうする",
+      "vocabulary": [
+        {
+          "english": "succeed",
+          "kanji": "成功する"
+        }
+      ]
+    },
+    "すすむ": {
+      "text": "すすむ",
+      "vocabulary": [
+        {
+          "english": "make progress",
+          "kanji": "進む"
+        }
+      ]
+    },
+    "おえる": {
+      "text": "おえる",
+      "vocabulary": [
+        {
+          "english": "finish",
+          "kanji": "終える"
+        }
+      ]
+    },
+    "かんせいする": {
+      "text": "かんせいする",
+      "vocabulary": [
+        {
+          "english": "complete",
+          "kanji": "完成する"
+        }
+      ]
+    },
+    "えんきする": {
+      "text": "えんきする",
+      "vocabulary": [
+        {
+          "english": "postpone",
+          "kanji": "延期する"
+        }
+      ]
+    },
+    "ちゅうしする": {
+      "text": "ちゅうしする",
+      "vocabulary": [
+        {
+          "english": "cancel",
+          "kanji": "中止する"
+        }
+      ]
+    },
+    "ゆうせんする": {
+      "text": "ゆうせんする",
+      "vocabulary": [
+        {
+          "english": "give priority",
+          "kanji": "優先する"
+        }
+      ]
+    },
+    "はぶく": {
+      "text": "はぶく",
+      "vocabulary": [
+        {
+          "english": "skip / omit",
+          "kanji": "省く"
+        }
+      ]
+    },
+    "せつやくする": {
+      "text": "せつやくする",
+      "vocabulary": [
+        {
+          "english": "save / conserve",
+          "kanji": "節約する"
+        }
+      ]
+    },
+    "むだにする": {
+      "text": "むだにする",
+      "vocabulary": [
+        {
+          "english": "waste",
+          "kanji": "無駄にする"
+        }
+      ]
+    },
+    "たりる": {
+      "text": "たりる",
+      "vocabulary": [
+        {
+          "english": "be enough",
+          "kanji": "足りる"
+        }
+      ]
+    },
+    "たりない": {
+      "text": "たりない",
+      "vocabulary": [
+        {
+          "english": "lack",
+          "kanji": "足りない"
+        }
+      ]
+    },
+    "こえる": {
+      "text": "こえる",
+      "vocabulary": [
+        {
+          "english": "exceed",
+          "kanji": "超える"
+        }
+      ]
+    },
+    "ふくまれる": {
+      "text": "ふくまれる",
+      "vocabulary": [
+        {
+          "english": "be included",
+          "kanji": "含まれる"
+        }
+      ]
+    },
+    "ふくめる": {
+      "text": "ふくめる",
+      "vocabulary": [
+        {
+          "english": "include",
+          "kanji": "含める"
+        }
+      ]
+    },
+    "かぎられる": {
+      "text": "かぎられる",
+      "vocabulary": [
+        {
+          "english": "be limited",
+          "kanji": "限られる"
+        }
+      ]
+    },
+    "による": {
+      "text": "による",
+      "vocabulary": [
+        {
+          "english": "according to",
+          "kanji": "に因る"
+        }
+      ]
+    },
+    "たとえば": {
+      "text": "たとえば",
+      "vocabulary": [
+        {
+          "english": "for example",
+          "kanji": "例えば"
+        }
+      ]
+    },
+    "きほんてきに": {
+      "text": "きほんてきに",
+      "vocabulary": [
+        {
+          "english": "basically",
+          "kanji": "基本的に"
+        }
+      ]
+    },
+    "いっぱんてきに": {
+      "text": "いっぱんてきに",
+      "vocabulary": [
+        {
+          "english": "generally",
+          "kanji": "一般的に"
+        }
+      ]
+    },
+    "ひかくてき": {
+      "text": "ひかくてき",
+      "vocabulary": [
+        {
+          "english": "relatively",
+          "kanji": "比較的"
+        }
+      ]
+    },
+    "いがいと": {
+      "text": "いがいと",
+      "vocabulary": [
+        {
+          "english": "surprisingly",
+          "kanji": "意外と"
+        }
+      ]
+    },
+    "けっこう": {
+      "text": "けっこう",
+      "vocabulary": [
+        {
+          "english": "quite",
+          "kanji": "結構"
+        }
+      ]
+    },
+    "かなり": {
+      "text": "かなり",
+      "vocabulary": [
+        {
+          "english": "considerably",
+          "kanji": ""
+        }
+      ]
+    },
+    "ほとんど": {
+      "text": "ほとんど",
+      "vocabulary": [
+        {
+          "english": "mostly",
+          "kanji": ""
+        }
+      ]
+    },
+    "だいたい": {
+      "text": "だいたい",
+      "vocabulary": [
+        {
+          "english": "roughly",
+          "kanji": "大体"
+        }
+      ]
+    },
+    "およそ": {
+      "text": "およそ",
+      "vocabulary": [
+        {
+          "english": "approximately",
+          "kanji": ""
+        }
+      ]
+    },
+    "すくなくとも": {
+      "text": "すくなくとも",
+      "vocabulary": [
+        {
+          "english": "at least",
+          "kanji": "少なくとも"
+        }
+      ]
+    },
+    "せいぜい": {
+      "text": "せいぜい",
+      "vocabulary": [
+        {
+          "english": "at most",
+          "kanji": ""
+        }
+      ]
+    },
+    "とりあえず": {
+      "text": "とりあえず",
+      "vocabulary": [
+        {
+          "english": "for now",
+          "kanji": ""
+        }
+      ]
+    },
+    "ひとまず": {
+      "text": "ひとまず",
+      "vocabulary": [
+        {
+          "english": "for the time being",
+          "kanji": ""
+        }
+      ]
+    },
+    "さいしゅうてきに": {
+      "text": "さいしゅうてきに",
+      "vocabulary": [
+        {
+          "english": "in the end",
+          "kanji": "最終的に"
+        }
+      ]
+    },
+    "やっぱり": {
+      "text": "やっぱり",
+      "vocabulary": [
+        {
+          "english": "after all",
+          "kanji": ""
+        }
+      ]
+    },
+    "さすが": {
+      "text": "さすが",
+      "vocabulary": [
+        {
+          "english": "as expected",
+          "kanji": ""
+        }
+      ]
+    },
+    "たしかに": {
+      "text": "たしかに",
+      "vocabulary": [
+        {
+          "english": "certainly",
+          "kanji": "確かに"
+        }
+      ]
+    },
+    "もちろん": {
+      "text": "もちろん",
+      "vocabulary": [
+        {
+          "english": "of course",
+          "kanji": ""
+        }
+      ]
+    },
+    "ちなみに": {
+      "text": "ちなみに",
+      "vocabulary": [
+        {
+          "english": "by the way",
+          "kanji": ""
+        }
+      ]
+    },
+    "かわりに": {
+      "text": "かわりに",
+      "vocabulary": [
+        {
+          "english": "instead",
+          "kanji": "代わりに"
+        }
+      ]
+    },
+    "むしろ": {
+      "text": "むしろ",
+      "vocabulary": [
+        {
+          "english": "rather",
+          "kanji": ""
+        }
+      ]
+    },
+    "そのうえ": {
+      "text": "そのうえ",
+      "vocabulary": [
+        {
+          "english": "besides",
+          "kanji": "その上"
+        }
+      ]
+    },
+    "したがって": {
+      "text": "したがって",
+      "vocabulary": [
+        {
+          "english": "therefore",
+          "kanji": "従って"
+        }
+      ]
+    },
+    "つまり": {
+      "text": "つまり",
+      "vocabulary": [
+        {
+          "english": "in other words",
+          "kanji": ""
+        }
+      ]
+    },
+    "ようするに": {
+      "text": "ようするに",
+      "vocabulary": [
+        {
+          "english": "in short",
+          "kanji": "要するに"
+        }
+      ]
+    },
+    "ただし": {
+      "text": "ただし",
+      "vocabulary": [
+        {
+          "english": "however",
+          "kanji": ""
+        }
+      ]
+    },
+    "しだい": {
+      "text": "しだい",
+      "vocabulary": [
+        {
+          "english": "depending on",
+          "kanji": "次第"
+        }
+      ]
+    },
+    "しゅっしん": {
+      "text": "しゅっしん",
+      "vocabulary": [
+        {
+          "english": "hometown / where someone is from",
+          "kanji": "出身"
+        }
+      ]
+    },
+    "きかい": {
+      "text": "きかい",
+      "vocabulary": [
+        {
+          "english": "opportunity",
+          "kanji": "機会"
+        }
+      ]
+    },
+    "きょうつうてん": {
+      "text": "きょうつうてん",
+      "vocabulary": [
+        {
+          "english": "thing in common",
+          "kanji": "共通点"
+        }
+      ]
+    },
+    "にってい": {
+      "text": "にってい",
+      "vocabulary": [
+        {
+          "english": "schedule",
+          "kanji": "日程"
+        }
+      ]
+    },
+    "つごう": {
+      "text": "つごう",
+      "vocabulary": [
+        {
+          "english": "availability / circumstances",
+          "kanji": "都合"
+        }
+      ]
+    },
+    "わだい": {
+      "text": "わだい",
+      "vocabulary": [
+        {
+          "english": "topic",
+          "kanji": "話題"
+        }
+      ]
+    },
+    "じょうだん": {
+      "text": "じょうだん",
+      "vocabulary": [
+        {
+          "english": "joke",
+          "kanji": "冗談"
+        }
+      ]
+    },
+    "かんちがい": {
+      "text": "かんちがい",
+      "vocabulary": [
+        {
+          "english": "misunderstanding",
+          "kanji": "勘違い"
+        }
+      ]
+    },
+    "ちいき": {
+      "text": "ちいき",
+      "vocabulary": [
+        {
+          "english": "region",
+          "kanji": "地域"
+        }
+      ]
+    },
+    "とかい": {
+      "text": "とかい",
+      "vocabulary": [
+        {
+          "english": "city / urban area",
+          "kanji": "都会"
+        }
+      ]
+    },
+    "どうりょう": {
+      "text": "どうりょう",
+      "vocabulary": [
+        {
+          "english": "coworker",
+          "kanji": "同僚"
+        }
+      ]
+    },
+    "じょうし": {
+      "text": "じょうし",
+      "vocabulary": [
+        {
+          "english": "boss / superior",
+          "kanji": "上司"
+        }
+      ]
+    },
+    "せだい": {
+      "text": "せだい",
+      "vocabulary": [
+        {
+          "english": "generation",
+          "kanji": "世代"
+        }
+      ]
+    },
+    "しょくば": {
+      "text": "しょくば",
+      "vocabulary": [
+        {
+          "english": "workplace",
+          "kanji": "職場"
+        }
+      ]
+    },
+    "たんとう": {
+      "text": "たんとう",
+      "vocabulary": [
+        {
+          "english": "person in charge / responsibility",
+          "kanji": "担当"
+        }
+      ]
+    },
+    "しめきり": {
+      "text": "しめきり",
+      "vocabulary": [
+        {
+          "english": "deadline",
+          "kanji": "締め切り"
+        }
+      ]
+    },
+    "しゅっちょう": {
+      "text": "しゅっちょう",
+      "vocabulary": [
+        {
+          "english": "business trip",
+          "kanji": "出張"
+        }
+      ]
+    },
+    "ざんぎょう": {
+      "text": "ざんぎょう",
+      "vocabulary": [
+        {
+          "english": "overtime",
+          "kanji": "残業"
+        }
+      ]
+    },
+    "きゅうけい": {
+      "text": "きゅうけい",
+      "vocabulary": [
+        {
+          "english": "break",
+          "kanji": "休憩"
+        }
+      ]
+    },
+    "るす": {
+      "text": "るす",
+      "vocabulary": [
+        {
+          "english": "absence / away from home",
+          "kanji": "留守"
+        }
+      ]
+    },
+    "しゅくはく": {
+      "text": "しゅくはく",
+      "vocabulary": [
+        {
+          "english": "overnight stay / accommodation",
+          "kanji": "宿泊"
+        }
+      ]
+    },
+    "かいさつ": {
+      "text": "かいさつ",
+      "vocabulary": [
+        {
+          "english": "ticket gate",
+          "kanji": "改札"
+        }
+      ]
+    },
+    "ほうめん": {
+      "text": "ほうめん",
+      "vocabulary": [
+        {
+          "english": "direction / area",
+          "kanji": "方面"
+        }
+      ]
+    },
+    "ちえん": {
+      "text": "ちえん",
+      "vocabulary": [
+        {
+          "english": "delay",
+          "kanji": "遅延"
+        }
+      ]
+    },
+    "しゅうでん": {
+      "text": "しゅうでん",
+      "vocabulary": [
+        {
+          "english": "last train",
+          "kanji": "終電"
+        }
+      ]
+    },
+    "おうふく": {
+      "text": "おうふく",
+      "vocabulary": [
+        {
+          "english": "round trip",
+          "kanji": "往復"
+        }
+      ]
+    },
+    "かたみち": {
+      "text": "かたみち",
+      "vocabulary": [
+        {
+          "english": "one way",
+          "kanji": "片道"
+        }
+      ]
+    },
+    "しゅうへん": {
+      "text": "しゅうへん",
+      "vocabulary": [
+        {
+          "english": "surrounding area",
+          "kanji": "周辺"
+        }
+      ]
+    },
+    "ざいこ": {
+      "text": "ざいこ",
+      "vocabulary": [
+        {
+          "english": "stock / inventory",
+          "kanji": "在庫"
+        }
+      ]
+    },
+    "よほう": {
+      "text": "よほう",
+      "vocabulary": [
+        {
+          "english": "forecast",
+          "kanji": "予報"
+        }
+      ]
+    },
+    "はつおん": {
+      "text": "はつおん",
+      "vocabulary": [
+        {
+          "english": "pronunciation",
+          "kanji": "発音"
+        }
+      ]
+    },
+    "けいご": {
+      "text": "けいご",
+      "vocabulary": [
+        {
+          "english": "honorific language",
+          "kanji": "敬語"
+        }
+      ]
+    },
+    "ほうげん": {
+      "text": "ほうげん",
+      "vocabulary": [
+        {
+          "english": "dialect",
+          "kanji": "方言"
+        }
+      ]
+    },
+    "げんいん": {
+      "text": "げんいん",
+      "vocabulary": [
+        {
+          "english": "cause",
+          "kanji": "原因"
+        }
+      ]
+    },
+    "こしょう": {
+      "text": "こしょう",
+      "vocabulary": [
+        {
+          "english": "breakdown / malfunction",
+          "kanji": "故障"
+        }
+      ]
+    },
+    "そうだん": {
+      "text": "そうだん",
+      "vocabulary": [
+        {
+          "english": "consultation / ask for advice",
+          "kanji": "相談"
+        }
+      ]
+    },
+    "よゆう": {
+      "text": "よゆう",
+      "vocabulary": [
+        {
+          "english": "leeway / spare capacity",
+          "kanji": "余裕"
+        }
+      ]
+    },
+    "ふんいき": {
+      "text": "ふんいき",
+      "vocabulary": [
+        {
+          "english": "atmosphere",
+          "kanji": "雰囲気"
+        }
+      ]
+    },
+    "たいど": {
+      "text": "たいど",
+      "vocabulary": [
+        {
+          "english": "attitude",
+          "kanji": "態度"
+        }
+      ]
+    },
+    "かちかん": {
+      "text": "かちかん",
+      "vocabulary": [
+        {
+          "english": "values",
+          "kanji": "価値観"
+        }
+      ]
+    },
+    "ひょうばん": {
+      "text": "ひょうばん",
+      "vocabulary": [
+        {
+          "english": "reputation",
+          "kanji": "評判"
+        }
+      ]
+    },
+    "りゅうこう": {
+      "text": "りゅうこう",
+      "vocabulary": [
+        {
+          "english": "trend",
+          "kanji": "流行"
+        }
+      ]
+    },
+    "いわかん": {
+      "text": "いわかん",
+      "vocabulary": [
+        {
+          "english": "sense that something is off",
+          "kanji": "違和感"
+        }
+      ]
+    },
+    "こうか": {
+      "text": "こうか",
+      "vocabulary": [
+        {
+          "english": "effect",
+          "kanji": "効果"
+        }
+      ]
+    },
+    "ようす": {
+      "text": "ようす",
+      "vocabulary": [
+        {
+          "english": "state / appearance / situation",
+          "kanji": "様子"
+        }
+      ]
+    },
+    "ていど": {
+      "text": "ていど",
+      "vocabulary": [
+        {
+          "english": "degree / extent",
+          "kanji": "程度"
+        }
+      ]
+    },
+    "ないよう": {
+      "text": "ないよう",
+      "vocabulary": [
+        {
+          "english": "contents",
+          "kanji": "内容"
+        }
+      ]
+    },
+    "じょうほう": {
+      "text": "じょうほう",
+      "vocabulary": [
+        {
+          "english": "information",
+          "kanji": "情報"
+        }
+      ]
+    },
+    "へんしん": {
+      "text": "へんしん",
+      "vocabulary": [
+        {
+          "english": "reply",
+          "kanji": "返信"
+        }
+      ]
+    },
+    "つうち": {
+      "text": "つうち",
+      "vocabulary": [
+        {
+          "english": "notification",
+          "kanji": "通知"
+        }
+      ]
+    },
+    "せつぞく": {
+      "text": "せつぞく",
+      "vocabulary": [
+        {
+          "english": "connection",
+          "kanji": "接続"
+        }
+      ]
+    },
+    "けんさく": {
+      "text": "けんさく",
+      "vocabulary": [
+        {
+          "english": "search",
+          "kanji": "検索"
+        }
+      ]
+    },
+    "ほんやく": {
+      "text": "ほんやく",
+      "vocabulary": [
+        {
+          "english": "translation",
+          "kanji": "翻訳"
+        }
+      ]
+    },
+    "へいきん": {
+      "text": "へいきん",
+      "vocabulary": [
+        {
+          "english": "average",
+          "kanji": "平均"
+        }
+      ]
+    },
+    "きかん": {
+      "text": "きかん",
+      "vocabulary": [
+        {
+          "english": "period",
+          "kanji": "期間"
+        }
+      ]
+    },
+    "じき": {
+      "text": "じき",
+      "vocabulary": [
+        {
+          "english": "period / season",
+          "kanji": "時期"
+        }
+      ]
+    },
+    "とうじつ": {
+      "text": "とうじつ",
+      "vocabulary": [
+        {
+          "english": "the day itself",
+          "kanji": "当日"
+        }
+      ]
+    },
+    "ぜんじつ": {
+      "text": "ぜんじつ",
+      "vocabulary": [
+        {
+          "english": "previous day",
+          "kanji": "前日"
+        }
+      ]
+    },
+    "よくじつ": {
+      "text": "よくじつ",
+      "vocabulary": [
+        {
+          "english": "following day",
+          "kanji": "翌日"
+        }
+      ]
+    },
+    "じじょう": {
+      "text": "じじょう",
+      "vocabulary": [
+        {
+          "english": "circumstances",
+          "kanji": "事情"
+        }
+      ]
+    },
+    "じょうしき": {
+      "text": "じょうしき",
+      "vocabulary": [
+        {
+          "english": "common sense",
+          "kanji": "常識"
+        }
+      ]
+    },
+    "れいぎ": {
+      "text": "れいぎ",
+      "vocabulary": [
+        {
+          "english": "manners",
+          "kanji": "礼儀"
+        }
+      ]
+    },
+    "えんりょ": {
+      "text": "えんりょ",
+      "vocabulary": [
+        {
+          "english": "restraint / holding back",
+          "kanji": "遠慮"
+        }
+      ]
+    },
+    "きょか": {
+      "text": "きょか",
+      "vocabulary": [
+        {
+          "english": "permission",
+          "kanji": "許可"
+        }
+      ]
+    },
+    "こんご": {
+      "text": "こんご",
+      "vocabulary": [
+        {
+          "english": "from now on",
+          "kanji": "今後"
+        }
+      ]
+    },
+    "しょうらい": {
+      "text": "しょうらい",
+      "vocabulary": [
+        {
+          "english": "future",
+          "kanji": "将来"
+        }
+      ]
+    },
+    "きじゅん": {
+      "text": "きじゅん",
+      "vocabulary": [
+        {
+          "english": "standard / criterion",
+          "kanji": "基準"
+        }
+      ]
+    },
+    "しくみ": {
+      "text": "しくみ",
+      "vocabulary": [
+        {
+          "english": "mechanism / how something works",
+          "kanji": "仕組み"
+        }
+      ]
+    },
+    "げんじつ": {
+      "text": "げんじつ",
+      "vocabulary": [
+        {
+          "english": "reality",
+          "kanji": "現実"
+        }
+      ]
+    },
+    "ぐうぜん": {
+      "text": "ぐうぜん",
+      "vocabulary": [
+        {
+          "english": "coincidence",
+          "kanji": "偶然"
+        }
+      ]
+    },
+    "じっか": {
+      "text": "じっか",
+      "vocabulary": [
+        {
+          "english": "parents' home",
+          "kanji": "実家"
+        }
+      ]
+    },
+    "きせい": {
+      "text": "きせい",
+      "vocabulary": [
+        {
+          "english": "returning to one's hometown",
+          "kanji": "帰省"
+        }
+      ]
+    },
+    "ともばたらき": {
+      "text": "ともばたらき",
+      "vocabulary": [
+        {
+          "english": "dual-income household",
+          "kanji": "共働き"
+        }
+      ]
+    },
+    "どうき": {
+      "text": "どうき",
+      "vocabulary": [
+        {
+          "english": "colleague who joined at the same time",
+          "kanji": "同期"
+        }
+      ]
+    },
+    "にんげんかんけい": {
+      "text": "にんげんかんけい",
+      "vocabulary": [
+        {
+          "english": "interpersonal relationships",
+          "kanji": "人間関係"
+        }
+      ]
+    },
+    "つきあい": {
+      "text": "つきあい",
+      "vocabulary": [
+        {
+          "english": "social relationship / association",
+          "kanji": "付き合い"
+        }
+      ]
+    },
+    "ゆうきゅう": {
+      "text": "ゆうきゅう",
+      "vocabulary": [
+        {
+          "english": "paid leave",
+          "kanji": "有給"
+        }
+      ]
+    },
+    "てんしょく": {
+      "text": "てんしょく",
+      "vocabulary": [
+        {
+          "english": "changing jobs",
+          "kanji": "転職"
+        }
+      ]
+    },
+    "しゅうしょく": {
+      "text": "しゅうしょく",
+      "vocabulary": [
+        {
+          "english": "getting a job",
+          "kanji": "就職"
+        }
+      ]
+    },
+    "ほんね": {
+      "text": "ほんね",
+      "vocabulary": [
+        {
+          "english": "true feelings",
+          "kanji": "本音"
+        }
+      ]
+    },
+    "たてまえ": {
+      "text": "たてまえ",
+      "vocabulary": [
+        {
+          "english": "public stance",
+          "kanji": "建前"
+        }
+      ]
+    },
+    "きづかい": {
+      "text": "きづかい",
+      "vocabulary": [
+        {
+          "english": "consideration",
+          "kanji": "気遣い"
+        }
+      ]
+    },
+    "じょうげかんけい": {
+      "text": "じょうげかんけい",
+      "vocabulary": [
+        {
+          "english": "hierarchical relationship",
+          "kanji": "上下関係"
+        }
+      ]
+    },
+    "さしいれ": {
+      "text": "さしいれ",
+      "vocabulary": [
+        {
+          "english": "food / gift brought for someone",
+          "kanji": "差し入れ"
+        }
+      ]
+    },
+    "わりかん": {
+      "text": "わりかん",
+      "vocabulary": [
+        {
+          "english": "splitting the bill",
+          "kanji": "割り勘"
+        }
+      ]
+    },
+    "しにせ": {
+      "text": "しにせ",
+      "vocabulary": [
+        {
+          "english": "long-established shop",
+          "kanji": "老舗"
+        }
+      ]
+    },
+    "あなば": {
+      "text": "あなば",
+      "vocabulary": [
+        {
+          "english": "hidden gem",
+          "kanji": "穴場"
+        }
+      ]
+    },
+    "ていばん": {
+      "text": "ていばん",
+      "vocabulary": [
+        {
+          "english": "standard / classic choice",
+          "kanji": "定番"
+        }
+      ]
+    },
+    "しょうしか": {
+      "text": "しょうしか",
+      "vocabulary": [
+        {
+          "english": "declining birthrate",
+          "kanji": "少子化"
+        }
+      ]
+    },
+    "こうれいか": {
+      "text": "こうれいか",
+      "vocabulary": [
+        {
+          "english": "aging population",
+          "kanji": "高齢化"
+        }
+      ]
+    },
+    "ひとでぶそく": {
+      "text": "ひとでぶそく",
+      "vocabulary": [
+        {
+          "english": "labor shortage",
+          "kanji": "人手不足"
+        }
+      ]
+    },
+    "ぶっか": {
+      "text": "ぶっか",
+      "vocabulary": [
+        {
+          "english": "prices / cost of goods",
+          "kanji": "物価"
+        }
+      ]
+    },
+    "ねあげ": {
+      "text": "ねあげ",
+      "vocabulary": [
+        {
+          "english": "price increase",
+          "kanji": "値上げ"
+        }
+      ]
+    },
+    "せけん": {
+      "text": "せけん",
+      "vocabulary": [
+        {
+          "english": "society / the public",
+          "kanji": "世間"
+        }
+      ]
+    },
+    "しゅうい": {
+      "text": "しゅうい",
+      "vocabulary": [
+        {
+          "english": "surroundings / people around you",
+          "kanji": "周囲"
+        }
+      ]
+    },
+    "ちいきさ": {
+      "text": "ちいきさ",
+      "vocabulary": [
+        {
+          "english": "regional difference",
+          "kanji": "地域差"
+        }
+      ]
+    },
+    "せだいさ": {
+      "text": "せだいさ",
+      "vocabulary": [
+        {
+          "english": "generational difference",
+          "kanji": "世代差"
+        }
+      ]
+    },
+    "こじんさ": {
+      "text": "こじんさ",
+      "vocabulary": [
+        {
+          "english": "individual difference",
+          "kanji": "個人差"
+        }
+      ]
+    },
+    "けいけん": {
+      "text": "けいけん",
+      "vocabulary": [
+        {
+          "english": "experience",
+          "kanji": "経験"
+        }
+      ]
+    },
+    "きっかけ": {
+      "text": "きっかけ",
+      "vocabulary": [
+        {
+          "english": "trigger / what got you started",
+          "kanji": ""
+        }
+      ]
+    },
+    "かんそう": {
+      "text": "かんそう",
+      "vocabulary": [
+        {
+          "english": "impression / thoughts",
+          "kanji": "感想"
+        }
+      ]
+    },
+    "このみ": {
+      "text": "このみ",
+      "vocabulary": [
+        {
+          "english": "preference",
+          "kanji": "好み"
+        }
+      ]
+    },
+    "ばあい": {
+      "text": "ばあい",
+      "vocabulary": [
+        {
+          "english": "case / situation",
+          "kanji": "場合"
+        }
+      ]
+    },
+    "やくそく": {
+      "text": "やくそく",
+      "vocabulary": [
+        {
+          "english": "promise / appointment",
+          "kanji": "約束"
+        }
+      ]
+    },
+    "へんこう": {
+      "text": "へんこう",
+      "vocabulary": [
+        {
+          "english": "change / modification",
+          "kanji": "変更"
+        }
+      ]
+    },
+    "しりあい": {
+      "text": "しりあい",
+      "vocabulary": [
+        {
+          "english": "acquaintance",
+          "kanji": "知り合い"
+        }
+      ]
+    },
+    "あいて": {
+      "text": "あいて",
+      "vocabulary": [
+        {
+          "english": "other person / partner",
+          "kanji": "相手"
+        }
+      ]
+    },
+    "ふうふ": {
+      "text": "ふうふ",
+      "vocabulary": [
+        {
+          "english": "married couple",
+          "kanji": "夫婦"
+        }
+      ]
+    },
+    "かんこうきゃく": {
+      "text": "かんこうきゃく",
+      "vocabulary": [
+        {
+          "english": "tourist",
+          "kanji": "観光客"
+        }
+      ]
+    },
+    "てんいん": {
+      "text": "てんいん",
+      "vocabulary": [
+        {
+          "english": "shop staff",
+          "kanji": "店員"
+        }
+      ]
+    },
+    "かいぎ": {
+      "text": "かいぎ",
+      "vocabulary": [
+        {
+          "english": "meeting",
+          "kanji": "会議"
+        }
+      ]
+    },
+    "しりょう": {
+      "text": "しりょう",
+      "vocabulary": [
+        {
+          "english": "documents / materials",
+          "kanji": "資料"
+        }
+      ]
+    },
+    "れんきゅう": {
+      "text": "れんきゅう",
+      "vocabulary": [
+        {
+          "english": "consecutive holidays",
+          "kanji": "連休"
+        }
+      ]
+    },
+    "かじ": {
+      "text": "かじ",
+      "vocabulary": [
+        {
+          "english": "housework",
+          "kanji": "家事"
+        }
+      ]
+    },
+    "そうじ": {
+      "text": "そうじ",
+      "vocabulary": [
+        {
+          "english": "cleaning",
+          "kanji": "掃除"
+        }
+      ]
+    },
+    "きんじょ": {
+      "text": "きんじょ",
+      "vocabulary": [
+        {
+          "english": "neighborhood",
+          "kanji": "近所"
+        }
+      ]
+    },
+    "ようじ": {
+      "text": "ようじ",
+      "vocabulary": [
+        {
+          "english": "errand / something to do",
+          "kanji": "用事"
+        }
+      ]
+    },
+    "にもつ": {
+      "text": "にもつ",
+      "vocabulary": [
+        {
+          "english": "luggage / parcel",
+          "kanji": "荷物"
+        }
+      ]
+    },
+    "わすれもの": {
+      "text": "わすれもの",
+      "vocabulary": [
+        {
+          "english": "forgotten item",
+          "kanji": "忘れ物"
+        }
+      ]
+    },
+    "よやく": {
+      "text": "よやく",
+      "vocabulary": [
+        {
+          "english": "reservation",
+          "kanji": "予約"
+        }
+      ]
+    },
+    "やど": {
+      "text": "やど",
+      "vocabulary": [
+        {
+          "english": "lodging / inn",
+          "kanji": "宿"
+        }
+      ]
+    },
+    "かんこう": {
+      "text": "かんこう",
+      "vocabulary": [
+        {
+          "english": "sightseeing",
+          "kanji": "観光"
+        }
+      ]
+    },
+    "きっぷ": {
+      "text": "きっぷ",
+      "vocabulary": [
+        {
+          "english": "ticket",
+          "kanji": "切符"
+        }
+      ]
+    },
+    "のりかえ": {
+      "text": "のりかえ",
+      "vocabulary": [
+        {
+          "english": "transfer",
+          "kanji": "乗り換え"
+        }
+      ]
+    },
+    "こうさてん": {
+      "text": "こうさてん",
+      "vocabulary": [
+        {
+          "english": "intersection",
+          "kanji": "交差点"
+        }
+      ]
+    },
+    "いりぐち": {
+      "text": "いりぐち",
+      "vocabulary": [
+        {
+          "english": "entrance",
+          "kanji": "入口"
+        }
+      ]
+    },
+    "でぐち": {
+      "text": "でぐち",
+      "vocabulary": [
+        {
+          "english": "exit",
+          "kanji": "出口"
+        }
+      ]
+    },
+    "ほうこう": {
+      "text": "ほうこう",
+      "vocabulary": [
+        {
+          "english": "direction",
+          "kanji": "方向"
+        }
+      ]
+    },
+    "かいけい": {
+      "text": "かいけい",
+      "vocabulary": [
+        {
+          "english": "bill / checkout",
+          "kanji": "会計"
+        }
+      ]
+    },
+    "げんきん": {
+      "text": "げんきん",
+      "vocabulary": [
+        {
+          "english": "cash",
+          "kanji": "現金"
+        }
+      ]
+    },
+    "しはらい": {
+      "text": "しはらい",
+      "vocabulary": [
+        {
+          "english": "payment",
+          "kanji": "支払い"
+        }
+      ]
+    },
+    "うりきれ": {
+      "text": "うりきれ",
+      "vocabulary": [
+        {
+          "english": "sold out",
+          "kanji": "売り切れ"
+        }
+      ]
+    },
+    "しゅるい": {
+      "text": "しゅるい",
+      "vocabulary": [
+        {
+          "english": "type / variety",
+          "kanji": "種類"
+        }
+      ]
+    },
+    "しょうひん": {
+      "text": "しょうひん",
+      "vocabulary": [
+        {
+          "english": "product",
+          "kanji": "商品"
+        }
+      ]
+    },
+    "きおん": {
+      "text": "きおん",
+      "vocabulary": [
+        {
+          "english": "air temperature",
+          "kanji": "気温"
+        }
+      ]
+    },
+    "しっけ": {
+      "text": "しっけ",
+      "vocabulary": [
+        {
+          "english": "humidity / dampness",
+          "kanji": "湿気"
+        }
+      ]
+    },
+    "きせつ": {
+      "text": "きせつ",
+      "vocabulary": [
+        {
+          "english": "season",
+          "kanji": "季節"
+        }
+      ]
+    },
+    "つゆ": {
+      "text": "つゆ",
+      "vocabulary": [
+        {
+          "english": "rainy season",
+          "kanji": "梅雨"
+        }
+      ]
+    },
+    "たいふう": {
+      "text": "たいふう",
+      "vocabulary": [
+        {
+          "english": "typhoon",
+          "kanji": "台風"
+        }
+      ]
+    },
+    "こうよう": {
+      "text": "こうよう",
+      "vocabulary": [
+        {
+          "english": "autumn leaves",
+          "kanji": "紅葉"
+        }
+      ]
+    },
+    "たんご": {
+      "text": "たんご",
+      "vocabulary": [
+        {
+          "english": "word / vocabulary item",
+          "kanji": "単語"
+        }
+      ]
+    },
+    "ぶんぽう": {
+      "text": "ぶんぽう",
+      "vocabulary": [
+        {
+          "english": "grammar",
+          "kanji": "文法"
+        }
+      ]
+    },
+    "よみかた": {
+      "text": "よみかた",
+      "vocabulary": [
+        {
+          "english": "reading / how to read",
+          "kanji": "読み方"
+        }
+      ]
+    },
+    "いいかた": {
+      "text": "いいかた",
+      "vocabulary": [
+        {
+          "english": "way of saying",
+          "kanji": "言い方"
+        }
+      ]
+    },
+    "ひょうげん": {
+      "text": "ひょうげん",
+      "vocabulary": [
+        {
+          "english": "expression",
+          "kanji": "表現"
+        }
+      ]
+    },
+    "まいご": {
+      "text": "まいご",
+      "vocabulary": [
+        {
+          "english": "lost person / lost child",
+          "kanji": "迷子"
+        }
+      ]
+    },
+    "れんらく": {
+      "text": "れんらく",
+      "vocabulary": [
+        {
+          "english": "contact / message",
+          "kanji": "連絡"
+        }
+      ]
+    },
+    "おねがい": {
+      "text": "おねがい",
+      "vocabulary": [
+        {
+          "english": "request / favor",
+          "kanji": "お願い"
+        }
+      ]
+    },
+    "てつだい": {
+      "text": "てつだい",
+      "vocabulary": [
+        {
+          "english": "help / assistance",
+          "kanji": "手伝い"
+        }
+      ]
+    },
+    "れんらくさき": {
+      "text": "れんらくさき",
+      "vocabulary": [
+        {
+          "english": "contact details",
+          "kanji": "連絡先"
+        }
+      ]
+    },
+    "じゅうしょ": {
+      "text": "じゅうしょ",
+      "vocabulary": [
+        {
+          "english": "address",
+          "kanji": "住所"
+        }
+      ]
+    },
+    "じゅんばん": {
+      "text": "じゅんばん",
+      "vocabulary": [
+        {
+          "english": "order / turn",
+          "kanji": "順番"
+        }
+      ]
+    },
+    "れつ": {
+      "text": "れつ",
+      "vocabulary": [
+        {
+          "english": "line / queue",
+          "kanji": "列"
+        }
+      ]
+    },
+    "あき": {
+      "text": "あき",
+      "vocabulary": [
+        {
+          "english": "vacancy / opening",
+          "kanji": "空き"
+        }
+      ]
+    },
+    "きもち": {
+      "text": "きもち",
+      "vocabulary": [
+        {
+          "english": "feeling",
+          "kanji": "気持ち"
+        }
+      ]
+    },
+    "きぶん": {
+      "text": "きぶん",
+      "vocabulary": [
+        {
+          "english": "mood",
+          "kanji": "気分"
+        }
+      ]
+    },
+    "きんちょう": {
+      "text": "きんちょう",
+      "vocabulary": [
+        {
+          "english": "nervousness / tension",
+          "kanji": "緊張"
+        }
+      ]
+    },
+    "あんしん": {
+      "text": "あんしん",
+      "vocabulary": [
+        {
+          "english": "relief / peace of mind",
+          "kanji": "安心"
+        }
+      ]
+    },
+    "しんぱい": {
+      "text": "しんぱい",
+      "vocabulary": [
+        {
+          "english": "worry",
+          "kanji": "心配"
+        }
+      ]
+    },
+    "たのしみ": {
+      "text": "たのしみ",
+      "vocabulary": [
+        {
+          "english": "something to look forward to",
+          "kanji": "楽しみ"
+        }
+      ]
+    },
+    "じしん": {
+      "text": "じしん",
+      "vocabulary": [
+        {
+          "english": "confidence",
+          "kanji": "自信"
+        }
+      ]
+    },
+    "ゆうき": {
+      "text": "ゆうき",
+      "vocabulary": [
+        {
+          "english": "courage",
+          "kanji": "勇気"
+        }
+      ]
+    },
+    "ひとごみ": {
+      "text": "ひとごみ",
+      "vocabulary": [
+        {
+          "english": "crowd",
+          "kanji": "人混み"
+        }
+      ]
+    },
+    "にんき": {
+      "text": "にんき",
+      "vocabulary": [
+        {
+          "english": "popularity",
+          "kanji": "人気"
+        }
+      ]
+    },
+    "おもいで": {
+      "text": "おもいで",
+      "vocabulary": [
+        {
+          "english": "memory",
+          "kanji": "思い出"
+        }
+      ]
+    },
+    "けしき": {
+      "text": "けしき",
+      "vocabulary": [
+        {
+          "english": "scenery",
+          "kanji": "景色"
+        }
+      ]
+    },
+    "れきし": {
+      "text": "れきし",
+      "vocabulary": [
+        {
+          "english": "history",
+          "kanji": "歴史"
+        }
+      ]
+    },
+    "でんとう": {
+      "text": "でんとう",
+      "vocabulary": [
+        {
+          "english": "tradition",
+          "kanji": "伝統"
+        }
+      ]
+    },
+    "へんか": {
+      "text": "へんか",
+      "vocabulary": [
+        {
+          "english": "change",
+          "kanji": "変化"
+        }
+      ]
+    },
+    "ぜんたい": {
+      "text": "ぜんたい",
+      "vocabulary": [
+        {
+          "english": "whole / overall",
+          "kanji": "全体"
+        }
+      ]
+    },
+    "へんじ": {
+      "text": "へんじ",
+      "vocabulary": [
+        {
+          "english": "reply / response",
+          "kanji": "返事"
+        }
+      ]
+    },
+    "せってい": {
+      "text": "せってい",
+      "vocabulary": [
+        {
+          "english": "setting",
+          "kanji": "設定"
+        }
+      ]
+    },
+    "じゅうでん": {
+      "text": "じゅうでん",
+      "vocabulary": [
+        {
+          "english": "charging",
+          "kanji": "充電"
+        }
+      ]
+    },
+    "でんち": {
+      "text": "でんち",
+      "vocabulary": [
+        {
+          "english": "battery",
+          "kanji": "電池"
+        }
+      ]
+    },
+    "でんぱ": {
+      "text": "でんぱ",
+      "vocabulary": [
+        {
+          "english": "signal / radio waves",
+          "kanji": "電波"
+        }
+      ]
+    },
+    "どうが": {
+      "text": "どうが",
+      "vocabulary": [
+        {
+          "english": "video",
+          "kanji": "動画"
+        }
+      ]
+    },
+    "きじ": {
+      "text": "きじ",
+      "vocabulary": [
+        {
+          "english": "article",
+          "kanji": "記事"
+        }
+      ]
+    },
+    "かいすう": {
+      "text": "かいすう",
+      "vocabulary": [
+        {
+          "english": "number of times",
+          "kanji": "回数"
+        }
+      ]
+    },
+    "りょう": {
+      "text": "りょう",
+      "vocabulary": [
+        {
+          "english": "amount",
+          "kanji": "量"
+        }
+      ]
+    },
+    "のこり": {
+      "text": "のこり",
+      "vocabulary": [
+        {
+          "english": "remainder / what's left",
+          "kanji": "残り"
+        }
+      ]
+    },
+    "ばい": {
+      "text": "ばい",
+      "vocabulary": [
+        {
+          "english": "times / double",
+          "kanji": "倍"
+        }
+      ]
+    },
+    "いじょう": {
+      "text": "いじょう",
+      "vocabulary": [
+        {
+          "english": "at least / more than",
+          "kanji": "以上"
+        }
+      ]
+    },
+    "いか": {
+      "text": "いか",
+      "vocabulary": [
+        {
+          "english": "at most / less than",
+          "kanji": "以下"
+        }
+      ]
+    },
+    "いない": {
+      "text": "いない",
+      "vocabulary": [
+        {
+          "english": "within",
+          "kanji": "以内"
+        }
+      ]
+    },
+    "へいじつ": {
+      "text": "へいじつ",
+      "vocabulary": [
+        {
+          "english": "weekday",
+          "kanji": "平日"
+        }
+      ]
+    },
+    "しゅうまつ": {
+      "text": "しゅうまつ",
+      "vocabulary": [
+        {
+          "english": "weekend",
+          "kanji": "週末"
+        }
+      ]
+    },
+    "こんかい": {
+      "text": "こんかい",
+      "vocabulary": [
+        {
+          "english": "this time",
+          "kanji": "今回"
+        }
+      ]
+    },
+    "ぜんかい": {
+      "text": "ぜんかい",
+      "vocabulary": [
+        {
+          "english": "last time",
+          "kanji": "前回"
+        }
+      ]
+    },
+    "じかい": {
+      "text": "じかい",
+      "vocabulary": [
+        {
+          "english": "next time",
+          "kanji": "次回"
+        }
+      ]
+    },
+    "にちじょう": {
+      "text": "にちじょう",
+      "vocabulary": [
+        {
+          "english": "everyday life",
+          "kanji": "日常"
+        }
+      ]
+    },
+    "めいわく": {
+      "text": "めいわく",
+      "vocabulary": [
+        {
+          "english": "trouble / nuisance",
+          "kanji": "迷惑"
+        }
+      ]
+    },
+    "きんし": {
+      "text": "きんし",
+      "vocabulary": [
+        {
+          "english": "prohibition",
+          "kanji": "禁止"
+        }
+      ]
+    },
+    "ちゅうい": {
+      "text": "ちゅうい",
+      "vocabulary": [
+        {
+          "english": "caution / attention",
+          "kanji": "注意"
+        }
+      ]
+    },
+    "ほんにん": {
+      "text": "ほんにん",
+      "vocabulary": [
+        {
+          "english": "the person themself",
+          "kanji": "本人"
+        }
+      ]
+    },
+    "おたがい": {
+      "text": "おたがい",
+      "vocabulary": [
+        {
+          "english": "each other",
+          "kanji": "お互い"
+        }
+      ]
+    },
+    "いちおう": {
+      "text": "いちおう",
+      "vocabulary": [
+        {
+          "english": "for now / just in case",
+          "kanji": "一応"
+        }
+      ]
+    },
+    "ぎゃくに": {
+      "text": "ぎゃくに",
+      "vocabulary": [
+        {
+          "english": "conversely / the other way around",
+          "kanji": "逆に"
+        }
+      ]
+    },
+    "しかも": {
+      "text": "しかも",
+      "vocabulary": [
+        {
+          "english": "moreover / what's more",
+          "kanji": ""
+        }
+      ]
+    },
+    "いっぽうで": {
+      "text": "いっぽうで",
+      "vocabulary": [
+        {
+          "english": "on the other hand",
+          "kanji": "一方で"
+        }
+      ]
+    },
+    "とにかく": {
+      "text": "とにかく",
+      "vocabulary": [
+        {
+          "english": "anyway / in any case",
+          "kanji": ""
+        }
+      ]
+    },
+    "せっかく": {
+      "text": "せっかく",
+      "vocabulary": [
+        {
+          "english": "since one has gone to the trouble",
+          "kanji": ""
+        }
+      ]
+    },
+    "なかなか": {
+      "text": "なかなか",
+      "vocabulary": [
+        {
+          "english": "quite / not easily",
+          "kanji": ""
+        }
+      ]
+    },
+    "つい": {
+      "text": "つい",
+      "vocabulary": [
+        {
+          "english": "unintentionally",
+          "kanji": ""
+        }
+      ]
+    },
+    "ねんのため": {
+      "text": "ねんのため",
+      "vocabulary": [
+        {
+          "english": "just in case",
+          "kanji": "念のため"
+        }
+      ]
+    },
+    "それでも": {
+      "text": "それでも",
+      "vocabulary": [
+        {
+          "english": "even so",
+          "kanji": ""
+        }
+      ]
+    },
+    "できれば": {
+      "text": "できれば",
+      "vocabulary": [
+        {
+          "english": "if possible",
+          "kanji": ""
+        }
+      ]
+    },
+    "だいぶ": {
+      "text": "だいぶ",
+      "vocabulary": [
+        {
+          "english": "considerably",
+          "kanji": ""
+        }
+      ]
+    },
+    "そのうち": {
+      "text": "そのうち",
+      "vocabulary": [
+        {
+          "english": "eventually / one of these days",
+          "kanji": ""
+        }
+      ]
+    },
+    "たまたま": {
+      "text": "たまたま",
+      "vocabulary": [
+        {
+          "english": "by chance",
+          "kanji": ""
+        }
+      ]
+    },
+    "わざわざ": {
+      "text": "わざわざ",
+      "vocabulary": [
+        {
+          "english": "going out of one's way",
+          "kanji": ""
+        }
+      ]
+    },
+    "そろそろ": {
+      "text": "そろそろ",
+      "vocabulary": [
+        {
+          "english": "soon / about time",
+          "kanji": ""
+        }
+      ]
+    },
+    "もともと": {
+      "text": "もともと",
+      "vocabulary": [
+        {
+          "english": "originally",
+          "kanji": ""
+        }
+      ]
+    },
+    "あんがい": {
+      "text": "あんがい",
+      "vocabulary": [
+        {
+          "english": "unexpectedly",
+          "kanji": "案外"
+        }
+      ]
+    },
+    "じっさい": {
+      "text": "じっさい",
+      "vocabulary": [
+        {
+          "english": "actually / in reality",
+          "kanji": "実際"
+        }
+      ]
+    },
+    "おそらく": {
+      "text": "おそらく",
+      "vocabulary": [
+        {
+          "english": "probably",
+          "kanji": ""
+        }
+      ]
+    },
+    "ひょっとして": {
+      "text": "ひょっとして",
+      "vocabulary": [
+        {
+          "english": "possibly / by any chance",
+          "kanji": ""
+        }
+      ]
+    },
+    "もしかしたら": {
+      "text": "もしかしたら",
+      "vocabulary": [
+        {
+          "english": "perhaps / maybe",
+          "kanji": ""
+        }
+      ]
+    },
+    "たいてい": {
+      "text": "たいてい",
+      "vocabulary": [
+        {
+          "english": "usually / generally",
+          "kanji": ""
+        }
+      ]
+    },
+    "めったに": {
+      "text": "めったに",
+      "vocabulary": [
+        {
+          "english": "rarely",
+          "kanji": ""
+        }
+      ]
+    },
+    "じょじょに": {
+      "text": "じょじょに",
+      "vocabulary": [
+        {
+          "english": "gradually",
+          "kanji": "徐々に"
+        }
+      ]
+    },
+    "せいかくに": {
+      "text": "せいかくに",
+      "vocabulary": [
+        {
+          "english": "accurately",
+          "kanji": "正確に"
+        }
+      ]
+    },
+    "てきとうに": {
+      "text": "てきとうに",
+      "vocabulary": [
+        {
+          "english": "casually / appropriately",
+          "kanji": "適当に"
+        }
+      ]
+    },
+    "ざんねんながら": {
+      "text": "ざんねんながら",
+      "vocabulary": [
+        {
+          "english": "unfortunately",
+          "kanji": "残念ながら"
+        }
+      ]
+    },
+    "さいわいにも": {
+      "text": "さいわいにも",
+      "vocabulary": [
+        {
+          "english": "fortunately",
+          "kanji": "幸いにも"
+        }
+      ]
+    },
+    "さすがに": {
+      "text": "さすがに",
+      "vocabulary": [
+        {
+          "english": "as expected / even for",
+          "kanji": ""
+        }
+      ]
+    },
+    "おもに": {
+      "text": "おもに",
+      "vocabulary": [
+        {
+          "english": "mainly",
+          "kanji": "主に"
+        }
+      ]
+    },
+    "なかでも": {
+      "text": "なかでも",
+      "vocabulary": [
+        {
+          "english": "especially / among them",
+          "kanji": "中でも"
+        }
+      ]
+    },
+    "いずれ": {
+      "text": "いずれ",
+      "vocabulary": [
+        {
+          "english": "eventually / sooner or later",
+          "kanji": ""
+        }
+      ]
+    },
+    "あえて": {
+      "text": "あえて",
+      "vocabulary": [
+        {
+          "english": "deliberately / daring to",
+          "kanji": ""
+        }
+      ]
+    },
+    "せめて": {
+      "text": "せめて",
+      "vocabulary": [
+        {
+          "english": "at least",
+          "kanji": ""
+        }
+      ]
+    },
+    "どうせ": {
+      "text": "どうせ",
+      "vocabulary": [
+        {
+          "english": "anyway / in any case",
+          "kanji": ""
+        }
+      ]
+    },
+    "むやみに": {
+      "text": "むやみに",
+      "vocabulary": [
+        {
+          "english": "recklessly / unnecessarily",
+          "kanji": ""
+        }
+      ]
+    },
+    "たんに": {
+      "text": "たんに",
+      "vocabulary": [
+        {
+          "english": "simply / merely",
+          "kanji": "単に"
+        }
+      ]
+    },
+    "いったん": {
+      "text": "いったん",
+      "vocabulary": [
+        {
+          "english": "once / for the moment",
+          "kanji": "一旦"
+        }
+      ]
+    },
+    "ひつようせい": {
+      "text": "ひつようせい",
+      "vocabulary": [
+        {
+          "english": "necessity",
+          "kanji": "必要性"
+        }
+      ]
+    },
+    "けいこう": {
+      "text": "けいこう",
+      "vocabulary": [
+        {
+          "english": "tendency",
+          "kanji": "傾向"
+        }
+      ]
+    },
+    "かんがえかた": {
+      "text": "かんがえかた",
+      "vocabulary": [
+        {
+          "english": "way of thinking",
+          "kanji": "考え方"
+        }
+      ]
+    },
+    "みかた": {
+      "text": "みかた",
+      "vocabulary": [
+        {
+          "english": "way of looking at something",
+          "kanji": "見方"
+        }
+      ]
+    },
+    "よそう": {
+      "text": "よそう",
+      "vocabulary": [
+        {
+          "english": "prediction",
+          "kanji": "予想"
+        }
+      ]
+    },
+    "そうぞう": {
+      "text": "そうぞう",
+      "vocabulary": [
+        {
+          "english": "imagination",
+          "kanji": "想像"
+        }
+      ]
+    },
+    "じじつ": {
+      "text": "じじつ",
+      "vocabulary": [
+        {
+          "english": "fact",
+          "kanji": "事実"
+        }
+      ]
+    },
+    "かん": {
+      "text": "かん",
+      "vocabulary": [
+        {
+          "english": "intuition / hunch",
+          "kanji": "勘"
+        }
+      ]
+    },
+    "ながれ": {
+      "text": "ながれ",
+      "vocabulary": [
+        {
+          "english": "flow / course",
+          "kanji": "流れ"
+        }
+      ]
+    },
+    "ぶぶん": {
+      "text": "ぶぶん",
+      "vocabulary": [
+        {
+          "english": "part / portion",
+          "kanji": "部分"
+        }
+      ]
+    },
+    "きほん": {
+      "text": "きほん",
+      "vocabulary": [
+        {
+          "english": "basics / foundation",
+          "kanji": "基本"
+        }
+      ]
+    },
+    "ふたん": {
+      "text": "ふたん",
+      "vocabulary": [
+        {
+          "english": "burden",
+          "kanji": "負担"
+        }
+      ]
+    },
+    "てま": {
+      "text": "てま",
+      "vocabulary": [
+        {
+          "english": "time and effort",
+          "kanji": "手間"
+        }
+      ]
+    },
+    "むだ": {
+      "text": "むだ",
+      "vocabulary": [
+        {
+          "english": "waste / pointless",
+          "kanji": "無駄"
+        }
+      ]
+    },
+    "たちば": {
+      "text": "たちば",
+      "vocabulary": [
+        {
+          "english": "standpoint / position",
+          "kanji": "立場"
+        }
+      ]
+    },
+    "きたい": {
+      "text": "きたい",
+      "vocabulary": [
+        {
+          "english": "expectation",
+          "kanji": "期待"
+        }
+      ]
+    },
+    "ふあん": {
+      "text": "ふあん",
+      "vocabulary": [
+        {
+          "english": "anxiety / uneasiness",
+          "kanji": "不安"
+        }
+      ]
+    },
+    "ふまん": {
+      "text": "ふまん",
+      "vocabulary": [
+        {
+          "english": "dissatisfaction",
+          "kanji": "不満"
+        }
+      ]
+    },
+    "なっとく": {
+      "text": "なっとく",
+      "vocabulary": [
+        {
+          "english": "acceptance / being convinced",
+          "kanji": "納得"
+        }
+      ]
+    },
+    "ごかい": {
+      "text": "ごかい",
+      "vocabulary": [
+        {
+          "english": "misunderstanding",
+          "kanji": "誤解"
+        }
+      ]
+    },
+    "くふうする": {
+      "text": "くふうする",
+      "vocabulary": [
+        {
+          "english": "devise / find a clever way",
+          "kanji": "工夫する"
+        }
+      ]
+    },
+    "いしきする": {
+      "text": "いしきする",
+      "vocabulary": [
+        {
+          "english": "be conscious of",
+          "kanji": "意識する"
+        }
+      ]
+    },
+    "きめつける": {
+      "text": "きめつける",
+      "vocabulary": [
+        {
+          "english": "jump to a conclusion",
+          "kanji": "決めつける"
+        }
+      ]
+    },
+    "おもいうかぶ": {
+      "text": "おもいうかぶ",
+      "vocabulary": [
+        {
+          "english": "come to mind",
+          "kanji": "思い浮かぶ"
+        }
+      ]
+    },
+    "みとめる": {
+      "text": "みとめる",
+      "vocabulary": [
+        {
+          "english": "acknowledge / recognize",
+          "kanji": "認める"
+        }
+      ]
+    },
+    "かんじる": {
+      "text": "かんじる",
+      "vocabulary": [
+        {
+          "english": "feel / sense",
+          "kanji": "感じる"
+        }
+      ]
+    },
+    "まよう": {
+      "text": "まよう",
+      "vocabulary": [
+        {
+          "english": "hesitate / be unsure",
+          "kanji": "迷う"
+        }
+      ]
+    },
+    "なやむ": {
+      "text": "なやむ",
+      "vocabulary": [
+        {
+          "english": "worry / struggle with",
+          "kanji": "悩む"
+        }
+      ]
+    },
+    "たもつ": {
+      "text": "たもつ",
+      "vocabulary": [
+        {
+          "english": "maintain / preserve",
+          "kanji": "保つ"
+        }
+      ]
+    },
+    "ととのえる": {
+      "text": "ととのえる",
+      "vocabulary": [
+        {
+          "english": "arrange / put in order",
+          "kanji": "整える"
+        }
+      ]
+    },
+    "すませる": {
+      "text": "すませる",
+      "vocabulary": [
+        {
+          "english": "get something done / finish",
+          "kanji": "済ませる"
+        }
+      ]
+    },
+    "やりなおす": {
+      "text": "やりなおす",
+      "vocabulary": [
+        {
+          "english": "redo",
+          "kanji": "やり直す"
+        }
+      ]
+    },
+    "しょうりゃくする": {
+      "text": "しょうりゃくする",
+      "vocabulary": [
+        {
+          "english": "omit / abbreviate",
+          "kanji": "省略する"
+        }
+      ]
+    },
+    "つたわる": {
+      "text": "つたわる",
+      "vocabulary": [
+        {
+          "english": "get across / be conveyed",
+          "kanji": "伝わる"
+        }
+      ]
+    },
+    "かかわる": {
+      "text": "かかわる",
+      "vocabulary": [
+        {
+          "english": "be involved / relate to",
+          "kanji": "関わる"
+        }
+      ]
+    },
+    "あてはまる": {
+      "text": "あてはまる",
+      "vocabulary": [
+        {
+          "english": "apply / fit",
+          "kanji": "当てはまる"
+        }
+      ]
+    },
+    "かぎる": {
+      "text": "かぎる",
+      "vocabulary": [
+        {
+          "english": "limit / restrict",
+          "kanji": "限る"
+        }
+      ]
+    },
+    "はっきり": {
+      "text": "はっきり",
+      "vocabulary": [
+        {
+          "english": "clearly",
+          "kanji": ""
+        }
+      ]
+    },
+    "すっかり": {
+      "text": "すっかり",
+      "vocabulary": [
+        {
+          "english": "completely",
+          "kanji": ""
+        }
+      ]
+    },
+    "うっかり": {
+      "text": "うっかり",
+      "vocabulary": [
+        {
+          "english": "accidentally / carelessly",
+          "kanji": ""
+        }
+      ]
+    },
+    "すっきり": {
+      "text": "すっきり",
+      "vocabulary": [
+        {
+          "english": "refreshed / clear",
+          "kanji": ""
+        }
+      ]
+    },
+    "ぎりぎり": {
+      "text": "ぎりぎり",
+      "vocabulary": [
+        {
+          "english": "just barely",
+          "kanji": ""
+        }
+      ]
+    },
+    "ようやく": {
+      "text": "ようやく",
+      "vocabulary": [
+        {
+          "english": "finally",
+          "kanji": ""
+        }
+      ]
+    },
+    "しっかり": {
+      "text": "しっかり",
+      "vocabulary": [
+        {
+          "english": "firmly / properly",
+          "kanji": ""
+        }
+      ]
+    },
+    "ぴったり": {
+      "text": "ぴったり",
+      "vocabulary": [
+        {
+          "english": "exactly / perfectly",
+          "kanji": ""
+        }
+      ]
+    },
+    "じっくり": {
+      "text": "じっくり",
+      "vocabulary": [
+        {
+          "english": "thoroughly / taking one's time",
+          "kanji": ""
+        }
+      ]
+    },
+    "びみょう": {
+      "text": "びみょう",
+      "vocabulary": [
+        {
+          "english": "subtle / questionable",
+          "kanji": "微妙"
+        }
+      ]
+    },
+    "あいまい": {
+      "text": "あいまい",
+      "vocabulary": [
+        {
+          "english": "vague / ambiguous",
+          "kanji": "曖昧"
+        }
+      ]
+    },
+    "おおげさ": {
+      "text": "おおげさ",
+      "vocabulary": [
+        {
+          "english": "exaggerated",
+          "kanji": "大げさ"
+        }
+      ]
+    },
+    "ふしぜん": {
+      "text": "ふしぜん",
+      "vocabulary": [
+        {
+          "english": "unnatural",
+          "kanji": "不自然"
+        }
+      ]
+    },
+    "いっぱんてき": {
+      "text": "いっぱんてき",
+      "vocabulary": [
+        {
+          "english": "general / typical",
+          "kanji": "一般的"
+        }
+      ]
+    },
+    "こじんてき": {
+      "text": "こじんてき",
+      "vocabulary": [
+        {
+          "english": "personal",
+          "kanji": "個人的"
+        }
+      ]
+    },
+    "せっきょくてき": {
+      "text": "せっきょくてき",
+      "vocabulary": [
+        {
+          "english": "proactive / positive",
+          "kanji": "積極的"
+        }
+      ]
+    },
+    "しょうきょくてき": {
+      "text": "しょうきょくてき",
+      "vocabulary": [
+        {
+          "english": "passive / reluctant",
+          "kanji": "消極的"
+        }
+      ]
+    },
+    "げんじつてき": {
+      "text": "げんじつてき",
+      "vocabulary": [
+        {
+          "english": "realistic",
+          "kanji": "現実的"
+        }
+      ]
+    },
+    "きほんてき": {
+      "text": "きほんてき",
+      "vocabulary": [
+        {
+          "english": "basic / fundamentally",
+          "kanji": "基本的"
+        }
+      ]
+    },
+    "じゅうぶん": {
+      "text": "じゅうぶん",
+      "vocabulary": [
+        {
+          "english": "sufficient / enough",
+          "kanji": "十分"
+        }
+      ]
+    },
+    "よけい": {
+      "text": "よけい",
+      "vocabulary": [
+        {
+          "english": "unnecessary / extra",
+          "kanji": "余計"
+        }
+      ]
+    },
+    "じゅんちょう": {
+      "text": "じゅんちょう",
+      "vocabulary": [
+        {
+          "english": "going smoothly",
+          "kanji": "順調"
+        }
+      ]
+    },
+    "のうこう": {
+      "text": "のうこう",
+      "vocabulary": [
+        {
+          "english": "rich / intense",
+          "kanji": "濃厚"
+        }
+      ]
+    },
+    "あっさり": {
+      "text": "あっさり",
+      "vocabulary": [
+        {
+          "english": "light / clean-tasting",
+          "kanji": ""
+        }
+      ]
+    },
+    "はごたえ": {
+      "text": "はごたえ",
+      "vocabulary": [
+        {
+          "english": "bite / chewiness",
+          "kanji": "歯ごたえ"
+        }
+      ]
+    },
+    "くちあたり": {
+      "text": "くちあたり",
+      "vocabulary": [
+        {
+          "english": "mouthfeel",
+          "kanji": "口当たり"
+        }
+      ]
+    },
+    "しみこむ": {
+      "text": "しみこむ",
+      "vocabulary": [
+        {
+          "english": "soak / penetrate",
+          "kanji": "染み込む"
+        }
+      ]
+    },
+    "つける": {
+      "text": "つける",
+      "vocabulary": [
+        {
+          "english": "pickle / soak",
+          "kanji": "漬ける"
+        }
+      ]
+    },
+    "しぼる": {
+      "text": "しぼる",
+      "vocabulary": [
+        {
+          "english": "squeeze",
+          "kanji": "絞る"
+        }
+      ]
+    },
+    "はっこうする": {
+      "text": "はっこうする",
+      "vocabulary": [
+        {
+          "english": "ferment",
+          "kanji": "発酵する"
+        }
+      ]
+    }
+  }
+}

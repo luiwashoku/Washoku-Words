@@ -8,6 +8,11 @@ function run(args) {
   var overrides = JSON.parse(read(root + '/scripts/taste-speech-overrides.json'));
   var gameOverrides = JSON.parse(read(root + '/scripts/game-speech-overrides.json'));
   var rows = [];
+  if (args[1] === '--vocab-only') {
+    return JSON.stringify(window.WordExplosionGame.parseVocabulary(read(root + '/word explosion.txt')).map(function(word) {
+      return {key: window.getJapaneseSpeechText(word.japanese), text: word.japanese, english: word.english, kanji: word.kanji};
+    }));
+  }
   function add(text) {
     var key = window.getJapaneseSpeechText(text);
     if (!key) return;

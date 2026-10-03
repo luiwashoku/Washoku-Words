@@ -774,6 +774,10 @@
 
   function getRecordedJapaneseFile(text) {
     const id = state.selectedLesson?.id;
+    if (["word-explosion", "word-explosion-2"].includes(id)) {
+      const vocabularyFile = window.wordExplosionAudioFiles?.[getJapaneseSpeechText(text)];
+      if (vocabularyFile) return vocabularyFile;
+    }
     const files = id === "taste-words" ? window.tasteAudioFiles
       : ["word-explosion", "word-explosion-2", "game-prototype", "three-second-replies"].includes(id)
         ? window.gameAudioFiles : null;
@@ -805,7 +809,8 @@
       let clipIndex = 0;
       function playNextClip() {
         const audio = new Audio(audioFiles[clipIndex]);
-        if (state.selectedLesson?.id === "word-explosion-2") {
+        if (state.selectedLesson?.id === "word-explosion-2" &&
+            !audioFiles[clipIndex].startsWith("audio/word-explosion-marin/")) {
           audio.playbackRate = 0.8;
           audio.preservesPitch = true;
         }
