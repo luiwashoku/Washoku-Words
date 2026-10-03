@@ -129,12 +129,32 @@
     let coins = [], elapsed = 0, lastTime = 0, catX = 0.5, targetX = 0.5, dragging = null;
     let audioContext;
     let correctSound;
+    let previousAudioSessionType;
+    function unlockAudio() {
+      // iPhone otherwise treats Web Audio as ambient sound and obeys Silent mode.
+      try {
+        if (window.navigator?.audioSession) {
+          previousAudioSessionType ??= window.navigator.audioSession.type;
+          window.navigator.audioSession.type = "playback";
+        }
+      } catch (_) { /* Audio Session is optional; still unlock Web Audio. */ }
+      try {
+        if (!audioContext || audioContext.state === "closed") return;
+        audioContext.resume().catch(() => {});
+        // Start a buffer synchronously inside the gesture, before fetch/decoding.
+        const warmup = audioContext.createBufferSource();
+        warmup.buffer = audioContext.createBuffer(1, 1, audioContext.sampleRate);
+        warmup.connect(audioContext.destination);
+        warmup.onended = () => warmup.disconnect();
+        warmup.start();
+      } catch (_) { /* Unsupported audio-session APIs keep the existing fallback. */ }
+    }
     // Unlock audio during the launch gesture and preload the fixed coin sound.
     try {
       const Context = window.AudioContext || window.webkitAudioContext;
       if (Context) {
         audioContext = new Context();
-        audioContext.resume().catch(() => {});
+        unlockAudio();
         correctSound = fetch("audio/effects/money-cat-correct.wav", { signal })
           .then(response => {
             if (!response.ok) throw new Error("Coin sound could not be loaded.");
@@ -200,7 +220,10 @@
         speakJapaneseText(text, replay, "Japanese word");
       }
     }
-    replay.addEventListener("click", speak, { signal });
+    replay.addEventListener("click", () => { unlockAudio(); speak(); }, { signal });
+    arena.addEventListener("pointerdown", unlockAudio, { signal });
+    arena.addEventListener("pointerup", unlockAudio, { signal });
+    arena.addEventListener("keydown", unlockAudio, { signal });
     const canMove = () => phase === "playing" || phase === "feedback";
     function setTarget(event) {
       const box = arena.getBoundingClientRect();
@@ -431,6 +454,11 @@
       clearTimeout(feedbackTimer);
       stopAllSpeech();
       if (audioContext) audioContext.close().catch(() => {});
+      try {
+        if (previousAudioSessionType !== undefined && window.navigator?.audioSession?.type === "playback") {
+          window.navigator.audioSession.type = previousAudioSessionType;
+        }
+      } catch (_) {}
       container.classList.remove("money-cat-game");
       container.replaceChildren();
     };

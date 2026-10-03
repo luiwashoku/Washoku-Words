@@ -16,6 +16,10 @@ recording lookup from 単語爆発2, including Marin vocabulary. It preloads eac
 section's vocabulary into the Web Audio context unlocked at launch, so timed
 next-word playback can continue on iPhone without creating a new media player.
 The speaker restarts the current word, and leaving cancels pending playback.
+On browsers with the Audio Session API, the game requests playback mode so
+iPhone Silent mode does not mute vocabulary or effects, and restores the previous
+session type when leaving. Older iPhones without this API may require Silent
+mode to be turned off.
 Browsers without Web Audio use the shared media-element playback helper.
 It only selects words
 that already have recordings. The source cat is copied unchanged from
