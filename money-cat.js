@@ -132,18 +132,21 @@
     const { signal } = controller;
     let alive = true, frame = 0, feedbackTimer = 0, session, entries, phase = "loading";
     let coins = [], elapsed = 0, lastTime = 0, catX = 0.5, targetX = 0.5, dragging = null;
+    let dragX = 0;
+    const touchSensitivity = 2;
     const createAudio = src => new window.Audio(src);
     const fetchFile = window.fetch.bind(window);
-    const vocabularyPlayer = createVocabularyPlayer(getRecordedJapaneseFile, createAudio, fetchFile, signal);
-    const effectPlayer = createVocabularyPlayer(
-      correct => `audio/effects/money-cat-${correct ? "correct" : "wrong"}.wav`,
-      createAudio, fetchFile, signal);
+    // Keep feedback and speech on the same gesture-unlocked media element.
+    // Switching between separate elements can interrupt automatic speech on iPhone.
+    const vocabularyPlayer = createVocabularyPlayer(
+      text => typeof text === "boolean"
+        ? `audio/effects/money-cat-${text ? "correct" : "wrong"}.wav`
+        : getRecordedJapaneseFile(text), createAudio, fetchFile, signal);
     function unlockAudio() {
       vocabularyPlayer.unlock();
-      effectPlayer.unlock();
     }
     unlockAudio();
-    effectPlayer.preload([true, false]);
+    vocabularyPlayer.preload([true, false]);
     let speechRevision = 0;
     function stopAllSpeech() {
       speechRevision++;
@@ -179,8 +182,11 @@
     const cat = make("div", "money-cat-player");
     cat.setAttribute("aria-hidden", "true");
     const review = make("section", "money-cat-review hidden");
-    arena.append(cat);
-    container.append(header, status, arena, review);
+    const collected = make("div", "money-cat-collected");
+    collected.setAttribute("role", "list");
+    collected.setAttribute("aria-label", "Japanese words answered this round");
+    arena.append(header, cat, collected);
+    container.append(status, arena, review);
     let coinArt;
 
     function speak() {
@@ -204,20 +210,35 @@
       targetX = Math.max(0, Math.min(1, (event.clientX - box.left) / box.width));
     }
     arena.addEventListener("pointerdown", event => {
-      if (event.pointerType === "mouse" || !canMove()) return;
+      if (header.contains(event.target)) return;
+      if (event.pointerType === "mouse" || !canMove() || dragging !== null) return;
       dragging = event.pointerId;
+      dragX = event.clientX;
+      targetX = catX;
       arena.setPointerCapture(event.pointerId);
       // Touch down alone does not move the cat; movement starts with dragging.
     }, { signal });
     arena.addEventListener("pointermove", event => {
+      if (header.contains(event.target)) return;
       if (!canMove()) return;
-      if (event.pointerType === "mouse" || event.pointerId === dragging) setTarget(event);
+      if (event.pointerType === "mouse") setTarget(event);
+      else if (event.pointerId === dragging) {
+        const width = arena.getBoundingClientRect().width;
+        if (!width) return;
+        const delta = event.clientX - dragX;
+        dragX = event.clientX;
+        const edge = Math.min(0.5, cat.offsetWidth / (2 * width));
+        // Relative dragging gives twice the finger travel without jumping on tap.
+        // Clamp to the cat's actual bounds so reversing at an edge responds at once.
+        targetX = Math.max(edge, Math.min(1 - edge, targetX + delta * touchSensitivity / width));
+      }
     }, { signal });
     const release = event => { if (event.pointerId === dragging) dragging = null; };
     arena.addEventListener("pointerup", release, { signal });
     arena.addEventListener("pointercancel", release, { signal });
     arena.addEventListener("lostpointercapture", release, { signal });
     arena.addEventListener("keydown", event => {
+      if (header.contains(event.target)) return;
       if (!canMove()) return;
       if (["a", "d", " "].includes(event.key.toLowerCase())) {
         event.preventDefault();
@@ -227,11 +248,11 @@
     }, { signal });
     document.addEventListener("visibilitychange", () => {
       lastTime = 0;
-      if (document.hidden) { stopAllSpeech(); effectPlayer.stop(); }
+      if (document.hidden) stopAllSpeech();
     }, { signal });
 
     function answerSound(correct) {
-      if (alive) effectPlayer.play(correct).catch(() => {});
+      if (alive) vocabularyPlayer.play(correct).catch(() => {});
     }
     function clearCoins() { coins.forEach(coin => coin.element.remove()); coins = []; }
     function spawn() {
@@ -264,6 +285,15 @@
       stopAllSpeech();
       replay.disabled = true;
       clearCoins();
+      {
+        const word = session.state.section[session.state.sectionQuestionIndex];
+        const coin = make("div", "money-cat-collected-coin", word.kanji || word.japanese);
+        coin.classList.toggle("money-cat-collected-wrong", !correct);
+        coin.lang = "ja";
+        coin.setAttribute("role", "listitem");
+        coin.setAttribute("aria-label", `${word.kanji || word.japanese}: ${correct ? "correct" : "incorrect"}`);
+        collected.append(coin);
+      }
       money.textContent = `¥ ${session.state.moneyTotal}`;
       coinArt.style.fill = correct ? "var(--bronze)" : "var(--ember)";
       coinArt.style.setProperty("--money-cat-feedback", coinArt.style.fill);
@@ -352,6 +382,7 @@
       heading.focus({ preventScroll: true });
     }
     function startSection() {
+      collected.replaceChildren();
       review.replaceChildren();
       review.classList.add("hidden");
       arena.classList.remove("hidden");
@@ -399,7 +430,6 @@
       cancelAnimationFrame(frame);
       clearTimeout(feedbackTimer);
       stopAllSpeech();
-      effectPlayer.stop();
       container.classList.remove("money-cat-game");
       container.replaceChildren();
     };

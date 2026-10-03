@@ -14,8 +14,8 @@ random-question session code remains in `app.js` for future restoration.
 Money Cat reuses `WordExplosionGame.loadVocabulary` and the existing
 recording lookup from 単語爆発2, including Marin vocabulary. It preloads each
 section's recordings and uses a persistent native audio element, matching the
-playback path used by the working decks. Vocabulary and feedback players are
-started with silent samples during the launch tap, then reused for timed playback.
+playback path used by the working decks. Vocabulary and feedback share one player, started with silent samples during
+the launch tap and reused for both feedback sounds and timed vocabulary playback.
 The speaker restarts the current word, and leaving cancels pending playback.
 It only selects words
 that already have recordings. The source cat is copied unchanged from

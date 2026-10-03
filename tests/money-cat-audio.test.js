@@ -24,7 +24,7 @@
     requests.push(file);
     return Promise.resolve({ok: true, arrayBuffer: () => Promise.resolve({})});
   };
-  const player = window.MoneyCatGame.createVocabularyPlayer(text => text === 'missing' ? null : text + '.mp3', createAudio, fetchFile, signal);
+  const player = window.MoneyCatGame.createVocabularyPlayer(text => typeof text === 'boolean' ? (text ? 'correct.wav' : 'wrong.wav') : text === 'missing' ? null : text + '.mp3', createAudio, fetchFile, signal);
   player.unlock();
   assert(plays.length === 1 && plays[0].src.startsWith('data:audio/wav;'), 'Launch gesture plays real silent samples synchronously');
   const first = player.play('first');
@@ -37,6 +37,15 @@
   elements[0].currentTime = 1;
   await player.play('second');
   assert(plays[3].time === 0 && requests.length === 2, 'Replay restarts the word and section preloads are deduplicated');
+  await player.play(false);
+  assert(plays.at(-1).src === 'wrong.wav', 'Wrong-answer feedback plays on the same player');
+  await player.play('third');
+  assert(elements.length === 1 && plays.at(-1).src === 'third.mp3' && !elements[0].paused,
+    'Vocabulary after wrong feedback reuses the unlocked audio element');
+  await player.play(true);
+  await player.play('fourth');
+  assert(elements.length === 1 && plays.at(-1).src === 'fourth.mp3',
+    'Vocabulary after correct feedback also reuses the unlocked audio element');
   const count = plays.length;
   player.unlock();
   assert(plays.length === count, 'Movement taps do not interrupt or replay the word');
