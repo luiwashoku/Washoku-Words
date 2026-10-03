@@ -809,11 +809,6 @@
       let clipIndex = 0;
       function playNextClip() {
         const audio = new Audio(audioFiles[clipIndex]);
-        if (state.selectedLesson?.id === "word-explosion-2" &&
-            !audioFiles[clipIndex].startsWith("audio/word-explosion-marin/")) {
-          audio.playbackRate = 0.8;
-          audio.preservesPitch = true;
-        }
         activeJapaneseAudio = audio;
         activeSpeechButton = button;
         audio.addEventListener("ended", () => {
@@ -3018,8 +3013,16 @@
     return copy;
   }
 
+  let correctAnswerAudio = null;
+
   function playSound(type) {
     try {
+      if (type === "correct") {
+        correctAnswerAudio ||= new Audio("audio/effects/money-cat-correct.wav");
+        correctAnswerAudio.currentTime = 0;
+        correctAnswerAudio.play().catch(() => {});
+        return;
+      }
       const AudioContextClass =
         window.AudioContext ||
         window.webkitAudioContext;
