@@ -12,7 +12,12 @@ The home-screen Money Cat button replaces the random-question entry. The origina
 random-question session code remains in `app.js` for future restoration.
 
 Money Cat reuses `WordExplosionGame.loadVocabulary` and the existing
-`gameAudioFiles` lookup/playback helpers from 単語爆発2. It only selects words
+recording lookup from 単語爆発2, including Marin vocabulary. It preloads each
+section's vocabulary into the Web Audio context unlocked at launch, so timed
+next-word playback can continue on iPhone without creating a new media player.
+The speaker restarts the current word, and leaving cancels pending playback.
+Browsers without Web Audio use the shared media-element playback helper.
+It only selects words
 that already have recordings. The source cat is copied unchanged from
 `nopush/cat-03.svg` to `assets/cat-03.svg`; the game scopes its SVG styles, crops
 empty canvas and keeps the floor stationary. Only the held `rect.st3` changes

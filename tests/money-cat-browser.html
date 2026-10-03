@@ -19,6 +19,10 @@ document.getElementById('app').addEventListener('load', async () => {
     pause() { this.paused = true; paused++; }
   }
   w.Audio = TestAudio;
+  // This harness exercises the media-element fallback. The Web Audio player
+  // has separate asynchronous regression checks in money-cat-audio.test.js.
+  w.AudioContext = undefined;
+  w.webkitAudioContext = undefined;
   function step(count = 1) { for(let i=0;i<count;i++) { time+=50; const pending=[...frames.values()]; frames.clear(); pending.forEach(fn=>fn(time)); } }
   const text = await fetch('../word explosion.txt').then(r=>r.text());
   const words = w.WordExplosionGame.parseVocabulary(text);

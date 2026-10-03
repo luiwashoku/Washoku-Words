@@ -1,4 +1,4 @@
-const SHELL = 'washoku-shell-v5';
+const SHELL = 'washoku-shell-v6';
 const FILES = ["./", "app.js", "assets/appicon-512-v2.png", "assets/appicon.svg", "assets/cat-03.svg", "assets/money-cat-card.svg", "audio/effects/money-cat-correct.wav", "data/catalog.json", "game-audio-manifest.js", "index.html", "japanese-speech.js", "lesson-audio-manifest.js", "manifest.json", "money-cat.js", "offline.js", "search.js", "styles.css", "taste-audio-manifest.js", "word-explosion-2.js", "word-explosion.js", "zukan-audio-manifest.js"];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(SHELL).then(cache => cache.addAll([

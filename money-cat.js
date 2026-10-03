@@ -11,6 +11,53 @@
     return copy;
   };
 
+  function createVocabularyPlayer(context, getFile, fetchFile, signal) {
+    const buffers = new Map();
+    let source = null, revision = 0;
+    function load(text) {
+      const file = getFile(text);
+      if (!file) return Promise.reject(new Error("Missing vocabulary recording"));
+      if (!buffers.has(file)) {
+        const pending = fetchFile(file, { signal }).then(response => {
+          if (!response.ok) throw new Error("Vocabulary recording could not load");
+          return response.arrayBuffer();
+        }).then(data => context.decodeAudioData(data)).catch(error => {
+          buffers.delete(file);
+          throw error;
+        });
+        buffers.set(file, pending);
+      }
+      return buffers.get(file);
+    }
+    function stop() {
+      revision++;
+      if (source) {
+        source.onended = null;
+        source.stop();
+        source.disconnect();
+        source = null;
+      }
+    }
+    async function play(text) {
+      stop();
+      const current = revision;
+      await context.resume();
+      const buffer = await load(text);
+      if (current !== revision || signal.aborted) return;
+      if (context.state !== "running") throw new Error("Audio needs a tap to resume");
+      const next = context.createBufferSource();
+      next.buffer = buffer;
+      next.connect(context.destination);
+      next.onended = () => {
+        next.disconnect();
+        if (source === next) source = null;
+      };
+      source = next;
+      next.start();
+    }
+    return { play, stop, preload: texts => texts.forEach(text => load(text).catch(() => {})) };
+  }
+
   function createSession(entries, random = Math.random) {
     const state = { moneyTotal: 0, sectionQuestionIndex: 0, sectionWrongAnswers: [], sectionAnswers: [],
       recentVocabulary: [], wrongAnswerWeights: new Map(), section: [], answered: false };
@@ -97,6 +144,14 @@
           .catch(() => null);
       }
     } catch (_) { /* Visual feedback is always available. */ }
+    const vocabularyPlayer = audioContext
+      ? createVocabularyPlayer(audioContext, getRecordedJapaneseFile, window.fetch.bind(window), signal) : null;
+    let speechRevision = 0;
+    function stopAllSpeech() {
+      speechRevision++;
+      vocabularyPlayer?.stop();
+      stopSpeech();
+    }
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
     container.replaceChildren();
     container.classList.add("money-cat-game");
@@ -132,8 +187,18 @@
 
     function speak() {
       if (!alive || phase !== "playing") return;
-      stopSpeech();
-      speakJapaneseText(session.state.section[session.state.sectionQuestionIndex].japanese, replay, "Japanese word");
+      stopAllSpeech();
+      const current = speechRevision;
+      const text = session.state.section[session.state.sectionQuestionIndex].japanese;
+      if (vocabularyPlayer) {
+        vocabularyPlayer.play(text).catch(() => {
+          if (!alive || phase !== "playing" || current !== speechRevision || document.hidden) return;
+          status.textContent = "Tap the speaker to hear the word.";
+        });
+        status.textContent = "";
+      } else {
+        speakJapaneseText(text, replay, "Japanese word");
+      }
     }
     replay.addEventListener("click", speak, { signal });
     const canMove = () => phase === "playing" || phase === "feedback";
@@ -165,7 +230,7 @@
     }, { signal });
     document.addEventListener("visibilitychange", () => {
       lastTime = 0;
-      if (document.hidden) stopSpeech();
+      if (document.hidden) stopAllSpeech();
     }, { signal });
 
     async function answerSound(correct) {
@@ -227,7 +292,7 @@
       const correct = session.answer(meaning);
       if (correct === null) return;
       phase = "feedback";
-      stopSpeech();
+      stopAllSpeech();
       replay.disabled = true;
       clearCoins();
       money.textContent = `¥ ${session.state.moneyTotal}`;
@@ -322,6 +387,7 @@
       review.classList.add("hidden");
       arena.classList.remove("hidden");
       session.nextSection();
+      vocabularyPlayer?.preload(session.state.section.map(word => word.japanese));
       question();
     }
 
@@ -363,11 +429,11 @@
       controller.abort();
       cancelAnimationFrame(frame);
       clearTimeout(feedbackTimer);
-      stopSpeech();
+      stopAllSpeech();
       if (audioContext) audioContext.close().catch(() => {});
       container.classList.remove("money-cat-game");
       container.replaceChildren();
     };
   }
-  window.MoneyCatGame = { mount, createSession, chooseAnswers };
+  window.MoneyCatGame = { mount, createSession, chooseAnswers, createVocabularyPlayer };
 })();
