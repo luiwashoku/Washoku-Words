@@ -1246,7 +1246,8 @@
         file: lesson.file, getRecordedJapaneseFile, speakerTemplate: elements.speakExplanation
       });
     });
-    elements.categoryGrid.appendChild(audioCheckButton);
+    // Audio checker is hidden for now. Reattach this button when review is needed.
+    // elements.categoryGrid.appendChild(audioCheckButton);
   }
 
   function getLessonsForCategory(

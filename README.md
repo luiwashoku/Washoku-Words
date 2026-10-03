@@ -8,7 +8,7 @@ A washoku learning app prepared by lui
 
 ## Money Cat
 
-The temporary home-screen 音声チェック deck lists the same recorded vocabulary
+The temporary 音声チェック deck is currently hidden from the home screen; its retained checker lists the same recorded vocabulary
 in Japanese reading order, with kanji/readings and one replay button per word.
 Use it to identify pronunciation corrections without playing the game.
 
