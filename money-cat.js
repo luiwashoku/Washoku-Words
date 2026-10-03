@@ -81,12 +81,20 @@
     let alive = true, frame = 0, feedbackTimer = 0, session, entries, phase = "loading";
     let coins = [], elapsed = 0, lastTime = 0, catX = 0.5, targetX = 0.5, dragging = null;
     let audioContext;
-    // Unlock the original bling sound during the launch button's user gesture.
+    let correctSound;
+    // Unlock audio during the launch gesture and preload the fixed coin sound.
     try {
       const Context = window.AudioContext || window.webkitAudioContext;
       if (Context) {
         audioContext = new Context();
         audioContext.resume().catch(() => {});
+        correctSound = fetch("audio/effects/money-cat-correct.wav", { signal })
+          .then(response => {
+            if (!response.ok) throw new Error("Coin sound could not be loaded.");
+            return response.arrayBuffer();
+          })
+          .then(data => audioContext.decodeAudioData(data))
+          .catch(() => null);
       }
     } catch (_) { /* Visual feedback is always available. */ }
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
@@ -160,20 +168,31 @@
       if (document.hidden) stopSpeech();
     }, { signal });
 
-    function answerSound(correct) {
+    async function answerSound(correct) {
       try {
         const Audio = window.AudioContext || window.webkitAudioContext;
         if (!Audio) return;
         audioContext ||= new Audio();
-        audioContext.resume().catch(() => {});
+        await audioContext.resume();
+        if (correct) {
+          const buffer = await correctSound;
+          if (!alive || !buffer) return;
+          const source = audioContext.createBufferSource();
+          source.buffer = buffer;
+          source.connect(audioContext.destination);
+          source.onended = () => source.disconnect();
+          source.start();
+          return;
+        }
+        if (!alive) return;
         const t = audioContext.currentTime;
-        const notes = correct ? [880, 1320] : [260, 180];
+        const notes = [260, 180];
         notes.forEach((frequency, index) => {
           const oscillator = audioContext.createOscillator();
           const gain = audioContext.createGain();
-          oscillator.type = correct ? "square" : "sine";
+          oscillator.type = "sine";
           oscillator.frequency.value = frequency;
-          gain.gain.setValueAtTime(correct ? 0.025 : 0.045, t + index * 0.075);
+          gain.gain.setValueAtTime(0.045, t + index * 0.075);
           gain.gain.exponentialRampToValueAtTime(0.001, t + index * 0.075 + 0.13);
           oscillator.connect(gain); gain.connect(audioContext.destination);
           oscillator.start(t + index * 0.075); oscillator.stop(t + index * 0.075 + 0.14);
