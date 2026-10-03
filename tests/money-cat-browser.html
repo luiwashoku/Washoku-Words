@@ -14,13 +14,14 @@ document.getElementById('app').addEventListener('load', async () => {
   w.requestAnimationFrame = fn => { frames.set(++nextId, fn); return nextId; };
   w.cancelAnimationFrame = id => frames.delete(id);
   class TestAudio extends w.EventTarget {
-    constructor(src) { super(); this.src = src; this.paused = true; clips.push(src); }
-    play() { this.paused = false; return Promise.resolve(); }
+    constructor(src) { super(); this.src = src; this.paused = true; }
+    getAttribute() { return this.src; }
+    play() { this.paused = false; if (!this.src.startsWith("data:") && !this.src.includes("/effects/")) clips.push(this.src); return Promise.resolve(); }
     pause() { this.paused = true; paused++; }
   }
   w.Audio = TestAudio;
-  // This harness exercises the media-element fallback. The Web Audio player
-  // has separate asynchronous regression checks in money-cat-audio.test.js.
+  // Exercise native audio even when Web Audio is unavailable. Player activation
+  // and timer reuse have separate checks in money-cat-audio.test.js.
   w.AudioContext = undefined;
   w.webkitAudioContext = undefined;
   function step(count = 1) { for(let i=0;i<count;i++) { time+=50; const pending=[...frames.values()]; frames.clear(); pending.forEach(fn=>fn(time)); } }
@@ -59,7 +60,7 @@ document.getElementById('app').addEventListener('load', async () => {
   assert(clips.length===2 && clips[0]===clips[1] && paused>0,'Replay restarts the same shared recording');
   function pick(correct) {
     const gameHeight = d.querySelector("#wordExplosionScreen").getBoundingClientRect().height;
-    const meanings=words.filter(word=>w.gameAudioFiles[w.getJapaneseSpeechText(word.japanese)]===clips.at(-1)).map(word=>word.english);
+    const meanings=words.filter(word=>(w.wordExplosionAudioFiles?.[w.getJapaneseSpeechText(word.japanese)] || w.gameAudioFiles[w.getJapaneseSpeechText(word.japanese)])===clips.at(-1)).map(word=>word.english);
     const choices=[...d.querySelectorAll('.money-cat-answer')];
     assert(new Set(choices.map(el=>el.textContent.toLowerCase())).size===3,'Three distinct meanings');
     const chosen=choices.find(el=>meanings.includes(el.textContent)===correct);

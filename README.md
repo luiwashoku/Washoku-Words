@@ -13,14 +13,10 @@ random-question session code remains in `app.js` for future restoration.
 
 Money Cat reuses `WordExplosionGame.loadVocabulary` and the existing
 recording lookup from 単語爆発2, including Marin vocabulary. It preloads each
-section's vocabulary into the Web Audio context unlocked at launch, so timed
-next-word playback can continue on iPhone without creating a new media player.
+section's recordings and uses a persistent native audio element, matching the
+playback path used by the working decks. Vocabulary and feedback players are
+started with silent samples during the launch tap, then reused for timed playback.
 The speaker restarts the current word, and leaving cancels pending playback.
-On browsers with the Audio Session API, the game requests playback mode so
-iPhone Silent mode does not mute vocabulary or effects, and restores the previous
-session type when leaving. Older iPhones without this API may require Silent
-mode to be turned off.
-Browsers without Web Audio use the shared media-element playback helper.
 It only selects words
 that already have recordings. The source cat is copied unchanged from
 `nopush/cat-03.svg` to `assets/cat-03.svg`; the game scopes its SVG styles, crops

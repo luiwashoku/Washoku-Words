@@ -50,35 +50,3 @@ assert(svg === read('nopush/cat-03.svg'), 'Source cat artwork is preserved exact
 assert(/<rect class="st3"/.test(svg), 'Held coin can be targeted separately from the collar bell');
 new Function(read('app.js'));
 console.log('PASS: Money Cat reuses recorded vocabulary, preserves money across sections, reviews mistakes and produces unique choices.');
-
-// Audio mode and silent-buffer activation must happen synchronously in a gesture.
-const source = read('money-cat.js');
-const unlockSource = source.slice(source.indexOf('    function unlockAudio()'), source.indexOf('    // Unlock audio during the launch gesture'));
-let resumed = 0, warmed = 0, connected = 0;
-const audioContext = {
-  state: 'suspended', sampleRate: 48000, destination: {},
-  resume() { resumed++; return {catch(){}}; },
-  createBuffer(channels, frames, rate) {
-    assert(channels === 1 && frames === 1 && rate === 48000, 'Unlock buffer is minimal and silent');
-    return {};
-  },
-  createBufferSource() { return {connect(){connected++;},start(){warmed++;},disconnect(){}}; }
-};
-const audioHost = {navigator:{audioSession:{type:'auto'}}};
-const unlock = new Function('window','audioContext', 'let previousAudioSessionType;\n' + unlockSource + '; return {run:unlockAudio, previous:()=>previousAudioSessionType};')(audioHost,audioContext);
-unlock.run();
-assert(audioHost.navigator.audioSession.type === 'playback' && unlock.previous() === 'auto', 'iPhone uses playback mode while preserving previous mode');
-assert(resumed === 1 && warmed === 1 && connected === 1, 'Gesture resumes and starts silent buffer synchronously');
-unlock.run();
-assert(unlock.previous() === 'auto' && warmed === 2, 'Repeated gestures preserve original audio mode and unlock again');
-const unsupported = new Function('window','audioContext','let previousAudioSessionType;\n'+unlockSource+'; return unlockAudio;')({},audioContext);
-unsupported();
-assert(warmed === 3, 'Browsers without audioSession still unlock Web Audio');
-const rejectedSession = {navigator: {audioSession: {
-  get type() { return 'auto'; },
-  set type(value) { throw new Error('Unsupported session setting'); }
-}}};
-const unlockRejectedSession = new Function('window','audioContext','let previousAudioSessionType;\n'+unlockSource+'; return unlockAudio;')(rejectedSession,audioContext);
-unlockRejectedSession();
-assert(warmed === 4, 'Rejected audioSession settings still allow Web Audio activation');
-console.log('PASS: iPhone playback audio mode, synchronous gesture activation, repeated touches, and unsupported audioSession fallback.');

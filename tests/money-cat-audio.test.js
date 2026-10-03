@@ -1,52 +1,65 @@
-// Load money-cat.js first, then this file. Result is available as window.moneyCatAudioTestResult.
+// Load money-cat.js first. Result is available as window.moneyCatAudioTestResult.
 (async () => {
   function assert(value, message) { if (!value) throw new Error(message); }
-  let requests = 0, resumes = 0;
-  const sources = [];
-  const context = {
-    state: 'running', destination: {},
-    resume() { resumes++; return Promise.resolve(); },
-    decodeAudioData(data) { return Promise.resolve({file: data}); },
-    createBufferSource() {
-      const source = {connect(){}, disconnect(){}, start(){this.started=true;}, stop(){this.stopped=true;}};
-      sources.push(source);
-      return source;
-    }
+  const elements = [], requests = [], plays = [];
+  let abort;
+  const signal = {aborted: false, addEventListener(type, listener) { abort = listener; }};
+  let fail = false, delayed = null;
+  const createAudio = src => {
+    const audio = {
+      src, currentTime: 0, paused: true,
+      getAttribute() { return this.src; },
+      pause() { this.paused = true; },
+      play() {
+        this.paused = false;
+        plays.push({audio: this, src: this.src, time: this.currentTime});
+        if (delayed) return delayed;
+        return fail ? Promise.reject(new Error('Playback blocked')) : Promise.resolve();
+      }
+    };
+    elements.push(audio);
+    return audio;
   };
-  const signal = {aborted:false};
-  const getFile = text => text + '.mp3';
-  const fetchFile = file => { requests++; return Promise.resolve({ok:true,arrayBuffer:()=>Promise.resolve(file)}); };
-  const player = window.MoneyCatGame.createVocabularyPlayer(context, getFile, fetchFile, signal);
-  player.preload(['first', 'second']);
-  await player.play('first');
-  assert(sources[0].started && sources[0].buffer.file === 'first.mp3', 'First word uses decoded recording');
+  const fetchFile = file => {
+    requests.push(file);
+    return Promise.resolve({ok: true, arrayBuffer: () => Promise.resolve({})});
+  };
+  const player = window.MoneyCatGame.createVocabularyPlayer(text => text === 'missing' ? null : text + '.mp3', createAudio, fetchFile, signal);
+  player.unlock();
+  assert(plays.length === 1 && plays[0].src.startsWith('data:audio/wav;'), 'Launch gesture plays real silent samples synchronously');
+  const first = player.play('first');
+  assert(plays.length === 2 && plays[1].src === 'first.mp3', 'Speaker playback begins synchronously before yielding user activation');
+  await first;
+  assert(!elements[0].paused, 'Late warmup completion cannot pause the first word');
+  player.preload(['first', 'second', 'second']);
   await player.play('second');
-  assert(sources[0].stopped && sources[1].started && sources[1].buffer.file === 'second.mp3', 'Automatic next word uses unlocked context');
+  assert(elements.length === 1 && plays[2].audio === plays[1].audio, 'Timed next word reuses the launch-unlocked native element');
+  elements[0].currentTime = 1;
   await player.play('second');
-  assert(requests === 2 && resumes === 3, 'Replay uses cached audio and resumes context');
-  const before = sources.length;
-  const pending = player.play('first');
-  player.stop();
-  await pending;
-  assert(sources.length === before, 'Cancellation prevents delayed playback');
-  signal.aborted = true;
-  await player.play('first');
-  assert(sources.length === before, 'Navigation abort prevents playback');
-  signal.aborted = false;
-  context.state = 'suspended';
+  assert(plays[3].time === 0 && requests.length === 2, 'Replay restarts the word and section preloads are deduplicated');
+  const count = plays.length;
+  player.unlock();
+  assert(plays.length === count, 'Movement taps do not interrupt or replay the word');
   let blocked = false;
+  fail = true;
   try { await player.play('first'); } catch (_) { blocked = true; }
-  assert(blocked && sources.length === before, 'Suspended audio asks for a gesture rather than silently playing');
-  let fail = true, tries = 0;
-  const retryPlayer = window.MoneyCatGame.createVocabularyPlayer(context, getFile, file => {
-    tries++;
-    return Promise.resolve({ok: !fail, arrayBuffer:()=>Promise.resolve(file)});
-  }, signal);
-  context.state = 'running';
-  try { await retryPlayer.play('retry'); } catch (_) {}
+  assert(blocked, 'Playback denial reaches the UI instead of silently succeeding');
   fail = false;
-  await retryPlayer.play('retry');
-  assert(tries === 2 && sources[sources.length-1].started, 'Failed fetch can retry');
-  retryPlayer.stop();
-  window.moneyCatAudioTestResult = 'PASS: automatic next-word playback, replay caching, cancellation, navigation abort, suspended context, and retry.';
+  await player.play('first');
+  assert(!elements[0].paused, 'Speaker can retry after a blocked playback');
+  let rejectPending;
+  delayed = new Promise((resolve, reject) => { rejectPending = reject; });
+  const pending = player.play('second');
+  player.stop();
+  rejectPending(new Error('Interrupted'));
+  await pending;
+  assert(elements[0].paused, 'Cancellation pauses playback and ignores stale rejection');
+  delayed = null;
+  signal.aborted = true;
+  abort();
+  const beforeAbortPlay = plays.length;
+  await player.play('first');
+  player.unlock();
+  assert(plays.length === beforeAbortPlay && elements[0].paused, 'Navigation abort prevents any further playback');
+  window.moneyCatAudioTestResult = 'PASS: synchronous native audio activation, timer reuse, replay, preload, blocked retry, cancellation, and navigation cleanup.';
 })().catch(error => { window.moneyCatAudioTestResult = 'FAIL: ' + error.message; });

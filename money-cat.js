@@ -11,51 +11,56 @@
     return copy;
   };
 
-  function createVocabularyPlayer(context, getFile, fetchFile, signal) {
-    const buffers = new Map();
-    let source = null, revision = 0;
-    function load(text) {
-      const file = getFile(text);
-      if (!file) return Promise.reject(new Error("Missing vocabulary recording"));
-      if (!buffers.has(file)) {
-        const pending = fetchFile(file, { signal }).then(response => {
-          if (!response.ok) throw new Error("Vocabulary recording could not load");
-          return response.arrayBuffer();
-        }).then(data => context.decodeAudioData(data)).catch(error => {
-          buffers.delete(file);
-          throw error;
-        });
-        buffers.set(file, pending);
-      }
-      return buffers.get(file);
-    }
+  // A persistent media element follows the same native playback path as the decks.
+  // Play real silent samples (not a muted element) in the launch gesture, then reuse
+  // this element for recordings requested by the game's timers.
+  const silentAudio = 'data:audio/wav;base64,UklGRmQGAABXQVZFZm10IBAAAAABAAEAQB8AAIA+AAACABAAZGF0YUAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA';
+  function createVocabularyPlayer(getFile, createAudio, fetchFile, signal) {
+    const audio = createAudio(silentAudio);
+    audio.preload = "auto";
+    let revision = 0;
+    const preloaded = new Set();
     function stop() {
       revision++;
-      if (source) {
-        source.onended = null;
-        source.stop();
-        source.disconnect();
-        source = null;
-      }
+      audio.pause();
     }
-    async function play(text) {
-      stop();
+    function unlock() {
+      if (signal.aborted || audio.src !== silentAudio) return;
       const current = revision;
-      await context.resume();
-      const buffer = await load(text);
-      if (current !== revision || signal.aborted) return;
-      if (context.state !== "running") throw new Error("Audio needs a tap to resume");
-      const next = context.createBufferSource();
-      next.buffer = buffer;
-      next.connect(context.destination);
-      next.onended = () => {
-        next.disconnect();
-        if (source === next) source = null;
-      };
-      source = next;
-      next.start();
+      try {
+        Promise.resolve(audio.play()).then(() => {
+          if (current === revision) audio.pause();
+        }).catch(() => {});
+      } catch (_) { /* The speaker can retry directly from a tap. */ }
     }
-    return { play, stop, preload: texts => texts.forEach(text => load(text).catch(() => {})) };
+    function play(text) {
+      stop();
+      if (signal.aborted) return Promise.resolve();
+      const file = getFile(text);
+      if (!file) return Promise.reject(new Error("Missing vocabulary recording"));
+      const current = revision;
+      try {
+        if (audio.getAttribute("src") !== file) audio.src = file;
+        audio.currentTime = 0;
+        // Keep play() synchronous: speaker taps must retain user activation.
+        return Promise.resolve(audio.play()).catch(error => {
+          if (current === revision && !signal.aborted) throw error;
+        });
+      } catch (error) { return Promise.reject(error); }
+    }
+    function preload(texts) {
+      texts.forEach(text => {
+        const file = getFile(text);
+        if (!file || preloaded.has(file) || signal.aborted) return;
+        preloaded.add(file);
+        fetchFile(file, {signal}).then(response => {
+          if (!response.ok) throw new Error("Recording could not load");
+          return response.arrayBuffer();
+        }).catch(() => preloaded.delete(file));
+      });
+    }
+    signal.addEventListener("abort", stop, {once: true});
+    return {play, stop, unlock, preload};
   }
 
   function createSession(entries, random = Math.random) {
@@ -122,54 +127,27 @@
     return shuffle(options, random);
   }
 
-  function mount(container, { file, stopSpeech, speakJapaneseText, getRecordedJapaneseFile, speakerTemplate }) {
+  function mount(container, { file, stopSpeech, getRecordedJapaneseFile, speakerTemplate }) {
     const controller = new AbortController();
     const { signal } = controller;
     let alive = true, frame = 0, feedbackTimer = 0, session, entries, phase = "loading";
     let coins = [], elapsed = 0, lastTime = 0, catX = 0.5, targetX = 0.5, dragging = null;
-    let audioContext;
-    let correctSound;
-    let previousAudioSessionType;
+    const createAudio = src => new window.Audio(src);
+    const fetchFile = window.fetch.bind(window);
+    const vocabularyPlayer = createVocabularyPlayer(getRecordedJapaneseFile, createAudio, fetchFile, signal);
+    const effectPlayer = createVocabularyPlayer(
+      correct => `audio/effects/money-cat-${correct ? "correct" : "wrong"}.wav`,
+      createAudio, fetchFile, signal);
     function unlockAudio() {
-      // iPhone otherwise treats Web Audio as ambient sound and obeys Silent mode.
-      try {
-        if (window.navigator?.audioSession) {
-          previousAudioSessionType ??= window.navigator.audioSession.type;
-          window.navigator.audioSession.type = "playback";
-        }
-      } catch (_) { /* Audio Session is optional; still unlock Web Audio. */ }
-      try {
-        if (!audioContext || audioContext.state === "closed") return;
-        audioContext.resume().catch(() => {});
-        // Start a buffer synchronously inside the gesture, before fetch/decoding.
-        const warmup = audioContext.createBufferSource();
-        warmup.buffer = audioContext.createBuffer(1, 1, audioContext.sampleRate);
-        warmup.connect(audioContext.destination);
-        warmup.onended = () => warmup.disconnect();
-        warmup.start();
-      } catch (_) { /* Unsupported audio-session APIs keep the existing fallback. */ }
+      vocabularyPlayer.unlock();
+      effectPlayer.unlock();
     }
-    // Unlock audio during the launch gesture and preload the fixed coin sound.
-    try {
-      const Context = window.AudioContext || window.webkitAudioContext;
-      if (Context) {
-        audioContext = new Context();
-        unlockAudio();
-        correctSound = fetch("audio/effects/money-cat-correct.wav", { signal })
-          .then(response => {
-            if (!response.ok) throw new Error("Coin sound could not be loaded.");
-            return response.arrayBuffer();
-          })
-          .then(data => audioContext.decodeAudioData(data))
-          .catch(() => null);
-      }
-    } catch (_) { /* Visual feedback is always available. */ }
-    const vocabularyPlayer = audioContext
-      ? createVocabularyPlayer(audioContext, getRecordedJapaneseFile, window.fetch.bind(window), signal) : null;
+    unlockAudio();
+    effectPlayer.preload([true, false]);
     let speechRevision = 0;
     function stopAllSpeech() {
       speechRevision++;
-      vocabularyPlayer?.stop();
+      vocabularyPlayer.stop();
       stopSpeech();
     }
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
@@ -210,15 +188,11 @@
       stopAllSpeech();
       const current = speechRevision;
       const text = session.state.section[session.state.sectionQuestionIndex].japanese;
-      if (vocabularyPlayer) {
-        vocabularyPlayer.play(text).catch(() => {
-          if (!alive || phase !== "playing" || current !== speechRevision || document.hidden) return;
-          status.textContent = "Tap the speaker to hear the word.";
-        });
-        status.textContent = "";
-      } else {
-        speakJapaneseText(text, replay, "Japanese word");
-      }
+      vocabularyPlayer.play(text).catch(() => {
+        if (!alive || phase !== "playing" || current !== speechRevision || document.hidden) return;
+        status.textContent = "Tap the speaker to hear the word.";
+      });
+      status.textContent = "";
     }
     replay.addEventListener("click", () => { unlockAudio(); speak(); }, { signal });
     arena.addEventListener("pointerdown", unlockAudio, { signal });
@@ -253,39 +227,11 @@
     }, { signal });
     document.addEventListener("visibilitychange", () => {
       lastTime = 0;
-      if (document.hidden) stopAllSpeech();
+      if (document.hidden) { stopAllSpeech(); effectPlayer.stop(); }
     }, { signal });
 
-    async function answerSound(correct) {
-      try {
-        const Audio = window.AudioContext || window.webkitAudioContext;
-        if (!Audio) return;
-        audioContext ||= new Audio();
-        await audioContext.resume();
-        if (correct) {
-          const buffer = await correctSound;
-          if (!alive || !buffer) return;
-          const source = audioContext.createBufferSource();
-          source.buffer = buffer;
-          source.connect(audioContext.destination);
-          source.onended = () => source.disconnect();
-          source.start();
-          return;
-        }
-        if (!alive) return;
-        const t = audioContext.currentTime;
-        const notes = [260, 180];
-        notes.forEach((frequency, index) => {
-          const oscillator = audioContext.createOscillator();
-          const gain = audioContext.createGain();
-          oscillator.type = "sine";
-          oscillator.frequency.value = frequency;
-          gain.gain.setValueAtTime(0.045, t + index * 0.075);
-          gain.gain.exponentialRampToValueAtTime(0.001, t + index * 0.075 + 0.13);
-          oscillator.connect(gain); gain.connect(audioContext.destination);
-          oscillator.start(t + index * 0.075); oscillator.stop(t + index * 0.075 + 0.14);
-        });
-      } catch (_) { /* Feedback remains visible when audio is unavailable. */ }
+    function answerSound(correct) {
+      if (alive) effectPlayer.play(correct).catch(() => {});
     }
     function clearCoins() { coins.forEach(coin => coin.element.remove()); coins = []; }
     function spawn() {
@@ -410,7 +356,7 @@
       review.classList.add("hidden");
       arena.classList.remove("hidden");
       session.nextSection();
-      vocabularyPlayer?.preload(session.state.section.map(word => word.japanese));
+      vocabularyPlayer.preload(session.state.section.map(word => word.japanese));
       question();
     }
 
@@ -453,12 +399,7 @@
       cancelAnimationFrame(frame);
       clearTimeout(feedbackTimer);
       stopAllSpeech();
-      if (audioContext) audioContext.close().catch(() => {});
-      try {
-        if (previousAudioSessionType !== undefined && window.navigator?.audioSession?.type === "playback") {
-          window.navigator.audioSession.type = previousAudioSessionType;
-        }
-      } catch (_) {}
+      effectPlayer.stop();
       container.classList.remove("money-cat-game");
       container.replaceChildren();
     };
