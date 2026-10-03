@@ -1771,3 +1771,14 @@ body.no-furigana rt {
 .money-cat-correct-heading { margin-top: 24px !important; }
 .money-cat-review-chosen { color: #963200; }
 .money-cat-review-correct { font-weight: 700; }
+
+#lessonList > div.lesson-card:has(.lesson-open) { display: flex; gap: 8px; flex-wrap: wrap; }
+.lesson-open { display: block; width: auto; padding: 0; border: 0; background: transparent; color: inherit; text-align: left; cursor: pointer; font: inherit; }
+#lessonList > div.lesson-card:has(.lesson-open) > .lesson-arrow { margin-left: auto; }
+.offline-controls { display: contents; }
+.offline-controls button { flex: 0 0 44px; width: 44px; height: 44px; display: inline-flex; align-items: center; justify-content: center; border: 0; border-radius: .6rem; background: transparent; color: inherit; padding: 10px; cursor: pointer; }
+.offline-controls svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.offline-controls button.is-downloaded { color: #347044; background: #34704415; }
+.offline-controls button:disabled { opacity: .6; cursor: default; }
+.offline-controls [role="status"] { order: 1; flex-basis: 100%; font-size: .8rem; }
+.offline-controls [role="status"]:empty { display: none; }

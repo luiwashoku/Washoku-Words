@@ -1388,9 +1388,14 @@
         }
       );
 
-      elements.lessonList.appendChild(
-        button
-      );
+      const row = document.createElement("div");
+      row.className = button.className;
+      button.className = "lesson-open";
+      const arrow = button.querySelector(".lesson-arrow");
+      row.appendChild(button);
+      window.WashokuOffline?.addControls(row, lesson);
+      if (arrow) row.appendChild(arrow);
+      elements.lessonList.appendChild(row);
     });
   }
 
