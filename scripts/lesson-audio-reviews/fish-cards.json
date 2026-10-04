@@ -1,0 +1,645 @@
+{
+  "lesson": "fish-cards",
+  "reviewed": true,
+  "voice": "marin",
+  "model": "gpt-4o-mini-tts",
+  "speed": 1.0,
+  "reading_source": "All correct answers and explanations from page78, page79 and page79-three-piece, compared with the three existing reviewed speech batches. One combined deck preserves alternate anatomical diagrams and distinct lookup keys.",
+  "notes": "All vocabulary and descriptions generated at normal speed 1.0, as requested. Pitch dictionary checked before generation for all 30 unique vocabulary readings: 22 dictionary-backed targets (variants retained) and eight specialty fish terms without reliable exact culinary entries. Unconfirmed terms receive standard Tokyo Japanese guidance without a forced numeric accent. Homonymous non-fish terms are excluded. No listening/audible pitch verification claimed.",
+  "furigana_corrections": [
+    "一(いち)対(たい) → 一対(いっつい)",
+    "オレンジ色(しょく) → オレンジ色(いろ)",
+    "左右一対(いっつい) → 左右(さゆう)一対(いっつい)"
+  ],
+  "entries": [
+    {
+      "key": "め",
+      "input": "め",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page78.json; specialist culinary readings cross-checked where noted.",
+      "accent": 1,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L111565",
+      "listening_verified": false,
+      "accent_matched_form": "目",
+      "accent_variants": [
+        1
+      ]
+    },
+    {
+      "key": "さかなのとうぶにあるめです。ずではくろいひとみのちゅうおうをてんでしめしています。",
+      "input": "さかなのとうぶにあるめです。ずでわくろいひとみのちゅうおうおてんでしめしています。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "あたま",
+      "input": "あたま",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page78.json; specialist culinary readings cross-checked where noted.",
+      "accent": 3,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L92571",
+      "listening_verified": false,
+      "accent_matched_form": "頭",
+      "accent_variants": [
+        3,
+        2
+      ]
+    },
+    {
+      "key": "くち、びこう、め、えらぶたをふくむぜんぽうのぶぶんがあたまです。",
+      "input": "くち、びこう、め、えらぶたおふくむぜんぽうのぶぶんがあたまです。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "せ",
+      "input": "せ",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page78.json; specialist culinary readings cross-checked where noted.",
+      "accent": 0,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L97215",
+      "listening_verified": false,
+      "accent_matched_form": "背",
+      "accent_variants": [
+        0,
+        1
+      ]
+    },
+    {
+      "key": "ぎょたいのうえがわ、つまりはいそくのがいけいにちかいぶぶんがせです。",
+      "input": "ぎょたいのうえがわ、つまりはいそくのがいけいにちかいぶぶんがせです。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "せびれ",
+      "input": "せびれ",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page78.json; specialist culinary readings cross-checked where noted.",
+      "accent": 0,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L97282",
+      "listening_verified": false,
+      "accent_matched_form": "背鰭",
+      "accent_variants": [
+        0
+      ]
+    },
+    {
+      "key": "さかなのはいそくにたつひれが背びれです。ぎょしゅによってひとつのばあいと、だいいち・だいににわかれるばあいがあります。",
+      "input": "さかなのはいそくにたつひれがせびれです。ぎょしゅによってひとつのばあいと、だいいち・だいににわかれるばあいがあります。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "そくせん",
+      "input": "そくせん",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page78.json; specialist culinary readings cross-checked where noted.",
+      "accent": 0,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L80218",
+      "listening_verified": false,
+      "accent_matched_form": "側線",
+      "accent_variants": [
+        0
+      ]
+    },
+    {
+      "key": "ぎょたいのそくめんをとうそくからびそくへはしるせんがそくせんです。みずのうごきやしんどうをかんじるかんかくきです。",
+      "input": "ぎょたいのそくめんおとうそくからびそくえはしるせんがそくせんです。みずのうごきやしんどうおかんじるかんかくきです。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "びへい",
+      "input": "びへい",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page78.json; specialist culinary readings cross-checked where noted.",
+      "accent": null,
+      "accent_status": "checked-no-reliable-culinary-entry",
+      "accent_source": null,
+      "listening_verified": false,
+      "accent_note": "No reliable exact culinary entry found. Homonyms such as 蝉 (せみ), 釜/鎌 (かま), and 下見 (したみ) are not evidence for the fish term."
+    },
+    {
+      "key": "どうたいとおびれのあいだにあるほそいつけねがびへいです。「おのつけね」ともせつめいできます。",
+      "input": "どうたいとおびれのあいだにあるほそいつけねがびへいです。「おのつけね」ともせつめいできます。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "びこう",
+      "input": "びこう",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page78.json; specialist culinary readings cross-checked where noted.",
+      "accent": 0,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100886",
+      "listening_verified": false,
+      "accent_matched_form": "鼻孔",
+      "accent_variants": [
+        0
+      ]
+    },
+    {
+      "key": "めとくちのあいだにあるちいさなかいこうぶがびこうです。さかなではおもににおいをかんじるためにつかわれます。",
+      "input": "めとくちのあいだにあるちいさなかいこうぶがびこうです。さかなでわおもににおいおかんじるためにつかわれます。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "くち",
+      "input": "くち",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page78.json; specialist culinary readings cross-checked where noted.",
+      "accent": 0,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L48778",
+      "listening_verified": false,
+      "accent_matched_form": "口",
+      "accent_variants": [
+        0
+      ]
+    },
+    {
+      "key": "とうそくのせんたんにあるかいこうぶがくちです。",
+      "input": "とうそくのせんたんにあるかいこうぶがくちです。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "えらぶた",
+      "input": "えらぶた",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page78.json; specialist culinary readings cross-checked where noted.",
+      "accent": 0,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L123891",
+      "listening_verified": false,
+      "accent_matched_form": "鰓蓋",
+      "accent_variants": [
+        0
+      ]
+    },
+    {
+      "key": "えらをそとがわからおおういたじょうのぶぶんがえらぶたです。えいごでは gill cover、せんもんごでは operculum とよびます。",
+      "input": "えらおそとがわからおおういたじょうのぶぶんがえらぶたです。えいごでわ ぎる かばー、せんもんごでわ おーぱーきゅらむ とよびます。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "むなびれ",
+      "input": "むなびれ",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page78.json; specialist culinary readings cross-checked where noted.",
+      "accent": 0,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L39743",
+      "listening_verified": false,
+      "accent_matched_form": "胸鰭",
+      "accent_variants": [
+        0
+      ]
+    },
+    {
+      "key": "えらぶたのこうほう、からだのさゆうにあるいっついのひれがむなびれです。",
+      "input": "えらぶたのこうほう、からだのさゆうにあるいっついのひれがむなびれです。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "はら",
+      "input": "はら",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page78.json; specialist culinary readings cross-checked where noted.",
+      "accent": 2,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L103828",
+      "listening_verified": false,
+      "accent_matched_form": "腹",
+      "accent_variants": [
+        2
+      ]
+    },
+    {
+      "key": "ぎょたいのしたがわ、つまりふくそくのぶぶんがはらです。",
+      "input": "ぎょたいのしたがわ、つまりふくそくのぶぶんがはらです。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "はらびれ",
+      "input": "はらびれ",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page78.json; specialist culinary readings cross-checked where noted.",
+      "accent": 0,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L103887",
+      "listening_verified": false,
+      "accent_matched_form": "腹鰭",
+      "accent_variants": [
+        0
+      ]
+    },
+    {
+      "key": "ふくそくのひかくてきぜんぽうにあるいっついのひれがはらびれです。いちはぎょしゅによってことなります。",
+      "input": "ふくそくのひかくてきぜんぽうにあるいっついのひれがはらびれです。いちわぎょしゅによってことなります。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "うろこ",
+      "input": "うろこ",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page78.json; specialist culinary readings cross-checked where noted.",
+      "accent": 3,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L117190",
+      "listening_verified": false,
+      "accent_matched_form": "鱗",
+      "accent_variants": [
+        3,
+        0
+      ]
+    },
+    {
+      "key": "さかなのたいひょうをおおうちいさないたじょうのこうぞうがうろこです。りょうりでは「うろこをとる」といいます。",
+      "input": "さかなのたいひょうおおおうちいさないたじょうのこうぞうがうろこです。りょうりでわ「うろこおとる」といいます。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "かわ",
+      "input": "かわ",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page78.json; specialist culinary readings cross-checked where noted.",
+      "accent": 2,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100084",
+      "listening_verified": false,
+      "accent_matched_form": "皮",
+      "accent_variants": [
+        2
+      ]
+    },
+    {
+      "key": "ぎょたいのそとがわをおおうそしきがかわです。うろこはかわのひょうめんにあるこうぞうで、おなじものではありません。",
+      "input": "ぎょたいのそとがわおおおうそしきがかわです。うろこわかわのひょうめんにあるこうぞうで、おなじものでわありません。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "しりびれ",
+      "input": "しりびれ",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page78.json; specialist culinary readings cross-checked where noted.",
+      "accent": 0,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L122293",
+      "listening_verified": false,
+      "accent_matched_form": "臀鰭",
+      "accent_variants": [
+        0
+      ]
+    },
+    {
+      "key": "ふくそくのこうほう、こうもんよりびそくにあるひれがしりびれです。",
+      "input": "ふくそくのこうほう、こうもんよりびそくにあるひれがしりびれです。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "お",
+      "input": "お",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page78.json; specialist culinary readings cross-checked where noted.",
+      "accent": 1,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100618",
+      "listening_verified": false,
+      "accent_matched_form": "尾",
+      "accent_variants": [
+        1
+      ]
+    },
+    {
+      "key": "ぎょたいのこうたんがおで、そのおおきなひれを尾びれといいます。このずではおなじいちとしてまとめておぼえます。",
+      "input": "ぎょたいのこうたんがおで、そのおおきなひれおおびれといいます。このずでわおなじいちとしてまとめておぼえます。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "おびれ",
+      "input": "おびれ",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page78.json; specialist culinary readings cross-checked where noted.",
+      "accent": 1,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100653",
+      "listening_verified": false,
+      "accent_matched_form": "尾鰭",
+      "accent_variants": [
+        1,
+        0
+      ]
+    },
+    {
+      "key": "ぎょたいのいちばんそとがわをおおうぶぶんがかわです。ずではさかなのそとがわのシルエットぜんたいをオレンジいろのせんでしめしています。",
+      "input": "ぎょたいのいちばんそとがわおおおうぶぶんがかわです。ずでわさかなのそとがわのしるえっとぜんたいおおれんじいろのせんでしめしています。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page79.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "えら",
+      "input": "えら",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page79.json; specialist culinary readings cross-checked where noted.",
+      "accent": 0,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L123890",
+      "listening_verified": false,
+      "accent_matched_form": "鰓",
+      "accent_variants": [
+        0
+      ]
+    },
+    {
+      "key": "とうぶのなかでこきゅうにつかわれるきかんがえらです。したしょりでは、いたみやにおいのげんいんをのこさないためにとりのぞきます。",
+      "input": "とうぶのなかでこきゅうにつかわれるきかんがえらです。したしょりでわ、いたみやにおいのげんいんおのこさないためにとりのぞきます。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page79.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "ほほにく",
+      "input": "ほほにく",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page79.json; specialist culinary readings cross-checked where noted.",
+      "accent": null,
+      "accent_status": "checked-no-reliable-culinary-entry",
+      "accent_source": null,
+      "listening_verified": false,
+      "accent_note": "No reliable exact culinary entry found. Homonyms such as 蝉 (せみ), 釜/鎌 (かま), and 下見 (したみ) are not evidence for the fish term."
+    },
+    {
+      "key": "めのこうほう、えらぶたしゅうへんにあるちいさなきんにくがほほにくです。よくうごくためうまみがあり、おおきなさかなではやきものなどにつかえます。",
+      "input": "めのこうほう、えらぶたしゅうへんにあるちいさなきんにくがほほにくです。よくうごくためうまみがあり、おおきなさかなでわやきものなどにつかえます。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page79.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "かま",
+      "input": "かま",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page79.json; specialist culinary readings cross-checked where noted.",
+      "accent": null,
+      "accent_status": "checked-no-reliable-culinary-entry",
+      "accent_source": null,
+      "listening_verified": false,
+      "accent_note": "No reliable exact culinary entry found. Homonyms such as 蝉 (せみ), 釜/鎌 (かま), and 下見 (したみ) are not evidence for the fish term."
+    },
+    {
+      "key": "あたまのこうほう、むなびれのつけねをふくむぶぶんがかまです。ずのてんせんは、かまをきりわけるいちのめやすをしめしています。",
+      "input": "あたまのこうほう、むなびれのつけねおふくむぶぶんがかまです。ずのてんせんわ、かまおきりわけるいちのめやすおしめしています。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page79.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "はらぼね",
+      "input": "はらぼね",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page79.json; specialist culinary readings cross-checked where noted.",
+      "accent": null,
+      "accent_status": "checked-no-reliable-culinary-entry",
+      "accent_source": null,
+      "listening_verified": false,
+      "accent_note": "No reliable exact culinary entry found. Homonyms such as 蝉 (せみ), 釜/鎌 (かま), and 下見 (したみ) are not evidence for the fish term."
+    },
+    {
+      "key": "せぼねからはらがわへのび、ないぞうをかこむようにならぶほねがはらぼねです。さんまいおろしのあとに「はらぼねをすきとる」といいます。",
+      "input": "せぼねからはらがわえのび、ないぞうおかこむようにならぶほねがはらぼねです。さんまいおろしのあとに「はらぼねおすきとる」といいます。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page79.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "なかぼね",
+      "input": "なかぼね",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page79.json; specialist culinary readings cross-checked where noted.",
+      "accent": 0,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L85916",
+      "listening_verified": false,
+      "accent_matched_form": "中骨",
+      "accent_variants": [
+        0
+      ]
+    },
+    {
+      "key": "さんまいおろしでさゆうのみをはずしたあとにのこる、せぼねとしゅうへんのこっかくぜんたいをなかぼねとよびます。えいごでは fish frame とせつめいできます。",
+      "input": "さんまいおろしでさゆうのみおはずしたあとにのこる、せぼねとしゅうへんのこっかくぜんたいおなかぼねとよびます。えいごでわ ふぃっしゅ ふれーむ とせつめいできます。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page79.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "せぼね",
+      "input": "せぼね",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page79.json; specialist culinary readings cross-checked where noted.",
+      "accent": 0,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L97256",
+      "listening_verified": false,
+      "accent_matched_form": "背骨",
+      "accent_variants": [
+        0
+      ]
+    },
+    {
+      "key": "ぎょたいのちゅうおうをとうそくからびそくへとおるしゅようなほねがせぼねです。このずでは、せぼねとはいそくへのびるほねをまとめてオレンジいろでしめしています。",
+      "input": "ぎょたいのちゅうおうおとうそくからびそくえとおるしゅようなほねがせぼねです。このずでわ、せぼねとはいそくえのびるほねおまとめておれんじいろでしめしています。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page79.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "さかなのせがわからちゅうおうへとおるしゅようなほねがせぼねです。だんめんずではちゅうおうじょうぶのせんと、そのしたのちいさなほねのかたちをまとめてしめしています。",
+      "input": "さかなのせがわからちゅうおうえとおるしゅようなほねがせぼねです。だんめんずでわちゅうおうじょうぶのせんと、そのしたのちいさなほねのかたちおまとめてしめしています。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page79.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "せぼねからはらがわへまわりこむさゆうのほねがはらぼねです。だんめんずではさゆういっついのせんとしてみえます。",
+      "input": "せぼねからはらがわえまわりこむさゆうのほねがはらぼねです。だんめんずでわさゆういっついのせんとしてみえます。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page79.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "こぼね",
+      "input": "こぼね",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page79.json; specialist culinary readings cross-checked where noted.",
+      "accent": 0,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L65970",
+      "listening_verified": false,
+      "accent_matched_form": "小骨",
+      "accent_variants": [
+        0
+      ]
+    },
+    {
+      "key": "フィレのみのなかにのこるほそいほねがこぼねです。したしょりではほねぬきをつかい、「こぼねをぬく」といいます。",
+      "input": "ふぃれのみのなかにのこるほそいほねがこぼねです。したしょりでわほねぬきおつかい、「こぼねおぬく」といいます。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page79.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "ちあい",
+      "input": "ちあい",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page79.json; specialist culinary readings cross-checked where noted.",
+      "accent": 0,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L43849",
+      "listening_verified": false,
+      "accent_matched_form": "血合い",
+      "accent_variants": [
+        0
+      ]
+    },
+    {
+      "key": "せぼねのしゅうへんなどにみえるいろのこいきんにくがちあいです。ふうみがつよくいたみやすいため、りょうりによってはていねいにとりのぞきます。",
+      "input": "せぼねのしゅうへんなどにみえるいろのこいきんにくがちあいです。ふうみがつよくいたみやすいため、りょうりによってわていねいにとりのぞきます。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page79.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "せみ",
+      "input": "せみ",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page79-three-piece.json; specialist culinary readings cross-checked where noted.",
+      "accent": null,
+      "accent_status": "checked-no-reliable-culinary-entry",
+      "accent_source": null,
+      "listening_verified": false,
+      "accent_note": "No reliable exact culinary entry found. Homonyms such as 蝉 (せみ), 釜/鎌 (かま), and 下見 (したみ) are not evidence for the fish term.",
+      "reading_source_url": "https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/anisakisu-2"
+    },
+    {
+      "key": "さかなのせがわからとれるみがせみです。はらみよりあぶらがすくなく、あっさりしているけいこうがあります。",
+      "input": "さかなのせがわからとれるみがせみです。はらみよりあぶらがすくなく、あっさりしているけいこうがあります。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page79-three-piece.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "はらみ",
+      "input": "はらみ",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page79-three-piece.json; specialist culinary readings cross-checked where noted.",
+      "accent": null,
+      "accent_status": "checked-no-reliable-culinary-entry",
+      "accent_source": null,
+      "listening_verified": false,
+      "accent_note": "No reliable exact culinary entry found. Homonyms such as 蝉 (せみ), 釜/鎌 (かま), and 下見 (したみ) are not evidence for the fish term.",
+      "reading_source_url": "https://mi-journey.jp/foodie/45887/"
+    },
+    {
+      "key": "さかなのはらがわからとれるみがはらみです。ぎょしゅやきせつによってはせみよりあぶらがのっています。",
+      "input": "さかなのはらがわからとれるみがはらみです。ぎょしゅやきせつによってわせみよりあぶらがのっています。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page79-three-piece.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "うわみ",
+      "input": "うわみ",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page79-three-piece.json; specialist culinary readings cross-checked where noted.",
+      "accent": null,
+      "accent_status": "checked-no-reliable-culinary-entry",
+      "accent_source": null,
+      "listening_verified": false,
+      "accent_note": "No reliable exact culinary entry found. Homonyms such as 蝉 (せみ), 釜/鎌 (かま), and 下見 (したみ) are not evidence for the fish term.",
+      "reading_source_url": "https://sushiwalker.com/dictionary/90649/"
+    },
+    {
+      "key": "さんまいおろしでうえがわにおかれたみをうわみとよびます。さぎょうちゅうのさかなのむきによって、みぎがわのフィレをさすばあいがあります。",
+      "input": "さんまいおろしでうえがわにおかれたみおうわみとよびます。さぎょうちゅうのさかなのむきによって、みぎがわのふぃれおさすばあいがあります。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page79-three-piece.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "なかおち",
+      "input": "なかおち",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page79-three-piece.json; specialist culinary readings cross-checked where noted.",
+      "accent": 0,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L86123",
+      "listening_verified": false,
+      "accent_matched_form": "中落ち",
+      "accent_variants": [
+        0
+      ],
+      "regeneration_note": "Regenerated with Marin at 1.0 after the user reported an unexpected male voice; fresh content-versioned URL avoids cached playback. Not listening-verified."
+    },
+    {
+      "key": "さんまいおろしのあと、せぼねのまわりにのこるみがなかおちです。スプーンなどでかきとってつかうことがあります。",
+      "input": "さんまいおろしのあと、せぼねのまわりにのこるみがなかおちです。すぷーんなどでかきとってつかうことがあります。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page79-three-piece.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    },
+    {
+      "key": "したみ",
+      "input": "したみ",
+      "speed": 1.0,
+      "reading_source": "Correct source answer and reviewed hiragana in scripts/lesson-audio-reviews/page79-three-piece.json; specialist culinary readings cross-checked where noted.",
+      "accent": null,
+      "accent_status": "checked-no-reliable-culinary-entry",
+      "accent_source": null,
+      "listening_verified": false,
+      "accent_note": "No reliable exact culinary entry found. Homonyms such as 蝉 (せみ), 釜/鎌 (かま), and 下見 (したみ) are not evidence for the fish term.",
+      "reading_source_url": "https://www.sumeshiya.com/blog/2021/06/post-6579.html"
+    },
+    {
+      "key": "さんまいおろしでしたがわにおかれたみをしたみとよびます。さかなのおきかたやおろすむきによって、さゆうとのたいおうがかわることがあります。",
+      "input": "さんまいおろしでしたがわにおかれたみおしたみとよびます。さかなのおきかたやおろすむきによって、さゆうとのたいおうがかわることがあります。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page79-three-piece.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
+      "listening_verified": false
+    }
+  ]
+}

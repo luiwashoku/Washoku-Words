@@ -267,10 +267,42 @@ Reading checks are not a certification of audible pitch accent or articulation.
 `knife-forms-cards` contains 25 illustrated flashcards in source order, with the knife name as vocabulary and the correct source answer as the function sentence. Its 50 Marin clips use the reviewed name/function readings from the original knife quiz. Regenerate with `python3 scripts/generate-lesson-audio.py --lesson knife-forms-cards`. Individual SVGs are extracted by `scripts/export-knife-card-illustrations.py` (requires `svgpathtools`); the files contain only the selected knife artwork and omit numeric labels.
 
 Batch 86: `chicken-parts-cards`, 鶏カード, 22 individual part cards derived from
-`page73`, with 22 Marin vocabulary recordings at 0.85 and 17 unique answer
+`page73`, with 22 Marin vocabulary recordings at 1.0 and 17 unique answer
 explanations at 1.0. Reuses `assets/chicken_parts.svg` with distinct highlighted
 fragment URLs. The review records seven dictionary-backed pitch targets, four
 metaphorical-name candidates, and eleven specialty names without a reliable exact
 pitch entry; unconfirmed targets are not forced. No listening verification is
 claimed. The new ハラミ card corrects the source description to abdominal-wall
 muscle, with the reference recorded in its review file.
+
+Batch 87: `beef-parts-cards`, 牛カード, 23 individual parts from `page76`,
+with 23 Marin vocabulary clips at 1.0 and 16 answer-explanation clips at 1.0.
+Reuses the highlighted `assets/cow_4.svg` regions, directly below 牛の部位.
+Ten vocabulary pitch targets match dictionary readings; thirteen specialist or
+ambiguous names remain unconfirmed and are not forced.
+
+Batch 88: `pork-parts-cards`, 豚カード, 25 individual parts from `page83`,
+with 25 Marin vocabulary clips at 1.0 and 22 answer-explanation clips at 1.0.
+Reuses the highlighted `assets/pig-106.svg` regions, directly below 豚肉の部位.
+Seventeen vocabulary pitch targets match dictionary readings; eight remain
+unconfirmed and are not forced. 豚トロ uses とんとろ, matching the source
+explanation and the producer reading linked in the review, while preserving
+the display label. Both decks retain the chicken deck's compact layout and
+240px illustration setting. No audible pitch/listening verification is claimed.
+
+Animal-card vocabulary uses normal Marin generation speed 1.0 at the user’s
+request, following reported buzzing in the 0.85 recordings. Explanations stay
+at 1.0; playback speed is unchanged.
+
+Batch 89: `fish-cards`, 魚カード, combines 魚の外部構造 (`page78`),
+魚の内部 (`page79`), and 三枚おろし (`page79-three-piece`) into 33
+ordered cards directly below 三枚おろし. Thirty unique vocabulary clips
+and 32 description clips use Marin at normal generation speed 1.0. Original
+fish SVGs and alternate views are preserved, using distinct highlight URLs.
+New-card annotations correct 一対 to いっつい, retain 左右 as さゆう
+in 左右一対, and read オレンジ色 as おれんじいろ. All hiragana inputs
+and contextual particles were reviewed against the source batches. Twenty-two
+vocabulary pitch targets match dictionary readings, with variants recorded;
+eight specialty fish terms have no reliable exact pitch entry and are not
+forced. Non-fish homonyms are excluded. No audible listening/pitch verification
+is claimed. The compact layout and 240px illustration setting match 鶏カード.

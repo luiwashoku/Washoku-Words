@@ -1,0 +1,304 @@
+{
+  "title": "牛カード",
+  "entries": [
+    {
+      "id": "beef-part-card-01",
+      "kanji": "ネック",
+      "japanese": "ねっく",
+      "english": "Neck",
+      "image": "assets/cow_4.svg?highlight=neck#neck",
+      "imageAlt": "牛の首の部位がオレンジ色に示されている",
+      "sourceCard": "page76-q01",
+      "example": {
+        "japanese": "首(くび)の部分(ぶぶん)は「ネック」です。よく動(うご)くため筋肉質(きんにくしつ)で、煮込(にこ)みなどに向(む)きます。",
+        "english": "Neck is a well-worked, muscular cut often suited to slow cooking."
+      }
+    },
+    {
+      "id": "beef-part-card-02",
+      "kanji": "肩",
+      "japanese": "かた",
+      "english": "Kata / Shoulder",
+      "image": "assets/cow_4.svg?highlight=kata#kata",
+      "imageAlt": "牛の肩の大きな部位がオレンジ色に示されている",
+      "sourceCard": "page76-q02",
+      "example": {
+        "japanese": "肩(かた)の大(おお)きな区画(くかく)には、肩(かた)、ザブトン、肩(かた)ロースとして扱(あつか)われる部分(ぶぶん)があります。",
+        "english": "The shoulder area includes cuts identified here as kata, zabuton, and kata-rōsu."
+      }
+    },
+    {
+      "id": "beef-part-card-03",
+      "kanji": "ザブトン",
+      "japanese": "ざぶとん",
+      "english": "Zabuton / Chuck flap",
+      "image": "assets/cow_4.svg?highlight=kata#kata",
+      "imageAlt": "牛の肩の大きな部位がオレンジ色に示されている",
+      "sourceCard": "page76-q02",
+      "example": {
+        "japanese": "肩(かた)の大(おお)きな区画(くかく)には、肩(かた)、ザブトン、肩(かた)ロースとして扱(あつか)われる部分(ぶぶん)があります。",
+        "english": "The shoulder area includes cuts identified here as kata, zabuton, and kata-rōsu."
+      }
+    },
+    {
+      "id": "beef-part-card-04",
+      "kanji": "肩ロース",
+      "japanese": "かたろーす",
+      "english": "Kata-rōsu / Chuck roll",
+      "image": "assets/cow_4.svg?highlight=kata#kata",
+      "imageAlt": "牛の肩の大きな部位がオレンジ色に示されている",
+      "sourceCard": "page76-q02",
+      "example": {
+        "japanese": "肩(かた)の大(おお)きな区画(くかく)には、肩(かた)、ザブトン、肩(かた)ロースとして扱(あつか)われる部分(ぶぶん)があります。",
+        "english": "The shoulder area includes cuts identified here as kata, zabuton, and kata-rōsu."
+      }
+    },
+    {
+      "id": "beef-part-card-05",
+      "kanji": "ミスジ",
+      "japanese": "みすじ",
+      "english": "Misuji / Top blade",
+      "image": "assets/cow_4.svg?highlight=misuji#misuji",
+      "imageAlt": "牛の肩の下側にある三角形の部位がオレンジ色に示されている",
+      "sourceCard": "page76-q03",
+      "example": {
+        "japanese": "肩甲骨(けんこうこつ)の内側(うちがわ)にある希少部位(きしょうぶい)が「ミスジ」です。",
+        "english": "Misuji is the top-blade cut associated with the shoulder blade."
+      }
+    },
+    {
+      "id": "beef-part-card-06",
+      "kanji": "三角バラ",
+      "japanese": "さんかくばら",
+      "english": "Sankaku-bara / Chuck short rib",
+      "image": "assets/cow_4.svg?highlight=sankaku-bara#sankaku-bara",
+      "imageAlt": "牛の前方下部にある三角形のばら肉がオレンジ色に示されている",
+      "sourceCard": "page76-q04",
+      "example": {
+        "japanese": "肩(かた)に近(ちか)い前方(ぜんぽう)の三角形(さんかくけい)のばら肉(にく)が「三角(さんかく)バラ」です。",
+        "english": "Sankaku-bara is the triangular short-rib area toward the front of the animal."
+      }
+    },
+    {
+      "id": "beef-part-card-07",
+      "kanji": "ブリスケット",
+      "japanese": "ぶりすけっと",
+      "english": "Brisket",
+      "image": "assets/cow_4.svg?highlight=brisket#brisket",
+      "imageAlt": "牛の胸の下側の部位がオレンジ色に示されている",
+      "sourceCard": "page76-q05",
+      "example": {
+        "japanese": "胸(むね)の下側(したがわ)にある部位(ぶい)は「ブリスケット」です。結合組織(けつごうそしき)が多(おお)く、時間(じかん)をかける調理(ちょうり)に向(む)きます。",
+        "english": "Brisket is the lower chest, rich in connective tissue and suited to long cooking."
+      }
+    },
+    {
+      "id": "beef-part-card-08",
+      "kanji": "リブロース",
+      "japanese": "りぶろーす",
+      "english": "Ribeye",
+      "image": "assets/cow_4.svg?highlight=ribeye#ribeye",
+      "imageAlt": "牛の背中中央前寄りの部位がオレンジ色に示されている",
+      "sourceCard": "page76-q06",
+      "example": {
+        "japanese": "背中(せなか)の中央(ちゅうおう)より前方(ぜんぽう)にある部位(ぶい)が「リブロース」です。",
+        "english": "Ribeye comes from the forward-middle section of the back."
+      }
+    },
+    {
+      "id": "beef-part-card-09",
+      "kanji": "サーロイン",
+      "japanese": "さーろいん",
+      "english": "Sirloin",
+      "image": "assets/cow_4.svg?highlight=sirloin#sirloin",
+      "imageAlt": "牛の背中中央後ろ寄りの部位がオレンジ色に示されている",
+      "sourceCard": "page76-q07",
+      "example": {
+        "japanese": "リブロースの後方(こうほう)、腰(こし)に近(ちか)い背中(せなか)の部位(ぶい)が「サーロイン」です。",
+        "english": "Sirloin lies behind the ribeye toward the loin and hip."
+      }
+    },
+    {
+      "id": "beef-part-card-10",
+      "kanji": "ヒレ",
+      "japanese": "ひれ",
+      "english": "Hire / Tenderloin",
+      "image": "assets/cow_4.svg?highlight=hire#hire",
+      "imageAlt": "牛の胴体内側にある細長いヒレの部位がオレンジ色に示されている",
+      "sourceCard": "page76-q08",
+      "example": {
+        "japanese": "腰椎(ようつい)の内側(うちがわ)にある、あまり動(うご)かない柔(やわ)らかな筋肉(きんにく)が「ヒレ」です。",
+        "english": "Tenderloin is a little-used internal muscle valued for tenderness."
+      }
+    },
+    {
+      "id": "beef-part-card-11",
+      "kanji": "イチボ",
+      "japanese": "いちぼ",
+      "english": "Ichibo / Rump cap",
+      "image": "assets/cow_4.svg?highlight=rump-group#rump-group",
+      "imageAlt": "牛の腰から尻上部にかけてのイチボとランプの共通区画がオレンジ色に示されている",
+      "sourceCard": "page76-q09",
+      "example": {
+        "japanese": "腰(こし)から尻(しり)にかけての赤身(あかみ)が「ランプ」で、その外側上部(そとがわじょうぶ)に「イチボ」があります。図(ず)では一(ひと)つの白(しろ)い区画(くかく)として示(しめ)されています。",
+        "english": "Rump covers the loin-to-hip area, with ichibo at its upper outer portion. The source diagram presents them in one shared shape."
+      }
+    },
+    {
+      "id": "beef-part-card-12",
+      "kanji": "ランプ",
+      "japanese": "らんぷ",
+      "english": "Rump",
+      "image": "assets/cow_4.svg?highlight=rump-group#rump-group",
+      "imageAlt": "牛の腰から尻上部にかけてのイチボとランプの共通区画がオレンジ色に示されている",
+      "sourceCard": "page76-q09",
+      "example": {
+        "japanese": "腰(こし)から尻(しり)にかけての赤身(あかみ)が「ランプ」で、その外側上部(そとがわじょうぶ)に「イチボ」があります。図(ず)では一(ひと)つの白(しろ)い区画(くかく)として示(しめ)されています。",
+        "english": "Rump covers the loin-to-hip area, with ichibo at its upper outer portion. The source diagram presents them in one shared shape."
+      }
+    },
+    {
+      "id": "beef-part-card-13",
+      "kanji": "外もも",
+      "japanese": "そともも",
+      "english": "Outside round",
+      "image": "assets/cow_4.svg?highlight=outside-group#outside-group",
+      "imageAlt": "牛の後脚上部の複合区画がオレンジ色に示されている",
+      "sourceCard": "page76-q11",
+      "example": {
+        "japanese": "後脚(こうきゃく)上部(じょうぶ)の区画(くかく)には「外(そと)もも」「しんたま」「トモサンカク」が含(ふく)まれます。図(ず)では複合区画(ふくごうくかく)として覚(おぼ)えます。",
+        "english": "This hindquarter grouping contains outside round, knuckle, and tomosankaku."
+      }
+    },
+    {
+      "id": "beef-part-card-14",
+      "kanji": "しんたま",
+      "japanese": "しんたま",
+      "english": "Shintama / Knuckle",
+      "image": "assets/cow_4.svg?highlight=outside-group#outside-group",
+      "imageAlt": "牛の後脚上部の複合区画がオレンジ色に示されている",
+      "sourceCard": "page76-q11",
+      "example": {
+        "japanese": "後脚(こうきゃく)上部(じょうぶ)の区画(くかく)には「外(そと)もも」「しんたま」「トモサンカク」が含(ふく)まれます。図(ず)では複合区画(ふくごうくかく)として覚(おぼ)えます。",
+        "english": "This hindquarter grouping contains outside round, knuckle, and tomosankaku."
+      }
+    },
+    {
+      "id": "beef-part-card-15",
+      "kanji": "トモサンカク",
+      "japanese": "ともさんかく",
+      "english": "Tomosankaku / Tri-tip",
+      "image": "assets/cow_4.svg?highlight=outside-group#outside-group",
+      "imageAlt": "牛の後脚上部の複合区画がオレンジ色に示されている",
+      "sourceCard": "page76-q11",
+      "example": {
+        "japanese": "後脚(こうきゃく)上部(じょうぶ)の区画(くかく)には「外(そと)もも」「しんたま」「トモサンカク」が含(ふく)まれます。図(ず)では複合区画(ふくごうくかく)として覚(おぼ)えます。",
+        "english": "This hindquarter grouping contains outside round, knuckle, and tomosankaku."
+      }
+    },
+    {
+      "id": "beef-part-card-16",
+      "kanji": "内もも",
+      "japanese": "うちもも",
+      "english": "Inside round",
+      "image": "assets/cow_4.svg?highlight=inside-round#inside-round",
+      "imageAlt": "牛の後脚上部内側の部位がオレンジ色に示されている",
+      "sourceCard": "page76-q12",
+      "example": {
+        "japanese": "後脚(こうきゃく)の内側(うちがわ)にある大(おお)きな赤身(あかみ)の部位(ぶい)が「内(うち)もも」です。",
+        "english": "Inside round is the large lean muscle on the inner hind leg."
+      }
+    },
+    {
+      "id": "beef-part-card-17",
+      "kanji": "フランク",
+      "japanese": "ふらんく",
+      "english": "Flank",
+      "image": "assets/cow_4.svg?highlight=flank#flank",
+      "imageAlt": "牛の後方腹部の部位がオレンジ色に示されている",
+      "sourceCard": "page76-q13",
+      "example": {
+        "japanese": "後方(こうほう)の腹部(ふくぶ)にある部位(ぶい)が「フランク」です。",
+        "english": "Flank is the rear abdominal cut."
+      }
+    },
+    {
+      "id": "beef-part-card-18",
+      "kanji": "バラ",
+      "japanese": "ばら",
+      "english": "Bara / Short plate",
+      "image": "assets/cow_4.svg?highlight=bara#bara",
+      "imageAlt": "牛の腹側中央の大きなばら肉の部位がオレンジ色に示されている",
+      "sourceCard": "page76-q14",
+      "example": {
+        "japanese": "胴体(どうたい)の腹側(はらがわ)に広(ひろ)がる部位(ぶい)が「バラ」です。",
+        "english": "Bara is the broad short-plate or belly area."
+      }
+    },
+    {
+      "id": "beef-part-card-19",
+      "kanji": "カルビ",
+      "japanese": "かるび",
+      "english": "Karubi / Short rib",
+      "image": "assets/cow_4.svg?highlight=karubi-kainomi#karubi-kainomi",
+      "imageAlt": "牛のばら肉の中のカルビとカイノミの区画がオレンジ色に示されている",
+      "sourceCard": "page76-q15",
+      "example": {
+        "japanese": "バラの中(なか)で、焼肉(やきにく)の「カルビ」や脇腹側(わきばらがわ)の「カイノミ」として扱(あつか)う区画(くかく)です。",
+        "english": "This subsection of the plate includes yakiniku short rib and kainomi flap meat."
+      }
+    },
+    {
+      "id": "beef-part-card-20",
+      "kanji": "カイノミ",
+      "japanese": "かいのみ",
+      "english": "Kainomi / Flap meat",
+      "image": "assets/cow_4.svg?highlight=karubi-kainomi#karubi-kainomi",
+      "imageAlt": "牛のばら肉の中のカルビとカイノミの区画がオレンジ色に示されている",
+      "sourceCard": "page76-q15",
+      "example": {
+        "japanese": "バラの中(なか)で、焼肉(やきにく)の「カルビ」や脇腹側(わきばらがわ)の「カイノミ」として扱(あつか)う区画(くかく)です。",
+        "english": "This subsection of the plate includes yakiniku short rib and kainomi flap meat."
+      }
+    },
+    {
+      "id": "beef-part-card-21",
+      "kanji": "ハラミ",
+      "japanese": "はらみ",
+      "english": "Harami / Skirt",
+      "image": "assets/cow_4.svg?highlight=harami-sagari#harami-sagari",
+      "imageAlt": "牛の横隔膜周辺のハラミとサガリがオレンジ色に示されている",
+      "sourceCard": "page76-q16",
+      "example": {
+        "japanese": "横隔膜(おうかくまく)に関係(かんけい)する部位(ぶい)が「ハラミ」と「サガリ」です。図(ず)では同(おな)じ区画(くかく)として示(しめ)します。",
+        "english": "Harami and sagari are diaphragm-associated cuts shown together in this diagram."
+      }
+    },
+    {
+      "id": "beef-part-card-22",
+      "kanji": "サガリ",
+      "japanese": "さがり",
+      "english": "Sagari / Hanger",
+      "image": "assets/cow_4.svg?highlight=harami-sagari#harami-sagari",
+      "imageAlt": "牛の横隔膜周辺のハラミとサガリがオレンジ色に示されている",
+      "sourceCard": "page76-q16",
+      "example": {
+        "japanese": "横隔膜(おうかくまく)に関係(かんけい)する部位(ぶい)が「ハラミ」と「サガリ」です。図(ず)では同(おな)じ区画(くかく)として示(しめ)します。",
+        "english": "Harami and sagari are diaphragm-associated cuts shown together in this diagram."
+      }
+    },
+    {
+      "id": "beef-part-card-23",
+      "kanji": "すね",
+      "japanese": "すね",
+      "english": "Shank",
+      "image": "assets/cow_4.svg?highlight=shank#shank",
+      "imageAlt": "牛の前脚と後脚の関節に近いすねの部分だけがオレンジ色に示されている",
+      "sourceCard": "page76-q17",
+      "example": {
+        "japanese": "前脚(ぜんきゃく)と後脚(こうきゃく)の関節(かんせつ)に近(ちか)い部分(ぶぶん)が「すね」です。筋(すじ)が多(おお)く、煮込(にこ)みに向(む)きます。",
+        "english": "Shank is shown here at the joint-level sections of the front and rear legs. It is rich in connective tissue and suits slow cooking."
+      }
+    }
+  ]
+}

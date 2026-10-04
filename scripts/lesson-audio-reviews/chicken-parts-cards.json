@@ -15,7 +15,7 @@
     {
       "key": "ふりそで",
       "input": "ふりそで",
-      "speed": 0.85,
+      "speed": 1.0,
       "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
       "accent": null,
       "accent_status": "metaphorical-name-not-independently-verified",
@@ -34,7 +34,7 @@
     {
       "key": "せせり",
       "input": "せせり",
-      "speed": 0.85,
+      "speed": 1.0,
       "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
       "accent": null,
       "accent_status": "checked-no-reliable-culinary-entry",
@@ -51,7 +51,7 @@
     {
       "key": "かわ",
       "input": "かわ",
-      "speed": 0.85,
+      "speed": 1.0,
       "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
       "accent": 2,
       "accent_status": "dictionary-reading-and-sense-match",
@@ -69,7 +69,7 @@
     {
       "key": "むねにく",
       "input": "むねにく",
-      "speed": 0.85,
+      "speed": 1.0,
       "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
       "accent": null,
       "accent_status": "checked-no-reliable-culinary-entry",
@@ -86,7 +86,7 @@
     {
       "key": "ささみ",
       "input": "ささみ",
-      "speed": 0.85,
+      "speed": 1.0,
       "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
       "accent": 0,
       "accent_status": "dictionary-reading-and-sense-match",
@@ -104,7 +104,7 @@
     {
       "key": "やげんなんこつ",
       "input": "やげんなんこつ",
-      "speed": 0.85,
+      "speed": 1.0,
       "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
       "accent": null,
       "accent_status": "checked-no-reliable-culinary-entry",
@@ -121,7 +121,7 @@
     {
       "key": "てばさき",
       "input": "てばさき",
-      "speed": 0.85,
+      "speed": 1.0,
       "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
       "accent": 0,
       "accent_status": "dictionary-reading-and-sense-match",
@@ -139,7 +139,7 @@
     {
       "key": "てばなか",
       "input": "てばなか",
-      "speed": 0.85,
+      "speed": 1.0,
       "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
       "accent": null,
       "accent_status": "checked-no-reliable-culinary-entry",
@@ -156,7 +156,7 @@
     {
       "key": "てばもと",
       "input": "てばもと",
-      "speed": 0.85,
+      "speed": 1.0,
       "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
       "accent": null,
       "accent_status": "checked-no-reliable-culinary-entry",
@@ -173,7 +173,7 @@
     {
       "key": "ぼんじり",
       "input": "ぼんじり",
-      "speed": 0.85,
+      "speed": 1.0,
       "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
       "accent": null,
       "accent_status": "checked-no-reliable-culinary-entry",
@@ -190,7 +190,7 @@
     {
       "key": "きんかん",
       "input": "きんかん",
-      "speed": 0.85,
+      "speed": 1.0,
       "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
       "accent": null,
       "accent_status": "metaphorical-name-not-independently-verified",
@@ -209,7 +209,7 @@
     {
       "key": "ちょうちん",
       "input": "ちょうちん",
-      "speed": 0.85,
+      "speed": 1.0,
       "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
       "accent": null,
       "accent_status": "metaphorical-name-not-independently-verified",
@@ -221,7 +221,7 @@
     {
       "key": "もも",
       "input": "もも",
-      "speed": 0.85,
+      "speed": 1.0,
       "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
       "accent": 1,
       "accent_status": "dictionary-reading-and-sense-match",
@@ -239,7 +239,7 @@
     {
       "key": "そりれす",
       "input": "そりれす",
-      "speed": 0.85,
+      "speed": 1.0,
       "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
       "accent": null,
       "accent_status": "checked-no-reliable-culinary-entry",
@@ -249,7 +249,7 @@
     {
       "key": "はつ",
       "input": "はつ",
-      "speed": 0.85,
+      "speed": 1.0,
       "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
       "accent": 1,
       "accent_status": "dictionary-reading-and-sense-match",
@@ -267,7 +267,7 @@
     {
       "key": "はつもと",
       "input": "はつもと",
-      "speed": 0.85,
+      "speed": 1.0,
       "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
       "accent": null,
       "accent_status": "checked-no-reliable-culinary-entry",
@@ -277,7 +277,7 @@
     {
       "key": "つなぎ",
       "input": "つなぎ",
-      "speed": 0.85,
+      "speed": 1.0,
       "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
       "accent": null,
       "accent_status": "metaphorical-name-not-independently-verified",
@@ -289,7 +289,7 @@
     {
       "key": "ればー",
       "input": "ればー",
-      "speed": 0.85,
+      "speed": 1.0,
       "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
       "accent": 1,
       "accent_status": "dictionary-reading-and-sense-match",
@@ -307,7 +307,7 @@
     {
       "key": "しろればー",
       "input": "しろればー",
-      "speed": 0.85,
+      "speed": 1.0,
       "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
       "accent": null,
       "accent_status": "checked-no-reliable-culinary-entry",
@@ -317,7 +317,7 @@
     {
       "key": "はらみ",
       "input": "はらみ",
-      "speed": 0.85,
+      "speed": 1.0,
       "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
       "accent": null,
       "accent_status": "checked-no-reliable-culinary-entry",
@@ -334,7 +334,7 @@
     {
       "key": "すなぎも",
       "input": "すなぎも",
-      "speed": 0.85,
+      "speed": 1.0,
       "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
       "accent": 0,
       "accent_status": "dictionary-reading-and-sense-match",
@@ -352,7 +352,7 @@
     {
       "key": "ひざなんこつ",
       "input": "ひざなんこつ",
-      "speed": 0.85,
+      "speed": 1.0,
       "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
       "accent": null,
       "accent_status": "checked-no-reliable-culinary-entry",
@@ -366,5 +366,6 @@
       "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
       "listening_verified": false
     }
-  ]
+  ],
+  "speed_note": "User requested normal-speed Marin vocabulary generation (1.0) after reporting buzzing in the slower 0.85 recordings. Playback remains at normal speed."
 }

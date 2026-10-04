@@ -820,6 +820,18 @@
     "questionCount": 16
   },
   {
+    "id": "beef-parts-cards",
+    "category": "animal-ingredients",
+    "page": 76,
+    "title": "牛カード",
+    "file": "data/beef-parts-cards.json",
+    "menuColor": "purple",
+    "gameMode": "vocabulary-cards",
+    "ordered": true,
+    "compactCards": true,
+    "questionCount": 23
+  },
+  {
     "id": "page76-organs-others",
     "category": "animal-ingredients",
     "page": 76,
@@ -883,6 +895,19 @@
     "questionCount": 5
   },
   {
+    "id": "fish-cards",
+    "category": "animal-ingredients",
+    "page": "78–79",
+    "title": "魚カード",
+    "file": "data/fish-cards.json",
+    "menuColor": "purple",
+    "gameMode": "vocabulary-cards",
+    "ordered": true,
+    "compactCards": true,
+    "questionCount": 33,
+    "sortOrder": 79
+  },
+  {
     "id": "page82-three-piece-2",
     "category": "animal-ingredients",
     "page": 82,
@@ -930,6 +955,18 @@
       "en": "Build a visual map of pork cuts across the back, shoulder, belly, ham and legs. The ham region includes inside and outside ham, while the knuckle is only the small inner circle. Both front and rear shanks and feet are highlighted together so their repeated position is clear."
     },
     "questionCount": 22
+  },
+  {
+    "id": "pork-parts-cards",
+    "category": "animal-ingredients",
+    "page": 83,
+    "title": "豚カード",
+    "file": "data/pork-parts-cards.json",
+    "menuColor": "purple",
+    "gameMode": "vocabulary-cards",
+    "ordered": true,
+    "compactCards": true,
+    "questionCount": 25
   },
   {
     "id": "page83-pork-organs",

@@ -1,0 +1,467 @@
+{
+  "title": "魚カード",
+  "entries": [
+    {
+      "id": "fish-card-01",
+      "kanji": "目",
+      "japanese": "め",
+      "english": "Eye",
+      "image": "assets/fish1.svg?highlight=eye#eye",
+      "imageAlt": "魚の目の位置にオレンジ色の点が付いている",
+      "sourceLesson": "page78",
+      "sourceCard": "page78-q01",
+      "example": {
+        "japanese": "魚(さかな)の頭部(とうぶ)にある目(め)です。図(ず)では黒(くろ)い瞳(ひとみ)の中央(ちゅうおう)を点(てん)で示(しめ)しています。",
+        "english": "The dot marks the eye on the fish's head."
+      }
+    },
+    {
+      "id": "fish-card-02",
+      "kanji": "頭",
+      "japanese": "あたま",
+      "english": "Head",
+      "image": "assets/fish1.svg?highlight=head#head",
+      "imageAlt": "魚の頭全体の位置にオレンジ色の点が付いている",
+      "sourceLesson": "page78",
+      "sourceCard": "page78-q02",
+      "example": {
+        "japanese": "口(くち)、鼻孔(びこう)、目(め)、えらぶたを含(ふく)む前方(ぜんぽう)の部分(ぶぶん)が頭(あたま)です。",
+        "english": "The head is the forward region containing the mouth, nostril, eye and gill cover."
+      }
+    },
+    {
+      "id": "fish-card-03",
+      "kanji": "背",
+      "japanese": "せ",
+      "english": "Back",
+      "image": "assets/fish1.svg?highlight=back#back",
+      "imageAlt": "魚体の上側の背にオレンジ色の点が付いている",
+      "sourceLesson": "page78",
+      "sourceCard": "page78-q03",
+      "example": {
+        "japanese": "魚体(ぎょたい)の上側(うえがわ)、つまり背側(はいそく)の外形(がいけい)に近(ちか)い部分(ぶぶん)が背(せ)です。",
+        "english": "The back is the upper, dorsal region of the fish's body."
+      }
+    },
+    {
+      "id": "fish-card-04",
+      "kanji": "背びれ",
+      "japanese": "せびれ",
+      "english": "Dorsal fin",
+      "image": "assets/fish1.svg?highlight=dorsal-fin#dorsal-fin",
+      "imageAlt": "魚の背中の上にあるひれにオレンジ色の点が付いている",
+      "sourceLesson": "page78",
+      "sourceCard": "page78-q04",
+      "example": {
+        "japanese": "魚(さかな)の背側(はいそく)に立(た)つひれが背びれ(せびれ)です。魚種(ぎょしゅ)によって一(ひと)つの場合(ばあい)と、第(だい)一(いち)・第(だい)二(に)に分(わ)かれる場合(ばあい)があります。",
+        "english": "The dorsal fin stands on the fish's back. Some species have separate first and second dorsal fins."
+      }
+    },
+    {
+      "id": "fish-card-05",
+      "kanji": "側線",
+      "japanese": "そくせん",
+      "english": "Lateral line",
+      "image": "assets/fish1.svg?highlight=lateral-line#lateral-line",
+      "imageAlt": "魚体の側面を頭側から尾側へ走る線にオレンジ色の点が付いている",
+      "sourceLesson": "page78",
+      "sourceCard": "page78-q05",
+      "example": {
+        "japanese": "魚体(ぎょたい)の側面(そくめん)を頭側(とうそく)から尾側(びそく)へ走(はし)る線(せん)が側線(そくせん)です。水(みず)の動(うご)きや振動(しんどう)を感(かん)じる感覚器(かんかくき)です。",
+        "english": "The lateral line runs along the side of the fish and detects movement and vibration in the water."
+      }
+    },
+    {
+      "id": "fish-card-06",
+      "kanji": "尾柄",
+      "japanese": "びへい",
+      "english": "Caudal peduncle",
+      "image": "assets/fish1.svg?highlight=caudal-peduncle#caudal-peduncle",
+      "imageAlt": "魚体と尾びれをつなぐ細い付け根にオレンジ色の点が付いている",
+      "sourceLesson": "page78",
+      "sourceCard": "page78-q06",
+      "example": {
+        "japanese": "胴体(どうたい)と尾(お)びれの間(あいだ)にある細(ほそ)い付(つ)け根(ね)が尾柄(びへい)です。「尾(お)のつけ根(ね)」とも説明(せつめい)できます。",
+        "english": "The caudal peduncle is the narrowed tail base connecting the body to the caudal fin."
+      }
+    },
+    {
+      "id": "fish-card-07",
+      "kanji": "鼻孔",
+      "japanese": "びこう",
+      "english": "Nostril",
+      "image": "assets/fish1.svg?highlight=nostril#nostril",
+      "imageAlt": "魚の目と口の間にある鼻孔の位置にオレンジ色の点が付いている",
+      "sourceLesson": "page78",
+      "sourceCard": "page78-q07",
+      "example": {
+        "japanese": "目(め)と口(くち)の間(あいだ)にある小(ちい)さな開口部(かいこうぶ)が鼻孔(びこう)です。魚(さかな)では主(おも)ににおいを感(かん)じるために使(つか)われます。",
+        "english": "The nostril lies between the eye and mouth and is used primarily for smelling rather than breathing."
+      }
+    },
+    {
+      "id": "fish-card-08",
+      "kanji": "口",
+      "japanese": "くち",
+      "english": "Mouth",
+      "image": "assets/fish1.svg?highlight=mouth#mouth",
+      "imageAlt": "魚の頭の先端にある口にオレンジ色の点が付いている",
+      "sourceLesson": "page78",
+      "sourceCard": "page78-q08",
+      "example": {
+        "japanese": "頭側(とうそく)の先端(せんたん)にある開口(かいこう)部(ぶ)が口(くち)です。",
+        "english": "The mouth is the opening at the front end of the head."
+      }
+    },
+    {
+      "id": "fish-card-09",
+      "kanji": "えらぶた",
+      "japanese": "えらぶた",
+      "english": "Gill cover / Operculum",
+      "image": "assets/fish1.svg?highlight=gill-cover#gill-cover",
+      "imageAlt": "魚の頭と胴体の境にあるえらぶたにオレンジ色の点が付いている",
+      "sourceLesson": "page78",
+      "sourceCard": "page78-q09",
+      "example": {
+        "japanese": "えらを外側(そとがわ)から覆(おお)う板状(いたじょう)の部分(ぶぶん)がえらぶたです。英語(えいご)では gill cover、専門(せんもん)語(ご)では operculum と呼(よ)びます。",
+        "english": "The gill cover, or operculum, is the plate-like structure protecting the gills."
+      }
+    },
+    {
+      "id": "fish-card-10",
+      "kanji": "胸びれ",
+      "japanese": "むなびれ",
+      "english": "Pectoral fin",
+      "image": "assets/fish1.svg?highlight=pectoral-fin#pectoral-fin",
+      "imageAlt": "魚のえらぶたの後ろ側にある胸びれにオレンジ色の点が付いている",
+      "sourceLesson": "page78",
+      "sourceCard": "page78-q10",
+      "example": {
+        "japanese": "えらぶたの後方(こうほう)、体(からだ)の左右(さゆう)にある一対(いっつい)のひれが胸(むな)びれです。",
+        "english": "The pectoral fins are paired fins positioned just behind the gill cover on each side."
+      }
+    },
+    {
+      "id": "fish-card-11",
+      "kanji": "腹",
+      "japanese": "はら",
+      "english": "Belly",
+      "image": "assets/fish1.svg?highlight=belly#belly",
+      "imageAlt": "魚体の下側の腹にオレンジ色の点が付いている",
+      "sourceLesson": "page78",
+      "sourceCard": "page78-q11",
+      "example": {
+        "japanese": "魚体(ぎょたい)の下側(したがわ)、つまり腹側(ふくそく)の部分(ぶぶん)が腹(はら)です。",
+        "english": "The belly is the lower, ventral region of the fish."
+      }
+    },
+    {
+      "id": "fish-card-12",
+      "kanji": "腹びれ",
+      "japanese": "はらびれ",
+      "english": "Pelvic fin",
+      "image": "assets/fish1.svg?highlight=pelvic-fin#pelvic-fin",
+      "imageAlt": "魚の腹側前寄りにある腹びれにオレンジ色の点が付いている",
+      "sourceLesson": "page78",
+      "sourceCard": "page78-q12",
+      "example": {
+        "japanese": "腹側(ふくそく)の比較的(ひかくてき)前方(ぜんぽう)にある一対(いっつい)のひれが腹(はら)びれです。位置(いち)は魚種(ぎょしゅ)によって異(こと)なります。",
+        "english": "The pelvic fins are paired fins on the ventral side; their exact position varies among fish species."
+      }
+    },
+    {
+      "id": "fish-card-13",
+      "kanji": "うろこ",
+      "japanese": "うろこ",
+      "english": "Scales",
+      "image": "assets/fish1.svg?highlight=scales#scales",
+      "imageAlt": "魚体表面のうろこを表す印にオレンジ色の点が付いている",
+      "sourceLesson": "page78",
+      "sourceCard": "page78-q13",
+      "example": {
+        "japanese": "魚(さかな)の体表(たいひょう)を覆(おお)う小(ちい)さな板(いた)状(じょう)の構造(こうぞう)がうろこです。料理(りょうり)では「うろこを取(と)る」と言(い)います。",
+        "english": "Scales are the small plate-like structures covering the fish's surface. In preparation, one says uroko o toru, “remove the scales.”"
+      }
+    },
+    {
+      "id": "fish-card-14",
+      "kanji": "皮",
+      "japanese": "かわ",
+      "english": "Skin",
+      "image": "assets/fish1.svg?highlight=skin#skin",
+      "imageAlt": "魚体の外側を覆う皮にオレンジ色の点が付いている",
+      "sourceLesson": "page78",
+      "sourceCard": "page78-q14",
+      "example": {
+        "japanese": "魚体(ぎょたい)の外側(そとがわ)を覆(おお)う組織(そしき)が皮(かわ)です。うろこは皮(かわ)の表面(ひょうめん)にある構造(こうぞう)で、同(おな)じものではありません。",
+        "english": "Skin is the tissue covering the body; scales are distinct structures associated with its surface."
+      }
+    },
+    {
+      "id": "fish-card-15",
+      "kanji": "尻びれ",
+      "japanese": "しりびれ",
+      "english": "Anal fin",
+      "image": "assets/fish1.svg?highlight=anal-fin#anal-fin",
+      "imageAlt": "魚の腹側後方にある尻びれにオレンジ色の点が付いている",
+      "sourceLesson": "page78",
+      "sourceCard": "page78-q15",
+      "example": {
+        "japanese": "腹側(ふくそく)の後方(こうほう)、肛門(こうもん)より尾側(びそく)にあるひれが尻(しり)びれです。",
+        "english": "The anal fin is the unpaired fin on the rear ventral side, behind the anus."
+      }
+    },
+    {
+      "id": "fish-card-16",
+      "kanji": "尾",
+      "japanese": "お",
+      "english": "Tail",
+      "image": "assets/fish1.svg?highlight=tail#tail",
+      "imageAlt": "魚体の後端にある尾と尾びれの部分にオレンジ色の点が付いている",
+      "sourceLesson": "page78",
+      "sourceCard": "page78-q16",
+      "example": {
+        "japanese": "魚体(ぎょたい)の後端(こうたん)が尾(お)で、その大(おお)きなひれを尾びれ(おびれ)と言(い)います。この図(ず)では同(おな)じ位置(いち)としてまとめて覚(おぼ)えます。",
+        "english": "The rear tail region is o, and its terminal fin is the caudal fin, obire. This diagram teaches them together at one location."
+      }
+    },
+    {
+      "id": "fish-card-17",
+      "kanji": "尾びれ",
+      "japanese": "おびれ",
+      "english": "Caudal fin",
+      "image": "assets/fish1.svg?highlight=tail#tail",
+      "imageAlt": "魚体の後端にある尾と尾びれの部分にオレンジ色の点が付いている",
+      "sourceLesson": "page78",
+      "sourceCard": "page78-q16",
+      "example": {
+        "japanese": "魚体(ぎょたい)の後端(こうたん)が尾(お)で、その大(おお)きなひれを尾びれ(おびれ)と言(い)います。この図(ず)では同(おな)じ位置(いち)としてまとめて覚(おぼ)えます。",
+        "english": "The rear tail region is o, and its terminal fin is the caudal fin, obire. This diagram teaches them together at one location."
+      }
+    },
+    {
+      "id": "fish-card-18",
+      "kanji": "皮",
+      "japanese": "かわ",
+      "english": "Skin",
+      "image": "assets/fish_in.svg?highlight=skin#skin",
+      "imageAlt": "魚の一番外側の輪郭線がオレンジ色に示されている",
+      "sourceLesson": "page79",
+      "sourceCard": "page79-q01",
+      "example": {
+        "japanese": "魚体(ぎょたい)の一番外側(いちばんそとがわ)を覆(おお)う部分(ぶぶん)が皮(かわ)です。図(ず)では魚(さかな)の外側(そとがわ)のシルエット全体(ぜんたい)をオレンジ色(いろ)の線(せん)で示(しめ)しています。",
+        "english": "The skin covers the outside of the fish. The complete outer silhouette is highlighted in orange."
+      }
+    },
+    {
+      "id": "fish-card-19",
+      "kanji": "えら",
+      "japanese": "えら",
+      "english": "Gills",
+      "image": "assets/fish_in.svg?highlight=gill#gill",
+      "imageAlt": "魚の頭の内側にあるえらの形がオレンジ色に示されている",
+      "sourceLesson": "page79",
+      "sourceCard": "page79-q02",
+      "example": {
+        "japanese": "頭部(とうぶ)の中(なか)で呼吸(こきゅう)に使(つか)われる器官(きかん)がえらです。下処理(したしょり)では、傷(いた)みやにおいの原因(げんいん)を残(のこ)さないために取(と)り除(のぞ)きます。",
+        "english": "The gills are the respiratory organs inside the head. They are removed during preparation because they deteriorate quickly and can contribute unwanted odours."
+      }
+    },
+    {
+      "id": "fish-card-20",
+      "kanji": "ほほ肉",
+      "japanese": "ほほにく",
+      "english": "Cheek meat",
+      "image": "assets/fish_in.svg?highlight=cheek#cheek",
+      "imageAlt": "魚の目の後ろ側にあるほほ肉の形がオレンジ色に示されている",
+      "sourceLesson": "page79",
+      "sourceCard": "page79-q03",
+      "example": {
+        "japanese": "目(め)の後方(こうほう)、えらぶた周辺(しゅうへん)にある小(ちい)さな筋肉(きんにく)がほほ肉(にく)です。よく動(うご)くため旨味(うまみ)があり、大(おお)きな魚(さかな)では焼(や)き物(もの)などに使(つか)えます。",
+        "english": "Cheek meat is the small muscle behind the eye around the gill-cover area. In larger fish it is prized for savoury flavour and can be grilled."
+      }
+    },
+    {
+      "id": "fish-card-21",
+      "kanji": "かま",
+      "japanese": "かま",
+      "english": "Collar",
+      "image": "assets/fish_in.svg?highlight=collar#collar",
+      "imageAlt": "魚の頭の後ろから胸びれ付近へ続く点線がオレンジ色に示されている",
+      "sourceLesson": "page79",
+      "sourceCard": "page79-q04",
+      "example": {
+        "japanese": "頭(あたま)の後方(こうほう)、胸(むな)びれの付(つ)け根(ね)を含(ふく)む部分(ぶぶん)がかまです。図(ず)の点線(てんせん)は、かまを切(き)り分(わ)ける位置(いち)の目安(めやす)を示(しめ)しています。",
+        "english": "The collar, kama, lies behind the head around the pectoral-fin base. The dotted line indicates the approximate separation cut."
+      }
+    },
+    {
+      "id": "fish-card-22",
+      "kanji": "腹骨",
+      "japanese": "はらぼね",
+      "english": "Rib bones",
+      "image": "assets/fish_in.svg?highlight=rib-bones#rib-bones",
+      "imageAlt": "魚の背骨から腹側へ伸びる腹骨だけがオレンジ色に示されている",
+      "sourceLesson": "page79",
+      "sourceCard": "page79-q05",
+      "example": {
+        "japanese": "背骨(せぼね)から腹側(はらがわ)へ伸(の)び、内臓(ないぞう)を囲(かこ)むように並(なら)ぶ骨(ほね)が腹骨(はらぼね)です。三枚(さんまい)おろしの後(あと)に「腹骨(はらぼね)をすき取(と)る」と言(い)います。",
+        "english": "Rib bones extend from the spine toward the belly around the visceral cavity. After three-piece filleting, they are trimmed away with a slicing motion."
+      }
+    },
+    {
+      "id": "fish-card-23",
+      "kanji": "中骨",
+      "japanese": "なかぼね",
+      "english": "Fish frame",
+      "image": "assets/fish_in.svg?highlight=fish-frame#fish-frame",
+      "imageAlt": "魚の背骨と上下に伸びる骨の全体がオレンジ色に示されている",
+      "sourceLesson": "page79",
+      "sourceCard": "page79-q06",
+      "example": {
+        "japanese": "三枚(さんまい)おろしで左右(さゆう)の身(み)を外(はず)した後(あと)に残(のこ)る、背骨(せぼね)と周辺(しゅうへん)の骨格(こっかく)全体(ぜんたい)を中骨(なかぼね)と呼(よ)びます。英語(えいご)では fish frame と説明(せつめい)できます。",
+        "english": "The fish frame, nakabone, is the central bony structure left after removing the two fillets, including the spine and attached bones."
+      }
+    },
+    {
+      "id": "fish-card-24",
+      "kanji": "背骨",
+      "japanese": "せぼね",
+      "english": "Spine",
+      "image": "assets/fish_in.svg?highlight=spine#spine",
+      "imageAlt": "魚の中央の背骨と背側へ伸びる骨がオレンジ色に示されている",
+      "sourceLesson": "page79",
+      "sourceCard": "page79-q07",
+      "example": {
+        "japanese": "魚体(ぎょたい)の中央(ちゅうおう)を頭側(とうそく)から尾側(びそく)へ通(とお)る主要(しゅよう)な骨(ほね)が背骨(せぼね)です。この図(ず)では、背骨(せぼね)と背側(はいそく)へ伸(の)びる骨(ほね)をまとめてオレンジ色(いろ)で示(しめ)しています。",
+        "english": "The spine is the main vertebral column running from head to tail. Here it is highlighted together with the bones extending dorsally above it."
+      }
+    },
+    {
+      "id": "fish-card-25",
+      "kanji": "背骨",
+      "japanese": "せぼね",
+      "english": "Spine",
+      "image": "assets/fish_cross.svg?highlight=spine#spine",
+      "imageAlt": "魚の断面図の中央上部にある縦線とその下の小さな形の線がオレンジ色に示されている",
+      "sourceLesson": "page79",
+      "sourceCard": "page79-q08",
+      "example": {
+        "japanese": "魚(さかな)の背側(せがわ)から中央(ちゅうおう)へ通(とお)る主要(しゅよう)な骨(ほね)が背骨(せぼね)です。断面(だんめん)図(ず)では中央(ちゅうおう)上部(じょうぶ)の線(せん)と、その下(した)の小(ちい)さな骨(ほね)の形(かたち)をまとめて示(しめ)しています。",
+        "english": "The spine is shown at the upper centre of the cross-section as the central line together with the small bone profile immediately beneath it."
+      }
+    },
+    {
+      "id": "fish-card-26",
+      "kanji": "腹骨",
+      "japanese": "はらぼね",
+      "english": "Rib bones",
+      "image": "assets/fish_cross.svg?highlight=rib-bones#rib-bones",
+      "imageAlt": "魚の断面図で腹側へ伸びる左右両側の腹骨の線がオレンジ色に示されている",
+      "sourceLesson": "page79",
+      "sourceCard": "page79-q09",
+      "example": {
+        "japanese": "背骨(せぼね)から腹側(はらがわ)へ回(まわ)り込(こ)む左右(さゆう)の骨(ほね)が腹骨(はらぼね)です。断面(だんめん)図(ず)では左右(さゆう)一対(いっつい)の線(せん)として見(み)えます。",
+        "english": "The rib bones curve down on both sides from the spine toward the belly, appearing as a paired structure in cross-section."
+      }
+    },
+    {
+      "id": "fish-card-27",
+      "kanji": "小骨",
+      "japanese": "こぼね",
+      "english": "Pin bones",
+      "image": "assets/fish_cross.svg?highlight=pin-bones#pin-bones",
+      "imageAlt": "魚の断面図の身の中にある小骨の位置にオレンジ色の点が付いている",
+      "sourceLesson": "page79",
+      "sourceCard": "page79-q10",
+      "example": {
+        "japanese": "フィレの身(み)の中(なか)に残(のこ)る細(ほそ)い骨(ほね)が小骨(こぼね)です。下処理(したしょり)では骨抜(ほねぬ)きを使(つか)い、「小骨(こぼね)を抜(ぬ)く」と言(い)います。",
+        "english": "Pin bones are the fine bones remaining within the fillet. They are removed individually with fish tweezers."
+      }
+    },
+    {
+      "id": "fish-card-28",
+      "kanji": "血合い",
+      "japanese": "ちあい",
+      "english": "Bloodline",
+      "image": "assets/fish_cross.svg?highlight=bloodline#bloodline",
+      "imageAlt": "魚の断面図の血合いの位置にオレンジ色の点が付いている",
+      "sourceLesson": "page79",
+      "sourceCard": "page79-q11",
+      "example": {
+        "japanese": "背骨(せぼね)の周辺(しゅうへん)などに見(み)える色(いろ)の濃(こ)い筋肉(きんにく)が血合(ちあ)いです。風味(ふうみ)が強(つよ)く傷(いた)みやすいため、料理(りょうり)によっては丁寧(ていねい)に取(と)り除(のぞ)きます。",
+        "english": "The bloodline is the darker muscle near the spine. It has a stronger flavour and deteriorates relatively quickly, so it may be trimmed depending on the preparation."
+      }
+    },
+    {
+      "id": "fish-card-29",
+      "kanji": "背身",
+      "japanese": "せみ",
+      "english": "Back loin",
+      "image": "assets/3slices.svg?highlight=back-loin#back-loin",
+      "imageAlt": "上身の点線より上側にある背身にオレンジ色の点が付いている",
+      "sourceLesson": "page79-three-piece",
+      "sourceCard": "page79-three-q01",
+      "example": {
+        "japanese": "魚(さかな)の背側(せがわ)から取(と)れる身(み)が背身(せみ)です。腹身(はらみ)より脂(あぶら)が少(すく)なく、あっさりしている傾向(けいこう)があります。",
+        "english": "The back loin comes from the dorsal side and tends to be leaner and lighter than the belly portion."
+      }
+    },
+    {
+      "id": "fish-card-30",
+      "kanji": "腹身",
+      "japanese": "はらみ",
+      "english": "Belly portion",
+      "image": "assets/3slices.svg?highlight=belly#belly",
+      "imageAlt": "上身の点線より下側にある腹身にオレンジ色の点が付いている",
+      "sourceLesson": "page79-three-piece",
+      "sourceCard": "page79-three-q02",
+      "example": {
+        "japanese": "魚(さかな)の腹側(はらがわ)から取(と)れる身(み)が腹身(はらみ)です。魚種(ぎょしゅ)や季節(きせつ)によっては背身(せみ)より脂(あぶら)がのっています。",
+        "english": "The belly portion comes from the ventral side and is often richer in fat than the back loin, depending on species and season."
+      }
+    },
+    {
+      "id": "fish-card-31",
+      "kanji": "上身",
+      "japanese": "うわみ",
+      "english": "Upper fillet",
+      "image": "assets/3slices.svg?highlight=upper-fillet#upper-fillet",
+      "imageAlt": "三枚おろしの上側に置かれた一枚のフィレ全体がオレンジ色に示されている",
+      "sourceLesson": "page79-three-piece",
+      "sourceCard": "page79-three-q03",
+      "example": {
+        "japanese": "三枚(さんまい)おろしで上側(うえがわ)に置(お)かれた身(み)を上身(うわみ)と呼(よ)びます。作業中(さぎょうちゅう)の魚(さかな)の向(む)きによって、右側(みぎがわ)のフィレを指(さ)す場合(ばあい)があります。",
+        "english": "Uwami is the upper fillet in the working orientation and can correspond to the right fillet depending on how the fish is positioned during filleting."
+      }
+    },
+    {
+      "id": "fish-card-32",
+      "kanji": "中落ち",
+      "japanese": "なかおち",
+      "english": "Meat around the backbone",
+      "image": "assets/3slices.svg?highlight=nakaochi#nakaochi",
+      "imageAlt": "三枚おろしの中央に残る骨付きの魚体全体がオレンジ色に示されている",
+      "sourceLesson": "page79-three-piece",
+      "sourceCard": "page79-three-q04",
+      "example": {
+        "japanese": "三枚(さんまい)おろしの後(あと)、背骨(せぼね)の周(まわ)りに残(のこ)る身(み)が中落(なかお)ちです。スプーンなどでかき取(と)って使(つか)うことがあります。",
+        "english": "Nakaochi is the meat remaining around the backbone after the fillets are removed, often scraped off for use."
+      }
+    },
+    {
+      "id": "fish-card-33",
+      "kanji": "下身",
+      "japanese": "したみ",
+      "english": "Lower fillet",
+      "image": "assets/3slices.svg?highlight=lower-fillet#lower-fillet",
+      "imageAlt": "三枚おろしの下側に置かれた一枚のフィレ全体がオレンジ色に示されている",
+      "sourceLesson": "page79-three-piece",
+      "sourceCard": "page79-three-q05",
+      "example": {
+        "japanese": "三枚(さんまい)おろしで下側(したがわ)に置(お)かれた身(み)を下身(したみ)と呼(よ)びます。魚(さかな)の置(お)き方(かた)やおろす向(む)きによって、左右(さゆう)との対応(たいおう)が変(か)わることがあります。",
+        "english": "Shitami is the lower fillet in the working orientation. Its correspondence to the left or right side can vary with positioning and filleting direction."
+      }
+    }
+  ]
+}

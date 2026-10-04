@@ -1,0 +1,440 @@
+{
+  "lesson": "pork-parts-cards",
+  "reviewed": true,
+  "voice": "marin",
+  "model": "gpt-4o-mini-tts",
+  "speed": 1.0,
+  "reading_source": "Correct answers and explanations in data/pages83.json, compared against existing reviewed page83 speech inputs. Katakana converted to hiragana with long vowels and small kana retained. Topic は → わ, directional へ → え, object を → お reviewed in context; lexical はらみ/はらがわ preserved.",
+  "notes": "Pitch dictionary checked before generation for every part name. 17 exact dictionary reading targets; 8 specialist, metaphorical, or ambiguous names without an independently confirmed target. Unconfirmed names receive standard Tokyo Japanese guidance without an invented numeric accent. No audible pitch/listening verification claimed.",
+  "entries": [
+    {
+      "key": "かたろーす",
+      "input": "かたろーす",
+      "speed": 1.0,
+      "reading_source": "data/pages83.json; reviewed source explanations and katakana-to-hiragana conversion",
+      "accent": null,
+      "accent_status": "checked-no-reliable-culinary-entry",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "くびにちかいせなかがわのぶいがかたロースです。",
+      "input": "くびにちかいせなかがわのぶいがかたろーすです。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page83.json; rechecked source annotations and contextual particles",
+      "listening_verified": false
+    },
+    {
+      "key": "せあぶら",
+      "input": "せあぶら",
+      "speed": 1.0,
+      "reading_source": "data/pages83.json; reviewed source explanations and katakana-to-hiragana conversion",
+      "accent": 2,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L97257",
+      "listening_verified": false,
+      "accent_matched_form": "背脂"
+    },
+    {
+      "key": "せなかのひょうめんがわにひろがるしぼうがせあぶらです。",
+      "input": "せなかのひょうめんがわにひろがるしぼうがせあぶらです。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page83.json; rechecked source annotations and contextual particles",
+      "listening_verified": false
+    },
+    {
+      "key": "ろーす",
+      "input": "ろーす",
+      "speed": 1.0,
+      "reading_source": "data/pages83.json; reviewed source explanations and katakana-to-hiragana conversion",
+      "accent": 1,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L20420",
+      "listening_verified": false,
+      "accent_matched_form": "ロース"
+    },
+    {
+      "key": "かたロースのこうほうにつづくせなかちゅうおうのぶいがロースです。",
+      "input": "かたろーすのこうほうにつづくせなかちゅうおうのぶいがろーすです。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page83.json; rechecked source annotations and contextual particles",
+      "listening_verified": false
+    },
+    {
+      "key": "くらした",
+      "input": "くらした",
+      "speed": 1.0,
+      "reading_source": "data/pages83.json; reviewed source explanations and katakana-to-hiragana conversion",
+      "accent": null,
+      "accent_status": "checked-no-reliable-culinary-entry",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "ロースのこうほう、こしにちかいせなかがわのくかくがくらしたです。",
+      "input": "ろーすのこうほう、こしにちかいせなかがわのくかくがくらしたです。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page83.json; rechecked source annotations and contextual particles",
+      "listening_verified": false
+    },
+    {
+      "key": "ひれ",
+      "input": "ひれ",
+      "speed": 1.0,
+      "reading_source": "data/pages83.json; reviewed source explanations and katakana-to-hiragana conversion",
+      "accent": 0,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L15565",
+      "listening_verified": false,
+      "accent_matched_form": "ヒレ"
+    },
+    {
+      "key": "せぼねのうちがわにあるほそながいきんにくがヒレです。",
+      "input": "せぼねのうちがわにあるほそながいきんにくがひれです。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page83.json; rechecked source annotations and contextual particles",
+      "listening_verified": false
+    },
+    {
+      "key": "こし",
+      "input": "こし",
+      "speed": 1.0,
+      "reading_source": "data/pages83.json; reviewed source explanations and katakana-to-hiragana conversion",
+      "accent": 0,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L51941",
+      "listening_verified": false,
+      "accent_matched_form": "腰"
+    },
+    {
+      "key": "せなかからこうきゃくへうつるこうほうじょうぶがこしです。",
+      "input": "せなかからこうきゃくえうつるこうほうじょうぶがこしです。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page83.json; rechecked source annotations and contextual particles",
+      "listening_verified": false
+    },
+    {
+      "key": "てーる",
+      "input": "てーる",
+      "speed": 1.0,
+      "reading_source": "data/pages83.json; reviewed source explanations and katakana-to-hiragana conversion",
+      "accent": 1,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L12884",
+      "listening_verified": false,
+      "accent_matched_form": "テール"
+    },
+    {
+      "key": "どうたいのこうたんからのびるぶぶんがテールです。",
+      "input": "どうたいのこうたんからのびるぶぶんがてーるです。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page83.json; rechecked source annotations and contextual particles",
+      "listening_verified": false
+    },
+    {
+      "key": "ねっく",
+      "input": "ねっく",
+      "speed": 1.0,
+      "reading_source": "data/pages83.json; reviewed source explanations and katakana-to-hiragana conversion",
+      "accent": 1,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L14271",
+      "listening_verified": false,
+      "accent_matched_form": "ネック"
+    },
+    {
+      "key": "あたまとかたのあいだをつなぐぶぶんがネックです。",
+      "input": "あたまとかたのあいだおつなぐぶぶんがねっくです。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page83.json; rechecked source annotations and contextual particles",
+      "listening_verified": false
+    },
+    {
+      "key": "かしら",
+      "input": "かしら",
+      "speed": 1.0,
+      "reading_source": "data/pages83.json; reviewed source explanations and katakana-to-hiragana conversion",
+      "accent": 3,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L92572",
+      "listening_verified": false,
+      "accent_matched_form": "頭"
+    },
+    {
+      "key": "とうぶぜんたいをさすぶいめいがカシラです。",
+      "input": "とうぶぜんたいおさすぶいめいがかしらです。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page83.json; rechecked source annotations and contextual particles",
+      "listening_verified": false
+    },
+    {
+      "key": "たん",
+      "input": "たん",
+      "speed": 1.0,
+      "reading_source": "data/pages83.json; reviewed source explanations and katakana-to-hiragana conversion",
+      "accent": 1,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L12335",
+      "listening_verified": false,
+      "accent_matched_form": "タン"
+    },
+    {
+      "key": "くちのなかにあるしたのぶいがタンです。",
+      "input": "くちのなかにあるしたのぶいがたんです。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page83.json; rechecked source annotations and contextual particles",
+      "listening_verified": false
+    },
+    {
+      "key": "もも",
+      "input": "もも",
+      "speed": 1.0,
+      "reading_source": "data/pages83.json; reviewed source explanations and katakana-to-hiragana conversion",
+      "accent": 1,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L82126",
+      "listening_verified": false,
+      "accent_matched_form": "腿"
+    },
+    {
+      "key": "モモはこうきゃくじょうぶのおおきなくかくで、そのなかにうちモモとそとモモがあります。",
+      "input": "ももわこうきゃくじょうぶのおおきなくかくで、そのなかにうちももとそとももがあります。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page83.json; rechecked source annotations and contextual particles",
+      "listening_verified": false
+    },
+    {
+      "key": "うちもも",
+      "input": "うちもも",
+      "speed": 1.0,
+      "reading_source": "data/pages83.json; reviewed source explanations and katakana-to-hiragana conversion",
+      "accent": 0,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L94303",
+      "listening_verified": false,
+      "accent_matched_form": "内腿"
+    },
+    {
+      "key": "そともも",
+      "input": "そともも",
+      "speed": 1.0,
+      "reading_source": "data/pages83.json; reviewed source explanations and katakana-to-hiragana conversion",
+      "accent": 0,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L31863",
+      "listening_verified": false,
+      "accent_matched_form": "外腿"
+    },
+    {
+      "key": "しんたま",
+      "input": "しんたま",
+      "speed": 1.0,
+      "reading_source": "data/pages83.json; reviewed source explanations and katakana-to-hiragana conversion",
+      "accent": null,
+      "accent_status": "checked-no-reliable-culinary-entry",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "シンタマはモモぜんたいではなく、ずのモモないぶにあるちいさなえんけいのくかくです。",
+      "input": "しんたまわももぜんたいでわなく、ずのももないぶにあるちいさなえんけいのくかくです。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page83.json; rechecked source annotations and contextual particles",
+      "listening_verified": false
+    },
+    {
+      "key": "すね",
+      "input": "すね",
+      "speed": 1.0,
+      "reading_source": "data/pages83.json; reviewed source explanations and katakana-to-hiragana conversion",
+      "accent": 2,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L122199",
+      "listening_verified": false,
+      "accent_matched_form": "脛"
+    },
+    {
+      "key": "スネはうしろあしだけでなくまえあしにもあります。ずではあしさきのいちだんうえにあるりょうほうのスネをしめしています。",
+      "input": "すねわうしろあしだけでなくまえあしにもあります。ずでわあしさきのいちだんうえにあるりょうほうのすねおしめしています。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page83.json; rechecked source annotations and contextual particles",
+      "listening_verified": false
+    },
+    {
+      "key": "あし",
+      "input": "あし",
+      "speed": 1.0,
+      "reading_source": "data/pages83.json; reviewed source explanations and katakana-to-hiragana conversion",
+      "accent": 2,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L80370",
+      "listening_verified": false,
+      "accent_matched_form": "足"
+    },
+    {
+      "key": "あしはトロッターともよばれるあしのせんたんです。ずではまえあしとうしろあしをりょうほうしめしています。",
+      "input": "あしわとろったーともよばれるあしのせんたんです。ずでわまえあしとうしろあしおりょうほうしめしています。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page83.json; rechecked source annotations and contextual particles",
+      "listening_verified": false
+    },
+    {
+      "key": "かた",
+      "input": "かた",
+      "speed": 1.0,
+      "reading_source": "data/pages83.json; reviewed source explanations and katakana-to-hiragana conversion",
+      "accent": 1,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L44705",
+      "listening_verified": false,
+      "accent_matched_form": "肩"
+    },
+    {
+      "key": "かたとウデは、ずではまえあしじょうぶのおおきなきょうつうくかくとしてしめされています。",
+      "input": "かたとうでわ、ずでわまえあしじょうぶのおおきなきょうつうくかくとしてしめされています。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page83.json; rechecked source annotations and contextual particles",
+      "listening_verified": false
+    },
+    {
+      "key": "うで",
+      "input": "うで",
+      "speed": 1.0,
+      "reading_source": "data/pages83.json; reviewed source explanations and katakana-to-hiragana conversion",
+      "accent": 2,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L119027",
+      "listening_verified": false,
+      "accent_matched_form": "腕"
+    },
+    {
+      "key": "すぺありぶ",
+      "input": "すぺありぶ",
+      "speed": 1.0,
+      "reading_source": "data/pages83.json; reviewed source explanations and katakana-to-hiragana conversion",
+      "accent": 4,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L11489",
+      "listening_verified": false,
+      "accent_matched_form": "スペアリブ"
+    },
+    {
+      "key": "ろっこつのついたはらがわのぶいがスペアリブです。",
+      "input": "ろっこつのついたはらがわのぶいがすぺありぶです。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page83.json; rechecked source annotations and contextual particles",
+      "listening_verified": false
+    },
+    {
+      "key": "そとばら",
+      "input": "そとばら",
+      "speed": 1.0,
+      "reading_source": "data/pages83.json; reviewed source explanations and katakana-to-hiragana conversion",
+      "accent": null,
+      "accent_status": "checked-no-reliable-culinary-entry",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "ふくぶのこうほうがわにしめされたくかくがそとバラです。",
+      "input": "ふくぶのこうほうがわにしめされたくかくがそとばらです。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page83.json; rechecked source annotations and contextual particles",
+      "listening_verified": false
+    },
+    {
+      "key": "なかばら",
+      "input": "なかばら",
+      "speed": 1.0,
+      "reading_source": "data/pages83.json; reviewed source explanations and katakana-to-hiragana conversion",
+      "accent": null,
+      "accent_status": "checked-no-reliable-culinary-entry",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "ふくぶのみっつのくかくのちゅうおうにあるぶぶんがなかバラです。",
+      "input": "ふくぶのみっつのくかくのちゅうおうにあるぶぶんがなかばらです。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page83.json; rechecked source annotations and contextual particles",
+      "listening_verified": false
+    },
+    {
+      "key": "まえばら",
+      "input": "まえばら",
+      "speed": 1.0,
+      "reading_source": "data/pages83.json; reviewed source explanations and katakana-to-hiragana conversion",
+      "accent": null,
+      "accent_status": "checked-no-reliable-culinary-entry",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "かたにちかいふくぶぜんぽうのほそいくかくがまえバラです。",
+      "input": "かたにちかいふくぶぜんぽうのほそいくかくがまえばらです。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page83.json; rechecked source annotations and contextual particles",
+      "listening_verified": false
+    },
+    {
+      "key": "みみ",
+      "input": "みみ",
+      "speed": 1.0,
+      "reading_source": "data/pages83.json; reviewed source explanations and katakana-to-hiragana conversion",
+      "accent": 2,
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L58622",
+      "listening_verified": false,
+      "accent_matched_form": "耳"
+    },
+    {
+      "key": "とうぶのうえがわにあるみみのいちをしめしています。ぶたにくのぶいめいでは「ミミ」とよびます。",
+      "input": "とうぶのうえがわにあるみみのいちおしめしています。ぶたにくのぶいめいでわ「みみ」とよびます。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page83.json; rechecked source annotations and contextual particles",
+      "listening_verified": false
+    },
+    {
+      "key": "とんとろ",
+      "input": "とんとろ",
+      "speed": 1.0,
+      "reading_source": "Corrected source choice ぶたトロ to とんとろ, matching reviewed source explanation and the pork producer Saiboku.",
+      "accent": null,
+      "accent_status": "checked-no-reliable-culinary-entry",
+      "accent_source": null,
+      "listening_verified": false,
+      "reading_source_url": "https://www.saiboku.co.jp/meatpialife/pork-toro/"
+    },
+    {
+      "key": "ほおからくびのしたがわにかけてのあぶらがおおいぶいがとんトロです。",
+      "input": "ほおからくびのしたがわにかけてのあぶらがおおいぶいがとんとろです。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page83.json; rechecked source annotations and contextual particles",
+      "listening_verified": false
+    },
+    {
+      "key": "かたばら",
+      "input": "かたばら",
+      "speed": 1.0,
+      "reading_source": "data/pages83.json; reviewed source explanations and katakana-to-hiragana conversion",
+      "accent": null,
+      "accent_status": "checked-no-reliable-culinary-entry",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "かたのしたがわ、まえバラへつながるいちにあるばらにくがかたバラです。",
+      "input": "かたのしたがわ、まえばらえつながるいちにあるばらにくがかたばらです。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page83.json; rechecked source annotations and contextual particles",
+      "listening_verified": false
+    }
+  ],
+  "reading_correction": {
+    "display": "豚トロ",
+    "source_choice_reading": "ぶたトロ",
+    "reviewed_reading": "とんとろ",
+    "source": "https://www.saiboku.co.jp/meatpialife/pork-toro/"
+  },
+  "speed_note": "User requested normal-speed Marin vocabulary generation (1.0) after reporting buzzing in the slower 0.85 recordings. Playback remains at normal speed."
+}

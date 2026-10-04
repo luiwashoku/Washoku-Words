@@ -57,7 +57,7 @@ class ChickenCardsTest(unittest.TestCase):
         for card in self.cards:
             entry = reviewed[card['japanese']]
             self.assertEqual(entry['input'], card['japanese'])
-            self.assertEqual(entry['speed'], 0.85)
+            self.assertEqual(entry['speed'], 1.0)
             if entry['accent'] is not None:
                 self.assertEqual(entry['accent_status'], 'dictionary-reading-and-sense-match')
                 self.assertTrue(entry['accent_source'])

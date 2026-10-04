@@ -1,0 +1,330 @@
+{
+  "title": "豚カード",
+  "entries": [
+    {
+      "id": "pork-part-card-01",
+      "kanji": "肩ロース",
+      "japanese": "かたろーす",
+      "english": "Kata-rōsu / Shoulder loin",
+      "image": "assets/pig-106.svg?highlight=shoulder-loin#shoulder-loin",
+      "imageAlt": "豚の肩ロースがオレンジ色で示されている",
+      "sourceCard": "page83-q01",
+      "example": {
+        "japanese": "首(くび)に近(ちか)い背中側(せなかがわ)の部位(ぶい)が肩(かた)ロースです。",
+        "english": "Shoulder loin lies along the upper body close to the neck."
+      }
+    },
+    {
+      "id": "pork-part-card-02",
+      "kanji": "背脂",
+      "japanese": "せあぶら",
+      "english": "Seabura / Back fat",
+      "image": "assets/pig-106.svg?highlight=back-fat#back-fat",
+      "imageAlt": "豚の背中上部に広がる背脂がオレンジ色で示されている",
+      "sourceCard": "page83-q02",
+      "example": {
+        "japanese": "背中(せなか)の表面側(ひょうめんがわ)に広(ひろ)がる脂肪(しぼう)が背脂(せあぶら)です。",
+        "english": "Back fat is the layer of fat extending across the upper back."
+      }
+    },
+    {
+      "id": "pork-part-card-03",
+      "kanji": "ロース",
+      "japanese": "ろーす",
+      "english": "Rōsu / Loin",
+      "image": "assets/pig-106.svg?highlight=loin#loin",
+      "imageAlt": "豚の背中中央のロースがオレンジ色で示されている",
+      "sourceCard": "page83-q03",
+      "example": {
+        "japanese": "肩(かた)ロースの後方(こうほう)に続(つづ)く背中中央(せなかちゅうおう)の部位(ぶい)がロースです。",
+        "english": "Loin runs along the middle of the back behind the shoulder loin."
+      }
+    },
+    {
+      "id": "pork-part-card-04",
+      "kanji": "鞍下",
+      "japanese": "くらした",
+      "english": "Kurashita / Sirloin area",
+      "image": "assets/pig-106.svg?highlight=kurashita#kurashita",
+      "imageAlt": "豚のロース後方にある鞍下がオレンジ色で示されている",
+      "sourceCard": "page83-q04",
+      "example": {
+        "japanese": "ロースの後方(こうほう)、腰(こし)に近(ちか)い背中(せなか)側(がわ)の区画(くかく)が鞍(くら)下(した)です。",
+        "english": "Kurashita is the sirloin area behind the loin and toward the hip."
+      }
+    },
+    {
+      "id": "pork-part-card-05",
+      "kanji": "ヒレ",
+      "japanese": "ひれ",
+      "english": "Hire / Tenderloin",
+      "image": "assets/pig-106.svg?highlight=hire#hire",
+      "imageAlt": "豚の胴体内側にある細長いヒレがオレンジ色で示されている",
+      "sourceCard": "page83-q05",
+      "example": {
+        "japanese": "背骨(せぼね)の内側(うちがわ)にある細長(ほそなが)い筋肉(きんにく)がヒレです。",
+        "english": "Tenderloin is the narrow internal muscle beneath the loin."
+      }
+    },
+    {
+      "id": "pork-part-card-06",
+      "kanji": "腰",
+      "japanese": "こし",
+      "english": "Koshi / Hip",
+      "image": "assets/pig-106.svg?highlight=hip#hip",
+      "imageAlt": "豚の後方上部にある腰がオレンジ色で示されている",
+      "sourceCard": "page83-q06",
+      "example": {
+        "japanese": "背中(せなか)から後脚(こうきゃく)へ移(うつ)る後方上部(こうほうじょうぶ)が腰(こし)です。",
+        "english": "The hip is the upper rear section between the back and hind leg."
+      }
+    },
+    {
+      "id": "pork-part-card-07",
+      "kanji": "テール",
+      "japanese": "てーる",
+      "english": "Tail",
+      "image": "assets/pig-106.svg?highlight=tail#tail",
+      "imageAlt": "豚の尾がオレンジ色で示されている",
+      "sourceCard": "page83-q07",
+      "example": {
+        "japanese": "胴体(どうたい)の後端(こうたん)から伸(の)びる部分(ぶぶん)がテールです。",
+        "english": "The tail extends from the rear end of the body."
+      }
+    },
+    {
+      "id": "pork-part-card-08",
+      "kanji": "ネック",
+      "japanese": "ねっく",
+      "english": "Neck",
+      "image": "assets/pig-106.svg?highlight=neck#neck",
+      "imageAlt": "豚の頭と肩の間にあるネックがオレンジ色で示されている",
+      "sourceCard": "page83-q08",
+      "example": {
+        "japanese": "頭(あたま)と肩(かた)の間(あいだ)をつなぐ部分(ぶぶん)がネックです。",
+        "english": "Neck connects the head with the shoulder."
+      }
+    },
+    {
+      "id": "pork-part-card-09",
+      "kanji": "カシラ",
+      "japanese": "かしら",
+      "english": "Kashira / Head",
+      "image": "assets/pig-106.svg?highlight=head#head",
+      "imageAlt": "豚の頭部全体がオレンジ色で示されている",
+      "sourceCard": "page83-q09",
+      "example": {
+        "japanese": "頭部(とうぶ)全体(ぜんたい)を指(さ)す部位名(ぶいめい)がカシラです。",
+        "english": "Kashira refers to the head region as a whole."
+      }
+    },
+    {
+      "id": "pork-part-card-10",
+      "kanji": "タン",
+      "japanese": "たん",
+      "english": "Tan / Tongue",
+      "image": "assets/pig-106.svg?highlight=tongue#tongue",
+      "imageAlt": "豚の口の中にあるタンがオレンジ色で示されている",
+      "sourceCard": "page83-q10",
+      "example": {
+        "japanese": "口(くち)の中(なか)にある舌(した)の部位(ぶい)がタンです。",
+        "english": "Tan is the tongue inside the mouth."
+      }
+    },
+    {
+      "id": "pork-part-card-11",
+      "kanji": "モモ",
+      "japanese": "もも",
+      "english": "Momo / Ham",
+      "image": "assets/pig-106.svg?highlight=ham-group#ham-group",
+      "imageAlt": "豚の後脚上部のモモ全体がオレンジ色で示され、内モモと外モモを含んでいる",
+      "sourceCard": "page83-q11",
+      "example": {
+        "japanese": "モモは後脚上部(こうきゃくじょうぶ)の大(おお)きな区画(くかく)で、その中(なか)に内(うち)モモと外(そと)モモがあります。",
+        "english": "Ham is the large upper hind-leg region and includes the inside and outside ham sections."
+      }
+    },
+    {
+      "id": "pork-part-card-12",
+      "kanji": "内モモ",
+      "japanese": "うちもも",
+      "english": "Inside ham",
+      "image": "assets/pig-106.svg?highlight=ham-group#ham-group",
+      "imageAlt": "豚の後脚上部のモモ全体がオレンジ色で示され、内モモと外モモを含んでいる",
+      "sourceCard": "page83-q11",
+      "example": {
+        "japanese": "モモは後脚上部(こうきゃくじょうぶ)の大(おお)きな区画(くかく)で、その中(なか)に内(うち)モモと外(そと)モモがあります。",
+        "english": "Ham is the large upper hind-leg region and includes the inside and outside ham sections."
+      }
+    },
+    {
+      "id": "pork-part-card-13",
+      "kanji": "外モモ",
+      "japanese": "そともも",
+      "english": "Outside ham",
+      "image": "assets/pig-106.svg?highlight=ham-group#ham-group",
+      "imageAlt": "豚の後脚上部のモモ全体がオレンジ色で示され、内モモと外モモを含んでいる",
+      "sourceCard": "page83-q11",
+      "example": {
+        "japanese": "モモは後脚上部(こうきゃくじょうぶ)の大(おお)きな区画(くかく)で、その中(なか)に内(うち)モモと外(そと)モモがあります。",
+        "english": "Ham is the large upper hind-leg region and includes the inside and outside ham sections."
+      }
+    },
+    {
+      "id": "pork-part-card-14",
+      "kanji": "シンタマ",
+      "japanese": "しんたま",
+      "english": "Shintama / Knuckle",
+      "image": "assets/pig-106.svg?highlight=knuckle#knuckle",
+      "imageAlt": "豚のモモの内側にある小さな円形のシンタマだけがオレンジ色で示されている",
+      "sourceCard": "page83-q12",
+      "example": {
+        "japanese": "シンタマはモモ全体(ぜんたい)ではなく、図(ず)のモモ内部(ないぶ)にある小(ちい)さな円形(えんけい)の区画(くかく)です。",
+        "english": "The knuckle is only the small circular region inside the larger ham, not the entire hind leg."
+      }
+    },
+    {
+      "id": "pork-part-card-15",
+      "kanji": "スネ",
+      "japanese": "すね",
+      "english": "Shank",
+      "image": "assets/pig-106.svg?highlight=shank#shank",
+      "imageAlt": "豚の前脚と後脚のすねが両方オレンジ色で示されている",
+      "sourceCard": "page83-q13",
+      "example": {
+        "japanese": "スネは後脚(うしろあし)だけでなく前脚(まえあし)にもあります。図(ず)では足先(あしさき)の一段上(いちだんうえ)にある両方(りょうほう)のスネを示(しめ)しています。",
+        "english": "Shank occurs on both the front and rear leg. Both regions immediately above the feet are highlighted."
+      }
+    },
+    {
+      "id": "pork-part-card-16",
+      "kanji": "足",
+      "japanese": "あし",
+      "english": "Ashi / Trotters",
+      "image": "assets/pig-106.svg?highlight=foot#foot",
+      "imageAlt": "豚の前足と後ろ足の先端が両方オレンジ色で示されている",
+      "sourceCard": "page83-q14",
+      "example": {
+        "japanese": "足(あし)はトロッターとも呼(よ)ばれる脚(あし)の先端(せんたん)です。図(ず)では前足(まえあし)と後(うし)ろ足(あし)を両方(りょうほう)示(しめ)しています。",
+        "english": "The feet or trotters are the terminal regions of both the front and rear legs."
+      }
+    },
+    {
+      "id": "pork-part-card-17",
+      "kanji": "肩",
+      "japanese": "かた",
+      "english": "Kata / Shoulder",
+      "image": "assets/pig-106.svg?highlight=shoulder-group#shoulder-group",
+      "imageAlt": "豚の前脚上部にある肩とウデの共通区画がオレンジ色で示されている",
+      "sourceCard": "page83-q15",
+      "example": {
+        "japanese": "肩(かた)とウデは、図(ず)では前脚(まえあし)上部(じょうぶ)の大(おお)きな共通(きょうつう)区画(くかく)として示(しめ)されています。",
+        "english": "Shoulder and arm are represented by the large shared region above the front leg."
+      }
+    },
+    {
+      "id": "pork-part-card-18",
+      "kanji": "ウデ",
+      "japanese": "うで",
+      "english": "Ude / Arm",
+      "image": "assets/pig-106.svg?highlight=shoulder-group#shoulder-group",
+      "imageAlt": "豚の前脚上部にある肩とウデの共通区画がオレンジ色で示されている",
+      "sourceCard": "page83-q15",
+      "example": {
+        "japanese": "肩(かた)とウデは、図(ず)では前脚(まえあし)上部(じょうぶ)の大(おお)きな共通(きょうつう)区画(くかく)として示(しめ)されています。",
+        "english": "Shoulder and arm are represented by the large shared region above the front leg."
+      }
+    },
+    {
+      "id": "pork-part-card-19",
+      "kanji": "スペアリブ",
+      "japanese": "すぺありぶ",
+      "english": "Spare ribs",
+      "image": "assets/pig-106.svg?highlight=spare-ribs#spare-ribs",
+      "imageAlt": "豚の胴体中央にあるスペアリブの区画がオレンジ色で示されている",
+      "sourceCard": "page83-q16",
+      "example": {
+        "japanese": "肋骨(ろっこつ)の付(つ)いた腹側(はらがわ)の部位(ぶい)がスペアリブです。",
+        "english": "Spare ribs are the rib-bearing section on the lower side of the torso."
+      }
+    },
+    {
+      "id": "pork-part-card-20",
+      "kanji": "外バラ",
+      "japanese": "そとばら",
+      "english": "Outside belly",
+      "image": "assets/pig-106.svg?highlight=outside-belly#outside-belly",
+      "imageAlt": "豚の腹部後方にある外バラがオレンジ色で示されている",
+      "sourceCard": "page83-q17",
+      "example": {
+        "japanese": "腹部(ふくぶ)の後方側(こうほうがわ)に示(しめ)された区画(くかく)が外(そと)バラです。",
+        "english": "Outside belly is the rearward of the three lower belly regions in this diagram."
+      }
+    },
+    {
+      "id": "pork-part-card-21",
+      "kanji": "中バラ",
+      "japanese": "なかばら",
+      "english": "Middle belly",
+      "image": "assets/pig-106.svg?highlight=middle-belly#middle-belly",
+      "imageAlt": "豚の腹部中央にある中バラがオレンジ色で示されている",
+      "sourceCard": "page83-q18",
+      "example": {
+        "japanese": "腹部(ふくぶ)の三(みっ)つの区画(くかく)の中央(ちゅうおう)にある部分(ぶぶん)が中(なか)バラです。",
+        "english": "Middle belly is the central one of the three lower belly regions."
+      }
+    },
+    {
+      "id": "pork-part-card-22",
+      "kanji": "前バラ",
+      "japanese": "まえばら",
+      "english": "Front belly",
+      "image": "assets/pig-106.svg?highlight=front-belly#front-belly",
+      "imageAlt": "豚の腹部前方にある前バラがオレンジ色で示されている",
+      "sourceCard": "page83-q19",
+      "example": {
+        "japanese": "肩(かた)に近(ちか)い腹部(ふくぶ)前方(ぜんぽう)の細(ほそ)い区画(くかく)が前(まえ)バラです。",
+        "english": "Front belly is the forward of the three lower belly regions, closest to the shoulder."
+      }
+    },
+    {
+      "id": "pork-part-card-23",
+      "kanji": "ミミ",
+      "japanese": "みみ",
+      "english": "Mimi / Ear",
+      "image": "assets/pig-106.svg?highlight=ear#ear",
+      "imageAlt": "豚の耳の位置にオレンジ色の点が示されている",
+      "sourceCard": "page83-q20",
+      "example": {
+        "japanese": "頭部(とうぶ)の上側(うえがわ)にある耳(みみ)の位置(いち)を示(しめ)しています。豚肉(ぶたにく)の部位(ぶい)名(めい)では「ミミ」と呼(よ)びます。",
+        "english": "The dot marks the ear, called mimi as a pork cut."
+      }
+    },
+    {
+      "id": "pork-part-card-24",
+      "kanji": "豚トロ",
+      "japanese": "とんとろ",
+      "english": "Tontoro / Pork jowl",
+      "image": "assets/pig-106.svg?highlight=pork-jowl#pork-jowl",
+      "imageAlt": "豚の頬から首の下側にある豚トロの位置にオレンジ色の点が示されている",
+      "sourceCard": "page83-q21",
+      "example": {
+        "japanese": "頬(ほお)から首(くび)の下側(したがわ)にかけての脂(あぶら)が多(おお)い部位(ぶい)が豚(とん)トロです。",
+        "english": "Pork jowl is the fatty cheek-to-lower-neck region marked by the dot."
+      }
+    },
+    {
+      "id": "pork-part-card-25",
+      "kanji": "肩バラ",
+      "japanese": "かたばら",
+      "english": "Kata-bara / Chuck belly",
+      "image": "assets/pig-106.svg?highlight=chuck-belly#chuck-belly",
+      "imageAlt": "豚の肩の下側にある肩バラの位置にオレンジ色の点が示されている",
+      "sourceCard": "page83-q22",
+      "example": {
+        "japanese": "肩(かた)の下側(したがわ)、前(まえ)バラへつながる位置(いち)にあるばら肉(にく)が肩(かた)バラです。",
+        "english": "Chuck belly lies below the shoulder where the shoulder transitions into the forward belly."
+      }
+    }
+  ]
+}
