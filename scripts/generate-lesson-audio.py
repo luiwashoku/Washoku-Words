@@ -30,6 +30,10 @@ if not review.get('reviewed') or review.get('lesson') != args.lesson:
 speed = review.get('speed', 1.0)
 if not isinstance(speed, (int, float)) or not 0.25 <= speed <= 4:
     parser.error('Reviewed speech speed must be a number between 0.25 and 4')
+model = review.get('model', 'tts-1-hd')
+voice = review.get('voice', 'nova')
+if (model, voice) not in [('tts-1-hd', 'nova'), ('gpt-4o-mini-tts', 'marin')]:
+    parser.error('Unsupported reviewed model and voice')
 inputs = {entry['key']:entry['input'] for entry in review['entries']}
 speeds = {entry['key']:entry.get('speed', speed) for entry in review['entries']}
 if any(not isinstance(value, (int, float)) or not 0.25 <= value <= 4 for value in speeds.values()):
@@ -51,9 +55,17 @@ folder.mkdir(parents=True, exist_ok=True)
 unique = {(row['text'], row['speed']) for row in rows}
 
 def generate(text, speed):
-    payload = dict(model='tts-1-hd', voice='nova', input=text, speed=speed, response_format='mp3')
+    payload = dict(model=model, voice=voice, input=text, speed=speed, response_format='mp3')
+    if voice == 'marin':
+        entry = next(item for item in review['entries'] if item['input'] == text)
+        guidance = 'Speak standard Tokyo Japanese. Read only the supplied hiragana once, clearly and naturally. Preserve vowel length and doubled consonants. Do not add an introduction, translation, explanation, or other words.'
+        if entry.get('accent') == 0:
+            guidance += ' Use heiban pitch accent: begin low, rise on the second mora and keep high, without a lexical pitch drop.'
+        elif isinstance(entry.get('accent'), int) and entry['accent'] > 0:
+            guidance += f" Use Tokyo pitch accent type {entry['accent']}: drop immediately after mora {entry['accent']}, without exaggerated stress."
+        payload['instructions'] = guidance
     digest = hashlib.sha256(json.dumps(payload, ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:20]
-    name = 'nova-' + digest + '.mp3'
+    name = voice + '-' + digest + '.mp3'
     path = folder/name
     sample = ROOT/'audio/zukan'/name
     if not sample.exists():

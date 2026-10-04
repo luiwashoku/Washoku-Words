@@ -1,0 +1,291 @@
+{
+  "title": "鶏カード",
+  "entries": [
+    {
+      "id": "chicken-part-card-01",
+      "kanji": "ふりそで",
+      "japanese": "ふりそで",
+      "english": "Furisode / Shoulder meat",
+      "image": "assets/chicken_parts.svg?highlight=furisode#furisode",
+      "imageAlt": "鶏の肩と翼の付け根の部位がオレンジ色に示されている",
+      "sourceCard": "page73-q01",
+      "example": {
+        "japanese": "肩(かた)から翼(つばさ)の付(つ)け根(ね)にある肉(にく)は「ふりそで」です。少量(しょうりょう)しか取(と)れない部位(ぶい)です。",
+        "english": "Furisode is the shoulder meat at the wing root and is obtained only in a small quantity."
+      }
+    },
+    {
+      "id": "chicken-part-card-02",
+      "kanji": "せせり",
+      "japanese": "せせり",
+      "english": "Seseri / Neck meat",
+      "image": "assets/chicken_parts.svg?highlight=seseri#seseri",
+      "imageAlt": "鶏の首の肉がオレンジ色に示されている",
+      "sourceCard": "page73-q02",
+      "example": {
+        "japanese": "首(くび)の周囲(しゅうい)の肉(にく)は「せせり」です。よく動(うご)く部分(ぶぶん)なので、弾力(だんりょく)と旨味(うまみ)があります。",
+        "english": "Seseri is neck meat. Frequent movement gives it a springy texture and concentrated savouriness."
+      }
+    },
+    {
+      "id": "chicken-part-card-03",
+      "kanji": "皮",
+      "japanese": "かわ",
+      "english": "Kawa / Skin",
+      "image": "assets/chicken_parts.svg?highlight=kawa#kawa",
+      "imageAlt": "鶏の首の表面にある皮の部分がオレンジ色に示されている",
+      "sourceCard": "page73-q03",
+      "example": {
+        "japanese": "鶏(とり)の表面(ひょうめん)を覆(おお)う部分(ぶぶん)は「皮(かわ)」です。焼(や)くと脂(あぶら)が出(で)て、香(こう)ばしく、ぱりっとした食感(しょっかん)になります。",
+        "english": "Kawa is chicken skin. Cooking renders its fat and can create a crisp, aromatic surface."
+      }
+    },
+    {
+      "id": "chicken-part-card-04",
+      "kanji": "むね肉",
+      "japanese": "むねにく",
+      "english": "Mune-niku / Breast",
+      "image": "assets/chicken_parts.svg?highlight=muneniku#muneniku",
+      "imageAlt": "鶏の胸の大きな筋肉がオレンジ色に示されている",
+      "sourceCard": "page73-q04",
+      "example": {
+        "japanese": "胸(むね)の大(おお)きな筋肉(きんにく)は「むね肉(にく)」です。脂肪(しぼう)が比較的(ひかくてき)少(すく)なく、あっさりしています。",
+        "english": "Mune-niku is breast meat. It is relatively lean and mild in flavour."
+      }
+    },
+    {
+      "id": "chicken-part-card-05",
+      "kanji": "ささみ",
+      "japanese": "ささみ",
+      "english": "Sasami / Tenderloin",
+      "image": "assets/chicken_parts.svg?highlight=sasami#sasami",
+      "imageAlt": "鶏の胸肉の内側にある細長い部位がオレンジ色に示されている",
+      "sourceCard": "page73-q05",
+      "example": {
+        "japanese": "むね肉(にく)の内側(うちがわ)にある細長(ほそなが)い筋肉(きんにく)は「ささみ」です。脂肪(しぼう)が少(すく)なく、柔(やわ)らかい部位(ぶい)です。",
+        "english": "Sasami is the tenderloin inside the breast. It is lean and tender."
+      }
+    },
+    {
+      "id": "chicken-part-card-06",
+      "kanji": "ヤゲン軟骨",
+      "japanese": "やげんなんこつ",
+      "english": "Yagen nankotsu / Breastbone cartilage",
+      "image": "assets/chicken_parts.svg?highlight=yagen#yagen",
+      "imageAlt": "鶏の胸の中央にある細い軟骨がオレンジ色に示されている",
+      "sourceCard": "page73-q06",
+      "example": {
+        "japanese": "胸骨(きょうこつ)の先端側(せんたんがわ)にある軟骨(なんこつ)は「ヤゲン軟骨(なんこつ)」です。こりこりした食感(しょっかん)があります。",
+        "english": "Yagen nankotsu is cartilage at the breastbone and is valued for its crunchy texture."
+      }
+    },
+    {
+      "id": "chicken-part-card-07",
+      "kanji": "手羽先",
+      "japanese": "てばさき",
+      "english": "Tebasaki / Wing tip",
+      "image": "assets/chicken_parts.svg?highlight=tebasaki#tebasaki",
+      "imageAlt": "鶏の翼の先端部分がオレンジ色に示されている",
+      "sourceCard": "page73-q07",
+      "example": {
+        "japanese": "翼(つばさ)の先端側(せんたんがわ)は「手羽先(てばさき)」です。骨(ほね)、皮(かわ)、結合組織(けつごうそしき)が多(おお)い部位(ぶい)です。",
+        "english": "Tebasaki is the outer wing tip, with abundant skin, bone, and connective tissue."
+      }
+    },
+    {
+      "id": "chicken-part-card-08",
+      "kanji": "手羽中",
+      "japanese": "てばなか",
+      "english": "Tebanaka / Wing flat",
+      "image": "assets/chicken_parts.svg?highlight=tebanaka#tebanaka",
+      "imageAlt": "鶏の翼の中央部分がオレンジ色に示されている",
+      "sourceCard": "page73-q08",
+      "example": {
+        "japanese": "手羽先(てばさき)と手羽元(てばもと)の間(あいだ)にある翼(つばさ)の中央部(ちゅうおうぶ)は「手羽中(てばなか)」です。",
+        "english": "Tebanaka is the middle wing section between the wing tip and drumette."
+      }
+    },
+    {
+      "id": "chicken-part-card-09",
+      "kanji": "手羽元",
+      "japanese": "てばもと",
+      "english": "Tebamoto / Drumette",
+      "image": "assets/chicken_parts.svg?highlight=tebamoto#tebamoto",
+      "imageAlt": "鶏の胴体に最も近い翼の部分がオレンジ色に示されている",
+      "sourceCard": "page73-q09",
+      "example": {
+        "japanese": "胴体(どうたい)に最(もっと)も近(ちか)い翼(つばさ)の部分(ぶぶん)は「手羽元(てばもと)」です。英語(えいご)では drumette と呼(よ)ばれます。",
+        "english": "Tebamoto is the wing section nearest the body, called the drumette in English."
+      }
+    },
+    {
+      "id": "chicken-part-card-10",
+      "kanji": "ぼんじり",
+      "japanese": "ぼんじり",
+      "english": "Bonjiri / Tail base",
+      "image": "assets/chicken_parts.svg?highlight=bonjiri#bonjiri",
+      "imageAlt": "鶏の尾の付け根がオレンジ色に示されている",
+      "sourceCard": "page73-q10",
+      "example": {
+        "japanese": "尾(お)の付(つ)け根(ね)にある脂(あぶら)の多(おお)い部位(ぶい)は「ぼんじり」です。",
+        "english": "Bonjiri is the fatty cut around the base of the tail."
+      }
+    },
+    {
+      "id": "chicken-part-card-11",
+      "kanji": "きんかん",
+      "japanese": "きんかん",
+      "english": "Kinkan / Immature yolks",
+      "image": "assets/chicken_parts.svg?highlight=egg-system#egg-system",
+      "imageAlt": "鶏の未成熟卵黄と、それにつながる卵管がオレンジ色に示されている",
+      "sourceCard": "page73-q11",
+      "example": {
+        "japanese": "丸(まる)い未成熟卵黄(みせいじゅくらんおう)が「きんかん」で、卵管(らんかん)につながった状態(じょうたい)を含(ふく)む希少部位(きしょうぶい)が「ちょうちん」です。図(ず)では一(ひと)つのまとまりとして示(しめ)しています。",
+        "english": "Kinkan are the immature yolks; chōchin is the yolk with its attached oviduct. The connected system is highlighted together."
+      }
+    },
+    {
+      "id": "chicken-part-card-12",
+      "kanji": "ちょうちん",
+      "japanese": "ちょうちん",
+      "english": "Chōchin / Yolks with oviduct",
+      "image": "assets/chicken_parts.svg?highlight=egg-system#egg-system",
+      "imageAlt": "鶏の未成熟卵黄と、それにつながる卵管がオレンジ色に示されている",
+      "sourceCard": "page73-q11",
+      "example": {
+        "japanese": "丸(まる)い未成熟卵黄(みせいじゅくらんおう)が「きんかん」で、卵管(らんかん)につながった状態(じょうたい)を含(ふく)む希少部位(きしょうぶい)が「ちょうちん」です。図(ず)では一(ひと)つのまとまりとして示(しめ)しています。",
+        "english": "Kinkan are the immature yolks; chōchin is the yolk with its attached oviduct. The connected system is highlighted together."
+      }
+    },
+    {
+      "id": "chicken-part-card-13",
+      "kanji": "モモ",
+      "japanese": "もも",
+      "english": "Momo / Thigh",
+      "image": "assets/chicken_parts.svg?highlight=momo#momo",
+      "imageAlt": "鶏の腿の大きな外側の形がオレンジ色に示されている",
+      "sourceCard": "page73-q13",
+      "example": {
+        "japanese": "大(おお)きな腿肉(ももにく)が「モモ」で、「そりれす」はその付(つ)け根(ね)、骨盤(こつばん)の近(ちか)くにある小(ちい)さな肉(にく)です。そりれすは大(おお)きなモモの形(かたち)に含(ふく)まれ、内側(うちがわ)の小(ちい)さな輪郭(りんかく)はヒザ軟骨(なんこつ)です。",
+        "english": "Momo is the large thigh shape; soriresu is a small portion within that broader cut near the pelvis. The separately outlined inner shape is knee cartilage."
+      }
+    },
+    {
+      "id": "chicken-part-card-14",
+      "kanji": "そりれす",
+      "japanese": "そりれす",
+      "english": "Soriresu / Chicken oyster",
+      "image": "assets/chicken_parts.svg?highlight=momo#momo",
+      "imageAlt": "鶏の腿の大きな外側の形がオレンジ色に示されている",
+      "sourceCard": "page73-q13",
+      "example": {
+        "japanese": "大(おお)きな腿肉(ももにく)が「モモ」で、「そりれす」はその付(つ)け根(ね)、骨盤(こつばん)の近(ちか)くにある小(ちい)さな肉(にく)です。そりれすは大(おお)きなモモの形(かたち)に含(ふく)まれ、内側(うちがわ)の小(ちい)さな輪郭(りんかく)はヒザ軟骨(なんこつ)です。",
+        "english": "Momo is the large thigh shape; soriresu is a small portion within that broader cut near the pelvis. The separately outlined inner shape is knee cartilage."
+      }
+    },
+    {
+      "id": "chicken-part-card-15",
+      "kanji": "ハツ",
+      "japanese": "はつ",
+      "english": "Hatsu / Heart",
+      "image": "assets/chicken_parts.svg?highlight=heart-system#heart-system",
+      "imageAlt": "鶏の心臓、その根元、つながる大動脈がオレンジ色に示されている",
+      "sourceCard": "page73-q15",
+      "example": {
+        "japanese": "心臓(しんぞう)が「ハツ」、その根元(ねもと)が「はつもと」、心臓(しんぞう)につながる大動脈(だいどうみゃく)が「つなぎ」です。図(ず)では連続(れんぞく)する構造(こうぞう)として示(しめ)しています。",
+        "english": "Hatsu is the heart, hatsumoto its root, and tsunagi the connected aorta. They are highlighted as one connected structure."
+      }
+    },
+    {
+      "id": "chicken-part-card-16",
+      "kanji": "はつもと",
+      "japanese": "はつもと",
+      "english": "Hatsumoto / Heart root",
+      "image": "assets/chicken_parts.svg?highlight=heart-system#heart-system",
+      "imageAlt": "鶏の心臓、その根元、つながる大動脈がオレンジ色に示されている",
+      "sourceCard": "page73-q15",
+      "example": {
+        "japanese": "心臓(しんぞう)が「ハツ」、その根元(ねもと)が「はつもと」、心臓(しんぞう)につながる大動脈(だいどうみゃく)が「つなぎ」です。図(ず)では連続(れんぞく)する構造(こうぞう)として示(しめ)しています。",
+        "english": "Hatsu is the heart, hatsumoto its root, and tsunagi the connected aorta. They are highlighted as one connected structure."
+      }
+    },
+    {
+      "id": "chicken-part-card-17",
+      "kanji": "つなぎ",
+      "japanese": "つなぎ",
+      "english": "Tsunagi / Aorta",
+      "image": "assets/chicken_parts.svg?highlight=heart-system#heart-system",
+      "imageAlt": "鶏の心臓、その根元、つながる大動脈がオレンジ色に示されている",
+      "sourceCard": "page73-q15",
+      "example": {
+        "japanese": "心臓(しんぞう)が「ハツ」、その根元(ねもと)が「はつもと」、心臓(しんぞう)につながる大動脈(だいどうみゃく)が「つなぎ」です。図(ず)では連続(れんぞく)する構造(こうぞう)として示(しめ)しています。",
+        "english": "Hatsu is the heart, hatsumoto its root, and tsunagi the connected aorta. They are highlighted as one connected structure."
+      }
+    },
+    {
+      "id": "chicken-part-card-18",
+      "kanji": "レバー",
+      "japanese": "ればー",
+      "english": "Rebā / Liver",
+      "image": "assets/chicken_parts.svg?highlight=liver#liver",
+      "imageAlt": "鶏の肝臓の形がオレンジ色に示されている",
+      "sourceCard": "page73-q18",
+      "example": {
+        "japanese": "この形(かたち)は肝臓(かんぞう)の「レバー」です。同(おな)じ部位(ぶい)でも、脂肪(しぼう)が多(おお)く白(しろ)っぽいものは「白(しろ)レバー」と呼(よ)ばれます。",
+        "english": "This shape is the liver. The same anatomical part is called shiro-rebā when it is pale and fatty."
+      }
+    },
+    {
+      "id": "chicken-part-card-19",
+      "kanji": "白レバー",
+      "japanese": "しろればー",
+      "english": "Shiro-rebā / Fatty liver",
+      "image": "assets/chicken_parts.svg?highlight=liver#liver",
+      "imageAlt": "鶏の肝臓の形がオレンジ色に示されている",
+      "sourceCard": "page73-q18",
+      "example": {
+        "japanese": "この形(かたち)は肝臓(かんぞう)の「レバー」です。同(おな)じ部位(ぶい)でも、脂肪(しぼう)が多(おお)く白(しろ)っぽいものは「白(しろ)レバー」と呼(よ)ばれます。",
+        "english": "This shape is the liver. The same anatomical part is called shiro-rebā when it is pale and fatty."
+      }
+    },
+    {
+      "id": "chicken-part-card-20",
+      "kanji": "ハラミ",
+      "japanese": "はらみ",
+      "english": "Harami / Abdominal-wall meat",
+      "image": "assets/chicken_parts.svg?highlight=harami-part#harami-part",
+      "imageAlt": "鶏の腹壁にあるハラミの位置がオレンジ色に示されている",
+      "sourceCard": "page73-q19",
+      "example": {
+        "japanese": "腹壁(ふくへき)にある薄(うす)い筋肉(きんにく)の部位(ぶい)は「ハラミ」です。",
+        "english": "Chicken harami is a thin muscular cut from the abdominal wall."
+      }
+    },
+    {
+      "id": "chicken-part-card-21",
+      "kanji": "砂肝",
+      "japanese": "すなぎも",
+      "english": "Sunagimo / Gizzard",
+      "image": "assets/chicken_parts.svg?highlight=sunagimo#sunagimo",
+      "imageAlt": "鶏の砂肝がオレンジ色に示されている",
+      "sourceCard": "page73-q20",
+      "example": {
+        "japanese": "餌(えさ)を砕(くだ)く筋肉質(きんにくしつ)の胃(い)は「砂肝(すなぎも)」です。脂肪(しぼう)が少(すく)なく、こりこりした食感(しょっかん)があります。",
+        "english": "Sunagimo is the muscular gizzard used to grind food, producing its characteristic crunchy texture."
+      }
+    },
+    {
+      "id": "chicken-part-card-22",
+      "kanji": "ヒザ軟骨",
+      "japanese": "ひざなんこつ",
+      "english": "Hiza nankotsu / Knee cartilage",
+      "image": "assets/chicken_parts.svg?highlight=hiza-nankotsu#hiza-nankotsu",
+      "imageAlt": "鶏のモモの形の内側にあるヒザ軟骨がオレンジ色に示されている",
+      "sourceCard": "page73-q21",
+      "example": {
+        "japanese": "脚(あし)の膝関節(ひざかんせつ)にある丸(まる)い軟骨(なんこつ)は「ヒザ軟骨(なんこつ)」です。胸骨側(きょうこつがわ)のヤゲン軟骨(なんこつ)と区別(くべつ)します。",
+        "english": "Hiza nankotsu is knee cartilage and is distinct from yagen cartilage at the breastbone."
+      }
+    }
+  ]
+}

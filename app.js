@@ -1368,9 +1368,10 @@
       button.className =
         "lesson-card";
 
-      if (["yellow", "green"].includes(lesson.menuColor)) {
+      const menuColor = lesson.gameMode === "vocabulary-cards" ? "purple" : lesson.menuColor;
+      if (["yellow", "green", "purple"].includes(menuColor)) {
         button.classList.add(
-          `lesson-card--${lesson.menuColor}`
+          `lesson-card--${menuColor}`
         );
       }
 
@@ -1387,7 +1388,7 @@
               ? "Listen and choose · Play"
               : lesson.gameMode === "word-explosion"
               ? "Hiragana word game · Play"
-              : lesson.answerMode === "reading-card"
+              : (lesson.answerMode === "reading-card" || lesson.gameMode === "vocabulary-cards")
               ? `${count} ${count === 1 ? "card" : "cards"} · Read`
               : `${progress.completed}/${count} ${lesson.answerMode === "reveal" ? "practised" : "completed"}`}
           </span>
@@ -1416,6 +1417,10 @@
       row.appendChild(button);
       window.WashokuOffline?.addControls(row, lesson);
       if (arrow) row.appendChild(arrow);
+      row.addEventListener("click", (event) => {
+        if (event.target.closest("button, .offline-controls")) return;
+        button.click();
+      });
       elements.lessonList.appendChild(row);
     });
   }
@@ -1458,14 +1463,14 @@
     return button;
   }
 
-  function openVocabularyCards() {
-    const lesson = state.catalog.find(entry => entry.id === "word-explosion-2");
+  function openVocabularyCards(lesson = state.catalog.find(entry => entry.id === "word-explosion-2")) {
+    if (lesson instanceof Event) lesson = state.catalog.find(entry => entry.id === "word-explosion-2");
     if (!lesson) return;
     cancelJapaneseSpeech();
-    state.selectedCategory = null;
+    if (lesson.gameMode !== "vocabulary-cards") state.selectedCategory = null;
     state.selectedLesson = { ...lesson, isStudyCards: true };
     showScreen("word-explosion");
-    document.getElementById("wordExplosionTitle").textContent = "カード";
+    document.getElementById("wordExplosionTitle").textContent = lesson.gameMode === "vocabulary-cards" ? lesson.title : "カード";
     document.getElementById("explosionIndexButton").classList.add("hidden");
     closeWordExplosion = window.VocabularyCards.mount(elements.wordExplosionGame, {
       file: lesson.file,
@@ -1480,6 +1485,10 @@
   }
 
   async function openLesson(lesson, { questionId, initialWord } = {}) {
+    if (lesson.gameMode === "vocabulary-cards") {
+      openVocabularyCards(lesson);
+      return;
+    }
     if (lesson.gameMode === "word-explosion-2") {
       cancelJapaneseSpeech();
       state.selectedLesson = lesson;
@@ -2946,7 +2955,7 @@
 
   function returnToLessonList() {
     cancelJapaneseSpeech();
-    if (state.selectedLesson?.isMoneyCat || state.selectedLesson?.isStudyCards) {
+    if (state.selectedLesson?.isMoneyCat || (state.selectedLesson?.isStudyCards && state.selectedLesson?.gameMode !== "vocabulary-cards")) {
       returnHome();
       return;
     }

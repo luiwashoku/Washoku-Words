@@ -354,6 +354,10 @@ button:focus-visible {
   background: var(--bronze);
 }
 
+.lesson-card--purple {
+  background: var(--horizon);
+}
+
 .lesson-card:last-child {
   border-bottom: 0;
 }
@@ -1960,3 +1964,27 @@ html.vocabulary-cards-open,
 
 .audio-check-controls { display: flex; gap: 6px; flex-shrink: 0; }
 .audio-check-trial { width: auto; min-width: 48px; padding: 0 10px; display: flex; align-items: center; gap: 4px; font-size: .75rem; }
+
+.knife-steps-list { max-width: 650px; width: calc(100% - 32px); max-height: 80vh; background: var(--bronze); border: var(--line-weight) solid var(--ink); }
+.knife-steps-list button { display: block; width: 100%; padding: 12px; margin: 8px 0; text-align: left; background: var(--paper); color: var(--ink); border: 2px solid var(--ink); }
+
+.vocabulary-card-illustration { display: block; width: 85%; height: 85px; object-fit: contain; object-position: center bottom; margin: 0 auto 10px; }
+.vocabulary-study-card:has(.vocabulary-card-illustration) .vocabulary-card-word-row { display: grid; grid-template-columns: 50px minmax(0, 1fr) 50px; align-items: center; gap: 14px; }
+.vocabulary-study-card:has(.vocabulary-card-illustration) .vocabulary-card-word-area { min-height: 0; aspect-ratio: auto; justify-self: center; grid-column: 2; grid-row: 1; }
+.vocabulary-study-card:has(.vocabulary-card-illustration) .vocabulary-card-word-speaker { margin-top: 0 !important; grid-column: 3; grid-row: 1; }
+.vocabulary-study-card:has(.vocabulary-card-illustration) .vocabulary-card-meaning { margin-top: 8px; }
+.vocabulary-study-card:has(.vocabulary-card-illustration) .vocabulary-card-example { margin-top: 40px; }
+
+/* Compact illustrated decks keep the word centred and both speakers aligned. */
+.vocabulary-study-card--compact { padding: 12px 16px; }
+.vocabulary-study-card--compact .vocabulary-card-illustration { width: 100%; height: 240px; margin-bottom: 10px; }
+.vocabulary-study-card--compact:has(.vocabulary-card-illustration) .vocabulary-card-word-row { grid-template-columns: 44px minmax(0, 1fr) 44px; gap: 8px; }
+.vocabulary-study-card--compact .explosion-example-speech { width: 44px; height: 44px; flex-basis: 44px; }
+.vocabulary-study-card--compact .vocabulary-card-word-row h3 { font-size: clamp(24px, 6vw, 34px); }
+.vocabulary-study-card--compact .vocabulary-card-reading { font-size: 14px; margin-top: 3px; }
+.vocabulary-cards.furigana-hidden .vocabulary-study-card--compact .vocabulary-card-reading { display: none; }
+.vocabulary-study-card--compact:has(.vocabulary-card-illustration) .vocabulary-card-meaning { font-size: 15px; margin-top: 6px; }
+.vocabulary-study-card--compact:has(.vocabulary-card-illustration) .vocabulary-card-example { margin-top: 24px; }
+.vocabulary-study-card--compact .vocabulary-card-sentence-row { gap: 8px; }
+.vocabulary-study-card--compact .vocabulary-card-sentence-row p { font-size: 17px; line-height: 1.6; }
+.vocabulary-study-card--compact .vocabulary-card-translation { font-size: 14px; line-height: 1.5; margin-top: 8px; }

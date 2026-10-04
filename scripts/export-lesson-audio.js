@@ -10,6 +10,13 @@ function run(args) {
   var rows = [];
   (lesson.files || [lesson.file]).forEach(function(file) {
     var data = JSON.parse(read(root + '/' + file));
+    if (lesson.gameMode === 'vocabulary-cards') {
+      data.entries.forEach(function(entry) {
+        rows.push({lesson: lessonId, card: entry.id, field: 'vocabulary', key: window.getJapaneseSpeechText(entry.japanese)});
+        if (entry.example) rows.push({lesson: lessonId, card: entry.id, field: 'example', key: window.getJapaneseSpeechText(entry.example.japanese)});
+      });
+      return;
+    }
     var dynamicChoices = data.kind === 'rice-varieties';
     if (dynamicChoices) {
       // Reuse the app's question text; choice order does not affect individual clips.

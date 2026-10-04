@@ -1,0 +1,145 @@
+{
+  "title": "三条鍛冶道場 — 包丁作りの12工程",
+  "subtitle": "Sanjo Kaji Dojo — 12 knife-making steps",
+  "entries": [
+    {
+      "id": "knife-step-01",
+      "step": 1,
+      "kanji": "鍛造",
+      "japanese": "たんぞう",
+      "english": "Forging",
+      "example": {
+        "japanese": "金属(きんぞく)を叩(たた)いて、包丁(ほうちょう)の形(かたち)を作(つく)る。",
+        "english": "Hammer the metal to form the knife."
+      }
+    },
+    {
+      "id": "knife-step-02",
+      "step": 2,
+      "kanji": "ならし鍛造",
+      "japanese": "ならしたんぞう",
+      "english": "Cold forging",
+      "example": {
+        "japanese": "刃(は)の部分(ぶぶん)を叩(たた)いて、形(かたち)を整(ととの)える。",
+        "english": "Hammer the blade area cold to refine its shape."
+      }
+    },
+    {
+      "id": "knife-step-03",
+      "step": 3,
+      "kanji": "整形",
+      "japanese": "せいけい",
+      "english": "Shaping",
+      "example": {
+        "japanese": "機械(きかい)で削(けず)って、好(す)きな形(かたち)に整(ととの)える。",
+        "english": "Grind the metal into the desired knife shape."
+      }
+    },
+    {
+      "id": "knife-step-04",
+      "step": 4,
+      "kanji": "歪取り①",
+      "japanese": "ひずみとり",
+      "english": "First straightening",
+      "example": {
+        "japanese": "曲(ま)がりや歪(ゆが)みを直(なお)して、刃(は)をまっすぐにする。",
+        "english": "Correct bends or warping and straighten the blade."
+      }
+    },
+    {
+      "id": "knife-step-05",
+      "step": 5,
+      "kanji": "砥粉塗り",
+      "japanese": "とのこぬり",
+      "english": "Coating with clay",
+      "example": {
+        "japanese": "焼(や)き入(い)れの前(まえ)に、刃(は)に砥粉(とのこ)を薄(うす)く塗(ぬ)る。",
+        "english": "Apply a thin clay coating before hardening."
+      }
+    },
+    {
+      "id": "knife-step-06",
+      "step": 6,
+      "kanji": "焼き入れ",
+      "japanese": "やきいれ",
+      "english": "Hardening / Quenching",
+      "example": {
+        "japanese": "刃(は)を熱(あつ)くしてから冷(ひ)やし、硬(かた)くする。",
+        "english": "Heat the blade and cool it to harden the steel."
+      }
+    },
+    {
+      "id": "knife-step-07",
+      "step": 7,
+      "kanji": "焼き戻し",
+      "japanese": "やきもどし",
+      "english": "Tempering",
+      "example": {
+        "japanese": "もう一度(いちど)低(ひく)い温度(おんど)で熱(ねっ)して、硬(かた)さを調整(ちょうせい)する。",
+        "english": "Reheat it at a lower temperature to adjust the hardness."
+      }
+    },
+    {
+      "id": "knife-step-08",
+      "step": 8,
+      "kanji": "歪取り②",
+      "japanese": "ひずみとり",
+      "english": "Second straightening",
+      "example": {
+        "japanese": "もう一度(いちど)、刃(は)がまっすぐか確認(かくにん)して、歪(ゆが)みを直(なお)す。",
+        "english": "Check the blade again and correct any warping."
+      }
+    },
+    {
+      "id": "knife-step-09",
+      "step": 9,
+      "kanji": "刃卸し",
+      "japanese": "はおろし",
+      "english": "Initial grinding / beveling",
+      "example": {
+        "japanese": "刃(は)の両側(りょうがわ)を削(けず)って、刃先(はさき)の形(かたち)を作(つく)る。",
+        "english": "Grind both sides to form the bevel and blade edge."
+      }
+    },
+    {
+      "id": "knife-step-10",
+      "step": 10,
+      "kanji": "刃研ぎ",
+      "japanese": "はとぎ",
+      "english": "Blade sharpening / honing",
+      "example": {
+        "japanese": "荒(あら)い砥石(といし)から細(こま)かい砥石(といし)まで使(つか)って、刃(は)を研(と)ぐ。",
+        "english": "Sharpen the blade, moving from coarse to finer whetstones."
+      }
+    },
+    {
+      "id": "knife-step-11",
+      "step": 11,
+      "kanji": "刻印",
+      "japanese": "こくいん",
+      "english": "Stamping",
+      "example": {
+        "japanese": "刃(は)に刻印(こくいん)を入(い)れる。",
+        "english": "Stamp a mark into the blade."
+      }
+    },
+    {
+      "id": "knife-step-12",
+      "step": 12,
+      "kanji": "柄入れ・仕上げ",
+      "japanese": "えいれ・しあげ",
+      "english": "Fitting the handle & finishing",
+      "example": {
+        "japanese": "柄(え)を付(つ)けて、油(あぶら)を塗(ぬ)って仕上(しあ)げる。",
+        "english": "Fit the handle, apply oil, and finish the knife."
+      }
+    },
+    {
+      "id": "knife-step-13",
+      "step": null,
+      "kanji": "完成！",
+      "japanese": "かんせい",
+      "english": "Finished!"
+    }
+  ]
+}

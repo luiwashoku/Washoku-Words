@@ -38,7 +38,33 @@
       furigana.title = furiganaVisible ? "ふりがなを隠す" : "ふりがなを表示する";
     }, { signal });
     toolbar.appendChild(furigana);
-    window.WashokuOffline?.addControls(toolbar, { ...lesson, title: "カード" });
+    if (lesson.gameMode === "vocabulary-cards") {
+      const all = document.createElement("button");
+      all.type = "button";
+      all.className = "icon-button";
+      all.textContent = "全";
+      all.setAttribute("aria-label", lesson.id === "knife-making-steps" ? "Show all steps" : "Show all cards");
+      const dialog = document.createElement("dialog");
+      dialog.className = "knife-steps-list";
+      const close = document.createElement("button");
+      close.type = "button";
+      close.textContent = "閉じる";
+      close.addEventListener("click", () => dialog.close(), { signal });
+      all.addEventListener("click", () => {
+        const list = document.createElement("div");
+        entries.forEach((word, target) => {
+          const button = document.createElement("button");
+          button.type = "button";
+          button.textContent = `${word.step ? word.step + ". " : ""}${word.kanji} — ${word.english}`;
+          button.addEventListener("click", () => { move(target - index); dialog.close(); }, { signal });
+          list.appendChild(button);
+        });
+        dialog.replaceChildren(close, list);
+        dialog.showModal();
+      }, { signal });
+      toolbar.append(all, dialog);
+    }
+    window.WashokuOffline?.addControls(toolbar, { ...lesson, title: lesson.gameMode === "vocabulary-cards" ? lesson.title : "カード" });
 
     const status = document.createElement("p");
     status.className = "vocabulary-cards-status";
@@ -50,6 +76,7 @@
 
     const card = document.createElement("article");
     card.className = "vocabulary-study-card hidden";
+    if (lesson.compactCards) card.classList.add("vocabulary-study-card--compact");
     card.setAttribute("aria-labelledby", "studyCardWord");
     navigation.replaceChildren();
     const previous = document.createElement("button");
@@ -87,7 +114,7 @@
       const heading = document.createElement("h3");
       heading.id = "studyCardWord";
       heading.lang = "ja";
-      heading.textContent = word.kanji || word.japanese;
+      heading.textContent = `${word.step ? word.step + ". " : ""}${word.kanji || word.japanese}`;
       wordText.appendChild(heading);
       if (word.kanji) {
         const reading = document.createElement("p");
@@ -108,6 +135,7 @@
       const example = document.createElement("section");
       example.className = "vocabulary-card-example";
       example.setAttribute("aria-label", "Example sentence");
+      if (word.example) {
       const sentenceRow = document.createElement("div");
       sentenceRow.className = "vocabulary-card-sentence-row";
       const sentence = document.createElement("p");
@@ -121,7 +149,19 @@
       translation.lang = "en";
       translation.textContent = word.example.english;
       example.append(sentenceRow, translation);
-      card.replaceChildren(wordRow, example);
+      }
+      const content = [];
+      if (word.image) {
+        const illustration = document.createElement("img");
+        illustration.className = "vocabulary-card-illustration";
+        illustration.src = word.image;
+        illustration.alt = word.imageAlt || word.kanji || word.japanese;
+        illustration.decoding = "async";
+        content.push(illustration);
+      }
+      content.push(wordRow);
+      if (word.example) content.push(example);
+      card.replaceChildren(...content);
       counter.textContent = `${index + 1} / ${entries.length}`;
       previous.disabled = index === 0;
       next.disabled = index === entries.length - 1;
@@ -165,10 +205,12 @@
       status.textContent = "Loading cards…";
       retry.classList.add("hidden");
       try {
-        const data = await window.WordExplosionGame.loadVocabulary(file, signal);
+        const data = lesson.gameMode === "vocabulary-cards"
+          ? await fetch(file, { signal }).then(response => { if (!response.ok) throw new Error("Cards unavailable"); return response.json(); })
+          : await window.WordExplosionGame.loadVocabulary(file, signal);
         if (!alive) return;
         entries = [...data.entries];
-        for (let i = entries.length - 1; i > 0; i--) {
+        if (!lesson.ordered) for (let i = entries.length - 1; i > 0; i--) {
           const j = Math.floor(Math.random() * (i + 1));
           [entries[i], entries[j]] = [entries[j], entries[i]];
         }

@@ -1,0 +1,370 @@
+{
+  "lesson": "chicken-parts-cards",
+  "reviewed": true,
+  "voice": "marin",
+  "model": "gpt-4o-mini-tts",
+  "speed": 1.0,
+  "reading_source": "Correct answers and explanations in data/pages73.json, existing reviewed page73 inputs, and zukan vocabulary readings. All 22 part names reviewed; katakana converted to hiragana, long vowels retained. Topic は → わ, object を → お, lexical はつ/はらみ and ひょうめん preserved.",
+  "notes": "Pitch dictionary searched before generation for every name. Seven food/anatomical-sense matches receive explicit targets. Four metaphorical names have candidate evidence only; eleven specialist names have no reliable exact entry. Unconfirmed names receive standard Tokyo Japanese guidance without an invented numeric accent. No audible pitch/listening verification claimed.",
+  "content_correction": {
+    "term": "ハラミ",
+    "description": "Chicken harami is abdominal-wall muscle. The original quiz calls it diaphragm; the new card corrects that anatomy.",
+    "source": "https://www.kinken.org/kinyoubi/atsuko005.html"
+  },
+  "entries": [
+    {
+      "key": "ふりそで",
+      "input": "ふりそで",
+      "speed": 0.85,
+      "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
+      "accent": null,
+      "accent_status": "metaphorical-name-not-independently-verified",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L69516",
+      "listening_verified": false,
+      "accent_matched_form": "振袖",
+      "accent_candidate": 0
+    },
+    {
+      "key": "かたからつばさのつけねにあるにくは「ふりそで」です。しょうりょうしかとれないぶいです。",
+      "input": "かたからつばさのつけねにあるにくわ「ふりそで」です。しょうりょうしかとれないぶいです。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
+      "listening_verified": false
+    },
+    {
+      "key": "せせり",
+      "input": "せせり",
+      "speed": 0.85,
+      "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
+      "accent": null,
+      "accent_status": "checked-no-reliable-culinary-entry",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "くびのしゅういのにくは「せせり」です。よくうごくぶぶんなので、だんりょくとうまみがあります。",
+      "input": "くびのしゅういのにくわ「せせり」です。よくうごくぶぶんなので、だんりょくとうまみがあります。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
+      "listening_verified": false
+    },
+    {
+      "key": "かわ",
+      "input": "かわ",
+      "speed": 0.85,
+      "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
+      "accent": 2,
+      "accent_status": "dictionary-reading-and-sense-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100084",
+      "listening_verified": false,
+      "accent_matched_form": "皮"
+    },
+    {
+      "key": "とりのひょうめんをおおうぶぶんは「かわ」です。やくとあぶらがでて、こうばしく、ぱりっとしたしょっかんになります。",
+      "input": "とりのひょうめんおおおうぶぶんわ「かわ」です。やくとあぶらがでて、こうばしく、ぱりっとしたしょっかんになります。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
+      "listening_verified": false
+    },
+    {
+      "key": "むねにく",
+      "input": "むねにく",
+      "speed": 0.85,
+      "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
+      "accent": null,
+      "accent_status": "checked-no-reliable-culinary-entry",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "むねのおおきなきんにくは「むねにく」です。しぼうがひかくてきすくなく、あっさりしています。",
+      "input": "むねのおおきなきんにくわ「むねにく」です。しぼうがひかくてきすくなく、あっさりしています。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
+      "listening_verified": false
+    },
+    {
+      "key": "ささみ",
+      "input": "ささみ",
+      "speed": 0.85,
+      "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
+      "accent": 0,
+      "accent_status": "dictionary-reading-and-sense-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L54183",
+      "listening_verified": false,
+      "accent_matched_form": "笹身"
+    },
+    {
+      "key": "むねにくのうちがわにあるほそながいきんにくは「ささみ」です。しぼうがすくなく、やわらかいぶいです。",
+      "input": "むねにくのうちがわにあるほそながいきんにくわ「ささみ」です。しぼうがすくなく、やわらかいぶいです。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
+      "listening_verified": false
+    },
+    {
+      "key": "やげんなんこつ",
+      "input": "やげんなんこつ",
+      "speed": 0.85,
+      "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
+      "accent": null,
+      "accent_status": "checked-no-reliable-culinary-entry",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "きょうこつのせんたんがわにあるなんこつは「ヤゲンなんこつ」です。こりこりしたしょっかんがあります。",
+      "input": "きょうこつのせんたんがわにあるなんこつわ「やげんなんこつ」です。こりこりしたしょっかんがあります。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
+      "listening_verified": false
+    },
+    {
+      "key": "てばさき",
+      "input": "てばさき",
+      "speed": 0.85,
+      "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
+      "accent": 0,
+      "accent_status": "dictionary-reading-and-sense-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61280",
+      "listening_verified": false,
+      "accent_matched_form": "手羽先"
+    },
+    {
+      "key": "つばさのせんたんがわは「てばさき」です。ほね、かわ、けつごうそしきがおおいぶいです。",
+      "input": "つばさのせんたんがわわ「てばさき」です。ほね、かわ、けつごうそしきがおおいぶいです。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
+      "listening_verified": false
+    },
+    {
+      "key": "てばなか",
+      "input": "てばなか",
+      "speed": 0.85,
+      "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
+      "accent": null,
+      "accent_status": "checked-no-reliable-culinary-entry",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "てばさきとてばもとのあいだにあるつばさのちゅうおうぶは「てばなか」です。",
+      "input": "てばさきとてばもとのあいだにあるつばさのちゅうおうぶわ「てばなか」です。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
+      "listening_verified": false
+    },
+    {
+      "key": "てばもと",
+      "input": "てばもと",
+      "speed": 0.85,
+      "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
+      "accent": null,
+      "accent_status": "checked-no-reliable-culinary-entry",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "どうたいにもっともちかいつばさのぶぶんは「てばもと」です。えいごでは drumette とよばれます。",
+      "input": "どうたいにもっともちかいつばさのぶぶんわ「てばもと」です。えいごでわ、どらめっととよばれます。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
+      "listening_verified": false
+    },
+    {
+      "key": "ぼんじり",
+      "input": "ぼんじり",
+      "speed": 0.85,
+      "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
+      "accent": null,
+      "accent_status": "checked-no-reliable-culinary-entry",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "おのつけねにあるあぶらのおおいぶいは「ぼんじり」です。",
+      "input": "おのつけねにあるあぶらのおおいぶいわ「ぼんじり」です。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
+      "listening_verified": false
+    },
+    {
+      "key": "きんかん",
+      "input": "きんかん",
+      "speed": 0.85,
+      "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
+      "accent": null,
+      "accent_status": "metaphorical-name-not-independently-verified",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40780",
+      "listening_verified": false,
+      "accent_matched_form": "金柑",
+      "accent_candidate": 3
+    },
+    {
+      "key": "まるいみせいじゅくらんおうが「きんかん」で、らんかんにつながったじょうたいをふくむきしょうぶいが「ちょうちん」です。ずではひとつのまとまりとしてしめしています。",
+      "input": "まるいみせいじゅくらんおうが「きんかん」で、らんかんにつながったじょうたいおふくむきしょうぶいが「ちょうちん」です。ずでわひとつのまとまりとしてしめしています。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
+      "listening_verified": false
+    },
+    {
+      "key": "ちょうちん",
+      "input": "ちょうちん",
+      "speed": 0.85,
+      "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
+      "accent": null,
+      "accent_status": "metaphorical-name-not-independently-verified",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L89074",
+      "listening_verified": false,
+      "accent_matched_form": "提灯",
+      "accent_candidate": 3
+    },
+    {
+      "key": "もも",
+      "input": "もも",
+      "speed": 0.85,
+      "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
+      "accent": 1,
+      "accent_status": "dictionary-reading-and-sense-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L82126",
+      "listening_verified": false,
+      "accent_matched_form": "腿"
+    },
+    {
+      "key": "おおきなももにくが「モモ」で、「そりれす」はそのつけね、こつばんのちかくにあるちいさなにくです。そりれすはおおきなモモのかたちにふくまれ、うちがわのちいさなりんかくはヒザなんこつです。",
+      "input": "おおきなももにくが「もも」で、「そりれす」わそのつけね、こつばんのちかくにあるちいさなにくです。そりれすわおおきなもものかたちにふくまれ、うちがわのちいさなりんかくわひざなんこつです。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
+      "listening_verified": false
+    },
+    {
+      "key": "そりれす",
+      "input": "そりれす",
+      "speed": 0.85,
+      "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
+      "accent": null,
+      "accent_status": "checked-no-reliable-culinary-entry",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "はつ",
+      "input": "はつ",
+      "speed": 0.85,
+      "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
+      "accent": 1,
+      "accent_status": "dictionary-reading-and-sense-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L14597",
+      "listening_verified": false,
+      "accent_matched_form": "ハツ"
+    },
+    {
+      "key": "しんぞうが「ハツ」、そのねもとが「はつもと」、しんぞうにつながるだいどうみゃくが「つなぎ」です。ずではれんぞくするこうぞうとしてしめしています。",
+      "input": "しんぞうが「はつ」、そのねもとが「はつもと」、しんぞうにつながるだいどうみゃくが「つなぎ」です。ずでわれんぞくするこうぞうとしてしめしています。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
+      "listening_verified": false
+    },
+    {
+      "key": "はつもと",
+      "input": "はつもと",
+      "speed": 0.85,
+      "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
+      "accent": null,
+      "accent_status": "checked-no-reliable-culinary-entry",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "つなぎ",
+      "input": "つなぎ",
+      "speed": 0.85,
+      "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
+      "accent": null,
+      "accent_status": "metaphorical-name-not-independently-verified",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L43031",
+      "listening_verified": false,
+      "accent_matched_form": "繋ぎ",
+      "accent_candidate": 0
+    },
+    {
+      "key": "ればー",
+      "input": "ればー",
+      "speed": 0.85,
+      "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
+      "accent": 1,
+      "accent_status": "dictionary-reading-and-sense-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L20330",
+      "listening_verified": false,
+      "accent_matched_form": "レバー"
+    },
+    {
+      "key": "このかたちはかんぞうの「レバー」です。おなじぶいでも、しぼうがおおくしろっぽいものは「しろレバー」とよばれます。",
+      "input": "このかたちわかんぞうの「ればー」です。おなじぶいでも、しぼうがおおくしろっぽいものわ「しろればー」とよばれます。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
+      "listening_verified": false
+    },
+    {
+      "key": "しろればー",
+      "input": "しろればー",
+      "speed": 0.85,
+      "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
+      "accent": null,
+      "accent_status": "checked-no-reliable-culinary-entry",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "はらみ",
+      "input": "はらみ",
+      "speed": 0.85,
+      "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
+      "accent": null,
+      "accent_status": "checked-no-reliable-culinary-entry",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "ふくへきにあるうすいきんにくのぶいは「ハラミ」です。",
+      "input": "ふくへきにあるうすいきんにくのぶいわ「はらみ」です。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
+      "listening_verified": false
+    },
+    {
+      "key": "すなぎも",
+      "input": "すなぎも",
+      "speed": 0.85,
+      "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
+      "accent": 0,
+      "accent_status": "dictionary-reading-and-sense-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52855",
+      "listening_verified": false,
+      "accent_matched_form": "砂肝"
+    },
+    {
+      "key": "えさをくだくきんにくしつのいは「すなぎも」です。しぼうがすくなく、こりこりしたしょっかんがあります。",
+      "input": "えさおくだくきんにくしつのいわ「すなぎも」です。しぼうがすくなく、こりこりしたしょっかんがあります。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
+      "listening_verified": false
+    },
+    {
+      "key": "ひざなんこつ",
+      "input": "ひざなんこつ",
+      "speed": 0.85,
+      "reading_source": "data/pages73.json; checked against scripts/zukan-marin-review.json where present",
+      "accent": null,
+      "accent_status": "checked-no-reliable-culinary-entry",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "あしのひざかんせつにあるまるいなんこつは「ヒザなんこつ」です。きょうこつがわのヤゲンなんこつとくべつします。",
+      "input": "あしのひざかんせつにあるまるいなんこつわ「ひざなんこつ」です。きょうこつがわのやげんなんこつとくべつします。",
+      "speed": 1.0,
+      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
+      "listening_verified": false
+    }
+  ]
+}

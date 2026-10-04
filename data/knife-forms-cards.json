@@ -1,0 +1,330 @@
+{
+  "title": "包丁カード",
+  "entries": [
+    {
+      "id": "knife-form-card-01",
+      "kanji": "牛刀",
+      "japanese": "ぎゅうとう",
+      "english": "Gyuto / Chef’s knife",
+      "image": "assets/knife-cards/knife-01.svg",
+      "imageAlt": "牛刀のイラスト",
+      "sourceCard": "page47-49-forms-q01",
+      "example": {
+        "japanese": "肉(にく)、魚(さかな)、野菜(やさい)など、幅広(はばひろ)い調理作業(ちょうりさぎょう)に使(つか)う。",
+        "english": "Use it for meat, fish, vegetables, and a wide range of kitchen tasks."
+      }
+    },
+    {
+      "id": "knife-form-card-02",
+      "kanji": "和牛刀",
+      "japanese": "わぎゅうとう",
+      "english": "Wa-Gyuto",
+      "image": "assets/knife-cards/knife-02.svg",
+      "imageAlt": "和牛刀のイラスト",
+      "sourceCard": "page47-49-forms-q02",
+      "example": {
+        "japanese": "牛刀(ぎゅうとう)の用途(ようと)を、和包丁型(わぼうちょうがた)の柄(え)で扱(あつか)う。",
+        "english": "Use it for the same tasks as a gyuto, with a traditional Japanese-style handle."
+      }
+    },
+    {
+      "id": "knife-form-card-03",
+      "kanji": "切付牛刀",
+      "japanese": "きりつけぎゅうとう",
+      "english": "Kiritsuke Gyuto",
+      "image": "assets/knife-cards/knife-03.svg",
+      "imageAlt": "切付牛刀のイラスト",
+      "sourceCard": "page47-49-forms-q03",
+      "example": {
+        "japanese": "鋭(するど)い切付型(きりつけがた)の先端(せんたん)と直線的(ちょくせんてき)な刃(は)で精密(せいみつ)に切(き)る。",
+        "english": "Make precise cuts with its sharp, angular tip and straight cutting edge."
+      }
+    },
+    {
+      "id": "knife-form-card-04",
+      "kanji": "三徳包丁",
+      "japanese": "さんとくぼうちょう",
+      "english": "Santoku",
+      "image": "assets/knife-cards/knife-04.svg",
+      "imageAlt": "三徳包丁のイラスト",
+      "sourceCard": "page47-49-forms-q04",
+      "example": {
+        "japanese": "肉(にく)、魚(さかな)、野菜(やさい)を家庭(かてい)で幅広(はばひろ)く切(き)る。",
+        "english": "Cut meat, fish, and vegetables for everyday cooking at home."
+      }
+    },
+    {
+      "id": "knife-form-card-05",
+      "kanji": "和三徳",
+      "japanese": "わさんとく",
+      "english": "Wa-Santoku",
+      "image": "assets/knife-cards/knife-05.svg",
+      "imageAlt": "和三徳のイラスト",
+      "sourceCard": "page47-49-forms-q05",
+      "example": {
+        "japanese": "三徳包丁(さんとくぼうちょう)の用途(ようと)を、和包丁型(わぼうちょうがた)の柄(え)で扱(あつか)う。",
+        "english": "Use it for the same tasks as a santoku, with a traditional Japanese-style handle."
+      }
+    },
+    {
+      "id": "knife-form-card-06",
+      "kanji": "柳刃包丁",
+      "japanese": "やなぎばぼうちょう",
+      "english": "Yanagiba",
+      "image": "assets/knife-cards/knife-06.svg",
+      "imageAlt": "柳刃包丁のイラスト",
+      "sourceCard": "page47-49-forms-q06",
+      "example": {
+        "japanese": "長(なが)く薄(うす)い刃(は)で刺身(さしみ)を一方向(いちほうこう)に引(ひ)き切(ぎ)りする。",
+        "english": "Slice sashimi in one pulling stroke with its long, thin blade."
+      }
+    },
+    {
+      "id": "knife-form-card-07",
+      "kanji": "蛸引包丁",
+      "japanese": "たこひきぼうちょう",
+      "english": "Takohiki",
+      "image": "assets/knife-cards/knife-07.svg",
+      "imageAlt": "蛸引包丁のイラスト",
+      "sourceCard": "page47-49-forms-q07",
+      "example": {
+        "japanese": "角形(かくがた)の刃先(はさき)で刺身(さしみ)を引(ひ)き切(ぎ)りする。",
+        "english": "Slice sashimi with a pulling cut, using its square-tipped blade."
+      }
+    },
+    {
+      "id": "knife-form-card-08",
+      "kanji": "切付柳刃",
+      "japanese": "きりつけやなぎば",
+      "english": "Kiritsuke Yanagiba",
+      "image": "assets/knife-cards/knife-08.svg",
+      "imageAlt": "切付柳刃のイラスト",
+      "sourceCard": "page47-49-forms-q08",
+      "example": {
+        "japanese": "鋭(するど)い切付型(きりつけがた)の先端(せんたん)を持(も)つ長刃(ながば)で刺身(さしみ)を切(き)る。",
+        "english": "Slice sashimi with its long blade and sharp, angular tip."
+      }
+    },
+    {
+      "id": "knife-form-card-09",
+      "kanji": "出刃包丁",
+      "japanese": "でばぼうちょう",
+      "english": "Deba",
+      "image": "assets/knife-cards/knife-09.svg",
+      "imageAlt": "出刃包丁のイラスト",
+      "sourceCard": "page47-49-forms-q09",
+      "example": {
+        "japanese": "厚(あつ)く重(おも)い刃(は)で魚(さかな)をおろし、頭(あたま)や骨(ほね)を切(き)る。",
+        "english": "Break down fish and cut through heads and bones with its thick, heavy blade."
+      }
+    },
+    {
+      "id": "knife-form-card-10",
+      "kanji": "相出刃",
+      "japanese": "あいでば",
+      "english": "Ai-Deba",
+      "image": "assets/knife-cards/knife-10.svg",
+      "imageAlt": "相出刃のイラスト",
+      "sourceCard": "page47-49-forms-q10",
+      "example": {
+        "japanese": "出刃(でば)より細身(ほそみ)で軽(かる)い刃(は)を使(つか)い、魚(さかな)をおろす。",
+        "english": "Break down fish with a slimmer, lighter blade than a deba."
+      }
+    },
+    {
+      "id": "knife-form-card-11",
+      "kanji": "身卸包丁",
+      "japanese": "みおろしぼうちょう",
+      "english": "Mioroshi",
+      "image": "assets/knife-cards/knife-11.svg",
+      "imageAlt": "身卸包丁のイラスト",
+      "sourceCard": "page47-49-forms-q11",
+      "example": {
+        "japanese": "出刃(でば)と柳刃(やなぎば)の中間的(ちゅうかんてき)な形(かたち)で、魚(さかな)をおろし、身(み)を切(き)る。",
+        "english": "Break down fish and slice the flesh with a blade between a deba and a yanagiba."
+      }
+    },
+    {
+      "id": "knife-form-card-12",
+      "kanji": "むきもの包丁",
+      "japanese": "むきものぼうちょう",
+      "english": "Mukimono",
+      "image": "assets/knife-cards/knife-12.svg",
+      "imageAlt": "むきもの包丁のイラスト",
+      "sourceCard": "page47-49-forms-q12",
+      "example": {
+        "japanese": "野菜(やさい)の飾(かざ)り切(ぎ)りや細工(さいく)を精密(せいみつ)に行(おこな)う。",
+        "english": "Make precise decorative cuts and intricate carvings in vegetables."
+      }
+    },
+    {
+      "id": "knife-form-card-13",
+      "kanji": "鯵切包丁",
+      "japanese": "あじきりぼうちょう",
+      "english": "Aji-kiri",
+      "image": "assets/knife-cards/knife-13.svg",
+      "imageAlt": "鯵切包丁のイラスト",
+      "sourceCard": "page47-49-forms-q13",
+      "example": {
+        "japanese": "鯵(あじ)などの小魚(こざかな)をおろし、下処理(したしょり)する。",
+        "english": "Fillet and prepare small fish such as horse mackerel."
+      }
+    },
+    {
+      "id": "knife-form-card-14",
+      "kanji": "剣むき",
+      "japanese": "けんむき",
+      "english": "Kenmuki",
+      "image": "assets/knife-cards/knife-14.svg",
+      "imageAlt": "剣むきのイラスト",
+      "sourceCard": "page47-49-forms-q14",
+      "example": {
+        "japanese": "野菜(やさい)の飾(かざ)り切(ぎ)や細(こま)かな細工(さいく)を行(おこな)う。",
+        "english": "Make decorative cuts and fine carvings in vegetables."
+      }
+    },
+    {
+      "id": "knife-form-card-15",
+      "kanji": "薄刃包丁",
+      "japanese": "うすばぼうちょう",
+      "english": "Usuba",
+      "image": "assets/knife-cards/knife-15.svg",
+      "imageAlt": "薄刃包丁のイラスト",
+      "sourceCard": "page47-49-forms-q15",
+      "example": {
+        "japanese": "野菜(やさい)の薄切(うすぎ)り、桂剥(かつらむ)き、飾(かざ)り切(ぎ)りを精密(せいみつ)に行(おこな)う。",
+        "english": "Thinly slice vegetables, peel them into sheets, and make precise decorative cuts."
+      }
+    },
+    {
+      "id": "knife-form-card-16",
+      "kanji": "菜切包丁",
+      "japanese": "なきりぼうちょう",
+      "english": "Nakiri",
+      "image": "assets/knife-cards/knife-16.svg",
+      "imageAlt": "菜切包丁のイラスト",
+      "sourceCard": "page47-49-forms-q16",
+      "example": {
+        "japanese": "幅広(はばひろ)い刃(は)で野菜(やさい)を切(き)り分(わ)け、刻(きざ)む。",
+        "english": "Cut and chop vegetables with its broad blade."
+      }
+    },
+    {
+      "id": "knife-form-card-17",
+      "kanji": "バラン切り",
+      "japanese": "ばらんきり",
+      "english": "Baran-kiri",
+      "image": "assets/knife-cards/knife-17.svg",
+      "imageAlt": "バラン切りのイラスト",
+      "sourceCard": "page47-49-forms-q17",
+      "example": {
+        "japanese": "寿司(すし)などに添(そ)える飾(かざ)りバランを細(こま)かく切(き)る。",
+        "english": "Finely cut decorative baran leaves served with sushi and other dishes."
+      }
+    },
+    {
+      "id": "knife-form-card-18",
+      "kanji": "蕎麦切包丁",
+      "japanese": "そばきりぼうちょう",
+      "english": "Soba-kiri / Soba knife",
+      "image": "assets/knife-cards/knife-18.svg",
+      "imageAlt": "蕎麦切包丁のイラスト",
+      "sourceCard": "page47-49-forms-q18",
+      "example": {
+        "japanese": "大(おお)きく重(おも)い刃(は)を垂直(すいちょく)に下(お)ろし、蕎麦(そば)を均一(きんいつ)な幅(はば)に切(き)る。",
+        "english": "Cut soba into evenly sized strands by bringing its large, heavy blade straight down."
+      }
+    },
+    {
+      "id": "knife-form-card-19",
+      "kanji": "先丸蛸引",
+      "japanese": "さきまるたこひき",
+      "english": "Sakimaru Takohiki",
+      "image": "assets/knife-cards/knife-19.svg",
+      "imageAlt": "先丸蛸引のイラスト",
+      "sourceCard": "page47-49-forms-q19",
+      "example": {
+        "japanese": "丸(まる)い先端(せんたん)を持(も)つ長刃(ながば)で刺身(さしみ)を引(ひ)き切(ぎ)りする。",
+        "english": "Slice sashimi with a pulling cut, using its long, round-tipped blade."
+      }
+    },
+    {
+      "id": "knife-form-card-20",
+      "kanji": "舟行包丁",
+      "japanese": "ふなゆきぼうちょう",
+      "english": "Funayuki",
+      "image": "assets/knife-cards/knife-20.svg",
+      "imageAlt": "舟行包丁のイラスト",
+      "sourceCard": "page47-49-forms-q20",
+      "example": {
+        "japanese": "軽量(けいりょう)な魚用包丁(さかなようぼうちょう)で、魚(さかな)をおろし、船上(せんじょう)の一般作業(いっぱんさぎょう)にも使(つか)う。",
+        "english": "Break down fish with a lightweight knife, also used for general tasks aboard a boat."
+      }
+    },
+    {
+      "id": "knife-form-card-21",
+      "kanji": "骨切包丁",
+      "japanese": "ほねきりぼうちょう",
+      "english": "Hamo Honekiri",
+      "image": "assets/knife-cards/knife-21.svg",
+      "imageAlt": "骨切包丁のイラスト",
+      "sourceCard": "page47-49-forms-q21",
+      "example": {
+        "japanese": "重(おも)い刃(は)で鱧(はも)の細(こま)かい骨(ほね)を皮(かわ)を切(き)らずに細(こま)かく切(き)る。",
+        "english": "Finely cut the small bones of pike conger without cutting through the skin."
+      }
+    },
+    {
+      "id": "knife-form-card-22",
+      "kanji": "ふぐ出刃",
+      "japanese": "ふぐでば",
+      "english": "Fugu Deba",
+      "image": "assets/knife-cards/knife-22.svg",
+      "imageAlt": "ふぐ出刃のイラスト",
+      "sourceCard": "page47-49-forms-q22",
+      "example": {
+        "japanese": "ふぐをおろし、骨(ほね)を処理(しょり)する。",
+        "english": "Break down pufferfish and prepare the bones."
+      }
+    },
+    {
+      "id": "knife-form-card-23",
+      "kanji": "ふぐ引",
+      "japanese": "ふぐひき",
+      "english": "Fugu-hiki",
+      "image": "assets/knife-cards/knife-23.svg",
+      "imageAlt": "ふぐ引のイラスト",
+      "sourceCard": "page47-49-forms-q23",
+      "example": {
+        "japanese": "薄(うす)い長刃(ながば)で、ふぐを透(す)けるほど薄(うす)く切(き)る。",
+        "english": "Slice pufferfish into translucent slices with its thin, long blade."
+      }
+    },
+    {
+      "id": "knife-form-card-24",
+      "kanji": "鰻裂包丁",
+      "japanese": "うなぎさきぼうちょう",
+      "english": "Unagi-saki",
+      "image": "assets/knife-cards/knife-24.svg",
+      "imageAlt": "鰻裂包丁のイラスト",
+      "sourceCard": "page47-49-forms-q24",
+      "example": {
+        "japanese": "鋭(するど)い角形(かくがた)の先端(せんたん)で鰻(うなぎ)を開(ひら)き、下処理(したしょり)する。",
+        "english": "Split open and prepare eel with its sharp, square-shaped tip."
+      }
+    },
+    {
+      "id": "knife-form-card-25",
+      "kanji": "筋引包丁",
+      "japanese": "すじひきぼうちょう",
+      "english": "Sujihiki",
+      "image": "assets/knife-cards/knife-25.svg",
+      "imageAlt": "筋引包丁のイラスト",
+      "sourceCard": "page47-49-forms-q25",
+      "example": {
+        "japanese": "肉(にく)の筋(すじ)を取(と)り、長(なが)い刃(は)で肉(にく)を薄(うす)く切(き)る。",
+        "english": "Trim sinew from meat and cut thin slices with its long blade."
+      }
+    }
+  ]
+}

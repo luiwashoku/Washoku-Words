@@ -501,6 +501,28 @@
     "questionCount": 25
   },
   {
+    "id": "knife-forms-cards",
+    "category": "techniques",
+    "page": "47–49",
+    "title": "包丁カード",
+    "file": "data/knife-forms-cards.json",
+    "menuColor": "purple",
+    "gameMode": "vocabulary-cards",
+    "ordered": true,
+    "questionCount": 25
+  },
+  {
+    "id": "knife-making-steps",
+    "category": "techniques",
+    "page": "47–49",
+    "title": "包丁作りの12工程",
+    "file": "data/knife-making-steps.json",
+    "menuColor": "purple",
+    "gameMode": "vocabulary-cards",
+    "ordered": true,
+    "questionCount": 13
+  },
+  {
     "id": "page47-49-materials",
     "category": "techniques",
     "page": "47–49",
@@ -734,6 +756,18 @@
       "en": "Chicken cut names correspond to distinct areas of the wing, breast, legs, skin, and organs. Connect each Japanese name to its physical position so that you can immediately picture the cut when it is mentioned in a cooking class or yakitori restaurant."
     },
     "questionCount": 20
+  },
+  {
+    "id": "chicken-parts-cards",
+    "category": "animal-ingredients",
+    "page": 73,
+    "title": "鶏カード",
+    "file": "data/chicken-parts-cards.json",
+    "menuColor": "purple",
+    "gameMode": "vocabulary-cards",
+    "ordered": true,
+    "compactCards": true,
+    "questionCount": 22
   },
   {
     "id": "page74",

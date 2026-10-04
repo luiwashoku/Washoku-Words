@@ -259,3 +259,18 @@ verified; no listening verification performed.
 All 83 batches in the current queue are marked generated.
 
 Reading checks are not a certification of audible pitch accent or articulation.
+
+## Knife-making cards
+
+`knife-making-steps` uses Marin (`gpt-4o-mini-tts`) at speed 1.0, as requested. Generate with `python3 scripts/generate-lesson-audio.py --lesson knife-making-steps`. The reviewed hiragana inputs and dictionary accent targets are in `scripts/lesson-audio-reviews/knife-making-steps.json`. Specialist compounds without an exact dictionary entry remain provisional; none of these recordings has been marked listening-verified. The twelve numbered cards and unnumbered 完成！ card retain source order.
+
+`knife-forms-cards` contains 25 illustrated flashcards in source order, with the knife name as vocabulary and the correct source answer as the function sentence. Its 50 Marin clips use the reviewed name/function readings from the original knife quiz. Regenerate with `python3 scripts/generate-lesson-audio.py --lesson knife-forms-cards`. Individual SVGs are extracted by `scripts/export-knife-card-illustrations.py` (requires `svgpathtools`); the files contain only the selected knife artwork and omit numeric labels.
+
+Batch 86: `chicken-parts-cards`, 鶏カード, 22 individual part cards derived from
+`page73`, with 22 Marin vocabulary recordings at 0.85 and 17 unique answer
+explanations at 1.0. Reuses `assets/chicken_parts.svg` with distinct highlighted
+fragment URLs. The review records seven dictionary-backed pitch targets, four
+metaphorical-name candidates, and eleven specialty names without a reliable exact
+pitch entry; unconfirmed targets are not forced. No listening verification is
+claimed. The new ハラミ card corrects the source description to abdominal-wall
+muscle, with the reference recorded in its review file.

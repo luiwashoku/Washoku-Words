@@ -1,0 +1,386 @@
+{
+  "lesson": "knife-forms-cards",
+  "reviewed": true,
+  "voice": "marin",
+  "model": "gpt-4o-mini-tts",
+  "speed": 1.0,
+  "reading_source": "All 25 source names and correct-answer functions checked against scripts/lesson-audio-reviews/page47-49-forms.json. Corrected source annotation duplication; retained lexical 刃 は, はばひろく and はも; object を → お.",
+  "notes": "Dictionary accent targets when exact spelling and reading match; specialist compounds are provisional. No listening verification claimed.",
+  "entries": [
+    {
+      "key": "ぎゅうとう",
+      "input": "ぎゅうとう",
+      "speed": 1.0,
+      "accent": 0,
+      "accent_status": "dictionary",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt",
+      "listening_verified": false
+    },
+    {
+      "key": "にく、さかな、やさいなど、はばひろいちょうりさぎょうにつかう。",
+      "input": "にく、さかな、やさいなど、はばひろいちょうりさぎょうにつかう。",
+      "speed": 1.0,
+      "listening_verified": false
+    },
+    {
+      "key": "わぎゅうとう",
+      "input": "わぎゅうとう",
+      "speed": 1.0,
+      "accent": null,
+      "accent_status": "provisional-compound",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "ぎゅうとうのようとを、わぼうちょうがたのえであつかう。",
+      "input": "ぎゅうとうのようとお、わぼうちょうがたのえであつかう。",
+      "speed": 1.0,
+      "listening_verified": false
+    },
+    {
+      "key": "きりつけぎゅうとう",
+      "input": "きりつけぎゅうとう",
+      "speed": 1.0,
+      "accent": null,
+      "accent_status": "provisional-compound",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "するどいきりつけがたのせんたんとちょくせんてきなはでせいみつにきる。",
+      "input": "するどいきりつけがたのせんたんとちょくせんてきなはでせいみつにきる。",
+      "speed": 1.0,
+      "listening_verified": false
+    },
+    {
+      "key": "さんとくぼうちょう",
+      "input": "さんとくぼうちょう",
+      "speed": 1.0,
+      "accent": null,
+      "accent_status": "provisional-compound",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "にく、さかな、やさいをかていではばひろくきる。",
+      "input": "にく、さかな、やさいおかていではばひろくきる。",
+      "speed": 1.0,
+      "listening_verified": false
+    },
+    {
+      "key": "わさんとく",
+      "input": "わさんとく",
+      "speed": 1.0,
+      "accent": null,
+      "accent_status": "provisional-compound",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "さんとくぼうちょうのようとを、わぼうちょうがたのえであつかう。",
+      "input": "さんとくぼうちょうのようとお、わぼうちょうがたのえであつかう。",
+      "speed": 1.0,
+      "listening_verified": false
+    },
+    {
+      "key": "やなぎばぼうちょう",
+      "input": "やなぎばぼうちょう",
+      "speed": 1.0,
+      "accent": null,
+      "accent_status": "provisional-compound",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "ながくうすいはでさしみをいちほうこうにひきぎりする。",
+      "input": "ながくうすいはでさしみおいちほうこうにひきぎりする。",
+      "speed": 1.0,
+      "listening_verified": false
+    },
+    {
+      "key": "たこひきぼうちょう",
+      "input": "たこひきぼうちょう",
+      "speed": 1.0,
+      "accent": null,
+      "accent_status": "provisional-compound",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "かくがたのはさきでさしみをひきぎりする。",
+      "input": "かくがたのはさきでさしみおひきぎりする。",
+      "speed": 1.0,
+      "listening_verified": false
+    },
+    {
+      "key": "きりつけやなぎば",
+      "input": "きりつけやなぎば",
+      "speed": 1.0,
+      "accent": null,
+      "accent_status": "provisional-compound",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "するどいきりつけがたのせんたんをもつながばでさしみをきる。",
+      "input": "するどいきりつけがたのせんたんおもつながばでさしみおきる。",
+      "speed": 1.0,
+      "listening_verified": false
+    },
+    {
+      "key": "でばぼうちょう",
+      "input": "でばぼうちょう",
+      "speed": 1.0,
+      "accent": 3,
+      "accent_status": "dictionary",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt",
+      "listening_verified": false
+    },
+    {
+      "key": "あつくおもいはでさかなをおろし、あたまやほねをきる。",
+      "input": "あつくおもいはでさかなおおろし、あたまやほねおきる。",
+      "speed": 1.0,
+      "listening_verified": false
+    },
+    {
+      "key": "あいでば",
+      "input": "あいでば",
+      "speed": 1.0,
+      "accent": null,
+      "accent_status": "provisional-compound",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "でばよりほそみでかるいはをつかい、さかなをおろす。",
+      "input": "でばよりほそみでかるいはおつかい、さかなおおろす。",
+      "speed": 1.0,
+      "listening_verified": false
+    },
+    {
+      "key": "みおろしぼうちょう",
+      "input": "みおろしぼうちょう",
+      "speed": 1.0,
+      "accent": null,
+      "accent_status": "provisional-compound",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "でばとやなぎばのちゅうかんてきなかたちで、さかなをおろし、みをきる。",
+      "input": "でばとやなぎばのちゅうかんてきなかたちで、さかなおおろし、みおきる。",
+      "speed": 1.0,
+      "listening_verified": false
+    },
+    {
+      "key": "むきものぼうちょう",
+      "input": "むきものぼうちょう",
+      "speed": 1.0,
+      "accent": null,
+      "accent_status": "provisional-compound",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "やさいのかざりぎりやさいくをせいみつにおこなう。",
+      "input": "やさいのかざりぎりやさいくおせいみつにおこなう。",
+      "speed": 1.0,
+      "listening_verified": false
+    },
+    {
+      "key": "あじきりぼうちょう",
+      "input": "あじきりぼうちょう",
+      "speed": 1.0,
+      "accent": null,
+      "accent_status": "provisional-compound",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "あじなどのこざかなをおろし、したしょりする。",
+      "input": "あじなどのこざかなおおろし、したしょりする。",
+      "speed": 1.0,
+      "listening_verified": false
+    },
+    {
+      "key": "けんむき",
+      "input": "けんむき",
+      "speed": 1.0,
+      "accent": null,
+      "accent_status": "provisional-compound",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "やさいのかざりぎやこまかなさいくをおこなう。",
+      "input": "やさいのかざりぎりやこまかなさいくおおこなう。",
+      "speed": 1.0,
+      "listening_verified": false
+    },
+    {
+      "key": "うすばぼうちょう",
+      "input": "うすばぼうちょう",
+      "speed": 1.0,
+      "accent": null,
+      "accent_status": "provisional-compound",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "やさいのうすぎり、かつらむき、かざりぎりをせいみつにおこなう。",
+      "input": "やさいのうすぎり、かつらむき、かざりぎりおせいみつにおこなう。",
+      "speed": 1.0,
+      "listening_verified": false
+    },
+    {
+      "key": "なきりぼうちょう",
+      "input": "なきりぼうちょう",
+      "speed": 1.0,
+      "accent": null,
+      "accent_status": "provisional-compound",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "はばひろいはでやさいをきりわけ、きざむ。",
+      "input": "はばひろいはでやさいおきりわけ、きざむ。",
+      "speed": 1.0,
+      "listening_verified": false
+    },
+    {
+      "key": "ばらんきり",
+      "input": "ばらんきり",
+      "speed": 1.0,
+      "accent": null,
+      "accent_status": "provisional-compound",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "すしなどにそえるかざりバランをこまかくきる。",
+      "input": "すしなどにそえるかざりばらんおこまかくきる。",
+      "speed": 1.0,
+      "listening_verified": false
+    },
+    {
+      "key": "そばきりぼうちょう",
+      "input": "そばきりぼうちょう",
+      "speed": 1.0,
+      "accent": null,
+      "accent_status": "provisional-compound",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "おおきくおもいはをすいちょくにおろし、そばをきんいつなはばにきる。",
+      "input": "おおきくおもいはおすいちょくにおろし、そばおきんいつなはばにきる。",
+      "speed": 1.0,
+      "listening_verified": false
+    },
+    {
+      "key": "さきまるたこひき",
+      "input": "さきまるたこひき",
+      "speed": 1.0,
+      "accent": null,
+      "accent_status": "provisional-compound",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "まるいせんたんをもつながばでさしみをひきぎりする。",
+      "input": "まるいせんたんおもつながばでさしみおひきぎりする。",
+      "speed": 1.0,
+      "listening_verified": false
+    },
+    {
+      "key": "ふなゆきぼうちょう",
+      "input": "ふなゆきぼうちょう",
+      "speed": 1.0,
+      "accent": null,
+      "accent_status": "provisional-compound",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "けいりょうなさかなようぼうちょうで、さかなをおろし、せんじょうのいっぱんさぎょうにもつかう。",
+      "input": "けいりょうなさかなようぼうちょうで、さかなおおろし、せんじょうのいっぱんさぎょうにもつかう。",
+      "speed": 1.0,
+      "listening_verified": false
+    },
+    {
+      "key": "ほねきりぼうちょう",
+      "input": "ほねきりぼうちょう",
+      "speed": 1.0,
+      "accent": null,
+      "accent_status": "provisional-compound",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "おもいはではものこまかいほねをかわをきらずにこまかくきる。",
+      "input": "おもいはではものこまかいほねおかわおきらずにこまかくきる。",
+      "speed": 1.0,
+      "listening_verified": false
+    },
+    {
+      "key": "ふぐでば",
+      "input": "ふぐでば",
+      "speed": 1.0,
+      "accent": null,
+      "accent_status": "provisional-compound",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "ふぐをおろし、ほねをしょりする。",
+      "input": "ふぐおおろし、ほねおしょりする。",
+      "speed": 1.0,
+      "listening_verified": false
+    },
+    {
+      "key": "ふぐひき",
+      "input": "ふぐひき",
+      "speed": 1.0,
+      "accent": null,
+      "accent_status": "provisional-compound",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "うすいながばで、ふぐをすけるほどうすくきる。",
+      "input": "うすいながばで、ふぐおすけるほどうすくきる。",
+      "speed": 1.0,
+      "listening_verified": false
+    },
+    {
+      "key": "うなぎさきぼうちょう",
+      "input": "うなぎさきぼうちょう",
+      "speed": 1.0,
+      "accent": null,
+      "accent_status": "provisional-compound",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "するどいかくがたのせんたんでうなぎをひらき、したしょりする。",
+      "input": "するどいかくがたのせんたんでうなぎおひらき、したしょりする。",
+      "speed": 1.0,
+      "listening_verified": false
+    },
+    {
+      "key": "すじひきぼうちょう",
+      "input": "すじひきぼうちょう",
+      "speed": 1.0,
+      "accent": null,
+      "accent_status": "provisional-compound",
+      "accent_source": null,
+      "listening_verified": false
+    },
+    {
+      "key": "にくのすじをとり、ながいはでにくをうすくきる。",
+      "input": "にくのすじおとり、ながいはでにくおうすくきる。",
+      "speed": 1.0,
+      "listening_verified": false
+    }
+  ]
+}
