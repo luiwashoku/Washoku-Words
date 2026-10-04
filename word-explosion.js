@@ -92,7 +92,7 @@
     return { type: "pending", text };
   }
 
-  function mount(container, { file, initialWord, playSound, celebrate, createExampleSpeechButton, stopSpeech = () => {} }) {
+  function mount(container, { file, initialWord, playSound, celebrate, createExampleSpeechButton, stopSpeech = () => {}, setJapaneseText = (element, text) => { element.textContent = text; } }) {
     let alive = true;
     let round;
     let entries;
@@ -216,7 +216,7 @@
         heading.textContent = `${word.japanese}${word.kanji ? `（${word.kanji}）` : ""} · ${word.english}`;
         const japanese = document.createElement("p");
         japanese.lang = "ja";
-        japanese.textContent = word.example.japanese;
+        setJapaneseText(japanese, word.example.japanese);
         const english = document.createElement("p");
         english.lang = "en";
         english.textContent = word.example.english;

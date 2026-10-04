@@ -22,7 +22,7 @@
     return normalize(`${text} ${text.replace(/[（(][ぁ-ゖァ-ヶー\s]+[）)]/g, "")}`);
   }
 
-  function init({ catalog, loadQuestions, getQuestionTitle, openResult }) {
+  function init({ catalog, loadQuestions, getQuestionTitle, openResult, setJapaneseText = (element, text) => { element.textContent = text; } }) {
     const trigger = document.getElementById("openSearch");
     const dialog = document.getElementById("searchDialog");
     const input = document.getElementById("searchInput");
@@ -50,13 +50,13 @@
         button.type = "button";
         button.className = "search-result";
         const heading = document.createElement("strong");
-        heading.textContent = entry.title || `${entry.word.kanji || entry.word.japanese} · ${entry.word.english}`;
+        setJapaneseText(heading, entry.title || `${entry.word.kanji || entry.word.japanese} · ${entry.word.english}`);
         const detail = document.createElement("span");
         detail.textContent = `${entry.lesson.title} · ${entry.word ? "Play this word →" : "Open question →"}`;
         button.appendChild(heading);
         if (entry.question && entry.question.question !== entry.title) {
           const preview = document.createElement("span");
-          preview.textContent = entry.question.question;
+          setJapaneseText(preview, entry.question.question);
           button.appendChild(preview);
         }
         button.appendChild(detail);

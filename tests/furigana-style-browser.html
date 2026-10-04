@@ -1,0 +1,31 @@
+<!doctype html><meta charset="utf-8"><title>Shared furigana style checks</title>
+<pre id="result">RUNNING</pre><iframe src="../index.html" style="width:390px;height:850px" title="App"></iframe>
+<script>
+(async()=>{
+ const frame=document.querySelector('iframe'),result=document.querySelector('#result');
+ const assert=(v,m)=>{if(!v)throw Error(m)};
+ const until=async fn=>{for(let i=0;i<300;i++){if(fn())return;await new Promise(r=>setTimeout(r,20))}throw Error('Timed out')};
+ try{
+  await until(()=>frame.contentDocument.querySelector('#openVocabularyCards:not(:disabled)'));
+  const w=frame.contentWindow,d=frame.contentDocument,q=s=>d.querySelector(s);
+  const check=selector=>{
+   const spans=[...d.querySelectorAll(selector+' .furiganaReading')];assert(spans.length,'Readings exist: '+selector);
+   for(const span of spans){
+    const reading=w.getComputedStyle(span),parent=w.getComputedStyle(span.parentElement);
+    assert(reading.fontWeight==='500','Medium reading weight: '+selector);
+    assert(Math.abs(parseFloat(reading.fontSize)/parseFloat(parent.fontSize)-.75)<.01,'Smaller reading: '+selector);
+    assert(Number(parent.fontWeight)>500,'Main text stays heavier: '+selector);
+   }
+  };
+  [...d.querySelectorAll('.category-card')].find(b=>b.textContent.includes('日本語で話す')).click();
+  const lesson=()=>[...d.querySelectorAll('.lesson-card')].find(b=>b.querySelector('strong').textContent.trim()==='Grammar Drill');
+  await until(lesson);w.Math.random=()=>0.999999;lesson().querySelector('.lesson-open').click();
+  await until(()=>q('#quizScreen:not(.hidden) .furiganaReading'));
+  q('#furiganaToggle').click();
+  check('#questionText');check('#answerContainer');
+  q('#answerContainer button').click();await until(()=>q('#jpExplanation .furiganaReading'));check('#jpExplanation');
+  q('#furiganaToggle').click();assert(w.getComputedStyle(q('#questionText .furiganaReading')).display==='none','Toggle still hides readings');
+  result.textContent='PASS: questions, answers and explanations use smaller/lighter readings; main text remains heavier and toggle works.';
+ }catch(e){result.textContent='FAIL: '+e.stack}
+})();
+</script>

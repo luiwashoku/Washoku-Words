@@ -140,6 +140,7 @@
     renderCategories();
     window.WashokuSearch.init({
       catalog: state.catalog,
+      setJapaneseText: setFuriganaAwareText,
       loadQuestions: loadLessonQuestions,
       getQuestionTitle: getGrammarIndexLabel,
       openResult: async ({ lesson, question, word }) => {
@@ -1501,6 +1502,7 @@
       document.getElementById("wordExplosionTitle").textContent = lesson.title;
       document.getElementById("explosionIndexButton").classList.remove("hidden");
       closeWordExplosion = window.WordExplosionListeningGame.mount(elements.wordExplosionGame, {
+        setJapaneseText: setFuriganaAwareText,
         file: lesson.file,
         initialWord,
         createExampleSpeechButton,
@@ -1519,6 +1521,7 @@
       document.getElementById("wordExplosionTitle").textContent = lesson.title;
       document.getElementById("explosionIndexButton").classList.remove("hidden");
       closeWordExplosion = window.WordExplosionGame.mount(elements.wordExplosionGame, {
+        setJapaneseText: setFuriganaAwareText,
         file: lesson.file,
         initialWord,
         playSound,

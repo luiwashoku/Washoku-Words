@@ -23,6 +23,7 @@
     let canceled = 0;
     // Exercise the browser-voice fallback separately from recorded-audio tests.
     w.gameAudioFiles = {};
+    w.wordExplosionAudioFiles = {};
     class Utterance extends w.EventTarget { constructor(text) { super(); this.text = text; } }
     Object.defineProperty(w, "SpeechSynthesisUtterance", { configurable: true, value: Utterance });
     Object.defineProperty(w, "speechSynthesis", { configurable: true, value: {

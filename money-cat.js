@@ -348,6 +348,7 @@
     }
     function showReview() {
       phase = "review";
+      stopAllSpeech();
       cancelAnimationFrame(frame);
       frame = 0;
       arena.classList.add("hidden");
@@ -367,6 +368,28 @@
         if (word.kanji) { const reading = make("span", "", `（${word.japanese}）`); reading.lang = "ja"; item.append(reading); }
         if (!correct) item.append(make("p", "money-cat-review-chosen", `Your answer: ${selectedMeaning}`));
         item.append(make("p", "money-cat-review-correct", correct ? word.english : `Correct: ${word.english}`));
+        if (word.example) {
+          const sentenceRow = make("div", "money-cat-review-example");
+          const sentence = make("p", "money-cat-review-sentence", word.example.japanese.replace(/[（(][ぁ-ゖァ-ヺー・\s]+[）)]/g, ""));
+          sentence.lang = "ja";
+          const speaker = replay.cloneNode(true);
+          speaker.className = "icon-button money-cat-example-speaker";
+          speaker.disabled = !getRecordedJapaneseFile(word.example.japanese);
+          speaker.setAttribute("aria-label", `Play example sentence for ${word.kanji || word.japanese}`);
+          speaker.title = "例文を聞く";
+          speaker.addEventListener("click", () => {
+            stopAllSpeech();
+            const current = speechRevision;
+            vocabularyPlayer.play(word.example.japanese).catch(() => {
+              if (!alive || current !== speechRevision) return;
+              speaker.title = "Audio could not load. Tap to retry.";
+            });
+          }, { signal });
+          sentenceRow.append(sentence, speaker);
+          const translation = make("p", "money-cat-review-translation", word.example.english);
+          translation.lang = "en";
+          item.append(sentenceRow, translation);
+        }
         review.append(item);
       }
       session.state.sectionAnswers.filter(answer => !answer.correct).forEach(reviewWord);

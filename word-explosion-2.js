@@ -10,7 +10,7 @@
     return result;
   }
 
-  function mount(container, { file, initialWord, playSound, stopSpeech, speakerTemplate, createExampleSpeechButton, speakJapaneseText, getRecordedJapaneseFile }) {
+  function mount(container, { file, initialWord, playSound, stopSpeech, speakerTemplate, createExampleSpeechButton, speakJapaneseText, getRecordedJapaneseFile, setJapaneseText = (element, text) => { element.textContent = text; } }) {
     let alive = true;
     let solved = false;
     let revealTimer;
@@ -183,7 +183,7 @@
       card.className = "explosion-example";
       const japanese = document.createElement("p");
       japanese.lang = "ja";
-      japanese.textContent = word.example.japanese;
+      setJapaneseText(japanese, word.example.japanese);
       const english = document.createElement("p");
       english.lang = "en";
       english.textContent = word.example.english;

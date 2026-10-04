@@ -459,6 +459,12 @@ button:focus-visible {
   font-size: 18px;
 }
 
+.furiganaReading {
+  white-space: nowrap;
+  font-size: .75em;
+  font-weight: 500;
+}
+
 .furigana-hidden .furiganaReading {
   display: none;
 }
@@ -958,7 +964,7 @@ ruby {
 
 rt {
   font-size: 0.43em;
-  font-weight: 650;
+  font-weight: 500;
   letter-spacing: 0.02em;
 }
 
@@ -1779,7 +1785,6 @@ html.vocabulary-cards-open,
 .vocabulary-cards.furigana-hidden .vocabulary-card-reading { visibility: hidden; }
 .vocabulary-card-example { margin-top: 64px; }
 .vocabulary-card-sentence-row p { margin: 0; font-size: 20px; font-weight: 700; line-height: 1.8; }
-.vocabulary-study-card .furiganaReading { white-space: nowrap; font-size: .75em; font-weight: 500; }
 .vocabulary-card-translation { margin: 14px 0 0; font-size: 16px; line-height: 1.6; }
 
 .vocabulary-card-navigation {
@@ -1926,6 +1931,10 @@ html.vocabulary-cards-open,
 .money-cat-review h3 { margin: 0 0 18px; }
 .money-cat-review-word { padding: 10px 0; border-bottom: 1px solid var(--ink); }
 .money-cat-review-word p { margin: 6px 0; }
+.money-cat-review-example { display: flex; align-items: flex-start; gap: 12px; margin-top: 12px; }
+.money-cat-review-sentence { flex: 1; min-width: 0; font-size: 18px; font-weight: 700; line-height: 1.6; overflow-wrap: anywhere; }
+.money-cat-example-speaker { flex: 0 0 44px; width: 44px; height: 44px; background: var(--paper); }
+.money-cat-review-translation { font-size: 15px; line-height: 1.5; }
 .money-cat-next { width: 100%; margin-top: 20px; background: var(--bronze); }
 .money-cat-change { animation: money-cat-change 250ms ease-out; }
 @keyframes money-cat-change { 50% { transform: scale(1.07); } }
@@ -1934,8 +1943,8 @@ html.vocabulary-cards-open,
 .money-cat-header > * { min-width: 0; }
 
 .money-cat-arena { margin-top: 0; }
-.money-cat-replay svg { width: 28px; height: 28px; fill: currentColor; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
-.money-cat-replay .speakerIcon path:not(:first-child) { fill: none; }
+.money-cat-replay svg, .money-cat-example-speaker svg { width: 28px; height: 28px; fill: currentColor; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+.money-cat-replay .speakerIcon path:not(:first-child), .money-cat-example-speaker .speakerIcon path:not(:first-child) { fill: none; }
 .money-cat-answer::before { content: ""; position: absolute; inset: 4px; border: 3px solid var(--ink); border-radius: 50%; pointer-events: none; }
 .money-cat-coin-feedback { animation: money-cat-coin-flash 760ms steps(1, end); }
 @keyframes money-cat-coin-flash { 0%, 50% { fill: var(--money-cat-feedback); } 25%, 75%, 100% { fill: var(--money-cat-gold); } }

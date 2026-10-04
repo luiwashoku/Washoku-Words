@@ -27,6 +27,7 @@ document.getElementById('app').addEventListener('load', async () => {
   function step(count = 1) { for(let i=0;i<count;i++) { time+=50; const pending=[...frames.values()]; frames.clear(); pending.forEach(fn=>fn(time)); } }
   const text = await fetch('../word explosion.txt').then(r=>r.text());
   const words = w.WordExplosionGame.parseVocabulary(text);
+  const data = await w.WordExplosionGame.loadVocabulary("word explosion.txt");
   d.querySelector('.money-cat-card').click();
   await until(() => d.querySelectorAll('.money-cat-answer').length === 3);
   assert(d.querySelector('.money-cat-replay .speakerIcon') && !d.querySelector('.money-cat-replay .pauseIcon, .money-cat-replay .resumeIcon'), 'Replay shows one speaker icon');
@@ -53,7 +54,7 @@ document.getElementById('app').addEventListener('load', async () => {
   arena.dispatchEvent(new w.PointerEvent('pointerdown',{pointerId:7,pointerType:'touch',clientX:20,bubbles:true}));
   step(3);
   assert(Math.abs(before-d.querySelector('.money-cat-player').getBoundingClientRect().left)<1,'Touch down does not tap-to-move');
-  arena.dispatchEvent(new w.PointerEvent('pointermove',{pointerId:7,pointerType:'touch',clientX:20,bubbles:true}));
+  arena.dispatchEvent(new w.PointerEvent('pointermove',{pointerId:7,pointerType:'touch',clientX:-40,bubbles:true}));
   step(3);
   assert(d.querySelector('.money-cat-player').getBoundingClientRect().left<before-10,'Dragging anywhere moves the cat');
   d.querySelector('.money-cat-replay').click();
@@ -84,6 +85,25 @@ document.getElementById('app').addEventListener('load', async () => {
   assert(d.querySelector('.money-cat-total').textContent==='¥ 10','Ten correct catches produce ¥10');
   assert(d.querySelector('.money-cat-review h3').textContent==='10 / 10 ✓','Perfect section has simple review');
   assert(frames.size===0,'Falling stops at review');
+  function checkExamples() {
+    const items=[...d.querySelectorAll('.money-cat-review-word')];
+    assert(items.length===10,'Each round reviews ten words');
+    for(const item of items) {
+      const label=item.querySelector('strong').textContent;
+      const word=data.entries.find(word=>(word.kanji||word.japanese)===label);
+      assert(word,'Review word belongs to shared vocabulary');
+      const sentence=item.querySelector('.money-cat-review-sentence');
+      assert(sentence.textContent===word.example.japanese.replace(/[（(][ぁ-ゖァ-ヺー・\s]+[）)]/g,''),'Existing sentence displayed without furigana');
+      assert(item.querySelector('.money-cat-review-translation').textContent===word.example.english,'Existing translation displayed');
+      const speaker=item.querySelector('.money-cat-example-speaker');
+      assert(!speaker.disabled,'Existing sentence recording available');
+      speaker.click();
+      assert(clips.at(-1)===w.gameAudioFiles[w.getJapaneseSpeechText(word.example.japanese)],'Speaker plays the matching saved sentence');
+    }
+    assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Review fits phone width');
+  }
+  checkExamples();
+
   d.querySelector('.money-cat-next').click();
   assert(d.querySelector('.money-cat-total').textContent==='¥ 10' && d.querySelector('.money-cat-progress').textContent==='1 / 10','NEXT preserves money and resets progress');
   pick(false);
@@ -94,6 +114,7 @@ document.getElementById('app').addEventListener('load', async () => {
   assert(d.querySelectorAll('.money-cat-review-word').length===10,'Review includes correct words after mistakes');
   assert(d.querySelector('.money-cat-review-word .money-cat-review-chosen') && d.querySelector('.money-cat-correct-heading'), 'Wrong answer and correction precede correct-word section');
   assert(d.querySelector('.money-cat-review-word strong').textContent && d.querySelector('.money-cat-review-word p').textContent,'Review includes Japanese and English');
+  checkExamples();
   d.querySelector('.money-cat-next').click();
   d.querySelector('#backFromExplosion').click();
   assert(frames.size===0 && !d.querySelector('.money-cat-game'),'Leaving cancels animation and removes the game');
