@@ -1020,6 +1020,18 @@
     "questionCount": 189
   },
   {
+    "id": "grammar-cards",
+    "category": "conversation",
+    "page": "Grammar cards",
+    "sortOrder": 14.1,
+    "title": "文法カード",
+    "gameMode": "vocabulary-cards",
+    "grammarCards": true,
+    "file": "data/grammar-cards.json",
+    "questionCount": 189,
+    "homeOnly": true
+  },
+  {
     "id": "particle-drill",
     "category": "conversation",
     "page": "Particles",

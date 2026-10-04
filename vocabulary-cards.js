@@ -64,7 +64,7 @@
       }, { signal });
       toolbar.append(all, dialog);
     }
-    window.WashokuOffline?.addControls(toolbar, { ...lesson, title: lesson.gameMode === "vocabulary-cards" ? lesson.title : "カード" });
+    window.WashokuOffline?.addControls(toolbar, { ...lesson, title: lesson.gameMode === "vocabulary-cards" ? lesson.title : "単語カード" });
 
     const status = document.createElement("p");
     status.className = "vocabulary-cards-status";
@@ -77,6 +77,7 @@
     const card = document.createElement("article");
     card.className = "vocabulary-study-card hidden";
     if (lesson.compactCards) card.classList.add("vocabulary-study-card--compact");
+    if (lesson.grammarCards) card.classList.add("vocabulary-study-card--grammar");
     card.setAttribute("aria-labelledby", "studyCardWord");
     navigation.replaceChildren();
     const previous = document.createElement("button");
@@ -114,23 +115,24 @@
       const heading = document.createElement("h3");
       heading.id = "studyCardWord";
       heading.lang = "ja";
-      heading.textContent = `${word.step ? word.step + ". " : ""}${word.kanji || word.japanese}`;
+      setJapaneseText(heading, `${word.step ? word.step + ". " : ""}${word.kanji || word.japanese}`);
       wordText.appendChild(heading);
-      if (word.kanji) {
+      if (word.kanji && !lesson.grammarCards) {
         const reading = document.createElement("p");
         reading.className = "vocabulary-card-reading";
         reading.lang = "ja";
         reading.textContent = word.japanese;
         wordText.appendChild(reading);
       }
-      const wordSpeaker = createExampleSpeechButton(word.japanese, "Japanese word", playWord);
-      wordSpeaker.classList.add("vocabulary-card-word-speaker");
+      const wordSpeaker = createExampleSpeechButton(word.japanese, lesson.grammarCards ? "Grammar point" : "Japanese word", playWord);
+      wordSpeaker?.classList.add("vocabulary-card-word-speaker");
       const meaning = document.createElement("p");
       meaning.className = "vocabulary-card-meaning";
       meaning.lang = "en";
       meaning.textContent = word.english;
       wordText.appendChild(meaning);
-      wordRow.append(wordText, wordSpeaker);
+      wordRow.append(wordText);
+      if (wordSpeaker) wordRow.append(wordSpeaker);
 
       const example = document.createElement("section");
       example.className = "vocabulary-card-example";
@@ -161,6 +163,44 @@
       }
       content.push(wordRow);
       if (word.example) content.push(example);
+      (word.examples || []).forEach(sample => {
+        const section = document.createElement("section");
+        section.className = "vocabulary-card-example grammar-card-example";
+        const label = document.createElement("h4");
+        label.textContent = sample.label;
+        const row = document.createElement("div");
+        row.className = "vocabulary-card-sentence-row";
+        const sentence = document.createElement("p");
+        sentence.lang = "ja";
+        setJapaneseText(sentence, sample.japanese);
+        const speaker = createExampleSpeechButton(sample.japanese);
+        speaker.addEventListener("click", () => wordPlayer.stop(), { capture: true, signal });
+        row.append(sentence, speaker);
+        section.append(label, row);
+        if (sample.english) {
+          const translation = document.createElement("p");
+          translation.className = "vocabulary-card-translation";
+          translation.textContent = sample.english;
+          section.append(translation);
+        }
+        content.push(section);
+      });
+      if (word.formation) {
+        const section = document.createElement("section");
+        section.className = "grammar-card-formation";
+        const label = document.createElement("h4");
+        label.textContent = "Formation";
+        const formation = document.createElement("p");
+        setJapaneseText(formation, word.formation);
+        section.append(label, formation);
+        if (word.registerNote) {
+          const note = document.createElement("p");
+          note.className = "vocabulary-card-translation";
+          note.textContent = word.registerNote;
+          section.append(note);
+        }
+        content.push(section);
+      }
       card.replaceChildren(...content);
       counter.textContent = `${index + 1} / ${entries.length}`;
       previous.disabled = index === 0;

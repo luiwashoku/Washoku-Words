@@ -136,6 +136,7 @@
 
     state.catalog = await loadCatalog();
     document.getElementById("openVocabularyCards").disabled = !state.catalog.some(lesson => lesson.id === "word-explosion-2");
+    document.getElementById("openGrammarCards").disabled = !state.catalog.some(lesson => lesson.id === "grammar-cards");
     renderCategories();
     window.WashokuSearch.init({
       catalog: state.catalog,
@@ -322,6 +323,10 @@
   function bindEvents() {
     document.getElementById("backFromExplosion").addEventListener("click", returnToLessonList);
     document.getElementById("openVocabularyCards").addEventListener("click", openVocabularyCards);
+    document.getElementById("openGrammarCards").addEventListener("click", () => {
+      state.selectedCategory = null;
+      openVocabularyCards(state.catalog.find(lesson => lesson.id === "grammar-cards"));
+    });
     elements.backHome.addEventListener(
       "click",
       returnHome
@@ -1253,7 +1258,7 @@
     return state.catalog
       .filter(
         (lesson) =>
-          lesson.category === categoryId
+          lesson.category === categoryId && !lesson.homeOnly
       )
       .sort((a, b) => {
         const pageA =
@@ -1470,7 +1475,7 @@
     if (lesson.gameMode !== "vocabulary-cards") state.selectedCategory = null;
     state.selectedLesson = { ...lesson, isStudyCards: true };
     showScreen("word-explosion");
-    document.getElementById("wordExplosionTitle").textContent = lesson.gameMode === "vocabulary-cards" ? lesson.title : "カード";
+    document.getElementById("wordExplosionTitle").textContent = lesson.gameMode === "vocabulary-cards" ? lesson.title : "単語カード";
     document.getElementById("explosionIndexButton").classList.add("hidden");
     closeWordExplosion = window.VocabularyCards.mount(elements.wordExplosionGame, {
       file: lesson.file,
@@ -2955,7 +2960,7 @@
 
   function returnToLessonList() {
     cancelJapaneseSpeech();
-    if (state.selectedLesson?.isMoneyCat || (state.selectedLesson?.isStudyCards && state.selectedLesson?.gameMode !== "vocabulary-cards")) {
+    if (state.selectedLesson?.isMoneyCat || (state.selectedLesson?.isStudyCards && (state.selectedLesson?.gameMode !== "vocabulary-cards" || state.selectedLesson?.homeOnly))) {
       returnHome();
       return;
     }

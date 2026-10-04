@@ -59,6 +59,8 @@ def generate(text, speed):
     if voice == 'marin':
         entry = next(item for item in review['entries'] if item['input'] == text)
         guidance = 'Speak standard Tokyo Japanese. Read only the supplied hiragana once, clearly and naturally. Preserve vowel length and doubled consonants. Do not add an introduction, translation, explanation, or other words.'
+        if entry.get('pronunciation_guidance'):
+            guidance += ' ' + entry['pronunciation_guidance']
         if entry.get('accent') == 0:
             guidance += ' Use heiban pitch accent: begin low, rise on the second mora and keep high, without a lexical pitch drop.'
         elif isinstance(entry.get('accent'), int) and entry['accent'] > 0:

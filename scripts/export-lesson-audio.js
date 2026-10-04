@@ -14,6 +14,9 @@ function run(args) {
       data.entries.forEach(function(entry) {
         rows.push({lesson: lessonId, card: entry.id, field: 'vocabulary', key: window.getJapaneseSpeechText(entry.japanese)});
         if (entry.example) rows.push({lesson: lessonId, card: entry.id, field: 'example', key: window.getJapaneseSpeechText(entry.example.japanese)});
+        (entry.examples || []).forEach(function(example) {
+          rows.push({lesson: lessonId, card: entry.id, field: example.label, key: window.getJapaneseSpeechText(example.japanese)});
+        });
       });
       return;
     }

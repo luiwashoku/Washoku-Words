@@ -32,6 +32,7 @@ const lesson=catalog.find(item=>item.id===lessonId);
   if (lessonId === 'knife-making-steps') assert(data.entries.every((entry, index) => index === 12 ? entry.step === null : entry.step === index + 1), 'Knife steps stay numbered in source order');
   data.entries.forEach(entry => {
    assert(lookup(entry.japanese), 'Vocabulary autoplay has recorded audio');
+   (entry.examples || []).forEach(example => assert(lookup(example.japanese), 'Grammar sample has recorded audio'));
    if (entry.example) assert(lookup(entry.example.japanese), 'Example speaker has recorded audio');
   });
   if (lessonId === 'knife-making-steps') assert(catalog[catalog.indexOf(lesson) - 1].id === 'knife-forms-cards', 'Knife steps appear after the knife flashcards');

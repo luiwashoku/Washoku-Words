@@ -1697,7 +1697,7 @@ body.no-furigana rt {
   background: var(--bronze);
 }
 
-#openVocabularyCards {
+#openVocabularyCards, #openGrammarCards {
   width: auto;
   height: 64px;
   flex: 0 0 auto;
@@ -1705,6 +1705,12 @@ body.no-furigana rt {
   border-radius: 20px;
   background: var(--horizon);
   font-size: 20px;
+  font-weight: 600;
+}
+
+@media (max-width: 400px) {
+  .home-search { gap: 8px; padding-left: 8px; padding-right: 8px; }
+  #openVocabularyCards, #openGrammarCards { padding: 0 10px; font-size: 16px; }
 }
 
 #wordExplosionGame.vocabulary-cards {
@@ -1988,3 +1994,12 @@ html.vocabulary-cards-open,
 .vocabulary-study-card--compact .vocabulary-card-sentence-row { gap: 8px; }
 .vocabulary-study-card--compact .vocabulary-card-sentence-row p { font-size: 17px; line-height: 1.6; }
 .vocabulary-study-card--compact .vocabulary-card-translation { font-size: 14px; line-height: 1.5; margin-top: 8px; }
+
+.vocabulary-study-card--grammar { padding-top: 16px; padding-bottom: 16px; }
+.vocabulary-study-card--grammar .vocabulary-card-word-area { min-height: 0; aspect-ratio: auto; width: 100%; padding: 12px 0; }
+.vocabulary-study-card--grammar .vocabulary-card-meaning { margin-top: 12px; }
+.vocabulary-study-card--grammar .vocabulary-card-word-speaker { margin-top: 12px !important; }
+.grammar-card-example { margin-top: 24px; }
+.grammar-card-example h4, .grammar-card-formation h4 { margin: 0 0 8px; color: var(--ink); font-size: 14px; }
+.grammar-card-formation { margin-top: 20px; }
+.grammar-card-formation p { white-space: pre-line; line-height: 1.7; }

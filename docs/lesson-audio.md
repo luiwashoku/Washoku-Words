@@ -306,3 +306,19 @@ vocabulary pitch targets match dictionary readings, with variants recorded;
 eight specialty fish terms have no reliable exact pitch entry and are not
 forced. Non-fish homonyms are excluded. No audible listening/pitch verification
 is claimed. The compact layout and 240px illustration setting match 鶏カード.
+
+Batch 90: `grammar-cards`, 文法カード, adds 189 flashcards beside Grammar
+Drill in 日本語で話す. Each preserves its source question ID, grammar meaning
+and formation, with a completed formal/polite example and a casual example.
+Polite counterparts are supplied for casual source sentences; the blunt な
+command is quoted inside a polite sentence and explained on the card.
+Grammar headings autoplay once; both sentences have replay controls, and
+formation is silent. All 557 unique speech keys use Marin at generation
+speed 1.0, explicitly requested for grammar headings as well as sentences.
+Reviewed inputs are in `scripts/lesson-audio-reviews/grammar-cards.json`.
+Annotations correct 日本人 to にほんじん, 今日中 to きょうじゅう,
+話そう to はなそう, and 間に to あいだに. Contextual particles are
+reviewed separately from display labels and audio lookup keys. Audio generation
+and complete file coverage are verified; no audible pitch/listening verification
+is claimed. `tests/grammar-cards-browser.html` checks all 189 cards, autoplay,
+378 sentence controls, silent formation, phone layout and playback cleanup.

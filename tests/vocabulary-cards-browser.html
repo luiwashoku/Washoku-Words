@@ -43,7 +43,7 @@
     q('#openVocabularyCards').click();
     await until(() => q('.vocabulary-study-card:not(.hidden)'));
     w.Math.random = originalRandom;
-    assert(q('#wordExplosionTitle').textContent === 'カード', 'Study deck title');
+    assert(q('#wordExplosionTitle').textContent === '単語カード', 'Study deck title');
     assert(q('#explosionIndexButton').classList.contains('hidden'), 'Game index hidden in study deck');
     assert(w.getComputedStyle(d.body).backgroundColor === 'rgb(0, 204, 146)', 'Green page background');
     assert(w.getComputedStyle(q('.vocabulary-study-card')).borderTopWidth === '0px' && w.getComputedStyle(q('.vocabulary-study-card')).backgroundColor === 'rgba(0, 0, 0, 0)', 'No inner card box');
