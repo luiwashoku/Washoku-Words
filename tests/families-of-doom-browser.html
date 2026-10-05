@@ -13,7 +13,7 @@
   w.Audio=Audio;
   const data=await fetch('../data/families-of-doom.json').then(r=>r.json());
   const families=[...new Set(data.questions.map(card=>card.familyId))];
-  assert(families.length===42&&data.questions.length===498,'Full user-supplied family set');
+  assert(families.length===70&&data.questions.length===828,'Full user-supplied family set');
   [...d.querySelectorAll('.category-card')].find(b=>b.textContent.includes('日本語で話す')).click();
   const lesson=()=>[...d.querySelectorAll('.lesson-card')].find(b=>b.querySelector('strong').textContent.trim()==='Families of Doom');
   await until(lesson);lesson().querySelector('.lesson-open').click();await until(()=>q('.doom-choice'));
@@ -39,7 +39,7 @@
    q('.doom-meanings-dialog > button').click();
    const seen=new Set(),counts=cards[0].answers.map(()=>0);
    for(let i=0;i<cards.length;i++){
-    const question=cards.find(card=>card.question===q('.doom-sentence').textContent);
+    const question=cards.find(card=>card.question===q('.doom-sentence').textContent&&card.english===q('.doom-translation').textContent);
     assert(question&&!seen.has(question.id),'Shuffled prompts do not repeat: '+families[f]);seen.add(question.id);counts[question.correct]++;
     const choices=()=>[...d.querySelectorAll('.doom-choice')];
     assert(q('.doom-choices').nextElementSibling.classList.contains('doom-question-progress'),'Question count under answers');

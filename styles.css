@@ -2069,4 +2069,5 @@ html.vocabulary-cards-open,
 .doom-card--dense .doom-proceed { min-height: 54px; font-size: 16px; padding: 10px 12px; }
 @media (max-width: 360px) {
   .doom-card--dense { gap: 8px; }
+  .doom-card--dense.doom-card--tight { gap: 6px; }
 }

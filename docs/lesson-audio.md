@@ -323,16 +323,16 @@ and complete file coverage are verified; no audible pitch/listening verification
 is claimed. `tests/grammar-cards-browser.html` checks all 189 cards, autoplay,
 378 sentence controls, silent formation, phone layout and playback cleanup.
 
-Batch 91: `families-of-doom` adds 42 word families and 498 questions to
+Batch 91: `families-of-doom` adds 70 word families and 828 questions to
 日本語で話す, with three questions per word. The approved 戻る / 戻す /
 帰る / 返す family remains first. Each family shuffles its questions and advances
-only when the next-question button is pressed. Seventy-one questions accept an
+only when the next-question button is pressed. One hundred eighty-seven questions accept an
 additional natural answer and reveal the matching conjugated sentence.
 The meaning popup explains overlapping usage; register cues distinguish formal
 and casual choices where appropriate. The clothing example uses 替える rather
 than 着替える so the conjugated answer matches its button.
 
-All 568 distinct completed-sentence keys have Marin recordings at generation
+All 1,022 distinct completed-sentence keys have Marin recordings at generation
 speed 1.0, including accepted-answer variants. Exact hiragana and contextual
 particle readings are recorded in
 `scripts/lesson-audio-reviews/families-of-doom.json`; display text stays separate.
@@ -352,3 +352,27 @@ include 来ない／来なく (こ), 着いた (つ), 着てる (き), 入れて
 遅く (おそ), 急に (きゅう), and 話す／話せる (はな).
 The recency distinction was checked against the Japan Foundation's
 [ところ teaching notes](https://www.kyozai.jpf.go.jp/kyozai/material/BMA00036/ja/render.do).
+
+
+The third supplied set adds 28 families and 330 questions, including five
+families for giving, receiving, desired favors, respectful/humble forms, and
+requests. Two families have three words and nine questions; the other 26 have
+four words and twelve questions. English cues preserve the intended meaning or
+register; natural overlapping answers have conjugated sentence variants.
+The 頼む example uses 頼んで instead of お願いして to match its answer button.
+Existing questions and reviewed speech inputs are preserved. Repeated sentence
+keys reuse their existing recordings.
+
+Additional reading checks include 出汁 (だし), 鰹節 (かつおぶし), 生姜
+(しょうが), 柚子 (ゆず), 揉む (もむ), 十分 as a duration (じゅっぷん),
+百七十度 (ひゃくななじゅうど), 思い出せない (おもいだせない),
+verb-方 (かた), 上から (うえから), 混む (こむ), 間に合う (まにあう),
+and 笑った (わらった). Particle は is reviewed separately from lexical kana.
+Giving/receiving usage was checked against the Japan Foundation's
+[giving and receiving notes](https://www.jpf.go.jp/j/project/japanese/teach/tsushin/grammar/201409.html)
+and [respectful and humble forms](https://www.kyozai.jpf.go.jp/kyozai/material/BMA00094/ja/render.do).
+No audible listening or pitch-accent verification is claimed.
+
+The new learning family uses a 2px smaller gap at widths up to 360px so its
+longest example fits the 540px card with furigana shown. Font sizes match all
+other families; canonical and accepted-answer sentences are checked separately.

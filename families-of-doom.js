@@ -69,6 +69,7 @@
     function render() {
       const family = families[index], session = sessionFor(family), question = session.questions[session.position];
       card.classList.add("doom-card--dense");
+      card.classList.toggle("doom-card--tight", family.id === "doom-extra-learning-family");
       const completedQuestion = { ...question, sentence: question.variants?.[String(session.selected)] || question.sentence };
       const helpRow = make("div", "doom-card-tools");
       const help = make("button", "icon-button doom-help", "?");
