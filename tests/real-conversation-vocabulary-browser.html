@@ -1,0 +1,46 @@
+<!doctype html><meta charset="utf-8"><title>Vocabulary-only conversation decks</title>
+<pre id="result">RUNNING</pre><iframe src="../index.html" style="width:320px;height:850px" title="App"></iframe>
+<script>
+(async()=>{
+ const frame=document.querySelector('iframe'),result=document.querySelector('#result');
+ const assert=(v,m)=>{if(!v)throw Error(m)};
+ const until=async fn=>{for(let i=0;i<300;i++){if(fn())return;await new Promise(r=>setTimeout(r,20))}throw Error('Timed out')};
+ try{
+  await until(()=>frame.contentDocument.querySelector('#openVocabularyCards:not(:disabled)'));
+  const w=frame.contentWindow,d=frame.contentDocument,q=s=>d.querySelector(s),plays=[];
+  class Audio extends w.EventTarget{constructor(src){super();this.src=src;this.paused=true;this.currentTime=0}play(){this.paused=false;plays.push(this);return Promise.resolve()}pause(){this.paused=true}}
+  w.Audio=Audio;
+  [...d.querySelectorAll('.category-card')].find(b=>b.textContent.includes('日本語で話す')).click();
+  for(let deck=1;deck<=4;deck++){
+   const id=`real-conversation-400-${deck}`,title=`会話でよく使う言葉 ${['①','②','③','④'][deck-1]}`;
+   const cards=await fetch(`../data/${id}.json`).then(r=>r.json());assert(cards.length===100,'100 cards '+id);
+   const lesson=()=>[...d.querySelectorAll('.lesson-card')].find(b=>b.querySelector('strong').textContent.trim()===title);
+   await until(lesson);const random=w.Math.random;w.Math.random=()=>0.999999;lesson().querySelector('.lesson-open').click();
+   await until(()=>q('#questionText').textContent===cards[0].question);w.Math.random=random;
+   const lookup=text=>w.lessonAudioFiles[id][w.getJapaneseSpeechText(text)];
+   for(let i=0;i<cards.length;i++){
+    const card=cards[i];assert(!('jpExplanation' in card)&&!('enExplanation' in card),'No explanation data '+card.id);
+    assert(q('#questionText').textContent===card.question,'Question '+card.id);
+    const answers=[...d.querySelectorAll('#answerContainer .answer-button')];assert(answers.length===4,'Four choices '+card.id);
+    q('#speakQuestion').click();assert(plays.at(-1).src===lookup(card.question),'Prompt audio '+card.id);
+    if(i===0){
+     q('#speakAnswers').click();
+     for(let j=0;j<card.answers.length;j++){
+      const expected=lookup(card.answers[j]+(j<card.answers.length-1?'。':''))||lookup(card.answers[j]);
+      assert(plays.at(-1).src===expected,'Vocabulary audio '+card.id+'/'+j);plays.at(-1).dispatchEvent(new w.Event('ended'));
+     }
+    }
+    answers[i===0?(card.correct+1)%4:card.correct].click();
+    assert(q('#resultCard').classList.contains('correct-result')===(i!==0),'Answer feedback '+card.id);
+    assert([...d.querySelectorAll('#resultCard .explanation')].every(e=>e.classList.contains('hidden')),'Explanation sections hidden '+card.id);
+    assert(q('#speakExplanation').classList.contains('hidden'),'Explanation speaker hidden '+card.id);
+    assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Phone width '+card.id);
+    if(i<cards.length-1)q('#nextQuestion').click();
+   }
+   q('#speakQuestion').click();const activePrompt=plays.at(-1);
+   q('#backToPages').click();assert(activePrompt.paused,'Exit stops Japanese playback');
+  }
+  result.textContent='PASS: all four vocabulary-only decks, 400 questions, correct/wrong feedback, no explanations or explanation speakers, retained prompt/word playback and phone layout.';
+ }catch(e){result.textContent='FAIL: '+e.stack}
+})();
+</script>

@@ -2819,6 +2819,7 @@
     );
 
     const canSpeakExplanation =
+      Boolean(question.jpExplanation) &&
       (getRecordedJapaneseFile(question.jpExplanation) ||
         ("speechSynthesis" in window && "SpeechSynthesisUtterance" in window)) &&
       Boolean(
