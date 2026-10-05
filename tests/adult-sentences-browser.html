@@ -1,0 +1,61 @@
+<!doctype html><meta charset="utf-8"><title>Adult sentence cards checks</title>
+<pre id="result">RUNNING</pre><iframe src="../index.html" style="width:320px;height:740px" title="App"></iframe>
+<script>
+(async()=>{
+ const frame=document.querySelector('iframe'),result=document.querySelector('#result');
+ const assert=(v,m)=>{if(!v)throw Error(m)};
+ const until=async fn=>{for(let i=0;i<300;i++){if(fn())return;await new Promise(r=>setTimeout(r,20))}throw Error('Timed out')};
+ try{
+  await until(()=>frame.contentDocument.querySelector('#openVocabularyCards:not(:disabled)'));
+  const w=frame.contentWindow,d=frame.contentDocument,q=s=>d.querySelector(s),plays=[];
+  class Audio extends w.EventTarget{
+   constructor(src){super();this.src=src;this.paused=true;this.currentTime=0;this.playbackRate=1}
+   getAttribute(name){return name==='src'?this.src:null}
+   play(){this.paused=false;plays.push(this);return Promise.resolve()}
+   pause(){this.paused=true}
+  }
+  w.Audio=Audio;
+  const entries=await fetch('../data/adult-sentences.json').then(r=>r.json()).then(data=>data.entries);
+  [...d.querySelectorAll('.category-card')].find(b=>b.textContent.includes('日本語で話す')).click();
+  const lesson=()=>[...d.querySelectorAll('.lesson-card')].find(b=>b.querySelector('strong').textContent.trim()==='大人の例文');
+  await until(lesson);
+  const originalRandom=w.Math.random;w.Math.random=()=>0;
+  const ordered=[...entries.slice(1),entries[0]];
+  lesson().querySelector('.lesson-open').click();
+  await until(()=>q('.vocabulary-study-card--sentence:not(.hidden)'));
+  w.Math.random=originalRandom;
+  const lookup=e=>w.lessonAudioFiles['adult-sentences'][w.getJapaneseSpeechText(e.japanese)];
+  for(let i=0;i<ordered.length;i++){
+   assert(q('.vocabulary-card-counter').textContent===`${i+1} / ${ordered.length}`,'Shuffled counter '+i);
+   assert(q('#studyCardWord').textContent===ordered[i].kanji,'Exact sentence '+i);
+   assert(plays.at(-1).src===lookup(ordered[i]),'Autoplay '+i);
+   assert(plays.at(-1).playbackRate===1,'Playback speed');
+   assert(d.querySelectorAll('.vocabulary-study-card button').length===1,'One speaker');
+   assert(!q('.vocabulary-card-reading')&&!q('.vocabulary-card-example'),'Single sentence layout');
+   assert(q('.vocabulary-card-meaning').textContent===ordered[i].english,'English translation '+i);
+   const n=plays.length;q('.vocabulary-card-word-speaker').click();assert(plays.length===n+1&&plays.at(-1).src===lookup(ordered[i]),'Replay');
+   assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Phone horizontal fit');
+   assert(q('#vocabularyCardNavigation').getBoundingClientRect().bottom<=w.innerHeight,'Arrows visible');
+   if(i<ordered.length-1)q('#vocabularyCardNavigation button:last-child').click();
+  }
+  assert(q('#vocabularyCardNavigation button:last-child').disabled,'End boundary');
+  q('#vocabularyCardFurigana').click();assert(w.getComputedStyle(q('.furiganaReading')).display!=='none','Show furigana');
+  q('#vocabularyCardTools button[aria-label="Show all cards"]').click();
+  const dialog=q('dialog.knife-steps-list');assert(dialog.open,'All dialog');
+  const buttons=[...dialog.querySelectorAll('div > button')];assert(buttons.length===ordered.length,'All forty sentences');
+  assert(buttons[0].textContent===ordered[0].kanji,'All renders annotated sentence');
+  buttons[3].click();assert(!dialog.open&&q('.vocabulary-card-counter').textContent===`4 / ${ordered.length}`,'All jumps to selected sentence');
+  assert(plays.at(-1).src===lookup(ordered[3]),'Selected sentence autoplays');
+  q('#vocabularyCardFurigana').click();q('#vocabularyCardTools button[aria-label="Show all cards"]').click();
+  assert(w.getComputedStyle(dialog.querySelector('.furiganaReading')).display==='none','All respects furigana off');
+  dialog.querySelector('button').click();
+  q('#vocabularyCardNavigation button:first-child').click();assert(q('.vocabulary-card-counter').textContent===`3 / ${ordered.length}`,'Previous sentence');
+  const last=plays.at(-1);q('#backFromExplosion').click();assert(last.paused,'Exit stops audio');
+  w.Math.random=()=>0.999999;lesson().querySelector('.lesson-open').click();
+  await until(()=>q('.vocabulary-study-card--sentence:not(.hidden)'));w.Math.random=originalRandom;
+  assert(q('#studyCardWord').textContent===entries[0].kanji,'New opening reshuffles independently');
+  q('#backFromExplosion').click();
+  result.textContent='PASS: 40 shuffled sentences and reshuffle on reopen, autoplay at 1×, replay, furigana, all-card selection, navigation, 320×740 layout and audio cleanup.';
+ }catch(e){result.textContent='FAIL: '+e.stack}
+})();
+</script>

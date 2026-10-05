@@ -1,0 +1,243 @@
+{
+  "lesson": "adult-sentences",
+  "reviewed": true,
+  "voice": "marin",
+  "model": "gpt-4o-mini-tts",
+  "speed": 1.0,
+  "reading_source": "Manually reviewed each supplied sentence: kanji readings and contextual topic は → わ and object を → お. Lexical は preserved; 予定通り → よていどおり, 悪気 → わるぎ, 一回 → いっかい. Added 30 unique sentences with manually checked readings: 一人ひとり, 寂しいさびしい, 気を遣うきおつかう, 失ううしなう, 選択肢せんたくし, 結局けっきょく, 思った通りおもったとおり, 判断はんだん. Contextual particles checked individually; lexical 話はな and 判断はん preserved.",
+  "notes": "Sentence recordings at 1×. No audible listening or pitch-accent verification claimed. Reviewed all 40 sentences for prosodic grouping after user reported a pause before the topic particle in 自分では. Added speech-only commas at complete phrase or clause boundaries to 13 recordings and explicit guidance keeping particles with preceding phrases. Display text and lookup keys retained. Existing recordings not auditioned; audible pause timing is not verified.",
+  "entries": [
+    {
+      "key": "じぶんではきにしてないつもりでも、ひとにいわれるときゅうにきになってくることがある。",
+      "input": "じぶんでわ、きにしてないつもりでも、ひとにいわれると、きゅうにきになってくることがある。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas, without stopping between a phrase and its following grammatical particle. Keep topic わ attached to the preceding phrase; never pause immediately before it. Keep object お attached to its preceding noun. Do not split words or verb endings. Keep the rest flowing naturally rather than inserting extra pauses between words. In the opening じぶんでわ, say all five morae continuously as one phrase, then pause briefly after わ before きにしてないつもりでも. Never pause after じぶんで."
+    },
+    {
+      "key": "いやだからやらないのと、めんどうだからやらないのは、にてるようでぜんぜんちがうとおもう。",
+      "input": "いやだからやらないのと、めんどうだからやらないのわ、にてるようでぜんぜんちがうとおもう。",
+      "speed": 1.0
+    },
+    {
+      "key": "かうかどうかまよってるじてんで、ほんとうはそこまでほしくないのかもしれない。",
+      "input": "かうかどうかまよってるじてんで、ほんとうわ、そこまでほしくないのかもしれない。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas, without stopping between a phrase and its following grammatical particle. Keep topic わ attached to the preceding phrase; never pause immediately before it. Keep object お attached to its preceding noun. Do not split words or verb endings. Keep the rest flowing naturally rather than inserting extra pauses between words."
+    },
+    {
+      "key": "よていをたてるのはすきだけど、よていどおりにうごかなきゃいけないかんじになるときゅうにつかれる。",
+      "input": "よていおたてるのわすきだけど、よていどおりにうごかなきゃいけないかんじになると、きゅうにつかれる。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas, without stopping between a phrase and its following grammatical particle. Keep topic わ attached to the preceding phrase; never pause immediately before it. Keep object お attached to its preceding noun. Do not split words or verb endings. Keep the rest flowing naturally rather than inserting extra pauses between words."
+    },
+    {
+      "key": "むかしはしっぱいするとずっときにしてたけど、さいきんは「まあ、しょうがないか」とおもえるようになってきた。",
+      "input": "むかしわ、しっぱいするとずっときにしてたけど、さいきんわ、「まあ、しょうがないか」とおもえるようになってきた。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas, without stopping between a phrase and its following grammatical particle. Keep topic わ attached to the preceding phrase; never pause immediately before it. Keep object お attached to its preceding noun. Do not split words or verb endings. Keep the rest flowing naturally rather than inserting extra pauses between words."
+    },
+    {
+      "key": "あいてにわるぎがないのはわかってても、いわれたことがずっとひっかかるときってあるよね。",
+      "input": "あいてにわるぎがないのわ、わかってても、いわれたことがずっとひっかかるときってあるよね。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas, without stopping between a phrase and its following grammatical particle. Keep topic わ attached to the preceding phrase; never pause immediately before it. Keep object お attached to its preceding noun. Do not split words or verb endings. Keep the rest flowing naturally rather than inserting extra pauses between words."
+    },
+    {
+      "key": "むりしてつきあいつづけるくらいなら、すこしきょりをおいたほうがおたがいにらくだとおもう。",
+      "input": "むりしてつきあいつづけるくらいなら、すこしきょりおおいたほうがおたがいにらくだとおもう。",
+      "speed": 1.0
+    },
+    {
+      "key": "いまのせいかつにとくにふまんはないけど、このままでいいのかなっておもうことはたまにある。",
+      "input": "いまのせいかつにとくにふまんわないけど、このままでいいのかなっておもうことわ、たまにある。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas, without stopping between a phrase and its following grammatical particle. Keep topic わ attached to the preceding phrase; never pause immediately before it. Keep object お attached to its preceding noun. Do not split words or verb endings. Keep the rest flowing naturally rather than inserting extra pauses between words."
+    },
+    {
+      "key": "いっかいことわったからって、あとできがかわったときまでことわりつづけるひつようはないとおもう。",
+      "input": "いっかいことわったからって、あとできがかわったときまでことわりつづけるひつようわないとおもう。",
+      "speed": 1.0
+    },
+    {
+      "key": "なにもしなかったことをこうかいするくらいなら、うまくいかなくてもいっかいやってみたほうがいい。",
+      "input": "なにもしなかったことおこうかいするくらいなら、うまくいかなくても、いっかいやってみたほうがいい。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas, without stopping between a phrase and its following grammatical particle. Keep topic わ attached to the preceding phrase; never pause immediately before it. Keep object お attached to its preceding noun. Do not split words or verb endings. Keep the rest flowing naturally rather than inserting extra pauses between words."
+    },
+    {
+      "key": "なれたからって、すきになったわけじゃない。",
+      "input": "なれたからって、すきになったわけじゃない。",
+      "speed": 1.0
+    },
+    {
+      "key": "ただしいことが、いつもいちばんいいとはかぎらない。",
+      "input": "ただしいことが、いつもいちばんいいとわかぎらない。",
+      "speed": 1.0
+    },
+    {
+      "key": "できることと、やりたいことはべつだとおもう。",
+      "input": "できることと、やりたいことわべつだとおもう。",
+      "speed": 1.0
+    },
+    {
+      "key": "しらないほうがしあわせなこともある。",
+      "input": "しらないほうがしあわせなこともある。",
+      "speed": 1.0
+    },
+    {
+      "key": "よゆうがないと、ちいさいことまできになってしまう。",
+      "input": "よゆうがないと、ちいさいことまできになってしまう。",
+      "speed": 1.0
+    },
+    {
+      "key": "あきらめるのと、うけいれるのはちがう。",
+      "input": "あきらめるのと、うけいれるのわちがう。",
+      "speed": 1.0
+    },
+    {
+      "key": "むりしてまでつづけるいみはないとおもう。",
+      "input": "むりしてまでつづけるいみわないとおもう。",
+      "speed": 1.0
+    },
+    {
+      "key": "ひとりになりたいときと、さびしいときはべつ。",
+      "input": "ひとりになりたいときと、さびしいときわべつ。",
+      "speed": 1.0
+    },
+    {
+      "key": "えらばなかったほうがよくみえることってあるよね。",
+      "input": "えらばなかったほうがよくみえることってあるよね。",
+      "speed": 1.0
+    },
+    {
+      "key": "かわらないことが、あんしんとはかぎらない。",
+      "input": "かわらないことが、あんしんとわかぎらない。",
+      "speed": 1.0
+    },
+    {
+      "key": "わかってもらうより、ごかいされないほうがむずかしい。",
+      "input": "わかってもらうより、ごかいされないほうがむずかしい。",
+      "speed": 1.0
+    },
+    {
+      "key": "きたいしすぎると、たのしめるものもたのしめなくなる。",
+      "input": "きたいしすぎると、たのしめるものもたのしめなくなる。",
+      "speed": 1.0
+    },
+    {
+      "key": "あわないだけで、どっちがわるいわけでもない。",
+      "input": "あわないだけで、どっちがわるいわけでもない。",
+      "speed": 1.0
+    },
+    {
+      "key": "よゆうがあるときほど、じかんをむだにしやすい。",
+      "input": "よゆうがあるときほど、じかんおむだにしやすい。",
+      "speed": 1.0
+    },
+    {
+      "key": "ほしいものと、ひつようなものはいがいとちがう。",
+      "input": "ほしいものと、ひつようなものわいがいとちがう。",
+      "speed": 1.0
+    },
+    {
+      "key": "やめるりゆうがないだけで、つづけたいわけじゃない。",
+      "input": "やめるりゆうがないだけで、つづけたいわけじゃない。",
+      "speed": 1.0
+    },
+    {
+      "key": "きをつかいすぎると、かえってあいてもつかれる。",
+      "input": "きおつかいすぎると、かえってあいてもつかれる。",
+      "speed": 1.0
+    },
+    {
+      "key": "いわなくてもわかることほど、いったほうがいいときもある。",
+      "input": "いわなくてもわかることほど、いったほうがいいときもある。",
+      "speed": 1.0
+    },
+    {
+      "key": "うしなってからだいじだったときづくこともある。",
+      "input": "うしなってから、だいじだったときづくこともある。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas, without stopping between a phrase and its following grammatical particle. Keep topic わ attached to the preceding phrase; never pause immediately before it. Keep object お attached to its preceding noun. Do not split words or verb endings. Keep the rest flowing naturally rather than inserting extra pauses between words."
+    },
+    {
+      "key": "せんたくしがおおいほど、きめるのがむずかしくなる。",
+      "input": "せんたくしがおおいほど、きめるのがむずかしくなる。",
+      "speed": 1.0
+    },
+    {
+      "key": "けっきょく、じぶんがしあわせならそれでいいとおもう。",
+      "input": "けっきょく、じぶんがしあわせなら、それでいいとおもう。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas, without stopping between a phrase and its following grammatical particle. Keep topic わ attached to the preceding phrase; never pause immediately before it. Keep object お attached to its preceding noun. Do not split words or verb endings. Keep the rest flowing naturally rather than inserting extra pauses between words."
+    },
+    {
+      "key": "わかいときは、もっといろんなことをきにしてたきがする。",
+      "input": "わかいときわ、もっといろんなことおきにしてたきがする。",
+      "speed": 1.0
+    },
+    {
+      "key": "じんせいって、おもったとおりにはならないよね。",
+      "input": "じんせいって、おもったとおりにわならないよね。",
+      "speed": 1.0
+    },
+    {
+      "key": "としをとるほど、じぶんにあわないものがわかってくる。",
+      "input": "としおとるほど、じぶんにあわないものがわかってくる。",
+      "speed": 1.0
+    },
+    {
+      "key": "しあわせって、いがいとふつうのまいにちのなかにあるとおもう。",
+      "input": "しあわせって、いがいとふつうのまいにちのなかにあるとおもう。",
+      "speed": 1.0
+    },
+    {
+      "key": "ひとって、ちゃんとはなしてみないとわからないよね。",
+      "input": "ひとって、ちゃんとはなしてみないとわからないよね。",
+      "speed": 1.0
+    },
+    {
+      "key": "むかしはせいかいがあるとおもってたけど、いまはそうでもないきがする。",
+      "input": "むかしわ、せいかいがあるとおもってたけど、いまわ、そうでもないきがする。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas, without stopping between a phrase and its following grammatical particle. Keep topic わ attached to the preceding phrase; never pause immediately before it. Keep object お attached to its preceding noun. Do not split words or verb endings. Keep the rest flowing naturally rather than inserting extra pauses between words."
+    },
+    {
+      "key": "いやなことがないじんせいより、いやなことがあってもたのしめるじんせいのほうがいい。",
+      "input": "いやなことがないじんせいより、いやなことがあっても、たのしめるじんせいのほうがいい。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas, without stopping between a phrase and its following grammatical particle. Keep topic わ attached to the preceding phrase; never pause immediately before it. Keep object お attached to its preceding noun. Do not split words or verb endings. Keep the rest flowing naturally rather than inserting extra pauses between words."
+    },
+    {
+      "key": "みんなそれぞれじじょうがあるから、かんたんにははんだんできないよね。",
+      "input": "みんなそれぞれじじょうがあるから、かんたんにわ、はんだんできないよね。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas, without stopping between a phrase and its following grammatical particle. Keep topic わ attached to the preceding phrase; never pause immediately before it. Keep object お attached to its preceding noun. Do not split words or verb endings. Keep the rest flowing naturally rather than inserting extra pauses between words."
+    },
+    {
+      "key": "なにがだいじかって、けっきょくじぶんできめるしかないとおもう。",
+      "input": "なにがだいじかって、けっきょく、じぶんできめるしかないとおもう。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas, without stopping between a phrase and its following grammatical particle. Keep topic わ attached to the preceding phrase; never pause immediately before it. Keep object お attached to its preceding noun. Do not split words or verb endings. Keep the rest flowing naturally rather than inserting extra pauses between words."
+    }
+  ],
+  "phrasing_review": {
+    "reviewed_cards": 40,
+    "regenerated_cards": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10,
+      29,
+      31,
+      37,
+      38,
+      39,
+      40
+    ],
+    "principle": "Short pauses after complete topic phrases or clauses; never before an attached particle. Other 27 sentences retain their existing suitable clause punctuation."
+  }
+}

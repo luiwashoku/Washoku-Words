@@ -1194,5 +1194,17 @@
     "file": "data/families-of-doom.json",
     "questionCount": 828,
     "familyCount": 70
+  },
+  {
+    "id": "adult-sentences",
+    "category": "conversation",
+    "page": "Adult sentences",
+    "sortOrder": 15.1,
+    "title": "大人の例文",
+    "gameMode": "vocabulary-cards",
+    "sentenceCards": true,
+    "ordered": false,
+    "file": "data/adult-sentences.json",
+    "questionCount": 40
   }
 ]

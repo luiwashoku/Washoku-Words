@@ -27,3 +27,14 @@ prompts (including cloze prompts), and full-sentence explanations. Use `0.85` fo
 vocabulary, particles, and very short phrase/grammar fragments. Record the
 generation speed in the review file, using per-entry `speed` overrides as needed;
 this is the Nova generation setting, not a playback-rate change.
+
+# Marin sentence phrasing
+
+Before generating Japanese Marin sentences, review phrase boundaries as well as
+hiragana readings. Where a pause helps, add speech-only commas after complete
+phrases or clauses; keep particles attached to the preceding phrase and never
+insert a pause immediately before topic は (spoken わ), directional へ (spoken え),
+or object を (spoken お). For 自分では, keep じぶんでわ continuous and pause
+after わ when appropriate. Preserve display text and lookup keys. Use per-entry
+`pronunciation_guidance` for troublesome grouping. Do not claim audible pause
+verification without listening to the recording.

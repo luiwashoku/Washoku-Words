@@ -9,6 +9,7 @@
     let index = 0;
     let gesture = null;
     let furiganaVisible = false;
+    let allDialog = null;
     const screen = container.closest("#wordExplosionScreen");
     screen.classList.add("study-cards-screen");
     document.documentElement.classList.add("vocabulary-cards-open");
@@ -32,6 +33,7 @@
     furigana.addEventListener("click", () => {
       furiganaVisible = !furiganaVisible;
       container.classList.toggle("furigana-hidden", !furiganaVisible);
+      if (lesson.sentenceCards) allDialog?.classList.toggle("furigana-hidden", !furiganaVisible);
       furigana.classList.toggle("furigana-off", !furiganaVisible);
       furigana.setAttribute("aria-pressed", String(!furiganaVisible));
       furigana.setAttribute("aria-label", furiganaVisible ? "Hide furigana" : "Show furigana");
@@ -46,6 +48,7 @@
       all.setAttribute("aria-label", lesson.id === "knife-making-steps" ? "Show all steps" : "Show all cards");
       const dialog = document.createElement("dialog");
       dialog.className = "knife-steps-list";
+      allDialog = dialog;
       const close = document.createElement("button");
       close.type = "button";
       close.textContent = "閉じる";
@@ -55,11 +58,13 @@
         entries.forEach((word, target) => {
           const button = document.createElement("button");
           button.type = "button";
-          button.textContent = `${word.step ? word.step + ". " : ""}${word.kanji} — ${word.english}`;
+          if (lesson.sentenceCards) setJapaneseText(button, word.kanji || word.japanese);
+          else button.textContent = `${word.step ? word.step + ". " : ""}${word.kanji} — ${word.english}`;
           button.addEventListener("click", () => { move(target - index); dialog.close(); }, { signal });
           list.appendChild(button);
         });
         dialog.replaceChildren(close, list);
+        if (lesson.sentenceCards) dialog.classList.toggle("furigana-hidden", !furiganaVisible);
         dialog.showModal();
       }, { signal });
       toolbar.append(all, dialog);
@@ -78,6 +83,7 @@
     card.className = "vocabulary-study-card hidden";
     if (lesson.compactCards) card.classList.add("vocabulary-study-card--compact");
     if (lesson.grammarCards) card.classList.add("vocabulary-study-card--grammar");
+    if (lesson.sentenceCards) card.classList.add("vocabulary-study-card--sentence");
     card.setAttribute("aria-labelledby", "studyCardWord");
     navigation.replaceChildren();
     const previous = document.createElement("button");
@@ -117,14 +123,14 @@
       heading.lang = "ja";
       setJapaneseText(heading, `${word.step ? word.step + ". " : ""}${word.kanji || word.japanese}`);
       wordText.appendChild(heading);
-      if (word.kanji && !lesson.grammarCards) {
+      if (word.kanji && !lesson.grammarCards && !lesson.sentenceCards) {
         const reading = document.createElement("p");
         reading.className = "vocabulary-card-reading";
         reading.lang = "ja";
         reading.textContent = word.japanese;
         wordText.appendChild(reading);
       }
-      const wordSpeaker = createExampleSpeechButton(word.japanese, lesson.grammarCards ? "Grammar point" : "Japanese word", playWord);
+      const wordSpeaker = createExampleSpeechButton(word.japanese, lesson.sentenceCards ? "Japanese sentence" : lesson.grammarCards ? "Grammar point" : "Japanese word", playWord);
       wordSpeaker?.classList.add("vocabulary-card-word-speaker");
       const meaning = document.createElement("p");
       meaning.className = "vocabulary-card-meaning";

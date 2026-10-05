@@ -2071,3 +2071,9 @@ html.vocabulary-cards-open,
   .doom-card--dense { gap: 8px; }
   .doom-card--dense.doom-card--tight { gap: 6px; }
 }
+
+.vocabulary-study-card--sentence { padding: 24px 16px; }
+.vocabulary-study-card--sentence .vocabulary-card-word-area { width: 100%; min-height: 220px; aspect-ratio: auto; }
+.vocabulary-study-card--sentence .vocabulary-card-word-row h3 { font-size: clamp(22px, 5vw, 28px); line-height: 1.9; }
+
+.vocabulary-study-card--sentence .vocabulary-card-meaning { margin-top: 16px; font-size: 17px; font-weight: 500; line-height: 1.6; }
