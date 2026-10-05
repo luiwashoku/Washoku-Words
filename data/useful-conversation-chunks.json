@@ -14,7 +14,7 @@
     ],
     "correct": 0,
     "jpExplanation": "具体例(ぐたいれい)を出(だ)して説明(せつめい)を始(はじ)めるので「例(たと)えば」が自然(しぜん)です。",
-    "enExplanation": "Tatoeba introduces a concrete example."
+    "enExplanation": "例えば presents washoku as a concrete example of the point being discussed. 一方で contrasts two sides, だから gives a consequence, and 最後に marks a final step; none specifically means “for example.”"
   },
   {
     "id": "page62-63-q02",
@@ -31,7 +31,7 @@
     ],
     "correct": 1,
     "jpExplanation": "「AよりB」はAと比(くら)べてBを選(えら)ぶ比較(ひかく)です。",
-    "enExplanation": "A yori B presents B as preferred over A."
+    "enExplanation": "より sets bold flavours as the comparison baseline: washoku prioritises the ingredient's natural flavour over them. しか would require a negative ending, while まで and ほど would express a different relationship."
   },
   {
     "id": "page62-63-q03",
@@ -48,7 +48,7 @@
     ],
     "correct": 2,
     "jpExplanation": "目的(もくてき)を示(しめ)すので「ために」を使(つか)います。",
-    "enExplanation": "Tame ni marks the purpose of the action."
+    "enExplanation": "ために gives the purpose of using less seasoning: preserve the ingredient's flavour. The dictionary-form verb 生かす connects directly to ために; のに would introduce a contrast rather than this intended purpose."
   },
   {
     "id": "page62-63-q04",
@@ -65,7 +65,7 @@
     ],
     "correct": 3,
     "jpExplanation": "完成(かんせい)した料理(りょうり)について過去(かこ)の意図(いと)を尋(たず)ねるため「何(なん)でしたか」が自然(しぜん)です。",
-    "enExplanation": "Nan deshita ka asks about the intention behind a completed dish."
+    "enExplanation": "何でしたか asks retrospectively what the cook prioritised when making this dish. 何ですか can also be natural for a current explanation; the past form foregrounds the completed preparation, so it is a nuance rather than an absolute rule."
   },
   {
     "id": "page62-63-q05",
@@ -82,7 +82,7 @@
     ],
     "correct": 0,
     "jpExplanation": "理由(りゆう)を尋(たず)ねる疑問詞(ぎもんし)は「なぜ」です。",
-    "enExplanation": "Naze asks for a reason."
+    "enExplanation": "なぜ asks for the reason behind choosing the ingredient. どこで asks where, どちらを asks which of two options, and いつまで asks until when; they would not request the intended reason."
   },
   {
     "id": "page62-63-q06",
@@ -99,7 +99,7 @@
     ],
     "correct": 1,
     "jpExplanation": "方法(ほうほう)を広(ひろ)く尋(たず)ねる表現(ひょうげん)は「どのように」です。",
-    "enExplanation": "Dono yō ni asks how something is done or expressed."
+    "enExplanation": "どのように asks about the method of expressing the season, such as ingredient choice or presentation. どのぐらい asks degree or amount, not how the effect is achieved."
   },
   {
     "id": "page62-63-q07",
@@ -116,7 +116,7 @@
     ],
     "correct": 2,
     "jpExplanation": "現在(げんざい)の継続的(けいぞくてき)な方法(ほうほう)を丁寧(ていねい)に尋(たず)ねています。",
-    "enExplanation": "Kufū shite imasu ka politely asks about the cook’s ongoing approach."
+    "enExplanation": "工夫していますか asks what practical adjustments the cook makes to bring out the flavour. 工夫する is a する-verb, and しています describes an ongoing approach; 工夫でしたか treats the noun as a past description instead."
   },
   {
     "id": "page62-63-q08",
@@ -133,7 +133,7 @@
     ],
     "correct": 3,
     "jpExplanation": "前(まえ)の考(かんが)えを否定(ひてい)して、より適切(てきせつ)な見方(みかた)を示(しめ)す「むしろ」が合(あ)います。",
-    "enExplanation": "Mushiro replaces the rejected view with a more accurate one."
+    "enExplanation": "むしろ corrects the framing: seasonings are not the main attraction but rather support the ingredient. なぜなら would introduce a reason, while それから would give a next step rather than replace an interpretation."
   },
   {
     "id": "page62-63-q09",
@@ -150,7 +150,7 @@
     ],
     "correct": 0,
     "jpExplanation": "現在(げんざい)の旬(しゅん)を直接(ちょくせつ)尋(たず)ねる形(かたち)です。",
-    "enExplanation": "Shun desu ka directly asks what is currently in season."
+    "enExplanation": "旬ですか asks which ingredient is currently in season. 今 calls for the present; 旬でした describes a past state, while 旬にします would mean making something seasonal, not asking about its season."
   },
   {
     "id": "page62-63-q10",
@@ -167,7 +167,7 @@
     ],
     "correct": 1,
     "jpExplanation": "おすすめの対象(たいしょう)を名詞(めいし)として尋(たず)ねるので「何(なん)ですか」です。",
-    "enExplanation": "Nan desu ka asks which item is recommended."
+    "enExplanation": "何ですか identifies the recommended ingredient. The question is about an item, so どうしますか asks a different kind of question about action, and どこにいますか asks location."
   },
   {
     "id": "page62-63-q11",
@@ -184,7 +184,7 @@
     ],
     "correct": 2,
     "jpExplanation": "名詞(めいし)「旬(しゅん)」に「だから」を付(つ)けて理由(りゆう)を示(しめ)します。",
-    "enExplanation": "Dakara after a noun gives the reason: because it is in season."
+    "enExplanation": "だから attaches to the noun 旬 to state a reason: “because it is in season.” なのに means “despite being in season,” reversing the intended causal relationship."
   },
   {
     "id": "page62-63-q12",
@@ -201,7 +201,7 @@
     ],
     "correct": 3,
     "jpExplanation": "考(かんが)え方(かた)や扱(あつか)い方(かた)を尋(たず)ねるので「どのように」です。",
-    "enExplanation": "Dono yō ni asks about the chef’s way of approaching the three stages."
+    "enExplanation": "どのように asks how the chef approaches the three stages of a season. It requests an outlook or method, not an amount of time or a numerical degree."
   },
   {
     "id": "page62-63-q13",
@@ -218,7 +218,7 @@
     ],
     "correct": 0,
     "jpExplanation": "旬(しゅん)の初(はじ)めを少(すこ)し早(はや)く取(と)り入(い)れるのは「先取(さきど)り」です。",
-    "enExplanation": "Sakidori means anticipating and introducing the coming season."
+    "enExplanation": "先取りして describes using bamboo shoots before the season is fully established. 出始めました indicates the early stage, so 過ぎて, “having passed,” would contradict the timing."
   },
   {
     "id": "page62-63-q14",
@@ -235,7 +235,7 @@
     ],
     "correct": 1,
     "jpExplanation": "旬(しゅん)の最盛期(さいせいき)は「盛(も)り」です。",
-    "enExplanation": "Sakari is the ingredient’s peak period."
+    "enExplanation": "盛り is the peak stage, when the fish is at its best. 走り is the first appearance and 名残 is the closing stage; 初物 refers to the first produce of the season rather than its peak."
   },
   {
     "id": "page62-63-q15",
@@ -252,7 +252,7 @@
     ],
     "correct": 2,
     "jpExplanation": "旬(しゅん)の終(お)わりを惜(お)しむ段階(だんかい)は「名残(なごり)」です。",
-    "enExplanation": "Nagori appreciates the last appearance of an ingredient’s season."
+    "enExplanation": "名残 names the enjoyment of a seasonal ingredient as its season ends. The clue is もうすぐ季節が終わる; 走り and 盛り instead refer to the beginning and peak."
   },
   {
     "id": "page62-63-q16",
@@ -269,7 +269,7 @@
     ],
     "correct": 3,
     "jpExplanation": "「～にしか…ない」は範囲(はんい)を限定(げんてい)し、「その時期(じき)だけ」を表(あらわ)します。",
-    "enExplanation": "Ni shika with a negative verb means only during that period."
+    "enExplanation": "にしか combines the time marker に with しか and a negative verb: it can be enjoyed only during that period. The negative 味わえません is essential to the “only” construction."
   },
   {
     "id": "page62-63-q17",
@@ -286,7 +286,7 @@
     ],
     "correct": 0,
     "jpExplanation": "「今(いま)しか…ない」で機会(きかい)が今(いま)に限(かぎ)られることを強調(きょうちょう)します。",
-    "enExplanation": "Ima shika ... nai emphasizes that the opportunity exists only now."
+    "enExplanation": "しか with 味わえません limits the opportunity to now. Although the verb is negative, the whole construction means “only now can you experience it,” not that you cannot experience it at all."
   },
   {
     "id": "page62-63-q18",
@@ -303,7 +303,7 @@
     ],
     "correct": 1,
     "jpExplanation": "旬(しゅん)が始(はじ)まることは「旬(しゅん)を迎(むか)える」と言(い)います。",
-    "enExplanation": "Shun o mukaeru means to come into season."
+    "enExplanation": "旬を迎えます means the fish will enter its season. 来週から points to an upcoming beginning; 旬を過ぎます would mean moving beyond the season instead."
   },
   {
     "id": "page62-63-q19",
@@ -320,7 +320,7 @@
     ],
     "correct": 2,
     "jpExplanation": "最盛期(さいせいき)の後(あと)なので「旬(しゅん)を過(す)ぎた」が合(あ)います。",
-    "enExplanation": "Shun o sugita states that the ingredient has passed its peak."
+    "enExplanation": "旬を過ぎた describes the oyster as having passed its peak, explaining the change from its earlier flavour. 旬を迎えた would describe entering the season, the opposite timing."
   },
   {
     "id": "page62-63-q20",
@@ -337,7 +337,7 @@
     ],
     "correct": 3,
     "jpExplanation": "「AだけでなくBも」は、要素(ようそ)を追加(ついか)する表現(ひょうげん)です。",
-    "enExplanation": "A dake de naku B mo means not only A but also B."
+    "enExplanation": "だけでなく adds other means of expressing the season to the ingredients: vessels, colours, and garnishes too. The pairing だけでなく…も means “not only… but also…”."
   },
   {
     "id": "page64-65-q01",
@@ -354,7 +354,7 @@
     ],
     "correct": 0,
     "jpExplanation": "経験(けいけん)の具体例(ぐたいれい)を始(はじ)めるので「例(たと)えば」です。",
-    "enExplanation": "Tatoeba introduces the experience as an example."
+    "enExplanation": "例えば introduces a concrete tasting experience as an example. It does not imply that all fish melt in the mouth; it frames this particular experience for discussion."
   },
   {
     "id": "page64-65-q02",
@@ -371,7 +371,7 @@
     ],
     "correct": 1,
     "jpExplanation": "「～すると」は動作(どうさ)の後(あと)に自然(しぜん)に起(お)こる感覚(かんかく)を示(しめ)します。",
-    "enExplanation": "Verb + to presents a natural result experienced upon doing something."
+    "enExplanation": "を食べると connects eating this fish with the sensation that follows. と is used for a naturally experienced result; ても would mean “even if,” and まで would mean “until.”"
   },
   {
     "id": "page64-65-q03",
@@ -388,7 +388,7 @@
     ],
     "correct": 2,
     "jpExplanation": "「～んですが」は質問(しつもん)の前置(まえお)きを柔(やわ)らかくします。",
-    "enExplanation": "N desu ga creates a soft lead-in to the question."
+    "enExplanation": "があるんですが gives background before a polite question: “I have a question…” The んです explanation plus が softens the transition; it is not presenting a necessary cause or a contradiction here."
   },
   {
     "id": "page64-65-q04",
@@ -405,7 +405,7 @@
     ],
     "correct": 3,
     "jpExplanation": "「気(き)になったんですが」は控(ひか)えめに話題(わだい)を出(だ)す前置(まえお)きです。",
-    "enExplanation": "Ki ni natta n desu ga gently introduces something noticed or wondered about."
+    "enExplanation": "んですが turns the observation into a gentle lead-in to asking about the aroma. が leaves room for the listener's response; it does not necessarily mean there is a literal “but” contrast."
   },
   {
     "id": "page64-65-q05",
@@ -422,7 +422,7 @@
     ],
     "correct": 0,
     "jpExplanation": "正確(せいかく)な断定(だんてい)を避(さ)けて感覚(かんかく)を例(たと)える表現(ひょうげん)です。",
-    "enExplanation": "Yō na kanji ga shimasu describes an approximate felt sensation."
+    "enExplanation": "ような感じがします describes a subjective sensation resembling slight pain. It is an approximate report of how carbonation feels, rather than a definition or a decision."
   },
   {
     "id": "page64-65-q06",
@@ -439,7 +439,7 @@
     ],
     "correct": 1,
     "jpExplanation": "名詞(めいし)に「みたいです」を付(つ)けると、似(に)た印象(いんしょう)を口語的(こうごてき)に表(あらわ)せます。",
-    "enExplanation": "Mitai desu colloquially says that something is like a noun."
+    "enExplanation": "みたいです compares the texture to mochi in conversational Japanese. It follows the noun directly: お餅みたいです; だけです would mean “only mochi,” not a resemblance."
   },
   {
     "id": "page64-65-q07",
@@ -456,7 +456,7 @@
     ],
     "correct": 2,
     "jpExplanation": "感覚(かんかく)の内容(ないよう)を「という感(かん)じ」でまとめています。",
-    "enExplanation": "To iu kanji frames the preceding description as the felt impression."
+    "enExplanation": "という感じです presents the preceding description as an impression: something lingers on the tongue. 感じ refers to the sensation, unlike 理由, 料理, or 順番, which name unrelated categories."
   },
   {
     "id": "page64-65-q08",
@@ -473,7 +473,7 @@
     ],
     "correct": 3,
     "jpExplanation": "「気(き)がします」は主観的(しゅかんてき)で控(ひか)えめな判断(はんだん)を表(あらわ)します。",
-    "enExplanation": "Ki ga shimasu softens the statement as a personal impression."
+    "enExplanation": "気がします makes “slightly sweet” a personal impression rather than an objective certainty. It can attach directly to the adjective 甘い; 意味ですか would ask about a word's meaning instead."
   },
   {
     "id": "page64-65-q09",
@@ -490,7 +490,7 @@
     ],
     "correct": 0,
     "jpExplanation": "「というか」を重(かさ)ねると、考(かんが)えながら近(ちか)い表現(ひょうげん)を探(さが)せます。",
-    "enExplanation": "Repeated to iu ka lets the speaker search among approximate descriptions."
+    "enExplanation": "というか…というか lets the speaker try out competing descriptions: sweet, or perhaps mellow. The repeated phrase expresses searching for the right label, not two separate purposes or comparisons."
   },
   {
     "id": "page64-65-q10",
@@ -507,7 +507,7 @@
     ],
     "correct": 1,
     "jpExplanation": "「名詞(めいし)＋みたいな」は、後(あと)の言葉(ことば)を省略(しょうりゃく)しながら似(に)た印象(いんしょう)を示(しめ)す会話表現(かいわひょうげん)です。",
-    "enExplanation": "Noun + mitai na can trail off while suggesting a resemblance."
+    "enExplanation": "みたいな suggests resemblance to nuts and trails off while the speaker searches for a description. Normally な links to a following noun, but conversational speech can leave that noun unsaid."
   },
   {
     "id": "page64-65-q11",
@@ -524,7 +524,7 @@
     ],
     "correct": 2,
     "jpExplanation": "「うまく～できない」は、上手(じょうず)にできないという意味(いみ)です。",
-    "enExplanation": "Umaku ... dekinai means being unable to do something well."
+    "enExplanation": "うまく modifies 説明できない: the speaker cannot explain the sensation well. 十分に can also concern adequacy, but うまく specifically focuses on expressing it skillfully rather than completely."
   },
   {
     "id": "page64-65-q12",
@@ -541,7 +541,7 @@
     ],
     "correct": 3,
     "jpExplanation": "「疑問(ぎもん)詞(し)＋～ばいいかわからない」は適切(てきせつ)な方法(ほうほう)が不明(ふめい)なことを表(あらわ)します。",
-    "enExplanation": "Nan to ieba ii ka wakaranai means not knowing how best to phrase something."
+    "enExplanation": "言えばいいか embeds the question “what should I call it?” inside わからない. 何と言えばいいか is not a past statement; it asks which wording would be appropriate."
   },
   {
     "id": "page64-65-q13",
@@ -558,7 +558,7 @@
     ],
     "correct": 0,
     "jpExplanation": "探(さが)している言葉(ことば)が頭(あたま)に出(で)てこない状態(じょうたい)を表(あらわ)します。",
-    "enExplanation": "Omoi ukabanai means that the desired word does not come to mind."
+    "enExplanation": "思い浮かばない means the desired word does not come to mind. Its negative form fits the search for vocabulary; 思い浮かべる is a transitive verb meaning to picture something deliberately."
   },
   {
     "id": "page64-65-q14",
@@ -575,7 +575,7 @@
     ],
     "correct": 1,
     "jpExplanation": "会話(かいわ)の「って」は話題(わだい)を示(しめ)し、「こういう香(かお)りは」に近(ちか)い働(はたら)きです。",
-    "enExplanation": "Conversational tte marks the topic, similar to wa here."
+    "enExplanation": "って marks the aroma as the topic in casual speech: “as for this kind of aroma, what do you call it?” It functions like は here; it is not the quotation use of って."
   },
   {
     "id": "page64-65-q15",
@@ -592,7 +592,7 @@
     ],
     "correct": 2,
     "jpExplanation": "「状態(じょうたい)には名前(なまえ)がある」で、その状態(じょうたい)に対応(たいおう)する名称(めいしょう)の存在(そんざい)を尋(たず)ねます。",
-    "enExplanation": "Ni wa links the condition with the possible existence of a name for it."
+    "enExplanation": "には marks the condition as something that might have a name. に connects the name to that condition and は makes it the topic; しか would require a negative predicate."
   },
   {
     "id": "page64-65-q16",
@@ -609,7 +609,7 @@
     ],
     "correct": 3,
     "jpExplanation": "一般的(いっぱんてき)な言(い)い方(かた)を尋(たず)ねる現在形(げんざいけい)です。",
-    "enExplanation": "Dō hyōgen shimasu ka asks for the customary Japanese expression."
+    "enExplanation": "表現しますか asks how this is conventionally expressed in Japanese. 表現 is a する-verb, so the polite verb form します is needed; the other choices do not form this intended question."
   },
   {
     "id": "page64-65-q17",
@@ -626,7 +626,7 @@
     ],
     "correct": 0,
     "jpExplanation": "相手(あいて)の説明(せつめい)を要約(ようやく)して確認(かくにん)するので「つまり」です。",
-    "enExplanation": "Tsumari restates the other person’s explanation as a summary."
+    "enExplanation": "つまり restates the listener's understanding of the explanation: the fish is rich in fat. It checks the gist, whereas 例えば would introduce an example rather than a summary."
   },
   {
     "id": "page64-65-q18",
@@ -643,7 +643,7 @@
     ],
     "correct": 1,
     "jpExplanation": "聞(き)いた表現(ひょうげん)の意味(いみ)を確認(かくにん)する定型(ていけい)です。",
-    "enExplanation": "To iu imi desu ka checks the meaning of a newly heard expression."
+    "enExplanation": "という意味ですか checks whether the newly heard expression means “quickly disappears in the mouth.” It asks for a definition, not a reason or a description of a past impression."
   },
   {
     "id": "page64-65-q19",
@@ -660,7 +660,7 @@
     ],
     "correct": 2,
     "jpExplanation": "新(あたら)しい説明(せつめい)を理解(りかい)した反応(はんのう)は「なるほど」です。",
-    "enExplanation": "Naruhodo signals that the explanation now makes sense."
+    "enExplanation": "なるほど signals that the explanation has become understandable. 初めて聞きました then adds that the information is new; なぜなら would begin giving a reason rather than acknowledge understanding."
   },
   {
     "id": "page64-65-q20",
@@ -677,7 +677,7 @@
     ],
     "correct": 3,
     "jpExplanation": "予想(よそう)される別(べつ)の候補(こうほ)も違(ちが)うという対比(たいひ)なので「でも」です。",
-    "enExplanation": "Demo introduces a contrast with another possible description."
+    "enExplanation": "でも introduces a further qualification: although the texture is not シャキシャキ, サクサク does not quite describe it either. だから would incorrectly frame the second observation as a direct consequence."
   },
   {
     "id": "page66-67-q01",
@@ -694,7 +694,7 @@
     ],
     "correct": 0,
     "jpExplanation": "説明(せつめい)を理解(りかい)した短(みじか)い反応(はんのう)は「なるほど」です。",
-    "enExplanation": "Naruhodo is a natural short response showing understanding."
+    "enExplanation": "なるほど is a short acknowledgement that the kombu instruction makes sense. It does not itself claim prior knowledge or ask why; it keeps the explanation moving."
   },
   {
     "id": "page66-67-q02",
@@ -711,7 +711,7 @@
     ],
     "correct": 1,
     "jpExplanation": "相手(あいて)の意見(いけん)に納得(なっとく)して同意(どうい)する反応(はんのう)です。",
-    "enExplanation": "Tashika ni acknowledges that the other person’s point is valid."
+    "enExplanation": "確かに acknowledges the validity of the chef's point about seasonal vessels. It expresses agreement with an observation; 実は would introduce hidden or unexpected information of your own."
   },
   {
     "id": "page66-67-q03",
@@ -728,7 +728,7 @@
     ],
     "correct": 2,
     "jpExplanation": "新(あたら)しい情報(じょうほう)への関心(かんしん)を自然(しぜん)に示(しめ)します。",
-    "enExplanation": "Omoshiroi desu ne expresses interest and keeps the exchange warm."
+    "enExplanation": "面白いですね expresses interest in the regional differences in miso. どうしてですか could ask a follow-up reason, but would not convey the intended reaction “that's interesting.”"
   },
   {
     "id": "page66-67-q04",
@@ -745,7 +745,7 @@
     ],
     "correct": 3,
     "jpExplanation": "初(はじ)めて得(え)た情報(じょうほう)への率直(そっちょく)な反応(はんのう)です。",
-    "enExplanation": "Sore wa shirimasen deshita naturally says the information was new to you."
+    "enExplanation": "それは知りませんでした states that the soy-sauce fact was new. The past negative refers to not knowing before this explanation; 知っていますか would instead ask whether the other person knows."
   },
   {
     "id": "page66-67-q05",
@@ -762,7 +762,7 @@
     ],
     "correct": 0,
     "jpExplanation": "自分(じぶん)の好(この)みや判断(はんだん)であることを明確(めいかく)にします。",
-    "enExplanation": "Kojinteki ni wa marks the statement as a personal view."
+    "enExplanation": "個人的には limits the evaluation of the dashi to the speaker's own taste. It makes clear that “elegant” is a personal judgment, rather than an example or the next item in a sequence."
   },
   {
     "id": "page66-67-q06",
@@ -779,7 +779,7 @@
     ],
     "correct": 1,
     "jpExplanation": "「AよりBの方(ほう)が好(す)き」でBへの好(この)みを比較(ひかく)します。",
-    "enExplanation": "A yori B no hō ga suki expresses a preference for B over A."
+    "enExplanation": "より makes red miso the comparison baseline; 白味噌の方が好き identifies white miso as the preferred option. しか and a positive 好きです would not express this comparison."
   },
   {
     "id": "page66-67-q07",
@@ -796,7 +796,7 @@
     ],
     "correct": 2,
     "jpExplanation": "確信(かくしん)しすぎず、個人的(こじんてき)な印象(いんしょう)として述(の)べる形(かたち)です。",
-    "enExplanation": "No yō na ki ga shimasu presents a tentative personal impression."
+    "enExplanation": "のような気がします tentatively describes the sake as dry. Here 辛口 is treated as a noun-like description, so の links it to よう; the phrase does not claim certainty."
   },
   {
     "id": "page66-67-q08",
@@ -813,7 +813,7 @@
     ],
     "correct": 3,
     "jpExplanation": "「～のように感(かん)じます」は、似(に)た感覚(かんかく)を主観的(しゅかんてき)に表(あらわ)します。",
-    "enExplanation": "No yō ni kanjimasu says something feels or seems like the noun."
+    "enExplanation": "のように compares the aroma with yuzu and modifies the verb 感じます. Noun + のように means “like…” in this construction; のために would express purpose instead."
   },
   {
     "id": "page66-67-q09",
@@ -830,7 +830,7 @@
     ],
     "correct": 0,
     "jpExplanation": "後(あと)に理由(りゆう)を説明(せつめい)する合図(あいず)は「なぜなら」です。",
-    "enExplanation": "Nazenara signals that the following clause gives the reason."
+    "enExplanation": "なぜなら introduces the reason for liking clay-pot rice, and the sentence ends with からです. The rich aroma supports the preference rather than contrasting with it or adding a side note."
   },
   {
     "id": "page66-67-q10",
@@ -847,7 +847,7 @@
     ],
     "correct": 1,
     "jpExplanation": "普通形(ふつうけい)＋「からです」で理由(りゆう)を述(の)べます。",
-    "enExplanation": "Kara desu gives the reason for the preceding decision."
+    "enExplanation": "からです completes a reason-focused construction: 選んだのは…からです, “the reason I chose it is because…”. The light weight and ease of use are the reason, not a concession."
   },
   {
     "id": "page66-67-q11",
@@ -864,7 +864,7 @@
     ],
     "correct": 2,
     "jpExplanation": "観察(かんさつ)したことを柔(やわ)らかく会話(かいわ)へ出(だ)す前置(まえお)きです。",
-    "enExplanation": "Ki zuita n desu ga gently introduces an observation."
+    "enExplanation": "気づいたんですが introduces something the speaker has noticed: the vessel is cooler than the food. The explanatory ending gently opens a topic rather than turning the observation into an accusation."
   },
   {
     "id": "page66-67-q12",
@@ -881,7 +881,7 @@
     ],
     "correct": 3,
     "jpExplanation": "比較(ひかく)の基準(きじゅん)を示(しめ)す表現(ひょうげん)は「～と比(くら)べると」です。",
-    "enExplanation": "To kuraberu to establishes the comparison baseline."
+    "enExplanation": "と比べると sets last year's new rice as the baseline for comparison. The point is how this year's stickiness differs, not merely that rice changes over time."
   },
   {
     "id": "page66-67-q13",
@@ -898,7 +898,7 @@
     ],
     "correct": 0,
     "jpExplanation": "二(ふた)つの対象(たいしょう)の対照的(たいしょうてき)な特徴(とくちょう)を並(なら)べます。",
-    "enExplanation": "Sore ni taishite explicitly contrasts the second item with the first."
+    "enExplanation": "それに対して explicitly contrasts niboshi dashi with kombu dashi. それ refers back to the first broth, making the second broth's powerful aroma an opposing characteristic."
   },
   {
     "id": "page66-67-q14",
@@ -915,7 +915,7 @@
     ],
     "correct": 1,
     "jpExplanation": "同(おな)じ話題(わだい)の別(べつ)の側面(そくめん)や対比(たいひ)を示(しめ)します。",
-    "enExplanation": "Ippō de presents a contrasting side within the same topic."
+    "enExplanation": "一方で presents red miso as the contrasting side of the same comparison. It balances white miso's sweetness and gentleness against red miso's depth rather than drawing a causal conclusion."
   },
   {
     "id": "page66-67-q15",
@@ -932,7 +932,7 @@
     ],
     "correct": 2,
     "jpExplanation": "相手(あいて)の方法(ほうほう)の理由(りゆう)を続(つづ)けて尋(たず)ねています。",
-    "enExplanation": "Dōshite desu ka asks the speaker to explain the reason."
+    "enExplanation": "どうしてですか asks why the chef uses low heat and a slow simmer. It requests the reason for the method, not the next step or an example of a fish."
   },
   {
     "id": "page66-67-q16",
@@ -949,7 +949,7 @@
     ],
     "correct": 3,
     "jpExplanation": "工程(こうてい)の次(つぎ)に起(お)こることを尋(たず)ねる質問(しつもん)です。",
-    "enExplanation": "Sore kara dō narimasu ka asks what happens next."
+    "enExplanation": "それからどうなりますか asks what happens after salting the fish. The phrase moves forward through the process; どうして would instead ask for the reason behind the current step."
   },
   {
     "id": "page66-67-q17",
@@ -966,7 +966,7 @@
     ],
     "correct": 0,
     "jpExplanation": "抽象的(ちゅうしょうてき)な説明(せつめい)に具体例(ぐたいれい)を求(もと)めています。",
-    "enExplanation": "Tatoeba donna asks for a concrete example of the category mentioned."
+    "enExplanation": "例えばどんな asks for a concrete example within the category “seasonal fish.” どんな modifies 魚, while 例えば makes clear that a representative example is sufficient."
   },
   {
     "id": "page66-67-q18",
@@ -983,7 +983,7 @@
     ],
     "correct": 1,
     "jpExplanation": "「えっと」は考(かんが)える時間(じかん)を作(つく)る自然(しぜん)なフィラーです。",
-    "enExplanation": "Etto is a natural filler used while formulating a thought."
+    "enExplanation": "えっと is a thinking pause while the speaker searches for a description of the aroma. It does not carry a reason, contrast, or conclusion; どう言えばいいでしょうか reinforces the hesitation."
   },
   {
     "id": "page66-67-q19",
@@ -1000,7 +1000,7 @@
     ],
     "correct": 2,
     "jpExplanation": "新(あたら)しい知識(ちしき)を得(え)て役立(やくだ)ったことを伝(つた)える定型表現(ていけいひょうげん)です。",
-    "enExplanation": "Benkyō ni narimashita expresses that the conversation was instructive."
+    "enExplanation": "勉強になりました means the experience was informative or instructive. It is a natural way to thank someone for what you learned, not necessarily a claim about formal classroom study."
   },
   {
     "id": "page66-67-q20",
@@ -1017,7 +1017,7 @@
     ],
     "correct": 3,
     "jpExplanation": "「ぜひ～てみたい」は強(つよ)い興味(きょうみ)と試(ため)す意欲(いよく)を前向(まえむ)きに伝(つた)えます。",
-    "enExplanation": "Zehi ... te mitai expresses an enthusiastic desire to try something."
+    "enExplanation": "ぜひ試してみたいです combines an enthusiastic ぜひ with the desire to try something through てみたい. It expresses interest in experiencing the cooking method, without claiming it has already been tried."
   },
   {
     "id": "make-automatic-q001",
@@ -1034,8 +1034,8 @@
     ],
     "correct": 0,
     "grammarPoint": "とりあえず",
-    "jpExplanation": "この会話(かいわ)では「とりあえず」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“とりあえず” completes this everyday exchange with the intended meaning: for now."
+    "jpExplanation": "「とりあえず」\nみせはまだきまっていません。まずえきまえまでいくという、かりのこうどうを提案(ていあん)しています。",
+    "enExplanation": "とりあえず proposes a first step while the final decision is still open: go toward the station, then choose a restaurant. ちなみに adds side information; it does not express a temporary plan."
   },
   {
     "id": "make-automatic-q002",
@@ -1052,8 +1052,8 @@
     ],
     "correct": 1,
     "grammarPoint": "ちなみに",
-    "jpExplanation": "この会話(かいわ)では「ちなみに」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“ちなみに” completes this everyday exchange with the intended meaning: by the way."
+    "jpExplanation": "「ちなみに」\nしゅうごう時間(じかん)のはなしに、さとうさんもくるという情報(じょうほう)をつけくわえています。",
+    "enExplanation": "ちなみに adds related but secondary information: Sato is coming too. The meeting time has already been settled; this is an extra detail, not the reason for agreeing."
   },
   {
     "id": "make-automatic-q003",
@@ -1070,8 +1070,8 @@
     ],
     "correct": 2,
     "grammarPoint": "たしかに",
-    "jpExplanation": "この会話(かいわ)では「たしかに」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“たしかに” completes this everyday exchange with the intended meaning: true / indeed."
+    "jpExplanation": "「たしかに」\nしずかでいいという意見(いけん)をみとめてから、えきからとおいというべつのめんをはなしています。",
+    "enExplanation": "たしかに concedes that the neighbourhood is quiet, before introducing a drawback with でも. It means “you have a point,” rather than “I just learned that.”"
   },
   {
     "id": "make-automatic-q004",
@@ -1088,8 +1088,8 @@
     ],
     "correct": 3,
     "grammarPoint": "でも",
-    "jpExplanation": "この会話(かいわ)では「でも」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“でも” completes this everyday exchange with the intended meaning: but."
+    "jpExplanation": "「でも」\nたかいというけってんにたいして、ながくつかえるというよいめんをしめしています。",
+    "enExplanation": "でも counters the concern about price with an advantage: the bag should last a long time. It links two contrasting evaluations, rather than adding an unrelated fact."
   },
   {
     "id": "make-automatic-q005",
@@ -1106,8 +1106,8 @@
     ],
     "correct": 0,
     "grammarPoint": "それで",
-    "jpExplanation": "この会話(かいわ)では「それで」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“それで” completes this everyday exchange with the intended meaning: and then / so."
+    "jpExplanation": "「それで」\nすまほをわすれたことが、れんらくできなかった理由(りゆう)だとわかったはんのうです。",
+    "enExplanation": "それで connects forgetting the phone with the consequence of not contacting B: “so that's why.” だから can also express causation generally; here B is discovering the explanation for what happened."
   },
   {
     "id": "make-automatic-q006",
@@ -1124,8 +1124,8 @@
     ],
     "correct": 1,
     "grammarPoint": "だから",
-    "jpExplanation": "この会話(かいわ)では「だから」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“だから” completes this everyday exchange with the intended meaning: so / therefore."
+    "jpExplanation": "「だから」\nおおあめという理由(りゆう)から、でんしゃがおくれていることになっとくしています。",
+    "enExplanation": "だから identifies the heavy rain as the cause of the train delay. B is drawing a conclusion from the information A has just supplied."
   },
   {
     "id": "make-automatic-q007",
@@ -1142,8 +1142,8 @@
     ],
     "correct": 2,
     "grammarPoint": "それに",
-    "jpExplanation": "この会話(かいわ)では「それに」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“それに” completes this everyday exchange with the intended meaning: besides / plus."
+    "jpExplanation": "「それに」\nこーひーがおいしいことに、てんいんのかんじもいいという、もうひとつの理由(りゆう)をくわえています。",
+    "enExplanation": "それに adds a second supporting reason for liking the café: good coffee and friendly staff. Both points favour returning, so a contrast word would change the relationship."
   },
   {
     "id": "make-automatic-q008",
@@ -1160,8 +1160,8 @@
     ],
     "correct": 3,
     "grammarPoint": "それでも",
-    "jpExplanation": "この会話(かいわ)では「それでも」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“それでも” completes this everyday exchange with the intended meaning: even so."
+    "jpExplanation": "「それでも」\nさむいことはみとめていますが、それでもさんぽしたいというきもちがかわらないことをしめします。",
+    "enExplanation": "それでも means “even so”: B still wants a walk despite the cold. It preserves both the obstacle and the desire, rather than denying that it is cold."
   },
   {
     "id": "make-automatic-q009",
@@ -1178,8 +1178,8 @@
     ],
     "correct": 0,
     "grammarPoint": "むしろ",
-    "jpExplanation": "この会話(かいわ)では「むしろ」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“むしろ” completes this everyday exchange with the intended meaning: rather / if anything."
+    "jpExplanation": "「むしろ」\nひとりのりょこうはさびしいという予想(よそう)を否定(ひてい)し、ぎゃくにきらくでいいとつたえています。",
+    "enExplanation": "むしろ reverses A's assumption: solo travel is not lonely for B; it is actually preferable because it feels carefree. This is stronger than merely adding another point."
   },
   {
     "id": "make-automatic-q010",
@@ -1196,8 +1196,8 @@
     ],
     "correct": 1,
     "grammarPoint": "一方(いっぽう)で",
-    "jpExplanation": "この会話(かいわ)では「一方(いっぽう)で」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“一方(いっぽう)で” completes this everyday exchange with the intended meaning: on the other hand."
+    "jpExplanation": "「一方(いっぽう)で」\nつうきんがないというよいめんと、しゅうちゅうしにくいというわるいめんをならべています。",
+    "enExplanation": "一方で balances the benefit of remote work against a drawback: no commute, but sometimes poor concentration. ちなみに could introduce extra information, but would not explicitly frame these as opposing sides."
   },
   {
     "id": "make-automatic-q011",
@@ -1214,8 +1214,8 @@
     ],
     "correct": 2,
     "grammarPoint": "例えば(たとえば)",
-    "jpExplanation": "この会話(かいわ)では「例えば(たとえば)」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“例えば(たとえば)” completes this everyday exchange with the intended meaning: for example."
+    "jpExplanation": "「例えば(たとえば)」\nやすみのすごしかたについて、えいがとりょうりをれいとしてあげています。すべてのこうどうをならべているわけではありません。",
+    "enExplanation": "例えば introduces sample activities, not a complete account of every day off. 映画を見たり、料理したり also marks the activities as representative examples."
   },
   {
     "id": "make-automatic-q012",
@@ -1232,8 +1232,8 @@
     ],
     "correct": 3,
     "grammarPoint": "結局(けっきょく)",
-    "jpExplanation": "この会話(かいわ)では「結局(けっきょく)」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“結局(けっきょく)” completes this everyday exchange with the intended meaning: in the end."
+    "jpExplanation": "「結局(けっきょく)」\nいろいろまよったあとのさいしゅうてきな結果(けっか)が、なにもかわなかったことです。",
+    "enExplanation": "結局 announces the final outcome after considering several shoes: nothing was bought. It describes where the decision process ended, rather than what to do first."
   },
   {
     "id": "make-automatic-q013",
@@ -1250,8 +1250,8 @@
     ],
     "correct": 0,
     "grammarPoint": "つまり",
-    "jpExplanation": "この会話(かいわ)では「つまり」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“つまり” completes this everyday exchange with the intended meaning: in other words."
+    "jpExplanation": "「つまり」\nげつようびもやすみというはなしを、さんれんきゅうというべつのことばでたしかめています。",
+    "enExplanation": "つまり reformulates “Monday is also a holiday” as its practical meaning: a three-day weekend. B is checking the implication, not offering an example."
   },
   {
     "id": "make-automatic-q014",
@@ -1268,8 +1268,8 @@
     ],
     "correct": 1,
     "grammarPoint": "というか",
-    "jpExplanation": "この会話(かいわ)では「というか」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“というか” completes this everyday exchange with the intended meaning: or rather / I mean."
+    "jpExplanation": "「というか」\nこわいということばを、もっとちかいぶきみということばにいいなおしています。",
+    "enExplanation": "というか revises the first description: “scary—or rather, eerie throughout.” It lets the speaker search for a more accurate word; it does not express a reason or agreement."
   },
   {
     "id": "make-automatic-q015",
@@ -1286,8 +1286,8 @@
     ],
     "correct": 2,
     "grammarPoint": "なんか",
-    "jpExplanation": "この会話(かいわ)では「なんか」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“なんか” completes this everyday exchange with the intended meaning: like / somehow."
+    "jpExplanation": "「なんか」\nやるきがでない理由(りゆう)をはっきりいわず、なんとなくそうかんじるきもちをつたえています。",
+    "enExplanation": "なんか presents a vague feeling that is difficult to explain: B just cannot find motivation today. Here it is a conversational hedge, not the literal question “what?”"
   },
   {
     "id": "make-automatic-q016",
@@ -1304,8 +1304,8 @@
     ],
     "correct": 3,
     "grammarPoint": "まあ",
-    "jpExplanation": "この会話(かいわ)では「まあ」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“まあ” completes this everyday exchange with the intended meaning: well...."
+    "jpExplanation": "「まあ」\nてすとの結果(けっか)をつよくいいきらず、ひかえめに評価(ひょうか)しています。",
+    "enExplanation": "まあ softens the assessment: the test went reasonably well, but B is not making a confident boast. It can also signal hesitation or acceptance; here it makes the self-evaluation modest."
   },
   {
     "id": "make-automatic-q017",
@@ -1322,8 +1322,8 @@
     ],
     "correct": 0,
     "grammarPoint": "そういえば",
-    "jpExplanation": "この会話(かいわ)では「そういえば」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“そういえば” completes this everyday exchange with the intended meaning: speaking of which."
+    "jpExplanation": "「そういえば」\nきょうとのはなしをきっかけに、あたらしいみせのことを思(おも)いだしてはなしています。",
+    "enExplanation": "そういえば introduces a thought prompted by the mention of Kyoto: a new shop has opened there. ちなみに can also add relevant information, but そういえば specifically signals remembering it just now."
   },
   {
     "id": "make-automatic-q018",
@@ -1340,8 +1340,8 @@
     ],
     "correct": 1,
     "grammarPoint": "そうすると",
-    "jpExplanation": "この会話(かいわ)では「そうすると」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“そうすると” completes this everyday exchange with the intended meaning: if so / then."
+    "jpExplanation": "「そうすると」\nしんじゅくにとまらないという情報(じょうほう)から、のりかえが必要(ひつよう)だと結論(けつろん)をだしています。",
+    "enExplanation": "そうすると draws a practical consequence: if this train does not stop at Shinjuku, a transfer is needed. It means “in that case / then,” not simple agreement."
   },
   {
     "id": "make-automatic-q019",
@@ -1358,8 +1358,8 @@
     ],
     "correct": 2,
     "grammarPoint": "それなら",
-    "jpExplanation": "この会話(かいわ)では「それなら」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“それなら” completes this everyday exchange with the intended meaning: if that's the case."
+    "jpExplanation": "「それなら」\nあしたのごごが空(あ)いているという条件(じょうけん)をうけて、さんじにあうことを提案(ていあん)しています。",
+    "enExplanation": "それなら takes A's availability as the condition for a proposal: if tomorrow afternoon works, meet at three. It responds directly to the situation just offered."
   },
   {
     "id": "make-automatic-q020",
@@ -1376,8 +1376,8 @@
     ],
     "correct": 3,
     "grammarPoint": "そういう意味(いみ)では",
-    "jpExplanation": "この会話(かいわ)では「そういう意味(いみ)では」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“そういう意味(いみ)では” completes this everyday exchange with the intended meaning: in that sense."
+    "jpExplanation": "「そういう意味(いみ)では」\nまいにちちがうというめんにかぎれば、あきなくていいと評価(ひょうか)しています。",
+    "enExplanation": "そういう意味では limits the evaluation to one aspect: daily variety makes the job less boring, even though it is hard. It does not claim that the job is good in every respect."
   },
   {
     "id": "make-automatic-q021",
@@ -1394,8 +1394,8 @@
     ],
     "correct": 0,
     "grammarPoint": "そうだね",
-    "jpExplanation": "この会話(かいわ)では「そうだね」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“そうだね” completes this everyday exchange with the intended meaning: yeah / that's true."
+    "jpExplanation": "「そうだね」\nかえろうという提案(ていあん)にさんせいしています。あたらしい情報(じょうほう)をきいたはんのうとはちがいます。",
+    "enExplanation": "そうだね agrees with the proposal to leave. そうなんだ reacts to newly learned information; here B is joining a decision rather than receiving news."
   },
   {
     "id": "make-automatic-q022",
@@ -1412,8 +1412,8 @@
     ],
     "correct": 1,
     "grammarPoint": "そうなんだ",
-    "jpExplanation": "この会話(かいわ)では「そうなんだ」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“そうなんだ” completes this everyday exchange with the intended meaning: oh, really / I see."
+    "jpExplanation": "「そうなんだ」\nおおさかへのひっこしを、いまはじめてしったこととしてうけとめています。",
+    "enExplanation": "そうなんだ acknowledges unexpected new information about moving to Osaka. It means “oh, I see,” rather than endorsing an opinion with そうだね."
   },
   {
     "id": "make-automatic-q023",
@@ -1430,8 +1430,8 @@
     ],
     "correct": 2,
     "grammarPoint": "そうなんだね",
-    "jpExplanation": "この会話(かいわ)では「そうなんだね」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“そうなんだね” completes this everyday exchange with the intended meaning: ah, I see."
+    "jpExplanation": "「そうなんだね」\nやきんがおおい状況(じょうきょう)を、相手(あいて)によりそうかんじでうけとめています。ねがつくと、やわらかいはんのうになります。",
+    "enExplanation": "そうなんだね acknowledges A's situation with a softer, attentive tone before connecting it to tiredness. そうなんだ is also possible; ね adds a sense of gently sharing the understanding."
   },
   {
     "id": "make-automatic-q024",
@@ -1448,8 +1448,8 @@
     ],
     "correct": 3,
     "grammarPoint": "たしかにね",
-    "jpExplanation": "この会話(かいわ)では「たしかにね」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“たしかにね” completes this everyday exchange with the intended meaning: that's true."
+    "jpExplanation": "「たしかにね」\nえきにちかいとべんりだという意見(いけん)をみとめています。そのあとで、やちんというべつのめんをくわえています。",
+    "enExplanation": "たしかにね concedes that proximity to the station is convenient, then mentions the rent trade-off. そうだね could also agree; たしかに explicitly recognises the validity of A's point."
   },
   {
     "id": "make-automatic-q025",
@@ -1466,8 +1466,8 @@
     ],
     "correct": 0,
     "grammarPoint": "なるほど",
-    "jpExplanation": "この会話(かいわ)では「なるほど」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“なるほど” completes this everyday exchange with the intended meaning: I see."
+    "jpExplanation": "「なるほど」\nよやくのしかたを説明(せつめい)してもらい、やっと理解(りかい)できたことをしめしています。",
+    "enExplanation": "なるほど signals that the explanation has made the booking procedure clear. It expresses understanding reached through an explanation, rather than agreement with a suggestion."
   },
   {
     "id": "make-automatic-q026",
@@ -1484,8 +1484,8 @@
     ],
     "correct": 1,
     "grammarPoint": "分(わ)かる",
-    "jpExplanation": "この会話(かいわ)では「分(わ)かる」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“分(わ)かる” completes this everyday exchange with the intended meaning: I get that."
+    "jpExplanation": "「分(わ)かる」\nやすみにはなにもしたくないというきもちに、自分(じぶん)もおなじだと共感(きょうかん)しています。",
+    "enExplanation": "分かる expresses empathy based on a familiar feeling: B also wants to sleep all day sometimes. It means “I know what you mean,” not merely “I understand the facts.”"
   },
   {
     "id": "make-automatic-q027",
@@ -1502,8 +1502,8 @@
     ],
     "correct": 2,
     "grammarPoint": "分(わ)かる気(き)がする",
-    "jpExplanation": "この会話(かいわ)では「分(わ)かる気(き)がする」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“分(わ)かる気(き)がする” completes this everyday exchange with the intended meaning: I think I get that."
+    "jpExplanation": "「分(わ)かる気(き)がする」\nとかいでつかれるきもちが、なんとなく理解(りかい)できるとつたえています。わかるよりもひかえめです。",
+    "enExplanation": "分かる気がする offers tentative empathy: B thinks they can relate to city fatigue. 気がする makes the claim less absolute than 分かる."
   },
   {
     "id": "make-automatic-q028",
@@ -1520,8 +1520,8 @@
     ],
     "correct": 3,
     "grammarPoint": "そうかもね",
-    "jpExplanation": "この会話(かいわ)では「そうかもね」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“そうかもね” completes this everyday exchange with the intended meaning: maybe so."
+    "jpExplanation": "「そうかもね」\nねぶそくなので、やすんだほうがいいかもしれないと、ひかえめにさんせいしています。",
+    "enExplanation": "そうかもね tentatively accepts the suggestion to rest. B's lack of sleep supports it, but かも leaves room for uncertainty instead of complete agreement."
   },
   {
     "id": "make-automatic-q029",
@@ -1538,8 +1538,8 @@
     ],
     "correct": 0,
     "grammarPoint": "そうかもしれない",
-    "jpExplanation": "この会話(かいわ)では「そうかもしれない」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“そうかもしれない” completes this everyday exchange with the intended meaning: that might be true."
+    "jpExplanation": "「そうかもしれない」\nでんちぎれはまだ確認(かくにん)していないので、可能性(かのうせい)としてうけとめています。",
+    "enExplanation": "そうかもしれない treats a dead battery as a possibility to check. It is not a confirmed explanation; the next sentence about checking reinforces that uncertainty."
   },
   {
     "id": "make-automatic-q030",
@@ -1556,8 +1556,8 @@
     ],
     "correct": 1,
     "grammarPoint": "そういうことか",
-    "jpExplanation": "この会話(かいわ)では「そういうことか」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“そういうことか” completes this everyday exchange with the intended meaning: ah, so that's what it means."
+    "jpExplanation": "「そういうことか」\nわりびきのしくみをきいて、そういうしくみだったのかとなっとくしています。",
+    "enExplanation": "そういうことか marks the moment the discount rule becomes clear: only marked products qualify. It often means “so that's how it works,” after resolving confusion."
   },
   {
     "id": "make-automatic-q031",
@@ -1574,8 +1574,8 @@
     ],
     "correct": 2,
     "grammarPoint": "そういう感(かん)じ",
-    "jpExplanation": "この会話(かいわ)では「そういう感(かん)じ」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“そういう感(かん)じ” completes this everyday exchange with the intended meaning: something like that."
+    "jpExplanation": "「そういう感(かん)じ」\nじゆうだけどいそがしいというまとめが、だいたいあっているとつたえています。",
+    "enExplanation": "そういう感じ confirms that A's summary is broadly accurate: the job is free but busy. 感じ keeps it approximate, rather than claiming the wording is exact."
   },
   {
     "id": "make-automatic-q032",
@@ -1592,8 +1592,8 @@
     ],
     "correct": 3,
     "grammarPoint": "そんな感(かん)じ",
-    "jpExplanation": "この会話(かいわ)では「そんな感(かん)じ」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“そんな感(かん)じ” completes this everyday exchange with the intended meaning: something like that."
+    "jpExplanation": "「そんな感(かん)じ」\nえきであってからみせをきめるという、おおまかなけいかくでいいとつたえています。",
+    "enExplanation": "そんな感じ accepts the general outline of the suggested plan. It is a noun-like phrase that fits before でいい; the other response sentences do not slot into that construction unchanged."
   },
   {
     "id": "make-automatic-q033",
@@ -1610,8 +1610,8 @@
     ],
     "correct": 0,
     "grammarPoint": "そうそう",
-    "jpExplanation": "この会話(かいわ)では「そうそう」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“そうそう” completes this everyday exchange with the intended meaning: exactly / yeah yeah."
+    "jpExplanation": "「そうそう」\n相手(あいて)がいったかふぇが、まさに自分(じぶん)のいっていたみせだとたしかめています。",
+    "enExplanation": "そうそう emphatically confirms that A has identified the exact café B meant. It is a repeated “yes, that's it,” rather than a response to new information."
   },
   {
     "id": "make-automatic-q034",
@@ -1628,8 +1628,8 @@
     ],
     "correct": 1,
     "grammarPoint": "へえ、知(し)らなかった",
-    "jpExplanation": "この会話(かいわ)では「へえ、知(し)らなかった」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“へえ、知(し)らなかった” completes this everyday exchange with the intended meaning: huh, I didn't know that."
+    "jpExplanation": "「へえ、知(し)らなかった」\nたてものがひゃくねんまえからあるとしって、おどろきとはじめてしったことをつたえています。",
+    "enExplanation": "へえ、知らなかった combines surprise with explicitly saying the fact is new. そうなんだ could acknowledge it too, but would not state that B did not previously know."
   },
   {
     "id": "make-automatic-q035",
@@ -1646,8 +1646,8 @@
     ],
     "correct": 2,
     "grammarPoint": "面白(おもしろ)いね",
-    "jpExplanation": "この会話(かいわ)では「面白(おもしろ)いね」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“面白(おもしろ)いね” completes this everyday exchange with the intended meaning: that's interesting."
+    "jpExplanation": "「面白(おもしろ)いね」\nはなすはやさを変(か)えられるきのうに、きょうみをしめしています。",
+    "enExplanation": "面白いね evaluates the app feature as interesting, which explains wanting to try it. A simple そうなんだ acknowledges the fact without expressing that interest."
   },
   {
     "id": "make-automatic-q036",
@@ -1664,8 +1664,8 @@
     ],
     "correct": 3,
     "grammarPoint": "いいね",
-    "jpExplanation": "この会話(かいわ)では「いいね」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“いいね” completes this everyday exchange with the intended meaning: nice / sounds good."
+    "jpExplanation": "「いいね」\nばーべきゅーの提案(ていあん)を、いいかんがえだとよろこんでうけとめています。",
+    "enExplanation": "いいね welcomes the barbecue idea enthusiastically. そうだね can also agree, but いいね directly evaluates the proposal positively."
   },
   {
     "id": "make-automatic-q037",
@@ -1682,8 +1682,8 @@
     ],
     "correct": 0,
     "grammarPoint": "それはいいね",
-    "jpExplanation": "この会話(かいわ)では「それはいいね」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“それはいいね” completes this everyday exchange with the intended meaning: that's nice."
+    "jpExplanation": "「それはいいね」\nざいたくきんむができるという情報(じょうほう)を、相手(あいて)にとってよいことだと評価(ひょうか)しています。",
+    "enExplanation": "それはいいね reacts positively to the specific improvement A described: remote work should make life easier. それ links the evaluation back to that news."
   },
   {
     "id": "make-automatic-q038",
@@ -1700,8 +1700,8 @@
     ],
     "correct": 1,
     "grammarPoint": "それは大変(たいへん)だね",
-    "jpExplanation": "この会話(かいわ)では「それは大変(たいへん)だね」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“それは大変(たいへん)だね” completes this everyday exchange with the intended meaning: that's tough."
+    "jpExplanation": "「それは大変(たいへん)だね」\nしゅうでんまで仕事(しごと)をした相手(あいて)のくろうに、きづかいをしめしています。",
+    "enExplanation": "それは大変だね expresses sympathy for working until the last train. The advice to leave early today follows naturally from recognising how demanding that was."
   },
   {
     "id": "make-automatic-q039",
@@ -1718,8 +1718,8 @@
     ],
     "correct": 2,
     "grammarPoint": "しょうがないね",
-    "jpExplanation": "この会話(かいわ)では「しょうがないね」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“しょうがないね” completes this everyday exchange with the intended meaning: can't be helped."
+    "jpExplanation": "「しょうがないね」\nあめによるちゅうしは変(か)えられないので、しかたがないとうけとめています。",
+    "enExplanation": "しょうがないね accepts an outcome beyond the speakers' control: rain cancelled the match. It means “it can't be helped,” rather than praising or agreeing with the cancellation."
   },
   {
     "id": "make-automatic-q040",
@@ -1736,8 +1736,8 @@
     ],
     "correct": 3,
     "grammarPoint": "どうなんだろう",
-    "jpExplanation": "この会話(かいわ)では「どうなんだろう」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“どうなんだろう” completes this everyday exchange with the intended meaning: I wonder."
+    "jpExplanation": "「どうなんだろう」\nまだだれもいっていないので、おいしいかどうかわからないという疑問(ぎもん)をしめしています。",
+    "enExplanation": "どうなんだろう expresses uncertainty about whether the new shop is good. Since nobody has visited, B wonders rather than claiming to know."
   },
   {
     "id": "make-automatic-q041",
@@ -1754,8 +1754,8 @@
     ],
     "correct": 0,
     "grammarPoint": "と思(おも)う",
-    "jpExplanation": "空欄(くうらん)には「と思(おも)う」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “と思(おも)う” inside a natural conversational reply."
+    "jpExplanation": "「と思(おも)う」\nでざいんをいま評価(ひょうか)して、いいという自分(じぶん)の意見(いけん)をつたえています。",
+    "enExplanation": "と思う states B's current evaluation: “I think it's good.” と思ってた refers to an earlier belief; と思ってる suggests a continuing view rather than this immediate assessment."
   },
   {
     "id": "make-automatic-q042",
@@ -1772,8 +1772,8 @@
     ],
     "correct": 1,
     "grammarPoint": "と思(おも)ってる",
-    "jpExplanation": "空欄(くうらん)には「と思(おも)ってる」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “と思(おも)ってる” inside a natural conversational reply."
+    "jpExplanation": "「と思(おも)ってる」\nまえからそのへやをいいと思(おも)っていて、そのかんがえがいまもつづいていることをしめします。",
+    "enExplanation": "と思ってる describes an opinion held over time, matching 前から. と思う can also state a present opinion, but the continuing form emphasises that B has liked the room for a while."
   },
   {
     "id": "make-automatic-q043",
@@ -1790,8 +1790,8 @@
     ],
     "correct": 2,
     "grammarPoint": "と思(おも)ってた",
-    "jpExplanation": "空欄(くうらん)には「と思(おも)ってた」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “と思(おも)ってた” inside a natural conversational reply."
+    "jpExplanation": "「と思(おも)ってた」\nやすいというまえの予想(よそう)が、にまんえんという情報(じょうほう)でちがっていたとわかったことをつたえています。",
+    "enExplanation": "と思ってた describes the earlier belief that the hotel was cheaper. The new price contradicts that belief, so a past form is appropriate."
   },
   {
     "id": "make-automatic-q044",
@@ -1808,8 +1808,8 @@
     ],
     "correct": 3,
     "grammarPoint": "と思(おも)ってたけど",
-    "jpExplanation": "空欄(くうらん)には「と思(おも)ってたけど」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “と思(おも)ってたけど” inside a natural conversational reply."
+    "jpExplanation": "「と思(おも)ってたけど」\nかんたんだというまえの予想(よそう)と、実際(じっさい)にはたいへんだという結果(けっか)を、けどでつないでいます。",
+    "enExplanation": "と思ってたけど contrasts an old expectation with the actual experience: B expected an easy job, but it is demanding. けど connects the mismatch."
   },
   {
     "id": "make-automatic-q045",
@@ -1826,8 +1826,8 @@
     ],
     "correct": 0,
     "grammarPoint": "かなと思(おも)う",
-    "jpExplanation": "空欄(くうらん)には「かなと思(おも)う」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “かなと思(おも)う” inside a natural conversational reply."
+    "jpExplanation": "「かなと思(おも)う」\nどちらがいいかまよいながら、こっちがいいかもしれないというひかえめな意見(いけん)をつたえています。",
+    "enExplanation": "かなと思う makes the preference tentative: “I think maybe this one is better.” It suits choosing while still considering options, rather than presenting a firm conclusion."
   },
   {
     "id": "make-automatic-q046",
@@ -1844,8 +1844,8 @@
     ],
     "correct": 1,
     "grammarPoint": "かなと思(おも)って",
-    "jpExplanation": "空欄(くうらん)には「かなと思(おも)って」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “かなと思(おも)って” inside a natural conversational reply."
+    "jpExplanation": "「かなと思(おも)って」\nらいしゅうがいいかとかんがえていることをつたえ、みんなの意見(いけん)もきこうとしています。",
+    "enExplanation": "かなと思って presents next week as a tentative idea and leaves the conversation open for others' views. The unfinished て form softens the proposal instead of making a final decision."
   },
   {
     "id": "make-automatic-q047",
@@ -1862,8 +1862,8 @@
     ],
     "correct": 2,
     "grammarPoint": "気(き)がする",
-    "jpExplanation": "空欄(くうらん)には「気(き)がする」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “気(き)がする” inside a natural conversational reply."
+    "jpExplanation": "「気(き)がする」\n時間(じかん)が必要(ひつよう)だという、はっきりいいきれない自分(じぶん)の感覚(かんかく)をつたえています。",
+    "enExplanation": "気がする presents needing more time as B's impression rather than a certainty. 必要な気がする attaches to the な-adjective 必要 through な."
   },
   {
     "id": "make-automatic-q048",
@@ -1880,8 +1880,8 @@
     ],
     "correct": 3,
     "grammarPoint": "ような気(き)がする",
-    "jpExplanation": "空欄(くうらん)には「ような気(き)がする」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “ような気(き)がする” inside a natural conversational reply."
+    "jpExplanation": "「ような気(き)がする」\nまえにもあったかもしれないという、はっきりしないきおくをつたえています。",
+    "enExplanation": "ような気がする expresses a vague memory of having met the person. It is more tentative than stating 会った outright; the uncertain recollection fits not knowing the name."
   },
   {
     "id": "make-automatic-q049",
@@ -1898,8 +1898,8 @@
     ],
     "correct": 0,
     "grammarPoint": "気(き)がした",
-    "jpExplanation": "空欄(くうらん)には「気(き)がした」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “気(き)がした” inside a natural conversational reply."
+    "jpExplanation": "「気(き)がした」\nさっきだれかいるとかんじたことなので、かこのかたちをつかっています。",
+    "enExplanation": "気がした places the impression in the past: B thought someone was there a moment ago. 気がする would describe the impression now."
   },
   {
     "id": "make-automatic-q050",
@@ -1916,8 +1916,8 @@
     ],
     "correct": 1,
     "grammarPoint": "かもしれない",
-    "jpExplanation": "空欄(くうらん)には「かもしれない」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “かもしれない” inside a natural conversational reply."
+    "jpExplanation": "「かもしれない」\nあしたあめになる可能性(かのうせい)があるので、かさをもっていくことをすすめています。",
+    "enExplanation": "かもしれない marks rain as a possibility, which motivates taking an umbrella. After the noun 雨 it attaches directly, without だ."
   },
   {
     "id": "make-automatic-q051",
@@ -1934,8 +1934,8 @@
     ],
     "correct": 2,
     "grammarPoint": "かもね",
-    "jpExplanation": "空欄(くうらん)には「かもね」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “かもね” inside a natural conversational reply."
+    "jpExplanation": "「かもね」\nれすとらんはよさそうですが、ねだんがたかいかもしれないと、やわらかくつたえています。",
+    "enExplanation": "かもね is a casual, tentative judgment: the restaurant may be a little expensive. ね invites a shared assessment without insisting on certainty."
   },
   {
     "id": "make-automatic-q052",
@@ -1952,8 +1952,8 @@
     ],
     "correct": 3,
     "grammarPoint": "たぶん",
-    "jpExplanation": "空欄(くうらん)には「たぶん」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “たぶん” inside a natural conversational reply."
+    "jpExplanation": "「たぶん」\nへいじつなので、よやくなしでもはいれるだろうと予想(よそう)しています。かならずはいれるとはいっていません。",
+    "enExplanation": "たぶん is an adverb meaning “probably,” so it fits before 大丈夫だと思う. B predicts that a weekday visit will likely work, while still not guaranteeing a table."
   },
   {
     "id": "make-automatic-q053",
@@ -1970,8 +1970,8 @@
     ],
     "correct": 0,
     "grammarPoint": "個人的(こじんてき)には",
-    "jpExplanation": "空欄(くうらん)には「個人的(こじんてき)には」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “個人的(こじんてき)には” inside a natural conversational reply."
+    "jpExplanation": "「個人的(こじんてき)には」\nどちらがすきかという自分(じぶん)こじんの意見(いけん)をつたえています。みんなにとってのせいかいではありません。",
+    "enExplanation": "個人的には marks the preference as B's own view, not a universal judgment about which option is better. Other perspective phrases can be grammatical, but this one directly means “personally.”"
   },
   {
     "id": "make-automatic-q054",
@@ -1988,8 +1988,8 @@
     ],
     "correct": 1,
     "grammarPoint": "私(わたし)の場合(ばあい)は",
-    "jpExplanation": "空欄(くうらん)には「私(わたし)の場合(ばあい)は」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “私(わたし)の場合(ばあい)は” inside a natural conversational reply."
+    "jpExplanation": "「私(わたし)の場合(ばあい)は」\nべんきょうする時間(じかん)について、自分(じぶん)の実際(じっさい)の場合(ばあい)をれいにしています。",
+    "enExplanation": "私の場合は bases the answer on B's actual experience: mornings work better for them. 私だったら imagines what B would do in a situation instead."
   },
   {
     "id": "make-automatic-q055",
@@ -2006,8 +2006,8 @@
     ],
     "correct": 2,
     "grammarPoint": "私(わたし)だったら",
-    "jpExplanation": "空欄(くうらん)には「私(わたし)だったら」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “私(わたし)だったら” inside a natural conversational reply."
+    "jpExplanation": "「私(わたし)だったら」\n自分(じぶん)が相手(あいて)のたちばだったら、でんしゃを選(えら)ぶという意見(いけん)をつたえています。",
+    "enExplanation": "私だったら offers hypothetical advice: if B were making A's journey, they would take the train. 私の場合は would describe B's own actual circumstances instead."
   },
   {
     "id": "make-automatic-q056",
@@ -2024,8 +2024,8 @@
     ],
     "correct": 3,
     "grammarPoint": "どっちかというと",
-    "jpExplanation": "空欄(くうらん)には「どっちかというと」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “どっちかというと” inside a natural conversational reply."
+    "jpExplanation": "「どっちかというと」\nでかけることといえにいることをくらべ、どちらかを選(えら)ぶならいえがいいとつたえています。",
+    "enExplanation": "どっちかというと expresses a leaning rather than an absolute preference: B tends to prefer staying home. It is the casual form of どちらかというと."
   },
   {
     "id": "make-automatic-q057",
@@ -2042,8 +2042,8 @@
     ],
     "correct": 0,
     "grammarPoint": "のほうが好(す)き",
-    "jpExplanation": "空欄(くうらん)には「のほうが好(す)き」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “のほうが好(す)き” inside a natural conversational reply."
+    "jpExplanation": "「のほうが好(す)き」\nふたつをくらべて、こっちをよりすきだとつたえるかたちです。",
+    "enExplanation": "のほうが好き completes the comparison “I prefer this one.” It follows こっち and directly answers the question about which of the two B likes more."
   },
   {
     "id": "make-automatic-q058",
@@ -2060,8 +2060,8 @@
     ],
     "correct": 1,
     "grammarPoint": "って感(かん)じかな",
-    "jpExplanation": "空欄(くうらん)には「って感(かん)じかな」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “って感(かん)じかな” inside a natural conversational reply."
+    "jpExplanation": "「って感(かん)じかな」\nへやのいんしょうを、しずかでおちつくということばで、おおまかにまとめています。",
+    "enExplanation": "って感じかな gives a loose description of the room: “I'd say it feels quiet and calming.” かな makes the summary tentative rather than exact."
   },
   {
     "id": "make-automatic-q059",
@@ -2078,8 +2078,8 @@
     ],
     "correct": 2,
     "grammarPoint": "んじゃないかな",
-    "jpExplanation": "空欄(くうらん)には「んじゃないかな」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “んじゃないかな” inside a natural conversational reply."
+    "jpExplanation": "「んじゃないかな」\nすがたがみえないことをてがかりに、もうかえったのではないかとすいそくしています。",
+    "enExplanation": "んじゃないかな expresses a cautious inference: Yamada is no longer visible, so B guesses they have left. It is not a definite report of seeing them leave."
   },
   {
     "id": "make-automatic-q060",
@@ -2096,8 +2096,8 @@
     ],
     "correct": 3,
     "grammarPoint": "と思(おも)うんだけど",
-    "jpExplanation": "空欄(くうらん)には「と思(おも)うんだけど」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “と思(おも)うんだけど” inside a natural conversational reply."
+    "jpExplanation": "「と思(おも)うんだけど」\nもういちどれんらくする提案(ていあん)にたいして、すこしまつほうがいいとやわらかくつたえています。",
+    "enExplanation": "と思うんだけど softly presents a different opinion: wait rather than contact again. んだけど leaves room for A's response; the following reason supports B's suggestion."
   },
   {
     "id": "make-automatic-q061",
@@ -2114,8 +2114,8 @@
     ],
     "correct": 0,
     "grammarPoint": "んだけど",
-    "jpExplanation": "空欄(くうらん)には「んだけど」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “んだけど” inside a natural conversational reply."
+    "jpExplanation": "「んだけど」\nきょういけないというじじょうを、やわらかく説明(せつめい)しています。ぐたいてきな理由(りゆう)はまだいっていません。",
+    "enExplanation": "んだけど supplies explanatory background and leaves the reply open: B cannot go today. It does not itself state a specific cause; から would instead directly mark a reason."
   },
   {
     "id": "make-automatic-q062",
@@ -2132,8 +2132,8 @@
     ],
     "correct": 1,
     "grammarPoint": "んだよね",
-    "jpExplanation": "空欄(くうらん)には「んだよね」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “んだよね” inside a natural conversational reply."
+    "jpExplanation": "「んだよね」\nさいきんいそがしいという自分(じぶん)の状況(じょうきょう)を、相手(あいて)に説明(せつめい)するようにつたえています。",
+    "enExplanation": "んだよね explains B's situation in an informal, reflective tone: they have been busy lately. The phrase adds explanatory nuance rather than just making a bare statement."
   },
   {
     "id": "make-automatic-q063",
@@ -2150,8 +2150,8 @@
     ],
     "correct": 2,
     "grammarPoint": "から",
-    "jpExplanation": "空欄(くうらん)には「から」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “から” inside a natural conversational reply."
+    "jpExplanation": "「から」\nあしたはやいことを、理由(りゆう)としてつたえています。かいわでは、そのあとの結果(けっか)をいわないこともあります。",
+    "enExplanation": "から directly states the reason: tomorrow starts early. In casual conversation the consequence can be omitted because the question already asks why; し would present this as one reason among others."
   },
   {
     "id": "make-automatic-q064",
@@ -2168,8 +2168,8 @@
     ],
     "correct": 3,
     "grammarPoint": "からだと思(おも)う",
-    "jpExplanation": "空欄(くうらん)には「からだと思(おも)う」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “からだと思(おも)う” inside a natural conversational reply."
+    "jpExplanation": "「からだと思(おも)う」\nねぶそくが理由(りゆう)だと思(おも)っていますが、たしかな理由(りゆう)だといいきってはいません。",
+    "enExplanation": "からだと思う offers a tentative explanation: B thinks lack of sleep is the cause. The existing だ gives 寝不足だからだと思う; と思う prevents treating the cause as certain."
   },
   {
     "id": "make-automatic-q065",
@@ -2186,8 +2186,8 @@
     ],
     "correct": 0,
     "grammarPoint": "ので",
-    "jpExplanation": "空欄(くうらん)には「ので」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “ので” inside a natural conversational reply."
+    "jpExplanation": "「ので」\nあめがふっていることを、でんしゃでいく理由(りゆう)として説明(せつめい)しています。",
+    "enExplanation": "ので links the rain to the decision to take the train. It presents the circumstance as the explanation; し could instead list rain as one supporting reason."
   },
   {
     "id": "make-automatic-q066",
@@ -2204,8 +2204,8 @@
     ],
     "correct": 1,
     "grammarPoint": "し",
-    "jpExplanation": "空欄(くうらん)には「し」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “し” inside a natural conversational reply."
+    "jpExplanation": "「し」\nやすいこととえきにちかいことを、理由(りゆう)としてならべています。ほかにも理由(りゆう)がありそうなかんじです。",
+    "enExplanation": "し lists supporting reasons: cheap and close to the station. Repeating し suggests these are not necessarily the only advantages, rather than a single exclusive cause."
   },
   {
     "id": "make-automatic-q067",
@@ -2222,8 +2222,8 @@
     ],
     "correct": 2,
     "grammarPoint": "っていうのは",
-    "jpExplanation": "空欄(くうらん)には「っていうのは」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “っていうのは” inside a natural conversational reply."
+    "jpExplanation": "「っていうのは」\nもちかえりということばをとりあげて、そのいみを説明(せつめい)しています。",
+    "enExplanation": "っていうのは introduces a term as the topic of a definition: “what takeaway means is…” It is a conversational version of というのは."
   },
   {
     "id": "make-automatic-q068",
@@ -2240,8 +2240,8 @@
     ],
     "correct": 3,
     "grammarPoint": "という意味(いみ)",
-    "jpExplanation": "空欄(くうらん)には「という意味(いみ)」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “という意味(いみ)” inside a natural conversational reply."
+    "jpExplanation": "「という意味(いみ)」\nふりーということばが、むりょうといういみだと説明(せつめい)しています。",
+    "enExplanation": "という意味 defines the English word as “free of charge.” 無料 is the meaning being quoted; this is not a reason, comparison, or rejection of an interpretation."
   },
   {
     "id": "make-automatic-q069",
@@ -2258,8 +2258,8 @@
     ],
     "correct": 0,
     "grammarPoint": "そういう意味(いみ)じゃなくて",
-    "jpExplanation": "空欄(くうらん)には「そういう意味(いみ)じゃなくて」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “そういう意味(いみ)じゃなくて” inside a natural conversational reply."
+    "jpExplanation": "「そういう意味(いみ)じゃなくて」\n仕事(しごと)がきらいといういみではないと、相手(あいて)のことばのうけとりかたをなおしています。",
+    "enExplanation": "そういう意味じゃなくて corrects how A interpreted B's words: B did not mean the job was hated. It often leads into clarification; ending at て is common in conversation."
   },
   {
     "id": "make-automatic-q070",
@@ -2276,8 +2276,8 @@
     ],
     "correct": 1,
     "grammarPoint": "そういうことじゃなくて",
-    "jpExplanation": "空欄(くうらん)には「そういうことじゃなくて」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “そういうことじゃなくて” inside a natural conversational reply."
+    "jpExplanation": "「そういうことじゃなくて」\nもうあいたくないという結論(けつろん)はちがうとつたえています。いみよりも、状況(じょうきょう)の理解(りかい)をなおすかんじです。",
+    "enExplanation": "そういうことじゃなくて rejects A's conclusion that B never wants to meet again. 意味 focuses on the meaning of words; こと often focuses on the situation or conclusion. Both may overlap in real conversation."
   },
   {
     "id": "make-automatic-q071",
@@ -2294,8 +2294,8 @@
     ],
     "correct": 2,
     "grammarPoint": "わけじゃない",
-    "jpExplanation": "空欄(くうらん)には「わけじゃない」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “わけじゃない” inside a natural conversational reply."
+    "jpExplanation": "「わけじゃない」\nきらいだという理解(りかい)を否定(ひてい)しています。きらいではないことと、すきなことはおなじではありません。",
+    "enExplanation": "わけじゃない denies the interpretation “I dislike it.” 嫌い is a な-adjective, so 嫌いなわけじゃない is the required connection here; this does not necessarily mean B likes the food."
   },
   {
     "id": "make-automatic-q072",
@@ -2312,8 +2312,8 @@
     ],
     "correct": 3,
     "grammarPoint": "わけじゃないけど",
-    "jpExplanation": "空欄(くうらん)には「わけじゃないけど」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “わけじゃないけど” inside a natural conversational reply."
+    "jpExplanation": "「わけじゃないけど」\nきらいというわけではないと否定(ひてい)してから、もういちどはみないというべつの意見(いけん)をくわえています。",
+    "enExplanation": "わけじゃないけど first denies disliking the film, then introduces a qualification: B would not watch it again. けど is needed to connect that contrast naturally."
   },
   {
     "id": "make-automatic-q073",
@@ -2330,8 +2330,8 @@
     ],
     "correct": 0,
     "grammarPoint": "別(べつ)に",
-    "jpExplanation": "空欄(くうらん)には「別(べつ)に」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “別(べつ)に” inside a natural conversational reply."
+    "jpExplanation": "「別(べつ)に」\nとくにおこっているわけではないとつたえています。いいかたによっては、そっけなくきこえることもあります。",
+    "enExplanation": "別に strengthens the negative reassurance “I'm not particularly angry.” It works with the following negative わけじゃない; said bluntly, it can also sound dismissive."
   },
   {
     "id": "make-automatic-q074",
@@ -2348,8 +2348,8 @@
     ],
     "correct": 1,
     "grammarPoint": "っていうより",
-    "jpExplanation": "空欄(くうらん)には「っていうより」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “っていうより” inside a natural conversational reply."
+    "jpExplanation": "「っていうより」\nべんりというより、つかいやすいといったほうがちかいと、表現(ひょうげん)をいいなおしています。",
+    "enExplanation": "っていうより revises “convenient” to the more accurate description “easy to use.” It compares labels, rather than merely giving a reason for the first label."
   },
   {
     "id": "make-automatic-q075",
@@ -2366,8 +2366,8 @@
     ],
     "correct": 2,
     "grammarPoint": "どちらかというと",
-    "jpExplanation": "空欄(くうらん)には「どちらかというと」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “どちらかというと” inside a natural conversational reply."
+    "jpExplanation": "「どちらかというと」\nにぎやかなみせとしずかなみせをくらべ、どちらかを選(えら)ぶならしずかなほうがすきだとつたえています。",
+    "enExplanation": "どちらかというと gives a qualified preference between the two kinds of shop. B leans toward quiet places, without saying lively places are always disliked."
   },
   {
     "id": "make-automatic-q076",
@@ -2384,8 +2384,8 @@
     ],
     "correct": 3,
     "grammarPoint": "いつも",
-    "jpExplanation": "空欄(くうらん)には「いつも」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “いつも” inside a natural conversational reply."
+    "jpExplanation": "「いつも」\nまいあさの習慣(しゅうかん)をつたえています。しちじごろなので、時間(じかん)がまったくおなじといういみではありません。",
+    "enExplanation": "いつも describes a regular routine: getting up around seven every morning. 普段は and だいたい can also be natural; the intended emphasis here is consistency, not an exact time to the minute."
   },
   {
     "id": "make-automatic-q077",
@@ -2402,8 +2402,8 @@
     ],
     "correct": 0,
     "grammarPoint": "普段(ふだん)は",
-    "jpExplanation": "空欄(くうらん)には「普段(ふだん)は」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “普段(ふだん)は” inside a natural conversational reply."
+    "jpExplanation": "「普段(ふだん)は」\nいつものひるごはんのすごしかたをつたえています。まいかいかならずいえでたべるとはかぎりません。",
+    "enExplanation": "普段は describes the usual pattern, leaving room for exceptions: lunch is normally eaten at home. よく describes frequency, while 普段は sets the normal situation as the topic."
   },
   {
     "id": "make-automatic-q078",
@@ -2420,8 +2420,8 @@
     ],
     "correct": 1,
     "grammarPoint": "だいたい",
-    "jpExplanation": "空欄(くうらん)には「だいたい」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “だいたい” inside a natural conversational reply."
+    "jpExplanation": "「だいたい」\nじむにいくかいすうが、およそしゅうさんかいだとつたえています。",
+    "enExplanation": "だいたい makes the number approximate: about three gym visits a week. It concerns the estimate, unlike よく, which indicates frequency without specifying a count."
   },
   {
     "id": "make-automatic-q079",
@@ -2438,8 +2438,8 @@
     ],
     "correct": 2,
     "grammarPoint": "よく",
-    "jpExplanation": "空欄(くうらん)には「よく」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “よく” inside a natural conversational reply."
+    "jpExplanation": "「よく」\nえきまえのみせに、なんどもよくいっていることをつたえています。",
+    "enExplanation": "よく indicates frequent visits to the station-front shop. たまに and 時々 would describe less frequent visits, so they would change the intended frequency."
   },
   {
     "id": "make-automatic-q080",
@@ -2456,8 +2456,8 @@
     ],
     "correct": 3,
     "grammarPoint": "たまに",
-    "jpExplanation": "空欄(くうらん)には「たまに」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “たまに” inside a natural conversational reply."
+    "jpExplanation": "「たまに」\n自分(じぶん)でかれーをつくることはありますが、かいすうはすくないとつたえています。",
+    "enExplanation": "たまに means B cooks curry occasionally, not regularly. 時々 may also fit; たまに usually emphasises that it happens relatively infrequently."
   },
   {
     "id": "make-automatic-q081",
@@ -2474,8 +2474,8 @@
     ],
     "correct": 0,
     "grammarPoint": "時々(ときどき)",
-    "jpExplanation": "空欄(くうらん)には「時々(ときどき)」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “時々(ときどき)” inside a natural conversational reply."
+    "jpExplanation": "「時々(ときどき)」\nみかさんとは、まいにちではなく、ときどき仕事(しごと)のあとであっているとつたえています。",
+    "enExplanation": "時々 describes meeting Mika from time to time after work. たまに can overlap, but often suggests a lower frequency; neither means it happens every day."
   },
   {
     "id": "make-automatic-q082",
@@ -2492,8 +2492,8 @@
     ],
     "correct": 1,
     "grammarPoint": "あまり",
-    "jpExplanation": "空欄(くうらん)には「あまり」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “あまり” inside a natural conversational reply."
+    "jpExplanation": "「あまり」\nあまりと否定(ひてい)のかたちをくみあわせて、あさごはんをたべるかいすうがすくないことをしめしています。",
+    "enExplanation": "あまり with a negative verb means “not much / not often”: B does not often eat breakfast. ほとんど食べない would be stronger, close to “hardly ever.”"
   },
   {
     "id": "make-automatic-q083",
@@ -2510,8 +2510,8 @@
     ],
     "correct": 2,
     "grammarPoint": "ほとんど",
-    "jpExplanation": "空欄(くうらん)には「ほとんど」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “ほとんど” inside a natural conversational reply."
+    "jpExplanation": "「ほとんど」\nほとんどみないので、てれびをみるかいすうが、ほぼないことをつたえています。",
+    "enExplanation": "ほとんど with 見ない means “almost never.” It describes near-zero TV watching; あまり見ない would leave more room for occasional watching."
   },
   {
     "id": "make-automatic-q084",
@@ -2528,8 +2528,8 @@
     ],
     "correct": 3,
     "grammarPoint": "ことが多(おお)い",
-    "jpExplanation": "空欄(くうらん)には「ことが多(おお)い」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “ことが多(おお)い” inside a natural conversational reply."
+    "jpExplanation": "「ことが多(おお)い」\nそとでたべることが、仕事(しごと)のひにはおおいとつたえています。たまにあるだけとはちがいます。",
+    "enExplanation": "ことが多い follows a plain-form verb to describe a common occurrence: B often eats dinner out. こともある would only say that it happens sometimes."
   },
   {
     "id": "make-automatic-q085",
@@ -2546,8 +2546,8 @@
     ],
     "correct": 0,
     "grammarPoint": "こともある",
-    "jpExplanation": "空欄(くうらん)には「こともある」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “こともある” inside a natural conversational reply."
+    "jpExplanation": "「こともある」\nしゅうまつもはたらく場合(ばあい)があるので、かならずやすめるわけではないとつたえています。",
+    "enExplanation": "こともある shows that working on weekends is one possible occurrence. It directly counters 必ず休める without claiming B always works then."
   },
   {
     "id": "make-automatic-q086",
@@ -2564,8 +2564,8 @@
     ],
     "correct": 1,
     "grammarPoint": "最近(さいきん)",
-    "jpExplanation": "空欄(くうらん)には「最近(さいきん)」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “最近(さいきん)” inside a natural conversational reply."
+    "jpExplanation": "「最近(さいきん)」\nさいきんよくあるいていることを、まえよりげんきになった理由(りゆう)としてつたえています。",
+    "enExplanation": "最近 locates the increased walking in the recent period and helps explain why B seems healthier. 前は or 昔は would move the activity to the past instead."
   },
   {
     "id": "make-automatic-q087",
@@ -2582,8 +2582,8 @@
     ],
     "correct": 2,
     "grammarPoint": "最近(さいきん)はあまり",
-    "jpExplanation": "空欄(くうらん)には「最近(さいきん)はあまり」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “最近(さいきん)はあまり” inside a natural conversational reply."
+    "jpExplanation": "「最近(さいきん)はあまり」\nさいきんという時間(じかん)のはんいで、おさけをのむかいすうがすくないことをつたえています。",
+    "enExplanation": "最近はあまり combines a recent-time topic with low frequency and a negative verb. It means B has not been drinking much lately, without saying never."
   },
   {
     "id": "make-automatic-q088",
@@ -2600,8 +2600,8 @@
     ],
     "correct": 3,
     "grammarPoint": "最近(さいきん)",
-    "jpExplanation": "空欄(くうらん)には「最近(さいきん)」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “最近(さいきん)” inside a natural conversational reply."
+    "jpExplanation": "「最近(さいきん)」\nはやくおきるというあたらしい習慣(しゅうかん)が、さいきんできたことをつたえています。",
+    "enExplanation": "最近 places the new early-rising habit in the present recent period. ようになった marks the change; 前は or 昔は would refer to an earlier period instead."
   },
   {
     "id": "make-automatic-q089",
@@ -2618,8 +2618,8 @@
     ],
     "correct": 0,
     "grammarPoint": "前(まえ)は",
-    "jpExplanation": "空欄(くうらん)には「前(まえ)は」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “前(まえ)は” inside a natural conversational reply."
+    "jpExplanation": "「前(まえ)は」\nまえのまいにちの習慣(しゅうかん)と、いまのたまにしかのまない習慣(しゅうかん)をくらべています。",
+    "enExplanation": "前は contrasts a former habit with 今: B used to drink coffee daily but now rarely does. 昔は may also be possible, but often suggests a more distant past."
   },
   {
     "id": "make-automatic-q090",
@@ -2636,8 +2636,8 @@
     ],
     "correct": 1,
     "grammarPoint": "昔(むかし)は",
-    "jpExplanation": "空欄(くうらん)には「昔(むかし)は」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “昔(むかし)は” inside a natural conversational reply."
+    "jpExplanation": "「昔(むかし)は」\nいまではなく、まえのじんせいのあるじきに、このちかくにすんでいたとつたえています。",
+    "enExplanation": "昔は refers to an earlier period when B lived nearby, explaining their local knowledge. It often suggests a more distant past than 前は; no exact number of years is implied."
   },
   {
     "id": "make-automatic-q091",
@@ -2654,8 +2654,8 @@
     ],
     "correct": 2,
     "grammarPoint": "ようになった",
-    "jpExplanation": "空欄(くうらん)には「ようになった」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “ようになった” inside a natural conversational reply."
+    "jpExplanation": "「ようになった」\nまえとはかわって、いまは自分(じぶん)でりょうりする習慣(しゅうかん)ができたことをしめしています。",
+    "enExplanation": "ようになった marks a change in habit: B now cooks for themselves. It follows the dictionary form 料理する; なくなった would describe stopping a habit."
   },
   {
     "id": "make-automatic-q092",
@@ -2672,8 +2672,8 @@
     ],
     "correct": 3,
     "grammarPoint": "なくなった",
-    "jpExplanation": "空欄(くうらん)には「なくなった」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “なくなった” inside a natural conversational reply."
+    "jpExplanation": "「なくなった」\nまえにはのんでいたこーひーを、いまはのまないようになったとつたえています。",
+    "enExplanation": "なくなった expresses that a previous activity has stopped. 飲ま plus なくなった forms 飲まなくなった: B no longer drinks coffee."
   },
   {
     "id": "make-automatic-q093",
@@ -2690,8 +2690,8 @@
     ],
     "correct": 0,
     "grammarPoint": "てきた",
-    "jpExplanation": "空欄(くうらん)には「てきた」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “てきた” inside a natural conversational reply."
+    "jpExplanation": "「てきた」\nあたたかくなる変化(へんか)が、すこしずついままでつづいてきたことをしめしています。",
+    "enExplanation": "てきた connects a gradual change with the present: it has been getting warmer. なっ plus てきた forms なってきた; きた here describes development, not physical arrival."
   },
   {
     "id": "make-automatic-q094",
@@ -2708,8 +2708,8 @@
     ],
     "correct": 1,
     "grammarPoint": "に慣(な)れてきた",
-    "jpExplanation": "空欄(くうらん)には「に慣(な)れてきた」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “に慣(な)れてきた” inside a natural conversational reply."
+    "jpExplanation": "「に慣(な)れてきた」\nあたらしい仕事(しごと)に、すこしずつなじんできたことをつたえています。まだ変化(へんか)のとちゅうというかんじです。",
+    "enExplanation": "に慣れてきた describes adjustment still developing: B is getting used to the new job. に marks what they are adjusting to; に慣れた would emphasise an already achieved state."
   },
   {
     "id": "make-automatic-q095",
@@ -2726,8 +2726,8 @@
     ],
     "correct": 2,
     "grammarPoint": "に慣(な)れた",
-    "jpExplanation": "空欄(くうらん)には「に慣(な)れた」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “に慣(な)れた” inside a natural conversational reply."
+    "jpExplanation": "「に慣(な)れた」\nもうひとりぐらしになじんだという、変化(へんか)のあとの状態(じょうたい)をつたえています。",
+    "enExplanation": "に慣れた describes an achieved adjustment, supported by もう: B is now used to living alone. に慣れてきた would emphasise the gradual process instead."
   },
   {
     "id": "make-automatic-q096",
@@ -2744,8 +2744,8 @@
     ],
     "correct": 3,
     "grammarPoint": "だんだん",
-    "jpExplanation": "空欄(くうらん)には「だんだん」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “だんだん” inside a natural conversational reply."
+    "jpExplanation": "「だんだん」\n時間(じかん)がたつにつれて、理解(りかい)がすすんできたことをつたえています。",
+    "enExplanation": "だんだん describes gradual development: understanding is growing over time. 少しずつ can also fit; だんだん focuses on the unfolding change rather than small individual increments."
   },
   {
     "id": "make-automatic-q097",
@@ -2762,8 +2762,8 @@
     ],
     "correct": 0,
     "grammarPoint": "少(すこ)しずつ",
-    "jpExplanation": "空欄(くうらん)には「少(すこ)しずつ」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “少(すこ)しずつ” inside a natural conversational reply."
+    "jpExplanation": "「少(すこ)しずつ」\nはなせるちからが、ちいさな段階(だんかい)をかさねてのびてきたことをつたえています。",
+    "enExplanation": "少しずつ emphasises small increments in speaking ability. だんだん is similar, but 少しずつ highlights gaining a little ability at a time."
   },
   {
     "id": "make-automatic-q098",
@@ -2780,8 +2780,8 @@
     ],
     "correct": 1,
     "grammarPoint": "前(まえ)より",
-    "jpExplanation": "空欄(くうらん)には「前(まえ)より」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “前(まえ)より” inside a natural conversational reply."
+    "jpExplanation": "「前(まえ)より」\nつかれかたをまえとくらべて、いまのほうがつかれにくいとつたえています。",
+    "enExplanation": "前より supplies a comparison with the past: B gets less tired than before. だいぶ could describe a large change, but would not explicitly identify the comparison baseline."
   },
   {
     "id": "make-automatic-q099",
@@ -2798,8 +2798,8 @@
     ],
     "correct": 2,
     "grammarPoint": "だいぶ",
-    "jpExplanation": "空欄(くうらん)には「だいぶ」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “だいぶ” inside a natural conversational reply."
+    "jpExplanation": "「だいぶ」\nらくになった変化(へんか)が、ちいさくなく、かなりおおきいことをつたえています。",
+    "enExplanation": "だいぶ marks a substantial improvement: things have become considerably easier. It describes the size of the change, whereas 少しずつ describes its progression."
   },
   {
     "id": "make-automatic-q100",
@@ -2816,8 +2816,8 @@
     ],
     "correct": 3,
     "grammarPoint": "まだ",
-    "jpExplanation": "空欄(くうらん)には「まだ」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “まだ” inside a natural conversational reply."
+    "jpExplanation": "「まだ」\nひっこしのじゅんびが、いまの時点(じてん)では完了(かんりょう)していないことをつたえています。",
+    "enExplanation": "まだ with 終わってない means the expected completion has not happened yet. It leaves open that the packing will be completed later."
   },
   {
     "id": "make-automatic-q101",
@@ -2834,8 +2834,8 @@
     ],
     "correct": 0,
     "grammarPoint": "たことがある",
-    "jpExplanation": "空欄(くうらん)には「たことがある」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “たことがある” inside a natural conversational reply."
+    "jpExplanation": "「たことがある」\nほっかいどうにいった経験(けいけん)があるとつたえています。いついったかは、このかたちだけではわかりません。",
+    "enExplanation": "たことがある expresses past experience: B has visited Hokkaido at least once. 行っ plus た forms 行った; the construction does not specify when the visit happened."
   },
   {
     "id": "make-automatic-q102",
@@ -2852,8 +2852,8 @@
     ],
     "correct": 1,
     "grammarPoint": "たことない",
-    "jpExplanation": "空欄(くうらん)には「たことない」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “たことない” inside a natural conversational reply."
+    "jpExplanation": "「たことない」\nなっとうをたべた経験(けいけん)が、いちどもないとつたえています。がをぬいたかじゅあるなかたちです。",
+    "enExplanation": "たことない is the casual omission of が in たことがない. 食べたことない means B has never tried natto; it is not simply saying B did not eat it on one particular day."
   },
   {
     "id": "make-automatic-q103",
@@ -2870,8 +2870,8 @@
     ],
     "correct": 2,
     "grammarPoint": "たことある？",
-    "jpExplanation": "空欄(くうらん)には「たことある？」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “たことある？” inside a natural conversational reply."
+    "jpExplanation": "「たことある？」\nひとりでりょこうした経験(けいけん)があるか、かじゅあるにたずねています。",
+    "enExplanation": "たことある？ asks about experience in casual speech. 旅行したことある？ asks whether A has ever travelled alone, without requiring a date or count."
   },
   {
     "id": "make-automatic-q104",
@@ -2888,8 +2888,8 @@
     ],
     "correct": 3,
     "grammarPoint": "一回(いっかい)だけ",
-    "jpExplanation": "空欄(くうらん)には「一回(いっかい)だけ」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “一回(いっかい)だけ” inside a natural conversational reply."
+    "jpExplanation": "「一回(いっかい)だけ」\nそのみせにいったかいすうが、いっかいしかないとつたえています。",
+    "enExplanation": "一回だけ limits the total visits to exactly one. It answers the contrast with よく行く; この前 would only identify a recent occasion, not the total frequency."
   },
   {
     "id": "make-automatic-q105",
@@ -2906,8 +2906,8 @@
     ],
     "correct": 0,
     "grammarPoint": "何回(なんかい)か",
-    "jpExplanation": "空欄(くうらん)には「何回(なんかい)か」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “何回(なんかい)か” inside a natural conversational reply."
+    "jpExplanation": "「何回(なんかい)か」\nさとうさんとは、いちどではなく、なんかいかあった経験(けいけん)があるとつたえています。",
+    "enExplanation": "何回か means an unspecified number of visits, usually several. It supports being acquainted with Sato without claiming a precise count."
   },
   {
     "id": "make-automatic-q106",
@@ -2924,8 +2924,8 @@
     ],
     "correct": 1,
     "grammarPoint": "初(はじ)めて",
-    "jpExplanation": "空欄(くうらん)には「初(はじ)めて」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “初(はじ)めて” inside a natural conversational reply."
+    "jpExplanation": "「初(はじ)めて」\nそのたべものをさいしょにたべたのが、きょねんだったとつたえています。",
+    "enExplanation": "初めて marks last year as the first occasion B ate the food. The point is when the experience began, rather than how many times it later happened."
   },
   {
     "id": "make-automatic-q107",
@@ -2942,8 +2942,8 @@
     ],
     "correct": 2,
     "grammarPoint": "この前(まえ)",
-    "jpExplanation": "空欄(くうらん)には「この前(まえ)」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “この前(まえ)” inside a natural conversational reply."
+    "jpExplanation": "「この前(まえ)」\nさいきんのあるひに、えきでやまださんにあったとつたえています。",
+    "enExplanation": "この前 refers to a recent past occasion, matching A's 最近 question. 前に is broader and does not itself suggest the meeting was recent."
   },
   {
     "id": "make-automatic-q108",
@@ -2960,8 +2960,8 @@
     ],
     "correct": 3,
     "grammarPoint": "前(まえ)に",
-    "jpExplanation": "空欄(くうらん)には「前(まえ)に」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “前(まえ)に” inside a natural conversational reply."
+    "jpExplanation": "「前(まえ)に」\nいまよりまえに、そのえいがをいちどみた経験(けいけん)があるとつたえています。",
+    "enExplanation": "前に locates the viewing at some earlier time, without an exact date. It fits before 一度見たことがある, while たことがある cannot be placed there as a second verb ending."
   },
   {
     "id": "make-automatic-q109",
@@ -2978,8 +2978,8 @@
     ],
     "correct": 0,
     "grammarPoint": "た時(とき)に",
-    "jpExplanation": "空欄(くうらん)には「た時(とき)に」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “た時(とき)に” inside a natural conversational reply."
+    "jpExplanation": "「た時(とき)に」\nにほんにきたときが、とけいをかった時間(じかん)だと説明(せつめい)しています。",
+    "enExplanation": "た時に makes the arrival in Japan the time of buying the watch. 来 plus た forms 来た, read きた here; it introduces a specific event rather than general experience."
   },
   {
     "id": "make-automatic-q110",
@@ -2996,8 +2996,8 @@
     ],
     "correct": 1,
     "grammarPoint": "た時(とき)は",
-    "jpExplanation": "空欄(くうらん)には「た時(とき)は」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “た時(とき)は” inside a natural conversational reply."
+    "jpExplanation": "「た時(とき)は」\nはじめていったときをとりあげて、そのときのきもちを説明(せつめい)しています。",
+    "enExplanation": "た時は sets the first solo visit as the topic for describing nervousness. に marks the time of an event; は brings that occasion forward for comment."
   },
   {
     "id": "make-automatic-q111",
@@ -3014,8 +3014,8 @@
     ],
     "correct": 2,
     "grammarPoint": "たい",
-    "jpExplanation": "空欄(くうらん)には「たい」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “たい” inside a natural conversational reply."
+    "jpExplanation": "「たい」\nいつかおきなわにいきたいという、自分(じぶん)のねがいをつたえています。いきというかたちにつながります。",
+    "enExplanation": "たい expresses the desire to go someday and attaches to the verb stem 行き. てみたい would need 行って, and つもり would need the dictionary form 行く."
   },
   {
     "id": "make-automatic-q112",
@@ -3032,8 +3032,8 @@
     ],
     "correct": 3,
     "grammarPoint": "てみたい",
-    "jpExplanation": "空欄(くうらん)には「てみたい」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “てみたい” inside a natural conversational reply."
+    "jpExplanation": "「てみたい」\nよがをいちどためしてみたいというきもちをつたえています。",
+    "enExplanation": "てみたい expresses wanting to try an activity to see what it is like. やっ plus てみたい forms やってみたい; 一回 reinforces trying it once."
   },
   {
     "id": "make-automatic-q113",
@@ -3041,17 +3041,17 @@
     "page": "Automatic 4",
     "type": "fill-blank",
     "difficulty": 3,
-    "question": "A：来年(らいねん)は何(なに)か予定(よてい)ある？\nB：うん、日本(にほん)に行(い)こ＿＿＿。\n\nA: Do you have any plans for next year?\nB: Yeah, I'm planning to go to Japan.\n\nChoose the most natural chunk for the blank.",
+    "question": "A：来年(らいねん)は何(なに)か予定(よてい)ある？\nB：うん、日本(にほん)に＿＿＿。\n\nA: Do you have any plans for next year?\nB: Yeah, I'm planning to go to Japan.\n\nChoose the most natural chunk for the blank.",
     "answers": [
-      "ようと思(おも)ってる",
+      "行(い)こうと思(おも)ってる",
       "つもり",
       "予定(よてい)",
       "できれば"
     ],
     "correct": 0,
     "grammarPoint": "ようと思(おも)ってる",
-    "jpExplanation": "空欄(くうらん)には「ようと思(おも)ってる」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “ようと思(おも)ってる” inside a natural conversational reply."
+    "jpExplanation": "「行(い)こうと思(おも)ってる」\nいこうというかたちをつかって、にほんへいくつもりでかんがえていることをつたえています。",
+    "enExplanation": "行こうと思ってる states a current intention to go to Japan. 行こう is the volitional form of 行く, and と思ってる means the speaker is considering or intending it; it does not guarantee a booking."
   },
   {
     "id": "make-automatic-q114",
@@ -3068,8 +3068,8 @@
     ],
     "correct": 1,
     "grammarPoint": "つもり",
-    "jpExplanation": "空欄(くうらん)には「つもり」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “つもり” inside a natural conversational reply."
+    "jpExplanation": "「つもり」\nことしはくるまをかわないという、自分(じぶん)のいしをつたえています。",
+    "enExplanation": "つもり after 買わない states a negative intention: B does not intend to buy a car this year. 予定 could also describe a negative plan, but つもり emphasises the speaker's intention."
   },
   {
     "id": "make-automatic-q115",
@@ -3086,8 +3086,8 @@
     ],
     "correct": 2,
     "grammarPoint": "予定(よてい)",
-    "jpExplanation": "空欄(くうらん)には「予定(よてい)」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “予定(よてい)” inside a natural conversational reply."
+    "jpExplanation": "「予定(よてい)」\nともだちとあうことが、らいしゅうの予定(よてい)にあるとつたえています。",
+    "enExplanation": "予定 describes an arranged or scheduled future activity. 会う予定 gives the plan to meet a friend; つもり would put more emphasis on personal intention."
   },
   {
     "id": "make-automatic-q116",
@@ -3104,8 +3104,8 @@
     ],
     "correct": 3,
     "grammarPoint": "できれば",
-    "jpExplanation": "空欄(くうらん)には「できれば」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “できれば” inside a natural conversational reply."
+    "jpExplanation": "「できれば」\nかのうならまどがわがいいとつたえ、つよいようきゅうにならないようにしています。",
+    "enExplanation": "できれば makes a preference conditional on possibility: a window seat if available. It is a softer request, not a demand that the seat must be provided."
   },
   {
     "id": "make-automatic-q117",
@@ -3122,8 +3122,8 @@
     ],
     "correct": 0,
     "grammarPoint": "せっかくだから",
-    "jpExplanation": "空欄(くうらん)には「せっかくだから」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “せっかくだから” inside a natural conversational reply."
+    "jpExplanation": "「せっかくだから」\nにほんでしかたべられないという、いまのきかいをむだにしないように、ためそうとしています。",
+    "enExplanation": "せっかくだから means taking advantage of a worthwhile opportunity: the food is available only in Japan, so try it while there. It is not just an unspecified future wish."
   },
   {
     "id": "make-automatic-q118",
@@ -3140,8 +3140,8 @@
     ],
     "correct": 1,
     "grammarPoint": "いつか",
-    "jpExplanation": "空欄(くうらん)には「いつか」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “いつか” inside a natural conversational reply."
+    "jpExplanation": "「いつか」\n自分(じぶん)のみせをひらくゆめを、まだひにちをきめていない将来(しょうらい)のこととしてはなしています。",
+    "enExplanation": "いつか places the dream in an unspecified future: opening a shop someday. It often suits long-term hopes; そのうち tends to suggest “at some point before too long,” though neither fixes a date."
   },
   {
     "id": "make-automatic-q119",
@@ -3158,8 +3158,8 @@
     ],
     "correct": 2,
     "grammarPoint": "そのうち",
-    "jpExplanation": "空欄(くうらん)には「そのうち」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “そのうち” inside a natural conversational reply."
+    "jpExplanation": "「そのうち」\nはっきりひをきめずに、そのあとでまたあそびにいくつもりだとつたえています。",
+    "enExplanation": "そのうち promises a visit at an unspecified later time. It usually suggests an eventual practical intention; いつか is broader and can be a distant dream."
   },
   {
     "id": "make-automatic-q120",
@@ -3176,8 +3176,8 @@
     ],
     "correct": 3,
     "grammarPoint": "まだ決(き)めてない",
-    "jpExplanation": "空欄(くうらん)には「まだ決(き)めてない」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “まだ決(き)めてない” inside a natural conversational reply."
+    "jpExplanation": "「まだ決(き)めてない」\nこれからどうするかが、いまの時点(じてん)ではきまっていないとつたえています。",
+    "enExplanation": "まだ決めてない directly answers the question about what B will do: no decision has been made yet. It does not mean B has decided to do nothing."
   },
   {
     "id": "make-automatic-q121",
@@ -3185,7 +3185,7 @@
     "page": "Automatic 5",
     "type": "fill-blank",
     "difficulty": 3,
-    "question": "A：熱(ねつ)は下(さ)がったけど、まだ体(からだ)がだるいんだ。\nB：じゃあ、もう少(すこ)し休(やす)ん＿＿＿。\n\nA: My fever is down, but I still feel weak.\nB: Then you should rest a little more.\n\nChoose the most natural chunk for the blank.",
+    "question": "A：熱(ねつ)は下(さ)がったけど、まだ体(からだ)がだるいんだ。\nB：じゃあ、もう少(すこ)し休(やす)みを取(と)っ＿＿＿。\n\nA: My fever is down, but I still feel weak.\nB: Then you should rest a little more.\n\nChoose the most natural chunk for the blank.",
     "answers": [
       "たほうがいい",
       "ないほうがいい",
@@ -3194,8 +3194,8 @@
     ],
     "correct": 0,
     "grammarPoint": "たほうがいい",
-    "jpExplanation": "空欄(くうらん)には「たほうがいい」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “たほうがいい” inside a natural conversational reply."
+    "jpExplanation": "「たほうがいい」\nまだからだがだるいので、もっとやすむことをすすめています。たのかたちですが、かこのはなしではありません。",
+    "enExplanation": "たほうがいい gives affirmative advice because B still feels weak. 取っ plus た forms 取った: 休みを取ったほうがいい recommends taking more rest. This た form is part of the advice pattern, not a report of past rest."
   },
   {
     "id": "make-automatic-q122",
@@ -3212,8 +3212,8 @@
     ],
     "correct": 1,
     "grammarPoint": "ないほうがいい",
-    "jpExplanation": "空欄(くうらん)には「ないほうがいい」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “ないほうがいい” inside a natural conversational reply."
+    "jpExplanation": "「ないほうがいい」\nよるにひとりであるくことを、しないほうがいいと注意(ちゅうい)しています。",
+    "enExplanation": "ないほうがいい advises against an action: walking alone late at night. It is different from なくてもいい, which only removes an obligation."
   },
   {
     "id": "make-automatic-q123",
@@ -3230,8 +3230,8 @@
     ],
     "correct": 2,
     "grammarPoint": "てもいい",
-    "jpExplanation": "空欄(くうらん)には「てもいい」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “てもいい” inside a natural conversational reply."
+    "jpExplanation": "「てもいい」\nここにすわることを、してもいいと許可(きょか)しています。",
+    "enExplanation": "てもいい gives permission to sit here. 座っ plus ても forms 座っても; it does not say sitting is compulsory or necessary."
   },
   {
     "id": "make-automatic-q124",
@@ -3248,8 +3248,8 @@
     ],
     "correct": 3,
     "grammarPoint": "なくてもいい",
-    "jpExplanation": "空欄(くうらん)には「なくてもいい」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “なくてもいい” inside a natural conversational reply."
+    "jpExplanation": "「なくてもいい」\nあしたくる必要(ひつよう)がないとつたえています。きてはいけないといういみではありません。",
+    "enExplanation": "なくてもいい removes the obligation to come tomorrow. 来なくてもいい means “you don't have to come,” not “you must not come”; coming can still be allowed."
   },
   {
     "id": "make-automatic-q125",
@@ -3266,8 +3266,8 @@
     ],
     "correct": 0,
     "grammarPoint": "なきゃ",
-    "jpExplanation": "空欄(くうらん)には「なきゃ」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “なきゃ” inside a natural conversational reply."
+    "jpExplanation": "「なきゃ」\nいかなければならないをみじかくしたかたちで、いく必要(ひつよう)があるとつたえています。",
+    "enExplanation": "なきゃ is the casual contraction of なければ, with the obligation ending understood. 行かなきゃ means “I've got to go”; it is not simply a wish to leave."
   },
   {
     "id": "make-automatic-q126",
@@ -3284,8 +3284,8 @@
     ],
     "correct": 1,
     "grammarPoint": "ないと",
-    "jpExplanation": "空欄(くうらん)には「ないと」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “ないと” inside a natural conversational reply."
+    "jpExplanation": "「ないと」\nあしたのあさがはやいので、ねる必要(ひつよう)があるとつたえています。ねないといけないの、うしろを省略(しょうりゃく)したかたちです。",
+    "enExplanation": "ないと abbreviates a negative conditional with an understood obligation ending: 寝ないと means “I'd better / have to sleep.” A's early-morning reminder supplies the reason."
   },
   {
     "id": "make-automatic-q127",
@@ -3302,8 +3302,8 @@
     ],
     "correct": 2,
     "grammarPoint": "しかない",
-    "jpExplanation": "空欄(くうらん)には「しかない」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “しかない” inside a natural conversational reply."
+    "jpExplanation": "「しかない」\nでんしゃがとまっているので、まついがいにできることがないとつたえています。",
+    "enExplanation": "しかない follows the dictionary form 待つ and means there is no other available option. It describes necessity from lack of alternatives, rather than a freely chosen plan."
   },
   {
     "id": "make-automatic-q128",
@@ -3320,8 +3320,8 @@
     ],
     "correct": 3,
     "grammarPoint": "ばいい",
-    "jpExplanation": "空欄(くうらん)には「ばいい」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “ばいい” inside a natural conversational reply."
+    "jpExplanation": "「ばいい」\nわからないときは、せんぱいにきけばかいけつできると、相手(あいて)をあんしんさせています。",
+    "enExplanation": "ばいい supplies a simple sufficient solution: ask a senior colleague if unsure. 聞け plus ば forms 聞けば; it reassures rather than imposing a strong duty."
   },
   {
     "id": "make-automatic-q129",
@@ -3338,8 +3338,8 @@
     ],
     "correct": 0,
     "grammarPoint": "ても大丈夫(だいじょうぶ)",
-    "jpExplanation": "空欄(くうらん)には「ても大丈夫(だいじょうぶ)」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “ても大丈夫(だいじょうぶ)” inside a natural conversational reply."
+    "jpExplanation": "「ても大丈夫(だいじょうぶ)」\nすこしおくれることがあっても、もんだいないとつたえています。",
+    "enExplanation": "ても大丈夫 says the situation remains acceptable even if B is a little late. It answers the worry about lateness; it does not advise B to be late."
   },
   {
     "id": "make-automatic-q130",
@@ -3356,8 +3356,8 @@
     ],
     "correct": 1,
     "grammarPoint": "ことにした",
-    "jpExplanation": "空欄(くうらん)には「ことにした」が入(はい)ります。この形(かたち)を前後(ぜんご)の言葉(ことば)と一緒(いっしょ)に覚(おぼ)えると、会話(かいわ)ですぐ使(つか)えます。",
-    "enExplanation": "The blank isolates the reusable chunk “ことにした” inside a natural conversational reply."
+    "jpExplanation": "「ことにした」\nまいあさあるくという習慣(しゅうかん)を、自分(じぶん)できめたとつたえています。",
+    "enExplanation": "ことにした states a decision the speaker has made: walking every morning. It follows the dictionary form 歩く; it describes choosing a routine, not someone else's instruction."
   },
   {
     "id": "make-automatic-q131",
@@ -3374,8 +3374,8 @@
     ],
     "correct": 2,
     "grammarPoint": "けっこう",
-    "jpExplanation": "この会話(かいわ)では「けっこう」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“けっこう” completes this everyday exchange with the intended meaning: quite / fairly."
+    "jpExplanation": "「けっこう」\nえきからのきょりが、かなりあるとつたえています。このぶんでは、けっこうはきょひのいみではありません。",
+    "enExplanation": "けっこう means fairly or quite here: the station is not close. かなり can also be natural but often suggests a stronger degree; neither inherently expresses surprise."
   },
   {
     "id": "make-automatic-q132",
@@ -3392,8 +3392,8 @@
     ],
     "correct": 3,
     "grammarPoint": "かなり",
-    "jpExplanation": "この会話(かいわ)では「かなり」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“かなり” completes this everyday exchange with the intended meaning: considerably."
+    "jpExplanation": "「かなり」\nきょうの仕事(しごと)のすすみかたが、おおきかったとつたえています。",
+    "enExplanation": "かなり emphasises a considerable amount of progress. けっこう is also grammatical but can sound less strong; 意外と would introduce surprise, which is not the intended point."
   },
   {
     "id": "make-automatic-q133",
@@ -3410,8 +3410,8 @@
     ],
     "correct": 0,
     "grammarPoint": "意外(いがい)と",
-    "jpExplanation": "この会話(かいわ)では「意外(いがい)と」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“意外(いがい)と” completes this everyday exchange with the intended meaning: surprisingly."
+    "jpExplanation": "「意外(いがい)と」\nむずかしいと予想(よそう)していたのに、実際(じっさい)はかんたんだったというおどろきをつたえています。",
+    "enExplanation": "意外と marks a result contrary to expectations: the test was surprisingly easy. けっこう or かなり describe degree, while 思ったより explicitly compares with an earlier expectation."
   },
   {
     "id": "make-automatic-q134",
@@ -3428,8 +3428,8 @@
     ],
     "correct": 1,
     "grammarPoint": "思(おも)ったより",
-    "jpExplanation": "この会話(かいわ)では「思(おも)ったより」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“思(おも)ったより” completes this everyday exchange with the intended meaning: more/less than expected."
+    "jpExplanation": "「思(おも)ったより」\nまえにそうぞうしていたいそがしさとくらべ、実際(じっさい)はそれほどいそがしくないとつたえています。",
+    "enExplanation": "思ったより explicitly compares reality with B's earlier expectation. With 忙しくない it means less busy than expected; 意外と could also express surprise but does not state that comparison as directly."
   },
   {
     "id": "make-automatic-q135",
@@ -3446,8 +3446,8 @@
     ],
     "correct": 2,
     "grammarPoint": "ちゃんと",
-    "jpExplanation": "この会話(かいわ)では「ちゃんと」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“ちゃんと” completes this everyday exchange with the intended meaning: properly."
+    "jpExplanation": "「ちゃんと」\nくすりを、必要(ひつよう)なとおりにきちんとのんだとつたえています。",
+    "enExplanation": "ちゃんと means the medicine was taken properly, as expected or instructed. It evaluates how the action was done, unlike かなり, which mainly indicates degree."
   },
   {
     "id": "make-automatic-q136",
@@ -3464,8 +3464,8 @@
     ],
     "correct": 3,
     "grammarPoint": "けっきょく",
-    "jpExplanation": "この会話(かいわ)では「けっきょく」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“けっきょく” completes this everyday exchange with the intended meaning: ultimately."
+    "jpExplanation": "「けっきょく」\nりょこうさきをかんがえたあとの、さいしゅうてきな決定(けってい)がほっかいどうだったとつたえています。",
+    "enExplanation": "けっきょく gives the final choice after considering destinations: Hokkaido. It describes the outcome of deliberation, not the strength of a feeling or a surprising fact."
   },
   {
     "id": "make-automatic-q137",
@@ -3482,8 +3482,8 @@
     ],
     "correct": 0,
     "grammarPoint": "たまたま",
-    "jpExplanation": "この会話(かいわ)では「たまたま」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“たまたま” completes this everyday exchange with the intended meaning: by chance."
+    "jpExplanation": "「たまたま」\nやまださんにあう予定(よてい)はなく、えきで偶然(ぐうぜん)あったとつたえています。",
+    "enExplanation": "たまたま describes an unplanned chance encounter at the station. It answers why they met without implying they arranged a meeting or often meet there."
   },
   {
     "id": "make-automatic-q138",
@@ -3500,8 +3500,8 @@
     ],
     "correct": 1,
     "grammarPoint": "わざわざ",
-    "jpExplanation": "この会話(かいわ)では「わざわざ」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“わざわざ” completes this everyday exchange with the intended meaning: going out of one's way."
+    "jpExplanation": "「わざわざ」\nとどけるためにきてくれた相手(あいて)のてまをみとめて、感謝(かんしゃ)しています。",
+    "enExplanation": "わざわざ recognises extra effort: A appreciates B coming specifically to deliver something. It adds thanks for the trouble taken, not merely thanks for the item."
   },
   {
     "id": "make-automatic-q139",
@@ -3518,8 +3518,8 @@
     ],
     "correct": 2,
     "grammarPoint": "そろそろ",
-    "jpExplanation": "この会話(かいわ)では「そろそろ」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“そろそろ” completes this everyday exchange with the intended meaning: about time / soon."
+    "jpExplanation": "「そろそろ」\nじゅういちじになったので、もうかえる時間(じかん)がちかいとつたえています。",
+    "enExplanation": "そろそろ signals that the appropriate time to act is approaching or has arrived. Eleven o'clock motivates going home; もうすぐ would predict an event happening soon instead."
   },
   {
     "id": "make-automatic-q140",
@@ -3536,8 +3536,8 @@
     ],
     "correct": 3,
     "grammarPoint": "やっぱり",
-    "jpExplanation": "この会話(かいわ)では「やっぱり」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“やっぱり” completes this everyday exchange with the intended meaning: as expected / after all."
+    "jpExplanation": "「やっぱり」\nほかのものもかんがえたうえで、けっきょくいつものかれーを選(えら)んでいます。",
+    "enExplanation": "やっぱり returns to or confirms a preference after considering alternatives: the usual curry after all. It need not mean a surprising discovery; it can mark settling on the original inclination."
   },
   {
     "id": "make-automatic-q141",
@@ -3554,8 +3554,8 @@
     ],
     "correct": 0,
     "grammarPoint": "やっぱ",
-    "jpExplanation": "この会話(かいわ)では「やっぱ」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“やっぱ” completes this everyday exchange with the intended meaning: same, very casual."
+    "jpExplanation": "「やっぱ」\nやっぱりをみじかくした、とてもかじゅあるなかたちです。でんしゃではなく、あるくほうにかんがえをかえています。",
+    "enExplanation": "やっぱ is a very casual shortening of やっぱり. Here it changes or settles the plan: after considering the train, B opts to walk after all."
   },
   {
     "id": "make-automatic-q142",
@@ -3572,8 +3572,8 @@
     ],
     "correct": 1,
     "grammarPoint": "ちょっと",
-    "jpExplanation": "この会話(かいわ)では「ちょっと」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“ちょっと” completes this everyday exchange with the intended meaning: a little / somewhat."
+    "jpExplanation": "「ちょっと」\nいまはなすのがむずかしいことを、つよくことわらず、やわらかくつたえています。",
+    "enExplanation": "ちょっと literally means a little, but also softens a refusal: B is busy and cannot readily talk now. It does not always mean the problem is objectively small."
   },
   {
     "id": "make-automatic-q143",
@@ -3590,8 +3590,8 @@
     ],
     "correct": 2,
     "grammarPoint": "けっこう前(まえ)に",
-    "jpExplanation": "この会話(かいわ)では「けっこう前(まえ)に」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“けっこう前(まえ)に” completes this everyday exchange with the intended meaning: quite a while ago."
+    "jpExplanation": "「けっこう前(まえ)に」\nじゅうねんほどまえという、かなりむかしの時間(じかん)をしめしています。まえにが、いつきたかをつたえます。",
+    "enExplanation": "けっこう前に locates the arrival well in the past, matching “about ten years.” Plain けっこう or かなり only express degree and do not provide the needed time reference by themselves."
   },
   {
     "id": "make-automatic-q144",
@@ -3608,8 +3608,8 @@
     ],
     "correct": 3,
     "grammarPoint": "もうすぐ",
-    "jpExplanation": "この会話(かいわ)では「もうすぐ」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“もうすぐ” completes this everyday exchange with the intended meaning: soon."
+    "jpExplanation": "「もうすぐ」\nとうちゃくするまで、あとすこしだとつたえています。",
+    "enExplanation": "もうすぐ predicts arrival in the near future. Unlike そろそろ, it directly says the event will happen soon, rather than suggesting it is time to start an action."
   },
   {
     "id": "make-automatic-q145",
@@ -3626,8 +3626,8 @@
     ],
     "correct": 0,
     "grammarPoint": "まだ",
-    "jpExplanation": "この会話(かいわ)では「まだ」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“まだ” completes this everyday exchange with the intended meaning: still / yet."
+    "jpExplanation": "「まだ」\nしゅくだいが、いまの時点(じてん)ではおわっていないことをつたえています。",
+    "enExplanation": "まだ with 終わってない means “not yet”: the homework remains incomplete. It is about whether the expected event has happened, not how much homework there is."
   },
   {
     "id": "make-automatic-q146",
@@ -3644,8 +3644,8 @@
     ],
     "correct": 1,
     "grammarPoint": "もう",
-    "jpExplanation": "この会話(かいわ)では「もう」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“もう” completes this everyday exchange with the intended meaning: already / anymore."
+    "jpExplanation": "「もう」\nひるごはんをたべることが、すでにおわったとつたえています。",
+    "enExplanation": "もう with the past 食べた means “already”: lunch is completed. With a negative predicate もう can mean “anymore,” but that is not its use here."
   },
   {
     "id": "make-automatic-q147",
@@ -3662,8 +3662,8 @@
     ],
     "correct": 2,
     "grammarPoint": "特(とく)に",
-    "jpExplanation": "この会話(かいわ)では「特(とく)に」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“特(とく)に” completes this everyday exchange with the intended meaning: particularly."
+    "jpExplanation": "「特(とく)に」\nとくべつにこれをたべたいという、はっきりした希望(きぼう)がないとつたえています。",
+    "enExplanation": "特に with ない means “nothing in particular”: B has no specific food preference. It does not deny being able to eat or say that no food exists."
   },
   {
     "id": "make-automatic-q148",
@@ -3680,8 +3680,8 @@
     ],
     "correct": 3,
     "grammarPoint": "別(べつ)に",
-    "jpExplanation": "この会話(かいわ)では「別(べつ)に」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“別(べつ)に” completes this everyday exchange with the intended meaning: not particularly."
+    "jpExplanation": "「別(べつ)に」\nとくにおこっているわけではないと、相手(あいて)のしんぱいを否定(ひてい)しています。くちょうによってはそっけなくなります。",
+    "enExplanation": "別に with a negative denies a particular feeling: B is not especially angry. It can sound defensive or curt depending on tone; it is not an intensifier like かなり."
   },
   {
     "id": "make-automatic-q149",
@@ -3698,8 +3698,8 @@
     ],
     "correct": 0,
     "grammarPoint": "もちろん",
-    "jpExplanation": "この会話(かいわ)では「もちろん」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“もちろん” completes this everyday exchange with the intended meaning: of course."
+    "jpExplanation": "「もちろん」\nてつだうことを、とうぜんいいと、はっきりうけいれています。",
+    "enExplanation": "もちろん accepts the request confidently: helping is no problem or goes without saying. The question about arrival time then confirms willingness to act."
   },
   {
     "id": "make-automatic-q150",
@@ -3716,7 +3716,7 @@
     ],
     "correct": 1,
     "grammarPoint": "なんとなく",
-    "jpExplanation": "この会話(かいわ)では「なんとなく」が、相手(あいて)の発言(はつげん)と自然(しぜん)につながります。",
-    "enExplanation": "“なんとなく” completes this everyday exchange with the intended meaning: somehow / for no particular reason."
+    "jpExplanation": "「なんとなく」\nはっきりした理由(りゆう)はなく、こっちがいいという感覚(かんかく)だけでみちを選(えら)んだとつたえています。",
+    "enExplanation": "なんとなく explains an intuitive choice without a clear reason. 気がして supports choosing the road based on a feeling rather than an arranged plan or a measurable advantage."
   }
 ]
