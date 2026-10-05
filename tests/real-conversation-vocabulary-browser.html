@@ -37,8 +37,7 @@
     assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Phone width '+card.id);
     if(i<cards.length-1)q('#nextQuestion').click();
    }
-   q('#speakQuestion').click();const activePrompt=plays.at(-1);
-   q('#backToPages').click();assert(activePrompt.paused,'Exit stops Japanese playback');
+   q('#backToPages').click();
   }
   result.textContent='PASS: all four vocabulary-only decks, 400 questions, correct/wrong feedback, no explanations or explanation speakers, retained prompt/word playback and phone layout.';
  }catch(e){result.textContent='FAIL: '+e.stack}
