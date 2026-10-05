@@ -132,7 +132,7 @@
   {
     "id": "golden-grammar-q20", "chapter": "Grammar Drill", "page": 20, "type": "production", "difficulty": 2,
     "question": "電車(でんしゃ)の中(なか)で __________ しまいました。（寝(ね)る）\n\nI accidentally fell asleep on the train.", "answers": ["寝(ね)て", "寝(ね)たら", "寝(ね)ようと", "寝(ね)るように"], "correct": 0,
-    "grammarPoint": "～てしまう — end up doing / accidentally do / finish completely", "formation": "V て-form + しまう", "casualForm": "～ちゃう / ～じゃう\n財布(さいふ)を忘(わす)れちゃった。",
+    "grammarPoint": "～てしまう — end up doing / accidentally do / finish completely", "formation": "V て-form + しまう\nてしまう → ちゃう; でしまう → じゃう\nちゃった / じゃった are past forms; ちゃって / じゃって are て-forms.", "casualForm": "～ちゃう / ～じゃう\n財布(さいふ)を忘(わす)れちゃった。",
     "jpExplanation": "意図(いと)せず起(お)きたことへの残念(ざんねん)な気持(きも)ちを表(あらわ)します。「寝(ね)る」のて形(けい)は「寝(ね)て」です。", "enExplanation": "てしまう can express an accidental or regrettable result. In casual speech, てしまう contracts to ちゃう."
   },
   {
@@ -268,7 +268,7 @@
     "id":"golden-grammar-q74","chapter":"Grammar Drill","page":74,"type":"production","difficulty":2,"question":"来月(らいげつ)、東京(とうきょう)へ行(い)きます。 __________、今回(こんかい)は一人(ひとり)で行(い)きます。\n\nI'm going to Tokyo next month. By the way, this time I'm going alone.","answers":["ちなみに","そのため","逆(ぎゃく)に","とにかく"],"correct":0,"grammarPoint":"ちなみに — by the way / incidentally","formation":"ちなみに、+ related extra information","casualForm":"ちなみに\nちなみに、今回(こんかい)は一人(ひとり)で行(い)くよ。","jpExplanation":"主題(しゅだい)を大(おお)きく変(か)えず、関連(かんれん)する補足(ほそく)情報(じょうほう)を加(くわ)えます。","enExplanation":"ちなみに adds related supplementary information without changing to an unrelated topic."
   },
   {
-    "id":"golden-grammar-q75","chapter":"Grammar Drill","page":75,"type":"production","difficulty":2,"question":"忘(わす)れないように、住所(じゅうしょ)をメモして __________。（おく）\n\nI'll make a note of the address in advance so I don't forget it.","answers":["みます","きます","おきます","しまいます"],"correct":2,"grammarPoint":"～ておく — do in advance / prepare by doing","formation":"V て-form + おく","casualForm":"～とく\n住所(じゅうしょ)をメモしとく。","jpExplanation":"将来(しょうらい)のために前(まえ)もって準備(じゅんび)する行動(こうどう)を表(あらわ)します。会話(かいわ)では「ておく」が「とく」になります。","enExplanation":"ておく means doing something in preparation. Casual speech often contracts ておく to とく."
+    "id":"golden-grammar-q75","chapter":"Grammar Drill","page":75,"type":"production","difficulty":2,"question":"忘(わす)れないように、住所(じゅうしょ)をメモして __________。（おく）\n\nI'll make a note of the address in advance so I don't forget it.","answers":["みます","きます","おきます","しまいます"],"correct":2,"grammarPoint":"～ておく — do in advance / prepare by doing","formation":"V て-form + おく\nておく → とく; でおく → どく\nておいて → といて; でおいて → どいて","casualForm":"～とく\n住所(じゅうしょ)をメモしとく。","jpExplanation":"将来(しょうらい)のために前(まえ)もって準備(じゅんび)する行動(こうどう)を表(あらわ)します。会話(かいわ)では「ておく」が「とく」になります。","enExplanation":"ておく means doing something in preparation. Casual speech often contracts ておく to とく."
   },
   {
     "id":"golden-grammar-q76","chapter":"Grammar Drill","page":76,"type":"production","difficulty":2,"question":"間違(まちが)えても、日本(にほん)語(ご)で話(はな)し __________ たいです。（続(つづ)ける）\n\nEven if I make mistakes, I want to keep speaking Japanese.","answers":["始(はじ)め","終(お)わり","続(つづ)け","すぎ"],"correct":2,"grammarPoint":"～続(つづ)ける — continue doing","formation":"V ます-stem + 続(つづ)ける","casualForm":"～続(つづ)ける\nこれからも勉強(べんきょう)し続(つづ)けたい。","jpExplanation":"同(おな)じ動作(どうさ)が継続(けいぞく)することを表(あらわ)し、動詞(どうし)のます語幹(ごかん)に接続(せつぞく)します。","enExplanation":"続(つづ)ける attaches to a verb stem to show that an action continues."
@@ -1249,5 +1249,645 @@
     "casualForm": "大根(だいこん)がだんだん柔(やわ)らかくなってきた。",
     "jpExplanation": "「柔(やわ)らかくなってきました」は、少(すこ)し前(まえ)から今(いま)まで変化(へんか)が進(すす)み、その変化(へんか)が今(いま)分(わ)かることを表(あらわ)します。ここでは、大根(だいこん)が前(まえ)より柔(やわ)らかくなったことに気(き)づいています。「なっていく」は、これから先(さき)の変化(へんか)に目(め)を向(む)ける表現(ひょうげん)です。",
     "enExplanation": "なってきました describes a change that has developed toward the present: the speaker now notices that the daikon is softer. なっていくはずです predicts future softening rather than reporting an observed change. 柔(やわ)らかくしておきました means someone softened it in preparation and does not fit 大根(だいこん)が here; なっていません denies that it has softened. てくる does not imply that the change is finished."
+  },
+  {
+    "id": "golden-grammar-q190",
+    "chapter": "Grammar Drill",
+    "page": 190,
+    "type": "production",
+    "difficulty": 3,
+    "question": "ほら、おいしい__________。\n\nSee? It's tasty after all! (Casual affirmative confirmation.)",
+    "answers": [
+      "わけがない",
+      "とは限(かぎ)らない",
+      "じゃん",
+      "かどうか"
+    ],
+    "correct": 2,
+    "grammarPoint": "～じゃん — see? / isn't it! — casual affirmative confirmation",
+    "formation": "Plain predicate + じゃん (casual じゃないか); N / な-adj without だ + じゃん.\nAffirms or recalls something; not a simple negative.",
+    "casualForm": "～じゃん\nほら、おいしいじゃん。",
+    "jpExplanation": "「じゃん」は、確認(かくにん)や発見(はっけん)を表(あらわ)すカジュアルな形(かたち)です。",
+    "enExplanation": "じゃん is an affirmative casual confirmation, often with a discovery or reminder. It is not the ordinary negative ‘is not’."
+  },
+  {
+    "id": "golden-grammar-q191",
+    "chapter": "Grammar Drill",
+    "page": 191,
+    "type": "production",
+    "difficulty": 3,
+    "question": "あ、もう予約(よやく)してる__________。\n\nOh, so you've already booked! (Casual realization.)",
+    "answers": [
+      "わけがない",
+      "とは限(かぎ)らない",
+      "ためには",
+      "んじゃん"
+    ],
+    "correct": 3,
+    "grammarPoint": "～んじゃん — oh, so…! / turns out…! — noticing an explanation",
+    "formation": "Plain V / い-adj + んじゃん; N / な-adj + なんじゃん.\nExplanatory の/ん + casual affirmative じゃん.",
+    "casualForm": "～んじゃん\nあ、もう予約(よやく)してるんじゃん。",
+    "jpExplanation": "「んじゃん」は、説明(せつめい)を聞(き)いて気(き)づいたことを表(あらわ)します。",
+    "enExplanation": "The explanatory ん combines with affirmative じゃん. The polite example uses んですね as a natural realization; it is not a literal contraction."
+  },
+  {
+    "id": "golden-grammar-q192",
+    "chapter": "Grammar Drill",
+    "page": 192,
+    "type": "production",
+    "difficulty": 3,
+    "question": "今日(きょう)、何(なに)を食(た)べる__________？\n\nWhat are you eating today? (Casual explanatory question.)",
+    "answers": [
+      "の",
+      "ため",
+      "から",
+      "まで"
+    ],
+    "correct": 0,
+    "grammarPoint": "～の？ — casual explanatory question / asking what is going on",
+    "formation": "Plain V / い-adj + の？; N / な-adj + なの？\nPolite counterpart: ～んですか / ～のですか.",
+    "casualForm": "～の？\n今日(きょう)、何(なに)を食(た)べるの？",
+    "jpExplanation": "文(ぶん)の最後(さいご)の「の」は、説明(せつめい)を求(もと)める質問(しつもん)に使(つか)います。",
+    "enExplanation": "Sentence-final の can ask for an explanation or background. Tone matters: questions may sound curious, surprised, or challenging."
+  },
+  {
+    "id": "golden-grammar-q193",
+    "chapter": "Grammar Drill",
+    "page": 193,
+    "type": "production",
+    "difficulty": 3,
+    "question": "今日(きょう)、休(やす)み__________？\n\nIs today a day off? (Casual explanatory question.)",
+    "answers": [
+      "だの",
+      "なの",
+      "いの",
+      "するの"
+    ],
+    "correct": 1,
+    "grammarPoint": "～なの？ — is it…? — casual explanatory question with a noun or な-adjective",
+    "formation": "N / な-adj stem + な + の？\n休(やす)み + な + の？ → 休(やす)みなの？ (not 休(やす)みだの？).",
+    "casualForm": "～なの？\n今日(きょう)、休(やす)みなの？",
+    "jpExplanation": "名詞(めいし)の後(あと)では「なの」を使(つか)います。",
+    "enExplanation": "Nouns and な-adjectives use な before explanatory の. The polite spoken counterpart is なんですか."
+  },
+  {
+    "id": "golden-grammar-q194",
+    "chapter": "Grammar Drill",
+    "page": 194,
+    "type": "production",
+    "difficulty": 3,
+    "question": "もうご飯(はん)食(た)べ__________？\n\nHave you already eaten? (Casual question about a completed action.)",
+    "answers": [
+      "るため",
+      "たいなら",
+      "たの",
+      "るまで"
+    ],
+    "correct": 2,
+    "grammarPoint": "～たの？ — did you…? — asking about a completed action",
+    "formation": "V past plain form + の？\n食(た)べた + の？ → 食(た)べたの？; 飲(の)んだ + の？ → 飲(の)んだの？",
+    "casualForm": "～たの？\nもうご飯(はん)食(た)べたの？",
+    "jpExplanation": "過去(かこ)の動作(どうさ)を聞(き)くので、た形(けい)に「の」を付(つ)けます。",
+    "enExplanation": "This is past plain form plus explanatory の, not a separate tense. Verbs with a だ past form use だの, as in 飲んだの？."
+  },
+  {
+    "id": "golden-grammar-q195",
+    "chapter": "Grammar Drill",
+    "page": 195,
+    "type": "production",
+    "difficulty": 3,
+    "question": "明日(あした)、来(こ)__________？\n\nAren't you coming tomorrow? (Casual negative question.)",
+    "answers": [
+      "るため",
+      "たので",
+      "ようにも",
+      "ないの"
+    ],
+    "correct": 3,
+    "grammarPoint": "～ないの？ — aren't you…? / won't you…? — negative explanatory question",
+    "formation": "V negative plain (ない-form) + の？\n来(こ)ない + の？ → 来(こ)ないの？ (来(こ)ない is こない).",
+    "casualForm": "～ないの？\n明日(あした)、来(こ)ないの？",
+    "jpExplanation": "否定(ひてい)の文(ぶん)に「の」を付(つ)けて、理由(りゆう)や事情(じじょう)を聞(き)きます。",
+    "enExplanation": "Negative plain form plus の asks about not doing something. It does not by itself mean ‘you must not’."
+  },
+  {
+    "id": "golden-grammar-q196",
+    "chapter": "Grammar Drill",
+    "page": 196,
+    "type": "production",
+    "difficulty": 3,
+    "question": "今(いま)、何(なに)し__________？\n\nWhat are you doing now? (Casual ongoing-action question.)",
+    "answers": [
+      "てるの",
+      "たから",
+      "たいなら",
+      "ようにも"
+    ],
+    "correct": 0,
+    "grammarPoint": "～てるの？ — are you doing…? — casual ongoing-action question",
+    "formation": "V ている + の？ → V てるの？\nしているの？ → してるの？; 読(よ)んでいるの？ → 読(よ)んでるの？",
+    "casualForm": "～てるの？\n今(いま)、何(なに)してるの？",
+    "jpExplanation": "「ている」の「い」を省(はぶ)いて、「の」で質問(しつもん)します。",
+    "enExplanation": "てる is the contracted form of ている. With でいる, the contraction is でる, as in 読んでるの？."
+  },
+  {
+    "id": "golden-grammar-q197",
+    "chapter": "Grammar Drill",
+    "page": 197,
+    "type": "production",
+    "difficulty": 3,
+    "question": "何(なに)を買(か)い__________？\n\nWhat do you want to buy? (Casual question about desire.)",
+    "answers": [
+      "たので",
+      "たいの",
+      "ますから",
+      "にくくて"
+    ],
+    "correct": 1,
+    "grammarPoint": "～たいの？ — do you want to…? — asking about someone's wish",
+    "formation": "V ます-stem + たい + の？\n買(か)います → 買(か)いたいの？; たい behaves like an い-adjective.",
+    "casualForm": "～たいの？\n何(なに)を買(か)いたいの？",
+    "jpExplanation": "希望(きぼう)を聞(き)くので、「たい」に「の」を付(つ)けます。",
+    "enExplanation": "たい attaches to the verb stem; explanatory の follows it directly, without な."
+  },
+  {
+    "id": "golden-grammar-q198",
+    "chapter": "Grammar Drill",
+    "page": 198,
+    "type": "production",
+    "difficulty": 3,
+    "question": "毎日(まいにち)続(つづ)ける__________、意外(いがい)と難(むずか)しいね。\n\nThe idea of keeping it up daily is surprisingly difficult. (Casual nominalization.)",
+    "answers": [
+      "ためには",
+      "ようにして",
+      "っていうの",
+      "だけしか"
+    ],
+    "correct": 2,
+    "grammarPoint": "～っていうの — the thing of… / the idea of… — casual quoted nominalization",
+    "formation": "Plain clause + っていうの (というの).\nの turns the quoted idea into a noun-like expression; は may follow.",
+    "casualForm": "～っていうの\n毎日(まいにち)続(つづ)けるっていうの、意外(いがい)と難(むずか)しいね。",
+    "jpExplanation": "「っていうの」は、内容(ないよう)を名詞(めいし)のようにまとめます。",
+    "enExplanation": "っていう is casual という; の nominalizes the idea. This is different from sentence-final の used as a question."
+  },
+  {
+    "id": "golden-grammar-q199",
+    "chapter": "Grammar Drill",
+    "page": 199,
+    "type": "production",
+    "difficulty": 3,
+    "question": "旬(しゅん)__________、食材(しょくざい)が一番(いちばん)おいしい時期(じき)のことだよ。\n\n‘Shun’ means the time when an ingredient tastes best. (Casual definition.)",
+    "answers": [
+      "に比(くら)べて",
+      "だけしか",
+      "のせいで",
+      "っていうのは"
+    ],
+    "correct": 3,
+    "grammarPoint": "～っていうのは — what … means is / speaking of the idea called…",
+    "formation": "Word / plain clause + っていうのは (というのは).\nQuoted idea + nominalizing の + topic は.",
+    "casualForm": "～っていうのは\n旬(しゅん)っていうのは、食材(しょくざい)が一番(いちばん)おいしい時期(じき)のことだよ。",
+    "jpExplanation": "「っていうのは」で、言葉(ことば)の意味(いみ)を説明(せつめい)します。",
+    "enExplanation": "The phrase introduces a quoted word or idea as the topic, often to define or explain it. は is pronounced わ."
+  },
+  {
+    "id": "golden-grammar-q200",
+    "chapter": "Grammar Drill",
+    "page": 200,
+    "type": "production",
+    "difficulty": 3,
+    "question": "明日(あした)は休(やす)み__________？\n\nSo does that mean tomorrow is a day off? (Casual interpretation check.)",
+    "answers": [
+      "ってこと",
+      "だったから",
+      "だけでも",
+      "のために"
+    ],
+    "correct": 0,
+    "grammarPoint": "～ってこと？ — so does that mean…? — checking an interpretation",
+    "formation": "Plain clause / quoted phrase + ってこと？ (ということですか).\nIn casual quoted noun phrases, だ can be omitted: 休(やす)みってこと？",
+    "casualForm": "～ってこと？\n明日(あした)は休(やす)みってこと？",
+    "jpExplanation": "「ってこと」で、相手(あいて)の話(はなし)の意味(いみ)を確認(かくにん)します。",
+    "enExplanation": "ってこと asks whether your interpretation is correct. It is the casual form of ということ."
+  },
+  {
+    "id": "golden-grammar-q201",
+    "chapter": "Grammar Drill",
+    "page": 201,
+    "type": "production",
+    "difficulty": 3,
+    "question": "彼(かれ)は先生(せんせい)__________だね。\n\nHe has the air of a teacher. (Casual overall impression.)",
+    "answers": [
+      "に限(かぎ)って",
+      "って感(かん)じ",
+      "のせい",
+      "だけしか"
+    ],
+    "correct": 1,
+    "grammarPoint": "～って感(かん)じ — has the feel of… / gives the impression of…",
+    "formation": "Quoted N / plain clause + って感(かん)じ (という感(かん)じ).\nAn informal overall impression, not a precise definition.",
+    "casualForm": "～って感(かん)じ\n彼(かれ)は先生(せんせい)って感(かん)じだね。",
+    "jpExplanation": "「って感(かん)じ」は、全体(ぜんたい)の印象(いんしょう)を伝(つた)える表現(ひょうげん)です。",
+    "enExplanation": "This presents a rough impression or vibe. It does not assert that the person literally has that role."
+  },
+  {
+    "id": "golden-grammar-q202",
+    "chapter": "Grammar Drill",
+    "page": 202,
+    "type": "production",
+    "difficulty": 3,
+    "question": "パン__________果物(くだもの)とか買(か)おう。\n\nLet's buy things like bread and fruit. (Non-exhaustive casual list.)",
+    "answers": [
+      "しか",
+      "ほど",
+      "とか",
+      "までに"
+    ],
+    "correct": 2,
+    "grammarPoint": "～とか — things like… / …and such — non-exhaustive examples",
+    "formation": "N + とか + N + とか; plain clause + とか.\nCan give just one example; the list is not exhaustive.",
+    "casualForm": "～とか\nパンとか果物(くだもの)とか買(か)おう。",
+    "jpExplanation": "「とか」は、いくつかの例(れい)を挙(あ)げるときに使(つか)います。",
+    "enExplanation": "とか gives examples rather than a complete list. The polite example uses や and など."
+  },
+  {
+    "id": "golden-grammar-q203",
+    "chapter": "Grammar Drill",
+    "page": 203,
+    "type": "production",
+    "difficulty": 3,
+    "question": "明日(あした)は休(やす)み__________聞(き)いたよ。\n\nI heard something about tomorrow being a day off. (Vague casual quote.)",
+    "answers": [
+      "までには",
+      "のせいで",
+      "に対(たい)して",
+      "とかって"
+    ],
+    "correct": 3,
+    "grammarPoint": "～とかって — something like… was said / vague casual quotation",
+    "formation": "Quoted word / plain clause + とか + って + reporting verb.\nとか softens the example; って marks the quote.",
+    "casualForm": "～とかって\n明日(あした)は休(やす)みとかって聞(き)いたよ。",
+    "jpExplanation": "「とかって」は、話(はなし)の内容(ないよう)を少(すこ)しぼかして伝(つた)えます。",
+    "enExplanation": "A loose conversational quote; it may suggest the wording or information is approximate. It is not the same as a firm direct quote."
+  },
+  {
+    "id": "golden-grammar-q204",
+    "chapter": "Grammar Drill",
+    "page": 204,
+    "type": "production",
+    "difficulty": 3,
+    "question": "明日(あした)、雪(ゆき)が__________。\n\nMaybe it'll snow tomorrow! (Playful tentative guess.)",
+    "answers": [
+      "降(ふ)ったりして",
+      "降(ふ)ってください",
+      "降(ふ)らせたい",
+      "降(ふ)るためです"
+    ],
+    "correct": 0,
+    "grammarPoint": "～たりして — maybe…! / what if…! — playful tentative possibility",
+    "formation": "V た-form + りして at the end of a casual utterance.\n降(ふ)った + りして → 降(ふ)ったりして. Also the connective form of たりする.",
+    "casualForm": "～たりして\n明日(あした)、雪(ゆき)が降(ふ)ったりして。",
+    "jpExplanation": "文末(ぶんまつ)の「たりして」は、可能性(かのうせい)を軽(かる)く想像(そうぞう)する形(かたち)です。",
+    "enExplanation": "At the end of an utterance this can be a playful guess. Inside a longer sentence, たりして may instead connect an activity list."
+  },
+  {
+    "id": "golden-grammar-q205",
+    "chapter": "Grammar Drill",
+    "page": 205,
+    "type": "production",
+    "difficulty": 3,
+    "question": "休(やす)みの日(ひ)は映画(えいが)を見(み)__________してる。\n\nOn days off I do things like watch movies. (Informal activity examples.)",
+    "answers": [
+      "ないと",
+      "たりとか",
+      "るために",
+      "ればこそ"
+    ],
+    "correct": 1,
+    "grammarPoint": "～たりとか — doing things like… — informal examples of activities",
+    "formation": "V た-form + り + とか + する.\n見(み)た + りとか → 見(み)たりとかする.",
+    "casualForm": "～たりとか\n休(やす)みの日(ひ)は映画(えいが)を見(み)たりとかしてる。",
+    "jpExplanation": "「たり」に「とか」を加(くわ)えて、例(れい)を挙(あ)げます。",
+    "enExplanation": "たり already marks representative activities; とか adds an informal ‘and such’ feel. This is not an exhaustive list."
+  },
+  {
+    "id": "golden-grammar-q206",
+    "chapter": "Grammar Drill",
+    "page": 206,
+    "type": "production",
+    "difficulty": 3,
+    "question": "先(さき)に予約(よやく)し__________。\n\nI should have booked ahead. (Contracted casual regret.)",
+    "answers": [
+      "といてよかった",
+      "とくといい",
+      "とけばよかった",
+      "とかなきゃ"
+    ],
+    "correct": 2,
+    "grammarPoint": "～とけばよかった — should have done beforehand — contracted casual regret",
+    "formation": "V ておけばよかった → V とけばよかった.\nでおけば → どけば; 予約(よやく)しておけば → 予約(よやく)しとけば.",
+    "casualForm": "～とけばよかった\n先(さき)に予約(よやく)しとけばよかった。",
+    "jpExplanation": "準備(じゅんび)をしなかったことを後悔(こうかい)する表現(ひょうげん)です。",
+    "enExplanation": "This combines preparatory ておく with regret ばよかった, then contracts ておけば to とけば. といてよかった means you are glad you DID prepare."
+  },
+  {
+    "id": "golden-grammar-q207",
+    "chapter": "Grammar Drill",
+    "page": 207,
+    "type": "production",
+    "difficulty": 3,
+    "question": "こんなに買(か)わ__________。\n\nI shouldn't have bought so much. (Casual regret about doing it.)",
+    "answers": [
+      "なきゃいけない",
+      "なくていい",
+      "なかったから",
+      "なきゃよかった"
+    ],
+    "correct": 3,
+    "grammarPoint": "～なきゃよかった — shouldn't have done / wish I hadn't — casual regret",
+    "formation": "V negative conditional なければ + よかった → なきゃよかった.\n買(か)わない → 買(か)わなければよかった → 買(か)わなきゃよかった.",
+    "casualForm": "～なきゃよかった\nこんなに買(か)わなきゃよかった。",
+    "jpExplanation": "したことを後悔(こうかい)して、「しなければよかった」と言(い)います。",
+    "enExplanation": "Here なきゃ is contracted なければ in a regret construction. Unlike standalone なきゃ (‘gotta’), なきゃよかった means you wish you had NOT done it."
+  },
+  {
+    "id": "golden-grammar-q208",
+    "chapter": "Grammar Drill",
+    "page": 208,
+    "type": "production",
+    "difficulty": 3,
+    "question": "そろそろ帰(かえ)ら__________。\n\nI've gotta go home soon. (Casual obligation.)",
+    "answers": [
+      "なくちゃ",
+      "なくてもいい",
+      "なかった",
+      "ないほうがいい"
+    ],
+    "correct": 0,
+    "grammarPoint": "～なくちゃ — have to / gotta — casual omitted obligation ending",
+    "formation": "V ない-form: ない → なくちゃ.\nなくては → なくちゃ; いけない is often omitted.\n帰(かえ)らない → 帰(かえ)らなくちゃ.",
+    "casualForm": "～なくちゃ\nそろそろ帰(かえ)らなくちゃ。",
+    "jpExplanation": "「なくちゃ」は、「なくてはいけない」の短(みじか)い形(かたち)です。",
+    "enExplanation": "なくちゃ contracts なくては, with the obligation ending often left unstated. なきゃ similarly comes from なければ, but uses a different contraction."
+  },
+  {
+    "id": "golden-grammar-q209",
+    "chapter": "Grammar Drill",
+    "page": 209,
+    "type": "production",
+    "difficulty": 3,
+    "question": "これ、見(み)__________？\n\nMay I look at this? (Short casual permission question.)",
+    "answers": [
+      "ちゃだめ",
+      "ていい",
+      "ないほうがいい",
+      "たはず"
+    ],
+    "correct": 1,
+    "grammarPoint": "～ていい？ — may I…? — permission with も omitted",
+    "formation": "V て-form + いい？ (casual てもいい？ with も omitted).\n見(み)てもいい？ → 見(み)ていい？; で-form + いい？ is also possible.",
+    "casualForm": "～ていい？\nこれ、見(み)ていい？",
+    "jpExplanation": "許可(きょか)を求(もと)めるとき、会話(かいわ)では「も」を省(はぶ)くことがあります。",
+    "enExplanation": "This asks permission, like てもいい？. It does not ask someone else to perform the action."
+  },
+  {
+    "id": "golden-grammar-q210",
+    "chapter": "Grammar Drill",
+    "page": 210,
+    "type": "production",
+    "difficulty": 3,
+    "question": "ちょっと待(ま)っ__________？\n\nWill you wait a moment for me? (Casual favor request.)",
+    "answers": [
+      "てあげる",
+      "ていた",
+      "てくれる",
+      "てほしくない"
+    ],
+    "correct": 2,
+    "grammarPoint": "～てくれる？ — will you do… for me? — casual favor request",
+    "formation": "V て-form + くれる？; で-form + くれる？\n待(ま)って + くれる？ → 待(ま)ってくれる？",
+    "casualForm": "～てくれる？\nちょっと待(ま)ってくれる？",
+    "jpExplanation": "相手(あいて)に、自分(じぶん)のために行動(こうどう)してほしいと頼(たの)みます。",
+    "enExplanation": "くれる？ turns the favor expression into a request. For a more deferential request, use ていただけますか."
+  },
+  {
+    "id": "golden-grammar-q211",
+    "chapter": "Grammar Drill",
+    "page": 211,
+    "type": "production",
+    "difficulty": 3,
+    "question": "写真(しゃしん)を撮(と)っ__________？\n\nCould I have you take a photo for me? (Casual favor request.)",
+    "answers": [
+      "てもらいたくない",
+      "てあげてもいい",
+      "ておかなくていい",
+      "てもらっていい"
+    ],
+    "correct": 3,
+    "grammarPoint": "～てもらっていい？ — could I have you do…? — asking permission to receive a favor",
+    "formation": "V て-form + もらって + いい？\nFull form: てもらってもいいですか; casual speech often omits the second も.",
+    "casualForm": "～てもらっていい？\n写真(しゃしん)を撮(と)ってもらっていい？",
+    "jpExplanation": "相手(あいて)にしてもらうことについて、許可(きょか)を求(もと)めます。",
+    "enExplanation": "This frames a request as asking whether you may receive the other person's action. The speaker receives the favor rather than offering to do it."
+  },
+  {
+    "id": "golden-grammar-q212",
+    "chapter": "Grammar Drill",
+    "page": 212,
+    "type": "production",
+    "difficulty": 3,
+    "question": "今日(きょう)、__________静(しず)かだね。\n\nIt's kind of quiet today. (Vague conversational impression.)",
+    "answers": [
+      "なんか",
+      "なんでも",
+      "なんとか",
+      "なんて"
+    ],
+    "correct": 0,
+    "grammarPoint": "～なんか — kind of / somehow — vague conversational impression",
+    "formation": "なんか + clause (informal filler or vague impression).\nAlso ‘something’; N + なんか can mean ‘things like N’ or dismiss N.",
+    "casualForm": "～なんか\n今日(きょう)、なんか静(しず)かだね。",
+    "jpExplanation": "「なんか」は、はっきりしない印象(いんしょう)をやわらかく伝(つた)えます。",
+    "enExplanation": "This example uses filler-like なんか. Depending on context it can instead mean ‘something’ or belittle a noun, so it is not interchangeable with every ‘somehow’ word."
+  },
+  {
+    "id": "golden-grammar-q213",
+    "chapter": "Grammar Drill",
+    "page": 213,
+    "type": "production",
+    "difficulty": 3,
+    "question": "一人(ひとり)で全部(ぜんぶ)作(つく)る__________、すごいね。\n\nMaking everything alone—how impressive! (Surprised emphasis.)",
+    "answers": [
+      "までに",
+      "なんて",
+      "ないと",
+      "ように"
+    ],
+    "correct": 1,
+    "grammarPoint": "～なんて — that…! — surprise or emphasis about a quoted idea",
+    "formation": "Plain clause / N + なんて.\nOften corresponds to ～とは with surprise; N + なんて can also dismiss N.",
+    "casualForm": "～なんて\n一人(ひとり)で全部(ぜんぶ)作(つく)るなんて、すごいね。",
+    "jpExplanation": "「なんて」は、内容(ないよう)に対(たい)する驚(おどろ)きや強(つよ)い気持(きも)ちを表(あらわ)します。",
+    "enExplanation": "The construction quotes the surprising idea. It can sound admiring here, or dismissive with other nouns and contexts; it is not the question ‘what’."
+  },
+  {
+    "id": "golden-grammar-q214",
+    "chapter": "Grammar Drill",
+    "page": 214,
+    "type": "production",
+    "difficulty": 3,
+    "question": "忙(いそが)しい__________言(い)ってた。\n\nThey said something about being busy. (Deliberately vague casual quote.)",
+    "answers": [
+      "に比(くら)べて",
+      "までには",
+      "とかなんとか",
+      "のせいで"
+    ],
+    "correct": 2,
+    "grammarPoint": "～とかなんとか — something like… / something or other — vague reported wording",
+    "formation": "Quoted word / clause + とかなんとか + 言(い)う or another reporting verb.\nInformal; the quote is deliberately imprecise.",
+    "casualForm": "～とかなんとか\n忙(いそが)しいとかなんとか言(い)ってた。",
+    "jpExplanation": "言葉(ことば)を正確(せいかく)に覚(おぼ)えていないときなどに使(つか)います。",
+    "enExplanation": "This reports approximate wording and can sound dismissive. It is less exact than a straightforward って quote."
+  },
+  {
+    "id": "golden-grammar-q215",
+    "chapter": "Grammar Drill",
+    "page": 215,
+    "type": "production",
+    "difficulty": 3,
+    "question": "忙(いそが)しい。__________、今(いま)は無理(むり)。\n\nI'm busy. I mean, I can't right now. (Very casual reformulation.)",
+    "answers": [
+      "それなのに",
+      "だからこそ",
+      "そうでなければ",
+      "てか"
+    ],
+    "correct": 3,
+    "grammarPoint": "～てか — I mean / rather / anyway — very casual reformulation",
+    "formation": "Standalone discourse marker: というか → っていうか → てか.\nCan correct wording or shift the topic; very informal.",
+    "casualForm": "～てか\n忙(いそが)しい。てか、今(いま)は無理(むり)。",
+    "jpExplanation": "「てか」は、言(い)い直(なお)すときに使(つか)う、とてもカジュアルな形(かたち)です。",
+    "enExplanation": "てか is a reduced discourse marker, not the ordinary て-form followed by question か. It can also introduce a topic shift."
+  },
+  {
+    "id": "golden-grammar-q216",
+    "chapter": "Grammar Drill",
+    "page": 216,
+    "type": "production",
+    "difficulty": 3,
+    "question": "今日(きょう)、休(やす)みだ__________。\n\nI had thought today was a day off. (Casual prior belief.)",
+    "answers": [
+      "って思(おも)ってた",
+      "って思(おも)ってる",
+      "って聞(き)いてる",
+      "から知(し)ってた"
+    ],
+    "correct": 0,
+    "grammarPoint": "～って思(おも)ってた — I thought… / had assumed… — casual quoted prior belief",
+    "formation": "Plain clause + って思(おも)ってた (と思(おも)っていた).\nN / な-adj + だ + って思(おも)ってた.",
+    "casualForm": "～って思(おも)ってた\n今日(きょう)、休(やす)みだって思(おも)ってた。",
+    "jpExplanation": "前(まえ)に持(も)っていた考(かんが)えを、カジュアルに伝(つた)えます。",
+    "enExplanation": "って is casual quoting と; 思ってた contracts 思っていた. This reports a prior belief, not necessarily information someone told you."
+  },
+  {
+    "id": "golden-grammar-q217",
+    "chapter": "Grammar Drill",
+    "page": 217,
+    "type": "production",
+    "difficulty": 3,
+    "question": "明日(あした)は休(やす)みだ__________。\n\nI heard that tomorrow is a day off. (Casual report of heard information.)",
+    "answers": [
+      "と思(おも)っている",
+      "って聞(き)いた",
+      "と決(き)めた",
+      "と頼(たの)んだ"
+    ],
+    "correct": 1,
+    "grammarPoint": "～って聞(き)いた — I heard that… — casual report of information heard",
+    "formation": "Plain clause + って聞(き)いた (と聞(き)いた).\nN / な-adj + だ + って聞(き)いた.",
+    "casualForm": "～って聞(き)いた\n明日(あした)は休(やす)みだって聞(き)いた。",
+    "jpExplanation": "聞(き)いた情報(じょうほう)を、「って」で引用(いんよう)して伝(つた)えます。",
+    "enExplanation": "This explicitly reports hearing information. It does not by itself mean the speaker inferred it or personally decided it."
+  },
+  {
+    "id": "golden-grammar-q218",
+    "chapter": "Grammar Drill",
+    "page": 218,
+    "type": "production",
+    "difficulty": 3,
+    "question": "友達(ともだち)はいつも「大丈夫(だいじょうぶ)」__________。\n\nMy friend always says ‘It's okay.’ (Casual habitual quotation.)",
+    "answers": [
+      "と言(い)わなかった",
+      "を言(い)わせた",
+      "って言(い)う",
+      "のせいにした"
+    ],
+    "correct": 2,
+    "grammarPoint": "～って言(い)う — say that… / say ‘…’ — casual present or habitual quotation",
+    "formation": "Quoted words / plain clause + って言(い)う (と言(い)う).\nN + っていう + N can also introduce a name: 旬(しゅん)っていう言葉(ことば).",
+    "casualForm": "～って言(い)う\n友達(ともだち)はいつも「大丈夫(だいじょうぶ)」って言(い)う。",
+    "jpExplanation": "「って言(い)う」は、人(ひと)が言(い)う言葉(ことば)を引用(いんよう)する形(かたち)です。",
+    "enExplanation": "って marks the quote and 言う is the present/habitual verb. The related attributive form っていう can also mean ‘called’."
+  },
+  {
+    "id": "golden-grammar-q219",
+    "chapter": "Grammar Drill",
+    "page": 219,
+    "type": "production",
+    "difficulty": 3,
+    "question": "こっちのほうがいい__________。\n\nI think this one may be better. (Tentative casual conjecture.)",
+    "answers": [
+      "わけがない",
+      "とは限(かぎ)らない",
+      "はずがない",
+      "んじゃないかと思(おも)う"
+    ],
+    "correct": 3,
+    "grammarPoint": "～んじゃないかと思(おも)う — I think perhaps… / I suspect… — tentative conjecture",
+    "formation": "Plain V / い-adj + んじゃないかと思(おも)う.\nN / な-adj + なんじゃないかと思(おも)う.\nPolite equivalent: ～のではないかと思(おも)います.",
+    "casualForm": "～んじゃないかと思(おも)う\nこっちのほうがいいんじゃないかと思(おも)う。",
+    "jpExplanation": "「んじゃないかと思(おも)う」で、考(かんが)えを控(ひか)えめに述(の)べます。",
+    "enExplanation": "The negative-question shape softens a positive conjecture here. It is not the prohibitive んじゃない used as an order."
+  },
+  {
+    "id": "golden-grammar-q220",
+    "chapter": "Grammar Drill",
+    "page": 220,
+    "type": "production",
+    "difficulty": 3,
+    "question": "明日(あした)は早(はや)く起(お)き__________よ。\n\nYou don't have to get up early tomorrow. (Short conversational form.)",
+    "answers": [
+      "なくていい",
+      "なきゃいけない",
+      "たほうがいい",
+      "ちゃいけない"
+    ],
+    "correct": 0,
+    "grammarPoint": "～なくていい — don't have to / no need to — shortened lack of obligation",
+    "formation": "V ない-form: ない → なくて + いい.\nなくてもいい may omit も in conversation.\n起(お)きない → 起(お)きなくていい.",
+    "casualForm": "～なくていい\n明日(あした)は早(はや)く起(お)きなくていいよ。",
+    "jpExplanation": "その行動(こうどう)をする必要(ひつよう)がないことを表(あらわ)します。",
+    "enExplanation": "This removes an obligation. It is different from てはいけない, which forbids an action; some contexts can nevertheless sound dismissive."
+  },
+  {
+    "id": "golden-grammar-q221",
+    "chapter": "Grammar Drill",
+    "page": 221,
+    "type": "production",
+    "difficulty": 3,
+    "question": "先(さき)に予約(よやく)し__________。\n\nPlease book it beforehand. (Contracted casual request.)",
+    "answers": [
+      "ないで",
+      "といて",
+      "たはず",
+      "てたっけ"
+    ],
+    "correct": 1,
+    "grammarPoint": "～といて — do it beforehand / leave it that way — casual contracted request",
+    "formation": "V ておいて → V といて; V でおいて → V どいて.\n予約(よやく)しておいて → 予約(よやく)しといて; 読(よ)んでおいて → 読(よ)んどいて.",
+    "casualForm": "～といて\n先(さき)に予約(よやく)しといて。",
+    "jpExplanation": "「ておいて」の短(みじか)い形(かたち)で、準備(じゅんび)を頼(たの)むときに使(つか)います。",
+    "enExplanation": "This contracts preparatory ておいて, commonly as a request. With a で-form the contraction is どいて, not といて."
   }
 ]

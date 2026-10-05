@@ -25,7 +25,7 @@
   const lookup=text=>w.lessonAudioFiles['grammar-cards'][w.getJapaneseSpeechText(text)];
   for(let i=0;i<entries.length;i++) {
    const entry=entries[i];
-   assert(q('.vocabulary-card-counter').textContent===`${i+1} / 189`,'Counter '+i);
+   assert(q('.vocabulary-card-counter').textContent===`${i+1} / ${entries.length}`,'Counter '+i);
    assert(plays.at(-1).src===lookup(entry.japanese),'Grammar point autoplays '+i);
    assert(plays.at(-1).playbackRate===1,'Native speed');
    assert(q('.vocabulary-card-meaning').textContent===entry.english,'Meaning '+i);
@@ -43,7 +43,7 @@
   q('#vocabularyCardFurigana').click();
   assert(w.getComputedStyle(q('.grammar-card-example .furiganaReading')).display!=='none','Furigana shown');
   const last=plays.at(-1);q('#backFromExplosion').click();assert(last.paused,'Close stops audio');assert(!q('#homeScreen').classList.contains('hidden'),'Back returns home');
-  result.textContent='PASS: all 189 grammar cards, autoplay, 378 sentence speakers, silent formation, phone layout and cleanup.';
+  result.textContent=`PASS: all ${entries.length} grammar cards, autoplay, ${entries.length*2} sentence speakers, silent formation, phone layout and cleanup.`;
  }catch(error){result.textContent='FAIL: '+error.stack}
 })();
 </script>

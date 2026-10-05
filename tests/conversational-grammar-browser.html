@@ -1,0 +1,44 @@
+<!doctype html><meta charset="utf-8"><title>Conversational Grammar Drill checks</title>
+<pre id="result">RUNNING</pre><iframe src="../index.html" style="width:320px;height:850px" title="App"></iframe>
+<script>
+(async()=>{
+ const frame=document.querySelector('iframe'),result=document.querySelector('#result');
+ const assert=(v,m)=>{if(!v)throw Error(m)};
+ const until=async fn=>{for(let i=0;i<300;i++){if(fn())return;await new Promise(r=>setTimeout(r,20))}throw Error('Timed out')};
+ try{
+  await until(()=>frame.contentDocument.querySelector('#openVocabularyCards:not(:disabled)'));
+  const w=frame.contentWindow,d=frame.contentDocument,q=s=>d.querySelector(s),plays=[];
+  class Audio extends w.EventTarget{constructor(src){super();this.src=src;this.paused=true;this.currentTime=0}play(){this.paused=false;plays.push(this);return Promise.resolve()}pause(){this.paused=true}}
+  w.Audio=Audio;
+  const cards=await fetch('../data/golden-grammar.json').then(r=>r.json());assert(cards.length===221,'221 drill questions');
+  [...d.querySelectorAll('.category-card')].find(b=>b.textContent.includes('日本語で話す')).click();
+  const lesson=()=>[...d.querySelectorAll('.lesson-card')].find(b=>b.querySelector('strong').textContent.trim()==='Grammar Drill');
+  await until(lesson);const random=w.Math.random;w.Math.random=()=>0.999999;lesson().querySelector('.lesson-open').click();
+  await until(()=>q('#questionProgress').textContent.trim()===`1 / ${cards.length}`);w.Math.random=random;
+  const lookup=text=>w.lessonAudioFiles['golden-grammar'][w.getJapaneseSpeechText(text)];let newQuestions=0;
+  for(let i=0;i<cards.length;i++){
+   const card=cards[i];assert(q('#questionText').textContent===card.question,'Question rendering '+card.id);
+   const answers=[...d.querySelectorAll('#answerContainer .answer-button')];assert(answers.length===4,'Four choices '+card.id);
+   if(i>=189){
+    q('#speakQuestion').click();assert(plays.at(-1).src===lookup(card.question),'Nova prompt '+card.id);
+    q('#speakAnswers').click();
+    for(let j=0;j<card.answers.length;j++){
+     const expected=lookup(card.answers[j]+(j<card.answers.length-1?'。':''))||lookup(card.answers[j]);
+     assert(plays.at(-1).src===expected,'Nova answer '+card.id+'/'+j);
+     plays.at(-1).dispatchEvent(new w.Event('ended'));
+    }
+    newQuestions++;
+   }
+   answers[card.correct].click();assert(q('#resultCard').classList.contains('correct-result'),'Correct answer '+card.id);
+   assert(q('#grammarPoint').textContent===card.grammarPoint,'Grammar point '+card.id);
+   assert(q('#grammarFormation').textContent===card.formation,'Formation '+card.id);
+   if(i>=189){q('#speakExplanation').click();assert(plays.at(-1).src===lookup(card.jpExplanation),'Nova explanation '+card.id)}
+   assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Phone width '+card.id);
+   if(i<cards.length-1)q('#nextQuestion').click();
+  }
+  assert(newQuestions===32,'All 32 new questions');q('#backToPages').click();
+  assert(plays.at(-1).paused,'Navigation stops playback');
+  result.textContent='PASS: all 221 drill questions, 32 new conversational points, correct answers, formations, Nova prompt/choice/explanation controls and phone layout.';
+ }catch(e){result.textContent='FAIL: '+e.stack}
+})();
+</script>

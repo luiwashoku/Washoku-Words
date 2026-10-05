@@ -376,3 +376,16 @@ No audible listening or pitch-accent verification is claimed.
 The new learning family uses a 2px smaller gap at widths up to 360px so its
 longest example fits the 540px card with furigana shown. Font sizes match all
 other families; canonical and accepted-answer sentences are checked separately.
+
+
+Grammar Drill and 文法カード now each contain 221 entries after a
+[45-expression conversational coverage audit](conversational-grammar-audit.md).
+Thirteen expressions already had teaching coverage; 32 dedicated entries were
+added to each deck. Grammar Drill has 1,212 speech keys and 1,211 Nova clips;
+文法カード has 652 Marin clips. New drill prompts and explanations use speed
+1.0, while answer fragments and choice lists use 0.85. Flashcard headings and
+formal/casual samples remain Marin 1.0, and formation stays silent.
+`tests/conversational-grammar-browser.html` checks all 221 drill questions and
+new audio controls; `tests/grammar-cards-browser.html` checks all 221 flashcards
+and 442 sample speakers. Audio file coverage is verified; no audible listening
+or pitch verification is claimed.
