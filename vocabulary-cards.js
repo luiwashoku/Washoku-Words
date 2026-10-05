@@ -51,10 +51,20 @@
       allDialog = dialog;
       const close = document.createElement("button");
       close.type = "button";
-      close.textContent = "閉じる";
+      close.className = "icon-button";
+      close.textContent = "×";
+      close.setAttribute("aria-label", "Close card list");
+      const header = document.createElement("div");
+      header.className = "grammarIndexHeader popup-header";
+      const title = document.createElement("h2");
+      title.id = "vocabularyCardListTitle";
+      title.textContent = lesson.title;
+      dialog.setAttribute("aria-labelledby", title.id);
+      header.append(title, close);
       close.addEventListener("click", () => dialog.close(), { signal });
       all.addEventListener("click", () => {
         const list = document.createElement("div");
+        list.className = "popup-body";
         entries.forEach((word, target) => {
           const button = document.createElement("button");
           button.type = "button";
@@ -63,7 +73,7 @@
           button.addEventListener("click", () => { move(target - index); dialog.close(); }, { signal });
           list.appendChild(button);
         });
-        dialog.replaceChildren(close, list);
+        dialog.replaceChildren(header, list);
         if (lesson.sentenceCards) dialog.classList.toggle("furigana-hidden", !furiganaVisible);
         dialog.showModal();
       }, { signal });

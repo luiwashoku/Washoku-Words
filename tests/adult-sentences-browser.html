@@ -42,7 +42,7 @@
   q('#vocabularyCardFurigana').click();assert(w.getComputedStyle(q('.furiganaReading')).display!=='none','Show furigana');
   q('#vocabularyCardTools button[aria-label="Show all cards"]').click();
   const dialog=q('dialog.knife-steps-list');assert(dialog.open,'All dialog');
-  const buttons=[...dialog.querySelectorAll('div > button')];assert(buttons.length===ordered.length,'All forty sentences');
+  const buttons=[...dialog.querySelectorAll('.popup-body > button')];assert(buttons.length===ordered.length,'All sentences');
   assert(buttons[0].textContent===ordered[0].kanji,'All renders annotated sentence');
   buttons[3].click();assert(!dialog.open&&q('.vocabulary-card-counter').textContent===`4 / ${ordered.length}`,'All jumps to selected sentence');
   assert(plays.at(-1).src===lookup(ordered[3]),'Selected sentence autoplays');
@@ -55,7 +55,7 @@
   await until(()=>q('.vocabulary-study-card--sentence:not(.hidden)'));w.Math.random=originalRandom;
   assert(q('#studyCardWord').textContent===entries[0].kanji,'New opening reshuffles independently');
   q('#backFromExplosion').click();
-  result.textContent='PASS: 40 shuffled sentences and reshuffle on reopen, autoplay at 1×, replay, furigana, all-card selection, navigation, 320×740 layout and audio cleanup.';
+  result.textContent='PASS: 69 shuffled sentences and reshuffle on reopen, autoplay at 1×, replay, furigana, all-card selection, navigation, 320×740 layout and audio cleanup.';
  }catch(e){result.textContent='FAIL: '+e.stack}
 })();
 </script>

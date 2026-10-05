@@ -48,7 +48,7 @@
 
   <link
     rel="stylesheet"
-    href="styles.css?v=adult-sentences-3"
+    href="styles.css?v=shared-popup-style-1"
   >
 </head>
 
@@ -106,14 +106,16 @@
       </div>
 
     <dialog id="searchDialog" aria-labelledby="searchTitle">
-      <div class="search-header">
+      <div class="search-header grammarIndexHeader popup-header">
         <h2 id="searchTitle">検索 · Search</h2>
         <button id="closeSearch" class="icon-button" type="button" aria-label="Close search">×</button>
       </div>
+      <div class="popup-body">
       <label class="search-label" for="searchInput">Japanese or English keywords</label>
       <input id="searchInput" type="search" placeholder="e.g. rice / ごはん / ご飯" autocomplete="off" enterkeyhint="search">
       <p id="searchStatus" role="status" aria-live="polite"></p>
       <div id="searchResults"></div>
+      </div>
     </dialog>
 
     <section
@@ -223,8 +225,8 @@
 
       </div>
 
-      <dialog id="lessonIntroductionDialog">
-        <div class="introductionHeader">
+      <dialog id="lessonIntroductionDialog" aria-labelledby="introductionTitle">
+        <div class="introductionHeader grammarIndexHeader popup-header">
           <div>
             <span>はじめに</span>
             <h2 id="introductionTitle"></h2>
@@ -232,9 +234,10 @@
 
           <button
             id="closeIntroduction"
+            class="icon-button"
             type="button"
             aria-label="Close introduction"
-          ></button>
+          >×</button>
         </div>
 
         <div class="introductionBody">
@@ -254,7 +257,7 @@
         id="grammarIndexDialog"
         aria-labelledby="grammarIndexTitle"
       >
-        <div class="grammarIndexHeader">
+        <div class="grammarIndexHeader popup-header">
           <div>
             <span>問題一覧</span>
             <h2 id="grammarIndexTitle">All grammar points</h2>
@@ -262,9 +265,10 @@
 
           <button
             id="closeGrammarIndex"
+            class="icon-button"
             type="button"
             aria-label="Close grammar point list"
-          ></button>
+          >×</button>
         </div>
 
         <div
@@ -449,19 +453,19 @@
   </div>
 
   <script src="japanese-speech.js"></script>
-  <script src="word-explosion.js"></script>
-  <script src="word-explosion-2.js?v=word-list-search-1"></script>
-  <script src="vocabulary-cards.js?v=5"></script>
-  <script src="families-of-doom.js?v=8"></script>
+  <script src="word-explosion.js?v=popup-style-1"></script>
+  <script src="word-explosion-2.js?v=shared-popup-style-1"></script>
+  <script src="vocabulary-cards.js?v=6"></script>
+  <script src="families-of-doom.js?v=9"></script>
   <script src="money-cat.js?v=15"></script>
   <script src="money-cat-audio-check.js?v=4"></script>
   <script src="search.js"></script>
   <script src="taste-audio-manifest.js"></script>
   <script src="game-audio-manifest.js?v=marin-expansion-20261003"></script>
   <script src="word-explosion-audio-manifest.js?v=marin-expansion-20261003"></script>
-  <script src="lesson-audio-manifest.js?v=real400-vocabulary-only"></script>
+  <script src="lesson-audio-manifest.js?v=adult-sentences-69"></script>
   <script src="offline.js?v=3"></script>
-  <script src="app.js?v=vocabulary-only-feedback-1"></script>
+  <script src="app.js?v=outside-click-popups-1"></script>
 
 </body>
 </html>

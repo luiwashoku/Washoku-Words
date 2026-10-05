@@ -322,6 +322,16 @@
   }
 
   function bindEvents() {
+    document.addEventListener("click", (event) => {
+      const dialog = event.target;
+      if (!(dialog instanceof HTMLDialogElement) || !dialog.open) return;
+      const bounds = dialog.getBoundingClientRect();
+      const outside = event.clientX < bounds.left || event.clientX > bounds.right ||
+        event.clientY < bounds.top || event.clientY > bounds.bottom;
+      if (!outside) return;
+      if (typeof dialog.requestClose === "function") dialog.requestClose();
+      else dialog.close();
+    });
     document.getElementById("backFromExplosion").addEventListener("click", returnToLessonList);
     document.getElementById("openVocabularyCards").addEventListener("click", openVocabularyCards);
     document.getElementById("openGrammarCards").addEventListener("click", () => {
@@ -349,11 +359,6 @@
       closeLessonIntroduction
     );
 
-    elements.lessonIntroductionDialog
-      .addEventListener(
-        "click",
-        closeIntroductionFromBackdrop
-      );
 
     elements.nextQuestion.addEventListener(
       "click",
@@ -390,10 +395,6 @@
       closeGrammarIndex
     );
 
-    elements.grammarIndexDialog.addEventListener(
-      "click",
-      closeGrammarIndexFromBackdrop
-    );
   }
 
   function openGrammarIndex() {
@@ -641,12 +642,6 @@
 
   function closeGrammarIndex() {
     elements.grammarIndexDialog.close();
-  }
-
-  function closeGrammarIndexFromBackdrop(event) {
-    if (event.target === elements.grammarIndexDialog) {
-      closeGrammarIndex();
-    }
   }
 
   function toggleFurigana() {
@@ -1870,15 +1865,6 @@
 
   function closeLessonIntroduction() {
     elements.lessonIntroductionDialog.close();
-  }
-
-  function closeIntroductionFromBackdrop(event) {
-    if (
-      event.target ===
-      elements.lessonIntroductionDialog
-    ) {
-      closeLessonIntroduction();
-    }
   }
 
   function buildSeafoodQuestions(

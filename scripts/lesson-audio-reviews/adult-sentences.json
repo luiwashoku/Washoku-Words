@@ -4,8 +4,8 @@
   "voice": "marin",
   "model": "gpt-4o-mini-tts",
   "speed": 1.0,
-  "reading_source": "Manually reviewed each supplied sentence: kanji readings and contextual topic は → わ and object を → お. Lexical は preserved; 予定通り → よていどおり, 悪気 → わるぎ, 一回 → いっかい. Added 30 unique sentences with manually checked readings: 一人ひとり, 寂しいさびしい, 気を遣うきおつかう, 失ううしなう, 選択肢せんたくし, 結局けっきょく, 思った通りおもったとおり, 判断はんだん. Contextual particles checked individually; lexical 話はな and 判断はん preserved.",
-  "notes": "Sentence recordings at 1×. No audible listening or pitch-accent verification claimed. Reviewed all 40 sentences for prosodic grouping after user reported a pause before the topic particle in 自分では. Added speech-only commas at complete phrase or clause boundaries to 13 recordings and explicit guidance keeping particles with preceding phrases. Display text and lookup keys retained. Existing recordings not auditioned; audible pause timing is not verified.",
+  "reading_source": "Manually reviewed each supplied sentence: kanji readings and contextual topic は → わ and object を → お. Lexical は preserved; 予定通り → よていどおり, 悪気 → わるぎ, 一回 → いっかい. Added 30 unique sentences with manually checked readings: 一人ひとり, 寂しいさびしい, 気を遣うきおつかう, 失ううしなう, 選択肢せんたくし, 結局けっきょく, 思った通りおもったとおり, 判断はんだん. Contextual particles checked individually; lexical 話はな and 判断はん preserved. Added 25 supplied sentences, manually reviewed all kanji readings: 香港ほんこん, 何でもなんでも, 食感しょっかん, 珍しいめずらしい, 完璧かんぺき, 触るさわる, 尊重そんちょう, 最低限さいていげん, 敬意けいい, 悪気わるぎ, 公共こうきょう, 配慮はいりょ and 快適かいてき. Reviewed topic は→わ, object を→お, directional 人へのへ→え; lexical は in 配慮 retained. Hiragana retains ルール long vowel as るーる. Added four supplied sentences: 一つひとつ, 細かいこまかい, 気を配るきおくばる, 社会しゃかい, 成り立つなりたつ, 配慮はいりょ. Topic 一つは and 日本では → わ; object 気を → お; directional 人への → え; lexical 配慮はいりょ retained. Phrase boundaries reviewed before Marin generation.",
+  "notes": "Sentence recordings at 1×. No audible listening or pitch-accent verification claimed. Reviewed all 40 sentences for prosodic grouping after user reported a pause before the topic particle in 自分では. Added speech-only commas at complete phrase or clause boundaries to 13 recordings and explicit guidance keeping particles with preceding phrases. Display text and lookup keys retained. Existing recordings not auditioned; audible pause timing is not verified. Added 25 Marin sentence recordings at 1.0 with reviewed speech-only clause/phrase punctuation and explicit particle-grouping guidance. Existing 40 recording inputs retained. No listening verification claimed. Four new sentence recordings at speed 1.0; existing 65 reviewed inputs retained. Display text unchanged apart from furigana; added only speech-side phrase punctuation. No audible listening verification claimed.",
   "entries": [
     {
       "key": "じぶんではきにしてないつもりでも、ひとにいわれるときゅうにきになってくることがある。",
@@ -219,6 +219,180 @@
       "input": "なにがだいじかって、けっきょく、じぶんできめるしかないとおもう。",
       "speed": 1.0,
       "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas, without stopping between a phrase and its following grammatical particle. Keep topic わ attached to the preceding phrase; never pause immediately before it. Keep object お attached to its preceding noun. Do not split words or verb endings. Keep the rest flowing naturally rather than inserting extra pauses between words."
+    },
+    {
+      "key": "すいすはすみやすいけど、なんでもたかいのがたいへんです。",
+      "input": "すいすわすみやすいけど、なんでもたかいのがたいへんです。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas. Keep grammatical particles attached to the preceding phrase: never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally without extra word-by-word pauses."
+    },
+    {
+      "key": "すいすにすんでから、しずかなせいかつがすきになりました。",
+      "input": "すいすにすんでから、しずかなせいかつがすきになりました。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas. Keep grammatical particles attached to the preceding phrase: never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally without extra word-by-word pauses."
+    },
+    {
+      "key": "べんりさだけでいえば、ほんこんのほうがべんりだとおもいます。",
+      "input": "べんりさだけでいえば、ほんこんのほうがべんりだとおもいます。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas. Keep grammatical particles attached to the preceding phrase: never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally without extra word-by-word pauses."
+    },
+    {
+      "key": "ほんこんはべんりだけど、ずっとすむにはすこしつかれるとおもいます。",
+      "input": "ほんこんわべんりだけど、ずっとすむにわ、すこしつかれるとおもいます。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas. Keep grammatical particles attached to the preceding phrase: never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally without extra word-by-word pauses."
+    },
+    {
+      "key": "どちらがいいというより、それぞれよさがちがうとおもいます。",
+      "input": "どちらがいいというより、それぞれよさがちがうとおもいます。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas. Keep grammatical particles attached to the preceding phrase: never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally without extra word-by-word pauses."
+    },
+    {
+      "key": "たかいものがおいしいとはかぎらないとおもいます。",
+      "input": "たかいものがおいしいとわかぎらないとおもいます。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas. Keep grammatical particles attached to the preceding phrase: never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally without extra word-by-word pauses."
+    },
+    {
+      "key": "りょうりはあじだけじゃなくて、しょっかんもすごくだいじだとおもいます。",
+      "input": "りょうりわあじだけじゃなくて、しょっかんもすごくだいじだとおもいます。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas. Keep grammatical particles attached to the preceding phrase: never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally without extra word-by-word pauses."
+    },
+    {
+      "key": "めずらしいものより、そのとちでふつうにたべられているものにきょうみがあります。",
+      "input": "めずらしいものより、そのとちでふつうにたべられているものに、きょうみがあります。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas. Keep grammatical particles attached to the preceding phrase: never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally without extra word-by-word pauses."
+    },
+    {
+      "key": "なにをたべるかだけじゃなくて、どうつくられているかもしりたいです。",
+      "input": "なにおたべるかだけじゃなくて、どうつくられているかも、しりたいです。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas. Keep grammatical particles attached to the preceding phrase: never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally without extra word-by-word pauses."
+    },
+    {
+      "key": "かんぺきなりょうりより、つくったひとのかんがえがみえるりょうりのほうがおもしろいです。",
+      "input": "かんぺきなりょうりより、つくったひとのかんがえがみえるりょうりのほうがおもしろいです。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas. Keep grammatical particles attached to the preceding phrase: never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally without extra word-by-word pauses."
+    },
+    {
+      "key": "ねっとでみるのと、じっさいにやってみるのはぜんぜんちがいます。",
+      "input": "ねっとでみるのと、じっさいにやってみるのわ、ぜんぜんちがいます。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas. Keep grammatical particles attached to the preceding phrase: never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally without extra word-by-word pauses."
+    },
+    {
+      "key": "ちしきとしてしっていても、やってみないとわからないことはおおいです。",
+      "input": "ちしきとしてしっていても、やってみないとわからないことわ、おおいです。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas. Keep grammatical particles attached to the preceding phrase: never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally without extra word-by-word pauses."
+    },
+    {
+      "key": "しっぱいしても、じぶんでやったほうがおぼえます。",
+      "input": "しっぱいしても、じぶんでやったほうがおぼえます。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas. Keep grammatical particles attached to the preceding phrase: never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally without extra word-by-word pauses."
+    },
+    {
+      "key": "けっかより、どうしてそうなるのかをしりたいです。",
+      "input": "けっかより、どうしてそうなるのかおしりたいです。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas. Keep grammatical particles attached to the preceding phrase: never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally without extra word-by-word pauses."
+    },
+    {
+      "key": "みるだけより、さわったりつくったりしたほうがりかいしやすいです。",
+      "input": "みるだけより、さわったりつくったりしたほうがりかいしやすいです。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas. Keep grammatical particles attached to the preceding phrase: never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally without extra word-by-word pauses."
+    },
+    {
+      "key": "いけんがちがっても、あいてをそんちょうすることはできるとおもいます。",
+      "input": "いけんがちがっても、あいておそんちょうすることわできるとおもいます。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas. Keep grammatical particles attached to the preceding phrase: never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally without extra word-by-word pauses."
+    },
+    {
+      "key": "すきじゃないひとにも、さいていげんのけいいはひつようだとおもいます。",
+      "input": "すきじゃないひとにも、さいていげんのけいいわひつようだとおもいます。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas. Keep grammatical particles attached to the preceding phrase: never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally without extra word-by-word pauses."
+    },
+    {
+      "key": "じぶんにとってふつうでも、あいてにとってふつうとはかぎりません。",
+      "input": "じぶんにとってふつうでも、あいてにとってふつうとわかぎりません。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas. Keep grammatical particles attached to the preceding phrase: never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally without extra word-by-word pauses."
+    },
+    {
+      "key": "わるぎがなくても、あいてがいやがっていたらやめたほうがいいとおもいます。",
+      "input": "わるぎがなくても、あいてがいやがっていたら、やめたほうがいいとおもいます。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas. Keep grammatical particles attached to the preceding phrase: never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally without extra word-by-word pauses."
+    },
+    {
+      "key": "あいてをりかいすることと、どういすることはべつだとおもいます。",
+      "input": "あいておりかいすることと、どういすることわ、べつだとおもいます。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas. Keep grammatical particles attached to the preceding phrase: never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally without extra word-by-word pauses."
+    },
+    {
+      "key": "こうきょうのばしょでは、じぶんだけがつかっているわけじゃないですからね。",
+      "input": "こうきょうのばしょでわ、じぶんだけがつかっているわけじゃないですからね。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas. Keep grammatical particles attached to the preceding phrase: never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally without extra word-by-word pauses."
+    },
+    {
+      "key": "じゆうはだいじだけど、まわりのひとへのはいりょもひつようだとおもいます。",
+      "input": "じゆうわだいじだけど、まわりのひとえのはいりょもひつようだとおもいます。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas. Keep grammatical particles attached to the preceding phrase: never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally without extra word-by-word pauses."
+    },
+    {
+      "key": "るーるだからまもるというより、ほかのひとのめいわくにならないようにしたいです。",
+      "input": "るーるだからまもるというより、ほかのひとのめいわくにならないようにしたいです。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas. Keep grammatical particles attached to the preceding phrase: never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally without extra word-by-word pauses."
+    },
+    {
+      "key": "すこしきをつけるだけで、みんながかいてきにつかえるとおもいます。",
+      "input": "すこしきおつけるだけで、みんながかいてきにつかえるとおもいます。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas. Keep grammatical particles attached to the preceding phrase: never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally without extra word-by-word pauses."
+    },
+    {
+      "key": "じぶんにはきにならなくても、ほかのひとはきになるかもしれません。",
+      "input": "じぶんにわきにならなくても、ほかのひとわ、きになるかもしれません。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief, natural phrase breaks at the supplied commas. Keep grammatical particles attached to the preceding phrase: never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally without extra word-by-word pauses."
+    },
+    {
+      "key": "にほんがすきなりゆうのひとつは、こまかいところまできをくばるぶんかがあることです。",
+      "input": "にほんがすきなりゆうのひとつわ、こまかいところまできおくばるぶんかがあることです。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief natural breaks at the supplied commas. Keep particles attached to the preceding phrase; never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally."
+    },
+    {
+      "key": "じぶんのことだけじゃなくて、まわりのひとがどうかんじるかもかんがえるところがすきです。",
+      "input": "じぶんのことだけじゃなくて、まわりのひとがどうかんじるかも、かんがえるところがすきです。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief natural breaks at the supplied commas. Keep particles attached to the preceding phrase; never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally."
+    },
+    {
+      "key": "みんながすこしずつまわりにきをくばることで、しゃかいがなりたっているかんじがします。",
+      "input": "みんながすこしずつまわりにきおくばることで、しゃかいがなりたっているかんじがします。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief natural breaks at the supplied commas. Keep particles attached to the preceding phrase; never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally."
+    },
+    {
+      "key": "にほんでは、じぶんのじゆうだけじゃなくて、まわりのひとへのはいりょもだいじにしているかんじがして、そこがすきです。",
+      "input": "にほんでわ、じぶんのじゆうだけじゃなくて、まわりのひとえのはいりょも、だいじにしているかんじがして、そこがすきです。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Use brief natural breaks at the supplied commas. Keep particles attached to the preceding phrase; never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally."
     }
   ],
   "phrasing_review": {

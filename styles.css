@@ -2077,3 +2077,60 @@ html.vocabulary-cards-open,
 .vocabulary-study-card--sentence .vocabulary-card-word-row h3 { font-size: clamp(22px, 5vw, 28px); line-height: 1.9; }
 
 .vocabulary-study-card--sentence .vocabulary-card-meaning { margin-top: 16px; font-size: 17px; font-weight: 500; line-height: 1.6; }
+
+/* Shared popup frame and heading bar, based on the 単語爆発2 word list. */
+#lessonIntroductionDialog,
+#grammarIndexDialog,
+#searchDialog,
+.explosion-index-dialog,
+.knife-steps-list,
+.doom-all-dialog {
+  width: min(calc(100% - 28px), 620px);
+  max-height: min(84vh, 760px);
+  padding: 0;
+  overflow: auto;
+  border: var(--line-weight) solid var(--ink);
+  border-radius: 26px;
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: 7px 7px 0 var(--ink);
+}
+.knife-steps-list::backdrop,
+.doom-all-dialog::backdrop { background: rgb(17 17 17 / 62%); }
+.popup-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px;
+  margin: 0;
+  border-bottom: var(--line-weight) solid var(--ink);
+  background: var(--horizon);
+}
+.popup-header > :first-child { min-width: 0; }
+.popup-header h2 {
+  margin: 0;
+  font-size: clamp(22px, 6vw, 31px);
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  overflow-wrap: anywhere;
+}
+.popup-header .icon-button,
+#closeIntroduction,
+#closeGrammarIndex {
+  display: inline-grid;
+  place-items: center;
+  flex: 0 0 50px;
+  width: 50px;
+  min-width: 50px;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  border: var(--line-weight) solid var(--ink);
+  background: var(--paper);
+  color: var(--ink);
+}
+#closeIntroduction::before, #closeIntroduction::after,
+#closeGrammarIndex::before, #closeGrammarIndex::after { display: none; }
+.popup-body { padding: 18px 20px; }

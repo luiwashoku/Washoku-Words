@@ -1009,7 +1009,7 @@
     "id": "golden-grammar",
     "category": "conversation",
     "page": "Grammar",
-    "sortOrder": 14,
+    "sortOrder": 4.1,
     "title": "Grammar Drill",
     "menuColor": "yellow",
     "file": "data/golden-grammar.json",
@@ -1187,7 +1187,7 @@
     "id": "families-of-doom",
     "category": "conversation",
     "page": "Word families",
-    "sortOrder": 11,
+    "sortOrder": 0.2,
     "title": "Families of Doom",
     "menuColor": "green",
     "gameMode": "families-of-doom",
@@ -1199,12 +1199,12 @@
     "id": "adult-sentences",
     "category": "conversation",
     "page": "Adult sentences",
-    "sortOrder": 15.1,
+    "sortOrder": 0.1,
     "title": "大人の例文",
     "gameMode": "vocabulary-cards",
     "sentenceCards": true,
     "ordered": false,
     "file": "data/adult-sentences.json",
-    "questionCount": 40
+    "questionCount": 69
   }
 ]

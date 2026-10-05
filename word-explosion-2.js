@@ -60,7 +60,7 @@
     dialog.className = "explosion-index-dialog";
     dialog.setAttribute("aria-labelledby", "listeningIndexTitle");
     const header = document.createElement("div");
-    header.className = "grammarIndexHeader";
+    header.className = "grammarIndexHeader popup-header";
     const title = document.createElement("h2");
     title.id = "listeningIndexTitle";
     title.textContent = "単語一覧";

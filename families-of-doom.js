@@ -38,6 +38,14 @@
     previous.setAttribute("aria-label", "Previous word group"); next.setAttribute("aria-label", "Next word group");
     previous.disabled = next.disabled = true;
     navigation.append(previous, counter, next); container.append(status, card, meaningsDialog);
+    function popupHeader(close, subtitle, id) {
+      const header = make("div", "grammarIndexHeader popup-header");
+      const labels = make("div", "");
+      const title = make("h2", "", "Families of Doom"); title.id = id;
+      labels.append(make("span", "", subtitle), title);
+      header.append(labels, close);
+      return header;
+    }
     function stopAudio() { if (audio) { audio.pause(); audio = null; } stopSpeech(); }
     function shuffle(questions) {
       const result = [...questions];
@@ -76,15 +84,17 @@
       help.type = "button"; help.setAttribute("aria-label", "Show meanings of this family"); help.setAttribute("aria-haspopup", "dialog");
       help.addEventListener("click", () => {
         stopAudio();
-        const title = make("h3", "", "Word meanings");
         const close = make("button", "icon-button", "×"); close.type = "button"; close.setAttribute("aria-label", "Close word meanings");
         close.addEventListener("click", () => meaningsDialog.close(), { signal });
-        meaningsDialog.replaceChildren(close, title);
+        const header = popupHeader(close, "Word meanings", "doomMeaningsTitle");
+        const body = make("div", "popup-body");
+        meaningsDialog.setAttribute("aria-labelledby", "doomMeaningsTitle");
+        meaningsDialog.replaceChildren(header, body);
         family.answers.forEach((word, wordIndex) => {
           const entry = make("section", "doom-word-meaning"), label = make("h4", "");
-          setJapaneseText(label, word); entry.append(label, make("p", "", family.meanings[wordIndex])); meaningsDialog.append(entry);
+          setJapaneseText(label, word); entry.append(label, make("p", "", family.meanings[wordIndex])); body.append(entry);
         });
-        if (question.usageNote) meaningsDialog.append(make("p", "doom-usage-note", question.usageNote));
+        if (question.usageNote) body.append(make("p", "doom-usage-note", question.usageNote));
         meaningsDialog.showModal();
       }, { signal }); helpRow.append(help);
       const progress = make("p", "doom-question-progress", `${session.position + 1} / ${session.questions.length}`);
@@ -132,10 +142,14 @@
     all.addEventListener("click", () => {
       stopAudio();
       const close = make("button", "icon-button", "×"); close.type = "button"; close.setAttribute("aria-label", "Close all families");
-      close.addEventListener("click", () => { stopAudio(); dialog.close(); }, { signal }); dialog.replaceChildren(close);
+      close.addEventListener("click", () => { stopAudio(); dialog.close(); }, { signal });
+      const header = popupHeader(close, "Word families", "doomFamiliesTitle");
+      const body = make("div", "popup-body");
+      dialog.setAttribute("aria-labelledby", "doomFamiliesTitle");
+      dialog.replaceChildren(header, body);
       families.forEach((family, target) => {
         const heading = make("button", "answer-button doom-family-link"); heading.type = "button"; setJapaneseText(heading, family.answers.join(" / "));
-        heading.addEventListener("click", () => { stopAudio(); index = target; status.textContent = ""; render(); dialog.close(); }, { signal }); dialog.append(heading);
+        heading.addEventListener("click", () => { stopAudio(); index = target; status.textContent = ""; render(); dialog.close(); }, { signal }); body.append(heading);
       }); dialog.showModal();
     }, { signal });
     dialog.addEventListener("cancel", stopAudio, { signal });

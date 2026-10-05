@@ -1,0 +1,61 @@
+<!doctype html><meta charset="utf-8"><title>Popup dismissal checks</title>
+<pre id="result">RUNNING</pre><iframe src="../index.html" style="width:390px;height:850px" title="App"></iframe>
+<script>
+(async()=>{
+ const frame=document.querySelector('iframe'),result=document.querySelector('#result');
+ const assert=(v,m)=>{if(!v)throw Error(m)};
+ const until=async fn=>{for(let i=0;i<300;i++){if(fn())return;await new Promise(r=>setTimeout(r,20))}throw Error('Timed out')};
+ try{
+  await until(()=>frame.contentDocument.querySelector('#openVocabularyCards:not(:disabled)'));
+  const w=frame.contentWindow,d=frame.contentDocument,q=s=>d.querySelector(s);let tested=0;let frameStyle;
+  frame.style.width='320px';
+  class Audio extends w.EventTarget{constructor(src){super();this.src=src;this.paused=true}getAttribute(n){return n==='src'?this.src:null}play(){this.paused=false;return Promise.resolve()}pause(){this.paused=true}}
+  w.Audio=Audio;
+  const check=async (open,name)=>{
+   open();await until(()=>q('dialog[open]'));const dialog=q('dialog[open]'),r=dialog.getBoundingClientRect();
+   const header=dialog.querySelector('.popup-header'),close=header?.querySelector('button');
+   assert(header?.querySelector('h2')?.textContent.trim(),name+' heading');
+   assert(close?.textContent.trim()==='×',name+' cross button');
+   assert(Math.abs(close.getBoundingClientRect().width-50)<1,name+' close button not squeezed');
+   const style=w.getComputedStyle(dialog),signature=JSON.stringify(['borderRadius','backgroundColor','boxShadow','paddingTop'].map(p=>style[p]));
+   frameStyle??=signature;assert(signature===frameStyle,name+' shared frame');
+   assert(w.getComputedStyle(header).backgroundColor===w.getComputedStyle(q('.grammarIndexHeader')).backgroundColor,name+' heading bar color');
+   assert(dialog.scrollWidth<=dialog.clientWidth+1,name+' content fits phone width');
+   if(name==='Search')assert(dialog.querySelector('#searchInput'),'Search field retained');
+   if(name==='単語爆発2 word list')assert(dialog.querySelector('.listening-index-search'),'Word search retained');
+   if(name==='Family meanings')assert(dialog.querySelector('.doom-word-meaning'),'Meanings retained');
+   if(name==='Lesson introduction')assert(dialog.querySelector('#introductionJapanese')&&dialog.querySelector('#introductionEnglish'),'Both introduction languages retained');
+   const click=(target,x,y)=>target.dispatchEvent(new w.MouseEvent('click',{bubbles:true,clientX:x,clientY:y}));
+   click(dialog,r.left+1,r.top+1);assert(dialog.open,name+' padding remains open');
+   const content=dialog.querySelector('h2,h3,p,input')||dialog.querySelector('div');
+   if(content){click(content,r.left+r.width/2,r.top+r.height/2);assert(dialog.open,name+' content remains open')}
+   click(dialog,r.right+5,r.top+r.height/2);await until(()=>!dialog.open);
+   open();await until(()=>dialog.open);dialog.querySelector('.popup-header button').click();await until(()=>!dialog.open);tested++;
+  };
+  await check(()=>q('#openSearch').click(),'Search');
+  q('#openGrammarCards').click();await until(()=>q('.vocabulary-study-card:not(.hidden)'));
+  await check(()=>q('#vocabularyCardTools button[aria-label="Show all cards"]').click(),'Flashcard list');
+  q('#backFromExplosion').click();
+  const category=()=>[...d.querySelectorAll('.category-card')].find(b=>b.textContent.includes('日本語で話す'));
+  category().click();
+  const openLesson=async title=>{
+   const lesson=()=>[...d.querySelectorAll('.lesson-card')].find(b=>b.querySelector('strong').textContent.trim()===title);
+   await until(lesson);lesson().querySelector('.lesson-open').click();
+  };
+  await openLesson('Grammar Drill');await until(()=>q('#questionProgress').textContent.trim()==='1 / 221');
+  await check(()=>q('#lessonIntroductionButton').click(),'Lesson introduction');
+  await check(()=>q('#grammarIndexButton').click(),'Question index');
+  q('#backToPages').click();
+  await openLesson('Families of Doom');await until(()=>q('.doom-choice'));
+  await check(()=>q('.doom-help').click(),'Family meanings');
+  await check(()=>q('.doom-tools button[aria-label="Show all families"]').click(),'Family list');
+  q('#backFromExplosion').click();
+  for(const title of ['単語爆発','単語爆発2']){
+   await openLesson(title);await until(()=>!q('#explosionIndexButton').disabled);
+   await check(()=>q('#explosionIndexButton').click(),title+' word list');q('#backFromExplosion').click();
+  }
+  assert(tested===8,'All popup types covered');
+  result.textContent='PASS: all 8 popup types share a heading bar, frame and × button, retain their controls, fit 320px width, close on cross/outside clicks and stay open on inside clicks.';
+ }catch(e){result.textContent='FAIL: '+e.stack}
+})();
+</script>

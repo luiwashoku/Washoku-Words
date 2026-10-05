@@ -136,7 +136,7 @@
     dialog.className = "explosion-index-dialog";
     dialog.setAttribute("aria-labelledby", "explosionIndexTitle");
     const header = document.createElement("div");
-    header.className = "grammarIndexHeader";
+    header.className = "grammarIndexHeader popup-header";
     const title = document.createElement("h2");
     title.id = "explosionIndexTitle";
     const close = document.createElement("button");

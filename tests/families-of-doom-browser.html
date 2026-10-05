@@ -36,7 +36,7 @@
    assert(q('.doom-navigation span').textContent===`${f+1} / ${families.length}`,'Family counter');
    q('.doom-help').click();assert(q('.doom-meanings-dialog').open,'Help popup');
    assert(d.querySelectorAll('.doom-word-meaning').length===cards[0].answers.length,'Meanings cover every word');
-   q('.doom-meanings-dialog > button').click();
+   q('.doom-meanings-dialog .popup-header button').click();
    const seen=new Set(),counts=cards[0].answers.map(()=>0);
    for(let i=0;i<cards.length;i++){
     const question=cards.find(card=>card.question===q('.doom-sentence').textContent&&card.english===q('.doom-translation').textContent);
