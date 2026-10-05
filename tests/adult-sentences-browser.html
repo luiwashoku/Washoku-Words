@@ -55,7 +55,7 @@
   await until(()=>q('.vocabulary-study-card--sentence:not(.hidden)'));w.Math.random=originalRandom;
   assert(q('#studyCardWord').textContent===entries[0].kanji,'New opening reshuffles independently');
   q('#backFromExplosion').click();
-  result.textContent='PASS: 69 shuffled sentences and reshuffle on reopen, autoplay at 1×, replay, furigana, all-card selection, navigation, 320×740 layout and audio cleanup.';
+  result.textContent='PASS: 85 shuffled sentences and reshuffle on reopen, autoplay at 1×, replay, furigana, all-card selection, navigation, 320×740 layout and audio cleanup.';
  }catch(e){result.textContent='FAIL: '+e.stack}
 })();
 </script>
