@@ -322,3 +322,33 @@ reviewed separately from display labels and audio lookup keys. Audio generation
 and complete file coverage are verified; no audible pitch/listening verification
 is claimed. `tests/grammar-cards-browser.html` checks all 189 cards, autoplay,
 378 sentence controls, silent formation, phone layout and playback cleanup.
+
+Batch 91: `families-of-doom` adds 42 word families and 498 questions to
+日本語で話す, with three questions per word. The approved 戻る / 戻す /
+帰る / 返す family remains first. Each family shuffles its questions and advances
+only when the next-question button is pressed. Seventy-one questions accept an
+additional natural answer and reveal the matching conjugated sentence.
+The meaning popup explains overlapping usage; register cues distinguish formal
+and casual choices where appropriate. The clothing example uses 替える rather
+than 着替える so the conjugated answer matches its button.
+
+All 568 distinct completed-sentence keys have Marin recordings at generation
+speed 1.0, including accepted-answer variants. Exact hiragana and contextual
+particle readings are recorded in
+`scripts/lesson-audio-reviews/families-of-doom.json`; display text stays separate.
+Audio file coverage is verified; no audible pitch/listening verification is
+claimed. `tests/families-of-doom-browser.html` checks all families and questions,
+accepted alternatives, replay controls, manual progression, family navigation,
+furigana, and fixed card height at normal and narrow phone widths.
+
+The second supplied set adds 22 grammar families, with 264 questions. Ongoing
+ようにしてる accepts both ようにする and ようにしている; other natural
+overlaps have completed-sentence variants and usage notes. A few source examples
+are aligned to their intended category: 見てばかりいないで and してばかりいる
+for ばかりいる, 電話するところ for the action about to start, and
+予定が急に変わることがある for occasional occurrence. Numerals are displayed
+as 九時, 十時, and 三十分 with reviewed readings. Context-dependent readings
+include 来ない／来なく (こ), 着いた (つ), 着てる (き), 入れて (い),
+遅く (おそ), 急に (きゅう), and 話す／話せる (はな).
+The recency distinction was checked against the Japan Foundation's
+[ところ teaching notes](https://www.kyozai.jpf.go.jp/kyozai/material/BMA00036/ja/render.do).

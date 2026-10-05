@@ -10,6 +10,15 @@ function run(args) {
   var rows = [];
   (lesson.files || [lesson.file]).forEach(function(file) {
     var data = JSON.parse(read(root + '/' + file));
+    if (lesson.gameMode === 'families-of-doom') {
+      data.questions.forEach(function(card) {
+        rows.push({lesson: lessonId, card: card.id, field: 'sentence', key: window.getJapaneseSpeechText(card.sentence)});
+        Object.keys(card.variants || {}).forEach(function(answer) {
+          rows.push({lesson: lessonId, card: card.id, field: 'alternative', key: window.getJapaneseSpeechText(card.variants[answer])});
+        });
+      });
+      return;
+    }
     if (lesson.gameMode === 'vocabulary-cards') {
       data.entries.forEach(function(entry) {
         rows.push({lesson: lessonId, card: entry.id, field: 'vocabulary', key: window.getJapaneseSpeechText(entry.japanese)});

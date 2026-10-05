@@ -1182,5 +1182,17 @@
       "ja": "自分(じぶん)の返事(へんじ)を考(かんが)えてから、「答(こた)えを見(み)る」を押(お)してください。表示(ひょうじ)されるのは返事(へんじ)の例(れい)です。",
       "en": "Think or say your own reply, then reveal the possible answers. These are examples of natural responses; your reply can be different. No timer or grading."
     }
+  },
+  {
+    "id": "families-of-doom",
+    "category": "conversation",
+    "page": "Word families",
+    "sortOrder": 11,
+    "title": "Families of Doom",
+    "menuColor": "green",
+    "gameMode": "families-of-doom",
+    "file": "data/families-of-doom.json",
+    "questionCount": 498,
+    "familyCount": 42
   }
 ]

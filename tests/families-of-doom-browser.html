@@ -1,0 +1,84 @@
+<!doctype html><meta charset="utf-8"><title>Families of Doom checks</title>
+<pre id="result">RUNNING</pre><iframe src="../index.html" style="width:390px;height:850px" title="App"></iframe>
+<script>
+(async()=>{
+ const frame=document.querySelector('iframe'),result=document.querySelector('#result');
+ if(new URLSearchParams(location.search).has('narrow'))frame.style.width='320px';
+ const assert=(v,m)=>{if(!v)throw Error(m)};
+ const until=async fn=>{for(let i=0;i<300;i++){if(fn())return;await new Promise(r=>setTimeout(r,20))}throw Error('Timed out')};
+ try{
+  await until(()=>frame.contentDocument.querySelector('#openVocabularyCards:not(:disabled)'));
+  const w=frame.contentWindow,d=frame.contentDocument,q=s=>d.querySelector(s),plays=[];
+  class Audio extends w.EventTarget{constructor(src){super();this.src=src;this.paused=true}play(){this.paused=false;plays.push(this);return Promise.resolve()}pause(){this.paused=true}}
+  w.Audio=Audio;
+  const data=await fetch('../data/families-of-doom.json').then(r=>r.json());
+  const families=[...new Set(data.questions.map(card=>card.familyId))];
+  assert(families.length===42&&data.questions.length===498,'Full user-supplied family set');
+  [...d.querySelectorAll('.category-card')].find(b=>b.textContent.includes('日本語で話す')).click();
+  const lesson=()=>[...d.querySelectorAll('.lesson-card')].find(b=>b.querySelector('strong').textContent.trim()==='Families of Doom');
+  await until(lesson);lesson().querySelector('.lesson-open').click();await until(()=>q('.doom-choice'));
+  const tools=[...d.querySelectorAll('.doom-tools > button')];
+  assert(w.getComputedStyle(tools[0]).fontSize==='12px','Furigana button matches other decks');
+  assert(q('.doom-navigation').getBoundingClientRect().bottom<=w.innerHeight,'Family arrows visible without scrolling');
+  assert(w.getComputedStyle(q('.doom-sentence .furiganaReading')).display==='none','Furigana initially hidden');
+  tools[0].click();assert(w.getComputedStyle(q('.doom-sentence .furiganaReading')).display!=='none','Furigana toggle shows readings');
+  assert(q('#wordExplosionScreen .pageHeader').contains(q('.doom-tools')),'Controls in top bar');
+  assert(!q('#wordExplosionScreen').contains(q('.doom-navigation')),'Family arrows outside card screen');
+  assert(!q('.doom-family'),'Repeated family heading removed');
+  const helpBox=q('.doom-help').getBoundingClientRect();assert(helpBox.width===44&&helpBox.height===44,'Help stays square');
+  const heights=[], failFits=[];let checked=0,alternatives=0;
+  for(let f=0;f<families.length;f++){
+   tools[1].click();assert(q('.doom-all-dialog').open,'All opens dialog');
+   const links=[...d.querySelectorAll('.doom-family-link')];assert(links.length===families.length,'All lists every family');
+   assert(!q('.doom-all-dialog .explosion-example-speech'),'All lists families only');
+   links[f].click();assert(!q('.doom-all-dialog').open,'Family selection closes dialog');
+   const cards=data.questions.filter(card=>card.familyId===families[f]);
+   assert(q('.doom-navigation span').textContent===`${f+1} / ${families.length}`,'Family counter');
+   q('.doom-help').click();assert(q('.doom-meanings-dialog').open,'Help popup');
+   assert(d.querySelectorAll('.doom-word-meaning').length===cards[0].answers.length,'Meanings cover every word');
+   q('.doom-meanings-dialog > button').click();
+   const seen=new Set(),counts=cards[0].answers.map(()=>0);
+   for(let i=0;i<cards.length;i++){
+    const question=cards.find(card=>card.question===q('.doom-sentence').textContent);
+    assert(question&&!seen.has(question.id),'Shuffled prompts do not repeat: '+families[f]);seen.add(question.id);counts[question.correct]++;
+    const choices=()=>[...d.querySelectorAll('.doom-choice')];
+    assert(q('.doom-choices').nextElementSibling.classList.contains('doom-question-progress'),'Question count under answers');
+    assert(w.getComputedStyle(choices()[0]).backgroundColor==='rgb(137, 128, 255)','Default purple');
+    if(i===0){
+     const wrong=choices().findIndex((button,index)=>!(question.acceptedAnswers||[question.correct]).includes(index));
+     choices()[wrong].click();assert(q('.doom-wrong'),'Wrong flash');assert(choices().every(b=>!b.disabled),'Wrong retry');
+     assert(q('.doom-sentence').textContent===question.question,'Wrong keeps prompt');
+    }
+    heights.push(q('.doom-card').getBoundingClientRect().height);
+    const selected=new URLSearchParams(location.search).has('canonical')?question.correct:(question.acceptedAnswers?.[1]??question.correct);
+    if(selected!==question.correct)alternatives++;
+    choices()[selected].click();heights.push(q('.doom-card').getBoundingClientRect().height);
+    const completed=question.variants?.[String(selected)]||question.sentence;
+    assert(q('.doom-status').textContent!=='Correct!','No success message');
+    assert(q('.doom-sentence').textContent===completed,'Selected conjugation: '+question.id);
+    assert(w.getComputedStyle(q('.doom-correct')).backgroundColor==='rgb(0, 204, 146)','Correct green');
+    assert(plays.at(-1).src===w.lessonAudioFiles['families-of-doom'][w.getJapaneseSpeechText(completed)],'Saved sentence recording: '+question.id);
+    assert(q('.doom-sentence-row button'),'Replay speaker');
+    assert(q('.doom-question-progress').textContent===`${i+1} / ${cards.length}`,'Question counter');
+    plays.at(-1).dispatchEvent(new w.Event('ended'));
+    if(f===0&&i===0)await new Promise(resolve=>setTimeout(resolve,650));
+    assert(q('.doom-question-progress').textContent===`${i+1} / ${cards.length}`,'No auto advance');
+    assert(d.documentElement.scrollWidth<=w.innerWidth+1,'No phone overflow: '+question.id);
+    if(q('.doom-action').getBoundingClientRect().bottom>q('.doom-card').getBoundingClientRect().bottom+1)failFits.push(question.id+" (+"+Math.round(q(".doom-action").getBoundingClientRect().bottom-q(".doom-card").getBoundingClientRect().bottom)+"px)");
+    if(i<cards.length-1)q('.doom-proceed').click();
+    checked++;
+   }
+   assert(counts.every(n=>n===3),'Three source questions per word: '+families[f]);
+  }
+  assert(!failFits.length,'Content fits shorter card: '+failFits.join(', '));
+  assert(Math.max(...heights)-Math.min(...heights)<1,'Constant card height');
+  assert(q('.doom-navigation button:last-child').disabled,'Last-family boundary');
+  q('.doom-proceed').click();assert(q('.doom-question-progress').textContent.startsWith('1 /'),'Fresh shuffled restart');
+  q('.doom-navigation button:first-child').click();assert(q('.doom-navigation span').textContent===`${families.length-1} / ${families.length}`,'Family arrows work');
+  q('#backFromExplosion').click();assert(!q('.families-of-doom'),'Cleanup');
+  assert(q('#vocabularyCardTools').classList.contains('hidden')&&q('#vocabularyCardNavigation').classList.contains('hidden'),'External controls clean up');
+  assert(!q('#pageScreen').classList.contains('hidden'),'Return to category');
+  result.textContent=`PASS: all ${families.length} families, ${checked} prompts, ${alternatives} accepted alternatives, manual progression, audio, meanings, furigana, family list/navigation and constant phone layout.`;
+ }catch(e){result.textContent='FAIL: '+e.stack}
+})();
+</script>

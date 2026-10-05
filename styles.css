@@ -1744,7 +1744,7 @@ html.vocabulary-cards-open,
   box-shadow: 3px 3px 0 var(--ink);
 }
 .vocabulary-card-tools .offline-controls [role="status"] { max-width: 180px; }
-#vocabularyCardFurigana { font-size: 12px; letter-spacing: -.04em; }
+#vocabularyCardFurigana, #doomFurigana { font-size: 12px; letter-spacing: -.04em; }
 #vocabularyCardFurigana.furigana-off { background: var(--ember); text-decoration: line-through; text-decoration-thickness: 2px; }
 
 .vocabulary-cards-status:empty { display: none; }
@@ -2012,3 +2012,61 @@ html.vocabulary-cards-open,
 .grammar-card-example h4, .grammar-card-formation h4 { margin: 0 0 8px; color: var(--ink); font-size: 14px; }
 .grammar-card-formation { margin-top: 20px; }
 .grammar-card-formation p { white-space: pre-line; line-height: 1.7; }
+
+#wordExplosionGame.families-of-doom { display: block; min-height: 0; padding: 12px 16px; }
+.doom-card { width: min(100%, 640px); margin: 0 auto; }
+.doom-sentence-row { display: flex; align-items: flex-start; gap: 12px; }
+.doom-sentence { flex: 1; min-width: 0; margin: 0; font-size: clamp(24px, 5vw, 32px); font-weight: 700; line-height: 1.7; overflow-wrap: anywhere; }
+.doom-sentence-row .explosion-example-speech { flex-shrink: 0; margin-top: 4px; }
+.doom-translation { margin: 16px 0 32px; font-size: 16px; line-height: 1.6; }
+.doom-choices { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.doom-choice { text-align: center; font-size: 24px; background: var(--horizon); }
+.doom-choice:disabled { opacity: 1; cursor: default; }
+.doom-choice.doom-correct { background: var(--bronze); }
+.doom-wrong { animation: doom-wrong-flash 600ms steps(1, end); }
+@keyframes doom-wrong-flash { 0%, 50% { background: var(--ember); } 25%, 75%, 100% { background: var(--horizon); } }
+.doom-navigation { display: flex; justify-content: center; align-items: center; gap: 24px; margin-top: 16px; }
+.doom-navigation .icon-button { background: var(--horizon); }
+.doom-navigation .icon-button:disabled { opacity: .4; }
+
+.doom-tools { display: flex; justify-content: flex-end; gap: 10px; }
+.doom-tools .icon-button { background: var(--paper); }
+.doom-tools .furigana-off { background: var(--ember); text-decoration: line-through; text-decoration-thickness: 2px; }
+.doom-question-progress { margin: 18px 0 0; font-size: 14px; text-align: center; font-weight: 600; }
+.doom-proceed { display: block; margin: 24px auto 0; background: var(--bronze); }
+.doom-all-dialog { width: min(640px, calc(100% - 24px)); max-height: 85dvh; overflow: auto; padding: 18px; border: var(--line-weight) solid var(--ink); border-radius: 18px; background: var(--paper); }
+.doom-all-dialog > .icon-button { display: block; margin-left: auto; }
+.doom-family-link { display: block; width: 100%; margin: 16px 0 24px; }
+
+.doom-status { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip-path: inset(50%); }
+.doom-card { display: flex; flex-direction: column; gap: 12px; height: 540px; }
+.doom-card > .doom-choices { margin-top: 12px; }
+.doom-card > * { flex-shrink: 0; }
+.doom-card-tools { display: flex; justify-content: flex-end; }
+.doom-help { flex: 0 0 44px; width: 44px; height: 44px; min-width: 44px; min-height: 44px; padding: 0; background: var(--paper); }
+.doom-sentence-audio { flex: 0 0 44px; width: 44px; }
+.doom-sentence-audio .explosion-example-speech { width: 44px; height: 44px; }
+.doom-card > .doom-translation { margin: 0; }
+.doom-card > .doom-question-progress { margin: 0; }
+.doom-action { display: flex; align-items: center; justify-content: center; min-height: 66px; margin-top: auto; }
+.doom-action .doom-proceed { margin: 0; }
+.doom-word-meaning { margin: 20px 0; }
+.doom-word-meaning h4 { margin: 0 0 6px; font-size: 22px; }
+.doom-word-meaning p { margin: 0; font-size: 16px; line-height: 1.6; }
+
+@media (max-width: 360px) {
+  .doom-sentence { font-size: 22px; line-height: 1.55; }
+  .doom-choice { font-size: 20px; min-height: 60px; padding: 10px 12px; }
+}
+.doom-usage-note { font-size: 14px; line-height: 1.6; }
+
+/* Longer families retain the same fixed card and use slightly more compact text. */
+.doom-card--dense { gap: 10px; }
+.doom-card--dense .doom-sentence { font-size: 22px; line-height: 1.5; }
+.doom-card--dense .doom-choice { font-size: 20px; line-height: 1.25; min-height: 60px; padding: 10px 12px; }
+.doom-card--dense .doom-translation { font-size: 15px; line-height: 1.5; }
+.doom-card--dense .doom-action { min-height: 54px; }
+.doom-card--dense .doom-proceed { min-height: 54px; font-size: 16px; padding: 10px 12px; }
+@media (max-width: 360px) {
+  .doom-card--dense { gap: 8px; }
+}

@@ -1390,7 +1390,9 @@
           </strong>
 
           <span>
-            ${lesson.gameMode === "word-explosion-2"
+            ${lesson.gameMode === "families-of-doom"
+              ? `${lesson.familyCount || count} ${(lesson.familyCount || count) === 1 ? "group" : "groups"} · Play`
+              : lesson.gameMode === "word-explosion-2"
               ? "Listen and choose · Play"
               : lesson.gameMode === "word-explosion"
               ? "Hiragana word game · Play"
@@ -1493,6 +1495,21 @@
   async function openLesson(lesson, { questionId, initialWord } = {}) {
     if (lesson.gameMode === "vocabulary-cards") {
       openVocabularyCards(lesson);
+      return;
+    }
+    if (lesson.gameMode === "families-of-doom") {
+      cancelJapaneseSpeech();
+      state.selectedLesson = lesson;
+      showScreen("word-explosion");
+      document.getElementById("wordExplosionTitle").textContent = lesson.title;
+      document.getElementById("explosionIndexButton").classList.add("hidden");
+      closeWordExplosion = window.FamiliesOfDoom.mount(elements.wordExplosionGame, {
+        file: lesson.file, questionId, playSound, getRecordedJapaneseFile,
+        toolbar: document.getElementById("vocabularyCardTools"),
+        navigation: document.getElementById("vocabularyCardNavigation"),
+        stopSpeech: cancelJapaneseSpeech, createExampleSpeechButton,
+        setJapaneseText: setFuriganaAwareText
+      });
       return;
     }
     if (lesson.gameMode === "word-explosion-2") {
