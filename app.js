@@ -11,7 +11,7 @@
     },
     {
       id: "food-culture",
-      title: "日本の食文化",
+      title: "食材の基本",
       pageRange: "Pages 12–27",
       color: "var(--horizon)",
       canvas: "var(--canvas)"
