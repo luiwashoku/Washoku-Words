@@ -1352,9 +1352,6 @@
     }
 
     lessons.forEach((lesson) => {
-      const progress =
-        getLessonProgress(lesson.id);
-
       const count =
         getDeclaredQuestionCount(
           lesson
@@ -1385,15 +1382,11 @@
           </strong>
 
           <span>
-            ${lesson.gameMode === "families-of-doom"
-              ? `${lesson.familyCount || count} ${(lesson.familyCount || count) === 1 ? "group" : "groups"} · Play`
-              : lesson.gameMode === "word-explosion-2"
-              ? "Listen and choose · Play"
-              : lesson.gameMode === "word-explosion"
-              ? "Hiragana word game · Play"
-              : (lesson.answerMode === "reading-card" || lesson.gameMode === "vocabulary-cards")
-              ? `${count} ${count === 1 ? "card" : "cards"} · Read`
-              : `${progress.completed}/${count} ${lesson.answerMode === "reveal" ? "practised" : "completed"}`}
+            ${menuColor === "purple"
+              ? "Flashcards"
+              : menuColor === "green"
+              ? "Game"
+              : `Quiz ${count} ${count === 1 ? "Question" : "Questions"}`}
           </span>
         </span>
 
