@@ -1,0 +1,201 @@
+<!doctype html><meta charset="utf-8"><title>Hiire cards checks</title>
+<pre id="result">RUNNING</pre><iframe src="../index.html" style="width:320px;height:740px" title="App"></iframe>
+<script>
+(async()=>{
+ const frame=document.querySelector('iframe'),result=document.querySelector('#result');
+ const assert=(v,m)=>{if(!v)throw Error(m)};
+ const until=async fn=>{for(let i=0;i<300;i++){if(fn())return;await new Promise(r=>setTimeout(r,20))}throw Error('Timed out')};
+ try{
+  await until(()=>frame.contentDocument.querySelector('#openVocabularyCards:not(:disabled)'));
+  const w=frame.contentWindow,d=frame.contentDocument,q=s=>d.querySelector(s),plays=[];
+  class Audio extends w.EventTarget{
+   constructor(src){super();this.src=src;this.paused=true;this.currentTime=0;this.playbackRate=1}
+   getAttribute(name){return name==='src'?this.src:null}
+   play(){this.paused=false;plays.push(this);return Promise.resolve()}
+   pause(){this.paused=true}
+  }
+  w.Audio=Audio;
+  const data=await fetch('../data/hiire-cards.json').then(r=>r.json());
+  [...d.querySelectorAll('.category-card')].find(b=>b.textContent.includes('技術と料理')).click();
+  await until(()=>d.querySelectorAll('.lesson-card').length);
+  const lessons=[...d.querySelectorAll('.lesson-card')];
+  const at=lessons.findIndex(b=>b.querySelector('strong').textContent.trim()==='火入れ');
+  assert(lessons[at+1].querySelector('strong').textContent.trim()==='火入れカード','Immediately below 火入れ');
+  lessons[at+1].querySelector('.lesson-open').click();
+  await until(()=>q('.vocabulary-study-card--reading:not(.hidden)'));
+  assert(q('#studyCardWord').textContent==='1. '+data.entries[0].kanji,'Section title');
+  assert(q('.vocabulary-card-counter').textContent==='1 / 9','One numbered section per card');
+  assert(q('.reading-card-body').querySelectorAll('li').length===7,'Complete ordered list');
+  assert(q('.reading-card-body').querySelectorAll('section').length===5,'All paragraphs retained');
+  assert(q('.reading-card-body').querySelectorAll('[lang="en"]').length===12,'English for every paragraph and list item');
+  await until(()=>plays.some(a=>a.src===w.lessonAudioFiles['hiire-cards'][data.entries[0].japanese]));
+  assert(plays.at(-1).playbackRate===1,'Automatic audio at 1×');
+  assert(plays.at(-1).src===w.lessonAudioFiles['hiire-cards'][data.entries[0].japanese],'Only reviewed title audio autoplays');
+  const beforeReplay=plays.length;q('.reading-card-header button').click();assert(plays.length===beforeReplay+1,'Replay');
+  q('#vocabularyCardFurigana').click();assert(w.getComputedStyle(q('.reading-card-body .furiganaReading')).display!=='none','Furigana');
+  assert(d.documentElement.scrollWidth<=w.innerWidth+1,'320px horizontal fit');
+  const body=q('.reading-card-body');
+  assert(body.scrollHeight<=body.clientHeight+1,'Content expands without inner scrolling');
+  const chunks=data.entries[0].blocks.flatMap(b=>b.items||[b]);
+  const speakers=[...body.querySelectorAll('button')];
+  assert(speakers.length===12,'Separate speaker for each sentence chunk and list word');
+  for(let i=0;i<speakers.length;i++){
+   const count=plays.length;speakers[i].click();
+   await until(()=>plays.length>count);
+   assert(plays.at(-1).src===w.lessonAudioFiles['hiire-cards'][chunks[i].speech],'Correct chunk audio '+i);
+  }
+  q('#vocabularyCardNavigation').scrollIntoView({block:'end'});
+  assert(q('#vocabularyCardNavigation').getBoundingClientRect().bottom<=w.innerHeight+1,'Navigation reachable below expanded content');
+  q('#vocabularyCardTools button[aria-label="Show all cards"]').click();
+  const dialog=q('dialog.knife-steps-list');assert(dialog.open&&dialog.querySelector('.popup-header h2').textContent==='火入れカード','Shared 全 popup');
+  assert(dialog.querySelectorAll('.popup-body > button').length===9,'Section list');
+  dialog.querySelector('.popup-body > button').click();assert(!dialog.open,'Selection closes popup');
+  q('#vocabularyCardNavigation button:last-child').click();
+  const second=data.entries[1];
+  await until(()=>plays.at(-1).src===w.lessonAudioFiles['hiire-cards'][second.japanese]);
+  assert(q('.vocabulary-card-counter').textContent==='2 / 9','Page 2 navigation');
+  assert(q('#studyCardWord').textContent==='2. '+second.kanji,'Page 2 title');
+  assert(q('.reading-card-body').querySelectorAll('.reading-card-subheading').length===3,'Three heat-transfer headings');
+  const page2buttons=[...q('.reading-card-body').querySelectorAll('button')];
+  assert(page2buttons.length===7,'Page 2 separate terms and explanations');
+  for(let i=0;i<page2buttons.length;i++){
+   const n=plays.length;page2buttons[i].click();await until(()=>plays.length>n);
+   assert(plays.at(-1).src===w.lessonAudioFiles['hiire-cards'][second.blocks[i].speech],'Page 2 audio '+i);
+  }
+  for(const button of d.querySelectorAll('.vocabulary-study-card--reading .explosion-example-speech')){
+   const b=button.getBoundingClientRect(),svg=button.querySelector('svg').getBoundingClientRect();
+   assert(Math.abs((b.left+b.right-svg.left-svg.right)/2)<0.5,'SVG centered horizontally');
+   assert(Math.abs((b.top+b.bottom-svg.top-svg.bottom)/2)<0.5,'SVG centered vertically');
+   assert(Math.abs(b.width-b.height)<0.5,'Round speaker button');
+   const matrix=new w.DOMMatrix(w.getComputedStyle(button.querySelector('.speakerIcon')).transform);
+   assert(Math.abs(matrix.e+1.8)<0.01,'Speaker artwork optical offset');
+  }
+  q('#vocabularyCardNavigation button:last-child').click();
+  const third=data.entries[2];
+  await until(()=>plays.at(-1).src===w.lessonAudioFiles['hiire-cards'][third.japanese]);
+  assert(q('.vocabulary-card-counter').textContent==='3 / 9','Page 3 navigation');
+  assert(q('#studyCardWord').textContent==='3. '+third.kanji,'Page 3 title');
+  const page3buttons=[...q('.reading-card-body').querySelectorAll('button')];
+  assert(page3buttons.length===5,'Page 3 passage speakers');
+  const translations=[...q('.reading-card-body').querySelectorAll('[lang="en"]')];
+  for(let i=0;i<page3buttons.length;i++){
+   assert(translations[i].textContent===third.blocks[i].english,'Page 3 translation '+i);
+   const n=plays.length;page3buttons[i].click();await until(()=>plays.length>n);
+   assert(plays.at(-1).src===w.lessonAudioFiles['hiire-cards'][third.blocks[i].speech],'Page 3 recording '+i);
+   assert(plays.at(-1).playbackRate===1,'Page 3 speed');
+  }
+  assert(q('.reading-card-body').scrollHeight<=q('.reading-card-body').clientHeight+1,'Page 3 fully expanded');
+  assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Page 3 phone fit');
+  q('#vocabularyCardNavigation button:last-child').click();
+  const fourth=data.entries[3];
+  await until(()=>plays.at(-1).src===w.lessonAudioFiles['hiire-cards'][fourth.japanese]);
+  assert(q('.vocabulary-card-counter').textContent==='4 / 9','Page 4 navigation');
+  assert(q('#studyCardWord').textContent==='4. '+fourth.kanji,'Page 4 title');
+  const page4buttons=[...q('.reading-card-body').querySelectorAll('button')];
+  assert(page4buttons.length===16,'Separate page 4 recordings');
+  const page4translations=[...q('.reading-card-body').querySelectorAll('[lang="en"]')];
+  for(let i=0;i<page4buttons.length;i++){
+   assert(page4translations[i].textContent===fourth.blocks[i].english,'Page 4 English '+i);
+   const n=plays.length;page4buttons[i].click();await until(()=>plays.length>n);
+   assert(plays.at(-1).src===w.lessonAudioFiles['hiire-cards'][fourth.blocks[i].speech],'Page 4 audio '+i);
+  }
+  assert(q('.reading-card-body').textContent.includes('NOT food-safety standards'),'Texture caution retained');
+  assert(q('.reading-card-body').scrollHeight<=q('.reading-card-body').clientHeight+1,'Page 4 expanded');
+  assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Page 4 phone fit');
+  q('#vocabularyCardNavigation button:last-child').click();
+  const fifth=data.entries[4];
+  await until(()=>plays.at(-1).src===w.lessonAudioFiles['hiire-cards'][fifth.japanese]);
+  assert(q('.vocabulary-card-counter').textContent==='5 / 9','Page 5 navigation');
+  assert(q('#studyCardWord').textContent==='5. '+fifth.kanji,'Page 5 title');
+  const page5buttons=[...q('.reading-card-body').querySelectorAll('button')];
+  assert(page5buttons.length===16,'Page 5 separate headings and passages');
+  const page5translations=[...q('.reading-card-body').querySelectorAll('[lang="en"]')];
+  for(let i=0;i<page5buttons.length;i++){
+   assert(page5translations[i].textContent===fifth.blocks[i].english,'Page 5 English '+i);
+   const n=plays.length;page5buttons[i].click();await until(()=>plays.length>n);
+   assert(plays.at(-1).src===w.lessonAudioFiles['hiire-cards'][fifth.blocks[i].speech],'Page 5 audio '+i);
+   assert(plays.at(-1).playbackRate===1,'Page 5 speed');
+  }
+  assert(q('.reading-card-body').scrollHeight<=q('.reading-card-body').clientHeight+1,'Page 5 expanded');
+  assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Page 5 phone fit');
+  q('#vocabularyCardNavigation button:last-child').click();
+  const sixth=data.entries[5];
+  await until(()=>plays.at(-1).src===w.lessonAudioFiles['hiire-cards'][sixth.japanese]);
+  assert(q('.vocabulary-card-counter').textContent==='6 / 9','Page 6 navigation');
+  assert(q('#studyCardWord').textContent==='6. '+sixth.kanji,'Page 6 title');
+  const page6buttons=[...q('.reading-card-body').querySelectorAll('button')];
+  assert(page6buttons.length===11,'Page 6 separate headings and passages');
+  const page6translations=[...q('.reading-card-body').querySelectorAll('[lang="en"]')];
+  for(let i=0;i<page6buttons.length;i++){
+   assert(page6translations[i].textContent===sixth.blocks[i].english,'Page 6 English '+i);
+   const n=plays.length;page6buttons[i].click();await until(()=>plays.length>n);
+   assert(plays.at(-1).src===w.lessonAudioFiles['hiire-cards'][sixth.blocks[i].speech],'Page 6 audio '+i);
+   assert(plays.at(-1).playbackRate===1,'Page 6 speed');
+  }
+  assert(q('.reading-card-body').scrollHeight<=q('.reading-card-body').clientHeight+1,'Page 6 expanded');
+  assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Page 6 phone fit');
+  q('#vocabularyCardNavigation button:last-child').click();
+  const seventh=data.entries[6];
+  await until(()=>plays.at(-1).src===w.lessonAudioFiles['hiire-cards'][seventh.japanese]);
+  assert(q('.vocabulary-card-counter').textContent==='7 / 9','Page 7 navigation');
+  assert(q('#studyCardWord').textContent==='7. '+seventh.kanji,'Page 7 title');
+  const page7buttons=[...q('.reading-card-body').querySelectorAll('button')];
+  assert(page7buttons.length===7,'Page 7 separate passages');
+  const page7translations=[...q('.reading-card-body').querySelectorAll('[lang="en"]')];
+  for(let i=0;i<page7buttons.length;i++){
+   assert(page7translations[i].textContent===seventh.blocks[i].english,'Page 7 English '+i);
+   const n=plays.length;page7buttons[i].click();await until(()=>plays.length>n);
+   assert(plays.at(-1).src===w.lessonAudioFiles['hiire-cards'][seventh.blocks[i].speech],'Page 7 audio '+i);
+   assert(plays.at(-1).playbackRate===1,'Page 7 speed');
+  }
+  assert(q('.reading-card-body').scrollHeight<=q('.reading-card-body').clientHeight+1,'Page 7 expanded');
+  assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Page 7 phone fit');
+  q('#vocabularyCardNavigation button:last-child').click();
+  const eighth=data.entries[7];
+  await until(()=>plays.at(-1).src===w.lessonAudioFiles['hiire-cards'][eighth.japanese]);
+  assert(q('.vocabulary-card-counter').textContent==='8 / 9','Page 8 navigation');
+  assert(q('#studyCardWord').textContent==='8. '+eighth.kanji,'Page 8 title');
+  const page8buttons=[...q('.reading-card-body').querySelectorAll('button')];
+  assert(page8buttons.length===9,'Page 8 separate problems and responses');
+  const page8translations=[...q('.reading-card-body').querySelectorAll('[lang="en"]')];
+  for(let i=0;i<page8buttons.length;i++){
+   assert(page8translations[i].textContent===eighth.blocks[i].english,'Page 8 English '+i);
+   const n=plays.length;page8buttons[i].click();await until(()=>plays.length>n);
+   assert(plays.at(-1).src===w.lessonAudioFiles['hiire-cards'][eighth.blocks[i].speech],'Page 8 audio '+i);
+   assert(plays.at(-1).playbackRate===1,'Page 8 speed');
+  }
+  assert(q('.reading-card-body').scrollHeight<=q('.reading-card-body').clientHeight+1,'Page 8 expanded');
+  assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Page 8 phone fit');
+  q('#vocabularyCardNavigation button:last-child').click();
+  const summary=data.entries[8];
+  await until(()=>plays.at(-1).src===w.lessonAudioFiles['hiire-cards'][summary.japanese]);
+  assert(q('.vocabulary-card-counter').textContent==='9 / 9','Summary navigation');
+  assert(q('#studyCardWord').textContent==='9. まとめ','Summary title');
+  const summaryChunks=summary.blocks.flatMap(b=>b.items||[b]);
+  const summaryButtons=[...q('.reading-card-body').querySelectorAll('button')];
+  assert(summaryButtons.length===8,'Separate principle and workflow speakers');
+  assert(q('.reading-card-body').querySelectorAll('li').length===7,'Complete workflow');
+  const summaryTranslations=[...q('.reading-card-body').querySelectorAll('[lang="en"]')];
+  for(let i=0;i<summaryButtons.length;i++){
+   assert(summaryTranslations[i].textContent===summaryChunks[i].english,'Summary English '+i);
+   const n=plays.length;summaryButtons[i].click();await until(()=>plays.length>n);
+   assert(plays.at(-1).src===w.lessonAudioFiles['hiire-cards'][summaryChunks[i].speech],'Summary audio '+i);
+   assert(plays.at(-1).playbackRate===1,'Summary speed');
+  }
+  assert(q('.reading-card-body').scrollHeight<=q('.reading-card-body').clientHeight+1,'Summary expanded');
+  assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Summary phone fit');
+  assert(q('#vocabularyCardNavigation button:last-child').disabled,'Last card boundary');
+  q('#vocabularyCardNavigation button:first-child').click();
+  q('#vocabularyCardNavigation button:first-child').click();
+  q('#vocabularyCardNavigation button:first-child').click();
+  q('#vocabularyCardNavigation button:first-child').click();
+  q('#vocabularyCardNavigation button:first-child').click();
+  q('#vocabularyCardNavigation button:first-child').click();
+  q('#vocabularyCardNavigation button:first-child').click();
+  q('#vocabularyCardNavigation button:first-child').click();
+  assert(q('.vocabulary-card-counter').textContent==='1 / 9','Back to page 1');
+  const last=plays.at(-1);q('#backFromExplosion').click();assert(last.paused,'Exit stops audio');
+  result.textContent='PASS: all eight sections and summary, separate recordings, title-only autoplay, optically centered speakers, furigana, 全, expanded layout and navigation.';
+ }catch(e){result.textContent='FAIL: '+e.stack}
+})();
+</script>

@@ -1,5 +1,17 @@
 [
   {
+    "id": "food-reference-cards",
+    "category": "basics",
+    "page": 0.5,
+    "sortOrder": 0.5,
+    "title": "味・香り・食感カード",
+    "gameMode": "vocabulary-cards",
+    "readingCards": true,
+    "ordered": true,
+    "file": "data/food-reference-cards.json",
+    "questionCount": 8
+  },
+  {
     "id": "page01-02",
     "category": "basics",
     "page": "1–2",
@@ -234,6 +246,18 @@
       "en": "A seafood cooking method is chosen to suit the firmness of the flesh, amount of fat, aroma, and the structure of bones or shells. Sashimi presents freshness and texture directly; salt-grilling adds fragrance and highlights rich oils; simmering lets seasoning enter while keeping the flesh moist. Seared preparations create aroma at the surface while preserving a raw centre, whereas vinegar-curing and marinating add flavour while altering the texture of the flesh. This chapter works backwards from characteristic preparations to the seafood itself and encourages you to consider why a particular method suits the ingredient's natural qualities."
     },
     "questionCount": 20
+  },
+  {
+    "id": "fermentation-cards",
+    "category": "fermentation",
+    "page": 27.9,
+    "sortOrder": 27.9,
+    "title": "発酵カード",
+    "gameMode": "vocabulary-cards",
+    "readingCards": true,
+    "ordered": true,
+    "file": "data/fermentation-cards.json",
+    "questionCount": 9
   },
   {
     "id": "page28-29-science",
@@ -666,6 +690,28 @@
       "en": "Hi-ire is more than making an ingredient hot. It is the control of heat intensity, distance, time, moisture and carryover cooking to guide food toward a desired state. High heat or a position close to the flame readily creates browning and roasted aroma at the surface; low heat, a very gentle flame or greater distance can help heat travel inward more gradually. During cooking, proteins set, starch absorbs water, and new colour and aroma develop at the surface. Too much heat, however, removes moisture, toughens flesh and erases the fresh bite of vegetables. This chapter teaches you to observe changes in colour, aroma, sound, resilience and moisture—and to account for residual heat—so that the exterior and centre reach the textures you intend."
     },
     "questionCount": 30
+  },
+  {
+    "id": "hiire-cards",
+    "category": "techniques",
+    "page": 52.1,
+    "title": "火入れカード",
+    "gameMode": "vocabulary-cards",
+    "readingCards": true,
+    "ordered": true,
+    "file": "data/hiire-cards.json",
+    "questionCount": 9
+  },
+  {
+    "id": "washoku-cards",
+    "category": "techniques",
+    "page": 52.2,
+    "title": "和食カード",
+    "gameMode": "vocabulary-cards",
+    "readingCards": true,
+    "ordered": true,
+    "file": "data/washoku-cards.json",
+    "questionCount": 11
   },
   {
     "id": "game-prototype",

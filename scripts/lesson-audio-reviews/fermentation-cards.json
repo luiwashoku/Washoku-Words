@@ -1,0 +1,515 @@
+{
+  "lesson": "fermentation-cards",
+  "reviewed": true,
+  "voice": "marin",
+  "model": "gpt-4o-mini-tts",
+  "speed": 1.0,
+  "reading_source": "Page 1 reviewed: 発酵はっこう (doubled consonant, long vowel), 微生物びせいぶつ, 働きはたらき, 成分せいぶん, 保存性ほぞんせい, 現象げんしょう, 麹菌こうじきん, 酵母こうぼ, 乳酸菌にゅうさんきん, 酢酸菌さくさんきん, 菌きん. Topic は→わ and では→でわ checked contextually; lexical は in はっこう and はたらき retained. Phrase breaks reviewed after complete phrases. Page 2 reviewed supplied readings: 発酵中はっこうちゅう, 糖とう, たんぱく質たんぱくしつ, アミノ酸あみのさん, 分解ぶんかい, 脂肪しぼう, 酸さん, アルコールあるこーる, 旨味うまみ, 甘味あまみ, 生み出すうみだす, 食感しょっかん. All ten object を→お checked individually. Long vowels and doubled consonants preserved; these short phrases stay continuous without inserted pauses. Page 3 reviewed: 観察かんさつ, 甘味あまみ, 旨味うまみ, 増すます, 酸味さんみ, 柔らかいやわらかい, 濃くこく, 水分すいぶん, 強くつよく. コクこく retained as hiragana for speech. Title object を→お checked contextually; lexical はっこう preserved. All short change descriptions remain continuous without extra pauses. Page 4 reviewed supplied readings: 温度おんど, 湿度しつど, 時間じかん, 塩分えんぶん, 水分すいぶん, 熟成じゅくせい, 寝かせるねかせる, 混ぜるまぜる, 仕込むしこむ, 仕込みしこみ, 管理かんり. Title and 発酵を止める object を→お checked individually. Lexical はっこう and vowel length preserved. Short terms and actions remain continuous without extra pauses. Page 5 reviewed: 腐敗ふはい (lexical は retained), カビかび, 雑菌ざっきん, 傷むいたむ, 腐るくさる, 異臭いしゅう, 有益ゆうえき, 有害ゆうがい, 呼ぶよぶ. Topic 腐敗は→ふはいわ and each object 変化を→へんかお checked contextually. Existing 発酵 recording reused. Full phrase boundaries and doubled consonants reviewed. Page 6 reviewed: 自然しぜん, 甘味あまみ, 豊かゆたか, 深みふかみ, 食材しょくざい, 柔らかいやわらかい, 保存性ほぞんせい, 高まるたかまる, 風味ふうみ, 複雑ふくざつ. Lexical はっこう preserved. Short descriptions remain continuous without added pauses. Existing 旨味が増す recording reused from page 3. Page 7 reviewed: 料理人りょうりにん, 長ければながければ, 良いよい, 進み方すすみかた, 材料ざいりょう, 条件じょうけん, 酸味さんみ, 状態じょうたい, 調整ちょうせい, 大切たいせつ. Topic 発酵は→はっこうわ, ではありません→でわありません and object 状態を→じょうたいお checked individually. Lexical はっこう retained with explicit doubled k and long kō guidance. Pauses only after complete clauses or phrases. Page 8 reviewed: 見分けるみわける, 状態じょうたい, 季節きせつ, 発酵時間はっこうじかん, 足りないたりない. Topic どうかは→どうかわ, 発酵時間は→はっこうじかんわ, 時は→ときわ, これは→これわ checked contextually. Lexical はっこう preserved. Explicit hak-kō and voiced ji guidance added; pauses follow complete phrases, not before particles. Page 9 reviewed: 正常せいじょう, 一番いちばん, 進み方すすみかた, 同じおなじ, 影響えいきょう, 塩分えんぶん. スイスすいす, ハーブはーぶ and タイミングたいみんぐ reviewed; long vowels retained. Topic 香りは→かおりわ, 進み方は→すすみかたわ and objects ハーブを→はーぶお, 塩分を→えんぶんお checked individually. Lexical は in はーぶ and はっこう preserved. Pauses follow complete phrases and clauses.",
+  "notes": "Pages 1–6: separate titles, vocabulary and explanations at 1.0; only main titles autoplay. Existing pages 1–5 reviewed inputs preserved. No audible listening verification claimed. Regenerated page 4 item 6 発酵時間 after a user-reported pronunciation issue. Hiragana はっこうじかん retained with explicit geminate k, long kō and voiced ji guidance. No audible listening verification claimed. Page 7 adds five practical points with separate recordings at 1.0 and title-only autoplay. All previous inputs, including the corrected 発酵時間 guidance, retained. No audible listening verification claimed. Regenerated page 6 point 4 味に深みが出る after a user-reported pronunciation issue. Correct hiragana あじにふかみがでる retained with explicit nine-mora guidance and short vowels in ふかみ. No audible listening verification claimed. Page 8 adds the first six teacher questions at 1.0, with title-only autoplay. Previous reviewed inputs and pronunciation corrections retained. No audible listening verification claimed. Complete nine-page deck: page 9 adds the final six teacher questions at 1.0 with title-only autoplay. Previous reviewed inputs and pronunciation corrections retained. No audible listening verification claimed.",
+  "entries": [
+    {
+      "key": "はっこう",
+      "input": "はっこう",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally. Use brief pauses at supplied commas and complete sentence boundaries. Keep particles attached to preceding phrases; never pause immediately before わ or お. Preserve vowel length and doubled consonants, especially はっこう. Keep lexical は in はっこう and はたらき as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "はっこうは、びせいぶつのはたらきによってしょくざいのせいぶんがへんかし、あじ、かおり、しょっかん、ほぞんせいなどがかわるげんしょうです。",
+      "input": "はっこうわ、びせいぶつのはたらきによって、しょくざいのせいぶんがへんかし、あじ、かおり、しょっかん、ほぞんせいなどがかわるげんしょうです。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally. Use brief pauses at supplied commas and complete sentence boundaries. Keep particles attached to preceding phrases; never pause immediately before わ or お. Preserve vowel length and doubled consonants, especially はっこう. Keep lexical は in はっこう and はたらき as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "にほんのはっこうしょくひんでは、こうじきん、こうぼ、にゅうさんきんなど、さまざまなびせいぶつがりようされています。",
+      "input": "にほんのはっこうしょくひんでわ、こうじきん、こうぼ、にゅうさんきんなど、さまざまなびせいぶつがりようされています。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally. Use brief pauses at supplied commas and complete sentence boundaries. Keep particles attached to preceding phrases; never pause immediately before わ or お. Preserve vowel length and doubled consonants, especially はっこう. Keep lexical は in はっこう and はたらき as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "はっこうにかかわるびせいぶつ",
+      "input": "はっこうにかかわるびせいぶつ",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally. Use brief pauses at supplied commas and complete sentence boundaries. Keep particles attached to preceding phrases; never pause immediately before わ or お. Preserve vowel length and doubled consonants, especially はっこう. Keep lexical は in はっこう and はたらき as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "びせいぶつ",
+      "input": "びせいぶつ",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally. Use brief pauses at supplied commas and complete sentence boundaries. Keep particles attached to preceding phrases; never pause immediately before わ or お. Preserve vowel length and doubled consonants, especially はっこう. Keep lexical は in はっこう and はたらき as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "こうじきん",
+      "input": "こうじきん",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally. Use brief pauses at supplied commas and complete sentence boundaries. Keep particles attached to preceding phrases; never pause immediately before わ or お. Preserve vowel length and doubled consonants, especially はっこう. Keep lexical は in はっこう and はたらき as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "こうぼ",
+      "input": "こうぼ",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally. Use brief pauses at supplied commas and complete sentence boundaries. Keep particles attached to preceding phrases; never pause immediately before わ or お. Preserve vowel length and doubled consonants, especially はっこう. Keep lexical は in はっこう and はたらき as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "にゅうさんきん",
+      "input": "にゅうさんきん",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally. Use brief pauses at supplied commas and complete sentence boundaries. Keep particles attached to preceding phrases; never pause immediately before わ or お. Preserve vowel length and doubled consonants, especially はっこう. Keep lexical は in はっこう and はたらき as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "さくさんきん",
+      "input": "さくさんきん",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally. Use brief pauses at supplied commas and complete sentence boundaries. Keep particles attached to preceding phrases; never pause immediately before わ or お. Preserve vowel length and doubled consonants, especially はっこう. Keep lexical は in はっこう and はたらき as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "きん",
+      "input": "きん",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally. Use brief pauses at supplied commas and complete sentence boundaries. Keep particles attached to preceding phrases; never pause immediately before わ or お. Preserve vowel length and doubled consonants, especially はっこう. Keep lexical は in はっこう and はたらき as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "はっこうちゅうにおこること",
+      "input": "はっこうちゅうにおこること",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep object お attached to the preceding noun; do not pause immediately before it. Preserve long vowels and doubled consonants, especially はっこう, とう, しぼう, あるこーる and しょっかん. Keep lexical は in はっこう as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "でんぷんをとうにかえる",
+      "input": "でんぷんおとうにかえる",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep object お attached to the preceding noun; do not pause immediately before it. Preserve long vowels and doubled consonants, especially はっこう, とう, しぼう, あるこーる and しょっかん. Keep lexical は in はっこう as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "たんぱくしつをあみのさんにぶんかいする",
+      "input": "たんぱくしつおあみのさんにぶんかいする",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep object お attached to the preceding noun; do not pause immediately before it. Preserve long vowels and doubled consonants, especially はっこう, とう, しぼう, あるこーる and しょっかん. Keep lexical は in はっこう as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "しぼうをぶんかいする",
+      "input": "しぼうおぶんかいする",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep object お attached to the preceding noun; do not pause immediately before it. Preserve long vowels and doubled consonants, especially はっこう, とう, しぼう, あるこーる and しょっかん. Keep lexical は in はっこう as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "とうをぶんかいする",
+      "input": "とうおぶんかいする",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep object お attached to the preceding noun; do not pause immediately before it. Preserve long vowels and doubled consonants, especially はっこう, とう, しぼう, あるこーる and しょっかん. Keep lexical は in はっこう as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "さんをつくる",
+      "input": "さんおつくる",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep object お attached to the preceding noun; do not pause immediately before it. Preserve long vowels and doubled consonants, especially はっこう, とう, しぼう, あるこーる and しょっかん. Keep lexical は in はっこう as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "あるこーるをつくる",
+      "input": "あるこーるおつくる",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep object お attached to the preceding noun; do not pause immediately before it. Preserve long vowels and doubled consonants, especially はっこう, とう, しぼう, あるこーる and しょっかん. Keep lexical は in はっこう as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "うまみをひきだす",
+      "input": "うまみおひきだす",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep object お attached to the preceding noun; do not pause immediately before it. Preserve long vowels and doubled consonants, especially はっこう, とう, しぼう, あるこーる and しょっかん. Keep lexical は in はっこう as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "あまみをひきだす",
+      "input": "あまみおひきだす",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep object お attached to the preceding noun; do not pause immediately before it. Preserve long vowels and doubled consonants, especially はっこう, とう, しぼう, あるこーる and しょっかん. Keep lexical は in はっこう as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "かおりをうみだす",
+      "input": "かおりおうみだす",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep object お attached to the preceding noun; do not pause immediately before it. Preserve long vowels and doubled consonants, especially はっこう, とう, しぼう, あるこーる and しょっかん. Keep lexical は in はっこう as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "しょっかんをかえる",
+      "input": "しょっかんおかえる",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep object お attached to the preceding noun; do not pause immediately before it. Preserve long vowels and doubled consonants, especially はっこう, とう, しぼう, あるこーる and しょっかん. Keep lexical は in はっこう as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "はっこうのへんかをかんさつする",
+      "input": "はっこうのへんかおかんさつする",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep grammatical particles attached to preceding phrases; do not pause immediately before object お. Preserve long vowels and doubled consonants, especially はっこう. Do not add English or list numbers."
+    },
+    {
+      "key": "かおりがかわる",
+      "input": "かおりがかわる",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep grammatical particles attached to preceding phrases; do not pause immediately before object お. Preserve long vowels and doubled consonants, especially はっこう. Do not add English or list numbers."
+    },
+    {
+      "key": "あまみがます",
+      "input": "あまみがます",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep grammatical particles attached to preceding phrases; do not pause immediately before object お. Preserve long vowels and doubled consonants, especially はっこう. Do not add English or list numbers."
+    },
+    {
+      "key": "うまみがます",
+      "input": "うまみがます",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep grammatical particles attached to preceding phrases; do not pause immediately before object お. Preserve long vowels and doubled consonants, especially はっこう. Do not add English or list numbers."
+    },
+    {
+      "key": "さんみがでる",
+      "input": "さんみがでる",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep grammatical particles attached to preceding phrases; do not pause immediately before object お. Preserve long vowels and doubled consonants, especially はっこう. Do not add English or list numbers."
+    },
+    {
+      "key": "こくがでる",
+      "input": "こくがでる",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep grammatical particles attached to preceding phrases; do not pause immediately before object お. Preserve long vowels and doubled consonants, especially はっこう. Do not add English or list numbers."
+    },
+    {
+      "key": "まろやかになる",
+      "input": "まろやかになる",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep grammatical particles attached to preceding phrases; do not pause immediately before object お. Preserve long vowels and doubled consonants, especially はっこう. Do not add English or list numbers."
+    },
+    {
+      "key": "やわらかくなる",
+      "input": "やわらかくなる",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep grammatical particles attached to preceding phrases; do not pause immediately before object お. Preserve long vowels and doubled consonants, especially はっこう. Do not add English or list numbers."
+    },
+    {
+      "key": "いろがこくなる",
+      "input": "いろがこくなる",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep grammatical particles attached to preceding phrases; do not pause immediately before object お. Preserve long vowels and doubled consonants, especially はっこう. Do not add English or list numbers."
+    },
+    {
+      "key": "すいぶんがでる",
+      "input": "すいぶんがでる",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep grammatical particles attached to preceding phrases; do not pause immediately before object お. Preserve long vowels and doubled consonants, especially はっこう. Do not add English or list numbers."
+    },
+    {
+      "key": "かおりがつよくなる",
+      "input": "かおりがつよくなる",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep grammatical particles attached to preceding phrases; do not pause immediately before object お. Preserve long vowels and doubled consonants, especially はっこう. Do not add English or list numbers."
+    },
+    {
+      "key": "はっこうをかんりする",
+      "input": "はっこうおかんりする",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep object お attached to the preceding noun; do not pause immediately before it. Preserve long vowels and doubled consonants, especially はっこう. Keep lexical は in はっこう as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "おんど",
+      "input": "おんど",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep object お attached to the preceding noun; do not pause immediately before it. Preserve long vowels and doubled consonants, especially はっこう. Keep lexical は in はっこう as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "しつど",
+      "input": "しつど",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep object お attached to the preceding noun; do not pause immediately before it. Preserve long vowels and doubled consonants, especially はっこう. Keep lexical は in はっこう as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "じかん",
+      "input": "じかん",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep object お attached to the preceding noun; do not pause immediately before it. Preserve long vowels and doubled consonants, especially はっこう. Keep lexical は in はっこう as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "えんぶん",
+      "input": "えんぶん",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep object お attached to the preceding noun; do not pause immediately before it. Preserve long vowels and doubled consonants, especially はっこう. Keep lexical は in はっこう as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "すいぶん",
+      "input": "すいぶん",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep object お attached to the preceding noun; do not pause immediately before it. Preserve long vowels and doubled consonants, especially はっこう. Keep lexical は in はっこう as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "はっこうじかん",
+      "input": "はっこうじかん",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only はっこうじかん once in standard Japanese, meaning fermentation time. Pronounce hak-kō jikan: seven morae は・っ・こ・う・じ・か・ん. Begin with lexical ha, preserve the small っ as a full geminate k closure, and hold the kō vowel for two morae. Use voiced ji in じかん, not chi. Say the full compound smoothly, keeping はっこう and じかん distinct without inserting a pause or dropping any syllable. Do not say はこう, はっこじかん or はっこうちかん. Do not add an introduction, English or an explanation."
+    },
+    {
+      "key": "おんどかんり",
+      "input": "おんどかんり",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep object お attached to the preceding noun; do not pause immediately before it. Preserve long vowels and doubled consonants, especially はっこう. Keep lexical は in はっこう as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "じゅくせい",
+      "input": "じゅくせい",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep object お attached to the preceding noun; do not pause immediately before it. Preserve long vowels and doubled consonants, especially はっこう. Keep lexical は in はっこう as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "ねかせる",
+      "input": "ねかせる",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep object お attached to the preceding noun; do not pause immediately before it. Preserve long vowels and doubled consonants, especially はっこう. Keep lexical は in はっこう as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "まぜる",
+      "input": "まぜる",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep object お attached to the preceding noun; do not pause immediately before it. Preserve long vowels and doubled consonants, especially はっこう. Keep lexical は in はっこう as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "しこむ",
+      "input": "しこむ",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep object お attached to the preceding noun; do not pause immediately before it. Preserve long vowels and doubled consonants, especially はっこう. Keep lexical は in はっこう as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "しこみ",
+      "input": "しこみ",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep object お attached to the preceding noun; do not pause immediately before it. Preserve long vowels and doubled consonants, especially はっこう. Keep lexical は in はっこう as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "はっこうさせる",
+      "input": "はっこうさせる",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep object お attached to the preceding noun; do not pause immediately before it. Preserve long vowels and doubled consonants, especially はっこう. Keep lexical は in はっこう as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "はっこうをとめる",
+      "input": "はっこうおとめる",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep object お attached to the preceding noun; do not pause immediately before it. Preserve long vowels and doubled consonants, especially はっこう. Keep lexical は in はっこう as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "はっこうとふはい",
+      "input": "はっこうとふはい",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally. Use brief pauses at supplied commas and complete sentence boundaries. Keep grammatical particles attached to preceding phrases; never pause immediately before topic わ or object お. Preserve long vowels and doubled consonants in はっこう, ざっきん and いしゅう. Keep lexical は in はっこう and ふはい as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "ふはい",
+      "input": "ふはい",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally. Use brief pauses at supplied commas and complete sentence boundaries. Keep grammatical particles attached to preceding phrases; never pause immediately before topic わ or object お. Preserve long vowels and doubled consonants in はっこう, ざっきん and いしゅう. Keep lexical は in はっこう and ふはい as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "かび",
+      "input": "かび",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally. Use brief pauses at supplied commas and complete sentence boundaries. Keep grammatical particles attached to preceding phrases; never pause immediately before topic わ or object お. Preserve long vowels and doubled consonants in はっこう, ざっきん and いしゅう. Keep lexical は in はっこう and ふはい as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "ざっきん",
+      "input": "ざっきん",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally. Use brief pauses at supplied commas and complete sentence boundaries. Keep grammatical particles attached to preceding phrases; never pause immediately before topic わ or object お. Preserve long vowels and doubled consonants in はっこう, ざっきん and いしゅう. Keep lexical は in はっこう and ふはい as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "いたむ",
+      "input": "いたむ",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally. Use brief pauses at supplied commas and complete sentence boundaries. Keep grammatical particles attached to preceding phrases; never pause immediately before topic わ or object お. Preserve long vowels and doubled consonants in はっこう, ざっきん and いしゅう. Keep lexical は in はっこう and ふはい as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "くさる",
+      "input": "くさる",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally. Use brief pauses at supplied commas and complete sentence boundaries. Keep grammatical particles attached to preceding phrases; never pause immediately before topic わ or object お. Preserve long vowels and doubled consonants in はっこう, ざっきん and いしゅう. Keep lexical は in はっこう and ふはい as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "いしゅう",
+      "input": "いしゅう",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally. Use brief pauses at supplied commas and complete sentence boundaries. Keep grammatical particles attached to preceding phrases; never pause immediately before topic わ or object お. Preserve long vowels and doubled consonants in はっこう, ざっきん and いしゅう. Keep lexical は in はっこう and ふはい as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "はっこうとふはいは、どちらもびせいぶつによるへんかです。",
+      "input": "はっこうとふはいわ、どちらもびせいぶつによるへんかです。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally. Use brief pauses at supplied commas and complete sentence boundaries. Keep grammatical particles attached to preceding phrases; never pause immediately before topic わ or object お. Preserve long vowels and doubled consonants in はっこう, ざっきん and いしゅう. Keep lexical は in はっこう and ふはい as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "ひとにとってゆうえきなへんかをはっこう、ゆうがいなへんかをふはいとよびます。",
+      "input": "ひとにとってゆうえきなへんかおはっこう、ゆうがいなへんかおふはいとよびます。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally. Use brief pauses at supplied commas and complete sentence boundaries. Keep grammatical particles attached to preceding phrases; never pause immediately before topic わ or object お. Preserve long vowels and doubled consonants in はっこう, ざっきん and いしゅう. Keep lexical は in はっこう and ふはい as ha. Do not add English or list numbers."
+    },
+    {
+      "key": "はっこうでりょうりがどうかわるか",
+      "input": "はっこうでりょうりがどうかわるか",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep grammatical particles attached to preceding phrases. Preserve vowel length and doubled consonants, especially はっこう and ふうみ. Do not add English or list numbers."
+    },
+    {
+      "key": "しぜんなあまみがでる",
+      "input": "しぜんなあまみがでる",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep grammatical particles attached to preceding phrases. Preserve vowel length and doubled consonants, especially はっこう and ふうみ. Do not add English or list numbers."
+    },
+    {
+      "key": "かおりがゆたかになる",
+      "input": "かおりがゆたかになる",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep grammatical particles attached to preceding phrases. Preserve vowel length and doubled consonants, especially はっこう and ふうみ. Do not add English or list numbers."
+    },
+    {
+      "key": "あじにふかみがでる",
+      "input": "あじにふかみがでる",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only あじにふかみがでる once in standard Japanese, meaning the flavour develops depth. Pronounce a-ji ni fu-ka-mi ga de-ru: nine morae あ・じ・に・ふ・か・み・が・で・る. Use voiced ji and de. 深み is ふかみ (fukami), three short morae, with no long vowel and no doubled consonant. Keep あじに and ふかみが flowing naturally as complete phrases; never insert a pause before に or が. Say every mora clearly at a natural pace, without adding syllables or words. Do not add an introduction, translation or explanation."
+    },
+    {
+      "key": "あじがまろやかになる",
+      "input": "あじがまろやかになる",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep grammatical particles attached to preceding phrases. Preserve vowel length and doubled consonants, especially はっこう and ふうみ. Do not add English or list numbers."
+    },
+    {
+      "key": "しょくざいがやわらかくなる",
+      "input": "しょくざいがやわらかくなる",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep grammatical particles attached to preceding phrases. Preserve vowel length and doubled consonants, especially はっこう and ふうみ. Do not add English or list numbers."
+    },
+    {
+      "key": "ほぞんせいがたかまる",
+      "input": "ほぞんせいがたかまる",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep grammatical particles attached to preceding phrases. Preserve vowel length and doubled consonants, especially はっこう and ふうみ. Do not add English or list numbers."
+    },
+    {
+      "key": "ふうみがふくざつになる",
+      "input": "ふうみがふくざつになる",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, as a continuous phrase. Keep grammatical particles attached to preceding phrases. Preserve vowel length and doubled consonants, especially はっこう and ふうみ. Do not add English or list numbers."
+    },
+    {
+      "key": "りょうりにんがかんがえるぽいんと",
+      "input": "りょうりにんがかんがえるぽいんと",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally. Use brief pauses at supplied commas and complete sentence boundaries. Keep particles attached to preceding phrases; never pause immediately before topic わ or object お. Preserve doubled consonants and vowel length in はっこう, saying hak-kō, not hakō or hakko. Keep lexical は in はっこう as ha. Do not add English."
+    },
+    {
+      "key": "はっこうはながければながいほどよいわけではありません。",
+      "input": "はっこうわ、ながければながいほどよいわけでわありません。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally. Use brief pauses at supplied commas and complete sentence boundaries. Keep particles attached to preceding phrases; never pause immediately before topic わ or object お. Preserve doubled consonants and vowel length in はっこう, saying hak-kō, not hakō or hakko. Keep lexical は in はっこう as ha. Do not add English."
+    },
+    {
+      "key": "おんどによってはっこうのすすみかたがかわります。",
+      "input": "おんどによって、はっこうのすすみかたがかわります。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally. Use brief pauses at supplied commas and complete sentence boundaries. Keep particles attached to preceding phrases; never pause immediately before topic わ or object お. Preserve doubled consonants and vowel length in はっこう, saying hak-kō, not hakō or hakko. Keep lexical は in はっこう as ha. Do not add English."
+    },
+    {
+      "key": "おなじざいりょうでも、はっこうのじょうけんによってあじやかおりがかわります。",
+      "input": "おなじざいりょうでも、はっこうのじょうけんによって、あじやかおりがかわります。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally. Use brief pauses at supplied commas and complete sentence boundaries. Keep particles attached to preceding phrases; never pause immediately before topic わ or object お. Preserve doubled consonants and vowel length in はっこう, saying hak-kō, not hakō or hakko. Keep lexical は in はっこう as ha. Do not add English."
+    },
+    {
+      "key": "はっこうさせすぎると、さんみやかおりがつよくなりすぎることがあります。",
+      "input": "はっこうさせすぎると、さんみやかおりがつよくなりすぎることがあります。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally. Use brief pauses at supplied commas and complete sentence boundaries. Keep particles attached to preceding phrases; never pause immediately before topic わ or object お. Preserve doubled consonants and vowel length in はっこう, saying hak-kō, not hakō or hakko. Keep lexical は in はっこう as ha. Do not add English."
+    },
+    {
+      "key": "はっこうのじょうたいをみながらちょうせいすることがたいせつです。",
+      "input": "はっこうのじょうたいおみながら、ちょうせいすることがたいせつです。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally. Use brief pauses at supplied commas and complete sentence boundaries. Keep particles attached to preceding phrases; never pause immediately before topic わ or object お. Preserve doubled consonants and vowel length in はっこう, saying hak-kō, not hakō or hakko. Keep lexical は in はっこう as ha. Do not add English."
+    },
+    {
+      "key": "せんせいにきくふれーず、いち。",
+      "input": "せんせいにきくふれーず、いち。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, with polite Japanese question intonation. Use brief pauses at supplied commas. Keep particles attached to preceding phrases; never pause immediately before topic わ. Preserve the geminate k and long kō in はっこう (hak-kō). In はっこうじかん, retain voiced ji and all seven morae は・っ・こ・う・じ・か・ん, flowing smoothly without a pause inside the compound. Do not add English or an explanation."
+    },
+    {
+      "key": "はっこうがすすんでいるかどうかは、どうやってみわけますか。",
+      "input": "はっこうがすすんでいるかどうかわ、どうやってみわけますか。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, with polite Japanese question intonation. Use brief pauses at supplied commas. Keep particles attached to preceding phrases; never pause immediately before topic わ. Preserve the geminate k and long kō in はっこう (hak-kō). In はっこうじかん, retain voiced ji and all seven morae は・っ・こ・う・じ・か・ん, flowing smoothly without a pause inside the compound. Do not add English or an explanation."
+    },
+    {
+      "key": "かおりではっこうのじょうたいがわかりますか。",
+      "input": "かおりで、はっこうのじょうたいがわかりますか。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, with polite Japanese question intonation. Use brief pauses at supplied commas. Keep particles attached to preceding phrases; never pause immediately before topic わ. Preserve the geminate k and long kō in はっこう (hak-kō). In はっこうじかん, retain voiced ji and all seven morae は・っ・こ・う・じ・か・ん, flowing smoothly without a pause inside the compound. Do not add English or an explanation."
+    },
+    {
+      "key": "おんどがたかすぎると、どうなりますか。",
+      "input": "おんどがたかすぎると、どうなりますか。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, with polite Japanese question intonation. Use brief pauses at supplied commas. Keep particles attached to preceding phrases; never pause immediately before topic わ. Preserve the geminate k and long kō in はっこう (hak-kō). In はっこうじかん, retain voiced ji and all seven morae は・っ・こ・う・じ・か・ん, flowing smoothly without a pause inside the compound. Do not add English or an explanation."
+    },
+    {
+      "key": "きせつによってはっこうじかんはかわりますか。",
+      "input": "きせつによって、はっこうじかんわかわりますか。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, with polite Japanese question intonation. Use brief pauses at supplied commas. Keep particles attached to preceding phrases; never pause immediately before topic わ. Preserve the geminate k and long kō in はっこう (hak-kō). In はっこうじかん, retain voiced ji and all seven morae は・っ・こ・う・じ・か・ん, flowing smoothly without a pause inside the compound. Do not add English or an explanation."
+    },
+    {
+      "key": "はっこうしすぎたときは、どんなあじになりますか。",
+      "input": "はっこうしすぎたときわ、どんなあじになりますか。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, with polite Japanese question intonation. Use brief pauses at supplied commas. Keep particles attached to preceding phrases; never pause immediately before topic わ. Preserve the geminate k and long kō in はっこう (hak-kō). In はっこうじかん, retain voiced ji and all seven morae は・っ・こ・う・じ・か・ん, flowing smoothly without a pause inside the compound. Do not add English or an explanation."
+    },
+    {
+      "key": "これはまだはっこうがたりないですか。",
+      "input": "これわ、まだはっこうがたりないですか。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, with polite Japanese question intonation. Use brief pauses at supplied commas. Keep particles attached to preceding phrases; never pause immediately before topic わ. Preserve the geminate k and long kō in はっこう (hak-kō). In はっこうじかん, retain voiced ji and all seven morae は・っ・こ・う・じ・か・ん, flowing smoothly without a pause inside the compound. Do not add English or an explanation."
+    },
+    {
+      "key": "せんせいにきくふれーず、に。",
+      "input": "せんせいにきくふれーず、に。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, with polite Japanese question intonation. Use brief pauses at supplied commas. Keep particles attached to preceding phrases; never pause immediately before topic わ or object お. Preserve the geminate k and long kō in はっこう (hak-kō). Preserve the long vowel in はーぶ and keep its lexical ha pronunciation. Do not add English or an explanation."
+    },
+    {
+      "key": "このかおりはせいじょうですか。",
+      "input": "このかおりわ、せいじょうですか。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, with polite Japanese question intonation. Use brief pauses at supplied commas. Keep particles attached to preceding phrases; never pause immediately before topic わ or object お. Preserve the geminate k and long kō in はっこう (hak-kō). Preserve the long vowel in はーぶ and keep its lexical ha pronunciation. Do not add English or an explanation."
+    },
+    {
+      "key": "どのたいみんぐがいちばんおいしいですか。",
+      "input": "どのたいみんぐがいちばんおいしいですか。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, with polite Japanese question intonation. Use brief pauses at supplied commas. Keep particles attached to preceding phrases; never pause immediately before topic わ or object お. Preserve the geminate k and long kō in はっこう (hak-kō). Preserve the long vowel in はーぶ and keep its lexical ha pronunciation. Do not add English or an explanation."
+    },
+    {
+      "key": "やさいによってはっこうのすすみかたはかわりますか。",
+      "input": "やさいによって、はっこうのすすみかたわかわりますか。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, with polite Japanese question intonation. Use brief pauses at supplied commas. Keep particles attached to preceding phrases; never pause immediately before topic わ or object お. Preserve the geminate k and long kō in はっこう (hak-kō). Preserve the long vowel in はーぶ and keep its lexical ha pronunciation. Do not add English or an explanation."
+    },
+    {
+      "key": "すいすのやさいでもおなじようにできますか。",
+      "input": "すいすのやさいでもおなじようにできますか。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, with polite Japanese question intonation. Use brief pauses at supplied commas. Keep particles attached to preceding phrases; never pause immediately before topic わ or object お. Preserve the geminate k and long kō in はっこう (hak-kō). Preserve the long vowel in はーぶ and keep its lexical ha pronunciation. Do not add English or an explanation."
+    },
+    {
+      "key": "はーぶをいれるとはっこうにえいきょうしますか。",
+      "input": "はーぶおいれると、はっこうにえいきょうしますか。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, with polite Japanese question intonation. Use brief pauses at supplied commas. Keep particles attached to preceding phrases; never pause immediately before topic わ or object お. Preserve the geminate k and long kō in はっこう (hak-kō). Preserve the long vowel in はーぶ and keep its lexical ha pronunciation. Do not add English or an explanation."
+    },
+    {
+      "key": "えんぶんをかえると、あじだけじゃなくてはっこうのすすみかたもかわりますか。",
+      "input": "えんぶんおかえると、あじだけじゃなくて、はっこうのすすみかたもかわりますか。",
+      "speed": 1.0,
+      "pronunciation_guidance": "Read only this Japanese chunk once, naturally, with polite Japanese question intonation. Use brief pauses at supplied commas. Keep particles attached to preceding phrases; never pause immediately before topic わ or object お. Preserve the geminate k and long kō in はっこう (hak-kō). Preserve the long vowel in はーぶ and keep its lexical ha pronunciation. Do not add English or an explanation."
+    }
+  ]
+}

@@ -1,0 +1,862 @@
+{
+  "title": "和食カード",
+  "entries": [
+    {
+      "id": "washoku-card-01",
+      "step": 1,
+      "kanji": "素材(そざい)を生(い)かす",
+      "english": "Let the Ingredient Shine",
+      "japanese": "そざいをいかす",
+      "blocks": [
+        {
+          "japanese": "和食(わしょく)は、旬(しゅん)の食材(しょくざい)を大切(たいせつ)にし、素材(そざい)そのものの味(あじ)を生(い)かしながら、味(あじ)・香(かお)り・食感(しょっかん)・色(いろ)・器(うつわ)の調和(ちょうわ)を考(かんが)える料理(りょうり)です。",
+          "english": "Washoku values seasonal ingredients and brings out their natural qualities while creating harmony between flavour, aroma, texture, colour and tableware.",
+          "speech": "わしょくは、しゅんのしょくざいをたいせつにし、そざいそのもののあじをいかしながら、あじ、かおり、しょっかん、いろ、うつわのちょうわをかんがえるりょうりです。"
+        },
+        {
+          "japanese": "和食(わしょく)では、料理人(りょうりにん)が目立(めだ)つことより、素材(そざい)の良(よ)さを引(ひ)き出(だ)すことを大切(たいせつ)にします。",
+          "english": "In washoku, the goal is not for the chef to overpower the ingredient, but to bring out what is already good about it.",
+          "speech": "わしょくでは、りょうりにんがめだつことより、そざいのよさをひきだすことをたいせつにします。"
+        },
+        {
+          "japanese": "調味料(ちょうみりょう)は味(あじ)を足(た)すだけではなく、素材(そざい)の味(あじ)を引(ひ)き立(た)てるために使(つか)います。",
+          "english": "Seasonings are not simply used to add flavour; they are used to enhance the ingredient.",
+          "speech": "ちょうみりょうはあじをたすだけではなく、そざいのあじをひきたてるためにつかいます。"
+        },
+        {
+          "japanese": "そのため、料理(りょうり)を考(かんが)える時(とき)には、次(つぎ)のことを考(かんが)えます。",
+          "english": "When planning a dish, consider these questions:",
+          "speech": "そのため、りょうりをかんがえるときには、つぎのことをかんがえます。"
+        },
+        {
+          "items": [
+            {
+              "japanese": "この食材(しょくざい)の特徴(とくちょう)は何(なに)か。",
+              "english": "What characterizes this ingredient?",
+              "speech": "このしょくざいのとくちょうはなにか。"
+            },
+            {
+              "japanese": "何(なに)を残(のこ)したいか。",
+              "english": "What do I want to preserve?",
+              "speech": "なにをのこしたいか。"
+            },
+            {
+              "japanese": "何(なに)を引(ひ)き出(だ)したいか。",
+              "english": "What do I want to bring out?",
+              "speech": "なにをひきだしたいか。"
+            }
+          ]
+        },
+        {
+          "japanese": "役立(やくだ)つ言葉(ことば)",
+          "english": "Useful vocabulary",
+          "speech": "やくだつことば",
+          "heading": true
+        },
+        {
+          "items": [
+            {
+              "japanese": "素材(そざい)を生(い)かす",
+              "english": "Make the most of an ingredient",
+              "speech": "そざいをいかす"
+            },
+            {
+              "japanese": "引(ひ)き立(た)てる",
+              "english": "Enhance / bring out",
+              "speech": "ひきたてる"
+            },
+            {
+              "japanese": "持(も)ち味(あじ)",
+              "english": "Inherent character / natural qualities",
+              "speech": "もちあじ"
+            },
+            {
+              "japanese": "旨味(うまみ)",
+              "english": "Umami",
+              "speech": "うまみ"
+            },
+            {
+              "japanese": "繊細(せんさい)",
+              "english": "Delicate",
+              "speech": "せんさい"
+            },
+            {
+              "japanese": "上品(じょうひん)",
+              "english": "Refined / elegant",
+              "speech": "じょうひん"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "washoku-card-02",
+      "step": 2,
+      "kanji": "旬(しゅん)を味(あじ)わう",
+      "english": "Experience the Season",
+      "japanese": "しゅんをあじわう",
+      "blocks": [
+        {
+          "japanese": "旬(しゅん)は、食材(しょくざい)が特(とく)においしく、香(かお)り・食感(しょっかん)・栄養価(えいようか)が良(よ)くなる時期(じき)です。",
+          "english": "Shun is the period when an ingredient is at its best in flavour, aroma, texture and nutritional quality.",
+          "speech": "しゅんは、しょくざいがとくにおいしく、かおり、しょっかん、えいようかがよくなるじきです。"
+        },
+        {
+          "japanese": "でも和食(わしょく)の季節感(きせつかん)は、「旬(しゅん)の食材(しょくざい)を使(つか)う」だけではありません。",
+          "english": "But seasonality in washoku means more than simply using ingredients in season.",
+          "speech": "でもわしょくのきせつかんは、しゅんのしょくざいをつかうだけではありません。"
+        },
+        {
+          "japanese": "走(はし)り",
+          "english": "The beginning of the season",
+          "speech": "はしり",
+          "heading": true
+        },
+        {
+          "japanese": "季節(きせつ)の初(はじ)め。まだ少(すこ)し早(はや)い食材(しょくざい)を楽(たの)しみ、これから来(く)る季節(きせつ)を感(かん)じる。",
+          "english": "The beginning of the season — enjoying early ingredients and the anticipation of what is coming.",
+          "speech": "きせつのはじめ。まだすこしはやいしょくざいをたのしみ、これからくるきせつをかんじる。"
+        },
+        {
+          "japanese": "盛(さか)り",
+          "english": "The seasonal peak",
+          "speech": "さかり",
+          "heading": true
+        },
+        {
+          "japanese": "食材(しょくざい)が最(もっと)も充実(じゅうじつ)している時期(じき)。",
+          "english": "The ingredient at its seasonal peak.",
+          "speech": "しょくざいがもっともじゅうじつしているじき。"
+        },
+        {
+          "japanese": "名残(なごり)",
+          "english": "The end of the season",
+          "speech": "なごり",
+          "heading": true
+        },
+        {
+          "japanese": "旬(しゅん)が終(お)わる頃(ころ)の食材(しょくざい)を味(あじ)わい、過(す)ぎていく季節(きせつ)を惜(お)しむ。",
+          "english": "Enjoying an ingredient near the end of its season and appreciating the season as it passes.",
+          "speech": "しゅんがおわるころのしょくざいをあじわい、すぎていくきせつをおしむ。"
+        },
+        {
+          "japanese": "季節(きせつ)は「食材(しょくざい)」だけではなく、器(うつわ)・色(いろ)・あしらい・盛(も)り付(つ)けでも表現(ひょうげん)します。",
+          "english": "Season is expressed not only through ingredients, but also through tableware, colour, garnish and presentation.",
+          "speech": "きせつはしょくざいだけではなく、うつわ、いろ、あしらい、もりつけでもひょうげんします。"
+        },
+        {
+          "japanese": "役立(やくだ)つ言葉(ことば)",
+          "english": "Useful vocabulary",
+          "speech": "やくだつことば",
+          "heading": true
+        },
+        {
+          "items": [
+            {
+              "japanese": "旬(しゅん)",
+              "english": "Peak season",
+              "speech": "しゅん"
+            },
+            {
+              "japanese": "季節感(きせつかん)",
+              "english": "Sense of season",
+              "speech": "きせつかん"
+            },
+            {
+              "japanese": "走(はし)り",
+              "english": "Beginning of season",
+              "speech": "はしり"
+            },
+            {
+              "japanese": "盛(さか)り",
+              "english": "Peak of season",
+              "speech": "さかり"
+            },
+            {
+              "japanese": "名残(なごり)",
+              "english": "End of season",
+              "speech": "なごり"
+            },
+            {
+              "japanese": "初物(はつもの)",
+              "english": "First harvest / catch of the year",
+              "speech": "はつもの"
+            },
+            {
+              "japanese": "新物(しんもの)",
+              "english": "Newly harvested product",
+              "speech": "しんもの"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "washoku-card-03",
+      "step": 3,
+      "kanji": "調和(ちょうわ)を考(かんが)える",
+      "english": "Think in Terms of Harmony",
+      "japanese": "ちょうわをかんがえる",
+      "blocks": [
+        {
+          "japanese": "和食(わしょく)では、一(ひと)つの味(あじ)だけを強(つよ)くするより、料理全体(りょうりぜんたい)のバランスを考(かんが)えます。",
+          "english": "Rather than making one flavour dominate, washoku considers the balance of the whole dish or meal.",
+          "speech": "わしょくでは、ひとつのあじだけをつよくするより、りょうりぜんたいのばらんすをかんがえます。"
+        },
+        {
+          "japanese": "食材(しょくざい)を組(く)み合(あ)わせる時(とき)は、味(あじ)・香(かお)り・食感(しょっかん)・季節(きせつ)の相性(あいしょう)を考(かんが)えます。",
+          "english": "When combining ingredients, consider how their flavour, aroma, texture and season work together.",
+          "speech": "しょくざいをくみあわせるときは、あじ、かおり、しょっかん、きせつのあいしょうをかんがえます。"
+        },
+        {
+          "japanese": "白身魚(しろみざかな) ＋ 柚子(ゆず)",
+          "english": "White fish + yuzu",
+          "speech": "しろみざかなとゆず",
+          "heading": true
+        },
+        {
+          "japanese": "柚子(ゆず)の爽(さわ)やかな香(かお)りが、魚(さかな)の繊細(せんさい)な旨味(うまみ)を引(ひ)き立(た)てる。",
+          "english": "Yuzu’s fresh aroma enhances the delicate umami of white fish.",
+          "speech": "ゆずのさわやかなかおりが、さかなのせんさいなうまみをひきたてる。"
+        },
+        {
+          "japanese": "茄子(なす) ＋ 味噌(みそ)",
+          "english": "Eggplant + miso",
+          "speech": "なすとみそ",
+          "heading": true
+        },
+        {
+          "japanese": "茄子(なす)が味噌(みそ)の旨味(うまみ)を吸(す)い、味噌(みそ)が茄子(なす)の甘(あま)みを引(ひ)き立(た)てる。",
+          "english": "Eggplant absorbs the umami of miso, while miso brings out the eggplant’s sweetness.",
+          "speech": "なすがみそのうまみをすい、みそがなすのあまみをひきたてる。"
+        },
+        {
+          "japanese": "ここで大事(だいじ)なのは、「一緒(いっしょ)にするとおいしい」だけではなく、「なぜ合(あ)うのか」を考(かんが)えること。",
+          "english": "Don’t stop at “these taste good together.” Think about why they work together.",
+          "speech": "ここでだいじなのは、いっしょにするとおいしいだけではなく、なぜあうのかをかんがえること。"
+        }
+      ]
+    },
+    {
+      "id": "washoku-card-04",
+      "step": 4,
+      "kanji": "五味(ごみ)・五色(ごしき)・五法(ごほう)",
+      "english": "Five Flavours, Five Colours, Five Methods",
+      "japanese": "ごみ、ごしき、ごほう。",
+      "blocks": [
+        {
+          "japanese": "これは和食(わしょく)のバランスを考(かんが)える一(ひと)つの考(かんが)え方(かた)です。",
+          "english": "This is one way of thinking about balance in washoku.",
+          "speech": "これはわしょくのばらんすをかんがえるひとつのかんがえかたです。"
+        },
+        {
+          "japanese": "五味(ごみ)",
+          "english": "Five flavours",
+          "speech": "ごみ",
+          "heading": true
+        },
+        {
+          "items": [
+            {
+              "japanese": "甘味(あまみ)",
+              "english": "Sweet",
+              "speech": "あまみ"
+            },
+            {
+              "japanese": "塩味(しおあじ)",
+              "english": "Salty",
+              "speech": "しおあじ"
+            },
+            {
+              "japanese": "酸味(さんみ)",
+              "english": "Sour",
+              "speech": "さんみ"
+            },
+            {
+              "japanese": "苦味(にがみ)",
+              "english": "Bitter",
+              "speech": "にがみ"
+            },
+            {
+              "japanese": "旨味(うまみ)",
+              "english": "Umami",
+              "speech": "うまみ"
+            }
+          ]
+        },
+        {
+          "japanese": "五色(ごしき)",
+          "english": "Five colours",
+          "speech": "ごしき",
+          "heading": true
+        },
+        {
+          "items": [
+            {
+              "japanese": "白(しろ)",
+              "english": "White",
+              "speech": "しろ"
+            },
+            {
+              "japanese": "黒(くろ)",
+              "english": "Black",
+              "speech": "くろ"
+            },
+            {
+              "japanese": "赤(あか)",
+              "english": "Red",
+              "speech": "あか"
+            },
+            {
+              "japanese": "黄(き)",
+              "english": "Yellow",
+              "speech": "き"
+            },
+            {
+              "japanese": "緑(みどり)",
+              "english": "Green",
+              "speech": "みどり"
+            }
+          ]
+        },
+        {
+          "japanese": "五法(ごほう)",
+          "english": "Five cooking methods",
+          "speech": "ごほう",
+          "heading": true
+        },
+        {
+          "items": [
+            {
+              "japanese": "生(なま)",
+              "english": "Raw",
+              "speech": "なま"
+            },
+            {
+              "japanese": "煮(に)る",
+              "english": "Simmer",
+              "speech": "にる"
+            },
+            {
+              "japanese": "焼(や)く",
+              "english": "Grill",
+              "speech": "やく"
+            },
+            {
+              "japanese": "蒸(む)す",
+              "english": "Steam",
+              "speech": "むす"
+            },
+            {
+              "japanese": "揚(あ)げる",
+              "english": "Fry",
+              "speech": "あげる"
+            }
+          ]
+        },
+        {
+          "japanese": "全部(ぜんぶ)を一皿(ひとさら)に入(い)れるという意味(いみ)ではなく、献立全体(こんだてぜんたい)の変化(へんか)とバランスを見(み)るための考(かんが)え方(かた)です。",
+          "english": "It doesn’t mean every dish must contain all fifteen elements. It is a way of thinking about variety and balance across the meal.",
+          "speech": "ぜんぶをひとさらにいれるといういみではなく、こんだてぜんたいのへんかとばらんすをみるためのかんがえかたです。"
+        }
+      ]
+    },
+    {
+      "id": "washoku-card-05",
+      "step": 5,
+      "kanji": "一汁三菜(いちじゅうさんさい)",
+      "english": "One Soup, Three Dishes",
+      "japanese": "いちじゅうさんさい",
+      "blocks": [
+        {
+          "japanese": "一汁三菜(いちじゅうさんさい)は、和食(わしょく)の基本的(きほんてき)な献立(こんだて)の考(かんが)え方(かた)です。",
+          "english": "Ichiju-sansai is a basic way of planning a washoku meal.",
+          "speech": "いちじゅうさんさいは、わしょくのきほんてきなこんだてのかんがえかたです。"
+        },
+        {
+          "items": [
+            {
+              "japanese": "ご飯(はん)",
+              "english": "Rice",
+              "speech": "ごはん"
+            },
+            {
+              "japanese": "汁物(しるもの)",
+              "english": "Soup",
+              "speech": "しるもの"
+            },
+            {
+              "japanese": "主菜(しゅさい)",
+              "english": "Main dish",
+              "speech": "しゅさい"
+            },
+            {
+              "japanese": "副菜(ふくさい)",
+              "english": "Side dish",
+              "speech": "ふくさい"
+            },
+            {
+              "japanese": "副々菜(ふくふくさい)",
+              "english": "Second side dish",
+              "speech": "ふくふくさい"
+            }
+          ]
+        },
+        {
+          "japanese": "香(こう)の物(もの)",
+          "english": "Pickles",
+          "speech": "こうのもの",
+          "heading": true
+        },
+        {
+          "japanese": "香(こう)の物(もの)が添(そ)えられることもあります。",
+          "english": "Pickles may accompany the meal.",
+          "speech": "こうのものがそえられることもあります。"
+        },
+        {
+          "japanese": "それぞれに役割(やくわり)があります。",
+          "english": "Each component has a role.",
+          "speech": "それぞれにやくわりがあります。"
+        },
+        {
+          "japanese": "主菜(しゅさい)",
+          "english": "Main dish",
+          "speech": "しゅさい",
+          "heading": true
+        },
+        {
+          "japanese": "魚(さかな)や肉(にく)など、中心(ちゅうしん)になる料理(りょうり)。",
+          "english": "The main element, often fish or meat.",
+          "speech": "さかなやにくなど、ちゅうしんになるりょうり。"
+        },
+        {
+          "japanese": "副菜(ふくさい)",
+          "english": "Side dish",
+          "speech": "ふくさい",
+          "heading": true
+        },
+        {
+          "japanese": "野菜(やさい)や季節(きせつ)の食材(しょくざい)を取(と)り入(い)れる。",
+          "english": "Adds vegetables and seasonal ingredients.",
+          "speech": "やさいやきせつのしょくざいをとりいれる。"
+        },
+        {
+          "japanese": "汁物(しるもの)",
+          "english": "Soup",
+          "speech": "しるもの",
+          "heading": true
+        },
+        {
+          "japanese": "温(あたた)かさと水分(すいぶん)を加(くわ)える。",
+          "english": "Adds warmth and moisture.",
+          "speech": "あたたかさとすいぶんをくわえる。"
+        },
+        {
+          "japanese": "香(こう)の物(もの)",
+          "english": "Pickles",
+          "speech": "こうのもの",
+          "heading": true
+        },
+        {
+          "japanese": "口(くち)の中(なか)をさっぱりさせる。",
+          "english": "Refreshes the palate.",
+          "speech": "くちのなかをさっぱりさせる。"
+        },
+        {
+          "japanese": "ご飯(はん)",
+          "english": "Rice",
+          "speech": "ごはん",
+          "heading": true
+        },
+        {
+          "japanese": "食事全体(しょくじぜんたい)をまとめる。",
+          "english": "Brings the meal together.",
+          "speech": "しょくじぜんたいをまとめる。"
+        },
+        {
+          "japanese": "大切(たいせつ)なのは品数(しなかず)そのものより、味(あじ)や食感(しょっかん)、調理法(ちょうりほう)が重(かさ)ならないようにして、料理全体(りょうりぜんたい)に流(なが)れを作(つく)ることです。",
+          "english": "More important than simply having a certain number of dishes is avoiding unnecessary repetition of flavours, textures and cooking methods, creating a balanced progression.",
+          "speech": "たいせつなのはしなかずそのものより、あじやしょっかん、ちょうりほうがかさならないようにして、りょうりぜんたいにながれをつくることです。"
+        }
+      ]
+    },
+    {
+      "id": "washoku-card-06",
+      "step": 6,
+      "kanji": "引(ひ)き算(ざん)の料理(りょうり)",
+      "english": "Cooking by Subtraction",
+      "japanese": "ひきざんのりょうり",
+      "blocks": [
+        {
+          "japanese": "和食(わしょく)には、必要(ひつよう)のないものを足(た)さないという考(かんが)え方(かた)があります。",
+          "english": "Washoku often works by not adding things that aren’t necessary.",
+          "speech": "わしょくには、ひつようのないものをたさないというかんがえかたがあります。"
+        },
+        {
+          "japanese": "味(あじ)を強(つよ)くしたり、飾(かざ)りを増(ふ)やしたりするより、素材(そざい)の良(よ)さを邪魔(じゃま)しているものを取(と)り除(のぞ)く。",
+          "english": "Rather than continually adding stronger flavours or decoration, remove what interferes with the ingredient.",
+          "speech": "あじをつよくしたり、かざりをふやしたりするより、そざいのよさをじゃましているものをとりのぞく。"
+        },
+        {
+          "japanese": "これは味(あじ)だけでなく、盛(も)り付(つ)けにもつながります。",
+          "english": "This applies not only to flavour, but also to plating.",
+          "speech": "これはあじだけでなく、もりつけにもつながります。"
+        },
+        {
+          "japanese": "何(なに)を足(た)すかではなく、何(なに)を残(のこ)すか。",
+          "english": "Think not only about what to add, but what to leave.",
+          "speech": "なにをたすかではなく、なにをのこすか。"
+        },
+        {
+          "japanese": "役立(やくだ)つ表現(ひょうげん)",
+          "english": "Useful expression",
+          "speech": "やくだつひょうげん",
+          "heading": true
+        },
+        {
+          "japanese": "これ以上(いじょう)足(た)すと、素材(そざい)の味(あじ)が消(き)えてしまいますか。",
+          "english": "Would adding any more start to hide the flavour of the ingredient?",
+          "speech": "これいじょうたすと、そざいのあじがきえてしまいますか。"
+        }
+      ]
+    },
+    {
+      "id": "washoku-card-07",
+      "step": 7,
+      "kanji": "器(うつわ)と料理(りょうり)",
+      "english": "Food and Tableware",
+      "japanese": "うつわとりょうり",
+      "blocks": [
+        {
+          "japanese": "和食(わしょく)では、器(うつわ)も料理(りょうり)の一部(いちぶ)として考(かんが)えます。",
+          "english": "In washoku, the vessel is considered part of the dish.",
+          "speech": "わしょくでは、うつわもりょうりのいちぶとしてかんがえます。"
+        },
+        {
+          "japanese": "器(うつわ)を選(えら)ぶ時(とき)は、料理(りょうり)・季節(きせつ)・色(いろ)・素材(そざい)・形(かたち)・余白(よはく)との調和(ちょうわ)を考(かんが)えます。",
+          "english": "The vessel is chosen in relation to the food, season, colour, material, shape and negative space.",
+          "speech": "うつわをえらぶときは、りょうり、きせつ、いろ、そざい、かたち、よはくとのちょうわをかんがえます。"
+        },
+        {
+          "japanese": "代表的(だいひょうてき)な素材(そざい)",
+          "english": "Common materials",
+          "speech": "だいひょうてきなそざい",
+          "heading": true
+        },
+        {
+          "items": [
+            {
+              "japanese": "陶器(とうき)",
+              "english": "Earthenware",
+              "speech": "とうき"
+            },
+            {
+              "japanese": "磁器(じき)",
+              "english": "Porcelain",
+              "speech": "じき"
+            },
+            {
+              "japanese": "漆器(しっき)",
+              "english": "Lacquerware",
+              "speech": "しっき"
+            },
+            {
+              "japanese": "木製(もくせい)",
+              "english": "Wood",
+              "speech": "もくせい"
+            },
+            {
+              "japanese": "竹(たけ)",
+              "english": "Bamboo",
+              "speech": "たけ"
+            },
+            {
+              "japanese": "ガラス",
+              "english": "Glass",
+              "speech": "がらす"
+            }
+          ]
+        },
+        {
+          "japanese": "器(うつわ)の表情(ひょうじょう)",
+          "english": "The character of tableware",
+          "speech": "うつわのひょうじょう",
+          "heading": true
+        },
+        {
+          "items": [
+            {
+              "japanese": "艶(つや)",
+              "english": "Gloss",
+              "speech": "つや"
+            },
+            {
+              "japanese": "艶消(つやけ)し",
+              "english": "Matte finish",
+              "speech": "つやけし"
+            },
+            {
+              "japanese": "ざらざら",
+              "english": "Rough",
+              "speech": "ざらざら"
+            },
+            {
+              "japanese": "なめらか",
+              "english": "Smooth",
+              "speech": "なめらか"
+            },
+            {
+              "japanese": "重厚感(じゅうこうかん)",
+              "english": "A weighty / substantial impression",
+              "speech": "じゅうこうかん"
+            },
+            {
+              "japanese": "素朴(そぼく)",
+              "english": "Rustic / simple",
+              "speech": "そぼく"
+            }
+          ]
+        },
+        {
+          "japanese": "器(うつわ)には、それぞれ違(ちが)う表情(ひょうじょう)があります。",
+          "english": "Each vessel creates a different impression through its finish, texture and character.",
+          "speech": "うつわには、それぞれちがうひょうじょうがあります。"
+        }
+      ]
+    },
+    {
+      "id": "washoku-card-08",
+      "step": 8,
+      "kanji": "盛(も)り付(つ)け",
+      "english": "Plating",
+      "japanese": "もりつけ",
+      "blocks": [
+        {
+          "japanese": "盛(も)り付(つ)けは、単(たん)に料理(りょうり)をきれいに見(み)せることではありません。",
+          "english": "Plating isn’t merely decoration.",
+          "speech": "もりつけは、たんにりょうりをきれいにみせることではありません。"
+        },
+        {
+          "japanese": "季節(きせつ)・器(うつわ)・色(いろ)・余白(よはく)・高(たか)さ・奥行(おくゆ)き・食(た)べやすさまで考(かんが)えて、一皿(ひとさら)を完成(かんせい)させます。",
+          "english": "It considers season, vessel, colour, negative space, height, depth and ease of eating to complete the dish.",
+          "speech": "きせつ、うつわ、いろ、よはく、たかさ、おくゆき、たべやすさまでかんがえて、ひとさらをかんせいさせます。"
+        },
+        {
+          "japanese": "重要(じゅうよう)な考(かんが)え方(かた)",
+          "english": "Important principles",
+          "speech": "じゅうようなかんがえかた",
+          "heading": true
+        },
+        {
+          "items": [
+            {
+              "japanese": "余白(よはく)を残(のこ)す",
+              "english": "Leave negative space.",
+              "speech": "よはくをのこす"
+            },
+            {
+              "japanese": "高低差(こうていさ)をつける",
+              "english": "Create differences in height.",
+              "speech": "こうていさをつける"
+            },
+            {
+              "japanese": "奇数(きすう)を使(つか)う",
+              "english": "Odd numbers such as 1, 3 and 5 often create a more dynamic composition.",
+              "speech": "きすうをつかう"
+            },
+            {
+              "japanese": "流(なが)れを作(つく)る",
+              "english": "Guide the eye through the plate.",
+              "speech": "ながれをつくる"
+            },
+            {
+              "japanese": "器(うつわ)と料理(りょうり)を調和(ちょうわ)させる",
+              "english": "Create harmony between food and vessel.",
+              "speech": "うつわとりょうりをちょうわさせる"
+            },
+            {
+              "japanese": "自然(しぜん)らしく見(み)せる",
+              "english": "Aim for naturalness rather than rigid perfection.",
+              "speech": "しぜんらしくみせる"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "washoku-card-09",
+      "step": 9,
+      "kanji": "日本料理(にほんりょうり)の美意識(びいしき)",
+      "english": "Japanese Culinary Aesthetics",
+      "japanese": "にほんりょうりのびいしき",
+      "blocks": [
+        {
+          "japanese": "間(ま)",
+          "english": "Ma — space, pause and timing",
+          "speech": "ま",
+          "heading": true
+        },
+        {
+          "japanese": "余白(よはく)だけではなく、空間(くうかん)やタイミングを生(い)かす考(かんが)え方(かた)。",
+          "english": "Using space, pause and timing deliberately.",
+          "speech": "よはくだけではなく、くうかんやたいみんぐをいかすかんがえかた。"
+        },
+        {
+          "japanese": "わび・さび",
+          "english": "Wabi-sabi",
+          "speech": "わび、さび",
+          "heading": true
+        },
+        {
+          "japanese": "完璧(かんぺき)すぎない、静(しず)かで素朴(そぼく)な美(うつく)しさ。",
+          "english": "Quiet, restrained beauty that accepts simplicity and imperfection.",
+          "speech": "かんぺきすぎない、しずかでそぼくなうつくしさ。"
+        },
+        {
+          "japanese": "見立(みた)て",
+          "english": "Mitate — evoking another object or scene",
+          "speech": "みたて",
+          "heading": true
+        },
+        {
+          "japanese": "料理(りょうり)や器(うつわ)を使(つか)って、別(べつ)の物(もの)や自然(しぜん)の景色(けしき)を連想(れんそう)させること。",
+          "english": "Using food or tableware to evoke another object, scene or landscape.",
+          "speech": "りょうりやうつわをつかって、べつのものやしぜんのけしきをれんそうさせること。"
+        },
+        {
+          "japanese": "借景(しゃっけい)",
+          "english": "Shakkei — borrowed scenery",
+          "speech": "しゃっけい",
+          "heading": true
+        },
+        {
+          "japanese": "周囲(しゅうい)の景色(けしき)を料理(りょうり)や空間(くうかん)の一部(いちぶ)として取(と)り入(い)れる考(かんが)え方(かた)。",
+          "english": "“Borrowing” the surrounding scenery as part of the composition.",
+          "speech": "しゅういのけしきをりょうりやくうかんのいちぶとしてとりいれるかんがえかた。"
+        }
+      ]
+    },
+    {
+      "id": "washoku-card-10",
+      "step": 10,
+      "kanji": "懐石(かいせき)",
+      "english": "Kaiseki",
+      "japanese": "かいせき",
+      "blocks": [
+        {
+          "japanese": "懐石(かいせき)では、一皿(ひとさら)だけではなく、コース全体(ぜんたい)の流(なが)れを考(かんが)えます。",
+          "english": "Kaiseki considers not only individual dishes, but the progression of the entire meal.",
+          "speech": "かいせきでは、ひとさらだけではなく、こーすぜんたいのながれをかんがえます。"
+        },
+        {
+          "japanese": "よく見(み)られる料理(りょうり)",
+          "english": "Common courses",
+          "speech": "よくみられるりょうり",
+          "heading": true
+        },
+        {
+          "items": [
+            {
+              "japanese": "先付(さきづけ)",
+              "english": "Appetizer",
+              "speech": "さきづけ"
+            },
+            {
+              "japanese": "椀物(わんもの)",
+              "english": "Soup",
+              "speech": "わんもの"
+            },
+            {
+              "japanese": "お造(つく)り",
+              "english": "Sashimi",
+              "speech": "おつくり"
+            },
+            {
+              "japanese": "焼(や)き物(もの)",
+              "english": "Grilled dish",
+              "speech": "やきもの"
+            },
+            {
+              "japanese": "煮物(にもの)",
+              "english": "Simmered dish",
+              "speech": "にもの"
+            },
+            {
+              "japanese": "食事(しょくじ)",
+              "english": "Rice course",
+              "speech": "しょくじ"
+            },
+            {
+              "japanese": "甘味(かんみ)",
+              "english": "Dessert",
+              "speech": "かんみ"
+            }
+          ]
+        },
+        {
+          "japanese": "素材(そざい)・季節(きせつ)・器(うつわ)・盛(も)り付(つ)け・空間(くうかん)・おもてなしを一(ひと)つの体験(たいけん)として調和(ちょうわ)させます。",
+          "english": "Ingredients, season, tableware, presentation, setting and hospitality are brought together as one experience.",
+          "speech": "そざい、きせつ、うつわ、もりつけ、くうかん、おもてなしをひとつのたいけんとしてちょうわさせます。"
+        }
+      ]
+    },
+    {
+      "id": "washoku-card-11",
+      "step": 11,
+      "kanji": "和食(わしょく)を考(かんが)える時(とき)の流(なが)れ",
+      "english": "A Useful Mental Model",
+      "japanese": "わしょくをかんがえるときのながれ",
+      "blocks": [
+        {
+          "items": [
+            {
+              "japanese": "今(いま)、何(なに)が旬(しゅん)か。",
+              "english": "What is in season now?",
+              "speech": "いま、なにがしゅんか。"
+            },
+            {
+              "japanese": "この素材(そざい)の持(も)ち味(あじ)は何(なに)か。",
+              "english": "What is the natural character of this ingredient?",
+              "speech": "このそざいのもちあじはなにか。"
+            },
+            {
+              "japanese": "何(なに)を生(い)かして、何(なに)を引(ひ)き出(だ)したいか。",
+              "english": "What should be preserved, and what should be brought out?",
+              "speech": "なにをいかして、なにをひきだしたいか。"
+            },
+            {
+              "japanese": "どんな味(あじ)・香(かお)り・食感(しょっかん)にしたいか。",
+              "english": "What flavour, aroma and texture are we aiming for?",
+              "speech": "どんなあじ、かおり、しょっかんにしたいか。"
+            },
+            {
+              "japanese": "どの調理法(ちょうりほう)が一番(いちばん)合(あ)うか。",
+              "english": "Which cooking method best achieves that?",
+              "speech": "どのちょうりほうがいちばんあうか。"
+            },
+            {
+              "japanese": "他(ほか)の料理(りょうり)とどう組(く)み合(あ)わせるか。",
+              "english": "How should it work with the other dishes?",
+              "speech": "ほかのりょうりとどうくみあわせるか。"
+            },
+            {
+              "japanese": "どの器(うつわ)に、どう盛(も)り付(つ)けるか。",
+              "english": "Which vessel and presentation suit it?",
+              "speech": "どのうつわに、どうもりつけるか。"
+            },
+            {
+              "japanese": "季節(きせつ)をどう表現(ひょうげん)するか。",
+              "english": "How does it express the season?",
+              "speech": "きせつをどうひょうげんするか。"
+            },
+            {
+              "japanese": "足(た)しすぎていないか。",
+              "english": "Have we added too much?",
+              "speech": "たしすぎていないか。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

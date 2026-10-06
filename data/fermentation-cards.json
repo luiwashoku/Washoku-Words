@@ -1,0 +1,496 @@
+{
+  "title": "発酵カード",
+  "entries": [
+    {
+      "id": "fermentation-card-01",
+      "step": 1,
+      "kanji": "発酵(はっこう)",
+      "english": "Fermentation",
+      "japanese": "はっこう",
+      "blocks": [
+        {
+          "japanese": "発酵(はっこう)は、微生物(びせいぶつ)の働(はたら)きによって食材(しょくざい)の成分(せいぶん)が変化(へんか)し、味(あじ)、香(かお)り、食感(しょっかん)、保存性(ほぞんせい)などが変(か)わる現象(げんしょう)です。",
+          "english": "Fermentation is a process in which microorganisms transform components in food, changing its flavour, aroma, texture and keeping quality.",
+          "speech": "はっこうは、びせいぶつのはたらきによってしょくざいのせいぶんがへんかし、あじ、かおり、しょっかん、ほぞんせいなどがかわるげんしょうです。"
+        },
+        {
+          "japanese": "日本(にほん)の発酵食品(はっこうしょくひん)では、麹菌(こうじきん)、酵母(こうぼ)、乳酸菌(にゅうさんきん)など、さまざまな微生物(びせいぶつ)が利用(りよう)されています。",
+          "english": "In Japanese fermented foods, microorganisms such as koji mold, yeast and lactic acid bacteria play important roles.",
+          "speech": "にほんのはっこうしょくひんでは、こうじきん、こうぼ、にゅうさんきんなど、さまざまなびせいぶつがりようされています。"
+        },
+        {
+          "japanese": "発酵(はっこう)に関(かか)わる微生物(びせいぶつ)",
+          "english": "Microorganisms involved in fermentation",
+          "speech": "はっこうにかかわるびせいぶつ",
+          "heading": true
+        },
+        {
+          "items": [
+            {
+              "japanese": "微生物(びせいぶつ)",
+              "english": "Microorganism",
+              "speech": "びせいぶつ"
+            },
+            {
+              "japanese": "麹菌(こうじきん)",
+              "english": "Koji mold",
+              "speech": "こうじきん"
+            },
+            {
+              "japanese": "酵母(こうぼ)",
+              "english": "Yeast",
+              "speech": "こうぼ"
+            },
+            {
+              "japanese": "乳酸菌(にゅうさんきん)",
+              "english": "Lactic acid bacteria",
+              "speech": "にゅうさんきん"
+            },
+            {
+              "japanese": "酢酸菌(さくさんきん)",
+              "english": "Acetic acid bacteria",
+              "speech": "さくさんきん"
+            },
+            {
+              "japanese": "菌(きん)",
+              "english": "Microbe / microorganism",
+              "speech": "きん"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fermentation-card-02",
+      "step": 2,
+      "kanji": "発酵中(はっこうちゅう)に起(お)こること",
+      "english": "What Happens During Fermentation",
+      "japanese": "はっこうちゅうにおこること",
+      "blocks": [
+        {
+          "items": [
+            {
+              "japanese": "でんぷんを糖(とう)に変(か)える",
+              "english": "Convert starch into sugars",
+              "speech": "でんぷんをとうにかえる"
+            },
+            {
+              "japanese": "たんぱく質(しつ)をアミノ酸(さん)に分解(ぶんかい)する",
+              "english": "Break proteins down into amino acids",
+              "speech": "たんぱくしつをあみのさんにぶんかいする"
+            },
+            {
+              "japanese": "脂肪(しぼう)を分解(ぶんかい)する",
+              "english": "Break down fats",
+              "speech": "しぼうをぶんかいする"
+            },
+            {
+              "japanese": "糖(とう)を分解(ぶんかい)する",
+              "english": "Break down sugars",
+              "speech": "とうをぶんかいする"
+            },
+            {
+              "japanese": "酸(さん)を作(つく)る",
+              "english": "Produce acids",
+              "speech": "さんをつくる"
+            },
+            {
+              "japanese": "アルコールを作(つく)る",
+              "english": "Produce alcohol",
+              "speech": "あるこーるをつくる"
+            },
+            {
+              "japanese": "旨味(うまみ)を引(ひ)き出(だ)す",
+              "english": "Bring out umami",
+              "speech": "うまみをひきだす"
+            },
+            {
+              "japanese": "甘味(あまみ)を引(ひ)き出(だ)す",
+              "english": "Bring out sweetness",
+              "speech": "あまみをひきだす"
+            },
+            {
+              "japanese": "香(かお)りを生(う)み出(だ)す",
+              "english": "Produce aroma",
+              "speech": "かおりをうみだす"
+            },
+            {
+              "japanese": "食感(しょっかん)を変(か)える",
+              "english": "Change the texture",
+              "speech": "しょっかんをかえる"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fermentation-card-03",
+      "step": 3,
+      "kanji": "発酵(はっこう)の変化(へんか)を観察(かんさつ)する",
+      "english": "Observing Changes During Fermentation",
+      "japanese": "はっこうのへんかをかんさつする",
+      "blocks": [
+        {
+          "items": [
+            {
+              "japanese": "香(かお)りが変(か)わる",
+              "english": "The aroma changes",
+              "speech": "かおりがかわる"
+            },
+            {
+              "japanese": "甘味(あまみ)が増(ま)す",
+              "english": "Sweetness increases",
+              "speech": "あまみがます"
+            },
+            {
+              "japanese": "旨味(うまみ)が増(ま)す",
+              "english": "Umami increases",
+              "speech": "うまみがます"
+            },
+            {
+              "japanese": "酸味(さんみ)が出(で)る",
+              "english": "Acidity develops",
+              "speech": "さんみがでる"
+            },
+            {
+              "japanese": "コクが出(で)る",
+              "english": "Richness develops",
+              "speech": "こくがでる"
+            },
+            {
+              "japanese": "まろやかになる",
+              "english": "Become more rounded",
+              "speech": "まろやかになる"
+            },
+            {
+              "japanese": "柔(やわ)らかくなる",
+              "english": "Become softer",
+              "speech": "やわらかくなる"
+            },
+            {
+              "japanese": "色(いろ)が濃(こ)くなる",
+              "english": "Become darker",
+              "speech": "いろがこくなる"
+            },
+            {
+              "japanese": "水分(すいぶん)が出(で)る",
+              "english": "Release moisture",
+              "speech": "すいぶんがでる"
+            },
+            {
+              "japanese": "香(かお)りが強(つよ)くなる",
+              "english": "Aroma becomes stronger",
+              "speech": "かおりがつよくなる"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fermentation-card-04",
+      "step": 4,
+      "kanji": "発酵(はっこう)を管理(かんり)する",
+      "english": "Managing Fermentation",
+      "japanese": "はっこうをかんりする",
+      "blocks": [
+        {
+          "items": [
+            {
+              "japanese": "温度(おんど)",
+              "english": "Temperature",
+              "speech": "おんど"
+            },
+            {
+              "japanese": "湿度(しつど)",
+              "english": "Humidity",
+              "speech": "しつど"
+            },
+            {
+              "japanese": "時間(じかん)",
+              "english": "Time",
+              "speech": "じかん"
+            },
+            {
+              "japanese": "塩分(えんぶん)",
+              "english": "Salt concentration",
+              "speech": "えんぶん"
+            },
+            {
+              "japanese": "水分(すいぶん)",
+              "english": "Moisture",
+              "speech": "すいぶん"
+            },
+            {
+              "japanese": "発酵時間(はっこうじかん)",
+              "english": "Fermentation time",
+              "speech": "はっこうじかん"
+            },
+            {
+              "japanese": "温度管理(おんどかんり)",
+              "english": "Temperature control",
+              "speech": "おんどかんり"
+            },
+            {
+              "japanese": "熟成(じゅくせい)",
+              "english": "Maturation / ageing",
+              "speech": "じゅくせい"
+            },
+            {
+              "japanese": "寝(ね)かせる",
+              "english": "Let mature / rest",
+              "speech": "ねかせる"
+            },
+            {
+              "japanese": "混(ま)ぜる",
+              "english": "Mix",
+              "speech": "まぜる"
+            },
+            {
+              "japanese": "仕込(しこ)む",
+              "english": "Prepare / start a batch",
+              "speech": "しこむ"
+            },
+            {
+              "japanese": "仕込(しこ)み",
+              "english": "Preparation / fermentation batch",
+              "speech": "しこみ"
+            },
+            {
+              "japanese": "発酵(はっこう)させる",
+              "english": "Ferment",
+              "speech": "はっこうさせる"
+            },
+            {
+              "japanese": "発酵(はっこう)を止(と)める",
+              "english": "Stop fermentation",
+              "speech": "はっこうをとめる"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fermentation-card-05",
+      "step": 5,
+      "kanji": "発酵(はっこう)と腐敗(ふはい)",
+      "english": "Fermentation and Spoilage",
+      "japanese": "はっこうとふはい",
+      "blocks": [
+        {
+          "items": [
+            {
+              "japanese": "発酵(はっこう)",
+              "english": "Fermentation",
+              "speech": "はっこう"
+            },
+            {
+              "japanese": "腐敗(ふはい)",
+              "english": "Spoilage / putrefaction",
+              "speech": "ふはい"
+            },
+            {
+              "japanese": "カビ",
+              "english": "Mold",
+              "speech": "かび"
+            },
+            {
+              "japanese": "雑菌(ざっきん)",
+              "english": "Unwanted microorganisms / contaminating microbes",
+              "speech": "ざっきん"
+            },
+            {
+              "japanese": "傷(いた)む",
+              "english": "Go bad",
+              "speech": "いたむ"
+            },
+            {
+              "japanese": "腐(くさ)る",
+              "english": "Rot / spoil",
+              "speech": "くさる"
+            },
+            {
+              "japanese": "異臭(いしゅう)",
+              "english": "Abnormal / unpleasant smell",
+              "speech": "いしゅう"
+            }
+          ]
+        },
+        {
+          "japanese": "発酵(はっこう)と腐敗(ふはい)は、どちらも微生物(びせいぶつ)による変化(へんか)です。",
+          "english": "Both fermentation and spoilage involve changes caused by microorganisms.",
+          "speech": "はっこうとふはいは、どちらもびせいぶつによるへんかです。"
+        },
+        {
+          "japanese": "人(ひと)にとって有益(ゆうえき)な変化(へんか)を発酵(はっこう)、有害(ゆうがい)な変化(へんか)を腐敗(ふはい)と呼(よ)びます。",
+          "english": "Changes that are useful to us are generally called fermentation, while harmful changes are called spoilage.",
+          "speech": "ひとにとってゆうえきなへんかをはっこう、ゆうがいなへんかをふはいとよびます。"
+        }
+      ]
+    },
+    {
+      "id": "fermentation-card-06",
+      "step": 6,
+      "kanji": "発酵(はっこう)で料理(りょうり)がどう変(か)わるか",
+      "english": "How Fermentation Changes Food",
+      "japanese": "はっこうでりょうりがどうかわるか",
+      "blocks": [
+        {
+          "items": [
+            {
+              "japanese": "旨味(うまみ)が増(ま)す",
+              "english": "Increase umami",
+              "speech": "うまみがます"
+            },
+            {
+              "japanese": "自然(しぜん)な甘味(あまみ)が出(で)る",
+              "english": "Develop natural sweetness",
+              "speech": "しぜんなあまみがでる"
+            },
+            {
+              "japanese": "香(かお)りが豊(ゆた)かになる",
+              "english": "Develop a richer aroma",
+              "speech": "かおりがゆたかになる"
+            },
+            {
+              "japanese": "味(あじ)に深(ふか)みが出(で)る",
+              "english": "Develop depth of flavour",
+              "speech": "あじにふかみがでる"
+            },
+            {
+              "japanese": "味(あじ)がまろやかになる",
+              "english": "Become more rounded",
+              "speech": "あじがまろやかになる"
+            },
+            {
+              "japanese": "食材(しょくざい)が柔(やわ)らかくなる",
+              "english": "Ingredients become tender",
+              "speech": "しょくざいがやわらかくなる"
+            },
+            {
+              "japanese": "保存性(ほぞんせい)が高(たか)まる",
+              "english": "Improve keeping quality",
+              "speech": "ほぞんせいがたかまる"
+            },
+            {
+              "japanese": "風味(ふうみ)が複雑(ふくざつ)になる",
+              "english": "Flavour becomes more complex",
+              "speech": "ふうみがふくざつになる"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fermentation-card-07",
+      "step": 7,
+      "kanji": "料理人(りょうりにん)が考(かんが)えるポイント",
+      "english": "Points for the Cook to Consider",
+      "japanese": "りょうりにんがかんがえるぽいんと",
+      "blocks": [
+        {
+          "japanese": "発酵(はっこう)は長(なが)ければ長(なが)いほど良(よ)いわけではありません。",
+          "english": "Longer fermentation is not necessarily better.",
+          "speech": "はっこうはながければながいほどよいわけではありません。"
+        },
+        {
+          "japanese": "温度(おんど)によって発酵(はっこう)の進(すす)み方(かた)が変(か)わります。",
+          "english": "Temperature changes the rate of fermentation.",
+          "speech": "おんどによってはっこうのすすみかたがかわります。"
+        },
+        {
+          "japanese": "同(おな)じ材料(ざいりょう)でも、発酵(はっこう)の条件(じょうけん)によって味(あじ)や香(かお)りが変(か)わります。",
+          "english": "Even with the same ingredients, flavour and aroma change depending on the fermentation conditions.",
+          "speech": "おなじざいりょうでも、はっこうのじょうけんによってあじやかおりがかわります。"
+        },
+        {
+          "japanese": "発酵(はっこう)させすぎると、酸味(さんみ)や香(かお)りが強(つよ)くなりすぎることがあります。",
+          "english": "Over-fermentation can make acidity or aroma too strong.",
+          "speech": "はっこうさせすぎると、さんみやかおりがつよくなりすぎることがあります。"
+        },
+        {
+          "japanese": "発酵(はっこう)の状態(じょうたい)を見(み)ながら調整(ちょうせい)することが大切(たいせつ)です。",
+          "english": "It is important to adjust the process while observing the state of fermentation.",
+          "speech": "はっこうのじょうたいをみながらちょうせいすることがたいせつです。"
+        }
+      ]
+    },
+    {
+      "id": "fermentation-card-08",
+      "step": 8,
+      "kanji": "先生(せんせい)に聞(き)くフレーズ①",
+      "english": "Questions for the Teacher — Part 1",
+      "japanese": "せんせいにきくふれーず、いち。",
+      "blocks": [
+        {
+          "japanese": "発酵(はっこう)が進(すす)んでいるかどうかは、どうやって見分(みわ)けますか。",
+          "english": "How can you tell whether the fermentation is progressing properly?",
+          "speech": "はっこうがすすんでいるかどうかは、どうやってみわけますか。"
+        },
+        {
+          "japanese": "香(かお)りで発酵(はっこう)の状態(じょうたい)が分(わ)かりますか。",
+          "english": "Can you tell the state of fermentation from the aroma?",
+          "speech": "かおりではっこうのじょうたいがわかりますか。"
+        },
+        {
+          "japanese": "温度(おんど)が高(たか)すぎると、どうなりますか。",
+          "english": "What happens if the temperature is too high?",
+          "speech": "おんどがたかすぎると、どうなりますか。"
+        },
+        {
+          "japanese": "季節(きせつ)によって発酵時間(はっこうじかん)は変(か)わりますか。",
+          "english": "Does the fermentation time change depending on the season?",
+          "speech": "きせつによってはっこうじかんはかわりますか。"
+        },
+        {
+          "japanese": "発酵(はっこう)しすぎた時(とき)は、どんな味(あじ)になりますか。",
+          "english": "What does it taste like when it has fermented too far?",
+          "speech": "はっこうしすぎたときは、どんなあじになりますか。"
+        },
+        {
+          "japanese": "これはまだ発酵(はっこう)が足(た)りないですか。",
+          "english": "Has this not fermented enough yet?",
+          "speech": "これはまだはっこうがたりないですか。"
+        }
+      ]
+    },
+    {
+      "id": "fermentation-card-09",
+      "step": 9,
+      "kanji": "先生(せんせい)に聞(き)くフレーズ②",
+      "english": "Questions for the Teacher — Part 2",
+      "japanese": "せんせいにきくふれーず、に。",
+      "blocks": [
+        {
+          "japanese": "この香(かお)りは正常(せいじょう)ですか。",
+          "english": "Is this aroma normal?",
+          "speech": "このかおりはせいじょうですか。"
+        },
+        {
+          "japanese": "どのタイミングが一番(いちばん)おいしいですか。",
+          "english": "At what stage does it taste best?",
+          "speech": "どのたいみんぐがいちばんおいしいですか。"
+        },
+        {
+          "japanese": "野菜(やさい)によって発酵(はっこう)の進(すす)み方(かた)は変(か)わりますか。",
+          "english": "Does fermentation progress differently depending on the vegetable?",
+          "speech": "やさいによってはっこうのすすみかたはかわりますか。"
+        },
+        {
+          "japanese": "スイスの野菜(やさい)でも同(おな)じようにできますか。",
+          "english": "Could I do this in the same way with Swiss vegetables?",
+          "speech": "すいすのやさいでもおなじようにできますか。"
+        },
+        {
+          "japanese": "ハーブを入(い)れると発酵(はっこう)に影響(えいきょう)しますか。",
+          "english": "Does adding herbs affect the fermentation?",
+          "speech": "はーぶをいれるとはっこうにえいきょうしますか。"
+        },
+        {
+          "japanese": "塩分(えんぶん)を変(か)えると、味(あじ)だけじゃなくて発酵(はっこう)の進(すす)み方(かた)も変(か)わりますか。",
+          "english": "If you change the salt concentration, does it change not only the taste but also how the fermentation progresses?",
+          "speech": "えんぶんをかえると、あじだけじゃなくてはっこうのすすみかたもかわりますか。"
+        }
+      ]
+    }
+  ]
+}

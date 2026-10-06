@@ -746,5 +746,45 @@
     "speed": 1.0,
     "recordings": 85,
     "speechKeys": 85
+  },
+  {
+    "batch": 93,
+    "lesson": "hiire-cards",
+    "title": "火入れカード",
+    "status": "generated",
+    "voice": "marin",
+    "speed": 1.0,
+    "recordings": 98,
+    "speechKeys": 98
+  },
+  {
+    "batch": 94,
+    "lesson": "washoku-cards",
+    "title": "和食カード",
+    "status": "generated",
+    "voice": "marin",
+    "speed": 1.0,
+    "recordings": 137,
+    "speechKeys": 137
+  },
+  {
+    "batch": 95,
+    "lesson": "fermentation-cards",
+    "title": "発酵カード",
+    "status": "generated",
+    "voice": "marin",
+    "speed": 1.0,
+    "recordings": 84,
+    "speechKeys": 84
+  },
+  {
+    "batch": 96,
+    "lesson": "food-reference-cards",
+    "title": "味・香り・食感カード",
+    "status": "generated",
+    "voice": "marin",
+    "speed": 1.0,
+    "recordings": 275,
+    "speechKeys": 275
   }
 ]

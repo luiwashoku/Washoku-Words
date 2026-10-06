@@ -33,7 +33,7 @@
     furigana.addEventListener("click", () => {
       furiganaVisible = !furiganaVisible;
       container.classList.toggle("furigana-hidden", !furiganaVisible);
-      if (lesson.sentenceCards) allDialog?.classList.toggle("furigana-hidden", !furiganaVisible);
+      if (lesson.sentenceCards || lesson.readingCards) allDialog?.classList.toggle("furigana-hidden", !furiganaVisible);
       furigana.classList.toggle("furigana-off", !furiganaVisible);
       furigana.setAttribute("aria-pressed", String(!furiganaVisible));
       furigana.setAttribute("aria-label", furiganaVisible ? "Hide furigana" : "Show furigana");
@@ -68,13 +68,13 @@
         entries.forEach((word, target) => {
           const button = document.createElement("button");
           button.type = "button";
-          if (lesson.sentenceCards) setJapaneseText(button, word.kanji || word.japanese);
+          if (lesson.sentenceCards || lesson.readingCards) setJapaneseText(button, `${word.step ? word.step + ". " : ""}${word.kanji || word.japanese}`);
           else button.textContent = `${word.step ? word.step + ". " : ""}${word.kanji} — ${word.english}`;
           button.addEventListener("click", () => { move(target - index); dialog.close(); }, { signal });
           list.appendChild(button);
         });
         dialog.replaceChildren(header, list);
-        if (lesson.sentenceCards) dialog.classList.toggle("furigana-hidden", !furiganaVisible);
+        if (lesson.sentenceCards || lesson.readingCards) dialog.classList.toggle("furigana-hidden", !furiganaVisible);
         dialog.showModal();
       }, { signal });
       toolbar.append(all, dialog);
@@ -94,6 +94,7 @@
     if (lesson.compactCards) card.classList.add("vocabulary-study-card--compact");
     if (lesson.grammarCards) card.classList.add("vocabulary-study-card--grammar");
     if (lesson.sentenceCards) card.classList.add("vocabulary-study-card--sentence");
+    if (lesson.readingCards) card.classList.add("vocabulary-study-card--reading");
     card.setAttribute("aria-labelledby", "studyCardWord");
     navigation.replaceChildren();
     const previous = document.createElement("button");
@@ -124,6 +125,92 @@
 
     function render() {
       const word = entries[index];
+      if (lesson.readingCards) {
+        const header = document.createElement("header");
+        header.className = "reading-card-header";
+        const titles = document.createElement("div");
+        const title = document.createElement("h3");
+        title.id = "studyCardWord";
+        title.lang = "ja";
+        setJapaneseText(title, `${word.step}. ${word.kanji}`);
+        const english = document.createElement("p");
+        english.lang = "en";
+        english.className = "vocabulary-card-translation";
+        english.textContent = word.english;
+        titles.append(title, english);
+        const speaker = createExampleSpeechButton(word.japanese, "Read card title", playWord);
+        header.append(titles);
+        if (speaker) header.append(speaker);
+        const body = document.createElement("div");
+        body.className = "reading-card-body";
+        body.setAttribute("aria-label", "Card content");
+        function bilingual(parent, block) {
+          const japanese = document.createElement("p");
+          japanese.lang = "ja";
+          setJapaneseText(japanese, block.japanese);
+          const translation = document.createElement("p");
+          translation.lang = "en";
+          translation.className = "vocabulary-card-translation";
+          translation.textContent = block.english;
+          const row = document.createElement("div");
+          row.className = "reading-card-chunk";
+          const speaker = createExampleSpeechButton(block.speech || block.japanese, "Read Japanese passage");
+          speaker.addEventListener("click", () => wordPlayer.stop(), { capture: true, signal });
+          row.append(japanese, speaker);
+          parent.append(row, translation);
+        }
+        word.blocks.forEach(block => {
+          if (block.pairs) {
+            const section = document.createElement("section");
+            section.className = "food-reference-group";
+            const heading = document.createElement("h4");
+            setJapaneseText(heading, block.japanese);
+            const english = document.createElement("p");
+            english.className = "vocabulary-card-translation";
+            english.textContent = block.english;
+            const table = document.createElement("table");
+            table.className = "food-reference-table";
+            table.setAttribute("aria-label", block.english);
+            const head = table.createTHead().insertRow();
+            ["ことば / Vocabulary", "食べ物 / Food reference"].forEach(label => {
+              const th = document.createElement("th");
+              th.scope = "col";
+              th.textContent = label;
+              head.append(th);
+            });
+            const rows = table.createTBody();
+            block.pairs.forEach(pair => {
+              const row = rows.insertRow();
+              [pair.vocabulary, pair.food].forEach(part => bilingual(row.insertCell(), part));
+            });
+            const titleRow = document.createElement("div");
+            titleRow.className = "food-reference-subtitle";
+            const speaker = createExampleSpeechButton(block.speech || block.japanese, "Read category subtitle");
+            speaker.addEventListener("click", () => wordPlayer.stop(), { capture: true, signal });
+            titleRow.append(heading, speaker);
+            section.append(titleRow, english, table);
+            body.append(section);
+          } else if (block.items) {
+            const list = document.createElement("ol");
+            block.items.forEach(item => {
+              const li = document.createElement("li");
+              bilingual(li, item);
+              list.append(li);
+            });
+            body.append(list);
+          } else {
+            const section = document.createElement("section");
+            if (block.heading) section.className = "reading-card-subheading";
+            bilingual(section, block);
+            body.append(section);
+          }
+        });
+        card.replaceChildren(header, body);
+        counter.textContent = `${index + 1} / ${entries.length}`;
+        previous.disabled = index === 0;
+        next.disabled = index === entries.length - 1;
+        return;
+      }
       const wordRow = document.createElement("div");
       wordRow.className = "vocabulary-card-word-row";
       const wordText = document.createElement("div");

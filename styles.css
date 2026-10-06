@@ -2134,3 +2134,50 @@ html.vocabulary-cards-open,
 #closeIntroduction::before, #closeIntroduction::after,
 #closeGrammarIndex::before, #closeGrammarIndex::after { display: none; }
 .popup-body { padding: 18px 20px; }
+
+/* Teaching cards grow with their content and scroll with the page. */
+.vocabulary-study-card--reading { padding: 14px 16px; max-width: 780px; margin: 0 auto; }
+.reading-card-header { display: flex; align-items: flex-start; gap: 14px; padding-bottom: 14px; }
+.reading-card-header > div { flex: 1; min-width: 0; }
+.reading-card-header h3 { margin: 0; font-size: clamp(22px, 5vw, 28px); line-height: 1.65; }
+.reading-card-header .explosion-example-speech { flex: 0 0 44px; width: 44px; height: 44px; margin-top: 4px; }
+.reading-card-body { overflow: visible; }
+.reading-card-body section + section, .reading-card-body ol + section { margin-top: 20px; }
+.reading-card-body p { margin: 0; }
+.reading-card-body [lang="ja"] { font-size: 19px; font-weight: 600; line-height: 1.95; }
+.reading-card-body .vocabulary-card-translation, .reading-card-header .vocabulary-card-translation { font-size: 16px; font-weight: 500; line-height: 1.6; margin-top: 8px; }
+.reading-card-body ol { margin: 18px 0; padding-left: 28px; }
+.reading-card-body li { padding-left: 4px; margin: 12px 0; }
+.reading-card-body li::marker { font-weight: 600; }
+
+.reading-card-chunk { display: flex; align-items: flex-start; gap: 12px; }
+.reading-card-chunk > p { flex: 1; min-width: 0; }
+.reading-card-chunk .explosion-example-speech { flex: 0 0 40px; width: 40px; height: 40px; margin-top: 3px; }
+
+.reading-card-header .explosion-example-speech,
+.reading-card-chunk .explosion-example-speech { padding: 0; margin-top: 0; display: inline-grid; place-items: center; }
+.vocabulary-study-card--reading .explosion-example-speech svg { display: block; }
+.vocabulary-study-card--reading .speakerIcon { transform: translateX(-1.8px); }
+.reading-card-body .reading-card-subheading { margin-top: 26px; }
+.reading-card-subheading [lang="ja"] { font-size: 22px; }
+.reading-card-body .reading-card-subheading + section { margin-top: 10px; }
+
+.food-reference-group { margin-top: 24px; }
+.food-reference-group h4 { margin: 0; font-size: 22px; line-height: 1.6; }
+.food-reference-group > .vocabulary-card-translation { margin-top: 3px; }
+.food-reference-table { width: 100%; table-layout: fixed; border-collapse: collapse; margin-top: 12px; }
+.food-reference-table th { text-align: left; font-size: 12px; font-weight: 500; padding: 8px 6px; border-bottom: 2px solid var(--ink); }
+.food-reference-table td { width: 50%; vertical-align: top; padding: 12px 6px; border-bottom: 1px solid rgb(17 17 17 / 18%); }
+.food-reference-table .reading-card-chunk { gap: 6px; }
+.food-reference-table [lang="ja"] { font-size: 19px; line-height: 1.8; }
+.food-reference-table .vocabulary-card-translation { font-size: 13px; line-height: 1.5; margin-top: 5px; }
+.food-reference-table .explosion-example-speech { width: 32px; height: 32px; flex-basis: 32px; box-shadow: 2px 2px 0 var(--ink); }
+.food-reference-table .explosion-example-speech svg { width: 21px; height: 21px; }
+@media (max-width: 420px) {
+  .food-reference-table .reading-card-chunk { flex-wrap: wrap; }
+  .food-reference-table .reading-card-chunk > p { flex: 1 0 100%; }
+}
+
+.food-reference-subtitle { display: flex; align-items: center; gap: 12px; }
+.food-reference-subtitle h4 { flex: 1; min-width: 0; }
+.food-reference-subtitle .explosion-example-speech { padding: 0; margin: 0; flex: 0 0 40px; width: 40px; height: 40px; }

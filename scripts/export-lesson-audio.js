@@ -22,6 +22,13 @@ function run(args) {
     if (lesson.gameMode === 'vocabulary-cards') {
       data.entries.forEach(function(entry) {
         rows.push({lesson: lessonId, card: entry.id, field: 'vocabulary', key: window.getJapaneseSpeechText(entry.japanese)});
+        (entry.blocks || []).forEach(function(block) {
+          if (block.pairs && block.speech) rows.push({lesson: lessonId, card: entry.id, field: 'subtitle', key: window.getJapaneseSpeechText(block.speech)});
+          var parts = block.pairs ? block.pairs.reduce(function(all, pair) { return all.concat([pair.vocabulary, pair.food]); }, []) : (block.items || [block]);
+          parts.forEach(function(part) {
+            rows.push({lesson: lessonId, card: entry.id, field: 'chunk', key: window.getJapaneseSpeechText(part.speech || part.japanese)});
+          });
+        });
         if (entry.example) rows.push({lesson: lessonId, card: entry.id, field: 'example', key: window.getJapaneseSpeechText(entry.example.japanese)});
         (entry.examples || []).forEach(function(example) {
           rows.push({lesson: lessonId, card: entry.id, field: example.label, key: window.getJapaneseSpeechText(example.japanese)});

@@ -1,0 +1,574 @@
+{
+  "title": "火入れカード",
+  "entries": [
+    {
+      "id": "hiire-card-01",
+      "step": 1,
+      "kanji": "火入(ひい)れとは何(なに)か",
+      "english": "What is 火入れ?",
+      "japanese": "ひいれとはなにか。",
+      "blocks": [
+        {
+          "japanese": "火入(ひい)れは、ただ食材(しょくざい)に火(ひ)を通(とお)すことではありません。",
+          "english": "Hiire isn’t simply “cooking something through.”",
+          "speech": "ひいれは、ただしょくざいにひをとおすことではありません。"
+        },
+        {
+          "japanese": "安全性(あんぜんせい)を確保(かくほ)した上(うえ)で、熱(ねつ)の移動(いどう)と食材(しょくざい)の変化(へんか)を理解(りかい)し、狙(ねら)った状態(じょうたい)に仕上(しあ)げることです。",
+          "english": "It means ensuring food safety while understanding how heat moves and how the ingredient changes, then guiding it toward the result you want.",
+          "speech": "あんぜんせいをかくほしたうえで、ねつのいどうとしょくざいのへんかをりかいし、ねらったじょうたいにしあげることです。"
+        },
+        {
+          "japanese": "火入(ひい)れを考(かんが)える時(とき)は、次(つぎ)の順番(じゅんばん)で考(かんが)えます。",
+          "english": "When thinking about heat and doneness, consider these in order:",
+          "speech": "ひいれをかんがえるときは、つぎのじゅんばんでかんがえます。"
+        },
+        {
+          "items": [
+            {
+              "japanese": "安全性(あんぜんせい)",
+              "english": "Food safety",
+              "speech": "あんぜんせい"
+            },
+            {
+              "japanese": "熱移動(ねついどう)",
+              "english": "Heat transfer",
+              "speech": "ねついどう"
+            },
+            {
+              "japanese": "食材構造(しょくざいこうぞう)",
+              "english": "Structure of the ingredient",
+              "speech": "しょくざいこうぞう"
+            },
+            {
+              "japanese": "質感設計(しつかんせっけい)",
+              "english": "Designing the desired texture",
+              "speech": "しつかんせっけい"
+            },
+            {
+              "japanese": "余熱(よねつ)",
+              "english": "Residual / carryover heat",
+              "speech": "よねつ"
+            },
+            {
+              "japanese": "提供(ていきょう)",
+              "english": "Serving",
+              "speech": "ていきょう"
+            },
+            {
+              "japanese": "言語化(げんごか)",
+              "english": "Being able to describe and reproduce the result",
+              "speech": "げんごか"
+            }
+          ]
+        },
+        {
+          "japanese": "感覚(かんかく)だけでも、数字(すうじ)だけでも不十分(ふじゅうぶん)です。",
+          "english": "Neither intuition alone nor numbers alone are enough.",
+          "speech": "かんかくだけでも、すうじだけでもふじゅうぶんです。"
+        },
+        {
+          "japanese": "経験(けいけん)による感覚(かんかく)と科学的(かがくてき)な理解(りかい)の両方(りょうほう)が必要(ひつよう)です。",
+          "english": "Good heat control combines experience with scientific understanding.",
+          "speech": "けいけんによるかんかくとかがくてきなりかいのりょうほうがひつようです。"
+        }
+      ]
+    },
+    {
+      "id": "hiire-card-02",
+      "step": 2,
+      "kanji": "熱(ねつ)はどう伝(つた)わるか",
+      "english": "How Heat Moves",
+      "japanese": "ねつはどうつたわるか。",
+      "blocks": [
+        {
+          "japanese": "火入(ひい)れは「火(ひ)」そのものより、熱移動(ねついどう)のコントロールとして考(かんが)えると分(わ)かりやすくなります。",
+          "english": "Heat control is easier to understand when you think of it as controlling heat transfer, rather than “fire” itself.",
+          "speech": "ひいれは「ひ」そのものより、ねついどうのこんとろーるとしてかんがえるとわかりやすくなります。"
+        },
+        {
+          "japanese": "伝導(でんどう)",
+          "english": "Conduction",
+          "speech": "でんどう",
+          "heading": true
+        },
+        {
+          "japanese": "フライパンや鉄板(てっぱん)のように、食材(しょくざい)が熱(あつ)い物(もの)に直接(ちょくせつ)触(ふ)れることで熱(ねつ)が伝(つた)わります。",
+          "english": "Heat is transferred through direct contact, such as between food and a hot frying pan or griddle.",
+          "speech": "ふらいぱんやてっぱんのように、しょくざいがあついものにちょくせつふれることでねつがつたわります。"
+        },
+        {
+          "japanese": "対流(たいりゅう)",
+          "english": "Convection",
+          "speech": "たいりゅう",
+          "heading": true
+        },
+        {
+          "japanese": "茹(ゆ)でる、蒸(む)す、オーブンで加熱(かねつ)する時(とき)のように、水(みず)・蒸気(じょうき)・空気(くうき)の流(なが)れによって熱(ねつ)が運(はこ)ばれます。",
+          "english": "Heat is carried by moving water, steam, or air, as in boiling, steaming, or oven cooking.",
+          "speech": "ゆでる、むす、おーぶんでかねつするときのように、みず、じょうき、くうきのながれによってねつがはこばれます。"
+        },
+        {
+          "japanese": "放射(ほうしゃ)",
+          "english": "Radiation",
+          "speech": "ほうしゃ",
+          "heading": true
+        },
+        {
+          "japanese": "炭火(すみび)やサラマンダーのように、食材(しょくざい)が熱源(ねつげん)に直接(ちょくせつ)触(ふ)れていなくても熱(ねつ)が届(とど)きます。",
+          "english": "Heat reaches the food without direct contact, such as from charcoal or a salamander/broiler.",
+          "speech": "すみびやさらまんだーのように、しょくざいがねつげんにちょくせつふれていなくてもねつがとどきます。"
+        }
+      ]
+    },
+    {
+      "id": "hiire-card-03",
+      "step": 3,
+      "kanji": "中心温度(ちゅうしんおんど)と余熱(よねつ)",
+      "english": "Core Temperature and Carryover Cooking",
+      "japanese": "ちゅうしんおんどとよねつ。",
+      "blocks": [
+        {
+          "japanese": "中心温度(ちゅうしんおんど)は、食感(しょっかん)を考(かんが)えるための重要(じゅうよう)な目安(めやす)ですが、温度(おんど)だけで仕上(しあ)がりが決(き)まるわけではありません。",
+          "english": "Core temperature is an important guide when designing texture, but temperature alone doesn't determine the final result.",
+          "speech": "ちゅうしんおんどは、しょっかんをかんがえるためのじゅうようなめやすですが、おんどだけでしあがりがきまるわけではありません。"
+        },
+        {
+          "japanese": "同(おな)じ中心温度(ちゅうしんおんど)でも、食材(しょくざい)の厚(あつ)み・初期温度(しょきおんど)・加熱時間(かねつじかん)・加熱方法(かねつほうほう)・脂質量(ししつりょう)などによって食感(しょっかん)が変(か)わります。",
+          "english": "Even at the same core temperature, texture changes depending on thickness, starting temperature, cooking time, cooking method, fat content, and other factors.",
+          "speech": "おなじちゅうしんおんどでも、しょくざいのあつみ、しょきおんど、かねつじかん、かねつほうほう、ししつりょうなどによってしょっかんがかわります。"
+        },
+        {
+          "japanese": "火(ひ)を止(と)めた後(あと)も、外側(そとがわ)に残(のこ)った熱(ねつ)が中心(ちゅうしん)へ移動(いどう)するため、中心温度(ちゅうしんおんど)はしばらく上(あ)がり続(つづ)けます。",
+          "english": "Even after the food is removed from the heat, heat stored in the exterior continues moving toward the center, so the core temperature may keep rising.",
+          "speech": "ひをとめたあとも、そとがわにのこったねつがちゅうしんへいどうするため、ちゅうしんおんどはしばらくあがりつづけます。"
+        },
+        {
+          "japanese": "これが余熱(よねつ)です。",
+          "english": "This is carryover cooking.",
+          "speech": "これがよねつです。"
+        },
+        {
+          "japanese": "「何度(なんど)になったら火(ひ)を止(と)めるか」だけではなく、「火(ひ)を止(と)めた後(あと)にどう変化(へんか)するか」まで考(かんが)えます。",
+          "english": "So you shouldn't think only about “at what temperature do I stop cooking?” You also need to anticipate what happens afterward.",
+          "speech": "「なんどになったらひをとめるか」だけではなく、「ひをとめたあとにどうへんかするか」までかんがえます。"
+        }
+      ]
+    },
+    {
+      "id": "hiire-card-04",
+      "step": 4,
+      "kanji": "魚(さかな)の火入(ひい)れ",
+      "english": "Cooking Fish",
+      "japanese": "さかなのひいれ。",
+      "blocks": [
+        {
+          "japanese": "魚(さかな)では、中心温度(ちゅうしんおんど)を固定値(こていち)として考(かんが)えるのではなく、魚(さかな)の状態(じょうたい)と狙(ねら)う食感(しょっかん)から逆算(ぎゃくさん)します。",
+          "english": "For fish, don't treat core temperature as one universal fixed value. Work backward from the fish itself and the texture you want.",
+          "speech": "さかなでは、ちゅうしんおんどをこていちとしてかんがえるのではなく、さかなのじょうたいとねらうしょっかんからぎゃくさんします。"
+        },
+        {
+          "japanese": "42〜46℃ — 繊細(せんさい)・しっとり",
+          "english": "42–46°C — Delicate and moist",
+          "speech": "よんじゅうにどからよんじゅうろくど。せんさい、しっとり。",
+          "heading": true
+        },
+        {
+          "japanese": "脂(あぶら)を含(ふく)む魚(さかな)や、繊細(せんさい)な白身魚(しろみざかな)など。",
+          "english": "Fatty fish and delicate white fish.",
+          "speech": "あぶらをふくむさかなや、せんさいなしろみざかななど。"
+        },
+        {
+          "japanese": "この温度帯(おんどたい)では、身(み)の変化(へんか)を抑(おさ)えながら、非常(ひじょう)に柔(やわ)らかくしっとりした質感(しつかん)を狙(ねら)います。",
+          "english": "In this range, the aim is a very tender, moist texture while limiting changes to the flesh.",
+          "speech": "このおんどたいでは、みのへんかをおさえながら、ひじょうにやわらかくしっとりしたしつかんをねらいます。"
+        },
+        {
+          "japanese": "48〜52℃ — 白身(しろみ)の層感(そうかん)",
+          "english": "48–52°C — Flaky / layered texture in white fish",
+          "speech": "よんじゅうはちどからごじゅうにど。しろみのそうかん。",
+          "heading": true
+        },
+        {
+          "japanese": "ヒラメ・スズキ・マダイなど。",
+          "english": "Examples include flounder, sea bass and red sea bream.",
+          "speech": "ひらめ、すずき、まだいなど。"
+        },
+        {
+          "japanese": "身(み)に火(ひ)が入(はい)りながらも、白身魚特有(しろみざかなとくゆう)の層(そう)やみずみずしさを残(のこ)すことを狙(ねら)います。",
+          "english": "The aim is to cook the flesh while retaining the characteristic layers and juiciness of white fish.",
+          "speech": "みにひがはいりながらも、しろみざかなとくゆうのそうやみずみずしさをのこすことをねらいます。"
+        },
+        {
+          "japanese": "55〜58℃ — 弾力(だんりょく)・厚(あつ)み",
+          "english": "55–58°C — More elasticity and substance",
+          "speech": "ごじゅうごどからごじゅうはちど。だんりょく、あつみ。",
+          "heading": true
+        },
+        {
+          "japanese": "クエ・アンコウなど、厚(あつ)みのある白身魚(しろみざかな)。",
+          "english": "Thick, firm white fish such as grouper and monkfish.",
+          "speech": "くえ、あんこうなど、あつみのあるしろみざかな。"
+        },
+        {
+          "japanese": "よりしっかりした弾力(だんりょく)と、厚(あつ)みのある食感(しょっかん)になります。",
+          "english": "This produces a firmer, springier and more substantial texture.",
+          "speech": "よりしっかりしただんりょくと、あつみのあるしょっかんになります。"
+        },
+        {
+          "japanese": "65℃前後(ぜんご) — ほろほろ",
+          "english": "Around 65°C — Tender and easily flaking apart",
+          "speech": "ろくじゅうごどぜんご。ほろほろ。",
+          "heading": true
+        },
+        {
+          "japanese": "タラなど。",
+          "english": "Examples include cod.",
+          "speech": "たらなど。"
+        },
+        {
+          "japanese": "身(み)の層(そう)がほどけて、ほろほろと崩(くず)れるような仕上(しあ)がりを狙(ねら)います。",
+          "english": "The layers of the flesh separate more readily, giving a tender, flaky texture.",
+          "speech": "みのそうがほどけて、ほろほろとくずれるようなしあがりをねらいます。"
+        },
+        {
+          "japanese": "ただし、大事(だいじ)な注意点(ちゅういてん)",
+          "english": "An important caution",
+          "speech": "ただし、だいじなちゅういてん。",
+          "heading": true
+        },
+        {
+          "japanese": "これらの温度帯(おんどたい)は安全基準(あんぜんきじゅん)ではなく、質感設計(しつかんせっけい)の目安(めやす)です。",
+          "english": "These temperature ranges are texture-design guides, NOT food-safety standards.",
+          "speech": "これらのおんどたいはあんぜんきじゅんではなく、しつかんせっけいのめやすです。"
+        },
+        {
+          "japanese": "実際(じっさい)の火入(ひい)れでは、魚種(ぎょしゅ)・部位(ぶい)・脂質量(ししつりょう)・厚(あつ)み・鮮度(せんど)・衛生条件(えいせいじょうけん)・狙(ねら)う食感(しょっかん)を合(あ)わせて考(かんが)える必要(ひつよう)があります。",
+          "english": "In actual cooking, you need to consider species, cut, fat content, thickness, freshness, hygiene conditions, and desired texture together.",
+          "speech": "じっさいのひいれでは、ぎょしゅ、ぶい、ししつりょう、あつみ、せんど、えいせいじょうけん、ねらうしょっかんをあわせてかんがえるひつようがあります。"
+        }
+      ]
+    },
+    {
+      "id": "hiire-card-05",
+      "step": 5,
+      "kanji": "野菜(やさい)の火入(ひい)れ",
+      "english": "Cooking Vegetables",
+      "japanese": "やさいのひいれ。",
+      "blocks": [
+        {
+          "japanese": "野菜(やさい)の場合(ばあい)は、「火(ひ)が通(とお)ったか」ではなく、「どの質感(しつかん)に着地(ちゃくち)させるか」で考(かんが)えます。",
+          "english": "With vegetables, don’t simply ask “Is it cooked?” Ask “What texture do I want it to end up at?”",
+          "speech": "やさいのばあいは、ひがとおったかではなく、どのしつかんにちゃくちさせるかでかんがえます。"
+        },
+        {
+          "japanese": "① 細胞構造(さいぼうこうぞう)を見(み)る",
+          "english": "1. Consider the cellular structure",
+          "speech": "さいぼうこうぞうをみる",
+          "heading": true
+        },
+        {
+          "japanese": "野菜(やさい)の細胞構造(さいぼうこうぞう)を考(かんが)えて、シャキシャキ感(かん)、歯切(はぎ)れ、柔(やわ)らかさを決(き)めます。",
+          "english": "Consider the vegetable’s cellular structure and decide how crisp, clean-biting, or soft you want it to be.",
+          "speech": "やさいのさいぼうこうぞうをかんがえて、しゃきしゃきかん、はぎれ、やわらかさをきめます。"
+        },
+        {
+          "japanese": "② 水分(すいぶん)を設計(せっけい)する",
+          "english": "2. Design the moisture content",
+          "speech": "すいぶんをせっけいする",
+          "heading": true
+        },
+        {
+          "japanese": "水分(すいぶん)を保(たも)つのか、抜(ぬ)くのか、移動(いどう)させるのかを考(かんが)えます。",
+          "english": "Decide whether you want to retain moisture, remove it, or redistribute it.",
+          "speech": "すいぶんをたもつのか、ぬくのか、いどうさせるのかをかんがえます。"
+        },
+        {
+          "japanese": "③ 香(かお)りと甘(あま)みを引(ひ)き出(だ)す",
+          "english": "3. Bring out aroma and sweetness",
+          "speech": "かおりとあまみをひきだす",
+          "heading": true
+        },
+        {
+          "japanese": "低温(ていおん)・高温(こうおん)・加熱時間(かねつじかん)を使(つか)い分(わ)けて、香(かお)りや甘(あま)みを引(ひ)き出(だ)します。",
+          "english": "Use different combinations of low heat, high heat, and cooking time to bring out aroma and sweetness.",
+          "speech": "ていおん、こうおん、かねつじかんをつかいわけて、かおりやあまみをひきだします。"
+        },
+        {
+          "japanese": "④ 余熱(よねつ)を読(よ)む",
+          "english": "4. Account for carryover heat",
+          "speech": "よねつをよむ",
+          "heading": true
+        },
+        {
+          "japanese": "火(ひ)を止(と)めた後(あと)も、色(いろ)・歯切(はぎ)れ・水分(すいぶん)は変化(へんか)します。",
+          "english": "Even after cooking stops, color, bite and moisture continue to change.",
+          "speech": "ひをとめたあとも、いろ、はぎれ、すいぶんはへんかします。"
+        },
+        {
+          "japanese": "野菜(やさい)の加熱時間(かねつじかん)と仕上(しあ)がり",
+          "english": "Vegetable cooking time and the final result",
+          "speech": "やさいのかねつじかんとしあがり",
+          "heading": true
+        },
+        {
+          "japanese": "短時間加熱(たんじかんかねつ)",
+          "english": "Short cooking",
+          "speech": "たんじかんかねつ",
+          "heading": true
+        },
+        {
+          "japanese": "色(いろ)・歯切(はぎ)れ・みずみずしさ",
+          "english": "Color, crisp bite, juiciness.",
+          "speech": "いろ、はぎれ、みずみずしさ。"
+        },
+        {
+          "japanese": "中時間加熱(ちゅうじかんかねつ)",
+          "english": "Medium cooking",
+          "speech": "ちゅうじかんかねつ",
+          "heading": true
+        },
+        {
+          "japanese": "甘(あま)み・食(た)べやすい柔(やわ)らかさ",
+          "english": "Sweetness and an easy-to-eat tenderness.",
+          "speech": "あまみ、たべやすいやわらかさ。"
+        },
+        {
+          "japanese": "長時間加熱(ちょうじかんかねつ)",
+          "english": "Long cooking",
+          "speech": "ちょうじかんかねつ",
+          "heading": true
+        },
+        {
+          "japanese": "なめらかさ・ピュレ向(む)き",
+          "english": "Smoothness, suitable for purées.",
+          "speech": "なめらかさ、ぴゅれむき。"
+        }
+      ]
+    },
+    {
+      "id": "hiire-card-06",
+      "step": 6,
+      "kanji": "肉(にく)の火入(ひい)れ",
+      "english": "Cooking Meat",
+      "japanese": "にくのひいれ。",
+      "blocks": [
+        {
+          "japanese": "肉(にく)の場合(ばあい)は、表面(ひょうめん)と中心(ちゅうしん)を分(わ)けて考(かんが)えます。",
+          "english": "For meat, think about the surface and the center separately.",
+          "speech": "にくのばあいは、ひょうめんとちゅうしんをわけてかんがえます。"
+        },
+        {
+          "japanese": "① 表面(ひょうめん)",
+          "english": "1. Surface",
+          "speech": "ひょうめん",
+          "heading": true
+        },
+        {
+          "japanese": "焼(や)き色(いろ)・香(こう)ばしさ・脂(あぶら)の香(かお)りを作(つく)ります。",
+          "english": "The surface creates browning, roasted aromas, and aromas from the fat.",
+          "speech": "やきいろ、こうばしさ、あぶらのかおりをつくります。"
+        },
+        {
+          "japanese": "② 中心(ちゅうしん)",
+          "english": "2. Center",
+          "speech": "ちゅうしん",
+          "heading": true
+        },
+        {
+          "japanese": "中心温度(ちゅうしんおんど)・肉汁(にくじゅう)・噛(か)み心地(ごこち)を考(かんが)えます。",
+          "english": "For the center, consider core temperature, juiciness and bite.",
+          "speech": "ちゅうしんおんど、にくじゅう、かみごこちをかんがえます。"
+        },
+        {
+          "japanese": "③ 脂(あぶら)",
+          "english": "3. Fat",
+          "speech": "あぶら",
+          "heading": true
+        },
+        {
+          "japanese": "脂(あぶら)は口(くち)どけ・余韻(よいん)・温度感(おんどかん)に影響(えいきょう)します。",
+          "english": "Fat affects how the meat melts in the mouth, its lingering sensation, and how its temperature is perceived.",
+          "speech": "あぶらはくちどけ、よいん、おんどかんにえいきょうします。"
+        },
+        {
+          "japanese": "④ 休(やす)ませる",
+          "english": "4. Resting",
+          "speech": "やすませる",
+          "heading": true
+        },
+        {
+          "japanese": "加熱後(かねつご)に肉(にく)を休(やす)ませることで、表面(ひょうめん)と中心(ちゅうしん)の温度差(おんどさ)が小(ちい)さくなり、肉汁(にくじゅう)が落(お)ち着(つ)きます。",
+          "english": "Resting the meat after cooking reduces the temperature difference between the exterior and center and allows the juices to settle.",
+          "speech": "かねつごににくをやすませることで、ひょうめんとちゅうしんのおんどさがちいさくなり、にくじゅうがおちつきます。"
+        },
+        {
+          "japanese": "⑤ 安全性(あんぜんせい)",
+          "english": "5. Food safety",
+          "speech": "あんぜんせい",
+          "heading": true
+        },
+        {
+          "japanese": "鶏肉(とりにく)・豚肉(ぶたにく)・ひき肉(にく)・内臓(ないぞう)などは、安全性(あんぜんせい)の確認(かくにん)を曖昧(あいまい)にしてはいけません。",
+          "english": "With poultry, pork, ground meat, offal, etc., food-safety requirements must not be treated casually.",
+          "speech": "とりにく、ぶたにく、ひきにく、ないぞうなどは、あんぜんせいのかくにんをあいまいにしてはいけません。"
+        }
+      ]
+    },
+    {
+      "id": "hiire-card-07",
+      "step": 7,
+      "kanji": "提供(ていきょう)までが火入(ひい)れ",
+      "english": "Heat Control Continues Until Serving",
+      "japanese": "ていきょうまでがひいれ。",
+      "blocks": [
+        {
+          "japanese": "料理(りょうり)は「食(た)べる瞬間(しゅんかん)」に完成(かんせい)します。",
+          "english": "A dish is complete at the moment it is eaten.",
+          "speech": "りょうりはたべるしゅんかんにかんせいします。"
+        },
+        {
+          "japanese": "火入(ひい)れは鍋(なべ)の中(なか)で終(お)わりません。",
+          "english": "Heat management doesn’t end in the pan.",
+          "speech": "ひいれはなべのなかでおわりません。"
+        },
+        {
+          "japanese": "料理(りょうり)を皿(さら)に盛(も)った後(あと)も、余熱(よねつ)・皿温度(さらおんど)・ソース温度(おんど)・盛(も)り付(つ)け時間(じかん)・提供導線(ていきょうどうせん)によって状態(じょうたい)が変(か)わります。",
+          "english": "After plating, the food continues to change because of carryover heat, plate temperature, sauce temperature, plating time, and the time/distance involved in getting it to the diner.",
+          "speech": "りょうりをさらにもったあとも、よねつ、さらおんど、そーすおんど、もりつけじかん、ていきょうどうせんによってじょうたいがかわります。"
+        },
+        {
+          "japanese": "温(あたた)かい皿(さら)を使(つか)うと、料理(りょうり)の火入(ひい)れがさらに進(すす)むことがあります。",
+          "english": "A warm plate can cause the food to continue cooking.",
+          "speech": "あたたかいさらをつかうと、りょうりのひいれがさらにすすむことがあります。"
+        },
+        {
+          "japanese": "熱(あつ)いソースをかけると、魚(さかな)や肉(にく)の表面温度(ひょうめんおんど)が上(あ)がります。",
+          "english": "A hot sauce can raise the surface temperature of fish or meat.",
+          "speech": "あついそーすをかけると、さかなやにくのひょうめんおんどがあがります。"
+        },
+        {
+          "japanese": "盛(も)り付(つ)けに時間(じかん)がかかると、余熱(よねつ)で食感(しょっかん)が変(か)わります。",
+          "english": "If plating takes a long time, carryover heat can change the texture.",
+          "speech": "もりつけにじかんがかかると、よねつでしょっかんがかわります。"
+        },
+        {
+          "japanese": "「鍋(なべ)から出(だ)した時(とき)に完璧(かんぺき)」ではなく、「お客(きゃく)さんが食(た)べる時(とき)に完璧(かんぺき)」を狙(ねら)います。",
+          "english": "The goal isn’t “perfect when it leaves the pan”; it’s “perfect when the guest eats it.”",
+          "speech": "なべからだしたときにかんぺきではなく、おきゃくさんがたべるときにかんぺきをねらいます。"
+        }
+      ]
+    },
+    {
+      "id": "hiire-card-08",
+      "step": 8,
+      "kanji": "失敗(しっぱい)から逆算(ぎゃくさん)する",
+      "english": "Learning Backwards from Failure",
+      "japanese": "しっぱいからぎゃくさんする。",
+      "blocks": [
+        {
+          "japanese": "失敗(しっぱい)した時(とき)も、「なんとなく失敗(しっぱい)した」で終(お)わらせず、原因(げんいん)を構造的(こうぞうてき)に考(かんが)えます。",
+          "english": "When something goes wrong, don’t stop at “it just didn’t turn out right.” Diagnose the cause systematically.",
+          "speech": "しっぱいしたときも、なんとなくしっぱいしたでおわらせず、げんいんをこうぞうてきにかんがえます。"
+        },
+        {
+          "japanese": "表面(ひょうめん)だけ焦(こ)げる",
+          "english": "Only the surface burns",
+          "speech": "ひょうめんだけこげる",
+          "heading": true
+        },
+        {
+          "japanese": "火力(かりょく)・距離(きょり)・接触面(せっしょくめん)を見直(みなお)す。",
+          "english": "Reconsider heat intensity, distance from the heat source, and contact surface.",
+          "speech": "かりょく、きょり、せっしょくめんをみなおす。"
+        },
+        {
+          "japanese": "中心(ちゅうしん)が冷(つめ)たい",
+          "english": "The center is cold",
+          "speech": "ちゅうしんがつめたい",
+          "heading": true
+        },
+        {
+          "japanese": "厚(あつ)み・初期温度(しょきおんど)・加熱時間(かねつじかん)・余熱(よねつ)を見(み)る。",
+          "english": "Consider thickness, starting temperature, cooking time, and carryover heat.",
+          "speech": "あつみ、しょきおんど、かねつじかん、よねつをみる。"
+        },
+        {
+          "japanese": "パサつく・水(みず)っぽい",
+          "english": "Dry or watery",
+          "speech": "ぱさつく、みずっぽい",
+          "heading": true
+        },
+        {
+          "japanese": "水分設計(すいぶんせっけい)と加熱時間(かねつじかん)を見直(みなお)す。",
+          "english": "Reconsider moisture management and cooking time.",
+          "speech": "すいぶんせっけいとかねつじかんをみなおす。"
+        },
+        {
+          "japanese": "迷(まよ)った時(とき)",
+          "english": "When uncertain",
+          "speech": "まよったとき",
+          "heading": true
+        },
+        {
+          "japanese": "感覚(かんかく)だけで判断(はんだん)せず、安全性(あんぜんせい)を確認(かくにん)する。",
+          "english": "Don’t rely solely on intuition; verify food safety.",
+          "speech": "かんかくだけではんだんせず、あんぜんせいをかくにんする。"
+        }
+      ]
+    },
+    {
+      "id": "hiire-card-09",
+      "step": 9,
+      "kanji": "まとめ",
+      "english": "The Overall Principle",
+      "japanese": "まとめ。",
+      "blocks": [
+        {
+          "japanese": "火入(ひい)れとは、安全性(あんぜんせい)を担保(たんぽ)した上(うえ)で、熱(ねつ)の移動(いどう)と食材(しょくざい)の変化(へんか)を読(よ)み、狙(ねら)った状態(じょうたい)へ導(みちび)く判断(はんだん)の連続(れんぞく)です。",
+          "english": "Hiire is a continuous process of judgment: ensure safety, understand how heat moves and how the ingredient changes, and guide the food toward the result you want.",
+          "speech": "ひいれとは、あんぜんせいをたんぽしたうえで、ねつのいどうとしょくざいのへんかをよみ、ねらったじょうたいへみちびくはんだんのれんぞくです。"
+        },
+        {
+          "items": [
+            {
+              "japanese": "食材(しょくざい)を見(み)る",
+              "english": "Look at the ingredient",
+              "speech": "しょくざいをみる"
+            },
+            {
+              "japanese": "狙(ねら)う食感(しょっかん)を決(き)める",
+              "english": "Decide the desired texture",
+              "speech": "ねらうしょっかんをきめる"
+            },
+            {
+              "japanese": "熱(ねつ)の入(はい)り方(かた)を考(かんが)える",
+              "english": "Think about how heat will move through it",
+              "speech": "ねつのはいりかたをかんがえる"
+            },
+            {
+              "japanese": "加熱(かねつ)する",
+              "english": "Cook",
+              "speech": "かねつする"
+            },
+            {
+              "japanese": "余熱(よねつ)を読(よ)む",
+              "english": "Account for carryover heat",
+              "speech": "よねつをよむ"
+            },
+            {
+              "japanese": "提供時(ていきょうじ)の状態(じょうたい)を考(かんが)える",
+              "english": "Consider its condition when served",
+              "speech": "ていきょうじのじょうたいをかんがえる"
+            },
+            {
+              "japanese": "結果(けっか)を見(み)て次(つぎ)の火入(ひい)れを調整(ちょうせい)する",
+              "english": "Evaluate the result and adjust next time",
+              "speech": "けっかをみてつぎのひいれをちょうせいする"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

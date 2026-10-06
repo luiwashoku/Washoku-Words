@@ -1,0 +1,231 @@
+<!doctype html><meta charset="utf-8"><title>Food reference cards checks</title>
+<pre id="result">RUNNING</pre><iframe src="../index.html" style="width:320px;height:740px" title="App"></iframe>
+<script>
+(async()=>{
+ const frame=document.querySelector('iframe'),result=document.querySelector('#result');
+ const assert=(v,m)=>{if(!v)throw Error(m)};
+ const until=async fn=>{for(let i=0;i<300;i++){if(fn())return;await new Promise(r=>setTimeout(r,20))}throw Error('Timed out')};
+ try{
+  await until(()=>frame.contentDocument.querySelector('#openVocabularyCards:not(:disabled)'));
+  const w=frame.contentWindow,d=frame.contentDocument,q=s=>d.querySelector(s),plays=[],playSources=[];
+  class Audio extends w.EventTarget{
+   constructor(src){super();this.src=src;this.paused=true;this.currentTime=0;this.playbackRate=1}
+   getAttribute(name){return name==='src'?this.src:null}
+   play(){this.paused=false;plays.push(this);playSources.push(this.src);return Promise.resolve()}
+   pause(){this.paused=true}
+  }
+  w.Audio=Audio;
+  const data=await fetch('../data/food-reference-cards.json').then(r=>r.json()),card=data.entries[0];
+  [...d.querySelectorAll('.category-card')].find(b=>b.textContent.includes('基本のことば')).click();
+  await until(()=>d.querySelectorAll('.lesson-card').length);
+  const lessons=[...d.querySelectorAll('.lesson-card')];
+  assert(lessons[0].querySelector('strong').textContent.trim()==='味・香り・食感カード','First deck');
+  lessons[0].querySelector('.lesson-open').click();
+  await until(()=>q('.vocabulary-study-card--reading:not(.hidden)'));
+  const lookup=k=>w.lessonAudioFiles['food-reference-cards'][k];
+  await until(()=>plays.at(-1)?.src===lookup(card.japanese));
+  assert(q('#studyCardWord').textContent==='1. '+card.kanji,'Page 1 title');
+  assert(q('.vocabulary-card-counter').textContent==='1 / 8','Page count');
+  assert(playSources.filter(src=>!src.startsWith('data:')).length===1,'Only title autoplays');
+  const before=plays.length;q('.reading-card-header button').click();assert(plays.length===before+1,'Title replay');
+  const chunks=card.blocks.flatMap(b=>b.pairs.flatMap(pair=>[pair.vocabulary,pair.food]));
+  assert(q('.reading-card-body').querySelectorAll('table').length===3,'Three category tables');
+  for(const row of q('.reading-card-body').querySelectorAll('tbody tr')){
+   assert(row.cells.length===2,'Two columns');
+   assert(row.cells[0].getBoundingClientRect().right<=row.cells[1].getBoundingClientRect().left+1,'Vocabulary left and food right');
+  }
+  const body=q('.reading-card-body'),speakers=[...body.querySelectorAll('td button')],translations=[...body.querySelectorAll('td [lang="en"]')];
+  assert(speakers.length===24&&chunks.length===24,'All passages questions and vocabulary');
+  for(let i=0;i<chunks.length;i++){
+   assert(translations[i].textContent===chunks[i].english,'Translation '+i);
+   const count=plays.length;speakers[i].click();await until(()=>plays.length>count);
+   assert(plays.at(-1).src===lookup(chunks[i].speech),'Chunk audio '+i);
+   assert(plays.at(-1).playbackRate===1,'Speed');
+  }
+  const subtitles=[...body.querySelectorAll('.food-reference-subtitle button')];
+  assert(subtitles.length===3,'Three subtitle speakers');
+  for(let i=0;i<subtitles.length;i++){
+   const n=plays.length;subtitles[i].click();await until(()=>plays.length>n);
+   assert(plays.at(-1).src===lookup(card.blocks[i].speech),'Subtitle recording '+i);
+  }
+  assert(body.scrollHeight<=body.clientHeight+1,'Expanded content');
+  assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Phone fit');
+  q('#vocabularyCardFurigana').click();assert(w.getComputedStyle(body.querySelector('.furiganaReading')).display!=='none','Furigana');
+  q('#vocabularyCardTools button[aria-label="Show all cards"]').click();
+  const dialog=q('dialog.knife-steps-list');assert(dialog.open&&dialog.querySelector('h2').textContent==='味・香り・食感カード','Shared 全 menu');
+  dialog.querySelector('.popup-body > button').click();assert(!dialog.open,'Card selection');
+  q('#vocabularyCardNavigation button:last-child').click();
+  const second=data.entries[1];
+  await until(()=>plays.at(-1).src===lookup(second.japanese));
+  assert(q('#studyCardWord').textContent==='2. '+second.kanji,'Page 2 title');
+  assert(q('.vocabulary-card-counter').textContent==='2 / 8','Page 2 counter');
+  const page2chunks=second.blocks.flatMap(b=>b.pairs.flatMap(pair=>[pair.vocabulary,pair.food]));
+  const page2speakers=[...q('.reading-card-body').querySelectorAll('td button')];
+  const page2english=[...q('.reading-card-body').querySelectorAll('td [lang="en"]')];
+  assert(page2speakers.length===20,'Ten vocabulary-food pairs');
+  for(let i=0;i<page2chunks.length;i++){
+   assert(page2english[i].textContent===page2chunks[i].english,'Page 2 English '+i);
+   const n=plays.length;page2speakers[i].click();await until(()=>plays.length>n);
+   assert(plays.at(-1).src===lookup(page2chunks[i].speech),'Page 2 recording '+i);
+   assert(plays.at(-1).playbackRate===1,'Page 2 speed');
+  }
+  const page2subtitles=[...q('.reading-card-body').querySelectorAll('.food-reference-subtitle button')];
+  assert(page2subtitles.length===3,'Page 2 subtitle speakers');
+  for(let i=0;i<3;i++){
+   const n=plays.length;page2subtitles[i].click();await until(()=>plays.length>n);
+   assert(plays.at(-1).src===lookup(second.blocks[i].speech),'Page 2 subtitle '+i);
+  }
+  for(const row of q('.reading-card-body').querySelectorAll('tbody tr'))
+   assert(row.cells[0].getBoundingClientRect().right<=row.cells[1].getBoundingClientRect().left+1,'Page 2 left/right');
+  assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Page 2 phone fit');
+  q('#vocabularyCardTools button[aria-label="Show all cards"]').click();
+  assert(dialog.querySelectorAll('.popup-body > button').length===8,'Eight cards in 全');
+  dialog.querySelector('.popup-body > button').click();assert(q('.vocabulary-card-counter').textContent==='1 / 8','Return to first page');
+  q('#vocabularyCardNavigation button:last-child').click();
+  q('#vocabularyCardNavigation button:last-child').click();
+  const third=data.entries[2];
+  await until(()=>plays.at(-1).src===lookup(third.japanese));
+  assert(q('#studyCardWord').textContent==='3. '+third.kanji,'Page 3 title');
+  assert(q('.vocabulary-card-counter').textContent==='3 / 8','Page 3 counter');
+  const page3chunks=third.blocks.flatMap(b=>b.pairs.flatMap(pair=>[pair.vocabulary,pair.food]));
+  const page3speakers=[...q('.reading-card-body').querySelectorAll('td button')];
+  const page3english=[...q('.reading-card-body').querySelectorAll('td [lang="en"]')];
+  assert(page3speakers.length===18,'Nine vocabulary-food pairs');
+  for(let i=0;i<page3chunks.length;i++){
+   assert(page3english[i].textContent===page3chunks[i].english,'Page 3 English '+i);
+   const n=plays.length;page3speakers[i].click();await until(()=>plays.length>n);
+   assert(plays.at(-1).src===lookup(page3chunks[i].speech),'Page 3 recording '+i);
+   assert(plays.at(-1).playbackRate===1,'Page 3 speed');
+  }
+  const page3subtitles=[...q('.reading-card-body').querySelectorAll('.food-reference-subtitle button')];
+  assert(page3subtitles.length===4,'Page 3 subtitle speakers');
+  for(let i=0;i<4;i++){
+   const n=plays.length;page3subtitles[i].click();await until(()=>plays.length>n);
+   assert(plays.at(-1).src===lookup(third.blocks[i].speech),'Page 3 subtitle '+i);
+  }
+  for(const row of q('.reading-card-body').querySelectorAll('tbody tr'))
+   assert(row.cells[0].getBoundingClientRect().right<=row.cells[1].getBoundingClientRect().left+1,'Page 3 left/right');
+  assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Page 3 phone fit');
+  q('#vocabularyCardNavigation button:last-child').click();
+  const fourth=data.entries[3];
+  await until(()=>plays.at(-1).src===lookup(fourth.japanese));
+  assert(q('#studyCardWord').textContent==='4. '+fourth.kanji,'Page 4 title');
+  assert(q('.vocabulary-card-counter').textContent==='4 / 8','Page 4 counter');
+  const page4chunks=fourth.blocks.flatMap(b=>b.pairs.flatMap(pair=>[pair.vocabulary,pair.food]));
+  const page4speakers=[...q('.reading-card-body').querySelectorAll('td button')];
+  const page4english=[...q('.reading-card-body').querySelectorAll('td [lang="en"]')];
+  assert(page4speakers.length===22,'Eleven vocabulary-food pairs');
+  for(let i=0;i<page4chunks.length;i++){
+   assert(page4english[i].textContent===page4chunks[i].english,'Page 4 English '+i);
+   const n=plays.length;page4speakers[i].click();await until(()=>plays.length>n);
+   assert(plays.at(-1).src===lookup(page4chunks[i].speech),'Page 4 recording '+i);
+   assert(plays.at(-1).playbackRate===1,'Page 4 speed');
+  }
+  const page4subtitles=[...q('.reading-card-body').querySelectorAll('.food-reference-subtitle button')];
+  assert(page4subtitles.length===3,'Page 4 subtitle speakers');
+  for(let i=0;i<3;i++){
+   const n=plays.length;page4subtitles[i].click();await until(()=>plays.length>n);
+   assert(plays.at(-1).src===lookup(fourth.blocks[i].speech),'Page 4 subtitle '+i);
+  }
+  for(const row of q('.reading-card-body').querySelectorAll('tbody tr'))
+   assert(row.cells[0].getBoundingClientRect().right<=row.cells[1].getBoundingClientRect().left+1,'Page 4 left/right');
+  assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Page 4 phone fit');
+  q('#vocabularyCardNavigation button:last-child').click();
+  const fifth=data.entries[4];
+  await until(()=>plays.at(-1).src===lookup(fifth.japanese));
+  assert(q('#studyCardWord').textContent==='5. '+fifth.kanji,'Page 5 title');
+  assert(q('.vocabulary-card-counter').textContent==='5 / 8','Page 5 counter');
+  const page5chunks=fifth.blocks.flatMap(b=>b.pairs.flatMap(pair=>[pair.vocabulary,pair.food]));
+  const page5speakers=[...q('.reading-card-body').querySelectorAll('td button')];
+  const page5english=[...q('.reading-card-body').querySelectorAll('td [lang="en"]')];
+  assert(page5speakers.length===44,'Twenty-two vocabulary-food pairs');
+  for(let i=0;i<page5chunks.length;i++){
+   assert(page5english[i].textContent===page5chunks[i].english,'Page 5 English '+i);
+   const n=plays.length;page5speakers[i].click();await until(()=>plays.length>n);
+   assert(plays.at(-1).src===lookup(page5chunks[i].speech),'Page 5 recording '+i);
+   assert(plays.at(-1).playbackRate===1,'Page 5 speed');
+  }
+  const page5subtitles=[...q('.reading-card-body').querySelectorAll('.food-reference-subtitle button')];
+  assert(page5subtitles.length===2,'Page 5 subtitle speakers');
+  for(let i=0;i<2;i++){
+   const n=plays.length;page5subtitles[i].click();await until(()=>plays.length>n);
+   assert(plays.at(-1).src===lookup(fifth.blocks[i].speech),'Page 5 subtitle '+i);
+  }
+  for(const row of q('.reading-card-body').querySelectorAll('tbody tr'))
+   assert(row.cells[0].getBoundingClientRect().right<=row.cells[1].getBoundingClientRect().left+1,'Page 5 left/right');
+  assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Page 5 phone fit');
+  q('#vocabularyCardNavigation button:last-child').click();
+  const sixth=data.entries[5];
+  await until(()=>plays.at(-1).src===lookup(sixth.japanese));
+  assert(q('#studyCardWord').textContent==='6. '+sixth.kanji,'Page 6 title');
+  assert(q('.vocabulary-card-counter').textContent==='6 / 8','Page 6 counter');
+  const page6chunks=sixth.blocks.flatMap(b=>b.pairs.flatMap(pair=>[pair.vocabulary,pair.food]));
+  const page6speakers=[...q('.reading-card-body').querySelectorAll('td button')];
+  const page6english=[...q('.reading-card-body').querySelectorAll('td [lang="en"]')];
+  assert(page6speakers.length===30,'Fifteen aroma vocabulary-food pairs');
+  for(let i=0;i<page6chunks.length;i++){
+   assert(page6english[i].textContent===page6chunks[i].english,'Page 6 English '+i);
+   const n=plays.length;page6speakers[i].click();await until(()=>plays.length>n);
+   assert(plays.at(-1).src===lookup(page6chunks[i].speech),'Page 6 recording '+i);
+   assert(plays.at(-1).playbackRate===1,'Page 6 speed');
+  }
+  const page6subtitles=[...q('.reading-card-body').querySelectorAll('.food-reference-subtitle button')];
+  assert(page6subtitles.length===2,'Page 6 subtitle speakers');
+  for(let i=0;i<2;i++){
+   const n=plays.length;page6subtitles[i].click();await until(()=>plays.length>n);
+   assert(plays.at(-1).src===lookup(sixth.blocks[i].speech),'Page 6 subtitle '+i);
+  }
+  for(const row of q('.reading-card-body').querySelectorAll('tbody tr'))
+   assert(row.cells[0].getBoundingClientRect().right<=row.cells[1].getBoundingClientRect().left+1,'Page 6 left/right');
+  assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Page 6 phone fit');
+  q('#vocabularyCardNavigation button:last-child').click();
+  const seventh=data.entries[6];
+  await until(()=>plays.at(-1).src===lookup(seventh.japanese));
+  assert(q('#studyCardWord').textContent==='7. '+seventh.kanji,'Page 7 title');
+  assert(q('.vocabulary-card-counter').textContent==='7 / 8','Page 7 counter');
+  const page7chunks=seventh.blocks.flatMap(b=>b.pairs.flatMap(pair=>[pair.vocabulary,pair.food]));
+  const page7speakers=[...q('.reading-card-body').querySelectorAll('td button')];
+  const page7english=[...q('.reading-card-body').querySelectorAll('td [lang="en"]')];
+  assert(page7speakers.length===40,'Twenty final vocabulary-food pairs');
+  for(let i=0;i<page7chunks.length;i++){
+   assert(page7english[i].textContent===page7chunks[i].english,'Page 7 English '+i);
+   const n=plays.length;page7speakers[i].click();await until(()=>plays.length>n);
+   assert(plays.at(-1).src===lookup(page7chunks[i].speech),'Page 7 recording '+i);
+   assert(plays.at(-1).playbackRate===1,'Page 7 speed');
+  }
+  const page7subtitles=[...q('.reading-card-body').querySelectorAll('.food-reference-subtitle button')];
+  assert(page7subtitles.length===3,'Page 7 subtitle speakers');
+  for(let i=0;i<3;i++){
+   const n=plays.length;page7subtitles[i].click();await until(()=>plays.length>n);
+   assert(plays.at(-1).src===lookup(seventh.blocks[i].speech),'Page 7 subtitle '+i);
+  }
+  for(const row of q('.reading-card-body').querySelectorAll('tbody tr'))
+   assert(row.cells[0].getBoundingClientRect().right<=row.cells[1].getBoundingClientRect().left+1,'Page 7 left/right');
+  assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Page 7 phone fit');
+  q('#vocabularyCardNavigation button:last-child').click();
+  const eighth=data.entries[7];
+  await until(()=>plays.at(-1).src===lookup(eighth.japanese));
+  assert(q('#studyCardWord').textContent==='8. '+eighth.kanji,'Page 8 title');
+  assert(q('.vocabulary-card-counter').textContent==='8 / 8','Page 8 counter');
+  const page8chunks=eighth.blocks.flatMap(b=>b.pairs.flatMap(pair=>[pair.vocabulary,pair.food]));
+  const page8speakers=[...q('.reading-card-body').querySelectorAll('td button')];
+  const page8english=[...q('.reading-card-body').querySelectorAll('td [lang="en"]')];
+  assert(page8speakers.length===76,'All 38 negative-description pairs');
+  for(let i=0;i<page8chunks.length;i++){
+   assert(page8english[i].textContent===page8chunks[i].english,'Page 8 English '+i);
+   const n=plays.length;page8speakers[i].click();await until(()=>plays.length>n);
+   assert(plays.at(-1).src===lookup(page8chunks[i].speech),'Page 8 recording '+i);
+   assert(plays.at(-1).playbackRate===1,'Page 8 speed');
+  }
+  const n=plays.length;q('.food-reference-subtitle button').click();await until(()=>plays.length>n);
+  assert(plays.at(-1).src===lookup(eighth.blocks[0].speech),'Page 8 subtitle');
+  for(const row of q('.reading-card-body').querySelectorAll('tbody tr'))
+   assert(row.cells[0].getBoundingClientRect().right<=row.cells[1].getBoundingClientRect().left+1,'Page 8 left/right');
+  assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Page 8 phone fit');
+  assert(q('.reading-card-body').scrollHeight<=q('.reading-card-body').clientHeight+1,'Page 8 expands fully');
+  assert(q('#vocabularyCardNavigation button:last-child').disabled,'Last card');
+  const last=plays.at(-1);q('#backFromExplosion').click();assert(last.paused,'Exit stops audio');
+  result.textContent='PASS: first basic deck, all eight pages, twenty-one categories, 137 left/right pairs, individual recordings, title-only autoplay, English, furigana, 全 and phone layout.';
+ }catch(e){result.textContent='FAIL: '+e.stack}
+})();
+</script>
