@@ -528,7 +528,7 @@
     "id": "knife-forms-cards",
     "category": "techniques",
     "page": "47–49",
-    "title": "包丁カード",
+    "title": "包丁種類カード",
     "file": "data/knife-forms-cards.json",
     "menuColor": "purple",
     "gameMode": "vocabulary-cards",
@@ -545,6 +545,19 @@
     "gameMode": "vocabulary-cards",
     "ordered": true,
     "questionCount": 13
+  },
+  {
+    "id": "knife-structure-cards",
+    "category": "techniques",
+    "page": "47–49",
+    "title": "包丁の形・構造・素材カード",
+    "file": "data/knife-structure-cards.json",
+    "menuColor": "purple",
+    "gameMode": "vocabulary-cards",
+    "ordered": true,
+    "questionCount": 21,
+    "readingCards": true,
+    "vocabularyColumns": 2
   },
   {
     "id": "page47-49-materials",

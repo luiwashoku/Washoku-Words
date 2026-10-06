@@ -143,6 +143,7 @@
         if (speaker) header.append(speaker);
         const body = document.createElement("div");
         body.className = "reading-card-body";
+        if (lesson.vocabularyColumns === 2) body.classList.add("reading-card-body--two-columns");
         body.setAttribute("aria-label", "Card content");
         function bilingual(parent, block) {
           const japanese = document.createElement("p");
@@ -158,6 +159,12 @@
           speaker.addEventListener("click", () => wordPlayer.stop(), { capture: true, signal });
           row.append(japanese, speaker);
           parent.append(row, translation);
+          if (block.explanation) {
+            const explanation = document.createElement("div");
+            explanation.className = "reading-card-explanation";
+            bilingual(explanation, block.explanation);
+            parent.append(explanation);
+          }
         }
         word.blocks.forEach(block => {
           if (block.pairs) {

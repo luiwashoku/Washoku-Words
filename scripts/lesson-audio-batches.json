@@ -675,7 +675,7 @@
   {
     "batch": 85,
     "lesson": "knife-forms-cards",
-    "title": "包丁カード",
+    "title": "包丁種類カード",
     "status": "generated",
     "voice": "marin",
     "recordings": 50,
@@ -786,5 +786,15 @@
     "speed": 1.0,
     "recordings": 275,
     "speechKeys": 275
+  },
+  {
+    "batch": 97,
+    "lesson": "knife-structure-cards",
+    "title": "包丁の形・構造・素材カード",
+    "status": "generated",
+    "voice": "marin",
+    "speed": 1.0,
+    "speechKeys": 260,
+    "recordings": 260
   }
 ]

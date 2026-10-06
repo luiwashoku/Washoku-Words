@@ -2143,6 +2143,19 @@ html.vocabulary-cards-open,
 .reading-card-header .explosion-example-speech { flex: 0 0 44px; width: 44px; height: 44px; margin-top: 4px; }
 .reading-card-body { overflow: visible; }
 .reading-card-body section + section, .reading-card-body ol + section { margin-top: 20px; }
+.reading-card-body--two-columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 20px; }
+.reading-card-body--two-columns > section { min-width: 0; padding-bottom: 12px; border-bottom: 1px solid rgb(17 17 17 / 18%); }
+.reading-card-body--two-columns > section + section { margin-top: 0; }
+.reading-card-body--two-columns .reading-card-chunk { gap: 6px; }
+.reading-card-body--two-columns .vocabulary-card-translation { font-size: 13px; margin-top: 5px; overflow-wrap: anywhere; }
+.reading-card-body--two-columns .explosion-example-speech { width: 32px; height: 32px; flex-basis: 32px; }
+.reading-card-explanation { margin-top: 12px; }
+.reading-card-explanation [lang="ja"] { font-size: 15px; font-weight: 500; line-height: 1.8; }
+@media (max-width: 420px) {
+  .reading-card-body--two-columns { column-gap: 12px; }
+  .reading-card-body--two-columns .reading-card-chunk { flex-wrap: wrap; }
+  .reading-card-body--two-columns .reading-card-chunk > p { flex: 1 0 100%; }
+}
 .reading-card-body p { margin: 0; }
 .reading-card-body [lang="ja"] { font-size: 19px; font-weight: 600; line-height: 1.95; }
 .reading-card-body .vocabulary-card-translation, .reading-card-header .vocabulary-card-translation { font-size: 16px; font-weight: 500; line-height: 1.6; margin-top: 8px; }

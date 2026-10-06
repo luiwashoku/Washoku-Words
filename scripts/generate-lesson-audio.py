@@ -44,7 +44,15 @@ if set(inputs) != known_keys:
 for row in rows:
     row['text'] = inputs[row['key']]
     row['speed'] = speeds[row['key']]
-    if not row['text'] or re.search(r'[\u3400-\u9fff々\u30a1-\u30faA-Za-z]', row['text']):
+    entry = next(item for item in review['entries'] if item['key'] == row['key'])
+    authorized_kanji = (
+        voice == 'marin' and entry.get('allow_kanji_input') is True
+        and bool(entry.get('kanji_input_authorization'))
+        and bool(entry.get('reviewed_hiragana'))
+        and not re.search(r'[\u3400-\u9fff々\u30a1-\u30faA-Za-z]', entry['reviewed_hiragana'])
+        and bool(entry.get('pronunciation_guidance'))
+    )
+    if not row['text'] or (re.search(r'[\u3400-\u9fff々\u30a1-\u30faA-Za-z]', row['text']) and not authorized_kanji):
         parser.error('Checked hiragana input required for '+row['key'])
 if set(args.retry_key) - known_keys:
     parser.error('Unknown retry key')
@@ -59,6 +67,8 @@ def generate(text, speed):
     if voice == 'marin':
         entry = next(item for item in review['entries'] if item['input'] == text)
         guidance = 'Speak standard Tokyo Japanese. Read only the supplied hiragana once, clearly and naturally. Preserve vowel length and doubled consonants. Do not add an introduction, translation, explanation, or other words.'
+        if entry.get('allow_kanji_input'):
+            guidance = 'Speak standard Tokyo Japanese. Read only the supplied Japanese term once, clearly and naturally, using its explicitly reviewed reading: ' + entry['reviewed_hiragana'] + '. Preserve vowel length and doubled consonants. Do not add an introduction, translation, explanation, or other words.'
         if entry.get('pronunciation_guidance'):
             guidance += ' ' + entry['pronunciation_guidance']
         if entry.get('accent') == 0:

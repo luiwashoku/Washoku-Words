@@ -1,4 +1,39 @@
-# Nova speech generation
+# Persistent voice rendering preference
+
+The user's default for all future Japanese voice rendering in this project is
+Marin (`gpt-4o-mini-tts`) at generation speed `1.0`, including standalone
+vocabulary, particles, short fragments, sentences, and dialogue. This preference
+persists across sessions and VS Code restarts. It supersedes the older Nova and
+`0.85` defaults below; use another voice or speed only when the user explicitly
+requests it. Record voice, model, and generation speed in each review file and
+keep per-entry speeds at `1.0`. Do not substitute a playback-rate adjustment.
+
+Before sending any input to Marin, check every hiragana reading against a
+reviewed reading source and its intended meaning and grammatical context.
+Preserve long vowels, doubled consonants, lexical kana, and contextual particle
+pronunciations. Keep display labels and lookup keys separate from speech input.
+
+Before rendering, check the applicable standard Tokyo pitch accent against a
+reliable accent source for the intended word and meaning when available. Record
+the source, selected accent, and any variants in the review file, and send the
+checked pitch guidance to Marin. Do not infer an accent from an unrelated
+homophone or label an unconfirmed specialist compound as verified.
+
+The user explicitly authorizes provisional intonation using Marin at generation
+speed `1.0` when a reliable whole-word or phrase pitch target cannot be confirmed.
+This authorization persists across sessions and VS Code restarts. Proceed
+without asking for provisional-pitch permission again: use natural Tokyo
+Japanese intonation, record the target as provisional in the review file, and
+retain any reliable component sources. This allowance concerns pitch intonation
+only; still check every hiragana reading for meaning and context before rendering
+and resolve uncertain readings. Preserve user-supplied pitch contours for
+specific entries rather than replacing them with generic provisional guidance.
+
+Verified input and pitch targets do not prove that generated audio follows
+them. Do not claim accurate audible pitch, clean sound, or listening verification
+without reviewing the actual recording.
+
+# Legacy Nova speech generation (only when explicitly requested)
 
 For future Japanese Nova recordings, first check the intended hiragana reading
 against the vocabulary reading or reviewed reading source. Send the correct

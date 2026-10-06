@@ -27,6 +27,7 @@ function run(args) {
           var parts = block.pairs ? block.pairs.reduce(function(all, pair) { return all.concat([pair.vocabulary, pair.food]); }, []) : (block.items || [block]);
           parts.forEach(function(part) {
             rows.push({lesson: lessonId, card: entry.id, field: 'chunk', key: window.getJapaneseSpeechText(part.speech || part.japanese)});
+            if (part.explanation) rows.push({lesson: lessonId, card: entry.id, field: 'explanation', key: window.getJapaneseSpeechText(part.explanation.speech || part.explanation.japanese)});
           });
         });
         if (entry.example) rows.push({lesson: lessonId, card: entry.id, field: 'example', key: window.getJapaneseSpeechText(entry.example.japanese)});
