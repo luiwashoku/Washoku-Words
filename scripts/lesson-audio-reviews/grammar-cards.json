@@ -4,8 +4,8 @@
   "voice": "marin",
   "model": "gpt-4o-mini-tts",
   "speed": 1.0,
-  "reading_source": "Every formal and casual sample reviewed against golden-grammar annotated readings; explicit polite examples reviewed separately. Japanese 人 corrected to じん; 今日中 corrected to きょうじゅう; 話そう corrected to はなそう; 間に corrected to あいだに. Contextual topic は, directional へ and object を checked; lexical は retained.",
-  "notes": "Grammar points autoplay once, with sentence speaker controls. All clips generated with Marin at speed 1.0 as requested. Formation has no audio. No listening or audible pitch-accent verification claimed. Added 32 requested conversational points after a 45-expression coverage audit. Exact kanji readings and contextual particles reviewed; contracted forms retain their distinct lookup keys. No audible listening or pitch verification claimed.",
+  "reading_source": "Every formal and casual sample reviewed against golden-grammar annotated readings; explicit polite examples reviewed separately. Japanese 人 corrected to じん; 今日中 corrected to きょうじゅう; 話そう corrected to はなそう; 間に corrected to あいだに. Contextual topic は, directional へ and object を checked; lexical は retained. Added 54 cards following the 80-point coverage audit: 48 absent points plus six specific missing forms/meanings. Each new title and polite/casual example manually reviewed against its kanji annotations and meaning; explicit speech inputs check topic/contrast は → わ and object を → お while preserving lexical は in はる/はじめて/はやく/ごはん/はらえる. Pauses follow complete subordinate clauses; no pauses immediately before particles. Distinct meanings for まで and たところ retained; existing cards and keys preserved.",
+  "notes": "Grammar points autoplay once, with sentence speaker controls. All clips generated with Marin at speed 1.0 as requested. Formation has no audio. No listening or audible pitch-accent verification claimed. Added 32 requested conversational points after a 45-expression coverage audit. Exact kanji readings and contextual particles reviewed; contracted forms retain their distinct lookup keys. No audible listening or pitch verification claimed. New points/examples use Marin generation speed 1.0 and standing authorization for provisional Tokyo intonation. Formation is displayed, not spoken. No listening verification claimed.",
   "entries": [
     {
       "key": "いま、えきでともだちをまっています。",
@@ -3268,6 +3268,1286 @@
       "key": "さきによやくしといて。",
       "input": "さきによやくしといて。",
       "speed": 1.0
+    },
+    {
+      "key": "にあわせて",
+      "input": "にあわせて",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "てんきにあわせて、ふくをえらびます。",
+      "input": "てんきにあわせて、ふくおえらびます。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "てんきにあわせて、ふくをえらぶよ。",
+      "input": "てんきにあわせて、ふくおえらぶよ。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "におうじて",
+      "input": "におうじて",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "にんずうにおうじて、よやくするへやをかえます。",
+      "input": "にんずうにおうじて、よやくするへやおかえます。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "にんずうにおうじて、よやくするへやをかえるよ。",
+      "input": "にんずうにおうじて、よやくするへやおかえるよ。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "をとおして",
+      "input": "おとおして",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "こそだてをとおして、おやのたいへんさがわかりました。",
+      "input": "こそだておとおして、おやのたいへんさがわかりました。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "こそだてをとおして、おやのたいへんさがわかった。",
+      "input": "こそだておとおして、おやのたいへんさがわかった。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "をきっかけに",
+      "input": "おきっかけに",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ひっこしをきっかけに、じすいをはじめました。",
+      "input": "ひっこしおきっかけに、じすいおはじめました。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ひっこしをきっかけに、じすいをはじめたんだ。",
+      "input": "ひっこしおきっかけに、じすいおはじめたんだ。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "につれて",
+      "input": "につれて",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "さむくなるにつれて、あさおきるのがつらくなります。",
+      "input": "さむくなるにつれて、あさおきるのがつらくなります。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "さむくなるにつれて、あさおきるのがつらくなるね。",
+      "input": "さむくなるにつれて、あさおきるのがつらくなるね。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "とともに",
+      "input": "とともに",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ねんれいをかさねるとともに、はやおきになりました。",
+      "input": "ねんれいおかさねるとともに、はやおきになりました。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ねんれいをかさねるとともに、はやおきになったよ。",
+      "input": "ねんれいおかさねるとともに、はやおきになったよ。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "だけで",
+      "input": "だけで",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "このしゃしんをみるだけで、げんきになります。",
+      "input": "このしゃしんおみるだけで、げんきになります。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "このしゃしんをみるだけで、げんきになる。",
+      "input": "このしゃしんおみるだけで、げんきになる。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "だけでも",
+      "input": "だけでも",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "すこしあるくだけでも、きぶんがかわります。",
+      "input": "すこしあるくだけでも、きぶんがかわります。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "すこしあるくだけでも、きぶんがかわるよ。",
+      "input": "すこしあるくだけでも、きぶんがかわるよ。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "さえあれば",
+      "input": "さえあれば",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "けいたいさえあれば、ここでしはらいができます。",
+      "input": "けいたいさえあれば、ここでしはらいができます。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "けいたいさえあれば、ここではらえるよ。",
+      "input": "けいたいさえあれば、ここではらえるよ。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ふだんしずかなちちまで、おおわらいしていました。",
+      "input": "ふだんしずかなちちまで、おおわらいしていました。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ふだんしずかなおとうさんまで、おおわらいしてた。",
+      "input": "ふだんしずかなおとうさんまで、おおわらいしてた。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "にしかない",
+      "input": "にしかない",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "このみせにしかないおかしをかいました。",
+      "input": "このみせにしかないおかしおかいました。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "このみせにしかないおかしをかったよ。",
+      "input": "このみせにしかないおかしおかったよ。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "わりに",
+      "input": "わりに",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "このへやは、やちんのわりにひろいです。",
+      "input": "このへやわ、やちんのわりにひろいです。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "このへや、やちんのわりにひろいね。",
+      "input": "このへや、やちんのわりにひろいね。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "くせに",
+      "input": "くせに",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "おとうとは、しらないくせにしっているふりをします。",
+      "input": "おとうとわ、しらないくせにしっているふりおします。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "しらないくせに、しってるふりしないでよ。",
+      "input": "しらないくせに、しってるふりしないでよ。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ものの",
+      "input": "ものの",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "かさをもってきたものの、あめはふりませんでした。",
+      "input": "かさおもってきたものの、あめわふりませんでした。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "かさをもってきたものの、あめはふらなかった。",
+      "input": "かさおもってきたものの、あめわふらなかった。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ながらも",
+      "input": "ながらも",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "せまいながらも、いごこちのいいへやです。",
+      "input": "せまいながらも、いごこちのいいへやです。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "せまいながらも、いごこちのいいへやだよ。",
+      "input": "せまいながらも、いごこちのいいへやだよ。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "とはいえ",
+      "input": "とわいえ",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "はるとはいえ、あさはまださむいです。",
+      "input": "はるとわいえ、あさわまださむいです。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "はるとはいえ、あさはまださむいね。",
+      "input": "はるとわいえ、あさわまださむいね。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "からといって",
+      "input": "からといって",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "やすいからといって、ひつようのないものまでかわないようにしています。",
+      "input": "やすいからといって、ひつようのないものまでかわないようにしています。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "やすいからといって、いらないものまでかわないようにしてる。",
+      "input": "やすいからといって、いらないものまでかわないようにしてる。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "といっても",
+      "input": "といっても",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "りょうりができるといっても、かんたんなものだけです。",
+      "input": "りょうりができるといっても、かんたんなものだけです。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "りょうりができるといっても、かんたんなものだけだよ。",
+      "input": "りょうりができるといっても、かんたんなものだけだよ。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "というと",
+      "input": "というと",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "なつというと、こどものころのうみをおもいだします。",
+      "input": "なつというと、こどものころのうみおおもいだします。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "なつというと、こどものころのうみをおもいだすな。",
+      "input": "なつというと、こどものころのうみおおもいだすな。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "といえば",
+      "input": "といえば",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "りょこうといえば、らいげつどこにいきますか。",
+      "input": "りょこうといえば、らいげつどこにいきますか。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "りょこうといえば、らいげつどこにいくの。",
+      "input": "りょこうといえば、らいげつどこにいくの。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "にしては",
+      "input": "にしてわ",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "はじめてつくったにしては、よくできました。",
+      "input": "はじめてつくったにしてわ、よくできました。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "はじめてつくったにしては、よくできたね。",
+      "input": "はじめてつくったにしてわ、よくできたね。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "だけあって",
+      "input": "だけあって",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "まいにちれんしゅうしているだけあって、じょうずですね。",
+      "input": "まいにちれんしゅうしているだけあって、じょうずですね。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "まいにちれんしゅうしてるだけあって、じょうずだね。",
+      "input": "まいにちれんしゅうしてるだけあって、じょうずだね。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "だけに",
+      "input": "だけに",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "たのしみにしていただけに、ちゅうしになってざんねんです。",
+      "input": "たのしみにしていただけに、ちゅうしになってざんねんです。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "たのしみにしてただけに、ちゅうしになってざんねんだよ。",
+      "input": "たのしみにしてただけに、ちゅうしになってざんねんだよ。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "せいか",
+      "input": "せいか",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ねぶそくのせいか、きょうはしゅうちゅうできません。",
+      "input": "ねぶそくのせいか、きょうわしゅうちゅうできません。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ねぶそくのせいか、きょうはしゅうちゅうできない。",
+      "input": "ねぶそくのせいか、きょうわしゅうちゅうできない。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ことから",
+      "input": "ことから",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "えきにちかいことから、このへやをえらびました。",
+      "input": "えきにちかいことから、このへやおえらびました。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "えきにちかいことから、このへやをえらんだんだ。",
+      "input": "えきにちかいことから、このへやおえらんだんだ。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "うえで",
+      "input": "うえで",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "かぞくとそうだんしたうえで、ひっこしをきめました。",
+      "input": "かぞくとそうだんしたうえで、ひっこしおきめました。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "かぞくとそうだんしたうえで、ひっこしをきめたよ。",
+      "input": "かぞくとそうだんしたうえで、ひっこしおきめたよ。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "うえに",
+      "input": "うえに",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "このみせはやすいうえに、おいしいです。",
+      "input": "このみせわやすいうえに、おいしいです。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "このみせ、やすいうえにおいしいね。",
+      "input": "このみせ、やすいうえにおいしいね。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "さいちゅうに",
+      "input": "さいちゅうに",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "りょうりをしているさいちゅうに、でんわがかかってきました。",
+      "input": "りょうりおしているさいちゅうに、でんわがかかってきました。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "りょうりしてるさいちゅうに、でんわがかかってきた。",
+      "input": "りょうりしてるさいちゅうに、でんわがかかってきた。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ついでに",
+      "input": "ついでに",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "かいものにいくついでに、にもつをだしてきます。",
+      "input": "かいものにいくついでに、にもつおだしてきます。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "かいものにいくついでに、にもつをだしてくるね。",
+      "input": "かいものにいくついでに、にもつおだしてくるね。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "おみせにでんわしたところ、きょうはやすみでした。",
+      "input": "おみせにでんわしたところ、きょうわやすみでした。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "おみせにでんわしたところ、きょうはやすみだった。",
+      "input": "おみせにでんわしたところ、きょうわやすみだった。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "てはじめて",
+      "input": "てはじめて",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ひとりぐらしをしてはじめて、かじのたいへんさがわかりました。",
+      "input": "ひとりぐらしおしてはじめて、かじのたいへんさがわかりました。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ひとりぐらしをしてはじめて、かじのたいへんさがわかった。",
+      "input": "ひとりぐらしおしてはじめて、かじのたいへんさがわかった。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ないうちに",
+      "input": "ないうちに",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "あめがふらないうちに、かえりましょう。",
+      "input": "あめがふらないうちに、かえりましょう。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "あめがふらないうちに、かえろう。",
+      "input": "あめがふらないうちに、かえろう。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ようにみえる",
+      "input": "ようにみえる",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "このしゃしんだと、へやがひろいようにみえます。",
+      "input": "このしゃしんだと、へやがひろいようにみえます。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "このしゃしんだと、へやがひろいようにみえるね。",
+      "input": "このしゃしんだと、へやがひろいようにみえるね。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ようにかんじる",
+      "input": "ようにかんじる",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "まえよりいそがしくなったようにかんじます。",
+      "input": "まえよりいそがしくなったようにかんじます。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "まえよりいそがしくなったようにかんじる。",
+      "input": "まえよりいそがしくなったようにかんじる。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ぎみ",
+      "input": "ぎみ",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "さいきん、すこしつかれぎみです。",
+      "input": "さいきん、すこしつかれぎみです。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "さいきん、ちょっとつかれぎみ。",
+      "input": "さいきん、ちょっとつかれぎみ。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "がち",
+      "input": "がち",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "いそがしいと、あさごはんをぬきがちです。",
+      "input": "いそがしいと、あさごはんおぬきがちです。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "いそがしいと、あさごはんをぬきがちなんだ。",
+      "input": "いそがしいと、あさごはんおぬきがちなんだ。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "わけがない",
+      "input": "わけがない",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "このりょうをひとりでたべられるわけがありません。",
+      "input": "このりょうおひとりでたべられるわけがありません。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "このりょう、ひとりでたべられるわけがないよ。",
+      "input": "このりょう、ひとりでたべられるわけがないよ。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "とはかぎらない",
+      "input": "とわかぎらない",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "たかいものがおいしいとはかぎりません。",
+      "input": "たかいものがおいしいとわかぎりません。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "たかいものがおいしいとはかぎらないよ。",
+      "input": "たかいものがおいしいとわかぎらないよ。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ようなら",
+      "input": "ようなら",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "かえりがおそくなるようなら、れんらくしてください。",
+      "input": "かえりがおそくなるようなら、れんらくしてください。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "かえりがおそくなるようなら、れんらくしてね。",
+      "input": "かえりがおそくなるようなら、れんらくしてね。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ようだったら",
+      "input": "ようだったら",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ねつがさがらないようだったら、あしたもやすんでください。",
+      "input": "ねつがさがらないようだったら、あしたもやすんでください。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ねつがさがらないようだったら、あしたもやすんでね。",
+      "input": "ねつがさがらないようだったら、あしたもやすんでね。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ならともかく",
+      "input": "ならともかく",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "しゅうまつならともかく、へいじつはよふかしできません。",
+      "input": "しゅうまつならともかく、へいじつわよふかしできません。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "しゅうまつならともかく、へいじつはよふかしできないよ。",
+      "input": "しゅうまつならともかく、へいじつわよふかしできないよ。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "どころか",
+      "input": "どころか",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "すこしやすむどころか、ひるごはんをたべるじかんもありませんでした。",
+      "input": "すこしやすむどころか、ひるごはんおたべるじかんもありませんでした。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "すこしやすむどころか、ひるごはんをたべるじかんもなかった。",
+      "input": "すこしやすむどころか、ひるごはんおたべるじかんもなかった。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "どころではない",
+      "input": "どころでわない",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ひっこしのじゅんびで、あそびにいくどころではありません。",
+      "input": "ひっこしのじゅんびで、あそびにいくどころでわありません。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ひっこしのじゅんびで、あそびにいくどころじゃない。",
+      "input": "ひっこしのじゅんびで、あそびにいくどころじゃない。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ことなく",
+      "input": "ことなく",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "みちにまようことなく、えきにつきました。",
+      "input": "みちにまようことなく、えきにつきました。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "みちにまようことなく、えきについたよ。",
+      "input": "みちにまようことなく、えきについたよ。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ずにすむ",
+      "input": "ずにすむ",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ともだちがおくってくれたので、タクシーをつかわずにすみました。",
+      "input": "ともだちがおくってくれたので、たくしーおつかわずにすみました。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ともだちがおくってくれたから、タクシーをつかわずにすんだ。",
+      "input": "ともだちがおくってくれたから、たくしーおつかわずにすんだ。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ずにはいられない",
+      "input": "ずにわいられない",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "このしゃしんをみると、わらわずにはいられません。",
+      "input": "このしゃしんおみると、わらわずにわいられません。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "このしゃしんをみると、わらわずにはいられない。",
+      "input": "このしゃしんおみると、わらわずにわいられない。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ないわけにはいかない",
+      "input": "ないわけにわいかない",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "やくそくしたので、いかないわけにはいきません。",
+      "input": "やくそくしたので、いかないわけにわいきません。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "やくそくしたから、いかないわけにはいかない。",
+      "input": "やくそくしたから、いかないわけにわいかない。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "てもしかたがない",
+      "input": "てもしかたがない",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "おわったことをきにしてもしかたがありません。",
+      "input": "おわったことおきにしてもしかたがありません。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "おわったことをきにしてもしょうがないよ。",
+      "input": "おわったことおきにしてもしょうがないよ。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "てもいいくらい",
+      "input": "てもいいくらい",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "つかれていて、いますぐねてもいいくらいです。",
+      "input": "つかれていて、いますぐねてもいいくらいです。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "つかれてて、いますぐねてもいいくらい。",
+      "input": "つかれてて、いますぐねてもいいくらい。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ことにきづく",
+      "input": "ことにきづく",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "えきについてから、さいふをわすれたことにきづきました。",
+      "input": "えきについてから、さいふおわすれたことにきづきました。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "えきについてから、さいふをわすれたことにきづいた。",
+      "input": "えきについてから、さいふおわすれたことにきづいた。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ことになれる",
+      "input": "ことになれる",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "あさはやくおきることになれました。",
+      "input": "あさはやくおきることになれました。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "あさはやくおきることになれたよ。",
+      "input": "あさはやくおきることになれたよ。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ようにきをつける",
+      "input": "ようにきおつける",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "かぎをわすれないようにきをつけています。",
+      "input": "かぎおわすれないようにきおつけています。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "かぎをわすれないようにきをつけてる。",
+      "input": "かぎおわすれないようにきおつけてる。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "ようにこころがける",
+      "input": "ようにこころがける",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "まいにち、すこしあるくようにこころがけています。",
+      "input": "まいにち、すこしあるくようにこころがけています。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "まいにち、すこしあるくようにこころがけてる。",
+      "input": "まいにち、すこしあるくようにこころがけてる。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "になれてくる",
+      "input": "になれてくる",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "あたらしいしごとになれてきました。",
+      "input": "あたらしいしごとになれてきました。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "あたらしいしごとになれてきたよ。",
+      "input": "あたらしいしごとになれてきたよ。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
     }
   ]
 }

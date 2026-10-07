@@ -1982,6 +1982,9 @@ html.vocabulary-cards-open,
 
 .knife-steps-list { max-width: 650px; width: calc(100% - 32px); max-height: 80vh; background: var(--bronze); border: var(--line-weight) solid var(--ink); }
 .knife-steps-list button { display: block; width: 100%; padding: 12px; margin: 8px 0; text-align: left; background: var(--paper); color: var(--ink); border: 2px solid var(--ink); }
+.knife-steps-list .grammar-menu-point { font-weight: 700; }
+.card-menu-search { display: block; width: 100%; box-sizing: border-box; padding: 12px; margin-bottom: 12px; font: inherit; border: 2px solid var(--ink); background: var(--paper); color: var(--ink); }
+.knife-steps-list button.hidden { display: none; }
 
 .vocabulary-card-illustration { display: block; width: 85%; height: 85px; object-fit: contain; object-position: center bottom; margin: 0 auto 10px; }
 .vocabulary-study-card:has(.vocabulary-card-illustration) .vocabulary-card-word-row { display: grid; grid-template-columns: 50px minmax(0, 1fr) 50px; align-items: center; gap: 14px; }

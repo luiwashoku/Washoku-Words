@@ -40,7 +40,7 @@
       furigana.title = furiganaVisible ? "ふりがなを隠す" : "ふりがなを表示する";
     }, { signal });
     toolbar.appendChild(furigana);
-    if (lesson.gameMode === "vocabulary-cards") {
+    {
       const all = document.createElement("button");
       all.type = "button";
       all.className = "icon-button";
@@ -58,21 +58,55 @@
       header.className = "grammarIndexHeader popup-header";
       const title = document.createElement("h2");
       title.id = "vocabularyCardListTitle";
-      title.textContent = lesson.title;
+      title.textContent = lesson.gameMode === "vocabulary-cards" ? lesson.title : "単語カード";
       dialog.setAttribute("aria-labelledby", title.id);
       header.append(title, close);
       close.addEventListener("click", () => dialog.close(), { signal });
       all.addEventListener("click", () => {
         const list = document.createElement("div");
         list.className = "popup-body";
+        const search = document.createElement("input");
+        search.type = "search";
+        search.className = "card-menu-search";
+        search.placeholder = "Search cards…";
+        search.setAttribute("aria-label", "Search cards by Japanese, reading, English, or number");
+        const results = document.createElement("div");
+        const empty = document.createElement("p");
+        empty.textContent = "No matching cards.";
+        empty.hidden = true;
+        const searchable = [];
+        function normalize(text) {
+          return String(text || "").normalize("NFKC").toLowerCase()
+            .replace(/[ァ-ヶ]/g, letter => String.fromCharCode(letter.charCodeAt(0) - 0x60))
+            .replace(/[～〜]/g, "");
+        }
         entries.forEach((word, target) => {
           const button = document.createElement("button");
           button.type = "button";
-          if (lesson.sentenceCards || lesson.readingCards) setJapaneseText(button, `${word.step ? word.step + ". " : ""}${word.kanji || word.japanese}`);
-          else button.textContent = `${word.step ? word.step + ". " : ""}${word.kanji} — ${word.english}`;
+          const number = word.step || target + 1;
+          if (lesson.grammarCards || lesson.gameMode !== "vocabulary-cards") {
+            const point = document.createElement("strong");
+            point.className = "grammar-menu-point";
+            point.textContent = `${number}. ${word.kanji || word.japanese}`;
+            button.append(point, document.createTextNode(` — ${word.english}`));
+          }
+          else if (lesson.sentenceCards || lesson.readingCards) setJapaneseText(button, `${word.step ? word.step + ". " : ""}${word.kanji || word.japanese}`);
+          else button.textContent = `${number ? number + ". " : ""}${word.kanji || word.japanese} — ${word.english}`;
           button.addEventListener("click", () => { move(target - index); dialog.close(); }, { signal });
-          list.appendChild(button);
+          results.appendChild(button);
+          searchable.push({ button, text: normalize(`${number} ${word.kanji || ""} ${word.japanese} ${word.english}`) });
         });
+        search.addEventListener("input", () => {
+          const query = normalize(search.value.trim());
+          let matches = 0;
+          searchable.forEach(item => {
+            const visible = item.text.includes(query);
+            item.button.classList.toggle("hidden", !visible);
+            if (visible) matches++;
+          });
+          empty.hidden = matches > 0;
+        }, { signal });
+        list.append(search, results, empty);
         dialog.replaceChildren(header, list);
         if (lesson.sentenceCards || lesson.readingCards) dialog.classList.toggle("furigana-hidden", !furiganaVisible);
         dialog.showModal();
