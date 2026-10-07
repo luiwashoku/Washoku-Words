@@ -503,3 +503,53 @@ Added servings, plated dishes, slices, spoon measures, rice/cup measures and sma
 ### Auto Response — page 1: Basic reactions
 
 Generated only card 01: 13 reactions plus heading, Marin at 1.0. Reviewed hiragana and connected phrasing; sense-matched whole-word targets and lexical component targets retained, remaining phrase intonation provisional under standing authorization. Exporter/generator now support an explicit --card scope, requiring complete selected-card review and preserving previously generated cards. Full existing counting export remains 534 keys; Auto Response manifest contains exactly the 14 page-1 keys. All 14 clips pass decoded non-silence checks. No listening or audible pitch verification claimed.
+
+### Auto Response — page 2: Understanding
+
+Generated eight realization responses plus heading with reviewed hiragana, phrase boundaries and provisional Tokyo intonation at Marin 1.0. Checked しくみ/いみ and connected そういう; retained brief pauses after complete interjections only. Card-scoped generation preserved all page-1 keys. The manifest contains exactly 23 keys for pages 1–2, all passing decoded non-silence checks. No listening or audible pitch verification claimed.
+
+### Auto Response — page 3: New information
+
+Generated ten reactions plus heading with reviewed hiragana, connected phrase guidance and authorized provisional Tokyo intonation at Marin 1.0. Checked はじめて, きづき, かんがえた and geminated なかった; lexical は preserved. Card-scoped generation retained pages 1–2. Manifest contains exactly the 34 keys for pages 1–3; all pass decoded non-silence checks. No listening or audible pitch verification claimed.
+
+### Auto Response — page 4: Misunderstanding
+
+Generated six responses plus heading at Marin 1.0. Reviewed lexical readings and accent component targets for 勘違い/逆/意味/違う/なるほど; whole-phrase pitch provisional. Template 〜だと思ってました uses spoken example そうだと思ってました, labelled in the English line. Card-scoped generation preserved prior pages. All 41 manifest keys match pages 1–4 and pass decoded non-silence checks. No listening or audible pitch verification claimed.
+
+### Auto Response — page 5: Clarification
+
+Generated eight clarification expressions plus heading at Marin 1.0. Reviewed context readings, heading object を → お, contractions and geminated あって. Four templates use labelled natural examples with 明日/同じ/これ; display templates remain. Whole-phrase pitch provisional under standing authorization. Earlier pages retained; all 50 keys match pages 1–5 and pass decoded non-silence checks. No listening or audible pitch verification claimed.
+
+### Auto Response — page 6: Didn’t understand
+
+Generated nine requests plus heading at Marin 1.0. Reviewed readings and phrase boundaries, retained lexical accent targets, guided repeated vowels in もう一回いいですか and connected どういう. Template 〜って何ですか uses labelled だしって何ですか example. Whole-phrase pitch provisional where unavailable. Earlier pages retained; manifest exactly matches 60 keys for pages 1–6, all passing decoded non-silence checks. No listening or audible pitch verification claimed.
+
+### Auto Response — page 7: Partial understanding
+
+Generated six responses plus heading at Marin 1.0. Reviewed contextual topic は → わ, lexical readings and gemination. Retained sourced component pitch targets with provisional whole-phrase intonation. Guidance keeps particles attached and pauses after the complete clause. Earlier pages retained; all 67 keys match pages 1–7 and pass decoded non-silence checks. No listening or audible pitch verification claimed.
+
+### Auto Response — page 8: Buying time
+
+Generated nine expressions plus heading at Marin 1.0. Reviewed hiragana, heading object を → お, gemination and connected なんていう/なんて言えば phrasing. Guidance requests brief natural hesitation with no drawn-out syllables. Component targets sourced where available; full-phrase pitch provisional. Previous recordings retained; manifest exactly matches 77 keys for pages 1–8, all passing decoded non-silence checks. No listening or audible pitch verification claimed.
+
+### Auto Response — page 9: Keeping them talking
+
+Generated eight follow-up questions plus heading at Marin 1.0. Reviewed lexical readings, heading object を → お and 日本では → にほんでわ with uninterrupted でわ. Retained exact lexical component pitch sources; whole-question intonation provisional. Earlier pages preserved; manifest exactly matches 86 keys for pages 1–9, all passing decoded non-silence checks. No listening or audible pitch verification claimed.
+
+### Auto Response — page 10: Useful information
+
+Generated eight responses plus heading at Marin 1.0. Reviewed readings, long vowels in 聞いて/参考/勉強 and gemination in やって/よかった; connected predicate guidance and brief pauses after それ. Sourced lexical component targets retained; whole-phrase pitch provisional. Previous pages retained; all 95 keys match pages 1–10 and pass decoded non-silence checks. No listening or audible pitch verification claimed.
+
+Regenerated それからどうなったんですか？at Marin 1.0 with explicit connected question phrasing, normal どう vowel length and doubled t in なった. Earlier page clips preserved; all 95 Auto Response recordings pass decoded non-silence checks. No listening verification claimed.
+
+### Auto Response — page 11: Soft disagreement / uncertainty
+
+Generated seven responses plus heading at Marin 1.0. Reviewed contextual は → わ and を → お, long vowels and gemination; guidance requests gentle reflective endings and brief unfinished phrases. Sourced lexical component targets retained; full-phrase pitch provisional. Prior clips preserved; all 103 keys match pages 1–11 and pass decoded non-silence checks. No listening or audible pitch verification claimed.
+
+### Auto Response — page 12: Emotional reactions
+
+Generated thirteen reactions plus heading at Marin 1.0. Reviewed hiragana, appearance-form そう, gemination and heading を → お. Retained sourced whole-word/component pitch targets, with provisional phrase intonation where unavailable. Guidance requests compact natural emotional delivery. Earlier recordings retained; all 117 keys match pages 1–12 and pass decoded non-silence checks. No listening or audible pitch verification claimed.
+
+### Auto Response — final page 13: Short reactions
+
+Generated ten short reactions plus heading at Marin 1.0. Reviewed contextual readings, short あ interjections, geminated そっか and connected そういう. Component accent sources retained; full reaction intonation provisional where unavailable. All 13 pages are now generated. The 128 review/manifest keys exactly match the full deck export, and all clips pass decoded non-silence checks. No listening or audible pitch verification claimed.
