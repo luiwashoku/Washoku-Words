@@ -1,0 +1,4038 @@
+{
+  "title": "数え方カード",
+  "entries": [
+    {
+      "id": "counting-card-01",
+      "step": 1,
+      "kanji": "数字(すうじ)",
+      "japanese": "すうじ",
+      "english": "Numbers",
+      "blocks": [
+        {
+          "heading": "0–10",
+          "numberRows": [
+            {
+              "number": "0",
+              "japanese": "ゼロ",
+              "reading": "ぜろ",
+              "speech": "ぜろ",
+              "irregular": false
+            },
+            {
+              "number": "0",
+              "japanese": "零",
+              "reading": "れい",
+              "speech": "れい",
+              "irregular": false
+            },
+            {
+              "number": "1",
+              "japanese": "一",
+              "reading": "いち",
+              "speech": "いち",
+              "irregular": false
+            },
+            {
+              "number": "2",
+              "japanese": "二",
+              "reading": "に",
+              "speech": "に",
+              "irregular": false
+            },
+            {
+              "number": "3",
+              "japanese": "三",
+              "reading": "さん",
+              "speech": "さん",
+              "irregular": false
+            },
+            {
+              "number": "4",
+              "japanese": "四",
+              "reading": "よん",
+              "speech": "よん",
+              "irregular": false
+            },
+            {
+              "number": "5",
+              "japanese": "五",
+              "reading": "ご",
+              "speech": "ご",
+              "irregular": false
+            },
+            {
+              "number": "6",
+              "japanese": "六",
+              "reading": "ろく",
+              "speech": "ろく",
+              "irregular": false
+            },
+            {
+              "number": "7",
+              "japanese": "七",
+              "reading": "なな",
+              "speech": "なな",
+              "irregular": false
+            },
+            {
+              "number": "8",
+              "japanese": "八",
+              "reading": "はち",
+              "speech": "はち",
+              "irregular": false
+            },
+            {
+              "number": "9",
+              "japanese": "九",
+              "reading": "きゅう",
+              "speech": "きゅう",
+              "irregular": false
+            },
+            {
+              "number": "10",
+              "japanese": "十",
+              "reading": "じゅう",
+              "speech": "じゅう",
+              "irregular": false
+            }
+          ],
+          "note": "For general counting, よん・なな・きゅう are useful defaults. Other readings depend on the counter; see the alternatives below."
+        },
+        {
+          "heading": "11–20",
+          "numberRows": [
+            {
+              "number": "11",
+              "japanese": "十一",
+              "reading": "じゅういち",
+              "speech": "じゅういち",
+              "irregular": false
+            },
+            {
+              "number": "12",
+              "japanese": "十二",
+              "reading": "じゅうに",
+              "speech": "じゅうに",
+              "irregular": false
+            },
+            {
+              "number": "13",
+              "japanese": "十三",
+              "reading": "じゅうさん",
+              "speech": "じゅうさん",
+              "irregular": false
+            },
+            {
+              "number": "14",
+              "japanese": "十四",
+              "reading": "じゅうよん",
+              "speech": "じゅうよん",
+              "irregular": false
+            },
+            {
+              "number": "15",
+              "japanese": "十五",
+              "reading": "じゅうご",
+              "speech": "じゅうご",
+              "irregular": false
+            },
+            {
+              "number": "16",
+              "japanese": "十六",
+              "reading": "じゅうろく",
+              "speech": "じゅうろく",
+              "irregular": false
+            },
+            {
+              "number": "17",
+              "japanese": "十七",
+              "reading": "じゅうなな",
+              "speech": "じゅうなな",
+              "irregular": false
+            },
+            {
+              "number": "18",
+              "japanese": "十八",
+              "reading": "じゅうはち",
+              "speech": "じゅうはち",
+              "irregular": false
+            },
+            {
+              "number": "19",
+              "japanese": "十九",
+              "reading": "じゅうきゅう",
+              "speech": "じゅうきゅう",
+              "irregular": false
+            },
+            {
+              "number": "20",
+              "japanese": "二十",
+              "reading": "にじゅう",
+              "speech": "にじゅう",
+              "irregular": false
+            }
+          ],
+          "note": "Build the teens with 十 + the single digit. Twenty is 二 + 十."
+        },
+        {
+          "heading": "30–90",
+          "numberRows": [
+            {
+              "number": "30",
+              "japanese": "三十",
+              "reading": "さんじゅう",
+              "speech": "さんじゅう",
+              "irregular": false
+            },
+            {
+              "number": "40",
+              "japanese": "四十",
+              "reading": "よんじゅう",
+              "speech": "よんじゅう",
+              "irregular": false
+            },
+            {
+              "number": "50",
+              "japanese": "五十",
+              "reading": "ごじゅう",
+              "speech": "ごじゅう",
+              "irregular": false
+            },
+            {
+              "number": "60",
+              "japanese": "六十",
+              "reading": "ろくじゅう",
+              "speech": "ろくじゅう",
+              "irregular": false
+            },
+            {
+              "number": "70",
+              "japanese": "七十",
+              "reading": "ななじゅう",
+              "speech": "ななじゅう",
+              "irregular": false
+            },
+            {
+              "number": "80",
+              "japanese": "八十",
+              "reading": "はちじゅう",
+              "speech": "はちじゅう",
+              "irregular": false
+            },
+            {
+              "number": "90",
+              "japanese": "九十",
+              "reading": "きゅうじゅう",
+              "speech": "きゅうじゅう",
+              "irregular": false
+            }
+          ],
+          "note": "Single digit + 十. Forty is よんじゅう, seventy ななじゅう, ninety きゅうじゅう."
+        },
+        {
+          "heading": "Hundreds",
+          "numberRows": [
+            {
+              "number": "100",
+              "japanese": "百",
+              "reading": "ひゃく",
+              "speech": "ひゃく",
+              "irregular": false
+            },
+            {
+              "number": "200",
+              "japanese": "二百",
+              "reading": "にひゃく",
+              "speech": "にひゃく",
+              "irregular": false
+            },
+            {
+              "number": "300",
+              "japanese": "三百",
+              "reading": "さんびゃく",
+              "speech": "さんびゃく",
+              "irregular": true
+            },
+            {
+              "number": "400",
+              "japanese": "四百",
+              "reading": "よんひゃく",
+              "speech": "よんひゃく",
+              "irregular": false
+            },
+            {
+              "number": "500",
+              "japanese": "五百",
+              "reading": "ごひゃく",
+              "speech": "ごひゃく",
+              "irregular": false
+            },
+            {
+              "number": "600",
+              "japanese": "六百",
+              "reading": "ろっぴゃく",
+              "speech": "ろっぴゃく",
+              "irregular": true
+            },
+            {
+              "number": "700",
+              "japanese": "七百",
+              "reading": "ななひゃく",
+              "speech": "ななひゃく",
+              "irregular": false
+            },
+            {
+              "number": "800",
+              "japanese": "八百",
+              "reading": "はっぴゃく",
+              "speech": "はっぴゃく",
+              "irregular": true
+            },
+            {
+              "number": "900",
+              "japanese": "九百",
+              "reading": "きゅうひゃく",
+              "speech": "きゅうひゃく",
+              "irregular": false
+            }
+          ],
+          "note": "Orange marks sound changes: 300 さんびゃく, 600 ろっぴゃく, 800 はっぴゃく. Say 百 for 100, not 一百."
+        },
+        {
+          "heading": "Thousands",
+          "numberRows": [
+            {
+              "number": "1,000",
+              "japanese": "千",
+              "reading": "せん",
+              "speech": "せん",
+              "irregular": false
+            },
+            {
+              "number": "2,000",
+              "japanese": "二千",
+              "reading": "にせん",
+              "speech": "にせん",
+              "irregular": false
+            },
+            {
+              "number": "3,000",
+              "japanese": "三千",
+              "reading": "さんぜん",
+              "speech": "さんぜん",
+              "irregular": true
+            },
+            {
+              "number": "4,000",
+              "japanese": "四千",
+              "reading": "よんせん",
+              "speech": "よんせん",
+              "irregular": false
+            },
+            {
+              "number": "5,000",
+              "japanese": "五千",
+              "reading": "ごせん",
+              "speech": "ごせん",
+              "irregular": false
+            },
+            {
+              "number": "6,000",
+              "japanese": "六千",
+              "reading": "ろくせん",
+              "speech": "ろくせん",
+              "irregular": false
+            },
+            {
+              "number": "7,000",
+              "japanese": "七千",
+              "reading": "ななせん",
+              "speech": "ななせん",
+              "irregular": false
+            },
+            {
+              "number": "8,000",
+              "japanese": "八千",
+              "reading": "はっせん",
+              "speech": "はっせん",
+              "irregular": true
+            },
+            {
+              "number": "9,000",
+              "japanese": "九千",
+              "reading": "きゅうせん",
+              "speech": "きゅうせん",
+              "irregular": false
+            }
+          ],
+          "note": "Orange marks 3,000 さんぜん and 8,000 はっせん. Say 千 for 1,000; 一千 is also used in some contexts."
+        },
+        {
+          "heading": "Ten-thousands & larger",
+          "numberRows": [
+            {
+              "number": "10,000",
+              "japanese": "一万",
+              "reading": "いちまん",
+              "speech": "いちまん",
+              "irregular": false
+            },
+            {
+              "number": "100,000",
+              "japanese": "十万",
+              "reading": "じゅうまん",
+              "speech": "じゅうまん",
+              "irregular": false
+            },
+            {
+              "number": "1,000,000",
+              "japanese": "百万",
+              "reading": "ひゃくまん",
+              "speech": "ひゃくまん",
+              "irregular": false
+            },
+            {
+              "number": "10,000,000",
+              "japanese": "千万",
+              "reading": "せんまん",
+              "speech": "せんまん",
+              "irregular": false
+            },
+            {
+              "number": "100,000,000",
+              "japanese": "一億",
+              "reading": "いちおく",
+              "speech": "いちおく",
+              "irregular": false
+            }
+          ],
+          "note": "Japanese groups large numbers by 10,000: 万 = 10,000 and 億 = 100,000,000. Unlike 百 and 千, 10,000 normally includes 一: 一万."
+        },
+        {
+          "heading": "Putting numbers together",
+          "numberRows": [
+            {
+              "number": "21",
+              "japanese": "二十一",
+              "reading": "にじゅういち",
+              "speech": "にじゅういち",
+              "irregular": false
+            },
+            {
+              "number": "42",
+              "japanese": "四十二",
+              "reading": "よんじゅうに",
+              "speech": "よんじゅうに",
+              "irregular": false
+            },
+            {
+              "number": "365",
+              "japanese": "三百六十五",
+              "reading": "さんびゃくろくじゅうご",
+              "speech": "さんびゃくろくじゅうご",
+              "irregular": false
+            },
+            {
+              "number": "1,234",
+              "japanese": "千二百三十四",
+              "reading": "せんにひゃくさんじゅうよん",
+              "speech": "せんにひゃくさんじゅうよん",
+              "irregular": false
+            },
+            {
+              "number": "12,345",
+              "japanese": "一万二千三百四十五",
+              "reading": "いちまんにせんさんびゃくよんじゅうご",
+              "speech": "いちまんにせんさんびゃくよんじゅうご",
+              "irregular": false
+            }
+          ],
+          "note": "Read from the largest unit to the smallest. Do not read a zero for an empty place: 101 is ひゃくいち."
+        },
+        {
+          "heading": "Alternative readings",
+          "numberRows": [
+            {
+              "number": "4 · alternative",
+              "japanese": "四",
+              "reading": "し",
+              "speech": "し",
+              "irregular": false
+            },
+            {
+              "number": "7 · alternative",
+              "japanese": "七",
+              "reading": "しち",
+              "speech": "しち",
+              "irregular": false
+            },
+            {
+              "number": "9 · alternative",
+              "japanese": "九",
+              "reading": "く",
+              "speech": "く",
+              "irregular": false
+            }
+          ],
+          "note": "These are context-dependent alternatives, not replacements everywhere. Examples: 四月 しがつ, 七時 しちじ, 九月 くがつ. Later pages cover these counter-specific readings."
+        },
+        {
+          "japanese": "百一(ひゃくいち)",
+          "english": "101 — no spoken zero",
+          "speech": "ひゃくいち"
+        },
+        {
+          "japanese": "全部(ぜんぶ)で二十(にじゅう)です。",
+          "english": "There are twenty altogether.",
+          "speech": "ぜんぶでにじゅうです。"
+        },
+        {
+          "japanese": "番号(ばんごう)は四十二(よんじゅうに)です。",
+          "english": "The number is forty-two.",
+          "speech": "ばんごうわよんじゅうにです。"
+        }
+      ]
+    },
+    {
+      "id": "counting-card-02",
+      "step": 2,
+      "kanji": "日付(ひづけ)",
+      "japanese": "ひづけ",
+      "english": "Dates · days of the month",
+      "blocks": [
+        {
+          "heading": "1st–10th · memorize these",
+          "numberRows": [
+            {
+              "number": "1",
+              "japanese": "一日",
+              "reading": "ついたち",
+              "speech": "ついたち",
+              "irregular": true
+            },
+            {
+              "number": "2",
+              "japanese": "二日",
+              "reading": "ふつか",
+              "speech": "ふつか",
+              "irregular": true
+            },
+            {
+              "number": "3",
+              "japanese": "三日",
+              "reading": "みっか",
+              "speech": "みっか",
+              "irregular": true
+            },
+            {
+              "number": "4",
+              "japanese": "四日",
+              "reading": "よっか",
+              "speech": "よっか",
+              "irregular": true
+            },
+            {
+              "number": "5",
+              "japanese": "五日",
+              "reading": "いつか",
+              "speech": "いつか",
+              "irregular": true
+            },
+            {
+              "number": "6",
+              "japanese": "六日",
+              "reading": "むいか",
+              "speech": "むいか",
+              "irregular": true
+            },
+            {
+              "number": "7",
+              "japanese": "七日",
+              "reading": "なのか",
+              "speech": "なのか",
+              "irregular": true
+            },
+            {
+              "number": "8",
+              "japanese": "八日",
+              "reading": "ようか",
+              "speech": "ようか",
+              "irregular": true
+            },
+            {
+              "number": "9",
+              "japanese": "九日",
+              "reading": "ここのか",
+              "speech": "ここのか",
+              "irregular": true
+            },
+            {
+              "number": "10",
+              "japanese": "十日",
+              "reading": "とおか",
+              "speech": "とおか",
+              "irregular": true
+            }
+          ],
+          "note": "The 1st is ついたち (calendar date), not いちにち (one day). Distinguish 4日 よっか from 8日 ようか; 6日 is むいか and 9日 is ここのか."
+        },
+        {
+          "heading": "11th–20th",
+          "numberRows": [
+            {
+              "number": "11",
+              "japanese": "十一日",
+              "reading": "じゅういちにち",
+              "speech": "じゅういちにち",
+              "irregular": false
+            },
+            {
+              "number": "12",
+              "japanese": "十二日",
+              "reading": "じゅうににち",
+              "speech": "じゅうににち",
+              "irregular": false
+            },
+            {
+              "number": "13",
+              "japanese": "十三日",
+              "reading": "じゅうさんにち",
+              "speech": "じゅうさんにち",
+              "irregular": false
+            },
+            {
+              "number": "14",
+              "japanese": "十四日",
+              "reading": "じゅうよっか",
+              "speech": "じゅうよっか",
+              "irregular": true
+            },
+            {
+              "number": "15",
+              "japanese": "十五日",
+              "reading": "じゅうごにち",
+              "speech": "じゅうごにち",
+              "irregular": false
+            },
+            {
+              "number": "16",
+              "japanese": "十六日",
+              "reading": "じゅうろくにち",
+              "speech": "じゅうろくにち",
+              "irregular": false
+            },
+            {
+              "number": "17",
+              "japanese": "十七日",
+              "reading": "じゅうしちにち",
+              "speech": "じゅうしちにち",
+              "irregular": true
+            },
+            {
+              "number": "18",
+              "japanese": "十八日",
+              "reading": "じゅうはちにち",
+              "speech": "じゅうはちにち",
+              "irregular": false
+            },
+            {
+              "number": "19",
+              "japanese": "十九日",
+              "reading": "じゅうくにち",
+              "speech": "じゅうくにち",
+              "irregular": true
+            },
+            {
+              "number": "20",
+              "japanese": "二十日",
+              "reading": "はつか",
+              "speech": "はつか",
+              "irregular": true
+            }
+          ],
+          "note": "Key exceptions: 14日 じゅうよっか, 17日 じゅうしちにち, 19日 じゅうくにち, 20日 はつか. Orange marks readings to pay particular attention to."
+        },
+        {
+          "heading": "21st–31st",
+          "numberRows": [
+            {
+              "number": "21",
+              "japanese": "二十一日",
+              "reading": "にじゅういちにち",
+              "speech": "にじゅういちにち",
+              "irregular": false
+            },
+            {
+              "number": "22",
+              "japanese": "二十二日",
+              "reading": "にじゅうににち",
+              "speech": "にじゅうににち",
+              "irregular": false
+            },
+            {
+              "number": "23",
+              "japanese": "二十三日",
+              "reading": "にじゅうさんにち",
+              "speech": "にじゅうさんにち",
+              "irregular": false
+            },
+            {
+              "number": "24",
+              "japanese": "二十四日",
+              "reading": "にじゅうよっか",
+              "speech": "にじゅうよっか",
+              "irregular": true
+            },
+            {
+              "number": "25",
+              "japanese": "二十五日",
+              "reading": "にじゅうごにち",
+              "speech": "にじゅうごにち",
+              "irregular": false
+            },
+            {
+              "number": "26",
+              "japanese": "二十六日",
+              "reading": "にじゅうろくにち",
+              "speech": "にじゅうろくにち",
+              "irregular": false
+            },
+            {
+              "number": "27",
+              "japanese": "二十七日",
+              "reading": "にじゅうしちにち",
+              "speech": "にじゅうしちにち",
+              "irregular": true
+            },
+            {
+              "number": "28",
+              "japanese": "二十八日",
+              "reading": "にじゅうはちにち",
+              "speech": "にじゅうはちにち",
+              "irregular": false
+            },
+            {
+              "number": "29",
+              "japanese": "二十九日",
+              "reading": "にじゅうくにち",
+              "speech": "にじゅうくにち",
+              "irregular": true
+            },
+            {
+              "number": "30",
+              "japanese": "三十日",
+              "reading": "さんじゅうにち",
+              "speech": "さんじゅうにち",
+              "irregular": false
+            },
+            {
+              "number": "31",
+              "japanese": "三十一日",
+              "reading": "さんじゅういちにち",
+              "speech": "さんじゅういちにち",
+              "irregular": false
+            }
+          ],
+          "note": "24日 is にじゅうよっか; 27日 にじゅうしちにち; 29日 にじゅうくにち. Some speakers use なな for 17/27; this page uses the しち readings in the Japan Foundation date chart."
+        },
+        {
+          "heading": "Ask the date",
+          "numberRows": [
+            {
+              "number": "Which date?",
+              "japanese": "何日",
+              "reading": "なんにち",
+              "speech": "なんにち",
+              "irregular": false
+            }
+          ],
+          "note": "何日 is read なんにち. Dates and durations can share forms: 三日 can mean the 3rd or three days; 三日間 clearly means a three-day period. Duration will have its own page."
+        },
+        {
+          "japanese": "今日(きょう)は何日(なんにち)ですか。",
+          "english": "What is the date today?"
+        },
+        {
+          "japanese": "誕生日(たんじょうび)は四月八日(しがつようか)です。",
+          "english": "My birthday is April 8."
+        },
+        {
+          "japanese": "予約(よやく)は十四日(じゅうよっか)です。",
+          "english": "The reservation is for the 14th."
+        },
+        {
+          "japanese": "二十日(はつか)に会(あ)いましょう。",
+          "english": "Let's meet on the 20th."
+        },
+        {
+          "japanese": "次(つぎ)の休(やす)みは二十四日(にじゅうよっか)です。",
+          "english": "My next day off is the 24th."
+        }
+      ]
+    },
+    {
+      "id": "counting-card-03",
+      "step": 3,
+      "kanji": "月(つき)・年(とし)",
+      "japanese": "つき、とし",
+      "english": "Months & Years",
+      "blocks": [
+        {
+          "heading": "January–December",
+          "numberRows": [
+            {
+              "number": "1",
+              "japanese": "一月",
+              "reading": "いちがつ",
+              "speech": "いちがつ",
+              "irregular": false
+            },
+            {
+              "number": "2",
+              "japanese": "二月",
+              "reading": "にがつ",
+              "speech": "にがつ",
+              "irregular": false
+            },
+            {
+              "number": "3",
+              "japanese": "三月",
+              "reading": "さんがつ",
+              "speech": "さんがつ",
+              "irregular": false
+            },
+            {
+              "number": "4",
+              "japanese": "四月",
+              "reading": "しがつ",
+              "speech": "しがつ",
+              "irregular": true
+            },
+            {
+              "number": "5",
+              "japanese": "五月",
+              "reading": "ごがつ",
+              "speech": "ごがつ",
+              "irregular": false
+            },
+            {
+              "number": "6",
+              "japanese": "六月",
+              "reading": "ろくがつ",
+              "speech": "ろくがつ",
+              "irregular": false
+            },
+            {
+              "number": "7",
+              "japanese": "七月",
+              "reading": "しちがつ",
+              "speech": "しちがつ",
+              "irregular": true
+            },
+            {
+              "number": "8",
+              "japanese": "八月",
+              "reading": "はちがつ",
+              "speech": "はちがつ",
+              "irregular": false
+            },
+            {
+              "number": "9",
+              "japanese": "九月",
+              "reading": "くがつ",
+              "speech": "くがつ",
+              "irregular": true
+            },
+            {
+              "number": "10",
+              "japanese": "十月",
+              "reading": "じゅうがつ",
+              "speech": "じゅうがつ",
+              "irregular": false
+            },
+            {
+              "number": "11",
+              "japanese": "十一月",
+              "reading": "じゅういちがつ",
+              "speech": "じゅういちがつ",
+              "irregular": false
+            },
+            {
+              "number": "12",
+              "japanese": "十二月",
+              "reading": "じゅうにがつ",
+              "speech": "じゅうにがつ",
+              "irregular": false
+            }
+          ],
+          "note": "Month names use がつ. Remember April しがつ, July しちがつ, September くがつ. A duration in months uses かげつ; that comes on a separate page."
+        },
+        {
+          "heading": "Calendar years",
+          "numberRows": [
+            {
+              "number": "2000",
+              "japanese": "2000年",
+              "reading": "にせんねん",
+              "speech": "にせんねん",
+              "irregular": false
+            },
+            {
+              "number": "2024",
+              "japanese": "2024年",
+              "reading": "にせんにじゅうよねん",
+              "speech": "にせんにじゅうよねん",
+              "irregular": true
+            },
+            {
+              "number": "2026",
+              "japanese": "2026年",
+              "reading": "にせんにじゅうろくねん",
+              "speech": "にせんにじゅうろくねん",
+              "irregular": false
+            },
+            {
+              "number": "2027",
+              "japanese": "2027年",
+              "reading": "にせんにじゅうしちねん",
+              "speech": "にせんにじゅうしちねん",
+              "irregular": true
+            },
+            {
+              "number": "2029",
+              "japanese": "2029年",
+              "reading": "にせんにじゅうきゅうねん",
+              "speech": "にせんにじゅうきゅうねん",
+              "irregular": false
+            }
+          ],
+          "note": "Read the whole number, then 年（ねん）. A year ending in 4 uses よねん, not よんねん. This page uses しちねん for 7; ななねん is also common. 9年 is きゅうねん."
+        },
+        {
+          "heading": "Relative months & years",
+          "numberRows": [
+            {
+              "number": "Last month",
+              "japanese": "先月",
+              "reading": "せんげつ",
+              "speech": "せんげつ",
+              "irregular": false
+            },
+            {
+              "number": "This month",
+              "japanese": "今月",
+              "reading": "こんげつ",
+              "speech": "こんげつ",
+              "irregular": false
+            },
+            {
+              "number": "Next month",
+              "japanese": "来月",
+              "reading": "らいげつ",
+              "speech": "らいげつ",
+              "irregular": false
+            },
+            {
+              "number": "Every month",
+              "japanese": "毎月",
+              "reading": "まいつき",
+              "speech": "まいつき",
+              "irregular": false
+            },
+            {
+              "number": "Last year",
+              "japanese": "去年",
+              "reading": "きょねん",
+              "speech": "きょねん",
+              "irregular": false
+            },
+            {
+              "number": "This year",
+              "japanese": "今年",
+              "reading": "ことし",
+              "speech": "ことし",
+              "irregular": false
+            },
+            {
+              "number": "Next year",
+              "japanese": "来年",
+              "reading": "らいねん",
+              "speech": "らいねん",
+              "irregular": false
+            },
+            {
+              "number": "Every year",
+              "japanese": "毎年",
+              "reading": "まいとし",
+              "speech": "まいとし",
+              "irregular": false
+            }
+          ],
+          "note": "毎月 can also be read まいげつ, and 毎年 まいねん. This page uses the common conversational readings まいつき and まいとし."
+        },
+        {
+          "heading": "Ask the month or year",
+          "numberRows": [
+            {
+              "number": "Which month?",
+              "japanese": "何月",
+              "reading": "なんがつ",
+              "speech": "なんがつ",
+              "irregular": false
+            },
+            {
+              "number": "Which year?",
+              "japanese": "何年",
+              "reading": "なんねん",
+              "speech": "なんねん",
+              "irregular": false
+            }
+          ]
+        },
+        {
+          "japanese": "今(いま)は何月(なんがつ)ですか。",
+          "english": "What month is it now?"
+        },
+        {
+          "japanese": "誕生日(たんじょうび)は七月(しちがつ)です。",
+          "english": "My birthday is in July."
+        },
+        {
+          "japanese": "来月(らいげつ)、日本(にほん)に行(い)きます。",
+          "english": "I’m going to Japan next month."
+        },
+        {
+          "japanese": "この包丁(ほうちょう)は二千二十四年(にせんにじゅうよねん)に買(か)いました。",
+          "english": "I bought this knife in 2024."
+        },
+        {
+          "japanese": "予約(よやく)は十月七日(じゅうがつなのか)です。",
+          "english": "The reservation is for October 7."
+        }
+      ]
+    },
+    {
+      "id": "counting-card-04",
+      "step": 4,
+      "kanji": "曜日(ようび)",
+      "japanese": "ようび",
+      "english": "Days of the Week",
+      "blocks": [
+        {
+          "heading": "Monday–Sunday",
+          "numberRows": [
+            {
+              "number": "Monday",
+              "japanese": "月曜日",
+              "reading": "げつようび",
+              "speech": "げつようび",
+              "irregular": false
+            },
+            {
+              "number": "Tuesday",
+              "japanese": "火曜日",
+              "reading": "かようび",
+              "speech": "かようび",
+              "irregular": false
+            },
+            {
+              "number": "Wednesday",
+              "japanese": "水曜日",
+              "reading": "すいようび",
+              "speech": "すいようび",
+              "irregular": false
+            },
+            {
+              "number": "Thursday",
+              "japanese": "木曜日",
+              "reading": "もくようび",
+              "speech": "もくようび",
+              "irregular": false
+            },
+            {
+              "number": "Friday",
+              "japanese": "金曜日",
+              "reading": "きんようび",
+              "speech": "きんようび",
+              "irregular": false
+            },
+            {
+              "number": "Saturday",
+              "japanese": "土曜日",
+              "reading": "どようび",
+              "speech": "どようび",
+              "irregular": false
+            },
+            {
+              "number": "Sunday",
+              "japanese": "日曜日",
+              "reading": "にちようび",
+              "speech": "にちようび",
+              "irregular": false
+            }
+          ],
+          "note": "All seven names end in ようび. Keep よう as a long vowel. Calendars often abbreviate them as 月・火・水・木・金・土・日."
+        },
+        {
+          "heading": "Relative days",
+          "numberRows": [
+            {
+              "number": "Day before yesterday",
+              "japanese": "一昨日",
+              "reading": "おととい",
+              "speech": "おととい",
+              "irregular": false
+            },
+            {
+              "number": "Yesterday",
+              "japanese": "昨日",
+              "reading": "きのう",
+              "speech": "きのう",
+              "irregular": false
+            },
+            {
+              "number": "Today",
+              "japanese": "今日",
+              "reading": "きょう",
+              "speech": "きょう",
+              "irregular": false
+            },
+            {
+              "number": "Tomorrow",
+              "japanese": "明日",
+              "reading": "あした",
+              "speech": "あした",
+              "irregular": false
+            },
+            {
+              "number": "Day after tomorrow",
+              "japanese": "明後日",
+              "reading": "あさって",
+              "speech": "あさって",
+              "irregular": false
+            },
+            {
+              "number": "Every day",
+              "japanese": "毎日",
+              "reading": "まいにち",
+              "speech": "まいにち",
+              "irregular": false
+            }
+          ],
+          "note": "This page uses conversational readings: おととい, きのう, きょう, あした, あさって. Preserve the long vowels in きのう and きょう, and the doubled consonant in あさって."
+        },
+        {
+          "heading": "Useful day words",
+          "numberRows": [
+            {
+              "number": "Weekday",
+              "japanese": "平日",
+              "reading": "へいじつ",
+              "speech": "へいじつ",
+              "irregular": false
+            },
+            {
+              "number": "Weekend",
+              "japanese": "週末",
+              "reading": "しゅうまつ",
+              "speech": "しゅうまつ",
+              "irregular": false
+            },
+            {
+              "number": "Public holiday",
+              "japanese": "祝日",
+              "reading": "しゅくじつ",
+              "speech": "しゅくじつ",
+              "irregular": false
+            },
+            {
+              "number": "Which weekday?",
+              "japanese": "何曜日",
+              "reading": "なんようび",
+              "speech": "なんようび",
+              "irregular": false
+            }
+          ],
+          "note": "何曜日 asks the day of the week; 何日 asks the calendar date. 平日 usually means Monday–Friday excluding public holidays."
+        },
+        {
+          "japanese": "今日(きょう)は何曜日(なんようび)ですか。",
+          "english": "What day of the week is it today?"
+        },
+        {
+          "japanese": "月曜日(げつようび)は休(やす)みです。",
+          "english": "I’m off on Monday."
+        },
+        {
+          "japanese": "金曜日(きんようび)に会(あ)おう。",
+          "english": "Let’s meet on Friday."
+        },
+        {
+          "japanese": "明日(あした)、市場(いちば)に行(い)きます。",
+          "english": "I’m going to the market tomorrow."
+        },
+        {
+          "japanese": "週末(しゅうまつ)は何(なに)する？",
+          "english": "What are you doing this weekend?"
+        }
+      ]
+    },
+    {
+      "id": "counting-card-05",
+      "step": 5,
+      "kanji": "時刻(じこく)",
+      "japanese": "じこく",
+      "english": "Clock Time",
+      "blocks": [
+        {
+          "heading": "Hours: 1–12",
+          "numberRows": [
+            {
+              "number": "1",
+              "japanese": "1時",
+              "reading": "いちじ",
+              "speech": "いちじ",
+              "irregular": false
+            },
+            {
+              "number": "2",
+              "japanese": "2時",
+              "reading": "にじ",
+              "speech": "にじ",
+              "irregular": false
+            },
+            {
+              "number": "3",
+              "japanese": "3時",
+              "reading": "さんじ",
+              "speech": "さんじ",
+              "irregular": false
+            },
+            {
+              "number": "4",
+              "japanese": "4時",
+              "reading": "よじ",
+              "speech": "よじ",
+              "irregular": true
+            },
+            {
+              "number": "5",
+              "japanese": "5時",
+              "reading": "ごじ",
+              "speech": "ごじ",
+              "irregular": false
+            },
+            {
+              "number": "6",
+              "japanese": "6時",
+              "reading": "ろくじ",
+              "speech": "ろくじ",
+              "irregular": false
+            },
+            {
+              "number": "7",
+              "japanese": "7時",
+              "reading": "しちじ",
+              "speech": "しちじ",
+              "irregular": true
+            },
+            {
+              "number": "8",
+              "japanese": "8時",
+              "reading": "はちじ",
+              "speech": "はちじ",
+              "irregular": false
+            },
+            {
+              "number": "9",
+              "japanese": "9時",
+              "reading": "くじ",
+              "speech": "くじ",
+              "irregular": true
+            },
+            {
+              "number": "10",
+              "japanese": "10時",
+              "reading": "じゅうじ",
+              "speech": "じゅうじ",
+              "irregular": false
+            },
+            {
+              "number": "11",
+              "japanese": "11時",
+              "reading": "じゅういちじ",
+              "speech": "じゅういちじ",
+              "irregular": false
+            },
+            {
+              "number": "12",
+              "japanese": "12時",
+              "reading": "じゅうにじ",
+              "speech": "じゅうにじ",
+              "irregular": false
+            }
+          ],
+          "note": "Clock hours use じ: 4時 よじ, 7時 しちじ, 9時 くじ. 7時 can also be ななじ. A duration in hours uses じかん; that comes on a separate page."
+        },
+        {
+          "heading": "Minutes: 1–10",
+          "numberRows": [
+            {
+              "number": "1",
+              "japanese": "1分",
+              "reading": "いっぷん",
+              "speech": "いっぷん",
+              "irregular": true
+            },
+            {
+              "number": "2",
+              "japanese": "2分",
+              "reading": "にふん",
+              "speech": "にふん",
+              "irregular": false
+            },
+            {
+              "number": "3",
+              "japanese": "3分",
+              "reading": "さんぷん",
+              "speech": "さんぷん",
+              "irregular": true
+            },
+            {
+              "number": "4",
+              "japanese": "4分",
+              "reading": "よんぷん",
+              "speech": "よんぷん",
+              "irregular": true
+            },
+            {
+              "number": "5",
+              "japanese": "5分",
+              "reading": "ごふん",
+              "speech": "ごふん",
+              "irregular": false
+            },
+            {
+              "number": "6",
+              "japanese": "6分",
+              "reading": "ろっぷん",
+              "speech": "ろっぷん",
+              "irregular": true
+            },
+            {
+              "number": "7",
+              "japanese": "7分",
+              "reading": "ななふん",
+              "speech": "ななふん",
+              "irregular": false
+            },
+            {
+              "number": "8",
+              "japanese": "8分",
+              "reading": "はっぷん",
+              "speech": "はっぷん",
+              "irregular": true
+            },
+            {
+              "number": "9",
+              "japanese": "9分",
+              "reading": "きゅうふん",
+              "speech": "きゅうふん",
+              "irregular": false
+            },
+            {
+              "number": "10",
+              "japanese": "10分",
+              "reading": "じゅっぷん",
+              "speech": "じゅっぷん",
+              "irregular": true
+            }
+          ],
+          "note": "Listen for ふん → ぷん and doubled consonants. 4分 can also be よんふん, 8分 はちふん, and 10分 じっぷん. This page uses よんぷん・はっぷん・じゅっぷん."
+        },
+        {
+          "heading": "Useful minute marks",
+          "numberRows": [
+            {
+              "number": "15",
+              "japanese": "15分",
+              "reading": "じゅうごふん",
+              "speech": "じゅうごふん",
+              "irregular": false
+            },
+            {
+              "number": "20",
+              "japanese": "20分",
+              "reading": "にじゅっぷん",
+              "speech": "にじゅっぷん",
+              "irregular": false
+            },
+            {
+              "number": "30",
+              "japanese": "30分",
+              "reading": "さんじゅっぷん",
+              "speech": "さんじゅっぷん",
+              "irregular": false
+            },
+            {
+              "number": "40",
+              "japanese": "40分",
+              "reading": "よんじゅっぷん",
+              "speech": "よんじゅっぷん",
+              "irregular": false
+            },
+            {
+              "number": "45",
+              "japanese": "45分",
+              "reading": "よんじゅうごふん",
+              "speech": "よんじゅうごふん",
+              "irregular": false
+            },
+            {
+              "number": "50",
+              "japanese": "50分",
+              "reading": "ごじゅっぷん",
+              "speech": "ごじゅっぷん",
+              "irregular": false
+            }
+          ],
+          "note": "Build other minutes from tens + the final digit: 21分 にじゅういっぷん. Half past can be said as ～時半."
+        },
+        {
+          "heading": "AM, PM & questions",
+          "numberRows": [
+            {
+              "number": "AM",
+              "japanese": "午前",
+              "reading": "ごぜん",
+              "speech": "ごぜん",
+              "irregular": false
+            },
+            {
+              "number": "PM",
+              "japanese": "午後",
+              "reading": "ごご",
+              "speech": "ごご",
+              "irregular": false
+            },
+            {
+              "number": "Half past",
+              "japanese": "半",
+              "reading": "はん",
+              "speech": "はん",
+              "irregular": false
+            },
+            {
+              "number": "What hour?",
+              "japanese": "何時",
+              "reading": "なんじ",
+              "speech": "なんじ",
+              "irregular": false
+            },
+            {
+              "number": "How many minutes?",
+              "japanese": "何分",
+              "reading": "なんぷん",
+              "speech": "なんぷん",
+              "irregular": false
+            }
+          ],
+          "note": "Read times as hour + minute: 7:15 しちじじゅうごふん. 午前 is before noon; 午後 is after noon. In 24-hour notation, 14:00 is じゅうよじ; 0:00 is れいじ."
+        },
+        {
+          "heading": "Putting times together",
+          "numberRows": [
+            {
+              "number": "7:15",
+              "japanese": "7時15分",
+              "reading": "しちじじゅうごふん",
+              "speech": "しちじじゅうごふん",
+              "irregular": false
+            },
+            {
+              "number": "9:30",
+              "japanese": "9時半",
+              "reading": "くじはん",
+              "speech": "くじはん",
+              "irregular": false
+            },
+            {
+              "number": "2:45 PM",
+              "japanese": "午後2時45分",
+              "reading": "ごごにじよんじゅうごふん",
+              "speech": "ごごにじよんじゅうごふん",
+              "irregular": false
+            }
+          ]
+        },
+        {
+          "japanese": "今(いま)、何時(なんじ)ですか。",
+          "english": "What time is it now?"
+        },
+        {
+          "japanese": "朝(あさ)は七時半(しちじはん)に起(お)きます。",
+          "english": "I get up at 7:30 in the morning."
+        },
+        {
+          "japanese": "予約(よやく)は午後六時(ごごろくじ)です。",
+          "english": "The reservation is at 6 PM."
+        },
+        {
+          "japanese": "九時十五分(くじじゅうごふん)に会(あ)おう。",
+          "english": "Let’s meet at 9:15."
+        },
+        {
+          "japanese": "お店(みせ)は十時(じゅうじ)からです。",
+          "english": "The shop opens at ten."
+        }
+      ]
+    },
+    {
+      "id": "counting-card-06",
+      "step": 6,
+      "kanji": "期間(きかん)",
+      "japanese": "きかん",
+      "english": "Durations",
+      "blocks": [
+        {
+          "heading": "Hours: 1–10",
+          "numberRows": [
+            {
+              "number": "1",
+              "japanese": "1時間",
+              "reading": "いちじかん",
+              "speech": "いちじかん",
+              "irregular": false
+            },
+            {
+              "number": "2",
+              "japanese": "2時間",
+              "reading": "にじかん",
+              "speech": "にじかん",
+              "irregular": false
+            },
+            {
+              "number": "3",
+              "japanese": "3時間",
+              "reading": "さんじかん",
+              "speech": "さんじかん",
+              "irregular": false
+            },
+            {
+              "number": "4",
+              "japanese": "4時間",
+              "reading": "よじかん",
+              "speech": "よじかん",
+              "irregular": true
+            },
+            {
+              "number": "5",
+              "japanese": "5時間",
+              "reading": "ごじかん",
+              "speech": "ごじかん",
+              "irregular": false
+            },
+            {
+              "number": "6",
+              "japanese": "6時間",
+              "reading": "ろくじかん",
+              "speech": "ろくじかん",
+              "irregular": false
+            },
+            {
+              "number": "7",
+              "japanese": "7時間",
+              "reading": "しちじかん",
+              "speech": "しちじかん",
+              "irregular": true
+            },
+            {
+              "number": "8",
+              "japanese": "8時間",
+              "reading": "はちじかん",
+              "speech": "はちじかん",
+              "irregular": false
+            },
+            {
+              "number": "9",
+              "japanese": "9時間",
+              "reading": "くじかん",
+              "speech": "くじかん",
+              "irregular": true
+            },
+            {
+              "number": "10",
+              "japanese": "10時間",
+              "reading": "じゅうじかん",
+              "speech": "じゅうじかん",
+              "irregular": false
+            }
+          ],
+          "note": "Hours of duration use じかん, not clock-time じ. This page uses しちじかん and くじかん; ななじかん and きゅうじかん are also used."
+        },
+        {
+          "heading": "Days: 1–10",
+          "numberRows": [
+            {
+              "number": "1",
+              "japanese": "1日",
+              "reading": "いちにち",
+              "speech": "いちにち",
+              "irregular": true
+            },
+            {
+              "number": "2",
+              "japanese": "2日",
+              "reading": "ふつか",
+              "speech": "ふつか",
+              "irregular": true
+            },
+            {
+              "number": "3",
+              "japanese": "3日",
+              "reading": "みっか",
+              "speech": "みっか",
+              "irregular": true
+            },
+            {
+              "number": "4",
+              "japanese": "4日",
+              "reading": "よっか",
+              "speech": "よっか",
+              "irregular": true
+            },
+            {
+              "number": "5",
+              "japanese": "5日",
+              "reading": "いつか",
+              "speech": "いつか",
+              "irregular": true
+            },
+            {
+              "number": "6",
+              "japanese": "6日",
+              "reading": "むいか",
+              "speech": "むいか",
+              "irregular": true
+            },
+            {
+              "number": "7",
+              "japanese": "7日",
+              "reading": "なのか",
+              "speech": "なのか",
+              "irregular": true
+            },
+            {
+              "number": "8",
+              "japanese": "8日",
+              "reading": "ようか",
+              "speech": "ようか",
+              "irregular": true
+            },
+            {
+              "number": "9",
+              "japanese": "9日",
+              "reading": "ここのか",
+              "speech": "ここのか",
+              "irregular": true
+            },
+            {
+              "number": "10",
+              "japanese": "10日",
+              "reading": "とおか",
+              "speech": "とおか",
+              "irregular": true
+            }
+          ],
+          "note": "One day is いちにち; the 1st of the month is ついたち. From two days onward, the forms match the calendar dates. Add 間（かん）to emphasize a period: 三日間 みっかかん."
+        },
+        {
+          "heading": "Weeks: 1–10",
+          "numberRows": [
+            {
+              "number": "1",
+              "japanese": "1週間",
+              "reading": "いっしゅうかん",
+              "speech": "いっしゅうかん",
+              "irregular": true
+            },
+            {
+              "number": "2",
+              "japanese": "2週間",
+              "reading": "にしゅうかん",
+              "speech": "にしゅうかん",
+              "irregular": false
+            },
+            {
+              "number": "3",
+              "japanese": "3週間",
+              "reading": "さんしゅうかん",
+              "speech": "さんしゅうかん",
+              "irregular": false
+            },
+            {
+              "number": "4",
+              "japanese": "4週間",
+              "reading": "よんしゅうかん",
+              "speech": "よんしゅうかん",
+              "irregular": false
+            },
+            {
+              "number": "5",
+              "japanese": "5週間",
+              "reading": "ごしゅうかん",
+              "speech": "ごしゅうかん",
+              "irregular": false
+            },
+            {
+              "number": "6",
+              "japanese": "6週間",
+              "reading": "ろくしゅうかん",
+              "speech": "ろくしゅうかん",
+              "irregular": false
+            },
+            {
+              "number": "7",
+              "japanese": "7週間",
+              "reading": "ななしゅうかん",
+              "speech": "ななしゅうかん",
+              "irregular": false
+            },
+            {
+              "number": "8",
+              "japanese": "8週間",
+              "reading": "はっしゅうかん",
+              "speech": "はっしゅうかん",
+              "irregular": true
+            },
+            {
+              "number": "9",
+              "japanese": "9週間",
+              "reading": "きゅうしゅうかん",
+              "speech": "きゅうしゅうかん",
+              "irregular": false
+            },
+            {
+              "number": "10",
+              "japanese": "10週間",
+              "reading": "じゅっしゅうかん",
+              "speech": "じゅっしゅうかん",
+              "irregular": true
+            }
+          ],
+          "note": "Watch the doubled consonants in 1・8・10 weeks. 10週間 can also be じっしゅうかん."
+        },
+        {
+          "heading": "Months: 1–10",
+          "numberRows": [
+            {
+              "number": "1",
+              "japanese": "1か月",
+              "reading": "いっかげつ",
+              "speech": "いっかげつ",
+              "irregular": true
+            },
+            {
+              "number": "2",
+              "japanese": "2か月",
+              "reading": "にかげつ",
+              "speech": "にかげつ",
+              "irregular": false
+            },
+            {
+              "number": "3",
+              "japanese": "3か月",
+              "reading": "さんかげつ",
+              "speech": "さんかげつ",
+              "irregular": false
+            },
+            {
+              "number": "4",
+              "japanese": "4か月",
+              "reading": "よんかげつ",
+              "speech": "よんかげつ",
+              "irregular": false
+            },
+            {
+              "number": "5",
+              "japanese": "5か月",
+              "reading": "ごかげつ",
+              "speech": "ごかげつ",
+              "irregular": false
+            },
+            {
+              "number": "6",
+              "japanese": "6か月",
+              "reading": "ろっかげつ",
+              "speech": "ろっかげつ",
+              "irregular": true
+            },
+            {
+              "number": "7",
+              "japanese": "7か月",
+              "reading": "ななかげつ",
+              "speech": "ななかげつ",
+              "irregular": false
+            },
+            {
+              "number": "8",
+              "japanese": "8か月",
+              "reading": "はっかげつ",
+              "speech": "はっかげつ",
+              "irregular": true
+            },
+            {
+              "number": "9",
+              "japanese": "9か月",
+              "reading": "きゅうかげつ",
+              "speech": "きゅうかげつ",
+              "irregular": false
+            },
+            {
+              "number": "10",
+              "japanese": "10か月",
+              "reading": "じゅっかげつ",
+              "speech": "じゅっかげつ",
+              "irregular": true
+            }
+          ],
+          "note": "Duration uses かげつ: 一か月 いっかげつ. January is 一月 いちがつ. 8か月 can also be はちかげつ; 10か月 じっかげつ."
+        },
+        {
+          "heading": "Years: 1–10",
+          "numberRows": [
+            {
+              "number": "1",
+              "japanese": "1年",
+              "reading": "いちねん",
+              "speech": "いちねん",
+              "irregular": false
+            },
+            {
+              "number": "2",
+              "japanese": "2年",
+              "reading": "にねん",
+              "speech": "にねん",
+              "irregular": false
+            },
+            {
+              "number": "3",
+              "japanese": "3年",
+              "reading": "さんねん",
+              "speech": "さんねん",
+              "irregular": false
+            },
+            {
+              "number": "4",
+              "japanese": "4年",
+              "reading": "よねん",
+              "speech": "よねん",
+              "irregular": true
+            },
+            {
+              "number": "5",
+              "japanese": "5年",
+              "reading": "ごねん",
+              "speech": "ごねん",
+              "irregular": false
+            },
+            {
+              "number": "6",
+              "japanese": "6年",
+              "reading": "ろくねん",
+              "speech": "ろくねん",
+              "irregular": false
+            },
+            {
+              "number": "7",
+              "japanese": "7年",
+              "reading": "しちねん",
+              "speech": "しちねん",
+              "irregular": true
+            },
+            {
+              "number": "8",
+              "japanese": "8年",
+              "reading": "はちねん",
+              "speech": "はちねん",
+              "irregular": false
+            },
+            {
+              "number": "9",
+              "japanese": "9年",
+              "reading": "きゅうねん",
+              "speech": "きゅうねん",
+              "irregular": false
+            },
+            {
+              "number": "10",
+              "japanese": "10年",
+              "reading": "じゅうねん",
+              "speech": "じゅうねん",
+              "irregular": false
+            }
+          ],
+          "note": "4年 is よねん. This page uses しちねん for 7年; ななねん is also common. Add 間（かん）when helpful: 一年間 いちねんかん."
+        },
+        {
+          "heading": "Half & questions",
+          "numberRows": [
+            {
+              "number": "1½ hours",
+              "japanese": "1時間半",
+              "reading": "いちじかんはん",
+              "speech": "いちじかんはん",
+              "irregular": false
+            },
+            {
+              "number": "Half a year",
+              "japanese": "半年",
+              "reading": "はんとし",
+              "speech": "はんとし",
+              "irregular": false
+            },
+            {
+              "number": "How many hours?",
+              "japanese": "何時間",
+              "reading": "なんじかん",
+              "speech": "なんじかん",
+              "irregular": false
+            },
+            {
+              "number": "How many days?",
+              "japanese": "何日",
+              "reading": "なんにち",
+              "speech": "なんにち",
+              "irregular": false
+            },
+            {
+              "number": "How many weeks?",
+              "japanese": "何週間",
+              "reading": "なんしゅうかん",
+              "speech": "なんしゅうかん",
+              "irregular": false
+            },
+            {
+              "number": "How many months?",
+              "japanese": "何か月",
+              "reading": "なんかげつ",
+              "speech": "なんかげつ",
+              "irregular": false
+            },
+            {
+              "number": "How many years?",
+              "japanese": "何年",
+              "reading": "なんねん",
+              "speech": "なんねん",
+              "irregular": false
+            }
+          ],
+          "note": "Minutes work the same way for a duration as for clock time; see the previous page. どのくらい asks “how long?” more generally."
+        },
+        {
+          "japanese": "駅(えき)まで一時間(いちじかん)ぐらいかかります。",
+          "english": "It takes about an hour to get to the station."
+        },
+        {
+          "japanese": "日本(にほん)に三日間(みっかかん)滞在(たいざい)します。",
+          "english": "I’ll stay in Japan for three days."
+        },
+        {
+          "japanese": "一週間(いっしゅうかん)、休(やす)みを取(と)ります。",
+          "english": "I’m taking a week off."
+        },
+        {
+          "japanese": "日本語(にほんご)を六(ろっ)か月(げつ)勉強(べんきょう)しています。",
+          "english": "I’ve been studying Japanese for six months.",
+          "speech": "にほんごをろっかげつべんきょうしています。"
+        },
+        {
+          "japanese": "この包丁(ほうちょう)は四年(よねん)使(つか)っています。",
+          "english": "I’ve been using this knife for four years."
+        }
+      ]
+    },
+    {
+      "id": "counting-card-07",
+      "step": 7,
+      "kanji": "人数(にんずう)",
+      "japanese": "にんずう",
+      "english": "Counting People",
+      "blocks": [
+        {
+          "heading": "People: 1–10",
+          "numberRows": [
+            {
+              "number": "1",
+              "japanese": "一人",
+              "reading": "ひとり",
+              "speech": "ひとり",
+              "irregular": true
+            },
+            {
+              "number": "2",
+              "japanese": "二人",
+              "reading": "ふたり",
+              "speech": "ふたり",
+              "irregular": true
+            },
+            {
+              "number": "3",
+              "japanese": "三人",
+              "reading": "さんにん",
+              "speech": "さんにん",
+              "irregular": false
+            },
+            {
+              "number": "4",
+              "japanese": "四人",
+              "reading": "よにん",
+              "speech": "よにん",
+              "irregular": true
+            },
+            {
+              "number": "5",
+              "japanese": "五人",
+              "reading": "ごにん",
+              "speech": "ごにん",
+              "irregular": false
+            },
+            {
+              "number": "6",
+              "japanese": "六人",
+              "reading": "ろくにん",
+              "speech": "ろくにん",
+              "irregular": false
+            },
+            {
+              "number": "7",
+              "japanese": "七人",
+              "reading": "ななにん",
+              "speech": "ななにん",
+              "irregular": false
+            },
+            {
+              "number": "8",
+              "japanese": "八人",
+              "reading": "はちにん",
+              "speech": "はちにん",
+              "irregular": false
+            },
+            {
+              "number": "9",
+              "japanese": "九人",
+              "reading": "きゅうにん",
+              "speech": "きゅうにん",
+              "irregular": false
+            },
+            {
+              "number": "10",
+              "japanese": "十人",
+              "reading": "じゅうにん",
+              "speech": "じゅうにん",
+              "irregular": false
+            }
+          ],
+          "note": "Use 人 for people. Memorize 一人 ひとり, 二人 ふたり, 四人 よにん. This page uses ななにん for 7; しちにん is also used."
+        },
+        {
+          "heading": "Larger groups & questions",
+          "numberRows": [
+            {
+              "number": "11",
+              "japanese": "十一人",
+              "reading": "じゅういちにん",
+              "speech": "じゅういちにん",
+              "irregular": false
+            },
+            {
+              "number": "12",
+              "japanese": "十二人",
+              "reading": "じゅうににん",
+              "speech": "じゅうににん",
+              "irregular": false
+            },
+            {
+              "number": "14",
+              "japanese": "十四人",
+              "reading": "じゅうよにん",
+              "speech": "じゅうよにん",
+              "irregular": true
+            },
+            {
+              "number": "20",
+              "japanese": "二十人",
+              "reading": "にじゅうにん",
+              "speech": "にじゅうにん",
+              "irregular": false
+            },
+            {
+              "number": "How many?",
+              "japanese": "何人",
+              "reading": "なんにん",
+              "speech": "なんにん",
+              "irregular": false
+            }
+          ],
+          "note": "Above ten, use the number + にん: 11人 じゅういちにん, 12人 じゅうににん. A final 4 uses よにん: 14人 じゅうよにん. 何人 asks how many people."
+        },
+        {
+          "heading": "Together or on your own",
+          "numberRows": [
+            {
+              "number": "On my own",
+              "japanese": "一人で",
+              "reading": "ひとりで",
+              "speech": "ひとりで",
+              "irregular": false
+            },
+            {
+              "number": "The two of us",
+              "japanese": "二人で",
+              "reading": "ふたりで",
+              "speech": "ふたりで",
+              "irregular": false
+            },
+            {
+              "number": "Three people together",
+              "japanese": "三人で",
+              "reading": "さんにんで",
+              "speech": "さんにんで",
+              "irregular": false
+            }
+          ],
+          "note": "～人で describes the group doing something together. 一人で means alone / on your own. For restaurant reservations, you may also hear the polite counter 名（めい）."
+        },
+        {
+          "japanese": "何人(なんにん)ですか。",
+          "english": "How many people?"
+        },
+        {
+          "japanese": "二人(ふたり)です。",
+          "english": "There are two of us."
+        },
+        {
+          "japanese": "四人(よにん)で予約(よやく)したいです。",
+          "english": "I’d like to make a reservation for four."
+        },
+        {
+          "japanese": "今日(きょう)は一人(ひとり)で食(た)べます。",
+          "english": "I’m eating on my own today."
+        },
+        {
+          "japanese": "三人(さんにん)で行(い)こう。",
+          "english": "Let’s go, the three of us."
+        }
+      ]
+    },
+    {
+      "id": "counting-card-08",
+      "step": 8,
+      "kanji": "物(もの)の数(かず)",
+      "japanese": "もののかず",
+      "english": "Counting Objects",
+      "blocks": [
+        {
+          "heading": "General things: 〜つ",
+          "numberRows": [
+            {
+              "number": "1",
+              "japanese": "一つ",
+              "reading": "ひとつ",
+              "speech": "ひとつ",
+              "irregular": false
+            },
+            {
+              "number": "2",
+              "japanese": "二つ",
+              "reading": "ふたつ",
+              "speech": "ふたつ",
+              "irregular": false
+            },
+            {
+              "number": "3",
+              "japanese": "三つ",
+              "reading": "みっつ",
+              "speech": "みっつ",
+              "irregular": true
+            },
+            {
+              "number": "4",
+              "japanese": "四つ",
+              "reading": "よっつ",
+              "speech": "よっつ",
+              "irregular": true
+            },
+            {
+              "number": "5",
+              "japanese": "五つ",
+              "reading": "いつつ",
+              "speech": "いつつ",
+              "irregular": false
+            },
+            {
+              "number": "6",
+              "japanese": "六つ",
+              "reading": "むっつ",
+              "speech": "むっつ",
+              "irregular": true
+            },
+            {
+              "number": "7",
+              "japanese": "七つ",
+              "reading": "ななつ",
+              "speech": "ななつ",
+              "irregular": false
+            },
+            {
+              "number": "8",
+              "japanese": "八つ",
+              "reading": "やっつ",
+              "speech": "やっつ",
+              "irregular": true
+            },
+            {
+              "number": "9",
+              "japanese": "九つ",
+              "reading": "ここのつ",
+              "speech": "ここのつ",
+              "irregular": false
+            },
+            {
+              "number": "10",
+              "japanese": "十",
+              "reading": "とお",
+              "speech": "とお",
+              "irregular": true
+            }
+          ],
+          "note": "A useful general counter for things and orders. Memorize these forms; ten is とお, without つ. This set stops at ten. Use a suitable counter such as 個 for larger numbers. Use 人 for people."
+        },
+        {
+          "heading": "Small individual objects: 〜個",
+          "numberRows": [
+            {
+              "number": "1",
+              "japanese": "一個",
+              "reading": "いっこ",
+              "speech": "いっこ",
+              "irregular": true
+            },
+            {
+              "number": "2",
+              "japanese": "二個",
+              "reading": "にこ",
+              "speech": "にこ",
+              "irregular": false
+            },
+            {
+              "number": "3",
+              "japanese": "三個",
+              "reading": "さんこ",
+              "speech": "さんこ",
+              "irregular": false
+            },
+            {
+              "number": "4",
+              "japanese": "四個",
+              "reading": "よんこ",
+              "speech": "よんこ",
+              "irregular": false
+            },
+            {
+              "number": "5",
+              "japanese": "五個",
+              "reading": "ごこ",
+              "speech": "ごこ",
+              "irregular": false
+            },
+            {
+              "number": "6",
+              "japanese": "六個",
+              "reading": "ろっこ",
+              "speech": "ろっこ",
+              "irregular": true
+            },
+            {
+              "number": "7",
+              "japanese": "七個",
+              "reading": "ななこ",
+              "speech": "ななこ",
+              "irregular": false
+            },
+            {
+              "number": "8",
+              "japanese": "八個",
+              "reading": "はっこ",
+              "speech": "はっこ",
+              "irregular": true
+            },
+            {
+              "number": "9",
+              "japanese": "九個",
+              "reading": "きゅうこ",
+              "speech": "きゅうこ",
+              "irregular": false
+            },
+            {
+              "number": "10",
+              "japanese": "十個",
+              "reading": "じゅっこ",
+              "speech": "じゅっこ",
+              "irregular": true
+            }
+          ],
+          "note": "個 counts individual objects such as eggs, apples and small items. Watch いっこ・ろっこ・はっこ・じゅっこ. 10個 can also be じっこ."
+        },
+        {
+          "heading": "Questions & larger numbers",
+          "numberRows": [
+            {
+              "number": "How many things?",
+              "japanese": "いくつ",
+              "reading": "いくつ",
+              "speech": "いくつ",
+              "irregular": false
+            },
+            {
+              "number": "How many objects?",
+              "japanese": "何個",
+              "reading": "なんこ",
+              "speech": "なんこ",
+              "irregular": false
+            },
+            {
+              "number": "11 objects",
+              "japanese": "十一個",
+              "reading": "じゅういっこ",
+              "speech": "じゅういっこ",
+              "irregular": true
+            },
+            {
+              "number": "20 objects",
+              "japanese": "二十個",
+              "reading": "にじゅっこ",
+              "speech": "にじゅっこ",
+              "irregular": true
+            }
+          ],
+          "note": "いくつ is the general “how many?” question; 何個 asks specifically for individual objects. Put the count after the object and particle: 卵を二個買います."
+        },
+        {
+          "japanese": "これを一(ひと)つください。",
+          "english": "One of these, please.",
+          "speech": "これをひとつください。"
+        },
+        {
+          "japanese": "卵(たまご)を二個(にこ)買(か)います。",
+          "english": "I’ll buy two eggs.",
+          "speech": "たまごをにこかいます。"
+        },
+        {
+          "japanese": "おにぎりを三(みっ)つお願(ねが)いします。",
+          "english": "Three rice balls, please.",
+          "speech": "おにぎりをみっつおねがいします。"
+        },
+        {
+          "japanese": "りんごは何個(なんこ)ありますか。",
+          "english": "How many apples are there?",
+          "speech": "りんごはなんこありますか。"
+        },
+        {
+          "japanese": "あといくつ必要(ひつよう)？",
+          "english": "How many more do we need?",
+          "speech": "あといくつひつよう？"
+        }
+      ]
+    },
+    {
+      "id": "counting-card-09",
+      "step": 9,
+      "kanji": "本(ほん)・杯(はい)",
+      "japanese": "ほん、はい",
+      "english": "Long Objects & Drinks",
+      "blocks": [
+        {
+          "heading": "Long objects: 〜本",
+          "numberRows": [
+            {
+              "number": "1",
+              "japanese": "一本",
+              "reading": "いっぽん",
+              "speech": "いっぽん",
+              "irregular": true
+            },
+            {
+              "number": "2",
+              "japanese": "二本",
+              "reading": "にほん",
+              "speech": "にほん",
+              "irregular": false
+            },
+            {
+              "number": "3",
+              "japanese": "三本",
+              "reading": "さんぼん",
+              "speech": "さんぼん",
+              "irregular": true
+            },
+            {
+              "number": "4",
+              "japanese": "四本",
+              "reading": "よんほん",
+              "speech": "よんほん",
+              "irregular": false
+            },
+            {
+              "number": "5",
+              "japanese": "五本",
+              "reading": "ごほん",
+              "speech": "ごほん",
+              "irregular": false
+            },
+            {
+              "number": "6",
+              "japanese": "六本",
+              "reading": "ろっぽん",
+              "speech": "ろっぽん",
+              "irregular": true
+            },
+            {
+              "number": "7",
+              "japanese": "七本",
+              "reading": "ななほん",
+              "speech": "ななほん",
+              "irregular": false
+            },
+            {
+              "number": "8",
+              "japanese": "八本",
+              "reading": "はっぽん",
+              "speech": "はっぽん",
+              "irregular": true
+            },
+            {
+              "number": "9",
+              "japanese": "九本",
+              "reading": "きゅうほん",
+              "speech": "きゅうほん",
+              "irregular": false
+            },
+            {
+              "number": "10",
+              "japanese": "十本",
+              "reading": "じゅっぽん",
+              "speech": "じゅっぽん",
+              "irregular": true
+            }
+          ],
+          "note": "本 counts long, narrow objects such as bottles, pencils, bananas and cucumbers. Listen for ほん → ぽん / ぼん. 10本 can also be じっぽん. Books use 冊, even though the word for a book is 本（ほん）."
+        },
+        {
+          "heading": "Cups & glasses: 〜杯",
+          "numberRows": [
+            {
+              "number": "1",
+              "japanese": "一杯",
+              "reading": "いっぱい",
+              "speech": "いっぱい",
+              "irregular": true
+            },
+            {
+              "number": "2",
+              "japanese": "二杯",
+              "reading": "にはい",
+              "speech": "にはい",
+              "irregular": false
+            },
+            {
+              "number": "3",
+              "japanese": "三杯",
+              "reading": "さんばい",
+              "speech": "さんばい",
+              "irregular": true
+            },
+            {
+              "number": "4",
+              "japanese": "四杯",
+              "reading": "よんはい",
+              "speech": "よんはい",
+              "irregular": false
+            },
+            {
+              "number": "5",
+              "japanese": "五杯",
+              "reading": "ごはい",
+              "speech": "ごはい",
+              "irregular": false
+            },
+            {
+              "number": "6",
+              "japanese": "六杯",
+              "reading": "ろっぱい",
+              "speech": "ろっぱい",
+              "irregular": true
+            },
+            {
+              "number": "7",
+              "japanese": "七杯",
+              "reading": "ななはい",
+              "speech": "ななはい",
+              "irregular": false
+            },
+            {
+              "number": "8",
+              "japanese": "八杯",
+              "reading": "はっぱい",
+              "speech": "はっぱい",
+              "irregular": true
+            },
+            {
+              "number": "9",
+              "japanese": "九杯",
+              "reading": "きゅうはい",
+              "speech": "きゅうはい",
+              "irregular": false
+            },
+            {
+              "number": "10",
+              "japanese": "十杯",
+              "reading": "じゅっぱい",
+              "speech": "じゅっぱい",
+              "irregular": true
+            }
+          ],
+          "note": "杯 counts drinks served in cups or glasses, and bowlfuls such as rice. Listen for はい → ぱい / ばい. 10杯 can also be じっぱい. A bottle of water uses 本; a glass of water uses 杯."
+        },
+        {
+          "heading": "Ask how many",
+          "numberRows": [
+            {
+              "number": "How many long objects?",
+              "japanese": "何本",
+              "reading": "なんぼん",
+              "speech": "なんぼん",
+              "irregular": true
+            },
+            {
+              "number": "How many cups?",
+              "japanese": "何杯",
+              "reading": "なんばい",
+              "speech": "なんばい",
+              "irregular": true
+            }
+          ],
+          "note": "The question words use the voiced forms ぼん and ばい. 一杯 means one cup here; いっぱい can also mean “a lot” in other contexts."
+        },
+        {
+          "japanese": "きゅうりを三本(さんぼん)買(か)います。",
+          "english": "I’ll buy three cucumbers.",
+          "speech": "きゅうりをさんぼんかいます。"
+        },
+        {
+          "japanese": "水(みず)を二本(にほん)ください。",
+          "english": "Two bottles of water, please.",
+          "speech": "みずをにほんください。"
+        },
+        {
+          "japanese": "ビールを一杯(いっぱい)お願(ねが)いします。",
+          "english": "One glass of beer, please.",
+          "speech": "びーるをいっぱいおねがいします。"
+        },
+        {
+          "japanese": "コーヒーは何杯(なんばい)飲(の)んだ？",
+          "english": "How many cups of coffee did you drink?",
+          "speech": "こーひーはなんばいのんだ？"
+        },
+        {
+          "japanese": "もう一杯(いっぱい)どう？",
+          "english": "How about another drink?",
+          "speech": "もういっぱいどう？"
+        }
+      ]
+    },
+    {
+      "id": "counting-card-10",
+      "step": 10,
+      "kanji": "枚(まい)・冊(さつ)・台(だい)",
+      "japanese": "まい、さつ、だい",
+      "english": "Flat Items, Books & Machines",
+      "blocks": [
+        {
+          "heading": "Flat items: 〜枚",
+          "numberRows": [
+            {
+              "number": "1",
+              "japanese": "一枚",
+              "reading": "いちまい",
+              "speech": "いちまい",
+              "irregular": false
+            },
+            {
+              "number": "2",
+              "japanese": "二枚",
+              "reading": "にまい",
+              "speech": "にまい",
+              "irregular": false
+            },
+            {
+              "number": "3",
+              "japanese": "三枚",
+              "reading": "さんまい",
+              "speech": "さんまい",
+              "irregular": false
+            },
+            {
+              "number": "4",
+              "japanese": "四枚",
+              "reading": "よんまい",
+              "speech": "よんまい",
+              "irregular": false
+            },
+            {
+              "number": "5",
+              "japanese": "五枚",
+              "reading": "ごまい",
+              "speech": "ごまい",
+              "irregular": false
+            },
+            {
+              "number": "6",
+              "japanese": "六枚",
+              "reading": "ろくまい",
+              "speech": "ろくまい",
+              "irregular": false
+            },
+            {
+              "number": "7",
+              "japanese": "七枚",
+              "reading": "ななまい",
+              "speech": "ななまい",
+              "irregular": false
+            },
+            {
+              "number": "8",
+              "japanese": "八枚",
+              "reading": "はちまい",
+              "speech": "はちまい",
+              "irregular": false
+            },
+            {
+              "number": "9",
+              "japanese": "九枚",
+              "reading": "きゅうまい",
+              "speech": "きゅうまい",
+              "irregular": false
+            },
+            {
+              "number": "10",
+              "japanese": "十枚",
+              "reading": "じゅうまい",
+              "speech": "じゅうまい",
+              "irregular": false
+            }
+          ],
+          "note": "枚 counts thin, flat things such as sheets of paper, plates, tickets and shirts. No consonant changes: いちまい・ろくまい・はちまい."
+        },
+        {
+          "heading": "Books & notebooks: 〜冊",
+          "numberRows": [
+            {
+              "number": "1",
+              "japanese": "一冊",
+              "reading": "いっさつ",
+              "speech": "いっさつ",
+              "irregular": true
+            },
+            {
+              "number": "2",
+              "japanese": "二冊",
+              "reading": "にさつ",
+              "speech": "にさつ",
+              "irregular": false
+            },
+            {
+              "number": "3",
+              "japanese": "三冊",
+              "reading": "さんさつ",
+              "speech": "さんさつ",
+              "irregular": false
+            },
+            {
+              "number": "4",
+              "japanese": "四冊",
+              "reading": "よんさつ",
+              "speech": "よんさつ",
+              "irregular": false
+            },
+            {
+              "number": "5",
+              "japanese": "五冊",
+              "reading": "ごさつ",
+              "speech": "ごさつ",
+              "irregular": false
+            },
+            {
+              "number": "6",
+              "japanese": "六冊",
+              "reading": "ろくさつ",
+              "speech": "ろくさつ",
+              "irregular": false
+            },
+            {
+              "number": "7",
+              "japanese": "七冊",
+              "reading": "ななさつ",
+              "speech": "ななさつ",
+              "irregular": false
+            },
+            {
+              "number": "8",
+              "japanese": "八冊",
+              "reading": "はっさつ",
+              "speech": "はっさつ",
+              "irregular": true
+            },
+            {
+              "number": "9",
+              "japanese": "九冊",
+              "reading": "きゅうさつ",
+              "speech": "きゅうさつ",
+              "irregular": false
+            },
+            {
+              "number": "10",
+              "japanese": "十冊",
+              "reading": "じゅっさつ",
+              "speech": "じゅっさつ",
+              "irregular": true
+            }
+          ],
+          "note": "冊 counts bound items such as books, notebooks and magazines. Watch いっさつ・はっさつ・じゅっさつ. 10冊 can also be じっさつ. A book is 本（ほん）, but its counter is 冊."
+        },
+        {
+          "heading": "Machines & vehicles: 〜台",
+          "numberRows": [
+            {
+              "number": "1",
+              "japanese": "一台",
+              "reading": "いちだい",
+              "speech": "いちだい",
+              "irregular": false
+            },
+            {
+              "number": "2",
+              "japanese": "二台",
+              "reading": "にだい",
+              "speech": "にだい",
+              "irregular": false
+            },
+            {
+              "number": "3",
+              "japanese": "三台",
+              "reading": "さんだい",
+              "speech": "さんだい",
+              "irregular": false
+            },
+            {
+              "number": "4",
+              "japanese": "四台",
+              "reading": "よんだい",
+              "speech": "よんだい",
+              "irregular": false
+            },
+            {
+              "number": "5",
+              "japanese": "五台",
+              "reading": "ごだい",
+              "speech": "ごだい",
+              "irregular": false
+            },
+            {
+              "number": "6",
+              "japanese": "六台",
+              "reading": "ろくだい",
+              "speech": "ろくだい",
+              "irregular": false
+            },
+            {
+              "number": "7",
+              "japanese": "七台",
+              "reading": "ななだい",
+              "speech": "ななだい",
+              "irregular": false
+            },
+            {
+              "number": "8",
+              "japanese": "八台",
+              "reading": "はちだい",
+              "speech": "はちだい",
+              "irregular": false
+            },
+            {
+              "number": "9",
+              "japanese": "九台",
+              "reading": "きゅうだい",
+              "speech": "きゅうだい",
+              "irregular": false
+            },
+            {
+              "number": "10",
+              "japanese": "十台",
+              "reading": "じゅうだい",
+              "speech": "じゅうだい",
+              "irregular": false
+            }
+          ],
+          "note": "台 counts machines, appliances and vehicles such as cars, bicycles, computers and refrigerators. No consonant changes: いちだい・ろくだい・はちだい."
+        },
+        {
+          "heading": "Ask how many",
+          "numberRows": [
+            {
+              "number": "How many flat items?",
+              "japanese": "何枚",
+              "reading": "なんまい",
+              "speech": "なんまい",
+              "irregular": false
+            },
+            {
+              "number": "How many books?",
+              "japanese": "何冊",
+              "reading": "なんさつ",
+              "speech": "なんさつ",
+              "irregular": false
+            },
+            {
+              "number": "How many machines?",
+              "japanese": "何台",
+              "reading": "なんだい",
+              "speech": "なんだい",
+              "irregular": false
+            }
+          ]
+        },
+        {
+          "japanese": "お皿(さら)を四枚(よんまい)用意(ようい)します。",
+          "english": "I’ll get four plates ready.",
+          "speech": "おさらをよんまいよういします。"
+        },
+        {
+          "japanese": "紙(かみ)を一枚(いちまい)ください。",
+          "english": "One sheet of paper, please.",
+          "speech": "かみをいちまいください。"
+        },
+        {
+          "japanese": "料理(りょうり)の本(ほん)を二冊(にさつ)買(か)いました。",
+          "english": "I bought two cookbooks.",
+          "speech": "りょうりのほんをにさつかいました。"
+        },
+        {
+          "japanese": "ノートは何冊(なんさつ)必要(ひつよう)？",
+          "english": "How many notebooks do we need?",
+          "speech": "のーとはなんさつひつよう？"
+        },
+        {
+          "japanese": "家(いえ)に自転車(じてんしゃ)が二台(にだい)あります。",
+          "english": "We have two bicycles at home.",
+          "speech": "いえにじてんしゃがにだいあります。"
+        }
+      ]
+    },
+    {
+      "id": "counting-card-11",
+      "step": 11,
+      "kanji": "年齢(ねんれい)",
+      "japanese": "ねんれい",
+      "english": "Age",
+      "blocks": [
+        {
+          "heading": "Age: 1–10",
+          "numberRows": [
+            {
+              "number": "1",
+              "japanese": "一歳",
+              "reading": "いっさい",
+              "speech": "いっさい",
+              "irregular": true
+            },
+            {
+              "number": "2",
+              "japanese": "二歳",
+              "reading": "にさい",
+              "speech": "にさい",
+              "irregular": false
+            },
+            {
+              "number": "3",
+              "japanese": "三歳",
+              "reading": "さんさい",
+              "speech": "さんさい",
+              "irregular": false
+            },
+            {
+              "number": "4",
+              "japanese": "四歳",
+              "reading": "よんさい",
+              "speech": "よんさい",
+              "irregular": false
+            },
+            {
+              "number": "5",
+              "japanese": "五歳",
+              "reading": "ごさい",
+              "speech": "ごさい",
+              "irregular": false
+            },
+            {
+              "number": "6",
+              "japanese": "六歳",
+              "reading": "ろくさい",
+              "speech": "ろくさい",
+              "irregular": false
+            },
+            {
+              "number": "7",
+              "japanese": "七歳",
+              "reading": "ななさい",
+              "speech": "ななさい",
+              "irregular": false
+            },
+            {
+              "number": "8",
+              "japanese": "八歳",
+              "reading": "はっさい",
+              "speech": "はっさい",
+              "irregular": true
+            },
+            {
+              "number": "9",
+              "japanese": "九歳",
+              "reading": "きゅうさい",
+              "speech": "きゅうさい",
+              "irregular": false
+            },
+            {
+              "number": "10",
+              "japanese": "十歳",
+              "reading": "じゅっさい",
+              "speech": "じゅっさい",
+              "irregular": true
+            }
+          ],
+          "note": "歳 counts years of age. Watch いっさい・はっさい・じゅっさい. 4歳 is よんさい, unlike 4年 よねん. 10歳 can also be じっさい."
+        },
+        {
+          "heading": "Teens & twenties",
+          "numberRows": [
+            {
+              "number": "11",
+              "japanese": "11歳",
+              "reading": "じゅういっさい",
+              "speech": "じゅういっさい",
+              "irregular": true
+            },
+            {
+              "number": "14",
+              "japanese": "14歳",
+              "reading": "じゅうよんさい",
+              "speech": "じゅうよんさい",
+              "irregular": false
+            },
+            {
+              "number": "18",
+              "japanese": "18歳",
+              "reading": "じゅうはっさい",
+              "speech": "じゅうはっさい",
+              "irregular": true
+            },
+            {
+              "number": "19",
+              "japanese": "19歳",
+              "reading": "じゅうきゅうさい",
+              "speech": "じゅうきゅうさい",
+              "irregular": false
+            },
+            {
+              "number": "20",
+              "japanese": "20歳",
+              "reading": "はたち",
+              "speech": "はたち",
+              "irregular": true
+            },
+            {
+              "number": "20",
+              "japanese": "20歳",
+              "reading": "にじゅっさい",
+              "speech": "にじゅっさい",
+              "irregular": true
+            },
+            {
+              "number": "21",
+              "japanese": "21歳",
+              "reading": "にじゅういっさい",
+              "speech": "にじゅういっさい",
+              "irregular": true
+            },
+            {
+              "number": "28",
+              "japanese": "28歳",
+              "reading": "にじゅうはっさい",
+              "speech": "にじゅうはっさい",
+              "irregular": true
+            }
+          ],
+          "note": "20歳 has the special reading はたち; にじゅっさい is also correct. Other ages combine tens + the final digit: 21歳  にじゅういっさい."
+        },
+        {
+          "heading": "Tens & questions",
+          "numberRows": [
+            {
+              "number": "30",
+              "japanese": "30歳",
+              "reading": "さんじゅっさい",
+              "speech": "さんじゅっさい",
+              "irregular": true
+            },
+            {
+              "number": "40",
+              "japanese": "40歳",
+              "reading": "よんじゅっさい",
+              "speech": "よんじゅっさい",
+              "irregular": true
+            },
+            {
+              "number": "50",
+              "japanese": "50歳",
+              "reading": "ごじゅっさい",
+              "speech": "ごじゅっさい",
+              "irregular": true
+            },
+            {
+              "number": "60",
+              "japanese": "60歳",
+              "reading": "ろくじゅっさい",
+              "speech": "ろくじゅっさい",
+              "irregular": true
+            },
+            {
+              "number": "70",
+              "japanese": "70歳",
+              "reading": "ななじゅっさい",
+              "speech": "ななじゅっさい",
+              "irregular": true
+            },
+            {
+              "number": "80",
+              "japanese": "80歳",
+              "reading": "はちじゅっさい",
+              "speech": "はちじゅっさい",
+              "irregular": true
+            },
+            {
+              "number": "90",
+              "japanese": "90歳",
+              "reading": "きゅうじゅっさい",
+              "speech": "きゅうじゅっさい",
+              "irregular": true
+            },
+            {
+              "number": "How old?",
+              "japanese": "何歳",
+              "reading": "なんさい",
+              "speech": "なんさい",
+              "irregular": false
+            },
+            {
+              "number": "How old? (polite)",
+              "japanese": "おいくつ",
+              "reading": "おいくつ",
+              "speech": "おいくつ",
+              "irregular": false
+            }
+          ],
+          "note": "何歳ですか asks age. おいくつですか is a more polite wording. In casual conversation, 何歳？ is common."
+        },
+        {
+          "japanese": "何歳(なんさい)ですか。",
+          "english": "How old are you?",
+          "speech": "なんさいですか。"
+        },
+        {
+          "japanese": "妹(いもうと)は二十歳(はたち)です。",
+          "english": "My younger sister is twenty.",
+          "speech": "いもうとははたちです。"
+        },
+        {
+          "japanese": "来月(らいげつ)、三十歳(さんじゅっさい)になります。",
+          "english": "I turn thirty next month.",
+          "speech": "らいげつ、さんじゅっさいになります。"
+        },
+        {
+          "japanese": "子供(こども)は八歳(はっさい)です。",
+          "english": "My child is eight.",
+          "speech": "こどもははっさいです。"
+        },
+        {
+          "japanese": "弟(おとうと)は今(いま)、何歳(なんさい)？",
+          "english": "How old is your younger brother now?",
+          "speech": "おとうとはいま、なんさい？"
+        }
+      ]
+    },
+    {
+      "id": "counting-card-12",
+      "step": 12,
+      "kanji": "回数(かいすう)・順番(じゅんばん)",
+      "japanese": "かいすう、じゅんばん",
+      "english": "Frequency & Order",
+      "blocks": [
+        {
+          "heading": "Number of times: 〜回",
+          "numberRows": [
+            {
+              "number": "1",
+              "japanese": "一回",
+              "reading": "いっかい",
+              "speech": "いっかい",
+              "irregular": true
+            },
+            {
+              "number": "2",
+              "japanese": "二回",
+              "reading": "にかい",
+              "speech": "にかい",
+              "irregular": false
+            },
+            {
+              "number": "3",
+              "japanese": "三回",
+              "reading": "さんかい",
+              "speech": "さんかい",
+              "irregular": false
+            },
+            {
+              "number": "4",
+              "japanese": "四回",
+              "reading": "よんかい",
+              "speech": "よんかい",
+              "irregular": false
+            },
+            {
+              "number": "5",
+              "japanese": "五回",
+              "reading": "ごかい",
+              "speech": "ごかい",
+              "irregular": false
+            },
+            {
+              "number": "6",
+              "japanese": "六回",
+              "reading": "ろっかい",
+              "speech": "ろっかい",
+              "irregular": true
+            },
+            {
+              "number": "7",
+              "japanese": "七回",
+              "reading": "ななかい",
+              "speech": "ななかい",
+              "irregular": false
+            },
+            {
+              "number": "8",
+              "japanese": "八回",
+              "reading": "はっかい",
+              "speech": "はっかい",
+              "irregular": true
+            },
+            {
+              "number": "9",
+              "japanese": "九回",
+              "reading": "きゅうかい",
+              "speech": "きゅうかい",
+              "irregular": false
+            },
+            {
+              "number": "10",
+              "japanese": "十回",
+              "reading": "じゅっかい",
+              "speech": "じゅっかい",
+              "irregular": true
+            }
+          ],
+          "note": "回 counts how many times an action happens. Watch いっかい・ろっかい・はっかい・じゅっかい. 10回 can also be じっかい. Frequency: 一週間に二回 = twice a week."
+        },
+        {
+          "heading": "Numbers & positions: 〜番",
+          "numberRows": [
+            {
+              "number": "1",
+              "japanese": "一番",
+              "reading": "いちばん",
+              "speech": "いちばん",
+              "irregular": false
+            },
+            {
+              "number": "2",
+              "japanese": "二番",
+              "reading": "にばん",
+              "speech": "にばん",
+              "irregular": false
+            },
+            {
+              "number": "3",
+              "japanese": "三番",
+              "reading": "さんばん",
+              "speech": "さんばん",
+              "irregular": false
+            },
+            {
+              "number": "4",
+              "japanese": "四番",
+              "reading": "よんばん",
+              "speech": "よんばん",
+              "irregular": false
+            },
+            {
+              "number": "5",
+              "japanese": "五番",
+              "reading": "ごばん",
+              "speech": "ごばん",
+              "irregular": false
+            },
+            {
+              "number": "6",
+              "japanese": "六番",
+              "reading": "ろくばん",
+              "speech": "ろくばん",
+              "irregular": false
+            },
+            {
+              "number": "7",
+              "japanese": "七番",
+              "reading": "ななばん",
+              "speech": "ななばん",
+              "irregular": false
+            },
+            {
+              "number": "8",
+              "japanese": "八番",
+              "reading": "はちばん",
+              "speech": "はちばん",
+              "irregular": false
+            },
+            {
+              "number": "9",
+              "japanese": "九番",
+              "reading": "きゅうばん",
+              "speech": "きゅうばん",
+              "irregular": false
+            },
+            {
+              "number": "10",
+              "japanese": "十番",
+              "reading": "じゅうばん",
+              "speech": "じゅうばん",
+              "irregular": false
+            }
+          ],
+          "note": "番 identifies numbers or positions, such as numbered tickets. Add 目（め）for a position in a sequence: 二番目 = second. 回目 counts an occurrence: 二回目 = the second time."
+        },
+        {
+          "heading": "Questions & sequence",
+          "numberRows": [
+            {
+              "number": "How many times?",
+              "japanese": "何回",
+              "reading": "なんかい",
+              "speech": "なんかい",
+              "irregular": false
+            },
+            {
+              "number": "Which number?",
+              "japanese": "何番",
+              "reading": "なんばん",
+              "speech": "なんばん",
+              "irregular": false
+            },
+            {
+              "number": "First",
+              "japanese": "一番目",
+              "reading": "いちばんめ",
+              "speech": "いちばんめ",
+              "irregular": false
+            },
+            {
+              "number": "Second",
+              "japanese": "二番目",
+              "reading": "にばんめ",
+              "speech": "にばんめ",
+              "irregular": false
+            },
+            {
+              "number": "Third",
+              "japanese": "三番目",
+              "reading": "さんばんめ",
+              "speech": "さんばんめ",
+              "irregular": false
+            },
+            {
+              "number": "First time",
+              "japanese": "一回目",
+              "reading": "いっかいめ",
+              "speech": "いっかいめ",
+              "irregular": true
+            },
+            {
+              "number": "Second time",
+              "japanese": "二回目",
+              "reading": "にかいめ",
+              "speech": "にかいめ",
+              "irregular": false
+            }
+          ]
+        },
+        {
+          "japanese": "一週間(いっしゅうかん)に二回(にかい)、日本語(にほんご)を勉強(べんきょう)します。",
+          "english": "I study Japanese twice a week.",
+          "speech": "いっしゅうかんににかい、にほんごをべんきょうします。"
+        },
+        {
+          "japanese": "もう一回(いっかい)言(い)ってください。",
+          "english": "Please say it one more time.",
+          "speech": "もういっかいいってください。"
+        },
+        {
+          "japanese": "日本(にほん)に何回(なんかい)行(い)った？",
+          "english": "How many times have you been to Japan?",
+          "speech": "にほんになんかいいった？"
+        },
+        {
+          "japanese": "番号(ばんごう)は三番(さんばん)です。",
+          "english": "The number is three.",
+          "speech": "ばんごうはさんばんです。"
+        },
+        {
+          "japanese": "今回(こんかい)は二回目(にかいめ)です。",
+          "english": "This is my second time.",
+          "speech": "こんかいはにかいめです。"
+        }
+      ]
+    },
+    {
+      "id": "counting-card-13",
+      "step": 13,
+      "kanji": "金額(きんがく)",
+      "japanese": "きんがく",
+      "english": "Money & Prices",
+      "blocks": [
+        {
+          "heading": "Yen: 1–10",
+          "numberRows": [
+            {
+              "number": "1",
+              "japanese": "一円",
+              "reading": "いちえん",
+              "speech": "いちえん",
+              "irregular": false
+            },
+            {
+              "number": "2",
+              "japanese": "二円",
+              "reading": "にえん",
+              "speech": "にえん",
+              "irregular": false
+            },
+            {
+              "number": "3",
+              "japanese": "三円",
+              "reading": "さんえん",
+              "speech": "さんえん",
+              "irregular": false
+            },
+            {
+              "number": "4",
+              "japanese": "四円",
+              "reading": "よえん",
+              "speech": "よえん",
+              "irregular": true
+            },
+            {
+              "number": "5",
+              "japanese": "五円",
+              "reading": "ごえん",
+              "speech": "ごえん",
+              "irregular": false
+            },
+            {
+              "number": "6",
+              "japanese": "六円",
+              "reading": "ろくえん",
+              "speech": "ろくえん",
+              "irregular": false
+            },
+            {
+              "number": "7",
+              "japanese": "七円",
+              "reading": "ななえん",
+              "speech": "ななえん",
+              "irregular": false
+            },
+            {
+              "number": "8",
+              "japanese": "八円",
+              "reading": "はちえん",
+              "speech": "はちえん",
+              "irregular": false
+            },
+            {
+              "number": "9",
+              "japanese": "九円",
+              "reading": "きゅうえん",
+              "speech": "きゅうえん",
+              "irregular": false
+            },
+            {
+              "number": "10",
+              "japanese": "十円",
+              "reading": "じゅうえん",
+              "speech": "じゅうえん",
+              "irregular": false
+            }
+          ],
+          "note": "Read 円 as えん, joined to the number. 4円 is よえん; 7円 ななえん; 9円 きゅうえん."
+        },
+        {
+          "heading": "Common price building blocks",
+          "numberRows": [
+            {
+              "number": "50",
+              "japanese": "五十円",
+              "reading": "ごじゅうえん",
+              "speech": "ごじゅうえん",
+              "irregular": false
+            },
+            {
+              "number": "100",
+              "japanese": "百円",
+              "reading": "ひゃくえん",
+              "speech": "ひゃくえん",
+              "irregular": false
+            },
+            {
+              "number": "300",
+              "japanese": "三百円",
+              "reading": "さんびゃくえん",
+              "speech": "さんびゃくえん",
+              "irregular": true
+            },
+            {
+              "number": "500",
+              "japanese": "五百円",
+              "reading": "ごひゃくえん",
+              "speech": "ごひゃくえん",
+              "irregular": false
+            },
+            {
+              "number": "600",
+              "japanese": "六百円",
+              "reading": "ろっぴゃくえん",
+              "speech": "ろっぴゃくえん",
+              "irregular": true
+            },
+            {
+              "number": "800",
+              "japanese": "八百円",
+              "reading": "はっぴゃくえん",
+              "speech": "はっぴゃくえん",
+              "irregular": true
+            },
+            {
+              "number": "1,000",
+              "japanese": "千円",
+              "reading": "せんえん",
+              "speech": "せんえん",
+              "irregular": false
+            },
+            {
+              "number": "3,000",
+              "japanese": "三千円",
+              "reading": "さんぜんえん",
+              "speech": "さんぜんえん",
+              "irregular": true
+            },
+            {
+              "number": "8,000",
+              "japanese": "八千円",
+              "reading": "はっせんえん",
+              "speech": "はっせんえん",
+              "irregular": true
+            },
+            {
+              "number": "10,000",
+              "japanese": "一万円",
+              "reading": "いちまんえん",
+              "speech": "いちまんえん",
+              "irregular": false
+            }
+          ],
+          "note": "Keep the number sound changes from page 1, then add えん. Japanese large numbers group around 万（10,000）: 一万円 is 10,000 yen."
+        },
+        {
+          "heading": "Putting prices together",
+          "numberRows": [
+            {
+              "number": "480",
+              "japanese": "四百八十円",
+              "reading": "よんひゃくはちじゅうえん",
+              "speech": "よんひゃくはちじゅうえん",
+              "irregular": false
+            },
+            {
+              "number": "1,280",
+              "japanese": "千二百八十円",
+              "reading": "せんにひゃくはちじゅうえん",
+              "speech": "せんにひゃくはちじゅうえん",
+              "irregular": false
+            },
+            {
+              "number": "2,500",
+              "japanese": "二千五百円",
+              "reading": "にせんごひゃくえん",
+              "speech": "にせんごひゃくえん",
+              "irregular": false
+            },
+            {
+              "number": "12,000",
+              "japanese": "一万二千円",
+              "reading": "いちまんにせんえん",
+              "speech": "いちまんにせんえん",
+              "irregular": false
+            }
+          ],
+          "note": "Read the amount as one connected number, followed by 円. 400円 is よんひゃくえん even though 4円 is よえん."
+        },
+        {
+          "heading": "Ask the price",
+          "numberRows": [
+            {
+              "number": "How much?",
+              "japanese": "いくら",
+              "reading": "いくら",
+              "speech": "いくら",
+              "irregular": false
+            },
+            {
+              "number": "How many yen?",
+              "japanese": "何円",
+              "reading": "なんえん",
+              "speech": "なんえん",
+              "irregular": false
+            }
+          ]
+        },
+        {
+          "japanese": "これはいくらですか。",
+          "english": "How much is this?",
+          "speech": "これはいくらですか。"
+        },
+        {
+          "japanese": "この包丁(ほうちょう)は一万二千円(いちまんにせんえん)です。",
+          "english": "This knife costs 12,000 yen.",
+          "speech": "このほうちょうはいちまんにせんえんです。"
+        },
+        {
+          "japanese": "全部(ぜんぶ)で二千五百円(にせんごひゃくえん)です。",
+          "english": "It’s 2,500 yen altogether.",
+          "speech": "ぜんぶでにせんごひゃくえんです。"
+        },
+        {
+          "japanese": "千円(せんえん)でお願(ねが)いします。",
+          "english": "I’ll pay with 1,000 yen.",
+          "speech": "せんえんでおねがいします。"
+        },
+        {
+          "japanese": "お釣(つ)りは五百円(ごひゃくえん)です。",
+          "english": "Your change is 500 yen.",
+          "speech": "おつりはごひゃくえんです。"
+        }
+      ]
+    },
+    {
+      "id": "counting-card-14",
+      "step": 14,
+      "kanji": "匹(ひき)・階(かい)",
+      "japanese": "ひき、かい",
+      "english": "Animals & Floors",
+      "blocks": [
+        {
+          "heading": "Animals: 〜匹",
+          "numberRows": [
+            {
+              "number": "1",
+              "japanese": "一匹",
+              "reading": "いっぴき",
+              "speech": "いっぴき",
+              "irregular": true
+            },
+            {
+              "number": "2",
+              "japanese": "二匹",
+              "reading": "にひき",
+              "speech": "にひき",
+              "irregular": false
+            },
+            {
+              "number": "3",
+              "japanese": "三匹",
+              "reading": "さんびき",
+              "speech": "さんびき",
+              "irregular": true
+            },
+            {
+              "number": "4",
+              "japanese": "四匹",
+              "reading": "よんひき",
+              "speech": "よんひき",
+              "irregular": false
+            },
+            {
+              "number": "5",
+              "japanese": "五匹",
+              "reading": "ごひき",
+              "speech": "ごひき",
+              "irregular": false
+            },
+            {
+              "number": "6",
+              "japanese": "六匹",
+              "reading": "ろっぴき",
+              "speech": "ろっぴき",
+              "irregular": true
+            },
+            {
+              "number": "7",
+              "japanese": "七匹",
+              "reading": "ななひき",
+              "speech": "ななひき",
+              "irregular": false
+            },
+            {
+              "number": "8",
+              "japanese": "八匹",
+              "reading": "はっぴき",
+              "speech": "はっぴき",
+              "irregular": true
+            },
+            {
+              "number": "9",
+              "japanese": "九匹",
+              "reading": "きゅうひき",
+              "speech": "きゅうひき",
+              "irregular": false
+            },
+            {
+              "number": "10",
+              "japanese": "十匹",
+              "reading": "じゅっぴき",
+              "speech": "じゅっぴき",
+              "irregular": true
+            }
+          ],
+          "note": "匹 counts small animals such as cats, dogs, fish and insects. Watch ひき → ぴき / びき: いっぴき・さんびき・ろっぴき・はっぴき・じゅっぴき. 10匹 can also be じっぴき. Birds usually use 羽; large animals such as horses use 頭."
+        },
+        {
+          "heading": "Building floors: 〜階",
+          "numberRows": [
+            {
+              "number": "1",
+              "japanese": "一階",
+              "reading": "いっかい",
+              "speech": "いっかい。",
+              "irregular": true
+            },
+            {
+              "number": "2",
+              "japanese": "二階",
+              "reading": "にかい",
+              "speech": "にかい。",
+              "irregular": false
+            },
+            {
+              "number": "3",
+              "japanese": "三階",
+              "reading": "さんがい",
+              "speech": "さんがい。",
+              "irregular": true
+            },
+            {
+              "number": "4",
+              "japanese": "四階",
+              "reading": "よんかい",
+              "speech": "よんかい。",
+              "irregular": false
+            },
+            {
+              "number": "5",
+              "japanese": "五階",
+              "reading": "ごかい",
+              "speech": "ごかい。",
+              "irregular": false
+            },
+            {
+              "number": "6",
+              "japanese": "六階",
+              "reading": "ろっかい",
+              "speech": "ろっかい。",
+              "irregular": true
+            },
+            {
+              "number": "7",
+              "japanese": "七階",
+              "reading": "ななかい",
+              "speech": "ななかい。",
+              "irregular": false
+            },
+            {
+              "number": "8",
+              "japanese": "八階",
+              "reading": "はっかい",
+              "speech": "はっかい。",
+              "irregular": true
+            },
+            {
+              "number": "9",
+              "japanese": "九階",
+              "reading": "きゅうかい",
+              "speech": "きゅうかい。",
+              "irregular": false
+            },
+            {
+              "number": "10",
+              "japanese": "十階",
+              "reading": "じゅっかい",
+              "speech": "じゅっかい。",
+              "irregular": true
+            }
+          ],
+          "note": "階 counts building floors. This page uses さんがい for 3階; さんかい is also correct. 8階 can also be はちかい; 10階 じっかい. In Japan, 1階 is the ground floor. 回 counts occurrences; 階 counts floors, even when their readings sound alike."
+        },
+        {
+          "heading": "Questions & basement",
+          "numberRows": [
+            {
+              "number": "How many animals?",
+              "japanese": "何匹",
+              "reading": "なんびき",
+              "speech": "なんびき",
+              "irregular": true
+            },
+            {
+              "number": "Which floor?",
+              "japanese": "何階",
+              "reading": "なんがい",
+              "speech": "なんがい",
+              "irregular": true
+            },
+            {
+              "number": "Basement level 1",
+              "japanese": "地下一階",
+              "reading": "ちかいっかい",
+              "speech": "ちかいっかい",
+              "irregular": false
+            }
+          ],
+          "note": "Question forms: 何匹 なんびき, 何階 なんがい. 地下（ちか）means below ground; 地下一階 is B1."
+        },
+        {
+          "japanese": "猫(ねこ)を二匹(にひき)飼(か)っています。",
+          "english": "I have two cats.",
+          "speech": "ねこをにひきかっています。"
+        },
+        {
+          "japanese": "魚(さかな)が三匹(さんびき)います。",
+          "english": "There are three fish.",
+          "speech": "さかながさんびきいます。"
+        },
+        {
+          "japanese": "レストランは三階(さんがい)にあります。",
+          "english": "The restaurant is on the third floor.",
+          "speech": "れすとらんはさんがいにあります。"
+        },
+        {
+          "japanese": "お店(みせ)は何階(なんがい)ですか。",
+          "english": "Which floor is the shop on?",
+          "speech": "おみせはなんがいですか。"
+        },
+        {
+          "japanese": "地下一階(ちかいっかい)に行(い)こう。",
+          "english": "Let’s go to basement level one.",
+          "speech": "ちかいっかいにいこう。"
+        }
+      ]
+    },
+    {
+      "id": "counting-card-15",
+      "step": 15,
+      "kanji": "料理(りょうり)で数(かぞ)える",
+      "japanese": "りょうりでかぞえる",
+      "english": "Counting in Cooking",
+      "blocks": [
+        {
+          "heading": "Servings: 〜人前",
+          "numberRows": [
+            {
+              "number": "1 serving",
+              "japanese": "一人前",
+              "reading": "いちにんまえ",
+              "speech": "いちにんまえ",
+              "irregular": false
+            },
+            {
+              "number": "2 servings",
+              "japanese": "二人前",
+              "reading": "ににんまえ",
+              "speech": "ににんまえ",
+              "irregular": false
+            },
+            {
+              "number": "3 servings",
+              "japanese": "三人前",
+              "reading": "さんにんまえ",
+              "speech": "さんにんまえ",
+              "irregular": false
+            },
+            {
+              "number": "4 servings",
+              "japanese": "四人前",
+              "reading": "よにんまえ",
+              "speech": "よにんまえ",
+              "irregular": false
+            },
+            {
+              "number": "How many servings?",
+              "japanese": "何人前",
+              "reading": "なんにんまえ",
+              "speech": "なんにんまえ",
+              "irregular": false
+            }
+          ],
+          "note": "人前 counts portions intended for people. 一人前 is いちにんまえ, and 二人前 ににんまえ; these differ from 一人 ひとり and 二人 ふたり."
+        },
+        {
+          "heading": "Platefuls / dishes served: 〜皿",
+          "numberRows": [
+            {
+              "number": "1 dish",
+              "japanese": "一皿",
+              "reading": "ひとさら",
+              "speech": "ひとさら",
+              "irregular": false
+            },
+            {
+              "number": "2 dishes",
+              "japanese": "二皿",
+              "reading": "ふたさら",
+              "speech": "ふたさら",
+              "irregular": false
+            },
+            {
+              "number": "3 dishes",
+              "japanese": "三皿",
+              "reading": "さんさら",
+              "speech": "さんさら",
+              "irregular": false
+            },
+            {
+              "number": "How many dishes?",
+              "japanese": "何皿",
+              "reading": "なんさら",
+              "speech": "なんさら",
+              "irregular": false
+            }
+          ],
+          "note": "皿 counts food served on plates. Empty plates usually use 枚: 皿を二枚. Two plated dishes: 二皿 ふたさら."
+        },
+        {
+          "heading": "Slices / cut pieces: 〜切れ",
+          "numberRows": [
+            {
+              "number": "1 slice",
+              "japanese": "一切れ",
+              "reading": "ひときれ",
+              "speech": "ひときれ",
+              "irregular": false
+            },
+            {
+              "number": "2 slices",
+              "japanese": "二切れ",
+              "reading": "ふたきれ",
+              "speech": "ふたきれ",
+              "irregular": false
+            },
+            {
+              "number": "3 slices",
+              "japanese": "三切れ",
+              "reading": "みきれ",
+              "speech": "みきれ",
+              "irregular": false
+            },
+            {
+              "number": "How many slices?",
+              "japanese": "何切れ",
+              "reading": "なんきれ",
+              "speech": "なんきれ",
+              "irregular": false
+            }
+          ],
+          "note": "切れ counts cut pieces such as fish fillets, slices of bread or pieces of cake. This page uses the native readings ひときれ・ふたきれ・みきれ."
+        },
+        {
+          "heading": "Tablespoons & teaspoons",
+          "numberRows": [
+            {
+              "number": "1 tbsp",
+              "japanese": "大さじ一",
+              "reading": "おおさじいち",
+              "speech": "おおさじいち",
+              "irregular": false
+            },
+            {
+              "number": "2 tbsp",
+              "japanese": "大さじ二",
+              "reading": "おおさじに",
+              "speech": "おおさじに",
+              "irregular": false
+            },
+            {
+              "number": "½ tbsp",
+              "japanese": "大さじ半分",
+              "reading": "おおさじはんぶん",
+              "speech": "おおさじはんぶん",
+              "irregular": false
+            },
+            {
+              "number": "1 tsp",
+              "japanese": "小さじ一",
+              "reading": "こさじいち",
+              "speech": "こさじいち",
+              "irregular": false
+            },
+            {
+              "number": "2 tsp",
+              "japanese": "小さじ二",
+              "reading": "こさじに",
+              "speech": "こさじに",
+              "irregular": false
+            },
+            {
+              "number": "½ tsp",
+              "japanese": "小さじ半分",
+              "reading": "こさじはんぶん",
+              "speech": "こさじはんぶん",
+              "irregular": false
+            }
+          ],
+          "note": "Japanese measuring spoons: 大さじ = 15 mL, 小さじ = 5 mL. Recipes often write 大さじ1 / 小さじ1. With 杯 explicitly: 大さじ一杯 おおさじいっぱい."
+        },
+        {
+          "heading": "Rice & cups",
+          "numberRows": [
+            {
+              "number": "1 gō of rice",
+              "japanese": "一合",
+              "reading": "いちごう",
+              "speech": "いちごう",
+              "irregular": false
+            },
+            {
+              "number": "2 gō of rice",
+              "japanese": "二合",
+              "reading": "にごう",
+              "speech": "にごう",
+              "irregular": false
+            },
+            {
+              "number": "3 gō of rice",
+              "japanese": "三合",
+              "reading": "さんごう",
+              "speech": "さんごう",
+              "irregular": false
+            },
+            {
+              "number": "1 measuring cup",
+              "japanese": "一カップ",
+              "reading": "いちかっぷ",
+              "speech": "いちかっぷ",
+              "irregular": false
+            },
+            {
+              "number": "2 measuring cups",
+              "japanese": "二カップ",
+              "reading": "にかっぷ",
+              "speech": "にかっぷ",
+              "irregular": false
+            }
+          ],
+          "note": "A standard Japanese recipe cup is 200 mL. The rice-measuring cup for 1合 is 180 mL; these are different cups."
+        },
+        {
+          "heading": "Small amounts",
+          "numberRows": [
+            {
+              "number": "A pinch",
+              "japanese": "ひとつまみ",
+              "reading": "ひとつまみ",
+              "speech": "ひとつまみ",
+              "irregular": false
+            },
+            {
+              "number": "A small amount",
+              "japanese": "少々",
+              "reading": "しょうしょう",
+              "speech": "しょうしょう",
+              "irregular": false
+            }
+          ],
+          "note": "ひとつまみ is a pinch, commonly taken with three fingertips. 少々 is a small amount, commonly taken with two fingertips for salt; the exact amount depends on the ingredient."
+        },
+        {
+          "japanese": "二人前(ににんまえ)お願(ねが)いします。",
+          "english": "Two servings, please.",
+          "speech": "ににんまえおねがいします。"
+        },
+        {
+          "japanese": "刺身(さしみ)を一皿(ひとさら)ください。",
+          "english": "One plate of sashimi, please.",
+          "speech": "さしみをひとさらください。"
+        },
+        {
+          "japanese": "鮭(さけ)を二切れ(ふたきれ)焼(や)きます。",
+          "english": "I’ll grill two pieces of salmon.",
+          "speech": "さけをふたきれやきます。"
+        },
+        {
+          "japanese": "醤油(しょうゆ)を大(おお)さじ二(に)入(い)れます。",
+          "english": "Add two tablespoons of soy sauce.",
+          "speech": "しょうゆをおおさじにいれます。"
+        },
+        {
+          "japanese": "砂糖(さとう)を小(こ)さじ一(いち)入(い)れます。",
+          "english": "Add one teaspoon of sugar.",
+          "speech": "さとうをこさじいちいれます。"
+        },
+        {
+          "japanese": "米(こめ)を二合(にごう)炊(た)きます。",
+          "english": "I’ll cook two gō of rice.",
+          "speech": "こめをにごうたきます。"
+        },
+        {
+          "japanese": "塩(しお)をひとつまみ加(くわ)えます。",
+          "english": "Add a pinch of salt.",
+          "speech": "しおをひとつまみくわえます。"
+        }
+      ]
+    }
+  ]
+}

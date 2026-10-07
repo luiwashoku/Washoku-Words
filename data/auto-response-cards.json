@@ -1,0 +1,634 @@
+{
+  "title": "Auto Response",
+  "entries": [
+    {
+      "id": "auto-response-card-01",
+      "step": 1,
+      "kanji": "基本(きほん)のリアクション",
+      "japanese": "きほんのりあくしょん",
+      "english": "Basic reactions",
+      "blocks": [
+        {
+          "items": [
+            {
+              "japanese": "そうなんですか",
+              "english": "Oh really?"
+            },
+            {
+              "japanese": "そうなんですね",
+              "english": "Oh, I see / Is that so"
+            },
+            {
+              "japanese": "なるほど",
+              "english": "Ahh, I see"
+            },
+            {
+              "japanese": "へえ",
+              "english": "Oh wow / Really"
+            },
+            {
+              "japanese": "本当(ほんとう)ですか",
+              "english": "Really?"
+            },
+            {
+              "japanese": "そうですか",
+              "english": "I see"
+            },
+            {
+              "japanese": "確(たし)かに",
+              "english": "That's true"
+            },
+            {
+              "japanese": "そうそう",
+              "english": "Exactly / Right, right"
+            },
+            {
+              "japanese": "わかります",
+              "english": "I know what you mean"
+            },
+            {
+              "japanese": "いいですね",
+              "english": "That's nice"
+            },
+            {
+              "japanese": "面白(おもしろ)いですね",
+              "english": "That's interesting"
+            },
+            {
+              "japanese": "意外(いがい)ですね",
+              "english": "That's surprising"
+            },
+            {
+              "japanese": "すごいですね",
+              "english": "Wow / That's impressive"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "auto-response-card-02",
+      "step": 2,
+      "kanji": "理解(りかい)できたとき",
+      "japanese": "りかいできたとき",
+      "english": "Ahhh, now I understand",
+      "blocks": [
+        {
+          "items": [
+            {
+              "japanese": "そういうことですね",
+              "english": "Ah, that's what you mean"
+            },
+            {
+              "japanese": "そういうことか",
+              "english": "Ahhh, so that's it"
+            },
+            {
+              "japanese": "なるほど、そういうことですね",
+              "english": "Ahh, now I understand"
+            },
+            {
+              "japanese": "ああ、だからなんですね",
+              "english": "Ahh, so THAT'S why"
+            },
+            {
+              "japanese": "そういう仕組(しく)みなんですね",
+              "english": "Ah, so that's how it works"
+            },
+            {
+              "japanese": "そういう意味(いみ)なんですね",
+              "english": "Ah, so that's what it means"
+            },
+            {
+              "japanese": "それでなんですね",
+              "english": "Ah, so that's why"
+            },
+            {
+              "japanese": "やっとわかりました",
+              "english": "Now I finally get it"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "auto-response-card-03",
+      "step": 3,
+      "kanji": "初(はじ)めて知(し)ったとき",
+      "japanese": "はじめてしったとき",
+      "english": "Something is new to me",
+      "blocks": [
+        {
+          "items": [
+            {
+              "japanese": "知(し)りませんでした",
+              "english": "I didn't know that"
+            },
+            {
+              "japanese": "初(はじ)めて知(し)りました",
+              "english": "I just learned that"
+            },
+            {
+              "japanese": "初(はじ)めて聞(き)きました",
+              "english": "I've never heard that before"
+            },
+            {
+              "japanese": "初(はじ)めて見(み)ました",
+              "english": "I've never seen that before"
+            },
+            {
+              "japanese": "それ、知(し)りませんでした",
+              "english": "I didn't know that"
+            },
+            {
+              "japanese": "それ、気(き)になってました",
+              "english": "I've been wondering about that"
+            },
+            {
+              "japanese": "私(わたし)もそれ気(き)づきました",
+              "english": "I noticed that too"
+            },
+            {
+              "japanese": "全然(ぜんぜん)気(き)づきませんでした",
+              "english": "I didn't notice that at all"
+            },
+            {
+              "japanese": "考(かんが)えたことなかったです",
+              "english": "I've never thought about that"
+            },
+            {
+              "japanese": "そう考(かんが)えたことなかったです",
+              "english": "I've never thought of it that way"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "auto-response-card-04",
+      "step": 4,
+      "kanji": "勘違(かんちが)いしていたとき",
+      "japanese": "かんちがいしていたとき",
+      "english": "I misunderstood",
+      "blocks": [
+        {
+          "items": [
+            {
+              "japanese": "勘違(かんちが)いしてました",
+              "english": "I had it wrong / misunderstood"
+            },
+            {
+              "japanese": "逆(ぎゃく)だと思(おも)ってました",
+              "english": "I thought it was the opposite"
+            },
+            {
+              "japanese": "〜だと思(おも)ってました",
+              "english": "I thought it was ~"
+            },
+            {
+              "japanese": "そういう意味(いみ)だと思(おも)ってました",
+              "english": "I thought that's what it meant"
+            },
+            {
+              "japanese": "なるほど、勘違(かんちが)いしてました",
+              "english": "Ahh, I had misunderstood"
+            },
+            {
+              "japanese": "あ、違(ちが)うんですね",
+              "english": "Oh, so that's not right"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "auto-response-card-05",
+      "step": 5,
+      "kanji": "意味(いみ)を確認(かくにん)する",
+      "japanese": "いみをかくにんする",
+      "english": "Confirming what they mean",
+      "blocks": [
+        {
+          "items": [
+            {
+              "japanese": "つまり、〜ってことですか？",
+              "english": "So you mean ~?"
+            },
+            {
+              "japanese": "〜ということですか？",
+              "english": "Does that mean ~?"
+            },
+            {
+              "japanese": "〜って意味(いみ)ですか？",
+              "english": "Does ~ mean...?"
+            },
+            {
+              "japanese": "こういうことですか？",
+              "english": "Do you mean like this?"
+            },
+            {
+              "japanese": "こうですか？",
+              "english": "Like this?"
+            },
+            {
+              "japanese": "これで合(あ)ってますか？",
+              "english": "Is this right?"
+            },
+            {
+              "japanese": "こんな感(かん)じですか？",
+              "english": "Something like this?"
+            },
+            {
+              "japanese": "〜でいいですか？",
+              "english": "Is ~ okay/right?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "auto-response-card-06",
+      "step": 6,
+      "kanji": "わからなかったとき",
+      "japanese": "わからなかったとき",
+      "english": "Didn't understand",
+      "blocks": [
+        {
+          "items": [
+            {
+              "japanese": "すみません、もう一度(いちど)お願(ねが)いします",
+              "english": "Sorry, one more time please"
+            },
+            {
+              "japanese": "もう一回(いっかい)いいですか？",
+              "english": "Can you say that again?"
+            },
+            {
+              "japanese": "ちょっと聞(き)き取(と)れませんでした",
+              "english": "I couldn't quite catch that"
+            },
+            {
+              "japanese": "最後(さいご)のところ、もう一度(いちど)いいですか？",
+              "english": "Could you repeat the last part?"
+            },
+            {
+              "japanese": "もう少(すこ)しゆっくりお願(ねが)いします",
+              "english": "A little slower, please"
+            },
+            {
+              "japanese": "それってどういう意味(いみ)ですか？",
+              "english": "What does that mean?"
+            },
+            {
+              "japanese": "〜って何(なん)ですか？",
+              "english": "What's ~?"
+            },
+            {
+              "japanese": "どういうことですか？",
+              "english": "What do you mean?"
+            },
+            {
+              "japanese": "例(たと)えば？",
+              "english": "For example?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "auto-response-card-07",
+      "step": 7,
+      "kanji": "言葉(ことば)はわかるけど",
+      "japanese": "ことばはわかるけど",
+      "english": "I understand the Japanese, but…",
+      "blocks": [
+        {
+          "items": [
+            {
+              "japanese": "言葉(ことば)はわかるんですけど、意味(いみ)がちょっと…",
+              "english": "I know the words, but not quite the meaning"
+            },
+            {
+              "japanese": "意味(いみ)はなんとなくわかります",
+              "english": "I more or less understand the meaning"
+            },
+            {
+              "japanese": "なんとなくわかりました",
+              "english": "I kind of get it"
+            },
+            {
+              "japanese": "だいたいわかりました",
+              "english": "I mostly understand"
+            },
+            {
+              "japanese": "ちょっと難(むずか)しいですね",
+              "english": "That's a little difficult"
+            },
+            {
+              "japanese": "まだよくわかってないです",
+              "english": "I don't quite understand it yet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "auto-response-card-08",
+      "step": 8,
+      "kanji": "考(かんが)える時間(じかん)を作(つく)る",
+      "japanese": "かんがえるじかんをつくる",
+      "english": "Buying time",
+      "blocks": [
+        {
+          "items": [
+            {
+              "japanese": "ちょっと待(ま)ってください",
+              "english": "Give me a second"
+            },
+            {
+              "japanese": "えっと…",
+              "english": "Umm..."
+            },
+            {
+              "japanese": "なんて言(い)えばいいんだろう",
+              "english": "How should I put this..."
+            },
+            {
+              "japanese": "なんていうか…",
+              "english": "How can I say it..."
+            },
+            {
+              "japanese": "日本語(にほんご)でなんて言(い)うんだろう",
+              "english": "How do I say this in Japanese..."
+            },
+            {
+              "japanese": "ちょっと考(かんが)えます",
+              "english": "Let me think"
+            },
+            {
+              "japanese": "言葉(ことば)が出(で)てこないです",
+              "english": "The word isn't coming to me"
+            },
+            {
+              "japanese": "なんて言(い)うんでしたっけ？",
+              "english": "What was it called again?"
+            },
+            {
+              "japanese": "あ、思(おも)い出(だ)しました",
+              "english": "Ah, I remembered"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "auto-response-card-09",
+      "step": 9,
+      "kanji": "話(はなし)を続(つづ)けてもらう",
+      "japanese": "はなしをつづけてもらう",
+      "english": "Keeping them talking",
+      "blocks": [
+        {
+          "items": [
+            {
+              "japanese": "それで？",
+              "english": "And then?"
+            },
+            {
+              "japanese": "それからどうなったんですか？",
+              "english": "What happened after that?"
+            },
+            {
+              "japanese": "どうしてですか？",
+              "english": "Why is that?"
+            },
+            {
+              "japanese": "何(なに)か理由(りゆう)があるんですか？",
+              "english": "Is there a reason?"
+            },
+            {
+              "japanese": "それってよくあるんですか？",
+              "english": "Does that happen often?"
+            },
+            {
+              "japanese": "日本(にほん)では普通(ふつう)なんですか？",
+              "english": "Is that normal in Japan?"
+            },
+            {
+              "japanese": "他(ほか)にもありますか？",
+              "english": "Are there others?"
+            },
+            {
+              "japanese": "例(たと)えばどんなものですか？",
+              "english": "Like what, for example?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "auto-response-card-10",
+      "step": 10,
+      "kanji": "覚(おぼ)えて使(つか)いたいとき",
+      "japanese": "おぼえてつかいたいとき",
+      "english": "I want this information",
+      "blocks": [
+        {
+          "items": [
+            {
+              "japanese": "覚(おぼ)えておきます",
+              "english": "I'll remember that"
+            },
+            {
+              "japanese": "やってみます",
+              "english": "I'll try that"
+            },
+            {
+              "japanese": "今度(こんど)やってみます",
+              "english": "I'll try that next time"
+            },
+            {
+              "japanese": "それ、やってみたいです",
+              "english": "I want to try that"
+            },
+            {
+              "japanese": "参考(さんこう)になります",
+              "english": "That's useful/helpful"
+            },
+            {
+              "japanese": "勉強(べんきょう)になります",
+              "english": "I'm learning a lot from this"
+            },
+            {
+              "japanese": "聞(き)いてよかったです",
+              "english": "I'm glad I asked"
+            },
+            {
+              "japanese": "それ、使(つか)えそうですね",
+              "english": "That seems useful"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "auto-response-card-11",
+      "step": 11,
+      "kanji": "やわらかく違(ちが)う意見(いけん)を言(い)う",
+      "japanese": "やわらかくちがういけんをいう",
+      "english": "Soft disagreement / uncertainty",
+      "blocks": [
+        {
+          "items": [
+            {
+              "japanese": "そうですかね",
+              "english": "Hmm, is that so?"
+            },
+            {
+              "japanese": "どうでしょうね",
+              "english": "Hmm, I'm not sure"
+            },
+            {
+              "japanese": "たぶんそうだと思(おも)います",
+              "english": "I think that's probably true"
+            },
+            {
+              "japanese": "そうかもしれません",
+              "english": "That might be true"
+            },
+            {
+              "japanese": "確(たし)かにそうなんですけど…",
+              "english": "That's true, but..."
+            },
+            {
+              "japanese": "まあ、そうなんですけどね",
+              "english": "Well, that's true, though"
+            },
+            {
+              "japanese": "私(わたし)はちょっと違(ちが)う気(き)がします",
+              "english": "I feel a little differently"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "auto-response-card-12",
+      "step": 12,
+      "kanji": "気持(きも)ちを伝(つた)える",
+      "japanese": "きもちをつたえる",
+      "english": "Tiny emotional responses",
+      "blocks": [
+        {
+          "items": [
+            {
+              "japanese": "よかった",
+              "english": "Thank goodness / That's good"
+            },
+            {
+              "japanese": "よかったですね",
+              "english": "That's good / I'm glad"
+            },
+            {
+              "japanese": "残念(ざんねん)ですね",
+              "english": "That's a shame"
+            },
+            {
+              "japanese": "大変(たいへん)ですね",
+              "english": "That sounds tough"
+            },
+            {
+              "japanese": "大変(たいへん)そうですね",
+              "english": "That looks/sounds difficult"
+            },
+            {
+              "japanese": "羨(うらや)ましいです",
+              "english": "I'm jealous!"
+            },
+            {
+              "japanese": "もったいない",
+              "english": "What a waste"
+            },
+            {
+              "japanese": "怖(こわ)いですね",
+              "english": "That's scary"
+            },
+            {
+              "japanese": "楽(たの)しそう",
+              "english": "That looks fun"
+            },
+            {
+              "japanese": "おいしそう",
+              "english": "That looks delicious"
+            },
+            {
+              "japanese": "難(むずか)しそう",
+              "english": "That looks difficult"
+            },
+            {
+              "japanese": "便利(べんり)ですね",
+              "english": "That's convenient"
+            },
+            {
+              "japanese": "不思議(ふしぎ)ですね",
+              "english": "That's strange/fascinating"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "auto-response-card-13",
+      "step": 13,
+      "kanji": "短(みじか)く便利(べんり)な返事(へんじ)",
+      "japanese": "みじかくべんりなへんじ",
+      "english": "The extremely useful little ones",
+      "blocks": [
+        {
+          "items": [
+            {
+              "japanese": "あ、なるほど",
+              "english": "Ohhh, I see"
+            },
+            {
+              "japanese": "あ、そっか",
+              "english": "Ohhh, right"
+            },
+            {
+              "japanese": "あ、そういうことか",
+              "english": "OH, that's what you mean"
+            },
+            {
+              "japanese": "あ、確(たし)かに",
+              "english": "Oh yeah, true"
+            },
+            {
+              "japanese": "あ、そうなんですね",
+              "english": "Ohh, I see"
+            },
+            {
+              "japanese": "そうなんだ",
+              "english": "Oh, really / I see [casual]"
+            },
+            {
+              "japanese": "そっか",
+              "english": "Ah, I see [casual]"
+            },
+            {
+              "japanese": "なるほどね",
+              "english": "Ahh, I see [casual]"
+            },
+            {
+              "japanese": "たしかにね",
+              "english": "Yeah, true [casual]"
+            },
+            {
+              "japanese": "そうだよね",
+              "english": "Yeah, exactly [casual]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

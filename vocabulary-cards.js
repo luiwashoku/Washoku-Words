@@ -84,7 +84,13 @@
           const button = document.createElement("button");
           button.type = "button";
           const number = word.step || target + 1;
-          if (lesson.grammarCards || lesson.gameMode !== "vocabulary-cards") {
+          if (lesson.conjugationCards) {
+            const label = document.createElement("strong");
+            label.className = "grammar-menu-point";
+            label.textContent = word.menuLabel || word.group;
+            button.append(label);
+          }
+          else if (lesson.grammarCards || lesson.gameMode !== "vocabulary-cards") {
             const point = document.createElement("strong");
             point.className = "grammar-menu-point";
             point.textContent = `${number}. ${word.kanji || word.japanese}`;
@@ -94,7 +100,7 @@
           else button.textContent = `${number ? number + ". " : ""}${word.kanji || word.japanese} — ${word.english}`;
           button.addEventListener("click", () => { move(target - index); dialog.close(); }, { signal });
           results.appendChild(button);
-          searchable.push({ button, text: normalize(`${number} ${word.kanji || ""} ${word.japanese} ${word.english}`) });
+          searchable.push({ button, text: normalize(`${number} ${word.menuLabel || ""} ${word.group || ""} ${word.kanji || ""} ${word.japanese} ${word.english}`) });
         });
         search.addEventListener("input", () => {
           const query = normalize(search.value.trim());
@@ -149,6 +155,7 @@
     container.append(status, retry, card);
 
     function playWord() {
+      if (lesson.audioDisabled) return;
       if (!alive || !entries.length) return;
       stopSpeech();
       status.textContent = "";
@@ -159,6 +166,160 @@
 
     function render() {
       const word = entries[index];
+      if (lesson.conjugationCards) {
+        const header = document.createElement("header");
+        header.className = "reading-card-header";
+        const titles = document.createElement("div");
+        const title = document.createElement("h3");
+        title.id = "studyCardWord";
+        setJapaneseText(title, word.kanji);
+        const meaning = document.createElement("p");
+        meaning.className = "vocabulary-card-translation";
+        meaning.textContent = word.english;
+        const group = document.createElement("h2");
+        group.className = "conjugation-card-group";
+        setJapaneseText(group, word.group);
+        titles.append(group, title, meaning);
+        header.append(titles);
+        const body = document.createElement("div");
+        body.className = "conjugation-card-body";
+        const rule = document.createElement("p");
+        rule.className = "conjugation-card-rule";
+        setJapaneseText(rule, word.rule);
+        body.append(rule);
+        if (word.connectionGroups) {
+          word.connectionGroups.forEach(group => {
+            const section = document.createElement("section");
+            section.className = "connection-reference-group";
+            const heading = document.createElement("h4");
+            heading.textContent = group.title;
+            const model = document.createElement("p");
+            model.className = "connection-reference-model";
+            setJapaneseText(model, group.model);
+            section.append(heading, model);
+            const list = document.createElement("div");
+            list.className = "connection-reference-patterns";
+            group.patterns.forEach(pattern => {
+              const item = document.createElement("div");
+              const japanese = document.createElement("p");
+              japanese.className = "connection-reference-pattern";
+              if (pattern.base !== undefined) {
+                const base = document.createElement("span");
+                setJapaneseText(base, pattern.base);
+                const ending = document.createElement("span");
+                ending.className = "conjugation-card-ending";
+                ending.textContent = window.getJapaneseSpeechText(pattern.ending);
+                const chunk = document.createElement("span");
+                chunk.className = "connection-reference-chunk";
+                setJapaneseText(chunk, pattern.chunk);
+                japanese.append(base, ending, chunk);
+              } else setJapaneseText(japanese, pattern.japanese);
+              const english = document.createElement("p");
+              english.className = "vocabulary-card-translation";
+              english.textContent = pattern.english;
+              item.append(japanese, english);
+              list.append(item);
+            });
+            section.append(list);
+            if (group.note) {
+              const note = document.createElement("p");
+              note.className = "conjugation-card-note";
+              note.textContent = group.note;
+              section.append(note);
+            }
+            body.append(section);
+          });
+        }
+        (word.sections || []).forEach(section => {
+          const heading = document.createElement("h4");
+          heading.textContent = section.title;
+          const table = document.createElement("table");
+          table.className = "conjugation-card-table";
+          if (section.endingGuide) table.classList.add("conjugation-card-table--ending-guide");
+          table.setAttribute("aria-label", section.title);
+          const head = table.createTHead().insertRow();
+          ["Form", "Plain", "Polite"].forEach(label => {
+            const th = document.createElement("th");
+            th.scope = "col";
+            th.textContent = label;
+            head.append(th);
+          });
+          const rows = table.createTBody();
+          section.rows.forEach(item => {
+            const row = rows.insertRow();
+            const label = document.createElement("th");
+            label.scope = "row";
+            label.textContent = item.label;
+            row.append(label);
+            [item.plain, item.polite || "—"].forEach(value => {
+              const cell = row.insertCell();
+              value.split(" / ").forEach((form, formIndex) => {
+                if (formIndex) cell.append(document.createTextNode(" / "));
+                if (item.highlightWholeForm && form !== "—") {
+                  const ending = document.createElement("span");
+                  ending.className = "conjugation-card-ending";
+                  ending.textContent = window.getJapaneseSpeechText(form);
+                  cell.append(ending);
+                } else if (word.stem && form.startsWith(word.stem)) {
+                  const stem = document.createElement("span");
+                  setJapaneseText(stem, word.stem);
+                  const ending = document.createElement("span");
+                  ending.className = "conjugation-card-ending";
+                  ending.textContent = window.getJapaneseSpeechText(form.slice(word.stem.length));
+                  cell.append(stem, ending);
+                } else {
+                  const text = document.createElement("span");
+                  setJapaneseText(text, form);
+                  cell.append(text);
+                }
+              });
+            });
+            const detail = rows.insertRow().insertCell();
+            detail.colSpan = 3;
+            detail.className = "conjugation-card-detail";
+            const formation = document.createElement("p");
+            formation.className = "conjugation-card-formation";
+            setJapaneseText(formation, item.formation);
+            const example = document.createElement("p");
+            example.lang = "ja";
+            setJapaneseText(example, item.example.japanese);
+            const translation = document.createElement("p");
+            translation.className = "vocabulary-card-translation";
+            translation.textContent = item.example.english;
+            const exampleRow = document.createElement("div");
+            exampleRow.className = "reading-card-chunk";
+            exampleRow.append(example);
+            if (lesson.sampleAudio) {
+              const speaker = createExampleSpeechButton(item.example.japanese, "Read example sentence");
+              exampleRow.append(speaker);
+            }
+            detail.append(formation, exampleRow, translation);
+          });
+          body.append(heading, table);
+          if (section.note) {
+            const note = document.createElement("p");
+            note.className = "conjugation-card-note";
+            note.textContent = section.note;
+            body.append(note);
+          }
+        });
+        if (word.commonVerbs) {
+          const common = document.createElement("section");
+          common.className = "conjugation-card-common-verbs";
+          const heading = document.createElement("h4");
+          heading.textContent = word.commonVerbsTitle || "Common Group 2 verbs";
+          const list = document.createElement("p");
+          list.lang = "ja";
+          setJapaneseText(list, word.commonVerbs.join(", "));
+          common.append(heading, list);
+          body.append(common);
+        }
+        card.replaceChildren(header, body);
+        counter.textContent = `${index + 1} / ${entries.length}`;
+        previous.disabled = index === 0;
+        next.disabled = index === entries.length - 1;
+        return;
+      }
       if (lesson.readingCards) {
         const header = document.createElement("header");
         header.className = "reading-card-header";
@@ -201,7 +362,43 @@
           }
         }
         word.blocks.forEach(block => {
-          if (block.pairs) {
+          if (block.numberRows) {
+            const section = document.createElement("section");
+            const heading = document.createElement("h4");
+            heading.textContent = block.heading;
+            const table = document.createElement("table");
+            table.className = "number-reference-table";
+            table.setAttribute("aria-label", block.heading);
+            const head = table.createTHead().insertRow();
+            ["Number", "Japanese", "Reading"].forEach(label => {
+              const th = document.createElement("th");
+              th.scope = "col";
+              th.textContent = label;
+              head.append(th);
+            });
+            const rows = table.createTBody();
+            block.numberRows.forEach(item => {
+              const row = rows.insertRow();
+              if (item.irregular) row.className = "number-reference-irregular";
+              row.insertCell().textContent = item.number;
+              setJapaneseText(row.insertCell(), item.japanese);
+              const cell = row.insertCell();
+              const reading = document.createElement("span");
+              reading.lang = "ja";
+              reading.textContent = item.reading;
+              const speaker = createExampleSpeechButton(item.speech, "Read number");
+              speaker.addEventListener("click", () => wordPlayer.stop(), { capture: true, signal });
+              cell.append(reading, speaker);
+            });
+            section.append(heading, table);
+            if (block.note) {
+              const note = document.createElement("p");
+              note.className = "number-reference-note";
+              note.textContent = block.note;
+              section.append(note);
+            }
+            body.append(section);
+          } else if (block.pairs) {
             const section = document.createElement("section");
             section.className = "food-reference-group";
             const heading = document.createElement("h4");

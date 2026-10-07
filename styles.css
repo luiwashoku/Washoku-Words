@@ -2197,3 +2197,43 @@ html.vocabulary-cards-open,
 .food-reference-subtitle { display: flex; align-items: center; gap: 12px; }
 .food-reference-subtitle h4 { flex: 1; min-width: 0; }
 .food-reference-subtitle .explosion-example-speech { padding: 0; margin: 0; flex: 0 0 40px; width: 40px; height: 40px; }
+
+.conjugation-card-group { font-size: clamp(26px, 6vw, 34px); font-weight: 700; line-height: 1.5; margin: 0 0 12px; }
+.conjugation-card-common-verbs p { font-size: 17px; line-height: 2; }
+.conjugation-card-rule { padding: 12px; background: var(--horizon); font-size: 15px; line-height: 1.7; }
+.conjugation-card-body h4 { font-size: 20px; margin: 24px 0 10px; }
+.conjugation-card-table { width: 100%; table-layout: fixed; border-collapse: collapse; font-size: 15px; }
+.conjugation-card-table th, .conjugation-card-table td { text-align: left; vertical-align: top; padding: 10px 6px; overflow-wrap: anywhere; }
+.conjugation-card-table thead th { border-bottom: 2px solid var(--ink); font-size: 13px; }
+.conjugation-card-table tbody th { font-size: 13px; color: var(--ember); }
+.conjugation-card-table td:not(.conjugation-card-detail) { font-weight: 700; font-size: 18px; line-height: 1.8; }
+.conjugation-card-table .conjugation-card-detail { padding-top: 0; border-bottom: 1px solid rgb(17 17 17 / 18%); }
+.conjugation-card-detail p { margin: 5px 0; line-height: 1.7; }
+.conjugation-card-ending { color: var(--horizon); }
+.conjugation-card-table--ending-guide tbody td:not(.conjugation-card-detail) { color: var(--horizon); }
+.conjugation-card-table--ending-guide tbody th { font-size: 21px; font-weight: 700; line-height: 1.6; }
+.conjugation-card-detail p[lang="ja"] { font-weight: 600; }
+.conjugation-card-formation, .conjugation-card-note { font-size: 13px; line-height: 1.7; }
+.conjugation-card-table .vocabulary-card-translation { font-size: 13px; }
+
+.connection-reference-group { margin-top: 26px; }
+.connection-reference-group h4 { color: var(--ember); }
+.connection-reference-model { font-size: 16px; font-weight: 600; line-height: 1.8; padding-bottom: 10px; border-bottom: 2px solid var(--ink); }
+.connection-reference-patterns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 18px; }
+.connection-reference-patterns > div { min-width: 0; padding-bottom: 10px; border-bottom: 1px solid rgb(17 17 17 / 18%); }
+.connection-reference-pattern { font-size: 17px; font-weight: 600; line-height: 1.9; margin: 0; }
+.connection-reference-chunk { color: var(--ember); }
+.connection-reference-patterns .vocabulary-card-translation { font-size: 13px; line-height: 1.6; margin: 3px 0 0; }
+@media (max-width: 420px) { .connection-reference-patterns { grid-template-columns: 1fr; } }
+
+.number-reference-table { width: 100%; border-collapse: collapse; table-layout: fixed; margin: 12px 0; }
+.number-reference-table th, .number-reference-table td { padding: 10px 6px; text-align: left; vertical-align: middle; border-bottom: 1px solid rgb(17 17 17 / 18%); overflow-wrap: anywhere; }
+.number-reference-table th { font-size: 13px; border-bottom: 2px solid var(--ink); }
+.number-reference-table th:first-child { width: 25%; }
+.number-reference-table th:nth-child(2) { width: 25%; }
+.number-reference-table td { font-size: 17px; font-weight: 600; }
+.number-reference-table td:last-child { position: relative; padding-right: 42px; line-height: 1.8; }
+.number-reference-table .explosion-example-speech { position: absolute; right: 4px; top: 50%; transform: translateY(-50%); width: 30px; height: 30px; padding: 0; display: inline-grid; place-items: center; }
+.number-reference-table .explosion-example-speech svg { width: 20px; height: 20px; }
+.number-reference-irregular td:last-child > span { color: var(--ember); }
+.reading-card-body .number-reference-note { font-size: 13px; line-height: 1.7; margin: 10px 0 20px; }

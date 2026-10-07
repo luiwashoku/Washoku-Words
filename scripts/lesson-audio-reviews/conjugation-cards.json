@@ -1,0 +1,1391 @@
+{
+  "lesson": "conjugation-cards",
+  "reviewed": true,
+  "voice": "marin",
+  "model": "gpt-4o-mini-tts",
+  "speed": 1.0,
+  "reading_source": "All 138 sample sentences manually reviewed against the annotated reference-card text and conjugation context. 来 readings checked per form: き/こ/く; lexical 刃 は retained while topic は → わ, object を → お. Lexical は in はやく/はんぶん/はなした preserved. Long vowels, doubled consonants and katakana readings checked. Speech-only commas follow complete clauses/phrases, never immediately before particles. Exact display sentences and lookup keys unchanged.",
+  "notes": "Sample sentences only; headings, forms, formation notes, common-word lists and connection-guide fragments remain silent. Marin generation speed 1.0. Provisional natural Tokyo intonation authorized by persistent AGENTS.md. Format and input checks are not listening verification.",
+  "entries": [
+    {
+      "key": "まいあさ、パンをたべます。",
+      "input": "まいあさ、ぱんおたべます。",
+      "speed": 1.0,
+      "card": "conjugation-card-001",
+      "form": "Present / future",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "きょうはおかしをたべない。",
+      "input": "きょうわおかしおたべない。",
+      "speed": 1.0,
+      "card": "conjugation-card-001",
+      "form": "Negative",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "きのう、カレーをたべました。",
+      "input": "きのう、かれーおたべました。",
+      "speed": 1.0,
+      "card": "conjugation-card-001",
+      "form": "Past",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "けさはなにもたべなかった。",
+      "input": "けさわなにもたべなかった。",
+      "speed": 1.0,
+      "card": "conjugation-card-001",
+      "form": "Past negative",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "あさごはんをたべて、でかけます。",
+      "input": "あさごはんおたべて、でかけます。",
+      "speed": 1.0,
+      "card": "conjugation-card-001",
+      "form": "て-form",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "からいものもたべられます。",
+      "input": "からいものもたべられます。",
+      "speed": 1.0,
+      "card": "conjugation-card-001",
+      "form": "Potential · can",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "いっしょにたべよう。",
+      "input": "いっしょにたべよう。",
+      "speed": 1.0,
+      "card": "conjugation-card-001",
+      "form": "Volitional · let’s",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "すこしたべれば、げんきになるよ。",
+      "input": "すこしたべれば、げんきになるよ。",
+      "speed": 1.0,
+      "card": "conjugation-card-001",
+      "form": "Conditional · ば",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "たべたら、おさらをあらってね。",
+      "input": "たべたら、おさらおあらってね。",
+      "speed": 1.0,
+      "card": "conjugation-card-001",
+      "form": "Conditional · たら",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "「はやくたべろ」といわれた。",
+      "input": "「はやくたべろ」といわれた。",
+      "speed": 1.0,
+      "card": "conjugation-card-001",
+      "form": "Imperative",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "「それをたべるな」といわれた。",
+      "input": "「それおたべるな」といわれた。",
+      "speed": 1.0,
+      "card": "conjugation-card-001",
+      "form": "Prohibition",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "のこしておいたケーキをおとうとにたべられた。",
+      "input": "のこしておいたけーきお、おとうとにたべられた。",
+      "speed": 1.0,
+      "card": "conjugation-card-001",
+      "form": "Passive",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "おやはこどもにやさいをたべさせた。",
+      "input": "おやわ、こどもにやさいおたべさせた。",
+      "speed": 1.0,
+      "card": "conjugation-card-001",
+      "form": "Causative",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "にがてなやさいをたべさせられた。",
+      "input": "にがてなやさいおたべさせられた。",
+      "speed": 1.0,
+      "card": "conjugation-card-001",
+      "form": "Causative-passive",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "こんやはすしをたべたいです。",
+      "input": "こんやわすしおたべたいです。",
+      "speed": 1.0,
+      "card": "conjugation-card-001",
+      "form": "Want to eat",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "いま、ひるごはんをたべています。",
+      "input": "いま、ひるごはんおたべています。",
+      "speed": 1.0,
+      "card": "conjugation-card-001",
+      "form": "Eating / ongoing",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "あたたかいうちにたべてください。",
+      "input": "あたたかいうちにたべてください。",
+      "speed": 1.0,
+      "card": "conjugation-card-001",
+      "form": "Please eat",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "やさいをきります。",
+      "input": "やさいおきります。",
+      "speed": 1.0,
+      "card": "conjugation-card-002",
+      "form": "Present / future",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "まだパンをきらないでね。",
+      "input": "まだぱんおきらないでね。",
+      "speed": 1.0,
+      "card": "conjugation-card-002",
+      "form": "Negative",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "きのう、かみをきりました。",
+      "input": "きのう、かみおきりました。",
+      "speed": 1.0,
+      "card": "conjugation-card-002",
+      "form": "Past",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "きのうは、このやさいをきらなかった。",
+      "input": "きのうわ、このやさいおきらなかった。",
+      "speed": 1.0,
+      "card": "conjugation-card-002",
+      "form": "Past negative",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "たまねぎをきって、いためます。",
+      "input": "たまねぎおきって、いためます。",
+      "speed": 1.0,
+      "card": "conjugation-card-002",
+      "form": "て-form",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "このほうちょうなら、うすくきれます。",
+      "input": "このほうちょうなら、うすくきれます。",
+      "speed": 1.0,
+      "card": "conjugation-card-002",
+      "form": "Potential · can",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "さきにやさいをきろう。",
+      "input": "さきにやさいおきろう。",
+      "speed": 1.0,
+      "card": "conjugation-card-002",
+      "form": "Volitional · let’s",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "ちいさくきれば、はやくひがとおります。",
+      "input": "ちいさくきれば、はやくひがとおります。",
+      "speed": 1.0,
+      "card": "conjugation-card-002",
+      "form": "Conditional · ば",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "やさいをきったら、ここにいれてね。",
+      "input": "やさいおきったら、ここにいれてね。",
+      "speed": 1.0,
+      "card": "conjugation-card-002",
+      "form": "Conditional · たら",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "えいがで「ロープをきれ」とさけんでいた。",
+      "input": "えいがで、「ろーぷおきれ」とさけんでいた。",
+      "speed": 1.0,
+      "card": "conjugation-card-002",
+      "form": "Imperative",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "「そのえだをきるな」といわれた。",
+      "input": "「そのえだおきるな」といわれた。",
+      "speed": 1.0,
+      "card": "conjugation-card-002",
+      "form": "Prohibition",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "やさいは、たべやすいおおきさにきられています。",
+      "input": "やさいわ、たべやすいおおきさにきられています。",
+      "speed": 1.0,
+      "card": "conjugation-card-002",
+      "form": "Passive",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "りょうりきょうしつで、せんせいがわたしにやさいをきらせてくれた。",
+      "input": "りょうりきょうしつで、せんせいがわたしにやさいおきらせてくれた。",
+      "speed": 1.0,
+      "card": "conjugation-card-002",
+      "form": "Causative",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "たいりょうのたまねぎをきらされた。",
+      "input": "たいりょうのたまねぎおきらされた。",
+      "speed": 1.0,
+      "card": "conjugation-card-002",
+      "form": "Causative-passive",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "もうすこしうすくきりたいです。",
+      "input": "もうすこしうすくきりたいです。",
+      "speed": 1.0,
+      "card": "conjugation-card-002",
+      "form": "Want to cut",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "いま、やさいをきっています。",
+      "input": "いま、やさいおきっています。",
+      "speed": 1.0,
+      "card": "conjugation-card-002",
+      "form": "Cutting / ongoing",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "はんぶんにきってください。",
+      "input": "はんぶんにきってください。",
+      "speed": 1.0,
+      "card": "conjugation-card-002",
+      "form": "Please cut",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "パンをかって、かえります。",
+      "input": "ぱんおかって、かえります。",
+      "speed": 1.0,
+      "card": "conjugation-card-002",
+      "form": "う / つ / る",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "せつめいをよんでください。",
+      "input": "せつめいおよんでください。",
+      "speed": 1.0,
+      "card": "conjugation-card-002",
+      "form": "む / ぶ / ぬ",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "なまえをかいてください。",
+      "input": "なまえおかいてください。",
+      "speed": 1.0,
+      "card": "conjugation-card-002",
+      "form": "く",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "きのう、プールでおよいだ。",
+      "input": "きのう、ぷーるでおよいだ。",
+      "speed": 1.0,
+      "card": "conjugation-card-002",
+      "form": "ぐ",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "ともだちとはなした。",
+      "input": "ともだちとはなした。",
+      "speed": 1.0,
+      "card": "conjugation-card-002",
+      "form": "す",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "まいにち、りょうりをします。",
+      "input": "まいにち、りょうりおします。",
+      "speed": 1.0,
+      "card": "conjugation-card-003",
+      "form": "Present / future",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "きょうはざんぎょうしない。",
+      "input": "きょうわざんぎょうしない。",
+      "speed": 1.0,
+      "card": "conjugation-card-003",
+      "form": "Negative",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "きのう、へやのそうじをしました。",
+      "input": "きのう、へやのそうじおしました。",
+      "speed": 1.0,
+      "card": "conjugation-card-003",
+      "form": "Past",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "きのうはかいものをしなかった。",
+      "input": "きのうわかいものおしなかった。",
+      "speed": 1.0,
+      "card": "conjugation-card-003",
+      "form": "Past negative",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "かいものをして、かえります。",
+      "input": "かいものおして、かえります。",
+      "speed": 1.0,
+      "card": "conjugation-card-003",
+      "form": "て-form",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "ひとりでりょうりができます。",
+      "input": "ひとりでりょうりができます。",
+      "speed": 1.0,
+      "card": "conjugation-card-003",
+      "form": "Potential · can",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "そろそろきゅうけいしよう。",
+      "input": "そろそろきゅうけいしよう。",
+      "speed": 1.0,
+      "card": "conjugation-card-003",
+      "form": "Volitional · let’s",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "まいにちれんしゅうすれば、じょうずになります。",
+      "input": "まいにちれんしゅうすれば、じょうずになります。",
+      "speed": 1.0,
+      "card": "conjugation-card-003",
+      "form": "Conditional · ば",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "よやくしたら、おしえてね。",
+      "input": "よやくしたら、おしえてね。",
+      "speed": 1.0,
+      "card": "conjugation-card-003",
+      "form": "Conditional · たら",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "せんせいに「しゅうちゅうしろ」といわれた。",
+      "input": "せんせいに、「しゅうちゅうしろ」といわれた。",
+      "speed": 1.0,
+      "card": "conjugation-card-003",
+      "form": "Imperative",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "「むりするな」といわれた。",
+      "input": "「むりするな」といわれた。",
+      "speed": 1.0,
+      "card": "conjugation-card-003",
+      "form": "Prohibition",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "りょこうのよていがきゅうにへんこうされました。",
+      "input": "りょこうのよていが、きゅうにへんこうされました。",
+      "speed": 1.0,
+      "card": "conjugation-card-003",
+      "form": "Passive",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "せんせいがわたしにりょうりのれんしゅうをさせてくれた。",
+      "input": "せんせいがわたしに、りょうりのれんしゅうおさせてくれた。",
+      "speed": 1.0,
+      "card": "conjugation-card-003",
+      "form": "Causative",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "きゅうにざんぎょうさせられた。",
+      "input": "きゅうにざんぎょうさせられた。",
+      "speed": 1.0,
+      "card": "conjugation-card-003",
+      "form": "Causative-passive",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "しゅうまつは、ゆっくりかいものをしたいです。",
+      "input": "しゅうまつわ、ゆっくりかいものおしたいです。",
+      "speed": 1.0,
+      "card": "conjugation-card-003",
+      "form": "Want to do",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "いま、ゆうしょくのじゅんびをしています。",
+      "input": "いま、ゆうしょくのじゅんびおしています。",
+      "speed": 1.0,
+      "card": "conjugation-card-003",
+      "form": "Doing / ongoing",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "ここになまえをかいてから、かくにんしてください。",
+      "input": "ここになまえおかいてから、かくにんしてください。",
+      "speed": 1.0,
+      "card": "conjugation-card-003",
+      "form": "Please do",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "あした、ともだちがきます。",
+      "input": "あした、ともだちがきます。",
+      "speed": 1.0,
+      "card": "conjugation-card-004",
+      "form": "Present / future",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "きょうはだれもこない。",
+      "input": "きょうわだれもこない。",
+      "speed": 1.0,
+      "card": "conjugation-card-004",
+      "form": "Negative",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "きのう、おとうとがあそびにきました。",
+      "input": "きのう、おとうとがあそびにきました。",
+      "speed": 1.0,
+      "card": "conjugation-card-004",
+      "form": "Past",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "きのうはだれもこなかった。",
+      "input": "きのうわだれもこなかった。",
+      "speed": 1.0,
+      "card": "conjugation-card-004",
+      "form": "Past negative",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "いえにきて、いっしょにりょうりしよう。",
+      "input": "いえにきて、いっしょにりょうりしよう。",
+      "speed": 1.0,
+      "card": "conjugation-card-004",
+      "form": "て-form",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "あしたのゆうしょくにこられますか。",
+      "input": "あしたのゆうしょくにこられますか。",
+      "speed": 1.0,
+      "card": "conjugation-card-004",
+      "form": "Potential · can",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "またこのみせにこよう。",
+      "input": "またこのみせにこよう。",
+      "speed": 1.0,
+      "card": "conjugation-card-004",
+      "form": "Volitional · let’s",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "はやくくれば、いっしょにじゅんびできます。",
+      "input": "はやくくれば、いっしょにじゅんびできます。",
+      "speed": 1.0,
+      "card": "conjugation-card-004",
+      "form": "Conditional · ば",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "いえにきたら、れんらくしてね。",
+      "input": "いえにきたら、れんらくしてね。",
+      "speed": 1.0,
+      "card": "conjugation-card-004",
+      "form": "Conditional · たら",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "えいがで「こっちにこい」とさけんでいた。",
+      "input": "えいがで、「こっちにこい」とさけんでいた。",
+      "speed": 1.0,
+      "card": "conjugation-card-004",
+      "form": "Imperative",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "「ここにはくるな」といわれた。",
+      "input": "「ここにわくるな」といわれた。",
+      "speed": 1.0,
+      "card": "conjugation-card-004",
+      "form": "Prohibition",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "いそがしいときにともだちにこられて、こまった。",
+      "input": "いそがしいときにともだちにこられて、こまった。",
+      "speed": 1.0,
+      "card": "conjugation-card-004",
+      "form": "Passive",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "わすれものをとりに、おとうとをいえにこさせた。",
+      "input": "わすれものおとりに、おとうとおいえにこさせた。",
+      "speed": 1.0,
+      "card": "conjugation-card-004",
+      "form": "Causative",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "やすみのひなのに、かいしゃにこさせられた。",
+      "input": "やすみのひなのに、かいしゃにこさせられた。",
+      "speed": 1.0,
+      "card": "conjugation-card-004",
+      "form": "Causative-passive",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "またこのみせにきたいです。",
+      "input": "またこのみせにきたいです。",
+      "speed": 1.0,
+      "card": "conjugation-card-004",
+      "form": "Want to come",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "いま、ともだちがいえにきています。",
+      "input": "いま、ともだちがいえにきています。",
+      "speed": 1.0,
+      "card": "conjugation-card-004",
+      "form": "Has come / is here",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "ろくじまでにきてください。",
+      "input": "ろくじまでにきてください。",
+      "speed": 1.0,
+      "card": "conjugation-card-004",
+      "form": "Please come",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "このほうちょうのははうすいです。",
+      "input": "このほうちょうのはわうすいです。",
+      "speed": 1.0,
+      "card": "conjugation-card-005",
+      "form": "Present",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "このきじはうすくない。",
+      "input": "このきじわうすくない。",
+      "speed": 1.0,
+      "card": "conjugation-card-005",
+      "form": "Negative",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "まえのほうちょうのはは、もっとうすかったです。",
+      "input": "まえのほうちょうのはわ、もっとうすかったです。",
+      "speed": 1.0,
+      "card": "conjugation-card-005",
+      "form": "Past",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "おもったほどうすくなかった。",
+      "input": "おもったほどうすくなかった。",
+      "speed": 1.0,
+      "card": "conjugation-card-005",
+      "form": "Past negative",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "だいこんをうすくきってください。",
+      "input": "だいこんおうすくきってください。",
+      "speed": 1.0,
+      "card": "conjugation-card-005",
+      "form": "Adverbial",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "このははうすくて、かるいです。",
+      "input": "このはわうすくて、かるいです。",
+      "speed": 1.0,
+      "card": "conjugation-card-005",
+      "form": "Connecting · and",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "うすければ、はやくひがとおります。",
+      "input": "うすければ、はやくひがとおります。",
+      "speed": 1.0,
+      "card": "conjugation-card-005",
+      "form": "Conditional · ば",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "きじがうすかったら、もういちまいかさねてね。",
+      "input": "きじがうすかったら、もういちまいかさねてね。",
+      "speed": 1.0,
+      "card": "conjugation-card-005",
+      "form": "Conditional · たら",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "うすくても、じょうぶです。",
+      "input": "うすくても、じょうぶです。",
+      "speed": 1.0,
+      "card": "conjugation-card-005",
+      "form": "Even if · ても",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "うすくなければ、もうすこしきってください。",
+      "input": "うすくなければ、もうすこしきってください。",
+      "speed": 1.0,
+      "card": "conjugation-card-005",
+      "form": "Negative conditional",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "うすいかみをつかいます。",
+      "input": "うすいかみおつかいます。",
+      "speed": 1.0,
+      "card": "conjugation-card-005",
+      "form": "Before a noun",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "つかっているうちに、きじがうすくなった。",
+      "input": "つかっているうちに、きじがうすくなった。",
+      "speed": 1.0,
+      "card": "conjugation-card-005",
+      "form": "Become thin",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "きじをもうすこしうすくします。",
+      "input": "きじおもうすこしうすくします。",
+      "speed": 1.0,
+      "card": "conjugation-card-005",
+      "form": "Make thin",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "このかみはうすすぎます。",
+      "input": "このかみわうすすぎます。",
+      "speed": 1.0,
+      "card": "conjugation-card-005",
+      "form": "Too thin",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "このぬのはうすそうです。",
+      "input": "このぬのわうすそうです。",
+      "speed": 1.0,
+      "card": "conjugation-card-005",
+      "form": "Looks thin",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "このうすさなら、すぐやけます。",
+      "input": "このうすさなら、すぐやけます。",
+      "speed": 1.0,
+      "card": "conjugation-card-005",
+      "form": "Degree noun",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "このほうちょうはいいです。",
+      "input": "このほうちょうわいいです。",
+      "speed": 1.0,
+      "card": "conjugation-card-006",
+      "form": "Present",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "きょうはてんきがよくない。",
+      "input": "きょうわてんきがよくない。",
+      "speed": 1.0,
+      "card": "conjugation-card-006",
+      "form": "Negative",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "きのうのりょうりはよかったです。",
+      "input": "きのうのりょうりわよかったです。",
+      "speed": 1.0,
+      "card": "conjugation-card-006",
+      "form": "Past",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "きのうはたいちょうがよくなかった。",
+      "input": "きのうわたいちょうがよくなかった。",
+      "speed": 1.0,
+      "card": "conjugation-card-006",
+      "form": "Past negative",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "やさいをよくあらってください。",
+      "input": "やさいおよくあらってください。",
+      "speed": 1.0,
+      "card": "conjugation-card-006",
+      "form": "Adverbial",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "このみせはふんいきがよくて、おちつきます。",
+      "input": "このみせわふんいきがよくて、おちつきます。",
+      "speed": 1.0,
+      "card": "conjugation-card-006",
+      "form": "Connecting · and",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "よければ、いっしょにたべませんか。",
+      "input": "よければ、いっしょにたべませんか。",
+      "speed": 1.0,
+      "card": "conjugation-card-006",
+      "form": "Conditional · ば",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "よかったら、いえにきてね。",
+      "input": "よかったら、いえにきてね。",
+      "speed": 1.0,
+      "card": "conjugation-card-006",
+      "form": "Conditional · たら",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "あじがよくても、ねだんがたかすぎる。",
+      "input": "あじがよくても、ねだんがたかすぎる。",
+      "speed": 1.0,
+      "card": "conjugation-card-006",
+      "form": "Even if · ても",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "たいちょうがよくなければ、やすんでください。",
+      "input": "たいちょうがよくなければ、やすんでください。",
+      "speed": 1.0,
+      "card": "conjugation-card-006",
+      "form": "Negative conditional",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "いいほうちょうをかいました。",
+      "input": "いいほうちょうおかいました。",
+      "speed": 1.0,
+      "card": "conjugation-card-006",
+      "form": "Before a noun",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "すこしやすんだら、たいちょうがよくなりました。",
+      "input": "すこしやすんだら、たいちょうがよくなりました。",
+      "speed": 1.0,
+      "card": "conjugation-card-006",
+      "form": "Become good / better",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "もっとあじをよくしたいです。",
+      "input": "もっとあじおよくしたいです。",
+      "speed": 1.0,
+      "card": "conjugation-card-006",
+      "form": "Make good / better",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "じょうけんがよすぎて、すこしふあんです。",
+      "input": "じょうけんがよすぎて、すこしふあんです。",
+      "speed": 1.0,
+      "card": "conjugation-card-006",
+      "form": "Too good",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "このほうちょうはよさそうです。",
+      "input": "このほうちょうわよさそうです。",
+      "speed": 1.0,
+      "card": "conjugation-card-006",
+      "form": "Looks good",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "このほうちょうのよさがわかりました。",
+      "input": "このほうちょうのよさがわかりました。",
+      "speed": 1.0,
+      "card": "conjugation-card-006",
+      "form": "Degree noun",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "このほうちょうのえはじょうぶです。",
+      "input": "このほうちょうのえわじょうぶです。",
+      "speed": 1.0,
+      "card": "conjugation-card-007",
+      "form": "Present",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "このふくろはじょうぶじゃない。",
+      "input": "このふくろわじょうぶじゃない。",
+      "speed": 1.0,
+      "card": "conjugation-card-007",
+      "form": "Negative",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "まえのかばんはじょうぶでした。",
+      "input": "まえのかばんわじょうぶでした。",
+      "speed": 1.0,
+      "card": "conjugation-card-007",
+      "form": "Past",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "まえのふくろは、あまりじょうぶじゃなかった。",
+      "input": "まえのふくろわ、あまりじょうぶじゃなかった。",
+      "speed": 1.0,
+      "card": "conjugation-card-007",
+      "form": "Past negative",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "じょうぶなえをえらびました。",
+      "input": "じょうぶなえおえらびました。",
+      "speed": 1.0,
+      "card": "conjugation-card-007",
+      "form": "Before a noun",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "このつくえはじょうぶにつくられています。",
+      "input": "このつくえわじょうぶにつくられています。",
+      "speed": 1.0,
+      "card": "conjugation-card-007",
+      "form": "Adverbial",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "このかばんはじょうぶで、かるいです。",
+      "input": "このかばんわじょうぶで、かるいです。",
+      "speed": 1.0,
+      "card": "conjugation-card-007",
+      "form": "Connecting · and",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "じょうぶなら、これをかいます。",
+      "input": "じょうぶなら、これおかいます。",
+      "speed": 1.0,
+      "card": "conjugation-card-007",
+      "form": "Conditional · なら",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "じょうぶであれば、ながくつかえます。",
+      "input": "じょうぶであれば、ながくつかえます。",
+      "speed": 1.0,
+      "card": "conjugation-card-007",
+      "form": "Conditional · ば",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "じょうぶだったら、まいにちつかいたいです。",
+      "input": "じょうぶだったら、まいにちつかいたいです。",
+      "speed": 1.0,
+      "card": "conjugation-card-007",
+      "form": "Conditional · たら",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "じょうぶでも、ていねいにあつかってください。",
+      "input": "じょうぶでも、ていねいにあつかってください。",
+      "speed": 1.0,
+      "card": "conjugation-card-007",
+      "form": "Even if · でも",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "じょうぶでなければ、べつのものをえらびます。",
+      "input": "じょうぶでなければ、べつのものおえらびます。",
+      "speed": 1.0,
+      "card": "conjugation-card-007",
+      "form": "Negative conditional",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "ほきょうすると、もっとじょうぶになります。",
+      "input": "ほきょうすると、もっとじょうぶになります。",
+      "speed": 1.0,
+      "card": "conjugation-card-007",
+      "form": "Become sturdy",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "たなをほきょうして、じょうぶにします。",
+      "input": "たなおほきょうして、じょうぶにします。",
+      "speed": 1.0,
+      "card": "conjugation-card-007",
+      "form": "Make sturdy",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "ほうそうがじょうぶすぎて、あけにくいです。",
+      "input": "ほうそうがじょうぶすぎて、あけにくいです。",
+      "speed": 1.0,
+      "card": "conjugation-card-007",
+      "form": "Too sturdy",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "このかばんはじょうぶそうです。",
+      "input": "このかばんわじょうぶそうです。",
+      "speed": 1.0,
+      "card": "conjugation-card-007",
+      "form": "Looks sturdy",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "このかばんのじょうぶさがきにいっています。",
+      "input": "このかばんのじょうぶさがきにいっています。",
+      "speed": 1.0,
+      "card": "conjugation-card-007",
+      "form": "Degree noun",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "わたしはりょうりにんです。",
+      "input": "わたしわりょうりにんです。",
+      "speed": 1.0,
+      "card": "conjugation-card-008",
+      "form": "Present",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "わたしはりょうりにんじゃないけど、りょうりがすきです。",
+      "input": "わたしわりょうりにんじゃないけど、りょうりがすきです。",
+      "speed": 1.0,
+      "card": "conjugation-card-008",
+      "form": "Negative",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "ちちはりょうりにんでした。",
+      "input": "ちちわりょうりにんでした。",
+      "speed": 1.0,
+      "card": "conjugation-card-008",
+      "form": "Past",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "そのころ、ちちはまだりょうりにんじゃなかった。",
+      "input": "そのころ、ちちわまだりょうりにんじゃなかった。",
+      "speed": 1.0,
+      "card": "conjugation-card-008",
+      "form": "Past negative",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "りょうりにんのともだちにききました。",
+      "input": "りょうりにんのともだちにききました。",
+      "speed": 1.0,
+      "card": "conjugation-card-008",
+      "form": "Before a noun",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "あにはりょうりにんで、あねはせんせいです。",
+      "input": "あにわりょうりにんで、あねわせんせいです。",
+      "speed": 1.0,
+      "card": "conjugation-card-008",
+      "form": "Connecting · and",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "りょうりにんなら、ほうちょうにくわしいかもしれません。",
+      "input": "りょうりにんなら、ほうちょうにくわしいかもしれません。",
+      "speed": 1.0,
+      "card": "conjugation-card-008",
+      "form": "Conditional · なら",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "りょうりにんであれば、このこうざにもうしこめます。",
+      "input": "りょうりにんであれば、このこうざにもうしこめます。",
+      "speed": 1.0,
+      "card": "conjugation-card-008",
+      "form": "Conditional · ば",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "わたしがりょうりにんだったら、まいにちりょうりをけんきゅうするとおもいます。",
+      "input": "わたしがりょうりにんだったら、まいにちりょうりおけんきゅうするとおもいます。",
+      "speed": 1.0,
+      "card": "conjugation-card-008",
+      "form": "Conditional · たら",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "りょうりにんでも、しっぱいすることがあります。",
+      "input": "りょうりにんでも、しっぱいすることがあります。",
+      "speed": 1.0,
+      "card": "conjugation-card-008",
+      "form": "Even if · でも",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "りょうりにんでなければ、べつのこうざをえらんでください。",
+      "input": "りょうりにんでなければ、べつのこうざおえらんでください。",
+      "speed": 1.0,
+      "card": "conjugation-card-008",
+      "form": "Negative conditional",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "いつかりょうりにんになりたいです。",
+      "input": "いつかりょうりにんになりたいです。",
+      "speed": 1.0,
+      "card": "conjugation-card-008",
+      "form": "Become a cook",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "りょうりにんとして、しょくざいをたいせつにしています。",
+      "input": "りょうりにんとして、しょくざいおたいせつにしています。",
+      "speed": 1.0,
+      "card": "conjugation-card-008",
+      "form": "As a cook",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "ほうちょうのつかいかたが、りょうりにんのようです。",
+      "input": "ほうちょうのつかいかたが、りょうりにんのようです。",
+      "speed": 1.0,
+      "card": "conjugation-card-008",
+      "form": "Looks like a cook",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "りょうりにんらしいてぎわのよさですね。",
+      "input": "りょうりにんらしいてぎわのよさですね。",
+      "speed": 1.0,
+      "card": "conjugation-card-008",
+      "form": "Cook-like",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    },
+    {
+      "key": "かれは、このみせのりょうりにんである。",
+      "input": "かれわ、このみせのりょうりにんである。",
+      "speed": 1.0,
+      "card": "conjugation-card-008",
+      "form": "Formal statement",
+      "listening_verified": false,
+      "accent_status": "provisional-user-authorized",
+      "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice, at normal timing and volume. Use fluent connected words without syllable recitation or internal breaks. Preserve vowel length and doubled consonants. Pause gently at the supplied commas and complete clause boundaries; keep particles attached to the preceding phrase. Use natural sentence and inflected-form pitch rather than a whole-sentence citation contour."
+    }
+  ]
+}

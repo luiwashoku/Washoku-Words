@@ -435,3 +435,71 @@ Page 20, 寸法 (Measurements), contains eight terms in two columns. Seven vocab
 Page 21, 包丁を比較する言葉 (Comparing Knives), completes the supplied master deck with seventeen terms in two columns. Five clips are reused; thirteen new clips use Marin at generation speed 1.0 with reviewed contextual hiragana. Eight new vocabulary terms have exact dictionary pitch targets; other new phrases and heading use provisional intonation under standing authorization. Lexical は in はばひろい is retained and heading object を is spoken お. No audible verification is claimed. The complete deck now has 21 pages and 260 recorded speech keys.
 
 The 80-point grammar coverage audit adds 54 cards (222–275) to 文法カード: 48 missing points plus dedicated さえあれば, emphatic まで, にしか～ない, discovery/result たところ, ずに済む, and ても仕方がない. Every card has formation notes and polite/plain examples using daily-life situations; five formal constructions label their second example as plain form with formal wording. All 221 original cards remain unchanged. Explicit speech inputs review contextual は/を, lexical kana, and complete-clause pauses; no pauses are inserted immediately before particles. New clips use Marin at generation speed 1.0 and standing provisional-intonation authorization. Formation remains silent. Actual audible pitch/pause quality is not listening-verified. The deck now contains 275 cards and 812 recorded speech keys.
+
+活用カード (`conjugation-cards`) now has 138 recorded sample sentences across its eight conjugation/reference cards. Its exporter includes section-row examples only: headings, conjugated forms, formations, word lists, and the connection-guide fragments remain silent. Inputs are manually reviewed hiragana with context-specific particle pronunciations and speech-only pauses after complete phrases/clauses. 来る readings vary with the conjugation; lexical 刃 は and はなした are preserved. All clips use Marin (`gpt-4o-mini-tts`) at generation speed 1.0 and natural provisional sentence intonation under standing authorization. Speaker controls appear beside every sample; navigation does not autoplay. No audible pitch or pause verification is claimed.
+
+数え方カード (`counting-cards`) starts with page 1, 数字: sixty number/variant rows in eight groups, two short sample sentences and the 101 building example, plus heading audio. Its 64 Marin clips use generation speed 1.0 with reviewed hiragana. Irregular hundreds/thousands are highlighted; contextual し/しち/く alternatives are separate. Speech-only lookup keys retain display labels separately; 番号は is spoken ばんごうわ. Exact dictionary pitch targets are supplied where matched, provisional natural intonation elsewhere under standing authorization. No audible listening verification is claimed.
+
+Page 2, 日付 (Dates), adds all 31 calendar days, 何日 and five examples. Readings follow the Japan Foundation Irodori date chart; 17/27 use しち, 19/29 use く, and 14/20/24 retain irregular forms. Date/duration distinctions are explained. Thirty-eight new Marin clips use generation speed 1.0 with reviewed contextual hiragana and connected phrasing. The complete 102-clip counting manifest passes Chrome offline-decoded signal checks, with no silent clips detected; signal checks do not establish audible pronunciation or pitch correctness. Browser checks cover date layout and recorded playback. No listening verification is claimed.
+
+### Counting cards — page 3: 月・年
+
+Added twelve month names, five calendar-year examples, eight relative month/year terms, two question words, and five translated daily-life examples. All 33 new inputs reviewed in hiragana, with contextual particles and connected date/year phrasing; Marin at generation speed 1.0. Exact dictionary accent targets used for month names and relative terms; heading, years and sentences retain provisional intonation under standing authorization. Browser checks pass for three pages, phone width, and recorded audio lookup. All 135 counting clips decoded with non-silent signal; this is not listening or audible pitch verification.
+
+### Counting cards — page 4: 曜日
+
+Added seven weekdays, six relative day terms, four useful day words and five translated daily-life sentences. All 23 new hiragana inputs reviewed; 市場 is いちば in the food-market example, topic は becomes わ, and the sole sentence comma follows the complete 明日 phrase. All standalone entries have exact dictionary pitch targets; sentences use authorized provisional Tokyo intonation. Marin generation speed 1.0. Four-page browser checks passed, including mobile width and audio lookup. All 158 clips decoded with non-silent signal; no audible pitch or listening verification claimed.
+
+Regenerated standalone 週末（しゅうまつ）at Marin 1.0 after user reported drawn-out delivery. Guidance requests compact conversational timing, ordinary しゅう vowel length, connected short まつ and no internal pauses. Retained heiban target from exact 週末 source; corrected prior source metadata that had matched homophone 終末. MP3 decoding metadata checked; no listening verification claimed.
+
+### Counting cards — page 5: 時刻
+
+Added 12 clock hours, minutes 1–10, six useful minute marks, five AM/PM/question terms, three combined times and five translated examples. Checked readings and pitch targets against Japan Foundation Irodori Starter wordlist pages 27–28 and 44–45; exact 時刻 and 何分 accent sources retained separately. Compound times and sentence intonation marked provisional. Contextual は → わ, lexical はん preserved, particles attached, compact time phrasing. Generated 42 new Marin clips at 1.0. Five-page mobile/audio lookup checks passed; all 200 clips decoded with non-silent signal. No audible pitch/listening verification claimed.
+
+### Counting cards — page 6: 期間
+
+Added 1–10 hours/days/weeks/months/years, half-duration terms, questions and five translated examples. All 52 new speech inputs reviewed against the Japan Foundation duration chart; exact spelling/reading accent matches retained, remaining targets provisional under standing authorization. Explicit six-month sentence speech avoids mixed kanji/kana annotation ambiguity. Object を → お and topic は → わ reviewed. Marin at 1.0. Six-page mobile/audio lookup checks passed; all 252 recordings decoded with non-silent signal. No listening or audible pitch verification claimed.
+
+### Counting cards — page 7: 人数
+
+Added person counts 1–10, larger counts 11/12/14/20, 何人, three group phrases and five translated everyday examples. All 24 new inputs reviewed against Japan Foundation counting materials, including irregular ひとり/ふたり/よにん. Exact spelling-and-reading accent matches retained; remaining targets provisional under standing authorization. Topic は → わ in 今日は and uninterrupted 人で phrasing reviewed. Marin generation speed 1.0. Seven-page mobile/audio-button checks passed; all 276 clips decoded with non-silent signal. No listening or audible pitch verification claimed.
+
+### Counting cards — page 8: 物の数
+
+Added 〜つ and 〜個 1–10, questions/larger counts and five translated daily-life ordering examples. Reviewed 30 new speech inputs against Japan Foundation counter chart BTS00010; exact spelling/reading dictionary targets retained, other intonation provisional. Explicit sentence speech keys keep contextual を → お and は → わ separate from display. Marin at 1.0. Eight-page mobile and audio-button checks passed. Signal validation caught silent ろっこ; regenerated it, then all 306 clips passed decoded non-silence checks. No listening or audible pitch verification claimed.
+
+### Counting cards — page 9: 本・杯
+
+Added 本/杯 counts 1–10, 何本/何杯 and five translated food/drink examples. All 28 new inputs reviewed against Japan Foundation counter chart BTS00010. Exact spelling/reading matches retained and 一杯 noun/counter pitch selected separately from adverb sense; remaining targets provisional. Speech-only particle readings and long vowels reviewed. Marin generation speed 1.0. Nine-page mobile/audio lookup checks passed; all 334 recordings decoded with non-silent signal. No listening or audible pitch verification claimed.
+
+### Counting cards — page 10: 枚・冊・台
+
+Added 1–10 for 枚/冊/台, three question words and five translated everyday examples. Reviewed all 39 new inputs against Japan Foundation counter chart BTS00010; exact spelling/reading dictionary targets retained, others provisional under standing authorization. Explicit speech keys preserve context-specific を → お and は → わ; long vowels and satsu gemination reviewed. Marin at 1.0. Ten-page mobile/audio lookup checks passed; all 373 recordings decoded with non-silent signal. No listening or audible pitch verification claimed.
+
+Regenerated 二杯（にはい）with explicit lexical ha guidance, connected compact timing and Marin 1.0 after user reported incorrect pronunciation. Reading checked against Japan Foundation counter reference; pitch remains provisional. All 373 clips pass decoded non-silence checks; no listening verification claimed.
+
+Regenerated お皿を四枚用意します。at Marin 1.0 after user reported unnatural delivery. Retained reviewed おさらおよんまいよういします。and added explicit connected object/predicate guidance, normal ようい vowel timing and compact natural sentence intonation. All 373 clips pass non-silent decoding checks; no listening verification claimed.
+
+### Counting cards — page 11: 年齢
+
+Added ages 1–10, teens/twenties including はたち and にじゅっさい, decades and age questions, plus five translated examples. All 33 new inputs reviewed against Japan Foundation Irodori Lesson 4 and counter chart BTS00010. Exact dictionary targets retained; other intonation provisional under standing authorization. Contextual topic は → わ and lexical はたち/はっさい preserved; phrase boundaries reviewed. Marin generation speed 1.0. Eleven-page mobile/audio lookup checks passed; all 406 clips decoded with non-silent signal. No listening or audible pitch verification claimed.
+
+### Counting cards — page 12: 回数・順番
+
+Added 回/番 1–10, questions and sequence expressions, plus five translated everyday examples. All 33 new speech inputs reviewed against Japan Foundation counter chart BTS00010. Exact dictionary targets retained; remaining intonation provisional under standing authorization. Contextual を → お and は → わ reviewed, gemination preserved, frequency phrase kept together. Marin generation speed 1.0. Twelve-page mobile/audio lookup checks passed; all 439 recordings decoded with non-silent signal. No listening or audible pitch verification claimed.
+
+### Counting cards — page 13: 金額
+
+Added yen 1–10, common price components, composite prices and questions, plus five translated shopping examples. Reviewed all 32 new inputs: よえん, place-value sound changes and connected price expressions; sentence topic は → わ, lexical はち preserved. Exact dictionary targets retained; remaining intonation provisional under standing authorization. Marin generation speed 1.0. Thirteen-page mobile/audio lookup checks passed; all 471 recordings decoded with non-silent signal. No listening or audible pitch verification claimed.
+
+### Counting cards — final page 14: 匹・階
+
+Added animal/floor counts 1–10, question words, basement level and five translated examples. All 29 new inputs reviewed against Japan Foundation counter chart BTS00010. Floor keys retain distinct punctuation to separate 階 from homophone 回 and preserve sense-specific pitch targets. Exact dictionary targets retained; remaining intonation provisional under standing authorization. Marin at 1.0. Fourteen-page mobile and audio-button checks passed, including distinct floor playback; all 500 recordings decoded with non-silent signal. This completes the current everyday counting deck. No listening or audible pitch verification claimed.
+
+### Counting cards — cooking extension page 15: 料理で数える
+
+Added servings, plated dishes, slices, spoon measures, rice/cup measures and small amounts, plus seven translated cooking examples. Reviewed all 34 new inputs for culinary context; source references include Kikkoman measuring guidance and UT Austin JOSHU counters. Exact dictionary targets retained; other intonation provisional under standing authorization. Object を → お reviewed individually; long vowels and measures stay connected. Marin at 1.0. Fifteen-page mobile/audio lookup checks passed; all 534 recordings decoded with non-silent signal. No listening or audible pitch verification claimed.
+
+### Auto Response — page 1: Basic reactions
+
+Generated only card 01: 13 reactions plus heading, Marin at 1.0. Reviewed hiragana and connected phrasing; sense-matched whole-word targets and lexical component targets retained, remaining phrase intonation provisional under standing authorization. Exporter/generator now support an explicit --card scope, requiring complete selected-card review and preserving previously generated cards. Full existing counting export remains 534 keys; Auto Response manifest contains exactly the 14 page-1 keys. All 14 clips pass decoded non-silence checks. No listening or audible pitch verification claimed.

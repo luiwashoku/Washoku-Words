@@ -1,0 +1,181 @@
+{
+  "lesson": "auto-response-cards",
+  "reviewed": true,
+  "model": "gpt-4o-mini-tts",
+  "voice": "marin",
+  "speed": 1.0,
+  "reviewed_cards": [
+    "auto-response-card-01"
+  ],
+  "reading_source": "Page 1: every phrase reviewed against supplied Japanese and context. 本当 ほんとう, 確かに たしかに, 面白い おもしろい, 意外 いがい. へえ is lexical interjection hee, not directional へ. No particles need conversion on this page. Natural connected short reactions; question/acknowledgement contours distinguished. Exact kanjium sense-matched targets and component references retained.",
+  "notes": "Only page 1 authorized for this batch. Unconfirmed whole-phrase intonation provisional under standing authorization; no listening verification claimed.",
+  "entries": [
+    {
+      "key": "きほんのりあくしょん",
+      "input": "きほんのりあくしょん",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "Say this short Japanese conversational response once, with compact fluent timing and normal volume. Keep the expression continuous, without gaps between syllables or before です/ですね. Preserve ordinary long vowels. Sound engaged and natural, using a modest pitch range."
+    },
+    {
+      "key": "そうなんですか",
+      "input": "そうなんですか",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "Say this short Japanese conversational response once, with compact fluent timing and normal volume. Keep the expression continuous, without gaps between syllables or before です/ですね. Preserve ordinary long vowels. Sound engaged and natural, using a modest pitch range. Use a gentle questioning rise at the end, expressing interested surprise."
+    },
+    {
+      "key": "そうなんですね",
+      "input": "そうなんですね",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "Say this short Japanese conversational response once, with compact fluent timing and normal volume. Keep the expression continuous, without gaps between syllables or before です/ですね. Preserve ordinary long vowels. Sound engaged and natural, using a modest pitch range."
+    },
+    {
+      "key": "なるほど",
+      "input": "なるほど",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "Say this short Japanese conversational response once, with compact fluent timing and normal volume. Keep the expression continuous, without gaps between syllables or before です/ですね. Preserve ordinary long vowels. Sound engaged and natural, using a modest pitch range.",
+      "accent": 0,
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L73109",
+      "accent_matched_form": "成程"
+    },
+    {
+      "key": "へえ",
+      "input": "へえ",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "Say this short Japanese conversational response once, with compact fluent timing and normal volume. Keep the expression continuous, without gaps between syllables or before です/ですね. Preserve ordinary long vowels. Sound engaged and natural, using a modest pitch range. Say the complete interjection hee with a normal long e, as mild interested surprise. Do not shorten it to he or stretch it theatrically.",
+      "accent": 1,
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L3989",
+      "accent_matched_form": "へえ"
+    },
+    {
+      "key": "ほんとうですか",
+      "input": "ほんとうですか",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "Say this short Japanese conversational response once, with compact fluent timing and normal volume. Keep the expression continuous, without gaps between syllables or before です/ですね. Preserve ordinary long vowels. Sound engaged and natural, using a modest pitch range. Use a gentle questioning rise at the end, expressing interested surprise. For ほんとう, use lexical Tokyo accent type 0; retain natural phrase intonation in the following ending.",
+      "component_pitch_targets": [
+        {
+          "form": "本当",
+          "reading": "ほんとう",
+          "accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L108497"
+        }
+      ]
+    },
+    {
+      "key": "そうですか",
+      "input": "そうですか",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "Say this short Japanese conversational response once, with compact fluent timing and normal volume. Keep the expression continuous, without gaps between syllables or before です/ですね. Preserve ordinary long vowels. Sound engaged and natural, using a modest pitch range. Use warm falling acknowledgement intonation, meaning I see."
+    },
+    {
+      "key": "たしかに",
+      "input": "たしかに",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "Say this short Japanese conversational response once, with compact fluent timing and normal volume. Keep the expression continuous, without gaps between syllables or before です/ですね. Preserve ordinary long vowels. Sound engaged and natural, using a modest pitch range."
+    },
+    {
+      "key": "そうそう",
+      "input": "そうそう",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "Say this short Japanese conversational response once, with compact fluent timing and normal volume. Keep the expression continuous, without gaps between syllables or before です/ですね. Preserve ordinary long vowels. Sound engaged and natural, using a modest pitch range.",
+      "accent": 1,
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L77937",
+      "accent_matched_form": "然う然う (interjection)"
+    },
+    {
+      "key": "わかります",
+      "input": "わかります",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "Say this short Japanese conversational response once, with compact fluent timing and normal volume. Keep the expression continuous, without gaps between syllables or before です/ですね. Preserve ordinary long vowels. Sound engaged and natural, using a modest pitch range."
+    },
+    {
+      "key": "いいですね",
+      "input": "いいですね",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "Say this short Japanese conversational response once, with compact fluent timing and normal volume. Keep the expression continuous, without gaps between syllables or before です/ですね. Preserve ordinary long vowels. Sound engaged and natural, using a modest pitch range. For いい, use lexical Tokyo accent type 1; retain natural phrase intonation in the following ending.",
+      "component_pitch_targets": [
+        {
+          "form": "良い",
+          "reading": "いい",
+          "accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L116736"
+        }
+      ]
+    },
+    {
+      "key": "おもしろいですね",
+      "input": "おもしろいですね",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "Say this short Japanese conversational response once, with compact fluent timing and normal volume. Keep the expression continuous, without gaps between syllables or before です/ですね. Preserve ordinary long vowels. Sound engaged and natural, using a modest pitch range. For おもしろい, use lexical Tokyo accent type 4; retain natural phrase intonation in the following ending.",
+      "component_pitch_targets": [
+        {
+          "form": "面白い",
+          "reading": "おもしろい",
+          "accent": 4,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L110963"
+        }
+      ]
+    },
+    {
+      "key": "いがいですね",
+      "input": "いがいですね",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "Say this short Japanese conversational response once, with compact fluent timing and normal volume. Keep the expression continuous, without gaps between syllables or before です/ですね. Preserve ordinary long vowels. Sound engaged and natural, using a modest pitch range. For いがい, use lexical Tokyo accent type 0; retain natural phrase intonation in the following ending.",
+      "component_pitch_targets": [
+        {
+          "form": "意外",
+          "reading": "いがい",
+          "accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L22089"
+        }
+      ]
+    },
+    {
+      "key": "すごいですね",
+      "input": "すごいですね",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "Say this short Japanese conversational response once, with compact fluent timing and normal volume. Keep the expression continuous, without gaps between syllables or before です/ですね. Preserve ordinary long vowels. Sound engaged and natural, using a modest pitch range. For すごい, use lexical Tokyo accent type 2; retain natural phrase intonation in the following ending.",
+      "component_pitch_targets": [
+        {
+          "form": "凄い",
+          "reading": "すごい",
+          "accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L72842"
+        }
+      ]
+    }
+  ],
+  "signal_check": {
+    "clips": 14,
+    "silent": [],
+    "method": "Chrome OfflineAudioContext decoded PCM",
+    "listening_verified": false
+  }
+}

@@ -12,6 +12,19 @@
     "questionCount": 8
   },
   {
+    "id": "counting-cards",
+    "category": "conversation",
+    "page": "Numbers & counters",
+    "sortOrder": 14.3,
+    "title": "数え方カード",
+    "file": "data/counting-cards.json",
+    "gameMode": "vocabulary-cards",
+    "readingCards": true,
+    "ordered": true,
+    "menuColor": "purple",
+    "questionCount": 15
+  },
+  {
     "id": "page01-02",
     "category": "basics",
     "page": "1–2",
@@ -1243,6 +1256,19 @@
     }
   },
   {
+    "id": "auto-response-cards",
+    "category": "conversation",
+    "page": "Everyday responses",
+    "sortOrder": 4.01,
+    "title": "Auto Response",
+    "menuColor": "purple",
+    "gameMode": "vocabulary-cards",
+    "readingCards": true,
+    "ordered": true,
+    "file": "data/auto-response-cards.json",
+    "questionCount": 13
+  },
+  {
     "id": "families-of-doom",
     "category": "conversation",
     "page": "Word families",
@@ -1265,5 +1291,21 @@
     "ordered": false,
     "file": "data/adult-sentences.json",
     "questionCount": 85
+  },
+  {
+    "id": "conjugation-cards",
+    "category": "conversation",
+    "page": "Conjugation cards",
+    "sortOrder": 14.2,
+    "title": "活用カード",
+    "file": "data/conjugation-cards.json",
+    "gameMode": "vocabulary-cards",
+    "readingCards": true,
+    "conjugationCards": true,
+    "audioDisabled": true,
+    "ordered": true,
+    "menuColor": "purple",
+    "questionCount": 9,
+    "sampleAudio": true
   }
 ]

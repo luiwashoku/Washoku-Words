@@ -21,10 +21,19 @@ function run(args) {
     }
     if (lesson.gameMode === 'vocabulary-cards') {
       data.entries.forEach(function(entry) {
+        if (args[2] && entry.id !== args[2]) return;
+        if (lesson.conjugationCards) {
+          (entry.sections || []).forEach(function(section) {
+            section.rows.forEach(function(row) {
+              rows.push({lesson: lessonId, card: entry.id, field: row.label, key: window.getJapaneseSpeechText(row.example.japanese)});
+            });
+          });
+          return;
+        }
         rows.push({lesson: lessonId, card: entry.id, field: 'vocabulary', key: window.getJapaneseSpeechText(entry.japanese)});
         (entry.blocks || []).forEach(function(block) {
           if (block.pairs && block.speech) rows.push({lesson: lessonId, card: entry.id, field: 'subtitle', key: window.getJapaneseSpeechText(block.speech)});
-          var parts = block.pairs ? block.pairs.reduce(function(all, pair) { return all.concat([pair.vocabulary, pair.food]); }, []) : (block.items || [block]);
+          var parts = block.numberRows || (block.pairs ? block.pairs.reduce(function(all, pair) { return all.concat([pair.vocabulary, pair.food]); }, []) : (block.items || [block]));
           parts.forEach(function(part) {
             rows.push({lesson: lessonId, card: entry.id, field: 'chunk', key: window.getJapaneseSpeechText(part.speech || part.japanese)});
             if (part.explanation) rows.push({lesson: lessonId, card: entry.id, field: 'explanation', key: window.getJapaneseSpeechText(part.explanation.speech || part.explanation.japanese)});

@@ -34,6 +34,12 @@ const lesson=catalog.find(item=>item.id===lessonId);
  }
  if (lesson.gameMode === 'vocabulary-cards') {
   assert(data.entries.length === lesson.questionCount, 'Card count matches catalog');
+  if (lesson.conjugationCards) {
+   data.entries.forEach(entry => (entry.sections || []).forEach(section => section.rows.forEach(row => {
+    assert(lookup(row.example.japanese), 'Conjugation sample has recorded audio');
+   })));
+   return;
+  }
   if (lessonId === 'knife-making-steps') assert(data.entries.every((entry, index) => index === 12 ? entry.step === null : entry.step === index + 1), 'Knife steps stay numbered in source order');
   data.entries.forEach(entry => {
    assert(lookup(entry.japanese), 'Vocabulary autoplay has recorded audio');

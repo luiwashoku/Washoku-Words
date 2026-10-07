@@ -796,5 +796,36 @@
     "speed": 1.0,
     "speechKeys": 260,
     "recordings": 260
+  },
+  {
+    "batch": 98,
+    "lesson": "conjugation-cards",
+    "title": "活用カード",
+    "status": "generated",
+    "voice": "marin",
+    "speed": 1.0,
+    "speechKeys": 138,
+    "recordings": 138
+  },
+  {
+    "batch": 99,
+    "lesson": "counting-cards",
+    "title": "数え方カード",
+    "status": "generated",
+    "voice": "marin",
+    "speed": 1.0,
+    "speechKeys": 534,
+    "recordings": 534
+  },
+  {
+    "batch": 100,
+    "lesson": "auto-response-cards",
+    "title": "Auto Response",
+    "status": "generated",
+    "voice": "marin",
+    "speed": 1.0,
+    "card": "auto-response-card-01",
+    "speechKeys": 14,
+    "recordings": 14
   }
 ]

@@ -19,8 +19,11 @@ ROOT = Path(__file__).resolve().parent.parent
 parser = argparse.ArgumentParser(description='Generate one reviewed Nova lesson batch.')
 parser.add_argument('--lesson', required=True)
 parser.add_argument('--retry-key', action='append', default=[])
+parser.add_argument('--card', help='Generate only one reading card; preserve previously generated cards')
 args = parser.parse_args()
-rows = json.loads(subprocess.check_output(['/usr/bin/osascript', '-l', 'JavaScript', str(ROOT/'scripts/export-lesson-audio.js'), str(ROOT), args.lesson], text=True))
+rows = json.loads(subprocess.check_output(['/usr/bin/osascript', '-l', 'JavaScript', str(ROOT/'scripts/export-lesson-audio.js'), str(ROOT), args.lesson] + ([args.card] if args.card else []), text=True))
+if not rows:
+    parser.error('No speech keys found for the requested lesson/card')
 review_file = ROOT/'scripts/lesson-audio-reviews'/(args.lesson+'.json')
 if not review_file.exists():
     parser.error('Review the hiragana readings and particles before generating this lesson')
@@ -39,6 +42,8 @@ speeds = {entry['key']:entry.get('speed', speed) for entry in review['entries']}
 if any(not isinstance(value, (int, float)) or not 0.25 <= value <= 4 for value in speeds.values()):
     parser.error('Reviewed entry speech speeds must be numbers between 0.25 and 4')
 known_keys = {row['key'] for row in rows}
+if args.card:
+    inputs = {k:v for k,v in inputs.items() if k in known_keys}
 if set(inputs) != known_keys:
     parser.error('Reading review must cover exactly every current speech key')
 for row in rows:
@@ -118,7 +123,9 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=32) as pool:
         paths[text] = path
         if len(paths)%25 == 0 or len(paths)==len(unique):
             print('Completed',len(paths),'/',len(unique),flush=True)
-manifest = {row['key']:paths[(row['text'], row['speed'])] for row in rows}
+manifest_path = folder/'manifest.json'
+manifest = json.loads(manifest_path.read_text()) if args.card and manifest_path.exists() else {}
+manifest.update({row['key']:paths[(row['text'], row['speed'])] for row in rows})
 (folder/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
 combined_path = ROOT/'audio/lessons/manifest.json'
 combined = json.loads(combined_path.read_text()) if combined_path.exists() else {}
