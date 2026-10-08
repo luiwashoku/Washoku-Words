@@ -2,8 +2,420 @@
   "title": "包丁の形・構造・素材カード",
   "entries": [
     {
-      "id": "knife-structure-card-01",
+      "id": "knife-anatomy-card",
       "step": 1,
+      "kanji": "包丁(ほうちょう)の部位(ぶい)",
+      "japanese": "ほうちょうのぶい",
+      "english": "Knife Anatomy",
+      "anatomy": {
+        "src": "assets/knife_anatomy2.svg",
+        "hotspots": [
+          {
+            "label": "洋包丁",
+            "speech": "ようぼうちょう",
+            "x": 364,
+            "y": 55,
+            "width": 112,
+            "height": 46
+          },
+          {
+            "label": "柄",
+            "speech": "え",
+            "x": 145,
+            "y": 178,
+            "width": 27,
+            "height": 28
+          },
+          {
+            "label": "ツバ（口金）",
+            "speech": "つば、くちがね",
+            "x": 205,
+            "y": 178,
+            "width": 134,
+            "height": 28
+          },
+          {
+            "label": "峰",
+            "speech": "みね",
+            "x": 370,
+            "y": 178,
+            "width": 27,
+            "height": 28
+          },
+          {
+            "label": "身幅",
+            "speech": "みはば",
+            "x": 424,
+            "y": 178,
+            "width": 50,
+            "height": 28
+          },
+          {
+            "label": "腹",
+            "speech": "はら",
+            "x": 493,
+            "y": 178,
+            "width": 28,
+            "height": 28
+          },
+          {
+            "label": "切っ先",
+            "speech": "きっさき",
+            "x": 699,
+            "y": 222,
+            "width": 80,
+            "height": 28
+          },
+          {
+            "label": "鋲",
+            "speech": "びょう",
+            "x": 119,
+            "y": 336,
+            "width": 28,
+            "height": 28
+          },
+          {
+            "label": "顎",
+            "speech": "あご",
+            "x": 198,
+            "y": 382,
+            "width": 27,
+            "height": 28
+          },
+          {
+            "label": "刃元",
+            "speech": "はもと",
+            "x": 319,
+            "y": 371,
+            "width": 50,
+            "height": 28
+          },
+          {
+            "label": "刃先",
+            "speech": "はさき",
+            "x": 495,
+            "y": 371,
+            "width": 51,
+            "height": 28
+          },
+          {
+            "label": "刃渡り",
+            "speech": "はわたり",
+            "x": 448,
+            "y": 419,
+            "width": 75,
+            "height": 28
+          },
+          {
+            "label": "和包丁",
+            "speech": "わぼうちょう",
+            "x": 361,
+            "y": 561,
+            "width": 120,
+            "height": 42
+          },
+          {
+            "label": "柄",
+            "speech": "え",
+            "x": 193,
+            "y": 684,
+            "width": 26,
+            "height": 28
+          },
+          {
+            "label": "柄尻",
+            "speech": "えじり",
+            "x": 45,
+            "y": 820,
+            "width": 50,
+            "height": 28
+          },
+          {
+            "label": "中子",
+            "speech": "なかご",
+            "x": 116,
+            "y": 842,
+            "width": 50,
+            "height": 28
+          },
+          {
+            "label": "口輪（角巻）",
+            "speech": "くちわ、つのまき",
+            "x": 79,
+            "y": 906,
+            "width": 136,
+            "height": 29
+          },
+          {
+            "label": "マチ",
+            "speech": "まち",
+            "x": 287,
+            "y": 684,
+            "width": 51,
+            "height": 28
+          },
+          {
+            "label": "峰",
+            "speech": "みね",
+            "x": 370,
+            "y": 684,
+            "width": 26,
+            "height": 28
+          },
+          {
+            "label": "平",
+            "speech": "ひら",
+            "x": 436,
+            "y": 700,
+            "width": 27,
+            "height": 28
+          },
+          {
+            "label": "身幅",
+            "speech": "みはば",
+            "x": 496,
+            "y": 700,
+            "width": 49,
+            "height": 28
+          },
+          {
+            "label": "刃境",
+            "speech": "はざかい",
+            "x": 567,
+            "y": 700,
+            "width": 50,
+            "height": 28
+          },
+          {
+            "label": "しのぎ",
+            "speech": "しのぎ",
+            "x": 641,
+            "y": 700,
+            "width": 67,
+            "height": 28
+          },
+          {
+            "label": "切っ先",
+            "speech": "きっさき",
+            "x": 736,
+            "y": 720,
+            "width": 80,
+            "height": 28
+          },
+          {
+            "label": "顎",
+            "speech": "あご",
+            "x": 243,
+            "y": 883,
+            "width": 27,
+            "height": 28
+          },
+          {
+            "label": "刃元",
+            "speech": "はもと",
+            "x": 322,
+            "y": 883,
+            "width": 50,
+            "height": 28
+          },
+          {
+            "label": "切刃",
+            "speech": "きりは",
+            "x": 398,
+            "y": 855,
+            "width": 50,
+            "height": 28
+          },
+          {
+            "label": "刃先",
+            "speech": "はさき",
+            "x": 500,
+            "y": 874,
+            "width": 51,
+            "height": 28
+          },
+          {
+            "label": "R（反り）",
+            "speech": "あーる、そり",
+            "x": 636,
+            "y": 856,
+            "width": 83,
+            "height": 28
+          },
+          {
+            "label": "刃渡り",
+            "speech": "はわたり",
+            "x": 467,
+            "y": 914,
+            "width": 75,
+            "height": 28
+          }
+        ],
+        "viewBox": [
+          30,
+          0,
+          791.89,
+          1061.7
+        ]
+      },
+      "blocks": [
+        {
+          "heading": "洋包丁",
+          "japanese": "洋包丁(ようぼうちょう)",
+          "speech": "ようぼうちょう",
+          "english": "Western-style kitchen knife"
+        },
+        {
+          "japanese": "柄(え)",
+          "speech": "え",
+          "english": "handle"
+        },
+        {
+          "japanese": "ツバ（口金(くちがね)）",
+          "speech": "つば、くちがね",
+          "english": "bolster / metal collar"
+        },
+        {
+          "japanese": "峰(みね)",
+          "speech": "みね",
+          "english": "spine / back of the blade"
+        },
+        {
+          "japanese": "身幅(みはば)",
+          "speech": "みはば",
+          "english": "blade width, from spine to edge"
+        },
+        {
+          "japanese": "腹(はら)",
+          "speech": "はら",
+          "english": "broad side / face of the blade"
+        },
+        {
+          "japanese": "切(き)っ先(さき)",
+          "speech": "きっさき",
+          "english": "tip / point"
+        },
+        {
+          "japanese": "鋲(びょう)",
+          "speech": "びょう",
+          "english": "handle rivet"
+        },
+        {
+          "japanese": "顎(あご)",
+          "speech": "あご",
+          "english": "heel corner nearest the handle"
+        },
+        {
+          "japanese": "刃元(はもと)",
+          "speech": "はもと",
+          "english": "heel section of the cutting edge"
+        },
+        {
+          "japanese": "刃先(はさき)",
+          "speech": "はさき",
+          "english": "cutting edge"
+        },
+        {
+          "japanese": "刃渡り(はわたり)",
+          "speech": "はわたり",
+          "english": "blade length"
+        },
+        {
+          "heading": "和包丁",
+          "japanese": "和包丁(わぼうちょう)",
+          "speech": "わぼうちょう",
+          "english": "Japanese-style kitchen knife"
+        },
+        {
+          "japanese": "柄(え)",
+          "speech": "え",
+          "english": "handle"
+        },
+        {
+          "japanese": "柄尻(えじり)",
+          "speech": "えじり",
+          "english": "butt / end of the handle"
+        },
+        {
+          "japanese": "中子(なかご)",
+          "speech": "なかご",
+          "english": "tang; the part inserted into the handle"
+        },
+        {
+          "japanese": "口輪(くちわ)（角巻(つのまき)）",
+          "speech": "くちわ、つのまき",
+          "english": "ferrule / collar reinforcing the handle"
+        },
+        {
+          "japanese": "マチ",
+          "speech": "まち",
+          "english": "stepped shoulder between the blade and tang"
+        },
+        {
+          "japanese": "峰(みね)",
+          "speech": "みね",
+          "english": "spine / back of the blade"
+        },
+        {
+          "japanese": "平(ひら)",
+          "speech": "ひら",
+          "english": "flat blade face above the bevel"
+        },
+        {
+          "japanese": "身幅(みはば)",
+          "speech": "みはば",
+          "english": "blade width, from spine to edge"
+        },
+        {
+          "japanese": "刃境(はざかい)",
+          "speech": "はざかい",
+          "english": "boundary between the cutting steel and softer cladding"
+        },
+        {
+          "japanese": "しのぎ",
+          "speech": "しのぎ",
+          "english": "ridge between the flat blade face and bevel"
+        },
+        {
+          "japanese": "切(き)っ先(さき)",
+          "speech": "きっさき",
+          "english": "tip / point"
+        },
+        {
+          "japanese": "顎(あご)",
+          "speech": "あご",
+          "english": "heel corner nearest the handle"
+        },
+        {
+          "japanese": "刃元(はもと)",
+          "speech": "はもと",
+          "english": "heel section of the cutting edge"
+        },
+        {
+          "japanese": "切刃(きりは)",
+          "speech": "きりは",
+          "english": "broad bevel between the shinogi and cutting edge"
+        },
+        {
+          "japanese": "刃先(はさき)",
+          "speech": "はさき",
+          "english": "cutting edge"
+        },
+        {
+          "japanese": "R（反(そ)り）",
+          "speech": "あーる、そり",
+          "english": "curvature of the cutting edge"
+        },
+        {
+          "japanese": "刃渡り(はわたり)",
+          "speech": "はわたり",
+          "english": "blade length"
+        }
+      ]
+    },
+    {
+      "id": "knife-structure-card-01",
+      "step": 2,
       "kanji": "刃(は)の部分(ぶぶん)",
       "english": "Parts of the Blade",
       "japanese": "はのぶぶん",
@@ -97,7 +509,7 @@
     },
     {
       "id": "knife-structure-card-02",
-      "step": 2,
+      "step": 3,
       "kanji": "刃(は)の形(かたち)",
       "english": "Blade Shape",
       "japanese": "はのかたち",
@@ -176,7 +588,7 @@
     },
     {
       "id": "knife-structure-card-03",
-      "step": 3,
+      "step": 4,
       "kanji": "厚(あつ)さ・テーパー",
       "english": "Thickness & Taper",
       "japanese": "あつさ、てーぱー",
@@ -240,7 +652,7 @@
     },
     {
       "id": "knife-structure-card-04",
-      "step": 4,
+      "step": 5,
       "kanji": "刃付(はつ)け",
       "english": "Edge Geometry",
       "japanese": "はつけ",
@@ -329,7 +741,7 @@
     },
     {
       "id": "knife-structure-card-05",
-      "step": 5,
+      "step": 6,
       "kanji": "片刃(かたば)の構造(こうぞう)",
       "english": "Single-Bevel Structure",
       "japanese": "かたばのこうぞう",
@@ -373,7 +785,7 @@
     },
     {
       "id": "knife-structure-card-06",
-      "step": 6,
+      "step": 7,
       "kanji": "柄(え)と構造(こうぞう)",
       "english": "Handle & Construction",
       "japanese": "えとこうぞう",
@@ -442,7 +854,7 @@
     },
     {
       "id": "knife-structure-card-07",
-      "step": 7,
+      "step": 8,
       "kanji": "鋼材(こうざい)の基本(きほん)",
       "english": "Basic Steel Materials",
       "japanese": "こうざいのきほん",
@@ -526,7 +938,7 @@
     },
     {
       "id": "knife-structure-card-08",
-      "step": 8,
+      "step": 9,
       "kanji": "炭素鋼(たんそこう)の種類(しゅるい)",
       "english": "Carbon Steels",
       "japanese": "たんそこうのしゅるい",
@@ -595,7 +1007,7 @@
     },
     {
       "id": "knife-structure-card-09",
-      "step": 9,
+      "step": 10,
       "kanji": "ステンレス・高性能鋼(こうせいのうこう)",
       "english": "Stainless & High-Performance Steels",
       "japanese": "すてんれす、こうせいのうこう",
@@ -679,7 +1091,7 @@
     },
     {
       "id": "knife-structure-card-10",
-      "step": 10,
+      "step": 11,
       "kanji": "鋼(はがね)の成分(せいぶん)",
       "english": "Steel Components",
       "japanese": "はがねのせいぶん",
@@ -728,7 +1140,7 @@
     },
     {
       "id": "knife-structure-card-11",
-      "step": 11,
+      "step": 12,
       "kanji": "鋼(はがね)の性質(せいしつ)",
       "english": "Steel Properties",
       "japanese": "はがねのせいしつ",
@@ -817,7 +1229,7 @@
     },
     {
       "id": "knife-structure-card-12",
-      "step": 12,
+      "step": 13,
       "kanji": "合(あ)わせ・積層構造(せきそうこうぞう)",
       "english": "Laminated Construction",
       "japanese": "あわせ、せきそうこうぞう",
@@ -906,7 +1318,7 @@
     },
     {
       "id": "knife-structure-card-13",
-      "step": 13,
+      "step": 14,
       "kanji": "ダマスカス・積層模様(せきそうもよう)",
       "english": "Damascus & Layer Patterns",
       "japanese": "だますかす、せきそうもよう",
@@ -950,7 +1362,7 @@
     },
     {
       "id": "knife-structure-card-14",
-      "step": 14,
+      "step": 15,
       "kanji": "表面仕上(ひょうめんしあ)げ",
       "english": "Blade Finishes",
       "japanese": "ひょうめんしあげ",
@@ -1009,7 +1421,7 @@
     },
     {
       "id": "knife-structure-card-15",
-      "step": 15,
+      "step": 16,
       "kanji": "柄(え)の素材(そざい)",
       "english": "Handle Materials",
       "japanese": "えのそざい",
@@ -1123,7 +1535,7 @@
     },
     {
       "id": "knife-structure-card-16",
-      "step": 16,
+      "step": 17,
       "kanji": "その他(ほか)の素材(そざい)",
       "english": "Other Materials",
       "japanese": "そのほかのそざい",
@@ -1172,7 +1584,7 @@
     },
     {
       "id": "knife-structure-card-17",
-      "step": 17,
+      "step": 18,
       "kanji": "錆(さび)・変色(へんしょく)",
       "english": "Rust & Patina",
       "japanese": "さび、へんしょく",
@@ -1231,7 +1643,7 @@
     },
     {
       "id": "knife-structure-card-18",
-      "step": 18,
+      "step": 19,
       "kanji": "刃(は)の状態(じょうたい)",
       "english": "Edge Condition",
       "japanese": "はのじょうたい",
@@ -1290,7 +1702,7 @@
     },
     {
       "id": "knife-structure-card-19",
-      "step": 19,
+      "step": 20,
       "kanji": "重(おも)さ・バランス",
       "english": "Weight & Balance",
       "japanese": "おもさ、ばらんす",
@@ -1349,7 +1761,7 @@
     },
     {
       "id": "knife-structure-card-20",
-      "step": 20,
+      "step": 21,
       "kanji": "寸法(すんぽう)",
       "english": "Measurements",
       "japanese": "すんぽう",
@@ -1398,7 +1810,7 @@
     },
     {
       "id": "knife-structure-card-21",
-      "step": 21,
+      "step": 22,
       "kanji": "包丁(ほうちょう)を比較(ひかく)する言葉(ことば)",
       "english": "Comparing Knives",
       "japanese": "ほうちょうをひかくすることば",

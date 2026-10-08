@@ -361,6 +361,41 @@
             parent.append(explanation);
           }
         }
+        if (word.anatomy) {
+          const diagram = document.createElement("div");
+          diagram.className = "knife-anatomy-diagram";
+          const image = document.createElement("img");
+          image.src = word.anatomy.src;
+          image.alt = "Western and Japanese kitchen knives with labelled parts";
+          const [originX, originY, viewWidth, viewHeight] = word.anatomy.viewBox || [0, 0, 841.89, 1061.7];
+          image.width = viewWidth;
+          image.height = viewHeight;
+          diagram.append(image);
+          word.anatomy.hotspots.forEach(part => {
+            const button = createExampleSpeechButton(part.speech, `Read ${part.label}`);
+            button.className = "knife-anatomy-label";
+            button.textContent = part.label;
+            button.setAttribute("aria-pressed", "false");
+            button.style.fontSize = `${part.width > 100 && part.height > 35 ? 4.5 : 2.7}cqw`;
+            button.style.left = `${(part.x - originX) / viewWidth * 100}%`;
+            button.style.top = `${(part.y - originY) / viewHeight * 100}%`;
+            button.style.width = `${part.width / viewWidth * 100}%`;
+            button.style.height = `${part.height / viewHeight * 100}%`;
+            button.addEventListener("click", () => {
+              wordPlayer.stop();
+              diagram.querySelectorAll("button").forEach(other => {
+                other.classList.toggle("is-selected", other === button);
+                other.setAttribute("aria-pressed", String(other === button));
+              });
+            }, { capture: true, signal });
+            diagram.append(button);
+          });
+          const viewport = document.createElement("div");
+          viewport.className = "knife-anatomy-viewport";
+          viewport.setAttribute("aria-label", "Knife diagram; swipe sideways to view all labels");
+          viewport.append(diagram);
+          body.append(viewport);
+        }
         word.blocks.forEach(block => {
           if (block.numberRows) {
             const section = document.createElement("section");

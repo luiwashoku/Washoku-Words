@@ -1,5 +1,19 @@
 [
   {
+    "id": "meat-cards",
+    "category": "animal-ingredients",
+    "page": "Meat reference",
+    "sortOrder": -1,
+    "title": "肉カード",
+    "menuColor": "purple",
+    "gameMode": "vocabulary-cards",
+    "readingCards": true,
+    "ordered": true,
+    "vocabularyColumns": 2,
+    "file": "data/meat-cards.json",
+    "questionCount": 6
+  },
+  {
     "id": "ingredient-cards",
     "category": "food-culture",
     "page": "Ingredient reference",
@@ -11,7 +25,7 @@
     "ordered": true,
     "vocabularyColumns": 2,
     "file": "data/ingredient-cards.json",
-    "questionCount": 20
+    "questionCount": 31
   },
   {
     "id": "food-reference-cards",
@@ -582,7 +596,7 @@
     "menuColor": "purple",
     "gameMode": "vocabulary-cards",
     "ordered": true,
-    "questionCount": 21,
+    "questionCount": 22,
     "readingCards": true,
     "vocabularyColumns": 2
   },

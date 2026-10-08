@@ -1,0 +1,539 @@
+{
+  "title": "肉カード",
+  "entries": [
+    {
+      "id": "meat-card-01",
+      "step": 1,
+      "kanji": "肉(にく)の種類(しゅるい)",
+      "japanese": "にくのしゅるい",
+      "english": "Types of Meat",
+      "blocks": [
+        {
+          "japanese": "肉(にく)",
+          "speech": "にく",
+          "english": "meat"
+        },
+        {
+          "japanese": "牛肉(ぎゅうにく)",
+          "speech": "ぎゅうにく",
+          "english": "beef"
+        },
+        {
+          "japanese": "豚肉(ぶたにく)",
+          "speech": "ぶたにく",
+          "english": "pork"
+        },
+        {
+          "japanese": "鶏肉(とりにく)",
+          "speech": "とりにく",
+          "english": "chicken"
+        },
+        {
+          "japanese": "羊肉(ようにく)",
+          "speech": "ようにく",
+          "english": "sheep meat"
+        },
+        {
+          "japanese": "ラム",
+          "speech": "らむ",
+          "english": "lamb"
+        },
+        {
+          "japanese": "マトン",
+          "speech": "まとん",
+          "english": "mutton"
+        },
+        {
+          "japanese": "鴨肉(かもにく)",
+          "speech": "かもにく",
+          "english": "duck"
+        },
+        {
+          "japanese": "馬肉(ばにく)",
+          "speech": "ばにく",
+          "english": "horse meat"
+        },
+        {
+          "japanese": "鹿肉(しかにく)",
+          "speech": "しかにく",
+          "english": "venison"
+        },
+        {
+          "japanese": "猪肉(いのししにく)",
+          "speech": "いのししにく",
+          "english": "wild boar meat"
+        },
+        {
+          "japanese": "ジビエ",
+          "speech": "じびえ",
+          "english": "wild game meat"
+        }
+      ]
+    },
+    {
+      "id": "meat-card-02",
+      "step": 2,
+      "kanji": "部位(ぶい)",
+      "japanese": "ぶい",
+      "english": "Cuts and Parts",
+      "blocks": [
+        {
+          "japanese": "タンパク質(しつ)",
+          "speech": "たんぱくしつ",
+          "english": "protein"
+        },
+        {
+          "japanese": "脂肪(しぼう)",
+          "speech": "しぼう",
+          "english": "fat"
+        },
+        {
+          "japanese": "脂身(あぶらみ)",
+          "speech": "あぶらみ",
+          "english": "the fatty part of meat"
+        },
+        {
+          "japanese": "赤身(あかみ)",
+          "speech": "あかみ",
+          "english": "lean meat"
+        },
+        {
+          "japanese": "筋肉(きんにく)",
+          "speech": "きんにく",
+          "english": "muscle"
+        },
+        {
+          "japanese": "筋(すじ)",
+          "speech": "すじ",
+          "english": "sinew / tough connective tissue in meat"
+        },
+        {
+          "japanese": "腱(けん)",
+          "speech": "けん",
+          "english": "tendon"
+        },
+        {
+          "japanese": "牛(ぎゅう)すじ",
+          "speech": "ぎゅうすじ",
+          "english": "beef sinew / tendon-rich trimmings"
+        },
+        {
+          "japanese": "結合組織(けつごうそしき)",
+          "speech": "けつごうそしき",
+          "english": "connective tissue"
+        },
+        {
+          "japanese": "コラーゲン",
+          "speech": "こらーげん",
+          "english": "collagen"
+        },
+        {
+          "japanese": "ゼラチン",
+          "speech": "ぜらちん",
+          "english": "gelatin"
+        },
+        {
+          "japanese": "軟骨(なんこつ)",
+          "speech": "なんこつ",
+          "english": "cartilage"
+        },
+        {
+          "japanese": "骨髄(こつずい)",
+          "speech": "こつずい",
+          "english": "bone marrow"
+        },
+        {
+          "japanese": "部位(ぶい)",
+          "speech": "ぶい",
+          "english": "cut / part of the animal"
+        },
+        {
+          "japanese": "ロース",
+          "speech": "ろーす",
+          "english": "loin; exact cut depends on the animal"
+        },
+        {
+          "japanese": "肩(かた)ロース",
+          "speech": "かたろーす",
+          "english": "shoulder loin / chuck-end cut"
+        },
+        {
+          "japanese": "ヒレ",
+          "speech": "ひれ",
+          "english": "tenderloin / fillet"
+        },
+        {
+          "japanese": "バラ肉(にく)",
+          "speech": "ばらにく",
+          "english": "belly or plate meat; usually fatty"
+        },
+        {
+          "japanese": "もも肉(にく)",
+          "speech": "ももにく",
+          "english": "thigh / leg meat"
+        },
+        {
+          "japanese": "すね肉(にく)",
+          "speech": "すねにく",
+          "english": "shank"
+        },
+        {
+          "japanese": "むね肉(にく)",
+          "speech": "むねにく",
+          "english": "chicken breast"
+        },
+        {
+          "japanese": "ささみ",
+          "speech": "ささみ",
+          "english": "chicken tenderloin"
+        },
+        {
+          "japanese": "手羽先(てばさき)",
+          "speech": "てばさき",
+          "english": "chicken wing tip and middle section"
+        },
+        {
+          "japanese": "手羽元(てばもと)",
+          "speech": "てばもと",
+          "english": "chicken wing drumette"
+        },
+        {
+          "japanese": "手羽中(てばなか)",
+          "speech": "てばなか",
+          "english": "middle section of a chicken wing"
+        },
+        {
+          "japanese": "砂肝(すなぎも)",
+          "speech": "すなぎも",
+          "english": "chicken gizzard"
+        },
+        {
+          "japanese": "レバー",
+          "speech": "ればー",
+          "english": "liver"
+        },
+        {
+          "japanese": "タン",
+          "speech": "たん",
+          "english": "tongue"
+        },
+        {
+          "japanese": "ハツ",
+          "speech": "はつ",
+          "english": "heart"
+        },
+        {
+          "japanese": "ホルモン",
+          "speech": "ほるもん",
+          "english": "edible offal, especially intestines"
+        },
+        {
+          "japanese": "ひき肉(にく)",
+          "speech": "ひきにく",
+          "english": "minced / ground meat"
+        },
+        {
+          "japanese": "合(あ)いびき肉(にく)",
+          "speech": "あいびきにく",
+          "english": "mixed minced meat, usually beef and pork"
+        }
+      ]
+    },
+    {
+      "id": "meat-card-03",
+      "step": 3,
+      "kanji": "売(う)り方(かた)・特徴(とくちょう)",
+      "japanese": "うりかた、とくちょう",
+      "english": "Forms and Characteristics",
+      "blocks": [
+        {
+          "japanese": "薄切(うすぎ)り肉(にく)",
+          "speech": "うすぎりにく",
+          "english": "thinly sliced meat"
+        },
+        {
+          "japanese": "こま切(ぎ)れ肉(にく)",
+          "speech": "こまぎれにく",
+          "english": "small, irregular meat pieces"
+        },
+        {
+          "japanese": "切(き)り落(お)とし",
+          "speech": "きりおとし",
+          "english": "meat trimmings / irregular slices"
+        },
+        {
+          "japanese": "塊肉(かたまりにく)",
+          "speech": "かたまりにく",
+          "english": "a whole piece / block of meat"
+        },
+        {
+          "japanese": "骨付(ほねつ)き肉(にく)",
+          "speech": "ほねつきにく",
+          "english": "bone-in meat"
+        },
+        {
+          "japanese": "皮付(かわつ)き",
+          "speech": "かわつき",
+          "english": "skin-on"
+        },
+        {
+          "japanese": "赤身(あかみ)",
+          "speech": "あかみ",
+          "english": "lean meat"
+        },
+        {
+          "japanese": "脂身(あぶらみ)",
+          "speech": "あぶらみ",
+          "english": "fatty part of meat"
+        },
+        {
+          "japanese": "霜降(しもふ)り",
+          "speech": "しもふり",
+          "english": "marbling / marbled meat"
+        },
+        {
+          "japanese": "筋(すじ)",
+          "speech": "すじ",
+          "english": "sinew / tough connective tissue"
+        },
+        {
+          "japanese": "肉汁(にくじゅう)",
+          "speech": "にくじゅう",
+          "english": "meat juices"
+        },
+        {
+          "japanese": "ひき肉(にく)",
+          "speech": "ひきにく",
+          "english": "minced / ground meat"
+        }
+      ]
+    },
+    {
+      "id": "meat-card-04",
+      "step": 4,
+      "kanji": "下処理(したしょり)・調理(ちょうり)",
+      "japanese": "したしょり、ちょうり",
+      "english": "Preparation and Cooking",
+      "blocks": [
+        {
+          "japanese": "筋切(すじき)り",
+          "speech": "すじきり",
+          "english": "cutting through sinew to prevent curling and improve tenderness"
+        },
+        {
+          "japanese": "下味(したあじ)をつける",
+          "speech": "したあじをつける",
+          "english": "season before cooking"
+        },
+        {
+          "japanese": "漬(つ)け込(こ)む",
+          "speech": "つけこむ",
+          "english": "marinate"
+        },
+        {
+          "japanese": "肉(にく)を叩(たた)く",
+          "speech": "にくをたたく",
+          "english": "pound meat"
+        },
+        {
+          "japanese": "焼(や)き色(いろ)をつける",
+          "speech": "やきいろをつける",
+          "english": "brown the surface"
+        },
+        {
+          "japanese": "煮込(にこ)む",
+          "speech": "にこむ",
+          "english": "simmer slowly / stew"
+        },
+        {
+          "japanese": "寝(ね)かせる",
+          "speech": "ねかせる",
+          "english": "let rest; meaning depends on the cooking stage"
+        },
+        {
+          "japanese": "余熱(よねつ)",
+          "speech": "よねつ",
+          "english": "residual heat"
+        },
+        {
+          "japanese": "中心温度(ちゅうしんおんど)",
+          "speech": "ちゅうしんおんど",
+          "english": "temperature at the centre"
+        },
+        {
+          "japanese": "生焼(なまや)け",
+          "speech": "なまやけ",
+          "english": "undercooked"
+        },
+        {
+          "japanese": "臭(くさ)みを取(と)る",
+          "speech": "くさみをとる",
+          "english": "remove unwanted odour or flavour"
+        }
+      ]
+    },
+    {
+      "id": "meat-card-05",
+      "step": 5,
+      "kanji": "肉料理(にくりょうり)",
+      "japanese": "にくりょうり",
+      "english": "Meat Dishes",
+      "blocks": [
+        {
+          "japanese": "焼肉(やきにく)",
+          "speech": "やきにく",
+          "english": "grilled meat / Japanese barbecue"
+        },
+        {
+          "japanese": "焼(や)き鳥(とり)",
+          "speech": "やきとり",
+          "english": "grilled chicken skewers"
+        },
+        {
+          "japanese": "すき焼(や)き",
+          "speech": "すきやき",
+          "english": "beef and vegetables cooked in a sweet soy-based sauce"
+        },
+        {
+          "japanese": "しゃぶしゃぶ",
+          "speech": "しゃぶしゃぶ",
+          "english": "thinly sliced meat briefly cooked in hot broth"
+        },
+        {
+          "japanese": "とんかつ",
+          "speech": "とんかつ",
+          "english": "breaded, deep-fried pork cutlet"
+        },
+        {
+          "japanese": "角煮(かくに)",
+          "speech": "かくに",
+          "english": "slowly braised cubes of meat, usually pork belly"
+        },
+        {
+          "japanese": "チャーシュー",
+          "speech": "ちゃーしゅー",
+          "english": "seasoned roast or braised pork"
+        },
+        {
+          "japanese": "ハンバーグ",
+          "speech": "はんばーぐ",
+          "english": "hamburger steak"
+        },
+        {
+          "japanese": "そぼろ",
+          "speech": "そぼろ",
+          "english": "finely crumbled meat, fish or egg cooked with seasoning"
+        },
+        {
+          "japanese": "つくね",
+          "speech": "つくね",
+          "english": "seasoned minced meat shaped into balls or patties, often chicken"
+        }
+      ]
+    },
+    {
+      "id": "meat-card-06",
+      "step": 6,
+      "kanji": "肉(にく)の味(あじ)・食感(しょっかん)・香(かお)り",
+      "japanese": "にくのあじ、しょっかん、かおり",
+      "english": "Meat Flavour, Texture and Aroma",
+      "blocks": [
+        {
+          "japanese": "旨味(うまみ)が強(つよ)い",
+          "speech": "うまみがつよい",
+          "english": "has a strong savoury flavour"
+        },
+        {
+          "japanese": "脂(あぶら)の甘(あま)み",
+          "speech": "あぶらのあまみ",
+          "english": "the sweetness of the fat"
+        },
+        {
+          "japanese": "コクがある",
+          "speech": "こくがある",
+          "english": "rich, full-bodied flavour"
+        },
+        {
+          "japanese": "あっさりしている",
+          "speech": "あっさりしている",
+          "english": "light in flavour"
+        },
+        {
+          "japanese": "脂(あぶら)っこい",
+          "speech": "あぶらっこい",
+          "english": "fatty / greasy"
+        },
+        {
+          "japanese": "肉々(にくにく)しい",
+          "speech": "にくにくしい",
+          "english": "distinctly meaty in flavour or texture"
+        },
+        {
+          "japanese": "柔(やわ)らかい",
+          "speech": "やわらかい",
+          "english": "tender"
+        },
+        {
+          "japanese": "ジューシー",
+          "speech": "じゅーしー",
+          "english": "juicy"
+        },
+        {
+          "japanese": "しっとりしている",
+          "speech": "しっとりしている",
+          "english": "moist"
+        },
+        {
+          "japanese": "ぱさぱさしている",
+          "speech": "ぱさぱさしている",
+          "english": "dry"
+        },
+        {
+          "japanese": "硬(かた)い",
+          "speech": "かたい",
+          "english": "tough / hard"
+        },
+        {
+          "japanese": "筋(すじ)っぽい",
+          "speech": "すじっぽい",
+          "english": "sinewy / stringy"
+        },
+        {
+          "japanese": "ほろほろ",
+          "speech": "ほろほろ",
+          "english": "so tender it falls apart easily"
+        },
+        {
+          "japanese": "ぷりぷり",
+          "speech": "ぷりぷり",
+          "english": "firm and springy; often used for chicken or offal"
+        },
+        {
+          "japanese": "とろける",
+          "speech": "とろける",
+          "english": "melt in the mouth"
+        },
+        {
+          "japanese": "香(こう)ばしい",
+          "speech": "こうばしい",
+          "english": "pleasantly browned or roasted in aroma"
+        },
+        {
+          "japanese": "獣臭(けものくさ)い",
+          "speech": "けものくさい",
+          "english": "has a strong animal / gamey smell"
+        },
+        {
+          "japanese": "臭(くさ)みがある",
+          "speech": "くさみがある",
+          "english": "has an unwanted smell or flavour"
+        },
+        {
+          "japanese": "癖(くせ)がある",
+          "speech": "くせがある",
+          "english": "has a distinctive, strong flavour that may take getting used to"
+        }
+      ]
+    }
+  ]
+}

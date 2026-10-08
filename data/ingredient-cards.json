@@ -2645,6 +2645,835 @@
           "speech": "おはぎ"
         }
       ]
+    },
+    {
+      "id": "ingredient-card-21",
+      "step": 21,
+      "kanji": "ご飯(はん)のお供(とも)",
+      "japanese": "ごはんのおとも",
+      "english": "Rice Accompaniments and Fillings",
+      "blocks": [
+        {
+          "japanese": "ご飯(はん)のお供(とも)",
+          "english": "foods eaten alongside rice",
+          "speech": "ごはんのおとも"
+        },
+        {
+          "japanese": "具(ぐ)",
+          "english": "filling / ingredients in a dish",
+          "speech": "ぐ"
+        },
+        {
+          "japanese": "ふりかけ",
+          "english": "dry seasoning sprinkled over rice",
+          "speech": "ふりかけ"
+        },
+        {
+          "japanese": "梅干(うめぼ)し",
+          "english": "salt-pickled ume plum",
+          "speech": "うめぼし"
+        },
+        {
+          "japanese": "おかか",
+          "english": "bonito flakes, often seasoned with soy sauce",
+          "speech": "おかか"
+        },
+        {
+          "japanese": "鮭(さけ)フレーク",
+          "english": "cooked, seasoned salmon flakes",
+          "speech": "さけふれーく"
+        },
+        {
+          "japanese": "ツナマヨ",
+          "english": "tuna mixed with mayonnaise",
+          "speech": "つなまよ"
+        },
+        {
+          "japanese": "佃煮(つくだに)",
+          "english": "ingredients simmered in a concentrated sweet soy-based sauce",
+          "speech": "つくだに"
+        },
+        {
+          "japanese": "なめたけ",
+          "english": "enoki mushrooms simmered in a seasoned soy-based sauce",
+          "speech": "なめたけ"
+        },
+        {
+          "japanese": "ちりめん山椒(ざんしょう)",
+          "english": "small dried fish cooked with sansho berries",
+          "speech": "ちりめんざんしょう"
+        },
+        {
+          "japanese": "卵(たまご)かけご飯(はん)",
+          "english": "hot rice mixed with raw egg and seasoning",
+          "speech": "たまごかけごはん"
+        },
+        {
+          "japanese": "とろろ",
+          "english": "grated yam, often served over rice",
+          "speech": "とろろ"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-22",
+      "step": 22,
+      "kanji": "漬物(つけもの)・乾燥野菜(かんそうやさい)",
+      "japanese": "つけもの、かんそうやさい",
+      "english": "Pickled and Dried Vegetables",
+      "blocks": [
+        {
+          "japanese": "漬物(つけもの)",
+          "english": "pickles",
+          "speech": "つけもの"
+        },
+        {
+          "japanese": "浅漬(あさづ)け",
+          "english": "lightly or briefly pickled vegetables",
+          "speech": "あさづけ"
+        },
+        {
+          "japanese": "ぬか漬け(づけ)",
+          "english": "vegetables pickled in fermented rice bran",
+          "speech": "ぬかづけ"
+        },
+        {
+          "japanese": "塩漬(しおづ)け",
+          "english": "salt-pickling / salt-pickled food",
+          "speech": "しおづけ"
+        },
+        {
+          "japanese": "酢漬(すづ)け",
+          "english": "vinegar-pickling / vinegar-pickled food",
+          "speech": "すづけ"
+        },
+        {
+          "japanese": "たくあん",
+          "english": "pickled daikon",
+          "speech": "たくあん"
+        },
+        {
+          "japanese": "切り干し大根(きりぼしだいこん)",
+          "english": "dried shredded daikon",
+          "speech": "きりぼしだいこん"
+        },
+        {
+          "japanese": "干し芋(ほしいも)",
+          "english": "steamed and dried sweet potato",
+          "speech": "ほしいも"
+        },
+        {
+          "japanese": "かんぴょう",
+          "english": "dried strips of bottle gourd",
+          "speech": "かんぴょう"
+        },
+        {
+          "japanese": "紅生姜(べにしょうが)",
+          "english": "red pickled ginger",
+          "speech": "べにしょうが"
+        },
+        {
+          "japanese": "ガリ",
+          "english": "thinly sliced sweet-vinegar-pickled ginger served with sushi",
+          "speech": "がり"
+        },
+        {
+          "japanese": "らっきょう漬け(づけ)",
+          "english": "pickled rakkyo bulbs",
+          "speech": "らっきょうづけ"
+        },
+        {
+          "japanese": "福神漬(ふくじんづ)け",
+          "english": "chopped mixed vegetable pickles, often served with curry",
+          "speech": "ふくじんづけ"
+        },
+        {
+          "japanese": "柴漬(しばづ)け",
+          "english": "vegetable pickles flavoured with red shiso",
+          "speech": "しばづけ"
+        },
+        {
+          "japanese": "千枚漬(せんまいづ)け",
+          "english": "thinly sliced pickled turnip",
+          "speech": "せんまいづけ"
+        },
+        {
+          "japanese": "すぐき",
+          "english": "a fermented turnip pickle associated with Kyoto",
+          "speech": "すぐき"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-23",
+      "step": 23,
+      "kanji": "野菜(やさい)の部位(ぶい)",
+      "japanese": "やさいのぶい",
+      "english": "Vegetable Parts",
+      "blocks": [
+        {
+          "japanese": "葉(は)",
+          "english": "leaf",
+          "speech": "は"
+        },
+        {
+          "japanese": "茎(くき)",
+          "english": "stem / stalk",
+          "speech": "くき"
+        },
+        {
+          "japanese": "根(ね)",
+          "english": "root",
+          "speech": "ね"
+        },
+        {
+          "japanese": "根元(ねもと)",
+          "english": "base / root end",
+          "speech": "ねもと"
+        },
+        {
+          "japanese": "皮(かわ)",
+          "english": "skin / peel",
+          "speech": "かわ"
+        },
+        {
+          "japanese": "種(たね)",
+          "english": "seed",
+          "speech": "たね"
+        },
+        {
+          "japanese": "芯(しん)",
+          "english": "core",
+          "speech": "しん"
+        },
+        {
+          "japanese": "へた",
+          "english": "stem end / cap of a fruiting vegetable",
+          "speech": "へた"
+        },
+        {
+          "japanese": "筋(すじ)",
+          "english": "string / tough fibre",
+          "speech": "すじ"
+        },
+        {
+          "japanese": "さや",
+          "english": "pod",
+          "speech": "さや"
+        },
+        {
+          "japanese": "芽(め)",
+          "english": "sprout / shoot",
+          "speech": "め"
+        },
+        {
+          "japanese": "双葉(ふたば)",
+          "english": "seed leaves / cotyledons",
+          "speech": "ふたば"
+        },
+        {
+          "japanese": "花(はな)びら",
+          "english": "flower petals",
+          "speech": "はなびら"
+        },
+        {
+          "japanese": "つぼみ",
+          "english": "flower bud",
+          "speech": "つぼみ"
+        },
+        {
+          "japanese": "穂先(ほさき)",
+          "english": "tender tip of a shoot or spear",
+          "speech": "ほさき"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-24",
+      "step": 24,
+      "kanji": "野菜(やさい)の下処理(したしょり)",
+      "japanese": "やさいのしたしょり",
+      "english": "Preparing Vegetables",
+      "blocks": [
+        {
+          "japanese": "洗う(あらう)",
+          "english": "wash",
+          "speech": "あらう"
+        },
+        {
+          "japanese": "皮(かわ)をむく",
+          "english": "peel",
+          "speech": "かわをむく"
+        },
+        {
+          "japanese": "へたを取る(とる)",
+          "english": "remove the stem end",
+          "speech": "へたをとる"
+        },
+        {
+          "japanese": "種(たね)を取る(とる)",
+          "english": "remove the seeds",
+          "speech": "たねをとる"
+        },
+        {
+          "japanese": "芯(しん)を取る(とる)",
+          "english": "remove the core",
+          "speech": "しんをとる"
+        },
+        {
+          "japanese": "筋(すじ)を取る(とる)",
+          "english": "remove strings or tough fibres",
+          "speech": "すじをとる"
+        },
+        {
+          "japanese": "根元(ねもと)を切り落とす(きりおとす)",
+          "english": "cut off the base",
+          "speech": "ねもとをきりおとす"
+        },
+        {
+          "japanese": "下茹で(したゆで)する",
+          "english": "parboil / boil before further cooking",
+          "speech": "したゆでする"
+        },
+        {
+          "japanese": "塩茹で(しおゆで)する",
+          "english": "boil in salted water",
+          "speech": "しおゆでする"
+        },
+        {
+          "japanese": "湯通し(ゆどおし)する",
+          "english": "briefly blanch in hot water",
+          "speech": "ゆどおしする"
+        },
+        {
+          "japanese": "水(みず)に浸す(ひたす)",
+          "english": "soak in water",
+          "speech": "みずにひたす"
+        },
+        {
+          "japanese": "水(みず)にさらす",
+          "english": "soak or rinse in water to reduce harshness or prevent discolouration",
+          "speech": "みずにさらす"
+        },
+        {
+          "japanese": "水(みず)で戻す(もどす)",
+          "english": "rehydrate in water",
+          "speech": "みずでもどす"
+        },
+        {
+          "japanese": "冷水(れいすい)に取る(とる)",
+          "english": "transfer to cold water after cooking",
+          "speech": "れいすいにとる"
+        },
+        {
+          "japanese": "水気(みずけ)を切る(きる)",
+          "english": "drain excess water",
+          "speech": "みずけをきる"
+        },
+        {
+          "japanese": "水気(みずけ)を絞る(しぼる)",
+          "english": "squeeze out excess water",
+          "speech": "みずけをしぼる"
+        },
+        {
+          "japanese": "塩もみ(しおもみ)する",
+          "english": "rub or massage with salt to draw out moisture",
+          "speech": "しおもみする"
+        },
+        {
+          "japanese": "板ずり(いたずり)する",
+          "english": "rub with salt against a board",
+          "speech": "いたずりする"
+        },
+        {
+          "japanese": "あく抜き(あくぬき)",
+          "english": "removing bitterness or harsh components",
+          "speech": "あくぬき"
+        },
+        {
+          "japanese": "面取り(めんとり)する",
+          "english": "trim sharp edges so pieces hold their shape during cooking",
+          "speech": "めんとりする"
+        },
+        {
+          "japanese": "隠し包丁(かくしぼうちょう)を入れる(いれる)",
+          "english": "make discreet cuts to help heat or seasoning penetrate",
+          "speech": "かくしぼうちょうをいれる"
+        },
+        {
+          "japanese": "ほぐす",
+          "english": "separate into smaller pieces; gently loosen cooked rice",
+          "speech": "ほぐす"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-25",
+      "step": 25,
+      "kanji": "切(き)り方(かた)",
+      "japanese": "きりかた",
+      "english": "Cutting Styles",
+      "blocks": [
+        {
+          "japanese": "薄切(うすぎ)り",
+          "english": "thin slices",
+          "speech": "うすぎり"
+        },
+        {
+          "japanese": "厚切(あつぎ)り",
+          "english": "thick slices",
+          "speech": "あつぎり"
+        },
+        {
+          "japanese": "輪切(わぎ)り",
+          "english": "round slices",
+          "speech": "わぎり"
+        },
+        {
+          "japanese": "半月切(はんげつぎ)り",
+          "english": "half-moon slices",
+          "speech": "はんげつぎり"
+        },
+        {
+          "japanese": "いちょう切り(ぎり)",
+          "english": "quarter-round slices",
+          "speech": "いちょうぎり"
+        },
+        {
+          "japanese": "斜め切(ななめぎ)り",
+          "english": "diagonal slices",
+          "speech": "ななめぎり"
+        },
+        {
+          "japanese": "千切(せんぎ)り",
+          "english": "fine strips / julienne",
+          "speech": "せんぎり"
+        },
+        {
+          "japanese": "細切(ほそぎ)り",
+          "english": "thin strips",
+          "speech": "ほそぎり"
+        },
+        {
+          "japanese": "短冊切(たんざくぎ)り",
+          "english": "thin rectangular pieces",
+          "speech": "たんざくぎり"
+        },
+        {
+          "japanese": "拍子木切(ひょうしぎぎ)り",
+          "english": "rectangular sticks / batons",
+          "speech": "ひょうしぎぎり"
+        },
+        {
+          "japanese": "角切(かくぎ)り",
+          "english": "cubes / dice",
+          "speech": "かくぎり"
+        },
+        {
+          "japanese": "さいの目切り(めぎり)",
+          "english": "small, even cubes",
+          "speech": "さいのめぎり"
+        },
+        {
+          "japanese": "みじん切り(ぎり)",
+          "english": "finely chopped",
+          "speech": "みじんぎり"
+        },
+        {
+          "japanese": "ざく切り(ぎり)",
+          "english": "roughly chopped into larger pieces",
+          "speech": "ざくぎり"
+        },
+        {
+          "japanese": "乱切(らんぎ)り",
+          "english": "irregular chunks cut while rotating the vegetable",
+          "speech": "らんぎり"
+        },
+        {
+          "japanese": "小口切(こぐちぎ)り",
+          "english": "thin crosswise slices of a narrow vegetable",
+          "speech": "こぐちぎり"
+        },
+        {
+          "japanese": "くし形切り(がたぎり)",
+          "english": "wedges",
+          "speech": "くしがたぎり"
+        },
+        {
+          "japanese": "ささがき",
+          "english": "thin shavings, commonly used for burdock",
+          "speech": "ささがき"
+        },
+        {
+          "japanese": "飾り切(かざりぎ)り",
+          "english": "decorative cutting",
+          "speech": "かざりぎり"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-26",
+      "step": 26,
+      "kanji": "調理法(ちょうりほう)・野菜料理(やさいりょうり)",
+      "japanese": "ちょうりほう、やさいりょうり",
+      "english": "Cooking Methods and Vegetable Dishes",
+      "blocks": [
+        {
+          "japanese": "茹でる(ゆでる)",
+          "english": "boil an ingredient in water",
+          "speech": "ゆでる"
+        },
+        {
+          "japanese": "蒸す(むす)",
+          "english": "steam",
+          "speech": "むす"
+        },
+        {
+          "japanese": "炒める(いためる)",
+          "english": "stir-fry / sauté",
+          "speech": "いためる"
+        },
+        {
+          "japanese": "焼く(やく)",
+          "english": "grill / roast / pan-cook",
+          "speech": "やく"
+        },
+        {
+          "japanese": "煮る(にる)",
+          "english": "simmer",
+          "speech": "にる"
+        },
+        {
+          "japanese": "揚げる(あげる)",
+          "english": "deep-fry",
+          "speech": "あげる"
+        },
+        {
+          "japanese": "素揚げ(すあげ)",
+          "english": "deep-frying without a coating",
+          "speech": "すあげ"
+        },
+        {
+          "japanese": "天ぷら(てんぷら)",
+          "english": "ingredients fried in a light batter",
+          "speech": "てんぷら"
+        },
+        {
+          "japanese": "かき揚げ(かきあげ)",
+          "english": "tempura fritter made with mixed small pieces",
+          "speech": "かきあげ"
+        },
+        {
+          "japanese": "煮物(にもの)",
+          "english": "simmered dish",
+          "speech": "にもの"
+        },
+        {
+          "japanese": "炒め物(いためもの)",
+          "english": "stir-fried dish",
+          "speech": "いためもの"
+        },
+        {
+          "japanese": "蒸し野菜(むしやさい)",
+          "english": "steamed vegetables",
+          "speech": "むしやさい"
+        },
+        {
+          "japanese": "焼き野菜(やきやさい)",
+          "english": "grilled or roasted vegetables",
+          "speech": "やきやさい"
+        },
+        {
+          "japanese": "温野菜(おんやさい)",
+          "english": "cooked vegetables, usually served warm",
+          "speech": "おんやさい"
+        },
+        {
+          "japanese": "生野菜(なまやさい)",
+          "english": "raw vegetables",
+          "speech": "なまやさい"
+        },
+        {
+          "japanese": "おひたし",
+          "english": "vegetables, usually blanched, steeped in seasoned stock",
+          "speech": "おひたし"
+        },
+        {
+          "japanese": "和え物(あえもの)",
+          "english": "ingredients mixed with a dressing or seasoning",
+          "speech": "あえもの"
+        },
+        {
+          "japanese": "胡麻和え(ごまあえ)",
+          "english": "vegetables dressed with ground sesame seasoning",
+          "speech": "ごまあえ"
+        },
+        {
+          "japanese": "白和え(しらあえ)",
+          "english": "ingredients dressed with seasoned mashed tofu",
+          "speech": "しらあえ"
+        },
+        {
+          "japanese": "酢の物(すのもの)",
+          "english": "a dish dressed with a vinegar-based seasoning",
+          "speech": "すのもの"
+        },
+        {
+          "japanese": "きんぴら",
+          "english": "thinly cut vegetables stir-fried and seasoned with soy sauce and sugar",
+          "speech": "きんぴら"
+        },
+        {
+          "japanese": "揚げ浸し(あげびたし)",
+          "english": "fried vegetables soaked in seasoned stock",
+          "speech": "あげびたし"
+        },
+        {
+          "japanese": "筑前煮(ちくぜんに)",
+          "english": "chicken and vegetables sautéed, then simmered in seasoning",
+          "speech": "ちくぜんに"
+        },
+        {
+          "japanese": "ふろふき大根(ふろふきだいこん)",
+          "english": "thick simmered daikon served with a miso sauce",
+          "speech": "ふろふきだいこん"
+        },
+        {
+          "japanese": "火(ひ)が通る(とおる)",
+          "english": "become cooked through",
+          "speech": "ひがとおる"
+        },
+        {
+          "japanese": "煮崩れ(にくずれ)する",
+          "english": "lose shape or fall apart during simmering",
+          "speech": "にくずれする"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-27",
+      "step": 27,
+      "kanji": "小麦粉(こむぎこ)",
+      "japanese": "こむぎこ",
+      "english": "Wheat Flour",
+      "blocks": [
+        {
+          "japanese": "小麦粉(こむぎこ)",
+          "english": "wheat flour; the general term",
+          "speech": "こむぎこ"
+        },
+        {
+          "japanese": "薄力粉(はくりきこ)",
+          "english": "low-protein flour; used for cakes, biscuits, tempura and light coatings",
+          "speech": "はくりきこ"
+        },
+        {
+          "japanese": "中力粉(ちゅうりきこ)",
+          "english": "medium-protein flour; commonly used for udon",
+          "speech": "ちゅうりきこ"
+        },
+        {
+          "japanese": "強力粉(きょうりきこ)",
+          "english": "high-protein bread flour; used for bread and pizza dough",
+          "speech": "きょうりきこ"
+        },
+        {
+          "japanese": "準強力粉(じゅんきょうりきこ)",
+          "english": "flour commonly used for French-style bread",
+          "speech": "じゅんきょうりきこ"
+        },
+        {
+          "japanese": "全粒粉(ぜんりゅうふん)",
+          "english": "whole-wheat flour",
+          "speech": "ぜんりゅうふん"
+        },
+        {
+          "english": "薄力粉 and 強力粉 refer to protein strength, rather than how finely the flour is ground.",
+          "japanese": "薄力粉(はくりきこ)と強力粉(きょうりきこ)の違(ちが)いは、粉(こな)の細(こま)かさではなく、たんぱく質(しつ)の量(りょう)や性質(せいしつ)です。",
+          "speech": "はくりきこときょうりきこのちがいは、こなのこまかさではなく、たんぱくしつのりょうやせいしつです。"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-28",
+      "step": 28,
+      "kanji": "衣(ころも)・とろみ用(よう)の粉(こな)",
+      "japanese": "ころも、とろみようのこな",
+      "english": "Powders for Coating and Thickening",
+      "blocks": [
+        {
+          "japanese": "片栗粉(かたくりこ)",
+          "english": "usually potato starch; used for crispy coatings and thickening sauces",
+          "speech": "かたくりこ"
+        },
+        {
+          "japanese": "コーンスターチ",
+          "english": "corn starch; used for thickening, custards and baking",
+          "speech": "こーんすたーち"
+        },
+        {
+          "japanese": "米粉(こめこ)",
+          "english": "rice flour; used for baking and coatings; the type matters",
+          "speech": "こめこ"
+        },
+        {
+          "japanese": "天(てん)ぷら粉(こ)",
+          "english": "prepared tempura flour mix",
+          "speech": "てんぷらこ"
+        },
+        {
+          "japanese": "唐揚(からあ)げ粉(こ)",
+          "english": "seasoned flour/starch mix for karaage",
+          "speech": "からあげこ"
+        },
+        {
+          "japanese": "パン粉(こ)",
+          "english": "breadcrumbs for breaded coatings",
+          "speech": "ぱんこ"
+        },
+        {
+          "japanese": "乾燥(かんそう)パン粉(こ)",
+          "english": "dried breadcrumbs",
+          "speech": "かんそうぱんこ"
+        },
+        {
+          "japanese": "生(なま)パン粉(こ)",
+          "english": "fresh breadcrumbs; often give a lighter, coarser coating",
+          "speech": "なまぱんこ"
+        },
+        {
+          "japanese": "くず粉(こ)",
+          "english": "kudzu starch; used for thickening and Japanese sweets",
+          "speech": "くずこ"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-29",
+      "step": 29,
+      "kanji": "和菓子用(わがしよう)の粉(こな)",
+      "japanese": "わがしようのこな",
+      "english": "Flours for Japanese Sweets",
+      "blocks": [
+        {
+          "japanese": "上新粉(じょうしんこ)",
+          "english": "ordinary non-glutinous rice flour; used for dango and kashiwa mochi",
+          "speech": "じょうしんこ"
+        },
+        {
+          "japanese": "白玉粉(しらたまこ)",
+          "english": "specially processed glutinous rice flour; used for smooth, chewy shiratama dumplings",
+          "speech": "しらたまこ"
+        },
+        {
+          "japanese": "もち粉(こ)",
+          "english": "glutinous rice flour; used for mochi and sweets",
+          "speech": "もちこ"
+        },
+        {
+          "japanese": "だんご粉(こ)",
+          "english": "flour for dango; often a blend of ordinary and glutinous rice",
+          "speech": "だんごこ"
+        },
+        {
+          "japanese": "わらび粉(こ)",
+          "english": "bracken starch; used for warabi mochi; many commercial products contain other starches",
+          "speech": "わらびこ"
+        },
+        {
+          "japanese": "きな粉(こ)",
+          "english": "roasted soybean flour; used as a topping or flavouring",
+          "speech": "きなこ"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-30",
+      "step": 30,
+      "kanji": "その他(そのほか)の粉(こな)・ミックス",
+      "japanese": "そのほかのこな、みっくす",
+      "english": "Other Flours and Mixes",
+      "blocks": [
+        {
+          "japanese": "そば粉(こ)",
+          "english": "buckwheat flour; used for soba and galettes",
+          "speech": "そばこ"
+        },
+        {
+          "japanese": "ライ麦粉(むぎこ)",
+          "english": "rye flour",
+          "speech": "らいむぎこ"
+        },
+        {
+          "japanese": "アーモンドプードル",
+          "english": "ground almonds / almond flour; used for cakes and macarons",
+          "speech": "あーもんどぷーどる"
+        },
+        {
+          "japanese": "ホットケーキミックス",
+          "english": "sweetened flour mix with raising agents for pancakes and simple baking",
+          "speech": "ほっとけーきみっくす"
+        },
+        {
+          "japanese": "お好(この)み焼(や)き粉(こ)",
+          "english": "prepared flour mix for okonomiyaki",
+          "speech": "おこのみやきこ"
+        },
+        {
+          "japanese": "たこ焼(や)き粉(こ)",
+          "english": "prepared flour mix for takoyaki",
+          "speech": "たこやきこ"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-31",
+      "step": 31,
+      "kanji": "使(つか)い方(かた)",
+      "japanese": "つかいかた",
+      "english": "Useful Preparation Words",
+      "blocks": [
+        {
+          "japanese": "衣(ころも)",
+          "english": "batter or coating",
+          "speech": "ころも"
+        },
+        {
+          "japanese": "生地(きじ)",
+          "english": "dough or batter",
+          "speech": "きじ"
+        },
+        {
+          "japanese": "打(う)ち粉(こ)",
+          "english": "flour or starch dusted on a surface to prevent sticking",
+          "speech": "うちこ"
+        },
+        {
+          "japanese": "粉(こな)をまぶす",
+          "english": "coat lightly in flour or starch",
+          "speech": "こなをまぶす"
+        },
+        {
+          "japanese": "粉(こな)をふるう",
+          "english": "sift flour",
+          "speech": "こなをふるう"
+        },
+        {
+          "japanese": "水溶(みずと)き片栗粉(かたくりこ)",
+          "english": "potato starch mixed with water; a thickening slurry",
+          "speech": "みずときかたくりこ"
+        },
+        {
+          "japanese": "とろみをつける",
+          "english": "thicken a sauce or liquid",
+          "speech": "とろみをつける"
+        },
+        {
+          "japanese": "こねる",
+          "english": "knead",
+          "speech": "こねる"
+        }
+      ]
     }
   ]
 }

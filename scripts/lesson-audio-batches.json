@@ -794,8 +794,8 @@
     "status": "generated",
     "voice": "marin",
     "speed": 1.0,
-    "speechKeys": 260,
-    "recordings": 260
+    "speechKeys": 272,
+    "recordings": 272
   },
   {
     "batch": 98,
@@ -835,10 +835,23 @@
     "status": "generated",
     "voice": "marin",
     "speed": 1.0,
-    "speechKeys": 510,
-    "recordings": 510,
-    "reusedRecordings": 186,
-    "newRecordings": 324,
-    "completedCards": 20
+    "speechKeys": 663,
+    "recordings": 663,
+    "reusedRecordings": 234,
+    "newRecordings": 429,
+    "completedCards": 31
+  },
+  {
+    "batch": 102,
+    "lesson": "meat-cards",
+    "title": "肉カード",
+    "status": "generated",
+    "voice": "marin",
+    "speed": 1.0,
+    "speechKeys": 97,
+    "recordings": 97,
+    "reusedRecordings": 9,
+    "newRecordings": 88,
+    "completedCards": 6
   }
 ]

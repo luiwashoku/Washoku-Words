@@ -1,0 +1,1065 @@
+{
+  "lesson": "meat-cards",
+  "reviewed": true,
+  "voice": "marin",
+  "model": "gpt-4o-mini-tts",
+  "speed": 1.0,
+  "reviewed_cards": [
+    "meat-card-01",
+    "meat-card-02",
+    "meat-card-03",
+    "meat-card-04",
+    "meat-card-05",
+    "meat-card-06"
+  ],
+  "planned_final_page": 6,
+  "reading_source": "All supplied page 1 readings reviewed in meat context. Explicit 羊肉 ようにく, 馬肉 ばにく, 鹿肉 しかにく, 猪肉 いのししにく. Preserve long vowels in ぎゅうにく/ようにく. Katakana words converted to hiragana for speech, Japanese pronunciation retained. Exact dictionary targets only, others provisional. Page 2: all 32 supplied readings checked in meat context, including けん, ぎゅうすじ, けつごうそしき, こつずい, かたろーす, てばさき/てばもと/てばなか, すなぎも and あいびきにく. ヒレ means tenderloin, not fish fin; its accent remains provisional. Lexical は in はつ retained. Long vowels retained in protein/collagen/loin/liver terms. Exact dictionary targets where sense appropriate; otherwise provisional. Page 3: all supplied readings reviewed in meat context: うすぎりにく, こまぎれにく, きりおとし, かたまりにく, ほねつきにく, かわつき, あかみ, あぶらみ, しもふり, すじ, にくじゅう. Preserve long vowel in にくじゅう/とくちょう; no particle conversions needed. Existing corrected あぶらみ recording preserved; あかみ and すじ reused from page 2. Exact dictionary matches where available, others provisional. Page 4: all supplied meat preparation readings reviewed: すじきり, したあじをつける, つけこむ, にくをたたく, やきいろをつける, にこむ, ねかせる, よねつ, ちゅうしんおんど, なまやけ, くさみをとる. Object を spoken お in action phrases, keys unchanged. Each phrase connected, no pauses before particles; heading pause only between categories. 寝かせる culinary resting context. Exact dictionary targets retained, unavailable phrase targets provisional. Page 5: every supplied dish reading reviewed: やきにく, やきとり, すきやき, しゃぶしゃぶ, とんかつ, かくに, ちゃーしゅー, はんばーぐ, そぼろ, つくね. Preserve long vowels, lexical は in はんばーぐ, connected repeated しゃぶしゃぶ. All names Japanese culinary pronunciation, compact connected delivery. Dictionary targets where available, others provisional. Page 6: every supplied descriptive phrase reviewed in meat context, including うまみがつよい, あぶらのあまみ, あぶらっこい, にくにくしい, じゅーしー, しっとりしている, すじっぽい, こうばしい, けものくさい, くさみがある and くせがある. Preserve gemination and long vowels, lexical kana and attached particles. Short phrases continuous; heading pauses only between categories. Exact dictionary matches where available, whole-phrase targets otherwise provisional.",
+  "notes": "All six requested meat pages reviewed; no listening verification claimed.",
+  "entries": [
+    {
+      "key": "にくのしゅるい",
+      "input": "にくのしゅるい",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の食肉の種類・材料名として、入力された言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中で区切らず、長音は普通の日本語の長さにしてください。カタカナ語も日本語の発音で、語尾を伸ばさず、普通の会話の音量で。指定された辞書アクセントがあれば従ってください。生成速度1.0。"
+    },
+    {
+      "key": "にく",
+      "input": "にく",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の食肉の種類・材料名として、入力された言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中で区切らず、長音は普通の日本語の長さにしてください。カタカナ語も日本語の発音で、語尾を伸ばさず、普通の会話の音量で。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "accent": 2,
+      "accent_variants": [
+        2
+      ],
+      "accent_matched_form": "肉",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L95097"
+    },
+    {
+      "key": "ぎゅうにく",
+      "input": "ぎゅうにく",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の食肉の種類・材料名として、入力された言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中で区切らず、長音は普通の日本語の長さにしてください。カタカナ語も日本語の発音で、語尾を伸ばさず、普通の会話の音量で。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "牛肉",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L38451"
+    },
+    {
+      "key": "ぶたにく",
+      "input": "ぶたにく",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の食肉の種類・材料名として、入力された言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中で区切らず、長音は普通の日本語の長さにしてください。カタカナ語も日本語の発音で、語尾を伸ばさず、普通の会話の音量で。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "豚肉",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L94013"
+    },
+    {
+      "key": "とりにく",
+      "input": "とりにく",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の食肉の種類・材料名として、入力された言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中で区切らず、長音は普通の日本語の長さにしてください。カタカナ語も日本語の発音で、語尾を伸ばさず、普通の会話の音量で。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "鶏肉",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L43327"
+    },
+    {
+      "key": "ようにく",
+      "input": "ようにく",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の食肉の種類・材料名として、入力された言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中で区切らず、長音は普通の日本語の長さにしてください。カタカナ語も日本語の発音で、語尾を伸ばさず、普通の会話の音量で。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "羊肉",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L114262"
+    },
+    {
+      "key": "らむ",
+      "input": "らむ",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の食肉の種類・材料名として、入力された言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中で区切らず、長音は普通の日本語の長さにしてください。カタカナ語も日本語の発音で、語尾を伸ばさず、普通の会話の音量で。指定された辞書アクセントがあれば従ってください。生成速度1.0。"
+    },
+    {
+      "key": "まとん",
+      "input": "まとん",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の食肉の種類・材料名として、入力された言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中で区切らず、長音は普通の日本語の長さにしてください。カタカナ語も日本語の発音で、語尾を伸ばさず、普通の会話の音量で。指定された辞書アクセントがあれば従ってください。生成速度1.0。"
+    },
+    {
+      "key": "かもにく",
+      "input": "かもにく",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の食肉の種類・材料名として、入力された言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中で区切らず、長音は普通の日本語の長さにしてください。カタカナ語も日本語の発音で、語尾を伸ばさず、普通の会話の音量で。指定された辞書アクセントがあれば従ってください。生成速度1.0。"
+    },
+    {
+      "key": "ばにく",
+      "input": "ばにく",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の食肉の種類・材料名として、入力された言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中で区切らず、長音は普通の日本語の長さにしてください。カタカナ語も日本語の発音で、語尾を伸ばさず、普通の会話の音量で。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "馬肉",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L96989"
+    },
+    {
+      "key": "しかにく",
+      "input": "しかにく",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の食肉の種類・材料名として、入力された言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中で区切らず、長音は普通の日本語の長さにしてください。カタカナ語も日本語の発音で、語尾を伸ばさず、普通の会話の音量で。指定された辞書アクセントがあれば従ってください。生成速度1.0。"
+    },
+    {
+      "key": "いのししにく",
+      "input": "いのししにく",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の食肉の種類・材料名として、入力された言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中で区切らず、長音は普通の日本語の長さにしてください。カタカナ語も日本語の発音で、語尾を伸ばさず、普通の会話の音量で。指定された辞書アクセントがあれば従ってください。生成速度1.0。"
+    },
+    {
+      "key": "じびえ",
+      "input": "じびえ",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の食肉の種類・材料名として、入力された言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中で区切らず、長音は普通の日本語の長さにしてください。カタカナ語も日本語の発音で、語尾を伸ばさず、普通の会話の音量で。指定された辞書アクセントがあれば従ってください。生成速度1.0。"
+    },
+    {
+      "key": "たんぱくしつ",
+      "input": "たんぱくしつ",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の食肉の部位や材料名として、入力の言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中に間を入れず、一音ずつ強調しないでください。長音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音で。指定された辞書アクセントがあれば従ってください。生成速度1.0。"
+    },
+    {
+      "key": "しぼう",
+      "input": "しぼう",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の食肉の部位や材料名として、入力の言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中に間を入れず、一音ずつ強調しないでください。長音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音で。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "脂肪",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L57548"
+    },
+    {
+      "key": "あぶらみ",
+      "input": "あぶらみ",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "肉の脂肪の部分「脂身」です。 読みは「あぶらみ」です。この材料名だけを一度、普段の料理の会話のように自然になめらかに言ってください。単語全体をひと続きにし、途中に間やためらいを入れず、一音ずつ区切ったり強調したりしないでください。長音は普通の日本語の長さにし、母音や語尾を余分に伸ばさないでください。いつものMarinの声、普通の会話の音量、落ち着いた自然な抑揚で。声を作ったり、ささやいたり、説明や余分な言葉を言ったりしないでください。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "accent": 3,
+      "accent_variants": [
+        3
+      ],
+      "accent_matched_form": "脂身",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L57537",
+      "correction_note": "User reported unnatural or choppy delivery; Japanese meat context and connected timing guidance."
+    },
+    {
+      "key": "あかみ",
+      "input": "あかみ",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の食肉の部位や材料名として、入力の言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中に間を入れず、一音ずつ強調しないでください。長音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音で。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "赤身",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L75341"
+    },
+    {
+      "key": "きんにく",
+      "input": "きんにく",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の食肉の部位や材料名として、入力の言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中に間を入れず、一音ずつ強調しないでください。長音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音で。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "accent": 1,
+      "accent_variants": [
+        1
+      ],
+      "accent_matched_form": "筋肉",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40509"
+    },
+    {
+      "key": "すじ",
+      "input": "すじ",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の食肉の部位や材料名として、入力の言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中に間を入れず、一音ずつ強調しないでください。長音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音で。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "accent": 1,
+      "accent_variants": [
+        1
+      ],
+      "accent_matched_form": "筋",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40480"
+    },
+    {
+      "key": "けん",
+      "input": "けん",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の食肉の部位や材料名として、入力の言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中に間を入れず、一音ずつ強調しないでください。長音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音で。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "accent": 1,
+      "accent_variants": [
+        1
+      ],
+      "accent_matched_form": "腱",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L122241",
+      "reuse_audio": "audio/zukan/marin-85140d2d6b89c0f51138.mp3",
+      "reuse_source": "図鑑 exact reviewed reading match; Marin 1.0"
+    },
+    {
+      "key": "ぎゅうすじ",
+      "input": "ぎゅうすじ",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "牛肉のすじや腱を含む材料「牛すじ」です。 読みは「ぎゅうすじ」です。この材料名だけを一度、普段の料理の会話のように自然になめらかに言ってください。単語全体をひと続きにし、途中に間やためらいを入れず、一音ずつ区切ったり強調したりしないでください。長音は普通の日本語の長さにし、母音や語尾を余分に伸ばさないでください。いつものMarinの声、普通の会話の音量、落ち着いた自然な抑揚で。声を作ったり、ささやいたり、説明や余分な言葉を言ったりしないでください。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "correction_note": "User reported unnatural or choppy delivery; Japanese meat context and connected timing guidance."
+    },
+    {
+      "key": "けつごうそしき",
+      "input": "けつごうそしき",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の食肉の部位や材料名として、入力の言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中に間を入れず、一音ずつ強調しないでください。長音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音で。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "accent": 5,
+      "accent_variants": [
+        5
+      ],
+      "accent_matched_form": "結合組織",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L43731"
+    },
+    {
+      "key": "こらーげん",
+      "input": "こらーげん",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "肉の結合組織に含まれるたんぱく質「コラーゲン」です。英語ではなく日本語のカタカナ語として発音してください。 読みは「こらーげん」です。この材料名だけを一度、普段の料理の会話のように自然になめらかに言ってください。単語全体をひと続きにし、途中に間やためらいを入れず、一音ずつ区切ったり強調したりしないでください。長音は普通の日本語の長さにし、母音や語尾を余分に伸ばさないでください。いつものMarinの声、普通の会話の音量、落ち着いた自然な抑揚で。声を作ったり、ささやいたり、説明や余分な言葉を言ったりしないでください。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "correction_note": "User reported unnatural or choppy delivery; Japanese meat context and connected timing guidance."
+    },
+    {
+      "key": "ぜらちん",
+      "input": "ぜらちん",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の食肉の部位や材料名として、入力の言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中に間を入れず、一音ずつ強調しないでください。長音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音で。指定された辞書アクセントがあれば従ってください。生成速度1.0。"
+    },
+    {
+      "key": "なんこつ",
+      "input": "なんこつ",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の食肉の部位や材料名として、入力の言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中に間を入れず、一音ずつ強調しないでください。長音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音で。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "軟骨",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L94636",
+      "reuse_audio": "audio/zukan/marin-617cfaabc93384233181.mp3",
+      "reuse_source": "図鑑 exact reviewed reading match; Marin 1.0"
+    },
+    {
+      "key": "こつずい",
+      "input": "こつずい",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の食肉の部位や材料名として、入力の言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中に間を入れず、一音ずつ強調しないでください。長音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音で。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "骨髄",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52048"
+    },
+    {
+      "key": "ぶい",
+      "input": "ぶい",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の食肉の部位や材料名として、入力の言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中に間を入れず、一音ずつ強調しないでください。長音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音で。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "accent": 1,
+      "accent_variants": [
+        1
+      ],
+      "accent_matched_form": "部位",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L103316"
+    },
+    {
+      "key": "ろーす",
+      "input": "ろーす",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の食肉の部位や材料名として、入力の言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中に間を入れず、一音ずつ強調しないでください。長音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音で。指定された辞書アクセントがあれば従ってください。生成速度1.0。"
+    },
+    {
+      "key": "かたろーす",
+      "input": "かたろーす",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の食肉の部位や材料名として、入力の言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中に間を入れず、一音ずつ強調しないでください。長音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音で。指定された辞書アクセントがあれば従ってください。生成速度1.0。"
+    },
+    {
+      "key": "ひれ",
+      "input": "ひれ",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の食肉の部位や材料名として、入力の言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中に間を入れず、一音ずつ強調しないでください。長音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音で。指定された辞書アクセントがあれば従ってください。生成速度1.0。 ヒレは食肉の柔らかい部位、テンダーロインのことです。魚のひれではありません。"
+    },
+    {
+      "key": "ばらにく",
+      "input": "ばらにく",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "脂肪を含む肉の部位「バラ肉」です。 読みは「ばらにく」です。この材料名だけを一度、普段の料理の会話のように自然になめらかに言ってください。単語全体をひと続きにし、途中に間やためらいを入れず、一音ずつ区切ったり強調したりしないでください。長音は普通の日本語の長さにし、母音や語尾を余分に伸ばさないでください。いつものMarinの声、普通の会話の音量、落ち着いた自然な抑揚で。声を作ったり、ささやいたり、説明や余分な言葉を言ったりしないでください。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "correction_note": "User reported unnatural or choppy delivery; Japanese meat context and connected timing guidance."
+    },
+    {
+      "key": "ももにく",
+      "input": "ももにく",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の食肉の部位や材料名として、入力の言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中に間を入れず、一音ずつ強調しないでください。長音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音で。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "accent": 2,
+      "accent_variants": [
+        2,
+        0
+      ],
+      "accent_matched_form": "もも肉",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L4471"
+    },
+    {
+      "key": "すねにく",
+      "input": "すねにく",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "脚のすねの部分の肉「すね肉」です。 読みは「すねにく」です。この材料名だけを一度、普段の料理の会話のように自然になめらかに言ってください。単語全体をひと続きにし、途中に間やためらいを入れず、一音ずつ区切ったり強調したりしないでください。長音は普通の日本語の長さにし、母音や語尾を余分に伸ばさないでください。いつものMarinの声、普通の会話の音量、落ち着いた自然な抑揚で。声を作ったり、ささやいたり、説明や余分な言葉を言ったりしないでください。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "correction_note": "User reported unnatural or choppy delivery; Japanese meat context and connected timing guidance."
+    },
+    {
+      "key": "むねにく",
+      "input": "むねにく",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の食肉の部位や材料名として、入力の言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中に間を入れず、一音ずつ強調しないでください。長音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音で。指定された辞書アクセントがあれば従ってください。生成速度1.0。"
+    },
+    {
+      "key": "ささみ",
+      "input": "ささみ",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の食肉の部位や材料名として、入力の言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中に間を入れず、一音ずつ強調しないでください。長音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音で。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "reuse_audio": "audio/zukan/marin-7625233301e9d17c9329.mp3",
+      "reuse_source": "図鑑 exact reviewed reading match; Marin 1.0"
+    },
+    {
+      "key": "てばさき",
+      "input": "てばさき",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "鶏の翼の先と中央の部分「手羽先」です。 読みは「てばさき」です。この材料名だけを一度、普段の料理の会話のように自然になめらかに言ってください。単語全体をひと続きにし、途中に間やためらいを入れず、一音ずつ区切ったり強調したりしないでください。長音は普通の日本語の長さにし、母音や語尾を余分に伸ばさないでください。いつものMarinの声、普通の会話の音量、落ち着いた自然な抑揚で。声を作ったり、ささやいたり、説明や余分な言葉を言ったりしないでください。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "手羽先",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61280",
+      "previous_reuse_audio": "audio/zukan/marin-00c51da376a57d89ece0.mp3",
+      "correction_note": "User reported unnatural or choppy delivery; Japanese meat context and connected timing guidance."
+    },
+    {
+      "key": "てばもと",
+      "input": "てばもと",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の食肉の部位や材料名として、入力の言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中に間を入れず、一音ずつ強調しないでください。長音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音で。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "reuse_audio": "audio/zukan/marin-aef8b157335f7ce92aca.mp3",
+      "reuse_source": "図鑑 exact reviewed reading match; Marin 1.0"
+    },
+    {
+      "key": "てばなか",
+      "input": "てばなか",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の食肉の部位や材料名として、入力の言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中に間を入れず、一音ずつ強調しないでください。長音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音で。指定された辞書アクセントがあれば従ってください。生成速度1.0。"
+    },
+    {
+      "key": "すなぎも",
+      "input": "すなぎも",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の食肉の部位や材料名として、入力の言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中に間を入れず、一音ずつ強調しないでください。長音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音で。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "砂肝",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52855",
+      "reuse_audio": "audio/zukan/marin-343073913e0437a3dca4.mp3",
+      "reuse_source": "図鑑 exact reviewed reading match; Marin 1.0"
+    },
+    {
+      "key": "ればー",
+      "input": "ればー",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の食肉の部位や材料名として、入力の言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中に間を入れず、一音ずつ強調しないでください。長音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音で。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "reuse_audio": "audio/zukan/marin-e12d619162820100e5d8.mp3",
+      "reuse_source": "図鑑 exact reviewed reading match; Marin 1.0"
+    },
+    {
+      "key": "たん",
+      "input": "たん",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の食肉の部位や材料名として、入力の言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中に間を入れず、一音ずつ強調しないでください。長音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音で。指定された辞書アクセントがあれば従ってください。生成速度1.0。"
+    },
+    {
+      "key": "はつ",
+      "input": "はつ",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の食肉の部位や材料名として、入力の言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中に間を入れず、一音ずつ強調しないでください。長音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音で。指定された辞書アクセントがあれば従ってください。生成速度1.0。"
+    },
+    {
+      "key": "ほるもん",
+      "input": "ほるもん",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の食肉の部位や材料名として、入力の言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中に間を入れず、一音ずつ強調しないでください。長音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音で。指定された辞書アクセントがあれば従ってください。生成速度1.0。"
+    },
+    {
+      "key": "ひきにく",
+      "input": "ひきにく",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の食肉の部位や材料名として、入力の言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中に間を入れず、一音ずつ強調しないでください。長音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音で。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "ひき肉",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L3682"
+    },
+    {
+      "key": "あいびきにく",
+      "input": "あいびきにく",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の食肉の部位や材料名として、入力の言葉だけを一度、いつものMarinの声で自然になめらかに言ってください。全体をひと続きにし、途中に間を入れず、一音ずつ強調しないでください。長音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音で。指定された辞書アクセントがあれば従ってください。生成速度1.0。"
+    },
+    {
+      "key": "うりかた、とくちょう",
+      "input": "うりかた、とくちょう",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の肉の売り方や特徴を表す言葉です。入力の言葉だけを一度、普段のMarinの声で、自然な料理の会話のようになめらかに言ってください。全体をひと続きにし、一音ずつ区切らず、母音や語尾を余分に伸ばさないでください。普通の会話の音量で、指定された辞書アクセントがあれば従ってください。見出しの読点だけで短く区切ってください。生成速度1.0。"
+    },
+    {
+      "key": "うすぎりにく",
+      "input": "うすぎりにく",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の肉の売り方や特徴を表す言葉です。入力の言葉だけを一度、普段のMarinの声で、自然な料理の会話のようになめらかに言ってください。全体をひと続きにし、一音ずつ区切らず、母音や語尾を余分に伸ばさないでください。普通の会話の音量で、指定された辞書アクセントがあれば従ってください。見出しの読点だけで短く区切ってください。生成速度1.0。"
+    },
+    {
+      "key": "こまぎれにく",
+      "input": "こまぎれにく",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の肉の売り方や特徴を表す言葉です。入力の言葉だけを一度、普段のMarinの声で、自然な料理の会話のようになめらかに言ってください。全体をひと続きにし、一音ずつ区切らず、母音や語尾を余分に伸ばさないでください。普通の会話の音量で、指定された辞書アクセントがあれば従ってください。見出しの読点だけで短く区切ってください。生成速度1.0。"
+    },
+    {
+      "key": "きりおとし",
+      "input": "きりおとし",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の肉の売り方や特徴を表す言葉です。入力の言葉だけを一度、普段のMarinの声で、自然な料理の会話のようになめらかに言ってください。全体をひと続きにし、一音ずつ区切らず、母音や語尾を余分に伸ばさないでください。普通の会話の音量で、指定された辞書アクセントがあれば従ってください。見出しの読点だけで短く区切ってください。生成速度1.0。",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "切り落とし",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L75591"
+    },
+    {
+      "key": "かたまりにく",
+      "input": "かたまりにく",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の肉の売り方や特徴を表す言葉です。入力の言葉だけを一度、普段のMarinの声で、自然な料理の会話のようになめらかに言ってください。全体をひと続きにし、一音ずつ区切らず、母音や語尾を余分に伸ばさないでください。普通の会話の音量で、指定された辞書アクセントがあれば従ってください。見出しの読点だけで短く区切ってください。生成速度1.0。"
+    },
+    {
+      "key": "ほねつきにく",
+      "input": "ほねつきにく",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の肉の売り方や特徴を表す言葉です。入力の言葉だけを一度、普段のMarinの声で、自然な料理の会話のようになめらかに言ってください。全体をひと続きにし、一音ずつ区切らず、母音や語尾を余分に伸ばさないでください。普通の会話の音量で、指定された辞書アクセントがあれば従ってください。見出しの読点だけで短く区切ってください。生成速度1.0。"
+    },
+    {
+      "key": "かわつき",
+      "input": "かわつき",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の肉の売り方や特徴を表す言葉です。入力の言葉だけを一度、普段のMarinの声で、自然な料理の会話のようになめらかに言ってください。全体をひと続きにし、一音ずつ区切らず、母音や語尾を余分に伸ばさないでください。普通の会話の音量で、指定された辞書アクセントがあれば従ってください。見出しの読点だけで短く区切ってください。生成速度1.0。",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "皮付き",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100115"
+    },
+    {
+      "key": "しもふり",
+      "input": "しもふり",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の肉の売り方や特徴を表す言葉です。入力の言葉だけを一度、普段のMarinの声で、自然な料理の会話のようになめらかに言ってください。全体をひと続きにし、一音ずつ区切らず、母音や語尾を余分に伸ばさないでください。普通の会話の音量で、指定された辞書アクセントがあれば従ってください。見出しの読点だけで短く区切ってください。生成速度1.0。",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "霜降り",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L79969",
+      "reuse_audio": "audio/zukan/marin-bde4925ad4670389c156.mp3",
+      "reuse_source": "図鑑 exact reviewed reading match; Marin 1.0"
+    },
+    {
+      "key": "にくじゅう",
+      "input": "にくじゅう",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の肉の売り方や特徴を表す言葉です。入力の言葉だけを一度、普段のMarinの声で、自然な料理の会話のようになめらかに言ってください。全体をひと続きにし、一音ずつ区切らず、母音や語尾を余分に伸ばさないでください。普通の会話の音量で、指定された辞書アクセントがあれば従ってください。見出しの読点だけで短く区切ってください。生成速度1.0。",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "肉汁",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L95127"
+    },
+    {
+      "key": "したしょり、ちょうり",
+      "input": "したしょり、ちょうり",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の肉の下処理や調理の言葉です。入力の言葉だけを一度、普段のMarinの声で、自然な料理の会話のようになめらかに言ってください。短い表現全体をひと続きにし、助詞の前で区切らず、一音ずつ強調しないでください。長音は普通の長さにし、母音や語尾を余分に伸ばさないでください。普通の会話の音量で。指定された辞書アクセントがあれば従ってください。見出しの読点のみで短く区切ってください。生成速度1.0。"
+    },
+    {
+      "key": "すじきり",
+      "input": "すじきり",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の肉の下処理や調理の言葉です。入力の言葉だけを一度、普段のMarinの声で、自然な料理の会話のようになめらかに言ってください。短い表現全体をひと続きにし、助詞の前で区切らず、一音ずつ強調しないでください。長音は普通の長さにし、母音や語尾を余分に伸ばさないでください。普通の会話の音量で。指定された辞書アクセントがあれば従ってください。見出しの読点のみで短く区切ってください。生成速度1.0。"
+    },
+    {
+      "key": "したあじをつける",
+      "input": "したあじおつける",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "料理で肉を調理する前に味をつける「下味をつける」です。入力の「したあじおつける」だけを一度言ってください。助詞のおをしたあじにつなげ、そのままつけるへ自然に続けてください。 普段の料理の会話のように、表現全体をひと続きに自然になめらかに言ってください。途中に間やためらいを入れず、一音ずつ区切ったり強調したりしないでください。母音や語尾を余分に伸ばさず、普通の会話の音量で、いつものMarinの声を保ってください。ささやいたり、声を作ったり、説明や余分な言葉を言ったりしないでください。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "previous_reuse_audio": "audio/zukan/marin-3facc363525b606c1946.mp3",
+      "correction_note": "User reported choppy action phrasing or male-sounding 余熱; explicit continuous delivery and consistent Marin register."
+    },
+    {
+      "key": "つけこむ",
+      "input": "つけこむ",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の肉の下処理や調理の言葉です。入力の言葉だけを一度、普段のMarinの声で、自然な料理の会話のようになめらかに言ってください。短い表現全体をひと続きにし、助詞の前で区切らず、一音ずつ強調しないでください。長音は普通の長さにし、母音や語尾を余分に伸ばさないでください。普通の会話の音量で。指定された辞書アクセントがあれば従ってください。見出しの読点のみで短く区切ってください。生成速度1.0。",
+      "accent": 3,
+      "accent_variants": [
+        3,
+        0
+      ],
+      "accent_matched_form": "漬け込む",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L88379"
+    },
+    {
+      "key": "にくをたたく",
+      "input": "にくおたたく",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の肉の下処理や調理の言葉です。入力の言葉だけを一度、普段のMarinの声で、自然な料理の会話のようになめらかに言ってください。短い表現全体をひと続きにし、助詞の前で区切らず、一音ずつ強調しないでください。長音は普通の長さにし、母音や語尾を余分に伸ばさないでください。普通の会話の音量で。指定された辞書アクセントがあれば従ってください。見出しの読点のみで短く区切ってください。生成速度1.0。"
+    },
+    {
+      "key": "やきいろをつける",
+      "input": "やきいろおつける",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "肉の表面をこんがり焼く、という意味の「焼き色をつける」です。入力された「やきいろおつける」だけを、料理の会話でさらっと言うように、一度自然になめらかに発音してください。表現全体をひと息でつなげ、途中に間を入れず、一音ずつ区切ったり強調したりしないでください。普段のMarinの声と会話の音量で、母音や語尾を伸ばさず、説明や余分な言葉は言わないでください。生成速度1.0。",
+      "correction_note": "Second smoothness retry: simpler Japanese instruction for one flowing kitchen phrase."
+    },
+    {
+      "key": "にこむ",
+      "input": "にこむ",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の肉の下処理や調理の言葉です。入力の言葉だけを一度、普段のMarinの声で、自然な料理の会話のようになめらかに言ってください。短い表現全体をひと続きにし、助詞の前で区切らず、一音ずつ強調しないでください。長音は普通の長さにし、母音や語尾を余分に伸ばさないでください。普通の会話の音量で。指定された辞書アクセントがあれば従ってください。見出しの読点のみで短く区切ってください。生成速度1.0。",
+      "accent": 2,
+      "accent_variants": [
+        2
+      ],
+      "accent_matched_form": "煮込む",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L59995"
+    },
+    {
+      "key": "ねかせる",
+      "input": "ねかせる",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の肉の下処理や調理の言葉です。入力の言葉だけを一度、普段のMarinの声で、自然な料理の会話のようになめらかに言ってください。短い表現全体をひと続きにし、助詞の前で区切らず、一音ずつ強調しないでください。長音は普通の長さにし、母音や語尾を余分に伸ばさないでください。普通の会話の音量で。指定された辞書アクセントがあれば従ってください。見出しの読点のみで短く区切ってください。生成速度1.0。 肉を休ませる、という調理の意味です。",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "寝かせる",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L69048"
+    },
+    {
+      "key": "よねつ",
+      "input": "よねつ",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "調理で火を止めた後に残る熱「余熱」、読みは「よねつ」です。「よねつ」だけを一度言ってください。いつものMarinの自然な女性の声と普通の高さを保ち、低い男性の声や別の人物の声に変えないでください。 普段の料理の会話のように、表現全体をひと続きに自然になめらかに言ってください。途中に間やためらいを入れず、一音ずつ区切ったり強調したりしないでください。母音や語尾を余分に伸ばさず、普通の会話の音量で、いつものMarinの声を保ってください。ささやいたり、声を作ったり、説明や余分な言葉を言ったりしないでください。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "余熱",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L113727",
+      "correction_note": "User reported choppy action phrasing or male-sounding 余熱; explicit continuous delivery and consistent Marin register."
+    },
+    {
+      "key": "ちゅうしんおんど",
+      "input": "ちゅうしんおんど",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の肉の下処理や調理の言葉です。入力の言葉だけを一度、普段のMarinの声で、自然な料理の会話のようになめらかに言ってください。短い表現全体をひと続きにし、助詞の前で区切らず、一音ずつ強調しないでください。長音は普通の長さにし、母音や語尾を余分に伸ばさないでください。普通の会話の音量で。指定された辞書アクセントがあれば従ってください。見出しの読点のみで短く区切ってください。生成速度1.0。"
+    },
+    {
+      "key": "なまやけ",
+      "input": "なまやけ",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の肉の下処理や調理の言葉です。入力の言葉だけを一度、普段のMarinの声で、自然な料理の会話のようになめらかに言ってください。短い表現全体をひと続きにし、助詞の前で区切らず、一音ずつ強調しないでください。長音は普通の長さにし、母音や語尾を余分に伸ばさないでください。普通の会話の音量で。指定された辞書アクセントがあれば従ってください。見出しの読点のみで短く区切ってください。生成速度1.0。",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "生焼け",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L73893"
+    },
+    {
+      "key": "くさみをとる",
+      "input": "くさみおとる",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の肉の下処理や調理の言葉です。入力の言葉だけを一度、普段のMarinの声で、自然な料理の会話のようになめらかに言ってください。短い表現全体をひと続きにし、助詞の前で区切らず、一音ずつ強調しないでください。長音は普通の長さにし、母音や語尾を余分に伸ばさないでください。普通の会話の音量で。指定された辞書アクセントがあれば従ってください。見出しの読点のみで短く区切ってください。生成速度1.0。"
+    },
+    {
+      "key": "にくりょうり",
+      "input": "にくりょうり",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の肉料理の名前です。入力の料理名だけを一度、普段のMarinの声で自然な会話のようになめらかに言ってください。全体をひと続きにし、一音ずつ区切らず、長音は普通の日本語の長さにしてください。カタカナ語も日本語の発音で、母音や語尾を余分に伸ばさず、普通の会話の音量で。説明は言わないでください。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "accent": 3,
+      "accent_variants": [
+        3
+      ],
+      "accent_matched_form": "肉料理",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L95171"
+    },
+    {
+      "key": "やきにく",
+      "input": "やきにく",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の肉料理の名前です。入力の料理名だけを一度、普段のMarinの声で自然な会話のようになめらかに言ってください。全体をひと続きにし、一音ずつ区切らず、長音は普通の日本語の長さにしてください。カタカナ語も日本語の発音で、母音や語尾を余分に伸ばさず、普通の会話の音量で。説明は言わないでください。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "焼肉",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L66887"
+    },
+    {
+      "key": "やきとり",
+      "input": "やきとり",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の肉料理の名前です。入力の料理名だけを一度、普段のMarinの声で自然な会話のようになめらかに言ってください。全体をひと続きにし、一音ずつ区切らず、長音は普通の日本語の長さにしてください。カタカナ語も日本語の発音で、母音や語尾を余分に伸ばさず、普通の会話の音量で。説明は言わないでください。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "焼き鳥",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L66787",
+      "reuse_audio": "audio/zukan/marin-6f6d5ce373cdb124c8c4.mp3",
+      "reuse_source": "図鑑 exact reviewed reading match; Marin 1.0"
+    },
+    {
+      "key": "すきやき",
+      "input": "すきやき",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の肉料理の名前です。入力の料理名だけを一度、普段のMarinの声で自然な会話のようになめらかに言ってください。全体をひと続きにし、一音ずつ区切らず、長音は普通の日本語の長さにしてください。カタカナ語も日本語の発音で、母音や語尾を余分に伸ばさず、普通の会話の音量で。説明は言わないでください。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "すき焼き",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L2464"
+    },
+    {
+      "key": "しゃぶしゃぶ",
+      "input": "しゃぶしゃぶ",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の肉料理の名前です。入力の料理名だけを一度、普段のMarinの声で自然な会話のようになめらかに言ってください。全体をひと続きにし、一音ずつ区切らず、長音は普通の日本語の長さにしてください。カタカナ語も日本語の発音で、母音や語尾を余分に伸ばさず、普通の会話の音量で。説明は言わないでください。指定された辞書アクセントがあれば従ってください。生成速度1.0。"
+    },
+    {
+      "key": "とんかつ",
+      "input": "とんかつ",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の肉料理の名前です。入力の料理名だけを一度、普段のMarinの声で自然な会話のようになめらかに言ってください。全体をひと続きにし、一音ずつ区切らず、長音は普通の日本語の長さにしてください。カタカナ語も日本語の発音で、母音や語尾を余分に伸ばさず、普通の会話の音量で。説明は言わないでください。指定された辞書アクセントがあれば従ってください。生成速度1.0。"
+    },
+    {
+      "key": "かくに",
+      "input": "かくに",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "日本語の肉料理の名前です。入力の料理名だけを一度、普段のMarinの声で自然な会話のようになめらかに言ってください。全体をひと続きにし、一音ずつ区切らず、長音は普通の日本語の長さにしてください。カタカナ語も日本語の発音で、母音や語尾を余分に伸ばさず、普通の会話の音量で。説明は言わないでください。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "accent": 0,
+      "accent_variants": [
+        0,
+        3
+      ],
+      "accent_matched_form": "角煮",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L32389"
+    },
+    {
+      "key": "ちゃーしゅー",
+      "input": "ちゃーしゅー",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の肉料理の名前です。入力の料理名だけを一度、普段のMarinの声で自然な会話のようになめらかに言ってください。全体をひと続きにし、一音ずつ区切らず、長音は普通の日本語の長さにしてください。カタカナ語も日本語の発音で、母音や語尾を余分に伸ばさず、普通の会話の音量で。説明は言わないでください。指定された辞書アクセントがあれば従ってください。生成速度1.0。"
+    },
+    {
+      "key": "はんばーぐ",
+      "input": "はんばーぐ",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の肉料理の名前です。入力の料理名だけを一度、普段のMarinの声で自然な会話のようになめらかに言ってください。全体をひと続きにし、一音ずつ区切らず、長音は普通の日本語の長さにしてください。カタカナ語も日本語の発音で、母音や語尾を余分に伸ばさず、普通の会話の音量で。説明は言わないでください。指定された辞書アクセントがあれば従ってください。生成速度1.0。"
+    },
+    {
+      "key": "そぼろ",
+      "input": "そぼろ",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の肉料理の名前です。入力の料理名だけを一度、普段のMarinの声で自然な会話のようになめらかに言ってください。全体をひと続きにし、一音ずつ区切らず、長音は普通の日本語の長さにしてください。カタカナ語も日本語の発音で、母音や語尾を余分に伸ばさず、普通の会話の音量で。説明は言わないでください。指定された辞書アクセントがあれば従ってください。生成速度1.0。"
+    },
+    {
+      "key": "つくね",
+      "input": "つくね",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "日本語の肉料理の名前です。入力の料理名だけを一度、普段のMarinの声で自然な会話のようになめらかに言ってください。全体をひと続きにし、一音ずつ区切らず、長音は普通の日本語の長さにしてください。カタカナ語も日本語の発音で、母音や語尾を余分に伸ばさず、普通の会話の音量で。説明は言わないでください。指定された辞書アクセントがあれば従ってください。生成速度1.0。",
+      "reuse_audio": "audio/zukan/marin-40b718aa56e9e75e331b.mp3",
+      "reuse_source": "図鑑 exact reviewed reading match; Marin 1.0"
+    },
+    {
+      "key": "にくのあじ、しょっかん、かおり",
+      "input": "にくのあじ、しょっかん、かおり",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "肉の味、食感、香りを表す日本語の表現です。入力の言葉だけを一度、料理の感想を普通に言うように、いつものMarinの声で自然になめらかに言ってください。短い表現全体をひと続きにし、助詞の前で区切らず、一音ずつ強調しないでください。長音や促音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音にしてください。説明は言わないでください。指定された辞書アクセントがあれば従ってください。見出しの読点でだけ短く区切ってください。生成速度1.0。"
+    },
+    {
+      "key": "うまみがつよい",
+      "input": "うまみがつよい",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "肉を食べた感想「旨味が強い」です。「うまみがつよい」だけを一度、普通の会話でさらっと短く言ってください。うまみがとつよいをひと息で自然につなげ、途中に間を入れず、母音や最後のいを伸ばさないでください。ゆっくり説明する声や一音ずつ強調する読み方にしないでください。いつものMarinの声と普通の会話の音量、自然な抑揚で、余分な言葉は言わないでください。生成速度1.0。",
+      "correction_note": "User reported excessive stretching; compact everyday delivery guidance, normal lexical vowel length retained."
+    },
+    {
+      "key": "あぶらのあまみ",
+      "input": "あぶらのあまみ",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "肉の味、食感、香りを表す日本語の表現です。入力の言葉だけを一度、料理の感想を普通に言うように、いつものMarinの声で自然になめらかに言ってください。短い表現全体をひと続きにし、助詞の前で区切らず、一音ずつ強調しないでください。長音や促音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音にしてください。説明は言わないでください。指定された辞書アクセントがあれば従ってください。見出しの読点でだけ短く区切ってください。生成速度1.0。"
+    },
+    {
+      "key": "こくがある",
+      "input": "こくがある",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "肉の味、食感、香りを表す日本語の表現です。入力の言葉だけを一度、料理の感想を普通に言うように、いつものMarinの声で自然になめらかに言ってください。短い表現全体をひと続きにし、助詞の前で区切らず、一音ずつ強調しないでください。長音や促音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音にしてください。説明は言わないでください。指定された辞書アクセントがあれば従ってください。見出しの読点でだけ短く区切ってください。生成速度1.0。"
+    },
+    {
+      "key": "あっさりしている",
+      "input": "あっさりしている",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "肉の味、食感、香りを表す日本語の表現です。入力の言葉だけを一度、料理の感想を普通に言うように、いつものMarinの声で自然になめらかに言ってください。短い表現全体をひと続きにし、助詞の前で区切らず、一音ずつ強調しないでください。長音や促音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音にしてください。説明は言わないでください。指定された辞書アクセントがあれば従ってください。見出しの読点でだけ短く区切ってください。生成速度1.0。"
+    },
+    {
+      "key": "あぶらっこい",
+      "input": "あぶらっこい",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "肉の味、食感、香りを表す日本語の表現です。入力の言葉だけを一度、料理の感想を普通に言うように、いつものMarinの声で自然になめらかに言ってください。短い表現全体をひと続きにし、助詞の前で区切らず、一音ずつ強調しないでください。長音や促音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音にしてください。説明は言わないでください。指定された辞書アクセントがあれば従ってください。見出しの読点でだけ短く区切ってください。生成速度1.0。",
+      "accent": 5,
+      "accent_variants": [
+        5
+      ],
+      "accent_matched_form": "脂っこい",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L57529"
+    },
+    {
+      "key": "にくにくしい",
+      "input": "にくにくしい",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "肉の味、食感、香りを表す日本語の表現です。入力の言葉だけを一度、料理の感想を普通に言うように、いつものMarinの声で自然になめらかに言ってください。短い表現全体をひと続きにし、助詞の前で区切らず、一音ずつ強調しないでください。長音や促音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音にしてください。説明は言わないでください。指定された辞書アクセントがあれば従ってください。見出しの読点でだけ短く区切ってください。生成速度1.0。"
+    },
+    {
+      "key": "やわらかい",
+      "input": "やわらかい",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "肉の味、食感、香りを表す日本語の表現です。入力の言葉だけを一度、料理の感想を普通に言うように、いつものMarinの声で自然になめらかに言ってください。短い表現全体をひと続きにし、助詞の前で区切らず、一音ずつ強調しないでください。長音や促音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音にしてください。説明は言わないでください。指定された辞書アクセントがあれば従ってください。見出しの読点でだけ短く区切ってください。生成速度1.0。",
+      "accent": 4,
+      "accent_variants": [
+        4
+      ],
+      "accent_matched_form": "柔らかい",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L63229"
+    },
+    {
+      "key": "じゅーしー",
+      "input": "じゅーしー",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "肉の味、食感、香りを表す日本語の表現です。入力の言葉だけを一度、料理の感想を普通に言うように、いつものMarinの声で自然になめらかに言ってください。短い表現全体をひと続きにし、助詞の前で区切らず、一音ずつ強調しないでください。長音や促音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音にしてください。説明は言わないでください。指定された辞書アクセントがあれば従ってください。見出しの読点でだけ短く区切ってください。生成速度1.0。"
+    },
+    {
+      "key": "しっとりしている",
+      "input": "しっとりしている",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "肉の味、食感、香りを表す日本語の表現です。入力の言葉だけを一度、料理の感想を普通に言うように、いつものMarinの声で自然になめらかに言ってください。短い表現全体をひと続きにし、助詞の前で区切らず、一音ずつ強調しないでください。長音や促音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音にしてください。説明は言わないでください。指定された辞書アクセントがあれば従ってください。見出しの読点でだけ短く区切ってください。生成速度1.0。"
+    },
+    {
+      "key": "ぱさぱさしている",
+      "input": "ぱさぱさしている",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "肉の味、食感、香りを表す日本語の表現です。入力の言葉だけを一度、料理の感想を普通に言うように、いつものMarinの声で自然になめらかに言ってください。短い表現全体をひと続きにし、助詞の前で区切らず、一音ずつ強調しないでください。長音や促音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音にしてください。説明は言わないでください。指定された辞書アクセントがあれば従ってください。見出しの読点でだけ短く区切ってください。生成速度1.0。"
+    },
+    {
+      "key": "かたい",
+      "input": "かたい",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "肉の味、食感、香りを表す日本語の表現です。入力の言葉だけを一度、料理の感想を普通に言うように、いつものMarinの声で自然になめらかに言ってください。短い表現全体をひと続きにし、助詞の前で区切らず、一音ずつ強調しないでください。長音や促音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音にしてください。説明は言わないでください。指定された辞書アクセントがあれば従ってください。見出しの読点でだけ短く区切ってください。生成速度1.0。",
+      "accent": 0,
+      "accent_variants": [
+        0,
+        2
+      ],
+      "accent_matched_form": "硬い",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L49863"
+    },
+    {
+      "key": "すじっぽい",
+      "input": "すじっぽい",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "肉の味、食感、香りを表す日本語の表現です。入力の言葉だけを一度、料理の感想を普通に言うように、いつものMarinの声で自然になめらかに言ってください。短い表現全体をひと続きにし、助詞の前で区切らず、一音ずつ強調しないでください。長音や促音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音にしてください。説明は言わないでください。指定された辞書アクセントがあれば従ってください。見出しの読点でだけ短く区切ってください。生成速度1.0。"
+    },
+    {
+      "key": "ほろほろ",
+      "input": "ほろほろ",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "肉の味、食感、香りを表す日本語の表現です。入力の言葉だけを一度、料理の感想を普通に言うように、いつものMarinの声で自然になめらかに言ってください。短い表現全体をひと続きにし、助詞の前で区切らず、一音ずつ強調しないでください。長音や促音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音にしてください。説明は言わないでください。指定された辞書アクセントがあれば従ってください。見出しの読点でだけ短く区切ってください。生成速度1.0。"
+    },
+    {
+      "key": "ぷりぷり",
+      "input": "ぷりぷり",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "肉の味、食感、香りを表す日本語の表現です。入力の言葉だけを一度、料理の感想を普通に言うように、いつものMarinの声で自然になめらかに言ってください。短い表現全体をひと続きにし、助詞の前で区切らず、一音ずつ強調しないでください。長音や促音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音にしてください。説明は言わないでください。指定された辞書アクセントがあれば従ってください。見出しの読点でだけ短く区切ってください。生成速度1.0。"
+    },
+    {
+      "key": "とろける",
+      "input": "とろける",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "肉の味、食感、香りを表す日本語の表現です。入力の言葉だけを一度、料理の感想を普通に言うように、いつものMarinの声で自然になめらかに言ってください。短い表現全体をひと続きにし、助詞の前で区切らず、一音ずつ強調しないでください。長音や促音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音にしてください。説明は言わないでください。指定された辞書アクセントがあれば従ってください。見出しの読点でだけ短く区切ってください。生成速度1.0。"
+    },
+    {
+      "key": "こうばしい",
+      "input": "こうばしい",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "肉の表面が焼けた良い香りを表す「香ばしい」です。「こうばしい」だけを一度、普通の会話でさらっと短く言ってください。こうとしいの長母音は普通の日本語の長さだけにし、余分に伸ばしたり、最後で遅くしたりしないでください。単語をひと続きに自然につなげ、途中に間を入れず、一音ずつ強調しないでください。いつものMarinの声と普通の会話の音量で、指定された辞書アクセントがあれば従い、説明や余分な言葉は言わないでください。生成速度1.0。",
+      "accent": 4,
+      "accent_variants": [
+        4,
+        0
+      ],
+      "accent_matched_form": "香ばしい",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50712",
+      "correction_note": "User reported excessive stretching; compact everyday delivery guidance, normal lexical vowel length retained."
+    },
+    {
+      "key": "けものくさい",
+      "input": "けものくさい",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "肉の味、食感、香りを表す日本語の表現です。入力の言葉だけを一度、料理の感想を普通に言うように、いつものMarinの声で自然になめらかに言ってください。短い表現全体をひと続きにし、助詞の前で区切らず、一音ずつ強調しないでください。長音や促音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音にしてください。説明は言わないでください。指定された辞書アクセントがあれば従ってください。見出しの読点でだけ短く区切ってください。生成速度1.0。"
+    },
+    {
+      "key": "くさみがある",
+      "input": "くさみがある",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "肉の味、食感、香りを表す日本語の表現です。入力の言葉だけを一度、料理の感想を普通に言うように、いつものMarinの声で自然になめらかに言ってください。短い表現全体をひと続きにし、助詞の前で区切らず、一音ずつ強調しないでください。長音や促音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音にしてください。説明は言わないでください。指定された辞書アクセントがあれば従ってください。見出しの読点でだけ短く区切ってください。生成速度1.0。"
+    },
+    {
+      "key": "くせがある",
+      "input": "くせがある",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "肉の味、食感、香りを表す日本語の表現です。入力の言葉だけを一度、料理の感想を普通に言うように、いつものMarinの声で自然になめらかに言ってください。短い表現全体をひと続きにし、助詞の前で区切らず、一音ずつ強調しないでください。長音や促音は普通の日本語の長さにし、語尾を伸ばさず、普通の会話の音量で。カタカナ語も日本語の発音にしてください。説明は言わないでください。指定された辞書アクセントがあれば従ってください。見出しの読点でだけ短く区切ってください。生成速度1.0。"
+    }
+  ],
+  "signal_check": {
+    "clips": 97,
+    "silent": [],
+    "listening_verified": false
+  }
+}

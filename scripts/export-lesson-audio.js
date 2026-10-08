@@ -35,7 +35,7 @@ function run(args) {
           if (block.pairs && block.speech) rows.push({lesson: lessonId, card: entry.id, field: 'subtitle', key: window.getJapaneseSpeechText(block.speech)});
           var parts = block.numberRows || (block.pairs ? block.pairs.reduce(function(all, pair) { return all.concat([pair.vocabulary, pair.food]); }, []) : (block.items || [block]));
           parts.forEach(function(part) {
-            rows.push({lesson: lessonId, card: entry.id, field: 'chunk', key: window.getJapaneseSpeechText(part.speech || part.japanese)});
+            if (part.speech || part.japanese) rows.push({lesson: lessonId, card: entry.id, field: 'chunk', key: window.getJapaneseSpeechText(part.speech || part.japanese)});
             if (part.explanation) rows.push({lesson: lessonId, card: entry.id, field: 'explanation', key: window.getJapaneseSpeechText(part.explanation.speech || part.explanation.japanese)});
           });
         });

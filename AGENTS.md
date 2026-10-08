@@ -76,5 +76,7 @@ verification without listening to the recording.
 
 # Ingredient deck scope
 
-For 食材カード under 食材の基本, finish the supplied list at page 26.
-The user explicitly requested skipping source pages 27 and 28.
+For 食材カード under 食材の基本, the original supplied list ends at page 26.
+Original source pages 27 and 28 remain skipped. The user subsequently authorized
+five new flour/preparation pages, appended page by page as deck pages 27–31:
+小麦粉; 衣・とろみ用の粉; 和菓子用の粉; その他の粉・ミックス; 使い方.

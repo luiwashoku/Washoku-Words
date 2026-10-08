@@ -643,3 +643,81 @@ Ingredient page 19 — 炊飯の道具・計量: 14 terms plus heading, six 図�
 Ingredient page 20 — 米料理・寿司: 44 terms including aliases plus heading, nine recordings reused directly and 36 new Marin 1.0 recordings. Supplied readings reviewed in culinary context; exact dictionary targets retained, remaining compounds provisional. All 510 cumulative clips passed decoded PCM silence checks; twenty-page mobile layout and speaker lookup passed. No audible pitch verification claimed. Stop at page 26; source pages 27–28 remain excluded.
 
 Page 20 corrections: 赤飯 and 炊き込みご飯 replaced with new Marin 1.0 clips after user reported unnatural sound. Specific dish context and compact connected timing supplied, dictionary accents 0 and 5 retained. Original 図鑑 files untouched. All 510 clips passed decoded PCM checks; no audible pitch/timbre verification claimed.
+
+Ingredient page 21 — ご飯のお供: 12 vocabulary terms, with heading sharing the first term audio key. One recording reused directly and 11 new Marin 1.0 recordings. Supplied readings reviewed, including salmon and seasoned-enoki context; supplied voiced ちりめんざんしょう retained and MAFF unvoiced variant documented. All 522 cumulative clips passed decoded PCM checks; mobile two-column layout and speaker lookup passed. No audible pitch verification claimed.
+
+ちりめん山椒 regenerated with supplied ちりめんざんしょう reading, explicit rice-accompaniment context and continuous delivery without internal breaks. Marin 1.0; targeted PCM check passed. Audible pauses not listening-verified.
+
+Page 21 egg-rice dish regenerated at Marin 1.0 with continuous delivery guidance. Replacement MP3 metadata validated; browser PCM check did not complete. No audible pause verification claimed.
+
+Ingredient page 22 — 漬物・乾燥野菜: 16 terms plus heading; twelve recordings reused directly and five new Marin 1.0 recordings. Supplied contextual readings and dictionary targets reviewed, unconfirmed compounds provisional. All 539 cumulative clips passed decoded PCM silence checks; mobile layout and speaker lookup passed. No audible pitch verification claimed.
+
+Ingredient page 23 — 野菜の部位: 15 terms plus heading; two recordings reused directly and fourteen new Marin 1.0 recordings. Supplied contextual readings reviewed, including lexical は/へた. Dictionary accents retained where available, remaining targets provisional. All 555 cumulative clips passed decoded PCM silence checks; mobile two-column layout and audio lookup passed. No audible pitch verification claimed.
+
+Ingredient page 24 — 野菜の下処理: 22 terms/actions plus heading; seven recordings reused directly and sixteen new Marin 1.0 clips. All contextual readings, particles and phrase boundaries reviewed. Exact dictionary targets retained, other phrases provisional. All 578 cumulative clips passed decoded PCM checks; mobile two-column layout and audio lookup passed. No audible pitch verification claimed.
+
+Page 24 corrections: 洗う, 筋を取る, 塩茹でする and 塩もみする regenerated with compact connected kitchen-action guidance at Marin 1.0. Reviewed inputs retained, object particle attached in すじおとる. All 578 clips passed decoded PCM checks; audible smoothness not listening-verified.
+
+洗う retried with compact everyday washing-vegetables context, connected final vowel and retained accent 0, Marin 1.0. Targeted PCM check passed; audible delivery not listening-verified.
+
+Ingredient page 25 — 切り方: 19 terms plus heading; sixteen existing recordings reused directly and four new Marin 1.0 recordings. Supplied cutting-style readings reviewed, dictionary targets retained where available, others provisional. All 598 cumulative clips passed decoded PCM checks; mobile two-column layout and audio lookup passed. No audible pitch verification claimed. One remaining page, ending at 26.
+
+Ingredient final page 26 — 調理法・野菜料理: 26 terms/actions plus heading. Initially fourteen recordings reused and thirteen new; near-silent 素揚げ replaced, final thirteen reused and fourteen new Marin 1.0 clips. All supplied readings reviewed, dictionary accents where available and provisional compounds otherwise. Full 625-clip PCM check plus targeted replacement check passed; mobile layout and audio lookup passed. Deck complete at 26 pages; 27–28 excluded. No audible pitch verification claimed.
+
+New flour page 1 (deck page 27) — 小麦粉: six terms and English protein-strength note. Six new Marin 1.0 clips; heading shares 小麦粉 audio. Reviewed readings and available dictionary targets, provisional where unavailable. Exporter omits English-only note from speech keys. Mobile layout/note/audio lookup passed; all 631 clips passed PCM checks. Original source pages 27–28 remain skipped; new flour pages append as 27–31. No listening verification claimed.
+
+Six page 26 clips regenerated: 煮物, 炒め物, 蒸し野菜, 温野菜, 和え物, 火が通る. Marin 1.0, reviewed inputs and cooking context with compact connected timing. Reused original files preserved. Nonempty replacement MP3s and afinfo validated; browser check blocked by automatic review timeout. No audible listening verification claimed.
+
+Flour page correction: 強力粉 regenerated with connected ingredient-name guidance at Marin 1.0. English-only protein-strength note now has Japanese explanation and reviewed contextual hiragana recording, fixing empty text beside its speaker. Particle わ and phrase boundaries checked. Replacement MP3 metadata validated; no audible listening verification claimed.
+
+New flour page 2 (deck page 28) — 衣・とろみ用の粉: nine terms plus heading. Existing ingredient 米粉 recording reused directly; nine new Marin 1.0 clips generated. All supplied readings reviewed; dictionary targets where available, provisional otherwise. All 641 clips passed decoded PCM checks; mobile two-column layout and speaker lookup passed. No audible listening verification claimed.
+
+唐揚げ粉 and コーンスターチ regenerated with reviewed hiragana, ingredient context and compact connected delivery at Marin 1.0. All 641 clips passed decoded PCM checks; audible listening verification not claimed.
+
+コーンスターチ retried with Japanese-language katakana pronunciation instructions and reviewed こーんすたーち input, Marin 1.0. MP3 metadata validated; browser PCM check did not complete. No audible pronunciation verification claimed.
+
+コーンスターチ smoothness retry: simplified Japanese conversational guidance without segmented mora examples, reviewed input unchanged, Marin 1.0. MP3 metadata validated; audible smoothness not listening-verified.
+
+New flour page 3 (deck page 29) — 和菓子用の粉: six terms plus heading. Existing ingredient きなこ recording reused directly; six new Marin 1.0 clips. Supplied readings and available dictionary targets reviewed, provisional where unavailable. All 647 clips passed decoded PCM checks; mobile layout and audio lookup passed. No audible listening verification claimed.
+
+白玉粉 regenerated with Japanese-language guidance, shiratama rice-flour context and connected ingredient-name delivery. Reviewed input しらたまこ, Marin 1.0; nonempty MP3 and metadata validated. No audible listening verification claimed.
+
+New flour page 4 (deck page 30) — その他の粉・ミックス: six terms plus heading, seven new Marin 1.0 clips with Japanese conversational katakana guidance. Supplied readings reviewed, dictionary targets where available, provisional otherwise. All 654 clips passed decoded PCM checks; mobile layout and speaker lookup passed. Accepted 白玉粉 version preserved. No audible listening verification claimed.
+
+ライ麦粉 and アーモンドプードル regenerated with Japanese ingredient-specific context and compact connected delivery at Marin 1.0. All 654 clips passed PCM checks; no audible listening verification claimed.
+
+New flour page 5 (deck page 31) — 使い方: eight terms/actions plus heading; one 図鑑 recording reused directly and eight new Marin 1.0 clips. Contextual readings and particles reviewed, dictionary targets where available, other phrases provisional. All 663 clips passed decoded PCM checks; thirty-one-page mobile layout and audio lookup passed. All five new flour pages complete. Original source 27–28 still excluded. No audible listening verification claimed.
+
+粉をふるう, 水溶き片栗粉 and 打ち粉 regenerated at Marin 1.0 with Japanese culinary context. Near-silent 打ち粉 caught and replaced. Full-set PCM check plus replacement recheck passed. No audible listening verification claimed.
+
+打ち粉 retried with simpler baking context and explicit dictionary accent 3, reviewed うちこ input and Marin 1.0. Replacement MP3 metadata validated; audible pronunciation not listening-verified.
+
+肉カード added first in 動物性食材. Page 1 肉の種類: 12 terms in two columns plus heading, 13 new Marin 1.0 clips. Contextual readings and dictionary targets reviewed, provisional where unavailable. First-deck ordering, mobile layout and audio lookup passed; 13 clips passed decoded PCM checks. No audible listening verification claimed. Six pages planned, generated page by page.
+
+Meat page 2 部位: 32 terms, heading shares 部位 audio; seven recordings reused directly and 25 new Marin 1.0 clips. Meat-specific readings and targets reviewed, tenderloin ヒレ treated separately from fish fin. Mobile layout/audio lookup and all 45 cumulative PCM checks passed. No audible listening verification claimed.
+
+Meat corrections: 脂身, 牛すじ, コラーゲン, バラ肉, すね肉, 手羽先 regenerated with Japanese meat context and compact connected delivery, Marin 1.0. All 45 clips passed PCM checks. Original reused files preserved; no audible listening verification claimed.
+
+Meat page 3 売り方・特徴: 11 terms plus heading. Three existing meat clips and one 図鑑 clip reused, eight new Marin 1.0 recordings. Corrected 脂身 preserved. Supplied readings and targets reviewed; mobile layout/audio lookup and all 54 PCM checks passed. No audible listening verification claimed.
+
+Meat page 3: added ひき肉 (ひきにく), minced / ground meat; directly reuses reviewed existing page 2 recording. Twelve vocabulary terms; no new audio file needed.
+
+Meat page 4 下処理・調理: eleven terms/actions plus heading; one recording reused and eleven new Marin 1.0 clips. Contextual readings, particles and phrase boundaries reviewed; dictionary targets where available, other phrases provisional. Mobile layout/audio lookup and all 66 PCM checks passed. No audible listening verification claimed.
+
+Meat corrections: 下味をつける and 焼き色をつける regenerated with continuous particle-attached phrasing; 余熱 regenerated with consistent normal Marin voice guidance. Marin 1.0; all 66 clips passed PCM checks. Audible pacing/timbre not listening-verified.
+
+焼き色をつける smoothness retry: simplified Japanese kitchen-context guidance for one flowing phrase. Reviewed やきいろおつける input, Marin 1.0. Replacement MP3 metadata validated; audible smoothness not listening-verified.
+
+Meat page 5 肉料理: ten terms plus heading; two recordings reused and nine new Marin 1.0 clips. Contextual readings reviewed, dictionary targets where available, others provisional. Mobile layout/audio lookup and all 77 PCM checks passed. No audible listening verification claimed.
+
+Meat final page 6 肉の味・食感・香り: nineteen descriptions plus heading, twenty new Marin 1.0 recordings. Contextual readings and phrase boundaries reviewed, dictionary targets where available, other phrases provisional. All six pages complete. Mobile layout/audio lookup and all 97 PCM checks passed. No audible listening verification claimed.
+
+旨味が強い and 香ばしい regenerated with compact everyday delivery, normal lexical vowel timing and Marin 1.0. All 97 clips passed PCM checks; audible pacing not listening-verified.
+
+Knife anatomy: new first page uses assets/knife_anatomy2.svg with thirty accessible label buttons, orange selected state and shared lesson audio playback. Full western/Japanese vocabulary lists include aliases. Existing 21 pages renumbered to 2–22 without changing IDs or recordings. Nine new Marin 1.0 keys, reviewed supplied contextual readings; existing matching lesson recordings reused. Mobile layout, focus, selection, audio lookup, numbering and all 269 PCM checks passed. No audible listening verification claimed. SVG added to offline shell.
+
+Anatomy refinement: ツバ（口金） and R（反り） combined into single vocabulary entries and diagram speech keys; new paired Marin 1.0 recordings with short natural alias separation. Mobile diagram restored to frame width. Replacement MP3 metadata validated; no audible listening verification claimed.
+
+刃元 regenerated after male-sounding voice report; reviewed はもと input, knife-heel context and consistent normal Marin register guidance at 1.0. Shared key updates both anatomy labels and existing cards. MP3 metadata validated; audible timbre not listening-verified.
+
+Anatomy 口輪（角巻） combined into one vocabulary entry and diagram playback key, reviewed くちわ、つのまき input, Marin 1.0. MP3 metadata validated; no audible listening verification claimed.
