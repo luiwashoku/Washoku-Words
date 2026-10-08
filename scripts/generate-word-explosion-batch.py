@@ -81,6 +81,8 @@ def prepare(batch_id):
             'Use the supplied Japanese commas for short, natural breath breaks without long pauses. '
             'Do not sound theatrical, robotic, or over-enunciate individual morae.'
         )
+        if entry.get('pronunciation_guidance'):
+            instructions += ' ' + entry['pronunciation_guidance']
         payload = dict(model=batch['model'], voice=batch['voice'], input=entry['input'],
                        speed=1.0, response_format='mp3', instructions=instructions)
         jobs.append(('sentences', key, f'audio/word-explosion-batches/{batch_id}', payload))

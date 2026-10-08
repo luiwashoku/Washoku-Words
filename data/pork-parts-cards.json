@@ -81,7 +81,7 @@
     },
     {
       "id": "pork-part-card-07",
-      "kanji": "テール",
+      "kanji": "テール・尾(お)",
       "japanese": "てーる",
       "english": "Tail",
       "image": "assets/pig-106.svg?highlight=tail#tail",
@@ -90,7 +90,11 @@
       "example": {
         "japanese": "骨(ほね)や皮(かわ)、結合組織(けつごうそしき)が多(おお)い部位(ぶい)です。長(なが)く煮(に)ると、皮(かわ)がやわらかくなります。",
         "english": "Tail combines bone, skin and connective tissue. Extended simmering produces a softer, gelatinous texture."
-      }
+      },
+      "sourceCards": [
+        "page83-q07",
+        "page83-organs-q17"
+      ]
     },
     {
       "id": "pork-part-card-08",
@@ -129,7 +133,11 @@
       "example": {
         "japanese": "舌(した)の筋肉(きんにく)で、弾力(だんりょく)があります。薄切(うすぎ)りは焼(や)き物(もの)、塊(かたまり)は煮込(にこ)みに使(つか)えます。",
         "english": "Tongue is muscular and springy. Thin slices suit grilling; larger pieces benefit from longer cooking."
-      }
+      },
+      "sourceCards": [
+        "page83-q10",
+        "page83-organs-q01"
+      ]
     },
     {
       "id": "pork-part-card-11",
@@ -198,7 +206,7 @@
     },
     {
       "id": "pork-part-card-16",
-      "kanji": "足",
+      "kanji": "足・豚足(とんそく)",
       "japanese": "あし",
       "english": "Ashi / Trotters",
       "image": "assets/pig-106.svg?highlight=foot#foot",
@@ -207,7 +215,11 @@
       "example": {
         "japanese": "皮(かわ)や腱(けん)が多(おお)く、肉(にく)は少(すく)なめです。長(なが)く煮(に)ると、ぷるっとした食感(しょっかん)になります。",
         "english": "Feet contain little muscle but abundant skin and tendons. Long simmering produces their characteristic gelatinous texture."
-      }
+      },
+      "sourceCards": [
+        "page83-q14",
+        "page83-organs-q19"
+      ]
     },
     {
       "id": "pork-part-card-17",
@@ -289,7 +301,7 @@
     },
     {
       "id": "pork-part-card-23",
-      "kanji": "ミミ",
+      "kanji": "ミミ・耳(みみ)",
       "japanese": "みみ",
       "english": "Mimi / Ear",
       "image": "assets/pig-106.svg?highlight=ear#ear",
@@ -298,7 +310,11 @@
       "example": {
         "japanese": "皮(かわ)と軟骨(なんこつ)からなり、こりこりしています。下茹(したゆ)でして薄(うす)く切(き)ると、食(た)べやすくなります。",
         "english": "Ear combines skin and cartilage for a crunchy bite. Precooking and thin slicing make it easier to eat."
-      }
+      },
+      "sourceCards": [
+        "page83-q20",
+        "page83-organs-q15"
+      ]
     },
     {
       "id": "pork-part-card-24",
@@ -324,6 +340,210 @@
       "example": {
         "japanese": "肩(かた)と胸(むね)に近(ちか)い肉(にく)を指(さ)す場合(ばあい)があります。標準(ひょうじゅん)名(めい)ではないため、脂(あぶら)と筋(すじ)を見(み)て調理(ちょうり)を選(えら)びます。",
         "english": "This shoulder/chest label is not a uniform pork retail cut. Check fat and sinew before choosing slicing or braising."
+      }
+    },
+    {
+      "id": "pork-organ-card-q02",
+      "kanji": "レバー",
+      "japanese": "ればー",
+      "english": "Liver",
+      "sourceCard": "page83-organs-q02",
+      "sourceLesson": "page83-pork-organs",
+      "example": {
+        "japanese": "レバーは濃厚(のうこう)で独特(どくとく)の風味(ふうみ)があります。鮮度(せんど)と血抜(ちぬ)きなどの下処理(したしょり)に注意(ちゅうい)し、豚(ぶた)の内臓(ないぞう)は中心(ちゅうしん)まで十分(じゅうぶん)に加熱(かねつ)します。",
+        "english": "Liver is rich and mineral-forward. Careful preparation and thorough cooking are essential for pork offal."
+      }
+    },
+    {
+      "id": "pork-organ-card-q03",
+      "kanji": "ハツ",
+      "japanese": "はつ",
+      "english": "Heart",
+      "sourceCard": "page83-organs-q03",
+      "sourceLesson": "page83-pork-organs",
+      "example": {
+        "japanese": "ハツは筋肉(きんにく)質(しつ)で脂(あぶら)が少(すく)なく、締(し)まった歯切(はぎ)れがあります。切(き)り分(わ)けて血(ち)の塊(かたまり)を除(のぞ)き、焼(や)き物(もの)に向(む)きます。",
+        "english": "Heart is lean and muscular with a clean, firm bite, making it suitable for skewering or stir-frying."
+      }
+    },
+    {
+      "id": "pork-organ-card-q04",
+      "kanji": "ハツモト",
+      "japanese": "はつもと",
+      "english": "Aorta・heart root",
+      "sourceCard": "page83-organs-q04",
+      "sourceLesson": "page83-pork-organs",
+      "example": {
+        "japanese": "ハツモトは心臓(しんぞう)の根元(ねもと)につながる大(だい)動脈(どうみゃく)周辺(しゅうへん)で、弾力(だんりょく)と脂(あぶら)の旨味(うまみ)を楽(たの)しむ部位(ぶい)です。丁寧(ていねい)に掃除(そうじ)して加熱(かねつ)します。",
+        "english": "Hatsumoto is the aorta and heart-root region, valued for elasticity and fatty savouriness after careful cleaning."
+      }
+    },
+    {
+      "id": "pork-organ-card-q05",
+      "kanji": "ガツ",
+      "japanese": "がつ",
+      "english": "Stomach",
+      "sourceCard": "page83-organs-q05",
+      "sourceLesson": "page83-pork-organs",
+      "example": {
+        "japanese": "ガツは胃(い)で、脂(あぶら)が比較(ひかく)的(てき)少(すく)なく、こりこりした歯(は)ごたえが特徴(とくちょう)です。洗浄(せんじょう)と下茹(したゆ)でをしてから使(つか)います。",
+        "english": "Gatsu is stomach, relatively lean with a crisp, crunchy bite after cleaning and parboiling."
+      }
+    },
+    {
+      "id": "pork-organ-card-q06",
+      "kanji": "コブクロ",
+      "japanese": "こぶくろ",
+      "english": "Uterus",
+      "sourceCard": "page83-organs-q06",
+      "sourceLesson": "page83-pork-organs",
+      "example": {
+        "japanese": "コブクロは脂(あぶら)が少(すく)なく淡白(たんぱく)で、こりこりした独特(どくとく)の食感(しょっかん)があります。下処理(したしょり)の丁寧(ていねい)さが仕上(しあ)がりを左右(さゆう)します。",
+        "english": "Kobukuro is mild and lean with a distinctive crisp bite; careful cleaning is central to its quality."
+      }
+    },
+    {
+      "id": "pork-organ-card-q07",
+      "kanji": "マメ",
+      "japanese": "まめ",
+      "english": "Kidney",
+      "sourceCard": "page83-organs-q07",
+      "sourceLesson": "page83-pork-organs",
+      "example": {
+        "japanese": "マメは腎臓(じんぞう)で独特(どくとく)の香(かお)りがあります。中心(ちゅうしん)の筋(すじ)や脂(あぶら)を除(のぞ)き、血抜(ちぬ)きなどの下処理(したしょり)をして加熱(かねつ)します。",
+        "english": "Kidney has a pronounced aroma and benefits from trimming its central tissue, soaking or rinsing, and thorough cooking."
+      }
+    },
+    {
+      "id": "pork-organ-card-q08",
+      "kanji": "シロ",
+      "japanese": "しろ",
+      "english": "Large intestine",
+      "sourceCard": "page83-organs-q08",
+      "sourceLesson": "page83-pork-organs",
+      "example": {
+        "japanese": "シロは大腸(だいちょう)で、脂(あぶら)の甘味(あまみ)と弾力(だんりょく)が特徴(とくちょう)です。臭(くさ)みを残(のこ)さない洗浄(せんじょう)と下茹(したゆ)でが重要(じゅうよう)です。",
+        "english": "Shiro is large intestine, known for fatty sweetness and chew after thorough cleaning and parboiling."
+      }
+    },
+    {
+      "id": "pork-organ-card-q09",
+      "kanji": "テッポウ",
+      "japanese": "てっぽう",
+      "english": "Rectum",
+      "sourceCard": "page83-organs-q09",
+      "sourceLesson": "page83-pork-organs",
+      "example": {
+        "japanese": "テッポウは直腸(ちょくちょう)で、シロより厚(あつ)みと強(つよ)い弾力(だんりょく)を感(かん)じやすい部位(ぶい)です。十分(じゅうぶん)な洗浄(せんじょう)と加熱(かねつ)が必要(ひつよう)です。",
+        "english": "Teppō is rectum, generally thicker and more resilient than shiro, with rich flavour after careful cleaning and cooking."
+      }
+    },
+    {
+      "id": "pork-organ-card-q10",
+      "kanji": "ハラミ",
+      "japanese": "はらみ",
+      "english": "Diaphragm",
+      "sourceCard": "page83-organs-q10",
+      "sourceLesson": "page83-pork-organs",
+      "example": {
+        "japanese": "ハラミは横隔膜(おうかくまく)で、分類(ぶんるい)上(じょう)は内臓(ないぞう)ですが、味(あじ)と食感(しょっかん)は赤身肉(あかみにく)に近(ちか)く、焼(や)き物(もの)に向(む)きます。",
+        "english": "Harami is diaphragm: classified as offal but meat-like in flavour and tenderness, and well suited to grilling."
+      }
+    },
+    {
+      "id": "pork-organ-card-q11",
+      "kanji": "ノド",
+      "japanese": "のど",
+      "english": "Trachea",
+      "sourceCard": "page83-organs-q11",
+      "sourceLesson": "page83-pork-organs",
+      "example": {
+        "japanese": "ノドは気管(きかん)で、軟骨(なんこつ)の輪(わ)によるこりこりした食感(しょっかん)があります。開(ひら)いて内部(ないぶ)を洗(あら)い、十分(じゅうぶん)に加熱(かねつ)します。",
+        "english": "Trachea has crunchy cartilaginous rings and is opened, cleaned, and cooked by grilling or simmering."
+      }
+    },
+    {
+      "id": "pork-organ-card-q12",
+      "kanji": "脾臓",
+      "japanese": "ひぞう",
+      "english": "Spleen",
+      "sourceCard": "page83-organs-q12",
+      "sourceLesson": "page83-pork-organs",
+      "example": {
+        "japanese": "脾臓(ひぞう)はチレとも呼(よ)ばれ、色(いろ)が濃(こ)く、レバーに近(ちか)い鉄分(てつぶん)を感(かん)じる風味(ふうみ)があります。丁寧(ていねい)に下処理(したしょり)して加熱(かねつ)します。",
+        "english": "Spleen, also called chire, is dark and mineral-forward, somewhat liver-like, and requires careful preparation and cooking."
+      }
+    },
+    {
+      "id": "pork-organ-card-q13",
+      "kanji": "肺",
+      "japanese": "はい",
+      "english": "Lung",
+      "sourceCard": "page83-organs-q13",
+      "sourceLesson": "page83-pork-organs",
+      "example": {
+        "japanese": "肺(はい)はフワとも呼(よ)ばれ、空気(くうき)を含(ふく)む組織(そしき)によるふわふわした食感(しょっかん)が特徴(とくちょう)です。血(ち)を除(のぞ)き、煮込(にこ)みなどで加熱(かねつ)します。",
+        "english": "Lung, also called fuwa, has a light, spongy texture and is cleaned of blood before thorough simmering."
+      }
+    },
+    {
+      "id": "pork-organ-card-q14",
+      "kanji": "脳",
+      "japanese": "のう",
+      "english": "Brain",
+      "sourceCard": "page83-organs-q14",
+      "sourceLesson": "page83-pork-organs",
+      "example": {
+        "japanese": "脳(のう)は非常(ひじょう)にやわらかく濃厚(のうこう)でクリーミーですが、日本(にほん)では一般(いっぱん)的(てき)な豚肉(ぶたにく)部位(ぶい)ではありません。衛生(えいせい)的(てき)に扱(あつか)い、十分(じゅうぶん)に加熱(かねつ)します。",
+        "english": "Brain is exceptionally soft, rich and creamy, though uncommon in mainstream Japanese pork cookery; hygienic handling and thorough cooking are essential."
+      }
+    },
+    {
+      "id": "pork-organ-card-q16",
+      "kanji": "鼻",
+      "japanese": "はな",
+      "english": "Snout",
+      "sourceCard": "page83-organs-q16",
+      "sourceLesson": "page83-pork-organs",
+      "example": {
+        "japanese": "鼻(はな)は皮(かわ)、脂(あぶら)、軟骨(なんこつ)が重(かさ)なり、むちっとした弾力(だんりょく)があります。長(なが)めに煮(に)てやわらかくする調理(ちょうり)にも向(む)きます。",
+        "english": "Snout layers skin, fat and cartilage, producing a collagen-rich, resilient texture suited to simmering or grilling."
+      }
+    },
+    {
+      "id": "pork-organ-card-q18",
+      "kanji": "脂",
+      "japanese": "あぶら",
+      "english": "Fat",
+      "sourceCard": "page83-organs-q18",
+      "sourceLesson": "page83-pork-organs",
+      "example": {
+        "japanese": "豚(ぶた)の脂(あぶら)はコク、甘味(あまみ)、香(かお)り、しっとりした口当(くちあ)たりを加(くわ)えます。多(おお)すぎると重(おも)くなるため、赤身(あかみ)や調味(ちょうみ)料(りょう)とのバランスが重要(じゅうよう)です。",
+        "english": "Pork fat contributes sweetness, richness, aroma and succulence, but must be balanced against lean meat and seasoning."
+      }
+    },
+    {
+      "id": "pork-part-card-あかみ",
+      "kanji": "赤身",
+      "japanese": "あかみ",
+      "english": "Lean meat",
+      "sourceCard": "page84-pork-q09",
+      "sourceLesson": "page84-about-pork",
+      "example": {
+        "japanese": "赤身(あかみ)は脂肪(しぼう)ではなく筋肉(きんにく)を中心(ちゅうしん)とする部分(ぶぶん)です。部位(ぶい)によって色(いろ)、きめ、やわらかさが異(こと)なります。",
+        "english": "Akami is the lean muscle portion, whose colour, grain and tenderness vary by cut."
+      }
+    },
+    {
+      "id": "pork-part-card-あぶらみ",
+      "kanji": "脂身",
+      "japanese": "あぶらみ",
+      "english": "Fatty part / visible meat fat",
+      "sourceCard": "page84-pork-q10",
+      "sourceLesson": "page84-about-pork",
+      "example": {
+        "japanese": "肉(にく)についている白(しろ)い脂肪(しぼう)部分(ぶぶん)は脂身(あぶらみ)です。加熱(かねつ)すると香(かお)り、甘味(あまみ)、しっとり感(かん)に関係(かんけい)します。",
+        "english": "Aburami is visible fat, contributing aroma, perceived sweetness and succulence during cooking."
       }
     }
   ]

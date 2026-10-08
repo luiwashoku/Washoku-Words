@@ -1,0 +1,105 @@
+{
+  "id": "2026-10-08-cat-example-corrections",
+  "model": "gpt-4o-mini-tts",
+  "voice": "marin",
+  "speed": 1.0,
+  "requested_readings": [
+    "そのうち",
+    "ふうみ",
+    "かたさ"
+  ],
+  "new_vocabulary_keys": [],
+  "sentences": [
+    {
+      "key": "そのうち、いっしょにりょこうにいきたいね。",
+      "vocabulary_key": "そのうち",
+      "display": "そのうち、一緒(いっしょ)に旅行(りょこう)に行(い)きたいね。",
+      "english": "I'd love for us to go on a trip together someday.",
+      "input": "そのうち、いっしょにりょこうにいきたいね。",
+      "speed": 1.0,
+      "pronunciation_guidance": "そのうち is flat accent (0), meaning someday. Keep いっしょにりょこうにいきたいね connected, with only a brief pause after そのうち. Speak like a relaxed suggestion to a friend.",
+      "reading_review": "Checked against vocabulary readings and contextual example furigana; object を transcribed お; lexical は in ごはん retained.",
+      "pitch_review": {
+        "text": "そのうち",
+        "vocabulary": [
+          {
+            "english": "eventually / one of these days",
+            "kanji": ""
+          }
+        ],
+        "speed": 1.0,
+        "listening_verified": false,
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L2681",
+        "matched_form": "その内",
+        "method": "reviewed spelling alias"
+      },
+      "phrase_intonation": "provisional, authorized",
+      "listening_verified": false
+    },
+    {
+      "key": "ごまをいれると、ふうみがよくなるよ。",
+      "vocabulary_key": "ふうみ",
+      "display": "ごまを入(い)れると、風味(ふうみ)がよくなるよ。",
+      "english": "Adding sesame seeds gives it a nicer flavor.",
+      "input": "ごまおいれると、ふうみがよくなるよ。",
+      "speed": 1.0,
+      "pronunciation_guidance": "ふうみ means flavor or aroma, selected Tokyo accent 1 (dictionary variants 1 and 3). Preserve its long う vowel without stretching it. Keep ごまおいれると together, briefly pause after と, then say ふうみがよくなるよ continuously.",
+      "reading_review": "Checked against vocabulary readings and contextual example furigana; object を transcribed お; lexical は in ごはん retained.",
+      "pitch_review": {
+        "text": "ふうみ",
+        "vocabulary": [
+          {
+            "english": "flavor",
+            "kanji": "風味"
+          }
+        ],
+        "speed": 1.0,
+        "listening_verified": false,
+        "accent": 1,
+        "variants": [
+          1,
+          3
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L103579",
+        "matched_form": "風味",
+        "method": "exact dictionary reading and spelling"
+      },
+      "phrase_intonation": "provisional, authorized",
+      "listening_verified": false
+    },
+    {
+      "key": "ごはんのかたさ、これくらいがすき。",
+      "vocabulary_key": "かたさ",
+      "display": "ご飯(はん)の硬(かた)さ、これくらいが好(す)き。",
+      "english": "I like my rice about this firm.",
+      "input": "ごはんのかたさ、これくらいがすき。",
+      "speed": 1.0,
+      "pronunciation_guidance": "かたさ means firmness, flat accent (0). ごはん means cooked rice; keep its lexical は unchanged. Briefly pause after ごはんのかたさ, then say これくらいがすき continuously.",
+      "reading_review": "Checked against vocabulary readings and contextual example furigana; object を transcribed お; lexical は in ごはん retained.",
+      "pitch_review": {
+        "text": "かたさ",
+        "vocabulary": [
+          {
+            "english": "hardness",
+            "kanji": "硬さ"
+          }
+        ],
+        "speed": 1.0,
+        "listening_verified": false,
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L49864",
+        "matched_form": "硬さ",
+        "method": "exact dictionary reading and spelling"
+      },
+      "phrase_intonation": "provisional, authorized",
+      "listening_verified": false
+    }
+  ]
+}

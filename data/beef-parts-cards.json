@@ -299,6 +299,264 @@
         "japanese": "筋(すじ)が多(おお)く、そのままでは硬(かた)い肉(にく)です。じっくり煮(に)るとやわらかくなり、汁(しる)にもこくが出(で)ます。",
         "english": "Shank is sinewy and firm. Slow moist cooking softens connective tissue and enriches the broth."
       }
+    },
+    {
+      "id": "beef-organ-card-q01",
+      "kanji": "タン（舌(した)）",
+      "japanese": "たん",
+      "english": "Tongue",
+      "sourceCard": "page76-organs-q01",
+      "sourceLesson": "page76-organs-others",
+      "example": {
+        "japanese": "タンは部位(ぶい)によって食感(しょっかん)が違(ちが)いますが、一般(いっぱん)に弾力(だんりょく)と旨味(うまみ)があり、薄切(うすぎ)りの塩焼(しおや)きが定番(ていばん)です。厚(あつ)い部分(ぶぶん)は煮込(にこ)みにも向(む)きます。",
+        "english": "Tongue is springy and savoury. Thin slices are commonly salt-grilled quickly, while thicker portions can also be braised."
+      }
+    },
+    {
+      "id": "beef-organ-card-q02",
+      "kanji": "レバー（肝臓(かんぞう)）",
+      "japanese": "ればー",
+      "english": "Liver",
+      "sourceCard": "page76-organs-q02",
+      "sourceLesson": "page76-organs-others",
+      "example": {
+        "japanese": "レバーは濃厚(のうこう)で独特(どくとく)の風味(ふうみ)があります。鮮度(せんど)と衛生(えいせい)に注意(ちゅうい)し、中心(ちゅうしん)まで安全(あんぜん)に加熱(かねつ)しながら、硬(かた)くなるほどの加熱(かねつ)は避(さ)けます。",
+        "english": "Liver has a rich, mineral character. It requires safe thorough cooking, but excessive heat makes its texture dry and firm."
+      }
+    },
+    {
+      "id": "beef-organ-card-q03",
+      "kanji": "ハツ（心臓(しんぞう)）",
+      "japanese": "はつ",
+      "english": "Heart",
+      "sourceCard": "page76-organs-q03",
+      "sourceLesson": "page76-organs-others",
+      "example": {
+        "japanese": "ハツは筋肉(きんにく)なので脂(あぶら)が比較的(ひかくてき)少(すく)なく、くせが穏(おだ)やかで、さくっとした歯切(はぎ)れがあります。焼(や)きすぎると硬(かた)くなります。",
+        "english": "Heart is a lean working muscle with a mild flavour and clean, firm bite. Quick grilling preserves its tenderness."
+      }
+    },
+    {
+      "id": "beef-organ-card-q04",
+      "kanji": "ハツモト",
+      "japanese": "はつもと",
+      "english": "Heart root",
+      "sourceCard": "page76-organs-q04",
+      "sourceLesson": "page76-organs-others",
+      "example": {
+        "japanese": "ハツモトは心臓(しんぞう)につながる付(つ)け根(ね)周辺(しゅうへん)を指(さ)し、店(みせ)によって範囲(はんい)や呼(よ)び名(な)が異(こと)なることがあります。弾力(だんりょく)、脂(あぶら)、こりこりした食感(しょっかん)を生(い)かす焼(や)き物(もの)が合(あ)います。",
+        "english": "Hatsumoto refers to tissue around the heart root; exact usage varies by butcher or restaurant. Its springy, fatty character suits grilling."
+      }
+    },
+    {
+      "id": "beef-organ-card-q05",
+      "kanji": "ミノ（第一胃(だいいちい)）",
+      "japanese": "みの",
+      "english": "Rumen",
+      "sourceCard": "page76-organs-q05",
+      "sourceLesson": "page76-organs-others",
+      "example": {
+        "japanese": "ミノは四(よっ)つの胃(い)の中(なか)でも肉厚(にくあつ)で、しっかりした歯(は)ごたえが特徴(とくちょう)です。包丁(ほうちょう)で切(き)り込(こ)みを入(い)れると食(た)べやすく、たれも絡(から)みます。",
+        "english": "Rumen is thick and notably firm. Scoring improves tenderness and helps seasoning cling before grilling."
+      }
+    },
+    {
+      "id": "beef-organ-card-q06",
+      "kanji": "ハチノス（第二胃(だいにい)）",
+      "japanese": "はちのす",
+      "english": "Reticulum",
+      "sourceCard": "page76-organs-q06",
+      "sourceLesson": "page76-organs-others",
+      "example": {
+        "japanese": "ハチノスは特徴(とくちょう)的(てき)な網目(あみめ)をもちます。丁寧(ていねい)な下処理(したしょり)と長(なが)い煮込(にこ)みでやわらかくなり、トリッパのように煮汁(にじる)の味(あじ)をよく受(う)け止(と)めます。",
+        "english": "Reticulum has a honeycomb surface. Careful cleaning and long simmering tenderise it and allow it to absorb a sauce or broth."
+      }
+    },
+    {
+      "id": "beef-organ-card-q07",
+      "kanji": "センマイ（第三胃(だいさんい)）",
+      "japanese": "せんまい",
+      "english": "Omasum",
+      "sourceCard": "page76-organs-q07",
+      "sourceLesson": "page76-organs-others",
+      "example": {
+        "japanese": "センマイは多数(たすう)のひだと、しこしこ・こりこりした食感(しょっかん)が特徴(とくちょう)です。脂(あぶら)が少(すく)なくあっさりしており、下(した)ゆでして和(あ)え物(もの)などにします。",
+        "english": "Omasum is layered, lean and lightly flavoured, with a distinctive crisp-chewy bite often used in dressed dishes after preparation."
+      }
+    },
+    {
+      "id": "beef-organ-card-q08",
+      "kanji": "ギアラ（第四胃(だいよんい)）",
+      "japanese": "ぎあら",
+      "english": "Abomasum",
+      "sourceCard": "page76-organs-q08",
+      "sourceLesson": "page76-organs-others",
+      "example": {
+        "japanese": "ギアラは赤(あか)センマイとも呼(よ)ばれ、ほかの胃(い)より脂(あぶら)を感(かん)じやすく、濃(こ)い旨味(うまみ)とぷりぷりした食感(しょっかん)があります。焼(や)いても煮(に)ても使(つか)えます。",
+        "english": "Abomasum, also called akasenmai, is relatively fatty and rich among the four stomachs, with a springy texture suited to grilling or simmering."
+      }
+    },
+    {
+      "id": "beef-organ-card-q09",
+      "kanji": "シマチョウ（大腸(だいちょう)）",
+      "japanese": "しまちょう",
+      "english": "Large intestine",
+      "sourceCard": "page76-organs-q09",
+      "sourceLesson": "page76-organs-others",
+      "example": {
+        "japanese": "シマチョウは大腸(だいちょう)で、厚(あつ)めの身(み)と脂(あぶら)、噛(か)みごたえが特徴(とくちょう)です。脂(あぶら)側(がわ)を焦(こ)がしすぎないように焼(や)くほか、もつ鍋(なべ)にも使(つか)います。",
+        "english": "Large intestine has a thicker wall, substantial chew and rich fat. It is commonly grilled carefully or simmered in motsunabe."
+      }
+    },
+    {
+      "id": "beef-organ-card-q10",
+      "kanji": "マルチョウ（小腸(しょうちょう)）",
+      "japanese": "まるちょう",
+      "english": "Small intestine",
+      "sourceCard": "page76-organs-q10",
+      "sourceLesson": "page76-organs-others",
+      "example": {
+        "japanese": "マルチョウは小腸(しょうちょう)を丸(まる)い筒(つつ)状(じょう)にした呼(よ)び方(かた)で、脂(あぶら)の甘(あま)みとぷりぷり感(かん)が魅力(みりょく)です。脂(あぶら)が落(お)ちて火(ひ)が上(あ)がりやすいため焼(や)き方(かた)に注意(ちゅうい)します。",
+        "english": "Maruchō is small intestine presented in a round tubular form, prized for sweet fat and a plump bite. The rendering fat can cause flare-ups."
+      }
+    },
+    {
+      "id": "beef-organ-card-q11",
+      "kanji": "フワ（肺(はい)）",
+      "japanese": "ふわ",
+      "english": "Lung",
+      "sourceCard": "page76-organs-q11",
+      "sourceLesson": "page76-organs-others",
+      "example": {
+        "japanese": "フワは肺(はい)で、名前(なまえ)の通(とお)り軽(かる)くふわっとした独特(どくとく)の食感(しょっかん)があります。流通(りゅうつう)は多(おお)くありませんが、下処理(したしょり)して煮込(にこ)みや焼(や)き物(もの)に使(つか)われます。",
+        "english": "Lung has an unusually light, soft texture. Though less commonly available, it can be cleaned and used in simmered or grilled preparations."
+      }
+    },
+    {
+      "id": "beef-organ-card-q12",
+      "kanji": "マメ（腎臓(じんぞう)）",
+      "japanese": "まめ",
+      "english": "Kidney",
+      "sourceCard": "page76-organs-q12",
+      "sourceLesson": "page76-organs-others",
+      "example": {
+        "japanese": "マメは腎臓(じんぞう)で、締(し)まった食感(しょっかん)と個性(こせい)的(てき)な香(かお)りがあります。中心(ちゅうしん)の脂(あぶら)や筋(すじ)を取(と)り、血(ち)やにおいを丁寧(ていねい)に処理(しょり)することが味(あじ)を整(ととの)える鍵(かぎ)です。",
+        "english": "Kidney is dense and distinctively aromatic. Trimming the central fat and connective tissue and careful soaking or cleaning are important before cooking."
+      }
+    },
+    {
+      "id": "beef-organ-card-q13",
+      "kanji": "コブクロ（子宮(しきゅう)）",
+      "japanese": "こぶくろ",
+      "english": "Uterus",
+      "sourceCard": "page76-organs-q13",
+      "sourceLesson": "page76-organs-others",
+      "example": {
+        "japanese": "コブクロは脂(あぶら)が少(すく)なく淡白(たんぱく)で、こりこりした弾力(だんりょく)が持(も)ち味(あじ)です。十分(じゅうぶん)な下処理(したしょり)と加熱(かねつ)を行(おこな)い、焼(や)き物(もの)や和(あ)え物(もの)にします。",
+        "english": "Uterus is lean and mild with a crisp, springy texture. It requires careful cleaning and cooking before grilling or dressing."
+      }
+    },
+    {
+      "id": "beef-organ-card-q14",
+      "kanji": "ノド（気管(きかん)）",
+      "japanese": "のど",
+      "english": "Trachea",
+      "sourceCard": "page76-organs-q14",
+      "sourceLesson": "page76-organs-others",
+      "example": {
+        "japanese": "ノドは気管(きかん)周辺(しゅうへん)で、軟骨(なんこつ)らしいこりこり感(かん)が特徴(とくちょう)です。店(みせ)によってノド、ウルテなどの呼(よ)び分(わ)けや範囲(はんい)が異(こと)なることがあります。",
+        "english": "Tracheal cuts are prized for a cartilage-like crunch and suit grilling or frying. Naming and the exact trimmed section can vary by shop."
+      }
+    },
+    {
+      "id": "beef-organ-card-q15",
+      "kanji": "脾臓(ひぞう)",
+      "japanese": "ひぞう",
+      "english": "Spleen",
+      "sourceCard": "page76-organs-q15",
+      "sourceLesson": "page76-organs-others",
+      "example": {
+        "japanese": "脾臓(ひぞう)は流通(りゅうつう)名(めい)でチレとも呼(よ)ばれます。レバーに似(に)た濃(こ)い風味(ふうみ)がありますが、同(おな)じ味(あじ)ではありません。血抜(ちぬ)きなどを丁寧(ていねい)に行(おこな)い、十分(じゅうぶん)に加熱(かねつ)します。",
+        "english": "Spleen, also called chire, has a soft texture and rich organ flavour reminiscent of—but distinct from—liver. It needs careful preparation and cooking."
+      }
+    },
+    {
+      "id": "beef-organ-card-q16",
+      "kanji": "ほほ肉(にく)",
+      "japanese": "ほほにく",
+      "english": "Cheek",
+      "sourceCard": "page76-organs-q16",
+      "sourceLesson": "page76-organs-others",
+      "example": {
+        "japanese": "ほほ肉(にく)はよく使(つか)われる筋肉(きんにく)で、筋(すじ)や結合(けつごう)組織(そしき)があります。短(たん)時間(じかん)では硬(かた)さが出(で)ますが、煮込(にこ)みでコラーゲンがほどけ、濃(こ)い旨味(うまみ)が出(で)ます。",
+        "english": "Cheek is a hard-working muscle rich in connective tissue and flavour. Long, moist cooking turns it succulent and tender."
+      }
+    },
+    {
+      "id": "beef-organ-card-q17",
+      "kanji": "すじ",
+      "japanese": "すじ",
+      "english": "Tendon",
+      "sourceCard": "page76-organs-q17",
+      "sourceLesson": "page76-organs-others",
+      "example": {
+        "japanese": "牛(ぎゅう)すじは腱(けん)や筋(すじ)の多(おお)い部分(ぶぶん)です。下(した)ゆでで余分(よぶん)な脂(あぶら)やにおいを整(ととの)え、時間(じかん)をかけて煮(に)ると、とろりとした食感(しょっかん)と旨味(うまみ)が出(で)ます。",
+        "english": "Beef tendon begins tough, but blanching and prolonged simmering convert collagen into gelatin, creating a silky texture and rich broth."
+      }
+    },
+    {
+      "id": "beef-organ-card-q18",
+      "kanji": "脂(あぶら)",
+      "japanese": "あぶら",
+      "english": "Fat",
+      "sourceCard": "page76-organs-q18",
+      "sourceLesson": "page76-organs-others",
+      "example": {
+        "japanese": "牛脂(ぎゅうし)は料理(りょうり)に甘(あま)み、コク、香(こう)ばしさを与(あた)え、すき焼(や)きの鍋(なべ)ならしにも使(つか)います。一方(いっぽう)、多(おお)すぎると重(おも)くなるため、赤身(あかみ)とのバランスが重要(じゅうよう)です。",
+        "english": "Beef fat contributes sweetness, richness, aroma and lubrication. Its amount and rendering must be controlled so it supports rather than overwhelms lean meat."
+      }
+    },
+    {
+      "id": "beef-organ-card-q19",
+      "kanji": "テール",
+      "japanese": "てーる",
+      "english": "Tail",
+      "sourceCard": "page76-organs-q19",
+      "sourceLesson": "page76-organs-others",
+      "example": {
+        "japanese": "テールは骨(ほね)の周(まわ)りに肉(にく)と結合(けつごう)組織(そしき)があり、長(なが)く煮(に)るとゼラチン質(しつ)と深(ふか)い旨味(うまみ)がスープに出(で)ます。下(した)ゆでやあく取(と)りで澄(す)んだ味(あじ)に整(ととの)えます。",
+        "english": "Tail combines bone, meat and connective tissue. Long simmering extracts gelatin and deep savouriness; blanching and skimming refine the broth."
+      }
+    },
+    {
+      "id": "beef-part-card-あかみ",
+      "kanji": "赤身",
+      "japanese": "あかみ",
+      "english": "Lean meat",
+      "sourceLesson": "page77",
+      "example": {
+        "japanese": "脂肪(しぼう)ではなく、筋肉(きんにく)を中心(ちゅうしん)とする部分(ぶぶん)です。部位(ぶい)によって、きめややわらかさが異(こと)なります。",
+        "english": "The lean muscle portion rather than fat. Grain and tenderness vary by cut."
+      },
+      "sourceCards": [
+        "page77-q17",
+        "page77-q20"
+      ]
+    },
+    {
+      "id": "beef-part-card-あぶらみ",
+      "kanji": "脂身",
+      "japanese": "あぶらみ",
+      "english": "Fatty part / visible meat fat",
+      "sourceLesson": "page77",
+      "example": {
+        "japanese": "肉(にく)についている脂肪(しぼう)の部分(ぶぶん)です。赤身(あかみ)の中(なか)に細(こま)かく入(はい)る霜降(しもふ)りとは区別(くべつ)します。",
+        "english": "The visible fatty part attached to meat, distinct from fine marbling within the lean."
+      },
+      "sourceCards": [
+        "page77-q17",
+        "page77-q20"
+      ]
     }
   ]
 }

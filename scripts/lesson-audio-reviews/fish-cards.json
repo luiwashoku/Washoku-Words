@@ -24,14 +24,18 @@
       "accent_matched_form": "目",
       "accent_variants": [
         1
-      ]
+      ],
+      "reuse_audio": "audio/lessons/fish-cards/marin-ae24a0ed57f70c27feae.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "さかなのとうぶにあるめです。ずではくろいひとみのちゅうおうをてんでしめしています。",
-      "input": "さかなのとうぶにあるめです。ずでわくろいひとみのちゅうおうおてんでしめしています。",
+      "key": "めのすみかたは、まるごとのさかなをえらぶめやすのひとつです。めだけでなく、からだのつややはりもあわせてみます。",
+      "input": "めのすみかたわ、まるごとのさかなおえらぶめやすのひとつです。めだけでなく、からだのつややはりもあわせてみます。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
       "key": "あたま",
@@ -46,14 +50,18 @@
       "accent_variants": [
         3,
         2
-      ]
+      ],
+      "reuse_audio": "audio/lessons/fish-cards/marin-e9eba6cfbdcbe4f306ec.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "くち、びこう、め、えらぶたをふくむぜんぽうのぶぶんがあたまです。",
-      "input": "くち、びこう、め、えらぶたおふくむぜんぽうのぶぶんがあたまです。",
+      "key": "たいのあたまは、かぶとにやあらじるにつかえます。えらをはずし、のこったうろこやちをていねいにとってからちょうりします。",
+      "input": "たいのあたまわ、かぶとにやあらじるにつかえます。えらおはずし、のこったうろこやちおていねいにとってからちょうりします。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
       "key": "せ",
@@ -68,14 +76,18 @@
       "accent_variants": [
         0,
         1
-      ]
+      ],
+      "reuse_audio": "audio/lessons/fish-cards/marin-4bd049a86618bd5904b6.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "ぎょたいのうえがわ、つまりはいそくのがいけいにちかいぶぶんがせです。",
-      "input": "ぎょたいのうえがわ、つまりはいそくのがいけいにちかいぶぶんがせです。",
+      "key": "せは、みをきりわけるときのいちのめじるしです。さんまいおろしでは、せがわからもほねにそってほうちょうをいれます。",
+      "input": "せわ、みおきりわけるときのいちのめじるしです。さんまいおろしでわ、せがわからもほねにそってほうちょうおいれます。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
       "key": "せびれ",
@@ -89,14 +101,18 @@
       "accent_matched_form": "背鰭",
       "accent_variants": [
         0
-      ]
+      ],
+      "reuse_audio": "audio/lessons/fish-cards/marin-88cdcfa9d8940cd9c965.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "さかなのはいそくにたつひれが背びれです。ぎょしゅによってひとつのばあいと、だいいち・だいににわかれるばあいがあります。",
-      "input": "さかなのはいそくにたつひれがせびれです。ぎょしゅによってひとつのばあいと、だいいち・だいににわかれるばあいがあります。",
+      "key": "せびれには、かたいとげをもつさかなもいます。すがたやきでは、けしょうじおでひれのこげすぎをふせぐことがあります。",
+      "input": "せびれにわ、かたいとげおもつさかなもいます。すがたやきでわ、けしょうじおでひれのこげすぎおふせぐことがあります。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
       "key": "そくせん",
@@ -110,14 +126,18 @@
       "accent_matched_form": "側線",
       "accent_variants": [
         0
-      ]
+      ],
+      "reuse_audio": "audio/lessons/fish-cards/marin-9f408e072a3cbb842a9b.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "ぎょたいのそくめんをとうそくからびそくへはしるせんがそくせんです。みずのうごきやしんどうをかんじるかんかくきです。",
-      "input": "ぎょたいのそくめんおとうそくからびそくえはしるせんがそくせんです。みずのうごきやしんどうおかんじるかんかくきです。",
+      "key": "そくせんは、みずのうごきをかんじるきかんです。あじではそくせんにそったかたいうろこをぜいごとよび、したしょりでそぎとります。",
+      "input": "そくせんわ、みずのうごきおかんじるきかんです。あじでわそくせんにそったかたいうろこおぜいごとよび、したしょりでそぎとります。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
       "key": "びへい",
@@ -128,14 +148,18 @@
       "accent_status": "checked-no-reliable-culinary-entry",
       "accent_source": null,
       "listening_verified": false,
-      "accent_note": "No reliable exact culinary entry found. Homonyms such as 蝉 (せみ), 釜/鎌 (かま), and 下見 (したみ) are not evidence for the fish term."
+      "accent_note": "No reliable exact culinary entry found. Homonyms such as 蝉 (せみ), 釜/鎌 (かま), and 下見 (したみ) are not evidence for the fish term.",
+      "reuse_audio": "audio/lessons/fish-cards/marin-131f33cecbec4e1f665a.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "どうたいとおびれのあいだにあるほそいつけねがびへいです。「おのつけね」ともせつめいできます。",
-      "input": "どうたいとおびれのあいだにあるほそいつけねがびへいです。「おのつけね」ともせつめいできます。",
+      "key": "おびれのつけねで、さんまいおろしのみをきりはなすめじるしになります。まぐろでは、おにちかいみはすじがおおく、かねつりょうりにつかわれます。",
+      "input": "おびれのつけねで、さんまいおろしのみおきりはなすめじるしになります。まぐろでわ、おにちかいみわすじがおおく、かねつりょうりにつかわれます。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
       "key": "びこう",
@@ -149,14 +173,18 @@
       "accent_matched_form": "鼻孔",
       "accent_variants": [
         0
-      ]
+      ],
+      "reuse_audio": "audio/lessons/fish-cards/marin-eeb67c60744e1bc142f6.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "めとくちのあいだにあるちいさなかいこうぶがびこうです。さかなではおもににおいをかんじるためにつかわれます。",
-      "input": "めとくちのあいだにあるちいさなかいこうぶがびこうです。さかなでわおもににおいおかんじるためにつかわれます。",
+      "key": "びこうは、においをかんじるためのあなです。おおくのさかなではさゆうにふたつずつあり、ひとのはなとちがってこきゅうにはつかいません。",
+      "input": "びこうわ、においおかんじるためのあなです。おおくのさかなでわさゆうにふたつずつあり、ひとのはなとちがってこきゅうにわつかいません。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
       "key": "くち",
@@ -170,14 +198,18 @@
       "accent_matched_form": "口",
       "accent_variants": [
         0
-      ]
+      ],
+      "reuse_audio": "audio/lessons/fish-cards/marin-112cff805a81d25a449b.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "とうそくのせんたんにあるかいこうぶがくちです。",
-      "input": "とうそくのせんたんにあるかいこうぶがくちです。",
+      "key": "ちいさなさかなのつぼぬきでは、くちからわりばしをいれて、えらとないぞうをとりだします。はらをきらずに、すがたをたもつしたしょりです。",
+      "input": "ちいさなさかなのつぼぬきでわ、くちからわりばしおいれて、えらとないぞうおとりだします。はらおきらずに、すがたおたもつしたしょりです。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
       "key": "えらぶた",
@@ -191,14 +223,18 @@
       "accent_matched_form": "鰓蓋",
       "accent_variants": [
         0
-      ]
+      ],
+      "reuse_audio": "audio/lessons/fish-cards/marin-b4e2bcf2e05d04c34fbb.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "えらをそとがわからおおういたじょうのぶぶんがえらぶたです。えいごでは gill cover、せんもんごでは operculum とよびます。",
-      "input": "えらおそとがわからおおういたじょうのぶぶんがえらぶたです。えいごでわ ぎる かばー、せんもんごでわ おーぱーきゅらむ とよびます。",
+      "key": "えらをほごするぶぶんで、せんどをみるときはもちあげてなかのいろをかくにんします。したしょりでは、ここをひらいてえらのつけねをきります。",
+      "input": "えらおほごするぶぶんで、せんどおみるときわもちあげてなかのいろおかくにんします。したしょりでわ、ここおひらいてえらのつけねおきります。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
       "key": "むなびれ",
@@ -212,14 +248,18 @@
       "accent_matched_form": "胸鰭",
       "accent_variants": [
         0
-      ]
+      ],
+      "reuse_audio": "audio/lessons/fish-cards/marin-81ec9194ebcf99984648.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "えらぶたのこうほう、からだのさゆうにあるいっついのひれがむなびれです。",
-      "input": "えらぶたのこうほう、からだのさゆうにあるいっついのひれがむなびれです。",
+      "key": "むなびれのつけねは、あたまをきりおとすいちのめじるしです。あたまのうしろのかまをのこすかどうかで、きりわけかたをかえます。",
+      "input": "むなびれのつけねわ、あたまおきりおとすいちのめじるしです。あたまのうしろのかまおのこすかどうかで、きりわけかたおかえます。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
       "key": "はら",
@@ -233,14 +273,18 @@
       "accent_matched_form": "腹",
       "accent_variants": [
         2
-      ]
+      ],
+      "reuse_audio": "audio/lessons/fish-cards/marin-200d88252492836fd0bc.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "ぎょたいのしたがわ、つまりふくそくのぶぶんがはらです。",
-      "input": "ぎょたいのしたがわ、つまりふくそくのぶぶんがはらです。",
+      "key": "はらのなかにはないぞうがあり、したしょりでとりだします。ほねぎわにのこるちやよごれもあらい、あらったあとはみずけをふきとります。",
+      "input": "はらのなかにわないぞうがあり、したしょりでとりだします。ほねぎわにのこるちやよごれもあらい、あらったあとわみずけおふきとります。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
       "key": "はらびれ",
@@ -254,14 +298,18 @@
       "accent_matched_form": "腹鰭",
       "accent_variants": [
         0
-      ]
+      ],
+      "reuse_audio": "audio/lessons/fish-cards/marin-2c9c90f71e8f027e479f.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "ふくそくのひかくてきぜんぽうにあるいっついのひれがはらびれです。いちはぎょしゅによってことなります。",
-      "input": "ふくそくのひかくてきぜんぽうにあるいっついのひれがはらびれです。いちわぎょしゅによってことなります。",
+      "key": "はらびれのいちは、さかなのしゅるいによってちがいます。すがたやきではかたちをのこし、けしょうじおでこげをおさえることがあります。",
+      "input": "はらびれのいちわ、さかなのしゅるいによってちがいます。すがたやきでわかたちおのこし、けしょうじおでこげおおさえることがあります。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
       "key": "うろこ",
@@ -276,14 +324,18 @@
       "accent_variants": [
         3,
         0
-      ]
+      ],
+      "reuse_audio": "audio/lessons/fish-cards/marin-6108d5ddde2a95ad2ef9.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "さかなのたいひょうをおおうちいさないたじょうのこうぞうがうろこです。りょうりでは「うろこをとる」といいます。",
-      "input": "さかなのたいひょうおおおうちいさないたじょうのこうぞうがうろこです。りょうりでわ「うろこおとる」といいます。",
+      "key": "おおくのさかなでは、ちょうりまえにうろこをとります。あまだいのまつかさあげはれいがいで、うろこをのこしてぱりっとあげます。",
+      "input": "おおくのさかなでわ、ちょうりまえにうろこおとります。あまだいのまつかさあげわれいがいで、うろこおのこしてぱりっとあげます。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
       "key": "かわ",
@@ -297,14 +349,18 @@
       "accent_matched_form": "皮",
       "accent_variants": [
         2
-      ]
+      ],
+      "reuse_audio": "audio/lessons/fish-cards/marin-e8ba86f664a9d1402d3c.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "ぎょたいのそとがわをおおうそしきがかわです。うろこはかわのひょうめんにあるこうぞうで、おなじものではありません。",
-      "input": "ぎょたいのそとがわおおおうそしきがかわです。うろこわかわのひょうめんにあるこうぞうで、おなじものでわありません。",
+      "key": "たいでは、かわとみのあいだのあじもたのしめます。かわしもづくりではかわをのこし、ねっとうでひょうめんをしょりしてさしみにします。",
+      "input": "たいでわ、かわとみのあいだのあじもたのしめます。かわしもづくりでわかわおのこし、ねっとうでひょうめんおしょりしてさしみにします。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
       "key": "しりびれ",
@@ -318,14 +374,18 @@
       "accent_matched_form": "臀鰭",
       "accent_variants": [
         0
-      ]
+      ],
+      "reuse_audio": "audio/lessons/fish-cards/marin-4cf21e8f1c347c0cf3ba.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "ふくそくのこうほう、こうもんよりびそくにあるひれがしりびれです。",
-      "input": "ふくそくのこうほう、こうもんよりびそくにあるひれがしりびれです。",
+      "key": "はらがわのうしろにあるひれで、はらをひらくはんいのめじるしになります。あじのしたしょりでは、このちかくまであさくきってないぞうをだします。",
+      "input": "はらがわのうしろにあるひれで、はらおひらくはんいのめじるしになります。あじのしたしょりでわ、このちかくまであさくきってないぞうおだします。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
       "key": "お",
@@ -339,14 +399,18 @@
       "accent_matched_form": "尾",
       "accent_variants": [
         1
-      ]
+      ],
+      "reuse_audio": "audio/lessons/fish-cards/marin-aedd81c73cdafd33bb2d.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "ぎょたいのこうたんがおで、そのおおきなひれを尾びれといいます。このずではおなじいちとしてまとめておぼえます。",
-      "input": "ぎょたいのこうたんがおで、そのおおきなひれおおびれといいます。このずでわおなじいちとしてまとめておぼえます。",
+      "key": "おは、さかなのうしろのぶぶんです。おおがたのまぐろではおにくもとれ、すじをいかしたステーキなどにつかえます。",
+      "input": "おわ、さかなのうしろのぶぶんです。おおがたのまぐろでわおにくもとれ、すじおいかしたすてーきなどにつかえます。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page78.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
       "key": "おびれ",
@@ -361,14 +425,27 @@
       "accent_variants": [
         1,
         0
-      ]
+      ],
+      "reuse_audio": "audio/lessons/fish-cards/marin-add36466d1c48fdb3c8c.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "ぎょたいのいちばんそとがわをおおうぶぶんがかわです。ずではさかなのそとがわのシルエットぜんたいをオレンジいろのせんでしめしています。",
-      "input": "ぎょたいのいちばんそとがわおおおうぶぶんがかわです。ずでわさかなのそとがわのしるえっとぜんたいおおれんじいろのせんでしめしています。",
+      "key": "おびれは、おにくとはべつのぶぶんです。すがたやきではみばえにかかわるので、けしょうじおなどでこげおちをふせぎます。",
+      "input": "おびれわ、おにくとわべつのぶぶんです。すがたやきでわみばえにかかわるので、けしょうじおなどでこげおちおふせぎます。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page79.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
+    },
+    {
+      "key": "さしみでは、りょうりにあわせてかわをひきます。あじはあたまがわのきりくちからおにむかってかわをはぎ、たいはかわをのこすつくりかたもあります。",
+      "input": "さしみでわ、りょうりにあわせてかわおひきます。あじわあたまがわのきりくちからおにむかってかわおはぎ、たいわかわおのこすつくりかたもあります。",
+      "speed": 1.0,
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
       "key": "えら",
@@ -382,14 +459,19 @@
       "accent_matched_form": "鰓",
       "accent_variants": [
         0
-      ]
+      ],
+      "reuse_audio": "audio/lessons/fish-cards/marin-2a1255dbdb13e768c860.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "とうぶのなかでこきゅうにつかわれるきかんがえらです。したしょりでは、いたみやにおいのげんいんをのこさないためにとりのぞきます。",
-      "input": "とうぶのなかでこきゅうにつかわれるきかんがえらです。したしょりでわ、いたみやにおいのげんいんおのこさないためにとりのぞきます。",
+      "key": "えらは、いっぱんてきなさかなのしたしょりではずします。あらじるにあたまをつかうときも、えらやのこったちをとるとくさみをおさえられます。",
+      "input": "えらわ、いっぱんてきなさかなのしたしょりではずします。あらじるにあたまおつかうときも、えらやのこったちおとるとくさみおおさえられます。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page79.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae.",
+      "reading_notes": "下処理で外します is したしょりではずします: で is a particle and はずします is a verb. Do not change lexical は to わ."
     },
     {
       "key": "ほほにく",
@@ -400,14 +482,18 @@
       "accent_status": "checked-no-reliable-culinary-entry",
       "accent_source": null,
       "listening_verified": false,
-      "accent_note": "No reliable exact culinary entry found. Homonyms such as 蝉 (せみ), 釜/鎌 (かま), and 下見 (したみ) are not evidence for the fish term."
+      "accent_note": "No reliable exact culinary entry found. Homonyms such as 蝉 (せみ), 釜/鎌 (かま), and 下見 (したみ) are not evidence for the fish term.",
+      "reuse_audio": "audio/lessons/fish-cards/marin-14806dc21bc3f8180663.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "めのこうほう、えらぶたしゅうへんにあるちいさなきんにくがほほにくです。よくうごくためうまみがあり、おおきなさかなではやきものなどにつかえます。",
-      "input": "めのこうほう、えらぶたしゅうへんにあるちいさなきんにくがほほにくです。よくうごくためうまみがあり、おおきなさかなでわやきものなどにつかえます。",
+      "key": "おおがたのさかなでは、ほほのちいさなきんにくもしょくざいになります。まぐろのほほにくは、にくのようなはごたえをたのしむステーキにもつかわれます。",
+      "input": "おおがたのさかなでわ、ほほのちいさなきんにくもしょくざいになります。まぐろのほほにくわ、にくのようなはごたえおたのしむすてーきにもつかわれます。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page79.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
       "key": "かま",
@@ -418,14 +504,18 @@
       "accent_status": "checked-no-reliable-culinary-entry",
       "accent_source": null,
       "listening_verified": false,
-      "accent_note": "No reliable exact culinary entry found. Homonyms such as 蝉 (せみ), 釜/鎌 (かま), and 下見 (したみ) are not evidence for the fish term."
+      "accent_note": "No reliable exact culinary entry found. Homonyms such as 蝉 (せみ), 釜/鎌 (かま), and 下見 (したみ) are not evidence for the fish term.",
+      "reuse_audio": "audio/lessons/fish-cards/marin-a5395cf5e67bf5d026aa.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "あたまのこうほう、むなびれのつけねをふくむぶぶんがかまです。ずのてんせんは、かまをきりわけるいちのめやすをしめしています。",
-      "input": "あたまのこうほう、むなびれのつけねおふくむぶぶんがかまです。ずのてんせんわ、かまおきりわけるいちのめやすおしめしています。",
+      "key": "かまはほねつきで、ほねのまわりのみをたのしむぶぶんです。ぶりやまぐろではしおやきなどにし、のこったうろこやちをとってからつかいます。",
+      "input": "かまわほねつきで、ほねのまわりのみおたのしむぶぶんです。ぶりやまぐろでわしおやきなどにし、のこったうろこやちおとってからつかいます。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page79.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
       "key": "はらぼね",
@@ -436,14 +526,18 @@
       "accent_status": "checked-no-reliable-culinary-entry",
       "accent_source": null,
       "listening_verified": false,
-      "accent_note": "No reliable exact culinary entry found. Homonyms such as 蝉 (せみ), 釜/鎌 (かま), and 下見 (したみ) are not evidence for the fish term."
+      "accent_note": "No reliable exact culinary entry found. Homonyms such as 蝉 (せみ), 釜/鎌 (かま), and 下見 (したみ) are not evidence for the fish term.",
+      "reuse_audio": "audio/lessons/fish-cards/marin-1a30904e77e067603d01.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "せぼねからはらがわへのび、ないぞうをかこむようにならぶほねがはらぼねです。さんまいおろしのあとに「はらぼねをすきとる」といいます。",
-      "input": "せぼねからはらがわえのび、ないぞうおかこむようにならぶほねがはらぼねです。さんまいおろしのあとに「はらぼねおすきとる」といいます。",
+      "key": "さんまいおろしのあと、ほうちょうをねかせてはらぼねをすきとります。みをおおくけずらないように、ほねにそってうすくとります。",
+      "input": "さんまいおろしのあと、ほうちょうおねかせてはらぼねおすきとります。みおおおくけずらないように、ほねにそってうすくとります。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page79.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
       "key": "なかぼね",
@@ -457,14 +551,18 @@
       "accent_matched_form": "中骨",
       "accent_variants": [
         0
-      ]
+      ],
+      "reuse_audio": "audio/lessons/fish-cards/marin-5e6de4e0d82df7d3722e.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "さんまいおろしでさゆうのみをはずしたあとにのこる、せぼねとしゅうへんのこっかくぜんたいをなかぼねとよびます。えいごでは fish frame とせつめいできます。",
-      "input": "さんまいおろしでさゆうのみおはずしたあとにのこる、せぼねとしゅうへんのこっかくぜんたいおなかぼねとよびます。えいごでわ ふぃっしゅ ふれーむ とせつめいできます。",
+      "key": "なかぼねは、あらとしてしるものやだしにつかえます。いわしのようなほそいほねは、じっくりあげてほねせんべいにすることもあります。",
+      "input": "なかぼねわ、あらとしてしるものやだしにつかえます。いわしのようなほそいほねわ、じっくりあげてほねせんべいにすることもあります。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page79.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
       "key": "せぼね",
@@ -478,28 +576,37 @@
       "accent_matched_form": "背骨",
       "accent_variants": [
         0
-      ]
+      ],
+      "reuse_audio": "audio/lessons/fish-cards/marin-f4c32bfbdc766eb6f13a.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "ぎょたいのちゅうおうをとうそくからびそくへとおるしゅようなほねがせぼねです。このずでは、せぼねとはいそくへのびるほねをまとめてオレンジいろでしめしています。",
-      "input": "ぎょたいのちゅうおうおとうそくからびそくえとおるしゅようなほねがせぼねです。このずでわ、せぼねとはいそくえのびるほねおまとめておれんじいろでしめしています。",
+      "key": "せぼねは、さんまいおろしでほうちょうをそわせるめじるしです。おおきなほねをきりわけるときは、かんせつをみてはをいれます。",
+      "input": "せぼねわ、さんまいおろしでほうちょうおそわせるめじるしです。おおきなほねおきりわけるときわ、かんせつおみてはおいれます。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page79.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae.",
+      "reading_notes": "刃を入れます is はおいれます: lexical は in 刃 must stay は."
     },
     {
-      "key": "さかなのせがわからちゅうおうへとおるしゅようなほねがせぼねです。だんめんずではちゅうおうじょうぶのせんと、そのしたのちいさなほねのかたちをまとめてしめしています。",
-      "input": "さかなのせがわからちゅうおうえとおるしゅようなほねがせぼねです。だんめんずでわちゅうおうじょうぶのせんと、そのしたのちいさなほねのかたちおまとめてしめしています。",
+      "key": "ふといせぼねは、そのままたべるよりだしにつかうことがあります。ちやよごれをとり、にだしたしるはこっぺんがのこらないようにこします。",
+      "input": "ふといせぼねわ、そのままたべるよりだしにつかうことがあります。ちやよごれおとり、にだしたしるわこっぺんがのこらないようにこします。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page79.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
-      "key": "せぼねからはらがわへまわりこむさゆうのほねがはらぼねです。だんめんずではさゆういっついのせんとしてみえます。",
-      "input": "せぼねからはらがわえまわりこむさゆうのほねがはらぼねです。だんめんずでわさゆういっついのせんとしてみえます。",
+      "key": "はらぼねは、はらのうちがわをかこむほねです。さしみやほねなしのきりみにするときは、ほねにそってそぎとります。",
+      "input": "はらぼねわ、はらのうちがわおかこむほねです。さしみやほねなしのきりみにするときわ、ほねにそってそぎとります。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page79.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
       "key": "こぼね",
@@ -513,14 +620,18 @@
       "accent_matched_form": "小骨",
       "accent_variants": [
         0
-      ]
+      ],
+      "reuse_audio": "audio/lessons/fish-cards/marin-bfe50e980d23dcba6dc2.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "フィレのみのなかにのこるほそいほねがこぼねです。したしょりではほねぬきをつかい、「こぼねをぬく」といいます。",
-      "input": "ふぃれのみのなかにのこるほそいほねがこぼねです。したしょりでわほねぬきおつかい、「こぼねおぬく」といいます。",
+      "key": "こぼねは、ほねぬきでぬき、ゆびでのこりをかくにんします。にしんなどは、こまかくほうちょうをいれるほねきりでたべやすくするほうほうもあります。",
+      "input": "こぼねわ、ほねぬきでぬき、ゆびでのこりおかくにんします。にしんなどわ、こまかくほうちょうおいれるほねきりでたべやすくするほうほうもあります。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page79.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
       "key": "ちあい",
@@ -534,14 +645,18 @@
       "accent_matched_form": "血合い",
       "accent_variants": [
         0
-      ]
+      ],
+      "reuse_audio": "audio/lessons/fish-cards/marin-69d338586eb1bd604928.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "せぼねのしゅうへんなどにみえるいろのこいきんにくがちあいです。ふうみがつよくいたみやすいため、りょうりによってはていねいにとりのぞきます。",
-      "input": "せぼねのしゅうへんなどにみえるいろのこいきんにくがちあいです。ふうみがつよくいたみやすいため、りょうりによってわていねいにとりのぞきます。",
+      "key": "ちあいは、せとはらのあいだにあるいろのこいきんにくです。ほねぎわにのこるちのよごれとはべつで、りょうりにおうじてのこすかとるかをきめます。",
+      "input": "ちあいわ、せとはらのあいだにあるいろのこいきんにくです。ほねぎわにのこるちのよごれとわべつで、りょうりにおうじてのこすかとるかおきめます。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page79.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
       "key": "せみ",
@@ -553,14 +668,18 @@
       "accent_source": null,
       "listening_verified": false,
       "accent_note": "No reliable exact culinary entry found. Homonyms such as 蝉 (せみ), 釜/鎌 (かま), and 下見 (したみ) are not evidence for the fish term.",
-      "reading_source_url": "https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/anisakisu-2"
+      "reading_source_url": "https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/anisakisu-2",
+      "reuse_audio": "audio/lessons/fish-cards/marin-4e6627c63a4b42c4c22c.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "さかなのせがわからとれるみがせみです。はらみよりあぶらがすくなく、あっさりしているけいこうがあります。",
-      "input": "さかなのせがわからとれるみがせみです。はらみよりあぶらがすくなく、あっさりしているけいこうがあります。",
+      "key": "せみは、さかなのせがわからとるみです。まぐろではちゅうしんにあかみ、かわがわにあぶらのあるみがとれ、せがわもいちようではありません。",
+      "input": "せみわ、さかなのせがわからとるみです。まぐろでわちゅうしんにあかみ、かわがわにあぶらのあるみがとれ、せがわもいちようでわありません。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page79-three-piece.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
       "key": "はらみ",
@@ -572,14 +691,18 @@
       "accent_source": null,
       "listening_verified": false,
       "accent_note": "No reliable exact culinary entry found. Homonyms such as 蝉 (せみ), 釜/鎌 (かま), and 下見 (したみ) are not evidence for the fish term.",
-      "reading_source_url": "https://mi-journey.jp/foodie/45887/"
+      "reading_source_url": "https://mi-journey.jp/foodie/45887/",
+      "reuse_audio": "audio/lessons/fish-cards/marin-a0adf3214dd72ef24dbe.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "さかなのはらがわからとれるみがはらみです。ぎょしゅやきせつによってはせみよりあぶらがのっています。",
-      "input": "さかなのはらがわからとれるみがはらみです。ぎょしゅやきせつによってわせみよりあぶらがのっています。",
+      "key": "はらみは、さかなやきせつによってあぶらのりょうがかわります。まぐろのはらがわはトロをとるぶいですが、すじもみてきりわけます。",
+      "input": "はらみわ、さかなやきせつによってあぶらのりょうがかわります。まぐろのはらがわわとろおとるぶいですが、すじもみてきりわけます。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page79-three-piece.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
       "key": "うわみ",
@@ -591,14 +714,18 @@
       "accent_source": null,
       "listening_verified": false,
       "accent_note": "No reliable exact culinary entry found. Homonyms such as 蝉 (せみ), 釜/鎌 (かま), and 下見 (したみ) are not evidence for the fish term.",
-      "reading_source_url": "https://sushiwalker.com/dictionary/90649/"
+      "reading_source_url": "https://sushiwalker.com/dictionary/90649/",
+      "reuse_audio": "audio/lessons/fish-cards/marin-c25febd2e0bd13214be8.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "さんまいおろしでうえがわにおかれたみをうわみとよびます。さぎょうちゅうのさかなのむきによって、みぎがわのフィレをさすばあいがあります。",
-      "input": "さんまいおろしでうえがわにおかれたみおうわみとよびます。さぎょうちゅうのさかなのむきによって、みぎがわのふぃれおさすばあいがあります。",
+      "key": "うわみは、おろすときにうえがわにあるみをさすことばです。じょうとうといういみではなく、にまいおろしではなかぼねからさきにはずすみです。",
+      "input": "うわみわ、おろすときにうえがわにあるみおさすことばです。じょうとうといういみでわなく、にまいおろしでわなかぼねからさきにはずすみです。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page79-three-piece.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
       "key": "なかおち",
@@ -613,14 +740,18 @@
       "accent_variants": [
         0
       ],
-      "regeneration_note": "Regenerated with Marin at 1.0 after the user reported an unexpected male voice; fresh content-versioned URL avoids cached playback. Not listening-verified."
+      "regeneration_note": "Regenerated with Marin at 1.0 after the user reported an unexpected male voice; fresh content-versioned URL avoids cached playback. Not listening-verified.",
+      "reuse_audio": "audio/lessons/fish-cards/marin-2007799435f8698dea84-r2717cda6d7.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "さんまいおろしのあと、せぼねのまわりにのこるみがなかおちです。スプーンなどでかきとってつかうことがあります。",
-      "input": "さんまいおろしのあと、せぼねのまわりにのこるみがなかおちです。すぷーんなどでかきとってつかうことがあります。",
+      "key": "なかおちは、ほねのまわりにのこるみをスプーンなどでかきとったものです。まぐろではどんぶりやまきものにつかい、こっぺんがまざっていないかかくにんします。",
+      "input": "なかおちわ、ほねのまわりにのこるみおすぷーんなどでかきとったものです。まぐろでわどんぶりやまきものにつかい、こっぺんがまざっていないかかくにんします。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page79-three-piece.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     },
     {
       "key": "したみ",
@@ -632,14 +763,418 @@
       "accent_source": null,
       "listening_verified": false,
       "accent_note": "No reliable exact culinary entry found. Homonyms such as 蝉 (せみ), 釜/鎌 (かま), and 下見 (したみ) are not evidence for the fish term.",
-      "reading_source_url": "https://www.sumeshiya.com/blog/2021/06/post-6579.html"
+      "reading_source_url": "https://www.sumeshiya.com/blog/2021/06/post-6579.html",
+      "reuse_audio": "audio/lessons/fish-cards/marin-da68a18a993e245251be.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
     },
     {
-      "key": "さんまいおろしでしたがわにおかれたみをしたみとよびます。さかなのおきかたやおろすむきによって、さゆうとのたいおうがかわることがあります。",
-      "input": "さんまいおろしでしたがわにおかれたみおしたみとよびます。さかなのおきかたやおろすむきによって、さゆうとのたいおうがかわることがあります。",
+      "key": "したみは、おろすときにしたがわにあるみです。うわみをはずしたあと、さかなをかえしてほねからきりはなし、さんまいおろしにします。",
+      "input": "したみわ、おろすときにしたがわにあるみです。うわみおはずしたあと、さかなおかえしてほねからきりはなし、さんまいおろしにします。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page79-three-piece.json; checked every source annotation and contextual particle, retaining lexical はら/はらがわ/はしる. Foreign terms retain reviewed hiragana approximations.",
-      "listening_verified": false
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
+    },
+    {
+      "key": "せぶし",
+      "input": "せぶし",
+      "speed": 1.0,
+      "reading_source": "page81-tuna; checked source vocabulary and contextual reading.",
+      "listening_verified": false,
+      "accent_status": "provisional-specialist-intonation",
+      "pronunciation_guidance": "Read one Japanese culinary term for fish: Tuna back loin. Keep a consistent natural Marin voice and smooth connected pronunciation, without syllable gaps or elongated delivery.",
+      "reuse_audio": "audio/lessons/fish-cards/marin-a4bd9d32615cef2b316d.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
+    },
+    {
+      "key": "せぶしのちゅうしんからあかみ、かわがわからちゅうトロをとれることがあります。あぶらとすじのはいりかたをみて、さしみようのさくにととのえます。",
+      "input": "せぶしのちゅうしんからあかみ、かわがわからちゅうとろおとれることがあります。あぶらとすじのはいりかたおみて、さしみようのさくにととのえます。",
+      "speed": 1.0,
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
+    },
+    {
+      "key": "はらぶし",
+      "input": "はらぶし",
+      "speed": 1.0,
+      "reading_source": "page81-tuna; checked source vocabulary and contextual reading.",
+      "listening_verified": false,
+      "accent_status": "provisional-specialist-intonation",
+      "pronunciation_guidance": "Read one Japanese culinary term for fish: Tuna belly loin. Keep a consistent natural Marin voice and smooth connected pronunciation, without syllable gaps or elongated delivery.",
+      "reuse_audio": "audio/lessons/fish-cards/marin-498c7d416630b04ae426.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
+    },
+    {
+      "key": "はらぶしは、あぶらのゆたかなトロをとるおおきなはらがわのみです。ぶいごとのすじとあぶらをみて、さくにきりわけます。",
+      "input": "はらぶしわ、あぶらのゆたかなとろおとるおおきなはらがわのみです。ぶいごとのすじとあぶらおみて、さくにきりわけます。",
+      "speed": 1.0,
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
+    },
+    {
+      "key": "かまとろ",
+      "input": "かまとろ",
+      "speed": 1.0,
+      "reading_source": "page81-tuna; checked source vocabulary and contextual reading.",
+      "listening_verified": false,
+      "accent_status": "provisional-specialist-intonation",
+      "pronunciation_guidance": "Read one Japanese culinary term for fish: Fatty tuna collar meat. Keep a consistent natural Marin voice and smooth connected pronunciation, without syllable gaps or elongated delivery.",
+      "reuse_audio": "audio/lessons/fish-cards/marin-56ad40b4095fdb84fa1c.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
+    },
+    {
+      "key": "かまとろは、かまのしゅうへんからとるあぶらのおおいみです。こまかいすじもあるため、すじのむきをみてきるとくちあたりがかわります。",
+      "input": "かまとろわ、かまのしゅうへんからとるあぶらのおおいみです。こまかいすじもあるため、すじのむきおみてきるとくちあたりがかわります。",
+      "speed": 1.0,
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
+    },
+    {
+      "key": "あごにく",
+      "input": "あごにく",
+      "speed": 1.0,
+      "reading_source": "page81-tuna; checked source vocabulary and contextual reading.",
+      "listening_verified": false,
+      "accent_status": "provisional-specialist-intonation",
+      "pronunciation_guidance": "Read one Japanese culinary term for fish: Tuna jaw meat. Keep a consistent natural Marin voice and smooth connected pronunciation, without syllable gaps or elongated delivery.",
+      "reuse_audio": "audio/lessons/fish-cards/marin-d7425030ddb04396481d.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
+    },
+    {
+      "key": "あごにくは、あたまからきりわけるあごのしゅうへんのみです。ほねやすじののこりかたをかくにんし、しいれさきにあうちょうりほうをききます。",
+      "input": "あごにくわ、あたまからきりわけるあごのしゅうへんのみです。ほねやすじののこりかたおかくにんし、しいれさきにあうちょうりほうおききます。",
+      "speed": 1.0,
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
+    },
+    {
+      "key": "わかれみ",
+      "input": "わかれみ",
+      "speed": 1.0,
+      "reading_source": "page81-tuna; checked source vocabulary and contextual reading.",
+      "listening_verified": false,
+      "accent_status": "provisional-specialist-intonation",
+      "pronunciation_guidance": "Read one Japanese culinary term for fish: Separated tuna loin portion. Keep a consistent natural Marin voice and smooth connected pronunciation, without syllable gaps or elongated delivery.",
+      "reuse_audio": "audio/lessons/fish-cards/marin-cf124d1cf090c7086d48.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
+    },
+    {
+      "key": "わかれみは、せがわをさくにととのえるさいにわける、すじのつよいみとしてうられることがあります。ふといすじをはずすなど、したしょりをしてつかいます。",
+      "input": "わかれみわ、せがわおさくにととのえるさいにわける、すじのつよいみとしてうられることがあります。ふといすじおはずすなど、したしょりおしてつかいます。",
+      "speed": 1.0,
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
+    },
+    {
+      "key": "おおとろ",
+      "input": "おおとろ",
+      "speed": 1.0,
+      "reading_source": "page81-tuna; checked source vocabulary and contextual reading.",
+      "listening_verified": false,
+      "accent_status": "provisional-specialist-intonation",
+      "pronunciation_guidance": "Read one Japanese culinary term for fish: Fatty tuna / ōtoro. Keep a consistent natural Marin voice and smooth connected pronunciation, without syllable gaps or elongated delivery.",
+      "reuse_audio": "audio/lessons/fish-cards/marin-bd5152ce5dd222c39c67.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
+    },
+    {
+      "key": "あぶらがゆたかで、くちのなかでとろけるようなしょっかんがあります。はらがわのかわにちかいぶぶんなどからとれ、すじをみてきりつけます。",
+      "input": "あぶらがゆたかで、くちのなかでとろけるようなしょっかんがあります。はらがわのかわにちかいぶぶんなどからとれ、すじおみてきりつけます。",
+      "speed": 1.0,
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
+    },
+    {
+      "key": "ちゅうとろ",
+      "input": "ちゅうとろ",
+      "speed": 1.0,
+      "reading_source": "page81-tuna; checked source vocabulary and contextual reading.",
+      "listening_verified": false,
+      "accent_status": "provisional-specialist-intonation",
+      "pronunciation_guidance": "Read one Japanese culinary term for fish: Medium-fatty tuna / chūtoro. Keep a consistent natural Marin voice and smooth connected pronunciation, without syllable gaps or elongated delivery.",
+      "reuse_audio": "audio/lessons/fish-cards/marin-a6b0e90a90470eac2ec2.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
+    },
+    {
+      "key": "あかみのあじとあぶらのくちどけを、りょうほうたのしめます。はらがわだけでなく、せがわのかわにちかいぶぶんからもとれます。",
+      "input": "あかみのあじとあぶらのくちどけお、りょうほうたのしめます。はらがわだけでなく、せがわのかわにちかいぶぶんからもとれます。",
+      "speed": 1.0,
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
+    },
+    {
+      "key": "あかみ",
+      "input": "あかみ",
+      "speed": 1.0,
+      "reading_source": "page81-tuna; checked source vocabulary and contextual reading.",
+      "listening_verified": false,
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L75341",
+      "pronunciation_guidance": "Read one Japanese culinary term for fish: Lean tuna. Keep a consistent natural Marin voice and smooth connected pronunciation, without syllable gaps or elongated delivery.",
+      "reuse_audio": "audio/lessons/meat-cards/marin-6d9b3de33d16a07be762.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
+    },
+    {
+      "key": "あぶらのすくないあかみは、まぐろらしいあじをたのしむぶぶんです。さしみやてっかまき、しょうゆにつけるづけにもつかいます。",
+      "input": "あぶらのすくないあかみわ、まぐろらしいあじおたのしむぶぶんです。さしみやてっかまき、しょうゆにつけるづけにもつかいます。",
+      "speed": 1.0,
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
+    },
+    {
+      "key": "てんみ",
+      "input": "てんみ",
+      "speed": 1.0,
+      "reading_source": "page81-tuna; checked source vocabulary and contextual reading.",
+      "listening_verified": false,
+      "accent_status": "provisional-specialist-intonation",
+      "pronunciation_guidance": "Read one Japanese culinary term for fish: Premium lean upper-loin meat. Keep a consistent natural Marin voice and smooth connected pronunciation, without syllable gaps or elongated delivery.",
+      "reuse_audio": "audio/lessons/fish-cards/marin-1ef4df2a8433a0355794.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
+    },
+    {
+      "key": "てんみは、かわがわのあぶらをはずしたうちがわのあかみとしてあつかわれます。すじがすくなく、やわらかなあかみのあじをたのしめます。",
+      "input": "てんみわ、かわがわのあぶらおはずしたうちがわのあかみとしてあつかわれます。すじがすくなく、やわらかなあかみのあじおたのしめます。",
+      "speed": 1.0,
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
+    },
+    {
+      "key": "のうてん",
+      "input": "のうてん",
+      "speed": 1.0,
+      "reading_source": "page81-tuna; checked source vocabulary and contextual reading.",
+      "listening_verified": false,
+      "accent": 3,
+      "accent_variants": [
+        3
+      ],
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L96571",
+      "pronunciation_guidance": "Read one Japanese culinary term for fish: Tuna crown / head meat. Keep a consistent natural Marin voice and smooth connected pronunciation, without syllable gaps or elongated delivery.",
+      "reuse_audio": "audio/lessons/fish-cards/marin-1d76c8eac1bf2c731df5.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
+    },
+    {
+      "key": "のうてんはのうそのものではなく、あたまのじょうぶのにくです。あぶらとこいあじがあり、すじをととのえてかねつりょうりにもつかいます。",
+      "input": "のうてんわのうそのものでわなく、あたまのじょうぶのにくです。あぶらとこいあじがあり、すじおととのえてかねつりょうりにもつかいます。",
+      "speed": 1.0,
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
+    },
+    {
+      "key": "おにく",
+      "input": "おにく",
+      "speed": 1.0,
+      "reading_source": "page81-tuna; checked source vocabulary and contextual reading.",
+      "listening_verified": false,
+      "accent": 1,
+      "accent_variants": [
+        1
+      ],
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100649",
+      "pronunciation_guidance": "Read one Japanese culinary term for fish: Tuna tail meat. Keep a consistent natural Marin voice and smooth connected pronunciation, without syllable gaps or elongated delivery.",
+      "reuse_audio": "audio/lessons/fish-cards/marin-d307d5fc1589932d6fb8.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
+    },
+    {
+      "key": "おにくはすじがおおく、わぎりでうられることもあります。テールステーキなどにつかい、ほねとすじののこりかたにあわせてちょうりします。",
+      "input": "おにくわすじがおおく、わぎりでうられることもあります。てーるすてーきなどにつかい、ほねとすじののこりかたにあわせてちょうりします。",
+      "speed": 1.0,
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
+    },
+    {
+      "key": "せかみ",
+      "input": "せかみ",
+      "speed": 1.0,
+      "reading_source": "page81-tuna; checked source vocabulary and contextual reading.",
+      "listening_verified": false,
+      "accent_status": "provisional-specialist-intonation",
+      "pronunciation_guidance": "Read one Japanese culinary term for fish: Head-side back loin. Keep a consistent natural Marin voice and smooth connected pronunciation, without syllable gaps or elongated delivery.",
+      "reuse_audio": "audio/lessons/fish-cards/marin-b56344214a5a726d8f51.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
+    },
+    {
+      "key": "せかみは、せがわのあたまにちかいぶぶんです。ふといすじがはいることがあるので、すじのむきをみてさくどりやきりつけをします。",
+      "input": "せかみわ、せがわのあたまにちかいぶぶんです。ふといすじがはいることがあるので、すじのむきおみてさくどりやきりつけおします。",
+      "speed": 1.0,
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
+    },
+    {
+      "key": "せなか",
+      "input": "せなか",
+      "speed": 1.0,
+      "reading_source": "page81-tuna; checked source vocabulary and contextual reading.",
+      "listening_verified": false,
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_status": "dictionary-reading-match",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L97219",
+      "pronunciation_guidance": "Read one Japanese culinary term for fish: Middle back loin. Keep a consistent natural Marin voice and smooth connected pronunciation, without syllable gaps or elongated delivery.",
+      "reuse_audio": "audio/lessons/fish-cards/marin-9e07b0ce6ffbc830536c.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
+    },
+    {
+      "key": "せなかは、せがわのちゅうおうのぶぶんです。ちゅうしんのあかみとかわがわのあぶらをみて、さしみようのさくをとります。",
+      "input": "せなかわ、せがわのちゅうおうのぶぶんです。ちゅうしんのあかみとかわがわのあぶらおみて、さしみようのさくおとります。",
+      "speed": 1.0,
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
+    },
+    {
+      "key": "せしも",
+      "input": "せしも",
+      "speed": 1.0,
+      "reading_source": "page81-tuna; checked source vocabulary and contextual reading.",
+      "listening_verified": false,
+      "accent_status": "provisional-specialist-intonation",
+      "pronunciation_guidance": "Read one Japanese culinary term for fish: Tail-side back loin. Keep a consistent natural Marin voice and smooth connected pronunciation, without syllable gaps or elongated delivery.",
+      "reuse_audio": "audio/lessons/fish-cards/marin-506316ccfbbde2c0adeb.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
+    },
+    {
+      "key": "せしもは、せがわのおにちかいぶぶんです。あぶらがすくなめでこまかいすじがはいることがあり、みのじょうたいにあわせてきります。",
+      "input": "せしもわ、せがわのおにちかいぶぶんです。あぶらがすくなめでこまかいすじがはいることがあり、みのじょうたいにあわせてきります。",
+      "speed": 1.0,
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
+    },
+    {
+      "key": "せのだいみ",
+      "input": "せのだいみ",
+      "speed": 1.0,
+      "reading_source": "page81-tuna; checked source vocabulary and contextual reading.",
+      "listening_verified": false,
+      "accent_status": "provisional-specialist-intonation",
+      "pronunciation_guidance": "Read one Japanese culinary term for fish: Dorsal loin section. Keep a consistent natural Marin voice and smooth connected pronunciation, without syllable gaps or elongated delivery.",
+      "reuse_audio": "audio/lessons/fish-cards/marin-f0bd499d97713106a15e.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
+    },
+    {
+      "key": "せがわのこまかいよびわけは、しいれさきによってことなることがあります。じつぶつのいちとすじをかくにんして、つかいかたをそうだんします。",
+      "input": "せがわのこまかいよびわけわ、しいれさきによってことなることがあります。じつぶつのいちとすじおかくにんして、つかいかたおそうだんします。",
+      "speed": 1.0,
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
+    },
+    {
+      "key": "ひれうえ",
+      "input": "ひれうえ",
+      "speed": 1.0,
+      "reading_source": "page81-tuna; checked source vocabulary and contextual reading.",
+      "listening_verified": false,
+      "accent_status": "provisional-specialist-intonation",
+      "pronunciation_guidance": "Read one Japanese culinary term for fish: Loin section above the fin. Keep a consistent natural Marin voice and smooth connected pronunciation, without syllable gaps or elongated delivery.",
+      "reuse_audio": "audio/lessons/fish-cards/marin-ec19f74b4c5929ad1b69.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
+    },
+    {
+      "key": "ひれのいちをめじるしに、しいれさきとみのくぎりをかくにんします。よびなだけであぶらのりょうをきめず、かわがわとすじもみます。",
+      "input": "ひれのいちおめじるしに、しいれさきとみのくぎりおかくにんします。よびなだけであぶらのりょうおきめず、かわがわとすじもみます。",
+      "speed": 1.0,
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
+    },
+    {
+      "key": "はらいちばん",
+      "input": "はらいちばん",
+      "speed": 1.0,
+      "reading_source": "page81-tuna; checked source vocabulary and contextual reading.",
+      "listening_verified": false,
+      "accent_status": "provisional-specialist-intonation",
+      "pronunciation_guidance": "Read one Japanese culinary term for fish: First / head-side belly section. Keep a consistent natural Marin voice and smooth connected pronunciation, without syllable gaps or elongated delivery.",
+      "reuse_audio": "audio/lessons/fish-cards/marin-6e9d87e193abf9574701.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
+    },
+    {
+      "key": "はらいちばんはあたまがわのはらのぶぶんで、おおトロをとることがあります。あぶらがおおくてもすじはあるので、きるむきをかくにんします。",
+      "input": "はらいちばんわあたまがわのはらのぶぶんで、おおとろおとることがあります。あぶらがおおくてもすじわあるので、きるむきおかくにんします。",
+      "speed": 1.0,
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
+    },
+    {
+      "key": "はらにばん",
+      "input": "はらにばん",
+      "speed": 1.0,
+      "reading_source": "page81-tuna; checked source vocabulary and contextual reading.",
+      "listening_verified": false,
+      "accent_status": "provisional-specialist-intonation",
+      "pronunciation_guidance": "Read one Japanese culinary term for fish: Second belly section. Keep a consistent natural Marin voice and smooth connected pronunciation, without syllable gaps or elongated delivery.",
+      "reuse_audio": "audio/lessons/fish-cards/marin-fcec83281770fea97c52.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
+    },
+    {
+      "key": "はらにばんは、はらがわのちゅうおうよりのぶぶんです。おおトロやちゅうトロをとることがあり、じっさいのあぶらののりでつかいわけます。",
+      "input": "はらにばんわ、はらがわのちゅうおうよりのぶぶんです。おおとろやちゅうとろおとることがあり、じっさいのあぶらののりでつかいわけます。",
+      "speed": 1.0,
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
+    },
+    {
+      "key": "はらさんばん",
+      "input": "はらさんばん",
+      "speed": 1.0,
+      "reading_source": "page81-tuna; checked source vocabulary and contextual reading.",
+      "listening_verified": false,
+      "accent_status": "provisional-specialist-intonation",
+      "pronunciation_guidance": "Read one Japanese culinary term for fish: Third belly section. Keep a consistent natural Marin voice and smooth connected pronunciation, without syllable gaps or elongated delivery.",
+      "reuse_audio": "audio/lessons/fish-cards/marin-9918c217e47b37ebf9ed.mp3",
+      "reuse_source": "Existing primary-name recording; the name and reviewed reading are unchanged."
+    },
+    {
+      "key": "はらさんばんは、はらがわのおにちかいぶぶんです。あたまがわよりあぶらがひかえめなことがあり、ちゅうトロやあかみとしてつかいます。",
+      "input": "はらさんばんわ、はらがわのおにちかいぶぶんです。あたまがわよりあぶらがひかえめなことがあり、ちゅうとろやあかみとしてつかいます。",
+      "speed": 1.0,
+      "reading_source": "data/fish-cards.json: reviewed full annotated readings, contextual topic/object particles, long vowels and phrase boundaries; research sources mapped in docs/fish-cut-culinary-research.md.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "Read this description of a fish part in natural Tokyo Japanese, using a consistent Marin voice at a normal conversational pace. Keep words connected. Use brief pauses at complete phrase commas and sentence ends only; keep particles attached to the preceding phrase. Do not elongate syllables or insert gaps between morae."
     }
   ]
 }
