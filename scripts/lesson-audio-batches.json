@@ -827,5 +827,18 @@
     "speechKeys": 128,
     "recordings": 128,
     "completedCards": 13
+  },
+  {
+    "batch": 101,
+    "lesson": "ingredient-cards",
+    "title": "食材カード",
+    "status": "generated",
+    "voice": "marin",
+    "speed": 1.0,
+    "speechKeys": 510,
+    "recordings": 510,
+    "reusedRecordings": 186,
+    "newRecordings": 324,
+    "completedCards": 20
   }
 ]

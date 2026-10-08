@@ -68,6 +68,13 @@ folder.mkdir(parents=True, exist_ok=True)
 unique = {(row['text'], row['speed']) for row in rows}
 
 def generate(text, speed):
+    entry = next(item for item in review['entries'] if item['input'] == text)
+    reused = entry.get('reuse_audio')
+    if reused and (text, speed) not in retry_inputs:
+        reused_path = (ROOT/reused).resolve()
+        if not entry.get('reuse_source') or not reused_path.is_relative_to((ROOT/'audio').resolve()) or not reused_path.is_file() or not reused_path.stat().st_size:
+            raise ValueError('Invalid reviewed audio reuse: '+str(reused))
+        return (text, speed), str(reused_path.relative_to(ROOT))
     payload = dict(model=model, voice=voice, input=text, speed=speed, response_format='mp3')
     if voice == 'marin':
         entry = next(item for item in review['entries'] if item['input'] == text)

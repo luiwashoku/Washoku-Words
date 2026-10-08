@@ -553,3 +553,93 @@ Generated thirteen reactions plus heading at Marin 1.0. Reviewed hiragana, appea
 ### Auto Response — final page 13: Short reactions
 
 Generated ten short reactions plus heading at Marin 1.0. Reviewed contextual readings, short あ interjections, geminated そっか and connected そういう. Component accent sources retained; full reaction intonation provisional where unavailable. All 13 pages are now generated. The 128 review/manifest keys exactly match the full deck export, and all clips pass decoded non-silence checks. No listening or audible pitch verification claimed.
+
+### Ingredient cards — page 1: Aromatics, condiments and herbs
+
+Added 食材カード as the first deck in 食材の基本 (food-culture category). First card contains all supplied page-1 vocabulary, with separate alias entries (61 terms) in two columns. Reviewed all 62 heading/term speech keys; exact dictionary targets retained where available, other targets provisional under standing authorization. Reused 31 existing 図鑑 Marin 1.0 paths directly through explicit reviewed reuse_audio entries, without copying MP3s. Generated only 31 missing clips. Signal check caught quiet newly generated しそ, then regeneration passed. Browser verifies first position, 61 entries, two columns, phone width and audio lookup; all 62 clips pass decoded non-silence checks. No listening or audible pitch verification claimed.
+
+### Ingredient cards — page 2: 葉物野菜
+
+Added all 30 supplied leafy-vegetable terms in two columns. Reviewed each hiragana input, lexical は and katakana long vowels/gemination; exact dictionary targets retained, remaining intonation provisional under standing authorization. Reused 10 existing 図鑑 Marin 1.0 file paths directly and generated 20 missing clips. Page heading shares the exact 葉物野菜 vocabulary key. Browser verifies both pages, first category position, mobile width and recorded audio lookup. All 92 keys match full export, shared paths remain unchanged, and every clip passes decoded non-silence checks. No listening or audible pitch verification claimed.
+
+### Ingredient cards — page 3: 根菜・芋類
+
+Added all 27 supplied root/tuber terms in two columns. Reviewed all readings for culinary context, including cultivar names and じねんじょ. Reused ten exact 図鑑 Marin 1.0 file paths and generated 18 missing recordings including heading. Exact dictionary targets retained where available; remaining intonation provisional under standing authorization. Browser verifies three pages, phone width and recorded playback. All 120 keys match the full export and pass decoded non-silence checks; shared paths remain unchanged. No listening or audible pitch verification claimed.
+
+### Ingredient cards — page 4: 実を食べる野菜
+
+Added all supplied fruit-vegetable terms, with separate ゴーヤ/苦瓜 aliases (24 entries), in two columns. Reviewed each reading, cultivar names, katakana gemination/long vowels and heading object を → お. Reused 12 exact 図鑑 Marin 1.0 paths and generated 13 missing clips including heading. Dictionary targets retained where available; remaining intonation provisional. Four-page mobile/audio lookup checks passed; all 145 keys match full export, retain shared paths, and pass decoded non-silence checks. No listening or audible pitch verification claimed.
+
+### Ingredient cards — page 5: 豆類
+
+Added all supplied bean/pea terms with separate いんげん/さやいんげん aliases (20 entries), in two columns. Reviewed all readings, including 十六ささげ and 小豆, katakana long vowels and gemination. Reused four exact 図鑑 Marin 1.0 paths and generated sixteen missing clips. Exact dictionary targets retained; remaining intonation provisional under standing authorization. Five-page mobile/audio lookup checks passed; all 165 keys match full export and pass decoded non-silence checks. Shared file paths remain unchanged. No listening or audible pitch verification claimed.
+
+Regenerated 米なす（べいなす）and ししとう at Marin 1.0 with complete-word articulation, normal vowel length and no internal pauses. Replaced any shared reuse only in the ingredient deck, leaving original 図鑑 paths intact. All 165 ingredient clips pass decoded non-silence checks. No listening verification claimed.
+
+### Ingredient cards — page 6: 花・茎・芽を食べる野菜
+
+Added all 12 supplied flower/stem/shoot terms in two columns. Reviewed 食用菊 しょくようぎく, lexical はな, heading を → お, long vowels and gemination. Reused five exact 図鑑 Marin 1.0 paths and generated eight missing clips including heading. Dictionary targets retained where available; remaining intonation provisional under standing authorization. Six-page mobile/audio lookup checks passed; all 178 keys match full export and pass decoded non-silence checks, with shared paths unchanged. No listening or audible pitch verification claimed.
+
+Regenerated アーティチョーク（あーてぃちょーく）at Marin 1.0 after user reported broken delivery. Guidance requests a single compact connected word, particularly てぃちょー, with normal long vowels and no internal pauses. All 178 ingredient clips pass decoded non-silence checks. No listening verification claimed.
+
+### Ingredient cards — page 7: 山菜
+
+Added all 11 supplied wild-vegetable terms in two columns. Reviewed each culinary reading, including 行者にんにく and 根曲がり竹. Reused two exact 図鑑 Marin 1.0 paths and generated nine missing clips; heading shares 山菜 vocabulary key. Dictionary targets retained where available; other intonation provisional under standing authorization. Seven-page mobile/audio lookup checks passed; all 189 keys match full export and pass decoded non-silence checks, with shared paths unchanged. No listening or audible pitch verification claimed.
+
+### Ingredient cards — page 8: もやし・スプラウト
+
+Added all seven supplied sprouts/microgreens in two columns. Reviewed each reading, including 緑豆もやし and 豆苗, and katakana long vowels/gemination. No exact reviewed 図鑑 matches available; generated eight new Marin 1.0 clips including heading. Dictionary targets retained where available; remaining intonation provisional. Eight-page mobile/audio lookup checks passed; all 197 keys match full export and pass decoded non-silence checks. Existing shared file paths remain unchanged. No listening or audible pitch verification claimed.
+
+### Ingredient cards — page 9: きのこ
+
+Added all 17 supplied mushroom/preparation terms in two columns. Reviewed readings and sense-specific cap/stem terms, long vowels/gemination, and 石づきを落とす → いしづきおおとす with contextual object particle. Reused eleven exact 図鑑 Marin 1.0 paths and generated seven missing clips including heading. Dictionary targets retained where available; remaining intonation provisional. Nine-page mobile/audio lookup checks passed; all 215 keys match full export and pass decoded non-silence checks. Shared file paths unchanged. No listening or audible pitch verification claimed.
+
+Regenerated 山菜（さんさい）, かいわれ大根（かいわれだいこん）and えのき at Marin 1.0. Guidance requests compact complete-word timing, no syllable gaps and normal volume. Shared reuse detached only for requested replacements; original 図鑑 files retained. All 215 ingredient recordings pass decoded non-silence checks. No listening verification claimed.
+
+Regenerated culinary えのき with explicit heiban low-high-high (え low, の/き high) guidance at Marin 1.0, keeping the word continuous. Target remains provisional because exact mushroom-abbreviation primary accent evidence was not confirmed; local 榎/朴 tree entries were not used as sense verification. All 215 ingredient clips pass decoded non-silence checks; generated pitch not listening-verified.
+
+Retried えのき at user request with explicit mushroom/榎茸 context, short-form-only instruction and low-high-high heiban guidance. Marin at 1.0; all 215 ingredient recordings pass decoded non-silence checks. No audible pitch or listening verification claimed.
+
+### Ingredient cards — page 10: 大豆製品
+
+Added all 27 supplied soy-product/preparation terms in two columns. Reviewed each reading, long vowels/gemination, and 豆腐を崩す → とうふおくずす with contextual object particle. Reused twenty exact 図鑑 Marin 1.0 paths and generated eight missing clips including heading. Dictionary targets retained where available; remaining intonation provisional. Ten-page mobile/audio lookup checks passed; all 243 keys match full export and pass decoded non-silence checks, shared paths unchanged. No listening or audible pitch verification claimed.
+
+Regenerated 水煮（みずに）and 味噌（みそ）at Marin 1.0. Retained exact dictionary targets: 水煮 heiban low-high-high, 味噌 accent 1 high-low. Guidance requests short vowels, compact continuous articulation and no stretching. Detached 味噌 reuse only in ingredient deck; original 図鑑 file unchanged. All 243 ingredient clips pass decoded non-silence checks. No listening verification claimed.
+
+Ingredient page 11 — 魚の名前: 33 vocabulary entries plus heading; 22 existing Marin recordings reused directly and 12 new Marin 1.0 recordings. Fish-context readings reviewed. Near-silent reused 鰤 replaced; full PCM check plus replacement recheck passed. Mobile two-column layout and audio lookup passed. Audible pitch was not listening-verified. Cumulative coverage: 277 keys across 11 pages.
+
+Ingredient page 12 — 魚以外の魚介: 37 vocabulary terms plus heading. Reused 18 existing 図鑑 Marin recordings directly and generated 20 new Marin 1.0 clips. Supplied readings individually reviewed; exact dictionary accent matches recorded, others provisional under standing authorization. All 315 cumulative clips passed PCM silence checks; twelve-page mobile layout and speaker lookup passed. No audible pitch verification claimed.
+
+Page 12 correction: 魚介類 and 車海老 regenerated with explicit compact connected mora timing and retained dictionary accents 2 and 3, using Marin 1.0. Replacement file durations: 1.608 s and 1.368 s. All 315 clips passed decoded PCM silence checks; no audible listening verification claimed.
+
+Ingredient page 13 — 魚の下処理: 14 vocabulary/action phrases plus heading. Six existing 図鑑 Marin clips reused directly, nine new clips generated at 1.0. Contextual object を inputs reviewed as お; short action phrases kept continuous. Exact dictionary accents retained where available, phrase intonation provisional. All 330 cumulative clips passed decoded PCM silence checks; mobile two-column layout and speaker lookup passed. No audible listening verification claimed.
+
+Page 13 correction: 頭を落とす regenerated after user reported a male-sounding voice, with guidance for consistent normal Marin register and connected あたまおおとす input at 1.0. Replacement passed targeted decoded PCM check. Voice timbre and audible pitch not listening-verified.
+
+Ingredient page 14 — 魚料理: 19 terms plus heading, 9 recordings reused directly and 11 new Marin 1.0 recordings. Supplied readings reviewed, including こぶじめ and しめさば; dictionary accents where available, provisional intonation otherwise. All 350 cumulative clips passed decoded PCM checks. Fourteen-page mobile layout and speaker lookup passed; no audible pitch verification claimed.
+
+Ingredient page 15 — 海藻: 28 terms plus heading, 13 existing recordings reused directly and 16 new Marin 1.0 recordings. All supplied readings reviewed, including らうすこんぶ and えんぞうわかめ; exact dictionary accents retained where available, others provisional. All 379 cumulative clips passed decoded PCM silence checks; fifteen-page mobile layout and speaker lookup passed. No audible pitch verification claimed.
+
+Ingredient page 16 — 米の基本・種類: 24 terms including 米/お米 aliases plus heading. Two existing recordings reused directly, 23 new Marin 1.0 recordings. All supplied readings reviewed in rice context; lexical は preserved, exact dictionary accent matches retained, remaining compounds provisional. All 404 cumulative clips passed decoded PCM silence checks. Sixteen-page mobile layout and speaker lookup passed; no audible pitch verification claimed.
+
+Page 16 corrections: もち米, 胚芽米 and 無洗米 regenerated at Marin 1.0 with explicit compact connected delivery. Dictionary heiban targets retained for もちごめ/はいがまい; むせんまい intonation remains provisional. Replacement durations 1.320 s, 1.320 s and 1.608 s respectively. All 404 clips passed decoded PCM silence checks; audible pitch/timbre not listening-verified.
+
+Ingredient page 17 — 米の品種・産地: 21 terms plus heading, 22 new Marin 1.0 recordings; no matching 図鑑 clips available. Supplied readings reviewed in rice/cultivar context; exact dictionary accents retained, other compounds provisional. All 426 cumulative clips passed decoded PCM silence checks. Seventeen-page mobile layout and speaker lookup passed; no audible pitch verification claimed.
+
+Page 17 corrections: 新潟県産, 魚沼産 and 精米 regenerated at Marin 1.0 with compact connected timing guidance. 精米 dictionary accent 0 retained; region compounds remain provisional. All 426 clips passed decoded PCM silence checks; audible pacing and pitch not listening-verified.
+
+Second page 17 pacing retry: 魚沼産 and 精米 regenerated at Marin 1.0 with explicit brief everyday delivery targets. File durations 2.160 s and 1.560 s; duration alone does not verify audible pacing. All 426 clips passed decoded PCM checks. No listening verification claimed.
+
+魚沼産 context retry: supplied Uonuma as a geographical region in Niigata Prefecture and 産 as rice-origin suffix. Speech input remains reviewed うおぬまさん; Marin 1.0. Targeted PCM check passed; audible pronunciation not listening-verified.
+
+Ingredient page 18 — 米の炊き方: 23 terms/actions plus heading, 24 new Marin 1.0 recordings. All contextual readings and object particles reviewed, lexical は retained. Exact dictionary targets recorded where available; phrase intonation provisional. All 450 cumulative clips passed decoded PCM silence checks; mobile two-column layout and speaker lookup passed. No audible pitch verification claimed. Accepted 魚沼産 context recording preserved.
+
+Page 18 correction: 米を研ぐ regenerated with dictionary component accents 米 2 and 研ぐ 1, rice-washing context and connected object particle. Whole-phrase intonation remains provisional. 炊飯 regenerated with compact connected delivery and dictionary accent 0. Marin 1.0; all 450 clips passed PCM silence checks; audible pitch not listening-verified.
+
+Ingredient page 19 — 炊飯の道具・計量: 14 terms plus heading, six 図鑑 recordings reused directly and nine new Marin 1.0 recordings. Contextual readings reviewed, including rice-volume 合 and serving 膳. Exact dictionary targets retained, others provisional. All 465 cumulative clips passed decoded PCM silence checks; nineteen-page mobile layout and speaker lookup passed. No audible pitch verification claimed.
+
+三合 regenerated at Marin 1.0 after reported buzzing, with clear steady voice guidance and rice-counter context. Targeted PCM check passed; audible timbre not listening-verified. Ingredient deck scope saved: finish at page 26, skip source pages 27–28.
+
+Ingredient page 20 — 米料理・寿司: 44 terms including aliases plus heading, nine recordings reused directly and 36 new Marin 1.0 recordings. Supplied readings reviewed in culinary context; exact dictionary targets retained, remaining compounds provisional. All 510 cumulative clips passed decoded PCM silence checks; twenty-page mobile layout and speaker lookup passed. No audible pitch verification claimed. Stop at page 26; source pages 27–28 remain excluded.
+
+Page 20 corrections: 赤飯 and 炊き込みご飯 replaced with new Marin 1.0 clips after user reported unnatural sound. Specific dish context and compact connected timing supplied, dictionary accents 0 and 5 retained. Original 図鑑 files untouched. All 510 clips passed decoded PCM checks; no audible pitch/timbre verification claimed.

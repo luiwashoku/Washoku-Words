@@ -1,5 +1,19 @@
 [
   {
+    "id": "ingredient-cards",
+    "category": "food-culture",
+    "page": "Ingredient reference",
+    "sortOrder": -1,
+    "title": "食材カード",
+    "menuColor": "purple",
+    "gameMode": "vocabulary-cards",
+    "readingCards": true,
+    "ordered": true,
+    "vocabularyColumns": 2,
+    "file": "data/ingredient-cards.json",
+    "questionCount": 20
+  },
+  {
     "id": "food-reference-cards",
     "category": "basics",
     "page": 0.5,

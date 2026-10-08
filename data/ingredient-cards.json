@@ -1,0 +1,2650 @@
+{
+  "title": "食材カード",
+  "entries": [
+    {
+      "id": "ingredient-card-01",
+      "step": 1,
+      "kanji": "香味野菜(こうみやさい)・薬味(やくみ)・ハーブ",
+      "japanese": "こうみやさい、やくみ、はーぶ",
+      "english": "Aromatics, Condiments & Herbs",
+      "blocks": [
+        {
+          "japanese": "香味野菜(こうみやさい)",
+          "english": "aromatic vegetables used to add flavour",
+          "speech": "こうみやさい"
+        },
+        {
+          "japanese": "薬味(やくみ)",
+          "english": "aromatic garnishes or condiments",
+          "speech": "やくみ"
+        },
+        {
+          "japanese": "ねぎ",
+          "english": "spring onion / Japanese bunching onion",
+          "speech": "ねぎ"
+        },
+        {
+          "japanese": "長ねぎ(ながねぎ)",
+          "english": "long Japanese bunching onion",
+          "speech": "ながねぎ"
+        },
+        {
+          "japanese": "白ねぎ(しろねぎ)",
+          "english": "bunching onion grown for its long white section",
+          "speech": "しろねぎ"
+        },
+        {
+          "japanese": "青ねぎ(あおねぎ)",
+          "english": "green onion grown mainly for its green leaves",
+          "speech": "あおねぎ"
+        },
+        {
+          "japanese": "小ねぎ(こねぎ)",
+          "english": "thin green onion",
+          "speech": "こねぎ"
+        },
+        {
+          "japanese": "万能ねぎ(ばんのうねぎ)",
+          "english": "thin young green onion sold for versatile use",
+          "speech": "ばんのうねぎ"
+        },
+        {
+          "japanese": "九条ねぎ(くじょうねぎ)",
+          "english": "Kujo green onion",
+          "speech": "くじょうねぎ"
+        },
+        {
+          "japanese": "下仁田ねぎ(しもにたねぎ)",
+          "english": "thick Shimonita bunching onion",
+          "speech": "しもにたねぎ"
+        },
+        {
+          "japanese": "わけぎ",
+          "english": "a small onion-like allium used for its greens",
+          "speech": "わけぎ"
+        },
+        {
+          "japanese": "玉ねぎ(たまねぎ)",
+          "english": "onion",
+          "speech": "たまねぎ"
+        },
+        {
+          "japanese": "新玉ねぎ(しんたまねぎ)",
+          "english": "newly harvested onion; usually mild and juicy",
+          "speech": "しんたまねぎ"
+        },
+        {
+          "japanese": "赤玉ねぎ(あかたまねぎ)",
+          "english": "red onion",
+          "speech": "あかたまねぎ"
+        },
+        {
+          "japanese": "紫玉ねぎ(むらさきたまねぎ)",
+          "english": "red onion",
+          "speech": "むらさきたまねぎ"
+        },
+        {
+          "japanese": "にんにく",
+          "english": "garlic",
+          "speech": "にんにく"
+        },
+        {
+          "japanese": "にんにくの芽(にんにくのめ)",
+          "english": "garlic shoots / scapes",
+          "speech": "にんにくのめ"
+        },
+        {
+          "japanese": "にら",
+          "english": "garlic chives",
+          "speech": "にら"
+        },
+        {
+          "japanese": "黄にら(きにら)",
+          "english": "yellow garlic chives grown without light",
+          "speech": "きにら"
+        },
+        {
+          "japanese": "らっきょう",
+          "english": "small allium bulbs, often pickled",
+          "speech": "らっきょう"
+        },
+        {
+          "japanese": "エシャレット",
+          "english": "young rakkyo bulbs, often eaten raw",
+          "speech": "えしゃれっと"
+        },
+        {
+          "japanese": "エシャロット",
+          "english": "shallot",
+          "speech": "えしゃろっと"
+        },
+        {
+          "japanese": "リーキ",
+          "english": "leek",
+          "speech": "りーき"
+        },
+        {
+          "japanese": "ポロねぎ",
+          "english": "leek",
+          "speech": "ぽろねぎ"
+        },
+        {
+          "japanese": "生姜(しょうが)",
+          "english": "ginger",
+          "speech": "しょうが"
+        },
+        {
+          "japanese": "新生姜(しんしょうが)",
+          "english": "young ginger",
+          "speech": "しんしょうが"
+        },
+        {
+          "japanese": "おろし生姜(おろししょうが)",
+          "english": "grated ginger",
+          "speech": "おろししょうが"
+        },
+        {
+          "japanese": "茗荷(みょうが)",
+          "english": "myoga; Japanese ginger buds",
+          "speech": "みょうが"
+        },
+        {
+          "japanese": "紫蘇(しそ)",
+          "english": "shiso / perilla",
+          "speech": "しそ"
+        },
+        {
+          "japanese": "青紫蘇(あおじそ)",
+          "english": "green shiso / green shiso leaf",
+          "speech": "あおじそ"
+        },
+        {
+          "japanese": "大葉(おおば)",
+          "english": "green shiso / green shiso leaf",
+          "speech": "おおば"
+        },
+        {
+          "japanese": "赤紫蘇(あかじそ)",
+          "english": "red shiso",
+          "speech": "あかじそ"
+        },
+        {
+          "japanese": "三つ葉(みつば)",
+          "english": "mitsuba / Japanese parsley",
+          "speech": "みつば"
+        },
+        {
+          "japanese": "芹(せり)",
+          "english": "Japanese water dropwort",
+          "speech": "せり"
+        },
+        {
+          "japanese": "セロリ",
+          "english": "celery",
+          "speech": "せろり"
+        },
+        {
+          "japanese": "わさび",
+          "english": "wasabi",
+          "speech": "わさび"
+        },
+        {
+          "japanese": "山椒(さんしょう)",
+          "english": "Japanese pepper",
+          "speech": "さんしょう"
+        },
+        {
+          "japanese": "粉山椒(こなざんしょう)",
+          "english": "ground Japanese pepper",
+          "speech": "こなざんしょう"
+        },
+        {
+          "japanese": "実山椒(みざんしょう)",
+          "english": "Japanese pepper berries",
+          "speech": "みざんしょう"
+        },
+        {
+          "japanese": "木の芽(きのめ)",
+          "english": "young sansho leaves used as a garnish",
+          "speech": "きのめ"
+        },
+        {
+          "japanese": "柚子(ゆず)",
+          "english": "yuzu",
+          "speech": "ゆず"
+        },
+        {
+          "japanese": "すだち",
+          "english": "sudachi; a small tart citrus",
+          "speech": "すだち"
+        },
+        {
+          "japanese": "かぼす",
+          "english": "kabosu; a tart citrus",
+          "speech": "かぼす"
+        },
+        {
+          "japanese": "柚子胡椒(ゆずこしょう)",
+          "english": "condiment made with yuzu peel, chilli and salt",
+          "speech": "ゆずこしょう"
+        },
+        {
+          "japanese": "大根おろし(だいこんおろし)",
+          "english": "grated daikon",
+          "speech": "だいこんおろし"
+        },
+        {
+          "japanese": "胡麻(ごま)",
+          "english": "sesame",
+          "speech": "ごま"
+        },
+        {
+          "japanese": "白胡麻(しろごま)",
+          "english": "white sesame",
+          "speech": "しろごま"
+        },
+        {
+          "japanese": "黒胡麻(くろごま)",
+          "english": "black sesame",
+          "speech": "くろごま"
+        },
+        {
+          "japanese": "すり胡麻(すりごま)",
+          "english": "ground sesame",
+          "speech": "すりごま"
+        },
+        {
+          "japanese": "煎り胡麻(いりごま)",
+          "english": "toasted sesame",
+          "speech": "いりごま"
+        },
+        {
+          "japanese": "唐辛子(とうがらし)",
+          "english": "chilli pepper",
+          "speech": "とうがらし"
+        },
+        {
+          "japanese": "鷹の爪(たかのつめ)",
+          "english": "small hot chilli, commonly used dried",
+          "speech": "たかのつめ"
+        },
+        {
+          "japanese": "一味唐辛子(いちみとうがらし)",
+          "english": "ground chilli pepper",
+          "speech": "いちみとうがらし"
+        },
+        {
+          "japanese": "七味唐辛子(しちみとうがらし)",
+          "english": "Japanese seven-spice seasoning",
+          "speech": "しちみとうがらし"
+        },
+        {
+          "japanese": "バジル",
+          "english": "basil",
+          "speech": "ばじる"
+        },
+        {
+          "japanese": "パセリ",
+          "english": "parsley",
+          "speech": "ぱせり"
+        },
+        {
+          "japanese": "パクチー",
+          "english": "coriander / cilantro",
+          "speech": "ぱくちー"
+        },
+        {
+          "japanese": "ミント",
+          "english": "mint",
+          "speech": "みんと"
+        },
+        {
+          "japanese": "ローズマリー",
+          "english": "rosemary",
+          "speech": "ろーずまりー"
+        },
+        {
+          "japanese": "タイム",
+          "english": "thyme",
+          "speech": "たいむ"
+        },
+        {
+          "japanese": "ローリエ",
+          "english": "bay leaf",
+          "speech": "ろーりえ"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-02",
+      "step": 2,
+      "kanji": "葉物野菜(はものやさい)",
+      "japanese": "はものやさい",
+      "english": "Leafy Vegetables",
+      "blocks": [
+        {
+          "japanese": "野菜(やさい)",
+          "english": "vegetables",
+          "speech": "やさい"
+        },
+        {
+          "japanese": "葉物野菜(はものやさい)",
+          "english": "leafy vegetables",
+          "speech": "はものやさい"
+        },
+        {
+          "japanese": "白菜(はくさい)",
+          "english": "napa cabbage / Chinese cabbage",
+          "speech": "はくさい"
+        },
+        {
+          "japanese": "キャベツ",
+          "english": "cabbage",
+          "speech": "きゃべつ"
+        },
+        {
+          "japanese": "春キャベツ(はるキャベツ)",
+          "english": "spring cabbage",
+          "speech": "はるきゃべつ"
+        },
+        {
+          "japanese": "紫キャベツ(むらさきキャベツ)",
+          "english": "red / purple cabbage",
+          "speech": "むらさききゃべつ"
+        },
+        {
+          "japanese": "芽キャベツ(めキャベツ)",
+          "english": "Brussels sprouts",
+          "speech": "めきゃべつ"
+        },
+        {
+          "japanese": "レタス",
+          "english": "lettuce",
+          "speech": "れたす"
+        },
+        {
+          "japanese": "サニーレタス",
+          "english": "red leaf lettuce",
+          "speech": "さにーれたす"
+        },
+        {
+          "japanese": "リーフレタス",
+          "english": "leaf lettuce",
+          "speech": "りーふれたす"
+        },
+        {
+          "japanese": "ロメインレタス",
+          "english": "romaine lettuce",
+          "speech": "ろめいんれたす"
+        },
+        {
+          "japanese": "サラダ菜(サラダな)",
+          "english": "butterhead-type lettuce",
+          "speech": "さらだな"
+        },
+        {
+          "japanese": "ほうれん草(ほうれんそう)",
+          "english": "spinach",
+          "speech": "ほうれんそう"
+        },
+        {
+          "japanese": "小松菜(こまつな)",
+          "english": "komatsuna / Japanese mustard spinach",
+          "speech": "こまつな"
+        },
+        {
+          "japanese": "青梗菜(ちんげんさい)",
+          "english": "bok choy",
+          "speech": "ちんげんさい"
+        },
+        {
+          "japanese": "水菜(みずな)",
+          "english": "mizuna",
+          "speech": "みずな"
+        },
+        {
+          "japanese": "春菊(しゅんぎく)",
+          "english": "edible chrysanthemum greens",
+          "speech": "しゅんぎく"
+        },
+        {
+          "japanese": "菜の花(なのはな)",
+          "english": "flowering brassica shoots / nanohana",
+          "speech": "なのはな"
+        },
+        {
+          "japanese": "からし菜(からしな)",
+          "english": "mustard greens",
+          "speech": "からしな"
+        },
+        {
+          "japanese": "高菜(たかな)",
+          "english": "takana mustard greens; often pickled",
+          "speech": "たかな"
+        },
+        {
+          "japanese": "野沢菜(のざわな)",
+          "english": "nozawana greens; often pickled",
+          "speech": "のざわな"
+        },
+        {
+          "japanese": "空芯菜(くうしんさい)",
+          "english": "water spinach",
+          "speech": "くうしんさい"
+        },
+        {
+          "japanese": "おかひじき",
+          "english": "saltwort; a crunchy leafy vegetable",
+          "speech": "おかひじき"
+        },
+        {
+          "japanese": "つるむらさき",
+          "english": "Malabar spinach",
+          "speech": "つるむらさき"
+        },
+        {
+          "japanese": "モロヘイヤ",
+          "english": "molokhia / jute leaves",
+          "speech": "もろへいや"
+        },
+        {
+          "japanese": "ケール",
+          "english": "kale",
+          "speech": "けーる"
+        },
+        {
+          "japanese": "ルッコラ",
+          "english": "rocket / arugula",
+          "speech": "るっこら"
+        },
+        {
+          "japanese": "クレソン",
+          "english": "watercress",
+          "speech": "くれそん"
+        },
+        {
+          "japanese": "トレビス",
+          "english": "radicchio",
+          "speech": "とれびす"
+        },
+        {
+          "japanese": "エンダイブ",
+          "english": "endive",
+          "speech": "えんだいぶ"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-03",
+      "step": 3,
+      "kanji": "根菜(こんさい)・芋類(いもるい)",
+      "japanese": "こんさい、いもるい",
+      "english": "Root Vegetables & Tubers",
+      "blocks": [
+        {
+          "japanese": "根菜(こんさい)",
+          "english": "root vegetables",
+          "speech": "こんさい"
+        },
+        {
+          "japanese": "芋類(いもるい)",
+          "english": "tubers and similar starchy vegetables",
+          "speech": "いもるい"
+        },
+        {
+          "japanese": "大根(だいこん)",
+          "english": "daikon radish",
+          "speech": "だいこん"
+        },
+        {
+          "japanese": "青首大根(あおくびだいこん)",
+          "english": "daikon with a green upper section",
+          "speech": "あおくびだいこん"
+        },
+        {
+          "japanese": "聖護院大根(しょうごいんだいこん)",
+          "english": "large round daikon",
+          "speech": "しょうごいんだいこん"
+        },
+        {
+          "japanese": "かぶ",
+          "english": "turnip",
+          "speech": "かぶ"
+        },
+        {
+          "japanese": "赤かぶ(あかかぶ)",
+          "english": "red turnip",
+          "speech": "あかかぶ"
+        },
+        {
+          "japanese": "ラディッシュ",
+          "english": "radish",
+          "speech": "らでぃっしゅ"
+        },
+        {
+          "japanese": "人参(にんじん)",
+          "english": "carrot",
+          "speech": "にんじん"
+        },
+        {
+          "japanese": "金時人参(きんときにんじん)",
+          "english": "deep-red Japanese carrot",
+          "speech": "きんときにんじん"
+        },
+        {
+          "japanese": "ごぼう",
+          "english": "burdock root",
+          "speech": "ごぼう"
+        },
+        {
+          "japanese": "蓮根(れんこん)",
+          "english": "lotus root",
+          "speech": "れんこん"
+        },
+        {
+          "japanese": "ビーツ",
+          "english": "beetroot",
+          "speech": "びーつ"
+        },
+        {
+          "japanese": "じゃがいも",
+          "english": "potato",
+          "speech": "じゃがいも"
+        },
+        {
+          "japanese": "男爵(だんしゃく)",
+          "english": "Danshaku potato; a floury variety",
+          "speech": "だんしゃく"
+        },
+        {
+          "japanese": "メークイン",
+          "english": "May Queen potato; a firmer variety",
+          "speech": "めーくいん"
+        },
+        {
+          "japanese": "新じゃが(しんじゃが)",
+          "english": "newly harvested potato",
+          "speech": "しんじゃが"
+        },
+        {
+          "japanese": "さつまいも",
+          "english": "sweet potato",
+          "speech": "さつまいも"
+        },
+        {
+          "japanese": "安納芋(あんのういも)",
+          "english": "Anno sweet potato",
+          "speech": "あんのういも"
+        },
+        {
+          "japanese": "里芋(さといも)",
+          "english": "taro",
+          "speech": "さといも"
+        },
+        {
+          "japanese": "海老芋(えびいも)",
+          "english": "a curved variety of taro",
+          "speech": "えびいも"
+        },
+        {
+          "japanese": "長芋(ながいも)",
+          "english": "nagaimo; a long yam, often grated or eaten raw",
+          "speech": "ながいも"
+        },
+        {
+          "japanese": "山芋(やまいも)",
+          "english": "general culinary term for Japanese yams",
+          "speech": "やまいも"
+        },
+        {
+          "japanese": "大和芋(やまといも)",
+          "english": "yam with a thick, sticky texture when grated",
+          "speech": "やまといも"
+        },
+        {
+          "japanese": "自然薯(じねんじょ)",
+          "english": "Japanese wild yam",
+          "speech": "じねんじょ"
+        },
+        {
+          "japanese": "菊芋(きくいも)",
+          "english": "Jerusalem artichoke",
+          "speech": "きくいも"
+        },
+        {
+          "japanese": "こんにゃく芋(こんにゃくいも)",
+          "english": "konjac tuber",
+          "speech": "こんにゃくいも"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-04",
+      "step": 4,
+      "kanji": "実(み)を食(た)べる野菜(やさい)",
+      "japanese": "みをたべるやさい",
+      "english": "Vegetables Eaten for Their Fruits",
+      "blocks": [
+        {
+          "japanese": "トマト",
+          "english": "tomato",
+          "speech": "とまと"
+        },
+        {
+          "japanese": "ミニトマト",
+          "english": "cherry tomato",
+          "speech": "みにとまと"
+        },
+        {
+          "japanese": "フルーツトマト",
+          "english": "tomato grown or selected for high sweetness",
+          "speech": "ふるーつとまと"
+        },
+        {
+          "japanese": "きゅうり",
+          "english": "cucumber",
+          "speech": "きゅうり"
+        },
+        {
+          "japanese": "なす",
+          "english": "aubergine / eggplant",
+          "speech": "なす"
+        },
+        {
+          "japanese": "長なす(ながなす)",
+          "english": "long aubergine",
+          "speech": "ながなす"
+        },
+        {
+          "japanese": "米なす(べいなす)",
+          "english": "large, rounded Western-type aubergine",
+          "speech": "べいなす"
+        },
+        {
+          "japanese": "水なす(みずなす)",
+          "english": "juicy aubergine, often eaten pickled or raw",
+          "speech": "みずなす"
+        },
+        {
+          "japanese": "賀茂なす(かもなす)",
+          "english": "round Kamo aubergine",
+          "speech": "かもなす"
+        },
+        {
+          "japanese": "ピーマン",
+          "english": "green pepper; usually smaller and thinner-walled than a bell pepper",
+          "speech": "ぴーまん"
+        },
+        {
+          "japanese": "パプリカ",
+          "english": "sweet bell pepper",
+          "speech": "ぱぷりか"
+        },
+        {
+          "japanese": "ししとう",
+          "english": "shishito pepper",
+          "speech": "ししとう"
+        },
+        {
+          "japanese": "万願寺とうがらし(まんがんじとうがらし)",
+          "english": "large, usually mild Manganji pepper",
+          "speech": "まんがんじとうがらし"
+        },
+        {
+          "japanese": "伏見とうがらし(ふしみとうがらし)",
+          "english": "long, usually mild Fushimi pepper",
+          "speech": "ふしみとうがらし"
+        },
+        {
+          "japanese": "かぼちゃ",
+          "english": "pumpkin / winter squash",
+          "speech": "かぼちゃ"
+        },
+        {
+          "japanese": "ズッキーニ",
+          "english": "courgette / zucchini",
+          "speech": "ずっきーに"
+        },
+        {
+          "japanese": "冬瓜(とうがん)",
+          "english": "winter melon / wax gourd",
+          "speech": "とうがん"
+        },
+        {
+          "japanese": "ゴーヤ",
+          "english": "bitter melon",
+          "speech": "ごーや"
+        },
+        {
+          "japanese": "苦瓜(にがうり)",
+          "english": "bitter melon",
+          "speech": "にがうり"
+        },
+        {
+          "japanese": "オクラ",
+          "english": "okra",
+          "speech": "おくら"
+        },
+        {
+          "japanese": "とうもろこし",
+          "english": "sweetcorn / corn",
+          "speech": "とうもろこし"
+        },
+        {
+          "japanese": "ヤングコーン",
+          "english": "baby corn",
+          "speech": "やんぐこーん"
+        },
+        {
+          "japanese": "はやとうり",
+          "english": "chayote",
+          "speech": "はやとうり"
+        },
+        {
+          "japanese": "白うり(しろうり)",
+          "english": "pale pickling melon",
+          "speech": "しろうり"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-05",
+      "step": 5,
+      "kanji": "豆類(まめるい)",
+      "japanese": "まめるい",
+      "english": "Beans & Peas",
+      "blocks": [
+        {
+          "japanese": "豆類(まめるい)",
+          "english": "beans and peas / legumes",
+          "speech": "まめるい"
+        },
+        {
+          "japanese": "枝豆(えだまめ)",
+          "english": "immature green soybeans",
+          "speech": "えだまめ"
+        },
+        {
+          "japanese": "そら豆(そらまめ)",
+          "english": "broad beans / fava beans",
+          "speech": "そらまめ"
+        },
+        {
+          "japanese": "いんげん",
+          "english": "green beans",
+          "speech": "いんげん"
+        },
+        {
+          "japanese": "さやいんげん",
+          "english": "green beans",
+          "speech": "さやいんげん"
+        },
+        {
+          "japanese": "さやえんどう",
+          "english": "edible-podded peas",
+          "speech": "さやえんどう"
+        },
+        {
+          "japanese": "絹さや(きぬさや)",
+          "english": "snow peas",
+          "speech": "きぬさや"
+        },
+        {
+          "japanese": "スナップえんどう",
+          "english": "snap peas",
+          "speech": "すなっぷえんどう"
+        },
+        {
+          "japanese": "グリーンピース",
+          "english": "green peas",
+          "speech": "ぐりーんぴーす"
+        },
+        {
+          "japanese": "えんどう豆(えんどうまめ)",
+          "english": "peas",
+          "speech": "えんどうまめ"
+        },
+        {
+          "japanese": "うすいえんどう",
+          "english": "Usui peas",
+          "speech": "うすいえんどう"
+        },
+        {
+          "japanese": "ささげ",
+          "english": "cowpeas / yardlong beans, depending on the variety",
+          "speech": "ささげ"
+        },
+        {
+          "japanese": "十六ささげ(じゅうろくささげ)",
+          "english": "long-podded yardlong beans",
+          "speech": "じゅうろくささげ"
+        },
+        {
+          "japanese": "大豆(だいず)",
+          "english": "soybeans",
+          "speech": "だいず"
+        },
+        {
+          "japanese": "黒豆(くろまめ)",
+          "english": "black soybeans",
+          "speech": "くろまめ"
+        },
+        {
+          "japanese": "小豆(あずき)",
+          "english": "adzuki beans",
+          "speech": "あずき"
+        },
+        {
+          "japanese": "ひよこ豆(ひよこまめ)",
+          "english": "chickpeas",
+          "speech": "ひよこまめ"
+        },
+        {
+          "japanese": "レンズ豆(レンズまめ)",
+          "english": "lentils",
+          "speech": "れんずまめ"
+        },
+        {
+          "japanese": "金時豆(きんときまめ)",
+          "english": "red kidney-type beans",
+          "speech": "きんときまめ"
+        },
+        {
+          "japanese": "白いんげん豆(しろいんげんまめ)",
+          "english": "white beans",
+          "speech": "しろいんげんまめ"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-06",
+      "step": 6,
+      "kanji": "花(はな)・茎(くき)・芽(め)を食(た)べる野菜(やさい)",
+      "japanese": "はな、くき、めをたべるやさい",
+      "english": "Flowers, Stems & Shoots",
+      "blocks": [
+        {
+          "japanese": "ブロッコリー",
+          "english": "broccoli",
+          "speech": "ぶろっこりー"
+        },
+        {
+          "japanese": "カリフラワー",
+          "english": "cauliflower",
+          "speech": "かりふらわー"
+        },
+        {
+          "japanese": "ロマネスコ",
+          "english": "Romanesco",
+          "speech": "ろまねすこ"
+        },
+        {
+          "japanese": "アスパラガス",
+          "english": "asparagus",
+          "speech": "あすぱらがす"
+        },
+        {
+          "japanese": "グリーンアスパラガス",
+          "english": "green asparagus",
+          "speech": "ぐりーんあすぱらがす"
+        },
+        {
+          "japanese": "ホワイトアスパラガス",
+          "english": "white asparagus",
+          "speech": "ほわいとあすぱらがす"
+        },
+        {
+          "japanese": "たけのこ",
+          "english": "bamboo shoot",
+          "speech": "たけのこ"
+        },
+        {
+          "japanese": "ふき",
+          "english": "Japanese butterbur stalks",
+          "speech": "ふき"
+        },
+        {
+          "japanese": "ずいき",
+          "english": "edible taro leaf stalks",
+          "speech": "ずいき"
+        },
+        {
+          "japanese": "うど",
+          "english": "udo; an aromatic edible shoot",
+          "speech": "うど"
+        },
+        {
+          "japanese": "アーティチョーク",
+          "english": "artichoke",
+          "speech": "あーてぃちょーく"
+        },
+        {
+          "japanese": "食用菊(しょくようぎく)",
+          "english": "edible chrysanthemum flowers",
+          "speech": "しょくようぎく"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-07",
+      "step": 7,
+      "kanji": "山菜(さんさい)",
+      "japanese": "さんさい",
+      "english": "Wild Mountain Vegetables",
+      "blocks": [
+        {
+          "japanese": "山菜(さんさい)",
+          "english": "edible wild plants / mountain vegetables",
+          "speech": "さんさい"
+        },
+        {
+          "japanese": "わらび",
+          "english": "bracken shoots",
+          "speech": "わらび"
+        },
+        {
+          "japanese": "ぜんまい",
+          "english": "royal fern shoots",
+          "speech": "ぜんまい"
+        },
+        {
+          "japanese": "こごみ",
+          "english": "ostrich fern fiddleheads",
+          "speech": "こごみ"
+        },
+        {
+          "japanese": "たらの芽(たらのめ)",
+          "english": "Japanese angelica-tree shoots",
+          "speech": "たらのめ"
+        },
+        {
+          "japanese": "ふきのとう",
+          "english": "butterbur flower buds",
+          "speech": "ふきのとう"
+        },
+        {
+          "japanese": "行者にんにく(ぎょうじゃにんにく)",
+          "english": "a wild garlic-like allium",
+          "speech": "ぎょうじゃにんにく"
+        },
+        {
+          "japanese": "こしあぶら",
+          "english": "edible tree shoots with a distinctive aroma",
+          "speech": "こしあぶら"
+        },
+        {
+          "japanese": "よもぎ",
+          "english": "Japanese mugwort",
+          "speech": "よもぎ"
+        },
+        {
+          "japanese": "つくし",
+          "english": "field horsetail shoots",
+          "speech": "つくし"
+        },
+        {
+          "japanese": "根曲がり竹(ねまがりだけ)",
+          "english": "slender bamboo shoots",
+          "speech": "ねまがりだけ"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-08",
+      "step": 8,
+      "kanji": "もやし・スプラウト",
+      "japanese": "もやし、すぷらうと",
+      "english": "Sprouts & Microgreens",
+      "blocks": [
+        {
+          "japanese": "もやし",
+          "english": "bean sprouts",
+          "speech": "もやし"
+        },
+        {
+          "japanese": "緑豆もやし(りょくとうもやし)",
+          "english": "mung bean sprouts",
+          "speech": "りょくとうもやし"
+        },
+        {
+          "japanese": "大豆もやし(だいずもやし)",
+          "english": "soybean sprouts",
+          "speech": "だいずもやし"
+        },
+        {
+          "japanese": "かいわれ大根(かいわれだいこん)",
+          "english": "daikon sprouts",
+          "speech": "かいわれだいこん"
+        },
+        {
+          "japanese": "ブロッコリースプラウト",
+          "english": "broccoli sprouts",
+          "speech": "ぶろっこりーすぷらうと"
+        },
+        {
+          "japanese": "アルファルファ",
+          "english": "alfalfa sprouts",
+          "speech": "あるふぁるふぁ"
+        },
+        {
+          "japanese": "豆苗(とうみょう)",
+          "english": "pea shoots",
+          "speech": "とうみょう"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-09",
+      "step": 9,
+      "kanji": "きのこ",
+      "japanese": "きのこ",
+      "english": "Mushrooms",
+      "blocks": [
+        {
+          "japanese": "椎茸(しいたけ)",
+          "english": "shiitake",
+          "speech": "しいたけ"
+        },
+        {
+          "japanese": "干し椎茸(ほししいたけ)",
+          "english": "dried shiitake",
+          "speech": "ほししいたけ"
+        },
+        {
+          "japanese": "しめじ",
+          "english": "shimeji mushrooms",
+          "speech": "しめじ"
+        },
+        {
+          "japanese": "ぶなしめじ",
+          "english": "buna-shimeji / beech mushrooms",
+          "speech": "ぶなしめじ"
+        },
+        {
+          "japanese": "舞茸(まいたけ)",
+          "english": "maitake / hen-of-the-woods",
+          "speech": "まいたけ"
+        },
+        {
+          "japanese": "えのき",
+          "english": "enoki",
+          "speech": "えのき"
+        },
+        {
+          "japanese": "エリンギ",
+          "english": "king oyster mushroom",
+          "speech": "えりんぎ"
+        },
+        {
+          "japanese": "なめこ",
+          "english": "nameko; small mushrooms with a slippery coating",
+          "speech": "なめこ"
+        },
+        {
+          "japanese": "松茸(まつたけ)",
+          "english": "matsutake",
+          "speech": "まつたけ"
+        },
+        {
+          "japanese": "きくらげ",
+          "english": "wood ear mushroom",
+          "speech": "きくらげ"
+        },
+        {
+          "japanese": "マッシュルーム",
+          "english": "button mushroom",
+          "speech": "まっしゅるーむ"
+        },
+        {
+          "japanese": "平茸(ひらたけ)",
+          "english": "oyster mushroom",
+          "speech": "ひらたけ"
+        },
+        {
+          "japanese": "傘(かさ)",
+          "english": "mushroom cap",
+          "speech": "かさ"
+        },
+        {
+          "japanese": "軸(じく)",
+          "english": "mushroom stem",
+          "speech": "じく"
+        },
+        {
+          "japanese": "石づき(いしづき)",
+          "english": "the tough or dirty base of the stem",
+          "speech": "いしづき"
+        },
+        {
+          "japanese": "石(いし)づきを落(お)とす",
+          "english": "trim off the stem base",
+          "speech": "いしづきをおとす"
+        },
+        {
+          "japanese": "戻し汁(もどしじる)",
+          "english": "liquid left after rehydrating dried ingredients",
+          "speech": "もどしじる"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-10",
+      "step": 10,
+      "kanji": "大豆製品(だいずせいひん)",
+      "japanese": "だいずせいひん",
+      "english": "Soy Products",
+      "blocks": [
+        {
+          "japanese": "水煮(みずに)",
+          "english": "boiled in water; often sold ready to use",
+          "speech": "みずに"
+        },
+        {
+          "japanese": "蒸し大豆(むしだいず)",
+          "english": "steamed soybeans",
+          "speech": "むしだいず"
+        },
+        {
+          "japanese": "豆乳(とうにゅう)",
+          "english": "soy milk",
+          "speech": "とうにゅう"
+        },
+        {
+          "japanese": "おから",
+          "english": "soy pulp left after making soy milk",
+          "speech": "おから"
+        },
+        {
+          "japanese": "豆腐(とうふ)",
+          "english": "tofu",
+          "speech": "とうふ"
+        },
+        {
+          "japanese": "木綿豆腐(もめんどうふ)",
+          "english": "firm, pressed tofu",
+          "speech": "もめんどうふ"
+        },
+        {
+          "japanese": "絹ごし豆腐(きぬごしどうふ)",
+          "english": "silken tofu",
+          "speech": "きぬごしどうふ"
+        },
+        {
+          "japanese": "充填豆腐(じゅうてんどうふ)",
+          "english": "tofu set directly in its container",
+          "speech": "じゅうてんどうふ"
+        },
+        {
+          "japanese": "寄せ豆腐(よせどうふ)",
+          "english": "soft tofu scooped out before pressing",
+          "speech": "よせどうふ"
+        },
+        {
+          "japanese": "焼き豆腐(やきどうふ)",
+          "english": "tofu with a grilled surface",
+          "speech": "やきどうふ"
+        },
+        {
+          "japanese": "高野豆腐(こうやどうふ)",
+          "english": "freeze-dried tofu",
+          "speech": "こうやどうふ"
+        },
+        {
+          "japanese": "油揚げ(あぶらあげ)",
+          "english": "thin deep-fried tofu",
+          "speech": "あぶらあげ"
+        },
+        {
+          "japanese": "厚揚げ(あつあげ)",
+          "english": "thick deep-fried tofu",
+          "speech": "あつあげ"
+        },
+        {
+          "japanese": "がんもどき",
+          "english": "fried tofu fritter with vegetables and other ingredients",
+          "speech": "がんもどき"
+        },
+        {
+          "japanese": "湯葉(ゆば)",
+          "english": "soy milk skin",
+          "speech": "ゆば"
+        },
+        {
+          "japanese": "納豆(なっとう)",
+          "english": "fermented soybeans",
+          "speech": "なっとう"
+        },
+        {
+          "japanese": "味噌(みそ)",
+          "english": "fermented soybean paste",
+          "speech": "みそ"
+        },
+        {
+          "japanese": "白味噌(しろみそ)",
+          "english": "white miso",
+          "speech": "しろみそ"
+        },
+        {
+          "japanese": "赤味噌(あかみそ)",
+          "english": "red miso",
+          "speech": "あかみそ"
+        },
+        {
+          "japanese": "合わせ味噌(あわせみそ)",
+          "english": "blended miso",
+          "speech": "あわせみそ"
+        },
+        {
+          "japanese": "醤油(しょうゆ)",
+          "english": "soy sauce",
+          "speech": "しょうゆ"
+        },
+        {
+          "japanese": "濃口醤油(こいくちしょうゆ)",
+          "english": "standard dark-coloured Japanese soy sauce",
+          "speech": "こいくちしょうゆ"
+        },
+        {
+          "japanese": "薄口醤油(うすくちしょうゆ)",
+          "english": "lighter-coloured soy sauce; usually saltier than dark soy sauce",
+          "speech": "うすくちしょうゆ"
+        },
+        {
+          "japanese": "きな粉(きなこ)",
+          "english": "roasted soybean flour",
+          "speech": "きなこ"
+        },
+        {
+          "japanese": "にがり",
+          "english": "a mineral-rich coagulant used to make tofu",
+          "speech": "にがり"
+        },
+        {
+          "japanese": "水切り(みずきり)",
+          "english": "draining excess water",
+          "speech": "みずきり"
+        },
+        {
+          "japanese": "豆腐(とうふ)を崩(くず)す",
+          "english": "break or crumble tofu",
+          "speech": "とうふをくずす"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-11",
+      "step": 11,
+      "kanji": "魚(さかな)の名前(なまえ)",
+      "japanese": "さかなのなまえ",
+      "english": "Fish Names",
+      "blocks": [
+        {
+          "japanese": "鮭(さけ)",
+          "english": "salmon",
+          "speech": "さけ"
+        },
+        {
+          "japanese": "サーモン",
+          "english": "salmon; commonly used on menus, especially for sushi",
+          "speech": "さーもん"
+        },
+        {
+          "japanese": "まぐろ",
+          "english": "tuna",
+          "speech": "まぐろ"
+        },
+        {
+          "japanese": "かつお",
+          "english": "skipjack tuna / bonito",
+          "speech": "かつお"
+        },
+        {
+          "japanese": "鯖(さば)",
+          "english": "mackerel",
+          "speech": "さば"
+        },
+        {
+          "japanese": "鯵(あじ)",
+          "english": "horse mackerel",
+          "speech": "あじ"
+        },
+        {
+          "japanese": "鰯(いわし)",
+          "english": "sardine",
+          "speech": "いわし"
+        },
+        {
+          "japanese": "秋刀魚(さんま)",
+          "english": "Pacific saury",
+          "speech": "さんま"
+        },
+        {
+          "japanese": "鰤(ぶり)",
+          "english": "Japanese yellowtail",
+          "speech": "ぶり"
+        },
+        {
+          "japanese": "はまち",
+          "english": "a name for young yellowtail, especially in western Japan",
+          "speech": "はまち"
+        },
+        {
+          "japanese": "かんぱち",
+          "english": "greater amberjack",
+          "speech": "かんぱち"
+        },
+        {
+          "japanese": "鯛(たい)",
+          "english": "sea bream",
+          "speech": "たい"
+        },
+        {
+          "japanese": "真鯛(まだい)",
+          "english": "red sea bream",
+          "speech": "まだい"
+        },
+        {
+          "japanese": "鱈(たら)",
+          "english": "cod",
+          "speech": "たら"
+        },
+        {
+          "japanese": "鰆(さわら)",
+          "english": "Japanese Spanish mackerel",
+          "speech": "さわら"
+        },
+        {
+          "japanese": "鱸(すずき)",
+          "english": "Japanese sea bass",
+          "speech": "すずき"
+        },
+        {
+          "japanese": "平目(ひらめ)",
+          "english": "Japanese flounder",
+          "speech": "ひらめ"
+        },
+        {
+          "japanese": "鰈(かれい)",
+          "english": "righteye flounder / flatfish",
+          "speech": "かれい"
+        },
+        {
+          "japanese": "鰻(うなぎ)",
+          "english": "freshwater eel",
+          "speech": "うなぎ"
+        },
+        {
+          "japanese": "穴子(あなご)",
+          "english": "conger eel",
+          "speech": "あなご"
+        },
+        {
+          "japanese": "鱧(はも)",
+          "english": "daggertooth pike conger",
+          "speech": "はも"
+        },
+        {
+          "japanese": "鮎(あゆ)",
+          "english": "sweetfish",
+          "speech": "あゆ"
+        },
+        {
+          "japanese": "鱒(ます)",
+          "english": "trout",
+          "speech": "ます"
+        },
+        {
+          "japanese": "鰊(にしん)",
+          "english": "herring",
+          "speech": "にしん"
+        },
+        {
+          "japanese": "きす",
+          "english": "Japanese whiting",
+          "speech": "きす"
+        },
+        {
+          "japanese": "ふぐ",
+          "english": "pufferfish",
+          "speech": "ふぐ"
+        },
+        {
+          "japanese": "金目鯛(きんめだい)",
+          "english": "splendid alfonsino",
+          "speech": "きんめだい"
+        },
+        {
+          "japanese": "のどぐろ",
+          "english": "blackthroat seaperch",
+          "speech": "のどぐろ"
+        },
+        {
+          "japanese": "ほっけ",
+          "english": "Atka mackerel",
+          "speech": "ほっけ"
+        },
+        {
+          "japanese": "しらす",
+          "english": "tiny immature fish, usually sardines or anchovies",
+          "speech": "しらす"
+        },
+        {
+          "japanese": "ちりめんじゃこ",
+          "english": "small boiled and thoroughly dried fish",
+          "speech": "ちりめんじゃこ"
+        },
+        {
+          "japanese": "煮干し(にぼし)",
+          "english": "small boiled and dried fish, used for stock",
+          "speech": "にぼし"
+        },
+        {
+          "japanese": "鰹節(かつおぶし)",
+          "english": "dried, smoked bonito; often shaved into flakes",
+          "speech": "かつおぶし"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-12",
+      "step": 12,
+      "kanji": "魚以外(さかないがい)の魚介(ぎょかい)",
+      "japanese": "さかないがいのぎょかい",
+      "english": "Other Seafood",
+      "blocks": [
+        {
+          "japanese": "魚介類(ぎょかいるい)",
+          "english": "fish and shellfish / seafood",
+          "speech": "ぎょかいるい"
+        },
+        {
+          "japanese": "貝類(かいるい)",
+          "english": "shellfish, particularly molluscs",
+          "speech": "かいるい"
+        },
+        {
+          "japanese": "甲殻類(こうかくるい)",
+          "english": "crustaceans",
+          "speech": "こうかくるい"
+        },
+        {
+          "japanese": "海老(えび)",
+          "english": "shrimp / prawn",
+          "speech": "えび"
+        },
+        {
+          "japanese": "車海老(くるまえび)",
+          "english": "Japanese tiger prawn",
+          "speech": "くるまえび"
+        },
+        {
+          "japanese": "甘海老(あまえび)",
+          "english": "sweet shrimp",
+          "speech": "あまえび"
+        },
+        {
+          "japanese": "桜海老(さくらえび)",
+          "english": "sakura shrimp",
+          "speech": "さくらえび"
+        },
+        {
+          "japanese": "伊勢海老(いせえび)",
+          "english": "Japanese spiny lobster",
+          "speech": "いせえび"
+        },
+        {
+          "japanese": "蟹(かに)",
+          "english": "crab",
+          "speech": "かに"
+        },
+        {
+          "japanese": "ずわい蟹(ずわいがに)",
+          "english": "snow crab",
+          "speech": "ずわいがに"
+        },
+        {
+          "japanese": "毛蟹(けがに)",
+          "english": "horsehair crab",
+          "speech": "けがに"
+        },
+        {
+          "japanese": "たらば蟹(たらばがに)",
+          "english": "king crab",
+          "speech": "たらばがに"
+        },
+        {
+          "japanese": "烏賊(いか)",
+          "english": "squid",
+          "speech": "いか"
+        },
+        {
+          "japanese": "するめ烏賊(するめいか)",
+          "english": "Japanese flying squid",
+          "speech": "するめいか"
+        },
+        {
+          "japanese": "ほたる烏賊(ほたるいか)",
+          "english": "firefly squid",
+          "speech": "ほたるいか"
+        },
+        {
+          "japanese": "蛸(たこ)",
+          "english": "octopus",
+          "speech": "たこ"
+        },
+        {
+          "japanese": "牡蠣(かき)",
+          "english": "oyster",
+          "speech": "かき"
+        },
+        {
+          "japanese": "帆立(ほたて)",
+          "english": "scallop",
+          "speech": "ほたて"
+        },
+        {
+          "japanese": "あさり",
+          "english": "Manila clam",
+          "speech": "あさり"
+        },
+        {
+          "japanese": "しじみ",
+          "english": "small freshwater or brackish-water clam",
+          "speech": "しじみ"
+        },
+        {
+          "japanese": "蛤(はまぐり)",
+          "english": "hamaguri clam",
+          "speech": "はまぐり"
+        },
+        {
+          "japanese": "鮑(あわび)",
+          "english": "abalone",
+          "speech": "あわび"
+        },
+        {
+          "japanese": "さざえ",
+          "english": "turban shell",
+          "speech": "さざえ"
+        },
+        {
+          "japanese": "つぶ貝(つぶがい)",
+          "english": "whelk",
+          "speech": "つぶがい"
+        },
+        {
+          "japanese": "ほっき貝(ほっきがい)",
+          "english": "surf clam",
+          "speech": "ほっきがい"
+        },
+        {
+          "japanese": "赤貝(あかがい)",
+          "english": "ark shell",
+          "speech": "あかがい"
+        },
+        {
+          "japanese": "みる貝(みるがい)",
+          "english": "mirugai; a large clam prized for its siphon",
+          "speech": "みるがい"
+        },
+        {
+          "japanese": "ムール貝(ムールがい)",
+          "english": "mussel",
+          "speech": "むーるがい"
+        },
+        {
+          "japanese": "うに",
+          "english": "sea urchin; its edible reproductive organs",
+          "speech": "うに"
+        },
+        {
+          "japanese": "なまこ",
+          "english": "sea cucumber",
+          "speech": "なまこ"
+        },
+        {
+          "japanese": "いくら",
+          "english": "salmon roe",
+          "speech": "いくら"
+        },
+        {
+          "japanese": "筋子(すじこ)",
+          "english": "salmon roe still enclosed in its egg sac",
+          "speech": "すじこ"
+        },
+        {
+          "japanese": "たらこ",
+          "english": "salted pollock roe",
+          "speech": "たらこ"
+        },
+        {
+          "japanese": "明太子(めんたいこ)",
+          "english": "usually spicy seasoned pollock roe",
+          "speech": "めんたいこ"
+        },
+        {
+          "japanese": "数の子(かずのこ)",
+          "english": "herring roe",
+          "speech": "かずのこ"
+        },
+        {
+          "japanese": "とびこ",
+          "english": "flying fish roe",
+          "speech": "とびこ"
+        },
+        {
+          "japanese": "白子(しらこ)",
+          "english": "fish milt",
+          "speech": "しらこ"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-13",
+      "step": 13,
+      "kanji": "魚(さかな)の下処理(したしょり)",
+      "japanese": "さかなのしたしょり",
+      "english": "Preparing Fish",
+      "blocks": [
+        {
+          "japanese": "下処理(したしょり)",
+          "english": "preliminary preparation / cleaning",
+          "speech": "したしょり"
+        },
+        {
+          "japanese": "魚(さかな)をさばく",
+          "english": "clean, cut and prepare a fish",
+          "speech": "さかなをさばく"
+        },
+        {
+          "japanese": "鱗(うろこ)を取る(とる)",
+          "english": "remove the scales",
+          "speech": "うろこをとる"
+        },
+        {
+          "japanese": "内臓(ないぞう)を取る(とる)",
+          "english": "remove the innards",
+          "speech": "ないぞうをとる"
+        },
+        {
+          "japanese": "頭(あたま)を落とす(おとす)",
+          "english": "cut off the head",
+          "speech": "あたまをおとす"
+        },
+        {
+          "japanese": "三枚(さんまい)におろす",
+          "english": "fillet into two fillets and the central skeleton",
+          "speech": "さんまいにおろす"
+        },
+        {
+          "japanese": "二枚(にまい)におろす",
+          "english": "split into one fillet and one side with the backbone attached",
+          "speech": "にまいにおろす"
+        },
+        {
+          "japanese": "皮(かわ)を引く(ひく)",
+          "english": "remove the skin with a knife",
+          "speech": "かわをひく"
+        },
+        {
+          "japanese": "骨(ほね)を抜く(ぬく)",
+          "english": "remove the bones",
+          "speech": "ほねをぬく"
+        },
+        {
+          "japanese": "骨抜き(ほねぬき)",
+          "english": "fish-bone tweezers; also deboning",
+          "speech": "ほねぬき"
+        },
+        {
+          "japanese": "切り身(きりみ)",
+          "english": "a cut portion of fish",
+          "speech": "きりみ"
+        },
+        {
+          "japanese": "あら",
+          "english": "fish head, bones and other trimmings",
+          "speech": "あら"
+        },
+        {
+          "japanese": "小骨(こぼね)",
+          "english": "small fish bones",
+          "speech": "こぼね"
+        },
+        {
+          "japanese": "塩(しお)を振る(ふる)",
+          "english": "sprinkle with salt",
+          "speech": "しおをふる"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-14",
+      "step": 14,
+      "kanji": "魚料理(さかなりょうり)",
+      "japanese": "さかなりょうり",
+      "english": "Fish Dishes and Techniques",
+      "blocks": [
+        {
+          "japanese": "刺身(さしみ)",
+          "english": "sliced raw fish or seafood",
+          "speech": "さしみ"
+        },
+        {
+          "japanese": "塩焼き(しおやき)",
+          "english": "grilling with salt",
+          "speech": "しおやき"
+        },
+        {
+          "japanese": "照り焼き(てりやき)",
+          "english": "cooking with a glossy sweet soy glaze",
+          "speech": "てりやき"
+        },
+        {
+          "japanese": "煮付け(につけ)",
+          "english": "simmering in seasoned sauce",
+          "speech": "につけ"
+        },
+        {
+          "japanese": "酒蒸し(さかむし)",
+          "english": "steaming with sake",
+          "speech": "さかむし"
+        },
+        {
+          "japanese": "唐揚げ(からあげ)",
+          "english": "frying with a light flour or starch coating",
+          "speech": "からあげ"
+        },
+        {
+          "japanese": "フライ",
+          "english": "deep-frying with breadcrumbs",
+          "speech": "ふらい"
+        },
+        {
+          "japanese": "南蛮漬け(なんばんづけ)",
+          "english": "fried fish marinated in a vinegar-based sauce",
+          "speech": "なんばんづけ"
+        },
+        {
+          "japanese": "酢締め(すじめ)",
+          "english": "curing with vinegar",
+          "speech": "すじめ"
+        },
+        {
+          "japanese": "しめ鯖(さば)",
+          "english": "salt-and-vinegar-cured mackerel",
+          "speech": "しめさば"
+        },
+        {
+          "japanese": "昆布締め(こぶじめ)",
+          "english": "curing between sheets of kombu",
+          "speech": "こぶじめ"
+        },
+        {
+          "japanese": "漬け(づけ)",
+          "english": "fish marinated in a seasoned sauce, often soy-based",
+          "speech": "づけ"
+        },
+        {
+          "japanese": "西京焼き(さいきょうやき)",
+          "english": "grilling fish marinated in sweet white miso",
+          "speech": "さいきょうやき"
+        },
+        {
+          "japanese": "蒲焼き(かばやき)",
+          "english": "grilling split fish, especially eel, with a sweet soy sauce",
+          "speech": "かばやき"
+        },
+        {
+          "japanese": "白焼き(しらやき)",
+          "english": "grilling without a sauce or glaze",
+          "speech": "しらやき"
+        },
+        {
+          "japanese": "干物(ひもの)",
+          "english": "dried fish",
+          "speech": "ひもの"
+        },
+        {
+          "japanese": "燻製(くんせい)",
+          "english": "smoking / smoked food",
+          "speech": "くんせい"
+        },
+        {
+          "japanese": "炙る(あぶる)",
+          "english": "briefly sear or toast the surface",
+          "speech": "あぶる"
+        },
+        {
+          "japanese": "湯引き(ゆびき)",
+          "english": "briefly blanching with hot water",
+          "speech": "ゆびき"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-15",
+      "step": 15,
+      "kanji": "海藻(かいそう)",
+      "japanese": "かいそう",
+      "english": "Seaweed and Seaweed Products",
+      "blocks": [
+        {
+          "japanese": "昆布(こんぶ)",
+          "english": "kombu / kelp",
+          "speech": "こんぶ"
+        },
+        {
+          "japanese": "真昆布(まこんぶ)",
+          "english": "ma-kombu; a kombu variety used for stock",
+          "speech": "まこんぶ"
+        },
+        {
+          "japanese": "利尻昆布(りしりこんぶ)",
+          "english": "Rishiri kombu",
+          "speech": "りしりこんぶ"
+        },
+        {
+          "japanese": "羅臼昆布(らうすこんぶ)",
+          "english": "Rausu kombu",
+          "speech": "らうすこんぶ"
+        },
+        {
+          "japanese": "日高昆布(ひだかこんぶ)",
+          "english": "Hidaka kombu",
+          "speech": "ひだかこんぶ"
+        },
+        {
+          "japanese": "だし昆布(こんぶ)",
+          "english": "kombu used for making stock",
+          "speech": "だしこんぶ"
+        },
+        {
+          "japanese": "塩昆布(しおこんぶ)",
+          "english": "salty seasoned kombu, usually sold in thin strips",
+          "speech": "しおこんぶ"
+        },
+        {
+          "japanese": "とろろ昆布(こんぶ)",
+          "english": "fine, fluffy shavings of kombu",
+          "speech": "とろろこんぶ"
+        },
+        {
+          "japanese": "おぼろ昆布(こんぶ)",
+          "english": "thin, sheet-like shavings of kombu",
+          "speech": "おぼろこんぶ"
+        },
+        {
+          "japanese": "昆布(こんぶ)の佃煮(つくだに)",
+          "english": "kombu simmered in a sweet soy-based sauce",
+          "speech": "こんぶのつくだに"
+        },
+        {
+          "japanese": "わかめ",
+          "english": "wakame",
+          "speech": "わかめ"
+        },
+        {
+          "japanese": "乾燥わかめ(かんそうわかめ)",
+          "english": "dried wakame",
+          "speech": "かんそうわかめ"
+        },
+        {
+          "japanese": "塩蔵わかめ(えんぞうわかめ)",
+          "english": "salt-preserved wakame",
+          "speech": "えんぞうわかめ"
+        },
+        {
+          "japanese": "茎わかめ(くきわかめ)",
+          "english": "wakame stems",
+          "speech": "くきわかめ"
+        },
+        {
+          "japanese": "めかぶ",
+          "english": "the thick, frilly reproductive part at the base of wakame",
+          "speech": "めかぶ"
+        },
+        {
+          "japanese": "海苔(のり)",
+          "english": "nori",
+          "speech": "のり"
+        },
+        {
+          "japanese": "焼き海苔(やきのり)",
+          "english": "toasted nori",
+          "speech": "やきのり"
+        },
+        {
+          "japanese": "味付け海苔(あじつけのり)",
+          "english": "seasoned nori",
+          "speech": "あじつけのり"
+        },
+        {
+          "japanese": "刻み海苔(きざみのり)",
+          "english": "thinly shredded nori",
+          "speech": "きざみのり"
+        },
+        {
+          "japanese": "海苔(のり)の佃煮(つくだに)",
+          "english": "soft nori simmered in a seasoned soy-based sauce",
+          "speech": "のりのつくだに"
+        },
+        {
+          "japanese": "青海苔(あおのり)",
+          "english": "aonori; aromatic green seaweed flakes",
+          "speech": "あおのり"
+        },
+        {
+          "japanese": "あおさ",
+          "english": "aosa; green seaweed",
+          "speech": "あおさ"
+        },
+        {
+          "japanese": "ひじき",
+          "english": "hijiki",
+          "speech": "ひじき"
+        },
+        {
+          "japanese": "もずく",
+          "english": "mozuku; thin, slippery seaweed",
+          "speech": "もずく"
+        },
+        {
+          "japanese": "海ぶどう(うみぶどう)",
+          "english": "sea grapes",
+          "speech": "うみぶどう"
+        },
+        {
+          "japanese": "寒天(かんてん)",
+          "english": "agar; a seaweed-derived gelling ingredient",
+          "speech": "かんてん"
+        },
+        {
+          "japanese": "塩蔵(えんぞう)",
+          "english": "preservation in salt",
+          "speech": "えんぞう"
+        },
+        {
+          "japanese": "塩抜き(しおぬき)",
+          "english": "remove excess salt by soaking or rinsing",
+          "speech": "しおぬき"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-16",
+      "step": 16,
+      "kanji": "米(こめ)の基本(きほん)・種類(しゅるい)",
+      "japanese": "こめのきほん、しゅるい",
+      "english": "Basic Rice Words and Types",
+      "blocks": [
+        {
+          "japanese": "米(こめ)",
+          "english": "rice, usually uncooked; お米 is the polite everyday form",
+          "speech": "こめ"
+        },
+        {
+          "japanese": "お米(こめ)",
+          "english": "rice, usually uncooked; お米 is the polite everyday form",
+          "speech": "おこめ"
+        },
+        {
+          "japanese": "ご飯(はん)",
+          "english": "cooked rice; also a meal",
+          "speech": "ごはん"
+        },
+        {
+          "japanese": "白米(はくまい)",
+          "english": "polished white rice; can refer to uncooked or cooked rice",
+          "speech": "はくまい"
+        },
+        {
+          "japanese": "白いご飯(しろいごはん)",
+          "english": "cooked white rice",
+          "speech": "しろいごはん"
+        },
+        {
+          "japanese": "玄米(げんまい)",
+          "english": "brown rice",
+          "speech": "げんまい"
+        },
+        {
+          "japanese": "胚芽米(はいがまい)",
+          "english": "rice polished to retain the germ",
+          "speech": "はいがまい"
+        },
+        {
+          "japanese": "分づき米(ぶづきまい)",
+          "english": "partially polished rice",
+          "speech": "ぶづきまい"
+        },
+        {
+          "japanese": "もち米(ごめ)",
+          "english": "glutinous rice",
+          "speech": "もちごめ"
+        },
+        {
+          "japanese": "うるち米(まい)",
+          "english": "ordinary non-glutinous rice",
+          "speech": "うるちまい"
+        },
+        {
+          "japanese": "無洗米(むせんまい)",
+          "english": "rice that does not need washing",
+          "speech": "むせんまい"
+        },
+        {
+          "japanese": "新米(しんまい)",
+          "english": "newly harvested rice; also a beginner",
+          "speech": "しんまい"
+        },
+        {
+          "japanese": "古米(こまい)",
+          "english": "rice from the previous harvest year",
+          "speech": "こまい"
+        },
+        {
+          "japanese": "雑穀米(ざっこくまい)",
+          "english": "rice mixed with other grains",
+          "speech": "ざっこくまい"
+        },
+        {
+          "japanese": "五穀米(ごこくまい)",
+          "english": "a rice-and-grain blend, typically containing five kinds of grain",
+          "speech": "ごこくまい"
+        },
+        {
+          "japanese": "麦ご飯(むぎごはん)",
+          "english": "rice cooked with barley",
+          "speech": "むぎごはん"
+        },
+        {
+          "japanese": "押し麦(おしむぎ)",
+          "english": "rolled barley",
+          "speech": "おしむぎ"
+        },
+        {
+          "japanese": "もち麦(むぎ)",
+          "english": "waxy barley, with a pleasantly chewy texture",
+          "speech": "もちむぎ"
+        },
+        {
+          "japanese": "稲(いね)",
+          "english": "the rice plant",
+          "speech": "いね"
+        },
+        {
+          "japanese": "籾(もみ)",
+          "english": "rice grains still in their husks",
+          "speech": "もみ"
+        },
+        {
+          "japanese": "籾殻(もみがら)",
+          "english": "rice husks",
+          "speech": "もみがら"
+        },
+        {
+          "japanese": "米(こめ)ぬか",
+          "english": "rice bran",
+          "speech": "こめぬか"
+        },
+        {
+          "japanese": "米粒(こめつぶ)",
+          "english": "a grain of rice",
+          "speech": "こめつぶ"
+        },
+        {
+          "japanese": "米粉(こめこ)",
+          "english": "rice flour",
+          "speech": "こめこ"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-17",
+      "step": 17,
+      "kanji": "米(こめ)の品種(ひんしゅ)・産地(さんち)",
+      "japanese": "こめのひんしゅ、さんち",
+      "english": "Rice Varieties and Growing Regions",
+      "blocks": [
+        {
+          "japanese": "品種(ひんしゅ)",
+          "english": "variety / cultivar",
+          "speech": "ひんしゅ"
+        },
+        {
+          "japanese": "産地(さんち)",
+          "english": "growing region / place of production",
+          "speech": "さんち"
+        },
+        {
+          "japanese": "銘柄(めいがら)",
+          "english": "named brand or marketed rice designation",
+          "speech": "めいがら"
+        },
+        {
+          "japanese": "国産米(こくさんまい)",
+          "english": "rice grown in Japan",
+          "speech": "こくさんまい"
+        },
+        {
+          "japanese": "新潟県産(にいがたけんさん)",
+          "english": "grown in Niigata Prefecture",
+          "speech": "にいがたけんさん"
+        },
+        {
+          "japanese": "魚沼産(うおぬまさん)",
+          "english": "grown in the Uonuma region",
+          "speech": "うおぬまさん"
+        },
+        {
+          "japanese": "秋田県産(あきたけんさん)",
+          "english": "grown in Akita Prefecture",
+          "speech": "あきたけんさん"
+        },
+        {
+          "japanese": "山形県産(やまがたけんさん)",
+          "english": "grown in Yamagata Prefecture",
+          "speech": "やまがたけんさん"
+        },
+        {
+          "japanese": "北海道産(ほっかいどうさん)",
+          "english": "grown in Hokkaido",
+          "speech": "ほっかいどうさん"
+        },
+        {
+          "japanese": "コシヒカリ",
+          "english": "Koshihikari",
+          "speech": "こしひかり"
+        },
+        {
+          "japanese": "あきたこまち",
+          "english": "Akitakomachi",
+          "speech": "あきたこまち"
+        },
+        {
+          "japanese": "ひとめぼれ",
+          "english": "Hitomebore",
+          "speech": "ひとめぼれ"
+        },
+        {
+          "japanese": "ササニシキ",
+          "english": "Sasanishiki",
+          "speech": "ささにしき"
+        },
+        {
+          "japanese": "つや姫(ひめ)",
+          "english": "Tsuyahime",
+          "speech": "つやひめ"
+        },
+        {
+          "japanese": "ゆめぴりか",
+          "english": "Yumepirika",
+          "speech": "ゆめぴりか"
+        },
+        {
+          "japanese": "ななつぼし",
+          "english": "Nanatsuboshi",
+          "speech": "ななつぼし"
+        },
+        {
+          "japanese": "新之助(しんのすけ)",
+          "english": "Shinnosuke",
+          "speech": "しんのすけ"
+        },
+        {
+          "japanese": "精米(せいまい)",
+          "english": "rice polishing / polished rice",
+          "speech": "せいまい"
+        },
+        {
+          "japanese": "精米日(せいまいび)",
+          "english": "date the rice was polished",
+          "speech": "せいまいび"
+        },
+        {
+          "japanese": "単一原料米(たんいつげんりょうまい)",
+          "english": "rice from a single origin, variety and harvest year",
+          "speech": "たんいつげんりょうまい"
+        },
+        {
+          "japanese": "ブレンド米(ブレンドまい)",
+          "english": "blended rice",
+          "speech": "ぶれんどまい"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-18",
+      "step": 18,
+      "kanji": "米(こめ)の炊(た)き方(かた)",
+      "japanese": "こめのたきかた",
+      "english": "Preparing and Cooking Rice",
+      "blocks": [
+        {
+          "japanese": "米(こめ)を研(と)ぐ",
+          "english": "wash rice",
+          "speech": "こめをとぐ"
+        },
+        {
+          "japanese": "米(こめ)を洗(あら)う",
+          "english": "rinse / wash rice",
+          "speech": "こめをあらう"
+        },
+        {
+          "japanese": "浸水(しんすい)",
+          "english": "soaking",
+          "speech": "しんすい"
+        },
+        {
+          "japanese": "浸水時間(しんすいじかん)",
+          "english": "soaking time",
+          "speech": "しんすいじかん"
+        },
+        {
+          "japanese": "吸水(きゅうすい)",
+          "english": "absorption of water",
+          "speech": "きゅうすい"
+        },
+        {
+          "japanese": "水加減(みずかげん)",
+          "english": "the amount of water used",
+          "speech": "みずかげん"
+        },
+        {
+          "japanese": "ご飯(はん)を炊(た)く",
+          "english": "cook rice",
+          "speech": "ごはんをたく"
+        },
+        {
+          "japanese": "炊飯(すいはん)",
+          "english": "cooking rice",
+          "speech": "すいはん"
+        },
+        {
+          "japanese": "火加減(ひかげん)",
+          "english": "heat level",
+          "speech": "ひかげん"
+        },
+        {
+          "japanese": "強火(つよび)",
+          "english": "high heat",
+          "speech": "つよび"
+        },
+        {
+          "japanese": "中火(ちゅうび)",
+          "english": "medium heat",
+          "speech": "ちゅうび"
+        },
+        {
+          "japanese": "弱火(よわび)",
+          "english": "low heat",
+          "speech": "よわび"
+        },
+        {
+          "japanese": "沸騰(ふっとう)",
+          "english": "boiling",
+          "speech": "ふっとう"
+        },
+        {
+          "japanese": "蓋(ふた)をする",
+          "english": "put the lid on",
+          "speech": "ふたをする"
+        },
+        {
+          "japanese": "蒸気(じょうき)",
+          "english": "steam",
+          "speech": "じょうき"
+        },
+        {
+          "japanese": "蒸(む)らす",
+          "english": "let rice rest covered after cooking",
+          "speech": "むらす"
+        },
+        {
+          "japanese": "ご飯(はん)をよそう",
+          "english": "serve rice into a bowl",
+          "speech": "ごはんをよそう"
+        },
+        {
+          "japanese": "炊(た)きたて",
+          "english": "freshly cooked",
+          "speech": "たきたて"
+        },
+        {
+          "japanese": "炊(た)き上(あ)がり",
+          "english": "the finished cooked rice / completion of cooking",
+          "speech": "たきあがり"
+        },
+        {
+          "japanese": "保温(ほおん)",
+          "english": "keeping warm",
+          "speech": "ほおん"
+        },
+        {
+          "japanese": "冷(ひ)やご飯(はん)",
+          "english": "cold cooked rice",
+          "speech": "ひやごはん"
+        },
+        {
+          "japanese": "冷凍(れいとう)ご飯(はん)",
+          "english": "frozen cooked rice",
+          "speech": "れいとうごはん"
+        },
+        {
+          "japanese": "温(あたた)め直(なお)す",
+          "english": "reheat",
+          "speech": "あたためなおす"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-19",
+      "step": 19,
+      "kanji": "炊飯(すいはん)の道具(どうぐ)・計量(けいりょう)",
+      "japanese": "すいはんのどうぐ、けいりょう",
+      "english": "Rice Equipment and Measurements",
+      "blocks": [
+        {
+          "japanese": "炊飯器(すいはんき)",
+          "english": "rice cooker",
+          "speech": "すいはんき"
+        },
+        {
+          "japanese": "土鍋(どなべ)",
+          "english": "earthenware cooking pot",
+          "speech": "どなべ"
+        },
+        {
+          "japanese": "釜(かま)",
+          "english": "rice-cooking pot / cauldron",
+          "speech": "かま"
+        },
+        {
+          "japanese": "しゃもじ",
+          "english": "rice paddle",
+          "speech": "しゃもじ"
+        },
+        {
+          "japanese": "茶碗(ちゃわん)",
+          "english": "rice bowl",
+          "speech": "ちゃわん"
+        },
+        {
+          "japanese": "ざる",
+          "english": "strainer / colander",
+          "speech": "ざる"
+        },
+        {
+          "japanese": "計量カップ(けいりょうカップ)",
+          "english": "measuring cup",
+          "speech": "けいりょうかっぷ"
+        },
+        {
+          "japanese": "一合(いちごう)",
+          "english": "one rice measure: 180 ml of uncooked rice",
+          "speech": "いちごう"
+        },
+        {
+          "japanese": "二合(にごう)",
+          "english": "two rice measures",
+          "speech": "にごう"
+        },
+        {
+          "japanese": "三合(さんごう)",
+          "english": "three rice measures",
+          "speech": "さんごう"
+        },
+        {
+          "japanese": "一膳(いちぜん)",
+          "english": "one bowl / serving of cooked rice",
+          "speech": "いちぜん"
+        },
+        {
+          "japanese": "大盛(おおも)り",
+          "english": "a large serving",
+          "speech": "おおもり"
+        },
+        {
+          "japanese": "小盛(こも)り",
+          "english": "a small serving",
+          "speech": "こもり"
+        },
+        {
+          "japanese": "おかわり",
+          "english": "another helping / refill",
+          "speech": "おかわり"
+        }
+      ]
+    },
+    {
+      "id": "ingredient-card-20",
+      "step": 20,
+      "kanji": "米料理(こめりょうり)・寿司(すし)",
+      "japanese": "こめりょうり、すし",
+      "english": "Rice Dishes and Sushi",
+      "blocks": [
+        {
+          "japanese": "おにぎり",
+          "english": "rice ball",
+          "speech": "おにぎり"
+        },
+        {
+          "japanese": "おむすび",
+          "english": "rice ball",
+          "speech": "おむすび"
+        },
+        {
+          "japanese": "焼(や)きおにぎり",
+          "english": "grilled rice ball",
+          "speech": "やきおにぎり"
+        },
+        {
+          "japanese": "お粥(かゆ)",
+          "english": "rice porridge",
+          "speech": "おかゆ"
+        },
+        {
+          "japanese": "雑炊(ぞうすい)",
+          "english": "rice simmered in soup or broth",
+          "speech": "ぞうすい"
+        },
+        {
+          "japanese": "お茶漬け(ちゃづけ)",
+          "english": "rice with tea or stock poured over it",
+          "speech": "おちゃづけ"
+        },
+        {
+          "japanese": "炊き込みご飯(たきこみごはん)",
+          "english": "rice cooked together with other ingredients",
+          "speech": "たきこみごはん"
+        },
+        {
+          "japanese": "混ぜご飯(まぜごはん)",
+          "english": "rice mixed with ingredients after cooking",
+          "speech": "まぜごはん"
+        },
+        {
+          "japanese": "五目ご飯(ごもくごはん)",
+          "english": "rice with assorted ingredients",
+          "speech": "ごもくごはん"
+        },
+        {
+          "japanese": "栗ご飯(くりごはん)",
+          "english": "rice cooked with chestnuts",
+          "speech": "くりごはん"
+        },
+        {
+          "japanese": "松茸ご飯(まつたけごはん)",
+          "english": "rice cooked with matsutake mushrooms",
+          "speech": "まつたけごはん"
+        },
+        {
+          "japanese": "おこわ",
+          "english": "steamed glutinous rice, often with other ingredients",
+          "speech": "おこわ"
+        },
+        {
+          "japanese": "赤飯(せきはん)",
+          "english": "glutinous rice cooked with red beans",
+          "speech": "せきはん"
+        },
+        {
+          "japanese": "釜飯(かまめし)",
+          "english": "rice cooked with ingredients in an individual pot",
+          "speech": "かまめし"
+        },
+        {
+          "japanese": "丼(どんぶり)",
+          "english": "a bowl; also a rice dish served with toppings",
+          "speech": "どんぶり"
+        },
+        {
+          "japanese": "炒飯(チャーハン)",
+          "english": "fried rice",
+          "speech": "ちゃーはん"
+        },
+        {
+          "japanese": "リゾット",
+          "english": "risotto",
+          "speech": "りぞっと"
+        },
+        {
+          "japanese": "ピラフ",
+          "english": "pilaf",
+          "speech": "ぴらふ"
+        },
+        {
+          "japanese": "寿司(すし)",
+          "english": "sushi",
+          "speech": "すし"
+        },
+        {
+          "japanese": "酢飯(すめし)",
+          "english": "rice seasoned with vinegar / sushi rice",
+          "speech": "すめし"
+        },
+        {
+          "japanese": "寿司飯(すしめし)",
+          "english": "rice seasoned with vinegar / sushi rice",
+          "speech": "すしめし"
+        },
+        {
+          "japanese": "すし酢(ず)",
+          "english": "seasoned vinegar for sushi rice",
+          "speech": "すしず"
+        },
+        {
+          "japanese": "シャリ",
+          "english": "sushi rice; sushi-counter terminology",
+          "speech": "しゃり"
+        },
+        {
+          "japanese": "ネタ",
+          "english": "sushi topping or main ingredient",
+          "speech": "ねた"
+        },
+        {
+          "japanese": "握り寿司(にぎりずし)",
+          "english": "hand-pressed sushi with a topping",
+          "speech": "にぎりずし"
+        },
+        {
+          "japanese": "巻き寿司(まきずし)",
+          "english": "rolled sushi",
+          "speech": "まきずし"
+        },
+        {
+          "japanese": "太巻(ふとま)き",
+          "english": "thick sushi roll",
+          "speech": "ふとまき"
+        },
+        {
+          "japanese": "細巻(ほそま)き",
+          "english": "thin sushi roll",
+          "speech": "ほそまき"
+        },
+        {
+          "japanese": "手巻き寿司(てまきずし)",
+          "english": "hand-rolled sushi",
+          "speech": "てまきずし"
+        },
+        {
+          "japanese": "稲荷寿司(いなりずし)",
+          "english": "sushi rice in seasoned fried-tofu pouches",
+          "speech": "いなりずし"
+        },
+        {
+          "japanese": "ちらし寿司(ずし)",
+          "english": "sushi rice with assorted toppings or mixed ingredients",
+          "speech": "ちらしずし"
+        },
+        {
+          "japanese": "押し寿司(おしずし)",
+          "english": "pressed sushi",
+          "speech": "おしずし"
+        },
+        {
+          "japanese": "箱寿司(はこずし)",
+          "english": "sushi pressed in a rectangular mould",
+          "speech": "はこずし"
+        },
+        {
+          "japanese": "鯖寿司(さばずし)",
+          "english": "mackerel sushi, often pressed into a log",
+          "speech": "さばずし"
+        },
+        {
+          "japanese": "棒寿司(ぼうずし)",
+          "english": "sushi shaped into a long log",
+          "speech": "ぼうずし"
+        },
+        {
+          "japanese": "笹寿司(ささずし)",
+          "english": "sushi wrapped in, or served on, bamboo-grass leaves; style varies by region",
+          "speech": "ささずし"
+        },
+        {
+          "japanese": "笹の葉(ささのは)",
+          "english": "bamboo-grass leaf used for wrapping or presenting food",
+          "speech": "ささのは"
+        },
+        {
+          "japanese": "柿の葉寿司(かきのはずし)",
+          "english": "pressed sushi wrapped in persimmon leaves",
+          "speech": "かきのはずし"
+        },
+        {
+          "japanese": "柿の葉(かきのは)",
+          "english": "persimmon leaf",
+          "speech": "かきのは"
+        },
+        {
+          "japanese": "ます寿司(ずし)",
+          "english": "pressed trout sushi, a speciality of Toyama",
+          "speech": "ますずし"
+        },
+        {
+          "japanese": "ちまき",
+          "english": "a leaf-wrapped rice food; ingredients and style vary by region",
+          "speech": "ちまき"
+        },
+        {
+          "japanese": "笹団子(ささだんご)",
+          "english": "mugwort-flavoured dumplings, usually with sweet bean filling, wrapped in bamboo-grass leaves",
+          "speech": "ささだんご"
+        },
+        {
+          "japanese": "餅(もち)",
+          "english": "mochi; pounded glutinous rice cake",
+          "speech": "もち"
+        },
+        {
+          "japanese": "おはぎ",
+          "english": "rice sweets usually coated with sweet bean paste, sesame or soybean flour",
+          "speech": "おはぎ"
+        }
+      ]
+    }
+  ]
+}

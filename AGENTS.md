@@ -73,3 +73,8 @@ or object を (spoken お). For 自分では, keep じぶんでわ continuous an
 after わ when appropriate. Preserve display text and lookup keys. Use per-entry
 `pronunciation_guidance` for troublesome grouping. Do not claim audible pause
 verification without listening to the recording.
+
+# Ingredient deck scope
+
+For 食材カード under 食材の基本, finish the supplied list at page 26.
+The user explicitly requested skipping source pages 27 and 28.
