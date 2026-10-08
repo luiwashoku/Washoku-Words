@@ -541,7 +541,10 @@
     "title": "鶏の部位",
     "status": "generated",
     "recordings": 75,
-    "speechKeys": 75
+    "speechKeys": 75,
+    "voice": "marin",
+    "model": "gpt-4o-mini-tts",
+    "speed": 1.0
   },
   {
     "batch": 69,
@@ -573,7 +576,10 @@
     "title": "牛の部位",
     "status": "generated",
     "recordings": 62,
-    "speechKeys": 62
+    "speechKeys": 62,
+    "voice": "marin",
+    "model": "gpt-4o-mini-tts",
+    "speed": 1.0
   },
   {
     "batch": 73,
@@ -645,7 +651,10 @@
     "title": "豚肉の部位",
     "status": "generated",
     "recordings": 85,
-    "speechKeys": 86
+    "speechKeys": 86,
+    "voice": "marin",
+    "model": "gpt-4o-mini-tts",
+    "speed": 1.0
   },
   {
     "batch": 82,
@@ -687,8 +696,10 @@
     "title": "鶏カード",
     "status": "generated",
     "voice": "marin",
-    "recordings": 39,
-    "speechKeys": 39
+    "recordings": 44,
+    "speechKeys": 44,
+    "model": "gpt-4o-mini-tts",
+    "speed": 1.0
   },
   {
     "batch": 87,
@@ -696,8 +707,10 @@
     "title": "牛カード",
     "status": "generated",
     "voice": "marin",
-    "recordings": 39,
-    "speechKeys": 39
+    "recordings": 46,
+    "speechKeys": 46,
+    "model": "gpt-4o-mini-tts",
+    "speed": 1.0
   },
   {
     "batch": 88,
@@ -705,8 +718,10 @@
     "title": "豚カード",
     "status": "generated",
     "voice": "marin",
-    "recordings": 47,
-    "speechKeys": 47
+    "recordings": 50,
+    "speechKeys": 50,
+    "model": "gpt-4o-mini-tts",
+    "speed": 1.0
   },
   {
     "batch": 89,
@@ -744,8 +759,8 @@
     "status": "generated",
     "voice": "marin",
     "speed": 1.0,
-    "recordings": 85,
-    "speechKeys": 85
+    "recordings": 86,
+    "speechKeys": 86
   },
   {
     "batch": 93,

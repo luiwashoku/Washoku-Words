@@ -489,6 +489,14 @@
       "input": "もうすこしおいたら、あじわどうかわりますか。",
       "speed": 1.0,
       "pronunciation_guidance": "Use brief natural breaks at the supplied commas. Keep particles attached to the preceding phrase; never pause immediately before topic わ, object お or directional え. Do not split words or verb endings. Keep unpunctuated phrases flowing naturally."
+    },
+    {
+      "key": "きらくにかまえて、いみをいそいできめないようにしています。",
+      "input": "きらくにかまえて、いみおいそいできめないようにしています。",
+      "speed": 1.0,
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "pronunciation_guidance": "落ち着いて物事の意味を急いで決めつけない、という話し手の姿勢を述べる文です。入力の文だけを一度、自然な会話のテンポで、いつものMarinの声で言ってください。きらくにかまえての後の読点で短く区切り、いみおいそいできめないようにしていますはなめらかにつなげてください。助詞おの前では区切らず、母音や語尾を伸ばさないでください。生成速度1.0。"
     }
   ],
   "phrasing_review": {

@@ -22,14 +22,18 @@
       "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L69516",
       "listening_verified": false,
       "accent_matched_form": "振袖",
-      "accent_candidate": 0
+      "accent_candidate": 0,
+      "reuse_audio": "audio/lessons/chicken-parts-cards/marin-dca5180b9e85da78ecb4.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "かたからつばさのつけねにあるにくは「ふりそで」です。しょうりょうしかとれないぶいです。",
-      "input": "かたからつばさのつけねにあるにくわ「ふりそで」です。しょうりょうしかとれないぶいです。",
+      "key": "あぶらとあかみのバランスがよく、ほどよいだんりょくがあります。やきとりでにくじゅうをたのしめます。",
+      "input": "あぶらとあかみのばらんすがよく、ほどよいだんりょくがあります。やきとりでにくじゅうおたのしめます。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
-      "listening_verified": false
+      "reading_source": "Reviewed annotated culinary description in data/chicken-parts-cards.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character."
     },
     {
       "key": "せせり",
@@ -39,14 +43,18 @@
       "accent": null,
       "accent_status": "checked-no-reliable-culinary-entry",
       "accent_source": null,
-      "listening_verified": false
+      "listening_verified": false,
+      "reuse_audio": "audio/lessons/chicken-parts-cards/marin-bc86fdc42b3a3c68abc5.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "くびのしゅういのにくは「せせり」です。よくうごくぶぶんなので、だんりょくとうまみがあります。",
-      "input": "くびのしゅういのにくわ「せせり」です。よくうごくぶぶんなので、だんりょくとうまみがあります。",
+      "key": "よくうごくくびのにくで、だんりょくがあります。あぶらもあり、やくとジューシーです。",
+      "input": "よくうごくくびのにくで、だんりょくがあります。あぶらもあり、やくとじゅーしーです。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
-      "listening_verified": false
+      "reading_source": "Reviewed annotated culinary description in data/chicken-parts-cards.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character."
     },
     {
       "key": "かわ",
@@ -57,14 +65,18 @@
       "accent_status": "dictionary-reading-and-sense-match",
       "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100084",
       "listening_verified": false,
-      "accent_matched_form": "皮"
+      "accent_matched_form": "皮",
+      "reuse_audio": "audio/lessons/chicken-parts-cards/marin-e8ba86f664a9d1402d3c.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "とりのひょうめんをおおうぶぶんは「かわ」です。やくとあぶらがでて、こうばしく、ぱりっとしたしょっかんになります。",
-      "input": "とりのひょうめんおおおうぶぶんわ「かわ」です。やくとあぶらがでて、こうばしく、ぱりっとしたしょっかんになります。",
+      "key": "あぶらがおおく、やくとこうばしくなります。あぶらをおとしながらやくと、ひょうめんがぱりっとします。",
+      "input": "あぶらがおおく、やくとこうばしくなります。あぶらおおとしながらやくと、ひょうめんがぱりっとします。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
-      "listening_verified": false
+      "reading_source": "Reviewed annotated culinary description in data/chicken-parts-cards.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character."
     },
     {
       "key": "むねにく",
@@ -74,14 +86,18 @@
       "accent": null,
       "accent_status": "checked-no-reliable-culinary-entry",
       "accent_source": null,
-      "listening_verified": false
+      "listening_verified": false,
+      "reuse_audio": "audio/lessons/chicken-parts-cards/marin-1014598a69cf5a3cb301.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "むねのおおきなきんにくは「むねにく」です。しぼうがひかくてきすくなく、あっさりしています。",
-      "input": "むねのおおきなきんにくわ「むねにく」です。しぼうがひかくてきすくなく、あっさりしています。",
+      "key": "あじはあっさりしていて、しぼうはすくなめです。かねつしすぎると、ぱさつきやすいにくです。",
+      "input": "あじわあっさりしていて、しぼうわすくなめです。かねつしすぎると、ぱさつきやすいにくです。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
-      "listening_verified": false
+      "reading_source": "Reviewed annotated culinary description in data/chicken-parts-cards.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character."
     },
     {
       "key": "ささみ",
@@ -92,14 +108,18 @@
       "accent_status": "dictionary-reading-and-sense-match",
       "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L54183",
       "listening_verified": false,
-      "accent_matched_form": "笹身"
+      "accent_matched_form": "笹身",
+      "reuse_audio": "audio/lessons/chicken-parts-cards/marin-f324de87317a813c56b8.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "むねにくのうちがわにあるほそながいきんにくは「ささみ」です。しぼうがすくなく、やわらかいぶいです。",
-      "input": "むねにくのうちがわにあるほそながいきんにくわ「ささみ」です。しぼうがすくなく、やわらかいぶいです。",
+      "key": "しぼうがすくなく、せんさいなあじです。ふといすじをとると、くちあたりがよくなります。",
+      "input": "しぼうがすくなく、せんさいなあじです。ふといすじおとると、くちあたりがよくなります。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
-      "listening_verified": false
+      "reading_source": "Reviewed annotated culinary description in data/chicken-parts-cards.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character."
     },
     {
       "key": "やげんなんこつ",
@@ -109,14 +129,18 @@
       "accent": null,
       "accent_status": "checked-no-reliable-culinary-entry",
       "accent_source": null,
-      "listening_verified": false
+      "listening_verified": false,
+      "reuse_audio": "audio/lessons/chicken-parts-cards/marin-effcd13c97fa4f62e807.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "きょうこつのせんたんがわにあるなんこつは「ヤゲンなんこつ」です。こりこりしたしょっかんがあります。",
-      "input": "きょうこつのせんたんがわにあるなんこつわ「やげんなんこつ」です。こりこりしたしょっかんがあります。",
+      "key": "むねのなんこつで、こりこりしたしょっかんがあります。ついているにくもいっしょにたのしめます。",
+      "input": "むねのなんこつで、こりこりしたしょっかんがあります。ついているにくもいっしょにたのしめます。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
-      "listening_verified": false
+      "reading_source": "Reviewed annotated culinary description in data/chicken-parts-cards.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character."
     },
     {
       "key": "てばさき",
@@ -127,14 +151,18 @@
       "accent_status": "dictionary-reading-and-sense-match",
       "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61280",
       "listening_verified": false,
-      "accent_matched_form": "手羽先"
+      "accent_matched_form": "手羽先",
+      "reuse_audio": "audio/lessons/chicken-parts-cards/marin-68880b127300692d9f83.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "つばさのせんたんがわは「てばさき」です。ほね、かわ、けつごうそしきがおおいぶいです。",
-      "input": "つばさのせんたんがわわ「てばさき」です。ほね、かわ、けつごうそしきがおおいぶいです。",
+      "key": "かわとほねのまわりにうまみがあります。やくとかわがこうばしく、にるとだしがでます。",
+      "input": "かわとほねのまわりにうまみがあります。やくとかわがこうばしく、にるとだしがでます。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
-      "listening_verified": false
+      "reading_source": "Reviewed annotated culinary description in data/chicken-parts-cards.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character."
     },
     {
       "key": "てばなか",
@@ -144,14 +172,18 @@
       "accent": null,
       "accent_status": "checked-no-reliable-culinary-entry",
       "accent_source": null,
-      "listening_verified": false
+      "listening_verified": false,
+      "reuse_audio": "audio/lessons/chicken-parts-cards/marin-481b3403181e84c8275f.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "てばさきとてばもとのあいだにあるつばさのちゅうおうぶは「てばなか」です。",
-      "input": "てばさきとてばもとのあいだにあるつばさのちゅうおうぶわ「てばなか」です。",
+      "key": "ほそいほねのあいだににくがあります。かわをやくとこうばしく、たべやすいおおきさです。",
+      "input": "ほそいほねのあいだににくがあります。かわおやくとこうばしく、たべやすいおおきさです。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
-      "listening_verified": false
+      "reading_source": "Reviewed annotated culinary description in data/chicken-parts-cards.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character."
     },
     {
       "key": "てばもと",
@@ -161,14 +193,18 @@
       "accent": null,
       "accent_status": "checked-no-reliable-culinary-entry",
       "accent_source": null,
-      "listening_verified": false
+      "listening_verified": false,
+      "reuse_audio": "audio/lessons/chicken-parts-cards/marin-4ec9708cbaa0285c6ac4.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "どうたいにもっともちかいつばさのぶぶんは「てばもと」です。えいごでは drumette とよばれます。",
-      "input": "どうたいにもっともちかいつばさのぶぶんわ「てばもと」です。えいごでわ、どらめっととよばれます。",
+      "key": "てばさきよりにくがおおく、たべごたえがあります。ほねつきなので、にこみにもむきます。",
+      "input": "てばさきよりにくがおおく、たべごたえがあります。ほねつきなので、にこみにもむきます。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
-      "listening_verified": false
+      "reading_source": "Reviewed annotated culinary description in data/chicken-parts-cards.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character."
     },
     {
       "key": "ぼんじり",
@@ -178,14 +214,18 @@
       "accent": null,
       "accent_status": "checked-no-reliable-culinary-entry",
       "accent_source": null,
-      "listening_verified": false
+      "listening_verified": false,
+      "reuse_audio": "audio/lessons/chicken-parts-cards/marin-24b6f81c61f0c6e43068.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "おのつけねにあるあぶらのおおいぶいは「ぼんじり」です。",
-      "input": "おのつけねにあるあぶらのおおいぶいわ「ぼんじり」です。",
+      "key": "あぶらがおおく、のうこうでジューシーです。ほねやしせんをしょりしてつかいます。",
+      "input": "あぶらがおおく、のうこうでじゅーしーです。ほねやしせんおしょりしてつかいます。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
-      "listening_verified": false
+      "reading_source": "Reviewed annotated culinary description in data/chicken-parts-cards.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character."
     },
     {
       "key": "きんかん",
@@ -197,14 +237,18 @@
       "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40780",
       "listening_verified": false,
       "accent_matched_form": "金柑",
-      "accent_candidate": 3
+      "accent_candidate": 3,
+      "reuse_audio": "audio/lessons/chicken-parts-cards/marin-f522f84dcdf200018329.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "まるいみせいじゅくらんおうが「きんかん」で、らんかんにつながったじょうたいをふくむきしょうぶいが「ちょうちん」です。ずではひとつのまとまりとしてしめしています。",
-      "input": "まるいみせいじゅくらんおうが「きんかん」で、らんかんにつながったじょうたいおふくむきしょうぶいが「ちょうちん」です。ずでわひとつのまとまりとしてしめしています。",
+      "key": "たまごになるまえのらんおうで、のうこうなあじです。にると、ほくっとしたしょっかんになります。",
+      "input": "たまごになるまえのらんおうで、のうこうなあじです。にると、ほくっとしたしょっかんになります。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
-      "listening_verified": false
+      "reading_source": "Reviewed annotated culinary description in data/chicken-parts-cards.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character."
     },
     {
       "key": "ちょうちん",
@@ -216,7 +260,18 @@
       "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L89074",
       "listening_verified": false,
       "accent_matched_form": "提灯",
-      "accent_candidate": 3
+      "accent_candidate": 3,
+      "reuse_audio": "audio/lessons/chicken-parts-cards/marin-37fc15149cef2bc8fd70.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
+    },
+    {
+      "key": "きんかんとらんかんをくみあわせたくしです。らんおうののうこうさと、らんかんのしょっかんがとくちょうです。",
+      "input": "きんかんとらんかんおくみあわせたくしです。らんおうののうこうさと、らんかんのしょっかんがとくちょうです。",
+      "speed": 1.0,
+      "reading_source": "Reviewed annotated culinary description in data/chicken-parts-cards.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character."
     },
     {
       "key": "もも",
@@ -227,14 +282,18 @@
       "accent_status": "dictionary-reading-and-sense-match",
       "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L82126",
       "listening_verified": false,
-      "accent_matched_form": "腿"
+      "accent_matched_form": "腿",
+      "reuse_audio": "audio/lessons/chicken-parts-cards/marin-1c626d8a2327ccba78ce.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "おおきなももにくが「モモ」で、「そりれす」はそのつけね、こつばんのちかくにあるちいさなにくです。そりれすはおおきなモモのかたちにふくまれ、うちがわのちいさなりんかくはヒザなんこつです。",
-      "input": "おおきなももにくが「もも」で、「そりれす」わそのつけね、こつばんのちかくにあるちいさなにくです。そりれすわおおきなもものかたちにふくまれ、うちがわのちいさなりんかくわひざなんこつです。",
+      "key": "むねにくよりあぶらがあり、あじがこいぶいです。からあげやにこみでも、にくじゅうをたもちやすいです。",
+      "input": "むねにくよりあぶらがあり、あじがこいぶいです。からあげやにこみでも、にくじゅうおたもちやすいです。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
-      "listening_verified": false
+      "reading_source": "Reviewed annotated culinary description in data/chicken-parts-cards.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character."
     },
     {
       "key": "そりれす",
@@ -244,7 +303,18 @@
       "accent": null,
       "accent_status": "checked-no-reliable-culinary-entry",
       "accent_source": null,
-      "listening_verified": false
+      "listening_verified": false,
+      "reuse_audio": "audio/lessons/chicken-parts-cards/marin-a419c4280fb93e78dacb.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
+    },
+    {
+      "key": "こつばんのちかくにあるちいさなにくです。だんりょくとうまみがあり、やきとりでたのしめます。",
+      "input": "こつばんのちかくにあるちいさなにくです。だんりょくとうまみがあり、やきとりでたのしめます。",
+      "speed": 1.0,
+      "reading_source": "Reviewed annotated culinary description in data/chicken-parts-cards.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character."
     },
     {
       "key": "はつ",
@@ -255,14 +325,18 @@
       "accent_status": "dictionary-reading-and-sense-match",
       "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L14597",
       "listening_verified": false,
-      "accent_matched_form": "ハツ"
+      "accent_matched_form": "ハツ",
+      "reuse_audio": "audio/lessons/chicken-parts-cards/marin-41845089c43a624c4cf5.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "しんぞうが「ハツ」、そのねもとが「はつもと」、しんぞうにつながるだいどうみゃくが「つなぎ」です。ずではれんぞくするこうぞうとしてしめしています。",
-      "input": "しんぞうが「はつ」、そのねもとが「はつもと」、しんぞうにつながるだいどうみゃくが「つなぎ」です。ずでわれんぞくするこうぞうとしてしめしています。",
+      "key": "しんぞうのきんにくで、ぷりっとしただんりょくがあります。レバーとはちがい、にくにちかいしょっかんです。",
+      "input": "しんぞうのきんにくで、ぷりっとしただんりょくがあります。ればーとわちがい、にくにちかいしょっかんです。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
-      "listening_verified": false
+      "reading_source": "Reviewed annotated culinary description in data/chicken-parts-cards.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character."
     },
     {
       "key": "はつもと",
@@ -272,7 +346,18 @@
       "accent": null,
       "accent_status": "checked-no-reliable-culinary-entry",
       "accent_source": null,
-      "listening_verified": false
+      "listening_verified": false,
+      "reuse_audio": "audio/lessons/chicken-parts-cards/marin-9ca5c4fac518437977b1.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
+    },
+    {
+      "key": "しんぞうのねもとのけっかんなどをふくみ、こりっとしたしょっかんがあります。みせによってきりわけかたがことなります。",
+      "input": "しんぞうのねもとのけっかんなどおふくみ、こりっとしたしょっかんがあります。みせによってきりわけかたがことなります。",
+      "speed": 1.0,
+      "reading_source": "Reviewed annotated culinary description in data/chicken-parts-cards.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character."
     },
     {
       "key": "つなぎ",
@@ -284,7 +369,18 @@
       "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L43031",
       "listening_verified": false,
       "accent_matched_form": "繋ぎ",
-      "accent_candidate": 0
+      "accent_candidate": 0,
+      "reuse_audio": "audio/lessons/chicken-parts-cards/marin-06ba71e838386697b885.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
+    },
+    {
+      "key": "しんぞうのちかくのけっかんなどをさし、だんりょくがあります。はつもととおなじよびかたでつかうみせもあります。",
+      "input": "しんぞうのちかくのけっかんなどおさし、だんりょくがあります。はつもととおなじよびかたでつかうみせもあります。",
+      "speed": 1.0,
+      "reading_source": "Reviewed annotated culinary description in data/chicken-parts-cards.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character."
     },
     {
       "key": "ればー",
@@ -295,14 +391,18 @@
       "accent_status": "dictionary-reading-and-sense-match",
       "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L20330",
       "listening_verified": false,
-      "accent_matched_form": "レバー"
+      "accent_matched_form": "レバー",
+      "reuse_audio": "audio/lessons/chicken-parts-cards/marin-90693cdb198eaa39ed31.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "このかたちはかんぞうの「レバー」です。おなじぶいでも、しぼうがおおくしろっぽいものは「しろレバー」とよばれます。",
-      "input": "このかたちわかんぞうの「ればー」です。おなじぶいでも、しぼうがおおくしろっぽいものわ「しろればー」とよばれます。",
+      "key": "なめらかなしょっかんと、どくとくののうこうなあじがあります。ちやすじをしょりし、ちゅうしんまでかねつします。",
+      "input": "なめらかなしょっかんと、どくとくののうこうなあじがあります。ちやすじおしょりし、ちゅうしんまでかねつします。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
-      "listening_verified": false
+      "reading_source": "Reviewed annotated culinary description in data/chicken-parts-cards.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character."
     },
     {
       "key": "しろればー",
@@ -312,7 +412,18 @@
       "accent": null,
       "accent_status": "checked-no-reliable-culinary-entry",
       "accent_source": null,
-      "listening_verified": false
+      "listening_verified": false,
+      "reuse_audio": "audio/lessons/chicken-parts-cards/marin-d549484b1ab84984990a.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
+    },
+    {
+      "key": "しぼうがおおいたんしょくのレバーで、くちあたりがのうこうです。いろだけでひんしつははんだんできません。",
+      "input": "しぼうがおおいたんしょくのればーで、くちあたりがのうこうです。いろだけでひんしつわはんだんできません。",
+      "speed": 1.0,
+      "reading_source": "Reviewed annotated culinary description in data/chicken-parts-cards.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character."
     },
     {
       "key": "はらみ",
@@ -322,14 +433,18 @@
       "accent": null,
       "accent_status": "checked-no-reliable-culinary-entry",
       "accent_source": null,
-      "listening_verified": false
+      "listening_verified": false,
+      "reuse_audio": "audio/lessons/chicken-parts-cards/marin-a0adf3214dd72ef24dbe.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "ふくへきにあるうすいきんにくのぶいは「ハラミ」です。",
-      "input": "ふくへきにあるうすいきんにくのぶいわ「はらみ」です。",
+      "key": "はらのきんにくで、うすくてもはごたえがあります。とりには、うしのようなおうかくまくはありません。",
+      "input": "はらのきんにくで、うすくてもはごたえがあります。とりにわ、うしのようなおうかくまくわありません。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
-      "listening_verified": false
+      "reading_source": "Reviewed annotated culinary description in data/chicken-parts-cards.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character."
     },
     {
       "key": "すなぎも",
@@ -340,14 +455,18 @@
       "accent_status": "dictionary-reading-and-sense-match",
       "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52855",
       "listening_verified": false,
-      "accent_matched_form": "砂肝"
+      "accent_matched_form": "砂肝",
+      "reuse_audio": "audio/lessons/chicken-parts-cards/marin-320f5ef2ba0f4b79a23e.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "えさをくだくきんにくしつのいは「すなぎも」です。しぼうがすくなく、こりこりしたしょっかんがあります。",
-      "input": "えさおくだくきんにくしつのいわ「すなぎも」です。しぼうがすくなく、こりこりしたしょっかんがあります。",
+      "key": "かたいいのきんにくで、こりこりしています。あついまくをとると、たべやすくなります。",
+      "input": "かたいいのきんにくで、こりこりしています。あついまくおとると、たべやすくなります。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
-      "listening_verified": false
+      "reading_source": "Reviewed annotated culinary description in data/chicken-parts-cards.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character."
     },
     {
       "key": "ひざなんこつ",
@@ -357,14 +476,18 @@
       "accent": null,
       "accent_status": "checked-no-reliable-culinary-entry",
       "accent_source": null,
-      "listening_verified": false
+      "listening_verified": false,
+      "reuse_audio": "audio/lessons/chicken-parts-cards/marin-d78373fecd51eb80e604.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "あしのひざかんせつにあるまるいなんこつは「ヒザなんこつ」です。きょうこつがわのヤゲンなんこつとくべつします。",
-      "input": "あしのひざかんせつにあるまるいなんこつわ「ひざなんこつ」です。きょうこつがわのやげんなんこつとくべつします。",
+      "key": "あしのかんせつのなんこつで、かりっとしたはごたえがあります。からあげでしょっかんをたのしめます。",
+      "input": "あしのかんせつのなんこつで、かりっとしたはごたえがあります。からあげでしょっかんおたのしめます。",
       "speed": 1.0,
-      "reading_source": "scripts/lesson-audio-reviews/page73.json; contextual particles reviewed; complete drumette sentence retained; ハラミ anatomy corrected",
-      "listening_verified": false
+      "reading_source": "Reviewed annotated culinary description in data/chicken-parts-cards.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character."
     }
   ],
   "speed_note": "User requested normal-speed Marin vocabulary generation (1.0) after reporting buzzing in the slower 0.85 recordings. Playback remains at normal speed."

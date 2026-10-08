@@ -1,318 +1,498 @@
 {
   "lesson": "page76",
   "reviewed": true,
-  "speed": 0.85,
+  "speed": 1.0,
   "reviewNotes": "Reviewed all 16 cards and 62 speech keys against data/pages76.json source vocabulary and furigana. Verified 肩甲骨 けんこうこつ, 腰椎 ようつい, 横隔膜 おうかくまく, 後脚 こうきゃく, 前脚 ぜんきゃく, 結合組織 けつごうそしき, 外側上部 そとがわじょうぶ and all cut names. Converted katakana cut names to hiragana, preserving long vowels in ろーす and さーろいん. Contextual topic は→わ and object を→お reviewed; no directional へ present. Preserved lexical はらみ and はらがわ. Questions and complete explanations use Nova generation speed 1.0; standalone cut names and short vocabulary-choice groups use 0.85. Display labels and distinct lookup keys preserved. No listening or audible pitch-accent verification performed.",
   "entries": [
     {
       "key": "このぶいはなんですか。",
       "input": "このぶいわなんですか。",
-      "speed": 1.0
+      "speed": 1.0,
+      "reuse_audio": "audio/lessons/page76/nova-ab8c3589998e37c11449.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "ネック。 かた・ザブトン・かたロース。 リブロース。 ブリスケット",
       "input": "ねっく。 かた・ざぶとん・かたろーす。 りぶろーす。 ぶりすけっと",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-2fa4464eaad1cf6c95bf.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "ネック",
       "input": "ねっく",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-9b2d6d56e95dc1524de3.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "かた・ザブトン・かたロース",
       "input": "かた・ざぶとん・かたろーす",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-e9f056c6fd268bc093b3.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "リブロース",
       "input": "りぶろーす",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-6f78e30a5c6f491a584b.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "ブリスケット",
       "input": "ぶりすけっと",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-c61856ce83989c452f13.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "くびのぶぶんは「ネック」です。よくうごくためきんにくしつで、にこみなどにむきます。",
-      "input": "くびのぶぶんわ「ねっく」です。よくうごくためきんにくしつで、にこみなどにむきます。",
-      "speed": 1.0
+      "key": "よくうごくためすじがおおく、あじのこいあかみです。たんじかんのやきものより、にこみにむきます。",
+      "input": "よくうごくためすじがおおく、あじのこいあかみです。たんじかんのやきものより、にこみにむきます。",
+      "speed": 1.0,
+      "reading_source": "Reviewed annotated culinary description in data/pages76.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character.",
+      "reuse_audio": "audio/lessons/beef-parts-cards/marin-dbed85f5b1a97517973a.mp3",
+      "reuse_source": "Identical reviewed description in the corresponding illustrated meat card."
     },
     {
       "key": "ネック。 かた・ザブトン・かたロース。 ミスジ。 さんかくバラ",
       "input": "ねっく。 かた・ざぶとん・かたろーす。 みすじ。 さんかくばら",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-37f0d1e24404726cc462.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "ミスジ",
       "input": "みすじ",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-d41da913b510d0864db5.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "さんかくバラ",
       "input": "さんかくばら",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-6f36a98b600df9fcdaf3.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "かたのおおきなくかくには、かた、ザブトン、かたロースとしてあつかわれるぶぶんがあります。",
-      "input": "かたのおおきなくかくにわ、かた、ざぶとん、かたろーすとしてあつかわれるぶぶんがあります。",
-      "speed": 1.0
+      "key": "あかみがおおく、すじもあります。にこむと、にくのうまみをソースやしるにいかせます。 かたロースのいちぶで、あぶらがはいりやすいぶいです。やわらかさとあぶらのあまみをたのしめます。 あかみとあぶらのあじをたのしめます。うすぎりなら、すきやきやしゃぶしゃぶにつかいやすいです。",
+      "input": "あかみがおおく、すじもあります。にこむと、にくのうまみおそーすやしるにいかせます。 かたろーすのいちぶで、あぶらがはいりやすいぶいです。やわらかさとあぶらのあまみおたのしめます。 あかみとあぶらのあじおたのしめます。うすぎりなら、すきやきやしゃぶしゃぶにつかいやすいです。",
+      "speed": 1.0,
+      "reading_source": "Reviewed annotated culinary description in data/pages76.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character."
     },
     {
       "key": "ヒレ。 さんかくバラ。 ミスジ。 イチボ",
       "input": "ひれ。 さんかくばら。 みすじ。 いちぼ",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-b7d7170f322ff19aec53.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "ヒレ",
       "input": "ひれ",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-66c03576a4ea875774b7.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "イチボ",
       "input": "いちぼ",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-f6291dabf538dd60b8c4.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "けんこうこつのうちがわにあるきしょうぶいが「ミスジ」です。",
-      "input": "けんこうこつのうちがわにあるきしょうぶいが「みすじ」です。",
-      "speed": 1.0
+      "key": "けんこうこつのうちがわにあり、こまかいあぶらがはいることがあります。ちゅうおうのすじのしょりがしょっかんをさゆうします。",
+      "input": "けんこうこつのうちがわにあり、こまかいあぶらがはいることがあります。ちゅうおうのすじのしょりがしょっかんおさゆうします。",
+      "speed": 1.0,
+      "reading_source": "Reviewed annotated culinary description in data/pages76.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character.",
+      "reuse_audio": "audio/lessons/beef-parts-cards/marin-56de9eb0ad1552c0d0fe.mp3",
+      "reuse_source": "Identical reviewed description in the corresponding illustrated meat card."
     },
     {
       "key": "ブリスケット。 ミスジ。 バラ。 さんかくバラ",
       "input": "ぶりすけっと。 みすじ。 ばら。 さんかくばら",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-17be11fd566108232796.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "バラ",
       "input": "ばら",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-a083f98be5d2fe0c3931.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "かたにちかいぜんぽうのさんかくけいのばらにくが「さんかくバラ」です。",
-      "input": "かたにちかいぜんぽうのさんかくけいのばらにくが「さんかくばら」です。",
-      "speed": 1.0
+      "key": "あぶらがおおく、のうこうなあじです。やきにくでは、あぶらのあまみとこうばしさをたのしめます。",
+      "input": "あぶらがおおく、のうこうなあじです。やきにくでわ、あぶらのあまみとこうばしさおたのしめます。",
+      "speed": 1.0,
+      "reading_source": "Reviewed annotated culinary description in data/pages76.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character.",
+      "reuse_audio": "audio/lessons/beef-parts-cards/marin-9e58658108b65c7ff27e.mp3",
+      "reuse_source": "Identical reviewed description in the corresponding illustrated meat card."
     },
     {
       "key": "ブリスケット。 フランク。 サーロイン。 そともも・しんたま・トモサンカク",
       "input": "ぶりすけっと。 ふらんく。 さーろいん。 そともも・しんたま・ともさんかく",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-fe0cef22a506a6418a78.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "フランク",
       "input": "ふらんく",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-c38c7eb864c1d24c532a.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "サーロイン",
       "input": "さーろいん",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-369715250cb753fe7a1c.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "そともも・しんたま・トモサンカク",
       "input": "そともも・しんたま・ともさんかく",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-dd1bc35da68a178e7881.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "むねのしたがわにあるぶいは「ブリスケット」です。けつごうそしきがおおく、じかんをかけるちょうりにむきます。",
-      "input": "むねのしたがわにあるぶいわ「ぶりすけっと」です。けつごうそしきがおおく、じかんおかけるちょうりにむきます。",
-      "speed": 1.0
+      "key": "むねのにくで、けつごうそしきがおおいぶいです。ちょうじかんのにこみや、ゆっくりしたかねつにむきます。",
+      "input": "むねのにくで、けつごうそしきがおおいぶいです。ちょうじかんのにこみや、ゆっくりしたかねつにむきます。",
+      "speed": 1.0,
+      "reading_source": "Reviewed annotated culinary description in data/pages76.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character.",
+      "reuse_audio": "audio/lessons/beef-parts-cards/marin-60826bf67e36563b5f6e.mp3",
+      "reuse_source": "Identical reviewed description in the corresponding illustrated meat card."
     },
     {
       "key": "サーロイン。 リブロース。 ランプ。 ネック",
       "input": "さーろいん。 りぶろーす。 らんぷ。 ねっく",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-78beeb7409561947dd52.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "ランプ",
       "input": "らんぷ",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-f279fc1d500f8bae9bb1.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "せなかのちゅうおうよりぜんぽうにあるぶいが「リブロース」です。",
-      "input": "せなかのちゅうおうよりぜんぽうにあるぶいが「りぶろーす」です。",
-      "speed": 1.0
+      "key": "あぶらがはいりやすく、やわらかくのうこうです。ステーキやうすぎりで、にくとあぶらのあじをたのしめます。",
+      "input": "あぶらがはいりやすく、やわらかくのうこうです。すてーきやうすぎりで、にくとあぶらのあじおたのしめます。",
+      "speed": 1.0,
+      "reading_source": "Reviewed annotated culinary description in data/pages76.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character.",
+      "reuse_audio": "audio/lessons/beef-parts-cards/marin-23f53b971ed8c292f9e5.mp3",
+      "reuse_source": "Identical reviewed description in the corresponding illustrated meat card."
     },
     {
       "key": "リブロース。 イチボ。 サーロイン。 うちもも",
       "input": "りぶろーす。 いちぼ。 さーろいん。 うちもも",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-3c1f27b153138951e7c0.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "うちもも",
       "input": "うちもも",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-7160811da8d17e623d50.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "リブロースのこうほう、こしにちかいせなかのぶいが「サーロイン」です。",
-      "input": "りぶろーすのこうほう、こしにちかいせなかのぶいが「さーろいん」です。",
-      "speed": 1.0
+      "key": "ひかくてきやわらかく、あぶらのふうみもあります。ひょうめんをやくと、こうばしさがくわわります。",
+      "input": "ひかくてきやわらかく、あぶらのふうみもあります。ひょうめんおやくと、こうばしさがくわわります。",
+      "speed": 1.0,
+      "reading_source": "Reviewed annotated culinary description in data/pages76.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character.",
+      "reuse_audio": "audio/lessons/beef-parts-cards/marin-342d2671294495f58550.mp3",
+      "reuse_source": "Identical reviewed description in the corresponding illustrated meat card."
     },
     {
       "key": "ミスジ。 サーロイン。 ハラミ・サガリ。 ヒレ",
       "input": "みすじ。 さーろいん。 はらみ・さがり。 ひれ",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-2aa5fbec56f2bda73963.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "ハラミ・サガリ",
       "input": "はらみ・さがり",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-8be6f8c39013e1a556bb.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "ようついのうちがわにある、あまりうごかないやわらかなきんにくが「ヒレ」です。",
-      "input": "ようついのうちがわにある、あまりうごかないやわらかなきんにくが「ひれ」です。",
-      "speed": 1.0
+      "key": "しぼうがすくなく、きめがこまかいにくです。やわらかさがとくちょうですが、かねつしすぎるとかわきます。",
+      "input": "しぼうがすくなく、きめがこまかいにくです。やわらかさがとくちょうですが、かねつしすぎるとかわきます。",
+      "speed": 1.0,
+      "reading_source": "Reviewed annotated culinary description in data/pages76.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character.",
+      "reuse_audio": "audio/lessons/beef-parts-cards/marin-ce8d57ca0d80b2d42e6f.mp3",
+      "reuse_source": "Identical reviewed description in the corresponding illustrated meat card."
     },
     {
       "key": "サーロイン・ヒレ。 イチボ・ランプ。 そともも・しんたま・トモサンカク。 フランク・バラ",
       "input": "さーろいん・ひれ。 いちぼ・らんぷ。 そともも・しんたま・ともさんかく。 ふらんく・ばら",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-3c85a952556e23b5dbc5.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "サーロイン・ヒレ",
       "input": "さーろいん・ひれ",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-d7457e9520c80284e419.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "イチボ・ランプ",
       "input": "いちぼ・らんぷ",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-82a7fcdd23a86a8132be.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "フランク・バラ",
       "input": "ふらんく・ばら",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-7256cad2b45c96e13a99.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "こしからしりにかけてのあかみが「ランプ」で、そのそとがわじょうぶに「イチボ」があります。ずではひとつのしろいくかくとしてしめされています。",
-      "input": "こしからしりにかけてのあかみが「らんぷ」で、そのそとがわじょうぶに「いちぼ」があります。ずでわひとつのしろいくかくとしてしめされています。",
-      "speed": 1.0
+      "key": "あかみのうまみと、あぶらのあじをたのしめます。せんいのむきをみてきると、たべやすくなります。 きめがこまかいあかみで、あじにふかみがあります。ローストやステーキであかみのあじをたのしめます。",
+      "input": "あかみのうまみと、あぶらのあじおたのしめます。せんいのむきおみてきると、たべやすくなります。 きめがこまかいあかみで、あじにふかみがあります。ろーすとやすてーきであかみのあじおたのしめます。",
+      "speed": 1.0,
+      "reading_source": "Reviewed annotated culinary description in data/pages76.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character."
     },
     {
       "key": "うちもも。 ランプ・イチボ。 そともも・しんたま・トモサンカク。 バラ・カルビ・カイノミ",
       "input": "うちもも。 らんぷ・いちぼ。 そともも・しんたま・ともさんかく。 ばら・かるび・かいのみ",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-be54bf975d68d7088c05.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "ランプ・イチボ",
       "input": "らんぷ・いちぼ",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-62d6816ee5b2c7ada053.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "バラ・カルビ・カイノミ",
       "input": "ばら・かるび・かいのみ",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-db19ad6822b093049b9d.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "こうきゃくじょうぶのくかくには「そともも」「しんたま」「トモサンカク」がふくまれます。ずではふくごうくかくとしておぼえます。",
-      "input": "こうきゃくじょうぶのくかくにわ「そともも」「しんたま」「ともさんかく」がふくまれます。ずでわふくごうくかくとしておぼえます。",
-      "speed": 1.0
+      "key": "よくうごくぶいで、せんいがあらく、かためです。うすぎりやにこみ、ひきにくにむきます。 あかみがちゅうしんですが、きんにくごとにかたさがちがいます。ぶいをわけてちょうりするとつかいやすいです。 しんたまのいちぶで、あぶらがはいりやすいぶいです。ももにくでも、のうこうなあじをたのしめます。",
+      "input": "よくうごくぶいで、せんいがあらく、かためです。うすぎりやにこみ、ひきにくにむきます。 あかみがちゅうしんですが、きんにくごとにかたさがちがいます。ぶいおわけてちょうりするとつかいやすいです。 しんたまのいちぶで、あぶらがはいりやすいぶいです。ももにくでも、のうこうなあじおたのしめます。",
+      "speed": 1.0,
+      "reading_source": "Reviewed annotated culinary description in data/pages76.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character."
     },
     {
       "key": "そともも。 フランク。 しんたま。 うちもも",
       "input": "そともも。 ふらんく。 しんたま。 うちもも",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-790105bb0a5ef0a0e0b2.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "そともも",
       "input": "そともも",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-dbd4d834b2e3abab0be3.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "しんたま",
       "input": "しんたま",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-4c00262191302125db17.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "こうきゃくのうちがわにあるおおきなあかみのぶいが「うちもも」です。",
-      "input": "こうきゃくのうちがわにあるおおきなあかみのぶいが「うちもも」です。",
-      "speed": 1.0
+      "key": "おおきなあかみのかたまりで、しぼうはすくなめです。ローストにつかいやすく、うすくきるとたべやすいです。",
+      "input": "おおきなあかみのかたまりで、しぼうわすくなめです。ろーすとにつかいやすく、うすくきるとたべやすいです。",
+      "speed": 1.0,
+      "reading_source": "Reviewed annotated culinary description in data/pages76.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character.",
+      "reuse_audio": "audio/lessons/beef-parts-cards/marin-62fddb1a78ddfd31b946.mp3",
+      "reuse_source": "Identical reviewed description in the corresponding illustrated meat card."
     },
     {
       "key": "フランク。 ブリスケット。 すね。 ヒレ",
       "input": "ふらんく。 ぶりすけっと。 すね。 ひれ",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-a58df517141da2a59fc7.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "すね",
       "input": "すね",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-31ae2be77d0364cd570e.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "こうほうのふくぶにあるぶいが「フランク」です。",
-      "input": "こうほうのふくぶにあるぶいが「ふらんく」です。",
-      "speed": 1.0
+      "key": "はらのにくで、ながいせんいがめだちます。せんいをたつほうこうにきると、かみやすくなります。",
+      "input": "はらのにくで、ながいせんいがめだちます。せんいおたつほうこうにきると、かみやすくなります。",
+      "speed": 1.0,
+      "reading_source": "Reviewed annotated culinary description in data/pages76.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character.",
+      "reuse_audio": "audio/lessons/beef-parts-cards/marin-f9d4d330eea19ca201e4.mp3",
+      "reuse_source": "Identical reviewed description in the corresponding illustrated meat card."
     },
     {
       "key": "ハラミ・サガリ。 バラ。 カルビ・カイノミ。 さんかくバラ",
       "input": "はらみ・さがり。 ばら。 かるび・かいのみ。 さんかくばら",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-a3bc6f6461ec6b12ed0f.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "カルビ・カイノミ",
       "input": "かるび・かいのみ",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-5c3a8b2819b0f17ad3ed.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "どうたいのはらがわにひろがるぶいが「バラ」です。",
-      "input": "どうたいのはらがわにひろがるぶいが「ばら」です。",
-      "speed": 1.0
+      "key": "あぶらとあかみがまざり、のうこうです。うすぎりはぎゅうどん、すじのおおいかたまりはにこみにむきます。",
+      "input": "あぶらとあかみがまざり、のうこうです。うすぎりわぎゅうどん、すじのおおいかたまりわにこみにむきます。",
+      "speed": 1.0,
+      "reading_source": "Reviewed annotated culinary description in data/pages76.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character.",
+      "reuse_audio": "audio/lessons/beef-parts-cards/marin-3886ed2ffecd3c8a59b2.mp3",
+      "reuse_source": "Identical reviewed description in the corresponding illustrated meat card."
     },
     {
       "key": "バラ。 ヒレ・サーロイン。 カルビ・カイノミ。 そともも・しんたま",
       "input": "ばら。 ひれ・さーろいん。 かるび・かいのみ。 そともも・しんたま",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-9cb054cbc70d688d9b92.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "ヒレ・サーロイン",
       "input": "ひれ・さーろいん",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-71c5a4147ae7210d15f9.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "そともも・しんたま",
       "input": "そともも・しんたま",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-c41678a1661aeacb4340.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "バラのなかで、やきにくの「カルビ」やわきばらがわの「カイノミ」としてあつかうくかくです。",
-      "input": "ばらのなかで、やきにくの「かるび」やわきばらがわの「かいのみ」としてあつかうくかくです。",
-      "speed": 1.0
+      "key": "やきにくでは、おもにバラけいのにくをさします。たんいつのきんにくめいではなく、あぶらやかたさにはばがあります。 バラけいですが、ひかくてきやわらかいぶいです。あかみのあじとあぶらのバランスをたのしめます。",
+      "input": "やきにくでわ、おもにばらけいのにくおさします。たんいつのきんにくめいでわなく、あぶらやかたさにはばがあります。 ばらけいですが、ひかくてきやわらかいぶいです。あかみのあじとあぶらのばらんすおたのしめます。",
+      "speed": 1.0,
+      "reading_source": "Reviewed annotated culinary description in data/pages76.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character."
     },
     {
       "key": "ヒレ・ミスジ。 バラ・フランク。 ブリスケット・さんかくバラ。 ハラミ・サガリ",
       "input": "ひれ・みすじ。 ばら・ふらんく。 ぶりすけっと・さんかくばら。 はらみ・さがり",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-2585372daa39556c565f.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "ヒレ・ミスジ",
       "input": "ひれ・みすじ",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-2f252bda353f2c156fc6.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "バラ・フランク",
       "input": "ばら・ふらんく",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-66349d8b41a36f8a84ee.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
       "key": "ブリスケット・さんかくバラ",
       "input": "ぶりすけっと・さんかくばら",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-92b87878f67654123959.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "おうかくまくにかんけいするぶいが「ハラミ」と「サガリ」です。ずではおなじくかくとしてしめします。",
-      "input": "おうかくまくにかんけいするぶいが「はらみ」と「さがり」です。ずでわおなじくかくとしてしめします。",
-      "speed": 1.0
+      "key": "おうかくまくのきんにくで、ないぞうにぶんるいされます。にくらしいあじと、しっかりしたせんいがとくちょうです。 おうかくまくのいちぶで、ふといすじをしょりしてつかいます。ハラミとおなじく、せんいをたってきるとたべやすいです。",
+      "input": "おうかくまくのきんにくで、ないぞうにぶんるいされます。にくらしいあじと、しっかりしたせんいがとくちょうです。 おうかくまくのいちぶで、ふといすじおしょりしてつかいます。はらみとおなじく、せんいおたってきるとたべやすいです。",
+      "speed": 1.0,
+      "reading_source": "Reviewed annotated culinary description in data/pages76.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character."
     },
     {
       "key": "すね。 うちもも。 ネック。 ブリスケット",
       "input": "すね。 うちもも。 ねっく。 ぶりすけっと",
-      "speed": 0.85
+      "speed": 0.85,
+      "reuse_audio": "audio/lessons/page76/nova-d71d0df194d5191342a3.mp3",
+      "reuse_source": "Existing approved recording; unchanged speech key."
     },
     {
-      "key": "ぜんきゃくとこうきゃくのかんせつにちかいぶぶんが「すね」です。すじがおおく、にこみにむきます。",
-      "input": "ぜんきゃくとこうきゃくのかんせつにちかいぶぶんが「すね」です。すじがおおく、にこみにむきます。",
-      "speed": 1.0
+      "key": "すじがおおく、そのままではかたいにくです。じっくりにるとやわらかくなり、しるにもこくがでます。",
+      "input": "すじがおおく、そのままでわかたいにくです。じっくりにるとやわらかくなり、しるにもこくがでます。",
+      "speed": 1.0,
+      "reading_source": "Reviewed annotated culinary description in data/pages76.json; contextual particles and clause boundaries checked.",
+      "accent_status": "provisional-phrase-intonation",
+      "listening_verified": false,
+      "pronunciation_guidance": "These are descriptions of meat cuts. Use natural conversational Tokyo Japanese with connected phrases. Keep particles attached to the preceding phrase; brief pauses only at commas and sentence ends. Do not stretch syllables, separate morae, or change vocal character.",
+      "reuse_audio": "audio/lessons/beef-parts-cards/marin-5b4240a10c54967e7608.mp3",
+      "reuse_source": "Identical reviewed description in the corresponding illustrated meat card."
     }
-  ]
+  ],
+  "voice": "marin",
+  "model": "gpt-4o-mini-tts"
 }
