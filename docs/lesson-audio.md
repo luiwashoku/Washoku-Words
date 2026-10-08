@@ -721,3 +721,7 @@ Anatomy refinement: ツバ（口金） and R（反り） combined into single vo
 刃元 regenerated after male-sounding voice report; reviewed はもと input, knife-heel context and consistent normal Marin register guidance at 1.0. Shared key updates both anatomy labels and existing cards. MP3 metadata validated; audible timbre not listening-verified.
 
 Anatomy 口輪（角巻） combined into one vocabulary entry and diagram playback key, reviewed くちわ、つのまき input, Marin 1.0. MP3 metadata validated; no audible listening verification claimed.
+
+Auto Response page 14 場合による — It depends: six requested polite/casual sentences with translations, seven new Marin 1.0 clips including heading. Hiragana and continuous embedded-question phrasing reviewed, provisional phrase intonation. Coverage and replacement MP3 metadata validated; no audible listening verification claimed.
+
+Auto Response page 14: requested polite topic-dependence and casual matching-dependence sentences regenerated with steady continuous conversational timing at Marin 1.0. Reviewed readings retained; MP3 metadata validated. Audible tempo not listening-verified.

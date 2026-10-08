@@ -629,6 +629,53 @@
           ]
         }
       ]
+    },
+    {
+      "id": "auto-response-card-14",
+      "step": 14,
+      "kanji": "場合(ばあい)による",
+      "japanese": "ばあいによる",
+      "english": "It depends",
+      "blocks": [
+        {
+          "items": [
+            {
+              "japanese": "何(なに)についてかによりますね。",
+              "speech": "なにについてかによりますね。",
+              "english": "It depends on what it’s about."
+            },
+            {
+              "japanese": "何(なに)に合(あ)わせるかによりますね。",
+              "speech": "なににあわせるかによりますね。",
+              "english": "It depends on what we’re trying to suit / match."
+            },
+            {
+              "japanese": "人(ひと)によりますね。",
+              "speech": "ひとによりますね。",
+              "english": "It depends on the person."
+            }
+          ]
+        },
+        {
+          "items": [
+            {
+              "japanese": "何(なに)についてかによるね。",
+              "speech": "なにについてかによるね。",
+              "english": "It depends on what it’s about. [casual]"
+            },
+            {
+              "japanese": "何(なに)に合(あ)わせるかによるね。",
+              "speech": "なににあわせるかによるね。",
+              "english": "It depends on what we’re trying to suit / match. [casual]"
+            },
+            {
+              "japanese": "人(ひと)によるね。",
+              "speech": "ひとによるね。",
+              "english": "It depends on the person. [casual]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
