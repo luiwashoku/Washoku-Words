@@ -1,0 +1,3633 @@
+{
+  "id": "daily-life-2026-10-12",
+  "batch": 6,
+  "range": [
+    226,
+    275
+  ],
+  "reviewed": true,
+  "model": "gpt-4o-mini-tts",
+  "voice": "marin",
+  "speed": 1.0,
+  "accent_source": {
+    "commit": "9ebca4589565c696e7c39e089e2e928ad65f678c",
+    "url": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt",
+    "sha256": "8bd0dd127dab32ceec94cb03ab1ba6b68858ea73421dfa1731af2f373deb4f20"
+  },
+  "listening_verified": false,
+  "reading_source": "User-supplied vocabulary readings, reviewed contextual example furigana, and exact dictionary or explicitly meaning-checked alias/component references.",
+  "particle_review": "Topic phrases individually reviewed, no global は replacement. All displayed を occurrences are reviewed object particles, pronounced お. Lexical は and へ are preserved.",
+  "phrase_review": "Existing commas are brief complete-phrase/clause boundaries; no added pause before particles. Quotes are speech-silent. Preserve natural casual contractions and omitted particles.",
+  "entries": [
+    {
+      "key": "しんぞう|心臓",
+      "kind": "word",
+      "display": "心臓",
+      "english": "Heart",
+      "input": "しんぞう",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L69309",
+        "matched_form": "心臓",
+        "reading": "しんぞう",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Heart. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "しんぞう",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "しんぞう|心臓",
+      "kind": "sentence",
+      "display": "びっくりして、心臓(しんぞう)がどきどきした。",
+      "english": "It startled me, and my heart started pounding.",
+      "input": "びっくりして、しんぞうがどきどきした。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L69309",
+          "matched_form": "心臓",
+          "reading": "しんぞう",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "はい|肺",
+      "kind": "word",
+      "display": "肺",
+      "english": "Lungs",
+      "input": "はい",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L97304",
+        "matched_form": "肺",
+        "reading": "はい",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Lungs. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "はい",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "はい|肺",
+      "kind": "sentence",
+      "display": "健診(けんしん)で、肺(はい)の写真(しゃしん)も撮(と)ったよ。",
+      "english": "They took an image of my lungs at my checkup too.",
+      "input": "けんしんで、はいのしゃしんもとったよ。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L97304",
+          "matched_form": "肺",
+          "reading": "はい",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "い|胃",
+      "kind": "word",
+      "display": "胃",
+      "english": "Stomach",
+      "input": "い",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L22500",
+        "matched_form": "胃",
+        "reading": "い",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Stomach. This is a single-mora word with dictionary heiban accent 0. Say just that one mora naturally; do not invent a second mora, extend the vowel or add a particle to demonstrate a rise. Keep normal Japanese timing.",
+      "listening_verified": false,
+      "reading_original": "い",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "い|胃",
+      "kind": "sentence",
+      "display": "食(た)べすぎて、胃(い)が重(おも)い。",
+      "english": "I ate too much, and my stomach feels heavy.",
+      "input": "たべすぎて、いがおもい。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L22500",
+          "matched_form": "胃",
+          "reading": "い",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ちょう|腸",
+      "kind": "word",
+      "display": "腸",
+      "english": "Intestines",
+      "input": "ちょう",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 1,
+        "variants": [
+          1
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L87021",
+        "matched_form": "腸",
+        "reading": "ちょう",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Intestines. Use dictionary Tokyo accent 1: drop immediately after mora 1. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "ちょう",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ちょう|腸",
+      "kind": "sentence",
+      "display": "先生(せんせい)に、腸(ちょう)の動(うご)きが弱(よわ)ってるって言(い)われた。",
+      "english": "The doctor said my intestines weren't working as actively as usual.",
+      "input": "せんせいに、ちょうのうごきがよわってるっていわれた。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L87021",
+          "matched_form": "腸",
+          "reading": "ちょう",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 1. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "かんぞう|肝臓",
+      "kind": "word",
+      "display": "肝臓",
+      "english": "Liver",
+      "input": "かんぞう",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34712",
+        "matched_form": "肝臓",
+        "reading": "かんぞう",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Liver. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "かんぞう",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "かんぞう|肝臓",
+      "kind": "sentence",
+      "display": "健診(けんしん)で、肝臓(かんぞう)の数値(すうち)も見(み)てもらった。",
+      "english": "They checked my liver readings at my health checkup too.",
+      "input": "けんしんで、かんぞうのすうちもみてもらった。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34712",
+          "matched_form": "肝臓",
+          "reading": "かんぞう",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "じんぞう|腎臓",
+      "kind": "word",
+      "display": "腎臓",
+      "english": "Kidney",
+      "input": "じんぞう",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L71468",
+        "matched_form": "腎臓",
+        "reading": "じんぞう",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Kidney. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "じんぞう",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "じんぞう|腎臓",
+      "kind": "sentence",
+      "display": "次(つぎ)の検査(けんさ)で、腎臓(じんぞう)も調(しら)べるんだって。",
+      "english": "Apparently they'll check my kidneys at the next test too.",
+      "input": "つぎのけんさで、じんぞうもしらべるんだって。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L71468",
+          "matched_form": "腎臓",
+          "reading": "じんぞう",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ころぶ|転ぶ",
+      "kind": "word",
+      "display": "転ぶ",
+      "english": "To fall down / trip",
+      "input": "ころぶ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L90132",
+        "matched_form": "転ぶ",
+        "reading": "ころぶ",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To fall down / trip. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "ころぶ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ころぶ|転ぶ",
+      "kind": "sentence",
+      "display": "駅(えき)で転(ころ)んじゃった。膝(ひざ)がちょっと痛(いた)い。",
+      "english": "I fell at the station. My knee hurts a little.",
+      "input": "えきでころんじゃった。ひざがちょっといたい。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L90132",
+          "matched_form": "転ぶ",
+          "reading": "ころぶ",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "たおれる|倒れる",
+      "kind": "word",
+      "display": "倒れる",
+      "english": "To fall over / collapse",
+      "input": "たおれる",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 3,
+        "variants": [
+          3
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L91340",
+        "matched_form": "倒れる",
+        "reading": "たおれる",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To fall over / collapse. Use dictionary Tokyo accent 3: drop immediately after mora 3. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "たおれる",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "たおれる|倒れる",
+      "kind": "sentence",
+      "display": "風(かぜ)で傘立(かさた)てが倒(たお)れちゃった。",
+      "english": "The wind knocked over the umbrella stand.",
+      "input": "かぜでかさたてがたおれちゃった。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 3,
+          "variants": [
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L91340",
+          "matched_form": "倒れる",
+          "reading": "たおれる",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Speak this as natural everyday Japanese conversation in one clear, steady voice. Preserve casual contractions, omitted particles, long vowels and doubled consonants exactly as written. Keep each complete phrase connected, including its particles. Use only short conversational breaks at the supplied commas, with no extra pauses between words or syllables. Use native contextual accents for inflected words rather than forcing dictionary-form accent onto conjugations. Keep a normal conversational rhythm with no stretched endings, chanting or exaggerated stress. Read only the supplied input once. The target vocabulary has checked dictionary-form accent 3; use it naturally in context and adjust any inflected form appropriately.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      },
+      "revision": 2,
+      "retry_reason": "Final user check marks this clip Redo; user explicitly authorized replacement directly in the flashcard deck without another preview approval."
+    },
+    {
+      "key": "すべる|滑る",
+      "kind": "word",
+      "display": "滑る",
+      "english": "To slip",
+      "input": "すべる",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L33150",
+        "matched_form": "滑る",
+        "reading": "すべる",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To slip. Use dictionary Tokyo accent 2: drop immediately after mora 2. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "すべる",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "すべる|滑る",
+      "kind": "sentence",
+      "display": "ここ、ぬれてると滑(すべ)るから気(き)をつけて。",
+      "english": "Be careful—it gets slippery here when it's wet.",
+      "input": "ここ、ぬれてるとすべるからきおつけて。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L33150",
+          "matched_form": "滑る",
+          "reading": "すべる",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 2. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          14
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "つまずく|",
+      "kind": "word",
+      "display": "つまずく",
+      "english": "To stumble / trip over",
+      "input": "つまずく",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0,
+          3
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L123186",
+        "matched_form": "躓く",
+        "reading": "つまずく",
+        "method": "reviewed meaning-equivalent spelling alias and exact reading",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To stumble / trip over. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "つまずく",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "つまずく|",
+      "kind": "sentence",
+      "display": "玄関(げんかん)の段差(だんさ)につまずいちゃった。",
+      "english": "I tripped on the step in the entrance area.",
+      "input": "げんかんのだんさにつまずいちゃった。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0,
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L123186",
+          "matched_form": "躓く",
+          "reading": "つまずく",
+          "method": "reviewed meaning-equivalent spelling alias and exact reading",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ぶつかる|",
+      "kind": "word",
+      "display": "ぶつかる",
+      "english": "To bump into something",
+      "input": "ぶつかる",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L81514",
+        "matched_form": "打つかる",
+        "reading": "ぶつかる",
+        "method": "reviewed meaning-equivalent spelling alias and exact reading",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "Read this as an ordinary Japanese word or expression meaning To bump into something, in a clear and steady native Japanese voice. Use checked Tokyo heiban accent 0, with no lexical pitch fall. Begin low, rise naturally on the second mora, and keep the following morae without a lexical drop. Keep the entire expression fluent and compact, with normal Japanese vowel lengths and doubled consonants. No syllable gaps, chanting, exaggerated stress, English-style vowels or elongated endings. Read only the given input once.",
+      "listening_verified": false,
+      "reading_original": "ぶつかる",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged.",
+      "revision": 2,
+      "retry_reason": "Final user check marks this clip Redo; user explicitly authorized replacement directly in the flashcard deck without another preview approval."
+    },
+    {
+      "key": "ぶつかる|",
+      "kind": "sentence",
+      "display": "よそ見(み)してたら、ドアにぶつかった。",
+      "english": "I wasn't looking and bumped into the door.",
+      "input": "よそみしてたら、どあにぶつかった。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L81514",
+          "matched_form": "打つかる",
+          "reading": "ぶつかる",
+          "method": "reviewed meaning-equivalent spelling alias and exact reading",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "よろける|",
+      "kind": "word",
+      "display": "よろける",
+      "english": "To stagger / lose balance",
+      "input": "よろける",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L123149",
+        "matched_form": "蹌踉ける",
+        "reading": "よろける",
+        "method": "reviewed meaning-equivalent spelling alias and exact reading",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To stagger / lose balance. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "よろける",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "よろける|",
+      "kind": "sentence",
+      "display": "急(きゅう)に電車(でんしゃ)が揺(ゆ)れて、よろけちゃった。",
+      "english": "The train jolted, and I lost my balance.",
+      "input": "きゅうにでんしゃがゆれて、よろけちゃった。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L123149",
+          "matched_form": "蹌踉ける",
+          "reading": "よろける",
+          "method": "reviewed meaning-equivalent spelling alias and exact reading",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "しゃがむ|",
+      "kind": "word",
+      "display": "しゃがむ",
+      "english": "To squat / crouch",
+      "input": "しゃがむ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L2342",
+        "matched_form": "しゃがむ",
+        "reading": "しゃがむ",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "Read this as an ordinary Japanese word or expression meaning To squat / crouch, in a clear and steady native Japanese voice. Use checked Tokyo heiban accent 0, with no lexical pitch fall. Begin low, rise naturally on the second mora, and keep the following morae without a lexical drop. Keep the entire expression fluent and compact, with normal Japanese vowel lengths and doubled consonants. No syllable gaps, chanting, exaggerated stress, English-style vowels or elongated endings. Read only the given input once.",
+      "listening_verified": false,
+      "reading_original": "しゃがむ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged.",
+      "revision": 2,
+      "retry_reason": "Final user check marks this clip Redo; user explicitly authorized replacement directly in the flashcard deck without another preview approval."
+    },
+    {
+      "key": "しゃがむ|",
+      "kind": "sentence",
+      "display": "写真(しゃしん)撮(と)るから、ちょっとしゃがんでくれる？",
+      "english": "I'm taking a photo. Can you crouch down a little?",
+      "input": "しゃしんとるから、ちょっとしゃがんでくれる？",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L2342",
+          "matched_form": "しゃがむ",
+          "reading": "しゃがむ",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "かがむ|",
+      "kind": "word",
+      "display": "かがむ",
+      "english": "To bend down",
+      "input": "かがむ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L41899",
+        "matched_form": "屈む",
+        "reading": "かがむ",
+        "method": "reviewed meaning-equivalent spelling alias and exact reading",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "Read this as an ordinary Japanese word or expression meaning To bend down, in a clear and steady native Japanese voice. Use checked Tokyo heiban accent 0, with no lexical pitch fall. Begin low, rise naturally on the second mora, and keep the following morae without a lexical drop. Keep the entire expression fluent and compact, with normal Japanese vowel lengths and doubled consonants. No syllable gaps, chanting, exaggerated stress, English-style vowels or elongated endings. Read only the given input once.",
+      "listening_verified": false,
+      "reading_original": "かがむ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged.",
+      "revision": 2,
+      "retry_reason": "Final user check marks this clip Redo; user explicitly authorized replacement directly in the flashcard deck without another preview approval."
+    },
+    {
+      "key": "かがむ|",
+      "kind": "sentence",
+      "display": "低(ひく)いドアだから、かがんで入(はい)ってね。",
+      "english": "The doorway's low, so bend down as you go in.",
+      "input": "ひくいどあだから、かがんではいってね。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L41899",
+          "matched_form": "屈む",
+          "reading": "かがむ",
+          "method": "reviewed meaning-equivalent spelling alias and exact reading",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "まげる|曲げる",
+      "kind": "word",
+      "display": "曲げる",
+      "english": "To bend something / a body part",
+      "input": "まげる",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40054",
+        "matched_form": "曲げる",
+        "reading": "まげる",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To bend something / a body part. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "まげる",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "まげる|曲げる",
+      "kind": "sentence",
+      "display": "膝(ひざ)を曲(ま)げると、ちょっと痛(いた)い。",
+      "english": "It hurts a little when I bend my knee.",
+      "input": "ひざおまげると、ちょっといたい。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40054",
+          "matched_form": "曲げる",
+          "reading": "まげる",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          2
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "まがる|曲がる",
+      "kind": "word",
+      "display": "曲がる",
+      "english": "To bend / curve",
+      "input": "まがる",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40051",
+        "matched_form": "曲がる",
+        "reading": "まがる",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To bend / curve. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "まがる",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "まがる|曲がる",
+      "kind": "sentence",
+      "display": "このスプーン、少(すこ)し曲(ま)がってるね。",
+      "english": "This spoon's a little bent.",
+      "input": "このすぷーん、すこしまがってるね。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40051",
+          "matched_form": "曲がる",
+          "reading": "まがる",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "のばす|伸ばす",
+      "kind": "word",
+      "display": "伸ばす",
+      "english": "To stretch / straighten",
+      "input": "のばす",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68922",
+        "matched_form": "伸ばす",
+        "reading": "のばす",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To stretch / straighten. Use dictionary Tokyo accent 2: drop immediately after mora 2. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "のばす",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "のばす|伸ばす",
+      "kind": "sentence",
+      "display": "座(すわ)りっぱなしだったから、脚(あし)を伸(の)ばしたい。",
+      "english": "I've been sitting for ages, so I want to stretch my legs.",
+      "input": "すわりっぱなしだったから、あしおのばしたい。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68922",
+          "matched_form": "伸ばす",
+          "reading": "のばす",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 2. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          15
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "のびる|伸びる",
+      "kind": "word",
+      "display": "伸びる",
+      "english": "To stretch / extend",
+      "input": "のびる",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68925",
+        "matched_form": "伸びる",
+        "reading": "のびる",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To stretch / extend. Use dictionary Tokyo accent 2: drop immediately after mora 2. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "のびる",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "のびる|伸びる",
+      "kind": "sentence",
+      "display": "この生地(きじ)、よく伸(の)びるから着(き)やすいね。",
+      "english": "This fabric stretches nicely, so it's comfortable to wear.",
+      "input": "このきじ、よくのびるからきやすいね。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68925",
+          "matched_form": "伸びる",
+          "reading": "のびる",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 2. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "そる|反る",
+      "kind": "word",
+      "display": "反る",
+      "english": "To arch backward",
+      "input": "そる",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 1,
+        "variants": [
+          1
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L99283",
+        "matched_form": "反る",
+        "reading": "そる",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To arch backward. Use dictionary Tokyo accent 1: drop immediately after mora 1. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "そる",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "そる|反る",
+      "kind": "sentence",
+      "display": "そんなに背中(せなか)を反(そ)ると、腰(こし)が痛(いた)くならない？",
+      "english": "Doesn't your lower back hurt when you arch your back that far?",
+      "input": "そんなにせなかおそると、こしがいたくならない？",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L99283",
+          "matched_form": "反る",
+          "reading": "そる",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 1. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          7
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ひねる|",
+      "kind": "word",
+      "display": "ひねる",
+      "english": "To twist",
+      "input": "ひねる",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L96319",
+        "matched_form": "捻る",
+        "reading": "ひねる",
+        "method": "reviewed meaning-equivalent spelling alias and exact reading",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To twist. Use dictionary Tokyo accent 2: drop immediately after mora 2. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "ひねる",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ひねる|",
+      "kind": "sentence",
+      "display": "腰(こし)をひねったら、ちょっと痛(いた)かった。",
+      "english": "It hurt a little when I twisted at the waist.",
+      "input": "こしおひねったら、ちょっといたかった。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L96319",
+          "matched_form": "捻る",
+          "reading": "ひねる",
+          "method": "reviewed meaning-equivalent spelling alias and exact reading",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 2. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          2
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ねじる|",
+      "kind": "word",
+      "display": "ねじる",
+      "english": "To twist / turn",
+      "input": "ねじる",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L96310",
+        "matched_form": "捻じる",
+        "reading": "ねじる",
+        "method": "reviewed meaning-equivalent spelling alias and exact reading",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To twist / turn. Use dictionary Tokyo accent 2: drop immediately after mora 2. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "ねじる",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ねじる|",
+      "kind": "sentence",
+      "display": "この蓋(ふた)、ねじると開(あ)くよ。",
+      "english": "This lid opens if you twist it.",
+      "input": "このふた、ねじるとあくよ。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L96310",
+          "matched_form": "捻じる",
+          "reading": "ねじる",
+          "method": "reviewed meaning-equivalent spelling alias and exact reading",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 2. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "かたむける|傾ける",
+      "kind": "word",
+      "display": "傾ける",
+      "english": "To tilt",
+      "input": "かたむける",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 4,
+        "variants": [
+          4
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L42467",
+        "matched_form": "傾ける",
+        "reading": "かたむける",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To tilt. Use dictionary Tokyo accent 4: drop immediately after mora 4. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "かたむける",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "かたむける|傾ける",
+      "kind": "sentence",
+      "display": "スマホを少(すこ)し傾(かたむ)けると、画面(がめん)が見(み)やすいよ。",
+      "english": "It's easier to see the screen if you tilt your phone a little.",
+      "input": "すまほおすこしかたむけると、がめんがみやすいよ。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 4,
+          "variants": [
+            4
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L42467",
+          "matched_form": "傾ける",
+          "reading": "かたむける",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 4. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          3
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ふる|振る",
+      "kind": "word",
+      "display": "振る",
+      "english": "To shake / swing / wave",
+      "input": "ふる",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L69480",
+        "matched_form": "振る",
+        "reading": "ふる",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To shake / swing / wave. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "ふる",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ふる|振る",
+      "kind": "sentence",
+      "display": "使(つか)う前(まえ)に、ボトルを軽(かる)く振(ふ)ってね。",
+      "english": "Give the bottle a gentle shake before using it.",
+      "input": "つかうまえに、ぼとるおかるくふってね。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L69480",
+          "matched_form": "振る",
+          "reading": "ふる",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          10
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ゆれる|揺れる",
+      "kind": "word",
+      "display": "揺れる",
+      "english": "To sway / shake",
+      "input": "ゆれる",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L114021",
+        "matched_form": "揺れる",
+        "reading": "ゆれる",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To sway / shake. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "ゆれる",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ゆれる|揺れる",
+      "kind": "sentence",
+      "display": "風(かぜ)でカーテンが揺(ゆ)れてる。",
+      "english": "The curtains are swaying in the breeze.",
+      "input": "かぜでかーてんがゆれてる。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L114021",
+          "matched_form": "揺れる",
+          "reading": "ゆれる",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ゆらす|揺らす",
+      "kind": "word",
+      "display": "揺らす",
+      "english": "To shake / rock something",
+      "input": "ゆらす",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L113998",
+        "matched_form": "揺らす",
+        "reading": "ゆらす",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To shake / rock something. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "ゆらす",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ゆらす|揺らす",
+      "kind": "sentence",
+      "display": "テーブル揺(ゆ)らさないで。飲(の)み物(もの)こぼれちゃう。",
+      "english": "Don't shake the table. You'll spill the drinks.",
+      "input": "てーぶるゆらさないで。のみものこぼれちゃう。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L113998",
+          "matched_form": "揺らす",
+          "reading": "ゆらす",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Speak this as natural everyday Japanese conversation in one clear, steady voice. Preserve casual contractions, omitted particles, long vowels and doubled consonants exactly as written. Keep each complete phrase connected, including its particles. Use only short conversational breaks at the supplied commas, with no extra pauses between words or syllables. Use native contextual accents for inflected words rather than forcing dictionary-form accent onto conjugations. Keep a normal conversational rhythm with no stretched endings, chanting or exaggerated stress. Read only the supplied input once. The target vocabulary has checked dictionary-form accent 0; use it naturally in context and adjust any inflected form appropriately.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      },
+      "revision": 2,
+      "retry_reason": "Final user check marks this clip Redo; user explicitly authorized replacement directly in the flashcard deck without another preview approval."
+    },
+    {
+      "key": "まわす|回す",
+      "kind": "word",
+      "display": "回す",
+      "english": "To rotate / turn",
+      "input": "まわす",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L30668",
+        "matched_form": "回す",
+        "reading": "まわす",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To rotate / turn. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "まわす",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "まわす|回す",
+      "kind": "sentence",
+      "display": "このつまみを回(まわ)すと、音(おと)が大(おお)きくなるよ。",
+      "english": "Turning this knob makes it louder.",
+      "input": "このつまみおまわすと、おとがおおきくなるよ。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L30668",
+          "matched_form": "回す",
+          "reading": "まわす",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          5
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "まわる|回る",
+      "kind": "word",
+      "display": "回る",
+      "english": "To turn / spin",
+      "input": "まわる",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L30684",
+        "matched_form": "回る",
+        "reading": "まわる",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To turn / spin. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "まわる",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "まわる|回る",
+      "kind": "sentence",
+      "display": "扇風機(せんぷうき)が回(まわ)らなくなっちゃった。",
+      "english": "The fan's stopped spinning.",
+      "input": "せんぷうきがまわらなくなっちゃった。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L30684",
+          "matched_form": "回る",
+          "reading": "まわる",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "とぶ|跳ぶ",
+      "kind": "word",
+      "display": "跳ぶ",
+      "english": "To jump",
+      "input": "とぶ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L87256",
+        "matched_form": "跳ぶ",
+        "reading": "とぶ",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To jump. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "とぶ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "とぶ|跳ぶ",
+      "kind": "sentence",
+      "display": "水(みず)たまりを跳(と)んで越(こ)えようとしたら、靴(くつ)がぬれた。",
+      "english": "I tried to jump over a puddle and got my shoes wet.",
+      "input": "みずたまりおとんでこえようとしたら、くつがぬれた。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L87256",
+          "matched_form": "跳ぶ",
+          "reading": "とぶ",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          5
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "はねる|跳ねる",
+      "kind": "word",
+      "display": "跳ねる",
+      "english": "To bounce / hop",
+      "input": "はねる",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L87224",
+        "matched_form": "跳ねる",
+        "reading": "はねる",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To bounce / hop. Use dictionary Tokyo accent 2: drop immediately after mora 2. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "はねる",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "はねる|跳ねる",
+      "kind": "sentence",
+      "display": "ボールが跳(は)ねて、ソファの下(した)に入(はい)っちゃった。",
+      "english": "The ball bounced and went under the sofa.",
+      "input": "ぼーるがはねて、そふぁのしたにはいっちゃった。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L87224",
+          "matched_form": "跳ねる",
+          "reading": "はねる",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 2. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "とびあがる|飛び上がる",
+      "kind": "word",
+      "display": "飛び上がる",
+      "english": "To jump up",
+      "input": "とびあがる",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 4,
+        "variants": [
+          4
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100478",
+        "matched_form": "飛び上がる",
+        "reading": "とびあがる",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To jump up. Use dictionary Tokyo accent 4: drop immediately after mora 4. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "とびあがる",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "とびあがる|飛び上がる",
+      "kind": "sentence",
+      "display": "急(きゅう)に大(おお)きな音(おと)がして、飛(と)び上(あ)がっちゃった。",
+      "english": "There was a sudden loud noise, and I jumped.",
+      "input": "きゅうにおおきなおとがして、とびあがっちゃった。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 4,
+          "variants": [
+            4
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100478",
+          "matched_form": "飛び上がる",
+          "reading": "とびあがる",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 4. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ちゃくちする|着地する",
+      "kind": "word",
+      "display": "着地する",
+      "english": "To land",
+      "input": "ちゃくちする",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-components",
+        "whole_word_dictionary_match": false,
+        "components": [
+          {
+            "accent": 0,
+            "variants": [
+              0
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L85737",
+            "matched_form": "着地",
+            "reading": "ちゃくち",
+            "method": "dictionary spelling and reading match"
+          },
+          {
+            "accent": 0,
+            "variants": [
+              0
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L22233",
+            "matched_form": "為る",
+            "reading": "する",
+            "method": "dictionary spelling and reading match"
+          }
+        ],
+        "unmatched_components": [],
+        "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+      },
+      "pronunciation_guidance": "The intended meaning is To land. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms.",
+      "listening_verified": false,
+      "reading_original": "ちゃくちする",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ちゃくちする|着地する",
+      "kind": "sentence",
+      "display": "ジャンプしたあと、ちゃんと着地(ちゃくち)できた。",
+      "english": "I managed to land properly after the jump.",
+      "input": "じゃんぷしたあと、ちゃんとちゃくちできた。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "status": "provisional-components",
+          "whole_word_dictionary_match": false,
+          "components": [
+            {
+              "accent": 0,
+              "variants": [
+                0
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L85737",
+              "matched_form": "着地",
+              "reading": "ちゃくち",
+              "method": "dictionary spelling and reading match"
+            },
+            {
+              "accent": 0,
+              "variants": [
+                0
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L22233",
+              "matched_form": "為る",
+              "reading": "する",
+              "method": "dictionary spelling and reading match"
+            }
+          ],
+          "unmatched_components": [],
+          "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms. Use the appropriate inflected accents in context.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "てをふる|手を振る",
+      "kind": "word",
+      "display": "手を振る",
+      "english": "To wave one's hand",
+      "input": "ておふる",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-components",
+        "whole_word_dictionary_match": false,
+        "components": [
+          {
+            "accent": 1,
+            "variants": [
+              1
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61208",
+            "matched_form": "手",
+            "reading": "て",
+            "method": "dictionary spelling and reading match"
+          },
+          {
+            "accent": 0,
+            "variants": [
+              0
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L69480",
+            "matched_form": "振る",
+            "reading": "ふる",
+            "method": "dictionary spelling and reading match"
+          }
+        ],
+        "unmatched_components": [],
+        "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+      },
+      "pronunciation_guidance": "Read this as an ordinary Japanese word or expression meaning To wave one's hand, in a clear and steady native Japanese voice. Use natural Tokyo phrase intonation. The expression is a connected phrase; component dictionary references are not a mechanically combined whole-phrase pitch pattern. Keep the entire expression fluent and compact, with normal Japanese vowel lengths and doubled consonants. No syllable gaps, chanting, exaggerated stress, English-style vowels or elongated endings. Read only the given input once.",
+      "listening_verified": false,
+      "reading_original": "てをふる",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged.",
+      "revision": 2,
+      "retry_reason": "Final user check marks this clip Redo; user explicitly authorized replacement directly in the flashcard deck without another preview approval."
+    },
+    {
+      "key": "てをふる|手を振る",
+      "kind": "sentence",
+      "display": "駅(えき)のホームから手(て)を振(ふ)ってくれた。",
+      "english": "They waved to me from the station platform.",
+      "input": "えきのほーむからておふってくれた。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "status": "provisional-components",
+          "whole_word_dictionary_match": false,
+          "components": [
+            {
+              "accent": 1,
+              "variants": [
+                1
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61208",
+              "matched_form": "手",
+              "reading": "て",
+              "method": "dictionary spelling and reading match"
+            },
+            {
+              "accent": 0,
+              "variants": [
+                0
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L69480",
+              "matched_form": "振る",
+              "reading": "ふる",
+              "method": "dictionary spelling and reading match"
+            }
+          ],
+          "unmatched_components": [],
+          "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms. Use the appropriate inflected accents in context.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          9
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "てをあげる|手を上げる",
+      "kind": "word",
+      "display": "手を上げる",
+      "english": "To raise one's hand",
+      "input": "ておあげる",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-components",
+        "whole_word_dictionary_match": false,
+        "components": [
+          {
+            "accent": 1,
+            "variants": [
+              1
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61208",
+            "matched_form": "手",
+            "reading": "て",
+            "method": "dictionary spelling and reading match"
+          },
+          {
+            "accent": 0,
+            "variants": [
+              0
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67350",
+            "matched_form": "上げる",
+            "reading": "あげる",
+            "method": "dictionary spelling and reading match"
+          }
+        ],
+        "unmatched_components": [],
+        "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+      },
+      "pronunciation_guidance": "Read this as an ordinary Japanese word or expression meaning To raise one's hand, in a clear and steady native Japanese voice. Use natural Tokyo phrase intonation. The expression is a connected phrase; component dictionary references are not a mechanically combined whole-phrase pitch pattern. Keep the entire expression fluent and compact, with normal Japanese vowel lengths and doubled consonants. No syllable gaps, chanting, exaggerated stress, English-style vowels or elongated endings. Read only the given input once.",
+      "listening_verified": false,
+      "reading_original": "てをあげる",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged.",
+      "revision": 2,
+      "retry_reason": "Final user check marks this clip Redo; user explicitly authorized replacement directly in the flashcard deck without another preview approval."
+    },
+    {
+      "key": "てをあげる|手を上げる",
+      "kind": "sentence",
+      "display": "質問(しつもん)したくて、手(て)を上(あ)げた。",
+      "english": "I raised my hand because I wanted to ask a question.",
+      "input": "しつもんしたくて、ておあげた。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "status": "provisional-components",
+          "whole_word_dictionary_match": false,
+          "components": [
+            {
+              "accent": 1,
+              "variants": [
+                1
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61208",
+              "matched_form": "手",
+              "reading": "て",
+              "method": "dictionary spelling and reading match"
+            },
+            {
+              "accent": 0,
+              "variants": [
+                0
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67350",
+              "matched_form": "上げる",
+              "reading": "あげる",
+              "method": "dictionary spelling and reading match"
+            }
+          ],
+          "unmatched_components": [],
+          "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+        }
+      },
+      "pronunciation_guidance": "Speak this as natural everyday Japanese conversation in one clear, steady voice. Preserve casual contractions, omitted particles, long vowels and doubled consonants exactly as written. Keep each complete phrase connected, including its particles. Use only short conversational breaks at the supplied commas, with no extra pauses between words or syllables. Use native contextual accents for inflected words rather than forcing dictionary-form accent onto conjugations. Keep a normal conversational rhythm with no stretched endings, chanting or exaggerated stress. Read only the supplied input once. Whole-expression pitch is provisional; use natural native Tokyo intonation with the reviewed component readings.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          10
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      },
+      "revision": 2,
+      "retry_reason": "Final user check marks this clip Redo; user explicitly authorized replacement directly in the flashcard deck without another preview approval."
+    },
+    {
+      "key": "てをのばす|手を伸ばす",
+      "kind": "word",
+      "display": "手を伸ばす",
+      "english": "To reach out",
+      "input": "ておのばす",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-components",
+        "whole_word_dictionary_match": false,
+        "components": [
+          {
+            "accent": 1,
+            "variants": [
+              1
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61208",
+            "matched_form": "手",
+            "reading": "て",
+            "method": "dictionary spelling and reading match"
+          },
+          {
+            "accent": 2,
+            "variants": [
+              2
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68922",
+            "matched_form": "伸ばす",
+            "reading": "のばす",
+            "method": "dictionary spelling and reading match"
+          }
+        ],
+        "unmatched_components": [],
+        "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+      },
+      "pronunciation_guidance": "The intended meaning is To reach out. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms. The object particle is already transcribed as お; keep it attached to the preceding noun with no intervening pause.",
+      "listening_verified": false,
+      "reading_original": "てをのばす",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "てをのばす|手を伸ばす",
+      "kind": "sentence",
+      "display": "棚(たな)に手(て)を伸(の)ばしたけど、届(とど)かなかった。",
+      "english": "I reached for the shelf but couldn't reach it.",
+      "input": "たなにておのばしたけど、とどかなかった。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "status": "provisional-components",
+          "whole_word_dictionary_match": false,
+          "components": [
+            {
+              "accent": 1,
+              "variants": [
+                1
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61208",
+              "matched_form": "手",
+              "reading": "て",
+              "method": "dictionary spelling and reading match"
+            },
+            {
+              "accent": 2,
+              "variants": [
+                2
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68922",
+              "matched_form": "伸ばす",
+              "reading": "のばす",
+              "method": "dictionary spelling and reading match"
+            }
+          ],
+          "unmatched_components": [],
+          "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms. Use the appropriate inflected accents in context.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          4
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "てをひろげる|手を広げる",
+      "kind": "word",
+      "display": "手を広げる",
+      "english": "To spread one's hands / arms",
+      "input": "ておひろげる",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-components",
+        "whole_word_dictionary_match": false,
+        "components": [
+          {
+            "accent": 1,
+            "variants": [
+              1
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61208",
+            "matched_form": "手",
+            "reading": "て",
+            "method": "dictionary spelling and reading match"
+          },
+          {
+            "accent": 0,
+            "variants": [
+              0
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L49344",
+            "matched_form": "広げる",
+            "reading": "ひろげる",
+            "method": "dictionary spelling and reading match"
+          }
+        ],
+        "unmatched_components": [],
+        "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+      },
+      "pronunciation_guidance": "The intended meaning is To spread one's hands / arms. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms. The object particle is already transcribed as お; keep it attached to the preceding noun with no intervening pause.",
+      "listening_verified": false,
+      "reading_original": "てをひろげる",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "てをひろげる|手を広げる",
+      "kind": "sentence",
+      "display": "どれくらい大(おお)きいか、手(て)を広(ひろ)げて見(み)せてくれた。",
+      "english": "They spread their hands to show me how big it was.",
+      "input": "どれくらいおおきいか、ておひろげてみせてくれた。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "status": "provisional-components",
+          "whole_word_dictionary_match": false,
+          "components": [
+            {
+              "accent": 1,
+              "variants": [
+                1
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61208",
+              "matched_form": "手",
+              "reading": "て",
+              "method": "dictionary spelling and reading match"
+            },
+            {
+              "accent": 0,
+              "variants": [
+                0
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L49344",
+              "matched_form": "広げる",
+              "reading": "ひろげる",
+              "method": "dictionary spelling and reading match"
+            }
+          ],
+          "unmatched_components": [],
+          "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms. Use the appropriate inflected accents in context.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          12
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "うでをくむ|腕を組む",
+      "kind": "word",
+      "display": "腕を組む",
+      "english": "To cross one's arms / link arms",
+      "input": "うでおくむ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-components",
+        "whole_word_dictionary_match": false,
+        "components": [
+          {
+            "accent": 2,
+            "variants": [
+              2
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L119027",
+            "matched_form": "腕",
+            "reading": "うで",
+            "method": "dictionary spelling and reading match"
+          },
+          {
+            "accent": 1,
+            "variants": [
+              1
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L78537",
+            "matched_form": "組む",
+            "reading": "くむ",
+            "method": "dictionary spelling and reading match"
+          }
+        ],
+        "unmatched_components": [],
+        "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+      },
+      "pronunciation_guidance": "The intended meaning is To cross one's arms / link arms. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms. The object particle is already transcribed as お; keep it attached to the preceding noun with no intervening pause.",
+      "listening_verified": false,
+      "reading_original": "うでをくむ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "うでをくむ|腕を組む",
+      "kind": "sentence",
+      "display": "寒(さむ)くて、つい腕(うで)を組(く)んじゃう。",
+      "english": "I keep folding my arms because I'm cold.",
+      "input": "さむくて、ついうでおくんじゃう。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "status": "provisional-components",
+          "whole_word_dictionary_match": false,
+          "components": [
+            {
+              "accent": 2,
+              "variants": [
+                2
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L119027",
+              "matched_form": "腕",
+              "reading": "うで",
+              "method": "dictionary spelling and reading match"
+            },
+            {
+              "accent": 1,
+              "variants": [
+                1
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L78537",
+              "matched_form": "組む",
+              "reading": "くむ",
+              "method": "dictionary spelling and reading match"
+            }
+          ],
+          "unmatched_components": [],
+          "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms. Use the appropriate inflected accents in context.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          9
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "てをくむ|手を組む",
+      "kind": "word",
+      "display": "手を組む",
+      "english": "To clasp one's hands",
+      "input": "ておくむ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-components",
+        "whole_word_dictionary_match": false,
+        "components": [
+          {
+            "accent": 1,
+            "variants": [
+              1
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61208",
+            "matched_form": "手",
+            "reading": "て",
+            "method": "dictionary spelling and reading match"
+          },
+          {
+            "accent": 1,
+            "variants": [
+              1
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L78537",
+            "matched_form": "組む",
+            "reading": "くむ",
+            "method": "dictionary spelling and reading match"
+          }
+        ],
+        "unmatched_components": [],
+        "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+      },
+      "pronunciation_guidance": "The intended meaning is To clasp one's hands. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms. The object particle is already transcribed as お; keep it attached to the preceding noun with no intervening pause.",
+      "listening_verified": false,
+      "reading_original": "てをくむ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "てをくむ|手を組む",
+      "kind": "sentence",
+      "display": "手(て)を組(く)んで、ぐっと伸(の)ばすと気持(きも)ちいい。",
+      "english": "It feels good to clasp your hands and stretch them out.",
+      "input": "ておくんで、ぐっとのばすときもちいい。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "status": "provisional-components",
+          "whole_word_dictionary_match": false,
+          "components": [
+            {
+              "accent": 1,
+              "variants": [
+                1
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61208",
+              "matched_form": "手",
+              "reading": "て",
+              "method": "dictionary spelling and reading match"
+            },
+            {
+              "accent": 1,
+              "variants": [
+                1
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L78537",
+              "matched_form": "組む",
+              "reading": "くむ",
+              "method": "dictionary spelling and reading match"
+            }
+          ],
+          "unmatched_components": [],
+          "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+        }
+      },
+      "pronunciation_guidance": "Speak this as natural everyday Japanese conversation in one clear, steady voice. Preserve casual contractions, omitted particles, long vowels and doubled consonants exactly as written. Keep each complete phrase connected, including its particles. Use only short conversational breaks at the supplied commas, with no extra pauses between words or syllables. Use native contextual accents for inflected words rather than forcing dictionary-form accent onto conjugations. Keep a normal conversational rhythm with no stretched endings, chanting or exaggerated stress. Read only the supplied input once. Whole-expression pitch is provisional; use natural native Tokyo intonation with the reviewed component readings.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          1
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      },
+      "revision": 2,
+      "retry_reason": "Final user check marks this clip Redo; user explicitly authorized replacement directly in the flashcard deck without another preview approval."
+    },
+    {
+      "key": "てをつなぐ|手をつなぐ",
+      "kind": "word",
+      "display": "手をつなぐ",
+      "english": "To hold hands",
+      "input": "ておつなぐ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-components",
+        "whole_word_dictionary_match": false,
+        "components": [
+          {
+            "accent": 1,
+            "variants": [
+              1
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61208",
+            "matched_form": "手",
+            "reading": "て",
+            "method": "dictionary spelling and reading match"
+          },
+          {
+            "accent": 0,
+            "variants": [
+              0
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L43040",
+            "matched_form": "繋ぐ",
+            "reading": "つなぐ",
+            "method": "dictionary spelling and reading match"
+          }
+        ],
+        "unmatched_components": [],
+        "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+      },
+      "pronunciation_guidance": "The intended meaning is To hold hands. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms. The object particle is already transcribed as お; keep it attached to the preceding noun with no intervening pause.",
+      "listening_verified": false,
+      "reading_original": "てをつなぐ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "てをつなぐ|手をつなぐ",
+      "kind": "sentence",
+      "display": "人(ひと)が多(おお)いから、手(て)をつないで歩(ある)こう。",
+      "english": "It's crowded, so let's hold hands as we walk.",
+      "input": "ひとがおおいから、ておつないであるこう。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "status": "provisional-components",
+          "whole_word_dictionary_match": false,
+          "components": [
+            {
+              "accent": 1,
+              "variants": [
+                1
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61208",
+              "matched_form": "手",
+              "reading": "て",
+              "method": "dictionary spelling and reading match"
+            },
+            {
+              "accent": 0,
+              "variants": [
+                0
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L43040",
+              "matched_form": "繋ぐ",
+              "reading": "つなぐ",
+              "method": "dictionary spelling and reading match"
+            }
+          ],
+          "unmatched_components": [],
+          "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms. Use the appropriate inflected accents in context.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          10
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "てをにぎる|手を握る",
+      "kind": "word",
+      "display": "手を握る",
+      "english": "To clasp / hold someone's hand",
+      "input": "ておにぎる",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-components",
+        "whole_word_dictionary_match": false,
+        "components": [
+          {
+            "accent": 1,
+            "variants": [
+              1
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61208",
+            "matched_form": "手",
+            "reading": "て",
+            "method": "dictionary spelling and reading match"
+          },
+          {
+            "accent": 0,
+            "variants": [
+              0
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L21341",
+            "matched_form": "握る",
+            "reading": "にぎる",
+            "method": "dictionary spelling and reading match"
+          }
+        ],
+        "unmatched_components": [],
+        "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+      },
+      "pronunciation_guidance": "The intended meaning is To clasp / hold someone's hand. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms. The object particle is already transcribed as お; keep it attached to the preceding noun with no intervening pause.",
+      "listening_verified": false,
+      "reading_original": "てをにぎる",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "てをにぎる|手を握る",
+      "kind": "sentence",
+      "display": "緊張(きんちょう)してたら、そっと手(て)を握(にぎ)ってくれた。",
+      "english": "I was nervous, and they gently held my hand.",
+      "input": "きんちょうしてたら、そっとておにぎってくれた。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "status": "provisional-components",
+          "whole_word_dictionary_match": false,
+          "components": [
+            {
+              "accent": 1,
+              "variants": [
+                1
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61208",
+              "matched_form": "手",
+              "reading": "て",
+              "method": "dictionary spelling and reading match"
+            },
+            {
+              "accent": 0,
+              "variants": [
+                0
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L21341",
+              "matched_form": "握る",
+              "reading": "にぎる",
+              "method": "dictionary spelling and reading match"
+            }
+          ],
+          "unmatched_components": [],
+          "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms. Use the appropriate inflected accents in context.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          14
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "にぎる|握る",
+      "kind": "word",
+      "display": "握る",
+      "english": "To grip / grasp",
+      "input": "にぎる",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L21341",
+        "matched_form": "握る",
+        "reading": "にぎる",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To grip / grasp. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "にぎる",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "にぎる|握る",
+      "kind": "sentence",
+      "display": "このハンドル、しっかり握(にぎ)ってね。",
+      "english": "Hold this handle firmly.",
+      "input": "このはんどる、しっかりにぎってね。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L21341",
+          "matched_form": "握る",
+          "reading": "にぎる",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "つかむ|",
+      "kind": "word",
+      "display": "つかむ",
+      "english": "To grab / grasp",
+      "input": "つかむ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L88369",
+        "matched_form": "掴む",
+        "reading": "つかむ",
+        "method": "reviewed meaning-equivalent spelling alias and exact reading",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To grab / grasp. Use dictionary Tokyo accent 2: drop immediately after mora 2. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "つかむ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "つかむ|",
+      "kind": "sentence",
+      "display": "倒(たお)れそうになって、手(て)すりをつかんだ。",
+      "english": "I almost fell and grabbed the handrail.",
+      "input": "たおれそうになって、てすりおつかんだ。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L88369",
+          "matched_form": "掴む",
+          "reading": "つかむ",
+          "method": "reviewed meaning-equivalent spelling alias and exact reading",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 2. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          13
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "つまむ|",
+      "kind": "word",
+      "display": "つまむ",
+      "english": "To pinch / pick up with fingers",
+      "input": "つまむ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L89281",
+        "matched_form": "摘まむ",
+        "reading": "つまむ",
+        "method": "reviewed meaning-equivalent spelling alias and exact reading",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To pinch / pick up with fingers. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "つまむ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "つまむ|",
+      "kind": "sentence",
+      "display": "端(はし)をつまむと、はがしやすいよ。",
+      "english": "It's easier to peel off if you pinch the edge.",
+      "input": "はしおつまむと、はがしやすいよ。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L89281",
+          "matched_form": "摘まむ",
+          "reading": "つまむ",
+          "method": "reviewed meaning-equivalent spelling alias and exact reading",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          2
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "さわる|触る",
+      "kind": "word",
+      "display": "触る",
+      "english": "To touch",
+      "input": "さわる",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68585",
+        "matched_form": "触る",
+        "reading": "さわる",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To touch. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "さわる",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "さわる|触る",
+      "kind": "sentence",
+      "display": "それ、まだ熱(あつ)いから触(さわ)らないでね。",
+      "english": "It's still hot, so don't touch it.",
+      "input": "それ、まだあついからさわらないでね。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68585",
+          "matched_form": "触る",
+          "reading": "さわる",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "なでる|",
+      "kind": "word",
+      "display": "なでる",
+      "english": "To stroke / pat",
+      "input": "なでる",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L103138",
+        "matched_form": "撫でる",
+        "reading": "なでる",
+        "method": "reviewed meaning-equivalent spelling alias and exact reading",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To stroke / pat. Use dictionary Tokyo accent 2: drop immediately after mora 2. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "なでる",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "なでる|",
+      "kind": "sentence",
+      "display": "猫(ねこ)の背中(せなか)をなでたら、気持(きも)ちよさそうだった。",
+      "english": "The cat looked happy when I stroked its back.",
+      "input": "ねこのせなかおなでたら、きもちよさそうだった。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L103138",
+          "matched_form": "撫でる",
+          "reading": "なでる",
+          "method": "reviewed meaning-equivalent spelling alias and exact reading",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 2. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          6
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "こする|",
+      "kind": "word",
+      "display": "こする",
+      "english": "To rub",
+      "input": "こする",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L54274",
+        "matched_form": "擦る",
+        "reading": "こする",
+        "method": "reviewed meaning-equivalent spelling alias and exact reading",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To rub. Use dictionary Tokyo accent 2: drop immediately after mora 2. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "こする",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "こする|",
+      "kind": "sentence",
+      "display": "そんなに強(つよ)くこすると、傷(きず)がついちゃうよ。",
+      "english": "You'll scratch it if you rub that hard.",
+      "input": "そんなにつよくこすると、きずがついちゃうよ。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L54274",
+          "matched_form": "擦る",
+          "reading": "こする",
+          "method": "reviewed meaning-equivalent spelling alias and exact reading",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Speak this as natural everyday Japanese conversation in one clear, steady voice. Preserve casual contractions, omitted particles, long vowels and doubled consonants exactly as written. Keep each complete phrase connected, including its particles. Use only short conversational breaks at the supplied commas, with no extra pauses between words or syllables. Use native contextual accents for inflected words rather than forcing dictionary-form accent onto conjugations. Keep a normal conversational rhythm with no stretched endings, chanting or exaggerated stress. Read only the supplied input once. The target vocabulary has checked dictionary-form accent 2; use it naturally in context and adjust any inflected form appropriately.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      },
+      "revision": 2,
+      "retry_reason": "Final user check marks this clip Redo; user explicitly authorized replacement directly in the flashcard deck without another preview approval."
+    },
+    {
+      "key": "さする|",
+      "kind": "word",
+      "display": "さする",
+      "english": "To rub / stroke gently",
+      "input": "さする",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0,
+          2
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L54275",
+        "matched_form": "擦る",
+        "reading": "さする",
+        "method": "reviewed meaning-equivalent spelling alias and exact reading",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To rub / stroke gently. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "さする",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "さする|",
+      "kind": "sentence",
+      "display": "お腹(なか)が痛(いた)くて、しばらくさすってた。",
+      "english": "My tummy hurt, so I rubbed it gently for a while.",
+      "input": "おなかがいたくて、しばらくさすってた。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0,
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L54275",
+          "matched_form": "擦る",
+          "reading": "さする",
+          "method": "reviewed meaning-equivalent spelling alias and exact reading",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "たたく|",
+      "kind": "word",
+      "display": "たたく",
+      "english": "To tap / pat / hit",
+      "input": "たたく",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L83661",
+        "matched_form": "叩く",
+        "reading": "たたく",
+        "method": "reviewed meaning-equivalent spelling alias and exact reading",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To tap / pat / hit. Use dictionary Tokyo accent 2: drop immediately after mora 2. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "たたく",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "たたく|",
+      "kind": "sentence",
+      "display": "肩(かた)を軽(かる)くたたかれて、振(ふ)り向(む)いた。",
+      "english": "Someone tapped me gently on the shoulder, and I turned around.",
+      "input": "かたおかるくたたかれて、ふりむいた。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L83661",
+          "matched_form": "叩く",
+          "reading": "たたく",
+          "method": "reviewed meaning-equivalent spelling alias and exact reading",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 2. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          2
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "おす|押す",
+      "kind": "word",
+      "display": "押す",
+      "english": "To push",
+      "input": "おす",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L27020",
+        "matched_form": "押す",
+        "reading": "おす",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "Read this as an ordinary Japanese word or expression meaning To push, in a clear and steady native Japanese voice. Use checked Tokyo heiban accent 0, with no lexical pitch fall. Begin low, rise naturally on the second mora, and keep the following morae without a lexical drop. Keep the entire expression fluent and compact, with normal Japanese vowel lengths and doubled consonants. No syllable gaps, chanting, exaggerated stress, English-style vowels or elongated endings. Read only the given input once.",
+      "listening_verified": false,
+      "reading_original": "おす",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged.",
+      "revision": 2,
+      "retry_reason": "Final user check marks this clip Redo; user explicitly authorized replacement directly in the flashcard deck without another preview approval."
+    },
+    {
+      "key": "おす|押す",
+      "kind": "sentence",
+      "display": "このドア、引(ひ)くんじゃなくて押(お)すんだね。",
+      "english": "Oh, you push this door, rather than pull it.",
+      "input": "このどあ、ひくんじゃなくておすんだね。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L27020",
+          "matched_form": "押す",
+          "reading": "おす",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ひく|引く",
+      "kind": "word",
+      "display": "引く",
+      "english": "To pull",
+      "input": "ひく",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L24282",
+        "matched_form": "引く",
+        "reading": "ひく",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is To pull. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "ひく",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ひく|引く",
+      "kind": "sentence",
+      "display": "この引(ひ)き出(だ)し、強(つよ)く引(ひ)いても開(あ)かない。",
+      "english": "This drawer won't open even if I pull hard.",
+      "input": "このひきだし、つよくひいてもあかない。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L24282",
+          "matched_form": "引く",
+          "reading": "ひく",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ゆびをさす|指をさす",
+      "kind": "word",
+      "display": "指をさす",
+      "english": "To point with a finger",
+      "input": "ゆびおさす",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-components",
+        "whole_word_dictionary_match": false,
+        "components": [
+          {
+            "accent": 2,
+            "variants": [
+              2
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L56766",
+            "matched_form": "指",
+            "reading": "ゆび",
+            "method": "dictionary spelling and reading match"
+          },
+          {
+            "accent": 1,
+            "variants": [
+              1
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L56781",
+            "matched_form": "指す",
+            "reading": "さす",
+            "method": "dictionary spelling and reading match"
+          }
+        ],
+        "unmatched_components": [],
+        "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+      },
+      "pronunciation_guidance": "The intended meaning is To point with a finger. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms. The object particle is already transcribed as お; keep it attached to the preceding noun with no intervening pause.",
+      "listening_verified": false,
+      "reading_original": "ゆびをさす",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ゆびをさす|指をさす",
+      "kind": "sentence",
+      "display": "指(ゆび)をさして、「あそこだよ」って教(おし)えてくれた。",
+      "english": "They pointed to that sign to show me.",
+      "input": "ゆびおさして、あそこだよっておしえてくれた。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "status": "provisional-components",
+          "whole_word_dictionary_match": false,
+          "components": [
+            {
+              "accent": 2,
+              "variants": [
+                2
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L56766",
+              "matched_form": "指",
+              "reading": "ゆび",
+              "method": "dictionary spelling and reading match"
+            },
+            {
+              "accent": 1,
+              "variants": [
+                1
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L56781",
+              "matched_form": "指す",
+              "reading": "さす",
+              "method": "dictionary spelling and reading match"
+            }
+          ],
+          "unmatched_components": [],
+          "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms. Use the appropriate inflected accents in context.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          2
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    }
+  ]
+}

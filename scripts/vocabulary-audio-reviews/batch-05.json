@@ -1,0 +1,3455 @@
+{
+  "id": "daily-life-2026-10-12",
+  "batch": 5,
+  "range": [
+    176,
+    225
+  ],
+  "reviewed": true,
+  "model": "gpt-4o-mini-tts",
+  "voice": "marin",
+  "speed": 1.0,
+  "accent_source": {
+    "commit": "9ebca4589565c696e7c39e089e2e928ad65f678c",
+    "url": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt",
+    "sha256": "8bd0dd127dab32ceec94cb03ab1ba6b68858ea73421dfa1731af2f373deb4f20"
+  },
+  "listening_verified": false,
+  "reading_source": "User-supplied vocabulary readings, reviewed contextual example furigana, and exact dictionary or explicitly meaning-checked alias/component references.",
+  "particle_review": "Topic phrases individually reviewed, no global は replacement. All displayed を occurrences are reviewed object particles, pronounced お. Lexical は and へ are preserved.",
+  "phrase_review": "Existing commas are brief complete-phrase/clause boundaries; no added pause before particles. Quotes are speech-silent. Preserve natural casual contractions and omitted particles.",
+  "entries": [
+    {
+      "key": "て|手",
+      "kind": "word",
+      "display": "手",
+      "english": "Hand",
+      "input": "て",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 1,
+        "variants": [
+          1
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61208",
+        "matched_form": "手",
+        "reading": "て",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Hand. Use dictionary Tokyo accent 1: drop immediately after mora 1. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "て",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "て|手",
+      "kind": "sentence",
+      "display": "手(て)が冷(つめ)たいね。寒(さむ)かった？",
+      "english": "Your hands are cold. Were you chilly?",
+      "input": "てがつめたいね。さむかった？",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61208",
+          "matched_form": "手",
+          "reading": "て",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 1. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "てのひら|手のひら",
+      "kind": "word",
+      "display": "手のひら",
+      "english": "Palm",
+      "input": "てのひら",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2,
+          1
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61247",
+        "matched_form": "手のひら",
+        "reading": "てのひら",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Palm. Use dictionary Tokyo accent 2: drop immediately after mora 2. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "てのひら",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "てのひら|手のひら",
+      "kind": "sentence",
+      "display": "緊張(きんちょう)すると、手(て)のひらに汗(あせ)をかくんだ。",
+      "english": "My palms get sweaty when I'm nervous.",
+      "input": "きんちょうすると、てのひらにあせおかくんだ。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2,
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61247",
+          "matched_form": "手のひら",
+          "reading": "てのひら",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 2. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          16
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "てのこう|手の甲",
+      "kind": "word",
+      "display": "手の甲",
+      "english": "Back of hand",
+      "input": "てのこう",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 1,
+        "variants": [
+          1
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61248",
+        "matched_form": "手の甲",
+        "reading": "てのこう",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Back of hand. Use dictionary Tokyo accent 1: drop immediately after mora 1. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "てのこう",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "てのこう|手の甲",
+      "kind": "sentence",
+      "display": "手(て)の甲(こう)にも日焼(ひや)け止(ど)め塗(ぬ)っとこう。",
+      "english": "I'll put sunscreen on the backs of my hands too.",
+      "input": "てのこうにもひやけどめぬっとこう。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61248",
+          "matched_form": "手の甲",
+          "reading": "てのこう",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 1. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ゆび|指",
+      "kind": "word",
+      "display": "指",
+      "english": "Finger",
+      "input": "ゆび",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L56766",
+        "matched_form": "指",
+        "reading": "ゆび",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Finger. Use dictionary Tokyo accent 2: drop immediately after mora 2. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "ゆび",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ゆび|指",
+      "kind": "sentence",
+      "display": "指(ゆび)に絆創膏(ばんそうこう)貼(は)ってるから、洗(あら)い物(もの)しにくい。",
+      "english": "It's hard to wash dishes with a bandage on my finger.",
+      "input": "ゆびにばんそうこうはってるから、あらいものしにくい。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L56766",
+          "matched_form": "指",
+          "reading": "ゆび",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 2. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "おやゆび|親指",
+      "kind": "word",
+      "display": "親指",
+      "english": "Thumb",
+      "input": "おやゆび",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L70538",
+        "matched_form": "親指",
+        "reading": "おやゆび",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Thumb. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "おやゆび",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "おやゆび|親指",
+      "kind": "sentence",
+      "display": "親指(おやゆび)で押(お)すと、開(あ)けやすいよ。",
+      "english": "It's easier to open if you press with your thumb.",
+      "input": "おやゆびでおすと、あけやすいよ。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L70538",
+          "matched_form": "親指",
+          "reading": "おやゆび",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ひとさしゆび|人差し指",
+      "kind": "word",
+      "display": "人差し指",
+      "english": "Index finger",
+      "input": "ひとさしゆび",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 4,
+        "variants": [
+          4
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L71106",
+        "matched_form": "人差し指",
+        "reading": "ひとさしゆび",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Index finger. Use dictionary Tokyo accent 4: drop immediately after mora 4. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "ひとさしゆび",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ひとさしゆび|人差し指",
+      "kind": "sentence",
+      "display": "人差(ひとさ)し指(ゆび)に小(ちい)さい傷(きず)ができちゃった。",
+      "english": "I got a little cut on my index finger.",
+      "input": "ひとさしゆびにちいさいきずができちゃった。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 4,
+          "variants": [
+            4
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L71106",
+          "matched_form": "人差し指",
+          "reading": "ひとさしゆび",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 4. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "なかゆび|中指",
+      "kind": "word",
+      "display": "中指",
+      "english": "Middle finger",
+      "input": "なかゆび",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L85931",
+        "matched_form": "中指",
+        "reading": "なかゆび",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Middle finger. Use dictionary Tokyo accent 2: drop immediately after mora 2. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "なかゆび",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "なかゆび|中指",
+      "kind": "sentence",
+      "display": "この指輪(ゆびわ)、中指(なかゆび)だとちょうどいい。",
+      "english": "This ring fits my middle finger just right.",
+      "input": "このゆびわ、なかゆびだとちょうどいい。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L85931",
+          "matched_form": "中指",
+          "reading": "なかゆび",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 2. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "くすりゆび|薬指",
+      "kind": "word",
+      "display": "薬指",
+      "english": "Ring finger",
+      "input": "くすりゆび",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 3,
+        "variants": [
+          3
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L112461",
+        "matched_form": "薬指",
+        "reading": "くすりゆび",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Ring finger. Use dictionary Tokyo accent 3: drop immediately after mora 3. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "くすりゆび",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "くすりゆび|薬指",
+      "kind": "sentence",
+      "display": "薬指(くすりゆび)の指輪(ゆびわ)、なかなか抜(ぬ)けない。",
+      "english": "I can't get the ring off my ring finger.",
+      "input": "くすりゆびのゆびわ、なかなかぬけない。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 3,
+          "variants": [
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L112461",
+          "matched_form": "薬指",
+          "reading": "くすりゆび",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 3. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "こゆび|小指",
+      "kind": "word",
+      "display": "小指",
+      "english": "Little finger",
+      "input": "こゆび",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L65997",
+        "matched_form": "小指",
+        "reading": "こゆび",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Little finger. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "こゆび",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "こゆび|小指",
+      "kind": "sentence",
+      "display": "ドアに小指(こゆび)挟(はさ)んじゃった。",
+      "english": "I caught my little finger in the door.",
+      "input": "どあにこゆびはさんじゃった。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L65997",
+          "matched_form": "小指",
+          "reading": "こゆび",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ゆびさき|指先",
+      "kind": "word",
+      "display": "指先",
+      "english": "Fingertip",
+      "input": "ゆびさき",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0,
+          3
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L56829",
+        "matched_form": "指先",
+        "reading": "ゆびさき",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Fingertip. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "ゆびさき",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ゆびさき|指先",
+      "kind": "sentence",
+      "display": "寒(さむ)くて指先(ゆびさき)が冷(つめ)たい。",
+      "english": "My fingertips are cold from the chilly weather.",
+      "input": "さむくてゆびさきがつめたい。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0,
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L56829",
+          "matched_form": "指先",
+          "reading": "ゆびさき",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ゆびのかんせつ|指の関節",
+      "kind": "word",
+      "display": "指の関節",
+      "english": "Knuckle / finger joint",
+      "input": "ゆびのかんせつ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-components",
+        "whole_word_dictionary_match": false,
+        "components": [
+          {
+            "accent": 2,
+            "variants": [
+              2
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L56766",
+            "matched_form": "指",
+            "reading": "ゆび",
+            "method": "dictionary spelling and reading match"
+          },
+          {
+            "accent": 0,
+            "variants": [
+              0
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L35056",
+            "matched_form": "関節",
+            "reading": "かんせつ",
+            "method": "dictionary spelling and reading match"
+          }
+        ],
+        "unmatched_components": [],
+        "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+      },
+      "pronunciation_guidance": "The intended meaning is Knuckle / finger joint. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms.",
+      "listening_verified": false,
+      "reading_original": "ゆびのかんせつ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ゆびのかんせつ|指の関節",
+      "kind": "sentence",
+      "display": "指(ゆび)の関節(かんせつ)がこわばって、動(うご)かしにくい。",
+      "english": "My finger joints feel stiff and are hard to move.",
+      "input": "ゆびのかんせつがこわばって、うごかしにくい。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "status": "provisional-components",
+          "whole_word_dictionary_match": false,
+          "components": [
+            {
+              "accent": 2,
+              "variants": [
+                2
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L56766",
+              "matched_form": "指",
+              "reading": "ゆび",
+              "method": "dictionary spelling and reading match"
+            },
+            {
+              "accent": 0,
+              "variants": [
+                0
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L35056",
+              "matched_form": "関節",
+              "reading": "かんせつ",
+              "method": "dictionary spelling and reading match"
+            }
+          ],
+          "unmatched_components": [],
+          "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms. Use the appropriate inflected accents in context.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "つめ|爪",
+      "kind": "word",
+      "display": "爪",
+      "english": "Nail",
+      "input": "つめ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L88485",
+        "matched_form": "爪",
+        "reading": "つめ",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Nail. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "つめ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "つめ|爪",
+      "kind": "sentence",
+      "display": "爪(つめ)が伸(の)びてきたから、切(き)らなきゃ。",
+      "english": "My nails are getting long. I need to trim them.",
+      "input": "つめがのびてきたから、きらなきゃ。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L88485",
+          "matched_form": "爪",
+          "reading": "つめ",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "むね|胸",
+      "kind": "word",
+      "display": "胸",
+      "english": "Chest",
+      "input": "むね",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L39680",
+        "matched_form": "胸",
+        "reading": "むね",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Chest. Use dictionary Tokyo accent 2: drop immediately after mora 2. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "むね",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "むね|胸",
+      "kind": "sentence",
+      "display": "走(はし)ってきたから、胸(むね)がどきどきしてる。",
+      "english": "My heart's pounding after that run.",
+      "input": "はしってきたから、むねがどきどきしてる。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L39680",
+          "matched_form": "胸",
+          "reading": "むね",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 2. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "せなか|背中",
+      "kind": "word",
+      "display": "背中",
+      "english": "Back",
+      "input": "せなか",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L97265",
+        "matched_form": "背中",
+        "reading": "せなか",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Back. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "せなか",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "せなか|背中",
+      "kind": "sentence",
+      "display": "背中(せなか)のここ、ちょっとかゆい。",
+      "english": "This spot on my back is a little itchy.",
+      "input": "せなかのここ、ちょっとかゆい。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L97265",
+          "matched_form": "背中",
+          "reading": "せなか",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "けんこうこつ|肩甲骨",
+      "kind": "word",
+      "display": "肩甲骨",
+      "english": "Shoulder blade",
+      "input": "けんこうこつ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 3,
+        "variants": [
+          3
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L44721",
+        "matched_form": "肩甲骨",
+        "reading": "けんこうこつ",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Shoulder blade. Use dictionary Tokyo accent 3: drop immediately after mora 3. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "けんこうこつ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "けんこうこつ|肩甲骨",
+      "kind": "sentence",
+      "display": "肩甲骨(けんこうこつ)のあたり、ちょっと伸(の)ばすと気持(きも)ちいい。",
+      "english": "It feels good to stretch around my shoulder blades.",
+      "input": "けんこうこつのあたり、ちょっとのばすときもちいい。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 3,
+          "variants": [
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L44721",
+          "matched_form": "肩甲骨",
+          "reading": "けんこうこつ",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 3. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "こし|腰",
+      "kind": "word",
+      "display": "腰",
+      "english": "Lower back / waist",
+      "input": "こし",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L51941",
+        "matched_form": "腰",
+        "reading": "こし",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Lower back / waist. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "こし",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "こし|腰",
+      "kind": "sentence",
+      "display": "座(すわ)りっぱなしで腰(こし)が痛(いた)くなった。",
+      "english": "My lower back hurts from sitting for so long.",
+      "input": "すわりっぱなしでこしがいたくなった。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L51941",
+          "matched_form": "腰",
+          "reading": "こし",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "おなか|お腹",
+      "kind": "word",
+      "display": "お腹",
+      "english": "Belly / abdomen",
+      "input": "おなか",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L1317",
+        "matched_form": "お腹",
+        "reading": "おなか",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Belly / abdomen. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "おなか",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "おなか|お腹",
+      "kind": "sentence",
+      "display": "お腹(なか)すいた。何(なに)か食(た)べよう。",
+      "english": "I'm hungry. Let's get something to eat.",
+      "input": "おなかすいた。なにかたべよう。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L1317",
+          "matched_form": "お腹",
+          "reading": "おなか",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "へそ|",
+      "kind": "word",
+      "display": "へそ",
+      "english": "Belly button",
+      "input": "へそ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L122297",
+        "matched_form": "臍",
+        "reading": "へそ",
+        "method": "reviewed meaning-equivalent spelling alias and exact reading",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Belly button. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "へそ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "へそ|",
+      "kind": "sentence",
+      "display": "このシャツ、短(みじか)くてへそが見(み)えちゃう。",
+      "english": "This shirt's so short that my belly button shows.",
+      "input": "このしゃつ、みじかくてへそがみえちゃう。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L122297",
+          "matched_form": "臍",
+          "reading": "へそ",
+          "method": "reviewed meaning-equivalent spelling alias and exact reading",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "わきばら|脇腹",
+      "kind": "word",
+      "display": "脇腹",
+      "english": "Side of abdomen",
+      "input": "わきばら",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L118939",
+        "matched_form": "脇腹",
+        "reading": "わきばら",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Side of abdomen. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "わきばら",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "わきばら|脇腹",
+      "kind": "sentence",
+      "display": "走(はし)ったら、脇腹(わきばら)が痛(いた)くなった。",
+      "english": "I got a pain in my side when I ran.",
+      "input": "はしったら、わきばらがいたくなった。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L118939",
+          "matched_form": "脇腹",
+          "reading": "わきばら",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "おしり|お尻",
+      "kind": "word",
+      "display": "お尻",
+      "english": "Buttocks",
+      "input": "おしり",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L1165",
+        "matched_form": "お尻",
+        "reading": "おしり",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Buttocks. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "おしり",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "おしり|お尻",
+      "kind": "sentence",
+      "display": "ずっと座(すわ)ってたから、お尻(しり)が痛(いた)い。",
+      "english": "My bottom hurts from sitting for so long.",
+      "input": "ずっとすわってたから、おしりがいたい。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L1165",
+          "matched_form": "お尻",
+          "reading": "おしり",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "こつばん|骨盤",
+      "kind": "word",
+      "display": "骨盤",
+      "english": "Pelvis",
+      "input": "こつばん",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52086",
+        "matched_form": "骨盤",
+        "reading": "こつばん",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Pelvis. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "こつばん",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "こつばん|骨盤",
+      "kind": "sentence",
+      "display": "骨盤(こつばん)のあたりが痛(いた)くて、座(すわ)りにくい。",
+      "english": "It hurts around my pelvis, so sitting is uncomfortable.",
+      "input": "こつばんのあたりがいたくて、すわりにくい。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52086",
+          "matched_form": "骨盤",
+          "reading": "こつばん",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "せぼね|背骨",
+      "kind": "word",
+      "display": "背骨",
+      "english": "Spine",
+      "input": "せぼね",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L97256",
+        "matched_form": "背骨",
+        "reading": "せぼね",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Spine. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "せぼね",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "せぼね|背骨",
+      "kind": "sentence",
+      "display": "この椅子(いす)、背骨(せぼね)のあたりにちょうど当(あ)たるね。",
+      "english": "This chair presses right against the area along my spine.",
+      "input": "このいす、せぼねのあたりにちょうどあたるね。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L97256",
+          "matched_form": "背骨",
+          "reading": "せぼね",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ろっこつ|肋骨",
+      "kind": "word",
+      "display": "肋骨",
+      "english": "Ribs",
+      "input": "ろっこつ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L118642",
+        "matched_form": "肋骨",
+        "reading": "ろっこつ",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Ribs. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "ろっこつ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ろっこつ|肋骨",
+      "kind": "sentence",
+      "display": "ぶつけたところ、肋骨(ろっこつ)のあたりが痛(いた)い。",
+      "english": "It hurts around my ribs where I bumped myself.",
+      "input": "ぶつけたところ、ろっこつのあたりがいたい。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L118642",
+          "matched_form": "肋骨",
+          "reading": "ろっこつ",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "あし|脚",
+      "kind": "word",
+      "display": "脚",
+      "english": "Leg",
+      "input": "あし",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L37541",
+        "matched_form": "脚",
+        "reading": "あし",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Leg. Use dictionary Tokyo accent 2: drop immediately after mora 2. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "あし",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "あし|脚",
+      "kind": "sentence",
+      "display": "いっぱい歩(ある)いて、脚(あし)が疲(つか)れた。",
+      "english": "My legs are tired from all that walking.",
+      "input": "いっぱいあるいて、あしがつかれた。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L37541",
+          "matched_form": "脚",
+          "reading": "あし",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 2. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ふともも|太もも",
+      "kind": "word",
+      "display": "太もも",
+      "english": "Thigh",
+      "input": "ふともも",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0,
+          3
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L81219",
+        "matched_form": "太もも",
+        "reading": "ふともも",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Thigh. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "ふともも",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ふともも|太もも",
+      "kind": "sentence",
+      "display": "昨日(きのう)の運動(うんどう)で、太(ふと)ももが筋肉痛(きんにくつう)。",
+      "english": "My thighs are sore from yesterday's workout.",
+      "input": "きのうのうんどうで、ふとももがきんにくつう。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0,
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L81219",
+          "matched_form": "太もも",
+          "reading": "ふともも",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ひざ|膝",
+      "kind": "word",
+      "display": "膝",
+      "english": "Knee",
+      "input": "ひざ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100969",
+        "matched_form": "膝",
+        "reading": "ひざ",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Knee. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "ひざ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ひざ|膝",
+      "kind": "sentence",
+      "display": "階段(かいだん)を下(お)りると、膝(ひざ)が痛(いた)い。",
+      "english": "My knee hurts when I go down stairs.",
+      "input": "かいだんおおりると、ひざがいたい。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100969",
+          "matched_form": "膝",
+          "reading": "ひざ",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          4
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ひざうら|膝裏",
+      "kind": "word",
+      "display": "膝裏",
+      "english": "Back of knee",
+      "input": "ひざうら",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-components",
+        "whole_word_dictionary_match": false,
+        "components": [
+          {
+            "accent": 0,
+            "variants": [
+              0
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100969",
+            "matched_form": "膝",
+            "reading": "ひざ",
+            "method": "dictionary spelling and reading match"
+          },
+          {
+            "accent": 2,
+            "variants": [
+              2
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L115414",
+            "matched_form": "裏",
+            "reading": "うら",
+            "method": "dictionary spelling and reading match"
+          }
+        ],
+        "unmatched_components": [],
+        "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+      },
+      "pronunciation_guidance": "The intended meaning is Back of knee. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms.",
+      "listening_verified": false,
+      "reading_original": "ひざうら",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ひざうら|膝裏",
+      "kind": "sentence",
+      "display": "膝裏(ひざうら)がかゆくて、ついかいちゃう。",
+      "english": "The backs of my knees itch, and I keep scratching them.",
+      "input": "ひざうらがかゆくて、ついかいちゃう。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "status": "provisional-components",
+          "whole_word_dictionary_match": false,
+          "components": [
+            {
+              "accent": 0,
+              "variants": [
+                0
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100969",
+              "matched_form": "膝",
+              "reading": "ひざ",
+              "method": "dictionary spelling and reading match"
+            },
+            {
+              "accent": 2,
+              "variants": [
+                2
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L115414",
+              "matched_form": "裏",
+              "reading": "うら",
+              "method": "dictionary spelling and reading match"
+            }
+          ],
+          "unmatched_components": [],
+          "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms. Use the appropriate inflected accents in context.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "すね|",
+      "kind": "word",
+      "display": "すね",
+      "english": "Shin",
+      "input": "すね",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L122199",
+        "matched_form": "脛",
+        "reading": "すね",
+        "method": "reviewed meaning-equivalent spelling alias and exact reading",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Shin. Use dictionary Tokyo accent 2: drop immediately after mora 2. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "すね",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "すね|",
+      "kind": "sentence",
+      "display": "椅子(いす)にすねをぶつけちゃった。",
+      "english": "I bumped my shin on a chair.",
+      "input": "いすにすねおぶつけちゃった。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L122199",
+          "matched_form": "脛",
+          "reading": "すね",
+          "method": "reviewed meaning-equivalent spelling alias and exact reading",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 2. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          5
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ふくらはぎ|",
+      "kind": "word",
+      "display": "ふくらはぎ",
+      "english": "Calf",
+      "input": "ふくらはぎ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 3,
+        "variants": [
+          3,
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L3863",
+        "matched_form": "ふくら脛",
+        "reading": "ふくらはぎ",
+        "method": "reviewed meaning-equivalent spelling alias and exact reading",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Calf. Use dictionary Tokyo accent 3: drop immediately after mora 3. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "ふくらはぎ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ふくらはぎ|",
+      "kind": "sentence",
+      "display": "坂道(さかみち)を歩(ある)いたら、ふくらはぎが張(は)ってきた。",
+      "english": "My calves got tight after walking uphill.",
+      "input": "さかみちおあるいたら、ふくらはぎがはってきた。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 3,
+          "variants": [
+            3,
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L3863",
+          "matched_form": "ふくら脛",
+          "reading": "ふくらはぎ",
+          "method": "reviewed meaning-equivalent spelling alias and exact reading",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 3. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          4
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "あしくび|足首",
+      "kind": "word",
+      "display": "足首",
+      "english": "Ankle",
+      "input": "あしくび",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2,
+          3
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L80431",
+        "matched_form": "足首",
+        "reading": "あしくび",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Ankle. Use dictionary Tokyo accent 2: drop immediately after mora 2. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "あしくび",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "あしくび|足首",
+      "kind": "sentence",
+      "display": "足首(あしくび)が冷(ひ)えるから、長(なが)めの靴下(くつした)にしよう。",
+      "english": "My ankles get cold, so I'll wear longer socks.",
+      "input": "あしくびがひえるから、ながめのくつしたにしよう。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2,
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L80431",
+          "matched_form": "足首",
+          "reading": "あしくび",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 2. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "かかと|",
+      "kind": "word",
+      "display": "かかと",
+      "english": "Heel",
+      "input": "かかと",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L123142",
+        "matched_form": "踵",
+        "reading": "かかと",
+        "method": "reviewed meaning-equivalent spelling alias and exact reading",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Heel. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "かかと",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "かかと|",
+      "kind": "sentence",
+      "display": "靴(くつ)が当(あ)たって、かかとが痛(いた)い。",
+      "english": "My shoe's rubbing against my heel, and it hurts.",
+      "input": "くつがあたって、かかとがいたい。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L123142",
+          "matched_form": "踵",
+          "reading": "かかと",
+          "method": "reviewed meaning-equivalent spelling alias and exact reading",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "あし|足",
+      "kind": "word",
+      "display": "足",
+      "english": "Foot",
+      "input": "あし",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L80370",
+        "matched_form": "足",
+        "reading": "あし",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Foot. Use dictionary Tokyo accent 2: drop immediately after mora 2. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "あし",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "あし|足",
+      "kind": "sentence",
+      "display": "足(あし)が冷(つめ)たいから、靴下(くつした)はこう。",
+      "english": "My feet are cold, so I'll put some socks on.",
+      "input": "あしがつめたいから、くつしたはこう。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L80370",
+          "matched_form": "足",
+          "reading": "あし",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Speak this as natural everyday Japanese conversation in one clear, steady voice. Preserve casual contractions, omitted particles, long vowels and doubled consonants exactly as written. Keep each complete phrase connected, including its particles. Use only short conversational breaks at the supplied commas, with no extra pauses between words or syllables. Use native contextual accents for inflected words rather than forcing dictionary-form accent onto conjugations. Keep a normal conversational rhythm with no stretched endings, chanting or exaggerated stress. Read only the supplied input once. The target vocabulary has checked dictionary-form accent 2; use it naturally in context and adjust any inflected form appropriately.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      },
+      "revision": 2,
+      "retry_reason": "Final user check marks this clip Redo; user explicitly authorized replacement directly in the flashcard deck without another preview approval."
+    },
+    {
+      "key": "あしのこう|足の甲",
+      "kind": "word",
+      "display": "足の甲",
+      "english": "Top of foot",
+      "input": "あしのこう",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-components",
+        "whole_word_dictionary_match": false,
+        "components": [
+          {
+            "accent": 2,
+            "variants": [
+              2
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L80370",
+            "matched_form": "足",
+            "reading": "あし",
+            "method": "dictionary spelling and reading match"
+          },
+          {
+            "accent": 1,
+            "variants": [
+              1
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L49741",
+            "matched_form": "甲",
+            "reading": "こう",
+            "method": "dictionary spelling and reading match"
+          }
+        ],
+        "unmatched_components": [],
+        "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+      },
+      "pronunciation_guidance": "The intended meaning is Top of foot. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms.",
+      "listening_verified": false,
+      "reading_original": "あしのこう",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "あしのこう|足の甲",
+      "kind": "sentence",
+      "display": "靴(くつ)がきつくて、足(あし)の甲(こう)が痛(いた)い。",
+      "english": "My shoes are tight and hurt the tops of my feet.",
+      "input": "くつがきつくて、あしのこうがいたい。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "status": "provisional-components",
+          "whole_word_dictionary_match": false,
+          "components": [
+            {
+              "accent": 2,
+              "variants": [
+                2
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L80370",
+              "matched_form": "足",
+              "reading": "あし",
+              "method": "dictionary spelling and reading match"
+            },
+            {
+              "accent": 1,
+              "variants": [
+                1
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L49741",
+              "matched_form": "甲",
+              "reading": "こう",
+              "method": "dictionary spelling and reading match"
+            }
+          ],
+          "unmatched_components": [],
+          "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms. Use the appropriate inflected accents in context.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "あしのうら|足の裏",
+      "kind": "word",
+      "display": "足の裏",
+      "english": "Sole of foot",
+      "input": "あしのうら",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-components",
+        "whole_word_dictionary_match": false,
+        "components": [
+          {
+            "accent": 2,
+            "variants": [
+              2
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L80370",
+            "matched_form": "足",
+            "reading": "あし",
+            "method": "dictionary spelling and reading match"
+          },
+          {
+            "accent": 2,
+            "variants": [
+              2
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L115414",
+            "matched_form": "裏",
+            "reading": "うら",
+            "method": "dictionary spelling and reading match"
+          }
+        ],
+        "unmatched_components": [],
+        "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+      },
+      "pronunciation_guidance": "The intended meaning is Sole of foot. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms.",
+      "listening_verified": false,
+      "reading_original": "あしのうら",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "あしのうら|足の裏",
+      "kind": "sentence",
+      "display": "たくさん歩(ある)いて、足(あし)の裏(うら)が痛(いた)くなった。",
+      "english": "The soles of my feet hurt after all that walking.",
+      "input": "たくさんあるいて、あしのうらがいたくなった。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "status": "provisional-components",
+          "whole_word_dictionary_match": false,
+          "components": [
+            {
+              "accent": 2,
+              "variants": [
+                2
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L80370",
+              "matched_form": "足",
+              "reading": "あし",
+              "method": "dictionary spelling and reading match"
+            },
+            {
+              "accent": 2,
+              "variants": [
+                2
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L115414",
+              "matched_form": "裏",
+              "reading": "うら",
+              "method": "dictionary spelling and reading match"
+            }
+          ],
+          "unmatched_components": [],
+          "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms. Use the appropriate inflected accents in context.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "つちふまず|土踏まず",
+      "kind": "word",
+      "display": "土踏まず",
+      "english": "Arch of foot",
+      "input": "つちふまず",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 3,
+        "variants": [
+          3
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L91222",
+        "matched_form": "土踏まず",
+        "reading": "つちふまず",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Arch of foot. Use dictionary Tokyo accent 3: drop immediately after mora 3. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "つちふまず",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "つちふまず|土踏まず",
+      "kind": "sentence",
+      "display": "この靴(くつ)、土踏(つちふ)まずにちょうど合(あ)うね。",
+      "english": "These shoes fit the arches of my feet nicely.",
+      "input": "このくつ、つちふまずにちょうどあうね。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 3,
+          "variants": [
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L91222",
+          "matched_form": "土踏まず",
+          "reading": "つちふまず",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 3. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "つまさき|つま先",
+      "kind": "word",
+      "display": "つま先",
+      "english": "Toe / tip of foot",
+      "input": "つまさき",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L3036",
+        "matched_form": "つま先",
+        "reading": "つまさき",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Toe / tip of foot. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "つまさき",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "つまさき|つま先",
+      "kind": "sentence",
+      "display": "つま先(さき)が当(あ)たるから、この靴(くつ)ちょっと小(ちい)さいかも。",
+      "english": "My toes touch the front, so these shoes might be a little small.",
+      "input": "つまさきがあたるから、このくつちょっとちいさいかも。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L3036",
+          "matched_form": "つま先",
+          "reading": "つまさき",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "あしのゆび|足の指",
+      "kind": "word",
+      "display": "足の指",
+      "english": "Toe",
+      "input": "あしのゆび",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-components",
+        "whole_word_dictionary_match": false,
+        "components": [
+          {
+            "accent": 2,
+            "variants": [
+              2
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L80370",
+            "matched_form": "足",
+            "reading": "あし",
+            "method": "dictionary spelling and reading match"
+          },
+          {
+            "accent": 2,
+            "variants": [
+              2
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L56766",
+            "matched_form": "指",
+            "reading": "ゆび",
+            "method": "dictionary spelling and reading match"
+          }
+        ],
+        "unmatched_components": [],
+        "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+      },
+      "pronunciation_guidance": "The intended meaning is Toe. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms.",
+      "listening_verified": false,
+      "reading_original": "あしのゆび",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "あしのゆび|足の指",
+      "kind": "sentence",
+      "display": "足(あし)の指(ゆび)を動(うご)かすと、少(すこ)し楽(らく)になる。",
+      "english": "Moving my toes makes it feel a little better.",
+      "input": "あしのゆびおうごかすと、すこしらくになる。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "status": "provisional-components",
+          "whole_word_dictionary_match": false,
+          "components": [
+            {
+              "accent": 2,
+              "variants": [
+                2
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L80370",
+              "matched_form": "足",
+              "reading": "あし",
+              "method": "dictionary spelling and reading match"
+            },
+            {
+              "accent": 2,
+              "variants": [
+                2
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L56766",
+              "matched_form": "指",
+              "reading": "ゆび",
+              "method": "dictionary spelling and reading match"
+            }
+          ],
+          "unmatched_components": [],
+          "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms. Use the appropriate inflected accents in context.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          5
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "あしのおやゆび|足の親指",
+      "kind": "word",
+      "display": "足の親指",
+      "english": "Big toe",
+      "input": "あしのおやゆび",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-components",
+        "whole_word_dictionary_match": false,
+        "components": [
+          {
+            "accent": 2,
+            "variants": [
+              2
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L80370",
+            "matched_form": "足",
+            "reading": "あし",
+            "method": "dictionary spelling and reading match"
+          },
+          {
+            "accent": 0,
+            "variants": [
+              0
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L70538",
+            "matched_form": "親指",
+            "reading": "おやゆび",
+            "method": "dictionary spelling and reading match"
+          }
+        ],
+        "unmatched_components": [],
+        "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+      },
+      "pronunciation_guidance": "The intended meaning is Big toe. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms.",
+      "listening_verified": false,
+      "reading_original": "あしのおやゆび",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "あしのおやゆび|足の親指",
+      "kind": "sentence",
+      "display": "足(あし)の親指(おやゆび)をぶつけて、痛(いた)かった。",
+      "english": "I stubbed my big toe, and it hurt.",
+      "input": "あしのおやゆびおぶつけて、いたかった。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "status": "provisional-components",
+          "whole_word_dictionary_match": false,
+          "components": [
+            {
+              "accent": 2,
+              "variants": [
+                2
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L80370",
+              "matched_form": "足",
+              "reading": "あし",
+              "method": "dictionary spelling and reading match"
+            },
+            {
+              "accent": 0,
+              "variants": [
+                0
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L70538",
+              "matched_form": "親指",
+              "reading": "おやゆび",
+              "method": "dictionary spelling and reading match"
+            }
+          ],
+          "unmatched_components": [],
+          "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms. Use the appropriate inflected accents in context.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          7
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ひふ|皮膚",
+      "kind": "word",
+      "display": "皮膚",
+      "english": "Skin (anatomical term)",
+      "input": "ひふ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 1,
+        "variants": [
+          1
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100116",
+        "matched_form": "皮膚",
+        "reading": "ひふ",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Skin (anatomical term). Use dictionary Tokyo accent 1: drop immediately after mora 1. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "ひふ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ひふ|皮膚",
+      "kind": "sentence",
+      "display": "このテープ、皮膚(ひふ)がかゆくなるんだよね。",
+      "english": "This tape makes my skin itchy.",
+      "input": "このてーぷ、ひふがかゆくなるんだよね。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100116",
+          "matched_form": "皮膚",
+          "reading": "ひふ",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 1. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "はだ|肌",
+      "kind": "word",
+      "display": "肌",
+      "english": "Skin",
+      "input": "はだ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 1,
+        "variants": [
+          1
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L98528",
+        "matched_form": "肌",
+        "reading": "はだ",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Skin. Use dictionary Tokyo accent 1: drop immediately after mora 1. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "はだ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "はだ|肌",
+      "kind": "sentence",
+      "display": "最近(さいきん)、肌(はだ)が乾燥(かんそう)しやすい。",
+      "english": "My skin's been getting dry easily lately.",
+      "input": "さいきん、はだがかんそうしやすい。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L98528",
+          "matched_form": "肌",
+          "reading": "はだ",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 1. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "かみ|髪",
+      "kind": "word",
+      "display": "髪",
+      "english": "Hair",
+      "input": "かみ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L98904",
+        "matched_form": "髪",
+        "reading": "かみ",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Hair. Use dictionary Tokyo accent 2: drop immediately after mora 2. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "かみ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "かみ|髪",
+      "kind": "sentence",
+      "display": "髪(かみ)、もう少(すこ)し短(みじか)くしようかな。",
+      "english": "Maybe I'll get my hair cut a little shorter.",
+      "input": "かみ、もうすこしみじかくしようかな。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L98904",
+          "matched_form": "髪",
+          "reading": "かみ",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 2. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "たいもう|体毛",
+      "kind": "word",
+      "display": "体毛",
+      "english": "Body hair",
+      "input": "たいもう",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L81738",
+        "matched_form": "体毛",
+        "reading": "たいもう",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Body hair. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "たいもう",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "たいもう|体毛",
+      "kind": "sentence",
+      "display": "体毛(たいもう)って、人(ひと)によって全然(ぜんぜん)違(ちが)うね。",
+      "english": "Body hair really varies from person to person.",
+      "input": "たいもうって、ひとによってぜんぜんちがうね。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L81738",
+          "matched_form": "体毛",
+          "reading": "たいもう",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "きんにく|筋肉",
+      "kind": "word",
+      "display": "筋肉",
+      "english": "Muscle",
+      "input": "きんにく",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 1,
+        "variants": [
+          1
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40509",
+        "matched_form": "筋肉",
+        "reading": "きんにく",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Muscle. Use dictionary Tokyo accent 1: drop immediately after mora 1. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "きんにく",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "きんにく|筋肉",
+      "kind": "sentence",
+      "display": "この荷物(にもつ)、持(も)つだけで筋肉(きんにく)つきそう。",
+      "english": "Just carrying this luggage feels like a workout.",
+      "input": "このにもつ、もつだけできんにくつきそう。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40509",
+          "matched_form": "筋肉",
+          "reading": "きんにく",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 1. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ほね|骨",
+      "kind": "word",
+      "display": "骨",
+      "english": "Bone",
+      "input": "ほね",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52022",
+        "matched_form": "骨",
+        "reading": "ほね",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Bone. Use dictionary Tokyo accent 2: drop immediately after mora 2. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "ほね",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ほね|骨",
+      "kind": "sentence",
+      "display": "骨(ほね)には異常(いじょう)なかったって。ほっとした。",
+      "english": "They said there was nothing wrong with the bone. That's a relief.",
+      "input": "ほねにわいじょうなかったって。ほっとした。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52022",
+          "matched_form": "骨",
+          "reading": "ほね",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 2. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": "ほねには",
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "かんせつ|関節",
+      "kind": "word",
+      "display": "関節",
+      "english": "Joint",
+      "input": "かんせつ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L35056",
+        "matched_form": "関節",
+        "reading": "かんせつ",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Joint. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "かんせつ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "かんせつ|関節",
+      "kind": "sentence",
+      "display": "寒(さむ)いと、関節(かんせつ)がこわばるんだよね。",
+      "english": "My joints get stiff when it's cold.",
+      "input": "さむいと、かんせつがこわばるんだよね。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L35056",
+          "matched_form": "関節",
+          "reading": "かんせつ",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "けん|腱",
+      "kind": "word",
+      "display": "腱",
+      "english": "Tendon",
+      "input": "けん",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 1,
+        "variants": [
+          1
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L122241",
+        "matched_form": "腱",
+        "reading": "けん",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Tendon. Use dictionary Tokyo accent 1: drop immediately after mora 1. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "けん",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "けん|腱",
+      "kind": "sentence",
+      "display": "このあたり、腱(けん)を痛(いた)めたのかもしれない。",
+      "english": "I might have strained a tendon around here.",
+      "input": "このあたり、けんおいためたのかもしれない。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L122241",
+          "matched_form": "腱",
+          "reading": "けん",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 1. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          8
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "じんたい|靭帯",
+      "kind": "word",
+      "display": "靭帯",
+      "english": "Ligament",
+      "input": "じんたい",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L71509",
+        "matched_form": "靭帯",
+        "reading": "じんたい",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Ligament. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "じんたい",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "じんたい|靭帯",
+      "kind": "sentence",
+      "display": "足首(あしくび)の靭帯(じんたい)を痛(いた)めて、しばらく休(やす)んでる。",
+      "english": "I injured a ligament in my ankle, so I'm resting for a while.",
+      "input": "あしくびのじんたいおいためて、しばらくやすんでる。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L71509",
+          "matched_form": "靭帯",
+          "reading": "じんたい",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          9
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "しんけい|神経",
+      "kind": "word",
+      "display": "神経",
+      "english": "Nerve",
+      "input": "しんけい",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 1,
+        "variants": [
+          1
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L70283",
+        "matched_form": "神経",
+        "reading": "しんけい",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Nerve. Use dictionary Tokyo accent 1: drop immediately after mora 1. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "しんけい",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "しんけい|神経",
+      "kind": "sentence",
+      "display": "先生(せんせい)に、神経(しんけい)が圧迫(あっぱく)されてるって言(い)われた。",
+      "english": "The doctor told me a nerve was being compressed.",
+      "input": "せんせいに、しんけいがあっぱくされてるっていわれた。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L70283",
+          "matched_form": "神経",
+          "reading": "しんけい",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 1. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "けっかん|血管",
+      "kind": "word",
+      "display": "血管",
+      "english": "Blood vessel",
+      "input": "けっかん",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L43830",
+        "matched_form": "血管",
+        "reading": "けっかん",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Blood vessel. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "けっかん",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "けっかん|血管",
+      "kind": "sentence",
+      "display": "寒(さむ)いと、手(て)の血管(けっかん)が目立(めだ)たなくなるね。",
+      "english": "The veins in my hands are less visible when it's cold.",
+      "input": "さむいと、てのけっかんがめだたなくなるね。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L43830",
+          "matched_form": "血管",
+          "reading": "けっかん",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ち|血",
+      "kind": "word",
+      "display": "血",
+      "english": "Blood",
+      "input": "ち",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L43796",
+        "matched_form": "血",
+        "reading": "ち",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Blood. This is a single-mora word with dictionary heiban accent 0. Say just that one mora naturally; do not invent a second mora, extend the vowel or add a particle to demonstrate a rise. Keep normal Japanese timing.",
+      "listening_verified": false,
+      "reading_original": "ち",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ち|血",
+      "kind": "sentence",
+      "display": "紙(かみ)で指(ゆび)切(き)って、血(ち)が出(で)ちゃった。",
+      "english": "I cut my finger on some paper, and it bled.",
+      "input": "かみでゆびきって、ちがでちゃった。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L43796",
+          "matched_form": "血",
+          "reading": "ち",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    }
+  ]
+}

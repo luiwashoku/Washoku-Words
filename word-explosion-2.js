@@ -124,9 +124,10 @@
 
     function speak() {
       if (!alive || !word) return;
-      if (getRecordedJapaneseFile?.(word.japanese)) {
+      const speechKey = window.WordExplosionGame.recordingKey(word, getRecordedJapaneseFile);
+      if (getRecordedJapaneseFile?.(speechKey)) {
         stopSpeech();
-        speakJapaneseText(word.japanese, replay, "Japanese word");
+        speakJapaneseText(speechKey, replay, "Japanese word");
         return;
       }
       stopSpeech();
@@ -280,7 +281,7 @@
           initialWord = null;
         }
         again.textContent = "Next word →";
-        replay.disabled = !(getRecordedJapaneseFile?.(entries[0].japanese) || speechSupported);
+        replay.disabled = !(getRecordedJapaneseFile?.(window.WordExplosionGame.recordingKey(entries[0], getRecordedJapaneseFile)) || speechSupported);
         reset();
       } catch (error) {
         if (!alive || error.name === "AbortError") return;

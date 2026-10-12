@@ -1,6 +1,11 @@
 (() => {
   "use strict";
 
+  function recordingKey(word, getRecordedJapaneseFile) {
+    const key = `${word.japanese}|${word.kanji || ""}`;
+    return getRecordedJapaneseFile?.(key) ? key : word.japanese;
+  }
+
   function parseVocabulary(text, { includeDuplicates = false } = {}) {
     const entries = [];
     const japaneseSeen = new Set();
@@ -383,5 +388,5 @@
     };
   }
 
-  window.WordExplosionGame = { parseVocabulary, loadVocabulary, createRound, selectTile, mount };
+  window.WordExplosionGame = { recordingKey, parseVocabulary, loadVocabulary, createRound, selectTile, mount };
 })();

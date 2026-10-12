@@ -1,0 +1,3519 @@
+{
+  "id": "daily-life-2026-10-12",
+  "batch": 3,
+  "range": [
+    76,
+    125
+  ],
+  "reviewed": true,
+  "model": "gpt-4o-mini-tts",
+  "voice": "marin",
+  "speed": 1.0,
+  "accent_source": {
+    "commit": "9ebca4589565c696e7c39e089e2e928ad65f678c",
+    "url": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt",
+    "sha256": "8bd0dd127dab32ceec94cb03ab1ba6b68858ea73421dfa1731af2f373deb4f20"
+  },
+  "listening_verified": false,
+  "reading_source": "User-supplied vocabulary readings, reviewed contextual example furigana, and exact dictionary or explicitly meaning-checked alias/component references.",
+  "particle_review": "Topic phrases individually reviewed, no global は replacement. All displayed を occurrences are reviewed object particles, pronounced お. Lexical は and へ are preserved.",
+  "phrase_review": "Existing commas are brief complete-phrase/clause boundaries; no added pause before particles. Quotes are speech-silent. Preserve natural casual contractions and omitted particles.",
+  "entries": [
+    {
+      "key": "ねだん|値段",
+      "kind": "word",
+      "display": "値段",
+      "english": "Price",
+      "input": "ねだん",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L84789",
+        "matched_form": "値段",
+        "reading": "ねだん",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Price. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "ねだん",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ねだん|値段",
+      "kind": "sentence",
+      "display": "これ、値段(ねだん)のわりにしっかりしてるね。",
+      "english": "This is well made for the price.",
+      "input": "これ、ねだんのわりにしっかりしてるね。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L84789",
+          "matched_form": "値段",
+          "reading": "ねだん",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ぜいこみ|税込",
+      "kind": "word",
+      "display": "税込",
+      "english": "Tax included",
+      "input": "ぜいこみ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L74853",
+        "matched_form": "税込",
+        "reading": "ぜいこみ",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Tax included. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "ぜいこみ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ぜいこみ|税込",
+      "kind": "sentence",
+      "display": "この値段(ねだん)、税込(ぜいこみ)かな。",
+      "english": "I wonder if this price includes tax.",
+      "input": "このねだん、ぜいこみかな。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L74853",
+          "matched_form": "税込",
+          "reading": "ぜいこみ",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ぜいぬき|税抜",
+      "kind": "word",
+      "display": "税抜",
+      "english": "Tax excluded",
+      "input": "ぜいぬき",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L74860",
+        "matched_form": "税抜き",
+        "reading": "ぜいぬき",
+        "method": "reviewed meaning-equivalent spelling alias and exact reading",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Tax excluded. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "ぜいぬき",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ぜいぬき|税抜",
+      "kind": "sentence",
+      "display": "あ、この表示(ひょうじ)は税抜(ぜいぬき)なんだ。",
+      "english": "Oh, this displayed price doesn't include tax.",
+      "input": "あ、このひょうじわぜいぬきなんだ。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L74860",
+          "matched_form": "税抜き",
+          "reading": "ぜいぬき",
+          "method": "reviewed meaning-equivalent spelling alias and exact reading",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": "ひょうじは",
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "わりびき|割引",
+      "kind": "word",
+      "display": "割引",
+      "english": "Discount",
+      "input": "わりびき",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L32949",
+        "matched_form": "割引",
+        "reading": "わりびき",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Discount. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "わりびき",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "わりびき|割引",
+      "kind": "sentence",
+      "display": "二(ふた)つ買(か)うと割引(わりびき)になるんだって。",
+      "english": "Apparently you get a discount if you buy two.",
+      "input": "ふたつかうとわりびきになるんだって。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L32949",
+          "matched_form": "割引",
+          "reading": "わりびき",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "せーる|セール",
+      "kind": "word",
+      "display": "セール",
+      "english": "Sale",
+      "input": "せーる",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 1,
+        "variants": [
+          1
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L11720",
+        "matched_form": "セール",
+        "reading": "せーる",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Sale. Use dictionary Tokyo accent 1: drop immediately after mora 1. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "せーる",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "せーる|セール",
+      "kind": "sentence",
+      "display": "セールで安(やす)くなってたから、買(か)っちゃった。",
+      "english": "It was on sale, so I bought it.",
+      "input": "せーるでやすくなってたから、かっちゃった。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L11720",
+          "matched_form": "セール",
+          "reading": "せーる",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Speak this as natural everyday Japanese conversation in one clear, steady voice. Preserve casual contractions, omitted particles, long vowels and doubled consonants exactly as written. Keep each complete phrase connected, including its particles. Use only short conversational breaks at the supplied commas, with no extra pauses between words or syllables. Use native contextual accents for inflected words rather than forcing dictionary-form accent onto conjugations. Keep a normal conversational rhythm with no stretched endings, chanting or exaggerated stress. Read only the supplied input once. The target vocabulary has checked dictionary-form accent 1; use it naturally in context and adjust any inflected form appropriately.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      },
+      "revision": 2,
+      "retry_reason": "Final user check marks this clip Redo; user explicitly authorized replacement directly in the flashcard deck without another preview approval."
+    },
+    {
+      "key": "いろちがい|色違い",
+      "kind": "word",
+      "display": "色違い",
+      "english": "Different colour",
+      "input": "いろちがい",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 3,
+        "variants": [
+          3
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68474",
+        "matched_form": "色違い",
+        "reading": "いろちがい",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Different colour. Use dictionary Tokyo accent 3: drop immediately after mora 3. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "いろちがい",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "いろちがい|色違い",
+      "kind": "sentence",
+      "display": "これの色違(いろちが)いも見(み)てみたいな。",
+      "english": "I'd like to see this in another colour too.",
+      "input": "これのいろちがいもみてみたいな。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 3,
+          "variants": [
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68474",
+          "matched_form": "色違い",
+          "reading": "いろちがい",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 3. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "さいずちがい|サイズ違い",
+      "kind": "word",
+      "display": "サイズ違い",
+      "english": "Different size",
+      "input": "さいずちがい",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-components",
+        "whole_word_dictionary_match": false,
+        "components": [
+          {
+            "accent": 1,
+            "variants": [
+              1
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L9804",
+            "matched_form": "サイズ",
+            "reading": "さいず",
+            "method": "dictionary spelling and reading match"
+          },
+          {
+            "accent": 0,
+            "variants": [
+              0
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L22595",
+            "matched_form": "違い",
+            "reading": "ちがい",
+            "method": "dictionary spelling and reading match"
+          }
+        ],
+        "unmatched_components": [],
+        "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+      },
+      "pronunciation_guidance": "The intended meaning is Different size. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms.",
+      "listening_verified": false,
+      "reading_original": "さいずちがい",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "さいずちがい|サイズ違い",
+      "kind": "sentence",
+      "display": "サイズ違(ちが)いも試(ため)してみていいですか？",
+      "english": "Can I try a different size too?",
+      "input": "さいずちがいもためしてみていいですか？",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "status": "provisional-components",
+          "whole_word_dictionary_match": false,
+          "components": [
+            {
+              "accent": 1,
+              "variants": [
+                1
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L9804",
+              "matched_form": "サイズ",
+              "reading": "さいず",
+              "method": "dictionary spelling and reading match"
+            },
+            {
+              "accent": 0,
+              "variants": [
+                0
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L22595",
+              "matched_form": "違い",
+              "reading": "ちがい",
+              "method": "dictionary spelling and reading match"
+            }
+          ],
+          "unmatched_components": [],
+          "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+        }
+      },
+      "pronunciation_guidance": "Speak this as natural everyday Japanese conversation in one clear, steady voice. Preserve casual contractions, omitted particles, long vowels and doubled consonants exactly as written. Keep each complete phrase connected, including its particles. Use only short conversational breaks at the supplied commas, with no extra pauses between words or syllables. Use native contextual accents for inflected words rather than forcing dictionary-form accent onto conjugations. Keep a normal conversational rhythm with no stretched endings, chanting or exaggerated stress. Read only the supplied input once. Whole-expression pitch is provisional; use natural native Tokyo intonation with the reviewed component readings.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      },
+      "revision": 2,
+      "retry_reason": "Final user check marks this clip Redo; user explicitly authorized replacement directly in the flashcard deck without another preview approval."
+    },
+    {
+      "key": "れしーと|レシート",
+      "kind": "word",
+      "display": "レシート",
+      "english": "Receipt",
+      "input": "れしーと",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L20237",
+        "matched_form": "レシート",
+        "reading": "れしーと",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Receipt. Use dictionary Tokyo accent 2: drop immediately after mora 2. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "れしーと",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "れしーと|レシート",
+      "kind": "sentence",
+      "display": "レシート、念(ねん)のため取(と)っとこう。",
+      "english": "Let's keep the receipt just in case.",
+      "input": "れしーと、ねんのためとっとこう。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L20237",
+          "matched_form": "レシート",
+          "reading": "れしーと",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 2. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "りょうしゅうしょ|領収書",
+      "kind": "word",
+      "display": "領収書",
+      "english": "Formal receipt",
+      "input": "りょうしゅうしょ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L116858",
+        "matched_form": "領収書",
+        "reading": "りょうしゅうしょ",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Formal receipt. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "りょうしゅうしょ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "りょうしゅうしょ|領収書",
+      "kind": "sentence",
+      "display": "領収書(りょうしゅうしょ)もお願(ねが)いできますか？",
+      "english": "Could I get a formal receipt too, please?",
+      "input": "りょうしゅうしょもおねがいできますか？",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L116858",
+          "matched_form": "領収書",
+          "reading": "りょうしゅうしょ",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "おつり|お釣り",
+      "kind": "word",
+      "display": "お釣り",
+      "english": "Change (money)",
+      "input": "おつり",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L1259",
+        "matched_form": "お釣り",
+        "reading": "おつり",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Change (money). Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "おつり",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "おつり|お釣り",
+      "kind": "sentence",
+      "display": "お釣(つ)り、まだもらってないよ。",
+      "english": "I haven't got my change yet.",
+      "input": "おつり、まだもらってないよ。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L1259",
+          "matched_form": "お釣り",
+          "reading": "おつり",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ふくろ|袋",
+      "kind": "word",
+      "display": "袋",
+      "english": "Bag",
+      "input": "ふくろ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 3,
+        "variants": [
+          3
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L82139",
+        "matched_form": "袋",
+        "reading": "ふくろ",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Bag. Use dictionary Tokyo accent 3: drop immediately after mora 3. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "ふくろ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ふくろ|袋",
+      "kind": "sentence",
+      "display": "袋(ふくろ)は大丈夫(だいじょうぶ)です。バッグ持(も)ってるので。",
+      "english": "I don't need a bag. I've brought one.",
+      "input": "ふくろわだいじょうぶです。ばっぐもってるので。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 3,
+          "variants": [
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L82139",
+          "matched_form": "袋",
+          "reading": "ふくろ",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 3. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": "ふくろは",
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "かみぶくろ|紙袋",
+      "kind": "word",
+      "display": "紙袋",
+      "english": "Paper bag",
+      "input": "かみぶくろ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 3,
+        "variants": [
+          3
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L57450",
+        "matched_form": "紙袋",
+        "reading": "かみぶくろ",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Paper bag. Use dictionary Tokyo accent 3: drop immediately after mora 3. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "かみぶくろ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "かみぶくろ|紙袋",
+      "kind": "sentence",
+      "display": "紙袋(かみぶくろ)、雨(あめ)でぬれちゃった。",
+      "english": "The paper bag got wet in the rain.",
+      "input": "かみぶくろ、あめでぬれちゃった。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 3,
+          "variants": [
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L57450",
+          "matched_form": "紙袋",
+          "reading": "かみぶくろ",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 3. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ほうそう|包装",
+      "kind": "word",
+      "display": "包装",
+      "english": "Wrapping / packaging",
+      "input": "ほうそう",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106738",
+        "matched_form": "包装",
+        "reading": "ほうそう",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Wrapping / packaging. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "ほうそう",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ほうそう|包装",
+      "kind": "sentence",
+      "display": "包装(ほうそう)、もう少(すこ)し簡単(かんたん)なので大丈夫(だいじょうぶ)です。",
+      "english": "Simpler wrapping is fine, thanks.",
+      "input": "ほうそう、もうすこしかんたんなのでだいじょうぶです。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106738",
+          "matched_form": "包装",
+          "reading": "ほうそう",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Speak this as natural everyday Japanese conversation in one clear, steady voice. Preserve casual contractions, omitted particles, long vowels and doubled consonants exactly as written. Keep each complete phrase connected, including its particles. Use only short conversational breaks at the supplied commas, with no extra pauses between words or syllables. Use native contextual accents for inflected words rather than forcing dictionary-form accent onto conjugations. Keep a normal conversational rhythm with no stretched endings, chanting or exaggerated stress. Read only the supplied input once. The target vocabulary has checked dictionary-form accent 0; use it naturally in context and adjust any inflected form appropriately.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      },
+      "revision": 2,
+      "retry_reason": "Final user check marks this clip Redo; user explicitly authorized replacement directly in the flashcard deck without another preview approval."
+    },
+    {
+      "key": "おみやげ|お土産",
+      "kind": "word",
+      "display": "お土産",
+      "english": "Souvenir / gift",
+      "input": "おみやげ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L1268",
+        "matched_form": "お土産",
+        "reading": "おみやげ",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Souvenir / gift. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "おみやげ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "おみやげ|お土産",
+      "kind": "sentence",
+      "display": "家族(かぞく)にお土産(みやげ)、何(なに)買(か)おうかな。",
+      "english": "What should I buy my family as a souvenir?",
+      "input": "かぞくにおみやげ、なにかおうかな。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L1268",
+          "matched_form": "お土産",
+          "reading": "おみやげ",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Speak this as natural everyday Japanese conversation in one clear, steady voice. Preserve casual contractions, omitted particles, long vowels and doubled consonants exactly as written. Keep each complete phrase connected, including its particles. Use only short conversational breaks at the supplied commas, with no extra pauses between words or syllables. Use native contextual accents for inflected words rather than forcing dictionary-form accent onto conjugations. Keep a normal conversational rhythm with no stretched endings, chanting or exaggerated stress. Read only the supplied input once. The target vocabulary has checked dictionary-form accent 0; use it naturally in context and adjust any inflected form appropriately.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      },
+      "revision": 2,
+      "retry_reason": "Final user check marks this clip Redo; user explicitly authorized replacement directly in the flashcard deck without another preview approval."
+    },
+    {
+      "key": "おまけ|",
+      "kind": "word",
+      "display": "おまけ",
+      "english": "Free extra / bonus",
+      "input": "おまけ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L1313",
+        "matched_form": "お負け",
+        "reading": "おまけ",
+        "method": "reviewed meaning-equivalent spelling alias and exact reading",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Free extra / bonus. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "おまけ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "おまけ|",
+      "kind": "sentence",
+      "display": "おまけで小(ちい)さいお菓子(かし)もついてきた。",
+      "english": "It came with a little sweet as a free extra.",
+      "input": "おまけでちいさいおかしもついてきた。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L1313",
+          "matched_form": "お負け",
+          "reading": "おまけ",
+          "method": "reviewed meaning-equivalent spelling alias and exact reading",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "へんぴん|返品",
+      "kind": "word",
+      "display": "返品",
+      "english": "Return (goods)",
+      "input": "へんぴん",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106113",
+        "matched_form": "返品",
+        "reading": "へんぴん",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Return (goods). Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "へんぴん",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "へんぴん|返品",
+      "kind": "sentence",
+      "display": "サイズが合(あ)わないから、返品(へんぴん)できるか聞(き)いてみよう。",
+      "english": "It doesn't fit, so I'll ask if I can return it.",
+      "input": "さいずがあわないから、へんぴんできるかきいてみよう。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106113",
+          "matched_form": "返品",
+          "reading": "へんぴん",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "こうかん|交換",
+      "kind": "word",
+      "display": "交換",
+      "english": "Exchange",
+      "input": "こうかん",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L48267",
+        "matched_form": "交換",
+        "reading": "こうかん",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Exchange. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "こうかん",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "こうかん|交換",
+      "kind": "sentence",
+      "display": "これ、別(べつ)の色(いろ)に交換(こうかん)できますか？",
+      "english": "Can I exchange this for another colour?",
+      "input": "これ、べつのいろにこうかんできますか？",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L48267",
+          "matched_form": "交換",
+          "reading": "こうかん",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "げんきんばらい|現金払い",
+      "kind": "word",
+      "display": "現金払い",
+      "english": "Cash payment",
+      "input": "げんきんばらい",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 5,
+        "variants": [
+          5
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L45730",
+        "matched_form": "現金払い",
+        "reading": "げんきんばらい",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Cash payment. Use dictionary Tokyo accent 5: drop immediately after mora 5. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "げんきんばらい",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "げんきんばらい|現金払い",
+      "kind": "sentence",
+      "display": "現金払(げんきんばら)いだと、少(すこ)し安(やす)くなるみたい。",
+      "english": "Looks like it's a little cheaper if you pay cash.",
+      "input": "げんきんばらいだと、すこしやすくなるみたい。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 5,
+          "variants": [
+            5
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L45730",
+          "matched_form": "現金払い",
+          "reading": "げんきんばらい",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 5. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "かーどばらい|カード払い",
+      "kind": "word",
+      "display": "カード払い",
+      "english": "Card payment",
+      "input": "かーどばらい",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-components",
+        "whole_word_dictionary_match": false,
+        "components": [
+          {
+            "accent": 1,
+            "variants": [
+              1
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L7301",
+            "matched_form": "カード",
+            "reading": "かーど",
+            "method": "dictionary spelling and reading match"
+          },
+          {
+            "accent": 2,
+            "variants": [
+              2
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L103995",
+            "matched_form": "払い",
+            "reading": "はらい",
+            "method": "dictionary spelling and reading match"
+          }
+        ],
+        "unmatched_components": [],
+        "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+      },
+      "pronunciation_guidance": "The intended meaning is Card payment. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms.",
+      "listening_verified": false,
+      "reading_original": "かーどばらい",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "かーどばらい|カード払い",
+      "kind": "sentence",
+      "display": "カード払(ばら)いでも大丈夫(だいじょうぶ)ですか？",
+      "english": "Is it okay to pay by card?",
+      "input": "かーどばらいでもだいじょうぶですか？",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "status": "provisional-components",
+          "whole_word_dictionary_match": false,
+          "components": [
+            {
+              "accent": 1,
+              "variants": [
+                1
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L7301",
+              "matched_form": "カード",
+              "reading": "かーど",
+              "method": "dictionary spelling and reading match"
+            },
+            {
+              "accent": 2,
+              "variants": [
+                2
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L103995",
+              "matched_form": "払い",
+              "reading": "はらい",
+              "method": "dictionary spelling and reading match"
+            }
+          ],
+          "unmatched_components": [],
+          "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms. Use the appropriate inflected accents in context.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "げんかん|玄関",
+      "kind": "word",
+      "display": "玄関",
+      "english": "Entrance area",
+      "input": "げんかん",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 1,
+        "variants": [
+          1
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L45672",
+        "matched_form": "玄関",
+        "reading": "げんかん",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Entrance area. Use dictionary Tokyo accent 1: drop immediately after mora 1. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "げんかん",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "げんかん|玄関",
+      "kind": "sentence",
+      "display": "靴(くつ)は玄関(げんかん)で脱(ぬ)いでね。",
+      "english": "Take your shoes off in the entrance area.",
+      "input": "くつわげんかんでぬいでね。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L45672",
+          "matched_form": "玄関",
+          "reading": "げんかん",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 1. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": "くつは",
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "じどうどあ|自動ドア",
+      "kind": "word",
+      "display": "自動ドア",
+      "english": "Automatic door",
+      "input": "じどうどあ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-components",
+        "whole_word_dictionary_match": false,
+        "components": [
+          {
+            "accent": 0,
+            "variants": [
+              0
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L58975",
+            "matched_form": "自動",
+            "reading": "じどう",
+            "method": "dictionary spelling and reading match"
+          },
+          {
+            "accent": 1,
+            "variants": [
+              1
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L13780",
+            "matched_form": "ドア",
+            "reading": "どあ",
+            "method": "dictionary spelling and reading match"
+          }
+        ],
+        "unmatched_components": [],
+        "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+      },
+      "pronunciation_guidance": "The intended meaning is Automatic door. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms.",
+      "listening_verified": false,
+      "reading_original": "じどうどあ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "じどうどあ|自動ドア",
+      "kind": "sentence",
+      "display": "自動(じどう)ドアなのに、なかなか開(あ)かないね。",
+      "english": "It's an automatic door, but it's taking ages to open.",
+      "input": "じどうどあなのに、なかなかあかないね。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "status": "provisional-components",
+          "whole_word_dictionary_match": false,
+          "components": [
+            {
+              "accent": 0,
+              "variants": [
+                0
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L58975",
+              "matched_form": "自動",
+              "reading": "じどう",
+              "method": "dictionary spelling and reading match"
+            },
+            {
+              "accent": 1,
+              "variants": [
+                1
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L13780",
+              "matched_form": "ドア",
+              "reading": "どあ",
+              "method": "dictionary spelling and reading match"
+            }
+          ],
+          "unmatched_components": [],
+          "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms. Use the appropriate inflected accents in context.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "どあのぶ|ドアノブ",
+      "kind": "word",
+      "display": "ドアノブ",
+      "english": "Door handle / knob",
+      "input": "どあのぶ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-components",
+        "whole_word_dictionary_match": false,
+        "components": [
+          {
+            "accent": 1,
+            "variants": [
+              1
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L13780",
+            "matched_form": "ドア",
+            "reading": "どあ",
+            "method": "dictionary spelling and reading match"
+          },
+          {
+            "accent": 1,
+            "variants": [
+              1
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L14377",
+            "matched_form": "ノブ",
+            "reading": "のぶ",
+            "method": "dictionary spelling and reading match"
+          }
+        ],
+        "unmatched_components": [],
+        "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+      },
+      "pronunciation_guidance": "The intended meaning is Door handle / knob. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms.",
+      "listening_verified": false,
+      "reading_original": "どあのぶ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "どあのぶ|ドアノブ",
+      "kind": "sentence",
+      "display": "ドアノブ、ちょっとぐらぐらしてる。",
+      "english": "The door handle's a little loose.",
+      "input": "どあのぶ、ちょっとぐらぐらしてる。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "status": "provisional-components",
+          "whole_word_dictionary_match": false,
+          "components": [
+            {
+              "accent": 1,
+              "variants": [
+                1
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L13780",
+              "matched_form": "ドア",
+              "reading": "どあ",
+              "method": "dictionary spelling and reading match"
+            },
+            {
+              "accent": 1,
+              "variants": [
+                1
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L14377",
+              "matched_form": "ノブ",
+              "reading": "のぶ",
+              "method": "dictionary spelling and reading match"
+            }
+          ],
+          "unmatched_components": [],
+          "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+        }
+      },
+      "pronunciation_guidance": "Speak this as natural everyday Japanese conversation in one clear, steady voice. Preserve casual contractions, omitted particles, long vowels and doubled consonants exactly as written. Keep each complete phrase connected, including its particles. Use only short conversational breaks at the supplied commas, with no extra pauses between words or syllables. Use native contextual accents for inflected words rather than forcing dictionary-form accent onto conjugations. Keep a normal conversational rhythm with no stretched endings, chanting or exaggerated stress. Read only the supplied input once. Whole-expression pitch is provisional; use natural native Tokyo intonation with the reviewed component readings.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      },
+      "revision": 2,
+      "retry_reason": "Final user check marks this clip Redo; user explicitly authorized replacement directly in the flashcard deck without another preview approval."
+    },
+    {
+      "key": "まど|窓",
+      "kind": "word",
+      "display": "窓",
+      "english": "Window",
+      "input": "まど",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 1,
+        "variants": [
+          1
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L79472",
+        "matched_form": "窓",
+        "reading": "まど",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Window. Use dictionary Tokyo accent 1: drop immediately after mora 1. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "まど",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "まど|窓",
+      "kind": "sentence",
+      "display": "ちょっと暑(あつ)いから、窓(まど)開(あ)けてもいい？",
+      "english": "It's a bit hot. Can I open the window?",
+      "input": "ちょっとあついから、まどあけてもいい？",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L79472",
+          "matched_form": "窓",
+          "reading": "まど",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 1. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "かべ|壁",
+      "kind": "word",
+      "display": "壁",
+      "english": "Wall",
+      "input": "かべ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L105565",
+        "matched_form": "壁",
+        "reading": "かべ",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Wall. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "かべ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "かべ|壁",
+      "kind": "sentence",
+      "display": "この壁(かべ)の色(いろ)、落(お)ち着(つ)くね。",
+      "english": "This wall colour feels calming.",
+      "input": "このかべのいろ、おちつくね。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L105565",
+          "matched_form": "壁",
+          "reading": "かべ",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ゆか|床",
+      "kind": "word",
+      "display": "床",
+      "english": "Floor",
+      "input": "ゆか",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L66414",
+        "matched_form": "床",
+        "reading": "ゆか",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Floor. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "ゆか",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ゆか|床",
+      "kind": "sentence",
+      "display": "床(ゆか)がぬれてるから、気(き)をつけてね。",
+      "english": "The floor's wet, so be careful.",
+      "input": "ゆかがぬれてるから、きおつけてね。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L66414",
+          "matched_form": "床",
+          "reading": "ゆか",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          11
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "てんじょう|天井",
+      "kind": "word",
+      "display": "天井",
+      "english": "Ceiling",
+      "input": "てんじょう",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L89641",
+        "matched_form": "天井",
+        "reading": "てんじょう",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Ceiling. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "てんじょう",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "てんじょう|天井",
+      "kind": "sentence",
+      "display": "この部屋(へや)、天井(てんじょう)が高(たか)いね。",
+      "english": "This room has a high ceiling.",
+      "input": "このへや、てんじょうがたかいね。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L89641",
+          "matched_form": "天井",
+          "reading": "てんじょう",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "たな|棚",
+      "kind": "word",
+      "display": "棚",
+      "english": "Shelf",
+      "input": "たな",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L83816",
+        "matched_form": "棚",
+        "reading": "たな",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Shelf. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "たな",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "たな|棚",
+      "kind": "sentence",
+      "display": "カップは上(うえ)の棚(たな)に入(はい)ってるよ。",
+      "english": "The cups are on the upper shelf.",
+      "input": "かっぷわうえのたなにはいってるよ。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L83816",
+          "matched_form": "棚",
+          "reading": "たな",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": "かっぷは",
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ひきだし|引き出し",
+      "kind": "word",
+      "display": "引き出し",
+      "english": "Drawer",
+      "input": "ひきだし",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L24198",
+        "matched_form": "引き出し",
+        "reading": "ひきだし",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Drawer. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "ひきだし",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ひきだし|引き出し",
+      "kind": "sentence",
+      "display": "はさみ、引(ひ)き出(だ)しに入(はい)ってない？",
+      "english": "Aren't the scissors in the drawer?",
+      "input": "はさみ、ひきだしにはいってない？",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L24198",
+          "matched_form": "引き出し",
+          "reading": "ひきだし",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "かがみ|鏡",
+      "kind": "word",
+      "display": "鏡",
+      "english": "Mirror",
+      "input": "かがみ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 3,
+        "variants": [
+          3
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L39851",
+        "matched_form": "鏡",
+        "reading": "かがみ",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Mirror. Use dictionary Tokyo accent 3: drop immediately after mora 3. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "かがみ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "かがみ|鏡",
+      "kind": "sentence",
+      "display": "出(で)かける前(まえ)に鏡(かがみ)で確認(かくにん)しとこう。",
+      "english": "I'll check myself in the mirror before going out.",
+      "input": "でかけるまえにかがみでかくにんしとこう。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 3,
+          "variants": [
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L39851",
+          "matched_form": "鏡",
+          "reading": "かがみ",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 3. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ごみばこ|ゴミ箱",
+      "kind": "word",
+      "display": "ゴミ箱",
+      "english": "Rubbish bin",
+      "input": "ごみばこ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0,
+          2,
+          3
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L2086",
+        "matched_form": "ごみ箱",
+        "reading": "ごみばこ",
+        "method": "reviewed meaning-equivalent spelling alias and exact reading",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Rubbish bin. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "ごみばこ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ごみばこ|ゴミ箱",
+      "kind": "sentence",
+      "display": "ゴミ箱(ばこ)、もういっぱいだね。",
+      "english": "The rubbish bin's full already.",
+      "input": "ごみばこ、もういっぱいだね。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0,
+            2,
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L2086",
+          "matched_form": "ごみ箱",
+          "reading": "ごみばこ",
+          "method": "reviewed meaning-equivalent spelling alias and exact reading",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ごみぶくろ|ゴミ袋",
+      "kind": "word",
+      "display": "ゴミ袋",
+      "english": "Rubbish bag",
+      "input": "ごみぶくろ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-components",
+        "whole_word_dictionary_match": false,
+        "components": [
+          {
+            "accent": 2,
+            "variants": [
+              2
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L71387",
+            "matched_form": "塵",
+            "reading": "ごみ",
+            "method": "dictionary spelling and reading match"
+          },
+          {
+            "accent": 3,
+            "variants": [
+              3
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L82139",
+            "matched_form": "袋",
+            "reading": "ふくろ",
+            "method": "dictionary spelling and reading match"
+          }
+        ],
+        "unmatched_components": [],
+        "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+      },
+      "pronunciation_guidance": "The intended meaning is Rubbish bag. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms.",
+      "listening_verified": false,
+      "reading_original": "ごみぶくろ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ごみぶくろ|ゴミ袋",
+      "kind": "sentence",
+      "display": "ゴミ袋(ぶくろ)、もう一枚(いちまい)出(だ)してくれる？",
+      "english": "Can you get another rubbish bag out?",
+      "input": "ごみぶくろ、もういちまいだしてくれる？",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "status": "provisional-components",
+          "whole_word_dictionary_match": false,
+          "components": [
+            {
+              "accent": 2,
+              "variants": [
+                2
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L71387",
+              "matched_form": "塵",
+              "reading": "ごみ",
+              "method": "dictionary spelling and reading match"
+            },
+            {
+              "accent": 3,
+              "variants": [
+                3
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L82139",
+              "matched_form": "袋",
+              "reading": "ふくろ",
+              "method": "dictionary spelling and reading match"
+            }
+          ],
+          "unmatched_components": [],
+          "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms. Use the appropriate inflected accents in context.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ふた|蓋",
+      "kind": "word",
+      "display": "蓋",
+      "english": "Lid",
+      "input": "ふた",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L32013",
+        "matched_form": "蓋",
+        "reading": "ふた",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Lid. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "ふた",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ふた|蓋",
+      "kind": "sentence",
+      "display": "この蓋(ふた)、なかなか開(あ)かない。",
+      "english": "I can't get this lid open.",
+      "input": "このふた、なかなかあかない。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L32013",
+          "matched_form": "蓋",
+          "reading": "ふた",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "はこ|箱",
+      "kind": "word",
+      "display": "箱",
+      "english": "Box",
+      "input": "はこ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L98483",
+        "matched_form": "箱",
+        "reading": "はこ",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Box. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "はこ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "はこ|箱",
+      "kind": "sentence",
+      "display": "この箱(はこ)、捨(す)てずに取(と)っとこう。",
+      "english": "Let's keep this box instead of throwing it out.",
+      "input": "このはこ、すてずにとっとこう。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L98483",
+          "matched_form": "箱",
+          "reading": "はこ",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "かみ|紙",
+      "kind": "word",
+      "display": "紙",
+      "english": "Paper",
+      "input": "かみ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L57410",
+        "matched_form": "紙",
+        "reading": "かみ",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Paper. Use dictionary Tokyo accent 2: drop immediately after mora 2. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "かみ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "かみ|紙",
+      "kind": "sentence",
+      "display": "紙(かみ)、一枚(いちまい)もらっていい？",
+      "english": "Can I have a sheet of paper?",
+      "input": "かみ、いちまいもらっていい？",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L57410",
+          "matched_form": "紙",
+          "reading": "かみ",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 2. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "めも|メモ",
+      "kind": "word",
+      "display": "メモ",
+      "english": "Note",
+      "input": "めも",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 1,
+        "variants": [
+          1
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L19030",
+        "matched_form": "メモ",
+        "reading": "めも",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Note. Use dictionary Tokyo accent 1: drop immediately after mora 1. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "めも",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "めも|メモ",
+      "kind": "sentence",
+      "display": "忘(わす)れそうだから、メモしとくね。",
+      "english": "I'll make a note so I don't forget.",
+      "input": "わすれそうだから、めもしとくね。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L19030",
+          "matched_form": "メモ",
+          "reading": "めも",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 1. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "ちず|地図",
+      "kind": "word",
+      "display": "地図",
+      "english": "Map",
+      "input": "ちず",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 1,
+        "variants": [
+          1
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L85040",
+        "matched_form": "地図",
+        "reading": "ちず",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Map. Use dictionary Tokyo accent 1: drop immediately after mora 1. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "ちず",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "ちず|地図",
+      "kind": "sentence",
+      "display": "地図(ちず)だと、この道(みち)をまっすぐみたい。",
+      "english": "According to the map, we go straight down this road.",
+      "input": "ちずだと、このみちおまっすぐみたい。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L85040",
+          "matched_form": "地図",
+          "reading": "ちず",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 1. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          9
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "かんばん|看板",
+      "kind": "word",
+      "display": "看板",
+      "english": "Signboard",
+      "input": "かんばん",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34566",
+        "matched_form": "看板",
+        "reading": "かんばん",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Signboard. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "かんばん",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "かんばん|看板",
+      "kind": "sentence",
+      "display": "あの看板(かんばん)のところで曲(ま)がろう。",
+      "english": "Let's turn at that sign.",
+      "input": "あのかんばんのところでまがろう。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34566",
+          "matched_form": "看板",
+          "reading": "かんばん",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "あんないばん|案内板",
+      "kind": "word",
+      "display": "案内板",
+      "english": "Information sign",
+      "input": "あんないばん",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-components",
+        "whole_word_dictionary_match": false,
+        "components": [
+          {
+            "accent": 3,
+            "variants": [
+              3
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L21791",
+            "matched_form": "案内",
+            "reading": "あんない",
+            "method": "dictionary spelling and reading match"
+          },
+          {
+            "accent": 1,
+            "variants": [
+              1
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L99480",
+            "matched_form": "板",
+            "reading": "いた",
+            "method": "dictionary spelling and reading match"
+          }
+        ],
+        "unmatched_components": [],
+        "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+      },
+      "pronunciation_guidance": "The intended meaning is Information sign. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms.",
+      "listening_verified": false,
+      "reading_original": "あんないばん",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "あんないばん|案内板",
+      "kind": "sentence",
+      "display": "案内板(あんないばん)にトイレの場所(ばしょ)載(の)ってるかな。",
+      "english": "I wonder if the information sign shows where the toilets are.",
+      "input": "あんないばんにといれのばしょのってるかな。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "status": "provisional-components",
+          "whole_word_dictionary_match": false,
+          "components": [
+            {
+              "accent": 3,
+              "variants": [
+                3
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L21791",
+              "matched_form": "案内",
+              "reading": "あんない",
+              "method": "dictionary spelling and reading match"
+            },
+            {
+              "accent": 1,
+              "variants": [
+                1
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L99480",
+              "matched_form": "板",
+              "reading": "いた",
+              "method": "dictionary spelling and reading match"
+            }
+          ],
+          "unmatched_components": [],
+          "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+        }
+      },
+      "pronunciation_guidance": "Speak this as natural everyday Japanese conversation in one clear, steady voice. Preserve casual contractions, omitted particles, long vowels and doubled consonants exactly as written. Keep each complete phrase connected, including its particles. Use only short conversational breaks at the supplied commas, with no extra pauses between words or syllables. Use native contextual accents for inflected words rather than forcing dictionary-form accent onto conjugations. Keep a normal conversational rhythm with no stretched endings, chanting or exaggerated stress. Read only the supplied input once. Whole-expression pitch is provisional; use natural native Tokyo intonation with the reviewed component readings.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      },
+      "revision": 2,
+      "retry_reason": "Final user check marks this clip Redo; user explicitly authorized replacement directly in the flashcard deck without another preview approval."
+    },
+    {
+      "key": "じどうはんばいき|自動販売機",
+      "kind": "word",
+      "display": "自動販売機",
+      "english": "Vending machine",
+      "input": "じどうはんばいき",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 6,
+        "variants": [
+          6
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L59002",
+        "matched_form": "自動販売機",
+        "reading": "じどうはんばいき",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Vending machine. Use dictionary Tokyo accent 6: drop immediately after mora 6. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "じどうはんばいき",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "じどうはんばいき|自動販売機",
+      "kind": "sentence",
+      "display": "あそこの自動販売機(じどうはんばいき)で飲(の)み物(もの)買(か)おう。",
+      "english": "Let's get a drink from that vending machine.",
+      "input": "あそこのじどうはんばいきでのみものかおう。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 6,
+          "variants": [
+            6
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L59002",
+          "matched_form": "自動販売機",
+          "reading": "じどうはんばいき",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 6. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "よごれ|汚れ",
+      "kind": "word",
+      "display": "汚れ",
+      "english": "Dirt / stain",
+      "input": "よごれ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L26700",
+        "matched_form": "汚れ",
+        "reading": "よごれ",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Dirt / stain. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "よごれ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "よごれ|汚れ",
+      "kind": "sentence",
+      "display": "この汚(よご)れ、洗(あら)っても落(お)ちないな。",
+      "english": "This stain won't come out even after washing.",
+      "input": "このよごれ、あらってもおちないな。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L26700",
+          "matched_form": "汚れ",
+          "reading": "よごれ",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "きず|傷",
+      "kind": "word",
+      "display": "傷",
+      "english": "Scratch / damage",
+      "input": "きず",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L65483",
+        "matched_form": "傷",
+        "reading": "きず",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Scratch / damage. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "きず",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "きず|傷",
+      "kind": "sentence",
+      "display": "買(か)ったばかりなのに、もう傷(きず)ついちゃった。",
+      "english": "I only just bought it, and it's already scratched.",
+      "input": "かったばかりなのに、もうきずついちゃった。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L65483",
+          "matched_form": "傷",
+          "reading": "きず",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "あな|穴",
+      "kind": "word",
+      "display": "穴",
+      "english": "Hole",
+      "input": "あな",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L43660",
+        "matched_form": "穴",
+        "reading": "あな",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Hole. Use dictionary Tokyo accent 2: drop immediately after mora 2. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "あな",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "あな|穴",
+      "kind": "sentence",
+      "display": "靴下(くつした)に穴(あな)が開(あ)いてるよ。",
+      "english": "There's a hole in your sock.",
+      "input": "くつしたにあながあいてるよ。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L43660",
+          "matched_form": "穴",
+          "reading": "あな",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 2. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "やぶれ|破れ",
+      "kind": "word",
+      "display": "破れ",
+      "english": "Tear / rip",
+      "input": "やぶれ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 3,
+        "variants": [
+          3
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L96795",
+        "matched_form": "破れ",
+        "reading": "やぶれ",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Tear / rip. Use dictionary Tokyo accent 3: drop immediately after mora 3. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "やぶれ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "やぶれ|破れ",
+      "kind": "sentence",
+      "display": "このバッグ、内側(うちがわ)に破(やぶ)れがあるね。",
+      "english": "There's a tear inside this bag.",
+      "input": "このばっぐ、うちがわにやぶれがあるね。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 3,
+          "variants": [
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L96795",
+          "matched_form": "破れ",
+          "reading": "やぶれ",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 3. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "みずもれ|水漏れ",
+      "kind": "word",
+      "display": "水漏れ",
+      "english": "Water leak",
+      "input": "みずもれ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L72252",
+        "matched_form": "水漏れ",
+        "reading": "みずもれ",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Water leak. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "みずもれ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "みずもれ|水漏れ",
+      "kind": "sentence",
+      "display": "洗濯機(せんたくき)の下(した)、水漏(みずも)れしてない？",
+      "english": "Is there a leak under the washing machine?",
+      "input": "せんたくきのした、みずもれしてない？",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L72252",
+          "matched_form": "水漏れ",
+          "reading": "みずもれ",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "おとしもの|落とし物",
+      "kind": "word",
+      "display": "落とし物",
+      "english": "Lost / dropped item",
+      "input": "おとしもの",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0,
+          5
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L114921",
+        "matched_form": "落とし物",
+        "reading": "おとしもの",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Lost / dropped item. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "おとしもの",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "おとしもの|落とし物",
+      "kind": "sentence",
+      "display": "落(お)とし物(もの)を拾(ひろ)ったから、駅員(えきいん)さんに渡(わた)してくる。",
+      "english": "I found something someone dropped, so I'll give it to the station staff.",
+      "input": "おとしものおひろったから、えきいんさんにわたしてくる。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0,
+            5
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L114921",
+          "matched_form": "落とし物",
+          "reading": "おとしもの",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [
+          5
+        ],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "でんちぎれ|電池切れ",
+      "kind": "word",
+      "display": "電池切れ",
+      "english": "Dead battery",
+      "input": "でんちぎれ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-components",
+        "whole_word_dictionary_match": false,
+        "components": [
+          {
+            "accent": 1,
+            "variants": [
+              1
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L90640",
+            "matched_form": "電池",
+            "reading": "でんち",
+            "method": "dictionary spelling and reading match"
+          },
+          {
+            "accent": 2,
+            "variants": [
+              2
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L75600",
+            "matched_form": "切れ",
+            "reading": "きれ",
+            "method": "dictionary spelling and reading match"
+          }
+        ],
+        "unmatched_components": [],
+        "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+      },
+      "pronunciation_guidance": "The intended meaning is Dead battery. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms.",
+      "listening_verified": false,
+      "reading_original": "でんちぎれ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "でんちぎれ|電池切れ",
+      "kind": "sentence",
+      "display": "リモコン、電池切(でんちぎ)れかな。",
+      "english": "Maybe the remote's batteries are dead.",
+      "input": "りもこん、でんちぎれかな。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "status": "provisional-components",
+          "whole_word_dictionary_match": false,
+          "components": [
+            {
+              "accent": 1,
+              "variants": [
+                1
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L90640",
+              "matched_form": "電池",
+              "reading": "でんち",
+              "method": "dictionary spelling and reading match"
+            },
+            {
+              "accent": 2,
+              "variants": [
+                2
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L75600",
+              "matched_form": "切れ",
+              "reading": "きれ",
+              "method": "dictionary spelling and reading match"
+            }
+          ],
+          "unmatched_components": [],
+          "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms. Use the appropriate inflected accents in context.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "じゅうでんぎれ|充電切れ",
+      "kind": "word",
+      "display": "充電切れ",
+      "english": "Battery out of charge",
+      "input": "じゅうでんぎれ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-components",
+        "whole_word_dictionary_match": false,
+        "components": [
+          {
+            "accent": 0,
+            "variants": [
+              0
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L63045",
+            "matched_form": "充電",
+            "reading": "じゅうでん",
+            "method": "dictionary spelling and reading match"
+          },
+          {
+            "accent": 2,
+            "variants": [
+              2
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L75600",
+            "matched_form": "切れ",
+            "reading": "きれ",
+            "method": "dictionary spelling and reading match"
+          }
+        ],
+        "unmatched_components": [],
+        "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+      },
+      "pronunciation_guidance": "The intended meaning is Battery out of charge. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms.",
+      "listening_verified": false,
+      "reading_original": "じゅうでんぎれ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "じゅうでんぎれ|充電切れ",
+      "kind": "sentence",
+      "display": "スマホが充電切(じゅうでんぎ)れで、地図(ちず)が見(み)られない。",
+      "english": "My phone's out of charge, so I can't check the map.",
+      "input": "すまほがじゅうでんぎれで、ちずがみられない。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "status": "provisional-components",
+          "whole_word_dictionary_match": false,
+          "components": [
+            {
+              "accent": 0,
+              "variants": [
+                0
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L63045",
+              "matched_form": "充電",
+              "reading": "じゅうでん",
+              "method": "dictionary spelling and reading match"
+            },
+            {
+              "accent": 2,
+              "variants": [
+                2
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L75600",
+              "matched_form": "切れ",
+              "reading": "きれ",
+              "method": "dictionary spelling and reading match"
+            }
+          ],
+          "unmatched_components": [],
+          "guidance": "Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms."
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. Use native Tokyo compound or phrase intonation, keeping function particles attached and the expression smoothly connected. Component dictionary accents are references, not an exact whole-expression target. Do not force independent component accents onto the compound or conjugated forms. Use the appropriate inflected accents in context.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "けんがい|圏外",
+      "kind": "word",
+      "display": "圏外",
+      "english": "No phone signal",
+      "input": "けんがい",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 1,
+        "variants": [
+          1
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L44180",
+        "matched_form": "圏外",
+        "reading": "けんがい",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is No phone signal. Use dictionary Tokyo accent 1: drop immediately after mora 1. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "けんがい",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "けんがい|圏外",
+      "kind": "sentence",
+      "display": "ここ、圏外(けんがい)で電話(でんわ)がつながらない。",
+      "english": "There's no signal here, so I can't make a call.",
+      "input": "ここ、けんがいででんわがつながらない。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L44180",
+          "matched_form": "圏外",
+          "reading": "けんがい",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 1. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "まんせき|満席",
+      "kind": "word",
+      "display": "満席",
+      "english": "Fully occupied / no seats",
+      "input": "まんせき",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L109245",
+        "matched_form": "満席",
+        "reading": "まんせき",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is Fully occupied / no seats. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "まんせき",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "まんせき|満席",
+      "kind": "sentence",
+      "display": "次(つぎ)の電車(でんしゃ)、指定席(していせき)は満席(まんせき)だって。",
+      "english": "Apparently the reserved seats on the next train are all booked.",
+      "input": "つぎのでんしゃ、していせきわまんせきだって。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L109245",
+          "matched_form": "満席",
+          "reading": "まんせき",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": "していせきは",
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    },
+    {
+      "key": "まんしつ|満室",
+      "kind": "word",
+      "display": "満室",
+      "english": "No rooms available",
+      "input": "まんしつ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L109234",
+        "matched_form": "満室",
+        "reading": "まんしつ",
+        "method": "dictionary spelling and reading match",
+        "status": "dictionary-match"
+      },
+      "pronunciation_guidance": "The intended meaning is No rooms available. Use dictionary Tokyo accent 0: begin low, rise on the second mora, and keep no lexical drop. Keep the word compact and smoothly connected, preserving normal vowel lengths without syllable gaps or exaggerated stress.",
+      "listening_verified": false,
+      "reading_original": "まんしつ",
+      "particle_review": "Object を → お where displayed; lexical は and へ unchanged."
+    },
+    {
+      "key": "まんしつ|満室",
+      "kind": "sentence",
+      "display": "泊(と)まりたかったホテル、満室(まんしつ)だった。",
+      "english": "The hotel I wanted to stay at was fully booked.",
+      "input": "とまりたかったほてる、まんしつだった。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L109234",
+          "matched_form": "満室",
+          "reading": "まんしつ",
+          "method": "dictionary spelling and reading match",
+          "status": "dictionary-match"
+        }
+      },
+      "pronunciation_guidance": "Use warm, relaxed everyday speech, retaining all casual contractions and omitted particles. Commas mark only brief natural breaks after complete phrases or clauses. Do not detach particles or slow down individual syllables. The reviewed vocabulary has dictionary-form accent 0. Use its natural contextual accent. For any inflected verb or adjective, use the appropriate conjugated accent rather than mechanically imposing the dictionary-form drop.",
+      "listening_verified": false,
+      "particle_review": {
+        "topic_phrase": null,
+        "object_particle_positions": [],
+        "directional_particle": "none; lexical へそ preserved",
+        "lexical_preserved": [
+          "はず",
+          "はさみ",
+          "はこう",
+          "はがし",
+          "ふくらはぎ",
+          "はぶらし",
+          "は",
+          "へそ"
+        ]
+      }
+    }
+  ]
+}

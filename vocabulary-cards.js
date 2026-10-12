@@ -157,9 +157,11 @@
     function playWord() {
       if (lesson.audioDisabled) return;
       if (!alive || !entries.length) return;
+      if (entries[index].example?.audioPending) return;
       stopSpeech();
       status.textContent = "";
-      wordPlayer.play(entries[index].japanese).catch(() => {
+      const speechKey = window.WordExplosionGame.recordingKey(entries[index], getRecordedJapaneseFile);
+      wordPlayer.play(speechKey).catch(() => {
         if (alive && !signal.aborted) status.textContent = "Tap the word speaker to play audio.";
       });
     }
@@ -500,7 +502,12 @@
         reading.textContent = word.japanese;
         wordText.appendChild(reading);
       }
-      const wordSpeaker = createExampleSpeechButton(word.japanese, lesson.sentenceCards ? "Japanese sentence" : lesson.grammarCards ? "Grammar point" : "Japanese word", playWord);
+      const speechKey = window.WordExplosionGame.recordingKey(word, getRecordedJapaneseFile);
+      const wordSpeaker = createExampleSpeechButton(speechKey, lesson.sentenceCards ? "Japanese sentence" : lesson.grammarCards ? "Grammar point" : "Japanese word", playWord);
+      if (wordSpeaker && word.example?.audioPending) {
+        wordSpeaker.disabled = true;
+        wordSpeaker.title = "Recording pending";
+      }
       wordSpeaker?.classList.add("vocabulary-card-word-speaker");
       const meaning = document.createElement("p");
       meaning.className = "vocabulary-card-meaning";
@@ -520,6 +527,10 @@
       sentence.lang = "ja";
       setJapaneseText(sentence, word.example.japanese);
       const sentenceSpeaker = createExampleSpeechButton(word.example.japanese);
+      if (sentenceSpeaker && word.example.audioPending) {
+        sentenceSpeaker.disabled = true;
+        sentenceSpeaker.title = "Recording pending";
+      }
       sentenceSpeaker.addEventListener("click", () => wordPlayer.stop(), { capture: true, signal });
       sentenceRow.append(sentence, sentenceSpeaker);
       const translation = document.createElement("p");

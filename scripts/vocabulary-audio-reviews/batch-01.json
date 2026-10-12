@@ -1,0 +1,1208 @@
+{
+  "id": "daily-life-2026-10-12",
+  "batch": 1,
+  "range": [
+    1,
+    25
+  ],
+  "reviewed": true,
+  "model": "gpt-4o-mini-tts",
+  "voice": "marin",
+  "speed": 1.0,
+  "accent_source": {
+    "commit": "9ebca4589565c696e7c39e089e2e928ad65f678c",
+    "url": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt",
+    "sha256": "8bd0dd127dab32ceec94cb03ab1ba6b68858ea73421dfa1731af2f373deb4f20"
+  },
+  "reading_source": "User-supplied contextual readings; source dictionary spelling/reading matches; reviewed furigana in staged examples.",
+  "particle_review": "Batch 1: 夜は → よるわ. No object を or directional へ occurs. Preserve lexical は in はず and voiced syllables in ファスナー. No global particle replacements.",
+  "phrase_review": "Only brief pauses at the existing complete phrase/clause boundaries. Keep particles attached to the preceding phrase; preserve casual omissions, contractions and long vowels.",
+  "listening_verified": false,
+  "entries": [
+    {
+      "key": "そで|袖",
+      "kind": "word",
+      "display": "袖",
+      "english": "Sleeve",
+      "input": "そで",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L80711",
+        "matched_form": "袖",
+        "reading": "そで",
+        "method": "exact dictionary spelling and reading"
+      },
+      "pronunciation_guidance": "The intended meaning is Sleeve. Use dictionary Tokyo pitch accent type 0: begin low, rise on the second mora and have no lexical pitch drop within the word. Keep it connected with normal Japanese vowel lengths; do not separate or stretch syllables.",
+      "listening_verified": false
+    },
+    {
+      "key": "そで|袖",
+      "kind": "sentence",
+      "display": "袖(そで)にソースついちゃった。",
+      "english": "I got sauce on my sleeve.",
+      "input": "そでにそーすついちゃった。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L80711",
+          "matched_form": "袖",
+          "reading": "そで",
+          "method": "exact dictionary spelling and reading"
+        }
+      },
+      "pronunciation_guidance": "Use a relaxed everyday conversational delivery. Preserve the casual omissions and contractions exactly. Keep words smoothly connected; commas indicate only brief natural phrase breaks, not long silences. For the noun そで (Sleeve), the selected dictionary lexical accent is 0. Use that noun accent naturally within the sentence, allowing normal phrase intonation; do not impose a rigid mora-by-mora rhythm on the whole sentence.",
+      "listening_verified": false
+    },
+    {
+      "key": "えり|襟",
+      "kind": "word",
+      "display": "襟",
+      "english": "Collar",
+      "input": "えり",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40570",
+        "matched_form": "襟",
+        "reading": "えり",
+        "method": "exact dictionary spelling and reading"
+      },
+      "pronunciation_guidance": "This is the collar of a shirt. Use Tokyo accent 2: the two-mora word rises from low to high; the fall would follow the last mora if a particle followed. Read it as one short, connected word without adding a particle or stretching the final vowel.",
+      "listening_verified": false,
+      "revision": 2,
+      "retry_reason": "User marked this exact previous preview Redo in exported checks; no specific reason supplied."
+    },
+    {
+      "key": "えり|襟",
+      "kind": "sentence",
+      "display": "襟(えり)、ちょっと曲(ま)がってるよ。",
+      "english": "Your collar is a little crooked.",
+      "input": "えり、ちょっとまがってるよ。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40570",
+          "matched_form": "襟",
+          "reading": "えり",
+          "method": "exact dictionary spelling and reading"
+        }
+      },
+      "pronunciation_guidance": "Use a relaxed everyday conversational delivery. Preserve the casual omissions and contractions exactly. Keep words smoothly connected; commas indicate only brief natural phrase breaks, not long silences. For the noun えり (Collar), the selected dictionary lexical accent is 2. Use that noun accent naturally within the sentence, allowing normal phrase intonation; do not impose a rigid mora-by-mora rhythm on the whole sentence.",
+      "listening_verified": false
+    },
+    {
+      "key": "すそ|裾",
+      "kind": "word",
+      "display": "裾",
+      "english": "Hem",
+      "input": "すそ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L72623",
+        "matched_form": "裾",
+        "reading": "すそ",
+        "method": "exact dictionary spelling and reading"
+      },
+      "pronunciation_guidance": "The intended meaning is Hem. Use dictionary Tokyo pitch accent type 0: begin low, rise on the second mora and have no lexical pitch drop within the word. Keep it connected with normal Japanese vowel lengths; do not separate or stretch syllables.",
+      "listening_verified": false
+    },
+    {
+      "key": "すそ|裾",
+      "kind": "sentence",
+      "display": "このズボン、裾(すそ)がちょっと長(なが)いな。",
+      "english": "These trousers are a little long at the hem.",
+      "input": "このずぼん、すそがちょっとながいな。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L72623",
+          "matched_form": "裾",
+          "reading": "すそ",
+          "method": "exact dictionary spelling and reading"
+        }
+      },
+      "pronunciation_guidance": "Use a relaxed everyday conversational delivery. Preserve the casual omissions and contractions exactly. Keep words smoothly connected; commas indicate only brief natural phrase breaks, not long silences. For the noun すそ (Hem), the selected dictionary lexical accent is 0. Use that noun accent naturally within the sentence, allowing normal phrase intonation; do not impose a rigid mora-by-mora rhythm on the whole sentence.",
+      "listening_verified": false
+    },
+    {
+      "key": "ぽけっと|ポケット",
+      "kind": "word",
+      "display": "ポケット",
+      "english": "Pocket",
+      "input": "ぽけっと",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2,
+          1
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L18062",
+        "matched_form": "ポケット",
+        "reading": "ぽけっと",
+        "method": "exact dictionary spelling and reading"
+      },
+      "pronunciation_guidance": "The intended meaning is Pocket. Use dictionary Tokyo pitch accent type 2: drop immediately after mora 2; start low, rise on the second mora, then drop at the indicated position. Keep it connected with normal Japanese vowel lengths; do not separate or stretch syllables.",
+      "listening_verified": false
+    },
+    {
+      "key": "ぽけっと|ポケット",
+      "kind": "sentence",
+      "display": "鍵(かぎ)、ポケットに入(い)れたはずなんだけど。",
+      "english": "I'm pretty sure I put my key in my pocket.",
+      "input": "かぎ、ぽけっとにいれたはずなんだけど。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2,
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L18062",
+          "matched_form": "ポケット",
+          "reading": "ぽけっと",
+          "method": "exact dictionary spelling and reading"
+        }
+      },
+      "pronunciation_guidance": "Use a relaxed everyday conversational delivery. Preserve the casual omissions and contractions exactly. Keep words smoothly connected; commas indicate only brief natural phrase breaks, not long silences. For the noun ぽけっと (Pocket), the selected dictionary lexical accent is 2. Use that noun accent naturally within the sentence, allowing normal phrase intonation; do not impose a rigid mora-by-mora rhythm on the whole sentence. はず is lexical は, not a topic particle; keep いれたはずなんだけど connected.",
+      "listening_verified": false
+    },
+    {
+      "key": "ぼたん|ボタン",
+      "kind": "word",
+      "display": "ボタン",
+      "english": "Button",
+      "input": "ぼたん",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L17922",
+        "matched_form": "ボタン",
+        "reading": "ぼたん",
+        "method": "exact dictionary spelling and reading"
+      },
+      "pronunciation_guidance": "The intended meaning is Button. Use dictionary Tokyo pitch accent type 0: begin low, rise on the second mora and have no lexical pitch drop within the word. Keep it connected with normal Japanese vowel lengths; do not separate or stretch syllables.",
+      "listening_verified": false
+    },
+    {
+      "key": "ぼたん|ボタン",
+      "kind": "sentence",
+      "display": "あ、ボタンが取(と)れちゃった。",
+      "english": "Oh, a button came off.",
+      "input": "あ、ぼたんがとれちゃった。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L17922",
+          "matched_form": "ボタン",
+          "reading": "ぼたん",
+          "method": "exact dictionary spelling and reading"
+        }
+      },
+      "pronunciation_guidance": "Use a relaxed everyday conversational delivery. Preserve the casual omissions and contractions exactly. Keep words smoothly connected; commas indicate only brief natural phrase breaks, not long silences. For the noun ぼたん (Button), the selected dictionary lexical accent is 0. Use that noun accent naturally within the sentence, allowing normal phrase intonation; do not impose a rigid mora-by-mora rhythm on the whole sentence.",
+      "listening_verified": false
+    },
+    {
+      "key": "ふぁすなー|ファスナー",
+      "kind": "word",
+      "display": "ファスナー",
+      "english": "Zipper",
+      "input": "ふぁすなー",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 1,
+        "variants": [
+          1
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L16038",
+        "matched_form": "ファスナー",
+        "reading": "ふぁすなー",
+        "method": "exact dictionary spelling and reading"
+      },
+      "pronunciation_guidance": "Read this as an ordinary Japanese word or expression meaning Zipper, in a clear and steady native Japanese voice. Use checked Tokyo accent 1, with a natural pitch fall just after mora 1. Keep the entire expression fluent and compact, with normal Japanese vowel lengths and doubled consonants. No syllable gaps, chanting, exaggerated stress, English-style vowels or elongated endings. Read only the given input once.",
+      "listening_verified": false,
+      "revision": 3,
+      "retry_reason": "Final user check marks this clip Redo; user explicitly authorized replacement directly in the flashcard deck without another preview approval."
+    },
+    {
+      "key": "ふぁすなー|ファスナー",
+      "kind": "sentence",
+      "display": "ファスナーが引(ひ)っかかって開(あ)かない。",
+      "english": "The zipper's stuck and won't open.",
+      "input": "ふぁすなーがひっかかってあかない。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L16038",
+          "matched_form": "ファスナー",
+          "reading": "ふぁすなー",
+          "method": "exact dictionary spelling and reading"
+        }
+      },
+      "pronunciation_guidance": "Say this as an ordinary casual remark about a stuck zipper. Keep the entire sentence connected, with no pause between the subject phrase and the description of the stuck zipper. Use dictionary accent 1 for the zipper noun in natural sentence intonation. Preserve the doubled consonant and normal Japanese vowel lengths. Avoid slow, segmented or English-sounding delivery.",
+      "listening_verified": false,
+      "revision": 2,
+      "retry_reason": "User marked this exact previous preview Redo in exported checks; no specific reason supplied."
+    },
+    {
+      "key": "くつひも|靴ひも",
+      "kind": "word",
+      "display": "靴ひも",
+      "english": "Shoelaces",
+      "input": "くつひも",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0,
+          2
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L41977",
+        "matched_form": "靴ひも",
+        "reading": "くつひも",
+        "method": "exact dictionary spelling and reading"
+      },
+      "pronunciation_guidance": "The intended meaning is Shoelaces. Use dictionary Tokyo pitch accent type 0: begin low, rise on the second mora and have no lexical pitch drop within the word. Keep it connected with normal Japanese vowel lengths; do not separate or stretch syllables.",
+      "listening_verified": false
+    },
+    {
+      "key": "くつひも|靴ひも",
+      "kind": "sentence",
+      "display": "靴(くつ)ひもほどけてるよ。",
+      "english": "Your shoelace is untied.",
+      "input": "くつひもほどけてるよ。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0,
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L41977",
+          "matched_form": "靴ひも",
+          "reading": "くつひも",
+          "method": "exact dictionary spelling and reading"
+        }
+      },
+      "pronunciation_guidance": "Use a relaxed everyday conversational delivery. Preserve the casual omissions and contractions exactly. Keep words smoothly connected; commas indicate only brief natural phrase breaks, not long silences. For the noun くつひも (Shoelaces), the selected dictionary lexical accent is 0. Use that noun accent naturally within the sentence, allowing normal phrase intonation; do not impose a rigid mora-by-mora rhythm on the whole sentence.",
+      "listening_verified": false
+    },
+    {
+      "key": "くつした|靴下",
+      "kind": "word",
+      "display": "靴下",
+      "english": "Socks",
+      "input": "くつした",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2,
+          4
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L41982",
+        "matched_form": "靴下",
+        "reading": "くつした",
+        "method": "exact dictionary spelling and reading"
+      },
+      "pronunciation_guidance": "This means socks. Use the selected dictionary accent 2, dropping immediately after the second mora. Read the four-mora word compactly and smoothly, without syllable gaps or a drawn-out ending.",
+      "listening_verified": false,
+      "revision": 2,
+      "retry_reason": "User marked this exact previous preview Redo in exported checks; no specific reason supplied."
+    },
+    {
+      "key": "くつした|靴下",
+      "kind": "sentence",
+      "display": "靴下(くつした)、片方(かたほう)どこいったんだろ。",
+      "english": "Where did my other sock go?",
+      "input": "くつした、かたほうどこいったんだろ。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2,
+            4
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L41982",
+          "matched_form": "靴下",
+          "reading": "くつした",
+          "method": "exact dictionary spelling and reading"
+        }
+      },
+      "pronunciation_guidance": "Use a relaxed everyday conversational delivery. Preserve the casual omissions and contractions exactly. Keep words smoothly connected; commas indicate only brief natural phrase breaks, not long silences. For the noun くつした (Socks), the selected dictionary lexical accent is 2. Use that noun accent naturally within the sentence, allowing normal phrase intonation; do not impose a rigid mora-by-mora rhythm on the whole sentence.",
+      "listening_verified": false
+    },
+    {
+      "key": "べると|ベルト",
+      "kind": "word",
+      "display": "ベルト",
+      "english": "Belt",
+      "input": "べると",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L17442",
+        "matched_form": "ベルト",
+        "reading": "べると",
+        "method": "exact dictionary spelling and reading"
+      },
+      "pronunciation_guidance": "The intended meaning is Belt. Use dictionary Tokyo pitch accent type 0: begin low, rise on the second mora and have no lexical pitch drop within the word. Keep it connected with normal Japanese vowel lengths; do not separate or stretch syllables.",
+      "listening_verified": false
+    },
+    {
+      "key": "べると|ベルト",
+      "kind": "sentence",
+      "display": "このベルト、ちょっときついな。",
+      "english": "This belt's a little tight.",
+      "input": "このべると、ちょっときついな。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L17442",
+          "matched_form": "ベルト",
+          "reading": "べると",
+          "method": "exact dictionary spelling and reading"
+        }
+      },
+      "pronunciation_guidance": "Use a relaxed everyday conversational delivery. Preserve the casual omissions and contractions exactly. Keep words smoothly connected; commas indicate only brief natural phrase breaks, not long silences. For the noun べると (Belt), the selected dictionary lexical accent is 0. Use that noun accent naturally within the sentence, allowing normal phrase intonation; do not impose a rigid mora-by-mora rhythm on the whole sentence.",
+      "listening_verified": false
+    },
+    {
+      "key": "ぼうし|帽子",
+      "kind": "word",
+      "display": "帽子",
+      "english": "Hat",
+      "input": "ぼうし",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L107721",
+        "matched_form": "帽子",
+        "reading": "ぼうし",
+        "method": "exact dictionary spelling and reading"
+      },
+      "pronunciation_guidance": "The intended meaning is Hat. Use dictionary Tokyo pitch accent type 0: begin low, rise on the second mora and have no lexical pitch drop within the word. Keep it connected with normal Japanese vowel lengths; do not separate or stretch syllables.",
+      "listening_verified": false
+    },
+    {
+      "key": "ぼうし|帽子",
+      "kind": "sentence",
+      "display": "日差(ひざ)しが強(つよ)いから、帽子(ぼうし)かぶっていこう。",
+      "english": "The sun's strong, so I'll wear a hat.",
+      "input": "ひざしがつよいから、ぼうしかぶっていこう。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L107721",
+          "matched_form": "帽子",
+          "reading": "ぼうし",
+          "method": "exact dictionary spelling and reading"
+        }
+      },
+      "pronunciation_guidance": "Use a relaxed everyday conversational delivery. Preserve the casual omissions and contractions exactly. Keep words smoothly connected; commas indicate only brief natural phrase breaks, not long silences. For the noun ぼうし (Hat), the selected dictionary lexical accent is 0. Use that noun accent naturally within the sentence, allowing normal phrase intonation; do not impose a rigid mora-by-mora rhythm on the whole sentence.",
+      "listening_verified": false
+    },
+    {
+      "key": "てぶくろ|手袋",
+      "kind": "word",
+      "display": "手袋",
+      "english": "Gloves",
+      "input": "てぶくろ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61534",
+        "matched_form": "手袋",
+        "reading": "てぶくろ",
+        "method": "exact dictionary spelling and reading"
+      },
+      "pronunciation_guidance": "The intended meaning is Gloves. Use dictionary Tokyo pitch accent type 2: drop immediately after mora 2; start low, rise on the second mora, then drop at the indicated position. Keep it connected with normal Japanese vowel lengths; do not separate or stretch syllables.",
+      "listening_verified": false
+    },
+    {
+      "key": "てぶくろ|手袋",
+      "kind": "sentence",
+      "display": "寒(さむ)いから、手袋(てぶくろ)持(も)ってきてよかった。",
+      "english": "It's cold—I'm glad I brought my gloves.",
+      "input": "さむいから、てぶくろもってきてよかった。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61534",
+          "matched_form": "手袋",
+          "reading": "てぶくろ",
+          "method": "exact dictionary spelling and reading"
+        }
+      },
+      "pronunciation_guidance": "Use a relaxed everyday conversational delivery. Preserve the casual omissions and contractions exactly. Keep words smoothly connected; commas indicate only brief natural phrase breaks, not long silences. For the noun てぶくろ (Gloves), the selected dictionary lexical accent is 2. Use that noun accent naturally within the sentence, allowing normal phrase intonation; do not impose a rigid mora-by-mora rhythm on the whole sentence.",
+      "listening_verified": false
+    },
+    {
+      "key": "まふらー|マフラー",
+      "kind": "word",
+      "display": "マフラー",
+      "english": "Scarf",
+      "input": "まふらー",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 1,
+        "variants": [
+          1
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L18517",
+        "matched_form": "マフラー",
+        "reading": "まふらー",
+        "method": "exact dictionary spelling and reading"
+      },
+      "pronunciation_guidance": "This is the Japanese clothing word for a scarf. Use Tokyo accent 1, falling immediately after the first mora. Read it as a single connected Japanese loanword, with the final long vowel at ordinary length, without English stress or an elongated ending.",
+      "listening_verified": false,
+      "revision": 2,
+      "retry_reason": "User marked this exact previous preview Redo in exported checks; no specific reason supplied."
+    },
+    {
+      "key": "まふらー|マフラー",
+      "kind": "sentence",
+      "display": "そのマフラー、あったかそうだね。",
+      "english": "That scarf looks warm.",
+      "input": "そのまふらー、あったかそうだね。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L18517",
+          "matched_form": "マフラー",
+          "reading": "まふらー",
+          "method": "exact dictionary spelling and reading"
+        }
+      },
+      "pronunciation_guidance": "Use a relaxed everyday conversational delivery. Preserve the casual omissions and contractions exactly. Keep words smoothly connected; commas indicate only brief natural phrase breaks, not long silences. For the noun まふらー (Scarf), the selected dictionary lexical accent is 1. Use that noun accent naturally within the sentence, allowing normal phrase intonation; do not impose a rigid mora-by-mora rhythm on the whole sentence.",
+      "listening_verified": false
+    },
+    {
+      "key": "かさ|傘",
+      "kind": "word",
+      "display": "傘",
+      "english": "Umbrella",
+      "input": "かさ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 1,
+        "variants": [
+          1
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L54931",
+        "matched_form": "傘",
+        "reading": "かさ",
+        "method": "exact dictionary spelling and reading"
+      },
+      "pronunciation_guidance": "The intended meaning is Umbrella. Use dictionary Tokyo pitch accent type 1: drop immediately after mora 1; start high and drop after the first mora. Keep it connected with normal Japanese vowel lengths; do not separate or stretch syllables.",
+      "listening_verified": false
+    },
+    {
+      "key": "かさ|傘",
+      "kind": "sentence",
+      "display": "雨(あめ)降(ふ)ってきた。傘(かさ)、持(も)ってる？",
+      "english": "It's starting to rain. Do you have an umbrella?",
+      "input": "あめふってきた。かさ、もってる？",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L54931",
+          "matched_form": "傘",
+          "reading": "かさ",
+          "method": "exact dictionary spelling and reading"
+        }
+      },
+      "pronunciation_guidance": "Use a relaxed everyday conversational delivery. Preserve the casual omissions and contractions exactly. Keep words smoothly connected; commas indicate only brief natural phrase breaks, not long silences. For the noun かさ (Umbrella), the selected dictionary lexical accent is 1. Use that noun accent naturally within the sentence, allowing normal phrase intonation; do not impose a rigid mora-by-mora rhythm on the whole sentence.",
+      "listening_verified": false
+    },
+    {
+      "key": "おりたたみがさ|折りたたみ傘",
+      "kind": "word",
+      "display": "折りたたみ傘",
+      "english": "Folding umbrella",
+      "input": "おりたたみがさ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-components",
+        "components": [
+          {
+            "accent": 0,
+            "variants": [
+              0
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L75860",
+            "matched_form": "折りたたみ",
+            "reading": "おりたたみ",
+            "method": "exact dictionary spelling and reading"
+          },
+          {
+            "accent": 1,
+            "variants": [
+              1
+            ],
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L54931",
+            "matched_form": "傘",
+            "reading": "かさ",
+            "method": "exact dictionary spelling and reading"
+          }
+        ],
+        "whole_word_dictionary_match": false,
+        "guidance": "The meaning is a folding umbrella. Read おりたたみがさ as one smoothly connected compound, with voiced が in がさ. Use natural standard Tokyo compound intonation; do not insert a pause between おりたたみ and がさ. Whole-compound pitch is provisional; do not force the independent component accents into the compound."
+      },
+      "pronunciation_guidance": "The meaning is a folding umbrella. Read おりたたみがさ as one smoothly connected compound, with voiced が in がさ. Use natural standard Tokyo compound intonation; do not insert a pause between おりたたみ and がさ. Whole-compound pitch is provisional; do not force the independent component accents into the compound.",
+      "listening_verified": false
+    },
+    {
+      "key": "おりたたみがさ|折りたたみ傘",
+      "kind": "sentence",
+      "display": "念(ねん)のため、折(お)りたたみ傘(がさ)も入(い)れとこう。",
+      "english": "I'll pack a folding umbrella just in case.",
+      "input": "ねんのため、おりたたみがさもいれとこう。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "status": "provisional-components",
+          "components": [
+            {
+              "accent": 0,
+              "variants": [
+                0
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L75860",
+              "matched_form": "折りたたみ",
+              "reading": "おりたたみ",
+              "method": "exact dictionary spelling and reading"
+            },
+            {
+              "accent": 1,
+              "variants": [
+                1
+              ],
+              "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L54931",
+              "matched_form": "傘",
+              "reading": "かさ",
+              "method": "exact dictionary spelling and reading"
+            }
+          ],
+          "whole_word_dictionary_match": false,
+          "guidance": "The meaning is a folding umbrella. Read おりたたみがさ as one smoothly connected compound, with voiced が in がさ. Use natural standard Tokyo compound intonation; do not insert a pause between おりたたみ and がさ. Whole-compound pitch is provisional; do not force the independent component accents into the compound."
+        }
+      },
+      "pronunciation_guidance": "Use a relaxed everyday conversational delivery. Preserve the casual omissions and contractions exactly. Keep words smoothly connected; commas indicate only brief natural phrase breaks, not long silences. The meaning is a folding umbrella. Read おりたたみがさ as one smoothly connected compound, with voiced が in がさ. Use natural standard Tokyo compound intonation; do not insert a pause between おりたたみ and がさ. Whole-compound pitch is provisional; do not force the independent component accents into the compound.",
+      "listening_verified": false
+    },
+    {
+      "key": "うわぎ|上着",
+      "kind": "word",
+      "display": "上着",
+      "english": "Jacket / outer layer",
+      "input": "うわぎ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67574",
+        "matched_form": "上着",
+        "reading": "うわぎ",
+        "method": "exact dictionary spelling and reading"
+      },
+      "pronunciation_guidance": "The intended meaning is Jacket / outer layer. Use dictionary Tokyo pitch accent type 0: begin low, rise on the second mora and have no lexical pitch drop within the word. Keep it connected with normal Japanese vowel lengths; do not separate or stretch syllables.",
+      "listening_verified": false
+    },
+    {
+      "key": "うわぎ|上着",
+      "kind": "sentence",
+      "display": "夜(よる)は冷(ひ)えるから、上着(うわぎ)持(も)っていってね。",
+      "english": "It gets chilly at night, so take a jacket.",
+      "input": "よるわひえるから、うわぎもっていってね。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67574",
+          "matched_form": "上着",
+          "reading": "うわぎ",
+          "method": "exact dictionary spelling and reading"
+        }
+      },
+      "pronunciation_guidance": "Say this as a relaxed everyday reminder to bring a jacket. Keep the first clause about the chilly evening connected, pause only briefly after its final kara, then say the reminder continuously. Use heiban accent 0 for the jacket noun in context. The topic particle is already transcribed as wa; keep it attached to the preceding noun. Keep the final casual request smooth at ordinary conversational tempo.",
+      "listening_verified": false,
+      "revision": 2,
+      "retry_reason": "User marked this exact previous preview Redo in exported checks; no specific reason supplied."
+    },
+    {
+      "key": "したぎ|下着",
+      "kind": "word",
+      "display": "下着",
+      "english": "Underwear",
+      "input": "したぎ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L28129",
+        "matched_form": "下着",
+        "reading": "したぎ",
+        "method": "exact dictionary spelling and reading"
+      },
+      "pronunciation_guidance": "The intended meaning is Underwear. Use dictionary Tokyo pitch accent type 0: begin low, rise on the second mora and have no lexical pitch drop within the word. Keep it connected with normal Japanese vowel lengths; do not separate or stretch syllables.",
+      "listening_verified": false
+    },
+    {
+      "key": "したぎ|下着",
+      "kind": "sentence",
+      "display": "旅行(りょこう)用(よう)の下着(したぎ)、もう用意(ようい)した？",
+      "english": "Have you packed your underwear for the trip?",
+      "input": "りょこうようのしたぎ、もうよういした？",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L28129",
+          "matched_form": "下着",
+          "reading": "したぎ",
+          "method": "exact dictionary spelling and reading"
+        }
+      },
+      "pronunciation_guidance": "Use a relaxed everyday conversational delivery. Preserve the casual omissions and contractions exactly. Keep words smoothly connected; commas indicate only brief natural phrase breaks, not long silences. For the noun したぎ (Underwear), the selected dictionary lexical accent is 0. Use that noun accent naturally within the sentence, allowing normal phrase intonation; do not impose a rigid mora-by-mora rhythm on the whole sentence.",
+      "listening_verified": false
+    },
+    {
+      "key": "きがえ|着替え",
+      "kind": "word",
+      "display": "着替え",
+      "english": "Change of clothes",
+      "input": "きがえ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L85732",
+        "matched_form": "着替え",
+        "reading": "きがえ",
+        "method": "exact dictionary spelling and reading"
+      },
+      "pronunciation_guidance": "The intended meaning is Change of clothes. Use dictionary Tokyo pitch accent type 0: begin low, rise on the second mora and have no lexical pitch drop within the word. Keep it connected with normal Japanese vowel lengths; do not separate or stretch syllables.",
+      "listening_verified": false
+    },
+    {
+      "key": "きがえ|着替え",
+      "kind": "sentence",
+      "display": "汗(あせ)かくと思(おも)って、着替(きが)えも持(も)ってきた。",
+      "english": "I figured I'd get sweaty, so I brought a change of clothes.",
+      "input": "あせかくとおもって、きがえももってきた。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L85732",
+          "matched_form": "着替え",
+          "reading": "きがえ",
+          "method": "exact dictionary spelling and reading"
+        }
+      },
+      "pronunciation_guidance": "Use a relaxed everyday conversational delivery. Preserve the casual omissions and contractions exactly. Keep words smoothly connected; commas indicate only brief natural phrase breaks, not long silences. For the noun きがえ (Change of clothes), the selected dictionary lexical accent is 0. Use that noun accent naturally within the sentence, allowing normal phrase intonation; do not impose a rigid mora-by-mora rhythm on the whole sentence.",
+      "listening_verified": false
+    },
+    {
+      "key": "さいず|サイズ",
+      "kind": "word",
+      "display": "サイズ",
+      "english": "Size",
+      "input": "さいず",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 1,
+        "variants": [
+          1
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L9804",
+        "matched_form": "サイズ",
+        "reading": "さいず",
+        "method": "exact dictionary spelling and reading"
+      },
+      "pronunciation_guidance": "The intended meaning is Size. Use dictionary Tokyo pitch accent type 1: drop immediately after mora 1; start high and drop after the first mora. Keep it connected with normal Japanese vowel lengths; do not separate or stretch syllables.",
+      "listening_verified": false
+    },
+    {
+      "key": "さいず|サイズ",
+      "kind": "sentence",
+      "display": "これ、もう一(ひと)つ大(おお)きいサイズあるかな。",
+      "english": "I wonder if they have this in the next size up.",
+      "input": "これ、もうひとつおおきいさいずあるかな。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L9804",
+          "matched_form": "サイズ",
+          "reading": "さいず",
+          "method": "exact dictionary spelling and reading"
+        }
+      },
+      "pronunciation_guidance": "Use a relaxed everyday conversational delivery. Preserve the casual omissions and contractions exactly. Keep words smoothly connected; commas indicate only brief natural phrase breaks, not long silences. For the noun さいず (Size), the selected dictionary lexical accent is 1. Use that noun accent naturally within the sentence, allowing normal phrase intonation; do not impose a rigid mora-by-mora rhythm on the whole sentence.",
+      "listening_verified": false
+    },
+    {
+      "key": "しちゃく|試着",
+      "kind": "word",
+      "display": "試着",
+      "english": "Trying on clothes",
+      "input": "しちゃく",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L57743",
+        "matched_form": "試着",
+        "reading": "しちゃく",
+        "method": "exact dictionary spelling and reading"
+      },
+      "pronunciation_guidance": "The intended meaning is Trying on clothes. Use dictionary Tokyo pitch accent type 0: begin low, rise on the second mora and have no lexical pitch drop within the word. Keep it connected with normal Japanese vowel lengths; do not separate or stretch syllables.",
+      "listening_verified": false
+    },
+    {
+      "key": "しちゃく|試着",
+      "kind": "sentence",
+      "display": "買(か)う前(まえ)に試着(しちゃく)してみようかな。",
+      "english": "Maybe I'll try it on before buying it.",
+      "input": "かうまえにしちゃくしてみようかな。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L57743",
+          "matched_form": "試着",
+          "reading": "しちゃく",
+          "method": "exact dictionary spelling and reading"
+        }
+      },
+      "pronunciation_guidance": "Use a relaxed everyday conversational delivery. Preserve the casual omissions and contractions exactly. Keep words smoothly connected; commas indicate only brief natural phrase breaks, not long silences. For the noun しちゃく (Trying on clothes), the selected dictionary lexical accent is 0. Use that noun accent naturally within the sentence, allowing normal phrase intonation; do not impose a rigid mora-by-mora rhythm on the whole sentence.",
+      "listening_verified": false
+    },
+    {
+      "key": "もちもの|持ち物",
+      "kind": "word",
+      "display": "持ち物",
+      "english": "Belongings",
+      "input": "もちもの",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2,
+          3
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L58255",
+        "matched_form": "持ち物",
+        "reading": "もちもの",
+        "method": "exact dictionary spelling and reading"
+      },
+      "pronunciation_guidance": "The intended meaning is Belongings. Use dictionary Tokyo pitch accent type 2: drop immediately after mora 2; start low, rise on the second mora, then drop at the indicated position. Keep it connected with normal Japanese vowel lengths; do not separate or stretch syllables.",
+      "listening_verified": false
+    },
+    {
+      "key": "もちもの|持ち物",
+      "kind": "sentence",
+      "display": "出(で)る前(まえ)に、持(も)ち物(もの)もう一回(いっかい)確認(かくにん)しよう。",
+      "english": "Let's check our things one more time before leaving.",
+      "input": "でるまえに、もちものもういっかいかくにんしよう。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2,
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L58255",
+          "matched_form": "持ち物",
+          "reading": "もちもの",
+          "method": "exact dictionary spelling and reading"
+        }
+      },
+      "pronunciation_guidance": "Use a relaxed everyday conversational delivery. Preserve the casual omissions and contractions exactly. Keep words smoothly connected; commas indicate only brief natural phrase breaks, not long silences. For the noun もちもの (Belongings), the selected dictionary lexical accent is 2. Use that noun accent naturally within the sentence, allowing normal phrase intonation; do not impose a rigid mora-by-mora rhythm on the whole sentence.",
+      "listening_verified": false
+    },
+    {
+      "key": "さいふ|財布",
+      "kind": "word",
+      "display": "財布",
+      "english": "Wallet",
+      "input": "さいふ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L53874",
+        "matched_form": "財布",
+        "reading": "さいふ",
+        "method": "exact dictionary spelling and reading"
+      },
+      "pronunciation_guidance": "Read this as an ordinary Japanese word or expression meaning Wallet, in a clear and steady native Japanese voice. Use checked Tokyo heiban accent 0, with no lexical pitch fall. Begin low, rise naturally on the second mora, and keep the following morae without a lexical drop. Keep the entire expression fluent and compact, with normal Japanese vowel lengths and doubled consonants. No syllable gaps, chanting, exaggerated stress, English-style vowels or elongated endings. Read only the given input once.",
+      "listening_verified": false,
+      "revision": 3,
+      "retry_reason": "Final user check marks this clip Redo; user explicitly authorized replacement directly in the flashcard deck without another preview approval."
+    },
+    {
+      "key": "さいふ|財布",
+      "kind": "sentence",
+      "display": "財布(さいふ)、家(いえ)に忘(わす)れちゃった。",
+      "english": "I left my wallet at home.",
+      "input": "さいふ、いえにわすれちゃった。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L53874",
+          "matched_form": "財布",
+          "reading": "さいふ",
+          "method": "exact dictionary spelling and reading"
+        }
+      },
+      "pronunciation_guidance": "Use a relaxed everyday conversational delivery. Preserve the casual omissions and contractions exactly. Keep words smoothly connected; commas indicate only brief natural phrase breaks, not long silences. For the noun さいふ (Wallet), the selected dictionary lexical accent is 0. Use that noun accent naturally within the sentence, allowing normal phrase intonation; do not impose a rigid mora-by-mora rhythm on the whole sentence.",
+      "listening_verified": false
+    },
+    {
+      "key": "こぜに|小銭",
+      "kind": "word",
+      "display": "小銭",
+      "english": "Coins / small change",
+      "input": "こぜに",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 0,
+        "variants": [
+          0
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L66104",
+        "matched_form": "小銭",
+        "reading": "こぜに",
+        "method": "exact dictionary spelling and reading"
+      },
+      "pronunciation_guidance": "The intended meaning is Coins / small change. Use dictionary Tokyo pitch accent type 0: begin low, rise on the second mora and have no lexical pitch drop within the word. Keep it connected with normal Japanese vowel lengths; do not separate or stretch syllables.",
+      "listening_verified": false
+    },
+    {
+      "key": "こぜに|小銭",
+      "kind": "sentence",
+      "display": "小銭(こぜに)ある？ロッカー使(つか)いたいんだけど。",
+      "english": "Do you have any coins? I want to use a locker.",
+      "input": "こぜにある？ろっかーつかいたいんだけど。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L66104",
+          "matched_form": "小銭",
+          "reading": "こぜに",
+          "method": "exact dictionary spelling and reading"
+        }
+      },
+      "pronunciation_guidance": "Use a relaxed everyday conversational delivery. Preserve the casual omissions and contractions exactly. Keep words smoothly connected; commas indicate only brief natural phrase breaks, not long silences. For the noun こぜに (Coins / small change), the selected dictionary lexical accent is 0. Use that noun accent naturally within the sentence, allowing normal phrase intonation; do not impose a rigid mora-by-mora rhythm on the whole sentence.",
+      "listening_verified": false
+    },
+    {
+      "key": "かぎ|鍵",
+      "kind": "word",
+      "display": "鍵",
+      "english": "Key",
+      "input": "かぎ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L45218",
+        "matched_form": "鍵",
+        "reading": "かぎ",
+        "method": "exact dictionary spelling and reading"
+      },
+      "pronunciation_guidance": "The intended meaning is Key. Use dictionary Tokyo pitch accent type 2: drop immediately after mora 2; start low, rise on the second mora, then drop at the indicated position. Keep it connected with normal Japanese vowel lengths; do not separate or stretch syllables.",
+      "listening_verified": false
+    },
+    {
+      "key": "かぎ|鍵",
+      "kind": "sentence",
+      "display": "鍵(かぎ)、どこに置(お)いたっけ。",
+      "english": "Where did I put my key again?",
+      "input": "かぎ、どこにおいたっけ。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L45218",
+          "matched_form": "鍵",
+          "reading": "かぎ",
+          "method": "exact dictionary spelling and reading"
+        }
+      },
+      "pronunciation_guidance": "Use a relaxed everyday conversational delivery. Preserve the casual omissions and contractions exactly. Keep words smoothly connected; commas indicate only brief natural phrase breaks, not long silences. For the noun かぎ (Key), the selected dictionary lexical accent is 2. Use that noun accent naturally within the sentence, allowing normal phrase intonation; do not impose a rigid mora-by-mora rhythm on the whole sentence.",
+      "listening_verified": false
+    },
+    {
+      "key": "けいたいでんわ|携帯電話",
+      "kind": "word",
+      "display": "携帯電話",
+      "english": "Mobile phone",
+      "input": "けいたいでんわ",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 5,
+        "variants": [
+          5
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L42748",
+        "matched_form": "携帯電話",
+        "reading": "けいたいでんわ",
+        "method": "exact dictionary spelling and reading"
+      },
+      "pronunciation_guidance": "The intended meaning is Mobile phone. Use dictionary Tokyo pitch accent type 5: drop immediately after mora 5; start low, rise on the second mora, then drop at the indicated position. Keep it connected with normal Japanese vowel lengths; do not separate or stretch syllables.",
+      "listening_verified": false
+    },
+    {
+      "key": "けいたいでんわ|携帯電話",
+      "kind": "sentence",
+      "display": "携帯電話(けいたいでんわ)、充電(じゅうでん)しとかなきゃ。",
+      "english": "I need to charge my phone.",
+      "input": "けいたいでんわ、じゅうでんしとかなきゃ。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 5,
+          "variants": [
+            5
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L42748",
+          "matched_form": "携帯電話",
+          "reading": "けいたいでんわ",
+          "method": "exact dictionary spelling and reading"
+        }
+      },
+      "pronunciation_guidance": "Use a relaxed everyday conversational delivery. Preserve the casual omissions and contractions exactly. Keep words smoothly connected; commas indicate only brief natural phrase breaks, not long silences. For the noun けいたいでんわ (Mobile phone), the selected dictionary lexical accent is 5. Use that noun accent naturally within the sentence, allowing normal phrase intonation; do not impose a rigid mora-by-mora rhythm on the whole sentence. Keep けいたいでんわ as one connected word, and じゅうでんしとかなきゃ as a connected casual contraction.",
+      "listening_verified": false
+    },
+    {
+      "key": "いやほん|イヤホン",
+      "kind": "word",
+      "display": "イヤホン",
+      "english": "Earphones / earbuds",
+      "input": "いやほん",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "accent": 2,
+        "variants": [
+          2,
+          3
+        ],
+        "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L5847",
+        "matched_form": "イヤホン",
+        "reading": "いやほん",
+        "method": "exact dictionary spelling and reading"
+      },
+      "pronunciation_guidance": "The intended meaning is Earphones / earbuds. Use dictionary Tokyo pitch accent type 2: drop immediately after mora 2; start low, rise on the second mora, then drop at the indicated position. Keep it connected with normal Japanese vowel lengths; do not separate or stretch syllables.",
+      "listening_verified": false
+    },
+    {
+      "key": "いやほん|イヤホン",
+      "kind": "sentence",
+      "display": "イヤホン忘(わす)れたから、電車(でんしゃ)で音楽(おんがく)聴(き)けない。",
+      "english": "I forgot my earbuds, so I can't listen to music on the train.",
+      "input": "いやほんわすれたから、でんしゃでおんがくきけない。",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "pitch": {
+        "status": "provisional-phrase-intonation",
+        "word_target": {
+          "accent": 2,
+          "variants": [
+            2,
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L5847",
+          "matched_form": "イヤホン",
+          "reading": "いやほん",
+          "method": "exact dictionary spelling and reading"
+        }
+      },
+      "pronunciation_guidance": "Speak this as natural everyday Japanese conversation in one clear, steady voice. Preserve casual contractions, omitted particles, long vowels and doubled consonants exactly as written. Keep each complete phrase connected, including its particles. Use only short conversational breaks at the supplied commas, with no extra pauses between words or syllables. Use native contextual accents for inflected words rather than forcing dictionary-form accent onto conjugations. Keep a normal conversational rhythm with no stretched endings, chanting or exaggerated stress. Read only the supplied input once. The target vocabulary has checked dictionary-form accent 2; use it naturally in context and adjust any inflected form appropriately.",
+      "listening_verified": false,
+      "revision": 3,
+      "retry_reason": "Final user check marks this clip Redo; user explicitly authorized replacement directly in the flashcard deck without another preview approval."
+    }
+  ]
+}

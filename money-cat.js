@@ -193,7 +193,8 @@
       if (!alive || phase !== "playing") return;
       stopAllSpeech();
       const current = speechRevision;
-      const text = session.state.section[session.state.sectionQuestionIndex].japanese;
+      const word = session.state.section[session.state.sectionQuestionIndex];
+      const text = window.WordExplosionGame.recordingKey(word, getRecordedJapaneseFile);
       vocabularyPlayer.play(text).catch(() => {
         if (!alive || phase !== "playing" || current !== speechRevision || document.hidden) return;
         status.textContent = "Tap the speaker to hear the word.";
@@ -410,7 +411,7 @@
       review.classList.add("hidden");
       arena.classList.remove("hidden");
       session.nextSection();
-      vocabularyPlayer.preload(session.state.section.map(word => word.japanese));
+      vocabularyPlayer.preload(session.state.section.map(word => window.WordExplosionGame.recordingKey(word, getRecordedJapaneseFile)));
       question();
     }
 
@@ -422,7 +423,7 @@
       })
     ]).then(([data, source]) => {
       if (!alive) return;
-      entries = data.entries.filter(word => getRecordedJapaneseFile(word.japanese));
+      entries = data.entries.filter(word => getRecordedJapaneseFile(window.WordExplosionGame.recordingKey(word, getRecordedJapaneseFile)));
       if (entries.length < 10 || new Set(entries.map(word => word.japanese)).size < 10) throw new Error("Money Cat needs ten different words with existing recordings.");
       const svg = new DOMParser().parseFromString(source, "image/svg+xml").documentElement;
       if (svg.localName !== "svg") throw new Error("Invalid cat artwork.");

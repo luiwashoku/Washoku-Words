@@ -34,6 +34,7 @@
     const entries = w.WordExplosionGame.parseVocabulary(vocabulary);
     const sentenceFor = word => examples[`${word.japanese}|${word.kanji}`] || examples[word.japanese];
     const speechPath = text => w.gameAudioFiles[w.getJapaneseSpeechText(text)];
+    const wordPath = word => w.wordExplosionAudioFiles[`${word.japanese}|${word.kanji || ""}`] || w.wordExplosionAudioFiles[word.japanese];
     assert(q('#openVocabularyCards').previousElementSibling.id === 'openSearch', 'Cards button sits beside search');
     assert(w.getComputedStyle(q('#openVocabularyCards')).backgroundColor === 'rgb(137, 128, 255)', 'Purple cards button');
     result.textContent = 'RUNNING: opening study deck';
@@ -62,7 +63,7 @@
     assert(buttons()[0].disabled && !buttons()[1].disabled, 'First-card boundary');
     assert(q('.vocabulary-card-counter').textContent === `1 / ${entries.length}`, 'Card count matches the shared vocabulary');
     assert(plays[0].src.startsWith('data:audio/wav;'), 'Opening gesture unlocks the persistent word player');
-    assert(plays.at(-1).src === w.wordExplosionAudioFiles[entries[0].japanese], 'First word plays automatically');
+    assert(plays.at(-1).src === wordPath(entries[0]), 'First word plays automatically');
     const wordAudio = plays.at(-1).audio;
     const wordArea = q('.vocabulary-card-word-area').getBoundingClientRect();
     const wordSpeaker = q('.vocabulary-card-word-speaker').getBoundingClientRect();
@@ -73,13 +74,13 @@
     const prevBounds = buttons()[0].getBoundingClientRect(), nextBounds = buttons()[1].getBoundingClientRect();
     assert(Math.abs((prevBounds.left + nextBounds.right) / 2 - w.innerWidth / 2) < 2, 'Arrows and count form a centered group');
     speakers()[0].click();
-    assert(plays.at(-1).audio === wordAudio && wordAudio.src === w.wordExplosionAudioFiles[entries[0].japanese], 'Word replay reuses the unlocked player');
+    assert(plays.at(-1).audio === wordAudio && wordAudio.src === wordPath(entries[0]), 'Word replay reuses the unlocked player');
     speakers()[1].click();
     assert(wordAudio.paused && audio.at(-1).src === speechPath(sentenceFor(entries[0]).japanese), 'Sentence reuses its recording and stops the word');
     const sentenceAudio = audio.at(-1);
     buttons()[1].click();
     assert(sentenceAudio.paused && q('.vocabulary-card-counter').textContent.startsWith('2 /'), 'Moving cancels playback');
-    assert(plays.at(-1).audio === wordAudio && plays.at(-1).src === w.wordExplosionAudioFiles[entries[1].japanese], 'Next word autoplays on the same player');
+    assert(plays.at(-1).audio === wordAudio && plays.at(-1).src === wordPath(entries[1]), 'Next word autoplays on the same player');
     d.dispatchEvent(new w.KeyboardEvent('keydown', {key: 'ArrowLeft', bubbles: true, cancelable: true}));
     assert(q('.vocabulary-card-counter').textContent.startsWith('1 /'), 'Keyboard previous');
     d.dispatchEvent(new w.KeyboardEvent('keydown', {key: 'ArrowRight', bubbles: true, cancelable: true}));
@@ -106,10 +107,11 @@
       assert(q('.vocabulary-card-meaning').textContent === word.english, `Matching meaning ${i}`);
       assert(q('.vocabulary-card-sentence-row p').textContent === example.japanese, `Matching Japanese example ${i}`);
       assert(q('.vocabulary-card-translation').textContent === example.english, `Matching English example ${i}`);
-      assert(speakers().length === 2 && speakers().every(b => !b.disabled), `Both Japanese speakers available ${i}`);
+      assert(speakers().length === 2 && speakers().every(b => b.disabled === Boolean(example.audioPending)), `Speakers match recording availability ${i}`);
       assert(d.documentElement.scrollWidth <= w.innerWidth + 1, `No phone overflow ${i}`);
       assert(q('.vocabulary-card-counter').textContent === `${i + 1} / ${entries.length}`, `Correct counter ${i}`);
-      assert(plays.at(-1).src === w.wordExplosionAudioFiles[word.japanese] && plays.at(-1).audio.playbackRate === 1, `Word autoplays at native 1x ${i}`);
+      if (!example.audioPending) assert(plays.at(-1).src === wordPath(word) && plays.at(-1).audio.playbackRate === 1, `Word autoplays at native 1x ${i}`);
+      else assert(q(".vocabulary-cards-status").textContent === "", `Pending recording does not trigger a playback error ${i}`);
       if (i < entries.length - 1) buttons()[1].click();
     }
     assert(buttons()[1].disabled, 'Last-card boundary');
@@ -155,7 +157,7 @@
     list.querySelector('.listening-index-word').click();
     assert(!dialog.open, 'Selecting a filtered word still starts practice');
     q('#backFromExplosion').click();
-    result.textContent = 'PASS: all 720 cards, gesture-unlocked word autoplay/replay, native 1x, sentence playback, furigana toggle, download control, green background, no inner box, centered vocabulary/speaker, spacing, external centered navigation, swipes, cleanup, 320px layout and word popup.';
+    result.textContent = `PASS: all ${entries.length} cards, ${entries.filter(word => sentenceFor(word).audioPending).length} pending cards, gesture-unlocked word autoplay/replay, native 1x, sentence playback, furigana toggle, download control, green background, no inner box, centered vocabulary/speaker, spacing, external centered navigation, swipes, cleanup, 320px layout and word popup.`;
   } catch (error) { result.textContent = `FAIL: ${error.message}\n${error.stack}`; }
 })();
 </script>

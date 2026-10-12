@@ -2878,5 +2878,1505 @@
   "ぬるい": {
     "japanese": "お茶(ちゃ)がぬるいから、温(あたた)め直(なお)そうか。",
     "english": "The tea is lukewarm. Shall we heat it up again?"
+  },
+  "そで|袖": {
+    "japanese": "袖(そで)にソースついちゃった。",
+    "english": "I got sauce on my sleeve."
+  },
+  "えり|襟": {
+    "japanese": "襟(えり)、ちょっと曲(ま)がってるよ。",
+    "english": "Your collar is a little crooked."
+  },
+  "すそ|裾": {
+    "japanese": "このズボン、裾(すそ)がちょっと長(なが)いな。",
+    "english": "These trousers are a little long at the hem."
+  },
+  "ぽけっと|ポケット": {
+    "japanese": "鍵(かぎ)、ポケットに入(い)れたはずなんだけど。",
+    "english": "I'm pretty sure I put my key in my pocket."
+  },
+  "ぼたん|ボタン": {
+    "japanese": "あ、ボタンが取(と)れちゃった。",
+    "english": "Oh, a button came off."
+  },
+  "ふぁすなー|ファスナー": {
+    "japanese": "ファスナーが引(ひ)っかかって開(あ)かない。",
+    "english": "The zipper's stuck and won't open."
+  },
+  "くつひも|靴ひも": {
+    "japanese": "靴(くつ)ひもほどけてるよ。",
+    "english": "Your shoelace is untied."
+  },
+  "くつした|靴下": {
+    "japanese": "靴下(くつした)、片方(かたほう)どこいったんだろ。",
+    "english": "Where did my other sock go?"
+  },
+  "べると|ベルト": {
+    "japanese": "このベルト、ちょっときついな。",
+    "english": "This belt's a little tight."
+  },
+  "ぼうし|帽子": {
+    "japanese": "日差(ひざ)しが強(つよ)いから、帽子(ぼうし)かぶっていこう。",
+    "english": "The sun's strong, so I'll wear a hat."
+  },
+  "てぶくろ|手袋": {
+    "japanese": "寒(さむ)いから、手袋(てぶくろ)持(も)ってきてよかった。",
+    "english": "It's cold—I'm glad I brought my gloves."
+  },
+  "まふらー|マフラー": {
+    "japanese": "そのマフラー、あったかそうだね。",
+    "english": "That scarf looks warm."
+  },
+  "かさ|傘": {
+    "japanese": "雨(あめ)降(ふ)ってきた。傘(かさ)、持(も)ってる？",
+    "english": "It's starting to rain. Do you have an umbrella?"
+  },
+  "おりたたみがさ|折りたたみ傘": {
+    "japanese": "念(ねん)のため、折(お)りたたみ傘(がさ)も入(い)れとこう。",
+    "english": "I'll pack a folding umbrella just in case."
+  },
+  "うわぎ|上着": {
+    "japanese": "夜(よる)は冷(ひ)えるから、上着(うわぎ)持(も)っていってね。",
+    "english": "It gets chilly at night, so take a jacket."
+  },
+  "したぎ|下着": {
+    "japanese": "旅行(りょこう)用(よう)の下着(したぎ)、もう用意(ようい)した？",
+    "english": "Have you packed your underwear for the trip?"
+  },
+  "きがえ|着替え": {
+    "japanese": "汗(あせ)かくと思(おも)って、着替(きが)えも持(も)ってきた。",
+    "english": "I figured I'd get sweaty, so I brought a change of clothes."
+  },
+  "さいず|サイズ": {
+    "japanese": "これ、もう一(ひと)つ大(おお)きいサイズあるかな。",
+    "english": "I wonder if they have this in the next size up."
+  },
+  "しちゃく|試着": {
+    "japanese": "買(か)う前(まえ)に試着(しちゃく)してみようかな。",
+    "english": "Maybe I'll try it on before buying it."
+  },
+  "もちもの|持ち物": {
+    "japanese": "出(で)る前(まえ)に、持(も)ち物(もの)もう一回(いっかい)確認(かくにん)しよう。",
+    "english": "Let's check our things one more time before leaving."
+  },
+  "さいふ|財布": {
+    "japanese": "財布(さいふ)、家(いえ)に忘(わす)れちゃった。",
+    "english": "I left my wallet at home."
+  },
+  "こぜに|小銭": {
+    "japanese": "小銭(こぜに)ある？ロッカー使(つか)いたいんだけど。",
+    "english": "Do you have any coins? I want to use a locker."
+  },
+  "かぎ|鍵": {
+    "japanese": "鍵(かぎ)、どこに置(お)いたっけ。",
+    "english": "Where did I put my key again?"
+  },
+  "けいたいでんわ|携帯電話": {
+    "japanese": "携帯電話(けいたいでんわ)、充電(じゅうでん)しとかなきゃ。",
+    "english": "I need to charge my phone."
+  },
+  "いやほん|イヤホン": {
+    "japanese": "イヤホン忘(わす)れたから、電車(でんしゃ)で音楽(おんがく)聴(き)けない。",
+    "english": "I forgot my earbuds, so I can't listen to music on the train."
+  },
+  "へっどほん|ヘッドホン": {
+    "japanese": "このヘッドホン、外(そと)の音(おと)があんまり聞(き)こえないね。",
+    "english": "These headphones block out quite a lot of outside noise."
+  },
+  "じゅうでんき|充電器": {
+    "japanese": "充電器(じゅうでんき)、ちょっと借(か)りてもいい？",
+    "english": "Can I borrow your charger for a bit?"
+  },
+  "じゅうでんけーぶる|充電ケーブル": {
+    "japanese": "充電(じゅうでん)ケーブル、これで合(あ)ってる？",
+    "english": "Is this the right charging cable?"
+  },
+  "もばいるばってりー|モバイルバッテリー": {
+    "japanese": "長(なが)く出(で)かけるし、モバイルバッテリーも持(も)っていこう。",
+    "english": "We'll be out for a while, so let's bring a power bank too."
+  },
+  "てぃっしゅ|ティッシュ": {
+    "japanese": "ティッシュ取(と)ってくれる？ちょっとこぼしちゃった。",
+    "english": "Can you pass me a tissue? I spilled a little."
+  },
+  "ぽけっとてぃっしゅ|ポケットティッシュ": {
+    "japanese": "バッグにポケットティッシュ入(い)れといたよ。",
+    "english": "I put a pack of tissues in the bag."
+  },
+  "はんかち|ハンカチ": {
+    "japanese": "ハンカチ、洗濯(せんたく)したまま忘(わす)れてきた。",
+    "english": "I washed my handkerchief and then forgot to bring it."
+  },
+  "うぇっとてぃっしゅ|ウェットティッシュ": {
+    "japanese": "手(て)がべたべたする。ウェットティッシュある？",
+    "english": "My hands are sticky. Do you have any wet wipes?"
+  },
+  "ぺっとぼとる|ペットボトル": {
+    "japanese": "空(から)のペットボトル、ここに捨(す)てていいのかな。",
+    "english": "I wonder if I can put this empty plastic bottle here."
+  },
+  "ぺっとぼとるのみず|ペットボトルの水": {
+    "japanese": "ペットボトルの水(みず)、一本(いっぽん)買(か)っとこう。",
+    "english": "Let's buy a bottle of water."
+  },
+  "すいとう|水筒": {
+    "japanese": "水筒(すいとう)にお茶(ちゃ)入(い)れてきたよ。",
+    "english": "I brought some tea in my reusable bottle."
+  },
+  "ばんそうこう|絆創膏": {
+    "japanese": "指(ゆび)切(き)っちゃった。絆創膏(ばんそうこう)ある？",
+    "english": "I cut my finger. Do you have a bandage?"
+  },
+  "くすり|薬": {
+    "japanese": "薬(くすり)、飲(の)み忘(わす)れないようにしなきゃ。",
+    "english": "I need to make sure I don't forget my medicine."
+  },
+  "めがね|眼鏡": {
+    "japanese": "眼鏡(めがね)かけないと、あの字(じ)が読(よ)めない。",
+    "english": "I can't read those letters without my glasses."
+  },
+  "ひやけどめ|日焼け止め": {
+    "japanese": "外(そと)に出(で)る前(まえ)に日焼(ひや)け止(ど)め塗(ぬ)っとこう。",
+    "english": "I'll put on sunscreen before going out."
+  },
+  "りっぷくりーむ|リップクリーム": {
+    "japanese": "唇(くちびる)が乾(かわ)くから、リップクリーム持(も)ち歩(ある)いてる。",
+    "english": "My lips get dry, so I carry lip balm around."
+  },
+  "じょうしゃけん|乗車券": {
+    "japanese": "乗車券(じょうしゃけん)はあるけど、特急券(とっきゅうけん)もいるんだって。",
+    "english": "I've got the fare ticket, but apparently I need a limited express ticket too."
+  },
+  "とっきゅうけん|特急券": {
+    "japanese": "この電車(でんしゃ)、特急券(とっきゅうけん)も必要(ひつよう)なの？",
+    "english": "Do I need a limited express ticket for this train too?"
+  },
+  "よやくばんごう|予約番号": {
+    "japanese": "予約番号(よやくばんごう)、メールに書(か)いてあるはず。",
+    "english": "The reservation number should be in the email."
+  },
+  "していせき|指定席": {
+    "japanese": "帰(かえ)りは指定席(していせき)にしよう。座(すわ)りたいし。",
+    "english": "Let's book reserved seats for the way back. I'd like to sit down."
+  },
+  "じゆうせき|自由席": {
+    "japanese": "自由席(じゆうせき)、まだ空(あ)いてるかな。",
+    "english": "I wonder if there are still any non-reserved seats available."
+  },
+  "まどがわ|窓側": {
+    "japanese": "窓側(まどがわ)の席(せき)だと景色(けしき)が見(み)えていいね。",
+    "english": "A window seat's nice—you can enjoy the view."
+  },
+  "つうろがわ|通路側": {
+    "japanese": "私(わたし)は通路側(つうろがわ)がいいな。出(で)やすいし。",
+    "english": "I'd prefer an aisle seat. It's easier to get out."
+  },
+  "かいさつぐち|改札口": {
+    "japanese": "改札口(かいさつぐち)の前(まえ)で待(ま)ってるね。",
+    "english": "I'll wait in front of the ticket gate."
+  },
+  "のりば|乗り場": {
+    "japanese": "バスの乗(の)り場(ば)、どこだろう。",
+    "english": "Where's the bus boarding area?"
+  },
+  "じこくひょう|時刻表": {
+    "japanese": "時刻表(じこくひょう)見(み)たら、次(つぎ)の電車(でんしゃ)まで二十分(にじゅっぷん)もある。",
+    "english": "I checked the timetable, and the next train isn't for another twenty minutes."
+  },
+  "てにもつ|手荷物": {
+    "japanese": "手荷物(てにもつ)は、このバッグ一(ひと)つだけ。",
+    "english": "This bag is my only piece of hand luggage."
+  },
+  "すーつけーす|スーツケース": {
+    "japanese": "スーツケース、もうちょっと小(ちい)さいのでよかったかも。",
+    "english": "A slightly smaller suitcase might have been enough."
+  },
+  "こいんろっかー|コインロッカー": {
+    "japanese": "先(さき)にコインロッカーに荷物(にもつ)入(い)れよう。",
+    "english": "Let's put our luggage in a coin locker first."
+  },
+  "あずかりじょ|預かり所": {
+    "japanese": "荷物(にもつ)の預(あず)かり所(じょ)、駅(えき)の中(なか)にあるかな。",
+    "english": "I wonder if there's a baggage storage desk inside the station."
+  },
+  "へや|部屋": {
+    "japanese": "部屋(へや)、思(おも)ったより広(ひろ)いね。",
+    "english": "The room's bigger than I expected."
+  },
+  "へやばんごう|部屋番号": {
+    "japanese": "部屋番号(へやばんごう)、何番(なんばん)だっけ？",
+    "english": "What was our room number again?"
+  },
+  "かーどきー|カードキー": {
+    "japanese": "カードキー、二枚(にまい)もらえるかな。",
+    "english": "I wonder if we can get two key cards."
+  },
+  "ふろんと|フロント": {
+    "japanese": "フロントでタオルもう一枚(いちまい)もらってくるね。",
+    "english": "I'll ask reception for another towel."
+  },
+  "うけつけ|受付": {
+    "japanese": "着(つ)いたら、まず受付(うけつけ)に行(い)こう。",
+    "english": "Let's go to the reception desk first when we arrive."
+  },
+  "えれべーたー|エレベーター": {
+    "japanese": "荷物(にもつ)が重(おも)いし、エレベーター使(つか)おう。",
+    "english": "Our bags are heavy, so let's take the elevator."
+  },
+  "かいだん|階段": {
+    "japanese": "二階(にかい)なら、階段(かいだん)で行(い)こうか。",
+    "english": "It's only the second floor—shall we take the stairs?"
+  },
+  "ろうか|廊下": {
+    "japanese": "廊下(ろうか)の奥(おく)に洗濯機(せんたくき)があったよ。",
+    "english": "There was a washing machine at the end of the hallway."
+  },
+  "まくら|枕": {
+    "japanese": "この枕(まくら)、私(わたし)にはちょっと高(たか)いな。",
+    "english": "This pillow's a little too high for me."
+  },
+  "もうふ|毛布": {
+    "japanese": "ちょっと寒(さむ)いから、毛布(もうふ)もう一枚(いちまい)ほしいな。",
+    "english": "I'm a bit cold—I'd like another blanket."
+  },
+  "かけぶとん|掛け布団": {
+    "japanese": "掛(か)け布団(ぶとん)、もう少(すこ)し薄(うす)いのにしようかな。",
+    "english": "Maybe I'll use a slightly thinner duvet."
+  },
+  "たおる|タオル": {
+    "japanese": "タオル、まだ乾(かわ)いてないね。",
+    "english": "The towel's still not dry."
+  },
+  "はぶらし|歯ブラシ": {
+    "japanese": "歯(は)ブラシ忘(わす)れた。近(ちか)くで買(か)えるかな。",
+    "english": "I forgot my toothbrush. Can I buy one nearby?"
+  },
+  "どらいやー|ドライヤー": {
+    "japanese": "ドライヤー、洗面台(せんめんだい)の下(した)にあったよ。",
+    "english": "The hair dryer was under the sink."
+  },
+  "こんせんと|コンセント": {
+    "japanese": "ベッドの近(ちか)くにコンセントある？",
+    "english": "Is there an outlet near the bed?"
+  },
+  "だんぼう|暖房": {
+    "japanese": "暖房(だんぼう)、もう少(すこ)し弱(よわ)くしてもいい？",
+    "english": "Can I turn the heating down a little?"
+  },
+  "れいぼう|冷房": {
+    "japanese": "冷房(れいぼう)が効(き)きすぎて、ちょっと寒(さむ)い。",
+    "english": "The air conditioning's a bit strong. I'm cold."
+  },
+  "せんたくき|洗濯機": {
+    "japanese": "洗濯機(せんたくき)、今(いま)使(つか)っても大丈夫(だいじょうぶ)？",
+    "english": "Is it okay if I use the washing machine now?"
+  },
+  "かんそうき|乾燥機": {
+    "japanese": "雨(あめ)だから、今日(きょう)は乾燥機(かんそうき)使(つか)おう。",
+    "english": "It's raining, so let's use the dryer today."
+  },
+  "せんざい|洗剤": {
+    "japanese": "洗剤(せんざい)、あとちょっとしかないね。",
+    "english": "There's only a little detergent left."
+  },
+  "ねだん|値段": {
+    "japanese": "これ、値段(ねだん)のわりにしっかりしてるね。",
+    "english": "This is well made for the price."
+  },
+  "ぜいこみ|税込": {
+    "japanese": "この値段(ねだん)、税込(ぜいこみ)かな。",
+    "english": "I wonder if this price includes tax."
+  },
+  "ぜいぬき|税抜": {
+    "japanese": "あ、この表示(ひょうじ)は税抜(ぜいぬき)なんだ。",
+    "english": "Oh, this displayed price doesn't include tax."
+  },
+  "わりびき|割引": {
+    "japanese": "二(ふた)つ買(か)うと割引(わりびき)になるんだって。",
+    "english": "Apparently you get a discount if you buy two."
+  },
+  "せーる|セール": {
+    "japanese": "セールで安(やす)くなってたから、買(か)っちゃった。",
+    "english": "It was on sale, so I bought it."
+  },
+  "いろちがい|色違い": {
+    "japanese": "これの色違(いろちが)いも見(み)てみたいな。",
+    "english": "I'd like to see this in another colour too."
+  },
+  "さいずちがい|サイズ違い": {
+    "japanese": "サイズ違(ちが)いも試(ため)してみていいですか？",
+    "english": "Can I try a different size too?"
+  },
+  "れしーと|レシート": {
+    "japanese": "レシート、念(ねん)のため取(と)っとこう。",
+    "english": "Let's keep the receipt just in case."
+  },
+  "りょうしゅうしょ|領収書": {
+    "japanese": "領収書(りょうしゅうしょ)もお願(ねが)いできますか？",
+    "english": "Could I get a formal receipt too, please?"
+  },
+  "おつり|お釣り": {
+    "japanese": "お釣(つ)り、まだもらってないよ。",
+    "english": "I haven't got my change yet."
+  },
+  "ふくろ|袋": {
+    "japanese": "袋(ふくろ)は大丈夫(だいじょうぶ)です。バッグ持(も)ってるので。",
+    "english": "I don't need a bag. I've brought one."
+  },
+  "かみぶくろ|紙袋": {
+    "japanese": "紙袋(かみぶくろ)、雨(あめ)でぬれちゃった。",
+    "english": "The paper bag got wet in the rain."
+  },
+  "ほうそう|包装": {
+    "japanese": "包装(ほうそう)、もう少(すこ)し簡単(かんたん)なので大丈夫(だいじょうぶ)です。",
+    "english": "Simpler wrapping is fine, thanks."
+  },
+  "おみやげ|お土産": {
+    "japanese": "家族(かぞく)にお土産(みやげ)、何(なに)買(か)おうかな。",
+    "english": "What should I buy my family as a souvenir?"
+  },
+  "おまけ|": {
+    "japanese": "おまけで小(ちい)さいお菓子(かし)もついてきた。",
+    "english": "It came with a little sweet as a free extra."
+  },
+  "へんぴん|返品": {
+    "japanese": "サイズが合(あ)わないから、返品(へんぴん)できるか聞(き)いてみよう。",
+    "english": "It doesn't fit, so I'll ask if I can return it."
+  },
+  "こうかん|交換": {
+    "japanese": "これ、別(べつ)の色(いろ)に交換(こうかん)できますか？",
+    "english": "Can I exchange this for another colour?"
+  },
+  "げんきんばらい|現金払い": {
+    "japanese": "現金払(げんきんばら)いだと、少(すこ)し安(やす)くなるみたい。",
+    "english": "Looks like it's a little cheaper if you pay cash."
+  },
+  "かーどばらい|カード払い": {
+    "japanese": "カード払(ばら)いでも大丈夫(だいじょうぶ)ですか？",
+    "english": "Is it okay to pay by card?"
+  },
+  "げんかん|玄関": {
+    "japanese": "靴(くつ)は玄関(げんかん)で脱(ぬ)いでね。",
+    "english": "Take your shoes off in the entrance area."
+  },
+  "じどうどあ|自動ドア": {
+    "japanese": "自動(じどう)ドアなのに、なかなか開(あ)かないね。",
+    "english": "It's an automatic door, but it's taking ages to open."
+  },
+  "どあのぶ|ドアノブ": {
+    "japanese": "ドアノブ、ちょっとぐらぐらしてる。",
+    "english": "The door handle's a little loose."
+  },
+  "まど|窓": {
+    "japanese": "ちょっと暑(あつ)いから、窓(まど)開(あ)けてもいい？",
+    "english": "It's a bit hot. Can I open the window?"
+  },
+  "かべ|壁": {
+    "japanese": "この壁(かべ)の色(いろ)、落(お)ち着(つ)くね。",
+    "english": "This wall colour feels calming."
+  },
+  "ゆか|床": {
+    "japanese": "床(ゆか)がぬれてるから、気(き)をつけてね。",
+    "english": "The floor's wet, so be careful."
+  },
+  "てんじょう|天井": {
+    "japanese": "この部屋(へや)、天井(てんじょう)が高(たか)いね。",
+    "english": "This room has a high ceiling."
+  },
+  "たな|棚": {
+    "japanese": "カップは上(うえ)の棚(たな)に入(はい)ってるよ。",
+    "english": "The cups are on the upper shelf."
+  },
+  "ひきだし|引き出し": {
+    "japanese": "はさみ、引(ひ)き出(だ)しに入(はい)ってない？",
+    "english": "Aren't the scissors in the drawer?"
+  },
+  "かがみ|鏡": {
+    "japanese": "出(で)かける前(まえ)に鏡(かがみ)で確認(かくにん)しとこう。",
+    "english": "I'll check myself in the mirror before going out."
+  },
+  "ごみばこ|ゴミ箱": {
+    "japanese": "ゴミ箱(ばこ)、もういっぱいだね。",
+    "english": "The rubbish bin's full already."
+  },
+  "ごみぶくろ|ゴミ袋": {
+    "japanese": "ゴミ袋(ぶくろ)、もう一枚(いちまい)出(だ)してくれる？",
+    "english": "Can you get another rubbish bag out?"
+  },
+  "ふた|蓋": {
+    "japanese": "この蓋(ふた)、なかなか開(あ)かない。",
+    "english": "I can't get this lid open."
+  },
+  "はこ|箱": {
+    "japanese": "この箱(はこ)、捨(す)てずに取(と)っとこう。",
+    "english": "Let's keep this box instead of throwing it out."
+  },
+  "かみ|紙": {
+    "japanese": "紙(かみ)、一枚(いちまい)もらっていい？",
+    "english": "Can I have a sheet of paper?"
+  },
+  "めも|メモ": {
+    "japanese": "忘(わす)れそうだから、メモしとくね。",
+    "english": "I'll make a note so I don't forget."
+  },
+  "ちず|地図": {
+    "japanese": "地図(ちず)だと、この道(みち)をまっすぐみたい。",
+    "english": "According to the map, we go straight down this road."
+  },
+  "かんばん|看板": {
+    "japanese": "あの看板(かんばん)のところで曲(ま)がろう。",
+    "english": "Let's turn at that sign."
+  },
+  "あんないばん|案内板": {
+    "japanese": "案内板(あんないばん)にトイレの場所(ばしょ)載(の)ってるかな。",
+    "english": "I wonder if the information sign shows where the toilets are."
+  },
+  "じどうはんばいき|自動販売機": {
+    "japanese": "あそこの自動販売機(じどうはんばいき)で飲(の)み物(もの)買(か)おう。",
+    "english": "Let's get a drink from that vending machine."
+  },
+  "よごれ|汚れ": {
+    "japanese": "この汚(よご)れ、洗(あら)っても落(お)ちないな。",
+    "english": "This stain won't come out even after washing."
+  },
+  "きず|傷": {
+    "japanese": "買(か)ったばかりなのに、もう傷(きず)ついちゃった。",
+    "english": "I only just bought it, and it's already scratched."
+  },
+  "あな|穴": {
+    "japanese": "靴下(くつした)に穴(あな)が開(あ)いてるよ。",
+    "english": "There's a hole in your sock."
+  },
+  "やぶれ|破れ": {
+    "japanese": "このバッグ、内側(うちがわ)に破(やぶ)れがあるね。",
+    "english": "There's a tear inside this bag."
+  },
+  "みずもれ|水漏れ": {
+    "japanese": "洗濯機(せんたくき)の下(した)、水漏(みずも)れしてない？",
+    "english": "Is there a leak under the washing machine?"
+  },
+  "おとしもの|落とし物": {
+    "japanese": "落(お)とし物(もの)を拾(ひろ)ったから、駅員(えきいん)さんに渡(わた)してくる。",
+    "english": "I found something someone dropped, so I'll give it to the station staff."
+  },
+  "でんちぎれ|電池切れ": {
+    "japanese": "リモコン、電池切(でんちぎ)れかな。",
+    "english": "Maybe the remote's batteries are dead."
+  },
+  "じゅうでんぎれ|充電切れ": {
+    "japanese": "スマホが充電切(じゅうでんぎ)れで、地図(ちず)が見(み)られない。",
+    "english": "My phone's out of charge, so I can't check the map."
+  },
+  "けんがい|圏外": {
+    "japanese": "ここ、圏外(けんがい)で電話(でんわ)がつながらない。",
+    "english": "There's no signal here, so I can't make a call."
+  },
+  "まんせき|満席": {
+    "japanese": "次(つぎ)の電車(でんしゃ)、指定席(していせき)は満席(まんせき)だって。",
+    "english": "Apparently the reserved seats on the next train are all booked."
+  },
+  "まんしつ|満室": {
+    "japanese": "泊(と)まりたかったホテル、満室(まんしつ)だった。",
+    "english": "The hotel I wanted to stay at was fully booked."
+  },
+  "こんざつ|混雑": {
+    "japanese": "混雑(こんざつ)を避(さ)けて、少(すこ)し早(はや)めに出(で)よう。",
+    "english": "Let's leave a bit early to avoid the crowds."
+  },
+  "ぎょうれつ|行列": {
+    "japanese": "すごい行列(ぎょうれつ)だね。別(べつ)のお店(みせ)にする？",
+    "english": "That's a long queue. Shall we try another place?"
+  },
+  "きゃんせる|キャンセル": {
+    "japanese": "雨(あめ)がひどいし、今日(きょう)の予定(よてい)はキャンセルしよう。",
+    "english": "The rain's awful, so let's cancel today's plans."
+  },
+  "おもて|表": {
+    "japanese": "この紙(かみ)、表(おもて)にも何(なに)か書(か)いてあるよ。",
+    "english": "There's something written on the front of this paper too."
+  },
+  "うら|裏": {
+    "japanese": "裏(うら)に名前(なまえ)書(か)いといてね。",
+    "english": "Write your name on the back."
+  },
+  "うちがわ|内側": {
+    "japanese": "ポケット、内側(うちがわ)にもあるんだね。",
+    "english": "Oh, there's a pocket on the inside too."
+  },
+  "そとがわ|外側": {
+    "japanese": "外側(そとがわ)だけ軽(かる)く拭(ふ)いとこう。",
+    "english": "I'll just give the outside a quick wipe."
+  },
+  "うえ|上": {
+    "japanese": "バッグ、棚(たな)の上(うえ)に置(お)いていい？",
+    "english": "Can I put my bag on top of the shelf?"
+  },
+  "した|下": {
+    "japanese": "鍵(かぎ)、机(つくえ)の下(した)に落(お)ちてたよ。",
+    "english": "Your key was under the desk."
+  },
+  "おく|奥": {
+    "japanese": "トイレは店(みせ)の奥(おく)にあるよ。",
+    "english": "The toilets are at the back of the shop."
+  },
+  "てまえ|手前": {
+    "japanese": "手前(てまえ)の席(せき)、空(あ)いてるみたい。",
+    "english": "The seat on this side looks free."
+  },
+  "となり|隣": {
+    "japanese": "隣(となり)に座(すわ)ってもいい？",
+    "english": "Can I sit next to you?"
+  },
+  "むかい|向かい": {
+    "japanese": "駅(えき)の向(む)かいにカフェがあるよ。",
+    "english": "There's a café across from the station."
+  },
+  "はし|端": {
+    "japanese": "コップ、机(つくえ)の端(はし)に置(お)くと危(あぶ)ないよ。",
+    "english": "It's risky to put your glass at the edge of the table."
+  },
+  "まんなか|真ん中": {
+    "japanese": "真(ま)ん中(なか)の席(せき)だと、ちょっと出(で)にくいね。",
+    "english": "It's a little hard to get out from the middle seat."
+  },
+  "べつべつ|別々": {
+    "japanese": "支払(しはら)い、別々(べつべつ)にできますか？",
+    "english": "Can we pay separately?"
+  },
+  "いっしょ|一緒": {
+    "japanese": "帰(かえ)り、一緒(いっしょ)に帰(かえ)ろう。",
+    "english": "Let's go home together."
+  },
+  "そのまま|": {
+    "japanese": "そのままで大丈夫(だいじょうぶ)。直(なお)さなくていいよ。",
+    "english": "It's fine as it is. You don't need to change it."
+  },
+  "ぎゃく|逆": {
+    "japanese": "靴(くつ)、左右(さゆう)が逆(ぎゃく)だよ。",
+    "english": "Your shoes are on the wrong feet."
+  },
+  "よぶん|余分": {
+    "japanese": "余分(よぶん)に一枚(いちまい)持(も)ってきたから、使(つか)っていいよ。",
+    "english": "I brought an extra one, so you can use it."
+  },
+  "あたま|頭": {
+    "japanese": "急(きゅう)に立(た)ったら、頭(あたま)ぶつけちゃった。",
+    "english": "I stood up suddenly and bumped my head."
+  },
+  "かお|顔": {
+    "japanese": "顔(かお)に何(なに)かついてるよ。",
+    "english": "You've got something on your face."
+  },
+  "ひたい|額": {
+    "japanese": "暑(あつ)くて、額(ひたい)に汗(あせ)が出(で)てきた。",
+    "english": "It's hot, and my forehead's getting sweaty."
+  },
+  "こめかみ|": {
+    "japanese": "眼鏡(めがね)がきつくて、こめかみが痛(いた)い。",
+    "english": "My glasses are tight and hurt my temples."
+  },
+  "まゆげ|眉毛": {
+    "japanese": "眉毛(まゆげ)、ちょっと整(ととの)えようかな。",
+    "english": "Maybe I'll tidy up my eyebrows a bit."
+  },
+  "まつげ|まつ毛": {
+    "japanese": "まつ毛(げ)が目(め)に入(はい)っちゃった。",
+    "english": "An eyelash got in my eye."
+  },
+  "め|目": {
+    "japanese": "目(め)が疲(つか)れたから、ちょっと休(やす)もう。",
+    "english": "My eyes are tired, so I'll take a short break."
+  },
+  "まぶた|": {
+    "japanese": "朝(あさ)からまぶたが重(おも)くて、まだ眠(ねむ)い。",
+    "english": "My eyelids have felt heavy all morning. I'm still sleepy."
+  },
+  "みみ|耳": {
+    "japanese": "寒(さむ)くて耳(みみ)が冷(つめ)たくなっちゃった。",
+    "english": "It's so cold that my ears are freezing."
+  },
+  "みみたぶ|耳たぶ": {
+    "japanese": "このイヤリング、耳(みみ)たぶが痛(いた)くなるね。",
+    "english": "These clip-on earrings make my earlobes hurt."
+  },
+  "はな|鼻": {
+    "japanese": "鼻(はな)がむずむずする。ティッシュある？",
+    "english": "My nose feels tickly. Do you have a tissue?"
+  },
+  "はなのあな|鼻の穴": {
+    "japanese": "鏡(かがみ)見(み)たら、鼻(はな)の穴(あな)にほこりがついてた。",
+    "english": "I looked in the mirror and noticed some dust at my nostril."
+  },
+  "ほお|頬": {
+    "japanese": "寒(さむ)いところにいたら、頬(ほお)が赤(あか)くなった。",
+    "english": "My cheeks went red from being out in the cold."
+  },
+  "くち|口": {
+    "japanese": "口(くち)に入(い)れすぎて、しゃべれない。",
+    "english": "I've got too much food in my mouth to talk."
+  },
+  "くちびる|唇": {
+    "japanese": "乾燥(かんそう)して、唇(くちびる)がかさかさする。",
+    "english": "My lips feel chapped from the dry air."
+  },
+  "は|歯": {
+    "japanese": "歯(は)に何(なに)か挟(はさ)まってる気(き)がする。",
+    "english": "I think I've got something stuck between my teeth."
+  },
+  "はぐき|歯茎": {
+    "japanese": "歯茎(はぐき)が腫(は)れてるから、歯医者(はいしゃ)に行(い)こうかな。",
+    "english": "My gums are swollen, so maybe I'll go to the dentist."
+  },
+  "した|舌": {
+    "japanese": "熱(あつ)すぎて、舌(した)やけどしちゃった。",
+    "english": "It was too hot, and I burned my tongue."
+  },
+  "あご|顎": {
+    "japanese": "顎(あご)にソースついてるよ。",
+    "english": "You've got sauce on your chin."
+  },
+  "くび|首": {
+    "japanese": "ずっと下(した)を向(む)いてたら、首(くび)が疲(つか)れた。",
+    "english": "My neck got tired from looking down for so long."
+  },
+  "のど|喉": {
+    "japanese": "喉(のど)が乾(かわ)いたから、何(なに)か飲(の)もう。",
+    "english": "I'm thirsty. Let's get something to drink."
+  },
+  "うなじ|": {
+    "japanese": "日差(ひざ)しでうなじが焼(や)けちゃった。",
+    "english": "The back of my neck got sunburned."
+  },
+  "かた|肩": {
+    "japanese": "バッグが重(おも)くて、肩(かた)がこっちゃった。",
+    "english": "My bag was so heavy that my shoulders got stiff."
+  },
+  "さこつ|鎖骨": {
+    "japanese": "この服(ふく)、鎖骨(さこつ)がちょっと見(み)えるね。",
+    "english": "This top shows a little of your collarbone."
+  },
+  "わき|脇": {
+    "japanese": "暑(あつ)くて、脇(わき)に汗(あせ)かいちゃった。",
+    "english": "It's hot, and my underarms are sweaty."
+  },
+  "うで|腕": {
+    "japanese": "荷物(にもつ)を持(も)ちすぎて、腕(うで)が痛(いた)い。",
+    "english": "My arms hurt from carrying too many bags."
+  },
+  "にのうで|二の腕": {
+    "japanese": "久(ひさ)しぶりに運動(うんどう)したら、二(に)の腕(うで)が筋肉痛(きんにくつう)。",
+    "english": "My upper arms are sore after exercising for the first time in a while."
+  },
+  "ひじ|肘": {
+    "japanese": "机(つくえ)の角(かど)に肘(ひじ)ぶつけた。",
+    "english": "I bumped my elbow on the corner of the desk."
+  },
+  "ぜんわん|前腕": {
+    "japanese": "重(おも)いフライパンを使(つか)ってたら、前腕(ぜんわん)が疲(つか)れた。",
+    "english": "My forearms got tired from using a heavy frying pan."
+  },
+  "てくび|手首": {
+    "japanese": "手首(てくび)が痛(いた)いから、今日(きょう)は重(おも)いもの持(も)ちたくない。",
+    "english": "My wrist hurts, so I don't want to carry anything heavy today."
+  },
+  "て|手": {
+    "japanese": "手(て)が冷(つめ)たいね。寒(さむ)かった？",
+    "english": "Your hands are cold. Were you chilly?"
+  },
+  "てのひら|手のひら": {
+    "japanese": "緊張(きんちょう)すると、手(て)のひらに汗(あせ)をかくんだ。",
+    "english": "My palms get sweaty when I'm nervous."
+  },
+  "てのこう|手の甲": {
+    "japanese": "手(て)の甲(こう)にも日焼(ひや)け止(ど)め塗(ぬ)っとこう。",
+    "english": "I'll put sunscreen on the backs of my hands too."
+  },
+  "ゆび|指": {
+    "japanese": "指(ゆび)に絆創膏(ばんそうこう)貼(は)ってるから、洗(あら)い物(もの)しにくい。",
+    "english": "It's hard to wash dishes with a bandage on my finger."
+  },
+  "おやゆび|親指": {
+    "japanese": "親指(おやゆび)で押(お)すと、開(あ)けやすいよ。",
+    "english": "It's easier to open if you press with your thumb."
+  },
+  "ひとさしゆび|人差し指": {
+    "japanese": "人差(ひとさ)し指(ゆび)に小(ちい)さい傷(きず)ができちゃった。",
+    "english": "I got a little cut on my index finger."
+  },
+  "なかゆび|中指": {
+    "japanese": "この指輪(ゆびわ)、中指(なかゆび)だとちょうどいい。",
+    "english": "This ring fits my middle finger just right."
+  },
+  "くすりゆび|薬指": {
+    "japanese": "薬指(くすりゆび)の指輪(ゆびわ)、なかなか抜(ぬ)けない。",
+    "english": "I can't get the ring off my ring finger."
+  },
+  "こゆび|小指": {
+    "japanese": "ドアに小指(こゆび)挟(はさ)んじゃった。",
+    "english": "I caught my little finger in the door."
+  },
+  "ゆびさき|指先": {
+    "japanese": "寒(さむ)くて指先(ゆびさき)が冷(つめ)たい。",
+    "english": "My fingertips are cold from the chilly weather."
+  },
+  "ゆびのかんせつ|指の関節": {
+    "japanese": "指(ゆび)の関節(かんせつ)がこわばって、動(うご)かしにくい。",
+    "english": "My finger joints feel stiff and are hard to move."
+  },
+  "つめ|爪": {
+    "japanese": "爪(つめ)が伸(の)びてきたから、切(き)らなきゃ。",
+    "english": "My nails are getting long. I need to trim them."
+  },
+  "むね|胸": {
+    "japanese": "走(はし)ってきたから、胸(むね)がどきどきしてる。",
+    "english": "My heart's pounding after that run."
+  },
+  "せなか|背中": {
+    "japanese": "背中(せなか)のここ、ちょっとかゆい。",
+    "english": "This spot on my back is a little itchy."
+  },
+  "けんこうこつ|肩甲骨": {
+    "japanese": "肩甲骨(けんこうこつ)のあたり、ちょっと伸(の)ばすと気持(きも)ちいい。",
+    "english": "It feels good to stretch around my shoulder blades."
+  },
+  "こし|腰": {
+    "japanese": "座(すわ)りっぱなしで腰(こし)が痛(いた)くなった。",
+    "english": "My lower back hurts from sitting for so long."
+  },
+  "おなか|お腹": {
+    "japanese": "お腹(なか)すいた。何(なに)か食(た)べよう。",
+    "english": "I'm hungry. Let's get something to eat."
+  },
+  "へそ|": {
+    "japanese": "このシャツ、短(みじか)くてへそが見(み)えちゃう。",
+    "english": "This shirt's so short that my belly button shows."
+  },
+  "わきばら|脇腹": {
+    "japanese": "走(はし)ったら、脇腹(わきばら)が痛(いた)くなった。",
+    "english": "I got a pain in my side when I ran."
+  },
+  "おしり|お尻": {
+    "japanese": "ずっと座(すわ)ってたから、お尻(しり)が痛(いた)い。",
+    "english": "My bottom hurts from sitting for so long."
+  },
+  "こつばん|骨盤": {
+    "japanese": "骨盤(こつばん)のあたりが痛(いた)くて、座(すわ)りにくい。",
+    "english": "It hurts around my pelvis, so sitting is uncomfortable."
+  },
+  "せぼね|背骨": {
+    "japanese": "この椅子(いす)、背骨(せぼね)のあたりにちょうど当(あ)たるね。",
+    "english": "This chair presses right against the area along my spine."
+  },
+  "ろっこつ|肋骨": {
+    "japanese": "ぶつけたところ、肋骨(ろっこつ)のあたりが痛(いた)い。",
+    "english": "It hurts around my ribs where I bumped myself."
+  },
+  "あし|脚": {
+    "japanese": "いっぱい歩(ある)いて、脚(あし)が疲(つか)れた。",
+    "english": "My legs are tired from all that walking."
+  },
+  "ふともも|太もも": {
+    "japanese": "昨日(きのう)の運動(うんどう)で、太(ふと)ももが筋肉痛(きんにくつう)。",
+    "english": "My thighs are sore from yesterday's workout."
+  },
+  "ひざ|膝": {
+    "japanese": "階段(かいだん)を下(お)りると、膝(ひざ)が痛(いた)い。",
+    "english": "My knee hurts when I go down stairs."
+  },
+  "ひざうら|膝裏": {
+    "japanese": "膝裏(ひざうら)がかゆくて、ついかいちゃう。",
+    "english": "The backs of my knees itch, and I keep scratching them."
+  },
+  "すね|": {
+    "japanese": "椅子(いす)にすねをぶつけちゃった。",
+    "english": "I bumped my shin on a chair."
+  },
+  "ふくらはぎ|": {
+    "japanese": "坂道(さかみち)を歩(ある)いたら、ふくらはぎが張(は)ってきた。",
+    "english": "My calves got tight after walking uphill."
+  },
+  "あしくび|足首": {
+    "japanese": "足首(あしくび)が冷(ひ)えるから、長(なが)めの靴下(くつした)にしよう。",
+    "english": "My ankles get cold, so I'll wear longer socks."
+  },
+  "かかと|": {
+    "japanese": "靴(くつ)が当(あ)たって、かかとが痛(いた)い。",
+    "english": "My shoe's rubbing against my heel, and it hurts."
+  },
+  "あし|足": {
+    "japanese": "足(あし)が冷(つめ)たいから、靴下(くつした)はこう。",
+    "english": "My feet are cold, so I'll put some socks on."
+  },
+  "あしのこう|足の甲": {
+    "japanese": "靴(くつ)がきつくて、足(あし)の甲(こう)が痛(いた)い。",
+    "english": "My shoes are tight and hurt the tops of my feet."
+  },
+  "あしのうら|足の裏": {
+    "japanese": "たくさん歩(ある)いて、足(あし)の裏(うら)が痛(いた)くなった。",
+    "english": "The soles of my feet hurt after all that walking."
+  },
+  "つちふまず|土踏まず": {
+    "japanese": "この靴(くつ)、土踏(つちふ)まずにちょうど合(あ)うね。",
+    "english": "These shoes fit the arches of my feet nicely."
+  },
+  "つまさき|つま先": {
+    "japanese": "つま先(さき)が当(あ)たるから、この靴(くつ)ちょっと小(ちい)さいかも。",
+    "english": "My toes touch the front, so these shoes might be a little small."
+  },
+  "あしのゆび|足の指": {
+    "japanese": "足(あし)の指(ゆび)を動(うご)かすと、少(すこ)し楽(らく)になる。",
+    "english": "Moving my toes makes it feel a little better."
+  },
+  "あしのおやゆび|足の親指": {
+    "japanese": "足(あし)の親指(おやゆび)をぶつけて、痛(いた)かった。",
+    "english": "I stubbed my big toe, and it hurt."
+  },
+  "ひふ|皮膚": {
+    "japanese": "このテープ、皮膚(ひふ)がかゆくなるんだよね。",
+    "english": "This tape makes my skin itchy."
+  },
+  "はだ|肌": {
+    "japanese": "最近(さいきん)、肌(はだ)が乾燥(かんそう)しやすい。",
+    "english": "My skin's been getting dry easily lately."
+  },
+  "かみ|髪": {
+    "japanese": "髪(かみ)、もう少(すこ)し短(みじか)くしようかな。",
+    "english": "Maybe I'll get my hair cut a little shorter."
+  },
+  "たいもう|体毛": {
+    "japanese": "体毛(たいもう)って、人(ひと)によって全然(ぜんぜん)違(ちが)うね。",
+    "english": "Body hair really varies from person to person."
+  },
+  "きんにく|筋肉": {
+    "japanese": "この荷物(にもつ)、持(も)つだけで筋肉(きんにく)つきそう。",
+    "english": "Just carrying this luggage feels like a workout."
+  },
+  "ほね|骨": {
+    "japanese": "骨(ほね)には異常(いじょう)なかったって。ほっとした。",
+    "english": "They said there was nothing wrong with the bone. That's a relief."
+  },
+  "かんせつ|関節": {
+    "japanese": "寒(さむ)いと、関節(かんせつ)がこわばるんだよね。",
+    "english": "My joints get stiff when it's cold."
+  },
+  "けん|腱": {
+    "japanese": "このあたり、腱(けん)を痛(いた)めたのかもしれない。",
+    "english": "I might have strained a tendon around here."
+  },
+  "じんたい|靭帯": {
+    "japanese": "足首(あしくび)の靭帯(じんたい)を痛(いた)めて、しばらく休(やす)んでる。",
+    "english": "I injured a ligament in my ankle, so I'm resting for a while."
+  },
+  "しんけい|神経": {
+    "japanese": "先生(せんせい)に、神経(しんけい)が圧迫(あっぱく)されてるって言(い)われた。",
+    "english": "The doctor told me a nerve was being compressed."
+  },
+  "けっかん|血管": {
+    "japanese": "寒(さむ)いと、手(て)の血管(けっかん)が目立(めだ)たなくなるね。",
+    "english": "The veins in my hands are less visible when it's cold."
+  },
+  "ち|血": {
+    "japanese": "紙(かみ)で指(ゆび)切(き)って、血(ち)が出(で)ちゃった。",
+    "english": "I cut my finger on some paper, and it bled."
+  },
+  "しんぞう|心臓": {
+    "japanese": "びっくりして、心臓(しんぞう)がどきどきした。",
+    "english": "It startled me, and my heart started pounding."
+  },
+  "はい|肺": {
+    "japanese": "健診(けんしん)で、肺(はい)の写真(しゃしん)も撮(と)ったよ。",
+    "english": "They took an image of my lungs at my checkup too."
+  },
+  "い|胃": {
+    "japanese": "食(た)べすぎて、胃(い)が重(おも)い。",
+    "english": "I ate too much, and my stomach feels heavy."
+  },
+  "ちょう|腸": {
+    "japanese": "先生(せんせい)に、腸(ちょう)の動(うご)きが弱(よわ)ってるって言(い)われた。",
+    "english": "The doctor said my intestines weren't working as actively as usual."
+  },
+  "かんぞう|肝臓": {
+    "japanese": "健診(けんしん)で、肝臓(かんぞう)の数値(すうち)も見(み)てもらった。",
+    "english": "They checked my liver readings at my health checkup too."
+  },
+  "じんぞう|腎臓": {
+    "japanese": "次(つぎ)の検査(けんさ)で、腎臓(じんぞう)も調(しら)べるんだって。",
+    "english": "Apparently they'll check my kidneys at the next test too."
+  },
+  "ころぶ|転ぶ": {
+    "japanese": "駅(えき)で転(ころ)んじゃった。膝(ひざ)がちょっと痛(いた)い。",
+    "english": "I fell at the station. My knee hurts a little."
+  },
+  "たおれる|倒れる": {
+    "japanese": "風(かぜ)で傘立(かさた)てが倒(たお)れちゃった。",
+    "english": "The wind knocked over the umbrella stand."
+  },
+  "すべる|滑る": {
+    "japanese": "ここ、ぬれてると滑(すべ)るから気(き)をつけて。",
+    "english": "Be careful—it gets slippery here when it's wet."
+  },
+  "つまずく|": {
+    "japanese": "玄関(げんかん)の段差(だんさ)につまずいちゃった。",
+    "english": "I tripped on the step in the entrance area."
+  },
+  "ぶつかる|": {
+    "japanese": "よそ見(み)してたら、ドアにぶつかった。",
+    "english": "I wasn't looking and bumped into the door."
+  },
+  "よろける|": {
+    "japanese": "急(きゅう)に電車(でんしゃ)が揺(ゆ)れて、よろけちゃった。",
+    "english": "The train jolted, and I lost my balance."
+  },
+  "しゃがむ|": {
+    "japanese": "写真(しゃしん)撮(と)るから、ちょっとしゃがんでくれる？",
+    "english": "I'm taking a photo. Can you crouch down a little?"
+  },
+  "かがむ|": {
+    "japanese": "低(ひく)いドアだから、かがんで入(はい)ってね。",
+    "english": "The doorway's low, so bend down as you go in."
+  },
+  "まげる|曲げる": {
+    "japanese": "膝(ひざ)を曲(ま)げると、ちょっと痛(いた)い。",
+    "english": "It hurts a little when I bend my knee."
+  },
+  "まがる|曲がる": {
+    "japanese": "このスプーン、少(すこ)し曲(ま)がってるね。",
+    "english": "This spoon's a little bent."
+  },
+  "のばす|伸ばす": {
+    "japanese": "座(すわ)りっぱなしだったから、脚(あし)を伸(の)ばしたい。",
+    "english": "I've been sitting for ages, so I want to stretch my legs."
+  },
+  "のびる|伸びる": {
+    "japanese": "この生地(きじ)、よく伸(の)びるから着(き)やすいね。",
+    "english": "This fabric stretches nicely, so it's comfortable to wear."
+  },
+  "そる|反る": {
+    "japanese": "そんなに背中(せなか)を反(そ)ると、腰(こし)が痛(いた)くならない？",
+    "english": "Doesn't your lower back hurt when you arch your back that far?"
+  },
+  "ひねる|": {
+    "japanese": "腰(こし)をひねったら、ちょっと痛(いた)かった。",
+    "english": "It hurt a little when I twisted at the waist."
+  },
+  "ねじる|": {
+    "japanese": "この蓋(ふた)、ねじると開(あ)くよ。",
+    "english": "This lid opens if you twist it."
+  },
+  "かたむける|傾ける": {
+    "japanese": "スマホを少(すこ)し傾(かたむ)けると、画面(がめん)が見(み)やすいよ。",
+    "english": "It's easier to see the screen if you tilt your phone a little."
+  },
+  "ふる|振る": {
+    "japanese": "使(つか)う前(まえ)に、ボトルを軽(かる)く振(ふ)ってね。",
+    "english": "Give the bottle a gentle shake before using it."
+  },
+  "ゆれる|揺れる": {
+    "japanese": "風(かぜ)でカーテンが揺(ゆ)れてる。",
+    "english": "The curtains are swaying in the breeze."
+  },
+  "ゆらす|揺らす": {
+    "japanese": "テーブル揺(ゆ)らさないで。飲(の)み物(もの)こぼれちゃう。",
+    "english": "Don't shake the table. You'll spill the drinks."
+  },
+  "まわす|回す": {
+    "japanese": "このつまみを回(まわ)すと、音(おと)が大(おお)きくなるよ。",
+    "english": "Turning this knob makes it louder."
+  },
+  "まわる|回る": {
+    "japanese": "扇風機(せんぷうき)が回(まわ)らなくなっちゃった。",
+    "english": "The fan's stopped spinning."
+  },
+  "とぶ|跳ぶ": {
+    "japanese": "水(みず)たまりを跳(と)んで越(こ)えようとしたら、靴(くつ)がぬれた。",
+    "english": "I tried to jump over a puddle and got my shoes wet."
+  },
+  "はねる|跳ねる": {
+    "japanese": "ボールが跳(は)ねて、ソファの下(した)に入(はい)っちゃった。",
+    "english": "The ball bounced and went under the sofa."
+  },
+  "とびあがる|飛び上がる": {
+    "japanese": "急(きゅう)に大(おお)きな音(おと)がして、飛(と)び上(あ)がっちゃった。",
+    "english": "There was a sudden loud noise, and I jumped."
+  },
+  "ちゃくちする|着地する": {
+    "japanese": "ジャンプしたあと、ちゃんと着地(ちゃくち)できた。",
+    "english": "I managed to land properly after the jump."
+  },
+  "てをふる|手を振る": {
+    "japanese": "駅(えき)のホームから手(て)を振(ふ)ってくれた。",
+    "english": "They waved to me from the station platform."
+  },
+  "てをあげる|手を上げる": {
+    "japanese": "質問(しつもん)したくて、手(て)を上(あ)げた。",
+    "english": "I raised my hand because I wanted to ask a question."
+  },
+  "てをのばす|手を伸ばす": {
+    "japanese": "棚(たな)に手(て)を伸(の)ばしたけど、届(とど)かなかった。",
+    "english": "I reached for the shelf but couldn't reach it."
+  },
+  "てをひろげる|手を広げる": {
+    "japanese": "どれくらい大(おお)きいか、手(て)を広(ひろ)げて見(み)せてくれた。",
+    "english": "They spread their hands to show me how big it was."
+  },
+  "うでをくむ|腕を組む": {
+    "japanese": "寒(さむ)くて、つい腕(うで)を組(く)んじゃう。",
+    "english": "I keep folding my arms because I'm cold."
+  },
+  "てをくむ|手を組む": {
+    "japanese": "手(て)を組(く)んで、ぐっと伸(の)ばすと気持(きも)ちいい。",
+    "english": "It feels good to clasp your hands and stretch them out."
+  },
+  "てをつなぐ|手をつなぐ": {
+    "japanese": "人(ひと)が多(おお)いから、手(て)をつないで歩(ある)こう。",
+    "english": "It's crowded, so let's hold hands as we walk."
+  },
+  "てをにぎる|手を握る": {
+    "japanese": "緊張(きんちょう)してたら、そっと手(て)を握(にぎ)ってくれた。",
+    "english": "I was nervous, and they gently held my hand."
+  },
+  "にぎる|握る": {
+    "japanese": "このハンドル、しっかり握(にぎ)ってね。",
+    "english": "Hold this handle firmly."
+  },
+  "つかむ|": {
+    "japanese": "倒(たお)れそうになって、手(て)すりをつかんだ。",
+    "english": "I almost fell and grabbed the handrail."
+  },
+  "つまむ|": {
+    "japanese": "端(はし)をつまむと、はがしやすいよ。",
+    "english": "It's easier to peel off if you pinch the edge."
+  },
+  "さわる|触る": {
+    "japanese": "それ、まだ熱(あつ)いから触(さわ)らないでね。",
+    "english": "It's still hot, so don't touch it."
+  },
+  "なでる|": {
+    "japanese": "猫(ねこ)の背中(せなか)をなでたら、気持(きも)ちよさそうだった。",
+    "english": "The cat looked happy when I stroked its back."
+  },
+  "こする|": {
+    "japanese": "そんなに強(つよ)くこすると、傷(きず)がついちゃうよ。",
+    "english": "You'll scratch it if you rub that hard."
+  },
+  "さする|": {
+    "japanese": "お腹(なか)が痛(いた)くて、しばらくさすってた。",
+    "english": "My tummy hurt, so I rubbed it gently for a while."
+  },
+  "たたく|": {
+    "japanese": "肩(かた)を軽(かる)くたたかれて、振(ふ)り向(む)いた。",
+    "english": "Someone tapped me gently on the shoulder, and I turned around."
+  },
+  "おす|押す": {
+    "japanese": "このドア、引(ひ)くんじゃなくて押(お)すんだね。",
+    "english": "Oh, you push this door, rather than pull it."
+  },
+  "ひく|引く": {
+    "japanese": "この引(ひ)き出(だ)し、強(つよ)く引(ひ)いても開(あ)かない。",
+    "english": "This drawer won't open even if I pull hard."
+  },
+  "ゆびをさす|指をさす": {
+    "japanese": "指(ゆび)をさして、「あそこだよ」って教(おし)えてくれた。",
+    "english": "They pointed to that sign to show me."
+  },
+  "ゆびをならす|指を鳴らす": {
+    "japanese": "曲(きょく)に合(あ)わせて指(ゆび)を鳴(な)らしてた。",
+    "english": "They were snapping their fingers along to the song."
+  },
+  "ゆびをまげる|指を曲げる": {
+    "japanese": "指(ゆび)を曲(ま)げると、ここが痛(いた)い。",
+    "english": "It hurts here when I bend my finger."
+  },
+  "ゆびをひろげる|指を広げる": {
+    "japanese": "指(ゆび)を広(ひろ)げて、手(て)のひらを見(み)せて。",
+    "english": "Spread your fingers and show me your palm."
+  },
+  "てをたたく|手をたたく": {
+    "japanese": "うれしくて、思(おも)わず手(て)をたたいた。",
+    "english": "I was so happy that I clapped without thinking."
+  },
+  "はくしゅする|拍手する": {
+    "japanese": "演奏(えんそう)が終(お)わったら、みんなで拍手(はくしゅ)した。",
+    "english": "We all applauded when the performance ended."
+  },
+  "こぶしをにぎる|拳を握る": {
+    "japanese": "緊張(きんちょう)して、ぎゅっと拳(こぶし)を握(にぎ)ってた。",
+    "english": "I was nervous and kept clenching my fists."
+  },
+  "てをはなす|手を離す": {
+    "japanese": "まだぐらぐらするから、手(て)を離(はな)さないでね。",
+    "english": "It's still wobbly, so don't let go yet."
+  },
+  "てをはなす|手を放す": {
+    "japanese": "落(お)ちないように、ゆっくり手(て)を放(はな)してね。",
+    "english": "Let go slowly so it doesn't fall."
+  },
+  "うなずく|": {
+    "japanese": "話(はなし)を聞(き)きながら、何度(なんど)もうなずいてた。",
+    "english": "They kept nodding as they listened."
+  },
+  "くびをふる|首を振る": {
+    "japanese": "いるか聞(き)いたら、首(くび)を振(ふ)った。",
+    "english": "I asked if they wanted one, and they shook their head."
+  },
+  "くびをかしげる|首をかしげる": {
+    "japanese": "説明(せつめい)を聞(き)いても、まだ首(くび)をかしげてた。",
+    "english": "Even after hearing the explanation, they still tilted their head in confusion."
+  },
+  "ふりむく|振り向く": {
+    "japanese": "名前(なまえ)を呼(よ)ばれて、振(ふ)り向(む)いた。",
+    "english": "I turned around when someone called my name."
+  },
+  "みあげる|見上げる": {
+    "japanese": "空(そら)を見上(みあ)げたら、星(ほし)がいっぱい見(み)えた。",
+    "english": "I looked up at the sky and saw lots of stars."
+  },
+  "みおろす|見下ろす": {
+    "japanese": "窓(まど)から見下(みお)ろすと、駅(えき)が見(み)えるよ。",
+    "english": "You can see the station if you look down from the window."
+  },
+  "のぞく|": {
+    "japanese": "中(なか)をちょっとのぞいてみようか。",
+    "english": "Shall we take a quick peek inside?"
+  },
+  "まばたきする|": {
+    "japanese": "写真(しゃしん)撮(と)るとき、まばたきしちゃった。",
+    "english": "I blinked when the photo was taken."
+  },
+  "めをとじる|目を閉じる": {
+    "japanese": "少(すこ)し目(め)を閉(と)じて休(やす)もう。",
+    "english": "I'll close my eyes and rest for a bit."
+  },
+  "めをあける|目を開ける": {
+    "japanese": "目(め)を開(あ)けたら、もう朝(あさ)だった。",
+    "english": "When I opened my eyes, it was already morning."
+  },
+  "めをほそめる|目を細める": {
+    "japanese": "まぶしくて、つい目(め)を細(ほそ)めちゃう。",
+    "english": "It's so bright that I keep squinting."
+  },
+  "にらむ|": {
+    "japanese": "そんなににらまないで。わざとじゃないよ。",
+    "english": "Don't glare at me like that. I didn't do it on purpose."
+  },
+  "みつめる|見つめる": {
+    "japanese": "猫(ねこ)が窓(まど)の外(そと)をじっと見(み)つめてる。",
+    "english": "The cat's gazing out of the window."
+  },
+  "かおをそむける|顔をそむける": {
+    "japanese": "煙(けむり)が来(き)て、思(おも)わず顔(かお)をそむけた。",
+    "english": "Smoke drifted over, and I instinctively turned my face away."
+  },
+  "くちをあける|口を開ける": {
+    "japanese": "歯医者(はいしゃ)で、もっと口(くち)を開(あ)けてって言(い)われた。",
+    "english": "The dentist asked me to open my mouth wider."
+  },
+  "くちをとじる|口を閉じる": {
+    "japanese": "写真(しゃしん)、口(くち)を閉(と)じたほうも撮(と)ってみよう。",
+    "english": "Let's take a photo with our mouths closed too."
+  },
+  "くちびるをかむ|唇をかむ": {
+    "japanese": "考(かんが)えごとしてると、つい唇(くちびる)をかんじゃう。",
+    "english": "I tend to bite my lip when I'm thinking."
+  },
+  "したをだす|舌を出す": {
+    "japanese": "子(こ)どもが舌(した)を出(だ)して、変(へん)な顔(かお)してた。",
+    "english": "The child stuck out their tongue and made a funny face."
+  },
+  "ほおをふくらませる|頬を膨らませる": {
+    "japanese": "子(こ)どもが頬(ほお)を膨(ふく)らませて、魚(さかな)のまねをしてた。",
+    "english": "The child puffed out their cheeks to imitate a fish."
+  },
+  "たつ|立つ": {
+    "japanese": "座(すわ)りっぱなしだから、ちょっと立(た)とう。",
+    "english": "I've been sitting for ages, so I'll stand for a bit."
+  },
+  "たちあがる|立ち上がる": {
+    "japanese": "急(きゅう)に立(た)ち上(あ)がったら、ちょっとふらっとした。",
+    "english": "I stood up suddenly and felt a little dizzy."
+  },
+  "すわる|座る": {
+    "japanese": "疲(つか)れたね。あのベンチに座(すわ)ろう。",
+    "english": "We're tired. Let's sit on that bench."
+  },
+  "こしかける|腰掛ける": {
+    "japanese": "ここにちょっと腰掛(こしか)けてもいい？",
+    "english": "Can I sit here for a minute?"
+  },
+  "せいざする|正座する": {
+    "japanese": "長(なが)く正座(せいざ)してたら、足(あし)がしびれた。",
+    "english": "My legs went numb after sitting in seiza for a long time."
+  },
+  "あぐらをかく|": {
+    "japanese": "床(ゆか)であぐらをかいて、映画(えいが)を見(み)てた。",
+    "english": "I sat cross-legged on the floor watching a film."
+  },
+  "ひざをつく|膝をつく": {
+    "japanese": "落(お)とした鍵(かぎ)を探(さが)すのに、床(ゆか)に膝(ひざ)をついた。",
+    "english": "I knelt on the floor to look for the key I dropped."
+  },
+  "よこになる|横になる": {
+    "japanese": "ちょっと疲(つか)れたから、横(よこ)になってもいい？",
+    "english": "I'm a little tired. Can I lie down?"
+  },
+  "ねころぶ|寝転ぶ": {
+    "japanese": "ソファに寝転(ねころ)んでたら、そのまま寝(ね)ちゃった。",
+    "english": "I sprawled out on the sofa and ended up falling asleep."
+  },
+  "あおむけになる|仰向けになる": {
+    "japanese": "仰向(あおむ)けになって、空(そら)を見(み)てた。",
+    "english": "I lay on my back looking at the sky."
+  },
+  "うつぶせになる|うつ伏せになる": {
+    "japanese": "うつ伏(ぶ)せになると、背中(せなか)が楽(らく)なんだ。",
+    "english": "My back feels better when I lie face down."
+  },
+  "ねがえりをうつ|寝返りを打つ": {
+    "japanese": "寝返(ねがえ)りを打(う)ったら、毛布(もうふ)が落(お)ちた。",
+    "english": "I turned over in bed, and my blanket fell off."
+  },
+  "もたれる|": {
+    "japanese": "椅子(いす)の背(せ)にもたれると、少(すこ)し楽(らく)になる。",
+    "english": "Leaning against the chair back makes me a little more comfortable."
+  },
+  "よりかかる|寄りかかる": {
+    "japanese": "疲(つか)れて、壁(かべ)に寄(よ)りかかってた。",
+    "english": "I was tired and leaned against the wall."
+  },
+  "からだをおこす|体を起こす": {
+    "japanese": "目(め)は覚(さ)めたけど、まだ体(からだ)を起(お)こしたくない。",
+    "english": "I'm awake, but I don't want to sit up yet."
+  },
+  "せすじをのばす|背筋を伸ばす": {
+    "japanese": "背筋(せすじ)を伸(の)ばすと、ちょっとすっきりするね。",
+    "english": "Straightening my back feels refreshing."
+  },
+  "あるく|歩く": {
+    "japanese": "駅(えき)まで歩(ある)こうか。そんなに遠(とお)くないし。",
+    "english": "Shall we walk to the station? It's not that far."
+  },
+  "はしる|走る": {
+    "japanese": "電車(でんしゃ)に間(ま)に合(あ)わなくて、駅(えき)まで走(はし)った。",
+    "english": "I was running late for the train, so I ran to the station."
+  },
+  "こばしりする|小走りする": {
+    "japanese": "雨(あめ)が降(ふ)ってきたから、小走(こばし)りして駅(えき)に向(む)かった。",
+    "english": "It started raining, so I jogged toward the station."
+  },
+  "あとずさりする|後ずさりする": {
+    "japanese": "犬(いぬ)に急(きゅう)にほえられて、後(あと)ずさりした。",
+    "english": "A dog suddenly barked at me, and I stepped back."
+  },
+  "ちかづく|近づく": {
+    "japanese": "もう少(すこ)し近(ちか)づくと、よく見(み)えるよ。",
+    "english": "You can see better if you come a little closer."
+  },
+  "よける|避ける": {
+    "japanese": "水(みず)たまりを避(よ)けて歩(ある)いた。",
+    "english": "I walked around the puddles."
+  },
+  "またぐ|": {
+    "japanese": "このコード、気(き)をつけてまたいでね。",
+    "english": "Step over this cable carefully."
+  },
+  "ふむ|踏む": {
+    "japanese": "うっかり猫(ねこ)のしっぽを踏(ふ)んじゃった。",
+    "english": "I accidentally stepped on the cat's tail."
+  },
+  "ふみだす|踏み出す": {
+    "japanese": "一歩(いっぽ)踏(ふ)み出(だ)したら、水(みず)たまりだった。",
+    "english": "I took a step forward and stepped into a puddle."
+  },
+  "あしをくむ|足を組む": {
+    "japanese": "いつも同(おな)じほうの足(あし)を組(く)んじゃう。",
+    "english": "I always end up crossing the same leg over the other."
+  },
+  "あしをのばす|足を伸ばす": {
+    "japanese": "ちょっと足(あし)を伸(の)ばしたいから、広(ひろ)い席(せき)がいいな。",
+    "english": "I'd like a roomy seat so I can stretch my legs out."
+  },
+  "あしをひきずる|足を引きずる": {
+    "japanese": "足首(あしくび)が痛(いた)くて、足(あし)を引(ひ)きずって歩(ある)いてる。",
+    "english": "My ankle hurts, so I'm walking with a limp."
+  },
+  "つまさきだちする|つま先立ちする": {
+    "japanese": "つま先立(さきだ)ちしても、棚(たな)に届(とど)かない。",
+    "english": "I can't reach the shelf even on tiptoe."
+  },
+  "せのびする|背伸びする": {
+    "japanese": "背伸(せの)びしたら、やっと見(み)えた。",
+    "english": "I could finally see when I stretched up on tiptoe."
+  },
+  "ばらんすをとる|バランスを取る": {
+    "japanese": "揺(ゆ)れる電車(でんしゃ)の中(なか)で、バランスを取(と)るのが難(むずか)しい。",
+    "english": "It's hard to keep my balance on a swaying train."
+  },
+  "だく|抱く": {
+    "japanese": "赤(あか)ちゃんを抱(だ)くの、まだちょっと緊張(きんちょう)する。",
+    "english": "I'm still a bit nervous about holding a baby."
+  },
+  "だきしめる|抱きしめる": {
+    "japanese": "久(ひさ)しぶりに会(あ)えて、思(おも)わず抱(だ)きしめた。",
+    "english": "I hadn't seen them in ages, and I hugged them without thinking."
+  },
+  "おんぶする|": {
+    "japanese": "子(こ)どもが疲(つか)れたから、帰(かえ)りはおんぶした。",
+    "english": "My child was tired, so I carried them on my back on the way home."
+  },
+  "しゃがみこむ|しゃがみ込む": {
+    "japanese": "落(お)としたイヤホンを探(さが)して、しゃがみ込(こ)んだ。",
+    "english": "I crouched down to look for the earbud I dropped."
+  },
+  "みをのりだす|身を乗り出す": {
+    "japanese": "よく見(み)えなくて、ちょっと身(み)を乗(の)り出(だ)した。",
+    "english": "I couldn't see well, so I leaned forward a little."
+  },
+  "みをひく|身を引く": {
+    "japanese": "自転車(じてんしゃ)が近(ちか)くを通(とお)って、とっさに身(み)を引(ひ)いた。",
+    "english": "A bicycle passed close by, and I quickly pulled back."
+  },
+  "みをかがめる|身をかがめる": {
+    "japanese": "低(ひく)い枝(えだ)があったから、身(み)をかがめて通(とお)った。",
+    "english": "There was a low branch, so I ducked under it."
+  },
+  "からだをひねる|体をひねる": {
+    "japanese": "後(うし)ろのバッグを取(と)ろうとして、体(からだ)をひねった。",
+    "english": "I twisted around to get the bag behind me."
+  },
+  "かたをすくめる|肩をすくめる": {
+    "japanese": "どうするか聞(き)いたら、肩(かた)をすくめて「わかんない」って。",
+    "english": "I asked what we should do, and they shrugged and said, \"I don't know.\""
+  },
+  "かたをまわす|肩を回す": {
+    "japanese": "肩(かた)がこったから、少(すこ)し肩(かた)を回(まわ)そう。",
+    "english": "My shoulders are stiff, so I'll roll them a little."
+  },
+  "こしをまげる|腰を曲げる": {
+    "japanese": "腰(こし)を曲(ま)げると、ここがつっぱるんだよね。",
+    "english": "It feels tight here when I bend at the waist."
+  },
+  "ひざをまげる|膝を曲げる": {
+    "japanese": "膝(ひざ)を少(すこ)し曲(ま)げると、安定(あんてい)するよ。",
+    "english": "You'll be steadier if you bend your knees a little."
+  },
+  "ひじをまげる|肘を曲げる": {
+    "japanese": "肘(ひじ)を曲(ま)げると、袖(そで)がちょっときつい。",
+    "english": "The sleeves feel a little tight when I bend my elbows."
+  },
+  "うでをのばす|腕を伸ばす": {
+    "japanese": "腕(うで)を伸(の)ばしても、上(うえ)の棚(たな)に届(とど)かない。",
+    "english": "I can't reach the top shelf even with my arms stretched out."
+  },
+  "てくびをまわす|手首を回す": {
+    "japanese": "作業(さぎょう)の前(まえ)に、軽(かる)く手首(てくび)を回(まわ)してる。",
+    "english": "I gently rotate my wrists before starting work."
+  },
+  "あしくびをひねる|足首をひねる": {
+    "japanese": "段差(だんさ)に気(き)づかなくて、足首(あしくび)をひねっちゃった。",
+    "english": "I didn't notice the step and twisted my ankle."
+  },
+  "あくしゅする|握手する": {
+    "japanese": "初(はじ)めて会(あ)ったとき、握手(あくしゅ)したよ。",
+    "english": "We shook hands when we first met."
+  },
+  "おじぎする|お辞儀する": {
+    "japanese": "お店(みせ)を出(で)るとき、軽(かる)くお辞儀(じぎ)した。",
+    "english": "I gave a little bow as I left the shop."
+  },
+  "あたまをさげる|頭を下げる": {
+    "japanese": "道(みち)を教(おし)えてもらって、頭(あたま)を下(さ)げてお礼(れい)を言(い)った。",
+    "english": "I bowed and thanked them for showing me the way."
+  },
+  "えしゃくする|会釈する": {
+    "japanese": "廊下(ろうか)で会(あ)ったから、軽(かる)く会釈(えしゃく)した。",
+    "english": "I gave a small bow when I saw them in the hallway."
+  },
+  "ふかくおじぎする|深くお辞儀する": {
+    "japanese": "最後(さいご)に、深(ふか)くお辞儀(じぎ)してお礼(れい)を言(い)った。",
+    "english": "At the end, I bowed deeply and thanked them."
+  },
+  "てをあわせる|手を合わせる": {
+    "japanese": "食(た)べる前(まえ)に、手(て)を合(あ)わせて「いただきます」って言(い)った。",
+    "english": "I put my palms together and said \"itadakimasu\" before eating."
+  },
+  "てをさしだす|手を差し出す": {
+    "japanese": "立(た)つのを手伝(てつだ)おうと、手(て)を差(さ)し出(だ)した。",
+    "english": "I held out my hand to help them stand up."
+  },
+  "だきあう|抱き合う": {
+    "japanese": "久(ひさ)しぶりに会(あ)って、二人(ふたり)で抱(だ)き合(あ)った。",
+    "english": "We hadn't seen each other in ages and hugged."
+  },
+  "はぐする|ハグする": {
+    "japanese": "別(わか)れる前(まえ)に、みんなでハグした。",
+    "english": "We all hugged before saying goodbye."
+  },
+  "かたをたたく|肩をたたく": {
+    "japanese": "友達(ともだち)に気(き)づいて、軽(かる)く肩(かた)をたたいた。",
+    "english": "I spotted my friend and gave them a gentle tap on the shoulder."
+  },
+  "せなかをさする|背中をさする": {
+    "japanese": "気分(きぶん)が悪(わる)そうだったから、背中(せなか)をさすってあげた。",
+    "english": "They looked unwell, so I gently rubbed their back."
+  },
+  "はいたっちする|ハイタッチする": {
+    "japanese": "うまくできて、友達(ともだち)とハイタッチした。",
+    "english": "It went well, and I high-fived my friend."
+  },
+  "ぐーたっちする|グータッチする": {
+    "japanese": "帰(かえ)り際(ぎわ)に、友達(ともだち)とグータッチした。",
+    "english": "I fist-bumped my friend as we left."
+  },
+  "くびをよこにふる|首を横に振る": {
+    "japanese": "一緒(いっしょ)に来(く)るか聞(き)いたら、首(くび)を横(よこ)に振(ふ)った。",
+    "english": "I asked if they were coming with us, and they shook their head no."
+  },
+  "けいれいする|敬礼する": {
+    "japanese": "子(こ)どもが敬礼(けいれい)して、「行(い)ってきます」って。",
+    "english": "The child saluted and said, \"I'm off!\""
+  },
+  "てまねきする|手招きする": {
+    "japanese": "友達(ともだち)が向(む)こうで手招(てまね)きしてる。",
+    "english": "My friend's beckoning to me from over there."
+  },
+  "あいずする|合図する": {
+    "japanese": "準備(じゅんび)できたら、合図(あいず)してね。",
+    "english": "Give me a signal when you're ready."
+  },
+  "めくばせする|目配せする": {
+    "japanese": "そろそろ帰(かえ)ろうかって、友達(ともだち)に目配(めくば)せした。",
+    "english": "I gave my friend a look to suggest it was time to leave."
+  },
+  "ういんくする|ウインクする": {
+    "japanese": "写真(しゃしん)を撮(と)るとき、ふざけてウインクした。",
+    "english": "I winked playfully when the photo was taken."
+  },
+  "ほほえむ|微笑む": {
+    "japanese": "目(め)が合(あ)ったら、にこっと微笑(ほほえ)んでくれた。",
+    "english": "They gave me a gentle smile when our eyes met."
+  },
+  "にっこりする|": {
+    "japanese": "プレゼントを見(み)て、にっこりしてた。",
+    "english": "They smiled broadly when they saw the present."
+  },
+  "わらいかける|笑いかける": {
+    "japanese": "隣(となり)の赤(あか)ちゃんに笑(わら)いかけた。",
+    "english": "I smiled at the baby next to me."
+  },
+  "おじぎをかえす|お辞儀を返す": {
+    "japanese": "店員(てんいん)さんがお辞儀(じぎ)したから、私(わたし)もお辞儀(じぎ)を返(かえ)した。",
+    "english": "The shop assistant bowed, so I bowed back."
+  },
+  "あいさつする|挨拶する": {
+    "japanese": "朝(あさ)、隣(となり)の人(ひと)に挨拶(あいさつ)した。",
+    "english": "I greeted my neighbour this morning."
+  },
+  "みおくる|見送る": {
+    "japanese": "駅(えき)まで友達(ともだち)を見送(みおく)りに行(い)った。",
+    "english": "I went to the station to see my friend off."
+  },
+  "でむかえる|出迎える": {
+    "japanese": "空港(くうこう)まで家族(かぞく)を出迎(でむか)えに行(い)った。",
+    "english": "I went to the airport to meet my family."
   }
 }
