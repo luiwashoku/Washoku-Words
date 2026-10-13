@@ -2200,6 +2200,11 @@ html.vocabulary-cards-open,
 }
 
 .food-reference-subtitle { display: flex; align-items: center; gap: 12px; }
+.vocabulary-topic-picker { display: grid; gap: 7px; width: min(calc(100% - 32px), 780px); margin: 0 auto 16px; font-size: 13px; font-weight: 700; }
+.vocabulary-topic-picker select { min-width: 0; width: 100%; padding: 12px 10px; border: 2px solid var(--ink); border-radius: 8px; background: var(--paper); color: var(--ink); font: inherit; font-size: 16px; }
+.vocabulary-topic-picker select:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
+.knife-steps-list .popup-body { padding: 22px 28px; }
+.card-menu-topic { font-size: 16px; line-height: 1.5; margin: 24px 0 10px; }
 .food-reference-subtitle h4 { flex: 1; min-width: 0; }
 .food-reference-subtitle .explosion-example-speech { padding: 0; margin: 0; flex: 0 0 40px; width: 40px; height: 40px; }
 

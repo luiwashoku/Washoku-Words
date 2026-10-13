@@ -883,5 +883,19 @@
     "newRecordings": 282,
     "completedCards": 17,
     "rerecordedEntries": 10
+  },
+  {
+    "batch": 104,
+    "lesson": "household-finance-cards",
+    "title": "生活費・収入・家計",
+    "status": "generated",
+    "voice": "marin",
+    "model": "gpt-4o-mini-tts",
+    "speed": 1.0,
+    "speechKeys": 39,
+    "recordings": 39,
+    "reusedRecordings": 3,
+    "newRecordings": 36,
+    "completedCards": 3
   }
 ]

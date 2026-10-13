@@ -30,9 +30,9 @@ function run(args) {
           });
           return;
         }
-        rows.push({lesson: lessonId, card: entry.id, field: 'vocabulary', key: window.getJapaneseSpeechText(entry.japanese)});
+        if (!lesson.titleAudioDisabled) rows.push({lesson: lessonId, card: entry.id, field: 'vocabulary', key: window.getJapaneseSpeechText(entry.japanese)});
         (entry.blocks || []).forEach(function(block) {
-          if (block.pairs && (block.speech || block.exampleSentences)) rows.push({lesson: lessonId, card: entry.id, field: 'subtitle', key: window.getJapaneseSpeechText(block.speech || block.japanese)});
+          if (!lesson.titleAudioDisabled && block.pairs && (block.speech || block.exampleSentences)) rows.push({lesson: lessonId, card: entry.id, field: 'subtitle', key: window.getJapaneseSpeechText(block.speech || block.japanese)});
           var parts = block.numberRows || (block.pairs ? block.pairs.reduce(function(all, pair) { return all.concat([pair.vocabulary, pair.example || pair.food]); }, []) : (block.items || [block]));
           parts.forEach(function(part) {
             if (part.speech || part.japanese) rows.push({lesson: lessonId, card: entry.id, field: 'chunk', key: window.getJapaneseSpeechText(part.speech || part.japanese)});

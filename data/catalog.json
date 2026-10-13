@@ -1427,5 +1427,37 @@
     "menuColor": "purple",
     "questionCount": 9,
     "sampleAudio": true
+  },
+  {
+    "id": "topic-vocabulary-cards",
+    "category": "conversation",
+    "title": "単語カード",
+    "page": "Vocabulary topics",
+    "file": "data/topic-vocabulary-cards.json",
+    "gameMode": "vocabulary-cards",
+    "readingCards": true,
+    "topicCards": true,
+    "ordered": true,
+    "titleAudioDisabled": true,
+    "recordedAudioOnly": true,
+    "homeOnly": true,
+    "searchExcluded": true,
+    "questionCount": 116,
+    "wordCount": 1111,
+    "topicCount": 23
+  },
+  {
+    "id": "household-finance-cards",
+    "category": "conversation",
+    "title": "生活費・収入・家計",
+    "file": "data/household-finance-cards.json",
+    "gameMode": "vocabulary-cards",
+    "readingCards": true,
+    "ordered": true,
+    "titleAudioDisabled": true,
+    "homeOnly": true,
+    "searchExcluded": true,
+    "questionCount": 3,
+    "audioSupplementFor": "topic-vocabulary-cards"
   }
 ]

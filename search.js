@@ -33,12 +33,13 @@
     let loading = null;
     let timer;
     let vocabulary;
+    const searchableLessons = catalog.filter(lesson => !lesson.searchExcluded);
 
     function render() {
       results.replaceChildren();
       const terms = normalize(input.value).trim().split(/\s+/).filter(Boolean);
       const pending = loading ? " Loading lessons…" : "";
-      const missing = !loading && loaded.size < catalog.length ? " Some lessons could not load. Close and reopen search to retry." : "";
+      const missing = !loading && loaded.size < searchableLessons.length ? " Some lessons could not load. Close and reopen search to retry." : "";
       if (!terms.length) {
         status.textContent = `Search question titles, grammar points, and game words.${pending}${missing}`;
         return;
@@ -71,7 +72,7 @@
     }
 
     async function buildIndex() {
-      const pending = catalog.filter((lesson) => !loaded.has(lesson.id));
+      const pending = searchableLessons.filter((lesson) => !loaded.has(lesson.id));
       let next = 0;
       await Promise.all(Array.from({ length: Math.min(6, pending.length) }, async () => {
         while (next < pending.length) {
@@ -106,7 +107,7 @@
     trigger.addEventListener("click", () => {
       dialog.showModal();
       input.focus();
-      if (!loading && loaded.size < catalog.length) {
+      if (!loading && loaded.size < searchableLessons.length) {
         loading = buildIndex().finally(() => { loading = null; render(); });
       }
       render();

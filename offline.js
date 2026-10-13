@@ -43,8 +43,11 @@
       }
       const audio = lesson.audioFiles || window.lessonAudioFiles?.[lesson.id] || (lesson.id === 'taste-words' ? window.tasteAudioFiles : lesson.gameMode ? window.gameAudioFiles : null);
       Object.values(audio || {}).forEach(path => paths.add(url(path)));
-      if (['word-explosion', 'word-explosion-2'].includes(lesson.id)) {
+      if (['word-explosion', 'word-explosion-2', 'topic-vocabulary-cards'].includes(lesson.id)) {
         Object.values(window.wordExplosionAudioFiles || {}).forEach(path => paths.add(url(path)));
+      }
+      if (lesson.id === 'topic-vocabulary-cards') {
+        Object.values(window.lessonAudioFiles?.['household-finance-cards'] || {}).forEach(path => paths.add(url(path)));
       }
       if (lesson.gameMode) {
         paths.add(url('assets/cat-03.svg'));

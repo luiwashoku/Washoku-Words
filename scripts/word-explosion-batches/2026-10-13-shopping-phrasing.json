@@ -1,0 +1,46 @@
+{
+  "id": "2026-10-13-shopping-phrasing",
+  "voice": "marin",
+  "model": "gpt-4o-mini-tts",
+  "speed": 1.0,
+  "requested_readings": [
+    "ねあげ"
+  ],
+  "new_vocabulary_keys": [
+    "てんいん"
+  ],
+  "sentences": [
+    {
+      "key": "いつものパンもねあげしてたよ。",
+      "vocabulary_key": "ねあげ",
+      "display": "いつものパンも値上(ねあ)げしてたよ。",
+      "english": "Even our usual bread has gone up in price.",
+      "input": "いつものぱんもねあげしてたよ。",
+      "speed": 1.0,
+      "reading_review": "Reviewed original furigana and dictionary reading 値上げねあげ; no contextual particle substitutions required. Keep パン nasal mora and lexical ねあげ intact.",
+      "pitch_review": {
+        "components": [
+          {
+            "word": "値上げ",
+            "reading": "ねあげ",
+            "accent": 0,
+            "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L84781"
+          }
+        ]
+      },
+      "phrase_intonation": "provisional, authorized",
+      "pronunciation_guidance": "A casual observation about bread becoming more expensive. Say いつものぱんも as one phrase, then ねあげしてたよ as one connected phrase. Allow only a very brief natural boundary after も, with no dramatic pause. Keep ねあげしてたよ smooth, evenly paced and conversational; do not stretch syllables or rush the ending. 値上げ is heiban (0); use natural Tokyo intonation for its inflected phrase.",
+      "listening_verified": false
+    }
+  ],
+  "recordings": {
+    "vocabulary": {
+      "てんいん": "audio/marin-pitch-trials/marin-56817718068bf8ca88ca.mp3"
+    },
+    "sentences": {
+      "いつものパンもねあげしてたよ。": "audio/word-explosion-batches/2026-10-13-shopping-phrasing/marin-07fa1193072b0790752c.mp3"
+    }
+  },
+  "listening_verified": false,
+  "file_validation": "Both MP3 files readable with afinfo; audible pacing and pitch not listening-verified"
+}

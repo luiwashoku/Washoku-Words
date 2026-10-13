@@ -31,9 +31,11 @@ def prepare(batch_id):
         '/usr/bin/osascript', '-l', 'JavaScript', str(ROOT / 'scripts/export-game-audio.js'),
         str(ROOT), '--vocab-only'
     ], text=True))
-    if set(readings) != {r['key'] for r in rows} or set(pitch) != set(readings):
-        raise ValueError('Complete vocabulary reading and accent review coverage is required')
+    if not set(batch['new_vocabulary_keys']).issubset(set(readings) & set(pitch)):
+        raise ValueError('Selected vocabulary requires reading and accent review coverage')
     for row in rows:
+        if row['key'] not in batch['new_vocabulary_keys']:
+            continue
         entry = readings[row['key']]
         if {'english': row['english'], 'kanji': row['kanji']} not in entry['vocabulary']:
             raise ValueError(f"Vocabulary reading review changed: {row['key']}")
@@ -41,7 +43,7 @@ def prepare(batch_id):
         '/usr/bin/osascript', '-l', 'JavaScript', str(ROOT / 'scripts/export-game-audio.js'),
         str(ROOT)
     ], text=True))
-    exported_inputs = {r['key']: r['text'] for r in exported}
+    exported_inputs = {r['key']: ''.join(chr(ord(c) - 0x60) if 'ァ' <= c <= 'ヶ' else c for c in r['text']) for r in exported}
     spec = importlib.util.spec_from_file_location('marin_pitch', ROOT / 'scripts/generate-marin-pitch-trials.py')
     generator = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(generator)
@@ -60,7 +62,7 @@ def prepare(batch_id):
         if entry['speed'] != 1.0:
             raise ValueError(f'This batch requires generation speed 1.0: {key}')
         payload = dict(model=batch['model'], voice=batch['voice'], input=entry['text'],
-                       speed=1.0, response_format='mp3', instructions=generator.instruction(entry))
+                       speed=1.0, response_format='mp3', instructions=generator.instruction(entry) + (' ' + entry['pronunciation_guidance'] if entry.get('pronunciation_guidance') else ''))
         jobs.append(('vocabulary', key, 'audio/marin-pitch-trials', payload))
     examples = load('data/word-explosion-examples.json')
     for entry in batch['sentences']:

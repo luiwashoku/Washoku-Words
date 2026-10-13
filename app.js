@@ -135,7 +135,7 @@
     bindEvents();
 
     state.catalog = await loadCatalog();
-    document.getElementById("openVocabularyCards").disabled = !state.catalog.some(lesson => lesson.id === "word-explosion-2");
+    document.getElementById("openVocabularyCards").disabled = !state.catalog.some(lesson => lesson.id === "topic-vocabulary-cards");
     document.getElementById("openGrammarCards").disabled = !state.catalog.some(lesson => lesson.id === "grammar-cards");
     renderCategories();
     window.WashokuSearch.init({
@@ -777,14 +777,15 @@
 
   function getRecordedJapaneseFile(text) {
     const id = state.selectedLesson?.id;
-    if (["word-explosion", "word-explosion-2"].includes(id)) {
+    if (["word-explosion", "word-explosion-2", "topic-vocabulary-cards"].includes(id)) {
       const vocabularyFile = window.wordExplosionAudioFiles?.[getJapaneseSpeechText(text)];
       if (vocabularyFile) return vocabularyFile;
     }
     const files = id === "taste-words" ? window.tasteAudioFiles
-      : ["word-explosion", "word-explosion-2", "game-prototype", "three-second-replies"].includes(id)
+      : ["word-explosion", "word-explosion-2", "game-prototype", "three-second-replies", "topic-vocabulary-cards"].includes(id)
         ? window.gameAudioFiles : null;
     return window.lessonAudioFiles?.[id]?.[getJapaneseSpeechText(text)]
+      || (id === "topic-vocabulary-cards" ? window.lessonAudioFiles?.["household-finance-cards"]?.[getJapaneseSpeechText(text)] : null)
       || files?.[getJapaneseSpeechText(text)];
   }
 
@@ -1459,11 +1460,11 @@
     return button;
   }
 
-  function openVocabularyCards(lesson = state.catalog.find(entry => entry.id === "word-explosion-2")) {
-    if (lesson instanceof Event) lesson = state.catalog.find(entry => entry.id === "word-explosion-2");
+  function openVocabularyCards(lesson = state.catalog.find(entry => entry.id === "topic-vocabulary-cards")) {
+    if (lesson instanceof Event) lesson = state.catalog.find(entry => entry.id === "topic-vocabulary-cards");
     if (!lesson) return;
     cancelJapaneseSpeech();
-    if (lesson.gameMode !== "vocabulary-cards") state.selectedCategory = null;
+    if (lesson.homeOnly || lesson.gameMode !== "vocabulary-cards") state.selectedCategory = null;
     state.selectedLesson = { ...lesson, isStudyCards: true };
     showScreen("word-explosion");
     document.getElementById("wordExplosionTitle").textContent = lesson.gameMode === "vocabulary-cards" ? lesson.title : "単語カード";

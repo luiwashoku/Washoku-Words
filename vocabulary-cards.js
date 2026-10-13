@@ -10,6 +10,17 @@
     let gesture = null;
     let furiganaVisible = false;
     let allDialog = null;
+    if (lesson.recordedAudioOnly) {
+      const makeSpeechButton = createExampleSpeechButton;
+      createExampleSpeechButton = (text, label, onPlay) => {
+        const button = makeSpeechButton(text, label, onPlay);
+        if (!getRecordedJapaneseFile(text)) {
+          button.disabled = true;
+          button.title = "Recording unavailable";
+        }
+        return button;
+      };
+    }
     const screen = container.closest("#wordExplosionScreen");
     screen.classList.add("study-cards-screen");
     document.documentElement.classList.add("vocabulary-cards-open");
@@ -18,7 +29,7 @@
     container.classList.add("furigana-hidden");
     const wordPlayer = window.MoneyCatGame.createVocabularyPlayer(
       getRecordedJapaneseFile, src => new window.Audio(src), window.fetch.bind(window), signal);
-    if (!lesson.audioDisabled) wordPlayer.unlock();
+    if (!lesson.audioDisabled && !lesson.titleAudioDisabled) wordPlayer.unlock();
 
     toolbar.replaceChildren();
     toolbar.classList.remove("hidden");
@@ -75,12 +86,22 @@
         empty.textContent = "No matching cards.";
         empty.hidden = true;
         const searchable = [];
+        const topicHeadings = [];
+        let currentTopic = null;
         function normalize(text) {
           return String(text || "").normalize("NFKC").toLowerCase()
             .replace(/[ァ-ヶ]/g, letter => String.fromCharCode(letter.charCodeAt(0) - 0x60))
             .replace(/[～〜]/g, "");
         }
         entries.forEach((word, target) => {
+          if (word.topicId && word.topicId !== currentTopic) {
+            currentTopic = word.topicId;
+            const heading = document.createElement("h3");
+            heading.className = "card-menu-topic";
+            heading.textContent = `${entries.findIndex(entry => entry.topicId === word.topicId) + 1}-${entries.findLastIndex(entry => entry.topicId === word.topicId) + 1} ${word.topicJapanese} · ${word.topicEnglish}`;
+            results.append(heading);
+            topicHeadings.push({ heading, topic: word.topicId });
+          }
           const button = document.createElement("button");
           button.type = "button";
           const number = word.step || target + 1;
@@ -96,11 +117,15 @@
             point.textContent = `${number}. ${word.kanji || word.japanese}`;
             button.append(point, document.createTextNode(` — ${word.english}`));
           }
-          else if (lesson.sentenceCards || lesson.readingCards) setJapaneseText(button, `${word.step ? word.step + ". " : ""}${word.kanji || word.japanese}`);
+          else if (lesson.sentenceCards || lesson.readingCards) {
+            const label = lesson.topicCards ? document.createElement("strong") : button;
+            setJapaneseText(label, `${word.step ? word.step + ". " : ""}${word.kanji || word.japanese}`);
+            if (lesson.topicCards) button.append(label, document.createTextNode(` — ${word.english}`));
+          }
           else button.textContent = `${number ? number + ". " : ""}${word.kanji || word.japanese} — ${word.english}`;
           button.addEventListener("click", () => { move(target - index); dialog.close(); }, { signal });
           results.appendChild(button);
-          searchable.push({ button, text: normalize(`${number} ${word.menuLabel || ""} ${word.group || ""} ${word.kanji || ""} ${word.japanese} ${word.english}`) });
+          searchable.push({ button, topic: word.topicId, text: normalize(`${number} ${word.menuLabel || ""} ${word.group || ""} ${word.kanji || ""} ${word.japanese} ${word.english} ${word.searchText || ""}`) });
         });
         search.addEventListener("input", () => {
           const query = normalize(search.value.trim());
@@ -109,6 +134,9 @@
             const visible = item.text.includes(query);
             item.button.classList.toggle("hidden", !visible);
             if (visible) matches++;
+          });
+          topicHeadings.forEach(item => {
+            item.heading.hidden = !searchable.some(result => result.topic === item.topic && !result.button.classList.contains("hidden"));
           });
           empty.hidden = matches > 0;
         }, { signal });
@@ -152,10 +180,23 @@
     counter.setAttribute("role", "status");
     counter.setAttribute("aria-live", "polite");
     navigation.append(previous, counter, next);
+    const topicPicker = document.createElement("label");
+    topicPicker.className = "vocabulary-topic-picker";
+    const topicLabel = document.createElement("span");
+    topicLabel.textContent = "Topic / トピック";
+    const topicSelect = document.createElement("select");
+    topicSelect.id = "vocabularyCardTopic";
+    topicSelect.setAttribute("aria-label", "Choose vocabulary topic");
+    topicPicker.append(topicLabel, topicSelect);
+    if (lesson.topicCards) container.append(topicPicker);
     container.append(status, retry, card);
+    topicSelect.addEventListener("change", () => {
+      const target = entries.findIndex(entry => entry.topicId === topicSelect.value);
+      if (target >= 0) move(target - index);
+    }, { signal });
 
     function playWord() {
-      if (lesson.audioDisabled) return;
+      if (lesson.audioDisabled || lesson.titleAudioDisabled) return;
       if (!alive || !entries.length) return;
       if (entries[index].example?.audioPending) return;
       stopSpeech();
@@ -168,6 +209,7 @@
 
     function render() {
       const word = entries[index];
+      if (lesson.topicCards) topicSelect.value = word.topicId;
       if (lesson.conjugationCards) {
         const header = document.createElement("header");
         header.className = "reading-card-header";
@@ -335,7 +377,7 @@
         english.className = "vocabulary-card-translation";
         english.textContent = word.english;
         titles.append(title, english);
-        const speaker = lesson.audioDisabled ? null : createExampleSpeechButton(word.japanese, "Read card title", playWord);
+        const speaker = lesson.audioDisabled || lesson.titleAudioDisabled ? null : createExampleSpeechButton(word.japanese, "Read card title", playWord);
         header.append(titles);
         if (speaker) header.append(speaker);
         const body = document.createElement("div");
@@ -464,7 +506,7 @@
             const titleRow = document.createElement("div");
             titleRow.className = "food-reference-subtitle";
             titleRow.append(heading);
-            if (!lesson.audioDisabled) {
+            if (!lesson.audioDisabled && !lesson.titleAudioDisabled) {
               const speaker = createExampleSpeechButton(block.speech || block.japanese, "Read category subtitle");
               speaker.addEventListener("click", () => wordPlayer.stop(), { capture: true, signal });
               titleRow.append(speaker);
@@ -643,6 +685,14 @@
           : await window.WordExplosionGame.loadVocabulary(file, signal);
         if (!alive) return;
         entries = [...data.entries];
+        if (lesson.topicCards) {
+          topicSelect.replaceChildren(...data.topics.map(topic => {
+            const option = document.createElement("option");
+            option.value = topic.id;
+            option.textContent = `${entries.findIndex(entry => entry.topicId === topic.id) + 1}-${entries.findLastIndex(entry => entry.topicId === topic.id) + 1} ${topic.japanese} · ${topic.english} (${topic.wordCount})`;
+            return option;
+          }));
+        }
         if (!lesson.ordered) for (let i = entries.length - 1; i > 0; i--) {
           const j = Math.floor(Math.random() * (i + 1));
           [entries[i], entries[j]] = [entries[j], entries[i]];

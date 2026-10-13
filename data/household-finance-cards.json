@@ -1,0 +1,305 @@
+{
+  "title": "生活費・収入・家計",
+  "source": "User-supplied vocabulary and ten comparison/conversation sentences; additional contextual examples for the remaining terms. Statements about Japan/Switzerland are language practice examples supplied by the user.",
+  "entries": [
+    {
+      "id": "household-finance-costs",
+      "step": 1,
+      "kanji": "生活費・日々の出費",
+      "japanese": "生活費・日々の出費",
+      "english": "Living costs and everyday expenses",
+      "blocks": [
+        {
+          "japanese": "生活費・日々の出費",
+          "english": "Living costs and everyday expenses",
+          "exampleSentences": true,
+          "pairs": [
+            {
+              "sourceKey": "ぶっか|物価",
+              "overrideExisting": true,
+              "vocabulary": {
+                "japanese": "物価(ぶっか)",
+                "english": "Prices / general price level",
+                "speech": "ぶっか"
+              },
+              "example": {
+                "japanese": "日本(にほん)と比(くら)べると、スイスは物価(ぶっか)が高(たか)いです。",
+                "english": "Compared with Japan, prices in Switzerland are high."
+              }
+            },
+            {
+              "sourceKey": "せいかつひ|生活費",
+              "overrideExisting": false,
+              "vocabulary": {
+                "japanese": "生活費(せいかつひ)",
+                "english": "Cost of living / living expenses",
+                "speech": "せいかつひ"
+              },
+              "example": {
+                "japanese": "スイスと日本(にほん)では、生活費(せいかつひ)がかなり違(ちが)いますね。",
+                "english": "Living expenses are quite different between Switzerland and Japan, aren't they?"
+              }
+            },
+            {
+              "sourceKey": "やちん|家賃",
+              "overrideExisting": false,
+              "vocabulary": {
+                "japanese": "家賃(やちん)",
+                "english": "Rent",
+                "speech": "やちん"
+              },
+              "example": {
+                "japanese": "家賃(やちん)を払(はら)ったあと、あまり余裕(よゆう)がありません。",
+                "english": "After paying rent, there's not much money left over."
+              }
+            },
+            {
+              "sourceKey": "しょくひ|食費",
+              "overrideExisting": false,
+              "vocabulary": {
+                "japanese": "食費(しょくひ)",
+                "english": "Food expenses",
+                "speech": "しょくひ"
+              },
+              "example": {
+                "japanese": "最近(さいきん)、食費(しょくひ)が増(ふ)えてきました。",
+                "english": "My food expenses have been increasing lately."
+              }
+            },
+            {
+              "sourceKey": "こうねつひ|光熱費",
+              "overrideExisting": false,
+              "vocabulary": {
+                "japanese": "光熱費(こうねつひ)",
+                "english": "Utility bills",
+                "speech": "こうねつひ"
+              },
+              "example": {
+                "japanese": "冬(ふゆ)は光熱費(こうねつひ)が高(たか)くなります。",
+                "english": "My utility bills go up in winter."
+              }
+            },
+            {
+              "sourceKey": "ししゅつ|支出",
+              "overrideExisting": false,
+              "vocabulary": {
+                "japanese": "支出(ししゅつ)",
+                "english": "Expenditure / spending",
+                "speech": "ししゅつ"
+              },
+              "example": {
+                "japanese": "今月(こんげつ)の支出(ししゅつ)を見直(みなお)しています。",
+                "english": "I'm reviewing this month's spending."
+              }
+            },
+            {
+              "sourceKey": "くらし|暮らし",
+              "overrideExisting": false,
+              "vocabulary": {
+                "japanese": "暮らし(くらし)",
+                "english": "Everyday life / livelihood",
+                "speech": "くらし"
+              },
+              "example": {
+                "japanese": "日本(にほん)での暮(く)らしには、もう慣(な)れましたか。",
+                "english": "Have you got used to life in Japan yet?"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "household-finance-income",
+      "step": 2,
+      "kanji": "収入・貯金・家計",
+      "japanese": "収入・貯金・家計",
+      "english": "Income, savings and household finances",
+      "blocks": [
+        {
+          "japanese": "収入・貯金・家計",
+          "english": "Income, savings and household finances",
+          "exampleSentences": true,
+          "pairs": [
+            {
+              "sourceKey": "きゅうりょう|給料",
+              "overrideExisting": false,
+              "vocabulary": {
+                "japanese": "給料(きゅうりょう)",
+                "english": "Salary / pay",
+                "speech": "きゅうりょう"
+              },
+              "example": {
+                "japanese": "スイスは物価(ぶっか)が高(たか)いですが、給料(きゅうりょう)も高(たか)いです。",
+                "english": "Prices are high in Switzerland, but salaries are also high."
+              }
+            },
+            {
+              "sourceKey": "しゅうにゅう|収入",
+              "overrideExisting": false,
+              "vocabulary": {
+                "japanese": "収入(しゅうにゅう)",
+                "english": "Income",
+                "speech": "しゅうにゅう"
+              },
+              "example": {
+                "japanese": "毎月(まいつき)の収入(しゅうにゅう)を確認(かくにん)しています。",
+                "english": "I keep track of my monthly income."
+              }
+            },
+            {
+              "sourceKey": "へいきんねんしゅう|平均年収",
+              "overrideExisting": false,
+              "vocabulary": {
+                "japanese": "平均年収(へいきんねんしゅう)",
+                "english": "Average annual income",
+                "speech": "へいきんねんしゅう"
+              },
+              "example": {
+                "japanese": "この地域(ちいき)の平均年収(へいきんねんしゅう)は、どのくらいですか。",
+                "english": "What is the average annual income in this area?"
+              }
+            },
+            {
+              "sourceKey": "てどり|手取り",
+              "overrideExisting": false,
+              "vocabulary": {
+                "japanese": "手取り(てどり)",
+                "english": "Take-home pay",
+                "speech": "てどり"
+              },
+              "example": {
+                "japanese": "税金(ぜいきん)などを引(ひ)いたあとに受(う)け取(と)る金額(きんがく)が手取(てど)りです。",
+                "english": "Take-home pay is the amount received after taxes and other deductions."
+              }
+            },
+            {
+              "sourceKey": "ぜいきん|税金",
+              "overrideExisting": false,
+              "vocabulary": {
+                "japanese": "税金(ぜいきん)",
+                "english": "Taxes",
+                "speech": "ぜいきん"
+              },
+              "example": {
+                "japanese": "給料(きゅうりょう)から税金(ぜいきん)が引(ひ)かれます。",
+                "english": "Taxes are deducted from my salary."
+              }
+            },
+            {
+              "sourceKey": "ちょきん|貯金",
+              "overrideExisting": false,
+              "vocabulary": {
+                "japanese": "貯金(ちょきん)",
+                "english": "Savings / saving money",
+                "speech": "ちょきん"
+              },
+              "example": {
+                "japanese": "毎月(まいつき)、少(すこ)しずつ貯金(ちょきん)しています。",
+                "english": "I save a little money every month."
+              }
+            },
+            {
+              "sourceKey": "ふたん|負担",
+              "overrideExisting": true,
+              "vocabulary": {
+                "japanese": "負担(ふたん)",
+                "english": "Financial burden",
+                "speech": "ふたん"
+              },
+              "example": {
+                "japanese": "家賃(やちん)の支払(しはら)いが、大(おお)きな負担(ふたん)になっています。",
+                "english": "Rent payments are becoming a major financial burden."
+              }
+            },
+            {
+              "sourceKey": "よゆう|余裕",
+              "overrideExisting": true,
+              "vocabulary": {
+                "japanese": "余裕(よゆう)",
+                "english": "Financial breathing room / leeway",
+                "speech": "よゆう"
+              },
+              "example": {
+                "japanese": "家賃(やちん)を払(はら)ったあと、あまり余裕(よゆう)がありません。",
+                "english": "After paying rent, there's not much money left over."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "household-finance-comparisons",
+      "step": 3,
+      "kanji": "生活費の比較",
+      "japanese": "生活費の比較",
+      "english": "Comparing living costs",
+      "blocks": [
+        {
+          "japanese": "生活費の比較",
+          "english": "Comparing living costs",
+          "exampleSentences": true,
+          "pairs": [
+            {
+              "sourceKey": "とくらべると|～と比べると",
+              "vocabulary": {
+                "japanese": "～と比(くら)べると",
+                "english": "Compared with…",
+                "speech": "とくらべると"
+              },
+              "example": {
+                "japanese": "日本(にほん)のスーパーは、スイスと比(くら)べると安(やす)く感(かん)じます。",
+                "english": "Japanese supermarkets feel inexpensive compared with Switzerland.",
+                "explanation": {
+                  "japanese": "でも、日本(にほん)で働(はたら)いている人(ひと)にとっては、安(やす)くないかもしれませんね。",
+                  "english": "But for people working in Japan, perhaps it isn't cheap."
+                }
+              }
+            },
+            {
+              "sourceKey": "にたいして|～に対して",
+              "vocabulary": {
+                "japanese": "～に対(たい)して",
+                "english": "Relative to / in relation to…",
+                "speech": "にたいして"
+              },
+              "example": {
+                "japanese": "給料(きゅうりょう)に対(たい)して、物価(ぶっか)が高(たか)いです。",
+                "english": "Prices are high relative to salaries."
+              }
+            },
+            {
+              "sourceKey": "のわりに|～のわりに",
+              "vocabulary": {
+                "japanese": "～のわりに",
+                "english": "Considering… / for… (often unexpectedly)",
+                "speech": "のわりに"
+              },
+              "example": {
+                "japanese": "給料(きゅうりょう)のわりに、生活費(せいかつひ)が高(たか)いです。",
+                "english": "Living expenses are high considering the salaries.",
+                "explanation": {
+                  "japanese": "東京(とうきょう)は給料(きゅうりょう)のわりに物価(ぶっか)が高(たか)い気(き)がします。",
+                  "english": "I feel like Tokyo is expensive relative to salaries."
+                }
+              }
+            },
+            {
+              "sourceKey": "によってちがう|～によって違う",
+              "vocabulary": {
+                "japanese": "～によって違(ちが)う",
+                "english": "It differs depending on…",
+                "speech": "によってちがう"
+              },
+              "example": {
+                "japanese": "生活費(せいかつひ)は住(す)む場所(ばしょ)によって違(ちが)います。",
+                "english": "Living expenses differ depending on where you live."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

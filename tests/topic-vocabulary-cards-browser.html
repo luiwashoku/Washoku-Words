@@ -1,0 +1,105 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Topic vocabulary card checks</title>
+<pre id="result">RUNNING</pre>
+<iframe src="../index.html" style="width:320px;height:740px" title="App"></iframe>
+<script>
+(async () => {
+  const frame = document.querySelector('iframe'), result = document.querySelector('#result');
+  const assert = (value, message) => { if (!value) throw Error(message); };
+  const until = async fn => {
+    for (let i = 0; i < 400; i++) {
+      if (fn()) return;
+      await new Promise(resolve => setTimeout(resolve, 20));
+    }
+    throw Error('Timed out');
+  };
+  try {
+    await until(() => frame.contentDocument.querySelector('#openVocabularyCards:not(:disabled)'));
+    const w = frame.contentWindow, d = frame.contentDocument, plays = [];
+    w.Audio = class extends w.EventTarget {
+      constructor(src) { super(); this.src = src; this.paused = true; this.currentTime = 0; this.playbackRate = 1; }
+      getAttribute(name) { return name === 'src' ? this.src : null; }
+      play() { this.paused = false; plays.push({src: this.src, rate: this.playbackRate}); return Promise.resolve(); }
+      pause() { this.paused = true; }
+    };
+    const data = await fetch('../data/topic-vocabulary-cards.json').then(r => r.json());
+    const lookup = text => {
+      const key = w.getJapaneseSpeechText(text);
+      return w.wordExplosionAudioFiles[key] || w.lessonAudioFiles['household-finance-cards'][key] || w.gameAudioFiles[key];
+    };
+    d.querySelector('#openVocabularyCards').click();
+    await until(() => d.querySelector('.food-reference-table'));
+    const select = d.querySelector('#vocabularyCardTopic');
+    assert(select.options.length === 23, '23 topic choices');
+    for (const option of select.options) {
+      const start = data.entries.findIndex(card => card.topicId === option.value) + 1;
+      const end = data.entries.map(card => card.topicId).lastIndexOf(option.value) + 1;
+      assert(option.textContent.startsWith(`${start}-${end} `), 'Topic page range');
+    }
+    assert(select.getBoundingClientRect().left >= 16 && select.getBoundingClientRect().right <= w.innerWidth - 16, 'Topic selector side spacing');
+    assert(plays.length === 0, 'No topic title autoplay');
+    const visited = new Set();
+    for (let i = 0; i < data.entries.length; i++) {
+      const card = data.entries[i];
+      assert(select.value === card.topicId, 'Topic selector follows navigation');
+      assert(d.querySelector('#studyCardWord').textContent === `${card.step}. ${card.kanji}`, 'Page title');
+      assert(d.querySelector('.vocabulary-card-counter').textContent === `${i + 1} / ${data.entries.length}`, 'Page counter');
+      assert(!d.querySelector('.reading-card-header button, .food-reference-subtitle button'), 'Topic titles are silent');
+      const rows = [...d.querySelectorAll('.food-reference-table tbody tr')];
+      const pairs = card.blocks.flatMap(block => block.pairs);
+      assert(rows.length === pairs.length && rows.length <= 12, 'Small pages retain all rows');
+      for (const [n, row] of rows.entries()) {
+        const pair = pairs[n];
+        assert(!visited.has(pair.sourceKey), 'No duplicate vocabulary');
+        visited.add(pair.sourceKey);
+        assert(row.cells.length === 2, 'Two columns');
+        assert(row.cells[0].querySelector('[lang="en"]').textContent === pair.vocabulary.english, 'Word meaning');
+        assert(row.cells[1].querySelector('[lang="en"]').textContent === pair.example.english, 'Sample translation');
+        assert(row.cells[0].getBoundingClientRect().right <= row.cells[1].getBoundingClientRect().left + 1, 'Columns beside each other');
+        if (pair.example.explanation) {
+          const button = row.cells[1].querySelectorAll('button')[1], count = plays.length;
+          assert(button && lookup(pair.example.explanation.japanese), 'Additional example has recording');
+          button.click();
+          await until(() => plays.length > count);
+          assert(plays.at(-1).src === lookup(pair.example.explanation.japanese), 'Additional example playback');
+        }
+        for (const [cell, text] of [[row.cells[0], pair.vocabulary.speech], [row.cells[1], pair.example.japanese]]) {
+          const button = cell.querySelector('button'), count = plays.length;
+          assert(button && !button.disabled && lookup(text), 'Existing recording available');
+          button.click();
+          await until(() => plays.length > count);
+          assert(plays.at(-1).src === lookup(text) && plays.at(-1).rate === 1, 'Original recording and playback speed');
+        }
+      }
+      assert(d.documentElement.scrollWidth <= w.innerWidth + 1, 'Phone fit');
+      if (i + 1 < data.entries.length) {
+        const count = plays.length;
+        d.querySelector('#vocabularyCardNavigation button:last-child').click();
+        assert(plays.length === count, 'Navigation does not read topic titles');
+      }
+    }
+    assert(visited.size === data.wordCount, 'All original vocabulary retained');
+    select.value = 'shopping';
+    select.dispatchEvent(new w.Event('change'));
+    assert(d.querySelector('.vocabulary-card-counter').textContent === `1 / ${data.entries.length}`, 'Topic jump');
+    d.querySelector('#vocabularyCardFurigana').click();
+    assert(w.getComputedStyle(d.querySelector('.furiganaReading')).display !== 'none', 'Furigana toggle');
+    d.querySelector('#vocabularyCardTools button[aria-label="Show all cards"]').click();
+    const dialog = d.querySelector('dialog.knife-steps-list');
+    assert(dialog.open && dialog.querySelectorAll('.card-menu-topic').length === 23, 'Card menu grouped into 23 topics');
+    const search = dialog.querySelector('input');
+    search.value = 'discount';
+    search.dispatchEvent(new w.Event('input'));
+    const matches = [...dialog.querySelectorAll('.popup-body > div > button:not(.hidden)')];
+    assert(matches.length === 1, 'Search finds a word inside a topic page');
+    assert([...dialog.querySelectorAll('.card-menu-topic')].filter(heading => !heading.hidden).length === 1, 'Search hides unrelated topic headings');
+    matches[0].click();
+    assert(!dialog.open && select.value === 'shopping', 'Word search opens its topic page');
+    assert([...d.querySelectorAll('.food-reference-table tbody tr')].some(row => row.cells[0].textContent.includes('Discount')), 'Matching vocabulary visible');
+    d.querySelector('#backFromExplosion').click();
+    assert(!d.querySelector('#homeScreen').classList.contains('hidden'), 'Home-only cards return home');
+    result.textContent = `PASS: 23 topics, ${data.entries.length} pages, ${data.wordCount} vocabulary entries/examples, all existing speakers, silent titles, topic jumps, search, furigana and phone fit`;
+  } catch (error) { result.textContent = 'FAIL: ' + error.stack; }
+})();
+</script>

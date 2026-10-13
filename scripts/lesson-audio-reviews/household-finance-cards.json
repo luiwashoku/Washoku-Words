@@ -1,0 +1,2028 @@
+{
+  "lesson": "household-finance-cards",
+  "reviewed": true,
+  "voice": "marin",
+  "model": "gpt-4o-mini-tts",
+  "speed": 1.0,
+  "reading_sources": [
+    "User-supplied vocabulary readings and ten contextual sentences",
+    "data/household-finance-cards.json",
+    "https://kotobank.jp/word/%E5%85%89%E7%86%B1%E8%B2%BB-62992",
+    "https://dictionary.goo.ne.jp/word/%E7%94%9F%E6%B4%BB%E8%B2%BB/"
+  ],
+  "accent_source": {
+    "url": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt",
+    "sha256": "8bd0dd127dab32ceec94cb03ab1ba6b68858ea73421dfa1731af2f373deb4f20",
+    "selection": "Match exact intended spelling and reviewed reading; preserve all applicable variants. 平均年収 and comparison phrases remain provisional when no reliable complete target is available."
+  },
+  "reviewNotes": "Reviewed all 39 inputs for financial meaning, hiragana readings, long vowels and doubled consonants. User samples retain display text; particles are corrected only in speech input. Checked contextual topic は→わ and object を→お; no directional へ occurs. Retain lexical は in はらった/はたらいて, lexical わ in くらべる and よゆう, and long vowels in きゅうりょう/しゅうにゅう/こうねつひ/へいきんねんしゅう. 日本 uses the supplied にほん, not にっぽん. 金融手取り uses てどり. Commas occur after complete phrases/clauses and never immediately before a particle. Natural Tokyo intonation is authorized for unconfirmed phrase/compound pitch; component targets do not certify a whole expression. No audible pitch or listening verification is claimed. Topic and section titles have no recordings.",
+  "entries": [
+    {
+      "key": "ぶっか",
+      "input": "ぶっか",
+      "display": "物価(ぶっか)",
+      "english": "Prices / general price level",
+      "contexts": [
+        {
+          "card": "household-finance-costs",
+          "kind": "vocabulary",
+          "display": "物価(ぶっか)",
+          "english": "Prices / general price level",
+          "sourceKey": "ぶっか|物価"
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "accent_components": [
+        {
+          "form": "物価",
+          "reading": "ぶっか",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L104173",
+          "usage": "lexical component; no whole-phrase accent claim"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Say the complete word or comparison phrase continuously without gaps between morae. ",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "物価",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L104173",
+      "reuse_audio": "audio/marin-pitch-trials/marin-f9aa000c42b8ea46f126.mp3",
+      "reuse_source": "Active word-explosion-audio-manifest.js; scripts/word-explosion-marin-review.json#ぶっか",
+      "audio": "audio/marin-pitch-trials/marin-f9aa000c42b8ea46f126.mp3"
+    },
+    {
+      "key": "にほんとくらべると、スイスはぶっかがたかいです。",
+      "input": "にほんとくらべると、すいすわぶっかがたかいです。",
+      "display": "日本(にほん)と比(くら)べると、スイスは物価(ぶっか)が高(たか)いです。",
+      "english": "Compared with Japan, prices in Switzerland are high.",
+      "contexts": [
+        {
+          "card": "household-finance-costs",
+          "kind": "example",
+          "display": "日本(にほん)と比(くら)べると、スイスは物価(ぶっか)が高(たか)いです。",
+          "english": "Compared with Japan, prices in Switzerland are high."
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "物価",
+          "reading": "ぶっか",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L104173",
+          "usage": "lexical component; no whole-phrase accent claim"
+        },
+        {
+          "form": "日本",
+          "reading": "にほん",
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L95376",
+          "usage": "exact spelling and reviewed reading"
+        },
+        {
+          "form": "比べる",
+          "reading": "くらべる",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100017",
+          "usage": "contextual dictionary lemma only; inflected/compound accent remains provisional"
+        },
+        {
+          "form": "高",
+          "reading": "たか",
+          "accent": 2,
+          "variants": [
+            2,
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50760",
+          "usage": "exact spelling and reviewed reading"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Use natural connected sentence phrasing. Keep particles attached to the preceding phrase. At supplied commas, pause briefly after the complete phrase; never pause immediately before topic わ, object お or directional え. Preserve lexical は in はらった and はたらいて; Japanese 日本 is にほん in these examples. Whole-expression pitch is provisional natural Tokyo Japanese intonation. Reliable dictionary component/base-form references (0 = heiban, other numbers = drop after that mora): 物価 / ぶっか type 0; 日本 / にほん type 2; 比べる / くらべる type 0; 高 / たか type 2. These do not specify a verified full-sentence or compound contour; apply natural inflection and connected speech. ",
+      "audio": "audio/lessons/household-finance-cards/marin-55faea352342d284ecc2.mp3"
+    },
+    {
+      "key": "せいかつひ",
+      "input": "せいかつひ",
+      "display": "生活費(せいかつひ)",
+      "english": "Cost of living / living expenses",
+      "contexts": [
+        {
+          "card": "household-finance-costs",
+          "kind": "vocabulary",
+          "display": "生活費(せいかつひ)",
+          "english": "Cost of living / living expenses",
+          "sourceKey": "せいかつひ|生活費"
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "accent_components": [
+        {
+          "form": "生活費",
+          "reading": "せいかつひ",
+          "accent": 4,
+          "variants": [
+            4,
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L73800",
+          "usage": "lexical component; no whole-phrase accent claim"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Say the complete word or comparison phrase continuously without gaps between morae. ",
+      "accent": 4,
+      "accent_variants": [
+        4,
+        3
+      ],
+      "accent_matched_form": "生活費",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L73800",
+      "audio": "audio/lessons/household-finance-cards/marin-df9c9cd923c481f0d8a3.mp3"
+    },
+    {
+      "key": "スイスとにほんでは、せいかつひがかなりちがいますね。",
+      "input": "すいすとにほんでわ、せいかつひがかなりちがいますね。",
+      "display": "スイスと日本(にほん)では、生活費(せいかつひ)がかなり違(ちが)いますね。",
+      "english": "Living expenses are quite different between Switzerland and Japan, aren't they?",
+      "contexts": [
+        {
+          "card": "household-finance-costs",
+          "kind": "example",
+          "display": "スイスと日本(にほん)では、生活費(せいかつひ)がかなり違(ちが)いますね。",
+          "english": "Living expenses are quite different between Switzerland and Japan, aren't they?"
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "生活費",
+          "reading": "せいかつひ",
+          "accent": 4,
+          "variants": [
+            4,
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L73800",
+          "usage": "lexical component; no whole-phrase accent claim"
+        },
+        {
+          "form": "日本",
+          "reading": "にほん",
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L95376",
+          "usage": "exact spelling and reviewed reading"
+        },
+        {
+          "form": "違う",
+          "reading": "ちがう",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L22601",
+          "usage": "contextual dictionary lemma only; inflected/compound accent remains provisional"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Use natural connected sentence phrasing. Keep particles attached to the preceding phrase. At supplied commas, pause briefly after the complete phrase; never pause immediately before topic わ, object お or directional え. Preserve lexical は in はらった and はたらいて; Japanese 日本 is にほん in these examples. Whole-expression pitch is provisional natural Tokyo Japanese intonation. Reliable dictionary component/base-form references (0 = heiban, other numbers = drop after that mora): 生活費 / せいかつひ type 4; 日本 / にほん type 2; 違う / ちがう type 0. These do not specify a verified full-sentence or compound contour; apply natural inflection and connected speech. ",
+      "audio": "audio/lessons/household-finance-cards/marin-e278e3dfdcaef3ec04ec.mp3"
+    },
+    {
+      "key": "やちん",
+      "input": "やちん",
+      "display": "家賃(やちん)",
+      "english": "Rent",
+      "contexts": [
+        {
+          "card": "household-finance-costs",
+          "kind": "vocabulary",
+          "display": "家賃(やちん)",
+          "english": "Rent",
+          "sourceKey": "やちん|家賃"
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "accent_components": [
+        {
+          "form": "家賃",
+          "reading": "やちん",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L29061",
+          "usage": "lexical component; no whole-phrase accent claim"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Say the complete word or comparison phrase continuously without gaps between morae. ",
+      "accent": 1,
+      "accent_variants": [
+        1
+      ],
+      "accent_matched_form": "家賃",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L29061",
+      "audio": "audio/lessons/household-finance-cards/marin-7b93c4bb082053aa46d1.mp3"
+    },
+    {
+      "key": "やちんをはらったあと、あまりよゆうがありません。",
+      "input": "やちんおはらったあと、あまりよゆうがありません。",
+      "display": "家賃(やちん)を払(はら)ったあと、あまり余裕(よゆう)がありません。",
+      "english": "After paying rent, there's not much money left over.",
+      "contexts": [
+        {
+          "card": "household-finance-costs",
+          "kind": "example",
+          "display": "家賃(やちん)を払(はら)ったあと、あまり余裕(よゆう)がありません。",
+          "english": "After paying rent, there's not much money left over."
+        },
+        {
+          "card": "household-finance-income",
+          "kind": "example",
+          "display": "家賃(やちん)を払(はら)ったあと、あまり余裕(よゆう)がありません。",
+          "english": "After paying rent, there's not much money left over."
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "家賃",
+          "reading": "やちん",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L29061",
+          "usage": "lexical component; no whole-phrase accent claim"
+        },
+        {
+          "form": "余裕",
+          "reading": "よゆう",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L113742",
+          "usage": "lexical component; no whole-phrase accent claim"
+        },
+        {
+          "form": "払う",
+          "reading": "はらう",
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L104012",
+          "usage": "contextual dictionary lemma only; inflected/compound accent remains provisional"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Use natural connected sentence phrasing. Keep particles attached to the preceding phrase. At supplied commas, pause briefly after the complete phrase; never pause immediately before topic わ, object お or directional え. Preserve lexical は in はらった and はたらいて; Japanese 日本 is にほん in these examples. Whole-expression pitch is provisional natural Tokyo Japanese intonation. Reliable dictionary component/base-form references (0 = heiban, other numbers = drop after that mora): 家賃 / やちん type 1; 余裕 / よゆう type 0; 払う / はらう type 2. These do not specify a verified full-sentence or compound contour; apply natural inflection and connected speech. ",
+      "audio": "audio/lessons/household-finance-cards/marin-c3c7058378c9b3961aa1.mp3"
+    },
+    {
+      "key": "しょくひ",
+      "input": "しょくひ",
+      "display": "食費(しょくひ)",
+      "english": "Food expenses",
+      "contexts": [
+        {
+          "card": "household-finance-costs",
+          "kind": "vocabulary",
+          "display": "食費(しょくひ)",
+          "english": "Food expenses",
+          "sourceKey": "しょくひ|食費"
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "accent_components": [
+        {
+          "form": "食費",
+          "reading": "しょくひ",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68820",
+          "usage": "lexical component; no whole-phrase accent claim"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Say the complete word or comparison phrase continuously without gaps between morae. ",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "食費",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68820",
+      "audio": "audio/lessons/household-finance-cards/marin-8f3d5992e02abbc2d624.mp3"
+    },
+    {
+      "key": "さいきん、しょくひがふえてきました。",
+      "input": "さいきん、しょくひがふえてきました。",
+      "display": "最近(さいきん)、食費(しょくひ)が増(ふ)えてきました。",
+      "english": "My food expenses have been increasing lately.",
+      "contexts": [
+        {
+          "card": "household-finance-costs",
+          "kind": "example",
+          "display": "最近(さいきん)、食費(しょくひ)が増(ふ)えてきました。",
+          "english": "My food expenses have been increasing lately."
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "食費",
+          "reading": "しょくひ",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68820",
+          "usage": "lexical component; no whole-phrase accent claim"
+        },
+        {
+          "form": "最近",
+          "reading": "さいきん",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L53204",
+          "usage": "exact spelling and reviewed reading"
+        },
+        {
+          "form": "増える",
+          "reading": "ふえる",
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L80006",
+          "usage": "contextual dictionary lemma only; inflected/compound accent remains provisional"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Use natural connected sentence phrasing. Keep particles attached to the preceding phrase. At supplied commas, pause briefly after the complete phrase; never pause immediately before topic わ, object お or directional え. Preserve lexical は in はらった and はたらいて; Japanese 日本 is にほん in these examples. Whole-expression pitch is provisional natural Tokyo Japanese intonation. Reliable dictionary component/base-form references (0 = heiban, other numbers = drop after that mora): 食費 / しょくひ type 0; 最近 / さいきん type 0; 増える / ふえる type 2. These do not specify a verified full-sentence or compound contour; apply natural inflection and connected speech. ",
+      "audio": "audio/lessons/household-finance-cards/marin-27d026b3063df06273d1.mp3"
+    },
+    {
+      "key": "こうねつひ",
+      "input": "こうねつひ",
+      "display": "光熱費(こうねつひ)",
+      "english": "Utility bills",
+      "contexts": [
+        {
+          "card": "household-finance-costs",
+          "kind": "vocabulary",
+          "display": "光熱費(こうねつひ)",
+          "english": "Utility bills",
+          "sourceKey": "こうねつひ|光熱費"
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "accent_components": [
+        {
+          "form": "光熱費",
+          "reading": "こうねつひ",
+          "accent": 4,
+          "variants": [
+            4,
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L48430",
+          "usage": "lexical component; no whole-phrase accent claim"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Say the complete word or comparison phrase continuously without gaps between morae. ",
+      "accent": 4,
+      "accent_variants": [
+        4,
+        3
+      ],
+      "accent_matched_form": "光熱費",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L48430",
+      "audio": "audio/lessons/household-finance-cards/marin-9448c92c45b98af4df74.mp3"
+    },
+    {
+      "key": "ふゆはこうねつひがたかくなります。",
+      "input": "ふゆわこうねつひがたかくなります。",
+      "display": "冬(ふゆ)は光熱費(こうねつひ)が高(たか)くなります。",
+      "english": "My utility bills go up in winter.",
+      "contexts": [
+        {
+          "card": "household-finance-costs",
+          "kind": "example",
+          "display": "冬(ふゆ)は光熱費(こうねつひ)が高(たか)くなります。",
+          "english": "My utility bills go up in winter."
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "光熱費",
+          "reading": "こうねつひ",
+          "accent": 4,
+          "variants": [
+            4,
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L48430",
+          "usage": "lexical component; no whole-phrase accent claim"
+        },
+        {
+          "form": "冬",
+          "reading": "ふゆ",
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L91388",
+          "usage": "exact spelling and reviewed reading"
+        },
+        {
+          "form": "高",
+          "reading": "たか",
+          "accent": 2,
+          "variants": [
+            2,
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50760",
+          "usage": "exact spelling and reviewed reading"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Use natural connected sentence phrasing. Keep particles attached to the preceding phrase. At supplied commas, pause briefly after the complete phrase; never pause immediately before topic わ, object お or directional え. Preserve lexical は in はらった and はたらいて; Japanese 日本 is にほん in these examples. Whole-expression pitch is provisional natural Tokyo Japanese intonation. Reliable dictionary component/base-form references (0 = heiban, other numbers = drop after that mora): 光熱費 / こうねつひ type 4; 冬 / ふゆ type 2; 高 / たか type 2. These do not specify a verified full-sentence or compound contour; apply natural inflection and connected speech. ",
+      "audio": "audio/lessons/household-finance-cards/marin-8ce9261264b48b09d75d.mp3"
+    },
+    {
+      "key": "ししゅつ",
+      "input": "ししゅつ",
+      "display": "支出(ししゅつ)",
+      "english": "Expenditure / spending",
+      "contexts": [
+        {
+          "card": "household-finance-costs",
+          "kind": "vocabulary",
+          "display": "支出(ししゅつ)",
+          "english": "Expenditure / spending",
+          "sourceKey": "ししゅつ|支出"
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "accent_components": [
+        {
+          "form": "支出",
+          "reading": "ししゅつ",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L56887",
+          "usage": "lexical component; no whole-phrase accent claim"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Say the complete word or comparison phrase continuously without gaps between morae. ",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "支出",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L56887",
+      "audio": "audio/lessons/household-finance-cards/marin-808ed7dc4b3b0c264adf.mp3"
+    },
+    {
+      "key": "こんげつのししゅつをみなおしています。",
+      "input": "こんげつのししゅつおみなおしています。",
+      "display": "今月(こんげつ)の支出(ししゅつ)を見直(みなお)しています。",
+      "english": "I'm reviewing this month's spending.",
+      "contexts": [
+        {
+          "card": "household-finance-costs",
+          "kind": "example",
+          "display": "今月(こんげつ)の支出(ししゅつ)を見直(みなお)しています。",
+          "english": "I'm reviewing this month's spending."
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "支出",
+          "reading": "ししゅつ",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L56887",
+          "usage": "lexical component; no whole-phrase accent claim"
+        },
+        {
+          "form": "今月",
+          "reading": "こんげつ",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52220",
+          "usage": "exact spelling and reviewed reading"
+        },
+        {
+          "form": "見直す",
+          "reading": "みなおす",
+          "accent": 0,
+          "variants": [
+            0,
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L44995",
+          "usage": "contextual dictionary lemma only; inflected/compound accent remains provisional"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Use natural connected sentence phrasing. Keep particles attached to the preceding phrase. At supplied commas, pause briefly after the complete phrase; never pause immediately before topic わ, object お or directional え. Preserve lexical は in はらった and はたらいて; Japanese 日本 is にほん in these examples. Whole-expression pitch is provisional natural Tokyo Japanese intonation. Reliable dictionary component/base-form references (0 = heiban, other numbers = drop after that mora): 支出 / ししゅつ type 0; 今月 / こんげつ type 0; 見直す / みなおす type 0. These do not specify a verified full-sentence or compound contour; apply natural inflection and connected speech. ",
+      "audio": "audio/lessons/household-finance-cards/marin-6926e604951214d446e2.mp3"
+    },
+    {
+      "key": "くらし",
+      "input": "くらし",
+      "display": "暮らし(くらし)",
+      "english": "Everyday life / livelihood",
+      "contexts": [
+        {
+          "card": "household-finance-costs",
+          "kind": "vocabulary",
+          "display": "暮らし(くらし)",
+          "english": "Everyday life / livelihood",
+          "sourceKey": "くらし|暮らし"
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "accent_components": [
+        {
+          "form": "暮らし",
+          "reading": "くらし",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106613",
+          "usage": "lexical component; no whole-phrase accent claim"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Say the complete word or comparison phrase continuously without gaps between morae. ",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "暮らし",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106613",
+      "audio": "audio/lessons/household-finance-cards/marin-eeaf73c6e4ff2f13c598.mp3"
+    },
+    {
+      "key": "にほんでのくらしには、もうなれましたか。",
+      "input": "にほんでのくらしにわ、もうなれましたか。",
+      "display": "日本(にほん)での暮(く)らしには、もう慣(な)れましたか。",
+      "english": "Have you got used to life in Japan yet?",
+      "contexts": [
+        {
+          "card": "household-finance-costs",
+          "kind": "example",
+          "display": "日本(にほん)での暮(く)らしには、もう慣(な)れましたか。",
+          "english": "Have you got used to life in Japan yet?"
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "暮らし",
+          "reading": "くらし",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106613",
+          "usage": "lexical component; no whole-phrase accent claim"
+        },
+        {
+          "form": "日本",
+          "reading": "にほん",
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L95376",
+          "usage": "exact spelling and reviewed reading"
+        },
+        {
+          "form": "慣れる",
+          "reading": "なれる",
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34251",
+          "usage": "contextual dictionary lemma only; inflected/compound accent remains provisional"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Use natural connected sentence phrasing. Keep particles attached to the preceding phrase. At supplied commas, pause briefly after the complete phrase; never pause immediately before topic わ, object お or directional え. Preserve lexical は in はらった and はたらいて; Japanese 日本 is にほん in these examples. Whole-expression pitch is provisional natural Tokyo Japanese intonation. Reliable dictionary component/base-form references (0 = heiban, other numbers = drop after that mora): 暮らし / くらし type 0; 日本 / にほん type 2; 慣れる / なれる type 2. These do not specify a verified full-sentence or compound contour; apply natural inflection and connected speech. ",
+      "audio": "audio/lessons/household-finance-cards/marin-58a1e1a86596afcd3e8f.mp3"
+    },
+    {
+      "key": "きゅうりょう",
+      "input": "きゅうりょう",
+      "display": "給料(きゅうりょう)",
+      "english": "Salary / pay",
+      "contexts": [
+        {
+          "card": "household-finance-income",
+          "kind": "vocabulary",
+          "display": "給料(きゅうりょう)",
+          "english": "Salary / pay",
+          "sourceKey": "きゅうりょう|給料"
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "accent_components": [
+        {
+          "form": "給料",
+          "reading": "きゅうりょう",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L38294",
+          "usage": "lexical component; no whole-phrase accent claim"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Say the complete word or comparison phrase continuously without gaps between morae. Preserve both long vowels: きゅう and りょう, four morae total.",
+      "accent": 1,
+      "accent_variants": [
+        1
+      ],
+      "accent_matched_form": "給料",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L38294",
+      "audio": "audio/lessons/household-finance-cards/marin-73ca28ef70b8421ba1a5.mp3"
+    },
+    {
+      "key": "スイスはぶっかがたかいですが、きゅうりょうもたかいです。",
+      "input": "すいすわぶっかがたかいですが、きゅうりょうもたかいです。",
+      "display": "スイスは物価(ぶっか)が高(たか)いですが、給料(きゅうりょう)も高(たか)いです。",
+      "english": "Prices are high in Switzerland, but salaries are also high.",
+      "contexts": [
+        {
+          "card": "household-finance-income",
+          "kind": "example",
+          "display": "スイスは物価(ぶっか)が高(たか)いですが、給料(きゅうりょう)も高(たか)いです。",
+          "english": "Prices are high in Switzerland, but salaries are also high."
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "物価",
+          "reading": "ぶっか",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L104173",
+          "usage": "lexical component; no whole-phrase accent claim"
+        },
+        {
+          "form": "給料",
+          "reading": "きゅうりょう",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L38294",
+          "usage": "lexical component; no whole-phrase accent claim"
+        },
+        {
+          "form": "高",
+          "reading": "たか",
+          "accent": 2,
+          "variants": [
+            2,
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50760",
+          "usage": "exact spelling and reviewed reading"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Use natural connected sentence phrasing. Keep particles attached to the preceding phrase. At supplied commas, pause briefly after the complete phrase; never pause immediately before topic わ, object お or directional え. Preserve lexical は in はらった and はたらいて; Japanese 日本 is にほん in these examples. Whole-expression pitch is provisional natural Tokyo Japanese intonation. Reliable dictionary component/base-form references (0 = heiban, other numbers = drop after that mora): 物価 / ぶっか type 0; 給料 / きゅうりょう type 1; 高 / たか type 2. These do not specify a verified full-sentence or compound contour; apply natural inflection and connected speech. ",
+      "audio": "audio/lessons/household-finance-cards/marin-27cee55c617e36953037.mp3"
+    },
+    {
+      "key": "しゅうにゅう",
+      "input": "しゅうにゅう",
+      "display": "収入(しゅうにゅう)",
+      "english": "Income",
+      "contexts": [
+        {
+          "card": "household-finance-income",
+          "kind": "vocabulary",
+          "display": "収入(しゅうにゅう)",
+          "english": "Income",
+          "sourceKey": "しゅうにゅう|収入"
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "accent_components": [
+        {
+          "form": "収入",
+          "reading": "しゅうにゅう",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L62294",
+          "usage": "lexical component; no whole-phrase accent claim"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Say the complete word or comparison phrase continuously without gaps between morae. Preserve both long vowels: しゅう and にゅう, four morae total.",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "収入",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L62294",
+      "audio": "audio/lessons/household-finance-cards/marin-c4d4e347e8528ad4cf3e.mp3"
+    },
+    {
+      "key": "まいつきのしゅうにゅうをかくにんしています。",
+      "input": "まいつきのしゅうにゅうおかくにんしています。",
+      "display": "毎月(まいつき)の収入(しゅうにゅう)を確認(かくにん)しています。",
+      "english": "I keep track of my monthly income.",
+      "contexts": [
+        {
+          "card": "household-finance-income",
+          "kind": "example",
+          "display": "毎月(まいつき)の収入(しゅうにゅう)を確認(かくにん)しています。",
+          "english": "I keep track of my monthly income."
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "収入",
+          "reading": "しゅうにゅう",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L62294",
+          "usage": "lexical component; no whole-phrase accent claim"
+        },
+        {
+          "form": "毎月",
+          "reading": "まいつき",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L108830",
+          "usage": "exact spelling and reviewed reading"
+        },
+        {
+          "form": "確認",
+          "reading": "かくにん",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L32311",
+          "usage": "exact spelling and reviewed reading"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Use natural connected sentence phrasing. Keep particles attached to the preceding phrase. At supplied commas, pause briefly after the complete phrase; never pause immediately before topic わ, object お or directional え. Preserve lexical は in はらった and はたらいて; Japanese 日本 is にほん in these examples. Whole-expression pitch is provisional natural Tokyo Japanese intonation. Reliable dictionary component/base-form references (0 = heiban, other numbers = drop after that mora): 収入 / しゅうにゅう type 0; 毎月 / まいつき type 0; 確認 / かくにん type 0. These do not specify a verified full-sentence or compound contour; apply natural inflection and connected speech. ",
+      "audio": "audio/lessons/household-finance-cards/marin-facbfd8e8bca8622902f.mp3"
+    },
+    {
+      "key": "へいきんねんしゅう",
+      "input": "へいきんねんしゅう",
+      "display": "平均年収(へいきんねんしゅう)",
+      "english": "Average annual income",
+      "contexts": [
+        {
+          "card": "household-finance-income",
+          "kind": "vocabulary",
+          "display": "平均年収(へいきんねんしゅう)",
+          "english": "Average annual income",
+          "sourceKey": "へいきんねんしゅう|平均年収"
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "平均",
+          "reading": "へいきん",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L105181",
+          "usage": "reliable component only; average-annual-income compound accent unconfirmed"
+        },
+        {
+          "form": "年収",
+          "reading": "ねんしゅう",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L96210",
+          "usage": "reliable component only; average-annual-income compound accent unconfirmed"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Say the complete word or comparison phrase continuously without gaps between morae. Whole-expression pitch is provisional natural Tokyo Japanese intonation. Reliable dictionary component/base-form references (0 = heiban, other numbers = drop after that mora): 平均 / へいきん type 0; 年収 / ねんしゅう type 0. These do not specify a verified full-sentence or compound contour; apply natural inflection and connected speech. Keep 平均年収 together as へいきんねんしゅう; retain both nasal morae and the final long しゅう. Do not infer a compound accent from the components.",
+      "audio": "audio/lessons/household-finance-cards/marin-7a66dd4e1945769845df.mp3"
+    },
+    {
+      "key": "このちいきのへいきんねんしゅうは、どのくらいですか。",
+      "input": "このちいきのへいきんねんしゅうわ、どのくらいですか。",
+      "display": "この地域(ちいき)の平均年収(へいきんねんしゅう)は、どのくらいですか。",
+      "english": "What is the average annual income in this area?",
+      "contexts": [
+        {
+          "card": "household-finance-income",
+          "kind": "example",
+          "display": "この地域(ちいき)の平均年収(へいきんねんしゅう)は、どのくらいですか。",
+          "english": "What is the average annual income in this area?"
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "地域",
+          "reading": "ちいき",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L84904",
+          "usage": "exact spelling and reviewed reading"
+        },
+        {
+          "form": "平均",
+          "reading": "へいきん",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L105181",
+          "usage": "reliable component only; average-annual-income compound accent unconfirmed"
+        },
+        {
+          "form": "年収",
+          "reading": "ねんしゅう",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L96210",
+          "usage": "reliable component only; average-annual-income compound accent unconfirmed"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Use natural connected sentence phrasing. Keep particles attached to the preceding phrase. At supplied commas, pause briefly after the complete phrase; never pause immediately before topic わ, object お or directional え. Preserve lexical は in はらった and はたらいて; Japanese 日本 is にほん in these examples. Whole-expression pitch is provisional natural Tokyo Japanese intonation. Reliable dictionary component/base-form references (0 = heiban, other numbers = drop after that mora): 地域 / ちいき type 1; 平均 / へいきん type 0; 年収 / ねんしゅう type 0. These do not specify a verified full-sentence or compound contour; apply natural inflection and connected speech. ",
+      "audio": "audio/lessons/household-finance-cards/marin-6f664be1a98bd0fec65b.mp3"
+    },
+    {
+      "key": "てどり",
+      "input": "てどり",
+      "display": "手取り(てどり)",
+      "english": "Take-home pay",
+      "contexts": [
+        {
+          "card": "household-finance-income",
+          "kind": "vocabulary",
+          "display": "手取り(てどり)",
+          "english": "Take-home pay",
+          "sourceKey": "てどり|手取り"
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "accent_components": [
+        {
+          "form": "手取り",
+          "reading": "てどり",
+          "accent": 3,
+          "variants": [
+            3,
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61443",
+          "usage": "lexical component; no whole-phrase accent claim"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Say the complete word or comparison phrase continuously without gaps between morae. 手取り here is financial take-home pay: てどり, with voiced ど, not てとり.",
+      "accent": 3,
+      "accent_variants": [
+        3,
+        0
+      ],
+      "accent_matched_form": "手取り",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61443",
+      "audio": "audio/lessons/household-finance-cards/marin-bdfb25b335f5feafebd2.mp3"
+    },
+    {
+      "key": "ぜいきんなどをひいたあとにうけとるきんがくがてどりです。",
+      "input": "ぜいきんなどおひいたあとにうけとるきんがくがてどりです。",
+      "display": "税金(ぜいきん)などを引(ひ)いたあとに受(う)け取(と)る金額(きんがく)が手取(てど)りです。",
+      "english": "Take-home pay is the amount received after taxes and other deductions.",
+      "contexts": [
+        {
+          "card": "household-finance-income",
+          "kind": "example",
+          "display": "税金(ぜいきん)などを引(ひ)いたあとに受(う)け取(と)る金額(きんがく)が手取(てど)りです。",
+          "english": "Take-home pay is the amount received after taxes and other deductions."
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "手取り",
+          "reading": "てどり",
+          "accent": 3,
+          "variants": [
+            3,
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61443",
+          "usage": "lexical component; no whole-phrase accent claim"
+        },
+        {
+          "form": "税金",
+          "reading": "ぜいきん",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L74851",
+          "usage": "lexical component; no whole-phrase accent claim"
+        },
+        {
+          "form": "引く",
+          "reading": "ひく",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L24282",
+          "usage": "contextual dictionary lemma only; inflected/compound accent remains provisional"
+        },
+        {
+          "form": "受け取る",
+          "reading": "うけとる",
+          "accent": 0,
+          "variants": [
+            0,
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L62042",
+          "usage": "contextual dictionary lemma only; inflected/compound accent remains provisional"
+        },
+        {
+          "form": "取る",
+          "reading": "とる",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L60995",
+          "usage": "contextual dictionary lemma only; inflected/compound accent remains provisional"
+        },
+        {
+          "form": "金額",
+          "reading": "きんがく",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40777",
+          "usage": "exact spelling and reviewed reading"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Use natural connected sentence phrasing. Keep particles attached to the preceding phrase. At supplied commas, pause briefly after the complete phrase; never pause immediately before topic わ, object お or directional え. Preserve lexical は in はらった and はたらいて; Japanese 日本 is にほん in these examples. Whole-expression pitch is provisional natural Tokyo Japanese intonation. Reliable dictionary component/base-form references (0 = heiban, other numbers = drop after that mora): 手取り / てどり type 3; 税金 / ぜいきん type 0; 引く / ひく type 0; 受け取る / うけとる type 0; 取る / とる type 1; 金額 / きんがく type 0. These do not specify a verified full-sentence or compound contour; apply natural inflection and connected speech. ",
+      "audio": "audio/lessons/household-finance-cards/marin-5281d3f17401d4ff2c20.mp3"
+    },
+    {
+      "key": "ぜいきん",
+      "input": "ぜいきん",
+      "display": "税金(ぜいきん)",
+      "english": "Taxes",
+      "contexts": [
+        {
+          "card": "household-finance-income",
+          "kind": "vocabulary",
+          "display": "税金(ぜいきん)",
+          "english": "Taxes",
+          "sourceKey": "ぜいきん|税金"
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "accent_components": [
+        {
+          "form": "税金",
+          "reading": "ぜいきん",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L74851",
+          "usage": "lexical component; no whole-phrase accent claim"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Say the complete word or comparison phrase continuously without gaps between morae. ",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "税金",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L74851",
+      "audio": "audio/lessons/household-finance-cards/marin-7d39566767469ab13859.mp3"
+    },
+    {
+      "key": "きゅうりょうからぜいきんがひかれます。",
+      "input": "きゅうりょうからぜいきんがひかれます。",
+      "display": "給料(きゅうりょう)から税金(ぜいきん)が引(ひ)かれます。",
+      "english": "Taxes are deducted from my salary.",
+      "contexts": [
+        {
+          "card": "household-finance-income",
+          "kind": "example",
+          "display": "給料(きゅうりょう)から税金(ぜいきん)が引(ひ)かれます。",
+          "english": "Taxes are deducted from my salary."
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "給料",
+          "reading": "きゅうりょう",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L38294",
+          "usage": "lexical component; no whole-phrase accent claim"
+        },
+        {
+          "form": "税金",
+          "reading": "ぜいきん",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L74851",
+          "usage": "lexical component; no whole-phrase accent claim"
+        },
+        {
+          "form": "引く",
+          "reading": "ひく",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L24282",
+          "usage": "contextual dictionary lemma only; inflected/compound accent remains provisional"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Use natural connected sentence phrasing. Keep particles attached to the preceding phrase. At supplied commas, pause briefly after the complete phrase; never pause immediately before topic わ, object お or directional え. Preserve lexical は in はらった and はたらいて; Japanese 日本 is にほん in these examples. Whole-expression pitch is provisional natural Tokyo Japanese intonation. Reliable dictionary component/base-form references (0 = heiban, other numbers = drop after that mora): 給料 / きゅうりょう type 1; 税金 / ぜいきん type 0; 引く / ひく type 0. These do not specify a verified full-sentence or compound contour; apply natural inflection and connected speech. ",
+      "audio": "audio/lessons/household-finance-cards/marin-40fa585b25186b642c94.mp3"
+    },
+    {
+      "key": "ちょきん",
+      "input": "ちょきん",
+      "display": "貯金(ちょきん)",
+      "english": "Savings / saving money",
+      "contexts": [
+        {
+          "card": "household-finance-income",
+          "kind": "vocabulary",
+          "display": "貯金(ちょきん)",
+          "english": "Savings / saving money",
+          "sourceKey": "ちょきん|貯金"
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "accent_components": [
+        {
+          "form": "貯金",
+          "reading": "ちょきん",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L86506",
+          "usage": "lexical component; no whole-phrase accent claim"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Say the complete word or comparison phrase continuously without gaps between morae. ",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "貯金",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L86506",
+      "audio": "audio/lessons/household-finance-cards/marin-af174c2c87388e508265.mp3"
+    },
+    {
+      "key": "まいつき、すこしずつちょきんしています。",
+      "input": "まいつき、すこしずつちょきんしています。",
+      "display": "毎月(まいつき)、少(すこ)しずつ貯金(ちょきん)しています。",
+      "english": "I save a little money every month.",
+      "contexts": [
+        {
+          "card": "household-finance-income",
+          "kind": "example",
+          "display": "毎月(まいつき)、少(すこ)しずつ貯金(ちょきん)しています。",
+          "english": "I save a little money every month."
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "貯金",
+          "reading": "ちょきん",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L86506",
+          "usage": "lexical component; no whole-phrase accent claim"
+        },
+        {
+          "form": "毎月",
+          "reading": "まいつき",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L108830",
+          "usage": "exact spelling and reviewed reading"
+        },
+        {
+          "form": "少し",
+          "reading": "すこし",
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L66333",
+          "usage": "contextual dictionary lemma only; inflected/compound accent remains provisional"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Use natural connected sentence phrasing. Keep particles attached to the preceding phrase. At supplied commas, pause briefly after the complete phrase; never pause immediately before topic わ, object お or directional え. Preserve lexical は in はらった and はたらいて; Japanese 日本 is にほん in these examples. Whole-expression pitch is provisional natural Tokyo Japanese intonation. Reliable dictionary component/base-form references (0 = heiban, other numbers = drop after that mora): 貯金 / ちょきん type 0; 毎月 / まいつき type 0; 少し / すこし type 2. These do not specify a verified full-sentence or compound contour; apply natural inflection and connected speech. ",
+      "audio": "audio/lessons/household-finance-cards/marin-e38c9aa255d5afe78d65.mp3"
+    },
+    {
+      "key": "ふたん",
+      "input": "ふたん",
+      "display": "負担(ふたん)",
+      "english": "Financial burden",
+      "contexts": [
+        {
+          "card": "household-finance-income",
+          "kind": "vocabulary",
+          "display": "負担(ふたん)",
+          "english": "Financial burden",
+          "sourceKey": "ふたん|負担"
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "accent_components": [
+        {
+          "form": "負担",
+          "reading": "ふたん",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L103066",
+          "usage": "lexical component; no whole-phrase accent claim"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Say the complete word or comparison phrase continuously without gaps between morae. ",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "負担",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L103066",
+      "reuse_audio": "audio/marin-pitch-trials/marin-998d37f4f00e132be8b8.mp3",
+      "reuse_source": "Active word-explosion-audio-manifest.js; scripts/word-explosion-marin-review.json#ふたん",
+      "audio": "audio/marin-pitch-trials/marin-998d37f4f00e132be8b8.mp3"
+    },
+    {
+      "key": "やちんのしはらいが、おおきなふたんになっています。",
+      "input": "やちんのしはらいが、おおきなふたんになっています。",
+      "display": "家賃(やちん)の支払(しはら)いが、大(おお)きな負担(ふたん)になっています。",
+      "english": "Rent payments are becoming a major financial burden.",
+      "contexts": [
+        {
+          "card": "household-finance-income",
+          "kind": "example",
+          "display": "家賃(やちん)の支払(しはら)いが、大(おお)きな負担(ふたん)になっています。",
+          "english": "Rent payments are becoming a major financial burden."
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "家賃",
+          "reading": "やちん",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L29061",
+          "usage": "lexical component; no whole-phrase accent claim"
+        },
+        {
+          "form": "負担",
+          "reading": "ふたん",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L103066",
+          "usage": "lexical component; no whole-phrase accent claim"
+        },
+        {
+          "form": "大きい",
+          "reading": "おおきい",
+          "accent": 3,
+          "variants": [
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L82531",
+          "usage": "contextual dictionary lemma only; inflected/compound accent remains provisional"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Use natural connected sentence phrasing. Keep particles attached to the preceding phrase. At supplied commas, pause briefly after the complete phrase; never pause immediately before topic わ, object お or directional え. Preserve lexical は in はらった and はたらいて; Japanese 日本 is にほん in these examples. Whole-expression pitch is provisional natural Tokyo Japanese intonation. Reliable dictionary component/base-form references (0 = heiban, other numbers = drop after that mora): 家賃 / やちん type 1; 負担 / ふたん type 0; 大きい / おおきい type 3. These do not specify a verified full-sentence or compound contour; apply natural inflection and connected speech. ",
+      "audio": "audio/lessons/household-finance-cards/marin-a0ec13f4060db210ef44.mp3"
+    },
+    {
+      "key": "よゆう",
+      "input": "よゆう",
+      "display": "余裕(よゆう)",
+      "english": "Financial breathing room / leeway",
+      "contexts": [
+        {
+          "card": "household-finance-income",
+          "kind": "vocabulary",
+          "display": "余裕(よゆう)",
+          "english": "Financial breathing room / leeway",
+          "sourceKey": "よゆう|余裕"
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "dictionary",
+      "accent_components": [
+        {
+          "form": "余裕",
+          "reading": "よゆう",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L113742",
+          "usage": "lexical component; no whole-phrase accent claim"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Say the complete word or comparison phrase continuously without gaps between morae. ",
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_matched_form": "余裕",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L113742",
+      "reuse_audio": "audio/marin-pitch-trials/marin-e021359c7d9d0d1387d7.mp3",
+      "reuse_source": "Active word-explosion-audio-manifest.js; scripts/word-explosion-marin-review.json#よゆう",
+      "audio": "audio/marin-pitch-trials/marin-e021359c7d9d0d1387d7.mp3"
+    },
+    {
+      "key": "とくらべると",
+      "input": "とくらべると",
+      "display": "～と比(くら)べると",
+      "english": "Compared with…",
+      "contexts": [
+        {
+          "card": "household-finance-comparisons",
+          "kind": "vocabulary",
+          "display": "～と比(くら)べると",
+          "english": "Compared with…",
+          "sourceKey": "とくらべると|～と比べると"
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "比べる",
+          "reading": "くらべる",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100017",
+          "usage": "contextual dictionary lemma only; inflected/compound accent remains provisional"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Say the complete word or comparison phrase continuously without gaps between morae. Whole-expression pitch is provisional natural Tokyo Japanese intonation. Reliable dictionary component/base-form references (0 = heiban, other numbers = drop after that mora): 比べる / くらべる type 0. These do not specify a verified full-sentence or compound contour; apply natural inflection and connected speech. ",
+      "audio": "audio/lessons/household-finance-cards/marin-9c168329f21451587cb8.mp3"
+    },
+    {
+      "key": "にほんのスーパーは、スイスとくらべるとやすくかんじます。",
+      "input": "にほんのすーぱーわ、すいすとくらべるとやすくかんじます。",
+      "display": "日本(にほん)のスーパーは、スイスと比(くら)べると安(やす)く感(かん)じます。",
+      "english": "Japanese supermarkets feel inexpensive compared with Switzerland.",
+      "contexts": [
+        {
+          "card": "household-finance-comparisons",
+          "kind": "example",
+          "display": "日本(にほん)のスーパーは、スイスと比(くら)べると安(やす)く感(かん)じます。",
+          "english": "Japanese supermarkets feel inexpensive compared with Switzerland."
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "日本",
+          "reading": "にほん",
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L95376",
+          "usage": "exact spelling and reviewed reading"
+        },
+        {
+          "form": "比べる",
+          "reading": "くらべる",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100017",
+          "usage": "contextual dictionary lemma only; inflected/compound accent remains provisional"
+        },
+        {
+          "form": "安い",
+          "reading": "やすい",
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L21544",
+          "usage": "contextual dictionary lemma only; inflected/compound accent remains provisional"
+        },
+        {
+          "form": "感",
+          "reading": "かん",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34148",
+          "usage": "exact spelling and reviewed reading"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Use natural connected sentence phrasing. Keep particles attached to the preceding phrase. At supplied commas, pause briefly after the complete phrase; never pause immediately before topic わ, object お or directional え. Preserve lexical は in はらった and はたらいて; Japanese 日本 is にほん in these examples. Whole-expression pitch is provisional natural Tokyo Japanese intonation. Reliable dictionary component/base-form references (0 = heiban, other numbers = drop after that mora): 日本 / にほん type 2; 比べる / くらべる type 0; 安い / やすい type 2; 感 / かん type 1. These do not specify a verified full-sentence or compound contour; apply natural inflection and connected speech. ",
+      "audio": "audio/lessons/household-finance-cards/marin-13a5d5b417a7214d3114.mp3"
+    },
+    {
+      "key": "でも、にほんではたらいているひとにとっては、やすくないかもしれませんね。",
+      "input": "でも、にほんではたらいているひとにとってわ、やすくないかもしれませんね。",
+      "display": "でも、日本(にほん)で働(はたら)いている人(ひと)にとっては、安(やす)くないかもしれませんね。",
+      "english": "But for people working in Japan, perhaps it isn't cheap.",
+      "contexts": [
+        {
+          "card": "household-finance-comparisons",
+          "kind": "additional-example",
+          "display": "でも、日本(にほん)で働(はたら)いている人(ひと)にとっては、安(やす)くないかもしれませんね。",
+          "english": "But for people working in Japan, perhaps it isn't cheap."
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "日本",
+          "reading": "にほん",
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L95376",
+          "usage": "exact spelling and reviewed reading"
+        },
+        {
+          "form": "働く",
+          "reading": "はたらく",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L92692",
+          "usage": "contextual dictionary lemma only; inflected/compound accent remains provisional"
+        },
+        {
+          "form": "人",
+          "reading": "ひと",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L70928",
+          "usage": "exact spelling and reviewed reading"
+        },
+        {
+          "form": "安い",
+          "reading": "やすい",
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L21544",
+          "usage": "contextual dictionary lemma only; inflected/compound accent remains provisional"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Use natural connected sentence phrasing. Keep particles attached to the preceding phrase. At supplied commas, pause briefly after the complete phrase; never pause immediately before topic わ, object お or directional え. Preserve lexical は in はらった and はたらいて; Japanese 日本 is にほん in these examples. Whole-expression pitch is provisional natural Tokyo Japanese intonation. Reliable dictionary component/base-form references (0 = heiban, other numbers = drop after that mora): 日本 / にほん type 2; 働く / はたらく type 0; 人 / ひと type 0; 安い / やすい type 2. These do not specify a verified full-sentence or compound contour; apply natural inflection and connected speech. ",
+      "audio": "audio/lessons/household-finance-cards/marin-dd45a7ed8d5a1a3ceff3.mp3"
+    },
+    {
+      "key": "にたいして",
+      "input": "にたいして",
+      "display": "～に対(たい)して",
+      "english": "Relative to / in relation to…",
+      "contexts": [
+        {
+          "card": "household-finance-comparisons",
+          "kind": "vocabulary",
+          "display": "～に対(たい)して",
+          "english": "Relative to / in relation to…",
+          "sourceKey": "にたいして|～に対して"
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "対",
+          "reading": "たい",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L81756",
+          "usage": "exact spelling and reviewed reading"
+        },
+        {
+          "form": "対して",
+          "reading": "たいして",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L81759",
+          "usage": "component of comparison pattern; full expression remains provisional"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Say the complete word or comparison phrase continuously without gaps between morae. Whole-expression pitch is provisional natural Tokyo Japanese intonation. Reliable dictionary component/base-form references (0 = heiban, other numbers = drop after that mora): 対 / たい type 1; 対して / たいして type 1. These do not specify a verified full-sentence or compound contour; apply natural inflection and connected speech. ",
+      "audio": "audio/lessons/household-finance-cards/marin-799f1d5874e2982b82bc.mp3"
+    },
+    {
+      "key": "きゅうりょうにたいして、ぶっかがたかいです。",
+      "input": "きゅうりょうにたいして、ぶっかがたかいです。",
+      "display": "給料(きゅうりょう)に対(たい)して、物価(ぶっか)が高(たか)いです。",
+      "english": "Prices are high relative to salaries.",
+      "contexts": [
+        {
+          "card": "household-finance-comparisons",
+          "kind": "example",
+          "display": "給料(きゅうりょう)に対(たい)して、物価(ぶっか)が高(たか)いです。",
+          "english": "Prices are high relative to salaries."
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "物価",
+          "reading": "ぶっか",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L104173",
+          "usage": "lexical component; no whole-phrase accent claim"
+        },
+        {
+          "form": "給料",
+          "reading": "きゅうりょう",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L38294",
+          "usage": "lexical component; no whole-phrase accent claim"
+        },
+        {
+          "form": "対",
+          "reading": "たい",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L81756",
+          "usage": "exact spelling and reviewed reading"
+        },
+        {
+          "form": "高",
+          "reading": "たか",
+          "accent": 2,
+          "variants": [
+            2,
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50760",
+          "usage": "exact spelling and reviewed reading"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Use natural connected sentence phrasing. Keep particles attached to the preceding phrase. At supplied commas, pause briefly after the complete phrase; never pause immediately before topic わ, object お or directional え. Preserve lexical は in はらった and はたらいて; Japanese 日本 is にほん in these examples. Whole-expression pitch is provisional natural Tokyo Japanese intonation. Reliable dictionary component/base-form references (0 = heiban, other numbers = drop after that mora): 物価 / ぶっか type 0; 給料 / きゅうりょう type 1; 対 / たい type 1; 高 / たか type 2. These do not specify a verified full-sentence or compound contour; apply natural inflection and connected speech. ",
+      "audio": "audio/lessons/household-finance-cards/marin-f95f9abe68d05469092f.mp3"
+    },
+    {
+      "key": "のわりに",
+      "input": "のわりに",
+      "display": "～のわりに",
+      "english": "Considering… / for… (often unexpectedly)",
+      "contexts": [
+        {
+          "card": "household-finance-comparisons",
+          "kind": "vocabulary",
+          "display": "～のわりに",
+          "english": "Considering… / for… (often unexpectedly)",
+          "sourceKey": "のわりに|～のわりに"
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "割に",
+          "reading": "わりに",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L32880",
+          "usage": "reliable component of comparison pattern; full expression remains provisional"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Say the complete word or comparison phrase continuously without gaps between morae. Whole-expression pitch is provisional natural Tokyo Japanese intonation. Reliable dictionary component/base-form references (0 = heiban, other numbers = drop after that mora): 割に / わりに type 0. These do not specify a verified full-sentence or compound contour; apply natural inflection and connected speech. ",
+      "audio": "audio/lessons/household-finance-cards/marin-b1fc9e66a480cad70d8e.mp3"
+    },
+    {
+      "key": "きゅうりょうのわりに、せいかつひがたかいです。",
+      "input": "きゅうりょうのわりに、せいかつひがたかいです。",
+      "display": "給料(きゅうりょう)のわりに、生活費(せいかつひ)が高(たか)いです。",
+      "english": "Living expenses are high considering the salaries.",
+      "contexts": [
+        {
+          "card": "household-finance-comparisons",
+          "kind": "example",
+          "display": "給料(きゅうりょう)のわりに、生活費(せいかつひ)が高(たか)いです。",
+          "english": "Living expenses are high considering the salaries."
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "生活費",
+          "reading": "せいかつひ",
+          "accent": 4,
+          "variants": [
+            4,
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L73800",
+          "usage": "lexical component; no whole-phrase accent claim"
+        },
+        {
+          "form": "給料",
+          "reading": "きゅうりょう",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L38294",
+          "usage": "lexical component; no whole-phrase accent claim"
+        },
+        {
+          "form": "高",
+          "reading": "たか",
+          "accent": 2,
+          "variants": [
+            2,
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50760",
+          "usage": "exact spelling and reviewed reading"
+        },
+        {
+          "form": "割に",
+          "reading": "わりに",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L32880",
+          "usage": "reliable component of comparison pattern; full expression remains provisional"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Use natural connected sentence phrasing. Keep particles attached to the preceding phrase. At supplied commas, pause briefly after the complete phrase; never pause immediately before topic わ, object お or directional え. Preserve lexical は in はらった and はたらいて; Japanese 日本 is にほん in these examples. Whole-expression pitch is provisional natural Tokyo Japanese intonation. Reliable dictionary component/base-form references (0 = heiban, other numbers = drop after that mora): 生活費 / せいかつひ type 4; 給料 / きゅうりょう type 1; 高 / たか type 2; 割に / わりに type 0. These do not specify a verified full-sentence or compound contour; apply natural inflection and connected speech. ",
+      "audio": "audio/lessons/household-finance-cards/marin-c74f7f91def33c13bae4.mp3"
+    },
+    {
+      "key": "とうきょうはきゅうりょうのわりにぶっかがたかいきがします。",
+      "input": "とうきょうわきゅうりょうのわりにぶっかがたかいきがします。",
+      "display": "東京(とうきょう)は給料(きゅうりょう)のわりに物価(ぶっか)が高(たか)い気(き)がします。",
+      "english": "I feel like Tokyo is expensive relative to salaries.",
+      "contexts": [
+        {
+          "card": "household-finance-comparisons",
+          "kind": "additional-example",
+          "display": "東京(とうきょう)は給料(きゅうりょう)のわりに物価(ぶっか)が高(たか)い気(き)がします。",
+          "english": "I feel like Tokyo is expensive relative to salaries."
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "物価",
+          "reading": "ぶっか",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L104173",
+          "usage": "lexical component; no whole-phrase accent claim"
+        },
+        {
+          "form": "給料",
+          "reading": "きゅうりょう",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L38294",
+          "usage": "lexical component; no whole-phrase accent claim"
+        },
+        {
+          "form": "東京",
+          "reading": "とうきょう",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L91761",
+          "usage": "exact spelling and reviewed reading"
+        },
+        {
+          "form": "高",
+          "reading": "たか",
+          "accent": 2,
+          "variants": [
+            2,
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50760",
+          "usage": "exact spelling and reviewed reading"
+        },
+        {
+          "form": "気",
+          "reading": "き",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L36324",
+          "usage": "exact spelling and reviewed reading"
+        },
+        {
+          "form": "割に",
+          "reading": "わりに",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L32880",
+          "usage": "reliable component of comparison pattern; full expression remains provisional"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Use natural connected sentence phrasing. Keep particles attached to the preceding phrase. At supplied commas, pause briefly after the complete phrase; never pause immediately before topic わ, object お or directional え. Preserve lexical は in はらった and はたらいて; Japanese 日本 is にほん in these examples. Whole-expression pitch is provisional natural Tokyo Japanese intonation. Reliable dictionary component/base-form references (0 = heiban, other numbers = drop after that mora): 物価 / ぶっか type 0; 給料 / きゅうりょう type 1; 東京 / とうきょう type 0; 高 / たか type 2; 気 / き type 0; 割に / わりに type 0. These do not specify a verified full-sentence or compound contour; apply natural inflection and connected speech. ",
+      "audio": "audio/lessons/household-finance-cards/marin-4b9f7b88c3e54f8db293.mp3"
+    },
+    {
+      "key": "によってちがう",
+      "input": "によってちがう",
+      "display": "～によって違(ちが)う",
+      "english": "It differs depending on…",
+      "contexts": [
+        {
+          "card": "household-finance-comparisons",
+          "kind": "vocabulary",
+          "display": "～によって違(ちが)う",
+          "english": "It differs depending on…",
+          "sourceKey": "によってちがう|～によって違う"
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "違う",
+          "reading": "ちがう",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L22601",
+          "usage": "contextual dictionary lemma only; inflected/compound accent remains provisional"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Say the complete word or comparison phrase continuously without gaps between morae. Whole-expression pitch is provisional natural Tokyo Japanese intonation. Reliable dictionary component/base-form references (0 = heiban, other numbers = drop after that mora): 違う / ちがう type 0. These do not specify a verified full-sentence or compound contour; apply natural inflection and connected speech. ",
+      "audio": "audio/lessons/household-finance-cards/marin-8a8893dd2849c020437b.mp3"
+    },
+    {
+      "key": "せいかつひはすむばしょによってちがいます。",
+      "input": "せいかつひわすむばしょによってちがいます。",
+      "display": "生活費(せいかつひ)は住(す)む場所(ばしょ)によって違(ちが)います。",
+      "english": "Living expenses differ depending on where you live.",
+      "contexts": [
+        {
+          "card": "household-finance-comparisons",
+          "kind": "example",
+          "display": "生活費(せいかつひ)は住(す)む場所(ばしょ)によって違(ちが)います。",
+          "english": "Living expenses differ depending on where you live."
+        }
+      ],
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied readings and sentences; data/household-finance-cards.json; meaning-matched dictionary readings and reviewed conjugations",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "生活費",
+          "reading": "せいかつひ",
+          "accent": 4,
+          "variants": [
+            4,
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L73800",
+          "usage": "lexical component; no whole-phrase accent claim"
+        },
+        {
+          "form": "住む",
+          "reading": "すむ",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L62995",
+          "usage": "contextual dictionary lemma only; inflected/compound accent remains provisional"
+        },
+        {
+          "form": "場所",
+          "reading": "ばしょ",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67884",
+          "usage": "exact spelling and reviewed reading"
+        },
+        {
+          "form": "違う",
+          "reading": "ちがう",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L22601",
+          "usage": "contextual dictionary lemma only; inflected/compound accent remains provisional"
+        }
+      ],
+      "pronunciation_guidance": "This is Japanese conversation about living costs, income, salary and household finances. Read only the supplied hiragana once, with Marin at generation speed 1.0, without an introduction, English or any added words. Keep ordinary long vowels, small kana and doubled consonants. Use a modest natural Tokyo pitch range. Use natural connected sentence phrasing. Keep particles attached to the preceding phrase. At supplied commas, pause briefly after the complete phrase; never pause immediately before topic わ, object お or directional え. Preserve lexical は in はらった and はたらいて; Japanese 日本 is にほん in these examples. Whole-expression pitch is provisional natural Tokyo Japanese intonation. Reliable dictionary component/base-form references (0 = heiban, other numbers = drop after that mora): 生活費 / せいかつひ type 4; 住む / すむ type 1; 場所 / ばしょ type 0; 違う / ちがう type 0. These do not specify a verified full-sentence or compound contour; apply natural inflection and connected speech. ",
+      "audio": "audio/lessons/household-finance-cards/marin-5752a3da8c1497de666e.mp3"
+    }
+  ],
+  "generation_summary": {
+    "recordings": 39,
+    "reusedRecordings": 3,
+    "newRecordings": 36,
+    "container_validation": "All MP3 files readable with afinfo; no listening verification",
+    "listening_verified": false
+  }
+}
