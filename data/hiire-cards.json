@@ -2,8 +2,233 @@
   "title": "火入れカード",
   "entries": [
     {
-      "id": "hiire-card-01",
+      "id": "hiire-card-vocabulary",
       "step": 1,
+      "kanji": "火入(ひい)れの言葉(ことば)",
+      "english": "Heat and cooking vocabulary",
+      "japanese": "ひいれのことば。",
+      "blocks": [
+        {
+          "japanese": "火加減(ひかげん)",
+          "english": "Heat levels",
+          "heading": true
+        },
+        {
+          "items": [
+            {
+              "japanese": "強火(つよび)",
+              "english": "High heat",
+              "speech": "つよび"
+            },
+            {
+              "japanese": "中火(ちゅうび)",
+              "english": "Medium heat",
+              "speech": "ちゅうび"
+            },
+            {
+              "japanese": "弱火(よわび)",
+              "english": "Low heat",
+              "speech": "よわび"
+            },
+            {
+              "japanese": "とろ火(び)",
+              "english": "Very low heat",
+              "speech": "とろび"
+            },
+            {
+              "japanese": "遠火(とおび)",
+              "english": "Distant heat",
+              "speech": "とおび"
+            },
+            {
+              "japanese": "近火(ちかび)",
+              "english": "Close heat",
+              "speech": "ちかび"
+            },
+            {
+              "japanese": "直火(じかび)",
+              "english": "Direct flame",
+              "speech": "じかび"
+            },
+            {
+              "japanese": "炭火(すみび)",
+              "english": "Charcoal fire",
+              "speech": "すみび"
+            },
+            {
+              "japanese": "余熱(よねつ)",
+              "english": "Residual heat",
+              "speech": "よねつ"
+            }
+          ]
+        },
+        {
+          "japanese": "火入(ひい)れ",
+          "english": "Heat application",
+          "heading": true
+        },
+        {
+          "items": [
+            {
+              "japanese": "火入(ひい)れ",
+              "english": "Heat application",
+              "speech": "ひいれ"
+            },
+            {
+              "japanese": "火加減(ひかげん)",
+              "english": "Heat control",
+              "speech": "ひかげん"
+            },
+            {
+              "japanese": "火(ひ)を入(い)れる",
+              "english": "Apply heat",
+              "speech": "ひおいれる"
+            },
+            {
+              "japanese": "火(ひ)が通(とお)る",
+              "english": "Be cooked through",
+              "speech": "ひがとおる"
+            },
+            {
+              "japanese": "火(ひ)を通(とお)す",
+              "english": "Cook through",
+              "speech": "ひおとおす"
+            },
+            {
+              "japanese": "火(ひ)を止(と)める",
+              "english": "Turn off the heat",
+              "speech": "ひおとめる"
+            },
+            {
+              "japanese": "火(ひ)が入(はい)りすぎる",
+              "english": "Overcooked",
+              "speech": "ひがはいりすぎる"
+            },
+            {
+              "japanese": "半生(はんなま)",
+              "english": "Rare / partially cooked",
+              "speech": "はんなま"
+            },
+            {
+              "japanese": "生(なま)",
+              "english": "Raw",
+              "speech": "なま"
+            }
+          ]
+        },
+        {
+          "japanese": "料理人(りょうりにん)がよく使(つか)う言葉(ことば)",
+          "english": "Words chefs often use",
+          "heading": true
+        },
+        {
+          "items": [
+            {
+              "japanese": "均一(きんいつ)に火(ひ)を入(い)れる",
+              "english": "Cook evenly",
+              "speech": "きんいつにひおいれる"
+            },
+            {
+              "japanese": "じっくり火(ひ)を入(い)れる",
+              "english": "Cook slowly",
+              "speech": "じっくりひおいれる"
+            },
+            {
+              "japanese": "さっと火(ひ)を通(とお)す",
+              "english": "Cook briefly",
+              "speech": "さっとひおとおす"
+            },
+            {
+              "japanese": "表面(ひょうめん)だけ焼(や)く",
+              "english": "Sear only the surface",
+              "speech": "ひょうめんだけやく"
+            },
+            {
+              "japanese": "中(なか)まで火(ひ)を通(とお)す",
+              "english": "Cook through to the centre",
+              "speech": "なかまでひおとおす"
+            },
+            {
+              "japanese": "焼(や)き目(め)を付(つ)ける",
+              "english": "Develop a good crust",
+              "speech": "やきめおつける"
+            },
+            {
+              "japanese": "旨味(うまみ)を閉(と)じ込(こ)める",
+              "english": "Lock in umami",
+              "speech": "うまみおとじこめる"
+            },
+            {
+              "japanese": "水分(すいぶん)を飛(と)ばす",
+              "english": "Evaporate moisture",
+              "speech": "すいぶんおとばす"
+            },
+            {
+              "japanese": "余熱(よねつ)で火(ひ)を入(い)れる",
+              "english": "Finish cooking with residual heat",
+              "speech": "よねつでひおいれる"
+            }
+          ]
+        },
+        {
+          "japanese": "火(ひ)で起(お)こる変化(へんか)",
+          "english": "Changes caused by heat",
+          "heading": true
+        },
+        {
+          "items": [
+            {
+              "japanese": "メイラード反応(はんのう)",
+              "english": "Maillard reaction",
+              "speech": "めいらーどはんのう"
+            },
+            {
+              "japanese": "カラメル化(か)",
+              "english": "Caramelization",
+              "speech": "からめるか"
+            },
+            {
+              "japanese": "タンパク質(しつ)の凝固(ぎょうこ)",
+              "english": "Protein coagulation",
+              "speech": "たんぱくしつのぎょうこ"
+            },
+            {
+              "japanese": "デンプンの糊化(こか)",
+              "english": "Starch gelatinization",
+              "speech": "でんぷんのこか"
+            },
+            {
+              "japanese": "脂(あぶら)が溶(と)ける",
+              "english": "Fat renders",
+              "speech": "あぶらがとける"
+            },
+            {
+              "japanese": "水分(すいぶん)が飛(と)ぶ",
+              "english": "Moisture evaporates",
+              "speech": "すいぶんがとぶ"
+            },
+            {
+              "japanese": "旨味(うまみ)が増(ま)す",
+              "english": "Umami increases",
+              "speech": "うまみがます"
+            },
+            {
+              "japanese": "香(かお)りが立(た)つ",
+              "english": "Aroma develops",
+              "speech": "かおりがたつ"
+            },
+            {
+              "japanese": "焼(や)き色(いろ)が付(つ)く",
+              "english": "Browning develops",
+              "speech": "やきいろがつく"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hiire-card-01",
+      "step": 2,
       "kanji": "火入(ひい)れとは何(なに)か",
       "english": "What is 火入れ?",
       "japanese": "ひいれとはなにか。",
@@ -76,7 +301,7 @@
     },
     {
       "id": "hiire-card-02",
-      "step": 2,
+      "step": 3,
       "kanji": "熱(ねつ)はどう伝(つた)わるか",
       "english": "How Heat Moves",
       "japanese": "ねつはどうつたわるか。",
@@ -123,7 +348,7 @@
     },
     {
       "id": "hiire-card-03",
-      "step": 3,
+      "step": 4,
       "kanji": "中心温度(ちゅうしんおんど)と余熱(よねつ)",
       "english": "Core Temperature and Carryover Cooking",
       "japanese": "ちゅうしんおんどとよねつ。",
@@ -157,7 +382,7 @@
     },
     {
       "id": "hiire-card-04",
-      "step": 4,
+      "step": 5,
       "kanji": "魚(さかな)の火入(ひい)れ",
       "english": "Cooking Fish",
       "japanese": "さかなのひいれ。",
@@ -251,7 +476,7 @@
     },
     {
       "id": "hiire-card-05",
-      "step": 5,
+      "step": 6,
       "kanji": "野菜(やさい)の火入(ひい)れ",
       "english": "Cooking Vegetables",
       "japanese": "やさいのひいれ。",
@@ -348,7 +573,7 @@
     },
     {
       "id": "hiire-card-06",
-      "step": 6,
+      "step": 7,
       "kanji": "肉(にく)の火入(ひい)れ",
       "english": "Cooking Meat",
       "japanese": "にくのひいれ。",
@@ -417,7 +642,7 @@
     },
     {
       "id": "hiire-card-07",
-      "step": 7,
+      "step": 8,
       "kanji": "提供(ていきょう)までが火入(ひい)れ",
       "english": "Heat Control Continues Until Serving",
       "japanese": "ていきょうまでがひいれ。",
@@ -461,7 +686,7 @@
     },
     {
       "id": "hiire-card-08",
-      "step": 8,
+      "step": 9,
       "kanji": "失敗(しっぱい)から逆算(ぎゃくさん)する",
       "english": "Learning Backwards from Failure",
       "japanese": "しっぱいからぎゃくさんする。",
@@ -519,7 +744,7 @@
     },
     {
       "id": "hiire-card-09",
-      "step": 9,
+      "step": 10,
       "kanji": "まとめ",
       "english": "The Overall Principle",
       "japanese": "まとめ。",

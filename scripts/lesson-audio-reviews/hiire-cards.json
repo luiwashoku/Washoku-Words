@@ -59,7 +59,24 @@
       "key": "よねつ",
       "input": "よねつ",
       "speed": 1.0,
-      "pronunciation_guidance": "Read only this supplied Japanese chunk once. Use brief natural pauses at commas and sentence boundaries. Keep particles attached to the preceding phrase; never pause immediately before わ or お. Preserve vowel length in ひいれ and do not split compound terms. Do not add English or list numbers."
+      "pronunciation_guidance": "Read only this supplied Japanese chunk once. Use brief natural pauses at commas and sentence boundaries. Keep particles attached to the preceding phrase; never pause immediately before わ or お. Preserve vowel length in ひいれ and do not split compound terms. Do not add English or list numbers.",
+      "display": "余熱(よねつ)",
+      "english": "Residual heat",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L113727",
+      "accent_matched_form": "余熱",
+      "accent_status": "dictionary",
+      "reuse_audio": "audio/lessons/hiire-cards/marin-e59eec0f2f9fa37aea8f.mp3",
+      "reuse_source": "Existing Marin 1.0 hiire-cards recording and reviewed input; shared vocabulary key",
+      "reuse_pitch_note": "Prior clip was generated with natural Tokyo guidance; new dictionary target does not establish audible pitch.",
+      "audio": "audio/lessons/hiire-cards/marin-e59eec0f2f9fa37aea8f.mp3"
     },
     {
       "key": "ていきょう",
@@ -594,6 +611,1311 @@
       "input": "けっかおみて、つぎのひいれおちょうせいする",
       "speed": 1.0,
       "pronunciation_guidance": "Read only this Japanese chunk once, naturally. Use brief pauses at supplied commas and complete sentence boundaries. Keep particles attached to preceding phrases; never pause immediately before わ, お or directional え. Preserve vowel length and doubled consonants. Do not add English or list numbers."
+    },
+    {
+      "key": "ひいれのことば。",
+      "input": "ひいれのことば。",
+      "speed": 1.0,
+      "display": "火入(ひい)れの言葉(ことば)",
+      "english": "Heat and cooking vocabulary",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "火",
+          "reading": "ひ",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L29387",
+          "method": "exact spelling and reading; checked cooking context"
+        },
+        {
+          "form": "言葉",
+          "reading": "ことば",
+          "accent": 3,
+          "variants": [
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L46136",
+          "method": "exact spelling and reading; checked cooking context"
+        }
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt (whole-word/phrase target not confirmed; component matches only)",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Heat and cooking vocabulary. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words. Whole-expression pitch is provisional: use natural standard Tokyo Japanese intonation. Reliable component/base-form accent references, allowing natural connected-speech changes: 火 / ひ type 1; 言葉 / ことば type 3.",
+      "audio": "audio/lessons/hiire-cards/marin-b702556e0d135cb45830.mp3"
+    },
+    {
+      "key": "ひかげん",
+      "input": "ひかげん",
+      "speed": 1.0,
+      "display": "火加減(ひかげん)",
+      "english": "Heat control",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent": 2,
+      "accent_variants": [
+        2
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L29418",
+      "accent_matched_form": "火加減",
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "Pronunciation context only, not spoken: 火加減 means the stove heat level a chef adjusts while cooking. Say only the supplied Japanese word once, smoothly and casually, as a native Tokyo Japanese cooking instructor would say it in conversation. Treat ひかげん as one familiar word with continuous compact timing. Keep the voiced げ clear. Do not pause inside the word, spell out kana, emphasize separate syllables, stretch sounds, or add any other words.",
+      "audio": "audio/lessons/hiire-cards/marin-586daf9910aa8033d289.mp3",
+      "regeneration_history": [
+        {
+          "reason": "User reported unnatural sound and requested cooking context for Marin",
+          "previous_audio": "audio/lessons/hiire-cards/marin-ad42d355611e122d39c5.mp3",
+          "previous_input": "ひかげん",
+          "previous_pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Heat control. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words.",
+          "listening_verified": false,
+          "replacement_audio": "audio/lessons/hiire-cards/marin-d5f4a7c7ac00fb38f84b.mp3",
+          "file_duration_seconds": 1.92
+        },
+        {
+          "reason": "User reports choppy 火加減 and still unnatural 火入れ; simplify guidance for fluent whole-word delivery",
+          "previous_audio": "audio/lessons/hiire-cards/marin-d5f4a7c7ac00fb38f84b.mp3",
+          "previous_input": "ひかげん",
+          "previous_pronunciation_guidance": "Context for pronunciation only; do not speak this context: 火加減. The intensity of the cooking flame or stove heat, adjusted by a chef between low, medium and high. Read only the supplied hiragana once, as a Japanese chef calmly naming this term in a cooking lesson. Say the compact four-mora noun ひ・か・げ・ん. Keep the voiced げ clear. No pause after ひ, no stretching or spelling out individual morae. Use a natural conversational voice, compact fluent timing, and a modest Tokyo pitch range. Do not add surrounding sentences, explanations, English, or list numbers.",
+          "listening_verified": false,
+          "replacement_audio": "audio/lessons/hiire-cards/marin-586daf9910aa8033d289.mp3",
+          "file_duration_seconds": 1.752
+        }
+      ],
+      "context_review": "Rechecked existing supplied reading against cooking meaning and reviewed sources; original dictionary target/variants or provisional status preserved. Speech input stays hiragana; meaning and kanji appear only in instructions."
+    },
+    {
+      "key": "つよび",
+      "input": "つよび",
+      "speed": 1.0,
+      "display": "強火(つよび)",
+      "english": "High heat",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L39279",
+      "accent_matched_form": "強火",
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: High heat. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words.",
+      "audio": "audio/lessons/hiire-cards/marin-f9a192f8f58dce5a40bf.mp3"
+    },
+    {
+      "key": "ちゅうび",
+      "input": "ちゅうび",
+      "speed": 1.0,
+      "display": "中火(ちゅうび)",
+      "english": "Medium heat",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L85817",
+      "accent_matched_form": "中火",
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "Context for pronunciation only; do not speak this context: 中火. Medium stove heat in a cooking recipe, between 強火 high heat and 弱火 low heat. Read only the supplied hiragana once, as a Japanese chef calmly naming this term in a cooking lesson. Say ちゅうび as one three-mora word: ちゅ・う・び. Preserve the long う and voiced び. Do not split ちゅ into ち and ゆ or add an extra syllable. Use a natural conversational voice, compact fluent timing, and a modest Tokyo pitch range. Do not add surrounding sentences, explanations, English, or list numbers.",
+      "audio": "audio/lessons/hiire-cards/marin-89f34544942cd453793e.mp3",
+      "regeneration_history": [
+        {
+          "reason": "User reported unnatural sound and requested cooking context for Marin",
+          "previous_audio": "audio/lessons/hiire-cards/marin-353f7b693de59e041acf.mp3",
+          "previous_input": "ちゅうび",
+          "previous_pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Medium heat. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words.",
+          "listening_verified": false,
+          "replacement_audio": "audio/lessons/hiire-cards/marin-89f34544942cd453793e.mp3",
+          "file_duration_seconds": 1.464
+        }
+      ],
+      "context_review": "Rechecked existing supplied reading against cooking meaning and reviewed sources; original dictionary target/variants or provisional status preserved. Speech input stays hiragana; meaning and kanji appear only in instructions."
+    },
+    {
+      "key": "よわび",
+      "input": "よわび",
+      "speed": 1.0,
+      "display": "弱火(よわび)",
+      "english": "Low heat",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L60570",
+      "accent_matched_form": "弱火",
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Low heat. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words.",
+      "audio": "audio/lessons/hiire-cards/marin-51f8bc844b1c94cb7be4.mp3"
+    },
+    {
+      "key": "とろび",
+      "input": "とろび",
+      "speed": 1.0,
+      "display": "とろ火(び)",
+      "english": "Very low heat",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L3193",
+      "accent_matched_form": "とろ火",
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Very low heat. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words.",
+      "audio": "audio/lessons/hiire-cards/marin-d27eacc7a8fb203e2780.mp3"
+    },
+    {
+      "key": "とおび",
+      "input": "とおび",
+      "speed": 1.0,
+      "display": "遠火(とおび)",
+      "english": "Distant heat",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent": 0,
+      "accent_variants": [
+        0
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L26468",
+      "accent_matched_form": "遠火",
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Distant heat. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words.",
+      "audio": "audio/lessons/hiire-cards/marin-fb2146162b05d6bc9cdc.mp3"
+    },
+    {
+      "key": "ちかび",
+      "input": "ちかび",
+      "speed": 1.0,
+      "display": "近火(ちかび)",
+      "english": "Close heat",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent": 2,
+      "accent_variants": [
+        2
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40637",
+      "accent_matched_form": "近火",
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Close heat. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words.",
+      "audio": "audio/lessons/hiire-cards/marin-892f67b59c28806a62a4.mp3"
+    },
+    {
+      "key": "じかび",
+      "input": "じかび",
+      "speed": 1.0,
+      "display": "直火(じかび)",
+      "english": "Direct flame",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent": 0,
+      "accent_variants": [
+        0,
+        2
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L87628",
+      "accent_matched_form": "直火",
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Direct flame. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words.",
+      "audio": "audio/lessons/hiire-cards/marin-925ec85dee243032f131.mp3"
+    },
+    {
+      "key": "すみび",
+      "input": "すみび",
+      "speed": 1.0,
+      "display": "炭火(すみび)",
+      "english": "Charcoal fire",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent": 0,
+      "accent_variants": [
+        0,
+        2
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L84160",
+      "accent_matched_form": "炭火",
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Charcoal fire. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words.",
+      "audio": "audio/lessons/hiire-cards/marin-c67c31f03484da3440a9.mp3"
+    },
+    {
+      "key": "ひいれ",
+      "input": "ひいれ",
+      "speed": 1.0,
+      "display": "火入(ひい)れ",
+      "english": "Heat application",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent": 3,
+      "accent_variants": [
+        3
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L29557",
+      "accent_matched_form": "火入れ",
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "Pronunciation context only, not spoken: 火入れ is a chef’s term for applying heat to an ingredient and controlling doneness. Say only the supplied Japanese word once, smoothly and casually, as a native Tokyo Japanese chef would name a cooking technique. Treat ひいれ as one familiar connected word. Preserve the normal Japanese long vowel in ひい without separating the two vowel morae or stretching them excessively. Flow directly into れ with a short natural ending. Do not pause inside the word, spell out kana, emphasize separate syllables, or add any other words.",
+      "audio": "audio/lessons/hiire-cards/marin-7ecf1fe7ce9279686111.mp3",
+      "regeneration_history": [
+        {
+          "reason": "User reported unnatural sound and requested cooking context for Marin",
+          "previous_audio": "audio/lessons/hiire-cards/marin-3def697f1091b54771a3.mp3",
+          "previous_input": "ひいれ",
+          "previous_pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Heat application. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words.",
+          "listening_verified": false,
+          "replacement_audio": "audio/lessons/hiire-cards/marin-07d284611a31d8986167.mp3",
+          "file_duration_seconds": 2.016
+        },
+        {
+          "reason": "User reports choppy 火加減 and still unnatural 火入れ; simplify guidance for fluent whole-word delivery",
+          "previous_audio": "audio/lessons/hiire-cards/marin-07d284611a31d8986167.mp3",
+          "previous_input": "ひいれ",
+          "previous_pronunciation_guidance": "Context for pronunciation only; do not speak this context: 火入れ. A chef applying heat to an ingredient to control its doneness. This is cooking, not inserting a flame or firing a kiln. Read only the supplied hiragana once, as a Japanese chef calmly naming this term in a cooking lesson. Say ひいれ as one compact three-mora noun: ひ・い・れ. Preserve both consecutive い vowel morae without an internal pause. Use a natural conversational voice, compact fluent timing, and a modest Tokyo pitch range. Do not add surrounding sentences, explanations, English, or list numbers.",
+          "listening_verified": false,
+          "replacement_audio": "audio/lessons/hiire-cards/marin-7ecf1fe7ce9279686111.mp3",
+          "file_duration_seconds": 1.32
+        }
+      ],
+      "context_review": "Rechecked existing supplied reading against cooking meaning and reviewed sources; original dictionary target/variants or provisional status preserved. Speech input stays hiragana; meaning and kanji appear only in instructions."
+    },
+    {
+      "key": "ひおいれる",
+      "input": "ひおいれる",
+      "speed": 1.0,
+      "display": "火(ひ)を入(い)れる",
+      "english": "Apply heat",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "火",
+          "reading": "ひ",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L29387",
+          "method": "exact spelling and reading; checked cooking context"
+        },
+        {
+          "form": "入れる",
+          "reading": "いれる",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L95586",
+          "method": "exact spelling and reading; checked cooking context"
+        }
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt (whole-word/phrase target not confirmed; component matches only)",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Apply heat. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words. Whole-expression pitch is provisional: use natural standard Tokyo Japanese intonation. Reliable component/base-form accent references, allowing natural connected-speech changes: 火 / ひ type 1; 入れる / いれる type 0.",
+      "audio": "audio/lessons/hiire-cards/marin-a33ccaade6799b29e0fc.mp3"
+    },
+    {
+      "key": "ひがとおる",
+      "input": "ひがとおる",
+      "speed": 1.0,
+      "display": "火(ひ)が通(とお)る",
+      "english": "Be cooked through",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "火",
+          "reading": "ひ",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L29387",
+          "method": "exact spelling and reading; checked cooking context"
+        },
+        {
+          "form": "通る",
+          "reading": "とおる",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L88211",
+          "method": "exact spelling and reading; checked cooking context"
+        }
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt (whole-word/phrase target not confirmed; component matches only)",
+      "pronunciation_guidance": "Context for pronunciation only; do not speak this context: 火が通る. Food becomes cooked through because heat reaches its interior. A chef describes the doneness of fish, meat or vegetables. Read only the supplied hiragana once, as a Japanese chef calmly naming this term in a cooking lesson. Say the complete expression fluidly: ひが + とおる. Keep が with ひ; preserve the long お in とおる. No pause between the subject and verb. Use a natural conversational voice, compact fluent timing, and a modest Tokyo pitch range. Do not add surrounding sentences, explanations, English, or list numbers. Whole-expression pitch remains provisional: use natural Tokyo Japanese intonation. Retain these lexical base-form references with natural connected-speech changes: 火 / ひ type 1; 通る / とおる type 1.",
+      "audio": "audio/lessons/hiire-cards/marin-593c9f0766940436d245.mp3",
+      "regeneration_history": [
+        {
+          "reason": "User reported unnatural sound and requested cooking context for Marin",
+          "previous_audio": "audio/lessons/hiire-cards/marin-d9b2a3b067a6d9cc1d5f.mp3",
+          "previous_input": "ひがとおる",
+          "previous_pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Be cooked through. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words. Whole-expression pitch is provisional: use natural standard Tokyo Japanese intonation. Reliable component/base-form accent references, allowing natural connected-speech changes: 火 / ひ type 1; 通る / とおる type 1.",
+          "listening_verified": false,
+          "replacement_audio": "audio/lessons/hiire-cards/marin-593c9f0766940436d245.mp3",
+          "file_duration_seconds": 1.464
+        }
+      ],
+      "context_review": "Rechecked existing supplied reading against cooking meaning and reviewed sources; original dictionary target/variants or provisional status preserved. Speech input stays hiragana; meaning and kanji appear only in instructions."
+    },
+    {
+      "key": "ひおとおす",
+      "input": "ひおとおす",
+      "speed": 1.0,
+      "display": "火(ひ)を通(とお)す",
+      "english": "Cook through",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "火",
+          "reading": "ひ",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L29387",
+          "method": "exact spelling and reading; checked cooking context"
+        },
+        {
+          "form": "通す",
+          "reading": "とおす",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L88185",
+          "method": "exact spelling and reading; checked cooking context"
+        }
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt (whole-word/phrase target not confirmed; component matches only)",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Cook through. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words. Whole-expression pitch is provisional: use natural standard Tokyo Japanese intonation. Reliable component/base-form accent references, allowing natural connected-speech changes: 火 / ひ type 1; 通す / とおす type 1.",
+      "audio": "audio/lessons/hiire-cards/marin-24042db0486dbddd535b.mp3"
+    },
+    {
+      "key": "ひおとめる",
+      "input": "ひおとめる",
+      "speed": 1.0,
+      "display": "火(ひ)を止(と)める",
+      "english": "Turn off the heat",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "火",
+          "reading": "ひ",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L29387",
+          "method": "exact spelling and reading; checked cooking context"
+        },
+        {
+          "form": "止める",
+          "reading": "とめる",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L57047",
+          "method": "exact spelling and reading; checked cooking context"
+        }
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt (whole-word/phrase target not confirmed; component matches only)",
+      "pronunciation_guidance": "Context for pronunciation only; do not speak this context: 火を止める. A chef turns off the stove burner or switches off the cooking heat. Read only the supplied hiragana once, as a Japanese chef calmly naming this term in a cooking lesson. Read 火を止める as ひおとめる. を is the object particle pronounced お. Keep ひお connected, then flow directly into とめる without a pause. Use a natural conversational voice, compact fluent timing, and a modest Tokyo pitch range. Do not add surrounding sentences, explanations, English, or list numbers. Whole-expression pitch remains provisional: use natural Tokyo Japanese intonation. Retain these lexical base-form references with natural connected-speech changes: 火 / ひ type 1; 止める / とめる type 0.",
+      "audio": "audio/lessons/hiire-cards/marin-c3f09d2e4199ea1a769a.mp3",
+      "regeneration_history": [
+        {
+          "reason": "User reported unnatural sound and requested cooking context for Marin",
+          "previous_audio": "audio/lessons/hiire-cards/marin-24c66b7b940ffe1ee600.mp3",
+          "previous_input": "ひおとめる",
+          "previous_pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Turn off the heat. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words. Whole-expression pitch is provisional: use natural standard Tokyo Japanese intonation. Reliable component/base-form accent references, allowing natural connected-speech changes: 火 / ひ type 1; 止める / とめる type 0.",
+          "listening_verified": false,
+          "replacement_audio": "audio/lessons/hiire-cards/marin-c3f09d2e4199ea1a769a.mp3",
+          "file_duration_seconds": 1.368
+        }
+      ],
+      "context_review": "Rechecked existing supplied reading against cooking meaning and reviewed sources; original dictionary target/variants or provisional status preserved. Speech input stays hiragana; meaning and kanji appear only in instructions."
+    },
+    {
+      "key": "ひがはいりすぎる",
+      "input": "ひがはいりすぎる",
+      "speed": 1.0,
+      "display": "火(ひ)が入(はい)りすぎる",
+      "english": "Overcooked",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "火",
+          "reading": "ひ",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L29387",
+          "method": "exact spelling and reading; checked cooking context"
+        }
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt (whole-word/phrase target not confirmed; component matches only)",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Overcooked. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words. Whole-expression pitch is provisional: use natural standard Tokyo Japanese intonation. Reliable component/base-form accent references, allowing natural connected-speech changes: 火 / ひ type 1.",
+      "audio": "audio/lessons/hiire-cards/marin-e1ffbb3515d13d0d55da.mp3"
+    },
+    {
+      "key": "はんなま",
+      "input": "はんなま",
+      "speed": 1.0,
+      "display": "半生(はんなま)",
+      "english": "Rare / partially cooked",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt (whole-word/phrase target not confirmed; component matches only)",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Rare / partially cooked. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words. Whole-expression pitch is provisional: use natural standard Tokyo Japanese intonation.",
+      "audio": "audio/lessons/hiire-cards/marin-948bd68e2613237ce298.mp3"
+    },
+    {
+      "key": "なま",
+      "input": "なま",
+      "speed": 1.0,
+      "display": "生(なま)",
+      "english": "Raw",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent": 1,
+      "accent_variants": [
+        1
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L73619",
+      "accent_matched_form": "生",
+      "accent_status": "dictionary",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Raw. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words.",
+      "audio": "audio/lessons/hiire-cards/marin-7f2f16521f23b4bddbb6.mp3"
+    },
+    {
+      "key": "りょうりにんがよくつかうことば",
+      "input": "りょうりにんがよくつかうことば",
+      "speed": 1.0,
+      "display": "料理人(りょうりにん)がよく使(つか)う言葉(ことば)",
+      "english": "Words chefs often use",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "料理人",
+          "reading": "りょうりにん",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L116668",
+          "method": "exact spelling and reading; checked cooking context"
+        },
+        {
+          "form": "使う",
+          "reading": "つかう",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L55952",
+          "method": "exact spelling and reading; checked cooking context"
+        },
+        {
+          "form": "言葉",
+          "reading": "ことば",
+          "accent": 3,
+          "variants": [
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L46136",
+          "method": "exact spelling and reading; checked cooking context"
+        }
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt (whole-word/phrase target not confirmed; component matches only)",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Words chefs often use. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words. Whole-expression pitch is provisional: use natural standard Tokyo Japanese intonation. Reliable component/base-form accent references, allowing natural connected-speech changes: 料理人 / りょうりにん type 0; 使う / つかう type 0; 言葉 / ことば type 3.",
+      "audio": "audio/lessons/hiire-cards/marin-06abbbec560d924f501f.mp3"
+    },
+    {
+      "key": "きんいつにひおいれる",
+      "input": "きんいつにひおいれる",
+      "speed": 1.0,
+      "display": "均一(きんいつ)に火(ひ)を入(い)れる",
+      "english": "Cook evenly",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "火",
+          "reading": "ひ",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L29387",
+          "method": "exact spelling and reading; checked cooking context"
+        },
+        {
+          "form": "入れる",
+          "reading": "いれる",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L95586",
+          "method": "exact spelling and reading; checked cooking context"
+        },
+        {
+          "form": "均一",
+          "reading": "きんいつ",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40349",
+          "method": "exact spelling and reading; checked cooking context"
+        }
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt (whole-word/phrase target not confirmed; component matches only)",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Cook evenly. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words. Whole-expression pitch is provisional: use natural standard Tokyo Japanese intonation. Reliable component/base-form accent references, allowing natural connected-speech changes: 火 / ひ type 1; 入れる / いれる type 0; 均一 / きんいつ type 0.",
+      "audio": "audio/lessons/hiire-cards/marin-142dc834fd9943626d15.mp3"
+    },
+    {
+      "key": "じっくりひおいれる",
+      "input": "じっくりひおいれる",
+      "speed": 1.0,
+      "display": "じっくり火(ひ)を入(い)れる",
+      "english": "Cook slowly",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "火",
+          "reading": "ひ",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L29387",
+          "method": "exact spelling and reading; checked cooking context"
+        },
+        {
+          "form": "入れる",
+          "reading": "いれる",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L95586",
+          "method": "exact spelling and reading; checked cooking context"
+        }
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt (whole-word/phrase target not confirmed; component matches only)",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Cook slowly. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words. Whole-expression pitch is provisional: use natural standard Tokyo Japanese intonation. Reliable component/base-form accent references, allowing natural connected-speech changes: 火 / ひ type 1; 入れる / いれる type 0.",
+      "audio": "audio/lessons/hiire-cards/marin-c19124708aefc03ed5bf.mp3"
+    },
+    {
+      "key": "さっとひおとおす",
+      "input": "さっとひおとおす",
+      "speed": 1.0,
+      "display": "さっと火(ひ)を通(とお)す",
+      "english": "Cook briefly",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "火",
+          "reading": "ひ",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L29387",
+          "method": "exact spelling and reading; checked cooking context"
+        },
+        {
+          "form": "通す",
+          "reading": "とおす",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L88185",
+          "method": "exact spelling and reading; checked cooking context"
+        }
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt (whole-word/phrase target not confirmed; component matches only)",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Cook briefly. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words. Whole-expression pitch is provisional: use natural standard Tokyo Japanese intonation. Reliable component/base-form accent references, allowing natural connected-speech changes: 火 / ひ type 1; 通す / とおす type 1.",
+      "audio": "audio/lessons/hiire-cards/marin-9bf0b3417b45af74cde4.mp3"
+    },
+    {
+      "key": "ひょうめんだけやく",
+      "input": "ひょうめんだけやく",
+      "speed": 1.0,
+      "display": "表面(ひょうめん)だけ焼(や)く",
+      "english": "Sear only the surface",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "表面",
+          "reading": "ひょうめん",
+          "accent": 3,
+          "variants": [
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L101522",
+          "method": "exact spelling and reading; checked cooking context"
+        },
+        {
+          "form": "焼く",
+          "reading": "やく",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L66819",
+          "method": "exact spelling and reading; checked cooking context"
+        }
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt (whole-word/phrase target not confirmed; component matches only)",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Sear only the surface. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words. Whole-expression pitch is provisional: use natural standard Tokyo Japanese intonation. Reliable component/base-form accent references, allowing natural connected-speech changes: 表面 / ひょうめん type 3; 焼く / やく type 0.",
+      "audio": "audio/lessons/hiire-cards/marin-9552aedcc3fc6933464b.mp3"
+    },
+    {
+      "key": "なかまでひおとおす",
+      "input": "なかまでひおとおす",
+      "speed": 1.0,
+      "display": "中(なか)まで火(ひ)を通(とお)す",
+      "english": "Cook through to the centre",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "火",
+          "reading": "ひ",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L29387",
+          "method": "exact spelling and reading; checked cooking context"
+        },
+        {
+          "form": "通す",
+          "reading": "とおす",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L88185",
+          "method": "exact spelling and reading; checked cooking context"
+        },
+        {
+          "form": "中",
+          "reading": "なか",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L85770",
+          "method": "exact spelling and reading; checked cooking context"
+        }
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt (whole-word/phrase target not confirmed; component matches only)",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Cook through to the centre. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words. Whole-expression pitch is provisional: use natural standard Tokyo Japanese intonation. Reliable component/base-form accent references, allowing natural connected-speech changes: 火 / ひ type 1; 通す / とおす type 1; 中 / なか type 1.",
+      "audio": "audio/lessons/hiire-cards/marin-1d9293b85cb440f39bb6.mp3"
+    },
+    {
+      "key": "やきめおつける",
+      "input": "やきめおつける",
+      "speed": 1.0,
+      "display": "焼(や)き目(め)を付(つ)ける",
+      "english": "Develop a good crust",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "付ける",
+          "reading": "つける",
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L102380",
+          "method": "exact spelling and reading; checked cooking context"
+        }
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt (whole-word/phrase target not confirmed; component matches only)",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Develop a good crust. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words. Whole-expression pitch is provisional: use natural standard Tokyo Japanese intonation. Reliable component/base-form accent references, allowing natural connected-speech changes: 付ける / つける type 2.",
+      "audio": "audio/lessons/hiire-cards/marin-a5e3c04603266f60b2f2.mp3"
+    },
+    {
+      "key": "うまみおとじこめる",
+      "input": "うまみおとじこめる",
+      "speed": 1.0,
+      "display": "旨味(うまみ)を閉(と)じ込(こ)める",
+      "english": "Lock in umami",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "旨味",
+          "reading": "うまみ",
+          "accent": 0,
+          "variants": [
+            0,
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L56998",
+          "method": "exact spelling and reading; checked cooking context"
+        },
+        {
+          "form": "閉じ込める",
+          "reading": "とじこめる",
+          "accent": 4,
+          "variants": [
+            4,
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L105418",
+          "method": "exact spelling and reading; checked cooking context"
+        }
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt (whole-word/phrase target not confirmed; component matches only)",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Lock in umami. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words. Whole-expression pitch is provisional: use natural standard Tokyo Japanese intonation. Reliable component/base-form accent references, allowing natural connected-speech changes: 旨味 / うまみ type 0; 閉じ込める / とじこめる type 4.",
+      "audio": "audio/lessons/hiire-cards/marin-91297532936a5cbcccec.mp3"
+    },
+    {
+      "key": "すいぶんおとばす",
+      "input": "すいぶんおとばす",
+      "speed": 1.0,
+      "display": "水分(すいぶん)を飛(と)ばす",
+      "english": "Evaporate moisture",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "水分",
+          "reading": "すいぶん",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L72162",
+          "method": "exact spelling and reading; checked cooking context"
+        },
+        {
+          "form": "飛ばす",
+          "reading": "とばす",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100440",
+          "method": "exact spelling and reading; checked cooking context"
+        }
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt (whole-word/phrase target not confirmed; component matches only)",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Evaporate moisture. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words. Whole-expression pitch is provisional: use natural standard Tokyo Japanese intonation. Reliable component/base-form accent references, allowing natural connected-speech changes: 水分 / すいぶん type 1; 飛ばす / とばす type 0.",
+      "audio": "audio/lessons/hiire-cards/marin-dc68dc91c7b71152d0a1.mp3"
+    },
+    {
+      "key": "よねつでひおいれる",
+      "input": "よねつでひおいれる",
+      "speed": 1.0,
+      "display": "余熱(よねつ)で火(ひ)を入(い)れる",
+      "english": "Finish cooking with residual heat",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "火",
+          "reading": "ひ",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L29387",
+          "method": "exact spelling and reading; checked cooking context"
+        },
+        {
+          "form": "入れる",
+          "reading": "いれる",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L95586",
+          "method": "exact spelling and reading; checked cooking context"
+        },
+        {
+          "form": "余熱",
+          "reading": "よねつ",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L113727",
+          "method": "exact spelling and reading; checked cooking context"
+        }
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt (whole-word/phrase target not confirmed; component matches only)",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Finish cooking with residual heat. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words. Whole-expression pitch is provisional: use natural standard Tokyo Japanese intonation. Reliable component/base-form accent references, allowing natural connected-speech changes: 火 / ひ type 1; 入れる / いれる type 0; 余熱 / よねつ type 0.",
+      "audio": "audio/lessons/hiire-cards/marin-8304def07a0ce5c85a6e.mp3"
+    },
+    {
+      "key": "ひでおこるへんか",
+      "input": "ひでおこるへんか",
+      "speed": 1.0,
+      "display": "火(ひ)で起(お)こる変化(へんか)",
+      "english": "Changes caused by heat",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "火",
+          "reading": "ひ",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L29387",
+          "method": "exact spelling and reading; checked cooking context"
+        },
+        {
+          "form": "起こる",
+          "reading": "おこる",
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L36788",
+          "method": "exact spelling and reading; checked cooking context"
+        },
+        {
+          "form": "変化",
+          "reading": "へんか",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L105809",
+          "method": "exact spelling and reading; checked cooking context"
+        }
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt (whole-word/phrase target not confirmed; component matches only)",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Changes caused by heat. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words. Whole-expression pitch is provisional: use natural standard Tokyo Japanese intonation. Reliable component/base-form accent references, allowing natural connected-speech changes: 火 / ひ type 1; 起こる / おこる type 2; 変化 / へんか type 1.",
+      "audio": "audio/lessons/hiire-cards/marin-eec29183522d16f40b0f.mp3"
+    },
+    {
+      "key": "めいらーどはんのう",
+      "input": "めいらーどはんのう",
+      "speed": 1.0,
+      "display": "メイラード反応(はんのう)",
+      "english": "Maillard reaction",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "反応",
+          "reading": "はんのう",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L99290",
+          "method": "exact spelling and reading; checked cooking context"
+        }
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt (whole-word/phrase target not confirmed; component matches only)",
+      "pronunciation_guidance": "Context for pronunciation only; do not speak this context: メイラード反応. The Maillard reaction: amino acids and sugars react during cooking, producing browning and roasted aromas. This is a Japanese culinary science term. Read only the supplied hiragana once, as a Japanese chef calmly naming this term in a cooking lesson. Use Japanese pronunciation throughout: めいらーど + はんのう. Preserve the long あ in らー and the long おう in のう. The は in はんのう is lexical は, never わ. Keep the compound fluent without spelling out kana. Use a natural conversational voice, compact fluent timing, and a modest Tokyo pitch range. Do not add surrounding sentences, explanations, English, or list numbers. Whole-expression pitch remains provisional: use natural Tokyo Japanese intonation. Retain these lexical base-form references with natural connected-speech changes: 反応 / はんのう type 0.",
+      "audio": "audio/lessons/hiire-cards/marin-5dd98284685802279f0d.mp3",
+      "regeneration_history": [
+        {
+          "reason": "User reported unnatural sound and requested cooking context for Marin",
+          "previous_audio": "audio/lessons/hiire-cards/marin-6505c66c6d5452c6e344.mp3",
+          "previous_input": "めいらーどはんのう",
+          "previous_pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Maillard reaction. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words. Whole-expression pitch is provisional: use natural standard Tokyo Japanese intonation. Reliable component/base-form accent references, allowing natural connected-speech changes: 反応 / はんのう type 0.",
+          "listening_verified": false,
+          "replacement_audio": "audio/lessons/hiire-cards/marin-5dd98284685802279f0d.mp3",
+          "file_duration_seconds": 2.112
+        }
+      ],
+      "context_review": "Rechecked existing supplied reading against cooking meaning and reviewed sources; original dictionary target/variants or provisional status preserved. Speech input stays hiragana; meaning and kanji appear only in instructions."
+    },
+    {
+      "key": "からめるか",
+      "input": "からめるか",
+      "speed": 1.0,
+      "display": "カラメル化(か)",
+      "english": "Caramelization",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt (whole-word/phrase target not confirmed; component matches only)",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Caramelization. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words. Whole-expression pitch is provisional: use natural standard Tokyo Japanese intonation.",
+      "audio": "audio/lessons/hiire-cards/marin-6f90a5337c222cc099ba.mp3"
+    },
+    {
+      "key": "たんぱくしつのぎょうこ",
+      "input": "たんぱくしつのぎょうこ",
+      "speed": 1.0,
+      "display": "タンパク質(しつ)の凝固(ぎょうこ)",
+      "english": "Protein coagulation",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "凝固",
+          "reading": "ぎょうこ",
+          "accent": 1,
+          "variants": [
+            1,
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L39954",
+          "method": "exact spelling and reading; checked cooking context"
+        }
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt (whole-word/phrase target not confirmed; component matches only)",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Protein coagulation. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words. Whole-expression pitch is provisional: use natural standard Tokyo Japanese intonation. Reliable component/base-form accent references, allowing natural connected-speech changes: 凝固 / ぎょうこ type 1.",
+      "audio": "audio/lessons/hiire-cards/marin-036a73bccd8c5bae980d.mp3"
+    },
+    {
+      "key": "でんぷんのこか",
+      "input": "でんぷんのこか",
+      "speed": 1.0,
+      "display": "デンプンの糊化(こか)",
+      "english": "Starch gelatinization",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained. Gakken 糊化こか: https://kids.gakken.co.jp/jiten/dictionary02500460/",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt (whole-word/phrase target not confirmed; component matches only)",
+      "pronunciation_guidance": "Context for pronunciation only; do not speak this context: デンプンの糊化. Starch gelatinization: starch absorbs water and swells when heated, as when rice cooks or a starch slurry thickens a sauce. 糊化 here is こか. Read only the supplied hiragana once, as a Japanese chef calmly naming this term in a cooking lesson. Say でんぷんの + こか as one short connected noun phrase. Keep の attached to でんぷん. 糊化 is precisely こか, with two short vowel morae; do not substitute こうか or のりか. Use a natural conversational voice, compact fluent timing, and a modest Tokyo pitch range. Do not add surrounding sentences, explanations, English, or list numbers. Whole-expression pitch remains provisional: use natural Tokyo Japanese intonation.",
+      "audio": "audio/lessons/hiire-cards/marin-00001867f98ea2dfa6af.mp3",
+      "regeneration_history": [
+        {
+          "reason": "User reported unnatural sound and requested cooking context for Marin",
+          "previous_audio": "audio/lessons/hiire-cards/marin-fe36c076ac3eac850543.mp3",
+          "previous_input": "でんぷんのこか",
+          "previous_pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Starch gelatinization. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words. Whole-expression pitch is provisional: use natural standard Tokyo Japanese intonation.",
+          "listening_verified": false,
+          "replacement_audio": "audio/lessons/hiire-cards/marin-00001867f98ea2dfa6af.mp3",
+          "file_duration_seconds": 1.92
+        }
+      ],
+      "context_review": "Rechecked existing supplied reading against cooking meaning and reviewed sources; original dictionary target/variants or provisional status preserved. Speech input stays hiragana; meaning and kanji appear only in instructions."
+    },
+    {
+      "key": "あぶらがとける",
+      "input": "あぶらがとける",
+      "speed": 1.0,
+      "display": "脂(あぶら)が溶(と)ける",
+      "english": "Fat renders",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "脂",
+          "reading": "あぶら",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L57526",
+          "method": "exact spelling and reading; checked cooking context"
+        },
+        {
+          "form": "溶ける",
+          "reading": "とける",
+          "accent": 2,
+          "variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L114133",
+          "method": "exact spelling and reading; checked cooking context"
+        }
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt (whole-word/phrase target not confirmed; component matches only)",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Fat renders. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words. Whole-expression pitch is provisional: use natural standard Tokyo Japanese intonation. Reliable component/base-form accent references, allowing natural connected-speech changes: 脂 / あぶら type 0; 溶ける / とける type 2.",
+      "audio": "audio/lessons/hiire-cards/marin-11db1b7c4887e9930029.mp3"
+    },
+    {
+      "key": "すいぶんがとぶ",
+      "input": "すいぶんがとぶ",
+      "speed": 1.0,
+      "display": "水分(すいぶん)が飛(と)ぶ",
+      "english": "Moisture evaporates",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "水分",
+          "reading": "すいぶん",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L72162",
+          "method": "exact spelling and reading; checked cooking context"
+        },
+        {
+          "form": "飛ぶ",
+          "reading": "とぶ",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100500",
+          "method": "exact spelling and reading; checked cooking context"
+        }
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt (whole-word/phrase target not confirmed; component matches only)",
+      "pronunciation_guidance": "Context for pronunciation only; do not speak this context: 水分が飛ぶ. Moisture evaporates during cooking and the food or sauce loses water. 飛ぶ is figurative evaporation in this culinary expression. Read only the supplied hiragana once, as a Japanese chef calmly naming this term in a cooking lesson. Say すいぶんが + とぶ in one fluent phrase. Keep が attached to すいぶん. Preserve すい, the nasal ん and voiced ぶ; no dramatic emphasis or pauses. Use a natural conversational voice, compact fluent timing, and a modest Tokyo pitch range. Do not add surrounding sentences, explanations, English, or list numbers. Whole-expression pitch remains provisional: use natural Tokyo Japanese intonation. Retain these lexical base-form references with natural connected-speech changes: 水分 / すいぶん type 1; 飛ぶ / とぶ type 0.",
+      "audio": "audio/lessons/hiire-cards/marin-67a0ad509ce6eecbec2a.mp3",
+      "regeneration_history": [
+        {
+          "reason": "User reported unnatural sound and requested cooking context for Marin",
+          "previous_audio": "audio/lessons/hiire-cards/marin-1e54f864d7619fe44fbb.mp3",
+          "previous_input": "すいぶんがとぶ",
+          "previous_pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Moisture evaporates. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words. Whole-expression pitch is provisional: use natural standard Tokyo Japanese intonation. Reliable component/base-form accent references, allowing natural connected-speech changes: 水分 / すいぶん type 1; 飛ぶ / とぶ type 0.",
+          "listening_verified": false,
+          "replacement_audio": "audio/lessons/hiire-cards/marin-67a0ad509ce6eecbec2a.mp3",
+          "file_duration_seconds": 1.848
+        }
+      ],
+      "context_review": "Rechecked existing supplied reading against cooking meaning and reviewed sources; original dictionary target/variants or provisional status preserved. Speech input stays hiragana; meaning and kanji appear only in instructions."
+    },
+    {
+      "key": "うまみがます",
+      "input": "うまみがます",
+      "speed": 1.0,
+      "display": "旨味(うまみ)が増(ま)す",
+      "english": "Umami increases",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "旨味",
+          "reading": "うまみ",
+          "accent": 0,
+          "variants": [
+            0,
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L56998",
+          "method": "exact spelling and reading; checked cooking context"
+        },
+        {
+          "form": "増す",
+          "reading": "ます",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L80010",
+          "method": "exact spelling and reading; checked cooking context"
+        }
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt (whole-word/phrase target not confirmed; component matches only)",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Umami increases. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words. Whole-expression pitch is provisional: use natural standard Tokyo Japanese intonation. Reliable component/base-form accent references, allowing natural connected-speech changes: 旨味 / うまみ type 0; 増す / ます type 0.",
+      "audio": "audio/lessons/hiire-cards/marin-f84c589e2482781be398.mp3"
+    },
+    {
+      "key": "かおりがたつ",
+      "input": "かおりがたつ",
+      "speed": 1.0,
+      "display": "香(かお)りが立(た)つ",
+      "english": "Aroma develops",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [
+        {
+          "form": "香り",
+          "reading": "かおり",
+          "accent": 0,
+          "variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50713",
+          "method": "exact spelling and reading; checked cooking context"
+        },
+        {
+          "form": "立つ",
+          "reading": "たつ",
+          "accent": 1,
+          "variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L115802",
+          "method": "exact spelling and reading; checked cooking context"
+        }
+      ],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt (whole-word/phrase target not confirmed; component matches only)",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Aroma develops. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words. Whole-expression pitch is provisional: use natural standard Tokyo Japanese intonation. Reliable component/base-form accent references, allowing natural connected-speech changes: 香り / かおり type 0; 立つ / たつ type 1.",
+      "audio": "audio/lessons/hiire-cards/marin-fcc6a6a518e263c6ea9e.mp3"
+    },
+    {
+      "key": "やきいろがつく",
+      "input": "やきいろがつく",
+      "speed": 1.0,
+      "display": "焼(や)き色(いろ)が付(つ)く",
+      "english": "Browning develops",
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied vocabulary and furigana, reviewed against intended cooking meaning; added headings read from reviewed component readings. scripts/lesson-audio-reviews/page52.json; scripts/lesson-audio-reviews/cooking-reference-cards.json. Object を pronounced お individually; lexical は in はんなま and はいり retained.",
+      "listening_verified": false,
+      "accent_status": "provisional",
+      "accent_components": [],
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt (whole-word/phrase target not confirmed; component matches only)",
+      "pronunciation_guidance": "Read only the supplied hiragana once at natural conversational volume. Cooking meaning: Browning develops. Keep each complete term connected; particles stay attached to the preceding phrase. Preserve long vowels, doubled consonants, and lexical は. Do not add English, list numbers, explanations, or other words. Whole-expression pitch is provisional: use natural standard Tokyo Japanese intonation.",
+      "audio": "audio/lessons/hiire-cards/marin-0d0c95c25068bf6dd9ed.mp3"
     }
-  ]
+  ],
+  "vocabulary_review": {
+    "card": "hiire-card-vocabulary",
+    "voice": "marin",
+    "model": "gpt-4o-mini-tts",
+    "speed": 1.0,
+    "accent_dictionary": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt",
+    "accent_dictionary_sha256": "8bd0dd127dab32ceec94cb03ab1ba6b68858ea73421dfa1731af2f373deb4f20",
+    "notes": "All 36 supplied terms, four section headings and title checked. Shared headings/terms deduplicate. Unconfirmed phrase targets use authorized provisional Tokyo intonation; no listening verification claimed.",
+    "speech_keys": 39,
+    "audio_status": "generated; file presence and manifest coverage verified; not listened to",
+    "context_revision": {
+      "keys": [
+        "ひいれ",
+        "ひがとおる",
+        "ひおとめる",
+        "めいらーどはんのう",
+        "でんぷんのこか",
+        "すいぶんがとぶ",
+        "ひかげん",
+        "ちゅうび"
+      ],
+      "reason": "User-reported unnatural delivery",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "listening_verified": false,
+      "status": "Eight replacement MP3s generated and decodable; all other reviewed audio mappings preserved. Not listening-verified."
+    },
+    "fluency_revision": {
+      "keys": [
+        "ひかげん",
+        "ひいれ"
+      ],
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "notes": "Simplified continuous whole-word guidance; checked readings and dictionary pitch targets preserved; no listening verification.",
+      "status": "Two replacement MP3s generated and decode successfully; all other reviewed audio mappings preserved. Not listening-verified."
+    }
+  }
 }

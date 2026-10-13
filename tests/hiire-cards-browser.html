@@ -16,15 +16,31 @@
   }
   w.Audio=Audio;
   const data=await fetch('../data/hiire-cards.json').then(r=>r.json());
+  const vocabulary=data.entries.shift();
   [...d.querySelectorAll('.category-card')].find(b=>b.textContent.includes('技術と料理')).click();
   await until(()=>d.querySelectorAll('.lesson-card').length);
   const lessons=[...d.querySelectorAll('.lesson-card')];
   const at=lessons.findIndex(b=>b.querySelector('strong').textContent.trim()==='火入れ');
-  assert(lessons[at+1].querySelector('strong').textContent.trim()==='火入れカード','Immediately below 火入れ');
-  lessons[at+1].querySelector('.lesson-open').click();
+  const deck=lessons.find(b=>b.querySelector('strong').textContent.trim()==='火入れカード');
+  assert(deck,'Hiire card deck is available');
+  deck.querySelector('.lesson-open').click();
   await until(()=>q('.vocabulary-study-card--reading:not(.hidden)'));
-  assert(q('#studyCardWord').textContent==='1. '+data.entries[0].kanji,'Section title');
-  assert(q('.vocabulary-card-counter').textContent==='1 / 9','One numbered section per card');
+  assert(q('#studyCardWord').textContent==='1. '+vocabulary.kanji,'Vocabulary comes first');
+  assert(q('.vocabulary-card-counter').textContent==='1 / 10','Ten cards');
+  assert(q('.reading-card-body').querySelectorAll('.reading-card-subheading').length===4,'Four vocabulary groups');
+  assert(q('.reading-card-body').querySelectorAll('li').length===36,'All 36 vocabulary entries');
+  await until(()=>plays.at(-1)?.src===w.lessonAudioFiles['hiire-cards'][vocabulary.japanese]);
+  const vocabularyChunks=vocabulary.blocks.flatMap(b=>b.items||[b]);
+  const vocabularySpeakers=[...q('.reading-card-body').querySelectorAll('button')];
+  assert(vocabularySpeakers.length===40,'Speakers for all terms and headings');
+  for(let i=0;i<vocabularySpeakers.length;i++){
+   const count=plays.length;vocabularySpeakers[i].click();
+   await until(()=>plays.length>count);
+   assert(plays.at(-1).src===w.lessonAudioFiles['hiire-cards'][w.getJapaneseSpeechText(vocabularyChunks[i].speech||vocabularyChunks[i].japanese)],'Vocabulary recording '+i);
+  }
+  q('#vocabularyCardNavigation button:last-child').click();
+  assert(q('#studyCardWord').textContent==='2. '+data.entries[0].kanji,'Section title');
+  assert(q('.vocabulary-card-counter').textContent==='2 / 10','One numbered section per card');
   assert(q('.reading-card-body').querySelectorAll('li').length===7,'Complete ordered list');
   assert(q('.reading-card-body').querySelectorAll('section').length===5,'All paragraphs retained');
   assert(q('.reading-card-body').querySelectorAll('[lang="en"]').length===12,'English for every paragraph and list item');
@@ -48,13 +64,13 @@
   assert(q('#vocabularyCardNavigation').getBoundingClientRect().bottom<=w.innerHeight+1,'Navigation reachable below expanded content');
   q('#vocabularyCardTools button[aria-label="Show all cards"]').click();
   const dialog=q('dialog.knife-steps-list');assert(dialog.open&&dialog.querySelector('.popup-header h2').textContent==='火入れカード','Shared 全 popup');
-  assert(dialog.querySelectorAll('.popup-body > button').length===9,'Section list');
-  dialog.querySelector('.popup-body > button').click();assert(!dialog.open,'Selection closes popup');
+  assert(dialog.querySelectorAll('.popup-body button').length===10,'Section list');
+  dialog.querySelectorAll('.popup-body button')[1].click();assert(!dialog.open,'Selection closes popup');
   q('#vocabularyCardNavigation button:last-child').click();
   const second=data.entries[1];
   await until(()=>plays.at(-1).src===w.lessonAudioFiles['hiire-cards'][second.japanese]);
-  assert(q('.vocabulary-card-counter').textContent==='2 / 9','Page 2 navigation');
-  assert(q('#studyCardWord').textContent==='2. '+second.kanji,'Page 2 title');
+  assert(q('.vocabulary-card-counter').textContent==='3 / 10','Page 2 navigation');
+  assert(q('#studyCardWord').textContent==='3. '+second.kanji,'Page 2 title');
   assert(q('.reading-card-body').querySelectorAll('.reading-card-subheading').length===3,'Three heat-transfer headings');
   const page2buttons=[...q('.reading-card-body').querySelectorAll('button')];
   assert(page2buttons.length===7,'Page 2 separate terms and explanations');
@@ -73,8 +89,8 @@
   q('#vocabularyCardNavigation button:last-child').click();
   const third=data.entries[2];
   await until(()=>plays.at(-1).src===w.lessonAudioFiles['hiire-cards'][third.japanese]);
-  assert(q('.vocabulary-card-counter').textContent==='3 / 9','Page 3 navigation');
-  assert(q('#studyCardWord').textContent==='3. '+third.kanji,'Page 3 title');
+  assert(q('.vocabulary-card-counter').textContent==='4 / 10','Page 3 navigation');
+  assert(q('#studyCardWord').textContent==='4. '+third.kanji,'Page 3 title');
   const page3buttons=[...q('.reading-card-body').querySelectorAll('button')];
   assert(page3buttons.length===5,'Page 3 passage speakers');
   const translations=[...q('.reading-card-body').querySelectorAll('[lang="en"]')];
@@ -89,8 +105,8 @@
   q('#vocabularyCardNavigation button:last-child').click();
   const fourth=data.entries[3];
   await until(()=>plays.at(-1).src===w.lessonAudioFiles['hiire-cards'][fourth.japanese]);
-  assert(q('.vocabulary-card-counter').textContent==='4 / 9','Page 4 navigation');
-  assert(q('#studyCardWord').textContent==='4. '+fourth.kanji,'Page 4 title');
+  assert(q('.vocabulary-card-counter').textContent==='5 / 10','Page 4 navigation');
+  assert(q('#studyCardWord').textContent==='5. '+fourth.kanji,'Page 4 title');
   const page4buttons=[...q('.reading-card-body').querySelectorAll('button')];
   assert(page4buttons.length===16,'Separate page 4 recordings');
   const page4translations=[...q('.reading-card-body').querySelectorAll('[lang="en"]')];
@@ -105,8 +121,8 @@
   q('#vocabularyCardNavigation button:last-child').click();
   const fifth=data.entries[4];
   await until(()=>plays.at(-1).src===w.lessonAudioFiles['hiire-cards'][fifth.japanese]);
-  assert(q('.vocabulary-card-counter').textContent==='5 / 9','Page 5 navigation');
-  assert(q('#studyCardWord').textContent==='5. '+fifth.kanji,'Page 5 title');
+  assert(q('.vocabulary-card-counter').textContent==='6 / 10','Page 5 navigation');
+  assert(q('#studyCardWord').textContent==='6. '+fifth.kanji,'Page 5 title');
   const page5buttons=[...q('.reading-card-body').querySelectorAll('button')];
   assert(page5buttons.length===16,'Page 5 separate headings and passages');
   const page5translations=[...q('.reading-card-body').querySelectorAll('[lang="en"]')];
@@ -121,8 +137,8 @@
   q('#vocabularyCardNavigation button:last-child').click();
   const sixth=data.entries[5];
   await until(()=>plays.at(-1).src===w.lessonAudioFiles['hiire-cards'][sixth.japanese]);
-  assert(q('.vocabulary-card-counter').textContent==='6 / 9','Page 6 navigation');
-  assert(q('#studyCardWord').textContent==='6. '+sixth.kanji,'Page 6 title');
+  assert(q('.vocabulary-card-counter').textContent==='7 / 10','Page 6 navigation');
+  assert(q('#studyCardWord').textContent==='7. '+sixth.kanji,'Page 6 title');
   const page6buttons=[...q('.reading-card-body').querySelectorAll('button')];
   assert(page6buttons.length===11,'Page 6 separate headings and passages');
   const page6translations=[...q('.reading-card-body').querySelectorAll('[lang="en"]')];
@@ -137,8 +153,8 @@
   q('#vocabularyCardNavigation button:last-child').click();
   const seventh=data.entries[6];
   await until(()=>plays.at(-1).src===w.lessonAudioFiles['hiire-cards'][seventh.japanese]);
-  assert(q('.vocabulary-card-counter').textContent==='7 / 9','Page 7 navigation');
-  assert(q('#studyCardWord').textContent==='7. '+seventh.kanji,'Page 7 title');
+  assert(q('.vocabulary-card-counter').textContent==='8 / 10','Page 7 navigation');
+  assert(q('#studyCardWord').textContent==='8. '+seventh.kanji,'Page 7 title');
   const page7buttons=[...q('.reading-card-body').querySelectorAll('button')];
   assert(page7buttons.length===7,'Page 7 separate passages');
   const page7translations=[...q('.reading-card-body').querySelectorAll('[lang="en"]')];
@@ -153,8 +169,8 @@
   q('#vocabularyCardNavigation button:last-child').click();
   const eighth=data.entries[7];
   await until(()=>plays.at(-1).src===w.lessonAudioFiles['hiire-cards'][eighth.japanese]);
-  assert(q('.vocabulary-card-counter').textContent==='8 / 9','Page 8 navigation');
-  assert(q('#studyCardWord').textContent==='8. '+eighth.kanji,'Page 8 title');
+  assert(q('.vocabulary-card-counter').textContent==='9 / 10','Page 8 navigation');
+  assert(q('#studyCardWord').textContent==='9. '+eighth.kanji,'Page 8 title');
   const page8buttons=[...q('.reading-card-body').querySelectorAll('button')];
   assert(page8buttons.length===9,'Page 8 separate problems and responses');
   const page8translations=[...q('.reading-card-body').querySelectorAll('[lang="en"]')];
@@ -169,8 +185,8 @@
   q('#vocabularyCardNavigation button:last-child').click();
   const summary=data.entries[8];
   await until(()=>plays.at(-1).src===w.lessonAudioFiles['hiire-cards'][summary.japanese]);
-  assert(q('.vocabulary-card-counter').textContent==='9 / 9','Summary navigation');
-  assert(q('#studyCardWord').textContent==='9. まとめ','Summary title');
+  assert(q('.vocabulary-card-counter').textContent==='10 / 10','Summary navigation');
+  assert(q('#studyCardWord').textContent==='10. まとめ','Summary title');
   const summaryChunks=summary.blocks.flatMap(b=>b.items||[b]);
   const summaryButtons=[...q('.reading-card-body').querySelectorAll('button')];
   assert(summaryButtons.length===8,'Separate principle and workflow speakers');
@@ -193,7 +209,7 @@
   q('#vocabularyCardNavigation button:first-child').click();
   q('#vocabularyCardNavigation button:first-child').click();
   q('#vocabularyCardNavigation button:first-child').click();
-  assert(q('.vocabulary-card-counter').textContent==='1 / 9','Back to page 1');
+  assert(q('.vocabulary-card-counter').textContent==='2 / 10','Back to page 1');
   const last=plays.at(-1);q('#backFromExplosion').click();assert(last.paused,'Exit stops audio');
   result.textContent='PASS: all eight sections and summary, separate recordings, title-only autoplay, optically centered speakers, furigana, 全, expanded layout and navigation.';
  }catch(e){result.textContent='FAIL: '+e.stack}
