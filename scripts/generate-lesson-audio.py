@@ -1,4 +1,4 @@
-"""Generate reviewed Nova lesson audio in batches. Reruns reuse content-addressed MP3s.
+"""Generate reviewed Japanese lesson audio in batches. Reruns reuse content-addressed MP3s.
 Run: python3 scripts/generate-lesson-audio.py --lesson page01-02
 The private key is read from OPENAI_API_KEY or the external local key file.
 """
@@ -16,10 +16,11 @@ import urllib.error
 import urllib.request
 
 ROOT = Path(__file__).resolve().parent.parent
-parser = argparse.ArgumentParser(description='Generate one reviewed Nova lesson batch.')
+parser = argparse.ArgumentParser(description='Generate one reviewed Japanese lesson batch.')
 parser.add_argument('--lesson', required=True)
 parser.add_argument('--retry-key', action='append', default=[])
 parser.add_argument('--card', help='Generate only one reading card; preserve previously generated cards')
+parser.add_argument('--dry-run', action='store_true', help='Validate reviewed inputs and report distinct render targets without making API calls')
 args = parser.parse_args()
 rows = json.loads(subprocess.check_output(['/usr/bin/osascript', '-l', 'JavaScript', str(ROOT/'scripts/export-lesson-audio.js'), str(ROOT), args.lesson] + ([args.card] if args.card else []), text=True))
 if not rows:
@@ -50,6 +51,17 @@ for row in rows:
     row['text'] = inputs[row['key']]
     row['speed'] = speeds[row['key']]
     entry = next(item for item in review['entries'] if item['key'] == row['key'])
+    row['review_entry'] = entry
+    # Homophones can share hiragana and speed while requiring different accents.
+    # Retain the complete reviewed render target instead of deduplicating text.
+    row['signature'] = json.dumps({
+        'input': row['text'], 'speed': row['speed'],
+        'pronunciation_guidance': entry.get('pronunciation_guidance'),
+        'accent': entry.get('accent'),
+        'allow_kanji_input': entry.get('allow_kanji_input'),
+        'reviewed_hiragana': entry.get('reviewed_hiragana'),
+        'reuse_audio': entry.get('reuse_audio'),
+    }, ensure_ascii=False, sort_keys=True)
     authorized_kanji = (
         voice == 'marin' and entry.get('allow_kanji_input') is True
         and bool(entry.get('kanji_input_authorization'))
@@ -61,23 +73,27 @@ for row in rows:
         parser.error('Checked hiragana input required for '+row['key'])
 if set(args.retry_key) - known_keys:
     parser.error('Unknown retry key')
-retry_inputs = {(row['text'], row['speed']) for row in rows if row['key'] in args.retry_key}
+retry_inputs = {row['signature'] for row in rows if row['key'] in args.retry_key}
+unique = {row['signature']: row for row in rows}
+if args.dry_run:
+    print('Validated speech keys:', len(known_keys), 'Distinct render targets:', len(unique))
+    raise SystemExit(0)
 key = os.environ.get('OPENAI_API_KEY') or (Path.home()/'.config/washoku-words/openai-api-key').read_text().strip()
 folder = ROOT/'audio/lessons'/args.lesson
 folder.mkdir(parents=True, exist_ok=True)
-unique = {(row['text'], row['speed']) for row in rows}
 
-def generate(text, speed):
-    entry = next(item for item in review['entries'] if item['input'] == text)
+def generate(row):
+    text, speed = row['text'], row['speed']
+    entry = row['review_entry']
+    signature = row['signature']
     reused = entry.get('reuse_audio')
-    if reused and (text, speed) not in retry_inputs:
+    if reused and signature not in retry_inputs:
         reused_path = (ROOT/reused).resolve()
         if not entry.get('reuse_source') or not reused_path.is_relative_to((ROOT/'audio').resolve()) or not reused_path.is_file() or not reused_path.stat().st_size:
             raise ValueError('Invalid reviewed audio reuse: '+str(reused))
-        return (text, speed), str(reused_path.relative_to(ROOT))
+        return signature, str(reused_path.relative_to(ROOT))
     payload = dict(model=model, voice=voice, input=text, speed=speed, response_format='mp3')
     if voice == 'marin':
-        entry = next(item for item in review['entries'] if item['input'] == text)
         guidance = 'Speak standard Tokyo Japanese. Read only the supplied hiragana once, clearly and naturally. Preserve vowel length and doubled consonants. Do not add an introduction, translation, explanation, or other words.'
         if entry.get('allow_kanji_input'):
             guidance = 'Speak standard Tokyo Japanese. Read only the supplied Japanese term once, clearly and naturally, using its explicitly reviewed reading: ' + entry['reviewed_hiragana'] + '. Preserve vowel length and doubled consonants. Do not add an introduction, translation, explanation, or other words.'
@@ -98,10 +114,10 @@ def generate(text, speed):
         sample = ROOT/'audio/taste-words'/name
     if not sample.exists():
         sample = ROOT/'audio/tts-sample'/name
-    if (text, speed) not in retry_inputs and not path.exists() and sample.exists():
+    if signature not in retry_inputs and not path.exists() and sample.exists():
         shutil.copyfile(sample, path)
-    if (text, speed) not in retry_inputs and path.exists() and path.stat().st_size:
-        return (text, speed), str(path.relative_to(ROOT))
+    if signature not in retry_inputs and path.exists() and path.stat().st_size:
+        return signature, str(path.relative_to(ROOT))
     for attempt in range(4):
         request = urllib.request.Request('https://api.openai.com/v1/audio/speech', data=json.dumps(payload).encode(), headers={'Authorization':'Bearer '+key, 'Content-Type':'application/json'})
         try:
@@ -113,7 +129,7 @@ def generate(text, speed):
             temporary.write_bytes(data)
             temporary.replace(path)
             time.sleep(0.5)
-            return (text, speed), str(path.relative_to(ROOT))
+            return signature, str(path.relative_to(ROOT))
         except urllib.error.HTTPError as exc:
             if exc.code not in (429,500,502,503,504) or attempt == 3:
                 raise RuntimeError('OpenAI HTTP '+str(exc.code)) from None
@@ -121,10 +137,10 @@ def generate(text, speed):
         except urllib.error.URLError:
             raise RuntimeError('Network error; rerun to resume cached generation') from None
 
-print('Unique clips:', len(unique), 'Input characters:', sum(len(text) for text, speed in unique), flush=True)
+print('Unique clips:', len(unique), 'Input characters:', sum(len(row['text']) for row in unique.values()), flush=True)
 paths = {}
 with concurrent.futures.ThreadPoolExecutor(max_workers=32) as pool:
-    jobs = [pool.submit(generate, text, speed) for text, speed in sorted(unique)]
+    jobs = [pool.submit(generate, unique[signature]) for signature in sorted(unique)]
     for job in concurrent.futures.as_completed(jobs):
         text, path = job.result()
         paths[text] = path
@@ -132,7 +148,7 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=32) as pool:
             print('Completed',len(paths),'/',len(unique),flush=True)
 manifest_path = folder/'manifest.json'
 manifest = json.loads(manifest_path.read_text()) if args.card and manifest_path.exists() else {}
-manifest.update({row['key']:paths[(row['text'], row['speed'])] for row in rows})
+manifest.update({row['key']:paths[row['signature']] for row in rows})
 (folder/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
 combined_path = ROOT/'audio/lessons/manifest.json'
 combined = json.loads(combined_path.read_text()) if combined_path.exists() else {}

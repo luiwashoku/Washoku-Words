@@ -868,5 +868,20 @@
     "reusedRecordings": 9,
     "newRecordings": 88,
     "completedCards": 6
+  },
+  {
+    "batch": 103,
+    "lesson": "cooking-reference-cards",
+    "title": "調理のことばカード",
+    "status": "generated",
+    "voice": "marin",
+    "model": "gpt-4o-mini-tts",
+    "speed": 1.0,
+    "speechKeys": 395,
+    "recordings": 395,
+    "reusedRecordings": 113,
+    "newRecordings": 282,
+    "completedCards": 17,
+    "rerecordedEntries": 10
   }
 ]

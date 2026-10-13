@@ -32,8 +32,8 @@ function run(args) {
         }
         rows.push({lesson: lessonId, card: entry.id, field: 'vocabulary', key: window.getJapaneseSpeechText(entry.japanese)});
         (entry.blocks || []).forEach(function(block) {
-          if (block.pairs && block.speech) rows.push({lesson: lessonId, card: entry.id, field: 'subtitle', key: window.getJapaneseSpeechText(block.speech)});
-          var parts = block.numberRows || (block.pairs ? block.pairs.reduce(function(all, pair) { return all.concat([pair.vocabulary, pair.food]); }, []) : (block.items || [block]));
+          if (block.pairs && (block.speech || block.exampleSentences)) rows.push({lesson: lessonId, card: entry.id, field: 'subtitle', key: window.getJapaneseSpeechText(block.speech || block.japanese)});
+          var parts = block.numberRows || (block.pairs ? block.pairs.reduce(function(all, pair) { return all.concat([pair.vocabulary, pair.example || pair.food]); }, []) : (block.items || [block]));
           parts.forEach(function(part) {
             if (part.speech || part.japanese) rows.push({lesson: lessonId, card: entry.id, field: 'chunk', key: window.getJapaneseSpeechText(part.speech || part.japanese)});
             if (part.explanation) rows.push({lesson: lessonId, card: entry.id, field: 'explanation', key: window.getJapaneseSpeechText(part.explanation.speech || part.explanation.japanese)});

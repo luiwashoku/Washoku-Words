@@ -18,7 +18,7 @@
     container.classList.add("furigana-hidden");
     const wordPlayer = window.MoneyCatGame.createVocabularyPlayer(
       getRecordedJapaneseFile, src => new window.Audio(src), window.fetch.bind(window), signal);
-    wordPlayer.unlock();
+    if (!lesson.audioDisabled) wordPlayer.unlock();
 
     toolbar.replaceChildren();
     toolbar.classList.remove("hidden");
@@ -335,7 +335,7 @@
         english.className = "vocabulary-card-translation";
         english.textContent = word.english;
         titles.append(title, english);
-        const speaker = createExampleSpeechButton(word.japanese, "Read card title", playWord);
+        const speaker = lesson.audioDisabled ? null : createExampleSpeechButton(word.japanese, "Read card title", playWord);
         header.append(titles);
         if (speaker) header.append(speaker);
         const body = document.createElement("div");
@@ -352,9 +352,12 @@
           translation.textContent = block.english;
           const row = document.createElement("div");
           row.className = "reading-card-chunk";
-          const speaker = createExampleSpeechButton(block.speech || block.japanese, "Read Japanese passage");
-          speaker.addEventListener("click", () => wordPlayer.stop(), { capture: true, signal });
-          row.append(japanese, speaker);
+          row.append(japanese);
+          if (!lesson.audioDisabled) {
+            const speaker = createExampleSpeechButton(block.speech || block.japanese, "Read Japanese passage");
+            speaker.addEventListener("click", () => wordPlayer.stop(), { capture: true, signal });
+            row.append(speaker);
+          }
           parent.append(row, translation);
           if (block.explanation) {
             const explanation = document.createElement("div");
@@ -447,7 +450,7 @@
             table.className = "food-reference-table";
             table.setAttribute("aria-label", block.english);
             const head = table.createTHead().insertRow();
-            ["ことば / Vocabulary", "食べ物 / Food reference"].forEach(label => {
+            ["ことば / Vocabulary", block.exampleSentences ? "例文 / Example sentence" : "食べ物 / Food reference"].forEach(label => {
               const th = document.createElement("th");
               th.scope = "col";
               th.textContent = label;
@@ -456,13 +459,16 @@
             const rows = table.createTBody();
             block.pairs.forEach(pair => {
               const row = rows.insertRow();
-              [pair.vocabulary, pair.food].forEach(part => bilingual(row.insertCell(), part));
+              [pair.vocabulary, pair.example || pair.food].forEach(part => bilingual(row.insertCell(), part));
             });
             const titleRow = document.createElement("div");
             titleRow.className = "food-reference-subtitle";
-            const speaker = createExampleSpeechButton(block.speech || block.japanese, "Read category subtitle");
-            speaker.addEventListener("click", () => wordPlayer.stop(), { capture: true, signal });
-            titleRow.append(heading, speaker);
+            titleRow.append(heading);
+            if (!lesson.audioDisabled) {
+              const speaker = createExampleSpeechButton(block.speech || block.japanese, "Read category subtitle");
+              speaker.addEventListener("click", () => wordPlayer.stop(), { capture: true, signal });
+              titleRow.append(speaker);
+            }
             section.append(titleRow, english, table);
             body.append(section);
           } else if (block.items) {

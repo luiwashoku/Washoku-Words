@@ -1,0 +1,95 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Cooking reference card checks</title>
+<pre id="result">RUNNING</pre>
+<iframe src="../index.html" style="width:320px;height:740px" title="App"></iframe>
+<script>
+(async () => {
+  const frame = document.querySelector('iframe');
+  const result = document.querySelector('#result');
+  const assert = (value, message) => { if (!value) throw Error(message); };
+  const until = async fn => {
+    for (let i = 0; i < 300; i++) {
+      if (fn()) return;
+      await new Promise(resolve => setTimeout(resolve, 20));
+    }
+    throw Error('Timed out');
+  };
+  try {
+    await until(() => frame.contentDocument.querySelector('#openVocabularyCards:not(:disabled)'));
+    const w = frame.contentWindow, d = frame.contentDocument;
+    const plays = [];
+    w.Audio = class extends w.EventTarget {
+      constructor(src) { super(); this.src = src; this.paused = true; this.currentTime = 0; this.playbackRate = 1; }
+      getAttribute(name) { return name === 'src' ? this.src : null; }
+      play() { this.paused = false; plays.push({src: this.src, rate: this.playbackRate}); return Promise.resolve(); }
+      pause() { this.paused = true; }
+    };
+    const data = await fetch('../data/cooking-reference-cards.json').then(r => r.json());
+    const lookup = text => w.lessonAudioFiles['cooking-reference-cards'][w.getJapaneseSpeechText(text)];
+    const checkSpeaker = async (button, text) => {
+      const path = lookup(text), count = plays.length;
+      assert(path && path.includes('marin-'), 'Saved Marin recording: ' + text);
+      assert(button && !button.disabled, 'Enabled speaker: ' + text);
+      button.click();
+      await until(() => plays.length > count);
+      assert(plays.at(-1).src === path && plays.at(-1).rate === 1, 'Correct recorded playback at rate 1: ' + text);
+    };
+    [...d.querySelectorAll('.category-card')].find(b => b.textContent.includes('基本のことば')).click();
+    await until(() => d.querySelectorAll('.lesson-card').length);
+    [...d.querySelectorAll('.lesson-card')].find(b => b.textContent.includes(data.title)).querySelector('.lesson-open').click();
+    await until(() => d.querySelector('.food-reference-table'));
+    for (let i = 0; i < data.entries.length; i++) {
+      const card = data.entries[i];
+      await until(() => plays.at(-1)?.src === lookup(card.japanese));
+      assert(plays.filter(play => !play.src.startsWith('data:')).length === i + 1 + data.entries.slice(0, i).reduce((sum, entry) => sum + 1 + entry.blocks.length + entry.blocks.reduce((count, block) => count + block.pairs.length * 2, 0), 0), 'Only card titles autoplay');
+      assert(d.querySelector('.vocabulary-card-counter').textContent === `${i + 1} / ${data.entries.length}`, 'Page counter');
+      assert(d.querySelector('#studyCardWord').textContent === `${card.step}. ${card.kanji}`, 'Page title');
+      await checkSpeaker(d.querySelector('.reading-card-header button'), card.japanese);
+      const tables = [...d.querySelectorAll('.food-reference-table')];
+      assert(tables.length === card.blocks.length, 'Topic sections');
+      tables.forEach(table => assert(table.rows[0].cells[1].textContent === '例文 / Example sentence', 'Example heading'));
+      const pairs = card.blocks.flatMap(block => block.pairs);
+      const rows = tables.flatMap(table => [...table.tBodies[0].rows]);
+      assert(rows.length === pairs.length, 'Vocabulary coverage');
+      for (const [n, row] of rows.entries()) {
+        assert(row.cells.length === 2, 'Two columns');
+        assert(row.cells[0].querySelector('[lang="en"]').textContent === pairs[n].vocabulary.english, 'Word meaning');
+        assert(row.cells[1].querySelector('[lang="en"]').textContent === pairs[n].example.english, 'Example translation');
+        assert(row.cells[0].getBoundingClientRect().right <= row.cells[1].getBoundingClientRect().left + 1, 'Columns beside each other');
+        await checkSpeaker(row.cells[0].querySelector('button'), pairs[n].vocabulary.speech || pairs[n].vocabulary.japanese);
+        await checkSpeaker(row.cells[1].querySelector('button'), pairs[n].example.japanese);
+      }
+      const subtitles = [...d.querySelectorAll('.food-reference-subtitle button')];
+      assert(subtitles.length === card.blocks.length, 'Subtitle speakers');
+      for (const [n, button] of subtitles.entries()) await checkSpeaker(button, card.blocks[n].speech || card.blocks[n].japanese);
+      assert(d.documentElement.scrollWidth <= w.innerWidth + 1, 'Phone width');
+      if (i + 1 < data.entries.length) d.querySelector('#vocabularyCardNavigation button:last-child').click();
+    }
+    assert(lookup('やく') !== lookup('約'), '焼く and 約 use separate pitch recordings');
+    d.querySelector('#vocabularyCardTools button[aria-label="Show all cards"]').click();
+    const dialog = d.querySelector('dialog.knife-steps-list');
+    assert(dialog.open && dialog.querySelectorAll('.popup-body > div > button').length === data.entries.length, 'All cards menu');
+    dialog.querySelector('.popup-body > div > button').click();
+    assert(d.querySelector('.vocabulary-card-counter').textContent === `1 / ${data.entries.length}`, 'Card selection');
+    d.querySelector('#vocabularyCardFurigana').click();
+    assert(w.getComputedStyle(d.querySelector('.reading-card-body .furiganaReading')).display !== 'none', 'Furigana toggle');
+    const source = await fetch('../favorites.html').then(r => r.text());
+    const words = new Set(data.entries.flatMap(card => card.blocks.flatMap(block => block.pairs.map(pair => pair.vocabulary.japanese.replace(/\([^)]*\)/g, '')))));
+    for (const image of ['kitchen-tools-page.png', 'kitchen-objects-equipment-page.png']) {
+      const section = source.split(`image: "assets/${image}"`)[1].split('\n    }, {')[0];
+      const labels = [...section.matchAll(/\["([^"]+)", "([^"]+)"/g)].map(match => match[1]);
+      assert(labels.length > 0 && labels.every(label => words.has(label)), `Full 図鑑 coverage: ${image}`);
+    }
+    const count = data.entries.reduce((total, card) => total + card.blocks.reduce((sum, block) => sum + block.pairs.length, 0), 0);
+    d.querySelector('#backFromExplosion').click();
+    d.querySelector('#backHome').click();
+    [...d.querySelectorAll('.category-card')].find(b => b.textContent.includes('基本のことば')).click();
+    assert(![...d.querySelectorAll('.lesson-card')].some(b => b.textContent.includes('和食・懐石の考え方')), 'Moved out of basics');
+    d.querySelector('#backHome').click();
+    [...d.querySelectorAll('.category-card')].find(b => b.textContent.includes('技術と料理')).click();
+    assert([...d.querySelectorAll('.lesson-card')].some(b => b.textContent.includes('和食・懐石の考え方')), 'Moved into techniques');
+    result.textContent = `PASS: ${data.entries.length} pages, ${count} pairs, full kitchen 図鑑 coverage, all Marin speakers, separate homophones, phone fit, navigation, furigana and category move`;
+  } catch (error) { result.textContent = 'FAIL: ' + error.stack; }
+})();
+</script>
