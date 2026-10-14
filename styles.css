@@ -426,7 +426,8 @@ button:focus-visible {
   gap: 12px;
 }
 
-#lessonIntroductionButton svg {
+#lessonIntroductionButton svg,
+#kanahachiRulesButton svg {
   width: 31px;
   height: 31px;
   overflow: visible;
@@ -437,11 +438,13 @@ button:focus-visible {
   stroke-linejoin: round;
 }
 
-#lessonIntroductionButton svg > circle:first-child {
+#lessonIntroductionButton svg > circle:first-child,
+#kanahachiRulesButton svg > circle:first-child {
   fill: var(--pulse);
 }
 
-#lessonIntroductionButton svg circle:not(:first-child) {
+#lessonIntroductionButton svg circle:not(:first-child),
+#kanahachiRulesButton svg circle:not(:first-child) {
   fill: currentColor;
   stroke: none;
 }
@@ -1695,10 +1698,18 @@ body.no-furigana rt {
 
 .home-search {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 16px;
   padding: 28px 20px max(28px, env(safe-area-inset-bottom));
+}
+
+.home-grammar-bee {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+  gap: 16px;
 }
 
 #openSearch {
@@ -1708,11 +1719,18 @@ body.no-furigana rt {
   background: var(--bronze);
 }
 
+.home-bee-icon {
+  width: 50px;
+  height: 64px;
+  flex: 0 0 auto;
+}
+
 #openVocabularyCards, #openGrammarCards {
   width: auto;
   height: 64px;
   flex: 0 0 auto;
-  padding: 0 20px;
+  padding: 0 10px;
+  white-space: nowrap;
   border-radius: 20px;
   background: var(--horizon);
   font-size: 20px;
@@ -1721,7 +1739,8 @@ body.no-furigana rt {
 
 @media (max-width: 400px) {
   .home-search { gap: 8px; padding-left: 8px; padding-right: 8px; }
-  #openVocabularyCards, #openGrammarCards { padding: 0 10px; font-size: 16px; }
+  .home-grammar-bee { gap: 8px; }
+  #openVocabularyCards, #openGrammarCards { padding: 0 6px; font-size: 16px; }
 }
 
 #wordExplosionGame.vocabulary-cards {
@@ -2261,3 +2280,170 @@ html.vocabulary-cards-open,
 
 .reading-card-body:has(.knife-anatomy-viewport) > .reading-card-subheading + section { margin-top: 0; }
 
+
+/* かなハチ: first seven-kana game, sharing the app's game screen and controls. */
+.home-bee-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 50px;
+  height: 64px;
+  flex: 0 0 50px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.home-bee-button:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
+#wordExplosionGame.kanahachi-game {
+  display: block;
+  width: min(100%, 560px);
+  min-height: 0;
+  margin: 0 auto;
+  padding: 8px 12px max(24px, env(safe-area-inset-bottom));
+  overflow-wrap: anywhere;
+  container-type: inline-size;
+}
+.kanahachi-stats { text-align: center; font-weight: 700; font-size: 20px; }
+.kanahachi-found-summary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  height: 80px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  gap: 6px 16px;
+  margin: 0 0 12px;
+  padding: 0;
+  list-style: none;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.kanahachi-open #wordExplosionScreen {
+  position: relative;
+  isolation: isolate;
+  background: var(--paper);
+}
+.kanahachi-honeycomb {
+  /* Regular flat-top hexagons: height = width × sqrt(3) / 2.
+     Neighbour centres are height + 8px apart, giving equal edge gaps. */
+  --hex-width: 96px;
+  --hex-height: 83.138px;
+  --hex-step-x: 78.928px;
+  --hex-step-y: 91.138px;
+  --honeycomb-width: calc(var(--hex-width) + 2 * var(--hex-step-x));
+  position: relative;
+  width: var(--honeycomb-width);
+  height: calc(var(--hex-height) + 2 * var(--hex-step-y));
+  margin: 8px auto 40px;
+}
+.kanahachi-honeycomb::before {
+  content: "";
+  position: absolute;
+  top: calc(1.5 * var(--hex-step-y) + var(--hex-height));
+  right: max(-44px, calc((var(--honeycomb-width) - 100cqw) / 2 - 8px));
+  width: 59.4px;
+  height: 77px;
+  background: url("assets/bee-full.svg") center / contain no-repeat;
+  opacity: 1;
+  pointer-events: none;
+}
+@media (max-width: 360px) {
+  .kanahachi-honeycomb {
+    --hex-width: 80px;
+    --hex-height: 69.282px;
+    --hex-step-x: 66.928px;
+    --hex-step-y: 77.282px;
+  }
+}
+.kanahachi-tile {
+  position: absolute;
+  z-index: 1;
+  width: var(--hex-width);
+  height: var(--hex-height);
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  background: #fff;
+  color: var(--ink);
+  font-size: 30px;
+  font-weight: 700;
+  clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+  touch-action: manipulation;
+}
+.kanahachi-tile:focus-visible { background: var(--bronze); outline: none; }
+.kanahachi-tile:active { background: var(--canvas); }
+.kanahachi-tile-0 { left: var(--hex-step-x); top: var(--hex-step-y); background: #ffe161; }
+.kanahachi-tile-1 { left: var(--hex-step-x); top: 0; }
+.kanahachi-tile-2 { left: calc(2 * var(--hex-step-x)); top: calc(var(--hex-step-y) / 2); }
+.kanahachi-tile-3 { left: calc(2 * var(--hex-step-x)); top: calc(1.5 * var(--hex-step-y)); }
+.kanahachi-tile-4 { left: var(--hex-step-x); top: calc(2 * var(--hex-step-y)); }
+.kanahachi-tile-5 { left: 0; top: calc(1.5 * var(--hex-step-y)); }
+.kanahachi-tile-6 { left: 0; top: calc(var(--hex-step-y) / 2); }
+.kanahachi-input {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  height: 54px;
+  padding: 8px 0;
+  border: 0;
+  border-radius: 0;
+  outline: none;
+  background: transparent;
+  box-shadow: none;
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  appearance: none;
+}
+.kanahachi-input::placeholder { color: var(--ink); opacity: 1; }
+.kanahachi-controls { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 14px 0; }
+.kanahachi-controls--entry { display: flex; justify-content: center; align-items: center; }
+.kanahachi-control {
+  min-height: 50px;
+  min-width: 0;
+  padding: 8px 12px;
+  border: var(--line-weight) solid var(--ink);
+  border-radius: 20px;
+  background: var(--paper);
+  box-shadow: 3px 3px 0 var(--ink);
+  font-size: 16px;
+  font-weight: 900;
+  cursor: pointer;
+  white-space: nowrap;
+  touch-action: manipulation;
+}
+.kanahachi-control:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--ink); }
+.kanahachi-control:disabled, .kanahachi-delete:disabled { opacity: .45; cursor: default; }
+.kanahachi-delete { display: inline-grid; place-items: center; padding: 0; line-height: 1; }
+.kanahachi-controls--entry .kanahachi-enter { min-width: 120px; border-radius: 999px; font-size: 20px; }
+.kanahachi-enter { background: var(--bronze); }
+.kanahachi-feedback { min-height: 24px; font-weight: 600; }
+.kanahachi-hint { padding: 0; border: 0; text-align: center; font-size: 20px; font-weight: 900; }
+.kanahachi-found { list-style: none; padding: 0; }
+.kanahachi-word { border-bottom: 1px solid var(--ink); padding: 10px 0; }
+.kanahachi-word-variant { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; }
+.kanahachi-word-variant strong { font-size: 20px; }
+.kanahachi-word-variant .explosion-example-speech { flex: 0 0 44px; width: 44px; height: 44px; margin-left: auto; }
+.kanahachi-reading { margin: 4px 0; }
+.kanahachi-dictionary-info { margin-top: 24px; font-size: 14px; line-height: 1.6; }
+.kanahachi-dictionary-info summary { cursor: pointer; font-weight: 600; }
+
+.kanahachi-rules-dialog .popup-body { font-size: 18px; line-height: 1.8; }
+
+.kanahachi-open #vocabularyCardTools { margin-left: auto; flex: 0 0 auto; }
+
+#kanahachiRulesButton {
+  display: inline-grid;
+  place-items: center;
+  padding: 0;
+  line-height: 1;
+}
+
+#kanahachiRulesButton svg { display: block; margin: 0; }

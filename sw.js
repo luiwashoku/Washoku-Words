@@ -1,5 +1,5 @@
-const SHELL = 'washoku-shell-v337';
-const FILES = ["assets/knife_anatomy2.SVG", "./", "app.js", "assets/appicon-512-v2.png", "assets/appicon.svg", "assets/cat-03.svg", "assets/money-cat-card.svg", "audio/effects/money-cat-correct.wav", "audio/effects/money-cat-wrong.wav", "data/catalog.json", "data/topic-vocabulary-cards.json", "data/household-finance-cards.json", "data/cooking-reference-cards.json", "data/marin-audio-trials.json", "data/marin-audio-originals.json", "game-audio-manifest.js", "index.html", "japanese-speech.js", "lesson-audio-manifest.js", "manifest.json", "money-cat.js", "money-cat-audio-check.js", "offline.js", "search.js", "styles.css", "taste-audio-manifest.js", "word-explosion-2.js", "vocabulary-cards.js", "families-of-doom.js", "word-explosion.js", "zukan-audio-manifest.js"];
+const SHELL = 'washoku-shell-v339';
+const FILES = ["assets/knife_anatomy2.SVG", "./", "app.js", "assets/appicon-512-v2.png", "assets/appicon.svg", "assets/cat-03.svg", "assets/money-cat-card.svg", "audio/effects/money-cat-correct.wav", "audio/effects/money-cat-wrong.wav", "data/catalog.json", "data/topic-vocabulary-cards.json", "data/household-finance-cards.json", "data/cooking-reference-cards.json", "data/marin-audio-trials.json", "data/marin-audio-originals.json", "game-audio-manifest.js", "index.html", "kanahachi.js", "assets/bee.svg", "assets/bee-full.svg", "japanese-speech.js", "lesson-audio-manifest.js", "manifest.json", "money-cat.js", "money-cat-audio-check.js", "offline.js", "search.js", "styles.css", "taste-audio-manifest.js", "word-explosion-2.js", "vocabulary-cards.js", "families-of-doom.js", "word-explosion.js", "zukan-audio-manifest.js"];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(SHELL).then(cache => cache.addAll([
     ...FILES, 'word-explosion-audio-manifest.js', 'word explosion.txt',
@@ -41,7 +41,8 @@ self.addEventListener('fetch', event => {
   event.respondWith((async () => {
     // Navigations and app code use current online content with an offline fallback.
     const isAudio = /\.(mp3|wav)$/.test(new URL(request.url).pathname);
-    if (!isAudio && !new URL(request.url).pathname.includes('/assets/')) {
+    const isBee = /\/assets\/bee(?:-full)?\.svg$/.test(new URL(request.url).pathname);
+    if (!isAudio && (isBee || !new URL(request.url).pathname.includes('/assets/'))) {
       try { const response = await fetch(request); if (response.ok) return response; } catch (_) {}
     }
     const response = await cached(new Request(request.url));

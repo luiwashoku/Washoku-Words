@@ -137,6 +137,7 @@
     state.catalog = await loadCatalog();
     document.getElementById("openVocabularyCards").disabled = !state.catalog.some(lesson => lesson.id === "topic-vocabulary-cards");
     document.getElementById("openGrammarCards").disabled = !state.catalog.some(lesson => lesson.id === "grammar-cards");
+    document.getElementById("openKanahachi").disabled = false;
     renderCategories();
     window.WashokuSearch.init({
       catalog: state.catalog,
@@ -149,6 +150,7 @@
       }
     });
 
+    if (window.location.hash === "#kanahachi") openKanahachi();
     registerServiceWorker();
   }
 
@@ -334,6 +336,7 @@
     });
     document.getElementById("backFromExplosion").addEventListener("click", returnToLessonList);
     document.getElementById("openVocabularyCards").addEventListener("click", openVocabularyCards);
+    document.getElementById("openKanahachi").addEventListener("click", openKanahachi);
     document.getElementById("openGrammarCards").addEventListener("click", () => {
       state.selectedCategory = null;
       openVocabularyCards(state.catalog.find(lesson => lesson.id === "grammar-cards"));
@@ -777,6 +780,10 @@
 
   function getRecordedJapaneseFile(text) {
     const id = state.selectedLesson?.id;
+    if (id === "kanahachi" && typeof text === "string" && text.startsWith("kanahachi-audio:")) {
+      const file = text.slice("kanahachi-audio:".length);
+      return /^audio\/[A-Za-z0-9_./-]+\.mp3$/.test(file) ? file : null;
+    }
     if (["word-explosion", "word-explosion-2", "topic-vocabulary-cards"].includes(id)) {
       const vocabularyFile = window.wordExplosionAudioFiles?.[getJapaneseSpeechText(text)];
       if (vocabularyFile) return vocabularyFile;
@@ -795,8 +802,9 @@
     const choiceFiles = choiceTexts.length > 1
       ? choiceTexts.map((part) => getRecordedJapaneseFile(part)
         || getRecordedJapaneseFile(part.replace(/。\s*$/, ""))) : [];
+    const directAudioFile = getRecordedJapaneseFile(text);
     text = getJapaneseSpeechText(text);
-    const audioFile = getRecordedJapaneseFile(text);
+    const audioFile = directAudioFile || getRecordedJapaneseFile(text);
     const audioFiles = choiceFiles.length > 1 && choiceFiles.every(Boolean)
       ? choiceFiles : audioFile ? [audioFile] : [];
     if (audioFiles.length) {
@@ -1458,6 +1466,22 @@
       else speakJapaneseText(text, button, label);
     });
     return button;
+  }
+
+  function openKanahachi() {
+    window.history.replaceState(null, "", "#kanahachi");
+    cancelJapaneseSpeech();
+    state.selectedCategory = null;
+    state.selectedLesson = { id: "kanahachi", isKanahachi: true };
+    showScreen("word-explosion");
+    document.getElementById("wordExplosionTitle").textContent = "かなハチ";
+    document.getElementById("explosionIndexButton").classList.add("hidden");
+    document.getElementById("vocabularyCardTools").classList.add("hidden");
+    document.getElementById("vocabularyCardNavigation").classList.add("hidden");
+    closeWordExplosion = window.Kanahachi.mount(elements.wordExplosionGame, {
+      catalog: state.catalog, toolbar: document.getElementById("vocabularyCardTools"), stopSpeech: cancelJapaneseSpeech,
+      createExampleSpeechButton, setJapaneseText: setFuriganaAwareText
+    });
   }
 
   function openVocabularyCards(lesson = state.catalog.find(entry => entry.id === "topic-vocabulary-cards")) {
@@ -2949,6 +2973,7 @@
   }
 
   function returnHome() {
+    if (state.selectedLesson?.isKanahachi) window.history.replaceState(null, "", window.location.pathname + window.location.search);
     cancelJapaneseSpeech();
     playSound("click");
 
@@ -2961,7 +2986,7 @@
 
   function returnToLessonList() {
     cancelJapaneseSpeech();
-    if (state.selectedLesson?.isMoneyCat || (state.selectedLesson?.isStudyCards && (state.selectedLesson?.gameMode !== "vocabulary-cards" || state.selectedLesson?.homeOnly))) {
+    if (state.selectedLesson?.isKanahachi || state.selectedLesson?.isMoneyCat || (state.selectedLesson?.isStudyCards && (state.selectedLesson?.gameMode !== "vocabulary-cards" || state.selectedLesson?.homeOnly))) {
       returnHome();
       return;
     }
@@ -3162,18 +3187,10 @@
       return;
     }
 
-    window.addEventListener(
-      "load",
-      () => {
-        navigator.serviceWorker
-          .register("sw.js")
-          .catch((error) => {
-            console.info(
-              "Service worker not available yet.",
-              error
-            );
-          });
-      }
-    );
+    navigator.serviceWorker
+      .register("sw.js", { updateViaCache: "none" })
+      .then(registration => registration.update())
+      .catch(error => console.info("Service worker not available yet.", error));
+
   }
 })();

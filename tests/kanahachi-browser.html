@@ -1,0 +1,118 @@
+<!doctype html><meta charset="utf-8"><title>かなハチ browser checks</title>
+<pre id="result">RUNNING</pre><iframe src="../index.html" style="width:320px;height:800px;border:0" title="App"></iframe>
+<script>
+(async () => {
+ const frame = document.querySelector('iframe'), result = document.querySelector('#result');
+ let stage='initial load';
+ const assert = (v,m) => { if (!v) throw Error(m); };
+ const until = async fn => { for(let i=0;i<600;i++){if(fn())return;await new Promise(r=>setTimeout(r,25));}throw Error('Timed out: '+stage+' · '+frame.contentDocument.querySelector('#wordExplosionGame')?.textContent); };
+ try {
+  await until(()=>frame.contentDocument.querySelector('#openKanahachi:not(:disabled)'));
+  let w=frame.contentWindow,d=frame.contentDocument;
+  const q=s=>d.querySelector(s), click=text=>[...q('#wordExplosionGame').querySelectorAll('button')].find(b=>b.textContent===text).click();
+  const saveKey='washoku-kanahachi-v1', original=w.localStorage.getItem(saveKey), plays=[];
+  w.localStorage.setItem(saveKey,JSON.stringify({version:1,kana:['だ','い','こ','ん','お','ろ','し'],center:'ん',outer:['だ','い','こ','お','ろ','し'],found:[],input:'',finished:false}));
+  const installAudio=()=>{
+   class Audio extends w.EventTarget {
+    constructor(src){super();this.src=src;this.paused=true;this.currentTime=0;this.playbackRate=1;}
+    play(){this.paused=false;plays.push(this);return Promise.resolve();}
+    pause(){this.paused=true;}
+   }
+   w.Audio=Audio;w.confirm=()=>true;
+  };
+  installAudio();
+  const homeButton=q('#openKanahachi');
+  assert(homeButton.tagName==='BUTTON'&&new URL(homeButton.querySelector('img').src).pathname.endsWith('/assets/bee-full.svg'),'Bee opens game as accessible button');
+  const beeSvg=await w.fetch(new URL('assets/bee-full.svg',w.location.href).href).then(r=>r.text());
+  assert(beeSvg.includes('viewBox="68 24 130 152"'),'Fresh bee SVG has space around both wings: '+beeSvg.slice(0,180));
+  assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Home fits 320px');
+  stage='opening bee game';homeButton.click();await until(()=>q('.kanahachi-input'));
+  assert(q('#wordExplosionTitle').textContent==='かなハチ','Named game screen');
+  assert(!q('.kanahachi-brief-rules'),'Rules moved out of game body');
+  const help=q('#kanahachiRulesButton');assert(help&&help.querySelector('svg'),'Shared smiley help button');
+  assert(help.getBoundingClientRect().right>q('#wordExplosionTitle').getBoundingClientRect().right,'Help at upper right');
+  help.click();const rulesDialog=q('.kanahachi-rules-dialog');
+  assert(rulesDialog.open&&rulesDialog.textContent.includes('2文字以上')&&rulesDialog.textContent.includes('同じかなは何度でも'),'Japanese rules popup');
+  assert(!rulesDialog.textContent.includes('Use 2+'),'No English rules');
+  rulesDialog.querySelector('button').click();assert(!rulesDialog.open,'Rules popup closes');
+  assert(q('.home-search').getBoundingClientRect().height===0,'Home shortcuts hidden in game');
+  assert(q('.kanahachi-honeycomb').querySelectorAll('button').length===7,'Seven tiles');
+  assert(q('.kanahachi-tile-0').textContent==='ん','Required centre');
+  const tiles=[...q('.kanahachi-honeycomb').querySelectorAll('button')];
+  const tileRect=tiles[0].getBoundingClientRect();
+  assert(Math.abs(tileRect.height/tileRect.width-Math.sqrt(3)/2)<0.001,'Regular hexagon proportions');
+  const centerX=tileRect.left+tileRect.width/2,centerY=tileRect.top+tileRect.height/2;
+  tiles.slice(1).forEach(tile=>{
+   const r=tile.getBoundingClientRect();
+   const distance=Math.hypot(r.left+r.width/2-centerX,r.top+r.height/2-centerY);
+   assert(Math.abs(distance-tileRect.height-8)<0.1,'Equal 8px hexagon gaps');
+   assert(w.getComputedStyle(tile).backgroundColor==='rgb(255, 255, 255)','White outer hexagons');
+  });
+  assert(w.getComputedStyle(tiles[0]).backgroundColor==='rgb(255, 225, 97)','Centre matches bee yellow');
+  const boardRect=q('.kanahachi-honeycomb').getBoundingClientRect(),deckRect=q('#wordExplosionScreen').getBoundingClientRect();
+  const beeStyle=w.getComputedStyle(q('.kanahachi-honeycomb'),'::before');
+  assert(Math.abs(parseFloat(beeStyle.width)-59.4)<0.1&&Math.abs(parseFloat(beeStyle.height)-77)<0.1,'Bee enlarged by ten percent');
+  assert(boardRect.right-parseFloat(beeStyle.right)<=deckRect.right-3,'Bee stays inside deck without clipped wings');
+  assert(Math.abs(centerX-(deckRect.left+deckRect.width/2))<0.2,'Hexagons stay centred in deck');
+  assert(w.getComputedStyle(q('#wordExplosionScreen')).backgroundColor==='rgb(242, 239, 233)','Cream game deck background');
+  assert(q('.kanahachi-stats').textContent.startsWith('0 points · 0 / '),'Progress shown');
+  assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Game fits 320px');
+  [...q('.kanahachi-honeycomb').querySelectorAll('button')].forEach(b=>assert(b.getBoundingClientRect().width>=44&&b.getBoundingClientRect().height>=44,'Tap targets'));
+  const type=value=>{const input=q('.kanahachi-input');input.value=value;input.dispatchEvent(new w.Event('input',{bubbles:true}));};
+  type('おろし');click('決定');assert(q('.kanahachi-feedback').textContent.includes('centre'),'Missing centre feedback');
+  type('だいこんが');click('決定');assert(q('.kanahachi-feedback').textContent.includes('only'),'Unavailable kana feedback');
+  type('んんん');click('決定');assert(q('.kanahachi-input').value===''&&q('.kanahachi-input').placeholder==='見つかりません!','Unknown word clears entry and displays Japanese notice');
+  assert(JSON.parse(w.localStorage.getItem(saveKey)).input==='','Cleared word is saved');
+  await new Promise(r=>setTimeout(r,1100));
+  assert(q('.kanahachi-input').placeholder===''&&!q('.kanahachi-feedback').textContent.includes('見つかりません'),'Not-found notice clears after one second');
+  type('んんん');click('決定');type('ダイコン');
+  assert(q('.kanahachi-input').placeholder==='','New typing clears notice immediately');
+  await new Promise(r=>setTimeout(r,1100));
+  assert(q('.kanahachi-input').value==='ダイコン','Old timeout cannot erase new input');
+  type('ダイコン');click('決定');assert(q('.kanahachi-stats').textContent.startsWith('4 points · 1 / '),'Katakana correct and scoring');
+  const found=q('.kanahachi-word');assert(found.textContent.includes('大根')&&found.textContent.includes('だいこん'),'Original spelling and reading');
+  const speaker=found.querySelector('button');assert(speaker&&!speaker.disabled,'Existing recording button');speaker.click();await until(()=>plays.length);
+  assert(plays.at(-1).src.startsWith('audio/')&&plays.at(-1).playbackRate===1,'Shared audio playback at native speed');
+  type('だいこん');click('決定');assert(q('.kanahachi-feedback').textContent.includes('already'),'Duplicate feedback');
+  let saved;
+  assert(![...q('#wordExplosionGame').querySelectorAll('button')].some(b=>b.textContent==='シャッフル'),'Shuffle removed');
+  assert(q('.kanahachi-delete svg'),'Centered graphic cross');
+  click('ヒント');saved=JSON.parse(w.localStorage.getItem(saveKey));assert(saved.hint&&!saved.found.includes(saved.hint),'Hint targets unfound word');
+  assert(q('.kanahachi-hint').textContent.startsWith('Hint: ')&&!q('.kanahachi-hint').textContent.endsWith(' · '+saved.hint),'English-only first hint');
+  click('読みを見る');assert(q('.kanahachi-hint').textContent.endsWith(' · '+saved.hint),'Second hint reveals reading');
+  assert([...q('.kanahachi-tools').querySelectorAll('button')].some(b=>b.textContent==='ヒント'),'Next hint stays labelled ヒント');
+  type('だ');q('.kanahachi-delete').click();assert(q('.kanahachi-input').value==='','Cross deletes one kana');
+  q('.kanahachi-tile-0').click();assert(q('.kanahachi-input').value==='ん','Tap tile builds word');
+  q('.kanahachi-delete').click();assert(q('.kanahachi-input').value==='','Delete final kana');
+  assert(![...q('#wordExplosionGame').querySelectorAll('button')].some(b=>b.textContent==='Clear'),'No Clear button');
+  type('だい');
+  q('#backFromExplosion').click();assert(!q('#homeScreen').classList.contains('hidden'),'Back returns home');
+  assert(!d.documentElement.classList.contains('kanahachi-open'),'Game background resets on exit');
+  assert(plays.at(-1).paused,'Leaving stops audio');
+  stage='reopening game';q('#openKanahachi').click();await until(()=>q('.kanahachi-input'));
+  assert(q('.kanahachi-input').value==='だい'&&q('.kanahachi-stats').textContent.startsWith('4 points · 1 / '),'Reopen restores puzzle');
+  assert(!q('#wordExplosionGame').textContent.includes('Your puzzle has been resumed'),'No resume message');
+  stage='refreshing';frame.contentWindow.location.reload();await until(()=>frame.contentDocument!==d&&frame.contentDocument.querySelector('#openKanahachi:not(:disabled)'));
+  w=frame.contentWindow;d=frame.contentDocument;installAudio();stage='automatic refresh resume';await until(()=>q('.kanahachi-input'));
+  assert(q('.kanahachi-input').value==='だい'&&q('.kanahachi-stats').textContent.startsWith('4 points · 1 / '),'Refresh resumes progress');
+  assert(q('.kanahachi-hint').textContent.endsWith(' · '+saved.hint),'Refresh retains revealed hint');
+  click('終了して答えを見る');assert(q('.kanahachi-input').disabled&&q('#wordExplosionGame').textContent.includes('Remaining answers'),'Finish reveals and locks');
+  assert(q('.kanahachi-stats').textContent.startsWith('4 points · 1 / '),'Revealed answers do not earn points');
+  click('新しい問題');assert(q('.kanahachi-stats').textContent.startsWith('0 points · 0 / '),'New puzzle clears progress');
+  assert(q('.kanahachi-honeycomb').querySelectorAll('button').length===7,'New puzzle has seven kana');
+  frame.style.width='390px';await new Promise(r=>setTimeout(r,50));assert(d.documentElement.scrollWidth<=w.innerWidth+1,'390px iPhone fit');
+  frame.style.width='320px';await new Promise(r=>setTimeout(r,50));assert(d.documentElement.scrollWidth<=w.innerWidth+1,'320px after playing');
+  q('#backFromExplosion').click();stage='existing vocabulary cards';q('#openVocabularyCards').click();await until(()=>q('.vocabulary-study-card'));
+  assert(!q('#wordExplosionGame').classList.contains('kanahachi-game'),'Existing cards still open with clean game classes');
+  q('#backFromExplosion').click();
+  w.localStorage.setItem(saveKey,JSON.stringify({version:1,kana:['た','ん','す','い','は','き','く'],center:'ん',outer:['た','す','い','は','き','く'],found:[],input:'',finished:true}));
+  q('#openKanahachi').click();await until(()=>q('.kanahachi-input'));
+  const cooker=q('.kanahachi-word[data-reading="すいはんき"]'),tongue=q('.kanahachi-word[data-reading="たん"]');
+  assert(cooker&&cooker.querySelectorAll('.kanahachi-word-variant').length===1,'Rice cooker appears once in revealed answers');
+  assert(tongue&&tongue.querySelectorAll('.kanahachi-word-variant').length===1&&tongue.textContent.includes('タン（舌）'),'Tongue aliases appear once with informative spelling');
+  q('#backFromExplosion').click();
+  if(original===null)w.localStorage.removeItem(saveKey);else w.localStorage.setItem(saveKey,original);
+  result.textContent='PASS: bee navigation, seven tiles, validation, scoring, original words and audio, hints, shuffle removal, centered cross delete, Japanese controls/timed not-found notice/smiley rules popup, finish/reveal, new puzzle, refresh/reopen persistence, existing cards, and 320/390px mobile layout.';
+ } catch(error) { result.textContent='FAIL: '+error.stack; }
+})();
+</script>
