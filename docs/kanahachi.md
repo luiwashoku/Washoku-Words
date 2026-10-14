@@ -4,7 +4,7 @@ The bee on the main page opens the existing game screen. This first version uses
 
 ## Vocabulary audit
 
-Current data produces **3,028 unique usable readings**, retaining **3,290 spelling/meaning variants**. Normalization uses Unicode NFKC/NFC and converts katakana to hiragana. Voicing, small kana, っ, ん, and ー remain distinct. Words with the same reading share one answer, but their different spellings and meanings are retained. Capitalization/whitespace-only gloss duplicates merge with their source audio metadata preserved. The answer display combines equivalent meanings and redundant romanized labels into one row while retaining genuine homophones.
+Current data produces **3,439 unique usable readings**, retaining **3,735 spelling/meaning variants**. Normalization uses Unicode NFKC/NFC and converts katakana to hiragana. Voicing, small kana, っ, ん, and ー remain distinct. Words with the same reading share one answer, but their different spellings and meanings are retained. Capitalization/whitespace-only gloss duplicates merge with their source audio metadata preserved. The answer display combines equivalent meanings and redundant romanized labels into one row while retaining genuine homophones.
 
 Included explicit vocabulary sources:
 
@@ -17,7 +17,7 @@ Included explicit vocabulary sources:
 
 These currently contribute 20 source IDs across the app's categories. Catalog vocabulary-card sources are discovered automatically; new terms in the supported formats become available on the next game load.
 
-Of 4,579 candidate entries, **4 are excluded for unsupported/ambiguous readings**: `IHコンロ`, `ツバ（口金）`, `口輪（角巻）`, and `R（反り）`. Their source readings contain Latin text or multiple comma-separated alternatives. **27 one-kana occurrences** are excluded by the two-kana minimum. Counts are occurrences before deduplication. No missing reading is guessed.
+Of 5,046 candidate entries, **4 are excluded for unsupported/ambiguous readings**: `IHコンロ`, `ツバ（口金）`, `口輪（角巻）`, and `R（反り）`. Their source readings contain Latin text or multiple comma-separated alternatives. **35 one-kana occurrences** are excluded by the two-kana minimum. Counts are occurrences before deduplication. No missing reading is guessed.
 
 This is intentionally the initial integration requested before building the broader library. Quiz answer strings, grammar patterns/explanations, dialogue, sentence decks, and the separate 図鑑 page are not scraped. Conservative term filters omit prose, combined labels, and long phrases. Extending extraction to additional explicitly marked vocabulary schemas is a later library task. Counts change as the source data changes.
 

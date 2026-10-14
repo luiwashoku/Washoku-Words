@@ -17,8 +17,8 @@
   w.Audio=Audio;
   const entries=await fetch('../data/grammar-cards.json').then(r=>r.json()).then(d=>d.entries);
   const original=w.Math.random;w.Math.random=()=>0.999999;
-  assert(q('#openVocabularyCards').textContent==='単語カード','Word deck label');
-  assert(q('#openVocabularyCards').nextElementSibling.id==='openGrammarCards','Grammar button sits to the right');
+  assert(q('#openVocabularyCards').textContent==='単語','Word deck label');
+  assert(q('#openVocabularyCards').nextElementSibling.contains(q('#openGrammarCards')),'Grammar button sits to the right');
   assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Home buttons fit phone width');
   q('#openGrammarCards').click();
   await until(()=>q('.vocabulary-study-card:not(.hidden)'));w.Math.random=original;
@@ -31,6 +31,9 @@
    assert(q('.vocabulary-card-meaning').textContent===entry.english,'Meaning '+i);
    assert(q('.grammar-card-formation p').textContent===entry.formation,'Formation '+i);
    assert(!q('.grammar-card-formation button'),'Formation is silent');
+   const visibleExamples=[...d.querySelectorAll('.grammar-card-example')];
+   assert(visibleExamples.length===2,'Two examples');
+   visibleExamples.forEach((element,j)=>assert(element.textContent.includes(entry.examples[j].label),'Reviewed register label '+i+'/'+j));
    const speakers=[...d.querySelectorAll('.grammar-card-example button')];
    assert(speakers.length===2,'Formal and casual speakers');
    for(let j=0;j<2;j++) {

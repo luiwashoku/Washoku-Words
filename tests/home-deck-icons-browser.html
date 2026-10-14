@@ -1,0 +1,53 @@
+<!doctype html><meta charset="utf-8"><title>Home deck icon checks</title>
+<pre id="result">RUNNING</pre><iframe src="../index.html" style="width:390px;height:850px" title="App"></iframe>
+<script>
+(async()=>{
+ const frame=document.querySelector('iframe'),result=document.querySelector('#result');
+ const assert=(ok,message)=>{if(!ok)throw Error(message)};
+ const until=async (fn,label='startup')=>{for(let n=0;n<400;n++){if(fn())return;await new Promise(r=>setTimeout(r,20))}throw Error('Timed out: '+label)};
+ try{
+  await until(()=>frame.contentDocument.querySelector('#openGrammarCards:not(:disabled)'));
+  const svg=new DOMParser().parseFromString(await fetch('../assets/flashcard.svg').then(r=>r.text()),'image/svg+xml');
+  const [vx,vy,vw,vh]=svg.documentElement.getAttribute('viewBox').split(/\s+/).map(Number);
+  const front=[...svg.querySelectorAll('rect')].at(-1),cx=Number(front.getAttribute('x'))+Number(front.getAttribute('width'))/2,cy=Number(front.getAttribute('y'))+Number(front.getAttribute('height'))/2;
+  for(const width of [320,390,768]){
+   frame.style.width=width+'px';await new Promise(r=>setTimeout(r,80));
+   const d=frame.contentDocument,w=frame.contentWindow;
+   assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Home fits '+width);
+   const controls=['openSearch','openVocabularyCards','openGrammarCards','openKanahachi'].map(id=>d.getElementById(id).getBoundingClientRect());
+   assert(controls.every(rect=>Math.abs(rect.top+rect.height/2-controls[0].top-controls[0].height/2)<2),'Controls share one vertical centre at '+width);
+   const centres=controls.map(rect=>rect.left+rect.width/2),steps=centres.slice(1).map((x,i)=>x-centres[i]);
+   assert(Math.max(...steps)-Math.min(...steps)<1,'Four controls have even spacing at '+width);
+   assert(controls[0].width===52&&controls[0].height===52,'Smaller search circle');
+   assert(Number(w.getComputedStyle(d.querySelector('#openSearch svg')).strokeWidth.replace('px',''))>2.2,'Thicker search icon');
+   for(const id of ['openVocabularyCards','openGrammarCards']){
+    const button=d.getElementById(id),image=button.querySelector('img'),label=button.querySelector('.home-deck-label');
+    assert(image.complete&&image.naturalWidth>0,'SVG loaded');
+    const rect=image.getBoundingClientRect(),text=label.getBoundingClientRect(),scale=Math.min(rect.width/vw,rect.height/vh);
+    const x=rect.left+(rect.width-vw*scale)/2+(cx-vx)*scale,y=rect.top+(rect.height-vh*scale)/2+(cy-vy)*scale;
+    assert(w.getComputedStyle(image).objectFit==='contain','SVG retains original proportions');
+    assert(Math.abs(text.left+text.width/2-x)<1&&Math.abs(text.top+text.height/2-y)<1,'Label centred on actual front rectangle');
+    assert(Math.abs(button.getBoundingClientRect().height-64)<1,'Original button height');
+    assert(w.getComputedStyle(button).boxShadow==='none','SVG is the button graphic');
+    assert(Number(w.getComputedStyle(label).fontWeight)>=700,'Heavier deck label');
+   }
+  }
+  frame.style.width='390px';
+  const d=frame.contentDocument,w=frame.contentWindow;
+  const grid=w.getComputedStyle(d.body).backgroundImage;
+  assert(grid.includes('linear-gradient'),'Home uses notebook grid');
+  const checkGrid=()=>assert(w.getComputedStyle(d.body).backgroundImage===grid,'Notebook grid remains behind decks and games');
+  // Headless virtual time does not advance compositor animations; complete the existing bee feedback immediately.
+  d.getElementById('openKanahachi').animate=()=>({finished:Promise.resolve()});
+  for(const id of ['openVocabularyCards','openGrammarCards','openKanahachi']){
+   d.getElementById(id).click();await until(()=>!d.getElementById('wordExplosionScreen').classList.contains('hidden'),id+' disabled='+d.getElementById(id).disabled);
+   await new Promise(r=>setTimeout(r,100));checkGrid();
+   d.getElementById('backFromExplosion').click();await until(()=>!d.getElementById('homeScreen').classList.contains('hidden'));checkGrid();
+  }
+  const cat=d.querySelector('.money-cat-card');assert(cat,'Cat game is available');cat.click();
+  await until(()=>!d.getElementById('wordExplosionScreen').classList.contains('hidden'));checkGrid();
+  d.getElementById('backFromExplosion').click();checkGrid();
+  result.textContent='PASS: four home controls have equal centre spacing; smaller search circle, heavier labels, SVG proportions and front-rectangle alignment verified at 320, 390 and 768 px; notebook grid retained in vocabulary, grammar, bee and cat screens.';
+ }catch(e){result.textContent='FAIL: '+e.stack}
+})();
+</script>

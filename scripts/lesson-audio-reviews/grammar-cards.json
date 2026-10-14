@@ -5,7 +5,7 @@
   "model": "gpt-4o-mini-tts",
   "speed": 1.0,
   "reading_source": "Every formal and casual sample reviewed against golden-grammar annotated readings; explicit polite examples reviewed separately. Japanese 人 corrected to じん; 今日中 corrected to きょうじゅう; 話そう corrected to はなそう; 間に corrected to あいだに. Contextual topic は, directional へ and object を checked; lexical は retained. Added 54 cards following the 80-point coverage audit: 48 absent points plus six specific missing forms/meanings. Each new title and polite/casual example manually reviewed against its kanji annotations and meaning; explicit speech inputs check topic/contrast は → わ and object を → お while preserving lexical は in はる/はじめて/はやく/ごはん/はらえる. Pauses follow complete subordinate clauses; no pauses immediately before particles. Distinct meanings for まで and たところ retained; existing cards and keys preserved.",
-  "notes": "Grammar points autoplay once, with sentence speaker controls. All clips generated with Marin at speed 1.0 as requested. Formation has no audio. No listening or audible pitch-accent verification claimed. Added 32 requested conversational points after a 45-expression coverage audit. Exact kanji readings and contextual particles reviewed; contracted forms retain their distinct lookup keys. No audible listening or pitch verification claimed. New points/examples use Marin generation speed 1.0 and standing authorization for provisional Tokyo intonation. Formation is displayed, not spoken. No listening verification claimed.",
+  "notes": "Grammar points autoplay once, with sentence speaker controls. All clips generated with Marin at speed 1.0 as requested. Formation has no audio. No listening or audible pitch-accent verification claimed. Added 32 requested conversational points after a 45-expression coverage audit. Exact kanji readings and contextual particles reviewed; contracted forms retain their distinct lookup keys. No audible listening or pitch verification claimed. New points/examples use Marin generation speed 1.0 and standing authorization for provisional Tokyo intonation. Formation is displayed, not spoken. No listening verification claimed. Full 275-card/550-example audit on 2026-10-14: 23 sample sentences corrected in 22 cards; polite equivalents and casual contractions labelled explicitly. Corrected sentence inputs checked separately from display text and lexical lookup keys; whole-sentence intonation provisional with reliable component references retained. No recording listening verification claimed.",
   "entries": [
     {
       "key": "いま、えきでともだちをまっています。",
@@ -33,11 +33,6 @@
       "speed": 1.0
     },
     {
-      "key": "もういちどいって。",
-      "input": "もういちどいって。",
-      "speed": 1.0
-    },
-    {
       "key": "このせきにすわってもいいですか。",
       "input": "このせきにすわってもいいですか。",
       "speed": 1.0
@@ -50,11 +45,6 @@
     {
       "key": "びじゅつかんのなかではしゃしんをとってはいけません。",
       "input": "びじゅつかんのなかでわしゃしんおとってわいけません。",
-      "speed": 1.0
-    },
-    {
-      "key": "ここでしゃしんとっちゃだめ。",
-      "input": "ここでしゃしんとっちゃだめ。",
       "speed": 1.0
     },
     {
@@ -108,16 +98,6 @@
       "speed": 1.0
     },
     {
-      "key": "でんしゃにのりながらおんがくをきいています。",
-      "input": "でんしゃにのりながらおんがくおきいています。",
-      "speed": 1.0
-    },
-    {
-      "key": "でんしゃにのりながらおんがくをきいてる。",
-      "input": "でんしゃにのりながらおんがくおきいてる。",
-      "speed": 1.0
-    },
-    {
       "key": "きょうはすこしはやくねようとおもいます。",
       "input": "きょうわすこしはやくねようとおもいます。",
       "speed": 1.0
@@ -153,28 +133,13 @@
       "speed": 1.0
     },
     {
-      "key": "このアプリでよやくできる。",
-      "input": "このあぷりでよやくできる。",
-      "speed": 1.0
-    },
-    {
       "key": "ほっかいどうへいったことがあります。",
       "input": "ほっかいどうえいったことがあります。",
       "speed": 1.0
     },
     {
-      "key": "ほっかいどう、いったことある？",
-      "input": "ほっかいどう、いったことある？",
-      "speed": 1.0
-    },
-    {
       "key": "ひとりでかいがいりょこうをしたことがありません。",
       "input": "ひとりでかいがいりょこうおしたことがありません。",
-      "speed": 1.0
-    },
-    {
-      "key": "ひとりでかいがいりょこうしたことない。",
-      "input": "ひとりでかいがいりょこうしたことない。",
       "speed": 1.0
     },
     {
@@ -313,11 +278,6 @@
       "speed": 1.0
     },
     {
-      "key": "そとをみると、あめがふったみたい。",
-      "input": "そとおみると、あめがふったみたい。",
-      "speed": 1.0
-    },
-    {
       "key": "きょうとへいくなら、あきがおすすめです。",
       "input": "きょうとえいくなら、あきがおすすめです。",
       "speed": 1.0
@@ -413,18 +373,8 @@
       "speed": 1.0
     },
     {
-      "key": "さいきん、いえにいてばっかり。",
-      "input": "さいきん、いえにいてばっかり。",
-      "speed": 1.0
-    },
-    {
       "key": "いまからでかけるところです。",
       "input": "いまからでかけるところです。",
-      "speed": 1.0
-    },
-    {
-      "key": "ちょうどでんわしようとおもってたところ。",
-      "input": "ちょうどでんわしようとおもってたところ。",
       "speed": 1.0
     },
     {
@@ -450,11 +400,6 @@
     {
       "key": "きょうとのようなれきしのあるまちがすきです。",
       "input": "きょうとのようなれきしのあるまちがすきです。",
-      "speed": 1.0
-    },
-    {
-      "key": "きょうとみたいなまちにすんでみたい。",
-      "input": "きょうとみたいなまちにすんでみたい。",
       "speed": 1.0
     },
     {
@@ -848,11 +793,6 @@
       "speed": 1.0
     },
     {
-      "key": "まえにもきたきがする。",
-      "input": "まえにもきたきがする。",
-      "speed": 1.0
-    },
-    {
       "key": "あしたいけるかどうか、まだわかりません。",
       "input": "あしたいけるかどうか、まだわかりません。",
       "speed": 1.0
@@ -1100,11 +1040,6 @@
     {
       "key": "たいふうのえいきょうで、イベントがちゅうしになるおそれがあります。",
       "input": "たいふうのえいきょうで、いべんとがちゅうしになるおそれがあります。",
-      "speed": 1.0
-    },
-    {
-      "key": "たいふうでちゅうしになるかもしれない。",
-      "input": "たいふうでちゅうしになるかもしれない。",
       "speed": 1.0
     },
     {
@@ -1463,28 +1398,13 @@
       "speed": 1.0
     },
     {
-      "key": "はやおきするの、にがてなんだ。",
-      "input": "はやおきするの、にがてなんだ。",
-      "speed": 1.0
-    },
-    {
       "key": "しらないまちをあるくのがすきです。",
       "input": "しらないまちおあるくのがすきです。",
       "speed": 1.0
     },
     {
-      "key": "しらないまちをあるくの、すき。",
-      "input": "しらないまちおあるくの、すき。",
-      "speed": 1.0
-    },
-    {
       "key": "ひとをまつのがきらいです。",
       "input": "ひとおまつのがきらいです。",
-      "speed": 1.0
-    },
-    {
-      "key": "ひとをまつの、きらいなんだ。",
-      "input": "ひとおまつの、きらいなんだ。",
       "speed": 1.0
     },
     {
@@ -1583,11 +1503,6 @@
       "speed": 1.0
     },
     {
-      "key": "じぶんにあうべんきょうほうほうをさがしてる。",
-      "input": "じぶんにあうべんきょうほうほうおさがしてる。",
-      "speed": 1.0
-    },
-    {
       "key": "ともだちがくるまでおくってくれたので、タクシーをつかわないですみました。",
       "input": "ともだちがくるまでおくってくれたので、たくしーおつかわないですみました。",
       "speed": 1.0
@@ -1643,11 +1558,6 @@
       "speed": 1.0
     },
     {
-      "key": "いまさらいそいでもいみないよ。",
-      "input": "いまさらいそいでもいみないよ。",
-      "speed": 1.0
-    },
-    {
       "key": "もうおみせはしまっています。いまでんわしてもむだです。",
       "input": "もうおみせわしまっています。いまでんわしてもむだです。",
       "speed": 1.0
@@ -1658,11 +1568,6 @@
       "speed": 1.0
     },
     {
-      "key": "きのう、へんしんするのをわすれてもうしわけありません。",
-      "input": "きのう、へんしんするのおわすれてもうしわけありません。",
-      "speed": 1.0
-    },
-    {
       "key": "へんしんするのわすれてごめん。",
       "input": "へんしんするのわすれてごめん。",
       "speed": 1.0
@@ -1670,11 +1575,6 @@
     {
       "key": "おくれてすみません。",
       "input": "おくれてすみません。",
-      "speed": 1.0
-    },
-    {
-      "key": "おくれてごめん。",
-      "input": "おくれてごめん。",
       "speed": 1.0
     },
     {
@@ -1698,11 +1598,6 @@
       "speed": 1.0
     },
     {
-      "key": "だいじなやくそくをわすれてしまってもうしわけありません。",
-      "input": "だいじなやくそくおわすれてしまってもうしわけありません。",
-      "speed": 1.0
-    },
-    {
       "key": "だいじなやくそく、わすれちゃってごめん。",
       "input": "だいじなやくそく、わすれちゃってごめん。",
       "speed": 1.0
@@ -1723,11 +1618,6 @@
       "speed": 1.0
     },
     {
-      "key": "きてくれてありがとう。",
-      "input": "きてくれてありがとう。",
-      "speed": 1.0
-    },
-    {
       "key": "せんせいにさくぶんをちょっとみてもらいたいです。",
       "input": "せんせいにさくぶんおちょっとみてもらいたいです。",
       "speed": 1.0
@@ -1740,11 +1630,6 @@
     {
       "key": "こちらになまえをかいていただきたいです。",
       "input": "こちらになまえおかいていただきたいです。",
-      "speed": 1.0
-    },
-    {
-      "key": "ここになまえをかいてもらいたい。",
-      "input": "ここになまえおかいてもらいたい。",
       "speed": 1.0
     },
     {
@@ -4548,6 +4433,828 @@
       "listening_verified": false,
       "accent_status": "provisional-user-authorized",
       "pronunciation_guidance": "Read only the supplied hiragana once in a natural conversational Tokyo Japanese voice. Use fluent connected phrasing and a modest pitch range, without syllable recitation or internal breaks. Preserve long vowels and doubled consonants. Keep particles attached to their preceding phrase; pause only at supplied commas and punctuation. Use natural inflected-form and sentence intonation; do not impose a citation contour on a whole sentence."
+    },
+    {
+      "key": "もういちど、ゆっくりいってください。",
+      "input": "もういちど、ゆっくりいってください。",
+      "display": "もう一度(いちど)、ゆっくり言(い)ってください。",
+      "english": "Please say it once more, slowly.",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Corrected sentence explicit furigana and intended grammar meaning reviewed; exact lexical dictionary references retained where available. Contextual は → わ and を → お checked independently; lexical は preserved in はやおき and はい-form words.",
+      "accent_status": "provisional",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt; whole-sentence contour not confirmed",
+      "accent_components": [
+        {
+          "form": "一度",
+          "reading": "いちど",
+          "accent_variants": [
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L23522"
+        }
+      ],
+      "pronunciation_guidance": "Context only, do not speak this: grammar point ～てください, please do. Sentence meaning: Please say it once more, slowly.. Read only the supplied hiragana sentence once, naturally and smoothly. Keep the target grammar construction continuous. Particles stay attached to the preceding phrase; never pause immediately before topic わ, directional え or object お. Preserve long vowels, doubled consonants, lexical は and the supplied contraction. Pauses are only at supplied commas or sentence endings. Whole-sentence pitch is provisional: use natural standard Tokyo Japanese intonation. Checked lexical component references, allowing natural sentence phrasing: 一度 / いちど type 3.",
+      "listening_verified": false,
+      "grammar_card": "grammar-card-003",
+      "example_index": 1,
+      "grammar_audit": "data/grammar-example-audit.json",
+      "audio": "audio/lessons/grammar-cards/marin-b49a8f2f5fc9ca193c39.mp3",
+      "file_duration_seconds": 4.008
+    },
+    {
+      "key": "ここでしゃしんをとってはいけないよ。",
+      "input": "ここでしゃしんおとってわいけないよ。",
+      "display": "ここで写真(しゃしん)を撮(と)ってはいけないよ。",
+      "english": "You must not take photos here.",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Corrected sentence explicit furigana and intended grammar meaning reviewed; exact lexical dictionary references retained where available. Contextual は → わ and を → お checked independently; lexical は preserved in はやおき and はい-form words.",
+      "accent_status": "provisional",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt; whole-sentence contour not confirmed",
+      "accent_components": [
+        {
+          "form": "写真",
+          "reading": "しゃしん",
+          "accent_variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L59829"
+        }
+      ],
+      "pronunciation_guidance": "Context only, do not speak this: grammar point ～てはいけない, must not / may not. Sentence meaning: You must not take photos here.. Read only the supplied hiragana sentence once, naturally and smoothly. Keep the target grammar construction continuous. Particles stay attached to the preceding phrase; never pause immediately before topic わ, directional え or object お. Preserve long vowels, doubled consonants, lexical は and the supplied contraction. Pauses are only at supplied commas or sentence endings. Whole-sentence pitch is provisional: use natural standard Tokyo Japanese intonation. Checked lexical component references, allowing natural sentence phrasing: 写真 / しゃしん type 0.",
+      "listening_verified": false,
+      "grammar_card": "grammar-card-005",
+      "example_index": 1,
+      "grammar_audit": "data/grammar-example-audit.json",
+      "audio": "audio/lessons/grammar-cards/marin-c3333f3a3efa2c228b6c.mp3",
+      "file_duration_seconds": 3.456
+    },
+    {
+      "key": "おんがくをききながら、りょうりをしています。",
+      "input": "おんがくおききながら、りょうりおしています。",
+      "display": "音楽(おんがく)を聞(き)きながら、料理(りょうり)をしています。",
+      "english": "I listen to music while cooking.",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Corrected sentence explicit furigana and intended grammar meaning reviewed; exact lexical dictionary references retained where available. Contextual は → わ and を → お checked independently; lexical は preserved in はやおき and はい-form words.",
+      "accent_status": "provisional",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt; whole-sentence contour not confirmed",
+      "accent_components": [
+        {
+          "form": "音楽",
+          "reading": "おんがく",
+          "accent_variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L27790"
+        },
+        {
+          "form": "料理",
+          "reading": "りょうり",
+          "accent_variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L116664"
+        }
+      ],
+      "pronunciation_guidance": "Context only, do not speak this: grammar point ～ながら, while doing. Sentence meaning: I listen to music while cooking.. Read only the supplied hiragana sentence once, naturally and smoothly. Keep the target grammar construction continuous. Particles stay attached to the preceding phrase; never pause immediately before topic わ, directional え or object お. Preserve long vowels, doubled consonants, lexical は and the supplied contraction. Pauses are only at supplied commas or sentence endings. Whole-sentence pitch is provisional: use natural standard Tokyo Japanese intonation. Checked lexical component references, allowing natural sentence phrasing: 音楽 / おんがく type 1; 料理 / りょうり type 1.",
+      "listening_verified": false,
+      "grammar_card": "grammar-card-011",
+      "example_index": 0,
+      "grammar_audit": "data/grammar-example-audit.json",
+      "audio": "audio/lessons/grammar-cards/marin-4365b05cf3a23156a87e.mp3",
+      "file_duration_seconds": 3.648
+    },
+    {
+      "key": "おんがくをききながら、りょうりをしてる。",
+      "input": "おんがくおききながら、りょうりおしてる。",
+      "display": "音楽(おんがく)を聞(き)きながら、料理(りょうり)をしてる。",
+      "english": "I listen to music while cooking.",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Corrected sentence explicit furigana and intended grammar meaning reviewed; exact lexical dictionary references retained where available. Contextual は → わ and を → お checked independently; lexical は preserved in はやおき and はい-form words.",
+      "accent_status": "provisional",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt; whole-sentence contour not confirmed",
+      "accent_components": [
+        {
+          "form": "音楽",
+          "reading": "おんがく",
+          "accent_variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L27790"
+        },
+        {
+          "form": "料理",
+          "reading": "りょうり",
+          "accent_variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L116664"
+        }
+      ],
+      "pronunciation_guidance": "Context only, do not speak this: grammar point ～ながら, while doing. Sentence meaning: I listen to music while cooking.. Read only the supplied hiragana sentence once, naturally and smoothly. Keep the target grammar construction continuous. Particles stay attached to the preceding phrase; never pause immediately before topic わ, directional え or object お. Preserve long vowels, doubled consonants, lexical は and the supplied contraction. Pauses are only at supplied commas or sentence endings. Whole-sentence pitch is provisional: use natural standard Tokyo Japanese intonation. Checked lexical component references, allowing natural sentence phrasing: 音楽 / おんがく type 1; 料理 / りょうり type 1.",
+      "listening_verified": false,
+      "grammar_card": "grammar-card-011",
+      "example_index": 1,
+      "grammar_audit": "data/grammar-example-audit.json",
+      "audio": "audio/lessons/grammar-cards/marin-6820e48cd386cfd57bf1.mp3",
+      "file_duration_seconds": 4.2
+    },
+    {
+      "key": "このアプリでよやくすることができる。",
+      "input": "このあぷりでよやくすることができる。",
+      "display": "このアプリで予約(よやく)することができる。",
+      "english": "You can make a reservation with this app.",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Corrected sentence explicit furigana and intended grammar meaning reviewed; exact lexical dictionary references retained where available. Contextual は → わ and を → お checked independently; lexical は preserved in はやおき and はい-form words.",
+      "accent_status": "provisional",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt; whole-sentence contour not confirmed",
+      "accent_components": [
+        {
+          "form": "予約",
+          "reading": "よやく",
+          "accent_variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L113646"
+        }
+      ],
+      "pronunciation_guidance": "Context only, do not speak this: grammar point ～ことができる, can / be able to. Sentence meaning: You can make a reservation with this app.. Read only the supplied hiragana sentence once, naturally and smoothly. Keep the target grammar construction continuous. Particles stay attached to the preceding phrase; never pause immediately before topic わ, directional え or object お. Preserve long vowels, doubled consonants, lexical は and the supplied contraction. Pauses are only at supplied commas or sentence endings. Whole-sentence pitch is provisional: use natural standard Tokyo Japanese intonation. Checked lexical component references, allowing natural sentence phrasing: 予約 / よやく type 0.",
+      "listening_verified": false,
+      "grammar_card": "grammar-card-015",
+      "example_index": 1,
+      "grammar_audit": "data/grammar-example-audit.json",
+      "audio": "audio/lessons/grammar-cards/marin-1c0adf9bddcc9119cd86.mp3",
+      "file_duration_seconds": 3.864
+    },
+    {
+      "key": "ほっかいどう、いったことがある？",
+      "input": "ほっかいどう、いったことがある？",
+      "display": "北海道(ほっかいどう)、行(い)ったことがある？",
+      "english": "Have you ever been to Hokkaido?",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Corrected sentence explicit furigana and intended grammar meaning reviewed; exact lexical dictionary references retained where available. Contextual は → わ and を → お checked independently; lexical は preserved in はやおき and はい-form words.",
+      "accent_status": "provisional",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt; whole-sentence contour not confirmed",
+      "accent_components": [
+        {
+          "form": "北海道",
+          "reading": "ほっかいどう",
+          "accent_variants": [
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L108106"
+        }
+      ],
+      "pronunciation_guidance": "Context only, do not speak this: grammar point ～たことがある, have done before / have experienced. Sentence meaning: Have you ever been to Hokkaido?. Read only the supplied hiragana sentence once, naturally and smoothly. Keep the target grammar construction continuous. Particles stay attached to the preceding phrase; never pause immediately before topic わ, directional え or object お. Preserve long vowels, doubled consonants, lexical は and the supplied contraction. Pauses are only at supplied commas or sentence endings. Whole-sentence pitch is provisional: use natural standard Tokyo Japanese intonation. Checked lexical component references, allowing natural sentence phrasing: 北海道 / ほっかいどう type 3.",
+      "listening_verified": false,
+      "grammar_card": "grammar-card-016",
+      "example_index": 1,
+      "grammar_audit": "data/grammar-example-audit.json",
+      "audio": "audio/lessons/grammar-cards/marin-9f1bbdc727c0ae651326.mp3",
+      "file_duration_seconds": 3.36
+    },
+    {
+      "key": "ひとりでかいがいりょこうしたことがない。",
+      "input": "ひとりでかいがいりょこうしたことがない。",
+      "display": "一人(ひとり)で海外(かいがい)旅行(りょこう)したことがない。",
+      "english": "I have never travelled abroad alone.",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Corrected sentence explicit furigana and intended grammar meaning reviewed; exact lexical dictionary references retained where available. Contextual は → わ and を → お checked independently; lexical は preserved in はやおき and はい-form words.",
+      "accent_status": "provisional",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt; whole-sentence contour not confirmed",
+      "accent_components": [
+        {
+          "form": "一人",
+          "reading": "ひとり",
+          "accent_variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L23315"
+        },
+        {
+          "form": "海外",
+          "reading": "かいがい",
+          "accent_variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L31092"
+        },
+        {
+          "form": "旅行",
+          "reading": "りょこう",
+          "accent_variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L116440"
+        }
+      ],
+      "pronunciation_guidance": "Context only, do not speak this: grammar point ～たことがない, have never done. Sentence meaning: I have never travelled abroad alone.. Read only the supplied hiragana sentence once, naturally and smoothly. Keep the target grammar construction continuous. Particles stay attached to the preceding phrase; never pause immediately before topic わ, directional え or object お. Preserve long vowels, doubled consonants, lexical は and the supplied contraction. Pauses are only at supplied commas or sentence endings. Whole-sentence pitch is provisional: use natural standard Tokyo Japanese intonation. Checked lexical component references, allowing natural sentence phrasing: 一人 / ひとり type 2; 海外 / かいがい type 1; 旅行 / りょこう type 0.",
+      "listening_verified": false,
+      "grammar_card": "grammar-card-017",
+      "example_index": 1,
+      "grammar_audit": "data/grammar-example-audit.json",
+      "audio": "audio/lessons/grammar-cards/marin-1129253ef50d5ed53313.mp3",
+      "file_duration_seconds": 3.816
+    },
+    {
+      "key": "そとをみると、あめがふったようだ。",
+      "input": "そとおみると、あめがふったようだ。",
+      "display": "外(そと)を見(み)ると、雨(あめ)が降(ふ)ったようだ。",
+      "english": "Looking outside, it seems that it rained.",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Corrected sentence explicit furigana and intended grammar meaning reviewed; exact lexical dictionary references retained where available. Contextual は → わ and を → お checked independently; lexical は preserved in はやおき and はい-form words.",
+      "accent_status": "provisional",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt; whole-sentence contour not confirmed",
+      "accent_components": [
+        {
+          "form": "外",
+          "reading": "そと",
+          "accent_variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L31695"
+        },
+        {
+          "form": "雨",
+          "reading": "あめ",
+          "accent_variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L25068"
+        }
+      ],
+      "pronunciation_guidance": "Context only, do not speak this: grammar point ～ようだ, it seems / appears that. Sentence meaning: Looking outside, it seems that it rained.. Read only the supplied hiragana sentence once, naturally and smoothly. Keep the target grammar construction continuous. Particles stay attached to the preceding phrase; never pause immediately before topic わ, directional え or object お. Preserve long vowels, doubled consonants, lexical は and the supplied contraction. Pauses are only at supplied commas or sentence endings. Whole-sentence pitch is provisional: use natural standard Tokyo Japanese intonation. Checked lexical component references, allowing natural sentence phrasing: 外 / そと type 1; 雨 / あめ type 1.",
+      "listening_verified": false,
+      "grammar_card": "grammar-card-031",
+      "example_index": 1,
+      "grammar_audit": "data/grammar-example-audit.json",
+      "audio": "audio/lessons/grammar-cards/marin-177852f0a27c092b7760.mp3",
+      "file_duration_seconds": 3.768
+    },
+    {
+      "key": "おとうとはやすみのひ、ゲームをしてばかりいるよ。",
+      "input": "おとうとわやすみのひ、げーむおしてばかりいるよ。",
+      "display": "弟(おとうと)は休(やす)みの日(ひ)、ゲームをしてばかりいるよ。",
+      "english": "My younger brother does nothing but play games on his days off.",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Corrected sentence explicit furigana and intended grammar meaning reviewed; exact lexical dictionary references retained where available. Contextual は → わ and を → お checked independently; lexical は preserved in はやおき and はい-form words.",
+      "accent_status": "provisional",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt; whole-sentence contour not confirmed",
+      "accent_components": [
+        {
+          "form": "弟",
+          "reading": "おとうと",
+          "accent_variants": [
+            4
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L89020"
+        },
+        {
+          "form": "日",
+          "reading": "ひ",
+          "accent_variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L95191"
+        }
+      ],
+      "pronunciation_guidance": "Context only, do not speak this: grammar point ～てばかりいる, do nothing but / keep doing. Sentence meaning: My younger brother does nothing but play games on his days off.. Read only the supplied hiragana sentence once, naturally and smoothly. Keep the target grammar construction continuous. Particles stay attached to the preceding phrase; never pause immediately before topic わ, directional え or object お. Preserve long vowels, doubled consonants, lexical は and the supplied contraction. Pauses are only at supplied commas or sentence endings. Whole-sentence pitch is provisional: use natural standard Tokyo Japanese intonation. Checked lexical component references, allowing natural sentence phrasing: 弟 / おとうと type 4; 日 / ひ type 0.",
+      "listening_verified": false,
+      "grammar_card": "grammar-card-041",
+      "example_index": 1,
+      "grammar_audit": "data/grammar-example-audit.json",
+      "audio": "audio/lessons/grammar-cards/marin-f88d7352ad92db270d74.mp3",
+      "file_duration_seconds": 4.056
+    },
+    {
+      "key": "いまからでかけるところ。",
+      "input": "いまからでかけるところ。",
+      "display": "今(いま)から出(で)かけるところ。",
+      "english": "I am just about to go out.",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Corrected sentence explicit furigana and intended grammar meaning reviewed; exact lexical dictionary references retained where available. Contextual は → わ and を → お checked independently; lexical は preserved in はやおき and はい-form words.",
+      "accent_status": "provisional",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt; whole-sentence contour not confirmed",
+      "accent_components": [
+        {
+          "form": "今",
+          "reading": "いま",
+          "accent_variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52189"
+        },
+        {
+          "form": "出",
+          "reading": "で",
+          "accent_variants": [
+            0,
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L63782"
+        }
+      ],
+      "pronunciation_guidance": "Context only, do not speak this: grammar point ～ところ, just about to do. Sentence meaning: I am just about to go out.. Read only the supplied hiragana sentence once, naturally and smoothly. Keep the target grammar construction continuous. Particles stay attached to the preceding phrase; never pause immediately before topic わ, directional え or object お. Preserve long vowels, doubled consonants, lexical は and the supplied contraction. Pauses are only at supplied commas or sentence endings. Whole-sentence pitch is provisional: use natural standard Tokyo Japanese intonation. Checked lexical component references, allowing natural sentence phrasing: 今 / いま type 1; 出 / で type 0.",
+      "listening_verified": false,
+      "grammar_card": "grammar-card-042",
+      "example_index": 1,
+      "grammar_audit": "data/grammar-example-audit.json",
+      "audio": "audio/lessons/grammar-cards/marin-7ca3c50b5b9b4989a1f5.mp3",
+      "file_duration_seconds": 2.664
+    },
+    {
+      "key": "きょうとのようなまちにすんでみたい。",
+      "input": "きょうとのようなまちにすんでみたい。",
+      "display": "京都(きょうと)のような町(まち)に住(す)んでみたい。",
+      "english": "I would like to try living in a town like Kyoto.",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Corrected sentence explicit furigana and intended grammar meaning reviewed; exact lexical dictionary references retained where available. Contextual は → わ and を → お checked independently; lexical は preserved in はやおき and はい-form words.",
+      "accent_status": "provisional",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt; whole-sentence contour not confirmed",
+      "accent_components": [
+        {
+          "form": "京都",
+          "reading": "きょうと",
+          "accent_variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L38908"
+        },
+        {
+          "form": "町",
+          "reading": "まち",
+          "accent_variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L86909"
+        }
+      ],
+      "pronunciation_guidance": "Context only, do not speak this: grammar point ～ような, like / such as / resembling. Sentence meaning: I would like to try living in a town like Kyoto.. Read only the supplied hiragana sentence once, naturally and smoothly. Keep the target grammar construction continuous. Particles stay attached to the preceding phrase; never pause immediately before topic わ, directional え or object お. Preserve long vowels, doubled consonants, lexical は and the supplied contraction. Pauses are only at supplied commas or sentence endings. Whole-sentence pitch is provisional: use natural standard Tokyo Japanese intonation. Checked lexical component references, allowing natural sentence phrasing: 京都 / きょうと type 1; 町 / まち type 2.",
+      "listening_verified": false,
+      "grammar_card": "grammar-card-045",
+      "example_index": 1,
+      "grammar_audit": "data/grammar-example-audit.json",
+      "audio": "audio/lessons/grammar-cards/marin-c4a89be664885e88a586.mp3",
+      "file_duration_seconds": 3.72
+    },
+    {
+      "key": "まえにもきたようなきがする。",
+      "input": "まえにもきたようなきがする。",
+      "display": "前(まえ)にも来(き)たような気(き)がする。",
+      "english": "I feel like I have been here before.",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Corrected sentence explicit furigana and intended grammar meaning reviewed; exact lexical dictionary references retained where available. Contextual は → わ and を → お checked independently; lexical は preserved in はやおき and はい-form words.",
+      "accent_status": "provisional",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt; whole-sentence contour not confirmed",
+      "accent_components": [
+        {
+          "form": "前",
+          "reading": "まえ",
+          "accent_variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L77633"
+        },
+        {
+          "form": "気",
+          "reading": "き",
+          "accent_variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L36324"
+        }
+      ],
+      "pronunciation_guidance": "Context only, do not speak this: grammar point ～ような気(き)がする, I feel like / I have a feeling that. Sentence meaning: I feel like I have been here before.. Read only the supplied hiragana sentence once, naturally and smoothly. Keep the target grammar construction continuous. Particles stay attached to the preceding phrase; never pause immediately before topic わ, directional え or object お. Preserve long vowels, doubled consonants, lexical は and the supplied contraction. Pauses are only at supplied commas or sentence endings. Whole-sentence pitch is provisional: use natural standard Tokyo Japanese intonation. Checked lexical component references, allowing natural sentence phrasing: 前 / まえ type 1; 気 / き type 0.",
+      "listening_verified": false,
+      "grammar_card": "grammar-card-085",
+      "example_index": 1,
+      "grammar_audit": "data/grammar-example-audit.json",
+      "audio": "audio/lessons/grammar-cards/marin-80bf1c0d7a03494f5a2c.mp3",
+      "file_duration_seconds": 3.312
+    },
+    {
+      "key": "たいふうでちゅうしになるおそれがある。",
+      "input": "たいふうでちゅうしになるおそれがある。",
+      "display": "台風(たいふう)で中止(ちゅうし)になるおそれがある。",
+      "english": "There is a risk of cancellation because of the typhoon.",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Corrected sentence explicit furigana and intended grammar meaning reviewed; exact lexical dictionary references retained where available. Contextual は → わ and を → お checked independently; lexical は preserved in はやおき and はい-form words.",
+      "accent_status": "provisional",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt; whole-sentence contour not confirmed",
+      "accent_components": [
+        {
+          "form": "台風",
+          "reading": "たいふう",
+          "accent_variants": [
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L82501"
+        },
+        {
+          "form": "中止",
+          "reading": "ちゅうし",
+          "accent_variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L85933"
+        }
+      ],
+      "pronunciation_guidance": "Context only, do not speak this: grammar point ～おそれがある, there is a risk / possibility that. Sentence meaning: There is a risk of cancellation because of the typhoon.. Read only the supplied hiragana sentence once, naturally and smoothly. Keep the target grammar construction continuous. Particles stay attached to the preceding phrase; never pause immediately before topic わ, directional え or object お. Preserve long vowels, doubled consonants, lexical は and the supplied contraction. Pauses are only at supplied commas or sentence endings. Whole-sentence pitch is provisional: use natural standard Tokyo Japanese intonation. Checked lexical component references, allowing natural sentence phrasing: 台風 / たいふう type 3; 中止 / ちゅうし type 0.",
+      "listening_verified": false,
+      "grammar_card": "grammar-card-111",
+      "example_index": 1,
+      "grammar_audit": "data/grammar-example-audit.json",
+      "audio": "audio/lessons/grammar-cards/marin-669d713ccada0263ba7f.mp3",
+      "file_duration_seconds": 3.264
+    },
+    {
+      "key": "はやおきするのがにがてなんだ。",
+      "input": "はやおきするのがにがてなんだ。",
+      "display": "早起(はやお)きするのが苦手(にがて)なんだ。",
+      "english": "I am not good at getting up early.",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Corrected sentence explicit furigana and intended grammar meaning reviewed; exact lexical dictionary references retained where available. Contextual は → わ and を → お checked independently; lexical は preserved in はやおき and はい-form words.",
+      "accent_status": "provisional",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt; whole-sentence contour not confirmed",
+      "accent_components": [
+        {
+          "form": "苦手",
+          "reading": "にがて",
+          "accent_variants": [
+            0,
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L41343"
+        }
+      ],
+      "pronunciation_guidance": "Context only, do not speak this: grammar point ～のが苦手(にがて), find doing difficult. Sentence meaning: I am not good at getting up early.. Read only the supplied hiragana sentence once, naturally and smoothly. Keep the target grammar construction continuous. Particles stay attached to the preceding phrase; never pause immediately before topic わ, directional え or object お. Preserve long vowels, doubled consonants, lexical は and the supplied contraction. Pauses are only at supplied commas or sentence endings. Whole-sentence pitch is provisional: use natural standard Tokyo Japanese intonation. Checked lexical component references, allowing natural sentence phrasing: 苦手 / にがて type 0.",
+      "listening_verified": false,
+      "grammar_card": "grammar-card-147",
+      "example_index": 1,
+      "grammar_audit": "data/grammar-example-audit.json",
+      "audio": "audio/lessons/grammar-cards/marin-7e4d6e65fa1c3f27191b.mp3",
+      "file_duration_seconds": 3.0
+    },
+    {
+      "key": "しらないまちをあるくのがすき。",
+      "input": "しらないまちおあるくのがすき。",
+      "display": "知(し)らない街(まち)を歩(ある)くのが好(す)き。",
+      "english": "I like walking around unfamiliar towns.",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Corrected sentence explicit furigana and intended grammar meaning reviewed; exact lexical dictionary references retained where available. Contextual は → わ and を → お checked independently; lexical は preserved in はやおき and はい-form words.",
+      "accent_status": "provisional",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt; whole-sentence contour not confirmed",
+      "accent_components": [
+        {
+          "form": "街",
+          "reading": "まち",
+          "accent_variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L32025"
+        }
+      ],
+      "pronunciation_guidance": "Context only, do not speak this: grammar point ～のが好(す)き, enjoy doing. Sentence meaning: I like walking around unfamiliar towns.. Read only the supplied hiragana sentence once, naturally and smoothly. Keep the target grammar construction continuous. Particles stay attached to the preceding phrase; never pause immediately before topic わ, directional え or object お. Preserve long vowels, doubled consonants, lexical は and the supplied contraction. Pauses are only at supplied commas or sentence endings. Whole-sentence pitch is provisional: use natural standard Tokyo Japanese intonation. Checked lexical component references, allowing natural sentence phrasing: 街 / まち type 2.",
+      "listening_verified": false,
+      "grammar_card": "grammar-card-148",
+      "example_index": 1,
+      "grammar_audit": "data/grammar-example-audit.json",
+      "audio": "audio/lessons/grammar-cards/marin-5b1f162a603392b19046.mp3",
+      "file_duration_seconds": 3.12
+    },
+    {
+      "key": "ひとをまつのがきらいなんだ。",
+      "input": "ひとおまつのがきらいなんだ。",
+      "display": "人(ひと)を待(ま)つのが嫌(きら)いなんだ。",
+      "english": "I dislike waiting for people.",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Corrected sentence explicit furigana and intended grammar meaning reviewed; exact lexical dictionary references retained where available. Contextual は → わ and を → お checked independently; lexical は preserved in はやおき and はい-form words.",
+      "accent_status": "provisional",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt; whole-sentence contour not confirmed",
+      "accent_components": [
+        {
+          "form": "人",
+          "reading": "ひと",
+          "accent_variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L70928"
+        }
+      ],
+      "pronunciation_guidance": "Context only, do not speak this: grammar point ～のが嫌い(きらい), dislike doing. Sentence meaning: I dislike waiting for people.. Read only the supplied hiragana sentence once, naturally and smoothly. Keep the target grammar construction continuous. Particles stay attached to the preceding phrase; never pause immediately before topic わ, directional え or object お. Preserve long vowels, doubled consonants, lexical は and the supplied contraction. Pauses are only at supplied commas or sentence endings. Whole-sentence pitch is provisional: use natural standard Tokyo Japanese intonation. Checked lexical component references, allowing natural sentence phrasing: 人 / ひと type 0.",
+      "listening_verified": false,
+      "grammar_card": "grammar-card-149",
+      "example_index": 1,
+      "grammar_audit": "data/grammar-example-audit.json",
+      "audio": "audio/lessons/grammar-cards/marin-3c6bec69cb3d23ed6730.mp3",
+      "file_duration_seconds": 3.504
+    },
+    {
+      "key": "じぶんにあう、にほんごをべんきょうするほうほうをさがしてる。",
+      "input": "じぶんにあう、にほんごおべんきょうするほうほうおさがしてる。",
+      "display": "自分(じぶん)に合(あ)う、日本(にほん)語(ご)を勉強(べんきょう)する方法(ほうほう)を探(さが)してる。",
+      "english": "I am looking for a way to study Japanese that suits me.",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Corrected sentence explicit furigana and intended grammar meaning reviewed; exact lexical dictionary references retained where available. Contextual は → わ and を → お checked independently; lexical は preserved in はやおき and はい-form words.",
+      "accent_status": "provisional",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt; whole-sentence contour not confirmed",
+      "accent_components": [
+        {
+          "form": "自分",
+          "reading": "じぶん",
+          "accent_variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L59034"
+        },
+        {
+          "form": "日本",
+          "reading": "にほん",
+          "accent_variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L95376"
+        },
+        {
+          "form": "語",
+          "reading": "ご",
+          "accent_variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L48085"
+        },
+        {
+          "form": "勉強",
+          "reading": "べんきょう",
+          "accent_variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106172"
+        },
+        {
+          "form": "方法",
+          "reading": "ほうほう",
+          "accent_variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L107156"
+        }
+      ],
+      "pronunciation_guidance": "Context only, do not speak this: grammar point V dictionary + 方法(ほうほう), a way to do. Sentence meaning: I am looking for a way to study Japanese that suits me.. Read only the supplied hiragana sentence once, naturally and smoothly. Keep the target grammar construction continuous. Particles stay attached to the preceding phrase; never pause immediately before topic わ, directional え or object お. Preserve long vowels, doubled consonants, lexical は and the supplied contraction. Pauses are only at supplied commas or sentence endings. Whole-sentence pitch is provisional: use natural standard Tokyo Japanese intonation. Checked lexical component references, allowing natural sentence phrasing: 自分 / じぶん type 0; 日本 / にほん type 2; 語 / ご type 1; 勉強 / べんきょう type 0; 方法 / ほうほう type 0.",
+      "listening_verified": false,
+      "grammar_card": "grammar-card-159",
+      "example_index": 1,
+      "grammar_audit": "data/grammar-example-audit.json",
+      "audio": "audio/lessons/grammar-cards/marin-ebf016c0d551b7226d71.mp3",
+      "file_duration_seconds": 5.16
+    },
+    {
+      "key": "いまさらいそいでもいみがないよ。",
+      "input": "いまさらいそいでもいみがないよ。",
+      "display": "今(いま)さら急(いそ)いでも意味(いみ)がないよ。",
+      "english": "There is no point hurrying now.",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Corrected sentence explicit furigana and intended grammar meaning reviewed; exact lexical dictionary references retained where available. Contextual は → わ and を → お checked independently; lexical は preserved in はやおき and はい-form words.",
+      "accent_status": "provisional",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt; whole-sentence contour not confirmed",
+      "accent_components": [
+        {
+          "form": "今",
+          "reading": "いま",
+          "accent_variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52189"
+        },
+        {
+          "form": "意味",
+          "reading": "いみ",
+          "accent_variants": [
+            1
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L22159"
+        }
+      ],
+      "pronunciation_guidance": "Context only, do not speak this: grammar point ～ても意味(いみ)がない, there is no point in doing. Sentence meaning: There is no point hurrying now.. Read only the supplied hiragana sentence once, naturally and smoothly. Keep the target grammar construction continuous. Particles stay attached to the preceding phrase; never pause immediately before topic わ, directional え or object お. Preserve long vowels, doubled consonants, lexical は and the supplied contraction. Pauses are only at supplied commas or sentence endings. Whole-sentence pitch is provisional: use natural standard Tokyo Japanese intonation. Checked lexical component references, allowing natural sentence phrasing: 今 / いま type 1; 意味 / いみ type 1.",
+      "listening_verified": false,
+      "grammar_card": "grammar-card-165",
+      "example_index": 1,
+      "grammar_audit": "data/grammar-example-audit.json",
+      "audio": "audio/lessons/grammar-cards/marin-e3c6b5267bcc3cb00081.mp3",
+      "file_duration_seconds": 4.152
+    },
+    {
+      "key": "きのう、へんしんするのをわすれてごめんなさい。",
+      "input": "きのう、へんしんするのおわすれてごめんなさい。",
+      "display": "昨日(きのう)、返信(へんしん)するのを忘(わす)れてごめんなさい。",
+      "english": "I am sorry I forgot to reply yesterday.",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Corrected sentence explicit furigana and intended grammar meaning reviewed; exact lexical dictionary references retained where available. Contextual は → わ and を → お checked independently; lexical は preserved in はやおき and はい-form words.",
+      "accent_status": "provisional",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt; whole-sentence contour not confirmed",
+      "accent_components": [
+        {
+          "form": "昨日",
+          "reading": "きのう",
+          "accent_variants": [
+            2
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L54071"
+        },
+        {
+          "form": "返信",
+          "reading": "へんしん",
+          "accent_variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106104"
+        }
+      ],
+      "pronunciation_guidance": "Context only, do not speak this: grammar point ～てごめん, sorry for doing. Sentence meaning: I am sorry I forgot to reply yesterday.. Read only the supplied hiragana sentence once, naturally and smoothly. Keep the target grammar construction continuous. Particles stay attached to the preceding phrase; never pause immediately before topic わ, directional え or object お. Preserve long vowels, doubled consonants, lexical は and the supplied contraction. Pauses are only at supplied commas or sentence endings. Whole-sentence pitch is provisional: use natural standard Tokyo Japanese intonation. Checked lexical component references, allowing natural sentence phrasing: 昨日 / きのう type 2; 返信 / へんしん type 0.",
+      "listening_verified": false,
+      "grammar_card": "grammar-card-167",
+      "example_index": 0,
+      "grammar_audit": "data/grammar-example-audit.json",
+      "audio": "audio/lessons/grammar-cards/marin-251449903d2440a049af.mp3",
+      "file_duration_seconds": 3.912
+    },
+    {
+      "key": "へんじがおくれてすみません。",
+      "input": "へんじがおくれてすみません。",
+      "display": "返事(へんじ)が遅(おく)れてすみません。",
+      "english": "I am sorry for the late reply.",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Corrected sentence explicit furigana and intended grammar meaning reviewed; exact lexical dictionary references retained where available. Contextual は → わ and を → お checked independently; lexical は preserved in はやおき and はい-form words.",
+      "accent_status": "provisional",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt; whole-sentence contour not confirmed",
+      "accent_components": [
+        {
+          "form": "返事",
+          "reading": "へんじ",
+          "accent_variants": [
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106099"
+        }
+      ],
+      "pronunciation_guidance": "Context only, do not speak this: grammar point ～てすみません, politely apologize for doing. Sentence meaning: I am sorry for the late reply.. Read only the supplied hiragana sentence once, naturally and smoothly. Keep the target grammar construction continuous. Particles stay attached to the preceding phrase; never pause immediately before topic わ, directional え or object お. Preserve long vowels, doubled consonants, lexical は and the supplied contraction. Pauses are only at supplied commas or sentence endings. Whole-sentence pitch is provisional: use natural standard Tokyo Japanese intonation. Checked lexical component references, allowing natural sentence phrasing: 返事 / へんじ type 3.",
+      "listening_verified": false,
+      "grammar_card": "grammar-card-168",
+      "example_index": 1,
+      "grammar_audit": "data/grammar-example-audit.json",
+      "audio": "audio/lessons/grammar-cards/marin-c9df82a5eadf25558947.mp3",
+      "file_duration_seconds": 2.664
+    },
+    {
+      "key": "だいじなやくそくをわすれてしまってごめんなさい。",
+      "input": "だいじなやくそくおわすれてしまってごめんなさい。",
+      "display": "大事(だいじ)な約束(やくそく)を忘(わす)れてしまってごめんなさい。",
+      "english": "I am sorry I forgot an important promise.",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Corrected sentence explicit furigana and intended grammar meaning reviewed; exact lexical dictionary references retained where available. Contextual は → わ and を → お checked independently; lexical は preserved in はやおき and はい-form words.",
+      "accent_status": "provisional",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt; whole-sentence contour not confirmed",
+      "accent_components": [
+        {
+          "form": "大事",
+          "reading": "だいじ",
+          "accent_variants": [
+            3,
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L82867"
+        },
+        {
+          "form": "約束",
+          "reading": "やくそく",
+          "accent_variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L112425"
+        }
+      ],
+      "pronunciation_guidance": "Context only, do not speak this: grammar point ～てしまってごめん, apologize for an unfortunate completed action. Sentence meaning: I am sorry I forgot an important promise.. Read only the supplied hiragana sentence once, naturally and smoothly. Keep the target grammar construction continuous. Particles stay attached to the preceding phrase; never pause immediately before topic わ, directional え or object お. Preserve long vowels, doubled consonants, lexical は and the supplied contraction. Pauses are only at supplied commas or sentence endings. Whole-sentence pitch is provisional: use natural standard Tokyo Japanese intonation. Checked lexical component references, allowing natural sentence phrasing: 大事 / だいじ type 3; 約束 / やくそく type 0.",
+      "listening_verified": false,
+      "grammar_card": "grammar-card-171",
+      "example_index": 0,
+      "grammar_audit": "data/grammar-example-audit.json",
+      "audio": "audio/lessons/grammar-cards/marin-078071e2b9597c13911e.mp3",
+      "file_duration_seconds": 4.056
+    },
+    {
+      "key": "せんせい、てつだってくださってありがとうございます。",
+      "input": "せんせい、てつだってくださってありがとうございます。",
+      "display": "先生(せんせい)、手伝(てつだ)ってくださってありがとうございます。",
+      "english": "Thank you for helping me, teacher.",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Corrected sentence explicit furigana and intended grammar meaning reviewed; exact lexical dictionary references retained where available. Contextual は → わ and を → お checked independently; lexical は preserved in はやおき and はい-form words.",
+      "accent_status": "provisional",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt; whole-sentence contour not confirmed",
+      "accent_components": [
+        {
+          "form": "先生",
+          "reading": "せんせい",
+          "accent_variants": [
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L76467"
+        }
+      ],
+      "pronunciation_guidance": "Context only, do not speak this: grammar point ～てくださってありがとうございます, respectfully thank someone for doing. Sentence meaning: Thank you for helping me, teacher.. Read only the supplied hiragana sentence once, naturally and smoothly. Keep the target grammar construction continuous. Particles stay attached to the preceding phrase; never pause immediately before topic わ, directional え or object お. Preserve long vowels, doubled consonants, lexical は and the supplied contraction. Pauses are only at supplied commas or sentence endings. Whole-sentence pitch is provisional: use natural standard Tokyo Japanese intonation. Checked lexical component references, allowing natural sentence phrasing: 先生 / せんせい type 3.",
+      "listening_verified": false,
+      "grammar_card": "grammar-card-174",
+      "example_index": 1,
+      "grammar_audit": "data/grammar-example-audit.json",
+      "audio": "audio/lessons/grammar-cards/marin-2ad5666d8968471da02e.mp3",
+      "file_duration_seconds": 4.464
+    },
+    {
+      "key": "ないようをもういちどかくにんしていただきたいです。",
+      "input": "ないようおもういちどかくにんしていただきたいです。",
+      "display": "内容(ないよう)をもう一度(いちど)確認(かくにん)していただきたいです。",
+      "english": "I would like you to check the contents once more.",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Corrected sentence explicit furigana and intended grammar meaning reviewed; exact lexical dictionary references retained where available. Contextual は → わ and を → お checked independently; lexical は preserved in はやおき and はい-form words.",
+      "accent_status": "provisional",
+      "accent_source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt; whole-sentence contour not confirmed",
+      "accent_components": [
+        {
+          "form": "内容",
+          "reading": "ないよう",
+          "accent_variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L94393"
+        },
+        {
+          "form": "一度",
+          "reading": "いちど",
+          "accent_variants": [
+            3
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L23522"
+        },
+        {
+          "form": "確認",
+          "reading": "かくにん",
+          "accent_variants": [
+            0
+          ],
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L32311"
+        }
+      ],
+      "pronunciation_guidance": "Context only, do not speak this: grammar point ～ていただきたい, would like someone to do; humble request. Sentence meaning: I would like you to check the contents once more.. Read only the supplied hiragana sentence once, naturally and smoothly. Keep the target grammar construction continuous. Particles stay attached to the preceding phrase; never pause immediately before topic わ, directional え or object お. Preserve long vowels, doubled consonants, lexical は and the supplied contraction. Pauses are only at supplied commas or sentence endings. Whole-sentence pitch is provisional: use natural standard Tokyo Japanese intonation. Checked lexical component references, allowing natural sentence phrasing: 内容 / ないよう type 0; 一度 / いちど type 3; 確認 / かくにん type 0.",
+      "listening_verified": false,
+      "grammar_card": "grammar-card-176",
+      "example_index": 1,
+      "grammar_audit": "data/grammar-example-audit.json",
+      "audio": "audio/lessons/grammar-cards/marin-2b1f32bd3a0df65094d8.mp3",
+      "file_duration_seconds": 4.8
     }
   ]
 }

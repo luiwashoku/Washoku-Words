@@ -10,40 +10,71 @@ source = json.loads(subprocess.check_output([
     str(ROOT / 'scripts/export-topic-vocabulary.js'), str(ROOT),
 ], text=True))
 by_key = {word['key']: word for word in source}
+supplement = json.loads((ROOT / 'data/topic-vocabulary-additions.json').read_text())
+additions = supplement['topics']
+updates = supplement.get('meaningUpdates', {})
+extra = {word['sourceKey']: word for topic in additions for word in topic['vocabulary']}
+assert len(extra) == 467 and not set(extra) & set(by_key)
+manifest = json.loads((ROOT / 'audio/lessons/topic-vocabulary-cards/manifest.json').read_text())
+review = json.loads((ROOT / 'scripts/lesson-audio-reviews/topic-vocabulary-cards.json').read_text())
+reviewed = {entry['key']: entry for entry in review['entries']}
+assert review['voice'] == 'marin' and review['model'] == 'gpt-4o-mini-tts' and review['speed'] == 1.0
 data = json.loads((ROOT / 'data/topic-vocabulary-cards.json').read_text())
 catalog = json.loads((ROOT / 'data/catalog.json').read_text())
 lesson = next(entry for entry in catalog if entry['id'] == 'topic-vocabulary-cards')
-assert len(data['topics']) == 23 and data['wordCount'] == len(source) == 1111
+assert len(data['topics']) == 24 and len(source) == 1111 and data['wordCount'] == len(source) + len(extra) == 1578
 assert data['sourceVocabularySha256'] == hashlib.sha256((ROOT / 'word explosion.txt').read_bytes()).hexdigest()
-assert lesson['questionCount'] == len(data['entries']) == 116
+assert lesson['questionCount'] == len(data['entries']) == 168
 assert lesson['homeOnly'] and lesson['ordered'] and lesson['titleAudioDisabled']
 assert lesson['recordedAudioOnly'] and lesson['topicCards']
 assert len({card['id'] for card in data['entries']}) == len(data['entries'])
 assert [card['step'] for card in data['entries']] == list(range(1, len(data['entries']) + 1))
 seen, memberships = set(), {}
 for card in data['entries']:
-    pairs = [pair for block in card['blocks'] for pair in block['pairs']]
+    pairs = [pair for block in card['blocks'] for pair in block.get('pairs', block.get('items', []))]
     assert 1 <= len(pairs) <= 12
     for pair in pairs:
         key = pair['sourceKey']
         assert key not in seen
         seen.add(key)
         memberships[key] = card['topicId']
+        if key in extra:
+            word = extra[key]
+            vocabulary = pair.get('vocabulary', pair)
+            assert vocabulary['japanese'] == word['japanese']
+            assert vocabulary['english'] == word['english'] and vocabulary['speech'] == word['speech']
+            if word.get('example'):
+                assert pair['example'] == word['example']
+                example = reviewed[word['example']['speech']]
+                assert example['kind'] == 'supplemental-example'
+                assert example['hiragana_reviewed'] and example['phrase_reviewed']
+                assert example['speed'] == 1.0 and example['accent_status'] == 'provisional'
+                sentence_audio = ROOT / manifest[word['example']['speech']]
+                assert sentence_audio.is_file() and sentence_audio.name.startswith('marin-')
+            assert reviewed[key]['input'] == ('ちからおぬく' if word['display'] == '力を抜く' else word['reading']) and reviewed[key]['speed'] == 1.0
+            assert reviewed[key]['accent_status'] in ['dictionary', 'provisional']
+            audio = ROOT / manifest[key]
+            assert audio.is_file() and audio.stat().st_size > 100 and audio.name.startswith('marin-')
+            assert manifest[key] == reviewed[key]['audio'], 'Existing word recordings must be preserved'
+            continue
         original = by_key[key]
-        assert pair['vocabulary']['english'] == original['english']
+        assert pair['vocabulary']['english'] == updates.get(key, {}).get('english', original['english'])
         assert pair['vocabulary']['speech'] == original['wordSpeech']
-        assert pair['example'] == original['example']
+        expected_example = dict(original['example'])
+        if updates.get(key, {}).get('additionalExample'):
+            expected_example['explanation'] = updates[key]['additionalExample']
+        assert pair['example'] == expected_example
         for path in [original['wordAudio'], original['exampleAudio']]:
             assert (ROOT / path).is_file() and (ROOT / path).stat().st_size > 100
-assert seen == set(by_key)
+assert seen == set(by_key) | set(extra)
 for topic in data['topics']:
     cards = [card for card in data['entries'] if card['topicId'] == topic['id']]
     assert len(cards) == topic['pageCount'] > 0
-    assert sum(len(block['pairs']) for card in cards for block in card['blocks']) == topic['wordCount'] > 0
+    assert sum(len(block.get('pairs', block.get('items', []))) for card in cards for block in card['blocks']) == topic['wordCount'] > 0
 for key, topic in {
     'ざいこ|在庫': 'shopping', 'わりびき|割引': 'shopping',
-    'かーどばらい|カード払い': 'payment', 'ふぁすなー|ファスナー': 'clothing',
-    'せんたく|洗濯': 'cleaning', 'やく|焼く': 'cooking', 'しょっかん|食感': 'taste',
+    'かーどばらい|カード払い': 'shopping', 'ふぁすなー|ファスナー': 'clothing',
+    'せんたく|洗濯': 'home', 'やく|焼く': 'cooking', 'しょっかん|食感': 'food-taste',
     'あし|脚': 'health', 'あし|足': 'health', 'した|舌': 'health', 'した|下': 'travel',
 }.items():
     assert memberships[key] == topic
@@ -53,4 +84,55 @@ for card in finance['entries']:
     for block in card['blocks']:
         for pair in block['pairs']:
             assert memberships[pair['sourceKey']] == 'shopping'
-print('PASS: 1111 entries, 23 topics, 116 pages, financial vocabulary and comparisons with recorded examples')
+organization = json.loads((ROOT / 'data/vocabulary-topic-organization.json').read_text())
+source_destinations = {source: topic['id'] for topic in organization['topics'] for source in topic['sources']}
+word_destinations = {move['sourceKey']: move['topicId'] for move in organization['wordMoves']}
+for topic in additions:
+    assert all(memberships[word['sourceKey']] == word_destinations.get(word['sourceKey'], source_destinations[topic['id']]) for word in topic['vocabulary'])
+for key, destination in word_destinations.items():
+    assert memberships[key] == destination
+assert [topic['id'] for topic in data['topics']] == [topic['id'] for topic in organization['topics']]
+assert [topic['id'] for topic in data['topics'][:5]] == ['restaurants', 'travel', 'shopping', 'cooking', 'clothing']
+assert memberships['こんだて|献立'] == memberships['よやく|予約'] == memberships['とりざら|取り皿'] == 'restaurants'
+assert data['topics'][-1]['id'] == 'work'
+example_keys = {word['example']['speech'] for word in extra.values() if word.get('example')}
+assert len(example_keys) == 467
+additional_keys = {update['additionalExample']['speech'] for update in updates.values() if update.get('additionalExample')}
+assert set(extra) | example_keys | additional_keys == set(manifest) == set(reviewed)
+assert len(additional_keys) == 1
+for key in additional_keys:
+    assert (ROOT / manifest[key]).is_file() and reviewed[key]['speed'] == 1.0
+assert reviewed[extra['よわび|弱火']['example']['speech']]['input'].startswith('ふたおして')
+assert reviewed[extra['はいそう|配送']['example']['speech']]['input'].startswith('かいがいえの')
+assert reviewed[extra['はさみ|はさみ']['example']['speech']]['input'].startswith('はさみで')
+assert reviewed[extra['おかわり|おかわり']['example']['speech']]['input'].startswith('ごはんの')
+requested = json.loads((ROOT / 'data/everyday-vocabulary-request.json').read_text())['entries']
+assert len(requested) == 243
+for word in requested:
+    key = word['sourceKey']
+    assert key in seen
+    if key in extra:
+        assert extra[key]['english'] == word['english']
+        assert extra[key]['reading'] == word['reading']
+    else:
+        assert key == 'まかせる|任せる' and by_key[key]['english'] == 'leave it to someone'
+assert memberships['がら|柄'] != memberships['え|柄']
+assert 'なおる|治る' in extra and 'なおる|直る' in by_key
+assert reviewed['ちからをぬく|力を抜く']['input'] == 'ちからおぬく'
+requested = json.loads((ROOT / 'data/materials-nature-weather-request.json').read_text())['entries']
+assert len(requested) == 159 and len({word['sourceKey'] for word in requested}) == 158
+new_requested = {word['sourceKey'] for topic in additions[-3:] for word in topic['vocabulary']}
+assert len(new_requested) == 151
+assert sum(word['sourceKey'] in new_requested for word in requested) == 150  # 雲 appears twice in the request.
+for word in requested:
+    assert word['sourceKey'] in seen
+    if word['sourceKey'] in extra:
+        assert extra[word['sourceKey']]['reading'] == word['reading']
+        assert extra[word['sourceKey']]['english'] == word['english']
+assert updates['しぜん|自然']['english'] == 'natural / nature'
+assert memberships['かわ|川'] != memberships['かわ|革']
+assert extra['かみせい|紙製']['reading'] == 'かみせい'
+assert reviewed['は|葉']['input'] == 'は'
+assert extra['ひょう|雹']['english'] == 'hail'
+assert extra['あられ|霰']['reading'] == 'あられ'
+print('PASS: 1,578 entries, 24 topics, 168 pages; all 159 requested entries covered, duplicates avoided, 467 supplemental words have reviewed bilingual examples and Marin 1.0 audio; original 自然 example retained with an additional nature example.')

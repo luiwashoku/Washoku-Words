@@ -20,11 +20,17 @@ parser = argparse.ArgumentParser(description='Generate one reviewed Japanese les
 parser.add_argument('--lesson', required=True)
 parser.add_argument('--retry-key', action='append', default=[])
 parser.add_argument('--card', help='Generate only one reading card; preserve previously generated cards')
+parser.add_argument('--key', action='append', help='Generate selected speech keys; preserve other recordings')
 parser.add_argument('--dry-run', action='store_true', help='Validate reviewed inputs and report distinct render targets without making API calls')
 args = parser.parse_args()
 rows = json.loads(subprocess.check_output(['/usr/bin/osascript', '-l', 'JavaScript', str(ROOT/'scripts/export-lesson-audio.js'), str(ROOT), args.lesson] + ([args.card] if args.card else []), text=True))
 if not rows:
     parser.error('No speech keys found for the requested lesson/card')
+if args.key:
+    selected_keys = set(args.key)
+    if selected_keys - {row['key'] for row in rows}:
+        parser.error('Requested speech key is missing from the selected lesson/card')
+    rows = [row for row in rows if row['key'] in selected_keys]
 review_file = ROOT/'scripts/lesson-audio-reviews'/(args.lesson+'.json')
 if not review_file.exists():
     parser.error('Review the hiragana readings and particles before generating this lesson')
@@ -43,7 +49,7 @@ speeds = {entry['key']:entry.get('speed', speed) for entry in review['entries']}
 if any(not isinstance(value, (int, float)) or not 0.25 <= value <= 4 for value in speeds.values()):
     parser.error('Reviewed entry speech speeds must be numbers between 0.25 and 4')
 known_keys = {row['key'] for row in rows}
-if args.card:
+if args.card or args.key:
     inputs = {k:v for k,v in inputs.items() if k in known_keys}
 if set(inputs) != known_keys:
     parser.error('Reading review must cover exactly every current speech key')
@@ -147,7 +153,7 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=32) as pool:
         if len(paths)%25 == 0 or len(paths)==len(unique):
             print('Completed',len(paths),'/',len(unique),flush=True)
 manifest_path = folder/'manifest.json'
-manifest = json.loads(manifest_path.read_text()) if args.card and manifest_path.exists() else {}
+manifest = json.loads(manifest_path.read_text()) if (args.card or args.key) and manifest_path.exists() else {}
 manifest.update({row['key']:paths[row['signature']] for row in rows})
 (folder/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
 combined_path = ROOT/'audio/lessons/manifest.json'

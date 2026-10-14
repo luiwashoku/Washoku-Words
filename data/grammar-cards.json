@@ -1,5 +1,5 @@
 {
-  "title": "文法カード",
+  "title": "文法",
   "entries": [
     {
       "id": "grammar-card-001",
@@ -7,7 +7,7 @@
       "kanji": "～ている",
       "japanese": "ている",
       "english": "be doing / ongoing state",
-      "formation": "V て-form + いる\n待(ま)つ → 待(ま)って + いる → 待(ま)っている",
+      "formation": "V て-form + いる\n待(ま)つ → 待(ま)って + いる → 待(ま)っている\nCasual contraction: ～ている → ～てる (～でいる → ～でる).",
       "examples": [
         {
           "label": "Formal / polite",
@@ -15,7 +15,7 @@
           "english": "I'm waiting for my friend at the station."
         },
         {
-          "label": "Casual",
+          "label": "Casual · contracted form",
           "japanese": "今(いま)、駅(えき)で友達(ともだち)を待(ま)ってる。",
           "english": "I'm waiting for my friend at the station."
         }
@@ -55,9 +55,9 @@
           "english": "Please say it one more time."
         },
         {
-          "label": "Casual",
-          "japanese": "もう一(いち)度(ど)言(い)って。",
-          "english": "Say it one more time, please."
+          "label": "Polite request · another example",
+          "japanese": "もう一度(いちど)、ゆっくり言(い)ってください。",
+          "english": "Please say it once more, slowly."
         }
       ]
     },
@@ -95,9 +95,9 @@
           "english": "You must not take photos inside the museum."
         },
         {
-          "label": "Casual",
-          "japanese": "ここで写真(しゃしん)撮(と)っちゃだめ。",
-          "english": "You can't take photos here."
+          "label": "Plain form",
+          "japanese": "ここで写真(しゃしん)を撮(と)ってはいけないよ。",
+          "english": "You must not take photos here."
         }
       ]
     },
@@ -147,7 +147,7 @@
       "kanji": "～ので",
       "japanese": "ので",
       "english": "because / since; softer than から",
-      "formation": "V plain + ので\nい-adj + ので\nな-adj / N + なので",
+      "formation": "V plain + ので\nい-adj + ので\nな-adj / N + なので\nCasual contraction: ～ので / ～なので → ～んで / ～なんで.",
       "examples": [
         {
           "label": "Formal / polite",
@@ -155,7 +155,7 @@
           "english": "Since it's my first time, I'm a little nervous."
         },
         {
-          "label": "Casual",
+          "label": "Casual · contracted form",
           "japanese": "初(はじ)めてなんで、ちょっと緊張(きんちょう)してる。",
           "english": "It's my first time, so I'm a little nervous."
         }
@@ -211,13 +211,13 @@
       "examples": [
         {
           "label": "Formal / polite",
-          "japanese": "電車(でんしゃ)に乗(の)りながら音楽(おんがく)を聞(き)いています。",
-          "english": "I listen to music while riding the train."
+          "japanese": "音楽(おんがく)を聞(き)きながら、料理(りょうり)をしています。",
+          "english": "I listen to music while cooking."
         },
         {
           "label": "Casual",
-          "japanese": "電車(でんしゃ)に乗(の)りながら音楽(おんがく)を聞(き)いてる。",
-          "english": "I listen to music while riding the train."
+          "japanese": "音楽(おんがく)を聞(き)きながら、料理(りょうり)をしてる。",
+          "english": "I listen to music while cooking."
         }
       ]
     },
@@ -295,8 +295,8 @@
           "english": "You can make a reservation using this app."
         },
         {
-          "label": "Casual",
-          "japanese": "このアプリで予約(よやく)できる。",
+          "label": "Plain form",
+          "japanese": "このアプリで予約(よやく)することができる。",
           "english": "You can make a reservation with this app."
         }
       ]
@@ -316,7 +316,7 @@
         },
         {
           "label": "Casual",
-          "japanese": "北海道(ほっかいどう)、行(い)ったことある？",
+          "japanese": "北海道(ほっかいどう)、行(い)ったことがある？",
           "english": "Have you ever been to Hokkaido?"
         }
       ]
@@ -336,8 +336,8 @@
         },
         {
           "label": "Casual",
-          "japanese": "一人(ひとり)で海外(かいがい)旅行(りょこう)したことない。",
-          "english": "I've never traveled abroad alone."
+          "japanese": "一人(ひとり)で海外(かいがい)旅行(りょこう)したことがない。",
+          "english": "I have never travelled abroad alone."
         }
       ]
     },
@@ -387,7 +387,7 @@
       "kanji": "～てしまう",
       "japanese": "てしまう",
       "english": "end up doing / accidentally do / finish completely",
-      "formation": "V て-form + しまう\nてしまう → ちゃう; でしまう → じゃう\nちゃった / じゃった are past forms; ちゃって / じゃって are て-forms.",
+      "formation": "V て-form + しまう\nてしまう → ちゃう; でしまう → じゃう\nちゃった / じゃった are past forms; ちゃって / じゃって are て-forms.\nCasual contraction: ～てしまう → ～ちゃう; ～でしまう → ～じゃう.",
       "examples": [
         {
           "label": "Formal / polite",
@@ -395,7 +395,7 @@
           "english": "I accidentally fell asleep on the train."
         },
         {
-          "label": "Casual",
+          "label": "Casual · contracted form",
           "japanese": "財布(さいふ)を忘(わす)れちゃった。",
           "english": "I forgot my wallet."
         }
@@ -547,7 +547,7 @@
       "kanji": "～かもしれない",
       "japanese": "かもしれない",
       "english": "might / maybe / perhaps",
-      "formation": "Plain form + かもしれない\nN / な-adj + かもしれない（no だ）",
+      "formation": "Plain form + かもしれない\nN / な-adj + かもしれない（no だ）\nCasual shortening: ～かもしれない → ～かも.",
       "examples": [
         {
           "label": "Formal / polite",
@@ -555,7 +555,7 @@
           "english": "The train is delayed, so I might be a little late."
         },
         {
-          "label": "Casual",
+          "label": "Casual · contracted form",
           "japanese": "ちょっと遅(おく)れるかも。",
           "english": "I might be a little late."
         }
@@ -567,7 +567,7 @@
       "kanji": "～と言(い)っていました",
       "japanese": "といっていました",
       "english": "said that / someone said…",
-      "formation": "Plain form + と言(い)っていました\nN / な-adj + だ + と言(い)っていました",
+      "formation": "Plain form + と言(い)っていました\nN / な-adj + だ + と言(い)っていました\nCasual quotation: ～と言っていた → ～って言ってた.",
       "examples": [
         {
           "label": "Formal / polite",
@@ -575,7 +575,7 @@
           "english": "The teacher said she would be off next week."
         },
         {
-          "label": "Casual",
+          "label": "Casual · contracted form",
           "japanese": "田中(たなか)さん、あとで来(く)るって言(い)ってた。",
           "english": "Tanaka said they'd come later."
         }
@@ -615,9 +615,9 @@
           "english": "Looking outside, it seems that it rained."
         },
         {
-          "label": "Casual",
-          "japanese": "外(そと)を見(み)ると、雨(あめ)が降(ふ)ったみたい。",
-          "english": "Looking outside, it seems it rained."
+          "label": "Plain form (formal wording)",
+          "japanese": "外(そと)を見(み)ると、雨(あめ)が降(ふ)ったようだ。",
+          "english": "Looking outside, it seems that it rained."
         }
       ]
     },
@@ -816,8 +816,8 @@
         },
         {
           "label": "Casual",
-          "japanese": "最近(さいきん)、家(いえ)にいてばっかり。",
-          "english": "Lately I've been doing nothing but staying home."
+          "japanese": "弟(おとうと)は休(やす)みの日(ひ)、ゲームをしてばかりいるよ。",
+          "english": "My younger brother does nothing but play games on his days off."
         }
       ]
     },
@@ -836,8 +836,8 @@
         },
         {
           "label": "Casual",
-          "japanese": "ちょうど電話(でんわ)しようと思(おも)ってたところ。",
-          "english": "I was just thinking of calling you."
+          "japanese": "今(いま)から出(で)かけるところ。",
+          "english": "I am just about to go out."
         }
       ]
     },
@@ -896,8 +896,8 @@
         },
         {
           "label": "Casual",
-          "japanese": "京都(きょうと)みたいな町(まち)に住(す)んでみたい。",
-          "english": "I'd like to try living in a town like Kyoto."
+          "japanese": "京都(きょうと)のような町(まち)に住(す)んでみたい。",
+          "english": "I would like to try living in a town like Kyoto."
         }
       ]
     },
@@ -1487,7 +1487,7 @@
       "kanji": "～ておく",
       "japanese": "ておく",
       "english": "do in advance / prepare by doing",
-      "formation": "V て-form + おく\nておく → とく; でおく → どく\nておいて → といて; でおいて → どいて",
+      "formation": "V て-form + おく\nておく → とく; でおく → どく\nておいて → といて; でおいて → どいて\nCasual contraction: ～ておく → ～とく; ～でおく → ～どく.",
       "examples": [
         {
           "label": "Formal / polite",
@@ -1495,7 +1495,7 @@
           "english": "I'll make a note of the address in advance so I don't forget it."
         },
         {
-          "label": "Casual",
+          "label": "Casual · contracted form",
           "japanese": "住所(じゅうしょ)をメモしとく。",
           "english": "I'll make a note of the address."
         }
@@ -1696,8 +1696,8 @@
         },
         {
           "label": "Casual",
-          "japanese": "前(まえ)にも来(き)た気(き)がする。",
-          "english": "I feel like I've been here before."
+          "japanese": "前(まえ)にも来(き)たような気(き)がする。",
+          "english": "I feel like I have been here before."
         }
       ]
     },
@@ -2215,9 +2215,9 @@
           "english": "There is a possibility the event may be cancelled because of the typhoon."
         },
         {
-          "label": "Casual",
-          "japanese": "台風(たいふう)で中止(ちゅうし)になるかもしれない。",
-          "english": "It might be canceled because of the typhoon."
+          "label": "Plain form (formal wording)",
+          "japanese": "台風(たいふう)で中止(ちゅうし)になるおそれがある。",
+          "english": "There is a risk of cancellation because of the typhoon."
         }
       ]
     },
@@ -2427,7 +2427,7 @@
       "kanji": "ということは",
       "japanese": "ということは",
       "english": "so that means… / which means…",
-      "formation": "Sentence。+ ということは、+ conclusion / inference",
+      "formation": "Sentence。+ ということは、+ conclusion / inference\nCasual contraction: ということは → ってことは.",
       "examples": [
         {
           "label": "Formal / polite",
@@ -2435,7 +2435,7 @@
           "english": "“Tomorrow is a public holiday.” “So does that mean the shop is closed too?”"
         },
         {
-          "label": "Casual",
+          "label": "Casual · contracted form",
           "japanese": "明日(あした)休(やす)み？ ってことは、三(さん)連休(れんきゅう)？",
           "english": "Tomorrow's a day off? Does that mean a three-day weekend?"
         }
@@ -2447,7 +2447,7 @@
       "kanji": "というか",
       "japanese": "というか",
       "english": "I mean / or rather / more like…",
-      "formation": "A というか、B\nSentence + というか…",
+      "formation": "A というか、B\nSentence + というか…\nCasual contraction: というか → っていうか.",
       "examples": [
         {
           "label": "Formal / polite",
@@ -2455,7 +2455,7 @@
           "english": "It's not exactly difficult—I mean, I'm just not used to it yet."
         },
         {
-          "label": "Casual",
+          "label": "Casual · contracted form",
           "japanese": "疲(つか)れたっていうか、今日(きょう)は何(なん)もしたくない。",
           "english": "Rather than being tired, I just don't want to do anything today."
         }
@@ -2867,7 +2867,7 @@
       "kanji": "～てもらえますか",
       "japanese": "てもらえますか",
       "english": "could you do… for me?",
-      "formation": "V て-form + もらえますか",
+      "formation": "V て-form + もらえますか\nCasual request: ～てもらえますか → ～てもらえる？",
       "examples": [
         {
           "label": "Formal / polite",
@@ -2875,7 +2875,7 @@
           "english": "Could you say that one more time?"
         },
         {
-          "label": "Casual",
+          "label": "Casual · contracted form",
           "japanese": "ちょっと見(み)てもらえる？",
           "english": "Could you take a quick look?"
         }
@@ -2936,8 +2936,8 @@
         },
         {
           "label": "Casual",
-          "japanese": "早起(はやお)きするの、苦手(にがて)なんだ。",
-          "english": "I'm not good at getting up early."
+          "japanese": "早起(はやお)きするのが苦手(にがて)なんだ。",
+          "english": "I am not good at getting up early."
         }
       ]
     },
@@ -2956,7 +2956,7 @@
         },
         {
           "label": "Casual",
-          "japanese": "知(し)らない街(まち)を歩(ある)くの、好(す)き。",
+          "japanese": "知(し)らない街(まち)を歩(ある)くのが好(す)き。",
           "english": "I like walking around unfamiliar towns."
         }
       ]
@@ -2976,8 +2976,8 @@
         },
         {
           "label": "Casual",
-          "japanese": "人(ひと)を待(ま)つの、嫌(きら)いなんだ。",
-          "english": "I don't like waiting for people."
+          "japanese": "人(ひと)を待(ま)つのが嫌(きら)いなんだ。",
+          "english": "I dislike waiting for people."
         }
       ]
     },
@@ -3177,8 +3177,8 @@
         },
         {
           "label": "Casual",
-          "japanese": "自分(じぶん)に合(あ)う勉強(べんきょう)方法(ほうほう)を探(さが)してる。",
-          "english": "I'm looking for a way to study that suits me."
+          "japanese": "自分(じぶん)に合(あ)う、日本(にほん)語(ご)を勉強(べんきょう)する方法(ほうほう)を探(さが)してる。",
+          "english": "I am looking for a way to study Japanese that suits me."
         }
       ]
     },
@@ -3248,7 +3248,7 @@
       "kanji": "～てからでないと",
       "japanese": "てからでないと",
       "english": "not until after doing",
-      "formation": "V て-form + からでないと + negative possibility",
+      "formation": "V て-form + からでないと + negative possibility\nCasual contraction: ～てからでないと → ～てからじゃないと.",
       "examples": [
         {
           "label": "Formal / polite",
@@ -3256,7 +3256,7 @@
           "english": "I cannot decide until I have actually seen it first."
         },
         {
-          "label": "Casual",
+          "label": "Casual · contracted form",
           "japanese": "見(み)てからじゃないと、決(き)められない。",
           "english": "I can't decide until I've seen it."
         }
@@ -3297,8 +3297,8 @@
         },
         {
           "label": "Casual",
-          "japanese": "今(いま)さら急(いそ)いでも意味(いみ)ないよ。",
-          "english": "There's no point hurrying now."
+          "japanese": "今(いま)さら急(いそ)いでも意味(いみ)がないよ。",
+          "english": "There is no point hurrying now."
         }
       ]
     },
@@ -3331,9 +3331,9 @@
       "formation": "V て-form + ごめん",
       "examples": [
         {
-          "label": "Formal / polite",
-          "japanese": "昨日(きのう)、返信(へんしん)するのを忘(わす)れて申(もう)し訳(わけ)ありません。",
-          "english": "Sorry I forgot to reply yesterday. (Apologize casually to a friend.)"
+          "label": "Polite apology",
+          "japanese": "昨日(きのう)、返信(へんしん)するのを忘(わす)れてごめんなさい。",
+          "english": "I am sorry I forgot to reply yesterday."
         },
         {
           "label": "Casual",
@@ -3356,9 +3356,9 @@
           "english": "I am sorry for being late. (Apologize politely.)"
         },
         {
-          "label": "Casual",
-          "japanese": "遅(おく)れてごめん。",
-          "english": "Sorry I'm late."
+          "label": "Polite apology · another example",
+          "japanese": "返事(へんじ)が遅(おく)れてすみません。",
+          "english": "I am sorry for the late reply."
         }
       ]
     },
@@ -3408,12 +3408,12 @@
       "kanji": "～てしまってごめん",
       "japanese": "てしまってごめん",
       "english": "apologize for an unfortunate completed action",
-      "formation": "V て-form + しまって + ごめん",
+      "formation": "V て-form + しまって + ごめん\nCasual contraction: ～てしまってごめん → ～ちゃってごめん; ～でしまって → ～じゃって.",
       "examples": [
         {
-          "label": "Formal / polite",
-          "japanese": "大事(だいじ)な約束(やくそく)を忘(わす)れてしまって申(もう)し訳(わけ)ありません。",
-          "english": "I am sorry I ended up forgetting our important promise."
+          "label": "Polite apology",
+          "japanese": "大事(だいじ)な約束(やくそく)を忘(わす)れてしまってごめんなさい。",
+          "english": "I am sorry I forgot an important promise."
         },
         {
           "label": "Casual",
@@ -3476,9 +3476,9 @@
           "english": "Teacher, thank you very much for coming today. (Honor the teacher’s action.)"
         },
         {
-          "label": "Casual",
-          "japanese": "来(き)てくれてありがとう。",
-          "english": "Thanks for coming."
+          "label": "Respectful thanks · another example",
+          "japanese": "先生(せんせい)、手伝(てつだ)ってくださってありがとうございます。",
+          "english": "Thank you for helping me, teacher."
         }
       ]
     },
@@ -3516,9 +3516,9 @@
           "english": "I would like you to write your name here. (Use a humble, polite expression.)"
         },
         {
-          "label": "Casual",
-          "japanese": "ここに名前(なまえ)を書(か)いてもらいたい。",
-          "english": "I'd like you to write your name here."
+          "label": "Polite request · another example",
+          "japanese": "内容(ないよう)をもう一度(いちど)確認(かくにん)していただきたいです。",
+          "english": "I would like you to check the contents once more."
         }
       ]
     },
@@ -3791,7 +3791,7 @@
       "formation": "Plain predicate + じゃん (casual じゃないか); N / な-adj without だ + じゃん.\nAffirms or recalls something; not a simple negative.",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～じゃないですか",
           "japanese": "ほら、おいしいじゃないですか。",
           "english": "See? It's tasty after all!"
         },
@@ -3811,7 +3811,7 @@
       "formation": "Plain V / い-adj + んじゃん; N / な-adj + なんじゃん.\nExplanatory の/ん + casual affirmative じゃん.",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～んですね",
           "japanese": "あ、もう予約(よやく)しているんですね。",
           "english": "Oh, so you've already booked!"
         },
@@ -3831,7 +3831,7 @@
       "formation": "Plain V / い-adj + の？; N / な-adj + なの？\nPolite counterpart: ～んですか / ～のですか.",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～んですか",
           "japanese": "今日(きょう)は何(なに)を食(た)べるんですか？",
           "english": "What are you eating today?"
         },
@@ -3851,7 +3851,7 @@
       "formation": "N / な-adj stem + な + の？\n休(やす)み + な + の？ → 休(やす)みなの？ (not 休(やす)みだの？).",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～なんですか",
           "japanese": "今日(きょう)は休(やす)みなんですか？",
           "english": "Is today a day off?"
         },
@@ -3871,7 +3871,7 @@
       "formation": "V past plain form + の？\n食(た)べた + の？ → 食(た)べたの？; 飲(の)んだ + の？ → 飲(の)んだの？",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～たんですか",
           "japanese": "もうご飯(はん)を食(た)べたんですか？",
           "english": "Have you already eaten?"
         },
@@ -3891,7 +3891,7 @@
       "formation": "V negative plain (ない-form) + の？\n来(こ)ない + の？ → 来(こ)ないの？ (来(こ)ない is こない).",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～ないんですか",
           "japanese": "明日(あした)は来(こ)ないんですか？",
           "english": "Aren't you coming tomorrow?"
         },
@@ -3911,7 +3911,7 @@
       "formation": "V ている + の？ → V てるの？\nしているの？ → してるの？; 読(よ)んでいるの？ → 読(よ)んでるの？",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～ているんですか",
           "japanese": "今(いま)、何(なに)をしているんですか？",
           "english": "What are you doing now?"
         },
@@ -3931,7 +3931,7 @@
       "formation": "V ます-stem + たい + の？\n買(か)います → 買(か)いたいの？; たい behaves like an い-adjective.",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～たいんですか",
           "japanese": "何(なに)を買(か)いたいんですか？",
           "english": "What do you want to buy?"
         },
@@ -3951,7 +3951,7 @@
       "formation": "Plain clause + っていうの (というの).\nの turns the quoted idea into a noun-like expression; は may follow.",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～というのは",
           "japanese": "毎日(まいにち)続(つづ)けるというのは、意外(いがい)と難(むずか)しいです。",
           "english": "The idea of keeping it up daily is surprisingly difficult."
         },
@@ -3971,7 +3971,7 @@
       "formation": "Word / plain clause + っていうのは (というのは).\nQuoted idea + nominalizing の + topic は.",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～というのは",
           "japanese": "旬(しゅん)というのは、食材(しょくざい)が一番(いちばん)おいしい時期(じき)のことです。",
           "english": "‘Shun’ means the time when an ingredient tastes best."
         },
@@ -3991,7 +3991,7 @@
       "formation": "Plain clause / quoted phrase + ってこと？ (ということですか).\nIn casual quoted noun phrases, だ can be omitted: 休(やす)みってこと？",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～ということですか",
           "japanese": "明日(あした)は休(やす)みということですか？",
           "english": "So does that mean tomorrow is a day off?"
         },
@@ -4011,7 +4011,7 @@
       "formation": "Quoted N / plain clause + って感(かん)じ (という感(かん)じ).\nAn informal overall impression, not a precise definition.",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～という感じ",
           "japanese": "彼(かれ)は先生(せんせい)という感(かん)じがします。",
           "english": "He has the air of a teacher."
         },
@@ -4031,7 +4031,7 @@
       "formation": "N + とか + N + とか; plain clause + とか.\nCan give just one example; the list is not exhaustive.",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～や～など",
           "japanese": "パンや果物(くだもの)などを買(か)いましょう。",
           "english": "Let's buy things like bread and fruit."
         },
@@ -4051,7 +4051,7 @@
       "formation": "Quoted word / plain clause + とか + って + reporting verb.\nとか softens the example; って marks the quote.",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～というような話",
           "japanese": "明日(あした)は休(やす)みだというような話(はなし)を聞(き)きました。",
           "english": "I heard something about tomorrow being a day off."
         },
@@ -4071,7 +4071,7 @@
       "formation": "V た-form + りして at the end of a casual utterance.\n降(ふ)った + りして → 降(ふ)ったりして. Also the connective form of たりする.",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～かもしれません",
           "japanese": "もしかすると、明日(あした)は雪(ゆき)が降(ふ)るかもしれません。",
           "english": "Maybe it'll snow tomorrow!"
         },
@@ -4091,7 +4091,7 @@
       "formation": "V た-form + り + とか + する.\n見(み)た + りとか → 見(み)たりとかする.",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～たりする",
           "japanese": "休(やす)みの日(ひ)は映画(えいが)を見(み)たりしています。",
           "english": "On days off I do things like watch movies."
         },
@@ -4111,7 +4111,7 @@
       "formation": "V ておけばよかった → V とけばよかった.\nでおけば → どけば; 予約(よやく)しておけば → 予約(よやく)しとけば.",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～ておけばよかった",
           "japanese": "先(さき)に予約(よやく)しておけばよかったです。",
           "english": "I should have booked ahead."
         },
@@ -4131,7 +4131,7 @@
       "formation": "V negative conditional なければ + よかった → なきゃよかった.\n買(か)わない → 買(か)わなければよかった → 買(か)わなきゃよかった.",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～なければよかった",
           "japanese": "こんなに買(か)わなければよかったです。",
           "english": "I shouldn't have bought so much."
         },
@@ -4151,7 +4151,7 @@
       "formation": "V ない-form: ない → なくちゃ.\nなくては → なくちゃ; いけない is often omitted.\n帰(かえ)らない → 帰(かえ)らなくちゃ.",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～なくてはいけません",
           "japanese": "そろそろ帰(かえ)らなくてはいけません。",
           "english": "I've gotta go home soon."
         },
@@ -4171,7 +4171,7 @@
       "formation": "V て-form + いい？ (casual てもいい？ with も omitted).\n見(み)てもいい？ → 見(み)ていい？; で-form + いい？ is also possible.",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～てもいいですか",
           "japanese": "これを見(み)てもいいですか？",
           "english": "May I look at this?"
         },
@@ -4211,7 +4211,7 @@
       "formation": "V て-form + もらって + いい？\nFull form: てもらってもいいですか; casual speech often omits the second も.",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～てもらってもいいですか",
           "japanese": "写真(しゃしん)を撮(と)ってもらってもいいですか？",
           "english": "Could I have you take a photo for me?"
         },
@@ -4231,7 +4231,7 @@
       "formation": "なんか + clause (informal filler or vague impression).\nAlso ‘something’; N + なんか can mean ‘things like N’ or dismiss N.",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · 何となく",
           "japanese": "今日(きょう)は何(なん)となく静(しず)かですね。",
           "english": "It's kind of quiet today."
         },
@@ -4251,7 +4251,7 @@
       "formation": "Plain clause / N + なんて.\nOften corresponds to ～とは with surprise; N + なんて can also dismiss N.",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～とは",
           "japanese": "一人(ひとり)で全部(ぜんぶ)作(つく)るとは、すごいですね。",
           "english": "Making everything alone—how impressive!"
         },
@@ -4271,7 +4271,7 @@
       "formation": "Quoted word / clause + とかなんとか + 言(い)う or another reporting verb.\nInformal; the quote is deliberately imprecise.",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～というようなこと",
           "japanese": "忙(いそが)しいというようなことを言(い)っていました。",
           "english": "They said something about being busy."
         },
@@ -4291,7 +4291,7 @@
       "formation": "Standalone discourse marker: というか → っていうか → てか.\nCan correct wording or shift the topic; very informal.",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · というより",
           "japanese": "忙(いそが)しいです。というより、今(いま)は無理(むり)です。",
           "english": "I'm busy. I mean, I can't right now."
         },
@@ -4311,7 +4311,7 @@
       "formation": "Plain clause + って思(おも)ってた (と思(おも)っていた).\nN / な-adj + だ + って思(おも)ってた.",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～と思っていました",
           "japanese": "今日(きょう)は休(やす)みだと思(おも)っていました。",
           "english": "I had thought today was a day off."
         },
@@ -4331,7 +4331,7 @@
       "formation": "Plain clause + って聞(き)いた (と聞(き)いた).\nN / な-adj + だ + って聞(き)いた.",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～と聞きました",
           "japanese": "明日(あした)は休(やす)みだと聞(き)きました。",
           "english": "I heard that tomorrow is a day off."
         },
@@ -4351,7 +4351,7 @@
       "formation": "Quoted words / plain clause + って言(い)う (と言(い)う).\nN + っていう + N can also introduce a name: 旬(しゅん)っていう言葉(ことば).",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～と言います",
           "japanese": "友達(ともだち)はいつも「大丈夫(だいじょうぶ)」と言(い)います。",
           "english": "My friend always says ‘It's okay.’"
         },
@@ -4371,7 +4371,7 @@
       "formation": "Plain V / い-adj + んじゃないかと思(おも)う.\nN / な-adj + なんじゃないかと思(おも)う.\nPolite equivalent: ～のではないかと思(おも)います.",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～のではないかと思います",
           "japanese": "こちらのほうがいいのではないかと思(おも)います。",
           "english": "I think this one may be better."
         },
@@ -4391,7 +4391,7 @@
       "formation": "V ない-form: ない → なくて + いい.\nなくてもいい may omit も in conversation.\n起(お)きない → 起(お)きなくていい.",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～なくてもいい",
           "japanese": "明日(あした)は早(はや)く起(お)きなくてもいいです。",
           "english": "You don't have to get up early tomorrow."
         },
@@ -4411,7 +4411,7 @@
       "formation": "V ておいて → V といて; V でおいて → V どいて.\n予約(よやく)しておいて → 予約(よやく)しといて; 読(よ)んでおいて → 読(よ)んどいて.",
       "examples": [
         {
-          "label": "Formal / polite",
+          "label": "Polite equivalent · ～ておいてください",
           "japanese": "先(さき)に予約(よやく)しておいてください。",
           "english": "Please book it beforehand."
         },

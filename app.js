@@ -1508,7 +1508,7 @@
     if (lesson.homeOnly || lesson.gameMode !== "vocabulary-cards") state.selectedCategory = null;
     state.selectedLesson = { ...lesson, isStudyCards: true };
     showScreen("word-explosion");
-    document.getElementById("wordExplosionTitle").textContent = lesson.gameMode === "vocabulary-cards" ? lesson.title : "単語カード";
+    document.getElementById("wordExplosionTitle").textContent = lesson.gameMode === "vocabulary-cards" ? lesson.title : "単語";
     document.getElementById("explosionIndexButton").classList.add("hidden");
     closeWordExplosion = window.VocabularyCards.mount(elements.wordExplosionGame, {
       file: lesson.file,

@@ -1,0 +1,1436 @@
+{
+  "readingSource": "User-supplied readings and intended meanings; unannotated kana terms retain their lexical reading, with katakana converted to hiragana for speech.",
+  "entries": [
+    {
+      "sourceKey": "き|木",
+      "display": "木",
+      "japanese": "木(き)",
+      "reading": "き",
+      "english": "wood / tree",
+      "speech": "き|木",
+      "topicId": "materials"
+    },
+    {
+      "sourceKey": "もくざい|木材",
+      "display": "木材",
+      "japanese": "木材(もくざい)",
+      "reading": "もくざい",
+      "english": "timber / wood as a material",
+      "speech": "もくざい|木材",
+      "topicId": "materials"
+    },
+    {
+      "sourceKey": "たけ|竹",
+      "display": "竹",
+      "japanese": "竹(たけ)",
+      "reading": "たけ",
+      "english": "bamboo",
+      "speech": "たけ|竹",
+      "topicId": "materials"
+    },
+    {
+      "sourceKey": "きんぞく|金属",
+      "display": "金属",
+      "japanese": "金属(きんぞく)",
+      "reading": "きんぞく",
+      "english": "metal",
+      "speech": "きんぞく|金属",
+      "topicId": "materials"
+    },
+    {
+      "sourceKey": "てつ|鉄",
+      "display": "鉄",
+      "japanese": "鉄(てつ)",
+      "reading": "てつ",
+      "english": "iron",
+      "speech": "てつ|鉄",
+      "topicId": "materials"
+    },
+    {
+      "sourceKey": "はがね|鋼",
+      "display": "鋼",
+      "japanese": "鋼(はがね)",
+      "reading": "はがね",
+      "english": "steel",
+      "speech": "はがね|鋼",
+      "topicId": "materials"
+    },
+    {
+      "sourceKey": "どう|銅",
+      "display": "銅",
+      "japanese": "銅(どう)",
+      "reading": "どう",
+      "english": "copper",
+      "speech": "どう|銅",
+      "topicId": "materials"
+    },
+    {
+      "sourceKey": "しんちゅう|真鍮",
+      "display": "真鍮",
+      "japanese": "真鍮(しんちゅう)",
+      "reading": "しんちゅう",
+      "english": "brass",
+      "speech": "しんちゅう|真鍮",
+      "topicId": "materials"
+    },
+    {
+      "sourceKey": "あるみ|アルミ",
+      "display": "アルミ",
+      "japanese": "アルミ",
+      "reading": "あるみ",
+      "english": "aluminium",
+      "speech": "あるみ|アルミ",
+      "topicId": "materials"
+    },
+    {
+      "sourceKey": "すてんれす|ステンレス",
+      "display": "ステンレス",
+      "japanese": "ステンレス",
+      "reading": "すてんれす",
+      "english": "stainless steel",
+      "speech": "すてんれす|ステンレス",
+      "topicId": "materials"
+    },
+    {
+      "sourceKey": "がらす|ガラス",
+      "display": "ガラス",
+      "japanese": "ガラス",
+      "reading": "がらす",
+      "english": "glass",
+      "speech": "がらす|ガラス",
+      "topicId": "materials"
+    },
+    {
+      "sourceKey": "ぷらすちっく|プラスチック",
+      "display": "プラスチック",
+      "japanese": "プラスチック",
+      "reading": "ぷらすちっく",
+      "english": "plastic",
+      "speech": "ぷらすちっく|プラスチック",
+      "topicId": "materials"
+    },
+    {
+      "sourceKey": "ごむ|ゴム",
+      "display": "ゴム",
+      "japanese": "ゴム",
+      "reading": "ごむ",
+      "english": "rubber",
+      "speech": "ごむ|ゴム",
+      "topicId": "materials"
+    },
+    {
+      "sourceKey": "ぬの|布",
+      "display": "布",
+      "japanese": "布(ぬの)",
+      "reading": "ぬの",
+      "english": "cloth / fabric",
+      "speech": "ぬの|布",
+      "topicId": "materials"
+    },
+    {
+      "sourceKey": "きぬ|絹",
+      "display": "絹",
+      "japanese": "絹(きぬ)",
+      "reading": "きぬ",
+      "english": "silk",
+      "speech": "きぬ|絹",
+      "topicId": "materials"
+    },
+    {
+      "sourceKey": "うーる|ウール",
+      "display": "ウール",
+      "japanese": "ウール",
+      "reading": "うーる",
+      "english": "wool",
+      "speech": "うーる|ウール",
+      "topicId": "materials"
+    },
+    {
+      "sourceKey": "いと|糸",
+      "display": "糸",
+      "japanese": "糸(いと)",
+      "reading": "いと",
+      "english": "thread / yarn",
+      "speech": "いと|糸",
+      "topicId": "materials"
+    },
+    {
+      "sourceKey": "かわせい|革製",
+      "display": "革製",
+      "japanese": "革製(かわせい)",
+      "reading": "かわせい",
+      "english": "made of leather",
+      "speech": "かわせい|革製",
+      "topicId": "materials"
+    },
+    {
+      "sourceKey": "もくせい|木製",
+      "display": "木製",
+      "japanese": "木製(もくせい)",
+      "reading": "もくせい",
+      "english": "made of wood",
+      "speech": "もくせい|木製",
+      "topicId": "materials"
+    },
+    {
+      "sourceKey": "かみせい|紙製",
+      "display": "紙製",
+      "japanese": "紙製(かみせい)",
+      "reading": "かみせい",
+      "english": "made of paper",
+      "speech": "かみせい|紙製",
+      "topicId": "materials"
+    },
+    {
+      "sourceKey": "とうき|陶器",
+      "display": "陶器",
+      "japanese": "陶器(とうき)",
+      "reading": "とうき",
+      "english": "pottery / earthenware",
+      "speech": "とうき|陶器",
+      "topicId": "materials"
+    },
+    {
+      "sourceKey": "じき|磁器",
+      "display": "磁器",
+      "japanese": "磁器(じき)",
+      "reading": "じき",
+      "english": "porcelain",
+      "speech": "じき|磁器",
+      "topicId": "materials"
+    },
+    {
+      "sourceKey": "うるし|漆",
+      "display": "漆",
+      "japanese": "漆(うるし)",
+      "reading": "うるし",
+      "english": "lacquer",
+      "speech": "うるし|漆",
+      "topicId": "materials"
+    },
+    {
+      "sourceKey": "ねんど|粘土",
+      "display": "粘土",
+      "japanese": "粘土(ねんど)",
+      "reading": "ねんど",
+      "english": "clay",
+      "speech": "ねんど|粘土",
+      "topicId": "materials"
+    },
+    {
+      "sourceKey": "いし|石",
+      "display": "石",
+      "japanese": "石(いし)",
+      "reading": "いし",
+      "english": "stone",
+      "speech": "いし|石",
+      "topicId": "materials"
+    },
+    {
+      "sourceKey": "すな|砂",
+      "display": "砂",
+      "japanese": "砂(すな)",
+      "reading": "すな",
+      "english": "sand",
+      "speech": "すな|砂",
+      "topicId": "materials"
+    },
+    {
+      "sourceKey": "つち|土",
+      "display": "土",
+      "japanese": "土(つち)",
+      "reading": "つち",
+      "english": "soil / earth",
+      "speech": "つち|土",
+      "topicId": "materials"
+    },
+    {
+      "sourceKey": "しぜん|自然",
+      "display": "自然",
+      "japanese": "自然(しぜん)",
+      "reading": "しぜん",
+      "english": "nature",
+      "speech": "しぜん|自然",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "そら|空",
+      "display": "空",
+      "japanese": "空(そら)",
+      "reading": "そら",
+      "english": "sky",
+      "speech": "そら|空",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "たいよう|太陽",
+      "display": "太陽",
+      "japanese": "太陽(たいよう)",
+      "reading": "たいよう",
+      "english": "sun",
+      "speech": "たいよう|太陽",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "つき|月",
+      "display": "月",
+      "japanese": "月(つき)",
+      "reading": "つき",
+      "english": "moon",
+      "speech": "つき|月",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "ほし|星",
+      "display": "星",
+      "japanese": "星(ほし)",
+      "reading": "ほし",
+      "english": "star",
+      "speech": "ほし|星",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "くも|雲",
+      "display": "雲",
+      "japanese": "雲(くも)",
+      "reading": "くも",
+      "english": "cloud",
+      "speech": "くも|雲",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "やま|山",
+      "display": "山",
+      "japanese": "山(やま)",
+      "reading": "やま",
+      "english": "mountain",
+      "speech": "やま|山",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "おか|丘",
+      "display": "丘",
+      "japanese": "丘(おか)",
+      "reading": "おか",
+      "english": "hill",
+      "speech": "おか|丘",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "もり|森",
+      "display": "森",
+      "japanese": "森(もり)",
+      "reading": "もり",
+      "english": "forest",
+      "speech": "もり|森",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "はやし|林",
+      "display": "林",
+      "japanese": "林(はやし)",
+      "reading": "はやし",
+      "english": "woods / grove",
+      "speech": "はやし|林",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "かわ|川",
+      "display": "川",
+      "japanese": "川(かわ)",
+      "reading": "かわ",
+      "english": "river",
+      "speech": "かわ|川",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "みずうみ|湖",
+      "display": "湖",
+      "japanese": "湖(みずうみ)",
+      "reading": "みずうみ",
+      "english": "lake",
+      "speech": "みずうみ|湖",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "うみ|海",
+      "display": "海",
+      "japanese": "海(うみ)",
+      "reading": "うみ",
+      "english": "sea",
+      "speech": "うみ|海",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "いけ|池",
+      "display": "池",
+      "japanese": "池(いけ)",
+      "reading": "いけ",
+      "english": "pond",
+      "speech": "いけ|池",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "たき|滝",
+      "display": "滝",
+      "japanese": "滝(たき)",
+      "reading": "たき",
+      "english": "waterfall",
+      "speech": "たき|滝",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "きし|岸",
+      "display": "岸",
+      "japanese": "岸(きし)",
+      "reading": "きし",
+      "english": "shore / bank",
+      "speech": "きし|岸",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "なみ|波",
+      "display": "波",
+      "japanese": "波(なみ)",
+      "reading": "なみ",
+      "english": "wave",
+      "speech": "なみ|波",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "しま|島",
+      "display": "島",
+      "japanese": "島(しま)",
+      "reading": "しま",
+      "english": "island",
+      "speech": "しま|島",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "えだ|枝",
+      "display": "枝",
+      "japanese": "枝(えだ)",
+      "reading": "えだ",
+      "english": "branch",
+      "speech": "えだ|枝",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "は|葉",
+      "display": "葉",
+      "japanese": "葉(は)",
+      "reading": "は",
+      "english": "leaf",
+      "speech": "は|葉",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "ね|根",
+      "display": "根",
+      "japanese": "根(ね)",
+      "reading": "ね",
+      "english": "root",
+      "speech": "ね|根",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "はな|花",
+      "display": "花",
+      "japanese": "花(はな)",
+      "reading": "はな",
+      "english": "flower",
+      "speech": "はな|花",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "くさ|草",
+      "display": "草",
+      "japanese": "草(くさ)",
+      "reading": "くさ",
+      "english": "grass",
+      "speech": "くさ|草",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "こけ|苔",
+      "display": "苔",
+      "japanese": "苔(こけ)",
+      "reading": "こけ",
+      "english": "moss",
+      "speech": "こけ|苔",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "たね|種",
+      "display": "種",
+      "japanese": "種(たね)",
+      "reading": "たね",
+      "english": "seed",
+      "speech": "たね|種",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "め|芽",
+      "display": "芽",
+      "japanese": "芽(め)",
+      "reading": "め",
+      "english": "sprout / bud",
+      "speech": "め|芽",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "み|実",
+      "display": "実",
+      "japanese": "実(み)",
+      "reading": "み",
+      "english": "fruit / nut borne by a plant",
+      "speech": "み|実",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "むし|虫",
+      "display": "虫",
+      "japanese": "虫(むし)",
+      "reading": "むし",
+      "english": "insect / bug",
+      "speech": "むし|虫",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "とり|鳥",
+      "display": "鳥",
+      "japanese": "鳥(とり)",
+      "reading": "とり",
+      "english": "bird",
+      "speech": "とり|鳥",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "はち|蜂",
+      "display": "蜂",
+      "japanese": "蜂(はち)",
+      "reading": "はち",
+      "english": "bee / wasp",
+      "speech": "はち|蜂",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "ちょう|蝶",
+      "display": "蝶",
+      "japanese": "蝶(ちょう)",
+      "reading": "ちょう",
+      "english": "butterfly",
+      "speech": "ちょう|蝶",
+      "topicId": "expanded-nature"
+    },
+    {
+      "sourceKey": "てんき|天気",
+      "display": "天気",
+      "japanese": "天気(てんき)",
+      "reading": "てんき",
+      "english": "weather",
+      "speech": "てんき|天気",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "はれ|晴れ",
+      "display": "晴れ",
+      "japanese": "晴(は)れ",
+      "reading": "はれ",
+      "english": "sunny / clear weather",
+      "speech": "はれ|晴れ",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "くもり|曇り",
+      "display": "曇り",
+      "japanese": "曇(くも)り",
+      "reading": "くもり",
+      "english": "cloudy weather",
+      "speech": "くもり|曇り",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "かいせい|快晴",
+      "display": "快晴",
+      "japanese": "快晴(かいせい)",
+      "reading": "かいせい",
+      "english": "clear, cloudless weather",
+      "speech": "かいせい|快晴",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "うすぐもり|薄曇り",
+      "display": "薄曇り",
+      "japanese": "薄曇(うすぐも)り",
+      "reading": "うすぐもり",
+      "english": "lightly overcast weather",
+      "speech": "うすぐもり|薄曇り",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "あめ|雨",
+      "display": "雨",
+      "japanese": "雨(あめ)",
+      "reading": "あめ",
+      "english": "rain",
+      "speech": "あめ|雨",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "ゆき|雪",
+      "display": "雪",
+      "japanese": "雪(ゆき)",
+      "reading": "ゆき",
+      "english": "snow",
+      "speech": "ゆき|雪",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "かぜ|風",
+      "display": "風",
+      "japanese": "風(かぜ)",
+      "reading": "かぜ",
+      "english": "wind",
+      "speech": "かぜ|風",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "かみなり|雷",
+      "display": "雷",
+      "japanese": "雷(かみなり)",
+      "reading": "かみなり",
+      "english": "thunder / lightning",
+      "speech": "かみなり|雷",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "きり|霧",
+      "display": "霧",
+      "japanese": "霧(きり)",
+      "reading": "きり",
+      "english": "fog",
+      "speech": "きり|霧",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "にじ|虹",
+      "display": "虹",
+      "japanese": "虹(にじ)",
+      "reading": "にじ",
+      "english": "rainbow",
+      "speech": "にじ|虹",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "しも|霜",
+      "display": "霜",
+      "japanese": "霜(しも)",
+      "reading": "しも",
+      "english": "frost",
+      "speech": "しも|霜",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "こおり|氷",
+      "display": "氷",
+      "japanese": "氷(こおり)",
+      "reading": "こおり",
+      "english": "ice",
+      "speech": "こおり|氷",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "くも|雲",
+      "display": "雲",
+      "japanese": "雲(くも)",
+      "reading": "くも",
+      "english": "cloud",
+      "speech": "くも|雲",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "あおぞら|青空",
+      "display": "青空",
+      "japanese": "青空(あおぞら)",
+      "reading": "あおぞら",
+      "english": "blue sky",
+      "speech": "あおぞら|青空",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "ひざし|日差し",
+      "display": "日差し",
+      "japanese": "日差(ひざ)し",
+      "reading": "ひざし",
+      "english": "sunshine",
+      "speech": "ひざし|日差し",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "ひかげ|日陰",
+      "display": "日陰",
+      "japanese": "日陰(ひかげ)",
+      "reading": "ひかげ",
+      "english": "shade",
+      "speech": "ひかげ|日陰",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "はれま|晴れ間",
+      "display": "晴れ間",
+      "japanese": "晴(は)れ間(ま)",
+      "reading": "はれま",
+      "english": "sunny interval / break in the clouds",
+      "speech": "はれま|晴れ間",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "くもゆき|雲行き",
+      "display": "雲行き",
+      "japanese": "雲行(くもゆ)き",
+      "reading": "くもゆき",
+      "english": "appearance and movement of clouds",
+      "speech": "くもゆき|雲行き",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "ひので|日の出",
+      "display": "日の出",
+      "japanese": "日(ひ)の出(で)",
+      "reading": "ひので",
+      "english": "sunrise",
+      "speech": "ひので|日の出",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "ひのいり|日の入り",
+      "display": "日の入り",
+      "japanese": "日(ひ)の入(い)り",
+      "reading": "ひのいり",
+      "english": "sunset",
+      "speech": "ひのいり|日の入り",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "ゆうやけ|夕焼け",
+      "display": "夕焼け",
+      "japanese": "夕焼(ゆうや)け",
+      "reading": "ゆうやけ",
+      "english": "sunset glow",
+      "speech": "ゆうやけ|夕焼け",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "きおん|気温",
+      "display": "気温",
+      "japanese": "気温(きおん)",
+      "reading": "きおん",
+      "english": "air temperature",
+      "speech": "きおん|気温",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "さいこうきおん|最高気温",
+      "display": "最高気温",
+      "japanese": "最高気温(さいこうきおん)",
+      "reading": "さいこうきおん",
+      "english": "daily high temperature",
+      "speech": "さいこうきおん|最高気温",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "さいていきおん|最低気温",
+      "display": "最低気温",
+      "japanese": "最低気温(さいていきおん)",
+      "reading": "さいていきおん",
+      "english": "daily low temperature",
+      "speech": "さいていきおん|最低気温",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "しつど|湿度",
+      "display": "湿度",
+      "japanese": "湿度(しつど)",
+      "reading": "しつど",
+      "english": "humidity level",
+      "speech": "しつど|湿度",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "しっけ|湿気",
+      "display": "湿気",
+      "japanese": "湿気(しっけ)",
+      "reading": "しっけ",
+      "english": "dampness / moisture in the air",
+      "speech": "しっけ|湿気",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "かんそう|乾燥",
+      "display": "乾燥",
+      "japanese": "乾燥(かんそう)",
+      "reading": "かんそう",
+      "english": "dryness",
+      "speech": "かんそう|乾燥",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "かんだんさ|寒暖差",
+      "display": "寒暖差",
+      "japanese": "寒暖差(かんだんさ)",
+      "reading": "かんだんさ",
+      "english": "temperature difference between warm and cold conditions",
+      "speech": "かんだんさ|寒暖差",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "あつい|暑い",
+      "display": "暑い",
+      "japanese": "暑(あつ)い",
+      "reading": "あつい",
+      "english": "hot, referring to weather",
+      "speech": "あつい|暑い",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "さむい|寒い",
+      "display": "寒い",
+      "japanese": "寒(さむ)い",
+      "reading": "さむい",
+      "english": "cold, referring to weather",
+      "speech": "さむい|寒い",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "あたたかい|暖かい",
+      "display": "暖かい",
+      "japanese": "暖(あたた)かい",
+      "reading": "あたたかい",
+      "english": "warm",
+      "speech": "あたたかい|暖かい",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "すずしい|涼しい",
+      "display": "涼しい",
+      "japanese": "涼(すず)しい",
+      "reading": "すずしい",
+      "english": "pleasantly cool",
+      "speech": "すずしい|涼しい",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "むしあつい|蒸し暑い",
+      "display": "蒸し暑い",
+      "japanese": "蒸(む)し暑(あつ)い",
+      "reading": "むしあつい",
+      "english": "hot and humid",
+      "speech": "むしあつい|蒸し暑い",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "はだざむい|肌寒い",
+      "display": "肌寒い",
+      "japanese": "肌寒(はだざむ)い",
+      "reading": "はだざむい",
+      "english": "chilly",
+      "speech": "はだざむい|肌寒い",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "あつさ|暑さ",
+      "display": "暑さ",
+      "japanese": "暑(あつ)さ",
+      "reading": "あつさ",
+      "english": "heat",
+      "speech": "あつさ|暑さ",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "さむさ|寒さ",
+      "display": "寒さ",
+      "japanese": "寒(さむ)さ",
+      "reading": "さむさ",
+      "english": "cold / coldness",
+      "speech": "さむさ|寒さ",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "あたたかさ|暖かさ",
+      "display": "暖かさ",
+      "japanese": "暖(あたた)かさ",
+      "reading": "あたたかさ",
+      "english": "warmth",
+      "speech": "あたたかさ|暖かさ",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "ぽかぽか|ぽかぽか",
+      "display": "ぽかぽか",
+      "japanese": "ぽかぽか",
+      "reading": "ぽかぽか",
+      "english": "pleasantly warm",
+      "speech": "ぽかぽか|ぽかぽか",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "じめじめ|じめじめ",
+      "display": "じめじめ",
+      "japanese": "じめじめ",
+      "reading": "じめじめ",
+      "english": "unpleasantly damp / humid",
+      "speech": "じめじめ|じめじめ",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "むしむしする|蒸し蒸しする",
+      "display": "蒸し蒸しする",
+      "japanese": "蒸(む)し蒸(む)しする",
+      "reading": "むしむしする",
+      "english": "feel hot and muggy",
+      "speech": "むしむしする|蒸し蒸しする",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "からっと|からっと",
+      "display": "からっと",
+      "japanese": "からっと",
+      "reading": "からっと",
+      "english": "pleasantly dry",
+      "speech": "からっと|からっと",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "ひえる|冷える",
+      "display": "冷える",
+      "japanese": "冷(ひ)える",
+      "reading": "ひえる",
+      "english": "get cold / feel chilled",
+      "speech": "ひえる|冷える",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "ひえこむ|冷え込む",
+      "display": "冷え込む",
+      "japanese": "冷(ひ)え込(こ)む",
+      "reading": "ひえこむ",
+      "english": "become very cold",
+      "speech": "ひえこむ|冷え込む",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "かんそうする|乾燥する",
+      "display": "乾燥する",
+      "japanese": "乾燥(かんそう)する",
+      "reading": "かんそうする",
+      "english": "be dry / become dry",
+      "speech": "かんそうする|乾燥する",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "すごしやすい|過ごしやすい",
+      "display": "過ごしやすい",
+      "japanese": "過(す)ごしやすい",
+      "reading": "すごしやすい",
+      "english": "comfortable to spend time in",
+      "speech": "すごしやすい|過ごしやすい",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "ねぐるしい|寝苦しい",
+      "display": "寝苦しい",
+      "japanese": "寝苦(ねぐる)しい",
+      "reading": "ねぐるしい",
+      "english": "uncomfortable for sleeping, especially due to heat",
+      "speech": "ねぐるしい|寝苦しい",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "おおあめ|大雨",
+      "display": "大雨",
+      "japanese": "大雨(おおあめ)",
+      "reading": "おおあめ",
+      "english": "heavy rain",
+      "speech": "おおあめ|大雨",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "こさめ|小雨",
+      "display": "小雨",
+      "japanese": "小雨(こさめ)",
+      "reading": "こさめ",
+      "english": "light rain",
+      "speech": "こさめ|小雨",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "きりさめ|霧雨",
+      "display": "霧雨",
+      "japanese": "霧雨(きりさめ)",
+      "reading": "きりさめ",
+      "english": "drizzle / fine misty rain",
+      "speech": "きりさめ|霧雨",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "どしゃぶり|土砂降り",
+      "display": "土砂降り",
+      "japanese": "土砂降(どしゃぶ)り",
+      "reading": "どしゃぶり",
+      "english": "downpour",
+      "speech": "どしゃぶり|土砂降り",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "にわかあめ|にわか雨",
+      "display": "にわか雨",
+      "japanese": "にわか雨(あめ)",
+      "reading": "にわかあめ",
+      "english": "sudden rain shower",
+      "speech": "にわかあめ|にわか雨",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "とおりあめ|通り雨",
+      "display": "通り雨",
+      "japanese": "通(とお)り雨(あめ)",
+      "reading": "とおりあめ",
+      "english": "passing rain shower",
+      "speech": "とおりあめ|通り雨",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "ながあめ|長雨",
+      "display": "長雨",
+      "japanese": "長雨(ながあめ)",
+      "reading": "ながあめ",
+      "english": "prolonged rainy weather",
+      "speech": "ながあめ|長雨",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "あまつぶ|雨粒",
+      "display": "雨粒",
+      "japanese": "雨粒(あまつぶ)",
+      "reading": "あまつぶ",
+      "english": "raindrop",
+      "speech": "あまつぶ|雨粒",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "あまおと|雨音",
+      "display": "雨音",
+      "japanese": "雨音(あまおと)",
+      "reading": "あまおと",
+      "english": "sound of rain",
+      "speech": "あまおと|雨音",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "あまぐも|雨雲",
+      "display": "雨雲",
+      "japanese": "雨雲(あまぐも)",
+      "reading": "あまぐも",
+      "english": "rain cloud",
+      "speech": "あまぐも|雨雲",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "あめあがり|雨上がり",
+      "display": "雨上がり",
+      "japanese": "雨上(あめあ)がり",
+      "reading": "あめあがり",
+      "english": "period just after rain stops",
+      "speech": "あめあがり|雨上がり",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "あまやどり|雨宿り",
+      "display": "雨宿り",
+      "japanese": "雨宿(あまやど)り",
+      "reading": "あまやどり",
+      "english": "sheltering from rain",
+      "speech": "あまやどり|雨宿り",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "みずたまり|水たまり",
+      "display": "水たまり",
+      "japanese": "水(みず)たまり",
+      "reading": "みずたまり",
+      "english": "puddle",
+      "speech": "みずたまり|水たまり",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "びしょびしょ|びしょびしょ",
+      "display": "びしょびしょ",
+      "japanese": "びしょびしょ",
+      "reading": "びしょびしょ",
+      "english": "soaking wet",
+      "speech": "びしょびしょ|びしょびしょ",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "みぞれ|みぞれ",
+      "display": "みぞれ",
+      "japanese": "みぞれ",
+      "reading": "みぞれ",
+      "english": "sleet / rain mixed with snow",
+      "speech": "みぞれ|みぞれ",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "はつゆき|初雪",
+      "display": "初雪",
+      "japanese": "初雪(はつゆき)",
+      "reading": "はつゆき",
+      "english": "first snow of the season",
+      "speech": "はつゆき|初雪",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "おおゆき|大雪",
+      "display": "大雪",
+      "japanese": "大雪(おおゆき)",
+      "reading": "おおゆき",
+      "english": "heavy snowfall",
+      "speech": "おおゆき|大雪",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "ゆきげしき|雪景色",
+      "display": "雪景色",
+      "japanese": "雪景色(ゆきげしき)",
+      "reading": "ゆきげしき",
+      "english": "snowy scenery",
+      "speech": "ゆきげしき|雪景色",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "ゆきどけ|雪解け",
+      "display": "雪解け",
+      "japanese": "雪解(ゆきど)け",
+      "reading": "ゆきどけ",
+      "english": "snowmelt / thaw",
+      "speech": "ゆきどけ|雪解け",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "とうけつ|凍結",
+      "display": "凍結",
+      "japanese": "凍結(とうけつ)",
+      "reading": "とうけつ",
+      "english": "freezing / frozen conditions",
+      "speech": "とうけつ|凍結",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "ろめん|路面",
+      "display": "路面",
+      "japanese": "路面(ろめん)",
+      "reading": "ろめん",
+      "english": "road surface",
+      "speech": "ろめん|路面",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "そよかぜ|そよ風",
+      "display": "そよ風",
+      "japanese": "そよ風(かぜ)",
+      "reading": "そよかぜ",
+      "english": "gentle breeze",
+      "speech": "そよかぜ|そよ風",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "きょうふう|強風",
+      "display": "強風",
+      "japanese": "強風(きょうふう)",
+      "reading": "きょうふう",
+      "english": "strong wind",
+      "speech": "きょうふう|強風",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "とっぷう|突風",
+      "display": "突風",
+      "japanese": "突風(とっぷう)",
+      "reading": "とっぷう",
+      "english": "sudden gust of wind",
+      "speech": "とっぷう|突風",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "たいふう|台風",
+      "display": "台風",
+      "japanese": "台風(たいふう)",
+      "reading": "たいふう",
+      "english": "typhoon",
+      "speech": "たいふう|台風",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "はれる|晴れる",
+      "display": "晴れる",
+      "japanese": "晴(は)れる",
+      "reading": "はれる",
+      "english": "become sunny / clear up",
+      "speech": "はれる|晴れる",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "くもる|曇る",
+      "display": "曇る",
+      "japanese": "曇(くも)る",
+      "reading": "くもる",
+      "english": "become cloudy / fog up",
+      "speech": "くもる|曇る",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "ふる|降る",
+      "display": "降る",
+      "japanese": "降(ふ)る",
+      "reading": "ふる",
+      "english": "fall, as rain or snow",
+      "speech": "ふる|降る",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "ふく|吹く",
+      "display": "吹く",
+      "japanese": "吹(ふ)く",
+      "reading": "ふく",
+      "english": "blow",
+      "speech": "ふく|吹く",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "つもる|積もる",
+      "display": "積もる",
+      "japanese": "積(つ)もる",
+      "reading": "つもる",
+      "english": "accumulate, especially snow",
+      "speech": "つもる|積もる",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "こおる|凍る",
+      "display": "凍る",
+      "japanese": "凍(こお)る",
+      "reading": "こおる",
+      "english": "freeze",
+      "speech": "こおる|凍る",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "やむ|やむ",
+      "display": "やむ",
+      "japanese": "やむ",
+      "reading": "やむ",
+      "english": "stop, as rain or snow",
+      "speech": "やむ|やむ",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "ふりだす|降り出す",
+      "display": "降り出す",
+      "japanese": "降(ふ)り出(だ)す",
+      "reading": "ふりだす",
+      "english": "start falling, as rain or snow",
+      "speech": "ふりだす|降り出す",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "よわまる|弱まる",
+      "display": "弱まる",
+      "japanese": "弱(よわ)まる",
+      "reading": "よわまる",
+      "english": "weaken / ease",
+      "speech": "よわまる|弱まる",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "ひがさす|日が差す",
+      "display": "日が差す",
+      "japanese": "日(ひ)が差(さ)す",
+      "reading": "ひがさす",
+      "english": "the sun shines through",
+      "speech": "ひがさす|日が差す",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "ひがくれる|日が暮れる",
+      "display": "日が暮れる",
+      "japanese": "日(ひ)が暮(く)れる",
+      "reading": "ひがくれる",
+      "english": "it gets dark / the sun sets",
+      "speech": "ひがくれる|日が暮れる",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "てんきよほう|天気予報",
+      "display": "天気予報",
+      "japanese": "天気予報(てんきよほう)",
+      "reading": "てんきよほう",
+      "english": "weather forecast",
+      "speech": "てんきよほう|天気予報",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "こうすいかくりつ|降水確率",
+      "display": "降水確率",
+      "japanese": "降水確率(こうすいかくりつ)",
+      "reading": "こうすいかくりつ",
+      "english": "probability of precipitation",
+      "speech": "こうすいかくりつ|降水確率",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "はれのちくもり|晴れのち曇り",
+      "display": "晴れのち曇り",
+      "japanese": "晴(は)れのち曇(くも)り",
+      "reading": "はれのちくもり",
+      "english": "sunny, becoming cloudy later",
+      "speech": "はれのちくもり|晴れのち曇り",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "くもりときどきあめ|曇り時々雨",
+      "display": "曇り時々雨",
+      "japanese": "曇(くも)り時々雨(ときどきあめ)",
+      "reading": "くもりときどきあめ",
+      "english": "cloudy with occasional rain",
+      "speech": "くもりときどきあめ|曇り時々雨",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "きせつ|季節",
+      "display": "季節",
+      "japanese": "季節(きせつ)",
+      "reading": "きせつ",
+      "english": "season",
+      "speech": "きせつ|季節",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "きせつのかわりめ|季節の変わり目",
+      "display": "季節の変わり目",
+      "japanese": "季節(きせつ)の変(か)わり目(め)",
+      "reading": "きせつのかわりめ",
+      "english": "change of seasons",
+      "speech": "きせつのかわりめ|季節の変わり目",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "つゆ|梅雨",
+      "display": "梅雨",
+      "japanese": "梅雨(つゆ)",
+      "reading": "つゆ",
+      "english": "rainy season",
+      "speech": "つゆ|梅雨",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "つゆあけ|梅雨明け",
+      "display": "梅雨明け",
+      "japanese": "梅雨明(つゆあ)け",
+      "reading": "つゆあけ",
+      "english": "end of the rainy season",
+      "speech": "つゆあけ|梅雨明け",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "まなつ|真夏",
+      "display": "真夏",
+      "japanese": "真夏(まなつ)",
+      "reading": "まなつ",
+      "english": "midsummer",
+      "speech": "まなつ|真夏",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "まふゆ|真冬",
+      "display": "真冬",
+      "japanese": "真冬(まふゆ)",
+      "reading": "まふゆ",
+      "english": "midwinter",
+      "speech": "まふゆ|真冬",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "あきばれ|秋晴れ",
+      "display": "秋晴れ",
+      "japanese": "秋晴(あきば)れ",
+      "reading": "あきばれ",
+      "english": "clear autumn weather",
+      "speech": "あきばれ|秋晴れ",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "あきらしい|秋らしい",
+      "display": "秋らしい",
+      "japanese": "秋(あき)らしい",
+      "reading": "あきらしい",
+      "english": "autumn-like",
+      "speech": "あきらしい|秋らしい",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "ふゆらしい|冬らしい",
+      "display": "冬らしい",
+      "japanese": "冬(ふゆ)らしい",
+      "reading": "ふゆらしい",
+      "english": "winter-like",
+      "speech": "ふゆらしい|冬らしい",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "あさばん|朝晩",
+      "display": "朝晩",
+      "japanese": "朝晩(あさばん)",
+      "reading": "あさばん",
+      "english": "mornings and evenings",
+      "speech": "あさばん|朝晩",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "にっちゅう|日中",
+      "display": "日中",
+      "japanese": "日中(にっちゅう)",
+      "reading": "にっちゅう",
+      "english": "daytime",
+      "speech": "にっちゅう|日中",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "れいねん|例年",
+      "display": "例年",
+      "japanese": "例年(れいねん)",
+      "reading": "れいねん",
+      "english": "usual years / a typical year",
+      "speech": "れいねん|例年",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "へいねんなみ|平年並み",
+      "display": "平年並み",
+      "japanese": "平年並(へいねんな)み",
+      "reading": "へいねんなみ",
+      "english": "around the seasonal average",
+      "speech": "へいねんなみ|平年並み",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "いじょうきしょう|異常気象",
+      "display": "異常気象",
+      "japanese": "異常気象(いじょうきしょう)",
+      "reading": "いじょうきしょう",
+      "english": "unusual / extreme weather conditions",
+      "speech": "いじょうきしょう|異常気象",
+      "topicId": "weather"
+    }
+  ]
+}

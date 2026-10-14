@@ -1697,27 +1697,27 @@ body.no-furigana rt {
 }
 
 .home-search {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  justify-items: center;
   align-items: center;
-  gap: 16px;
-  padding: 28px 20px max(28px, env(safe-area-inset-bottom));
+  gap: 12px;
+  max-width: 380px;
+  margin: 0 auto;
+  padding: 28px 0 max(28px, env(safe-area-inset-bottom));
 }
 
 .home-grammar-bee {
-  display: flex;
-  align-items: center;
-  flex: 0 0 auto;
-  gap: 16px;
+  display: contents;
 }
 
 #openSearch {
-  width: 64px;
-  height: 64px;
-  flex-basis: 64px;
+  width: 52px;
+  height: 52px;
   background: var(--bronze);
 }
+
+#openSearch svg { stroke-width: 2.8; }
 
 .home-bee-icon {
   width: 50px;
@@ -1726,21 +1726,50 @@ body.no-furigana rt {
 }
 
 #openVocabularyCards, #openGrammarCards {
-  width: auto;
+  position: relative;
+  width: 82px;
+  max-width: 100%;
   height: 64px;
   flex: 0 0 auto;
-  padding: 0 10px;
+  padding: 0;
   white-space: nowrap;
-  border-radius: 20px;
-  background: var(--horizon);
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 700;
+}
+
+.home-deck-button img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+.home-deck-label {
+  position: absolute;
+  /* Centre of the front rectangle in flashcard.svg's 197.03 × 153.7 viewBox. */
+  left: 54.02%;
+  top: 52.78%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.home-deck-button:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 3px;
+}
+
+#openVocabularyCards:active, #openGrammarCards:active {
+  box-shadow: none;
 }
 
 @media (max-width: 400px) {
-  .home-search { gap: 8px; padding-left: 8px; padding-right: 8px; }
-  .home-grammar-bee { gap: 8px; }
-  #openVocabularyCards, #openGrammarCards { padding: 0 6px; font-size: 16px; }
+  .home-search { gap: 8px; }
+  #openVocabularyCards, #openGrammarCards { font-size: 16px; }
 }
 
 #wordExplosionGame.vocabulary-cards {
@@ -1748,9 +1777,6 @@ body.no-furigana rt {
   min-height: 0;
   padding: 8px 0 28px;
 }
-
-html.vocabulary-cards-open,
-.vocabulary-cards-open body { background: var(--bronze); }
 
 .study-cards-screen .pageHeader { gap: 12px; padding: 16px 12px; flex-wrap: wrap; }
 .study-cards-screen .pageHeader > div:not(.vocabulary-card-tools) { flex: 1; min-width: 0; }

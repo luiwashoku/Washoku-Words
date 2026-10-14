@@ -69,7 +69,7 @@
       header.className = "grammarIndexHeader popup-header";
       const title = document.createElement("h2");
       title.id = "vocabularyCardListTitle";
-      title.textContent = lesson.gameMode === "vocabulary-cards" ? lesson.title : "単語カード";
+      title.textContent = lesson.gameMode === "vocabulary-cards" ? lesson.title : "単語";
       dialog.setAttribute("aria-labelledby", title.id);
       header.append(title, close);
       close.addEventListener("click", () => dialog.close(), { signal });
@@ -147,7 +147,7 @@
       }, { signal });
       toolbar.append(all, dialog);
     }
-    window.WashokuOffline?.addControls(toolbar, { ...lesson, title: lesson.gameMode === "vocabulary-cards" ? lesson.title : "単語カード" });
+    window.WashokuOffline?.addControls(toolbar, { ...lesson, title: lesson.gameMode === "vocabulary-cards" ? lesson.title : "単語" });
 
     const status = document.createElement("p");
     status.className = "vocabulary-cards-status";
@@ -650,6 +650,7 @@
       wordPlayer.stop();
       index = target;
       render();
+      window.scrollTo({ top: 0, left: 0, behavior: "instant" });
       playWord();
     }
 

@@ -1,0 +1,263 @@
+{
+  "version": 1,
+  "ordering": "Practical dining, travel, shopping and cooking-lesson vocabulary first; broader descriptions, nature, materials and exhibition work later. Original source sections remain within merged categories.",
+  "topics": [
+    {
+      "id": "restaurants",
+      "japanese": "外食・食器・食品",
+      "english": "Restaurants, tableware and food shopping",
+      "sources": [
+        "restaurants",
+        "food-shopping",
+        "restaurants-tableware"
+      ]
+    },
+    {
+      "id": "travel",
+      "japanese": "交通・旅行・ホテル",
+      "english": "Travel, transport and hotels",
+      "sources": [
+        "travel-hotels",
+        "travel"
+      ]
+    },
+    {
+      "id": "shopping",
+      "japanese": "買い物・支払い",
+      "english": "Shopping and payment",
+      "sources": [
+        "shopping",
+        "payment",
+        "shopping-crafts"
+      ]
+    },
+    {
+      "id": "cooking",
+      "japanese": "料理・レッスン・手順",
+      "english": "Cooking, lessons and instructions",
+      "sources": [
+        "learning-teachers",
+        "following-instructions",
+        "cooking"
+      ]
+    },
+    {
+      "id": "clothing",
+      "japanese": "服・試着・サイズ",
+      "english": "Clothing, fit and sizes",
+      "sources": [
+        "clothing",
+        "shopping-details"
+      ]
+    },
+    {
+      "id": "communication",
+      "japanese": "会話・連絡・電話",
+      "english": "Conversation, messages and calls",
+      "sources": [
+        "communication",
+        "messages-calls"
+      ]
+    },
+    {
+      "id": "help",
+      "japanese": "お願い・助け合い・希望",
+      "english": "Requests, help and preferences",
+      "sources": [
+        "borrowing-helping",
+        "choices-boundaries"
+      ]
+    },
+    {
+      "id": "plans",
+      "japanese": "会う約束・予定",
+      "english": "Meeting up and making plans",
+      "sources": [
+        "arranging-meetings",
+        "plans"
+      ]
+    },
+    {
+      "id": "signs",
+      "japanese": "案内・お知らせ",
+      "english": "Signs and announcements",
+      "sources": [
+        "signs-announcements"
+      ]
+    },
+    {
+      "id": "health",
+      "japanese": "体調・健康・体の部分",
+      "english": "Health, discomfort and body parts",
+      "sources": [
+        "minor-discomfort",
+        "health"
+      ]
+    },
+    {
+      "id": "weather",
+      "japanese": "天気・気温・季節",
+      "english": "Weather, temperature and seasons",
+      "sources": [
+        "weather"
+      ]
+    },
+    {
+      "id": "time",
+      "japanese": "時間・頻度",
+      "english": "Time and frequency",
+      "sources": [
+        "time"
+      ]
+    },
+    {
+      "id": "food-taste",
+      "japanese": "食材・味・食感",
+      "english": "Ingredients, flavour and texture",
+      "sources": [
+        "ingredients",
+        "taste"
+      ]
+    },
+    {
+      "id": "people",
+      "japanese": "暮らし・趣味・人間関係",
+      "english": "Life, interests and relationships",
+      "sources": [
+        "getting-to-know-people",
+        "life-interests",
+        "relationships"
+      ]
+    },
+    {
+      "id": "home",
+      "japanese": "日用品・暮らし・習慣",
+      "english": "Everyday objects and routines",
+      "sources": [
+        "everyday-objects",
+        "everyday-routines",
+        "home",
+        "cleaning"
+      ]
+    },
+    {
+      "id": "learning",
+      "japanese": "学び・記録・復習",
+      "english": "Learning, recording and review",
+      "sources": [
+        "lesson-review",
+        "effort-experiences",
+        "learning"
+      ]
+    },
+    {
+      "id": "problems",
+      "japanese": "物のトラブル・問題解決",
+      "english": "Object problems and solutions",
+      "sources": [
+        "object-problems",
+        "problems"
+      ]
+    },
+    {
+      "id": "actions",
+      "japanese": "動作・姿勢・動き",
+      "english": "Actions, posture and movement",
+      "sources": [
+        "actions"
+      ]
+    },
+    {
+      "id": "feelings",
+      "japanese": "気持ち・性格",
+      "english": "Feelings and personality",
+      "sources": [
+        "feelings"
+      ]
+    },
+    {
+      "id": "qualities",
+      "japanese": "特徴・感覚・細かい描写",
+      "english": "Qualities, sensations and descriptions",
+      "sources": [
+        "sensations",
+        "precise-descriptions",
+        "qualities"
+      ]
+    },
+    {
+      "id": "changes",
+      "japanese": "変化・結果",
+      "english": "Change and results",
+      "sources": [
+        "changes"
+      ]
+    },
+    {
+      "id": "nature",
+      "japanese": "自然・景色・生き物",
+      "english": "Nature, scenery and living things",
+      "sources": [
+        "expanded-nature",
+        "nature"
+      ]
+    },
+    {
+      "id": "materials",
+      "japanese": "素材・材料",
+      "english": "Materials",
+      "sources": [
+        "materials"
+      ]
+    },
+    {
+      "id": "work",
+      "japanese": "仕事・展示制作",
+      "english": "Work and exhibition projects",
+      "sources": [
+        "exhibition-work",
+        "work"
+      ]
+    }
+  ],
+  "wordMoves": [
+    {
+      "sourceKey": "しつど|湿度",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "よほう|予報",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "きおん|気温",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "しっけ|湿気",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "きせつ|季節",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "つゆ|梅雨",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "たいふう|台風",
+      "topicId": "weather"
+    },
+    {
+      "sourceKey": "しぜん|自然",
+      "topicId": "nature"
+    }
+  ],
+  "sectionLabels": {
+    "nature:general": {
+      "japanese": "環境・紅葉・景色",
+      "english": "Environment and scenery"
+    }
+  }
+}

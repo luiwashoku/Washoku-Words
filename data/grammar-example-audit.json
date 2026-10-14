@@ -1,0 +1,4411 @@
+{
+  "reviewed": true,
+  "date": "2026-10-14",
+  "scope": "All 275 cards and 550 examples; meanings and register manually reviewed, syntax evidence checked for each sentence. Evidence alone is not a semantic grammar parser. Polite equivalents explicitly labelled; contractions documented in formation notes.",
+  "sources": [
+    "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/grammar/201307.html",
+    "https://www.irodori.jpf.go.jp/assets/data/resources/Grammar_Worksheets_Z.pdf"
+  ],
+  "examples": [
+    {
+      "card": "grammar-card-001",
+      "exampleIndex": 0,
+      "point": "～ている",
+      "pattern": "(?:て|で)(?:いる|います|る)",
+      "evidence": "ています",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-001",
+      "exampleIndex": 1,
+      "point": "～ている",
+      "pattern": "(?:て|で)(?:いる|います|る)",
+      "evidence": "てる",
+      "relationship": "documented-contraction"
+    },
+    {
+      "card": "grammar-card-002",
+      "exampleIndex": 0,
+      "point": "～たい",
+      "pattern": "たい",
+      "evidence": "たい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-002",
+      "exampleIndex": 1,
+      "point": "～たい",
+      "pattern": "たい",
+      "evidence": "たい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-003",
+      "exampleIndex": 0,
+      "point": "～てください",
+      "pattern": "(?:て|で)ください",
+      "evidence": "てください",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-003",
+      "exampleIndex": 1,
+      "point": "～てください",
+      "pattern": "(?:て|で)ください",
+      "evidence": "てください",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-004",
+      "exampleIndex": 0,
+      "point": "～てもいい",
+      "pattern": "てもいい",
+      "evidence": "てもいい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-004",
+      "exampleIndex": 1,
+      "point": "～てもいい",
+      "pattern": "てもいい",
+      "evidence": "てもいい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-005",
+      "exampleIndex": 0,
+      "point": "～てはいけない",
+      "pattern": "(?:て|で)はいけ(?:ない|ません)",
+      "evidence": "てはいけません",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-005",
+      "exampleIndex": 1,
+      "point": "～てはいけない",
+      "pattern": "(?:て|で)はいけ(?:ない|ません)",
+      "evidence": "てはいけない",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-006",
+      "exampleIndex": 0,
+      "point": "～たいんですが",
+      "pattern": "たいん(?:ですが|だけど)",
+      "evidence": "たいんですが",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-006",
+      "exampleIndex": 1,
+      "point": "～たいんですが",
+      "pattern": "たいん(?:ですが|だけど)",
+      "evidence": "たいんだけど",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-007",
+      "exampleIndex": 0,
+      "point": "～から",
+      "pattern": "から",
+      "evidence": "から",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-007",
+      "exampleIndex": 1,
+      "point": "～から",
+      "pattern": "から",
+      "evidence": "から",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-008",
+      "exampleIndex": 0,
+      "point": "～ので",
+      "pattern": "(?:ので|なんで)",
+      "evidence": "ので",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-008",
+      "exampleIndex": 1,
+      "point": "～ので",
+      "pattern": "(?:ので|なんで)",
+      "evidence": "なんで",
+      "relationship": "documented-contraction"
+    },
+    {
+      "card": "grammar-card-009",
+      "exampleIndex": 0,
+      "point": "～し",
+      "pattern": "し",
+      "evidence": "し",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-009",
+      "exampleIndex": 1,
+      "point": "～し",
+      "pattern": "し",
+      "evidence": "し",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-010",
+      "exampleIndex": 0,
+      "point": "～たり～たりする",
+      "pattern": "たり.+たり(?:する|します)",
+      "evidence": "たり、いえでえいがをみたりします",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-010",
+      "exampleIndex": 1,
+      "point": "～たり～たりする",
+      "pattern": "たり.+たり(?:する|します)",
+      "evidence": "たり、えいがをみたりする",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-011",
+      "exampleIndex": 0,
+      "point": "～ながら",
+      "pattern": "ながら",
+      "evidence": "ながら",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-011",
+      "exampleIndex": 1,
+      "point": "～ながら",
+      "pattern": "ながら",
+      "evidence": "ながら",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-012",
+      "exampleIndex": 0,
+      "point": "～ようと思(おも)う",
+      "pattern": "ようとおも(?:います|ってる)",
+      "evidence": "ようとおもいます",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-012",
+      "exampleIndex": 1,
+      "point": "～ようと思(おも)う",
+      "pattern": "ようとおも(?:います|ってる)",
+      "evidence": "ようとおもってる",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-013",
+      "exampleIndex": 0,
+      "point": "～つもり",
+      "pattern": "つもり",
+      "evidence": "つもり",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-013",
+      "exampleIndex": 1,
+      "point": "～つもり",
+      "pattern": "つもり",
+      "evidence": "つもり",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-014",
+      "exampleIndex": 0,
+      "point": "～予定(よてい)",
+      "pattern": "よてい",
+      "evidence": "よてい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-014",
+      "exampleIndex": 1,
+      "point": "～予定(よてい)",
+      "pattern": "よてい",
+      "evidence": "よてい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-015",
+      "exampleIndex": 0,
+      "point": "～ことができる",
+      "pattern": "ことができ(?:ます|る)",
+      "evidence": "ことができます",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-015",
+      "exampleIndex": 1,
+      "point": "～ことができる",
+      "pattern": "ことができ(?:ます|る)",
+      "evidence": "ことができる",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-016",
+      "exampleIndex": 0,
+      "point": "～たことがある",
+      "pattern": "たことが(?:あります|ある)",
+      "evidence": "たことがあります",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-016",
+      "exampleIndex": 1,
+      "point": "～たことがある",
+      "pattern": "たことが(?:あります|ある)",
+      "evidence": "たことがある",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-017",
+      "exampleIndex": 0,
+      "point": "～たことがない",
+      "pattern": "たことが(?:ありません|ない)",
+      "evidence": "たことがありません",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-017",
+      "exampleIndex": 1,
+      "point": "～たことがない",
+      "pattern": "たことが(?:ありません|ない)",
+      "evidence": "たことがない",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-018",
+      "exampleIndex": 0,
+      "point": "～ようになる",
+      "pattern": "ようにな(?:りました|った)",
+      "evidence": "ようになりました",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-018",
+      "exampleIndex": 1,
+      "point": "～ようになる",
+      "pattern": "ようにな(?:りました|った)",
+      "evidence": "ようになった",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-019",
+      "exampleIndex": 0,
+      "point": "～ようにする",
+      "pattern": "ようにして(?:います|る)",
+      "evidence": "ようにしています",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-019",
+      "exampleIndex": 1,
+      "point": "～ようにする",
+      "pattern": "ようにして(?:います|る)",
+      "evidence": "ようにしてる",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-020",
+      "exampleIndex": 0,
+      "point": "～てしまう",
+      "pattern": "(?:てしまいました|ちゃった)",
+      "evidence": "てしまいました",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-020",
+      "exampleIndex": 1,
+      "point": "～てしまう",
+      "pattern": "(?:てしまいました|ちゃった)",
+      "evidence": "ちゃった",
+      "relationship": "documented-contraction"
+    },
+    {
+      "card": "grammar-card-021",
+      "exampleIndex": 0,
+      "point": "～てみる",
+      "pattern": "てみ(?:ます|て)",
+      "evidence": "てみます",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-021",
+      "exampleIndex": 1,
+      "point": "～てみる",
+      "pattern": "てみ(?:ます|て)",
+      "evidence": "てみて",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-022",
+      "exampleIndex": 0,
+      "point": "～てもらう",
+      "pattern": "てもら(?:いました|った)",
+      "evidence": "てもらいました",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-022",
+      "exampleIndex": 1,
+      "point": "～てもらう",
+      "pattern": "てもら(?:いました|った)",
+      "evidence": "てもらった",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-023",
+      "exampleIndex": 0,
+      "point": "～てくれる",
+      "pattern": "てくれ(?:ました|た)",
+      "evidence": "てくれました",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-023",
+      "exampleIndex": 1,
+      "point": "～てくれる",
+      "pattern": "てくれ(?:ました|た)",
+      "evidence": "てくれた",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-024",
+      "exampleIndex": 0,
+      "point": "～てあげる",
+      "pattern": "てあげ(?:ました|た)",
+      "evidence": "てあげました",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-024",
+      "exampleIndex": 1,
+      "point": "～てあげる",
+      "pattern": "てあげ(?:ました|た)",
+      "evidence": "てあげた",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-025",
+      "exampleIndex": 0,
+      "point": "～そう",
+      "pattern": "そう",
+      "evidence": "そう",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-025",
+      "exampleIndex": 1,
+      "point": "～そう",
+      "pattern": "そう",
+      "evidence": "そう",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-026",
+      "exampleIndex": 0,
+      "point": "～そう",
+      "pattern": "そう",
+      "evidence": "そう",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-026",
+      "exampleIndex": 1,
+      "point": "～そう",
+      "pattern": "そう",
+      "evidence": "そう",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-027",
+      "exampleIndex": 0,
+      "point": "～らしい",
+      "pattern": "らしい",
+      "evidence": "らしい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-027",
+      "exampleIndex": 1,
+      "point": "～らしい",
+      "pattern": "らしい",
+      "evidence": "らしい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-028",
+      "exampleIndex": 0,
+      "point": "～かもしれない",
+      "pattern": "(?:かもしれません|かも)",
+      "evidence": "かもしれません",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-028",
+      "exampleIndex": 1,
+      "point": "～かもしれない",
+      "pattern": "(?:かもしれません|かも)",
+      "evidence": "かも",
+      "relationship": "documented-contraction"
+    },
+    {
+      "card": "grammar-card-029",
+      "exampleIndex": 0,
+      "point": "～と言(い)っていました",
+      "pattern": "(?:といっていました|っていってた)",
+      "evidence": "といっていました",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-029",
+      "exampleIndex": 1,
+      "point": "～と言(い)っていました",
+      "pattern": "(?:といっていました|っていってた)",
+      "evidence": "っていってた",
+      "relationship": "documented-contraction"
+    },
+    {
+      "card": "grammar-card-030",
+      "exampleIndex": 0,
+      "point": "一応(いちおう)",
+      "pattern": "いちおう",
+      "evidence": "いちおう",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-030",
+      "exampleIndex": 1,
+      "point": "一応(いちおう)",
+      "pattern": "いちおう",
+      "evidence": "いちおう",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-031",
+      "exampleIndex": 0,
+      "point": "～ようだ",
+      "pattern": "よう(?:です|だ)",
+      "evidence": "ようです",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-031",
+      "exampleIndex": 1,
+      "point": "～ようだ",
+      "pattern": "よう(?:です|だ)",
+      "evidence": "ようだ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-032",
+      "exampleIndex": 0,
+      "point": "～なら",
+      "pattern": "なら",
+      "evidence": "なら",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-032",
+      "exampleIndex": 1,
+      "point": "～なら",
+      "pattern": "なら",
+      "evidence": "なら",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-033",
+      "exampleIndex": 0,
+      "point": "～ば",
+      "pattern": "(?:あれば|ければ)",
+      "evidence": "あれば",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-033",
+      "exampleIndex": 1,
+      "point": "～ば",
+      "pattern": "(?:あれば|ければ)",
+      "evidence": "ければ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-034",
+      "exampleIndex": 0,
+      "point": "～たら",
+      "pattern": "たら",
+      "evidence": "たら",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-034",
+      "exampleIndex": 1,
+      "point": "～たら",
+      "pattern": "たら",
+      "evidence": "たら",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-035",
+      "exampleIndex": 0,
+      "point": "～ても",
+      "pattern": "ても",
+      "evidence": "ても",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-035",
+      "exampleIndex": 1,
+      "point": "～ても",
+      "pattern": "ても",
+      "evidence": "ても",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-036",
+      "exampleIndex": 0,
+      "point": "～しか～ない",
+      "pattern": "しか.*(?:ません|ない)",
+      "evidence": "しかもっていません",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-036",
+      "exampleIndex": 1,
+      "point": "～しか～ない",
+      "pattern": "しか.*(?:ません|ない)",
+      "evidence": "しかない",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-037",
+      "exampleIndex": 0,
+      "point": "～だけ",
+      "pattern": "だけ",
+      "evidence": "だけ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-037",
+      "exampleIndex": 1,
+      "point": "～だけ",
+      "pattern": "だけ",
+      "evidence": "だけ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-038",
+      "exampleIndex": 0,
+      "point": "～ほうがいい",
+      "pattern": "ほうがいい",
+      "evidence": "ほうがいい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-038",
+      "exampleIndex": 1,
+      "point": "～ほうがいい",
+      "pattern": "ほうがいい",
+      "evidence": "ほうがいい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-039",
+      "exampleIndex": 0,
+      "point": "～なくてもいい",
+      "pattern": "なくてもいい",
+      "evidence": "なくてもいい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-039",
+      "exampleIndex": 1,
+      "point": "～なくてもいい",
+      "pattern": "なくてもいい",
+      "evidence": "なくてもいい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-040",
+      "exampleIndex": 0,
+      "point": "～たばかり",
+      "pattern": "たばかり",
+      "evidence": "たばかり",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-040",
+      "exampleIndex": 1,
+      "point": "～たばかり",
+      "pattern": "たばかり",
+      "evidence": "たばかり",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-041",
+      "exampleIndex": 0,
+      "point": "～てばかりいる",
+      "pattern": "てばかり(?:います|いる)",
+      "evidence": "てばかりいます",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-041",
+      "exampleIndex": 1,
+      "point": "～てばかりいる",
+      "pattern": "てばかり(?:います|いる)",
+      "evidence": "てばかりいる",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-042",
+      "exampleIndex": 0,
+      "point": "～ところ",
+      "pattern": "ところ",
+      "evidence": "ところ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-042",
+      "exampleIndex": 1,
+      "point": "～ところ",
+      "pattern": "ところ",
+      "evidence": "ところ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-043",
+      "exampleIndex": 0,
+      "point": "～たところ",
+      "pattern": "(?:た|だ)ところ",
+      "evidence": "たところ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-043",
+      "exampleIndex": 1,
+      "point": "～たところ",
+      "pattern": "(?:た|だ)ところ",
+      "evidence": "たところ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-044",
+      "exampleIndex": 0,
+      "point": "～ているところ",
+      "pattern": "(?:ている|してる)ところ",
+      "evidence": "ているところ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-044",
+      "exampleIndex": 1,
+      "point": "～ているところ",
+      "pattern": "(?:ている|してる)ところ",
+      "evidence": "してるところ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-045",
+      "exampleIndex": 0,
+      "point": "～ような",
+      "pattern": "ような",
+      "evidence": "ような",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-045",
+      "exampleIndex": 1,
+      "point": "～ような",
+      "pattern": "ような",
+      "evidence": "ような",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-046",
+      "exampleIndex": 0,
+      "point": "～くらい / ～ぐらい",
+      "pattern": "(?:くらい|ぐらい)",
+      "evidence": "ぐらい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-046",
+      "exampleIndex": 1,
+      "point": "～くらい / ～ぐらい",
+      "pattern": "(?:くらい|ぐらい)",
+      "evidence": "ぐらい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-047",
+      "exampleIndex": 0,
+      "point": "～ほど",
+      "pattern": "ほど",
+      "evidence": "ほど",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-047",
+      "exampleIndex": 1,
+      "point": "～ほど",
+      "pattern": "ほど",
+      "evidence": "ほど",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-048",
+      "exampleIndex": 0,
+      "point": "～より",
+      "pattern": "より",
+      "evidence": "より",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-048",
+      "exampleIndex": 1,
+      "point": "～より",
+      "pattern": "より",
+      "evidence": "より",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-049",
+      "exampleIndex": 0,
+      "point": "～のに",
+      "pattern": "のに",
+      "evidence": "のに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-049",
+      "exampleIndex": 1,
+      "point": "～のに",
+      "pattern": "のに",
+      "evidence": "のに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-050",
+      "exampleIndex": 0,
+      "point": "～おかげで",
+      "pattern": "おかげで",
+      "evidence": "おかげで",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-050",
+      "exampleIndex": 1,
+      "point": "～おかげで",
+      "pattern": "おかげで",
+      "evidence": "おかげで",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-051",
+      "exampleIndex": 0,
+      "point": "～せいで",
+      "pattern": "せいで",
+      "evidence": "せいで",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-051",
+      "exampleIndex": 1,
+      "point": "～せいで",
+      "pattern": "せいで",
+      "evidence": "せいで",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-052",
+      "exampleIndex": 0,
+      "point": "～ために",
+      "pattern": "ために",
+      "evidence": "ために",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-052",
+      "exampleIndex": 1,
+      "point": "～ために",
+      "pattern": "ために",
+      "evidence": "ために",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-053",
+      "exampleIndex": 0,
+      "point": "～ように",
+      "pattern": "ように",
+      "evidence": "ように",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-053",
+      "exampleIndex": 1,
+      "point": "～ように",
+      "pattern": "ように",
+      "evidence": "ように",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-054",
+      "exampleIndex": 0,
+      "point": "～わけだ",
+      "pattern": "わけ(?:ですね|だ)",
+      "evidence": "わけですね",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-054",
+      "exampleIndex": 1,
+      "point": "～わけだ",
+      "pattern": "わけ(?:ですね|だ)",
+      "evidence": "わけだ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-055",
+      "exampleIndex": 0,
+      "point": "～わけではない",
+      "pattern": "わけ(?:ではありません|じゃない)",
+      "evidence": "わけではありません",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-055",
+      "exampleIndex": 1,
+      "point": "～わけではない",
+      "pattern": "わけ(?:ではありません|じゃない)",
+      "evidence": "わけじゃない",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-056",
+      "exampleIndex": 0,
+      "point": "～ことにする",
+      "pattern": "ことに(?:しました|する)",
+      "evidence": "ことにしました",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-056",
+      "exampleIndex": 1,
+      "point": "～ことにする",
+      "pattern": "ことに(?:しました|する)",
+      "evidence": "ことにする",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-057",
+      "exampleIndex": 0,
+      "point": "～ことになる",
+      "pattern": "ことにな(?:りました|った)",
+      "evidence": "ことになりました",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-057",
+      "exampleIndex": 1,
+      "point": "～ことになる",
+      "pattern": "ことにな(?:りました|った)",
+      "evidence": "ことになった",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-058",
+      "exampleIndex": 0,
+      "point": "～はず",
+      "pattern": "はず",
+      "evidence": "はず",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-058",
+      "exampleIndex": 1,
+      "point": "～はず",
+      "pattern": "はず",
+      "evidence": "はず",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-059",
+      "exampleIndex": 0,
+      "point": "～に対(たい)して",
+      "pattern": "にたいして",
+      "evidence": "にたいして",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-059",
+      "exampleIndex": 1,
+      "point": "～に対(たい)して",
+      "pattern": "にたいして",
+      "evidence": "にたいして",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-060",
+      "exampleIndex": 0,
+      "point": "逆(ぎゃく)に",
+      "pattern": "ぎゃくに",
+      "evidence": "ぎゃくに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-060",
+      "exampleIndex": 1,
+      "point": "逆(ぎゃく)に",
+      "pattern": "ぎゃくに",
+      "evidence": "ぎゃくに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-061",
+      "exampleIndex": 0,
+      "point": "～べき",
+      "pattern": "べき",
+      "evidence": "べき",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-061",
+      "exampleIndex": 1,
+      "point": "～べき",
+      "pattern": "べき",
+      "evidence": "べき",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-062",
+      "exampleIndex": 0,
+      "point": "～なくてもいい",
+      "pattern": "なくてもいい",
+      "evidence": "なくてもいい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-062",
+      "exampleIndex": 1,
+      "point": "～なくてもいい",
+      "pattern": "なくてもいい",
+      "evidence": "なくてもいい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-063",
+      "exampleIndex": 0,
+      "point": "～てもかまわない",
+      "pattern": "てもかま(?:いません|わない)",
+      "evidence": "てもかまいません",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-063",
+      "exampleIndex": 1,
+      "point": "～てもかまわない",
+      "pattern": "てもかま(?:いません|わない)",
+      "evidence": "てもかまわない",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-064",
+      "exampleIndex": 0,
+      "point": "～に違(ちが)いない",
+      "pattern": "にちがい(?:ありません|ない)",
+      "evidence": "にちがいありません",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-064",
+      "exampleIndex": 1,
+      "point": "～に違(ちが)いない",
+      "pattern": "にちがい(?:ありません|ない)",
+      "evidence": "にちがいない",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-065",
+      "exampleIndex": 0,
+      "point": "～によると",
+      "pattern": "によると",
+      "evidence": "によると",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-065",
+      "exampleIndex": 1,
+      "point": "～によると",
+      "pattern": "によると",
+      "evidence": "によると",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-066",
+      "exampleIndex": 0,
+      "point": "～について",
+      "pattern": "について",
+      "evidence": "について",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-066",
+      "exampleIndex": 1,
+      "point": "～について",
+      "pattern": "について",
+      "evidence": "について",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-067",
+      "exampleIndex": 0,
+      "point": "～に対(たい)して",
+      "pattern": "にたいして",
+      "evidence": "にたいして",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-067",
+      "exampleIndex": 1,
+      "point": "～に対(たい)して",
+      "pattern": "にたいして",
+      "evidence": "にたいして",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-068",
+      "exampleIndex": 0,
+      "point": "～によって",
+      "pattern": "によって",
+      "evidence": "によって",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-068",
+      "exampleIndex": 1,
+      "point": "～によって",
+      "pattern": "によって",
+      "evidence": "によって",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-069",
+      "exampleIndex": 0,
+      "point": "～として",
+      "pattern": "として",
+      "evidence": "として",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-069",
+      "exampleIndex": 1,
+      "point": "～として",
+      "pattern": "として",
+      "evidence": "として",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-070",
+      "exampleIndex": 0,
+      "point": "～でも",
+      "pattern": "でも",
+      "evidence": "でも",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-070",
+      "exampleIndex": 1,
+      "point": "～でも",
+      "pattern": "でも",
+      "evidence": "でも",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-071",
+      "exampleIndex": 0,
+      "point": "しかも",
+      "pattern": "しかも",
+      "evidence": "しかも",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-071",
+      "exampleIndex": 1,
+      "point": "しかも",
+      "pattern": "しかも",
+      "evidence": "しかも",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-072",
+      "exampleIndex": 0,
+      "point": "それに",
+      "pattern": "それに",
+      "evidence": "それに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-072",
+      "exampleIndex": 1,
+      "point": "それに",
+      "pattern": "それに",
+      "evidence": "それに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-073",
+      "exampleIndex": 0,
+      "point": "一方(いっぽう)で",
+      "pattern": "いっぽうで",
+      "evidence": "いっぽうで",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-073",
+      "exampleIndex": 1,
+      "point": "一方(いっぽう)で",
+      "pattern": "いっぽうで",
+      "evidence": "いっぽうで",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-074",
+      "exampleIndex": 0,
+      "point": "ちなみに",
+      "pattern": "ちなみに",
+      "evidence": "ちなみに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-074",
+      "exampleIndex": 1,
+      "point": "ちなみに",
+      "pattern": "ちなみに",
+      "evidence": "ちなみに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-075",
+      "exampleIndex": 0,
+      "point": "～ておく",
+      "pattern": "(?:ておきます|しとく)",
+      "evidence": "ておきます",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-075",
+      "exampleIndex": 1,
+      "point": "～ておく",
+      "pattern": "(?:ておきます|しとく)",
+      "evidence": "しとく",
+      "relationship": "documented-contraction"
+    },
+    {
+      "card": "grammar-card-076",
+      "exampleIndex": 0,
+      "point": "～続(つづ)ける",
+      "pattern": "つづけたい",
+      "evidence": "つづけたい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-076",
+      "exampleIndex": 1,
+      "point": "～続(つづ)ける",
+      "pattern": "つづけたい",
+      "evidence": "つづけたい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-077",
+      "exampleIndex": 0,
+      "point": "～てくる",
+      "pattern": "てき(?:ました|た)",
+      "evidence": "てきました",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-077",
+      "exampleIndex": 1,
+      "point": "～てくる",
+      "pattern": "てき(?:ました|た)",
+      "evidence": "てきた",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-078",
+      "exampleIndex": 0,
+      "point": "～ていく",
+      "pattern": "てい(?:きます|きたい)",
+      "evidence": "ていきます",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-078",
+      "exampleIndex": 1,
+      "point": "～ていく",
+      "pattern": "てい(?:きます|きたい)",
+      "evidence": "ていきたい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-079",
+      "exampleIndex": 0,
+      "point": "～始(はじ)める",
+      "pattern": "はじめ(?:ました|た)",
+      "evidence": "はじめました",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-079",
+      "exampleIndex": 1,
+      "point": "～始(はじ)める",
+      "pattern": "はじめ(?:ました|た)",
+      "evidence": "はじめた",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-080",
+      "exampleIndex": 0,
+      "point": "～終(お)わる",
+      "pattern": "おわ(?:りました|った)",
+      "evidence": "おわりました",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-080",
+      "exampleIndex": 1,
+      "point": "～終(お)わる",
+      "pattern": "おわ(?:りました|った)",
+      "evidence": "おわった",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-081",
+      "exampleIndex": 0,
+      "point": "～すぎる",
+      "pattern": "すぎ(?:ました|た)",
+      "evidence": "すぎました",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-081",
+      "exampleIndex": 1,
+      "point": "～すぎる",
+      "pattern": "すぎ(?:ました|た)",
+      "evidence": "すぎた",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-082",
+      "exampleIndex": 0,
+      "point": "～やすい",
+      "pattern": "やすい",
+      "evidence": "やすい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-082",
+      "exampleIndex": 1,
+      "point": "～やすい",
+      "pattern": "やすい",
+      "evidence": "やすい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-083",
+      "exampleIndex": 0,
+      "point": "～にくい",
+      "pattern": "にくい",
+      "evidence": "にくい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-083",
+      "exampleIndex": 1,
+      "point": "～にくい",
+      "pattern": "にくい",
+      "evidence": "にくい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-084",
+      "exampleIndex": 0,
+      "point": "～そうになる",
+      "pattern": "そうにな(?:りました|った)",
+      "evidence": "そうになりました",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-084",
+      "exampleIndex": 1,
+      "point": "～そうになる",
+      "pattern": "そうにな(?:りました|った)",
+      "evidence": "そうになった",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-085",
+      "exampleIndex": 0,
+      "point": "～ような気(き)がする",
+      "pattern": "ようなきが(?:します|する)",
+      "evidence": "ようなきがします",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-085",
+      "exampleIndex": 1,
+      "point": "～ような気(き)がする",
+      "pattern": "ようなきが(?:します|する)",
+      "evidence": "ようなきがする",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-086",
+      "exampleIndex": 0,
+      "point": "～かどうか",
+      "pattern": "かどうか",
+      "evidence": "かどうか",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-086",
+      "exampleIndex": 1,
+      "point": "～かどうか",
+      "pattern": "かどうか",
+      "evidence": "かどうか",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-087",
+      "exampleIndex": 0,
+      "point": "～かな",
+      "pattern": "かな",
+      "evidence": "かな",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-087",
+      "exampleIndex": 1,
+      "point": "～かな",
+      "pattern": "かな",
+      "evidence": "かな",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-088",
+      "exampleIndex": 0,
+      "point": "なんとなく",
+      "pattern": "なんとなく",
+      "evidence": "なんとなく",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-088",
+      "exampleIndex": 1,
+      "point": "なんとなく",
+      "pattern": "なんとなく",
+      "evidence": "なんとなく",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-089",
+      "exampleIndex": 0,
+      "point": "とりあえず",
+      "pattern": "とりあえず",
+      "evidence": "とりあえず",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-089",
+      "exampleIndex": 1,
+      "point": "とりあえず",
+      "pattern": "とりあえず",
+      "evidence": "とりあえず",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-090",
+      "exampleIndex": 0,
+      "point": "とにかく",
+      "pattern": "とにかく",
+      "evidence": "とにかく",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-090",
+      "exampleIndex": 1,
+      "point": "とにかく",
+      "pattern": "とにかく",
+      "evidence": "とにかく",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-091",
+      "exampleIndex": 0,
+      "point": "～よね",
+      "pattern": "よね",
+      "evidence": "よね",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-091",
+      "exampleIndex": 1,
+      "point": "～よね",
+      "pattern": "よね",
+      "evidence": "よね",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-092",
+      "exampleIndex": 0,
+      "point": "～でしょう",
+      "pattern": "(?:でしょう|でしょ)",
+      "evidence": "でしょう",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-092",
+      "exampleIndex": 1,
+      "point": "～でしょう",
+      "pattern": "(?:でしょう|でしょ)",
+      "evidence": "でしょ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-093",
+      "exampleIndex": 0,
+      "point": "～んじゃない？",
+      "pattern": "んじゃない",
+      "evidence": "んじゃない",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-093",
+      "exampleIndex": 1,
+      "point": "～んじゃない？",
+      "pattern": "んじゃない",
+      "evidence": "んじゃない",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-094",
+      "exampleIndex": 0,
+      "point": "～んだけど",
+      "pattern": "ん(?:ですが|だけど)",
+      "evidence": "んですが",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-094",
+      "exampleIndex": 1,
+      "point": "～んだけど",
+      "pattern": "ん(?:ですが|だけど)",
+      "evidence": "んだけど",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-095",
+      "exampleIndex": 0,
+      "point": "～けど",
+      "pattern": "けど",
+      "evidence": "けど",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-095",
+      "exampleIndex": 1,
+      "point": "～けど",
+      "pattern": "けど",
+      "evidence": "けど",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-096",
+      "exampleIndex": 0,
+      "point": "～んだ / ～んです",
+      "pattern": "ん(?:です|だ)",
+      "evidence": "んです",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-096",
+      "exampleIndex": 1,
+      "point": "～んだ / ～んです",
+      "pattern": "ん(?:です|だ)",
+      "evidence": "んだ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-097",
+      "exampleIndex": 0,
+      "point": "～っけ",
+      "pattern": "っけ",
+      "evidence": "っけ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-097",
+      "exampleIndex": 1,
+      "point": "～っけ",
+      "pattern": "っけ",
+      "evidence": "っけ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-098",
+      "exampleIndex": 0,
+      "point": "～っぽい",
+      "pattern": "っぽ(?:い|く)",
+      "evidence": "っぽい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-098",
+      "exampleIndex": 1,
+      "point": "～っぽい",
+      "pattern": "っぽ(?:い|く)",
+      "evidence": "っぽく",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-099",
+      "exampleIndex": 0,
+      "point": "～しかない",
+      "pattern": "しか(?:ありません|ない)",
+      "evidence": "しかありません",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-099",
+      "exampleIndex": 1,
+      "point": "～しかない",
+      "pattern": "しか(?:ありません|ない)",
+      "evidence": "しかない",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-100",
+      "exampleIndex": 0,
+      "point": "～たびに",
+      "pattern": "たびに",
+      "evidence": "たびに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-100",
+      "exampleIndex": 1,
+      "point": "～たびに",
+      "pattern": "たびに",
+      "evidence": "たびに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-101",
+      "exampleIndex": 0,
+      "point": "～うちに",
+      "pattern": "うちに",
+      "evidence": "うちに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-101",
+      "exampleIndex": 1,
+      "point": "～うちに",
+      "pattern": "うちに",
+      "evidence": "うちに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-102",
+      "exampleIndex": 0,
+      "point": "～まま",
+      "pattern": "まま",
+      "evidence": "まま",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-102",
+      "exampleIndex": 1,
+      "point": "～まま",
+      "pattern": "まま",
+      "evidence": "まま",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-103",
+      "exampleIndex": 0,
+      "point": "～途中(とちゅう)で",
+      "pattern": "とちゅうで",
+      "evidence": "とちゅうで",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-103",
+      "exampleIndex": 1,
+      "point": "～途中(とちゅう)で",
+      "pattern": "とちゅうで",
+      "evidence": "とちゅうで",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-104",
+      "exampleIndex": 0,
+      "point": "～代(か)わりに",
+      "pattern": "かわりに",
+      "evidence": "かわりに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-104",
+      "exampleIndex": 1,
+      "point": "～代(か)わりに",
+      "pattern": "かわりに",
+      "evidence": "かわりに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-105",
+      "exampleIndex": 0,
+      "point": "～に比(くら)べて",
+      "pattern": "にくらべて",
+      "evidence": "にくらべて",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-105",
+      "exampleIndex": 1,
+      "point": "～に比(くら)べて",
+      "pattern": "にくらべて",
+      "evidence": "にくらべて",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-106",
+      "exampleIndex": 0,
+      "point": "～というより",
+      "pattern": "(?:というより|っていうより)",
+      "evidence": "というより",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-106",
+      "exampleIndex": 1,
+      "point": "～というより",
+      "pattern": "(?:というより|っていうより)",
+      "evidence": "っていうより",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-107",
+      "exampleIndex": 0,
+      "point": "～によっては",
+      "pattern": "によっては",
+      "evidence": "によっては",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-107",
+      "exampleIndex": 1,
+      "point": "～によっては",
+      "pattern": "によっては",
+      "evidence": "によっては",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-108",
+      "exampleIndex": 0,
+      "point": "～さえ",
+      "pattern": "さえ",
+      "evidence": "さえ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-108",
+      "exampleIndex": 1,
+      "point": "～さえ",
+      "pattern": "さえ",
+      "evidence": "さえ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-109",
+      "exampleIndex": 0,
+      "point": "～こそ",
+      "pattern": "こそ",
+      "evidence": "こそ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-109",
+      "exampleIndex": 1,
+      "point": "～こそ",
+      "pattern": "こそ",
+      "evidence": "こそ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-110",
+      "exampleIndex": 0,
+      "point": "～限(かぎ)り",
+      "pattern": "かぎり",
+      "evidence": "かぎり",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-110",
+      "exampleIndex": 1,
+      "point": "～限(かぎ)り",
+      "pattern": "かぎり",
+      "evidence": "かぎり",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-111",
+      "exampleIndex": 0,
+      "point": "～おそれがある",
+      "pattern": "おそれが(?:あります|ある)",
+      "evidence": "おそれがあります",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-111",
+      "exampleIndex": 1,
+      "point": "～おそれがある",
+      "pattern": "おそれが(?:あります|ある)",
+      "evidence": "おそれがある",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-112",
+      "exampleIndex": 0,
+      "point": "やっぱり",
+      "pattern": "やっぱり",
+      "evidence": "やっぱり",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-112",
+      "exampleIndex": 1,
+      "point": "やっぱり",
+      "pattern": "やっぱり",
+      "evidence": "やっぱり",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-113",
+      "exampleIndex": 0,
+      "point": "もちろん",
+      "pattern": "もちろん",
+      "evidence": "もちろん",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-113",
+      "exampleIndex": 1,
+      "point": "もちろん",
+      "pattern": "もちろん",
+      "evidence": "もちろん",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-114",
+      "exampleIndex": 0,
+      "point": "せっかく",
+      "pattern": "せっかく",
+      "evidence": "せっかく",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-114",
+      "exampleIndex": 1,
+      "point": "せっかく",
+      "pattern": "せっかく",
+      "evidence": "せっかく",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-115",
+      "exampleIndex": 0,
+      "point": "なかなか",
+      "pattern": "なかなか",
+      "evidence": "なかなか",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-115",
+      "exampleIndex": 1,
+      "point": "なかなか",
+      "pattern": "なかなか",
+      "evidence": "なかなか",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-116",
+      "exampleIndex": 0,
+      "point": "つい",
+      "pattern": "つい",
+      "evidence": "つい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-116",
+      "exampleIndex": 1,
+      "point": "つい",
+      "pattern": "つい",
+      "evidence": "つい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-117",
+      "exampleIndex": 0,
+      "point": "念(ねん)のため",
+      "pattern": "ねんのため",
+      "evidence": "ねんのため",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-117",
+      "exampleIndex": 1,
+      "point": "念(ねん)のため",
+      "pattern": "ねんのため",
+      "evidence": "ねんのため",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-118",
+      "exampleIndex": 0,
+      "point": "たしか",
+      "pattern": "たしか",
+      "evidence": "たしか",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-118",
+      "exampleIndex": 1,
+      "point": "たしか",
+      "pattern": "たしか",
+      "evidence": "たしか",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-119",
+      "exampleIndex": 0,
+      "point": "なるほど",
+      "pattern": "なるほど",
+      "evidence": "なるほど",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-119",
+      "exampleIndex": 1,
+      "point": "なるほど",
+      "pattern": "なるほど",
+      "evidence": "なるほど",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-120",
+      "exampleIndex": 0,
+      "point": "たしかに",
+      "pattern": "たしかに",
+      "evidence": "たしかに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-120",
+      "exampleIndex": 1,
+      "point": "たしかに",
+      "pattern": "たしかに",
+      "evidence": "たしかに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-121",
+      "exampleIndex": 0,
+      "point": "つまり",
+      "pattern": "つまり",
+      "evidence": "つまり",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-121",
+      "exampleIndex": 1,
+      "point": "つまり",
+      "pattern": "つまり",
+      "evidence": "つまり",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-122",
+      "exampleIndex": 0,
+      "point": "ということは",
+      "pattern": "(?:ということは|ってことは)",
+      "evidence": "ということは",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-122",
+      "exampleIndex": 1,
+      "point": "ということは",
+      "pattern": "(?:ということは|ってことは)",
+      "evidence": "ってことは",
+      "relationship": "documented-contraction"
+    },
+    {
+      "card": "grammar-card-123",
+      "exampleIndex": 0,
+      "point": "というか",
+      "pattern": "(?:というか|っていうか)",
+      "evidence": "というか",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-123",
+      "exampleIndex": 1,
+      "point": "というか",
+      "pattern": "(?:というか|っていうか)",
+      "evidence": "っていうか",
+      "relationship": "documented-contraction"
+    },
+    {
+      "card": "grammar-card-124",
+      "exampleIndex": 0,
+      "point": "～ないと / ～なきゃ",
+      "pattern": "(?:ないと|なきゃ)",
+      "evidence": "ないと",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-124",
+      "exampleIndex": 1,
+      "point": "～ないと / ～なきゃ",
+      "pattern": "(?:ないと|なきゃ)",
+      "evidence": "なきゃ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-125",
+      "exampleIndex": 0,
+      "point": "～ばよかった",
+      "pattern": "ばよかった",
+      "evidence": "ばよかった",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-125",
+      "exampleIndex": 1,
+      "point": "～ばよかった",
+      "pattern": "ばよかった",
+      "evidence": "ばよかった",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-126",
+      "exampleIndex": 0,
+      "point": "～てよかった",
+      "pattern": "てよかった",
+      "evidence": "てよかった",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-126",
+      "exampleIndex": 1,
+      "point": "～てよかった",
+      "pattern": "てよかった",
+      "evidence": "てよかった",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-127",
+      "exampleIndex": 0,
+      "point": "～と思(おも)っていた",
+      "pattern": "とおもって(?:いました|た)",
+      "evidence": "とおもっていました",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-127",
+      "exampleIndex": 1,
+      "point": "～と思(おも)っていた",
+      "pattern": "とおもって(?:いました|た)",
+      "evidence": "とおもってた",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-128",
+      "exampleIndex": 0,
+      "point": "意外(いがい)と",
+      "pattern": "いがいと",
+      "evidence": "いがいと",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-128",
+      "exampleIndex": 1,
+      "point": "意外(いがい)と",
+      "pattern": "いがいと",
+      "evidence": "いがいと",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-129",
+      "exampleIndex": 0,
+      "point": "思(おも)ったより",
+      "pattern": "おもったより",
+      "evidence": "おもったより",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-129",
+      "exampleIndex": 1,
+      "point": "思(おも)ったより",
+      "pattern": "おもったより",
+      "evidence": "おもったより",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-130",
+      "exampleIndex": 0,
+      "point": "できれば",
+      "pattern": "できれば",
+      "evidence": "できれば",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-130",
+      "exampleIndex": 1,
+      "point": "できれば",
+      "pattern": "できれば",
+      "evidence": "できれば",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-131",
+      "exampleIndex": 0,
+      "point": "よかったら",
+      "pattern": "よかったら",
+      "evidence": "よかったら",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-131",
+      "exampleIndex": 1,
+      "point": "よかったら",
+      "pattern": "よかったら",
+      "evidence": "よかったら",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-132",
+      "exampleIndex": 0,
+      "point": "～ってどういう意味(いみ)？",
+      "pattern": "ってどういういみ",
+      "evidence": "ってどういういみ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-132",
+      "exampleIndex": 1,
+      "point": "～ってどういう意味(いみ)？",
+      "pattern": "ってどういういみ",
+      "evidence": "ってどういういみ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-133",
+      "exampleIndex": 0,
+      "point": "むしろ",
+      "pattern": "むしろ",
+      "evidence": "むしろ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-133",
+      "exampleIndex": 1,
+      "point": "むしろ",
+      "pattern": "むしろ",
+      "evidence": "むしろ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-134",
+      "exampleIndex": 0,
+      "point": "それでも",
+      "pattern": "それでも",
+      "evidence": "それでも",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-134",
+      "exampleIndex": 1,
+      "point": "それでも",
+      "pattern": "それでも",
+      "evidence": "それでも",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-135",
+      "exampleIndex": 0,
+      "point": "～ないで",
+      "pattern": "ないで",
+      "evidence": "ないで",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-135",
+      "exampleIndex": 1,
+      "point": "～ないで",
+      "pattern": "ないで",
+      "evidence": "ないで",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-136",
+      "exampleIndex": 0,
+      "point": "～ば～ほど",
+      "pattern": "ば.+ほど",
+      "evidence": "ばするほど",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-136",
+      "exampleIndex": 1,
+      "point": "～ば～ほど",
+      "pattern": "ば.+ほど",
+      "evidence": "ばすむほど",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-137",
+      "exampleIndex": 0,
+      "point": "～にとって",
+      "pattern": "にとって",
+      "evidence": "にとって",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-137",
+      "exampleIndex": 1,
+      "point": "～にとって",
+      "pattern": "にとって",
+      "evidence": "にとって",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-138",
+      "exampleIndex": 0,
+      "point": "～じゃなくて",
+      "pattern": "じゃなくて",
+      "evidence": "じゃなくて",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-138",
+      "exampleIndex": 1,
+      "point": "～じゃなくて",
+      "pattern": "じゃなくて",
+      "evidence": "じゃなくて",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-139",
+      "exampleIndex": 0,
+      "point": "～てから",
+      "pattern": "てから",
+      "evidence": "てから",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-139",
+      "exampleIndex": 1,
+      "point": "～てから",
+      "pattern": "てから",
+      "evidence": "てから",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-140",
+      "exampleIndex": 0,
+      "point": "～前(まえ)に",
+      "pattern": "まえに",
+      "evidence": "まえに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-140",
+      "exampleIndex": 1,
+      "point": "～前(まえ)に",
+      "pattern": "まえに",
+      "evidence": "まえに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-141",
+      "exampleIndex": 0,
+      "point": "～とき",
+      "pattern": "とき",
+      "evidence": "とき",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-141",
+      "exampleIndex": 1,
+      "point": "～とき",
+      "pattern": "とき",
+      "evidence": "とき",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-142",
+      "exampleIndex": 0,
+      "point": "たぶん",
+      "pattern": "たぶん",
+      "evidence": "たぶん",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-142",
+      "exampleIndex": 1,
+      "point": "たぶん",
+      "pattern": "たぶん",
+      "evidence": "たぶん",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-143",
+      "exampleIndex": 0,
+      "point": "きっと",
+      "pattern": "きっと",
+      "evidence": "きっと",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-143",
+      "exampleIndex": 1,
+      "point": "きっと",
+      "pattern": "きっと",
+      "evidence": "きっと",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-144",
+      "exampleIndex": 0,
+      "point": "～てもらえますか",
+      "pattern": "てもらえ(?:ますか|る)",
+      "evidence": "てもらえますか",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-144",
+      "exampleIndex": 1,
+      "point": "～てもらえますか",
+      "pattern": "てもらえ(?:ますか|る)",
+      "evidence": "てもらえる",
+      "relationship": "documented-contraction"
+    },
+    {
+      "card": "grammar-card-145",
+      "exampleIndex": 0,
+      "point": "～ことが多(おお)い",
+      "pattern": "ことがおおい",
+      "evidence": "ことがおおい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-145",
+      "exampleIndex": 1,
+      "point": "～ことが多(おお)い",
+      "pattern": "ことがおおい",
+      "evidence": "ことがおおい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-146",
+      "exampleIndex": 0,
+      "point": "～のが得意(とくい)",
+      "pattern": "のがとくい",
+      "evidence": "のがとくい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-146",
+      "exampleIndex": 1,
+      "point": "～のが得意(とくい)",
+      "pattern": "のがとくい",
+      "evidence": "のがとくい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-147",
+      "exampleIndex": 0,
+      "point": "～のが苦手(にがて)",
+      "pattern": "のがにがて",
+      "evidence": "のがにがて",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-147",
+      "exampleIndex": 1,
+      "point": "～のが苦手(にがて)",
+      "pattern": "のがにがて",
+      "evidence": "のがにがて",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-148",
+      "exampleIndex": 0,
+      "point": "～のが好(す)き",
+      "pattern": "のがすき",
+      "evidence": "のがすき",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-148",
+      "exampleIndex": 1,
+      "point": "～のが好(す)き",
+      "pattern": "のがすき",
+      "evidence": "のがすき",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-149",
+      "exampleIndex": 0,
+      "point": "～のが嫌い(きらい)",
+      "pattern": "のがきらい",
+      "evidence": "のがきらい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-149",
+      "exampleIndex": 1,
+      "point": "～のが嫌い(きらい)",
+      "pattern": "のがきらい",
+      "evidence": "のがきらい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-150",
+      "exampleIndex": 0,
+      "point": "～間(あいだ)",
+      "pattern": "あいだ",
+      "evidence": "あいだ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-150",
+      "exampleIndex": 1,
+      "point": "～間(あいだ)",
+      "pattern": "あいだ",
+      "evidence": "あいだ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-151",
+      "exampleIndex": 0,
+      "point": "～まで",
+      "pattern": "まで",
+      "evidence": "まで",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-151",
+      "exampleIndex": 1,
+      "point": "～まで",
+      "pattern": "まで",
+      "evidence": "まで",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-152",
+      "exampleIndex": 0,
+      "point": "～までに",
+      "pattern": "までに",
+      "evidence": "までに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-152",
+      "exampleIndex": 1,
+      "point": "～までに",
+      "pattern": "までに",
+      "evidence": "までに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-153",
+      "exampleIndex": 0,
+      "point": "～と",
+      "pattern": "と",
+      "evidence": "と",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-153",
+      "exampleIndex": 1,
+      "point": "～と",
+      "pattern": "と",
+      "evidence": "と",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-154",
+      "exampleIndex": 0,
+      "point": "V dictionary + な",
+      "pattern": "しんぱいするな",
+      "evidence": "しんぱいするな",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-154",
+      "exampleIndex": 1,
+      "point": "V dictionary + な",
+      "pattern": "しんぱいするな",
+      "evidence": "しんぱいするな",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-155",
+      "exampleIndex": 0,
+      "point": "V dictionary + 人(ひと)",
+      "pattern": "りょこうするひと",
+      "evidence": "りょこうするひと",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-155",
+      "exampleIndex": 1,
+      "point": "V dictionary + 人(ひと)",
+      "pattern": "りょこうするひと",
+      "evidence": "りょこうするひと",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-156",
+      "exampleIndex": 0,
+      "point": "V dictionary + もの",
+      "pattern": "もっていくもの",
+      "evidence": "もっていくもの",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-156",
+      "exampleIndex": 1,
+      "point": "V dictionary + もの",
+      "pattern": "もっていくもの",
+      "evidence": "もっていくもの",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-157",
+      "exampleIndex": 0,
+      "point": "V dictionary + 場所(ばしょ)",
+      "pattern": "とまるばしょ",
+      "evidence": "とまるばしょ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-157",
+      "exampleIndex": 1,
+      "point": "V dictionary + 場所(ばしょ)",
+      "pattern": "とまるばしょ",
+      "evidence": "とまるばしょ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-158",
+      "exampleIndex": 0,
+      "point": "V dictionary + 時間(じかん)",
+      "pattern": "やすむじかん",
+      "evidence": "やすむじかん",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-158",
+      "exampleIndex": 1,
+      "point": "V dictionary + 時間(じかん)",
+      "pattern": "やすむじかん",
+      "evidence": "やすむじかん",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-159",
+      "exampleIndex": 0,
+      "point": "V dictionary + 方法(ほうほう)",
+      "pattern": "べんきょうするほうほう",
+      "evidence": "べんきょうするほうほう",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-159",
+      "exampleIndex": 1,
+      "point": "V dictionary + 方法(ほうほう)",
+      "pattern": "べんきょうするほうほう",
+      "evidence": "べんきょうするほうほう",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-160",
+      "exampleIndex": 0,
+      "point": "～ないで済む(すむ)",
+      "pattern": "ないです(?:みました|んだ)",
+      "evidence": "ないですみました",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-160",
+      "exampleIndex": 1,
+      "point": "～ないで済む(すむ)",
+      "pattern": "ないです(?:みました|んだ)",
+      "evidence": "ないですんだ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-161",
+      "exampleIndex": 0,
+      "point": "～ないことはない",
+      "pattern": "ないことはない",
+      "evidence": "ないことはない",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-161",
+      "exampleIndex": 1,
+      "point": "～ないことはない",
+      "pattern": "ないことはない",
+      "evidence": "ないことはない",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-162",
+      "exampleIndex": 0,
+      "point": "～ないでほしい",
+      "pattern": "ないでほしい",
+      "evidence": "ないでほしい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-162",
+      "exampleIndex": 1,
+      "point": "～ないでほしい",
+      "pattern": "ないでほしい",
+      "evidence": "ないでほしい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-163",
+      "exampleIndex": 0,
+      "point": "～てからでないと",
+      "pattern": "てから(?:でないと|じゃないと)",
+      "evidence": "てからでないと",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-163",
+      "exampleIndex": 1,
+      "point": "～てからでないと",
+      "pattern": "てから(?:でないと|じゃないと)",
+      "evidence": "てからじゃないと",
+      "relationship": "documented-contraction"
+    },
+    {
+      "card": "grammar-card-164",
+      "exampleIndex": 0,
+      "point": "～て以来(いらい)",
+      "pattern": "ていらい",
+      "evidence": "ていらい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-164",
+      "exampleIndex": 1,
+      "point": "～て以来(いらい)",
+      "pattern": "ていらい",
+      "evidence": "ていらい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-165",
+      "exampleIndex": 0,
+      "point": "～ても意味(いみ)がない",
+      "pattern": "でもいみが(?:ありません|ない)",
+      "evidence": "でもいみがありません",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-165",
+      "exampleIndex": 1,
+      "point": "～ても意味(いみ)がない",
+      "pattern": "でもいみが(?:ありません|ない)",
+      "evidence": "でもいみがない",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-166",
+      "exampleIndex": 0,
+      "point": "～ても無駄(むだ)",
+      "pattern": "てもむだ",
+      "evidence": "てもむだ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-166",
+      "exampleIndex": 1,
+      "point": "～ても無駄(むだ)",
+      "pattern": "てもむだ",
+      "evidence": "てもむだ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-167",
+      "exampleIndex": 0,
+      "point": "～てごめん",
+      "pattern": "てごめん",
+      "evidence": "てごめん",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-167",
+      "exampleIndex": 1,
+      "point": "～てごめん",
+      "pattern": "てごめん",
+      "evidence": "てごめん",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-168",
+      "exampleIndex": 0,
+      "point": "～てすみません",
+      "pattern": "てすみません",
+      "evidence": "てすみません",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-168",
+      "exampleIndex": 1,
+      "point": "～てすみません",
+      "pattern": "てすみません",
+      "evidence": "てすみません",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-169",
+      "exampleIndex": 0,
+      "point": "～てくれてありがとう",
+      "pattern": "てくれてありがとう",
+      "evidence": "てくれてありがとう",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-169",
+      "exampleIndex": 1,
+      "point": "～てくれてありがとう",
+      "pattern": "てくれてありがとう",
+      "evidence": "てくれてありがとう",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-170",
+      "exampleIndex": 0,
+      "point": "～てほしくない",
+      "pattern": "てほしくない",
+      "evidence": "てほしくない",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-170",
+      "exampleIndex": 1,
+      "point": "～てほしくない",
+      "pattern": "てほしくない",
+      "evidence": "てほしくない",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-171",
+      "exampleIndex": 0,
+      "point": "～てしまってごめん",
+      "pattern": "(?:てしまってごめん|ちゃってごめん)",
+      "evidence": "てしまってごめん",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-171",
+      "exampleIndex": 1,
+      "point": "～てしまってごめん",
+      "pattern": "(?:てしまってごめん|ちゃってごめん)",
+      "evidence": "ちゃってごめん",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-172",
+      "exampleIndex": 0,
+      "point": "～ている間(あいだ)",
+      "pattern": "(?:ている|てる)あいだ",
+      "evidence": "ているあいだ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-172",
+      "exampleIndex": 1,
+      "point": "～ている間(あいだ)",
+      "pattern": "(?:ている|てる)あいだ",
+      "evidence": "てるあいだ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-173",
+      "exampleIndex": 0,
+      "point": "～ている間に(あいだに)",
+      "pattern": "(?:ている|てる)あいだに",
+      "evidence": "ているあいだに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-173",
+      "exampleIndex": 1,
+      "point": "～ている間に(あいだに)",
+      "pattern": "(?:ている|てる)あいだに",
+      "evidence": "てるあいだに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-174",
+      "exampleIndex": 0,
+      "point": "～てくださってありがとうございます",
+      "pattern": "てくださってありがとうございます",
+      "evidence": "てくださってありがとうございます",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-174",
+      "exampleIndex": 1,
+      "point": "～てくださってありがとうございます",
+      "pattern": "てくださってありがとうございます",
+      "evidence": "てくださってありがとうございます",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-175",
+      "exampleIndex": 0,
+      "point": "～てもらいたい",
+      "pattern": "てもらいたい",
+      "evidence": "てもらいたい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-175",
+      "exampleIndex": 1,
+      "point": "～てもらいたい",
+      "pattern": "てもらいたい",
+      "evidence": "てもらいたい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-176",
+      "exampleIndex": 0,
+      "point": "～ていただきたい",
+      "pattern": "ていただきたい",
+      "evidence": "ていただきたい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-176",
+      "exampleIndex": 1,
+      "point": "～ていただきたい",
+      "pattern": "ていただきたい",
+      "evidence": "ていただきたい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-177",
+      "exampleIndex": 0,
+      "point": "～てくれると助(たす)かる",
+      "pattern": "てくれるとたすか(?:ります|る)",
+      "evidence": "てくれるとたすかります",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-177",
+      "exampleIndex": 1,
+      "point": "～てくれると助(たす)かる",
+      "pattern": "てくれるとたすか(?:ります|る)",
+      "evidence": "てくれるとたすかる",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-178",
+      "exampleIndex": 0,
+      "point": "～たらどう？",
+      "pattern": "たらどう",
+      "evidence": "たらどう",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-178",
+      "exampleIndex": 1,
+      "point": "～たらどう？",
+      "pattern": "たらどう",
+      "evidence": "たらどう",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-179",
+      "exampleIndex": 0,
+      "point": "V た-form + こと",
+      "pattern": "いったこと",
+      "evidence": "いったこと",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-179",
+      "exampleIndex": 1,
+      "point": "V た-form + こと",
+      "pattern": "いったこと",
+      "evidence": "いったこと",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-180",
+      "exampleIndex": 0,
+      "point": "V た-form + 人(ひと)",
+      "pattern": "でんわしてきたひと",
+      "evidence": "でんわしてきたひと",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-180",
+      "exampleIndex": 1,
+      "point": "V た-form + 人(ひと)",
+      "pattern": "でんわしてきたひと",
+      "evidence": "でんわしてきたひと",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-181",
+      "exampleIndex": 0,
+      "point": "V た-form + もの",
+      "pattern": "かったもの",
+      "evidence": "かったもの",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-181",
+      "exampleIndex": 1,
+      "point": "V た-form + もの",
+      "pattern": "かったもの",
+      "evidence": "かったもの",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-182",
+      "exampleIndex": 0,
+      "point": "Past plain clause + 理由(りゆう)",
+      "pattern": "こなかったりゆう",
+      "evidence": "こなかったりゆう",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-182",
+      "exampleIndex": 1,
+      "point": "Past plain clause + 理由(りゆう)",
+      "pattern": "こなかったりゆう",
+      "evidence": "こなかったりゆう",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-183",
+      "exampleIndex": 0,
+      "point": "～た以上(いじょう)",
+      "pattern": "たいじょう",
+      "evidence": "たいじょう",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-183",
+      "exampleIndex": 1,
+      "point": "～た以上(いじょう)",
+      "pattern": "たいじょう",
+      "evidence": "たいじょう",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-184",
+      "exampleIndex": 0,
+      "point": "～た結果(けっか)",
+      "pattern": "たけっか",
+      "evidence": "たけっか",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-184",
+      "exampleIndex": 1,
+      "point": "～た結果(けっか)",
+      "pattern": "たけっか",
+      "evidence": "たけっか",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-185",
+      "exampleIndex": 0,
+      "point": "V stem + 忘(わす)れる",
+      "pattern": "かけわすれ(?:ました|た)",
+      "evidence": "かけわすれました",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-185",
+      "exampleIndex": 1,
+      "point": "V stem + 忘(わす)れる",
+      "pattern": "かけわすれ(?:ました|た)",
+      "evidence": "かけわすれた",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-186",
+      "exampleIndex": 0,
+      "point": "Volitional + とする",
+      "pattern": "ようとしたら",
+      "evidence": "ようとしたら",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-186",
+      "exampleIndex": 1,
+      "point": "Volitional + とする",
+      "pattern": "ようとしたら",
+      "evidence": "ようとしたら",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-187",
+      "exampleIndex": 0,
+      "point": "Volitional + としない",
+      "pattern": "そうとし(?:ません|ない)",
+      "evidence": "そうとしません",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-187",
+      "exampleIndex": 1,
+      "point": "Volitional + としない",
+      "pattern": "そうとし(?:ません|ない)",
+      "evidence": "そうとしない",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-188",
+      "exampleIndex": 0,
+      "point": "～ていく",
+      "pattern": "てい(?:きます|く)",
+      "evidence": "ていきます",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-188",
+      "exampleIndex": 1,
+      "point": "～ていく",
+      "pattern": "てい(?:きます|く)",
+      "evidence": "ていく",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-189",
+      "exampleIndex": 0,
+      "point": "～てくる",
+      "pattern": "てき(?:ました|た)",
+      "evidence": "てきました",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-189",
+      "exampleIndex": 1,
+      "point": "～てくる",
+      "pattern": "てき(?:ました|た)",
+      "evidence": "てきた",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-190",
+      "exampleIndex": 0,
+      "point": "～じゃん",
+      "pattern": "(?:じゃないですか|じゃん)",
+      "evidence": "じゃないですか",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-190",
+      "exampleIndex": 1,
+      "point": "～じゃん",
+      "pattern": "(?:じゃないですか|じゃん)",
+      "evidence": "じゃん",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-191",
+      "exampleIndex": 0,
+      "point": "～んじゃん",
+      "pattern": "(?:ているんですね|てるんじゃん)",
+      "evidence": "ているんですね",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-191",
+      "exampleIndex": 1,
+      "point": "～んじゃん",
+      "pattern": "(?:ているんですね|てるんじゃん)",
+      "evidence": "てるんじゃん",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-192",
+      "exampleIndex": 0,
+      "point": "～の？",
+      "pattern": "(?:んですか|の[？?])",
+      "evidence": "んですか",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-192",
+      "exampleIndex": 1,
+      "point": "～の？",
+      "pattern": "(?:んですか|の[？?])",
+      "evidence": "の？",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-193",
+      "exampleIndex": 0,
+      "point": "～なの？",
+      "pattern": "(?:なんですか|なの[？?])",
+      "evidence": "なんですか",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-193",
+      "exampleIndex": 1,
+      "point": "～なの？",
+      "pattern": "(?:なんですか|なの[？?])",
+      "evidence": "なの？",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-194",
+      "exampleIndex": 0,
+      "point": "～たの？",
+      "pattern": "(?:たんですか|たの[？?])",
+      "evidence": "たんですか",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-194",
+      "exampleIndex": 1,
+      "point": "～たの？",
+      "pattern": "(?:たんですか|たの[？?])",
+      "evidence": "たの？",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-195",
+      "exampleIndex": 0,
+      "point": "～ないの？",
+      "pattern": "(?:ないんですか|ないの[？?])",
+      "evidence": "ないんですか",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-195",
+      "exampleIndex": 1,
+      "point": "～ないの？",
+      "pattern": "(?:ないんですか|ないの[？?])",
+      "evidence": "ないの？",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-196",
+      "exampleIndex": 0,
+      "point": "～てるの？",
+      "pattern": "(?:ているんですか|てるの[？?])",
+      "evidence": "ているんですか",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-196",
+      "exampleIndex": 1,
+      "point": "～てるの？",
+      "pattern": "(?:ているんですか|てるの[？?])",
+      "evidence": "てるの？",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-197",
+      "exampleIndex": 0,
+      "point": "～たいの？",
+      "pattern": "(?:たいんですか|たいの[？?])",
+      "evidence": "たいんですか",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-197",
+      "exampleIndex": 1,
+      "point": "～たいの？",
+      "pattern": "(?:たいんですか|たいの[？?])",
+      "evidence": "たいの？",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-198",
+      "exampleIndex": 0,
+      "point": "～っていうの",
+      "pattern": "(?:というのは|っていうの)",
+      "evidence": "というのは",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-198",
+      "exampleIndex": 1,
+      "point": "～っていうの",
+      "pattern": "(?:というのは|っていうの)",
+      "evidence": "っていうの",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-199",
+      "exampleIndex": 0,
+      "point": "～っていうのは",
+      "pattern": "(?:というのは|っていうのは)",
+      "evidence": "というのは",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-199",
+      "exampleIndex": 1,
+      "point": "～っていうのは",
+      "pattern": "(?:というのは|っていうのは)",
+      "evidence": "っていうのは",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-200",
+      "exampleIndex": 0,
+      "point": "～ってこと？",
+      "pattern": "(?:ということですか|ってこと[？?])",
+      "evidence": "ということですか",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-200",
+      "exampleIndex": 1,
+      "point": "～ってこと？",
+      "pattern": "(?:ということですか|ってこと[？?])",
+      "evidence": "ってこと？",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-201",
+      "exampleIndex": 0,
+      "point": "～って感(かん)じ",
+      "pattern": "(?:というかんじ|ってかんじ)",
+      "evidence": "というかんじ",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-201",
+      "exampleIndex": 1,
+      "point": "～って感(かん)じ",
+      "pattern": "(?:というかんじ|ってかんじ)",
+      "evidence": "ってかんじ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-202",
+      "exampleIndex": 0,
+      "point": "～とか",
+      "pattern": "(?:や.+など|とか.+とか)",
+      "evidence": "やくだものなど",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-202",
+      "exampleIndex": 1,
+      "point": "～とか",
+      "pattern": "(?:や.+など|とか.+とか)",
+      "evidence": "とかくだものとか",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-203",
+      "exampleIndex": 0,
+      "point": "～とかって",
+      "pattern": "(?:というようなはなし|とかって)",
+      "evidence": "というようなはなし",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-203",
+      "exampleIndex": 1,
+      "point": "～とかって",
+      "pattern": "(?:というようなはなし|とかって)",
+      "evidence": "とかって",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-204",
+      "exampleIndex": 0,
+      "point": "～たりして",
+      "pattern": "(?:かもしれません|たりして)",
+      "evidence": "かもしれません",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-204",
+      "exampleIndex": 1,
+      "point": "～たりして",
+      "pattern": "(?:かもしれません|たりして)",
+      "evidence": "たりして",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-205",
+      "exampleIndex": 0,
+      "point": "～たりとか",
+      "pattern": "(?:たりしています|たりとかしてる)",
+      "evidence": "たりしています",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-205",
+      "exampleIndex": 1,
+      "point": "～たりとか",
+      "pattern": "(?:たりしています|たりとかしてる)",
+      "evidence": "たりとかしてる",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-206",
+      "exampleIndex": 0,
+      "point": "～とけばよかった",
+      "pattern": "(?:ておけばよかった|とけばよかった)",
+      "evidence": "ておけばよかった",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-206",
+      "exampleIndex": 1,
+      "point": "～とけばよかった",
+      "pattern": "(?:ておけばよかった|とけばよかった)",
+      "evidence": "とけばよかった",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-207",
+      "exampleIndex": 0,
+      "point": "～なきゃよかった",
+      "pattern": "(?:なければよかった|なきゃよかった)",
+      "evidence": "なければよかった",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-207",
+      "exampleIndex": 1,
+      "point": "～なきゃよかった",
+      "pattern": "(?:なければよかった|なきゃよかった)",
+      "evidence": "なきゃよかった",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-208",
+      "exampleIndex": 0,
+      "point": "～なくちゃ",
+      "pattern": "(?:なくてはいけません|なくちゃ)",
+      "evidence": "なくてはいけません",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-208",
+      "exampleIndex": 1,
+      "point": "～なくちゃ",
+      "pattern": "(?:なくてはいけません|なくちゃ)",
+      "evidence": "なくちゃ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-209",
+      "exampleIndex": 0,
+      "point": "～ていい？",
+      "pattern": "(?:てもいいですか|ていい[？?])",
+      "evidence": "てもいいですか",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-209",
+      "exampleIndex": 1,
+      "point": "～ていい？",
+      "pattern": "(?:てもいいですか|ていい[？?])",
+      "evidence": "ていい？",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-210",
+      "exampleIndex": 0,
+      "point": "～てくれる？",
+      "pattern": "てくれ(?:ますか|る[？?])",
+      "evidence": "てくれますか",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-210",
+      "exampleIndex": 1,
+      "point": "～てくれる？",
+      "pattern": "てくれ(?:ますか|る[？?])",
+      "evidence": "てくれる？",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-211",
+      "exampleIndex": 0,
+      "point": "～てもらっていい？",
+      "pattern": "てもらって(?:もいいですか|いい[？?])",
+      "evidence": "てもらってもいいですか",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-211",
+      "exampleIndex": 1,
+      "point": "～てもらっていい？",
+      "pattern": "てもらって(?:もいいですか|いい[？?])",
+      "evidence": "てもらっていい？",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-212",
+      "exampleIndex": 0,
+      "point": "～なんか",
+      "pattern": "(?:なんとなく|なんか)",
+      "evidence": "なんとなく",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-212",
+      "exampleIndex": 1,
+      "point": "～なんか",
+      "pattern": "(?:なんとなく|なんか)",
+      "evidence": "なんか",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-213",
+      "exampleIndex": 0,
+      "point": "～なんて",
+      "pattern": "(?:とは|なんて)",
+      "evidence": "とは",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-213",
+      "exampleIndex": 1,
+      "point": "～なんて",
+      "pattern": "(?:とは|なんて)",
+      "evidence": "なんて",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-214",
+      "exampleIndex": 0,
+      "point": "～とかなんとか",
+      "pattern": "(?:というようなこと|とかなんとか)",
+      "evidence": "というようなこと",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-214",
+      "exampleIndex": 1,
+      "point": "～とかなんとか",
+      "pattern": "(?:というようなこと|とかなんとか)",
+      "evidence": "とかなんとか",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-215",
+      "exampleIndex": 0,
+      "point": "～てか",
+      "pattern": "(?:というより|てか)",
+      "evidence": "というより",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-215",
+      "exampleIndex": 1,
+      "point": "～てか",
+      "pattern": "(?:というより|てか)",
+      "evidence": "てか",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-216",
+      "exampleIndex": 0,
+      "point": "～って思(おも)ってた",
+      "pattern": "(?:とおもっていました|っておもってた)",
+      "evidence": "とおもっていました",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-216",
+      "exampleIndex": 1,
+      "point": "～って思(おも)ってた",
+      "pattern": "(?:とおもっていました|っておもってた)",
+      "evidence": "っておもってた",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-217",
+      "exampleIndex": 0,
+      "point": "～って聞(き)いた",
+      "pattern": "(?:とききました|ってきいた)",
+      "evidence": "とききました",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-217",
+      "exampleIndex": 1,
+      "point": "～って聞(き)いた",
+      "pattern": "(?:とききました|ってきいた)",
+      "evidence": "ってきいた",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-218",
+      "exampleIndex": 0,
+      "point": "～って言(い)う",
+      "pattern": "(?:といいます|っていう)",
+      "evidence": "といいます",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-218",
+      "exampleIndex": 1,
+      "point": "～って言(い)う",
+      "pattern": "(?:といいます|っていう)",
+      "evidence": "っていう",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-219",
+      "exampleIndex": 0,
+      "point": "～んじゃないかと思(おも)う",
+      "pattern": "(?:のではないかとおもいます|んじゃないかとおもう)",
+      "evidence": "のではないかとおもいます",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-219",
+      "exampleIndex": 1,
+      "point": "～んじゃないかと思(おも)う",
+      "pattern": "(?:のではないかとおもいます|んじゃないかとおもう)",
+      "evidence": "んじゃないかとおもう",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-220",
+      "exampleIndex": 0,
+      "point": "～なくていい",
+      "pattern": "なくて(?:も)?いい",
+      "evidence": "なくてもいい",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-220",
+      "exampleIndex": 1,
+      "point": "～なくていい",
+      "pattern": "なくて(?:も)?いい",
+      "evidence": "なくていい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-221",
+      "exampleIndex": 0,
+      "point": "～といて",
+      "pattern": "(?:ておいてください|といて)",
+      "evidence": "ておいてください",
+      "relationship": "explicit-polite-equivalent"
+    },
+    {
+      "card": "grammar-card-221",
+      "exampleIndex": 1,
+      "point": "～といて",
+      "pattern": "(?:ておいてください|といて)",
+      "evidence": "といて",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-222",
+      "exampleIndex": 0,
+      "point": "～に合(あ)わせて",
+      "pattern": "にあわせて",
+      "evidence": "にあわせて",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-222",
+      "exampleIndex": 1,
+      "point": "～に合(あ)わせて",
+      "pattern": "にあわせて",
+      "evidence": "にあわせて",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-223",
+      "exampleIndex": 0,
+      "point": "～に応(おう)じて",
+      "pattern": "におうじて",
+      "evidence": "におうじて",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-223",
+      "exampleIndex": 1,
+      "point": "～に応(おう)じて",
+      "pattern": "におうじて",
+      "evidence": "におうじて",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-224",
+      "exampleIndex": 0,
+      "point": "～を通(とお)して",
+      "pattern": "をとおして",
+      "evidence": "をとおして",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-224",
+      "exampleIndex": 1,
+      "point": "～を通(とお)して",
+      "pattern": "をとおして",
+      "evidence": "をとおして",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-225",
+      "exampleIndex": 0,
+      "point": "～をきっかけに",
+      "pattern": "をきっかけに",
+      "evidence": "をきっかけに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-225",
+      "exampleIndex": 1,
+      "point": "～をきっかけに",
+      "pattern": "をきっかけに",
+      "evidence": "をきっかけに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-226",
+      "exampleIndex": 0,
+      "point": "～につれて",
+      "pattern": "につれて",
+      "evidence": "につれて",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-226",
+      "exampleIndex": 1,
+      "point": "～につれて",
+      "pattern": "につれて",
+      "evidence": "につれて",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-227",
+      "exampleIndex": 0,
+      "point": "～とともに",
+      "pattern": "とともに",
+      "evidence": "とともに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-227",
+      "exampleIndex": 1,
+      "point": "～とともに",
+      "pattern": "とともに",
+      "evidence": "とともに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-228",
+      "exampleIndex": 0,
+      "point": "～だけで",
+      "pattern": "だけで",
+      "evidence": "だけで",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-228",
+      "exampleIndex": 1,
+      "point": "～だけで",
+      "pattern": "だけで",
+      "evidence": "だけで",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-229",
+      "exampleIndex": 0,
+      "point": "～だけでも",
+      "pattern": "だけでも",
+      "evidence": "だけでも",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-229",
+      "exampleIndex": 1,
+      "point": "～だけでも",
+      "pattern": "だけでも",
+      "evidence": "だけでも",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-230",
+      "exampleIndex": 0,
+      "point": "～さえあれば",
+      "pattern": "さえあれば",
+      "evidence": "さえあれば",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-230",
+      "exampleIndex": 1,
+      "point": "～さえあれば",
+      "pattern": "さえあれば",
+      "evidence": "さえあれば",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-231",
+      "exampleIndex": 0,
+      "point": "～まで (意外(いがい)な範囲(はんい))",
+      "pattern": "まで",
+      "evidence": "まで",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-231",
+      "exampleIndex": 1,
+      "point": "～まで (意外(いがい)な範囲(はんい))",
+      "pattern": "まで",
+      "evidence": "まで",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-232",
+      "exampleIndex": 0,
+      "point": "～にしか～ない",
+      "pattern": "にしかない",
+      "evidence": "にしかない",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-232",
+      "exampleIndex": 1,
+      "point": "～にしか～ない",
+      "pattern": "にしかない",
+      "evidence": "にしかない",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-233",
+      "exampleIndex": 0,
+      "point": "～わりに",
+      "pattern": "わりに",
+      "evidence": "わりに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-233",
+      "exampleIndex": 1,
+      "point": "～わりに",
+      "pattern": "わりに",
+      "evidence": "わりに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-234",
+      "exampleIndex": 0,
+      "point": "～くせに",
+      "pattern": "くせに",
+      "evidence": "くせに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-234",
+      "exampleIndex": 1,
+      "point": "～くせに",
+      "pattern": "くせに",
+      "evidence": "くせに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-235",
+      "exampleIndex": 0,
+      "point": "～ものの",
+      "pattern": "ものの",
+      "evidence": "ものの",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-235",
+      "exampleIndex": 1,
+      "point": "～ものの",
+      "pattern": "ものの",
+      "evidence": "ものの",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-236",
+      "exampleIndex": 0,
+      "point": "～ながらも",
+      "pattern": "ながらも",
+      "evidence": "ながらも",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-236",
+      "exampleIndex": 1,
+      "point": "～ながらも",
+      "pattern": "ながらも",
+      "evidence": "ながらも",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-237",
+      "exampleIndex": 0,
+      "point": "～とはいえ",
+      "pattern": "とはいえ",
+      "evidence": "とはいえ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-237",
+      "exampleIndex": 1,
+      "point": "～とはいえ",
+      "pattern": "とはいえ",
+      "evidence": "とはいえ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-238",
+      "exampleIndex": 0,
+      "point": "～からといって",
+      "pattern": "からといって",
+      "evidence": "からといって",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-238",
+      "exampleIndex": 1,
+      "point": "～からといって",
+      "pattern": "からといって",
+      "evidence": "からといって",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-239",
+      "exampleIndex": 0,
+      "point": "～といっても",
+      "pattern": "といっても",
+      "evidence": "といっても",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-239",
+      "exampleIndex": 1,
+      "point": "～といっても",
+      "pattern": "といっても",
+      "evidence": "といっても",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-240",
+      "exampleIndex": 0,
+      "point": "～というと",
+      "pattern": "というと",
+      "evidence": "というと",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-240",
+      "exampleIndex": 1,
+      "point": "～というと",
+      "pattern": "というと",
+      "evidence": "というと",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-241",
+      "exampleIndex": 0,
+      "point": "～といえば",
+      "pattern": "といえば",
+      "evidence": "といえば",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-241",
+      "exampleIndex": 1,
+      "point": "～といえば",
+      "pattern": "といえば",
+      "evidence": "といえば",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-242",
+      "exampleIndex": 0,
+      "point": "～にしては",
+      "pattern": "にしては",
+      "evidence": "にしては",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-242",
+      "exampleIndex": 1,
+      "point": "～にしては",
+      "pattern": "にしては",
+      "evidence": "にしては",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-243",
+      "exampleIndex": 0,
+      "point": "～だけあって",
+      "pattern": "だけあって",
+      "evidence": "だけあって",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-243",
+      "exampleIndex": 1,
+      "point": "～だけあって",
+      "pattern": "だけあって",
+      "evidence": "だけあって",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-244",
+      "exampleIndex": 0,
+      "point": "～だけに",
+      "pattern": "だけに",
+      "evidence": "だけに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-244",
+      "exampleIndex": 1,
+      "point": "～だけに",
+      "pattern": "だけに",
+      "evidence": "だけに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-245",
+      "exampleIndex": 0,
+      "point": "～せいか",
+      "pattern": "せいか",
+      "evidence": "せいか",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-245",
+      "exampleIndex": 1,
+      "point": "～せいか",
+      "pattern": "せいか",
+      "evidence": "せいか",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-246",
+      "exampleIndex": 0,
+      "point": "～ことから",
+      "pattern": "ことから",
+      "evidence": "ことから",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-246",
+      "exampleIndex": 1,
+      "point": "～ことから",
+      "pattern": "ことから",
+      "evidence": "ことから",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-247",
+      "exampleIndex": 0,
+      "point": "～上(うえ)で",
+      "pattern": "(?:た|だ)うえで",
+      "evidence": "たうえで",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-247",
+      "exampleIndex": 1,
+      "point": "～上(うえ)で",
+      "pattern": "(?:た|だ)うえで",
+      "evidence": "たうえで",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-248",
+      "exampleIndex": 0,
+      "point": "～上(うえ)に",
+      "pattern": "うえに",
+      "evidence": "うえに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-248",
+      "exampleIndex": 1,
+      "point": "～上(うえ)に",
+      "pattern": "うえに",
+      "evidence": "うえに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-249",
+      "exampleIndex": 0,
+      "point": "～最中(さいちゅう)に",
+      "pattern": "さいちゅうに",
+      "evidence": "さいちゅうに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-249",
+      "exampleIndex": 1,
+      "point": "～最中(さいちゅう)に",
+      "pattern": "さいちゅうに",
+      "evidence": "さいちゅうに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-250",
+      "exampleIndex": 0,
+      "point": "～ついでに",
+      "pattern": "ついでに",
+      "evidence": "ついでに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-250",
+      "exampleIndex": 1,
+      "point": "～ついでに",
+      "pattern": "ついでに",
+      "evidence": "ついでに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-251",
+      "exampleIndex": 0,
+      "point": "～たところ (発見(はっけん))",
+      "pattern": "たところ",
+      "evidence": "たところ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-251",
+      "exampleIndex": 1,
+      "point": "～たところ (発見(はっけん))",
+      "pattern": "たところ",
+      "evidence": "たところ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-252",
+      "exampleIndex": 0,
+      "point": "～て初(はじ)めて",
+      "pattern": "てはじめて",
+      "evidence": "てはじめて",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-252",
+      "exampleIndex": 1,
+      "point": "～て初(はじ)めて",
+      "pattern": "てはじめて",
+      "evidence": "てはじめて",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-253",
+      "exampleIndex": 0,
+      "point": "～ないうちに",
+      "pattern": "ないうちに",
+      "evidence": "ないうちに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-253",
+      "exampleIndex": 1,
+      "point": "～ないうちに",
+      "pattern": "ないうちに",
+      "evidence": "ないうちに",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-254",
+      "exampleIndex": 0,
+      "point": "～ように見(み)える",
+      "pattern": "ようにみえ(?:ます|る)",
+      "evidence": "ようにみえます",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-254",
+      "exampleIndex": 1,
+      "point": "～ように見(み)える",
+      "pattern": "ようにみえ(?:ます|る)",
+      "evidence": "ようにみえる",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-255",
+      "exampleIndex": 0,
+      "point": "～ように感(かん)じる",
+      "pattern": "ようにかんじ(?:ます|る)",
+      "evidence": "ようにかんじます",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-255",
+      "exampleIndex": 1,
+      "point": "～ように感(かん)じる",
+      "pattern": "ようにかんじ(?:ます|る)",
+      "evidence": "ようにかんじる",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-256",
+      "exampleIndex": 0,
+      "point": "～気味(ぎみ)",
+      "pattern": "ぎみ",
+      "evidence": "ぎみ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-256",
+      "exampleIndex": 1,
+      "point": "～気味(ぎみ)",
+      "pattern": "ぎみ",
+      "evidence": "ぎみ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-257",
+      "exampleIndex": 0,
+      "point": "～がち",
+      "pattern": "がち",
+      "evidence": "がち",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-257",
+      "exampleIndex": 1,
+      "point": "～がち",
+      "pattern": "がち",
+      "evidence": "がち",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-258",
+      "exampleIndex": 0,
+      "point": "～わけがない",
+      "pattern": "わけが(?:ありません|ない)",
+      "evidence": "わけがありません",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-258",
+      "exampleIndex": 1,
+      "point": "～わけがない",
+      "pattern": "わけが(?:ありません|ない)",
+      "evidence": "わけがない",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-259",
+      "exampleIndex": 0,
+      "point": "～とは限(かぎ)らない",
+      "pattern": "とはかぎ(?:りません|らない)",
+      "evidence": "とはかぎりません",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-259",
+      "exampleIndex": 1,
+      "point": "～とは限(かぎ)らない",
+      "pattern": "とはかぎ(?:りません|らない)",
+      "evidence": "とはかぎらない",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-260",
+      "exampleIndex": 0,
+      "point": "～ようなら",
+      "pattern": "ようなら",
+      "evidence": "ようなら",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-260",
+      "exampleIndex": 1,
+      "point": "～ようなら",
+      "pattern": "ようなら",
+      "evidence": "ようなら",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-261",
+      "exampleIndex": 0,
+      "point": "～ようだったら",
+      "pattern": "ようだったら",
+      "evidence": "ようだったら",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-261",
+      "exampleIndex": 1,
+      "point": "～ようだったら",
+      "pattern": "ようだったら",
+      "evidence": "ようだったら",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-262",
+      "exampleIndex": 0,
+      "point": "～ならともかく",
+      "pattern": "ならともかく",
+      "evidence": "ならともかく",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-262",
+      "exampleIndex": 1,
+      "point": "～ならともかく",
+      "pattern": "ならともかく",
+      "evidence": "ならともかく",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-263",
+      "exampleIndex": 0,
+      "point": "～どころか",
+      "pattern": "どころか",
+      "evidence": "どころか",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-263",
+      "exampleIndex": 1,
+      "point": "～どころか",
+      "pattern": "どころか",
+      "evidence": "どころか",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-264",
+      "exampleIndex": 0,
+      "point": "～どころではない",
+      "pattern": "どころ(?:ではありません|じゃない)",
+      "evidence": "どころではありません",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-264",
+      "exampleIndex": 1,
+      "point": "～どころではない",
+      "pattern": "どころ(?:ではありません|じゃない)",
+      "evidence": "どころじゃない",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-265",
+      "exampleIndex": 0,
+      "point": "～ことなく",
+      "pattern": "ことなく",
+      "evidence": "ことなく",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-265",
+      "exampleIndex": 1,
+      "point": "～ことなく",
+      "pattern": "ことなく",
+      "evidence": "ことなく",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-266",
+      "exampleIndex": 0,
+      "point": "～ずに済(す)む",
+      "pattern": "ずにす(?:みました|んだ)",
+      "evidence": "ずにすみました",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-266",
+      "exampleIndex": 1,
+      "point": "～ずに済(す)む",
+      "pattern": "ずにす(?:みました|んだ)",
+      "evidence": "ずにすんだ",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-267",
+      "exampleIndex": 0,
+      "point": "～ずにはいられない",
+      "pattern": "ずにはいられ(?:ません|ない)",
+      "evidence": "ずにはいられません",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-267",
+      "exampleIndex": 1,
+      "point": "～ずにはいられない",
+      "pattern": "ずにはいられ(?:ません|ない)",
+      "evidence": "ずにはいられない",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-268",
+      "exampleIndex": 0,
+      "point": "～ないわけにはいかない",
+      "pattern": "ないわけにはい(?:きません|かない)",
+      "evidence": "ないわけにはいきません",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-268",
+      "exampleIndex": 1,
+      "point": "～ないわけにはいかない",
+      "pattern": "ないわけにはい(?:きません|かない)",
+      "evidence": "ないわけにはいかない",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-269",
+      "exampleIndex": 0,
+      "point": "～ても仕方(しかた)がない",
+      "pattern": "(?:てもしかたがありません|てもしょうがない)",
+      "evidence": "てもしかたがありません",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-269",
+      "exampleIndex": 1,
+      "point": "～ても仕方(しかた)がない",
+      "pattern": "(?:てもしかたがありません|てもしょうがない)",
+      "evidence": "てもしょうがない",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-270",
+      "exampleIndex": 0,
+      "point": "～てもいいくらい",
+      "pattern": "てもいいくらい",
+      "evidence": "てもいいくらい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-270",
+      "exampleIndex": 1,
+      "point": "～てもいいくらい",
+      "pattern": "てもいいくらい",
+      "evidence": "てもいいくらい",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-271",
+      "exampleIndex": 0,
+      "point": "～ことに気(き)づく",
+      "pattern": "ことにきづ(?:きました|いた)",
+      "evidence": "ことにきづきました",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-271",
+      "exampleIndex": 1,
+      "point": "～ことに気(き)づく",
+      "pattern": "ことにきづ(?:きました|いた)",
+      "evidence": "ことにきづいた",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-272",
+      "exampleIndex": 0,
+      "point": "～ことに慣(な)れる",
+      "pattern": "ことになれ(?:ました|た)",
+      "evidence": "ことになれました",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-272",
+      "exampleIndex": 1,
+      "point": "～ことに慣(な)れる",
+      "pattern": "ことになれ(?:ました|た)",
+      "evidence": "ことになれた",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-273",
+      "exampleIndex": 0,
+      "point": "～ように気(き)をつける",
+      "pattern": "ようにきをつけて(?:います|る)",
+      "evidence": "ようにきをつけています",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-273",
+      "exampleIndex": 1,
+      "point": "～ように気(き)をつける",
+      "pattern": "ようにきをつけて(?:います|る)",
+      "evidence": "ようにきをつけてる",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-274",
+      "exampleIndex": 0,
+      "point": "～ように心(こころ)がける",
+      "pattern": "ようにこころがけて(?:います|る)",
+      "evidence": "ようにこころがけています",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-274",
+      "exampleIndex": 1,
+      "point": "～ように心(こころ)がける",
+      "pattern": "ようにこころがけて(?:います|る)",
+      "evidence": "ようにこころがけてる",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-275",
+      "exampleIndex": 0,
+      "point": "～に慣(な)れてくる",
+      "pattern": "になれてき(?:ました|た)",
+      "evidence": "になれてきました",
+      "relationship": "target-or-inflected-target"
+    },
+    {
+      "card": "grammar-card-275",
+      "exampleIndex": 1,
+      "point": "～に慣(な)れてくる",
+      "pattern": "になれてき(?:ました|た)",
+      "evidence": "になれてきた",
+      "relationship": "target-or-inflected-target"
+    }
+  ]
+}

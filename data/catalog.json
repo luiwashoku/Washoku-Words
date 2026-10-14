@@ -1216,7 +1216,7 @@
     "category": "conversation",
     "page": "Grammar cards",
     "sortOrder": 11,
-    "title": "文法カード",
+    "title": "文法",
     "gameMode": "vocabulary-cards",
     "grammarCards": true,
     "file": "data/grammar-cards.json",
@@ -1431,7 +1431,7 @@
   {
     "id": "topic-vocabulary-cards",
     "category": "conversation",
-    "title": "単語カード",
+    "title": "単語",
     "page": "Vocabulary topics",
     "file": "data/topic-vocabulary-cards.json",
     "gameMode": "vocabulary-cards",
@@ -1442,7 +1442,7 @@
     "recordedAudioOnly": true,
     "homeOnly": true,
     "searchExcluded": true,
-    "questionCount": 116,
+    "questionCount": 168,
     "wordCount": 1111,
     "topicCount": 23
   },

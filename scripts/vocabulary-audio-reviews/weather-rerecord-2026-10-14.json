@@ -1,0 +1,134 @@
+{
+  "voice": "marin",
+  "model": "gpt-4o-mini-tts",
+  "speed": 1.0,
+  "reason": "User-requested replacement of nine vocabulary clips. Old 木 file was effectively silent; fresh recordings checked for non-silent decoded signal. This is not listening or audible pitch verification.",
+  "entries": [
+    {
+      "key": "き|木",
+      "display": "木",
+      "previous_audio": "audio/lessons/topic-vocabulary-cards/marin-43b3e280da0d5f31af94.mp3",
+      "replacement_audio": "audio/lessons/topic-vocabulary-cards/marin-dcbf0bbd794607c1a25d.mp3",
+      "decoded_signal_check": {
+        "audio": "audio/lessons/topic-vocabulary-cards/marin-dcbf0bbd794607c1a25d.mp3",
+        "rms_16bit": 1894.622,
+        "peak_16bit": 10670,
+        "duration_seconds": 0.456,
+        "non_silent": true,
+        "listening_verified": false
+      }
+    },
+    {
+      "key": "かみなり|雷",
+      "display": "雷",
+      "previous_audio": "audio/lessons/topic-vocabulary-cards/marin-2b4768d1b290ade7ae04.mp3",
+      "replacement_audio": "audio/lessons/topic-vocabulary-cards/marin-218b7854ec5966dbea8d.mp3",
+      "decoded_signal_check": {
+        "audio": "audio/lessons/topic-vocabulary-cards/marin-218b7854ec5966dbea8d.mp3",
+        "rms_16bit": 2251.404,
+        "peak_16bit": 11204,
+        "duration_seconds": 1.968,
+        "non_silent": true,
+        "listening_verified": false
+      }
+    },
+    {
+      "key": "にじ|虹",
+      "display": "虹",
+      "previous_audio": "audio/lessons/topic-vocabulary-cards/marin-ca3685de3b493bc0125f.mp3",
+      "replacement_audio": "audio/lessons/topic-vocabulary-cards/marin-bd04e69308d8e45095e7.mp3",
+      "decoded_signal_check": {
+        "audio": "audio/lessons/topic-vocabulary-cards/marin-bd04e69308d8e45095e7.mp3",
+        "rms_16bit": 2472.533,
+        "peak_16bit": 11349,
+        "duration_seconds": 1.2,
+        "non_silent": true,
+        "listening_verified": false
+      }
+    },
+    {
+      "key": "あおぞら|青空",
+      "display": "青空",
+      "previous_audio": "audio/lessons/topic-vocabulary-cards/marin-e4f23748c949094e5d48.mp3",
+      "replacement_audio": "audio/lessons/topic-vocabulary-cards/marin-bf36c9ddd22e3dd02501.mp3",
+      "decoded_signal_check": {
+        "audio": "audio/lessons/topic-vocabulary-cards/marin-bf36c9ddd22e3dd02501.mp3",
+        "rms_16bit": 1868.94,
+        "peak_16bit": 11504,
+        "duration_seconds": 1.8,
+        "non_silent": true,
+        "listening_verified": false
+      }
+    },
+    {
+      "key": "むしむしする|蒸し蒸しする",
+      "display": "蒸し蒸しする",
+      "previous_audio": "audio/lessons/topic-vocabulary-cards/marin-49f51153b5247db828f1.mp3",
+      "replacement_audio": "audio/lessons/topic-vocabulary-cards/marin-46130a8b825f2830f9fb.mp3",
+      "decoded_signal_check": {
+        "audio": "audio/lessons/topic-vocabulary-cards/marin-46130a8b825f2830f9fb.mp3",
+        "rms_16bit": 2237.579,
+        "peak_16bit": 9236,
+        "duration_seconds": 1.92,
+        "non_silent": true,
+        "listening_verified": false
+      }
+    },
+    {
+      "key": "こおる|凍る",
+      "display": "凍る",
+      "previous_audio": "audio/lessons/topic-vocabulary-cards/marin-7cbc1382aeed96c66749.mp3",
+      "replacement_audio": "audio/lessons/topic-vocabulary-cards/marin-9d7bf0fcffac6d3edab2.mp3",
+      "decoded_signal_check": {
+        "audio": "audio/lessons/topic-vocabulary-cards/marin-9d7bf0fcffac6d3edab2.mp3",
+        "rms_16bit": 1439.439,
+        "peak_16bit": 9038,
+        "duration_seconds": 2.448,
+        "non_silent": true,
+        "listening_verified": false
+      }
+    },
+    {
+      "key": "はれる|晴れる",
+      "display": "晴れる",
+      "previous_audio": "audio/lessons/topic-vocabulary-cards/marin-d5cd9a14ea4f9ff2d052.mp3",
+      "replacement_audio": "audio/lessons/topic-vocabulary-cards/marin-a0d725155b35a79b82fd.mp3",
+      "decoded_signal_check": {
+        "audio": "audio/lessons/topic-vocabulary-cards/marin-a0d725155b35a79b82fd.mp3",
+        "rms_16bit": 1753.34,
+        "peak_16bit": 10258,
+        "duration_seconds": 1.752,
+        "non_silent": true,
+        "listening_verified": false
+      }
+    },
+    {
+      "key": "とっぷう|突風",
+      "display": "突風",
+      "previous_audio": "audio/lessons/topic-vocabulary-cards/marin-62f3d1d9a9d9f01816e6.mp3",
+      "replacement_audio": "audio/lessons/topic-vocabulary-cards/marin-b835cfd2775867d7e0b3.mp3",
+      "decoded_signal_check": {
+        "audio": "audio/lessons/topic-vocabulary-cards/marin-b835cfd2775867d7e0b3.mp3",
+        "rms_16bit": 2926.53,
+        "peak_16bit": 19510,
+        "duration_seconds": 1.8,
+        "non_silent": true,
+        "listening_verified": false
+      }
+    },
+    {
+      "key": "ふゆらしい|冬らしい",
+      "display": "冬らしい",
+      "previous_audio": "audio/lessons/topic-vocabulary-cards/marin-aa8414103917a1139c32.mp3",
+      "replacement_audio": "audio/lessons/topic-vocabulary-cards/marin-9d63f2d5afa89718b50e.mp3",
+      "decoded_signal_check": {
+        "audio": "audio/lessons/topic-vocabulary-cards/marin-9d63f2d5afa89718b50e.mp3",
+        "rms_16bit": 2104.291,
+        "peak_16bit": 12060,
+        "duration_seconds": 2.112,
+        "non_silent": true,
+        "listening_verified": false
+      }
+    }
+  ]
+}
