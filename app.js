@@ -336,7 +336,24 @@
     });
     document.getElementById("backFromExplosion").addEventListener("click", returnToLessonList);
     document.getElementById("openVocabularyCards").addEventListener("click", openVocabularyCards);
-    document.getElementById("openKanahachi").addEventListener("click", openKanahachi);
+    const beeButton = document.getElementById("openKanahachi");
+    let beeOpening = false;
+    beeButton.addEventListener("click", async () => {
+      if (beeOpening) return;
+      beeOpening = true;
+      try {
+        if (typeof beeButton.animate === "function" && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+          await beeButton.animate([
+            { transform: "translateY(0)" },
+            { transform: "translateY(4px)", offset: 0.45 },
+            { transform: "translateY(0)" }
+          ], { duration: 120, easing: "ease-out" }).finished.catch(() => {});
+        }
+        if (!elements.homeScreen.classList.contains("hidden")) openKanahachi();
+      } finally {
+        beeOpening = false;
+      }
+    });
     document.getElementById("openGrammarCards").addEventListener("click", () => {
       state.selectedCategory = null;
       openVocabularyCards(state.catalog.find(lesson => lesson.id === "grammar-cards"));
