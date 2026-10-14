@@ -1196,7 +1196,7 @@
           category.color;
         button.style.setProperty(
           "--category-art",
-          `url("assets/category-${category.id}.svg")`
+          `url("${new URL(`assets/category-${category.id}.svg`, document.baseURI).href}")`
         );
 
         button.setAttribute(

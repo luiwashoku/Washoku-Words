@@ -1,8 +1,31 @@
-const SHELL = 'washoku-shell-v343';
-const FILES = ["assets/knife_anatomy2.SVG", "./", "app.js", "assets/appicon-512-v2.png", "assets/appicon.svg", "assets/cat-03.svg", "assets/money-cat-card.svg", "audio/effects/money-cat-correct.wav", "audio/effects/money-cat-wrong.wav", "data/catalog.json", "data/topic-vocabulary-cards.json", "data/household-finance-cards.json", "data/cooking-reference-cards.json", "data/marin-audio-trials.json", "data/marin-audio-originals.json", "game-audio-manifest.js", "index.html", "kanahachi.js", "assets/bee.svg", "assets/bee-full.svg", "assets/flashcard.svg", "japanese-speech.js", "lesson-audio-manifest.js", "manifest.json", "money-cat.js", "money-cat-audio-check.js", "offline.js", "search.js", "styles.css", "taste-audio-manifest.js", "word-explosion-2.js", "vocabulary-cards.js", "families-of-doom.js", "word-explosion.js", "zukan-audio-manifest.js"];
+const SHELL = 'washoku-shell-v345';
+// Keep previously downloaded pages working after the source-file reorganization.
+const LEGACY_PATHS = {
+  'app.js': 'js/app.js',
+  'offline.js': 'js/offline.js',
+  'search.js': 'js/ui/search.js',
+  'japanese-speech.js': 'js/audio/japanese-speech.js',
+  'vocabulary-cards.js': 'js/cards/vocabulary-cards.js',
+  'styles.css': 'css/styles.css',
+  'word explosion.txt': 'data/word-explosion.txt',
+  'families-of-doom.js': 'js/games/families-of-doom.js',
+  'kanahachi.js': 'js/games/kanahachi.js',
+  'money-cat.js': 'js/games/money-cat.js',
+  'money-cat-audio-check.js': 'js/games/money-cat-audio-check.js',
+  'word-explosion.js': 'js/games/word-explosion.js',
+  'word-explosion-2.js': 'js/games/word-explosion-2.js',
+  'taste-audio-manifest.js': 'js/audio/taste-audio-manifest.js',
+  'word-explosion-audio-manifest.js': 'js/audio/word-explosion-audio-manifest.js',
+  'game-audio-manifest.js': 'js/audio/game-audio-manifest.js',
+  'lesson-audio-manifest.js': 'js/audio/lesson-audio-manifest.js',
+  'zukan-audio-manifest.js': 'js/audio/zukan-audio-manifest.js',
+  'tts-sample.html': 'tools/tts-sample.html',
+  'tts-quality-check.html': 'tools/tts-quality-check.html'
+};
+const FILES = ["assets/knife_anatomy2.SVG", "./", "js/app.js", "assets/appicon-512-v2.png", "assets/appicon.svg", "assets/cat-03.svg", "assets/money-cat-card.svg", "audio/effects/money-cat-correct.wav", "audio/effects/money-cat-wrong.wav", "data/catalog.json", "data/topic-vocabulary-cards.json", "data/household-finance-cards.json", "data/cooking-reference-cards.json", "data/marin-audio-trials.json", "data/marin-audio-originals.json", "js/audio/game-audio-manifest.js", "index.html", "js/games/kanahachi.js", "assets/bee.svg", "assets/bee-full.svg", "assets/flashcard.svg", "js/audio/japanese-speech.js", "js/audio/lesson-audio-manifest.js", "manifest.json", "js/games/money-cat.js", "js/games/money-cat-audio-check.js", "js/offline.js", "js/ui/search.js", "css/styles.css", "js/audio/taste-audio-manifest.js", "js/games/word-explosion-2.js", "js/cards/vocabulary-cards.js", "js/games/families-of-doom.js", "js/games/word-explosion.js", "js/audio/zukan-audio-manifest.js"];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(SHELL).then(cache => cache.addAll([
-    ...FILES, 'word-explosion-audio-manifest.js', 'word explosion.txt',
+    ...FILES, 'js/audio/word-explosion-audio-manifest.js', 'data/word-explosion.txt',
     'data/word-explosion-examples.json'
   ])).then(() => self.skipWaiting()));
 });
@@ -38,6 +61,16 @@ async function ranged(response, range) {
 self.addEventListener('fetch', event => {
   const request = event.request;
   if (request.method !== 'GET' || new URL(request.url).origin !== self.location.origin) return;
+  const requestURL = new URL(request.url);
+  const scope = new URL(self.registration.scope);
+  const relativePath = requestURL.pathname.startsWith(scope.pathname)
+    ? decodeURIComponent(requestURL.pathname.slice(scope.pathname.length)) : '';
+  if (Object.prototype.hasOwnProperty.call(LEGACY_PATHS, relativePath)) {
+    const destination = new URL(LEGACY_PATHS[relativePath], scope);
+    destination.search = requestURL.search;
+    event.respondWith(Promise.resolve(Response.redirect(destination.href, 302)));
+    return;
+  }
   event.respondWith((async () => {
     // Navigations and app code use current online content with an offline fallback.
     const isAudio = /\.(mp3|wav)$/.test(new URL(request.url).pathname);

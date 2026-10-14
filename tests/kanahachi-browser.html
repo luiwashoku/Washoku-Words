@@ -22,6 +22,8 @@
   };
   installAudio();
   const homeButton=q('#openKanahachi');
+  // Headless virtual time does not advance compositor animations.
+  homeButton.animate=()=>({finished:Promise.resolve()});
   assert(homeButton.tagName==='BUTTON'&&new URL(homeButton.querySelector('img').src).pathname.endsWith('/assets/bee-full.svg'),'Bee opens game as accessible button');
   const beeSvg=await w.fetch(new URL('assets/bee-full.svg',w.location.href).href).then(r=>r.text());
   assert(beeSvg.includes('viewBox="68 24 130 152"'),'Fresh bee SVG has space around both wings: '+beeSvg.slice(0,180));

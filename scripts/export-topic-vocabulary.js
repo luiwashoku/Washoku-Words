@@ -5,14 +5,14 @@ ObjC.import('Foundation');
 function read(path) { return ObjC.unwrap($.NSString.stringWithContentsOfFileEncodingError(path, $.NSUTF8StringEncoding, null)); }
 function run(args) {
   var root = args[0], window = {};
-  eval(read(root + '/japanese-speech.js'));
-  eval(read(root + '/word-explosion.js'));
-  eval(read(root + '/word-explosion-audio-manifest.js'));
-  eval(read(root + '/game-audio-manifest.js'));
-  eval(read(root + '/lesson-audio-manifest.js'));
+  eval(read(root + '/js/audio/japanese-speech.js'));
+  eval(read(root + '/js/games/word-explosion.js'));
+  eval(read(root + '/js/audio/word-explosion-audio-manifest.js'));
+  eval(read(root + '/js/audio/game-audio-manifest.js'));
+  eval(read(root + '/js/audio/lesson-audio-manifest.js'));
   var financeAudio = window.lessonAudioFiles['household-finance-cards'];
   var examples = JSON.parse(read(root + '/data/word-explosion-examples.json'));
-  var rows = window.WordExplosionGame.parseVocabulary(read(root + '/word explosion.txt')).map(function(word) {
+  var rows = window.WordExplosionGame.parseVocabulary(read(root + '/data/word-explosion.txt')).map(function(word) {
     var id = word.japanese + '|' + word.kanji;
     var example = examples[id] || examples[word.japanese];
     if (!example || !example.japanese || !example.english) throw Error('Missing example: ' + id);

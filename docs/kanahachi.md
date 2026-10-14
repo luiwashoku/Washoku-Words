@@ -8,7 +8,7 @@ Current data produces **3,439 unique usable readings**, retaining **3,735 spelli
 
 Included explicit vocabulary sources:
 
-- Shared `word explosion.txt` word bank, also used by Word Explosion and Money Cat.
+- Shared `data/word-explosion.txt` word bank, also used by Word Explosion and Money Cat.
 - Ingredient, meat, chicken, beef, pork, and fish cards.
 - Cooking/food reference vocabulary tables, topic vocabulary tables, and household-finance vocabulary tables. Example sentences and food-reference examples are not extracted.
 - Number-table entries with their supplied readings and explicit contextual English meanings. See the [translation audit](kanahachi-translation-audit.md).
@@ -37,4 +37,4 @@ Audio reuses the source lesson and shared vocabulary manifests, retaining spelli
 - `tests/kanahachi-browser.html`, served locally: bee/back navigation, Japanese controls (no shuffle or Clear), centred cross deletion, staged hints, recorded playback, finish/reveal, new puzzle, refresh/reopen restoration, existing vocabulary cards, and horizontal fit at 320px/390px.
 - Existing `tests/recorded-audio.test.js`: audio playback and game isolation regression checks.
 
-Implementation: `kanahachi.js`, with integration in `app.js`, `index.html`, `styles.css`, and `sw.js`; icon at `assets/bee.svg`.
+Implementation: `js/games/kanahachi.js`, with integration in `js/app.js`, `index.html`, `css/styles.css`, and `sw.js`; icon at `assets/bee.svg`.

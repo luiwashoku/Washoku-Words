@@ -75,5 +75,5 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
             print('Completed',len(paths),'/',len(unique),flush=True)
 manifest = {row['key']:paths[row['text']] for row in rows}
 (folder/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
-(ROOT/'zukan-audio-manifest.js').write_text('window.zukanAudioFiles = '+json.dumps(manifest,ensure_ascii=False)+';\n')
+(ROOT/'js/audio/zukan-audio-manifest.js').write_text('window.zukanAudioFiles = '+json.dumps(manifest,ensure_ascii=False)+';\n')
 print('Complete. MP3 bytes:',sum((ROOT/p).stat().st_size for p in set(paths.values())),flush=True)

@@ -38,7 +38,7 @@ The generator reuses existing matching clips and resumes interrupted batches.
 The key source is the same external private file/environment as the other decks.
 Use `--retry-key <exact-key>` to regenerate a reported faulty recording.
 
-Publish `audio/lessons/`, `lesson-audio-manifest.js`, `index.html`, and `app.js`
+Publish `audio/lessons/`, `js/audio/lesson-audio-manifest.js`, `index.html`, and `js/app.js`
 together. The app looks up recordings only within the selected reviewed lesson.
 Existing audio controls still pause/resume and cancel on navigation.
 

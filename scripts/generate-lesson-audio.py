@@ -160,5 +160,5 @@ combined_path = ROOT/'audio/lessons/manifest.json'
 combined = json.loads(combined_path.read_text()) if combined_path.exists() else {}
 combined[args.lesson] = manifest
 combined_path.write_text(json.dumps(combined,ensure_ascii=False,indent=2)+'\n')
-(ROOT/'lesson-audio-manifest.js').write_text('window.lessonAudioFiles = '+json.dumps(combined,ensure_ascii=False)+';\n')
+(ROOT/'js/audio/lesson-audio-manifest.js').write_text('window.lessonAudioFiles = '+json.dumps(combined,ensure_ascii=False)+';\n')
 print('Complete. MP3 bytes:',sum((ROOT/p).stat().st_size for p in set(paths.values())),flush=True)

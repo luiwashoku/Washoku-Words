@@ -122,7 +122,7 @@ def main():
     print(f'Reviewed batch {args.batch}: {len(jobs)} clips; Marin generation speed 1.0', flush=True)
     if args.dry_run:
         return
-    protected = list(ROOT.glob('*-audio-manifest.js')) + [ROOT / 'data/word-explosion-examples.json', ROOT / 'word explosion.txt']
+    protected = list((ROOT/'js/audio').glob('*-audio-manifest.js')) + [ROOT / 'data/word-explosion-examples.json', ROOT / 'data/word-explosion.txt']
     protected_hashes = {p: hashlib.sha256(p.read_bytes()).hexdigest() for p in protected}
     api_key = os.environ.get('OPENAI_API_KEY') or (Path.home() / '.config/washoku-words/openai-api-key').read_text().strip()
     folder = ROOT / f'audio/vocabulary-review/batch-{args.batch:02d}'

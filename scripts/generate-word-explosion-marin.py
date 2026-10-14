@@ -83,5 +83,5 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
 manifest = json.loads((folder/'manifest.json').read_text()) if args.key else {}
 manifest.update({row['key']:paths[(row['text'], speeds.get(row['key'], 1.0))] for row in rows})
 (folder/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
-(ROOT/'word-explosion-audio-manifest.js').write_text('window.wordExplosionAudioFiles = '+json.dumps(manifest,ensure_ascii=False)+';\n')
+(ROOT/'js/audio/word-explosion-audio-manifest.js').write_text('window.wordExplosionAudioFiles = '+json.dumps(manifest,ensure_ascii=False)+';\n')
 print('Complete. MP3 bytes:',sum((ROOT/p).stat().st_size for p in set(paths.values())),flush=True)

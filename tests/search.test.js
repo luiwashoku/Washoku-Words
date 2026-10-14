@@ -8,9 +8,9 @@ function assert(condition, message) {
 }
 const root = $.NSFileManager.defaultManager.currentDirectoryPath.js + "/";
 const host = {};
-for (const file of ["app.js", "search.js", "word-explosion.js", "word-explosion-2.js"]) {
+for (const file of ["js/app.js", "js/ui/search.js", "js/games/word-explosion.js", "js/games/word-explosion-2.js"]) {
   const script = new Function("window", read(root + file));
-  if (["search.js", "word-explosion.js"].includes(file)) script(host);
+  if (["js/ui/search.js", "js/games/word-explosion.js"].includes(file)) script(host);
 }
 const search = host.WashokuSearch;
 const text = search.searchableText({ question: "御飯(ごはん)を食(た)べる", enExplanation: "Eat RICE", chunks: ["ゴハン"] });
@@ -20,7 +20,7 @@ assert(text.includes(search.normalize("rice")), "English is case insensitive");
 assert(search.normalize("ゴハン") === search.normalize("ごはん"), "Match katakana and hiragana");
 assert(search.normalize("ＲＩＣＥ") === "rice", "Normalize full-width English");
 const game = host.WordExplosionGame;
-const entries = game.parseVocabulary(read(root + "word explosion.txt"));
+const entries = game.parseVocabulary(read(root + "data/word-explosion.txt"));
 for (let i = 0; i < 100; i++) {
   const target = entries[i % entries.length];
   const round = game.createRound(entries, target);

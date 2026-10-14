@@ -5,7 +5,7 @@ function read(path) {
 }
 const root = $.NSFileManager.defaultManager.currentDirectoryPath.js + "/";
 const host = {};
-new Function("window", read(root + "word-explosion.js"))(host);
+new Function("window", read(root + "js/games/word-explosion.js"))(host);
 const game = host.WordExplosionGame;
 function assert(condition, message) {
   if (!condition) throw new Error(message);
@@ -15,7 +15,7 @@ function rejects(text) {
   try { game.parseVocabulary(text); } catch (_) { failed = true; }
   assert(failed, "Malformed vocabulary should be rejected");
 }
-const entries = game.parseVocabulary(read(root + "word explosion.txt"));
+const entries = game.parseVocabulary(read(root + "data/word-explosion.txt"));
 assert(entries.length >= 3, "Vocabulary supports a complete round");
 const examples = JSON.parse(read(root + "data/word-explosion-examples.json"));
 assert(Object.keys(examples).length === entries.length, "Example bank matches the vocabulary");
@@ -25,7 +25,7 @@ entries.forEach((entry) => {
   assert(typeof example.english === "string" && example.english.trim(), `English translation for ${entry.english}`);
   assert(!/[{}]|<\/?(?:ruby|rt)>/.test(example.japanese), "Examples use parenthetical readings");
 });
-const extended = game.parseVocabulary(read(root + "word explosion.txt") + "\nred | あか\n");
+const extended = game.parseVocabulary(read(root + "data/word-explosion.txt") + "\nred | あか\n");
 assert(extended.length === entries.length + 1, "New text lines become vocabulary without code changes");
 const tolerant = game.parseVocabulary("\uFEFF# words\r\nApple | りんご\r\n\r\nfox | きつね\r\ncat | ねこ\r\nAPPLE | りんご\r\nfruit | りんご\r\n");
 assert(tolerant.length === 3, "Ignore blank/comment lines and duplicate Japanese entries");
@@ -77,5 +77,5 @@ for (let run = 0; run < 200; run += 1) {
   assert(round.selected.length === 0, "Selection clears after matching");
 }
 assert(entries.every((entry) => entry.completed === undefined), "Round generation does not mutate vocabulary");
-new Function(read(root + "app.js"));
+new Function(read(root + "js/app.js"));
 "PASS: example coverage, parsing, extensibility, wrong-prefix recovery, duplicate tiles, consumption, and 200 complete rounds.";

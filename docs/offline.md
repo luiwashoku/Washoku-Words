@@ -1,6 +1,6 @@
 # Offline lesson downloads
 
-Publish `sw.js`, `offline.js`, the updated app/index/styles, and all existing data,
+Publish `sw.js`, `js/offline.js`, the updated app/index/styles, and all existing data,
 assets and audio files together over HTTPS. Open the updated app online in Safari,
 then add it to the Home Screen. The first visit saves the app shell and catalog.
 

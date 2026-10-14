@@ -20,7 +20,7 @@ The generator reads `OPENAI_API_KEY` or the external private key file
 Generation incurs API charges for missing clips. Content-addressed MP3s are
 reused on reruns. `--retry-key` regenerates an exact lookup key.
 
-Publish `audio/zukan/`, `zukan-audio-manifest.js`, and `favorites.html` together.
+Publish `audio/zukan/`, `js/audio/zukan-audio-manifest.js`, and `favorites.html` together.
 Recordings load when an item is revealed. Selecting another item, changing
 pages, or leaving the page stops the previous recording. The existing browser
 voice remains the fallback for vocabulary without a saved recording.

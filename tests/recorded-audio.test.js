@@ -2,7 +2,7 @@
 ObjC.import('Foundation');
 function read(p) { return $.NSString.stringWithContentsOfFileEncodingError(p,$.NSUTF8StringEncoding,null).js; }
 function assert(v,m) { if(!v) throw new Error(m); }
-const source=read('app.js');
+const source=read('js/app.js');
 const functions=source.slice(source.indexOf('  function getRecordedJapaneseFile('),source.indexOf('  function restoreSavedData('));
 const players=[];
 function Audio(src) { this.src=src; this.paused=true; this.currentTime=0; this.events={}; players.push(this); }

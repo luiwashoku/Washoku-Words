@@ -1,0 +1,166 @@
+{
+  "date": "2026-10-14",
+  "preservation": {
+    "byte_identical": 28796,
+    "changed": [
+      "data/vocabulary-card-topics.json",
+      "data/catalog.json",
+      "data/topic-vocabulary-cards.json",
+      "styles.css",
+      "tts-sample.html",
+      "tts-quality-check.html",
+      ".agent.md",
+      "kanahachi.js"
+    ],
+    "missing": [],
+    "deleted_audio": [
+      "audio/game-decks/nova-ae5a38990d786ad91de7.mp3",
+      "audio/vocabulary-review/batch-05/marin-ee1214f51a42ce1b0e13.mp3",
+      "audio/vocabulary-review/batch-06/marin-bfd8292a86a9bbd04f65.mp3"
+    ]
+  },
+  "removed_bytes": 72960,
+  "removed_junk": [
+    ".DS_Store",
+    "audio/.DS_Store",
+    "audio/lessons/.DS_Store",
+    "scripts/.DS_Store"
+  ],
+  "checks": [
+    {
+      "test": "tests/animal-parts-cards.test.py",
+      "status": "PRE-EXISTING FAIL"
+    },
+    {
+      "test": "tests/chicken-cards.test.py",
+      "status": "PRE-EXISTING FAIL"
+    },
+    {
+      "test": "tests/cooking-reference-audio.test.py",
+      "status": "PASS"
+    },
+    {
+      "test": "tests/fish-cards.test.py",
+      "status": "PRE-EXISTING FAIL"
+    },
+    {
+      "test": "tests/grammar-example-coverage.test.py",
+      "status": "PASS"
+    },
+    {
+      "test": "tests/marin-pitch-trials.test.py",
+      "status": "PRE-EXISTING FAIL"
+    },
+    {
+      "test": "tests/topic-vocabulary-cards.test.py",
+      "status": "PASS"
+    },
+    {
+      "test": "tests/furigana.test.js",
+      "status": "PRE-EXISTING FAIL"
+    },
+    {
+      "test": "tests/japanese-speech.test.js",
+      "status": "PRE-EXISTING FAIL"
+    },
+    {
+      "test": "tests/kanahachi.test.js",
+      "status": "PASS"
+    },
+    {
+      "test": "tests/lesson-audio.test.js",
+      "status": "PRE-EXISTING FAIL"
+    },
+    {
+      "test": "tests/money-cat.test.js",
+      "status": "PASS"
+    },
+    {
+      "test": "tests/reading-card.test.js",
+      "status": "PASS"
+    },
+    {
+      "test": "tests/recorded-audio.test.js",
+      "status": "PASS"
+    },
+    {
+      "test": "tests/response-practice.test.js",
+      "status": "PASS"
+    },
+    {
+      "test": "tests/search.test.js",
+      "status": "PASS"
+    },
+    {
+      "test": "tests/word-explosion.test.js",
+      "status": "PASS"
+    },
+    {
+      "test": "tests/zukan-audio.test.js",
+      "status": "PASS"
+    }
+  ],
+  "baseline_failures": [
+    "tests/animal-parts-cards.test.py",
+    "tests/chicken-cards.test.py",
+    "tests/fish-cards.test.py",
+    "tests/marin-pitch-trials.test.py",
+    "tests/furigana.test.js",
+    "tests/japanese-speech.test.js",
+    "tests/lesson-audio.test.js"
+  ],
+  "browser_checks": [
+    {
+      "test": "offline-migration-browser",
+      "status": "PASS",
+      "message": "PASS: shell install/activation, 18 legacy offline paths, saved-lesson preservation, cached audio ranges, 3439 Bee readings and 395 offline puzzles."
+    },
+    {
+      "test": "home-deck-icons-browser",
+      "status": "PASS",
+      "message": "PASS: four home controls have equal centre spacing; smaller search circle, heavier labels, SVG proportions and front-rectangle alignment verified at 320, 390 and 768 px; notebook grid retained in vocabulary, grammar, bee and cat screens."
+    },
+    {
+      "test": "topic-vocabulary-cards-browser",
+      "status": "PASS",
+      "message": "PASS: 24 topics, 168 pages, 1578 vocabulary entries/examples, all existing speakers, silent titles, topic jumps, search, furigana and phone fit"
+    },
+    {
+      "test": "grammar-cards-browser",
+      "status": "PASS",
+      "message": "PASS: all 275 grammar cards, autoplay, 550 sentence speakers, silent formation, phone layout and cleanup."
+    },
+    {
+      "test": "kanahachi-browser",
+      "status": "FAIL",
+      "message": "FAIL: Error: Timed out: automatic refresh resume · \n    at until (http://127.0.0.1:8765/tests/kanahachi-browser.html:8:114)\n    at async http://127.0.0.1:8765/tests/kanahachi-browser.html:98:97"
+    },
+    {
+      "test": "money-cat-browser",
+      "status": "PASS",
+      "message": "PASS: shared recordings/replay, pointer movement, 20 collisions, money across NEXT, mistake review, coin-only feedback and navigation cleanup."
+    },
+    {
+      "test": "word-explosion-2-browser",
+      "status": "PASS",
+      "message": "PASS: shared dataset, all words without repeats, matching bilingual samples, sentence speech, autoplay/replay, guesses, reveal, mobile layout, cleanup, original-game return. Speech API mocked; audible playback needs a device voice."
+    },
+    {
+      "test": "word-explosion-browser",
+      "status": "PASS",
+      "message": "PASS: reveal timing, three matching bilingual examples, voice button placement and Japanese text, speech cleanup, desktop/mobile layout, next-round reset, cleanup, fetch failure and missing-example retry."
+    },
+    {
+      "test": "families-of-doom-browser",
+      "status": "PASS",
+      "message": "PASS: all 70 families, 828 prompts, 187 accepted alternatives, manual progression, audio, meanings, furigana, family list/navigation and constant phone layout."
+    }
+  ],
+  "additional_checks": [
+    "36 JavaScript files compile",
+    "27,731 runtime file references exist",
+    "Topic deck rebuilt: 1,578 entries / 24 categories / 168 pages",
+    "Marin generator dry-run validates updated exporter paths",
+    "git diff --check"
+  ]
+}

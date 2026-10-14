@@ -23,7 +23,7 @@ data = json.loads((ROOT / 'data/topic-vocabulary-cards.json').read_text())
 catalog = json.loads((ROOT / 'data/catalog.json').read_text())
 lesson = next(entry for entry in catalog if entry['id'] == 'topic-vocabulary-cards')
 assert len(data['topics']) == 24 and len(source) == 1111 and data['wordCount'] == len(source) + len(extra) == 1578
-assert data['sourceVocabularySha256'] == hashlib.sha256((ROOT / 'word explosion.txt').read_bytes()).hexdigest()
+assert data['sourceVocabularySha256'] == hashlib.sha256((ROOT / 'data/word-explosion.txt').read_bytes()).hexdigest()
 assert lesson['questionCount'] == len(data['entries']) == 168
 assert lesson['homeOnly'] and lesson['ordered'] and lesson['titleAudioDisabled']
 assert lesson['recordedAudioOnly'] and lesson['topicCards']

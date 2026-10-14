@@ -146,10 +146,10 @@ def main():
             'pageCount': len(cards) - start,
         })
     data = {
-        'title': '単語', 'sourceFiles': ['word explosion.txt', 'data/word-explosion-examples.json', 'data/household-finance-cards.json']
+        'title': '単語', 'sourceFiles': ['data/word-explosion.txt', 'data/word-explosion-examples.json', 'data/household-finance-cards.json']
         + (['data/topic-vocabulary-additions.json'] if additions_file.exists() else []),
         'organizationFile': 'data/vocabulary-topic-organization.json' if organization_file.exists() else None,
-        'sourceVocabularySha256': hashlib.sha256((ROOT / 'word explosion.txt').read_bytes()).hexdigest(),
+        'sourceVocabularySha256': hashlib.sha256((ROOT / 'data/word-explosion.txt').read_bytes()).hexdigest(),
         'wordCount': len(by_key), 'topics': topics, 'entries': cards,
     }
     (ROOT / 'data/topic-vocabulary-cards.json').write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')

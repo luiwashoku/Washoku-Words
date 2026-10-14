@@ -5,7 +5,7 @@ function read(path) {
 }
 function assert(value, message) { if (!value) throw new Error(message); }
 const host = {};
-new Function("window", read("japanese-speech.js"))(host);
+new Function("window", read("js/audio/japanese-speech.js"))(host);
 const prepare = host.getJapaneseSpeechText;
 const cases = [
   ["先生：包丁(ほうちょう)を使ってみましょう（笑）。", "ほうちょうを使ってみましょう。"],
@@ -32,7 +32,7 @@ host.speechSynthesis = {
 function Utterance(text) { this.text = text; this.addEventListener = () => {}; }
 host.SpeechSynthesisUtterance = Utterance;
 const input = cases[0][0], expected = cases[0][1];
-const app = read("app.js");
+const app = read("js/app.js");
 const mainSource = app.slice(app.indexOf("  function getRecordedJapaneseFile("), app.indexOf("  function setSpeechButtonState("));
 const main = new Function("window", "SpeechSynthesisUtterance", "getJapaneseSpeechText", `
   let activeJapaneseUtterance = null, activeSpeechButton = null, activeJapaneseAudio = null;
@@ -53,7 +53,7 @@ host.speechSynthesis.speaking = false;
 const favorites = read("favorites.html");
 const favoriteSource = favorites.slice(favorites.indexOf("    let activeVocabularyAudio ="), favorites.indexOf("    function renderRolloverPage("));
 new Function("window", "SpeechSynthesisUtterance", `${favoriteSource}; return speakJapanese;`)(host, Utterance)(input);
-const listening = read("word-explosion-2.js");
+const listening = read("js/games/word-explosion-2.js");
 const listeningSource = listening.slice(listening.indexOf("    function speak()"), listening.indexOf("    function reveal()"));
 new Function("window", "SpeechSynthesisUtterance", "word", `
   const alive = true; let utterance = null;
@@ -69,6 +69,6 @@ spoken.forEach(u => {
 });
 for (const file of ["index.html", "favorites.html"]) {
   const html = read(file);
-  assert(html.indexOf('src="japanese-speech.js"') < html.indexOf(file === "index.html" ? 'src="app.js' : "function speakJapanese("), "Shared helper loaded before use");
+  assert(html.indexOf('src="js/audio/japanese-speech.js"') < html.indexOf(file === "index.html" ? 'src="js/app.js' : "function speakJapanese("), "Shared helper loaded before use");
 }
 console.log("PASS: shared Japanese preprocessing, all three TTS entry points, voice/rate, and pause/resume.");

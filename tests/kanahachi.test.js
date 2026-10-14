@@ -4,13 +4,13 @@ function read(path) { return ObjC.unwrap($.NSString.stringWithContentsOfFileEnco
 function assert(value, message) { if (!value) throw Error(message); }
 function run(args) {
   const root = args[0], window = {};
-  eval(read(root + "/kanahachi.js"));
-  eval(read(root + "/word-explosion.js"));
-  eval(read(root + "/japanese-speech.js"));
-  eval(read(root + "/lesson-audio-manifest.js"));
-  eval(read(root + "/word-explosion-audio-manifest.js"));
-  eval(read(root + "/game-audio-manifest.js"));
-  eval(read(root + "/taste-audio-manifest.js"));
+  eval(read(root + "/js/games/kanahachi.js"));
+  eval(read(root + "/js/games/word-explosion.js"));
+  eval(read(root + "/js/audio/japanese-speech.js"));
+  eval(read(root + "/js/audio/lesson-audio-manifest.js"));
+  eval(read(root + "/js/audio/word-explosion-audio-manifest.js"));
+  eval(read(root + "/js/audio/game-audio-manifest.js"));
+  eval(read(root + "/js/audio/taste-audio-manifest.js"));
   const k = window.Kanahachi;
   assert(k.normalizeReading("ｷｬｯﾌﾟ") === "きゃっぷ", "Half-width katakana and small kana");
   assert(k.normalizeReading("ガハバパヴー") === "がはばぱゔー", "Voicing and long-vowel mark preserved");
@@ -57,7 +57,7 @@ function run(args) {
   catalog.filter(l => l.gameMode === "vocabulary-cards" || l.answerMode === "reading-card").forEach(l => {
     (l.files || [l.file]).forEach(file => records.push(...k.extractVocabulary(l, JSON.parse(read(root + "/" + file)))));
   });
-  window.WordExplosionGame.parseVocabulary(read(root + "/word explosion.txt"), { includeDuplicates: true }).forEach(w => records.push({
+  window.WordExplosionGame.parseVocabulary(read(root + "/data/word-explosion.txt"), { includeDuplicates: true }).forEach(w => records.push({
     spelling: w.kanji || w.japanese, reading: w.japanese, english: w.english, speech: w.japanese,
     sourceKey: `${w.japanese}|${w.kanji || ""}`, source: "word-explosion"
   }));
@@ -124,6 +124,6 @@ function run(args) {
   assert(k.displayVariants(dictionary.get("いっかい")).length>=2,"Real frequency/floor homophones remain distinct");
   const variant = dictionary.get("だいこん").variants[0];
   assert(k.resolveAudio(variant)?.startsWith("audio/"), "Existing term audio resolves across source manifests");
-  new Function(read(root + "/app.js"));
+  new Function(read(root + "/js/app.js"));
   return `PASS: ${dictionary.size} usable readings; ${audit.missingReading} unsupported readings; ${audit.tooShort} one-kana entries. ${boards.length} valid boards in ${Date.now() - start} ms. Aggregation, homophones, no sentence scraping, normalization, validation, scoring, persistence and audio checked.`;
 }

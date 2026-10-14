@@ -34,7 +34,7 @@
     [...d.querySelectorAll(".category-card")].find((b) => b.textContent.includes("日本語で話す")).click();
     const lesson = () => [...d.querySelectorAll(".lesson-card")].find((b) => b.querySelector("strong").textContent.trim() === "単語爆発2");
     await until(lesson);
-    const vocabulary = await fetch("../word%20explosion.txt").then((r) => r.text());
+    const vocabulary = await fetch("../data/word-explosion.txt").then((r) => r.text());
     const entries = w.WordExplosionGame.parseVocabulary(vocabulary);
     const bank = await fetch("../data/word-explosion-examples.json").then((r) => r.json());
     lesson().click();

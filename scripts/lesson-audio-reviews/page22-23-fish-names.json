@@ -1,7 +1,7 @@
 {
   "lesson": "page22-23-fish-names",
   "reviewed": true,
-  "reviewNotes": "Reviewed all 144 exported speech keys against all 29 fish entries and explicit reading fields in data/seafood22-23.json, and app.js buildSeafoodQuestions/buildSeafoodQuestion templates. Every fish name transcribed using its complete explicit vocabulary reading, including ほんまぐろ, みなみまぐろ, めばちまぐろ, きはだまぐろ, かんぱち, ひらまさ, ぎんだら, きんめだい, あまだい and わかさぎ. 鮭 uses catalog reading さけ. Topic は in quoted fish names and 魚介は rendered わ. No object を or directional へ occurs. Lexical は in きはだまぐろ preserved. Display labels and kanji/kana lookup keys remain distinct; identical reviewed inputs share recordings. No listening or pitch-accent verification.",
+  "reviewNotes": "Reviewed all 144 exported speech keys against all 29 fish entries and explicit reading fields in data/seafood22-23.json, and js/app.js buildSeafoodQuestions/buildSeafoodQuestion templates. Every fish name transcribed using its complete explicit vocabulary reading, including ほんまぐろ, みなみまぐろ, めばちまぐろ, きはだまぐろ, かんぱち, ひらまさ, ぎんだら, きんめだい, あまだい and わかさぎ. 鮭 uses catalog reading さけ. Topic は in quoted fish names and 魚介は rendered わ. No object を or directional へ occurs. Lexical は in きはだまぐろ preserved. Display labels and kanji/kana lookup keys remain distinct; identical reviewed inputs share recordings. No listening or pitch-accent verification.",
   "entries": [
     {
       "key": "「鮪」はどうよみますか。",

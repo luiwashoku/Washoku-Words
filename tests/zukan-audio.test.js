@@ -25,7 +25,7 @@ const manifest = JSON.parse(read('audio/zukan/manifest.json'));
 const pages = new Function(source.slice(source.indexOf('    const rolloverPages ='), source.indexOf('    const test =')) + '; return rolloverPages;')();
 const speech = new Function(source.slice(source.indexOf('    function getVocabularySpeechText('), source.indexOf('    let activeVocabularyAudio =')) + '; return getVocabularySpeechText;')();
 const cleaner = {};
-new Function('window',read('japanese-speech.js'))(cleaner);
+new Function('window',read('js/audio/japanese-speech.js'))(cleaner);
 pages.forEach(page=>page.items.forEach(item=>assert(manifest[cleaner.getJapaneseSpeechText(speech(item[1],item[4]))],'Every vocabulary item has a recording')));
 Object.keys(manifest).forEach(key=>assert($.NSFileManager.defaultManager.fileExistsAtPath(manifest[key]),'Missing recording: '+key));
 const rows = JSON.parse(new Function('ObjC', '$', read('scripts/export-zukan-audio.js') + '; return run(["."]);')(ObjC, $));

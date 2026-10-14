@@ -25,8 +25,8 @@ Every notebook page becomes one JSON deck.
 
 This is a dependency-free static web application:
 - `index.html` contains the application markup
-- `styles.css` contains the visual styles
-- `app.js` contains application behavior
+- `css/styles.css` contains the visual styles
+- `js/app.js` contains application behavior
 - `data/catalog.json` lists the available lessons
 - `data/pagesXX.json` contains lesson questions
 - `nopush/和食探究ノート.pdf` is source material and must not be modified

@@ -3,7 +3,7 @@ function read(path) { return ObjC.unwrap($.NSString.stringWithContentsOfFileEnco
 var window = {};
 function run(args) {
   var root = args[0];
-  eval(read(root + '/japanese-speech.js'));
+  eval(read(root + '/js/audio/japanese-speech.js'));
   var source = read(root + '/favorites.html');
   var pages = new Function(source.slice(source.indexOf('    const rolloverPages ='), source.indexOf('    const test =')) + '; return rolloverPages;')();
   var speech = new Function(source.slice(source.indexOf('    function getVocabularySpeechText('), source.indexOf('    function speakJapanese(')) + '; return getVocabularySpeechText;')();

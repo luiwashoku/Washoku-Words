@@ -2,7 +2,7 @@
   "voice": "marin",
   "model": "gpt-4o-mini-tts",
   "speed": 1.0,
-  "source": "word explosion.txt: explicit hiragana checked against vocabulary labels; contextual particles corrected. Audio pitch accent has not been listening-verified.",
+  "source": "data/word-explosion.txt: explicit hiragana checked against vocabulary labels; contextual particles corrected. Audio pitch accent has not been listening-verified.",
   "entries": {
     "きづく": {
       "text": "きづく",

@@ -3,7 +3,7 @@ function read(path) { return ObjC.unwrap($.NSString.stringWithContentsOfFileEnco
 var window = {};
 function run(args) {
   var root = args[0];
-  eval(read(root + '/japanese-speech.js'));
+  eval(read(root + '/js/audio/japanese-speech.js'));
   var cards = JSON.parse(read(root + '/data/taste-words.json'));
   var overrides = JSON.parse(read(root + '/scripts/taste-speech-overrides.json'));
   var rows = [];

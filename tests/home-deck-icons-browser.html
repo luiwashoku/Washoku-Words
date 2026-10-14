@@ -7,6 +7,16 @@
  const until=async (fn,label='startup')=>{for(let n=0;n<400;n++){if(fn())return;await new Promise(r=>setTimeout(r,20))}throw Error('Timed out: '+label)};
  try{
   await until(()=>frame.contentDocument.querySelector('#openGrammarCards:not(:disabled)'));
+  const categories=[...frame.contentDocument.querySelectorAll('.category-card:not(.money-cat-card):not(.random-question-card)')];
+  assert(categories.length===7,'All seven main decks present');
+  for(const category of categories){
+   const background=frame.contentWindow.getComputedStyle(category,'::before').backgroundImage;
+   const match=background.match(/url\(["']?([^"')]+)["']?\)/);
+   assert(match&&new URL(match[1]).pathname.includes('/assets/category-'),'Category icon resolves from app assets');
+   const image=new frame.contentWindow.Image();
+   await new Promise((resolve,reject)=>{image.onload=resolve;image.onerror=()=>reject(Error('Category icon failed to load: '+match[1]));image.src=match[1]});
+   assert(image.naturalWidth>0,'Category artwork loads');
+  }
   const svg=new DOMParser().parseFromString(await fetch('../assets/flashcard.svg').then(r=>r.text()),'image/svg+xml');
   const [vx,vy,vw,vh]=svg.documentElement.getAttribute('viewBox').split(/\s+/).map(Number);
   const front=[...svg.querySelectorAll('rect')].at(-1),cx=Number(front.getAttribute('x'))+Number(front.getAttribute('width'))/2,cy=Number(front.getAttribute('y'))+Number(front.getAttribute('height'))/2;

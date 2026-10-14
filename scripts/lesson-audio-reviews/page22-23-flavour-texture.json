@@ -1,7 +1,7 @@
 {
   "lesson": "page22-23-flavour-texture",
   "reviewed": true,
-  "reviewNotes": "Reviewed all 80 speech keys against the 20 seafood entries with flavour and texture in data/seafood22-23.json and app.js buildSeafoodQuestions/buildSeafoodQuestion templates. Fish and seafood names use explicit vocabulary readings. Topic は in 味は, 食感は, 魚介は and quoted names rendered わ. Lexical は in はごたえ preserved. No object を or directional へ occurs. Loanwords バランス and クリーミー transcribed ばらんす and くりーみー, retaining long-vowel marks. Furigana for 脂, 身, 締まる, 淡白, 繊細, 磯 and 濃厚 checked against the source. Display text and distinct lookup keys unchanged. No listening or pitch-accent verification.",
+  "reviewNotes": "Reviewed all 80 speech keys against the 20 seafood entries with flavour and texture in data/seafood22-23.json and js/app.js buildSeafoodQuestions/buildSeafoodQuestion templates. Fish and seafood names use explicit vocabulary readings. Topic は in 味は, 食感は, 魚介は and quoted names rendered わ. Lexical は in はごたえ preserved. No object を or directional へ occurs. Loanwords バランス and クリーミー transcribed ばらんす and くりーみー, retaining long-vowel marks. Furigana for 脂, 身, 締まる, 淡白, 繊細, 磯 and 濃厚 checked against the source. Display text and distinct lookup keys unchanged. No listening or pitch-accent verification.",
   "entries": [
     {
       "key": "あじは「うまみがのうこうな」、しょっかんは「ねっとりしてくちどけがいい」とひょうげんされることがおおいぎょかいはどれですか。",

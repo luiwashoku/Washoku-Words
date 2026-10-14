@@ -3,9 +3,9 @@ ObjC.import('Foundation');
 function read(p) { return $.NSString.stringWithContentsOfFileEncodingError(p,$.NSUTF8StringEncoding,null).js; }
 function assert(v,m) { if(!v) throw new Error(m); }
 var window = {};
-new Function('window',read('japanese-speech.js'))(window);
-new Function('window',read('lesson-audio-manifest.js'))(window);
-const source = read('app.js');
+new Function('window',read('js/audio/japanese-speech.js'))(window);
+new Function('window',read('js/audio/lesson-audio-manifest.js'))(window);
+const source = read('js/app.js');
 function permutations(values) {
  if(values.length<2)return [values];
  return values.flatMap((value,index)=>permutations(values.filter((_,i)=>i!==index)).map(rest=>[value].concat(rest)));

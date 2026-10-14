@@ -3,7 +3,7 @@ function read(path) { return ObjC.unwrap($.NSString.stringWithContentsOfFileEnco
 var window = {};
 function run(args) {
   var root = args[0], lessonId = args[1];
-  eval(read(root + '/japanese-speech.js'));
+  eval(read(root + '/js/audio/japanese-speech.js'));
   var catalog = JSON.parse(read(root + '/data/catalog.json'));
   var lesson = catalog.filter(function(l) { return l.id === lessonId; })[0];
   if (!lesson) throw new Error('Unknown lesson: ' + lessonId);
@@ -49,7 +49,7 @@ function run(args) {
     var dynamicChoices = data.kind === 'rice-varieties';
     if (dynamicChoices) {
       // Reuse the app's question text; choice order does not affect individual clips.
-      var app = read(root + '/app.js');
+      var app = read(root + '/js/app.js');
       var start = app.indexOf('  function buildRiceVarietyQuestions(items) {');
       var end = app.indexOf('  function buildChoices(', start);
       if (start < 0 || end < 0) throw new Error('Rice question builder not found');
@@ -57,7 +57,7 @@ function run(args) {
       data = buildRiceVarietyQuestions(data.items);
     }
     if (data.kind === 'seafood-profiles') {
-      var app = read(root + '/app.js');
+      var app = read(root + '/js/app.js');
       var start = app.indexOf('  function buildSeafoodQuestions(');
       var end = app.indexOf('  function buildRiceVarietyQuestions(', start);
       var questionStart = app.indexOf('  function buildSeafoodQuestion(');

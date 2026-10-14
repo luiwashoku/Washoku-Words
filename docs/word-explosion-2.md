@@ -1,6 +1,6 @@
 # 単語爆発2
 
-Open **日本語で話す → 単語爆発2**. The listening game uses the same `word explosion.txt` vocabulary and `data/word-explosion-examples.json` sentences as 単語爆発, through its shared vocabulary loader.
+Open **日本語で話す → 単語爆発2**. The listening game uses the same `data/word-explosion.txt` vocabulary and `data/word-explosion-examples.json` sentences as 単語爆発, through its shared vocabulary loader.
 
 - Each round automatically speaks one Japanese word while the box shows “?”.
 - The speaker below the box replays the word from the start.

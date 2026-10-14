@@ -1960,7 +1960,7 @@ body.no-furigana rt {
 
 /* Money Cat: existing palette, flat tokens and horizontal pointer movement. */
 .money-cat-card { background: var(--canvas); display: grid; align-content: center; text-align: left; overflow: hidden; }
-.money-cat-card::before { content: ""; position: absolute; right: 6px; bottom: -8px; width: clamp(70px, 18vw, 110px); aspect-ratio: 205 / 212; background: url("assets/money-cat-card.svg") center / contain no-repeat; z-index: -1; pointer-events: none; }
+.money-cat-card::before { content: ""; position: absolute; right: 6px; bottom: -8px; width: clamp(70px, 18vw, 110px); aspect-ratio: 205 / 212; background: url("../assets/money-cat-card.svg") center / contain no-repeat; z-index: -1; pointer-events: none; }
 .money-cat-game { width: 100%; --money-cat-gold: #ffbd16; --money-cat-width: clamp(96px, 21vw, 140px); --money-cat-base-extension: 144px; }
 .money-cat-header { position: absolute; top: 0; left: 0; right: 0; z-index: 4; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 12px; padding: 12px 16px; background: var(--horizon); }
 .money-cat-total { font-size: clamp(2rem, 7vw, 2.75rem); font-weight: 800; justify-self: end; }
@@ -2373,7 +2373,7 @@ body.no-furigana rt {
   right: max(-44px, calc((var(--honeycomb-width) - 100cqw) / 2 - 8px));
   width: 59.4px;
   height: 77px;
-  background: url("assets/bee-full.svg") center / contain no-repeat;
+  background: url("../assets/bee-full.svg") center / contain no-repeat;
   opacity: 1;
   pointer-events: none;
 }

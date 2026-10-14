@@ -1,7 +1,7 @@
 {
   "lesson": "page22-23-seafood-names",
   "reviewed": true,
-  "reviewNotes": "Reviewed all 157 exported speech keys against all 32 non-fish entries and explicit reading fields in data/seafood22-23.json, plus app.js buildSeafoodQuestions/buildSeafoodQuestion templates. Every full seafood name uses its vocabulary reading, including あさり, はまぐり, さざえ, ほっきがい, つぶがい, みるがい, くるまえび, ぼたんえび, いせえび, まつばがに, ずわいがに, こういか, ほたるいか and このわた. Topic は in quoted names and 魚介は rendered わ. No object を or directional へ occurs. Lexical は in はまぐり preserved. Display labels and distinct kanji/kana lookup keys unchanged; identical reviewed inputs share recordings. No listening or pitch-accent verification.",
+  "reviewNotes": "Reviewed all 157 exported speech keys against all 32 non-fish entries and explicit reading fields in data/seafood22-23.json, plus js/app.js buildSeafoodQuestions/buildSeafoodQuestion templates. Every full seafood name uses its vocabulary reading, including あさり, はまぐり, さざえ, ほっきがい, つぶがい, みるがい, くるまえび, ぼたんえび, いせえび, まつばがに, ずわいがに, こういか, ほたるいか and このわた. Topic は in quoted names and 魚介は rendered わ. No object を or directional へ occurs. Lexical は in はまぐり preserved. Display labels and distinct kanji/kana lookup keys unchanged; identical reviewed inputs share recordings. No listening or pitch-accent verification.",
   "entries": [
     {
       "key": "「牡蠣」はどうよみますか。",

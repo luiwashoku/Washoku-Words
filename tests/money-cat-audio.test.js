@@ -1,4 +1,4 @@
-// Load money-cat.js first. Result is available as window.moneyCatAudioTestResult.
+// Load js/games/money-cat.js first. Result is available as window.moneyCatAudioTestResult.
 (async () => {
   function assert(value, message) { if (!value) throw new Error(message); }
   const elements = [], requests = [], plays = [];

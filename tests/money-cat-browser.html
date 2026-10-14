@@ -25,9 +25,9 @@ document.getElementById('app').addEventListener('load', async () => {
   w.AudioContext = undefined;
   w.webkitAudioContext = undefined;
   function step(count = 1) { for(let i=0;i<count;i++) { time+=50; const pending=[...frames.values()]; frames.clear(); pending.forEach(fn=>fn(time)); } }
-  const text = await fetch('../word explosion.txt').then(r=>r.text());
+  const text = await fetch('../data/word-explosion.txt').then(r=>r.text());
   const words = w.WordExplosionGame.parseVocabulary(text);
-  const data = await w.WordExplosionGame.loadVocabulary("word explosion.txt");
+  const data = await w.WordExplosionGame.loadVocabulary("data/word-explosion.txt");
   d.querySelector('.money-cat-card').click();
   await until(() => d.querySelectorAll('.money-cat-answer').length === 3);
   assert(d.querySelector('.money-cat-replay .speakerIcon') && !d.querySelector('.money-cat-replay .pauseIcon, .money-cat-replay .resumeIcon'), 'Replay shows one speaker icon');
@@ -61,7 +61,8 @@ document.getElementById('app').addEventListener('load', async () => {
   assert(clips.length===2 && clips[0]===clips[1] && paused>0,'Replay restarts the same shared recording');
   function pick(correct) {
     const gameHeight = d.querySelector("#wordExplosionScreen").getBoundingClientRect().height;
-    const meanings=words.filter(word=>(w.wordExplosionAudioFiles?.[w.getJapaneseSpeechText(word.japanese)] || w.gameAudioFiles[w.getJapaneseSpeechText(word.japanese)])===clips.at(-1)).map(word=>word.english);
+    const audioForKey=key=>w.wordExplosionAudioFiles?.[w.getJapaneseSpeechText(key)] || w.gameAudioFiles[w.getJapaneseSpeechText(key)];
+    const meanings=words.filter(word=>audioForKey(w.WordExplosionGame.recordingKey(word,audioForKey))===clips.at(-1)).map(word=>word.english);
     const choices=[...d.querySelectorAll('.money-cat-answer')];
     assert(new Set(choices.map(el=>el.textContent.toLowerCase())).size===3,'Three distinct meanings');
     const chosen=choices.find(el=>meanings.includes(el.textContent)===correct);

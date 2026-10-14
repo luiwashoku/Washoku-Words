@@ -3,7 +3,7 @@
   "voice": "marin",
   "speed": 1.0,
   "dialect": "Tokyo",
-  "reading_source": "scripts/word-explosion-marin-review.json; checked against word explosion.txt",
+  "reading_source": "scripts/word-explosion-marin-review.json; checked against data/word-explosion.txt",
   "accent_sources": {
     "kanjium": {
       "commit": "9ebca4589565c696e7c39e089e2e928ad65f678c",

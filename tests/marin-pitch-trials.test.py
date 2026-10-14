@@ -31,7 +31,7 @@ class PitchComparisons(unittest.TestCase):
         audio = json.loads((ROOT / 'audio/word-explosion-batches/2026-10-03/manifest.json').read_text())
         review = json.loads((ROOT / 'scripts/word-explosion-marin-review.json').read_text())['entries']
         examples = json.loads((ROOT / 'data/word-explosion-examples.json').read_text())
-        game_audio = json.loads((ROOT / 'game-audio-manifest.js').read_text().split(' = ', 1)[1].rstrip(';\n'))
+        game_audio = json.loads((ROOT / 'js/audio/game-audio-manifest.js').read_text().split(' = ', 1)[1].rstrip(';\n'))
         self.assertEqual(len(batch['requested_readings']), 144)
         self.assertEqual(len(batch['new_vocabulary_keys']), 124)
         self.assertTrue(set(batch['requested_readings']).issubset(review))
@@ -65,7 +65,7 @@ class PitchComparisons(unittest.TestCase):
         originals = json.loads((ROOT / selection['original_manifest']).read_text())
         trials = json.loads((ROOT / selection['new_manifest']).read_text())
         active = json.loads((ROOT / 'audio/word-explosion-marin/manifest.json').read_text())
-        browser_manifest = (ROOT / 'word-explosion-audio-manifest.js').read_text()
+        browser_manifest = (ROOT / 'js/audio/word-explosion-audio-manifest.js').read_text()
         self.assertEqual(json.loads(browser_manifest.split(' = ', 1)[1].rstrip(';\n')), active)
         kept = set(selection['keep_original_keys'])
         review = json.loads((ROOT / 'scripts/word-explosion-marin-review.json').read_text())['entries']

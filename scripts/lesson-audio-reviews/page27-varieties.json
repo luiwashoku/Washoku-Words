@@ -1,7 +1,7 @@
 {
   "lesson": "page27-varieties",
   "reviewed": true,
-  "reviewNotes": "Reviewed all 56 speech keys against data/rice27-varieties.json furigana and app.js buildRiceVarietyQuestions templates. Rice names and regions retain their explicit readings, including しんのすけ, ゆきわかまる, せいてんのへきれき. Loanwords transcribed to hiragana; かれー retains its long-vowel mark. Topic は in quoted names, ひんしゅはどれ and ものはどれ uses わ; object を uses お. Lexical ごはん, はばひろい, はごたえ and へきれき preserved. No directional へ. Dynamic answer choices are covered individually. Display labels and lookup keys preserved. No listening or pitch-accent verification.",
+  "reviewNotes": "Reviewed all 56 speech keys against data/rice27-varieties.json furigana and js/app.js buildRiceVarietyQuestions templates. Rice names and regions retain their explicit readings, including しんのすけ, ゆきわかまる, せいてんのへきれき. Loanwords transcribed to hiragana; かれー retains its long-vowel mark. Topic は in quoted names, ひんしゅはどれ and ものはどれ uses わ; object を uses お. Lexical ごはん, はばひろい, はごたえ and へきれき preserved. No directional へ. Dynamic answer choices are covered individually. Display labels and lookup keys preserved. No listening or pitch-accent verification.",
   "entries": [
     {
       "key": "にいがたけんとむすびつきがつよく、「あまみ・ねばり・つやのバランスがよい」というとくちょうがあり、しろいごはんや、おにぎりにむくひんしゅはどれですか。",

@@ -34,7 +34,7 @@ for lesson, mapping in combined.items():
     combined[lesson] = {k:v for k,v in mapping.items() if k in current}
 
 used = paths(combined)
-for file in ROOT.glob('*-audio-manifest.js'):
+for file in (ROOT/'js/audio').glob('*-audio-manifest.js'):
     if file.name == 'lesson-audio-manifest.js':
         continue
     used |= paths(json.loads(file.read_text().split('=', 1)[1].strip().rstrip(';')))
@@ -42,7 +42,7 @@ for file in (ROOT/'data').glob('*.json'):
     used |= paths(json.loads(file.read_text()))
 # Protect direct references on auxiliary pages, including the voice comparison.
 for pattern in ('*.js', '*.html'):
-    for file in ROOT.glob(pattern):
+    for file in list(ROOT.glob(pattern)) + list((ROOT/'js').rglob(pattern)) + list((ROOT/'tools').rglob(pattern)):
         if file.name == 'lesson-audio-manifest.js':
             continue
         used |= set(re.findall(r'(?<![\w/])(audio/[^\s\"\'<>]+\.mp3)', file.read_text()))
@@ -67,7 +67,7 @@ if args.delete:
         individual = ROOT/'audio/lessons'/lesson/'manifest.json'
         if not individual.exists() or json.loads(individual.read_text()) != mapping:
             individual.write_text(json.dumps(mapping,ensure_ascii=False,indent=2)+'\n')
-    (ROOT/'lesson-audio-manifest.js').write_text('window.lessonAudioFiles = '+json.dumps(combined,ensure_ascii=False)+';\n')
+    (ROOT/'js/audio/lesson-audio-manifest.js').write_text('window.lessonAudioFiles = '+json.dumps(combined,ensure_ascii=False)+';\n')
     for file,review in reviews.items():
         if json.loads(file.read_text()) != review:
             file.write_text(json.dumps(review,ensure_ascii=False,indent=2)+'\n')

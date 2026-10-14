@@ -92,7 +92,7 @@ def main():
     key = os.environ.get('OPENAI_API_KEY') or (Path.home() / '.config/washoku-words/openai-api-key').read_text().strip()
     manifest_path = ROOT / 'data/marin-audio-trials.json'
     manifest = json.loads(manifest_path.read_text()) if manifest_path.exists() else {}
-    active_files = ['word-explosion-audio-manifest.js', 'audio/word-explosion-marin/manifest.json']
+    active_files = ['js/audio/word-explosion-audio-manifest.js', 'audio/word-explosion-marin/manifest.json']
     active_hashes = {p: hashlib.sha256((ROOT / p).read_bytes()).hexdigest() for p in active_files}
     folder = ROOT / 'audio/marin-pitch-trials'
     folder.mkdir(parents=True, exist_ok=True)

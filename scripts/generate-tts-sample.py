@@ -54,9 +54,9 @@ for sample in samples:
     clips = [m for m in manifest if m['label'] == sample['label']]
     rows.append('<section><h2>' + html.escape(sample['label']) + '</h2><p lang="ja">' + html.escape(sample['text']) + '</p>' + ''.join(
         '<div><label>' + m['voice'].title() + '</label><audio controls preload="none" src="./' + m['file'] + '"></audio></div>' for m in clips) + '</section>')
-(ROOT / 'tts-sample.html').write_text('''<!doctype html>
-<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>コシヒカリ · Audio comparison</title><link rel="stylesheet" href="styles.css">
+(ROOT / 'tools/tts-sample.html').write_text('''<!doctype html>
+<html lang="en"><meta charset="utf-8"><base href="../"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>コシヒカリ · Audio comparison</title><link rel="stylesheet" href="css/styles.css">
 <style>main{max-width:760px;margin:auto;padding:28px}h1{font-size:30px}section{border-top:1px solid;padding:20px 0}section p{font-size:22px;line-height:1.8}section div{display:flex;align-items:center;gap:18px;margin:14px 0;flex-wrap:wrap}label{width:80px}audio{max-width:100%}</style>
 <main><a href="./index.html">← Back to decks</a><h1 lang="ja">コシヒカリ</h1><p>Koshihikari rice · AI-generated voice samples</p>
 <p>Nova and Shimmer · tts-1-hd · Speed 1.0</p><p>Each recording reads the text shown above it. Compare Nova's original コシヒカリ with the new こしひかり recording. Replaying uses saved MP3s.</p>
@@ -71,4 +71,4 @@ players.forEach(player => {
   player.addEventListener('error', () => { document.getElementById('status').textContent = 'Could not load this audio file. Please reload and try again.'; });
 });
 </script></html>''')
-print('Ready: tts-sample.html')
+print('Ready: tools/tts-sample.html')

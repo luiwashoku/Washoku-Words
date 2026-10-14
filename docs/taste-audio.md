@@ -42,7 +42,7 @@ On success the script writes:
 
 - `audio/taste-words/*.mp3`
 - `audio/taste-words/manifest.json`
-- `taste-audio-manifest.js`
+- `js/audio/taste-audio-manifest.js`
 
 Publish these together with the app changes. The manifest is a text-to-file
 lookup; it contains no credentials. The browser loads individual MP3s only

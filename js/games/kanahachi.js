@@ -201,7 +201,7 @@
     }
     await Promise.all(Array.from({ length: 6 }, worker));
     // The app-wide word bank is shared by both Word Explosion games and Money Cat.
-    const response = await fetch("word explosion.txt", { signal });
+    const response = await fetch("data/word-explosion.txt", { signal });
     if (!response.ok) throw Error("Could not load the shared word bank.");
     window.WordExplosionGame.parseVocabulary(await response.text(), { includeDuplicates: true }).forEach(word => records.push({
       spelling: word.kanji || word.japanese, reading: word.japanese, english: word.english,
@@ -209,7 +209,7 @@
     }));
     if (failures.length) throw Error(`Could not load ${failures.length} vocabulary source(s). Go back and reopen to retry.`);
     const result = aggregate(records);
-    result.audit.files = tasks.map(([file]) => file).concat("word explosion.txt");
+    result.audit.files = tasks.map(([file]) => file).concat("data/word-explosion.txt");
     return result;
   }
   function resolveAudio(variant) {

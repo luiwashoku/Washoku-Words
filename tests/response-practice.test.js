@@ -4,7 +4,7 @@ function read(path) {
   return $.NSString.stringWithContentsOfFileEncodingError(path, $.NSUTF8StringEncoding, null).js;
 }
 function assert(value, message) { if (!value) throw new Error(message); }
-const source = read("app.js");
+const source = read("js/app.js");
 new Function(source);
 function extract(start, end) { return source.slice(source.indexOf(`  function ${start}(`), source.indexOf(`  function ${end}(`)); }
 const validate = new Function(extract("isValidQuestion", "renderCurrentQuestion") + "return isValidQuestion;")();
