@@ -2373,6 +2373,9 @@ html.vocabulary-cards-open,
   font-size: 30px;
   font-weight: 700;
   clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: none;
+  appearance: none;
   touch-action: manipulation;
 }
 .kanahachi-tile:focus-visible { background: var(--bronze); outline: none; }
