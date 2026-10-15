@@ -9,4 +9,6 @@ Run from the repository root. Tests remain together so their `../index.html` and
 
 Useful checks after a file move: `project-layout.test.py`, `topic-vocabulary-cards.test.py`, `grammar-example-coverage.test.py`, `kanahachi.test.js`, and the home icon, vocabulary, grammar, game, and offline browser pages.
 
+Dictionary Bee checks: `kanahachi-dictionary.test.py` verifies every compiled board and source restrictions; `kanahachi-dictionary.test.js` takes `"$PWD"` and verifies rules, app hints and save isolation; `kanahachi-dictionary-browser.html` checks the real UI, goal, continued play and refresh/reopen; `offline-migration-browser.html` covers the packaged dictionary with the network blocked.
+
 Some older tests describe previous deck sizes, positions or voices. Their pre-existing failures are recorded in `docs/file-organization.md`; they were compared against the original files rather than silently removed or weakened.

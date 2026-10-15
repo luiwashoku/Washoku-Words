@@ -55,7 +55,7 @@
         for(const [n,row] of listRows.entries()){
           const word=items[n];assert(!visited.has(word.sourceKey),'No duplicate new vocabulary');visited.add(word.sourceKey);
           assert(row.querySelector('[lang="en"]').textContent===word.english,'Supplied meaning retained');
-          assert(w.Kanahachi.normalizeReading(w.getJapaneseSpeechText(word.japanese))===word.reading,'Segmented furigana matches supplied reading');
+          assert(w.KanahachiCore.normalizeReading(w.getJapaneseSpeechText(word.japanese))===word.reading,'Segmented furigana matches supplied reading');
           const speaker=row.querySelector('button'),count=plays.length;
           assert(speaker&&!speaker.disabled&&lookup(word.speech),'New reviewed recording available');
           speaker.click();await until(()=>plays.length>count);
@@ -72,9 +72,9 @@
         const pair = pairs[n];
         if (supplemental.has(pair.sourceKey)) {
           const word = supplemental.get(pair.sourceKey);
-          assert(w.Kanahachi.normalizeReading(w.getJapaneseSpeechText(pair.vocabulary.japanese)) === word.reading, 'Supplemental word furigana retains its lexical reading');
+          assert(w.KanahachiCore.normalizeReading(w.getJapaneseSpeechText(pair.vocabulary.japanese)) === word.reading, 'Supplemental word furigana retains its lexical reading');
           assert(pair.example.japanese === word.example.japanese && pair.example.english === word.example.english, 'Each supplied word has its reviewed bilingual example');
-          assert(w.Kanahachi.normalizeReading(w.getJapaneseSpeechText(pair.example.japanese)) === w.Kanahachi.normalizeReading(pair.example.speech), 'Sentence furigana matches its lexical lookup key');
+          assert(w.KanahachiCore.normalizeReading(w.getJapaneseSpeechText(pair.example.japanese)) === w.KanahachiCore.normalizeReading(pair.example.speech), 'Sentence furigana matches its lexical lookup key');
         }
         assert(!visited.has(pair.sourceKey), 'No duplicate vocabulary');
         visited.add(pair.sourceKey);

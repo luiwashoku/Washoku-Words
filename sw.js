@@ -1,4 +1,4 @@
-const SHELL = 'washoku-shell-v345';
+const SHELL = 'washoku-shell-v359';
 // Keep previously downloaded pages working after the source-file reorganization.
 const LEGACY_PATHS = {
   'app.js': 'js/app.js',
@@ -9,7 +9,8 @@ const LEGACY_PATHS = {
   'styles.css': 'css/styles.css',
   'word explosion.txt': 'data/word-explosion.txt',
   'families-of-doom.js': 'js/games/families-of-doom.js',
-  'kanahachi.js': 'js/games/kanahachi.js',
+  'kanahachi.js': 'js/games/kanahachi-core.js',
+  'js/games/kanahachi.js': 'js/games/kanahachi-core.js',
   'money-cat.js': 'js/games/money-cat.js',
   'money-cat-audio-check.js': 'js/games/money-cat-audio-check.js',
   'word-explosion.js': 'js/games/word-explosion.js',
@@ -22,10 +23,12 @@ const LEGACY_PATHS = {
   'tts-sample.html': 'tools/tts-sample.html',
   'tts-quality-check.html': 'tools/tts-quality-check.html'
 };
-const FILES = ["assets/knife_anatomy2.SVG", "./", "js/app.js", "assets/appicon-512-v2.png", "assets/appicon.svg", "assets/cat-03.svg", "assets/money-cat-card.svg", "audio/effects/money-cat-correct.wav", "audio/effects/money-cat-wrong.wav", "data/catalog.json", "data/topic-vocabulary-cards.json", "data/household-finance-cards.json", "data/cooking-reference-cards.json", "data/marin-audio-trials.json", "data/marin-audio-originals.json", "js/audio/game-audio-manifest.js", "index.html", "js/games/kanahachi.js", "assets/bee.svg", "assets/bee-full.svg", "assets/flashcard.svg", "js/audio/japanese-speech.js", "js/audio/lesson-audio-manifest.js", "manifest.json", "js/games/money-cat.js", "js/games/money-cat-audio-check.js", "js/offline.js", "js/ui/search.js", "css/styles.css", "js/audio/taste-audio-manifest.js", "js/games/word-explosion-2.js", "js/cards/vocabulary-cards.js", "js/games/families-of-doom.js", "js/games/word-explosion.js", "js/audio/zukan-audio-manifest.js"];
+const FILES = ["assets/knife_anatomy2.SVG", "./", "js/app.js", "assets/appicon-512-v2.png", "assets/appicon.svg", "assets/cat-03.svg", "assets/money-cat-card.svg", "audio/effects/money-cat-correct.wav", "audio/effects/money-cat-wrong.wav", "data/catalog.json", "data/topic-vocabulary-cards.json", "data/household-finance-cards.json", "data/cooking-reference-cards.json", "data/marin-audio-trials.json", "data/marin-audio-originals.json", "js/audio/game-audio-manifest.js", "index.html", "js/games/kanahachi-core.js", "assets/bee.svg", "assets/bee-full.svg", "assets/flashcard.svg", "js/audio/japanese-speech.js", "js/audio/lesson-audio-manifest.js", "manifest.json", "js/games/money-cat.js", "js/games/money-cat-audio-check.js", "js/offline.js", "js/ui/search.js", "css/styles.css", "js/audio/taste-audio-manifest.js", "js/games/word-explosion-2.js", "js/cards/vocabulary-cards.js", "js/games/families-of-doom.js", "js/games/word-explosion.js", "js/audio/zukan-audio-manifest.js"];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(SHELL).then(cache => cache.addAll([
-    ...FILES, 'js/audio/word-explosion-audio-manifest.js', 'data/word-explosion.txt',
+    ...FILES, 'js/games/kanahachi-dictionary.js', 'data/dictionaries/kanahachi-jmdict.json',
+    'docs/licenses/jmdict.md', 'docs/licenses/CC-BY-SA-4.0.txt',
+    'js/audio/word-explosion-audio-manifest.js', 'data/word-explosion.txt',
     'data/word-explosion-examples.json'
   ])).then(() => self.skipWaiting()));
 });

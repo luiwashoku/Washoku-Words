@@ -150,7 +150,7 @@
       }
     });
 
-    if (window.location.hash === "#kanahachi") openKanahachi();
+    if (["#kanahachi", "#kanahachi-dictionary"].includes(window.location.hash)) openKanahachi();
     registerServiceWorker();
   }
 
@@ -797,7 +797,7 @@
 
   function getRecordedJapaneseFile(text) {
     const id = state.selectedLesson?.id;
-    if (id === "kanahachi" && typeof text === "string" && text.startsWith("kanahachi-audio:")) {
+    if (["kanahachi", "kanahachi-dictionary"].includes(id) && typeof text === "string" && text.startsWith("kanahachi-audio:")) {
       const file = text.slice("kanahachi-audio:".length);
       return /^audio\/[A-Za-z0-9_./-]+\.mp3$/.test(file) ? file : null;
     }
@@ -1486,16 +1486,17 @@
   }
 
   function openKanahachi() {
-    window.history.replaceState(null, "", "#kanahachi");
+    const id = "kanahachi";
+    window.history.replaceState(null, "", `#${id}`);
     cancelJapaneseSpeech();
     state.selectedCategory = null;
-    state.selectedLesson = { id: "kanahachi", isKanahachi: true };
+    state.selectedLesson = { id, isKanahachi: true };
     showScreen("word-explosion");
     document.getElementById("wordExplosionTitle").textContent = "かなハチ";
     document.getElementById("explosionIndexButton").classList.add("hidden");
     document.getElementById("vocabularyCardTools").classList.add("hidden");
     document.getElementById("vocabularyCardNavigation").classList.add("hidden");
-    closeWordExplosion = window.Kanahachi.mount(elements.wordExplosionGame, {
+    closeWordExplosion = window.KanahachiDictionary.mount(elements.wordExplosionGame, {
       catalog: state.catalog, toolbar: document.getElementById("vocabularyCardTools"), stopSpeech: cancelJapaneseSpeech,
       createExampleSpeechButton, setJapaneseText: setFuriganaAwareText
     });

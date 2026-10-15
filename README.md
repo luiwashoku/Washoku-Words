@@ -2,6 +2,8 @@
 
 A Japanese learning app with vocabulary, grammar, culinary reference decks, an illustrated dictionary, and word games. It uses plain HTML, CSS, and JavaScript; there is no build step.
 
+The single orange bee opens [かなハチ](docs/kanahachi-dictionary.md), the offline dictionary game with a ten-word goal and app-vocabulary priority. Existing dictionary-game progress is preserved.
+
 ## Run locally
 
 Serve the repository root, then open `index.html`:

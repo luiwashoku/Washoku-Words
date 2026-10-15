@@ -1,0 +1,125 @@
+<!doctype html><meta charset="utf-8"><title>Dictionary Bee checks</title>
+<pre id="result">RUNNING</pre>
+<iframe src="../index.html" style="width:390px;height:850px;border:0" title="App"></iframe>
+<script>
+(async () => {
+  const result = document.querySelector('#result'), frame = document.querySelector('iframe');
+  const assert = (value, message) => { if (!value) throw Error(message); };
+  const until = async (test, label = 'loading') => {
+    for (let i = 0; i < 1000; i++) { if (test()) return; await new Promise(r => setTimeout(r, 20)); }
+    throw Error('Timed out: ' + label + ' · ' + frame.contentDocument.querySelector('#wordExplosionGame')?.textContent);
+  };
+  try {
+    await until(() => frame.contentDocument.querySelector('#openKanahachi:not(:disabled)'));
+    let w = frame.contentWindow, d = frame.contentDocument;
+    const q = selector => d.querySelector(selector);
+    const installMocks = () => {
+      for (const id of ['openKanahachi']) q('#' + id).animate = () => ({finished: Promise.resolve()});
+      w.confirm = () => true;
+      w.Audio = class extends w.EventTarget {
+        constructor(src) { super(); this.src = src; this.paused = true; this.currentTime = 0; this.playbackRate = 1; }
+        getAttribute() { return this.src; }
+        play() { this.paused = false; return Promise.resolve(); }
+        pause() { this.paused = true; }
+      };
+    };
+    installMocks();
+    for (const width of [320, 390, 768]) {
+      frame.style.width = width + 'px'; await new Promise(r => setTimeout(r, 40));
+      assert(d.querySelectorAll('.home-bee-button').length === 1, 'One bee remains');
+      assert(q('#openKanahachi img').getAttribute('src') === 'assets/bee-full.svg', 'Main-menu bee has its yellow belly');
+      assert(d.documentElement.scrollWidth <= w.innerWidth + 1, 'Home fits ' + width);
+      assert(w.getComputedStyle(q('#openKanahachi img')).width === '50px', 'Bee graphic retains its size');
+    }
+    frame.style.width = '390px';
+    const data = await fetch('../data/dictionaries/kanahachi-jmdict.json').then(r => r.json());
+    const example = data.boards.find(([kana, center]) => 'おいしい'.includes(center) && [...'おいしい'].every(c => kana.includes(c)));
+    assert(example, 'A compiled common-word board accepts おいしい');
+    const seed = {version: 1, kana: [...example[0]], center: example[1], found: [], input: '', finished: false};
+    const oldKey = 'washoku-kanahachi-v1', newKey = w.KanahachiDictionary.SAVE_KEY;
+    const oldSave = JSON.stringify({version:1,kana:['あ','お','い','ろ','ん','も','し'],center:'し',found:['しろ'],input:'',finished:false});
+    w.localStorage.setItem(oldKey, oldSave);
+    w.localStorage.setItem(newKey, JSON.stringify(seed));
+    q('#openKanahachi').click();
+    await until(() => q('.kanahachi-input') && !q('#wordExplosionScreen').classList.contains('hidden'), 'dictionary game');
+    assert(q('#wordExplosionTitle').textContent === 'かなハチ', 'Distinct game title');
+    const controls = [q('.kanahachi-delete'), q('.kanahachi-enter'), ...q('.kanahachi-tools').children];
+    assert(controls.every(button => w.getComputedStyle(button).backgroundColor === 'rgb(255, 225, 97)'), 'Delete, enter, hint and new puzzle are yellow');
+    assert([...q('.kanahachi-tools').children].every(button => w.getComputedStyle(button).fontSize === w.getComputedStyle(q('.kanahachi-enter')).fontSize && w.getComputedStyle(button).borderRadius === w.getComputedStyle(q('.kanahachi-enter')).borderRadius), 'Hint and new puzzle match the enter font size and pill shape');
+    assert(q('.kanahachi-stats').textContent.includes('0 / 10 found'), 'Ten-word goal');
+    assert(q('.kanahachi-stats').textContent === '0 / 10 found', 'Only the found count is displayed');
+    q('#kanahachiRulesButton').click();
+    const dialog = q('.kanahachi-rules-dialog');
+    assert(dialog.open && dialog.textContent.includes('10語') && dialog.textContent.includes('JMdict'), 'Rules and dictionary attribution');
+    dialog.querySelector('button').click();
+    const submit = reading => {
+      const input = q('.kanahachi-input'); input.value = reading; input.dispatchEvent(new w.Event('input', {bubbles:true}));
+      q('.kanahachi-enter').click();
+    };
+    submit('オイシイ');
+    assert(q('.kanahachi-word[data-reading="おいしい"]')?.textContent.includes('delicious'), 'Reported missing word now accepted with meaning');
+    assert(!q('.kanahachi-word[data-reading="おいしい"]').textContent.includes('Recording unavailable'), 'No missing-audio placeholder for dictionary-only words');
+    const saved = () => JSON.parse(w.localStorage.getItem(newKey));
+    assert(saved().found.length === 1, 'Dictionary word counts toward the same goal');
+    submit('おいしい'); assert(saved().found.length === 1, 'Duplicate gives no extra credit');
+    const store = {data, appDictionary:new Map()};
+    const dictionary = w.KanahachiDictionary.dictionaryForBoard(store, seed);
+    const other = [...dictionary.keys()].filter(r => r !== 'おいしい');
+    for (let i = 0; i < 9; i++) submit(other[i]);
+    assert(saved().found.length === 10 && q('.kanahachi-goal').textContent.includes('10語達成'), 'Goal reached after ten distinct readings');
+    assert(!q('.kanahachi-input').disabled && !saved().finished, 'Completion keeps the game open');
+    submit(other[9]); assert(saved().found.length === 11 && q('.kanahachi-stats').textContent.includes('11 / 10 found'), 'Eleventh word accepted');
+    const summary = q('.kanahachi-found-summary');
+    const summaryStyle = w.getComputedStyle(summary);
+    assert(Math.abs(summary.getBoundingClientRect().height - 2 * parseFloat(summaryStyle.lineHeight)) < 1, 'Found words have exactly two lines of space');
+    assert(summary.scrollHeight % parseFloat(summaryStyle.lineHeight) === 0, 'Wrapped lines use the same fixed line height without extra gaps');
+    assert([...summary.children].every(word => w.getComputedStyle(word).color === 'rgb(17, 17, 17)'), 'All found answers use black text');
+    assert(summary.scrollHeight > summary.clientHeight, 'Extra found words scroll inside their frame');
+    const summaries = [...summary.children];
+    summaries.slice(1).forEach((word, index) => {
+      const previous = summaries[index];
+      assert(word.getBoundingClientRect().top >= previous.getBoundingClientRect().bottom, 'Each answer starts on its own line');
+      const dot = w.getComputedStyle(word.lastElementChild, '::after');
+      assert(dot.backgroundColor === 'rgb(255, 81, 0)' && dot.width === '8px' && dot.height === '8px', 'Orange dot follows the complete answer group');
+      assert(word.querySelector('.kanahachi-summary-spelling'), 'Kanji spellings stay in their answer group');
+    });
+    assert(Math.abs(summary.scrollHeight - summary.clientHeight - summary.scrollTop) <= 1, 'Newest bottom line visible automatically');
+    summary.scrollTop = 0;
+    q('.kanahachi-delete').click();
+    assert(q('.kanahachi-found-summary').scrollTop === 0, 'Manual scrolling survives other controls');
+    submit(other[10]);
+    const latest = q('.kanahachi-found-summary');
+    assert(Math.abs(latest.scrollHeight - latest.clientHeight - latest.scrollTop) <= 1, 'Another correct word follows the bottom again');
+    assert(saved().found.length === 12, 'Additional answer accepted while testing scrolling');
+    assert(w.localStorage.getItem(oldKey) === oldSave, 'Original game progress untouched');
+    assert(w.location.hash === '#kanahachi', 'Distinct resumable route');
+    w.history.replaceState(null, '', '#kanahachi-dictionary');
+    const oldDocument = d;
+    frame.contentWindow.location.reload();
+    await until(() => frame.contentDocument !== oldDocument && frame.contentDocument.querySelector('#openKanahachi:not(:disabled)'), 'page reload');
+    w = frame.contentWindow; d = frame.contentDocument; installMocks();
+    await until(() => q('.kanahachi-input') && q('#wordExplosionTitle').textContent === 'かなハチ', 'automatic dictionary resume: ' + w.location.href);
+    assert(q('.kanahachi-stats').textContent.includes('12 / 10 found'), 'Refreshing restores the retained puzzle and progress');
+    assert(w.location.hash === '#kanahachi', 'Previous dictionary route resumes at the canonical route');
+    q('#backFromExplosion').click();
+    q('#openKanahachi').click(); await until(() => q('.kanahachi-input') && !q('#wordExplosionScreen').classList.contains('hidden'));
+    assert(q('.kanahachi-stats').textContent.includes('12 / 10 found'), 'Reopening resumes dictionary progress');
+    const beforeBoard = JSON.stringify(saved().kana) + saved().center;
+    [...q('.kanahachi-tools').querySelectorAll('button')].find(b => b.textContent === '新しい問題').click();
+    assert(saved().found.length === 0 && JSON.stringify(saved().kana) + saved().center !== beforeBoard, 'New puzzle resets this version only');
+    assert(saved().appAnswerCount >= 5, 'New puzzle includes at least five app vocabulary readings');
+    [...q('.kanahachi-tools').querySelectorAll('button')].find(b => b.textContent === 'ヒント').click();
+    assert(q('.kanahachi-hint') && saved().hintStage === 1, 'Meaning hint available');
+    [...q('.kanahachi-tools').querySelectorAll('button')].find(b => b.textContent === '読みを見る').click();
+    assert(q('.kanahachi-hint').textContent.includes(saved().hint), 'Second hint reveals reading');
+    for (const width of [320,390]) {
+      frame.style.width = width + 'px'; await new Promise(r => setTimeout(r,40));
+      assert(d.documentElement.scrollWidth <= w.innerWidth + 1, 'Game fits phone width ' + width);
+    }
+    [...q('#wordExplosionGame').querySelectorAll('button')].find(b => b.textContent === '終了して答えを見る').click();
+    assert(q('.kanahachi-input').disabled && q('#wordExplosionGame').textContent.includes('Remaining answers'), 'Optional finish reveals answers');
+    q('#backFromExplosion').click();
+    result.textContent = 'PASS: single dictionary bee, 320/390/768px layout, おいしい and meanings, ten-word goal, continued play, duplicates, independent saves, refresh/reopen, hints, new puzzle, reveal, and retained dictionary progress.';
+  } catch (error) { result.textContent = 'FAIL: ' + error.stack; }
+})();
+</script>

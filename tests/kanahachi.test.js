@@ -4,14 +4,14 @@ function read(path) { return ObjC.unwrap($.NSString.stringWithContentsOfFileEnco
 function assert(value, message) { if (!value) throw Error(message); }
 function run(args) {
   const root = args[0], window = {};
-  eval(read(root + "/js/games/kanahachi.js"));
+  eval(read(root + "/js/games/kanahachi-core.js"));
   eval(read(root + "/js/games/word-explosion.js"));
   eval(read(root + "/js/audio/japanese-speech.js"));
   eval(read(root + "/js/audio/lesson-audio-manifest.js"));
   eval(read(root + "/js/audio/word-explosion-audio-manifest.js"));
   eval(read(root + "/js/audio/game-audio-manifest.js"));
   eval(read(root + "/js/audio/taste-audio-manifest.js"));
-  const k = window.Kanahachi;
+  const k = window.KanahachiCore;
   assert(k.normalizeReading("ｷｬｯﾌﾟ") === "きゃっぷ", "Half-width katakana and small kana");
   assert(k.normalizeReading("ガハバパヴー") === "がはばぱゔー", "Voicing and long-vowel mark preserved");
   assert(k.normalizeReading("か\u3099") === "が", "Decomposed voicing normalizes");
@@ -85,17 +85,6 @@ function run(args) {
   assert(k.validateAnswer("だいこんが", initial, dictionary).error.includes("only"), "Unavailable kana rejected");
   assert(k.validateAnswer("んんん", initial, dictionary).error.includes("dictionary"), "Not in dictionary rejected");
   assert(k.validateAnswer("ん", initial, dictionary).error.includes("two"), "Minimum two kana");
-  assert(k.pointsFor("だいこんおろし", initial) === 14 && k.pointsFor("だいこん", initial) === 4, "Length scoring and optional seven-kana bonus");
-  let seed = 12345; const random = () => { seed = (seed * 1664525 + 1013904223) >>> 0; return seed / 4294967296; };
-  const start = Date.now(), boards = k.generateBoards(dictionary, random);
-  assert(boards.length > 10, "Enough real seven-kana boards");
-  boards.forEach(board => {
-    assert(board.kana.length === 7 && new Set(board.kana).size === 7 && board.kana.includes(board.center), "Exactly seven distinct kana");
-    assert(board.answers.length >= 5 && new Set(board.answers).size === board.answers.length, "At least five distinct readings");
-    assert(board.kana.every(c => board.answers.some(r => r.includes(c))), "Every tile participates in a valid answer");
-    assert(JSON.stringify(board.answers) === JSON.stringify(k.validAnswers(dictionary, board.kana, board.center).sort()), "Every valid answer calculated before play");
-  });
-  assert(boards.some(board => !board.answers.some(r => board.kana.every(c => r.includes(c)))), "Pangram not mandatory");
   const saved = { ...initial, version: 1, found: ["だいこん", "だいこん", "invalid"], outer: initial.kana.filter(c => c !== "ん"), input: "だい", hint: "だいこんおろし", hintStage: 2, finished: false };
   const restored = k.restorePuzzle(JSON.parse(JSON.stringify(saved)), dictionary);
   assert(restored.found.join() === "だいこん" && restored.input === "だい" && restored.hintStage === 2, "Restore sanitizes progress and retains input and hint stage");
@@ -125,5 +114,5 @@ function run(args) {
   const variant = dictionary.get("だいこん").variants[0];
   assert(k.resolveAudio(variant)?.startsWith("audio/"), "Existing term audio resolves across source manifests");
   new Function(read(root + "/js/app.js"));
-  return `PASS: ${dictionary.size} usable readings; ${audit.missingReading} unsupported readings; ${audit.tooShort} one-kana entries. ${boards.length} valid boards in ${Date.now() - start} ms. Aggregation, homophones, no sentence scraping, normalization, validation, scoring, persistence and audio checked.`;
+  return `PASS: ${dictionary.size} app readings; ${audit.missingReading} unsupported and ${audit.tooShort} one-kana entries excluded. Shared normalization, aggregation, homophones, validation, persistence and audio checked.`;
 }

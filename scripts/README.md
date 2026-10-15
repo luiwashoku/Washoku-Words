@@ -3,6 +3,7 @@
 Run scripts from the repository root. They resolve project files from their own location and require no folder-specific working directory.
 
 - Vocabulary: `export-topic-vocabulary.js`, `build-topic-vocabulary.py`, and `export-topic-vocabulary-list.py` build/export the 単語 deck and its readable list.
+- Dictionary Bee: `build-kanahachi-dictionary.py --source /path/to/pinned-release.zip` builds the JMdict dataset and ten-common-word boards. See `docs/kanahachi-dictionary.md` for source, checksum and licence. It does not generate audio.
 - Audio export: `export-lesson-audio.js`, `export-game-audio.js`, `export-taste-audio.js`, and `export-zukan-audio.js` collect display keys and readings.
 - Audio generation: `generate-lesson-audio.py` and the other `generate-*-audio.py` / Marin / word-batch scripts render reviewed inputs. Read `../AGENTS.md` first. Use a generator's `--dry-run` option when available to validate without rendering.
 - Review inputs: `lesson-audio-reviews/`, `vocabulary-audio-reviews/`, `word-explosion-batches/`, and the speech override / pitch review JSON files preserve pronunciation decisions and historical batches.
