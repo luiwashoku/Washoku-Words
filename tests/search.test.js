@@ -16,6 +16,7 @@ const search = host.WashokuSearch;
 const text = search.searchableText({ question: "御飯(ごはん)を食(た)べる", enExplanation: "Eat RICE", chunks: ["ゴハン"] });
 assert(text.includes(search.normalize("御飯を食べる")), "Find kanji across furigana annotations");
 assert(text.includes(search.normalize("ごはん")), "Find readings");
+assert(search.searchableText("日本(にほん)語(ご)").includes("にほんご"), "Find complete readings across adjacent furigana");
 assert(text.includes(search.normalize("rice")), "English is case insensitive");
 assert(search.normalize("ゴハン") === search.normalize("ごはん"), "Match katakana and hiragana");
 assert(search.normalize("ＲＩＣＥ") === "rice", "Normalize full-width English");

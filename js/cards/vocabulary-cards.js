@@ -1,7 +1,7 @@
 (() => {
   "use strict";
 
-  function mount(container, { file, lesson, toolbar, navigation, stopSpeech, createExampleSpeechButton, getRecordedJapaneseFile, setJapaneseText }) {
+  function mount(container, { file, lesson, initialWord, toolbar, navigation, stopSpeech, createExampleSpeechButton, getRecordedJapaneseFile, setJapaneseText }) {
     const controller = new AbortController();
     const { signal } = controller;
     let alive = true;
@@ -698,7 +698,10 @@
           const j = Math.floor(Math.random() * (i + 1));
           [entries[i], entries[j]] = [entries[j], entries[i]];
         }
-        index = 0;
+        const target = initialWord ? entries.findIndex(entry =>
+          initialWord.id ? entry.id === initialWord.id :
+            entry.japanese === initialWord.japanese && entry.kanji === initialWord.kanji) : -1;
+        index = target >= 0 ? target : 0;
         render();
         status.textContent = "";
         card.classList.remove("hidden");

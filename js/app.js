@@ -1502,7 +1502,7 @@
     });
   }
 
-  function openVocabularyCards(lesson = state.catalog.find(entry => entry.id === "topic-vocabulary-cards")) {
+  function openVocabularyCards(lesson = state.catalog.find(entry => entry.id === "topic-vocabulary-cards"), initialWord) {
     if (lesson instanceof Event) lesson = state.catalog.find(entry => entry.id === "topic-vocabulary-cards");
     if (!lesson) return;
     cancelJapaneseSpeech();
@@ -1514,6 +1514,7 @@
     closeWordExplosion = window.VocabularyCards.mount(elements.wordExplosionGame, {
       file: lesson.file,
       lesson,
+      initialWord,
       toolbar: document.getElementById("vocabularyCardTools"),
       navigation: document.getElementById("vocabularyCardNavigation"),
       stopSpeech: cancelJapaneseSpeech,
@@ -1525,7 +1526,7 @@
 
   async function openLesson(lesson, { questionId, initialWord } = {}) {
     if (lesson.gameMode === "vocabulary-cards") {
-      openVocabularyCards(lesson);
+      openVocabularyCards(lesson, initialWord);
       return;
     }
     if (lesson.gameMode === "families-of-doom") {

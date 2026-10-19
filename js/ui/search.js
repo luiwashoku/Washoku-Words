@@ -19,7 +19,9 @@
     }
     collect(value);
     const text = strings.join(" ");
-    return normalize(`${text} ${text.replace(/[（(][ぁ-ゖァ-ヶー\s]+[）)]/g, "")}`);
+    const withoutReadings = text.replace(/[（(][ぁ-ゖァ-ヶー\s]+[）)]/g, "");
+    const readings = text.replace(/[一-龯々〆ヵヶ]+[（(]([ぁ-ゖァ-ヶー\s]+)[）)]/g, "$1");
+    return normalize(`${text} ${withoutReadings} ${readings}`);
   }
 
   function init({ catalog, loadQuestions, getQuestionTitle, openResult, setJapaneseText = (element, text) => { element.textContent = text; } }) {
@@ -32,8 +34,9 @@
     const loaded = new Set();
     let loading = null;
     let timer;
-    let vocabulary;
-    const searchableLessons = catalog.filter(lesson => !lesson.searchExcluded);
+    let resultLimit = 100;
+    const vocabulary = new Map();
+    const searchableLessons = catalog;
 
     function render() {
       results.replaceChildren();
@@ -41,19 +44,19 @@
       const pending = loading ? " Loading lessons…" : "";
       const missing = !loading && loaded.size < searchableLessons.length ? " Some lessons could not load. Close and reopen search to retry." : "";
       if (!terms.length) {
-        status.textContent = `Search question titles, grammar points, and game words.${pending}${missing}`;
+        status.textContent = `Search all flash cards, examples, explanations, quizzes, and game words.${pending}${missing}`;
         return;
       }
       const matches = index.filter((entry) => terms.every((term) => entry.text.includes(term)));
-      status.textContent = `${matches.length} result${matches.length === 1 ? "" : "s"}.${matches.length > 100 ? " Showing the first 100; add keywords to narrow your search." : ""}${pending}${missing}`;
-      for (const entry of matches.slice(0, 100)) {
+      status.textContent = `${matches.length} result${matches.length === 1 ? "" : "s"}.${matches.length > resultLimit ? " Use “Show more results” to see more." : ""}${pending}${missing}`;
+      for (const entry of matches.slice(0, resultLimit)) {
         const button = document.createElement("button");
         button.type = "button";
         button.className = "search-result";
         const heading = document.createElement("strong");
         setJapaneseText(heading, entry.title || `${entry.word.kanji || entry.word.japanese} · ${entry.word.english}`);
         const detail = document.createElement("span");
-        detail.textContent = `${entry.lesson.title} · ${entry.word ? "Play this word →" : "Open question →"}`;
+        detail.textContent = `${entry.lesson.title} · ${entry.word ? (entry.lesson.gameMode === "vocabulary-cards" ? "Open card →" : "Play this word →") : "Open question →"}`;
         button.appendChild(heading);
         if (entry.question && entry.question.question !== entry.title) {
           const preview = document.createElement("span");
@@ -69,6 +72,13 @@
         });
         results.appendChild(button);
       }
+      if (matches.length > resultLimit) {
+        const more = document.createElement("button");
+        more.type = "button";
+        more.textContent = "Show more results";
+        more.addEventListener("click", () => { resultLimit += 100; render(); });
+        results.appendChild(more);
+      }
     }
 
     async function buildIndex() {
@@ -79,18 +89,26 @@
           const lesson = pending[next++];
           try {
             let entries;
-            if (lesson.gameMode) {
-              if (!vocabulary) vocabulary = window.WordExplosionGame.loadVocabulary(lesson.file).catch((error) => {
-                vocabulary = null;
-                throw error;
-              });
-              const words = await vocabulary;
-              entries = words.entries.map((word) => ({ lesson, word, text: searchableText([word.japanese, word.kanji, word.english]) }));
+            if (["vocabulary-cards", "word-explosion", "word-explosion-2"].includes(lesson.gameMode)) {
+              if (!vocabulary.has(lesson.file)) {
+                const request = lesson.gameMode === "vocabulary-cards"
+                  ? fetch(lesson.file).then(response => {
+                    if (!response.ok) throw new Error("Cards unavailable");
+                    return response.json();
+                  })
+                  : window.WordExplosionGame.loadVocabulary(lesson.file);
+                vocabulary.set(lesson.file, request.catch(error => {
+                  vocabulary.delete(lesson.file);
+                  throw error;
+                }));
+              }
+              const words = await vocabulary.get(lesson.file);
+              entries = words.entries.map((word) => ({ lesson, word, text: searchableText([lesson.title, lesson.page, word]) }));
             } else {
               const questions = await loadQuestions(lesson);
               entries = questions.map((question) => {
                 const title = getQuestionTitle(question, lesson);
-                return { lesson, question, title, text: searchableText(title) };
+                return { lesson, question, title, text: searchableText([lesson.title, lesson.page, title, question]) };
               });
             }
             index.push(...entries);
@@ -100,7 +118,7 @@
           }
         }
       }));
-      index.sort((a, b) => catalog.indexOf(a.lesson) - catalog.indexOf(b.lesson));
+      index.sort((a, b) => Number(b.lesson.gameMode === "vocabulary-cards") - Number(a.lesson.gameMode === "vocabulary-cards") || catalog.indexOf(a.lesson) - catalog.indexOf(b.lesson));
     }
 
     trigger.disabled = false;
@@ -119,6 +137,7 @@
       if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) dialog.close();
     });
     input.addEventListener("input", () => {
+      resultLimit = 100;
       clearTimeout(timer);
       timer = setTimeout(render, 120);
     });
