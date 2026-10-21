@@ -80,6 +80,7 @@ def main():
                     'key': key, 'reading': word['reading'], 'display': word['display'],
                     'label': word['japanese'], 'english': word['english'],
                     'wordSpeech': word['speech'],
+                    **({'audioPending': True} if word.get('audioPending') else {}),
                 }
                 if word.get('example'):
                     by_key[key]['example'] = dict(word['example'])
@@ -88,7 +89,8 @@ def main():
                 'id': topic['id'], 'japanese': topic['japanese'], 'english': topic['english'],
                 'groups': [{'id': 'vocabulary', 'japanese': topic['japanese'],
                             'english': topic['english'], 'keys': keys,
-                            'vocabularyOnly': not all(word.get('example') for word in topic['vocabulary'])}],
+                            'vocabularyOnly': not all(word.get('example') for word in topic['vocabulary']),
+                            'pageSize': topic.get('pageSize', PAGE_SIZE)}],
             })
     assigned = [key for topic in definitions for group in topic['groups'] for key in group['keys']]
     if len(assigned) != len(set(assigned)) or set(assigned) != set(by_key):
@@ -104,16 +106,19 @@ def main():
     for topic in definitions:
         start = len(cards)
         for group in topic['groups']:
-            total = (len(group['keys']) + PAGE_SIZE - 1) // PAGE_SIZE
-            for offset in range(0, len(group['keys']), PAGE_SIZE):
-                part = offset // PAGE_SIZE + 1
+            page_size = group.get('pageSize', PAGE_SIZE)
+            if not isinstance(page_size, int) or not 1 <= page_size <= 20:
+                raise ValueError('Page size must be between 1 and 20')
+            total = (len(group['keys']) + page_size - 1) // page_size
+            for offset in range(0, len(group['keys']), page_size):
+                part = offset // page_size + 1
                 title = group['japanese']
                 if title != topic['japanese']:
                     title = topic['japanese'] + ' · ' + title
                 if total > 1:
                     title += f'（{part}/{total}）'
                 pairs = []
-                for key in group['keys'][offset:offset + PAGE_SIZE]:
+                for key in group['keys'][offset:offset + page_size]:
                     word = by_key[key]
                     label = word['display']
                     if 'label' in word:
@@ -121,7 +126,8 @@ def main():
                     elif label != word['reading']:
                         label += '(' + word['reading'] + ')'
                     vocabulary = {'japanese': label, 'reading': word['reading'],
-                                  'english': word['english'], 'speech': word['wordSpeech']}
+                                  'english': word['english'], 'speech': word['wordSpeech'],
+                                  **({'audioPending': True} if word.get('audioPending') else {})}
                     if group.get('vocabularyOnly'):
                         pairs.append({'sourceKey': key, **vocabulary})
                     else:
@@ -136,7 +142,7 @@ def main():
                     'topicJapanese': topic['japanese'], 'topicEnglish': topic['english'],
                     'kanji': title, 'japanese': title,
                     'english': group['english'] + (f' · {part}/{total}' if total > 1 else ''),
-                    'searchText': ' '.join(by_key[key]['key'] + ' ' + by_key[key]['english'] for key in group['keys'][offset:offset + PAGE_SIZE]),
+                    'searchText': ' '.join(by_key[key]['key'] + ' ' + by_key[key]['english'] for key in group['keys'][offset:offset + page_size]),
                     'blocks': [{'items': pairs}] if group.get('vocabularyOnly') else [
                         {'japanese': group['japanese'], 'english': group['english'], 'exampleSentences': True, 'pairs': pairs}],
                 })

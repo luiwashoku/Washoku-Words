@@ -6304,6 +6304,690 @@
           "requestedMeaning": "rainy season"
         }
       ]
+    },
+    {
+      "id": "material-manipulation",
+      "japanese": "素材の操作・加工",
+      "english": "Material manipulation",
+      "pageSize": 20,
+      "vocabulary": [
+        {
+          "sourceKey": "おく|置く|素材操作",
+          "display": "置く",
+          "reading": "おく",
+          "japanese": "置(お)く",
+          "english": "to put; to place",
+          "speech": "おく|置く|素材操作",
+          "example": {
+            "japanese": "テーブルに紙(かみ)を置(お)いてください。",
+            "english": "Please put the paper on the table.",
+            "speech": "テーブルにかみをおいてください。"
+          }
+        },
+        {
+          "sourceKey": "かいてんさせる|回転させる|素材操作",
+          "display": "回転させる",
+          "reading": "かいてんさせる",
+          "japanese": "回転(かいてん)させる",
+          "english": "to rotate something",
+          "speech": "かいてんさせる|回転させる|素材操作",
+          "example": {
+            "japanese": "紙(かみ)を90度(きゅうじゅうど)回転(かいてん)させてください。",
+            "english": "Please rotate the paper 90 degrees.",
+            "speech": "かみを90きゅうじゅうどかいてんさせてください。"
+          }
+        },
+        {
+          "sourceKey": "おさえる|押さえる|素材操作",
+          "display": "押さえる",
+          "reading": "おさえる",
+          "japanese": "押(お)さえる",
+          "english": "to hold down; to hold in place",
+          "speech": "おさえる|押さえる|素材操作",
+          "example": {
+            "japanese": "紙(かみ)を片手(かたて)で押(お)さえてください。",
+            "english": "Please hold the paper in place with one hand.",
+            "speech": "かみをかたてでおさえてください。"
+          }
+        },
+        {
+          "sourceKey": "うらがえす|裏返す|素材操作",
+          "display": "裏返す",
+          "reading": "うらがえす",
+          "japanese": "裏返(うらがえ)す",
+          "english": "to turn over; to flip over",
+          "speech": "うらがえす|裏返す|素材操作",
+          "example": {
+            "japanese": "紙(かみ)を裏返(うらがえ)してください。",
+            "english": "Please turn the paper over.",
+            "speech": "かみをうらがえしてください。"
+          }
+        },
+        {
+          "sourceKey": "とりだす|取り出す|素材操作",
+          "display": "取り出す",
+          "reading": "とりだす",
+          "japanese": "取(と)り出(だ)す",
+          "english": "to take out",
+          "speech": "とりだす|取り出す|素材操作",
+          "example": {
+            "japanese": "かばんから財布(さいふ)を取(と)り出(だ)しました。",
+            "english": "I took my wallet out of my bag.",
+            "speech": "かばんからさいふをとりだしました。"
+          }
+        },
+        {
+          "sourceKey": "はる|貼る|素材操作",
+          "display": "貼る",
+          "reading": "はる",
+          "japanese": "貼(は)る",
+          "english": "to stick on; to paste",
+          "speech": "はる|貼る|素材操作",
+          "example": {
+            "japanese": "ここにシールを貼(は)ってください。",
+            "english": "Please stick a sticker here.",
+            "speech": "ここにシールをはってください。"
+          }
+        },
+        {
+          "sourceKey": "はがす|剥がす|素材操作",
+          "display": "剥がす",
+          "reading": "はがす",
+          "japanese": "剥(は)がす",
+          "english": "to peel off; to remove",
+          "speech": "はがす|剥がす|素材操作",
+          "example": {
+            "japanese": "このシールを剥(は)がしてもいいですか。",
+            "english": "May I peel this sticker off?",
+            "speech": "このシールをはがしてもいいですか。"
+          }
+        },
+        {
+          "sourceKey": "まく|巻く|素材操作",
+          "display": "巻く",
+          "reading": "まく",
+          "japanese": "巻(ま)く",
+          "english": "to roll up; to wrap around",
+          "speech": "まく|巻く|素材操作",
+          "example": {
+            "japanese": "ポスターを巻(ま)いて、筒(つつ)に入(い)れます。",
+            "english": "I’ll roll up the poster and put it in a tube.",
+            "speech": "ポスターをまいて、つつにいれます。"
+          }
+        },
+        {
+          "sourceKey": "ひろげる|広げる|素材操作",
+          "display": "広げる",
+          "reading": "ひろげる",
+          "japanese": "広(ひろ)げる",
+          "english": "to spread out; to unfold",
+          "speech": "ひろげる|広げる|素材操作",
+          "example": {
+            "japanese": "テーブルに地図(ちず)を広(ひろ)げました。",
+            "english": "I spread out the map on the table.",
+            "speech": "テーブルにちずをひろげました。"
+          }
+        },
+        {
+          "sourceKey": "たてる|立てる|素材操作",
+          "display": "立てる",
+          "reading": "たてる",
+          "japanese": "立(た)てる",
+          "english": "to stand something upright",
+          "speech": "たてる|立てる|素材操作",
+          "example": {
+            "japanese": "棚(たな)に本(ほん)を立(た)てて並(なら)べます。",
+            "english": "I arrange the books upright on the shelf.",
+            "speech": "たなにほんをたててならべます。"
+          }
+        },
+        {
+          "sourceKey": "たおす|倒す|素材操作",
+          "display": "倒す",
+          "reading": "たおす",
+          "japanese": "倒(たお)す",
+          "english": "to knock over; to tip over",
+          "speech": "たおす|倒す|素材操作",
+          "example": {
+            "japanese": "うっかりコップを倒(たお)してしまいました。",
+            "english": "I accidentally knocked over a glass.",
+            "speech": "うっかりコップをたおしてしまいました。"
+          }
+        },
+        {
+          "sourceKey": "くしゃくしゃにする|くしゃくしゃにする|素材操作",
+          "display": "くしゃくしゃにする",
+          "reading": "くしゃくしゃにする",
+          "japanese": "くしゃくしゃにする",
+          "english": "to crumple up",
+          "speech": "くしゃくしゃにする|くしゃくしゃにする|素材操作",
+          "example": {
+            "japanese": "いらない紙(かみ)をくしゃくしゃにしました。",
+            "english": "I crumpled up some paper I didn’t need.",
+            "speech": "いらないかみをくしゃくしゃにしました。"
+          }
+        },
+        {
+          "sourceKey": "のばす|伸ばす|素材操作",
+          "display": "伸ばす",
+          "reading": "のばす",
+          "japanese": "伸(の)ばす",
+          "english": "to stretch; to straighten; to smooth out",
+          "speech": "のばす|伸ばす|素材操作",
+          "example": {
+            "japanese": "紙(かみ)のしわを伸(の)ばしてください。",
+            "english": "Please smooth out the wrinkles in the paper.",
+            "speech": "かみのしわをのばしてください。"
+          }
+        },
+        {
+          "sourceKey": "やぶる|破る|素材操作",
+          "display": "破る",
+          "reading": "やぶる",
+          "japanese": "破(やぶ)る",
+          "english": "to tear",
+          "speech": "やぶる|破る|素材操作",
+          "example": {
+            "japanese": "紙(かみ)を半分(はんぶん)に破(やぶ)りました。",
+            "english": "I tore the paper in half.",
+            "speech": "かみをはんぶんにやぶりました。"
+          }
+        },
+        {
+          "sourceKey": "ならべる|並べる|素材操作",
+          "display": "並べる",
+          "reading": "ならべる",
+          "japanese": "並(なら)べる",
+          "english": "to arrange; to line up",
+          "speech": "ならべる|並べる|素材操作",
+          "example": {
+            "japanese": "テーブルにお皿(さら)を並(なら)べてください。",
+            "english": "Please arrange the plates on the table.",
+            "speech": "テーブルにおさらをならべてください。"
+          }
+        },
+        {
+          "sourceKey": "おりたたむ|折り畳む|素材操作",
+          "display": "折り畳む",
+          "reading": "おりたたむ",
+          "japanese": "折(お)り畳(たた)む",
+          "english": "to fold up",
+          "speech": "おりたたむ|折り畳む|素材操作",
+          "example": {
+            "japanese": "紙(かみ)を小(ちい)さく折(お)り畳(たた)みます。",
+            "english": "I’ll fold the paper into a small size.",
+            "speech": "かみをちいさくおりたたみます。"
+          }
+        },
+        {
+          "sourceKey": "えらびだす|選び出す|素材操作",
+          "display": "選び出す",
+          "reading": "えらびだす",
+          "japanese": "選(えら)び出(だ)す",
+          "english": "to pick out; to select from a group",
+          "speech": "えらびだす|選び出す|素材操作",
+          "example": {
+            "japanese": "この中(なか)から好(す)きな写真(しゃしん)を一枚(いちまい)選(えら)び出(だ)してください。",
+            "english": "Please pick out one photo you like from these.",
+            "speech": "このなかからすきなしゃしんをいちまいえらびだしてください。"
+          }
+        },
+        {
+          "sourceKey": "ちらかす|散らかす|素材操作",
+          "display": "散らかす",
+          "reading": "ちらかす",
+          "japanese": "散(ち)らかす",
+          "english": "to make a mess; to leave things scattered around",
+          "speech": "ちらかす|散らかす|素材操作",
+          "example": {
+            "japanese": "猫(ねこ)が紙(かみ)を床(ゆか)に散(ち)らかしました。",
+            "english": "My cat scattered paper all over the floor.",
+            "speech": "ねこがかみをゆかにちらかしました。"
+          }
+        },
+        {
+          "sourceKey": "あつめる|集める|素材操作",
+          "display": "集める",
+          "reading": "あつめる",
+          "japanese": "集(あつ)める",
+          "english": "to gather; to collect",
+          "speech": "あつめる|集める|素材操作",
+          "example": {
+            "japanese": "紙(かみ)を集(あつ)めて、箱(はこ)に入(い)れてください。",
+            "english": "Please gather up the papers and put them in the box.",
+            "speech": "かみをあつめて、はこにいれてください。"
+          }
+        },
+        {
+          "sourceKey": "すてる|捨てる|素材操作",
+          "display": "捨てる",
+          "reading": "すてる",
+          "japanese": "捨(す)てる",
+          "english": "to throw away",
+          "speech": "すてる|捨てる|素材操作",
+          "example": {
+            "japanese": "この紙(かみ)は捨(す)ててもいいですか。",
+            "english": "May I throw this paper away?",
+            "speech": "このかみはすててもいいですか。"
+          }
+        },
+        {
+          "sourceKey": "きる|切る|素材操作",
+          "display": "切る",
+          "reading": "きる",
+          "japanese": "切(き)る",
+          "english": "to cut",
+          "speech": "きる|切る|素材操作",
+          "example": {
+            "japanese": "はさみで布(ぬの)を切(き)ります。",
+            "english": "I cut the fabric with scissors.",
+            "speech": "はさみでぬのをきります。"
+          }
+        },
+        {
+          "sourceKey": "きりとる|切り取る|素材操作",
+          "display": "切り取る",
+          "reading": "きりとる",
+          "japanese": "切(き)り取(と)る",
+          "english": "to cut out; to cut off",
+          "speech": "きりとる|切り取る|素材操作",
+          "example": {
+            "japanese": "紙(かみ)から丸(まる)い形(かたち)を切(き)り取(と)ります。",
+            "english": "I cut a circle out of the paper.",
+            "speech": "かみからまるいかたちをきりとります。"
+          }
+        },
+        {
+          "sourceKey": "けずる|削る|素材操作",
+          "display": "削る",
+          "reading": "けずる",
+          "japanese": "削(けず)る",
+          "english": "to shave; to whittle; to scrape away",
+          "speech": "けずる|削る|素材操作",
+          "example": {
+            "japanese": "ナイフで木(き)を少(すこ)しずつ削(けず)ります。",
+            "english": "I shave away the wood little by little with a knife.",
+            "speech": "ナイフできをすこしずつけずります。"
+          }
+        },
+        {
+          "sourceKey": "みがく|磨く|素材操作",
+          "display": "磨く",
+          "reading": "みがく",
+          "japanese": "磨(みが)く",
+          "english": "to polish",
+          "speech": "みがく|磨く|素材操作",
+          "example": {
+            "japanese": "柔(やわ)らかい布(ぬの)で金属(きんぞく)を磨(みが)きます。",
+            "english": "I polish the metal with a soft cloth.",
+            "speech": "やわらかいぬのできんぞくをみがきます。"
+          }
+        },
+        {
+          "sourceKey": "やすりをかける|やすりをかける|素材操作",
+          "display": "やすりをかける",
+          "reading": "やすりをかける",
+          "japanese": "やすりをかける",
+          "english": "to file; to sand",
+          "speech": "やすりをかける|やすりをかける|素材操作",
+          "example": {
+            "japanese": "木(き)の角(かど)にやすりをかけます。",
+            "english": "I sand the corners of the wood.",
+            "speech": "きのかどにやすりをかけます。"
+          }
+        },
+        {
+          "sourceKey": "あなをあける|穴を開ける|素材操作",
+          "display": "穴を開ける",
+          "reading": "あなをあける",
+          "japanese": "穴(あな)を開(あ)ける",
+          "english": "to make a hole",
+          "speech": "あなをあける|穴を開ける|素材操作",
+          "example": {
+            "japanese": "ドリルで板(いた)に穴(あな)を開(あ)けます。",
+            "english": "I drill a hole in the board.",
+            "speech": "ドリルでいたにあなをあけます。"
+          }
+        },
+        {
+          "sourceKey": "おる|折る|素材操作",
+          "display": "折る",
+          "reading": "おる",
+          "japanese": "折(お)る",
+          "english": "to fold; to snap",
+          "speech": "おる|折る|素材操作",
+          "example": {
+            "japanese": "紙(かみ)を半分(はんぶん)に折(お)ってください。",
+            "english": "Please fold the paper in half.",
+            "speech": "かみをはんぶんにおってください。"
+          }
+        },
+        {
+          "sourceKey": "まげる|曲げる|素材操作",
+          "display": "曲げる",
+          "reading": "まげる",
+          "japanese": "曲(ま)げる",
+          "english": "to bend",
+          "speech": "まげる|曲げる|素材操作",
+          "example": {
+            "japanese": "針金(はりがね)を曲(ま)げて、輪(わ)を作(つく)ります。",
+            "english": "I bend the wire to make a loop.",
+            "speech": "はりがねをまげて、わをつくります。"
+          }
+        },
+        {
+          "sourceKey": "ねじる|ねじる|素材操作",
+          "display": "ねじる",
+          "reading": "ねじる",
+          "japanese": "ねじる",
+          "english": "to twist",
+          "speech": "ねじる|ねじる|素材操作",
+          "example": {
+            "japanese": "二本(にほん)の針金(はりがね)をねじって、つなぎます。",
+            "english": "I twist two wires together to join them.",
+            "speech": "にほんのはりがねをねじって、つなぎます。"
+          }
+        },
+        {
+          "sourceKey": "ひっぱる|引っ張る|素材操作",
+          "display": "引っ張る",
+          "reading": "ひっぱる",
+          "japanese": "引(ひ)っ張(ぱ)る",
+          "english": "to pull; to tug",
+          "speech": "ひっぱる|引っ張る|素材操作",
+          "example": {
+            "japanese": "ひもの両端(りょうはし)を引(ひ)っ張(ぱ)ってください。",
+            "english": "Please pull both ends of the cord.",
+            "speech": "ひものりょうはしをひっぱってください。"
+          }
+        },
+        {
+          "sourceKey": "おす|押す|素材操作",
+          "display": "押す",
+          "reading": "おす",
+          "japanese": "押(お)す",
+          "english": "to push; to press",
+          "speech": "おす|押す|素材操作",
+          "example": {
+            "japanese": "この部分(ぶぶん)を指(ゆび)で押(お)してください。",
+            "english": "Please press this part with your finger.",
+            "speech": "このぶぶんをゆびでおしてください。"
+          }
+        },
+        {
+          "sourceKey": "つまむ|つまむ|素材操作",
+          "display": "つまむ",
+          "reading": "つまむ",
+          "japanese": "つまむ",
+          "english": "to pinch; to pick up with fingertips",
+          "speech": "つまむ|つまむ|素材操作",
+          "example": {
+            "japanese": "布(ぬの)の端(はし)を指(ゆび)でつまんでください。",
+            "english": "Please pinch the edge of the fabric with your fingers.",
+            "speech": "ぬののはしをゆびでつまんでください。"
+          }
+        },
+        {
+          "sourceKey": "はさむ|挟む|素材操作",
+          "display": "挟む",
+          "reading": "はさむ",
+          "japanese": "挟(はさ)む",
+          "english": "to put between; to grip between",
+          "speech": "はさむ|挟む|素材操作",
+          "example": {
+            "japanese": "二枚(にまい)の板(いた)の間(あいだ)に布(ぬの)を挟(はさ)みます。",
+            "english": "I place the fabric between two boards.",
+            "speech": "にまいのいたのあいだにぬのをはさみます。"
+          }
+        },
+        {
+          "sourceKey": "つぶす|つぶす|素材操作",
+          "display": "つぶす",
+          "reading": "つぶす",
+          "japanese": "つぶす",
+          "english": "to crush; to flatten",
+          "speech": "つぶす|つぶす|素材操作",
+          "example": {
+            "japanese": "空(あ)き缶(かん)をつぶします。",
+            "english": "I crush an empty can.",
+            "speech": "あきかんをつぶします。"
+          }
+        },
+        {
+          "sourceKey": "まるめる|丸める|素材操作",
+          "display": "丸める",
+          "reading": "まるめる",
+          "japanese": "丸(まる)める",
+          "english": "to roll into a ball or rounded shape",
+          "speech": "まるめる|丸める|素材操作",
+          "example": {
+            "japanese": "粘土(ねんど)を手(て)で丸(まる)めます。",
+            "english": "I roll the clay into a ball with my hands.",
+            "speech": "ねんどをてでまるめます。"
+          }
+        },
+        {
+          "sourceKey": "たいらにする|平らにする|素材操作",
+          "display": "平らにする",
+          "reading": "たいらにする",
+          "japanese": "平(たい)らにする",
+          "english": "to flatten; to make level",
+          "speech": "たいらにする|平らにする|素材操作",
+          "example": {
+            "japanese": "粘土(ねんど)を押(お)して、平(たい)らにします。",
+            "english": "I press the clay to flatten it.",
+            "speech": "ねんどをおして、たいらにします。"
+          }
+        },
+        {
+          "sourceKey": "かさねる|重ねる|素材操作",
+          "display": "重ねる",
+          "reading": "かさねる",
+          "japanese": "重(かさ)ねる",
+          "english": "to stack; to layer",
+          "speech": "かさねる|重ねる|素材操作",
+          "example": {
+            "japanese": "紙(かみ)を三枚(さんまい)重(かさ)ねてください。",
+            "english": "Please stack three sheets of paper.",
+            "speech": "かみをさんまいかさねてください。"
+          }
+        },
+        {
+          "sourceKey": "ずらす|ずらす|素材操作",
+          "display": "ずらす",
+          "reading": "ずらす",
+          "japanese": "ずらす",
+          "english": "to shift; to slide out of position",
+          "speech": "ずらす|ずらす|素材操作",
+          "example": {
+            "japanese": "上(うえ)の紙(かみ)を少(すこ)し右(みぎ)にずらしてください。",
+            "english": "Please shift the top sheet slightly to the right.",
+            "speech": "うえのかみをすこしみぎにずらしてください。"
+          }
+        },
+        {
+          "sourceKey": "そろえる|揃える|素材操作",
+          "display": "揃える",
+          "reading": "そろえる",
+          "japanese": "揃(そろ)える",
+          "english": "to align; to make even",
+          "speech": "そろえる|揃える|素材操作",
+          "example": {
+            "japanese": "紙(かみ)の端(はし)を揃(そろ)えてください。",
+            "english": "Please align the edges of the papers.",
+            "speech": "かみのはしをそろえてください。"
+          }
+        },
+        {
+          "sourceKey": "くっつける|くっつける|素材操作",
+          "display": "くっつける",
+          "reading": "くっつける",
+          "japanese": "くっつける",
+          "english": "to stick together; to attach",
+          "speech": "くっつける|くっつける|素材操作",
+          "example": {
+            "japanese": "二(ふた)つの部品(ぶひん)を接着剤(せっちゃくざい)でくっつけます。",
+            "english": "I stick the two parts together with glue.",
+            "speech": "ふたつのぶひんをせっちゃくざいでくっつけます。"
+          }
+        },
+        {
+          "sourceKey": "つなぐ|つなぐ|素材操作",
+          "display": "つなぐ",
+          "reading": "つなぐ",
+          "japanese": "つなぐ",
+          "english": "to connect; to join",
+          "speech": "つなぐ|つなぐ|素材操作",
+          "example": {
+            "japanese": "短(みじか)いひもをつないで、長(なが)くします。",
+            "english": "I join short cords together to make a longer one.",
+            "speech": "みじかいひもをつないで、ながくします。"
+          }
+        },
+        {
+          "sourceKey": "はずす|外す|素材操作",
+          "display": "外す",
+          "reading": "はずす",
+          "japanese": "外(はず)す",
+          "english": "to detach; to remove",
+          "speech": "はずす|外す|素材操作",
+          "example": {
+            "japanese": "古(ふる)い部品(ぶひん)を外(はず)します。",
+            "english": "I remove the old part.",
+            "speech": "ふるいぶひんをはずします。"
+          }
+        },
+        {
+          "sourceKey": "はめる|はめる|素材操作",
+          "display": "はめる",
+          "reading": "はめる",
+          "japanese": "はめる",
+          "english": "to fit into place",
+          "speech": "はめる|はめる|素材操作",
+          "example": {
+            "japanese": "この穴(あな)に部品(ぶひん)をはめてください。",
+            "english": "Please fit the part into this hole.",
+            "speech": "このあなにぶひんをはめてください。"
+          }
+        },
+        {
+          "sourceKey": "こていする|固定する|素材操作",
+          "display": "固定する",
+          "reading": "こていする",
+          "japanese": "固定(こてい)する",
+          "english": "to secure; to fix in place",
+          "speech": "こていする|固定する|素材操作",
+          "example": {
+            "japanese": "クランプで板(いた)を固定(こてい)します。",
+            "english": "I secure the board with a clamp.",
+            "speech": "クランプでいたをこていします。"
+          }
+        },
+        {
+          "sourceKey": "しめる|締める|素材操作",
+          "display": "締める",
+          "reading": "しめる",
+          "japanese": "締(し)める",
+          "english": "to tighten",
+          "speech": "しめる|締める|素材操作",
+          "example": {
+            "japanese": "ドライバーでねじを締(し)めます。",
+            "english": "I tighten the screw with a screwdriver.",
+            "speech": "ドライバーでねじをしめます。"
+          }
+        },
+        {
+          "sourceKey": "ゆるめる|緩める|素材操作",
+          "display": "緩める",
+          "reading": "ゆるめる",
+          "japanese": "緩(ゆる)める",
+          "english": "to loosen",
+          "speech": "ゆるめる|緩める|素材操作",
+          "example": {
+            "japanese": "ねじを少(すこ)し緩(ゆる)めてください。",
+            "english": "Please loosen the screw a little.",
+            "speech": "ねじをすこしゆるめてください。"
+          }
+        },
+        {
+          "sourceKey": "むすぶ|結ぶ|素材操作",
+          "display": "結ぶ",
+          "reading": "むすぶ",
+          "japanese": "結(むす)ぶ",
+          "english": "to tie; to knot",
+          "speech": "むすぶ|結ぶ|素材操作",
+          "example": {
+            "japanese": "ひもの両端(りょうはし)を結(むす)びます。",
+            "english": "I tie the two ends of the cord together.",
+            "speech": "ひものりょうはしをむすびます。"
+          }
+        },
+        {
+          "sourceKey": "ほどく|ほどく|素材操作",
+          "display": "ほどく",
+          "reading": "ほどく",
+          "japanese": "ほどく",
+          "english": "to untie; to unravel",
+          "speech": "ほどく|ほどく|素材操作",
+          "example": {
+            "japanese": "ひもの結(むす)び目(め)をほどいてください。",
+            "english": "Please untie the knot in the cord.",
+            "speech": "ひものむすびめをほどいてください。"
+          }
+        },
+        {
+          "sourceKey": "つつむ|包む|素材操作",
+          "display": "包む",
+          "reading": "つつむ",
+          "japanese": "包(つつ)む",
+          "english": "to wrap",
+          "speech": "つつむ|包む|素材操作",
+          "example": {
+            "japanese": "箱(はこ)を紙(かみ)で包(つつ)みます。",
+            "english": "I wrap the box in paper.",
+            "speech": "はこをかみでつつみます。"
+          }
+        },
+        {
+          "sourceKey": "ぬる|塗る|素材操作",
+          "display": "塗る",
+          "reading": "ぬる",
+          "japanese": "塗(ぬ)る",
+          "english": "to apply; to paint; to coat",
+          "speech": "ぬる|塗る|素材操作",
+          "example": {
+            "japanese": "木(き)の表面(ひょうめん)にニスを塗(ぬ)ります。",
+            "english": "I apply varnish to the surface of the wood.",
+            "speech": "きのひょうめんにニスをぬります。"
+          }
+        },
+        {
+          "sourceKey": "ぬらす|濡らす|素材操作",
+          "display": "濡らす",
+          "reading": "ぬらす",
+          "japanese": "濡(ぬ)らす",
+          "english": "to wet; to dampen",
+          "speech": "ぬらす|濡らす|素材操作",
+          "example": {
+            "japanese": "布(ぬの)を水(みず)で濡(ぬ)らしてください。",
+            "english": "Please wet the cloth with water.",
+            "speech": "ぬのをみずでぬらしてください。"
+          }
+        },
+        {
+          "sourceKey": "かわかす|乾かす|素材操作",
+          "display": "乾かす",
+          "reading": "かわかす",
+          "japanese": "乾(かわ)かす",
+          "english": "to dry",
+          "speech": "かわかす|乾かす|素材操作",
+          "example": {
+            "japanese": "塗(ぬ)った板(いた)をよく乾(かわ)かします。",
+            "english": "I let the painted board dry thoroughly.",
+            "speech": "ぬったいたをよくかわかします。"
+          }
+        }
+      ]
     }
   ],
   "meaningUpdates": {

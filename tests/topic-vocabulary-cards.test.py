@@ -14,7 +14,7 @@ supplement = json.loads((ROOT / 'data/topic-vocabulary-additions.json').read_tex
 additions = supplement['topics']
 updates = supplement.get('meaningUpdates', {})
 extra = {word['sourceKey']: word for topic in additions for word in topic['vocabulary']}
-assert len(extra) == 467 and not set(extra) & set(by_key)
+assert len(extra) == 519 and not set(extra) & set(by_key)
 manifest = json.loads((ROOT / 'audio/lessons/topic-vocabulary-cards/manifest.json').read_text())
 review = json.loads((ROOT / 'scripts/lesson-audio-reviews/topic-vocabulary-cards.json').read_text())
 reviewed = {entry['key']: entry for entry in review['entries']}
@@ -22,9 +22,9 @@ assert review['voice'] == 'marin' and review['model'] == 'gpt-4o-mini-tts' and r
 data = json.loads((ROOT / 'data/topic-vocabulary-cards.json').read_text())
 catalog = json.loads((ROOT / 'data/catalog.json').read_text())
 lesson = next(entry for entry in catalog if entry['id'] == 'topic-vocabulary-cards')
-assert len(data['topics']) == 24 and len(source) == 1111 and data['wordCount'] == len(source) + len(extra) == 1578
+assert len(data['topics']) == 25 and len(source) == 1111 and data['wordCount'] == len(source) + len(extra) == 1630
 assert data['sourceVocabularySha256'] == hashlib.sha256((ROOT / 'data/word-explosion.txt').read_bytes()).hexdigest()
-assert lesson['questionCount'] == len(data['entries']) == 168
+assert lesson['questionCount'] == len(data['entries']) == 171
 assert lesson['homeOnly'] and lesson['ordered'] and lesson['titleAudioDisabled']
 assert lesson['recordedAudioOnly'] and lesson['topicCards']
 assert len({card['id'] for card in data['entries']}) == len(data['entries'])
@@ -32,7 +32,7 @@ assert [card['step'] for card in data['entries']] == list(range(1, len(data['ent
 seen, memberships = set(), {}
 for card in data['entries']:
     pairs = [pair for block in card['blocks'] for pair in block.get('pairs', block.get('items', []))]
-    assert 1 <= len(pairs) <= 12
+    assert 1 <= len(pairs) <= (20 if card['topicId'] == 'material-manipulation' else 12)
     for pair in pairs:
         key = pair['sourceKey']
         assert key not in seen
@@ -43,6 +43,11 @@ for card in data['entries']:
             vocabulary = pair.get('vocabulary', pair)
             assert vocabulary['japanese'] == word['japanese']
             assert vocabulary['english'] == word['english'] and vocabulary['speech'] == word['speech']
+            if word.get('audioPending'):
+                assert vocabulary['audioPending'] and pair['example'] == word['example']
+                assert pair['example']['audioPending']
+                assert key not in manifest and key not in reviewed
+                continue
             if word.get('example'):
                 assert pair['example'] == word['example']
                 example = reviewed[word['example']['speech']]
@@ -51,7 +56,7 @@ for card in data['entries']:
                 assert example['speed'] == 1.0 and example['accent_status'] == 'provisional'
                 sentence_audio = ROOT / manifest[word['example']['speech']]
                 assert sentence_audio.is_file() and sentence_audio.name.startswith('marin-')
-            assert reviewed[key]['input'] == ('ちからおぬく' if word['display'] == '力を抜く' else word['reading']) and reviewed[key]['speed'] == 1.0
+            assert reviewed[key]['input'].rstrip('。') == ('ちからおぬく' if word['display'] == '力を抜く' else word['reading']) and reviewed[key]['speed'] == 1.0
             assert reviewed[key]['accent_status'] in ['dictionary', 'provisional']
             audio = ROOT / manifest[key]
             assert audio.is_file() and audio.stat().st_size > 100 and audio.name.startswith('marin-')
@@ -94,11 +99,12 @@ for key, destination in word_destinations.items():
 assert [topic['id'] for topic in data['topics']] == [topic['id'] for topic in organization['topics']]
 assert [topic['id'] for topic in data['topics'][:5]] == ['restaurants', 'travel', 'shopping', 'cooking', 'clothing']
 assert memberships['こんだて|献立'] == memberships['よやく|予約'] == memberships['とりざら|取り皿'] == 'restaurants'
-assert data['topics'][-1]['id'] == 'work'
-example_keys = {word['example']['speech'] for word in extra.values() if word.get('example')}
-assert len(example_keys) == 467
+assert data['topics'][-2]['id'] == 'work'
+assert data['topics'][-1]['id'] == 'material-manipulation'
+example_keys = {word['example']['speech'] for word in extra.values() if word.get('example') and not word.get('audioPending')}
+assert len(example_keys) == sum(bool(word.get('example')) and not word.get('audioPending', False) for word in extra.values())
 additional_keys = {update['additionalExample']['speech'] for update in updates.values() if update.get('additionalExample')}
-assert set(extra) | example_keys | additional_keys == set(manifest) == set(reviewed)
+assert {key for key, word in extra.items() if not word.get('audioPending')} | example_keys | additional_keys == set(manifest) == set(reviewed)
 assert len(additional_keys) == 1
 for key in additional_keys:
     assert (ROOT / manifest[key]).is_file() and reviewed[key]['speed'] == 1.0
@@ -121,7 +127,7 @@ assert 'なおる|治る' in extra and 'なおる|直る' in by_key
 assert reviewed['ちからをぬく|力を抜く']['input'] == 'ちからおぬく'
 requested = json.loads((ROOT / 'data/materials-nature-weather-request.json').read_text())['entries']
 assert len(requested) == 159 and len({word['sourceKey'] for word in requested}) == 158
-new_requested = {word['sourceKey'] for topic in additions[-3:] for word in topic['vocabulary']}
+new_requested = {word['sourceKey'] for topic in additions if topic['id'] in ['materials', 'expanded-nature', 'weather'] for word in topic['vocabulary']}
 assert len(new_requested) == 151
 assert sum(word['sourceKey'] in new_requested for word in requested) == 150  # 雲 appears twice in the request.
 for word in requested:
@@ -135,4 +141,13 @@ assert extra['かみせい|紙製']['reading'] == 'かみせい'
 assert reviewed['は|葉']['input'] == 'は'
 assert extra['ひょう|雹']['english'] == 'hail'
 assert extra['あられ|霰']['reading'] == 'あられ'
-print('PASS: 1,578 entries, 24 topics, 168 pages; all 159 requested entries covered, duplicates avoided, 467 supplemental words have reviewed bilingual examples and Marin 1.0 audio; original 自然 example retained with an additional nature example.')
+material_request = json.loads((ROOT / 'data/material-manipulation-request.json').read_text())['entries']
+material_cards = [card for card in data['entries'] if card['topicId'] == 'material-manipulation']
+assert [len(card['blocks'][0]['pairs']) for card in material_cards] == [20, 20, 12]
+material_pairs = [pair for card in material_cards for pair in card['blocks'][0]['pairs']]
+assert [pair['sourceKey'] for pair in material_pairs] == [word['sourceKey'] for word in material_request]
+for word, pair in zip(material_request, material_pairs):
+    assert pair['vocabulary']['japanese'] == word['japanese']
+    assert pair['vocabulary']['english'] == word['english']
+    assert pair['example'] == word['example']
+print('PASS: 1,630 entries, 25 topics, 171 pages; all 52 material-manipulation entries preserved on 20/20/12 pages; reviewed Marin 1.0 audio and existing recordings retained.')

@@ -395,7 +395,7 @@
           const row = document.createElement("div");
           row.className = "reading-card-chunk";
           row.append(japanese);
-          if (!lesson.audioDisabled) {
+          if (!lesson.audioDisabled && !block.audioPending) {
             const speaker = createExampleSpeechButton(block.speech || block.japanese, "Read Japanese passage");
             speaker.addEventListener("click", () => wordPlayer.stop(), { capture: true, signal });
             row.append(speaker);

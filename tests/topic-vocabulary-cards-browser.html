@@ -67,14 +67,14 @@
       }
       const rows = [...d.querySelectorAll('.food-reference-table tbody tr')];
       const pairs = card.blocks.flatMap(block => block.pairs);
-      assert(rows.length === pairs.length && rows.length <= 12, 'Small pages retain all rows');
+      assert(rows.length === pairs.length && rows.length <= (card.topicId === 'material-manipulation' ? 20 : 12), 'Small pages retain all rows');
       for (const [n, row] of rows.entries()) {
         const pair = pairs[n];
         if (supplemental.has(pair.sourceKey)) {
           const word = supplemental.get(pair.sourceKey);
           assert(w.KanahachiCore.normalizeReading(w.getJapaneseSpeechText(pair.vocabulary.japanese)) === word.reading, 'Supplemental word furigana retains its lexical reading');
           assert(pair.example.japanese === word.example.japanese && pair.example.english === word.example.english, 'Each supplied word has its reviewed bilingual example');
-          assert(w.KanahachiCore.normalizeReading(w.getJapaneseSpeechText(pair.example.japanese)) === w.KanahachiCore.normalizeReading(pair.example.speech), 'Sentence furigana matches its lexical lookup key');
+          if (!word.audioPending && pair.example.speech) assert(w.KanahachiCore.normalizeReading(w.getJapaneseSpeechText(pair.example.japanese)) === w.KanahachiCore.normalizeReading(pair.example.speech), 'Sentence furigana matches its lexical lookup key');
         }
         assert(!visited.has(pair.sourceKey), 'No duplicate vocabulary');
         visited.add(pair.sourceKey);
@@ -88,6 +88,10 @@
           button.click();
           await until(() => plays.length > count);
           assert(plays.at(-1).src === lookup(pair.example.explanation.japanese), 'Additional example playback');
+        }
+        if (pair.vocabulary.audioPending) {
+          assert(!row.querySelector('button'), 'Pending material words and examples have no audio controls');
+          continue;
         }
         for (const [cell, text] of [[row.cells[0], pair.vocabulary.speech], [row.cells[1], pair.example.speech || pair.example.japanese]]) {
           const button = cell.querySelector('button'), count = plays.length;
