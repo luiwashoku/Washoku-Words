@@ -137,10 +137,52 @@
   assert(plays.at(-1).src===expected&&plays.at(-1).playbackRate===1,'Story 8 matching recording '+i);
  }
  lastAudio=plays.at(-1);
+ q('.story-play-all').click();lastAudio=plays.at(-1);assert(!lastAudio.paused,'Story 8 queue starts');
+ q('#vocabularyCardNavigation button:last-child').click();assert(lastAudio.paused,'Navigation stops story queue');
+ const ninthBubbles=[...d.querySelectorAll('.story-message')];
+ assert(ninthBubbles.length===26,'All 26 Story 9 messages');
+ assert(ninthBubbles[0].querySelector('.story-speaker').textContent.includes('美咲'),'Misaki opens');
+ assert(ninthBubbles[1].querySelector('.story-speaker').textContent.includes('結衣'),'Yui replies');
+ for(const [i,bubble] of ninthBubbles.entries()){
+  const audio=bubble.querySelector('button');assert(audio&&!audio.disabled,'Story 9 ready '+i);
+  const count=plays.length;audio.click();await until(()=>plays.length>count);
+  const message=data.entries[8].messages[i];
+  const expected=w.lessonAudioFiles['stories-cards'][w.getJapaneseSpeechText(message.speech||message.japanese)];
+  assert(plays.at(-1).src===expected&&plays.at(-1).playbackRate===1,'Story 9 matching recording '+i);
+ }
+ const ninthPlayAll=q('.story-play-all');assert(!ninthPlayAll.disabled,'Story 9 Play all enabled');
+ ninthPlayAll.click();const ninthQueue=plays.at(-1);
+ for(const message of data.entries[8].messages){
+  const expected=w.lessonAudioFiles['stories-cards'][w.getJapaneseSpeechText(message.speech||message.japanese)];
+  assert(ninthQueue.src===expected,'Story 9 queue order');
+  ninthQueue.dispatchEvent(new w.Event('ended'));
+ }
+ assert(ninthQueue.paused&&ninthPlayAll.getAttribute('aria-pressed')==='false','Story 9 queue completes');
+ ninthPlayAll.click();lastAudio=plays.at(-1);
+ q('#vocabularyCardNavigation button:last-child').click();assert(lastAudio.paused,'Story 9 queue stops on navigation');
+ const tenthBubbles=[...d.querySelectorAll('.story-message')];
+ assert(tenthBubbles.length===24,'All 24 Story 10 messages');
+ assert(tenthBubbles[0].querySelector('.story-speaker').textContent.includes('由奈'),'Yuna opens');
+ assert(tenthBubbles[1].querySelector('.story-speaker').textContent.includes('健太'),'Kenta replies');
+ for(const [i,bubble] of tenthBubbles.entries()){
+  const audio=bubble.querySelector('button');assert(audio&&!audio.disabled,'Story 10 ready '+i);
+  const count=plays.length;audio.click();await until(()=>plays.length>count);
+  const message=data.entries[9].messages[i];
+  const expected=w.lessonAudioFiles['stories-cards'][w.getJapaneseSpeechText(message.speech||message.japanese)];
+  assert(plays.at(-1).src===expected&&plays.at(-1).playbackRate===1,'Story 10 matching recording '+i);
+ }
+ const tenthPlayAll=q('.story-play-all');assert(!tenthPlayAll.disabled,'Story 10 Play all enabled');
+ tenthPlayAll.click();const tenthQueue=plays.at(-1);
+ for(const message of data.entries[9].messages){
+  const expected=w.lessonAudioFiles['stories-cards'][w.getJapaneseSpeechText(message.speech||message.japanese)];
+  assert(tenthQueue.src===expected,'Story 10 queue order');
+  tenthQueue.dispatchEvent(new w.Event('ended'));
+ }
+ assert(tenthQueue.paused&&tenthPlayAll.getAttribute('aria-pressed')==='false','Story 10 queue completes');
+ tenthPlayAll.click();lastAudio=plays.at(-1);
  assert(q('#vocabularyCardNavigation button:last-child').disabled,'Final story disables next');
- q('.story-play-all').click();lastAudio=plays.at(-1);assert(!lastAudio.paused,'Final story queue starts');
- q('#backFromExplosion').click();assert(lastAudio.paused,'Story 8 playback stops on exit');assert(!q('#pageScreen').classList.contains('hidden')&&q('#pageTitle').textContent==='Stories','Back to Stories category');
- result.textContent='PASS: black-dot Stories category, eight Stories with 162 reviewed message recordings at 1x, sequential Play all and stop/error cleanup, furigana, phone layout and return navigation.';
+ q('#backFromExplosion').click();assert(lastAudio.paused,'Story 10 playback stops on exit');assert(!q('#pageScreen').classList.contains('hidden')&&q('#pageTitle').textContent==='Stories','Back to Stories category');
+ result.textContent='PASS: black-dot Stories category, ten Stories with 212 reviewed message recordings at 1x, sequential Play all and stop/error cleanup, furigana, phone layout and return navigation.';
  }catch(e){result.textContent='FAIL: '+e.stack}
 })();
 </script>

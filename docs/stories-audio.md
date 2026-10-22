@@ -1,6 +1,6 @@
 # Stories audio
 
-Stories 1–8 have audio: 162 messages, using Marin at generation speed 1.0.
+Stories 1–10 have audio: 212 messages, using Marin at generation speed 1.0.
 
 ## Story 1 — Making shio koji
 
@@ -63,3 +63,11 @@ All 20 messages enabled with Marin (`gpt-4o-mini-tts`) at generation speed 1.0. 
 ## Story 8 — Talking about the trip
 
 All 22 messages enabled with Marin (`gpt-4o-mini-tts`) at generation speed 1.0. Reviewed supplied furigana, contextual particles, contracted spoken forms, phrase boundaries and lexical dictionary accent matches before rendering. Whole-sentence pitch remains provisional. Retained スイス すいす, 香港 ほんこん, 新潟 にいがた, 三条 さんじょう, 29日 にじゅうくにち and 入れて はいれて. Line 10 regenerated with light phrase boundaries after complete phrases to resolve extra-word grouping in transcription; final ASR writes the place name as 山城, a possible homophonic spelling. Input remains explicitly さんじょう; exact audible proper-name/date reading is not independently verified by ASR. All clips decode as non-silent PCM with zero measured clipping. Audible pitch and smoothness have not been listening-verified.
+
+## Story 9 — The new restaurant by the station
+
+All 26 messages enabled with Marin (`gpt-4o-mini-tts`) at generation speed 1.0, including Play all. Reviewed supplied furigana, casual contractions, contextual particles, long vowels, doubled consonants and phrase boundaries before rendering. Preserved 美咲 みさき, 温かい あったかい, 空いてる あいてる and lexical は in 半分 はんぶん. Exact lexical dictionary accent matches and variants retained; full-sentence intonation provisional. Lines 4, 14, 15 and 19 regenerated to resolve transcript omissions/changes. Final transcripts retain intended content; ASR spelling 作んだ for つくんだ and expansion じゃ to じゃあ remain recorded as transcription ambiguities. All clips decode as non-silent PCM with zero measured clipping. Audible pitch and smoothness have not been listening-verified.
+
+## Story 10 — Chores before dinner
+
+All 24 messages enabled with Marin (`gpt-4o-mini-tts`) at generation speed 1.0, including Play all. Reviewed supplied furigana, contextual particles, casual contractions, long vowels, doubled consonants and phrase boundaries before rendering. Preserved lexical は in ご飯/ハンガー/入ってる/箸, 片付ける かたづける, and 明日 あした. Exact lexical dictionary accent matches retained, including 箸 in the chopsticks sense; whole-sentence intonation provisional. Lines 4–9, 22 and 23 regenerated after unclear or omitted wording. Primary ASR still substitutes 片付けて on line 9, while independent whisper-1 without expected-text prompting recognizes かかってない. Line 22 primary ASR omits うん; secondary recognizes it but inserts an object particle in its transcript. Both raw results retained as recognition disagreements. Casual ありがと/じゃ expand to ありがとう/じゃあ in primary ASR. All clips decode as non-silent PCM with zero measured clipping. Audible pitch and smoothness have not been listening-verified.

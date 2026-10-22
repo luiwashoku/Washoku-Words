@@ -4,7 +4,7 @@
   "voice": "marin",
   "model": "gpt-4o-mini-tts",
   "speed": 1.0,
-  "scope": "Stories 1–8: 162 messages reviewed for Marin/gpt-4o-mini-tts at generation speed 1.0; prior recordings retained.",
+  "scope": "Stories 1–10: 212 messages reviewed for Marin/gpt-4o-mini-tts at generation speed 1.0; prior recordings retained.",
   "reading_sources": [
     "User-provided story text and explicit furigana; line-by-line meaning, grammatical particle, inflection and phrase-boundary review.",
     "https://www.marukome.co.jp/product/koji/shiokoji/all/",
@@ -6739,6 +6739,1874 @@
       "automated_transcript": "あっ、本当だ。そっちのも違いますね。",
       "automated_transcript_review": "Compared transcripts with supplied travel/shop dialogue. Line 10 regenerated with phrase-boundary guidance to resolve an extra honorific-prefix transcription. Final ASR writes Sanjo as 山城 (a possible homophonic spelling); location input remains explicitly さんじょう. ASR does not independently verify the audible proper-name reading or exact date reading. Other differences are script/punctuation variation. Not listening or pitch verification.",
       "audio_validation": "Decoded non-silent PCM, no measured clipping; transcript and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "ねえ、えきまえにあたらしくできたおみせ、もういった？",
+      "card": "story-new-restaurant-09",
+      "message_id": "new-restaurant-message-01",
+      "display": "ねえ、駅前(えきまえ)に新(あたら)しくできたお店(みせ)、もう行(い)った？",
+      "speaker": "美咲(みさき)",
+      "input": "ねえ、えきまえにあたらしくできたおみせ、もういった？",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual restaurant conversation between Misaki and Yui and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "駅前 えきまえ; 新しく あたらしく; 行った いった doubled consonant. Casual friend asks about new shop.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "駅前",
+          "reading": "えきまえ",
+          "accent_variants": [
+            3,
+            0
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L25889"
+        },
+        {
+          "form": "店",
+          "reading": "みせ",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L90006"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two female friends in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 駅前 えきまえ; 新しく あたらしく; 行った いった doubled consonant. Casual friend asks about new shop. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 駅前 (えきまえ) 3; 店 (みせ) 2.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-228a08904fc3389acfd9.mp3",
+      "file_duration_seconds": 4.104,
+      "automated_transcript": "ねえ、駅前に新しくできたお店、もう行った?",
+      "automated_transcript_review": "Compared all transcripts with supplied casual restaurant conversation. Regenerated lines 4, 14, 15 and 19 after omitted/changed wording; replacement transcripts retain intended content. Line 10 ASR 作んだ is treated as orthographic ambiguity for supplied つくんだ; line 24 ASR expands じゃ to じゃあ. Input retains supplied wording. Other differences are punctuation and script variation. Not listening or audible pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "あ、ガラスばりのとこ？まだ。あそこ、なんのおみせなの？",
+      "card": "story-new-restaurant-09",
+      "message_id": "new-restaurant-message-02",
+      "display": "あ、ガラス張(ば)りのとこ？まだ。あそこ、何(なん)のお店(みせ)なの？",
+      "speaker": "結衣(ゆい)",
+      "input": "あ、がらすばりのとこ？まだ。あそこ、なんのおみせなの？",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual restaurant conversation between Misaki and Yui and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "ガラス張り がらすばり voiced ば; 何の なんの explicitly supplied, not なにの. Casual とこ contraction retained.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "何",
+          "reading": "なん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L28461"
+        },
+        {
+          "form": "店",
+          "reading": "みせ",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L90006"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two female friends in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: ガラス張り がらすばり voiced ば; 何の なんの explicitly supplied, not なにの. Casual とこ contraction retained. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 何 (なん) 1; 店 (みせ) 2.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-be068a7a41b3b65630a8.mp3",
+      "file_duration_seconds": 5.352,
+      "automated_transcript": "あ、ガラス張りのとこ？まだ。あそこ何のお店なの？",
+      "automated_transcript_review": "Compared all transcripts with supplied casual restaurant conversation. Regenerated lines 4, 14, 15 and 19 after omitted/changed wording; replacement transcripts retain intended content. Line 10 ASR 作んだ is treated as orthographic ambiguity for supplied つくんだ; line 24 ASR expands じゃ to じゃあ. Input retains supplied wording. Other differences are punctuation and script variation. Not listening or audible pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "パスタとかだしてるみたい。ひるはランチもあるんだって。",
+      "card": "story-new-restaurant-09",
+      "message_id": "new-restaurant-message-03",
+      "display": "パスタとか出(だ)してるみたい。昼(ひる)はランチもあるんだって。",
+      "speaker": "美咲(みさき)",
+      "input": "ぱすたとかだしてるみたい。ひるわらんちもあるんだって。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual restaurant conversation between Misaki and Yui and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "パスタ ぱすた; 出してる だしてる contraction retained; 昼 topic わ; ランチ らんち; だって doubled consonant.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "昼",
+          "reading": "ひる",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L86257"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two female friends in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: パスタ ぱすた; 出してる だしてる contraction retained; 昼 topic わ; ランチ らんち; だって doubled consonant. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 昼 (ひる) 2.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-4263ead6ffee3c827904.mp3",
+      "file_duration_seconds": 6.264,
+      "automated_transcript": "パスタとか出してるみたい。昼はランチもあるんだって。",
+      "automated_transcript_review": "Compared all transcripts with supplied casual restaurant conversation. Regenerated lines 4, 14, 15 and 19 after omitted/changed wording; replacement transcripts retain intended content. Line 10 ASR 作んだ is treated as orthographic ambiguity for supplied つくんだ; line 24 ASR expands じゃ to じゃあ. Input retains supplied wording. Other differences are punctuation and script variation. Not listening or audible pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "へえ。きにはなってたんだけど、そとからなかがまるみえじゃん。なんかおちつかなそうで。",
+      "card": "story-new-restaurant-09",
+      "message_id": "new-restaurant-message-04",
+      "display": "へえ。気(き)にはなってたんだけど、外(そと)から中(なか)が丸見(まるみ)えじゃん。なんか落(お)ち着(つ)かなそうで。",
+      "speaker": "結衣(ゆい)",
+      "input": "へえ。きにわなってたんだけど、そとからなかがまるみえじゃん。なんかおちつかなそうで。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual restaurant conversation between Misaki and Yui and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "気には きにわ topic; 外 そと; 中 なか; 丸見え まるみえ; 落ち着かなそう おちつかなそう. Preserve contracted なってた and colloquial じゃん.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "気",
+          "reading": "き",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L36324"
+        },
+        {
+          "form": "外",
+          "reading": "そと",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L31695"
+        },
+        {
+          "form": "中",
+          "reading": "なか",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L85770"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two female friends in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 気には きにわ topic; 外 そと; 中 なか; 丸見え まるみえ; 落ち着かなそう おちつかなそう. Preserve contracted なってた and colloquial じゃん. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 気 (き) 0; 外 (そと) 1; 中 (なか) 1. 最後の文「なんかおちつかなそうで。」も必ず省略せず読んでください。店の中が外から見えるので落ち着かない、という意味です。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-995bf2976c3b13044f5c.mp3",
+      "file_duration_seconds": 7.008,
+      "automated_transcript": "へえ、気にはなってたんだけど、外から中が丸見えじゃん。なんか落ち着かなそうで。",
+      "automated_transcript_review": "Compared all transcripts with supplied casual restaurant conversation. Regenerated lines 4, 14, 15 and 19 after omitted/changed wording; replacement transcripts retain intended content. Line 10 ASR 作んだ is treated as orthographic ambiguity for supplied つくんだ; line 24 ASR expands じゃ to じゃあ. Input retains supplied wording. Other differences are punctuation and script variation. Not listening or audible pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "わかる。でもおくにもせきあるっぽいよ。",
+      "card": "story-new-restaurant-09",
+      "message_id": "new-restaurant-message-05",
+      "display": "わかる。でも奥(おく)にも席(せき)あるっぽいよ。",
+      "speaker": "美咲(みさき)",
+      "input": "わかる。でもおくにもせきあるっぽいよ。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual restaurant conversation between Misaki and Yui and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "奥 おく; 席 せき; あるっぽい doubled consonant; informal conjecture about seats further inside.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "奥",
+          "reading": "おく",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L26753"
+        },
+        {
+          "form": "席",
+          "reading": "せき",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L74878"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two female friends in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 奥 おく; 席 せき; あるっぽい doubled consonant; informal conjecture about seats further inside. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 奥 (おく) 1; 席 (せき) 1.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-801c6810236bac969c14.mp3",
+      "file_duration_seconds": 3.408,
+      "automated_transcript": "わかる。でも奥にも席あるっぽいよ。",
+      "automated_transcript_review": "Compared all transcripts with supplied casual restaurant conversation. Regenerated lines 4, 14, 15 and 19 after omitted/changed wording; replacement transcripts retain intended content. Line 10 ASR 作んだ is treated as orthographic ambiguity for supplied つくんだ; line 24 ASR expands じゃ to じゃあ. Input retains supplied wording. Other differences are punctuation and script variation. Not listening or audible pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "あ、そうなんだ。みさきはもういったの？",
+      "card": "story-new-restaurant-09",
+      "message_id": "new-restaurant-message-06",
+      "display": "あ、そうなんだ。美咲(みさき)はもう行(い)ったの？",
+      "speaker": "結衣(ゆい)",
+      "input": "あ、そうなんだ。みさきわもういったの？",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual restaurant conversation between Misaki and Yui and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "美咲 みさき proper name explicitly supplied; topic わ; 行った いった doubled consonant.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two female friends in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 美咲 みさき proper name explicitly supplied; topic わ; 行った いった doubled consonant.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-b573f0e4d03d707838de.mp3",
+      "file_duration_seconds": 4.656,
+      "automated_transcript": "あ、そうなんだ。美咲はもう行ったの?",
+      "automated_transcript_review": "Compared all transcripts with supplied casual restaurant conversation. Regenerated lines 4, 14, 15 and 19 after omitted/changed wording; replacement transcripts retain intended content. Line 10 ASR 作んだ is treated as orthographic ambiguity for supplied つくんだ; line 24 ASR expands じゃ to じゃあ. Input retains supplied wording. Other differences are punctuation and script variation. Not listening or audible pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "きのう、いもうとといってきた。",
+      "card": "story-new-restaurant-09",
+      "message_id": "new-restaurant-message-07",
+      "display": "昨日(きのう)、妹(いもうと)と行(い)ってきた。",
+      "speaker": "美咲(みさき)",
+      "input": "きのう、いもうとといってきた。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual restaurant conversation between Misaki and Yui and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "昨日 きのう in yesterday context; 妹 いもうと preserves long vowel; 行って いって doubled consonant.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "昨日",
+          "reading": "きのう",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L54071"
+        },
+        {
+          "form": "妹",
+          "reading": "いもうと",
+          "accent_variants": [
+            4
+          ],
+          "selected_accent": 4,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L108818"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two female friends in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 昨日 きのう in yesterday context; 妹 いもうと preserves long vowel; 行って いって doubled consonant. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 昨日 (きのう) 2; 妹 (いもうと) 4.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-93f6eb152557cd556254.mp3",
+      "file_duration_seconds": 3.264,
+      "automated_transcript": "きのう、いもうとといってきた。",
+      "automated_transcript_review": "Compared all transcripts with supplied casual restaurant conversation. Regenerated lines 4, 14, 15 and 19 after omitted/changed wording; replacement transcripts retain intended content. Line 10 ASR 作んだ is treated as orthographic ambiguity for supplied つくんだ; line 24 ASR expands じゃ to じゃあ. Input retains supplied wording. Other differences are punctuation and script variation. Not listening or audible pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "え、どうだった？",
+      "card": "story-new-restaurant-09",
+      "message_id": "new-restaurant-message-08",
+      "display": "え、どうだった？",
+      "speaker": "結衣(ゆい)",
+      "input": "え、どうだった？",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual restaurant conversation between Misaki and Yui and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "Casual question どうだった with long vowel and doubled consonant.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two female friends in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: Casual question どうだった with long vowel and doubled consonant.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-97cba4edabb7819d93df.mp3",
+      "file_duration_seconds": 2.616,
+      "automated_transcript": "え、どうだった?",
+      "automated_transcript_review": "Compared all transcripts with supplied casual restaurant conversation. Regenerated lines 4, 14, 15 and 19 after omitted/changed wording; replacement transcripts retain intended content. Line 10 ASR 作んだ is treated as orthographic ambiguity for supplied つくんだ; line 24 ASR expands じゃ to じゃあ. Input retains supplied wording. Other differences are punctuation and script variation. Not listening or audible pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "パスタ、ふつうにおいしかった。あと、パンがめっちゃおいしくて。",
+      "card": "story-new-restaurant-09",
+      "message_id": "new-restaurant-message-09",
+      "display": "パスタ、普通(ふつう)においしかった。あと、パンがめっちゃおいしくて。",
+      "speaker": "美咲(みさき)",
+      "input": "ぱすた、ふつうにおいしかった。あと、ぱんがめっちゃおいしくて。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual restaurant conversation between Misaki and Yui and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "普通 ふつう preserves long vowel; めっちゃ doubled consonant; casual praise for pasta and bread.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "普通",
+          "reading": "ふつう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L102763"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two female friends in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 普通 ふつう preserves long vowel; めっちゃ doubled consonant; casual praise for pasta and bread. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 普通 (ふつう) 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-e89a1dae2290062d21db.mp3",
+      "file_duration_seconds": 5.616,
+      "automated_transcript": "パスタ、普通に美味しかった。あと、パンがめっちゃ美味しくて。",
+      "automated_transcript_review": "Compared all transcripts with supplied casual restaurant conversation. Regenerated lines 4, 14, 15 and 19 after omitted/changed wording; replacement transcripts retain intended content. Line 10 ASR 作んだ is treated as orthographic ambiguity for supplied つくんだ; line 24 ASR expands じゃ to じゃあ. Input retains supplied wording. Other differences are punctuation and script variation. Not listening or audible pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "へえ、パンもつくんだ。",
+      "card": "story-new-restaurant-09",
+      "message_id": "new-restaurant-message-10",
+      "display": "へえ、パンもつくんだ。",
+      "speaker": "結衣(ゆい)",
+      "input": "へえ、ぱんもつくんだ。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual restaurant conversation between Misaki and Yui and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "パン ぱん; つく means bread included, not attaching a verb inflection. Casual response.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two female friends in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: パン ぱん; つく means bread included, not attaching a verb inflection. Casual response.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-1e381051a87be99bdc41.mp3",
+      "file_duration_seconds": 3.36,
+      "automated_transcript": "へえ、パンも作んだ。",
+      "automated_transcript_review": "Compared all transcripts with supplied casual restaurant conversation. Regenerated lines 4, 14, 15 and 19 after omitted/changed wording; replacement transcripts retain intended content. Line 10 ASR 作んだ is treated as orthographic ambiguity for supplied つくんだ; line 24 ASR expands じゃ to じゃあ. Input retains supplied wording. Other differences are punctuation and script variation. Not listening or audible pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "そう。あったかいのだしてくれるの。",
+      "card": "story-new-restaurant-09",
+      "message_id": "new-restaurant-message-11",
+      "display": "そう。温(あった)かいの出(だ)してくれるの。",
+      "speaker": "美咲(みさき)",
+      "input": "そう。あったかいのだしてくれるの。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual restaurant conversation between Misaki and Yui and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "温かい あったかい per explicitly supplied colloquial reading, not あたたかい. Keep doubled consonant; 出して だして.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two female friends in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 温かい あったかい per explicitly supplied colloquial reading, not あたたかい. Keep doubled consonant; 出して だして.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-3e8624239ef820851eb3.mp3",
+      "file_duration_seconds": 3.12,
+      "automated_transcript": "そう、あったかいの出してくれるの。",
+      "automated_transcript_review": "Compared all transcripts with supplied casual restaurant conversation. Regenerated lines 4, 14, 15 and 19 after omitted/changed wording; replacement transcripts retain intended content. Line 10 ASR 作んだ is treated as orthographic ambiguity for supplied つくんだ; line 24 ASR expands じゃ to じゃあ. Input retains supplied wording. Other differences are punctuation and script variation. Not listening or audible pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "いいね。りょうは？しゃしんだとちょっとすくなそうだったけど。",
+      "card": "story-new-restaurant-09",
+      "message_id": "new-restaurant-message-12",
+      "display": "いいね。量(りょう)は？写真(しゃしん)だとちょっと少(すく)なそうだったけど。",
+      "speaker": "結衣(ゆい)",
+      "input": "いいね。りょうわ？しゃしんだとちょっとすくなそうだったけど。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual restaurant conversation between Misaki and Yui and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "量 りょう topic わ; 写真 しゃしん; 少なそう すくなそう; ちょっと and だった doubled consonants.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "量",
+          "reading": "りょう",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L116807"
+        },
+        {
+          "form": "写真",
+          "reading": "しゃしん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L59829"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two female friends in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 量 りょう topic わ; 写真 しゃしん; 少なそう すくなそう; ちょっと and だった doubled consonants. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 量 (りょう) 1; 写真 (しゃしん) 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-19ae03df88846473ffbd.mp3",
+      "file_duration_seconds": 5.808,
+      "automated_transcript": "いいね、量は？写真だとちょっと少なそうだったけど。",
+      "automated_transcript_review": "Compared all transcripts with supplied casual restaurant conversation. Regenerated lines 4, 14, 15 and 19 after omitted/changed wording; replacement transcripts retain intended content. Line 10 ASR 作んだ is treated as orthographic ambiguity for supplied つくんだ; line 24 ASR expands じゃ to じゃあ. Input retains supplied wording. Other differences are punctuation and script variation. Not listening or audible pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "わたしはちょうどよかった。いもうとはたりないっていって、デザートもたのんでたけど。",
+      "card": "story-new-restaurant-09",
+      "message_id": "new-restaurant-message-13",
+      "display": "私(わたし)はちょうどよかった。妹(いもうと)は足(た)りないって言(い)って、デザートも頼(たの)んでたけど。",
+      "speaker": "美咲(みさき)",
+      "input": "わたしわちょうどよかった。いもうとわたりないっていって、でざーともたのんでたけど。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual restaurant conversation between Misaki and Yui and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "私 わたし topic わ; 妹 いもうと topic わ; 足りない たりない; 言って いって doubled consonant; デザート でざーと long vowel; 頼んで たのんで. Retain all clauses.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "私",
+          "reading": "わたし",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L57229"
+        },
+        {
+          "form": "妹",
+          "reading": "いもうと",
+          "accent_variants": [
+            4
+          ],
+          "selected_accent": 4,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L108818"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two female friends in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 私 わたし topic わ; 妹 いもうと topic わ; 足りない たりない; 言って いって doubled consonant; デザート でざーと long vowel; 頼んで たのんで. Retain all clauses. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 私 (わたし) 0; 妹 (いもうと) 4.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-86fca84a58fa0ad01c47.mp3",
+      "file_duration_seconds": 7.32,
+      "automated_transcript": "私はちょうどよかった。妹は足りないって言って、デザートも頼んでたけど。",
+      "automated_transcript_review": "Compared all transcripts with supplied casual restaurant conversation. Regenerated lines 4, 14, 15 and 19 after omitted/changed wording; replacement transcripts retain intended content. Line 10 ASR 作んだ is treated as orthographic ambiguity for supplied つくんだ; line 24 ASR expands じゃ to じゃあ. Input retains supplied wording. Other differences are punctuation and script variation. Not listening or audible pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "それ、ただデザートたべたかっただけじゃない？",
+      "card": "story-new-restaurant-09",
+      "message_id": "new-restaurant-message-14",
+      "display": "それ、ただデザート食(た)べたかっただけじゃない？",
+      "speaker": "結衣(ゆい)",
+      "input": "それ、ただ、でざーとたべたかっただけじゃない？",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual restaurant conversation between Misaki and Yui and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "デザート でざーと long vowel; 食べたかった たべたかった doubled consonant. Teasing question.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two female friends in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: デザート でざーと long vowel; 食べたかった たべたかった doubled consonant. Teasing question. 「ただ」は単に、という意味です。「ただで」とは読まず、余分な「で」を加えないでください。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-7badf1b343258e8bfc3d.mp3",
+      "file_duration_seconds": 4.104,
+      "automated_transcript": "それ、ただデザート食べたかっただけじゃない?",
+      "automated_transcript_review": "Compared all transcripts with supplied casual restaurant conversation. Regenerated lines 4, 14, 15 and 19 after omitted/changed wording; replacement transcripts retain intended content. Line 10 ASR 作んだ is treated as orthographic ambiguity for supplied つくんだ; line 24 ASR expands じゃ to じゃあ. Input retains supplied wording. Other differences are punctuation and script variation. Not listening or audible pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "たぶんね。わたしのもはんぶんたべてたし。",
+      "card": "story-new-restaurant-09",
+      "message_id": "new-restaurant-message-15",
+      "display": "たぶんね。私(わたし)のも半分(はんぶん)食(た)べてたし。",
+      "speaker": "美咲(みさき)",
+      "input": "たぶんね。わたしのもはんぶんたべてたし。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual restaurant conversation between Misaki and Yui and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "私 わたし; 半分 はんぶん lexical は, not topic particle; 食べてた たべてた contraction retained.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "私",
+          "reading": "わたし",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L57229"
+        },
+        {
+          "form": "半分",
+          "reading": "はんぶん",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L99239"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two female friends in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 私 わたし; 半分 はんぶん lexical は, not topic particle; 食べてた たべてた contraction retained. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 私 (わたし) 0; 半分 (はんぶん) 3. 最初は「たぶんね」です。「はんぶんね」ではありません。最後まで全部読んでください。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-3958720fbb9045bedebb.mp3",
+      "file_duration_seconds": 3.264,
+      "automated_transcript": "多分ね、私のも半分食べてたし。",
+      "automated_transcript_review": "Compared all transcripts with supplied casual restaurant conversation. Regenerated lines 4, 14, 15 and 19 after omitted/changed wording; replacement transcripts retain intended content. Line 10 ASR 作んだ is treated as orthographic ambiguity for supplied つくんだ; line 24 ASR expands じゃ to じゃあ. Input retains supplied wording. Other differences are punctuation and script variation. Not listening or audible pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "え、みさきもたのんだんじゃん。",
+      "card": "story-new-restaurant-09",
+      "message_id": "new-restaurant-message-16",
+      "display": "え、美咲(みさき)も頼(たの)んだんじゃん。",
+      "speaker": "結衣(ゆい)",
+      "input": "え、みさきもたのんだんじゃん。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual restaurant conversation between Misaki and Yui and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "美咲 みさき proper name; 頼んだ たのんだ; informal じゃん.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two female friends in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 美咲 みさき proper name; 頼んだ たのんだ; informal じゃん.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-91aeb5adad5ab8aa416f.mp3",
+      "file_duration_seconds": 3.312,
+      "automated_transcript": "え、ミサキも頼んだんじゃん。",
+      "automated_transcript_review": "Compared all transcripts with supplied casual restaurant conversation. Regenerated lines 4, 14, 15 and 19 after omitted/changed wording; replacement transcripts retain intended content. Line 10 ASR 作んだ is treated as orthographic ambiguity for supplied つくんだ; line 24 ASR expands じゃ to じゃあ. Input retains supplied wording. Other differences are punctuation and script variation. Not listening or audible pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "だって、プリンみたらたべたくなっちゃって。",
+      "card": "story-new-restaurant-09",
+      "message_id": "new-restaurant-message-17",
+      "display": "だって、プリン見(み)たら食(た)べたくなっちゃって。",
+      "speaker": "美咲(みさき)",
+      "input": "だって、ぷりんみたらたべたくなっちゃって。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual restaurant conversation between Misaki and Yui and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "プリン ぷりん; 見たら みたら; 食べたくなっちゃって たべたくなっちゃって preserves doubled consonants and contracted casual form.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two female friends in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: プリン ぷりん; 見たら みたら; 食べたくなっちゃって たべたくなっちゃって preserves doubled consonants and contracted casual form.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-3c51b8be1197d81c69af.mp3",
+      "file_duration_seconds": 3.312,
+      "automated_transcript": "だって、プリン見たら食べたくなっちゃって。",
+      "automated_transcript_review": "Compared all transcripts with supplied casual restaurant conversation. Regenerated lines 4, 14, 15 and 19 after omitted/changed wording; replacement transcripts retain intended content. Line 10 ASR 作んだ is treated as orthographic ambiguity for supplied つくんだ; line 24 ASR expands じゃ to じゃあ. Input retains supplied wording. Other differences are punctuation and script variation. Not listening or audible pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "しゃしんないの？",
+      "card": "story-new-restaurant-09",
+      "message_id": "new-restaurant-message-18",
+      "display": "写真(しゃしん)ないの？",
+      "speaker": "結衣(ゆい)",
+      "input": "しゃしんないの？",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual restaurant conversation between Misaki and Yui and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "写真 しゃしん; casual question asking for a photo, no omitted words added.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "写真",
+          "reading": "しゃしん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L59829"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two female friends in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 写真 しゃしん; casual question asking for a photo, no omitted words added. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 写真 (しゃしん) 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-a1f2fa58df24a249a1df.mp3",
+      "file_duration_seconds": 1.512,
+      "automated_transcript": "写真ないの?",
+      "automated_transcript_review": "Compared all transcripts with supplied casual restaurant conversation. Regenerated lines 4, 14, 15 and 19 after omitted/changed wording; replacement transcripts retain intended content. Line 10 ASR 作んだ is treated as orthographic ambiguity for supplied つくんだ; line 24 ASR expands じゃ to じゃあ. Input retains supplied wording. Other differences are punctuation and script variation. Not listening or audible pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "あるよ。ちょっとまって。……これ。",
+      "card": "story-new-restaurant-09",
+      "message_id": "new-restaurant-message-19",
+      "display": "あるよ。ちょっと待(ま)って。……これ。",
+      "speaker": "美咲(みさき)",
+      "input": "あるよ。ちょっとまって。これ。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual restaurant conversation between Misaki and Yui and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "ちょっと and 待って まって doubled consonants; pause before showing the picture, then これ.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two female friends in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: ちょっと and 待って まって doubled consonants; pause before showing the picture, then これ. 最後の「これ。」も必ず読んでください。写真を見せるときの発話です。省略しないでください。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-a901d93c656f0bbd7c57.mp3",
+      "file_duration_seconds": 3.36,
+      "automated_transcript": "あるよ。ちょっと待って、これ。",
+      "automated_transcript_review": "Compared all transcripts with supplied casual restaurant conversation. Regenerated lines 4, 14, 15 and 19 after omitted/changed wording; replacement transcripts retain intended content. Line 10 ASR 作んだ is treated as orthographic ambiguity for supplied つくんだ; line 24 ASR expands じゃ to じゃあ. Input retains supplied wording. Other differences are punctuation and script variation. Not listening or audible pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "あー、こういうかためのやつ、すき。",
+      "card": "story-new-restaurant-09",
+      "message_id": "new-restaurant-message-20",
+      "display": "あー、こういう固(かた)めのやつ、好(す)き。",
+      "speaker": "結衣(ゆい)",
+      "input": "あー、こういうかためのやつ、すき。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual restaurant conversation between Misaki and Yui and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "固め かため means firm pudding; 好き すき; こういう long vowel; あー long vowel.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two female friends in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 固め かため means firm pudding; 好き すき; こういう long vowel; あー long vowel.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-e3017d7cd25af0e697f4.mp3",
+      "file_duration_seconds": 3.552,
+      "automated_transcript": "ああ、こういう固めのやつ、好き。",
+      "automated_transcript_review": "Compared all transcripts with supplied casual restaurant conversation. Regenerated lines 4, 14, 15 and 19 after omitted/changed wording; replacement transcripts retain intended content. Line 10 ASR 作んだ is treated as orthographic ambiguity for supplied つくんだ; line 24 ASR expands じゃ to じゃあ. Input retains supplied wording. Other differences are punctuation and script variation. Not listening or audible pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "じゃあ、こんどいっしょにいこうよ。",
+      "card": "story-new-restaurant-09",
+      "message_id": "new-restaurant-message-21",
+      "display": "じゃあ、今度(こんど)一緒(いっしょ)に行(い)こうよ。",
+      "speaker": "美咲(みさき)",
+      "input": "じゃあ、こんどいっしょにいこうよ。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual restaurant conversation between Misaki and Yui and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "今度 こんど; 一緒 いっしょ doubled consonant; 行こう いこう long vowel, friendly invitation.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "今度",
+          "reading": "こんど",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52253"
+        },
+        {
+          "form": "一緒",
+          "reading": "いっしょ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L23274"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two female friends in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 今度 こんど; 一緒 いっしょ doubled consonant; 行こう いこう long vowel, friendly invitation. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 今度 (こんど) 1; 一緒 (いっしょ) 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-b22f7ac19cd41b568975.mp3",
+      "file_duration_seconds": 2.808,
+      "automated_transcript": "じゃあ、今度一緒に行こうよ。",
+      "automated_transcript_review": "Compared all transcripts with supplied casual restaurant conversation. Regenerated lines 4, 14, 15 and 19 after omitted/changed wording; replacement transcripts retain intended content. Line 10 ASR 作んだ is treated as orthographic ambiguity for supplied つくんだ; line 24 ASR expands じゃ to じゃあ. Input retains supplied wording. Other differences are punctuation and script variation. Not listening or audible pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "いきたい。どようとかあいてる？",
+      "card": "story-new-restaurant-09",
+      "message_id": "new-restaurant-message-22",
+      "display": "行(い)きたい。土曜(どよう)とか空(あ)いてる？",
+      "speaker": "結衣(ゆい)",
+      "input": "いきたい。どようとかあいてる？",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual restaurant conversation between Misaki and Yui and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "行きたい いきたい; 土曜 どよう preserves long vowel; 空いてる あいてる means free/available, not すいてる.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "土曜",
+          "reading": "どよう",
+          "accent_variants": [
+            2,
+            0
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L91255"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two female friends in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 行きたい いきたい; 土曜 どよう preserves long vowel; 空いてる あいてる means free/available, not すいてる. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 土曜 (どよう) 2.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-277af157f162fc32c9c6.mp3",
+      "file_duration_seconds": 3.504,
+      "automated_transcript": "行きたい。土曜とか空いてる?",
+      "automated_transcript_review": "Compared all transcripts with supplied casual restaurant conversation. Regenerated lines 4, 14, 15 and 19 after omitted/changed wording; replacement transcripts retain intended content. Line 10 ASR 作んだ is treated as orthographic ambiguity for supplied つくんだ; line 24 ASR expands じゃ to じゃあ. Input retains supplied wording. Other differences are punctuation and script variation. Not listening or audible pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "あいてるよ。ただ、おひるはけっこうこんでたんだよね。",
+      "card": "story-new-restaurant-09",
+      "message_id": "new-restaurant-message-23",
+      "display": "空(あ)いてるよ。ただ、お昼(ひる)はけっこう混(こ)んでたんだよね。",
+      "speaker": "美咲(みさき)",
+      "input": "あいてるよ。ただ、おひるわけっこうこんでたんだよね。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual restaurant conversation between Misaki and Yui and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "空いてる あいてる; 昼 ひる topic わ; けっこう doubled consonant and long vowel; 混んでた こんでた means crowded, contracted form retained.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "昼",
+          "reading": "ひる",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L86257"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two female friends in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 空いてる あいてる; 昼 ひる topic わ; けっこう doubled consonant and long vowel; 混んでた こんでた means crowded, contracted form retained. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 昼 (ひる) 2.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-5ade05f6fa6fcdf4102d.mp3",
+      "file_duration_seconds": 4.56,
+      "automated_transcript": "空いてるよ。ただ、お昼は結構混んでたんだよね。",
+      "automated_transcript_review": "Compared all transcripts with supplied casual restaurant conversation. Regenerated lines 4, 14, 15 and 19 after omitted/changed wording; replacement transcripts retain intended content. Line 10 ASR 作んだ is treated as orthographic ambiguity for supplied つくんだ; line 24 ASR expands じゃ to じゃあ. Input retains supplied wording. Other differences are punctuation and script variation. Not listening or audible pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "じゃ、ちょっとはやめにいく？かいてんってなんじ？",
+      "card": "story-new-restaurant-09",
+      "message_id": "new-restaurant-message-24",
+      "display": "じゃ、ちょっと早(はや)めに行(い)く？開店(かいてん)って何時(なんじ)？",
+      "speaker": "結衣(ゆい)",
+      "input": "じゃ、ちょっとはやめにいく？かいてんってなんじ？",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual restaurant conversation between Misaki and Yui and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "早め はやめ lexical は; 開店 かいてん means opening; 何時 なんじ. Casual question retains じゃ.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "早",
+          "reading": "はや",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L79079"
+        },
+        {
+          "form": "開店",
+          "reading": "かいてん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L31591"
+        },
+        {
+          "form": "何時",
+          "reading": "なんじ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L28567"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two female friends in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 早め はやめ lexical は; 開店 かいてん means opening; 何時 なんじ. Casual question retains じゃ. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 早 (はや) 1; 開店 (かいてん) 0; 何時 (なんじ) 1.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-597f833a1fe1d7662110.mp3",
+      "file_duration_seconds": 3.864,
+      "automated_transcript": "じゃあ、ちょっと早めに行く？開店って何時?",
+      "automated_transcript_review": "Compared all transcripts with supplied casual restaurant conversation. Regenerated lines 4, 14, 15 and 19 after omitted/changed wording; replacement transcripts retain intended content. Line 10 ASR 作んだ is treated as orthographic ambiguity for supplied つくんだ; line 24 ASR expands じゃ to じゃあ. Input retains supplied wording. Other differences are punctuation and script variation. Not listening or audible pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "なんじだっけ。あとでしらべておくるね。",
+      "card": "story-new-restaurant-09",
+      "message_id": "new-restaurant-message-25",
+      "display": "何時(なんじ)だっけ。あとで調(しら)べて送(おく)るね。",
+      "speaker": "美咲(みさき)",
+      "input": "なんじだっけ。あとでしらべておくるね。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual restaurant conversation between Misaki and Yui and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "何時 なんじ; だっけ doubled consonant; 調べて しらべて; 送る おくる means send opening time information.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "何時",
+          "reading": "なんじ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L28567"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two female friends in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 何時 なんじ; だっけ doubled consonant; 調べて しらべて; 送る おくる means send opening time information. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 何時 (なんじ) 1.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-d70acbb2d2e02bd03cc6.mp3",
+      "file_duration_seconds": 3.816,
+      "automated_transcript": "何時だっけ、後で調べて送るね。",
+      "automated_transcript_review": "Compared all transcripts with supplied casual restaurant conversation. Regenerated lines 4, 14, 15 and 19 after omitted/changed wording; replacement transcripts retain intended content. Line 10 ASR 作んだ is treated as orthographic ambiguity for supplied つくんだ; line 24 ASR expands じゃ to じゃあ. Input retains supplied wording. Other differences are punctuation and script variation. Not listening or audible pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "おねがい。おくのせき、すわれるといいね。",
+      "card": "story-new-restaurant-09",
+      "message_id": "new-restaurant-message-26",
+      "display": "お願(ねが)い。奥(おく)の席(せき)、座(すわ)れるといいね。",
+      "speaker": "結衣(ゆい)",
+      "input": "おねがい。おくのせき、すわれるといいね。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual restaurant conversation between Misaki and Yui and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "お願い おねがい; 奥 おく; 席 せき; 座れる すわれる means being able to sit. Friendly wish for inside seating.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "奥",
+          "reading": "おく",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L26753"
+        },
+        {
+          "form": "席",
+          "reading": "せき",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L74878"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two female friends in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: お願い おねがい; 奥 おく; 席 せき; 座れる すわれる means being able to sit. Friendly wish for inside seating. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 奥 (おく) 1; 席 (せき) 1.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-b5c34912cec7559fff70.mp3",
+      "file_duration_seconds": 3.72,
+      "automated_transcript": "お願い、奥の席、座れるといいね。",
+      "automated_transcript_review": "Compared all transcripts with supplied casual restaurant conversation. Regenerated lines 4, 14, 15 and 19 after omitted/changed wording; replacement transcripts retain intended content. Line 10 ASR 作んだ is treated as orthographic ambiguity for supplied つくんだ; line 24 ASR expands じゃ to じゃあ. Input retains supplied wording. Other differences are punctuation and script variation. Not listening or audible pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "ねえ、せんたくき、もうおわった？",
+      "card": "story-housework-10",
+      "message_id": "housework-message-01",
+      "display": "ねえ、洗濯機(せんたくき)、もう終(お)わった？",
+      "speaker": "由奈(ゆな)",
+      "input": "ねえ、せんたくき、もうおわった？",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual household conversation between Yuna and Kenta and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "洗濯機 せんたくき supplied reading; 終わった おわった doubled consonant; asking if washing cycle finished.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "洗濯機",
+          "reading": "せんたくき",
+          "accent_variants": [
+            4,
+            3
+          ],
+          "selected_accent": 4,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L77099"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two household members in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 洗濯機 せんたくき supplied reading; 終わった おわった doubled consonant; asking if washing cycle finished. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 洗濯機 (せんたくき) 4.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-aa3a06ac36ac092f5943.mp3",
+      "file_duration_seconds": 2.76,
+      "automated_transcript": "ねえ、洗濯機もう終わった?",
+      "automated_transcript_review": "Compared all transcripts with supplied household conversation. Regenerated lines 4–9, 22 and 23 after unclear/missing/changed wording. Final line 9 gpt-4o-transcribe substitutes 片付けて, but independent whisper-1 without expected text recognizes かかってない. Line 22 primary ASR omits initial うん; independent whisper-1 retains it but inserts an object particle in its transcript. Both raw results retained; no claim of listening confirmation. Casual ありがと/じゃ are normalized to ありがとう/じゃあ in primary ASR. Other differences are ordinary script/punctuation variation.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "あ、さっきなってた。まだだしてない。",
+      "card": "story-housework-10",
+      "message_id": "housework-message-02",
+      "display": "あ、さっき鳴(な)ってた。まだ出(だ)してない。",
+      "speaker": "健太(けんた)",
+      "input": "あ、さっきなってた。まだだしてない。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual household conversation between Yuna and Kenta and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "鳴ってた なってた contracted form and doubled consonant; 出して だして; さっき doubled consonant.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two household members in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 鳴ってた なってた contracted form and doubled consonant; 出して だして; さっき doubled consonant.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-8eb33813411ec96dfb71.mp3",
+      "file_duration_seconds": 3.6,
+      "automated_transcript": "あ、さっきなってた。まだ出してない。",
+      "automated_transcript_review": "Compared all transcripts with supplied household conversation. Regenerated lines 4–9, 22 and 23 after unclear/missing/changed wording. Final line 9 gpt-4o-transcribe substitutes 片付けて, but independent whisper-1 without expected text recognizes かかってない. Line 22 primary ASR omits initial うん; independent whisper-1 retains it but inserts an object particle in its transcript. Both raw results retained; no claim of listening confirmation. Casual ありがと/じゃ are normalized to ありがとう/じゃあ in primary ASR. Other differences are ordinary script/punctuation variation.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "わたし、いまごはんつくってるから、ほしてくれない？",
+      "card": "story-housework-10",
+      "message_id": "housework-message-03",
+      "display": "私(わたし)、今(いま)ご飯(はん)作(つく)ってるから、干(ほ)してくれない？",
+      "speaker": "由奈(ゆな)",
+      "input": "わたし、いまごはんつくってるから、ほしてくれない？",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual household conversation between Yuna and Kenta and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "私 わたし; 今 いま; ご飯 ごはん lexical は; 作ってる つくってる contracted form; 干す ほす for hanging laundry.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "私",
+          "reading": "わたし",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L57229"
+        },
+        {
+          "form": "今",
+          "reading": "いま",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52189"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two household members in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 私 わたし; 今 いま; ご飯 ごはん lexical は; 作ってる つくってる contracted form; 干す ほす for hanging laundry. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 私 (わたし) 0; 今 (いま) 1.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-bf1fcdc485459e32e539.mp3",
+      "file_duration_seconds": 4.464,
+      "automated_transcript": "私、今ご飯作ってるから、干してくれない?",
+      "automated_transcript_review": "Compared all transcripts with supplied household conversation. Regenerated lines 4–9, 22 and 23 after unclear/missing/changed wording. Final line 9 gpt-4o-transcribe substitutes 片付けて, but independent whisper-1 without expected text recognizes かかってない. Line 22 primary ASR omits initial うん; independent whisper-1 retains it but inserts an object particle in its transcript. Both raw results retained; no claim of listening confirmation. Casual ありがと/じゃ are normalized to ありがとう/じゃあ in primary ASR. Other differences are ordinary script/punctuation variation.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "いいよ。これ、ぜんぶハンガーでいいんだっけ？",
+      "card": "story-housework-10",
+      "message_id": "housework-message-04",
+      "display": "いいよ。これ、全部(ぜんぶ)ハンガーでいいんだっけ？",
+      "speaker": "健太(けんた)",
+      "input": "いいよ。これ、ぜんぶはんがーでいいんだっけ？",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual household conversation between Yuna and Kenta and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "全部 ぜんぶ; ハンガー はんがー lexical は and long vowel; だっけ doubled consonant.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "全部",
+          "reading": "ぜんぶ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L78114"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two household members in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 全部 ぜんぶ; ハンガー はんがー lexical は and long vowel; だっけ doubled consonant. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 全部 (ぜんぶ) 1. 「はんがー」は衣類を干すハンガーです。がの音と最後の長音を保ち、はんだとは読まないでください。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-856f03726e95e3f035b9.mp3",
+      "file_duration_seconds": 4.008,
+      "automated_transcript": "いいよ、これ全部ハンガーでいいんだっけ?",
+      "automated_transcript_review": "Compared all transcripts with supplied household conversation. Regenerated lines 4–9, 22 and 23 after unclear/missing/changed wording. Final line 9 gpt-4o-transcribe substitutes 片付けて, but independent whisper-1 without expected text recognizes かかってない. Line 22 primary ASR omits initial うん; independent whisper-1 retains it but inserts an object particle in its transcript. Both raw results retained; no claim of listening confirmation. Casual ありがと/じゃ are normalized to ありがとう/じゃあ in primary ASR. Other differences are ordinary script/punctuation variation.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "うん。あ、わたしのしろいニットだけ、たいらにほしてほしい。",
+      "card": "story-housework-10",
+      "message_id": "housework-message-05",
+      "display": "うん。あ、私(わたし)の白(しろ)いニットだけ、平(たい)らに干(ほ)してほしい。",
+      "speaker": "由奈(ゆな)",
+      "input": "うん。あ、わたしのしろいにっとだけ、たいらにほしてほしい。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual household conversation between Yuna and Kenta and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "白い しろい; ニット にっと doubled consonant; 平ら たいら; 干す ほす. Lay the white knit flat to dry.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "私",
+          "reading": "わたし",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L57229"
+        },
+        {
+          "form": "白",
+          "reading": "しろ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L97873"
+        }
+      ],
+      "pronunciation_guidance": "指定されたひらがな全文を一度だけ、自然な東京の日本語で、家での会話のように滑らかに読んでください。語句を省略せず、書き換えず、言葉を足さないでください。長母音と促音を保ちます。最初の「うん」は肯定の返事です。短く一回だけ発音し、次の「あ」に続けてください。 文全体のアクセントは暫定的な自然な東京方言です。確認した語彙アクセント：私（わたし）0型; 白（しろ）1型。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-3566ac0b40f3676a1982.mp3",
+      "file_duration_seconds": 5.808,
+      "automated_transcript": "うん、あ、私の白いニットだけ平らに干してほしい。",
+      "automated_transcript_review": "Compared all transcripts with supplied household conversation. Regenerated lines 4–9, 22 and 23 after unclear/missing/changed wording. Final line 9 gpt-4o-transcribe substitutes 片付けて, but independent whisper-1 without expected text recognizes かかってない. Line 22 primary ASR omits initial うん; independent whisper-1 retains it but inserts an object particle in its transcript. Both raw results retained; no claim of listening confirmation. Casual ありがと/じゃ are normalized to ありがとう/じゃあ in primary ASR. Other differences are ordinary script/punctuation variation.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "あのネットにはいってるやつ？",
+      "card": "story-housework-10",
+      "message_id": "housework-message-06",
+      "display": "あのネットに入(はい)ってるやつ？",
+      "speaker": "健太(けんた)",
+      "input": "あのねっとに、はいってるやつ？",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual household conversation between Yuna and Kenta and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "ネット ねっと doubled consonant; 入ってる はいってる preserves lexical は and doubled consonant, means inside laundry net.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two household members in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: ネット ねっと doubled consonant; 入ってる はいってる preserves lexical は and doubled consonant, means inside laundry net. 「ねっとに、はいってる」はネットの中に入っているという意味です。にの後に助詞の「は」を追加しないでください。はいってるのはは動詞の最初の音です。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-d33f854489806a477bd5.mp3",
+      "file_duration_seconds": 3.048,
+      "automated_transcript": "あの、ネットに入ってるやつ?",
+      "automated_transcript_review": "Compared all transcripts with supplied household conversation. Regenerated lines 4–9, 22 and 23 after unclear/missing/changed wording. Final line 9 gpt-4o-transcribe substitutes 片付けて, but independent whisper-1 without expected text recognizes かかってない. Line 22 primary ASR omits initial うん; independent whisper-1 retains it but inserts an object particle in its transcript. Both raw results retained; no claim of listening confirmation. Casual ありがと/じゃ are normalized to ありがとう/じゃあ in primary ASR. Other differences are ordinary script/punctuation variation.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "そう。それ、つるすとのびちゃうんだよね。",
+      "card": "story-housework-10",
+      "message_id": "housework-message-07",
+      "display": "そう。それ、つるすと伸(の)びちゃうんだよね。",
+      "speaker": "由奈(ゆな)",
+      "input": "そう、それつるすとのびちゃうんだよね。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual household conversation between Yuna and Kenta and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "つるす and 伸びちゃう のびちゃう contracted form; hanging stretches the knit.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [],
+      "pronunciation_guidance": "指定されたひらがな全文を一度だけ、自然な東京の日本語で、家での会話のように滑らかに読んでください。語句を省略せず、書き換えず、言葉を足さないでください。長母音と促音を保ちます。「つるす」は、洗濯したニットをハンガーで吊るすという意味です。つ・る・すの三拍を、区切らず自然に発音します。 文全体のアクセントは暫定的な自然な東京方言です。確認した語彙アクセント：。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-a9655b51ebb0e00ca04f.mp3",
+      "file_duration_seconds": 3.504,
+      "automated_transcript": "そう、それ吊るすと伸びちゃうんだよね。",
+      "automated_transcript_review": "Compared all transcripts with supplied household conversation. Regenerated lines 4–9, 22 and 23 after unclear/missing/changed wording. Final line 9 gpt-4o-transcribe substitutes 片付けて, but independent whisper-1 without expected text recognizes かかってない. Line 22 primary ASR omits initial うん; independent whisper-1 retains it but inserts an object particle in its transcript. Both raw results retained; no claim of listening confirmation. Casual ありがと/じゃ are normalized to ありがとう/じゃあ in primary ASR. Other differences are ordinary script/punctuation variation.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "りょうかい。……あれ、ハンガーたりないんだけど。",
+      "card": "story-housework-10",
+      "message_id": "housework-message-08",
+      "display": "了解(りょうかい)。……あれ、ハンガー足(た)りないんだけど。",
+      "speaker": "健太(けんた)",
+      "input": "りょうかい。あれ、はんがーたりないんだけど。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual household conversation between Yuna and Kenta and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "了解 りょうかい long vowel; ハンガー はんがー long vowel; 足りない たりない. Retain response and follow-up clause.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "了解",
+          "reading": "りょうかい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L116497"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two household members in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 了解 りょうかい long vowel; ハンガー はんがー long vowel; 足りない たりない. Retain response and follow-up clause. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 了解 (りょうかい) 0. 「りょうかい。あれ、」をそのまま読んでください。「どうも」などの余分な言葉を加えないでください。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-c03149b410ae225791a4.mp3",
+      "file_duration_seconds": 4.008,
+      "automated_transcript": "了解。あれ、ハンガー足りないんだけど。",
+      "automated_transcript_review": "Compared all transcripts with supplied household conversation. Regenerated lines 4–9, 22 and 23 after unclear/missing/changed wording. Final line 9 gpt-4o-transcribe substitutes 片付けて, but independent whisper-1 without expected text recognizes かかってない. Line 22 primary ASR omits initial うん; independent whisper-1 retains it but inserts an object particle in its transcript. Both raw results retained; no claim of listening confirmation. Casual ありがと/じゃ are normalized to ありがとう/じゃあ in primary ASR. Other differences are ordinary script/punctuation variation.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "きのうのせんたくもの、まだかかってない？",
+      "card": "story-housework-10",
+      "message_id": "housework-message-09",
+      "display": "昨日(きのう)の洗濯物(せんたくもの)、まだ掛(か)かってない？",
+      "speaker": "由奈(ゆな)",
+      "input": "きのうのせんたくもの、まだかかってない？",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual household conversation between Yuna and Kenta and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "昨日 きのう yesterday; 洗濯物 せんたくもの; 掛かって かかって doubled consonant, laundry still hanging.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "昨日",
+          "reading": "きのう",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L54071"
+        },
+        {
+          "form": "洗濯物",
+          "reading": "せんたくもの",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L77104"
+        }
+      ],
+      "pronunciation_guidance": "指定されたひらがな全文を一度だけ、自然な東京の日本語で、家での会話のように滑らかに読んでください。語句を省略せず、書き換えず、言葉を足さないでください。長母音と促音を保ちます。「かかって」は「掛かって」です。洗濯物がハンガーに掛かっているか尋ねています。 文全体のアクセントは暫定的な自然な東京方言です。確認した語彙アクセント：昨日（きのう）2型; 洗濯物（せんたくもの）0型。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-b389df4628e13b342ccc.mp3",
+      "file_duration_seconds": 3.552,
+      "automated_transcript": "昨日の洗濯物、まだ片付けてない?",
+      "automated_transcript_review": "Compared all transcripts with supplied household conversation. Regenerated lines 4–9, 22 and 23 after unclear/missing/changed wording. Final line 9 gpt-4o-transcribe substitutes 片付けて, but independent whisper-1 without expected text recognizes かかってない. Line 22 primary ASR omits initial うん; independent whisper-1 retains it but inserts an object particle in its transcript. Both raw results retained; no claim of listening confirmation. Casual ありがと/じゃ are normalized to ありがとう/じゃあ in primary ASR. Other differences are ordinary script/punctuation variation.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified.",
+      "secondary_automated_transcript": "昨日の洗濯物、まだかかってない?",
+      "secondary_transcription_model": "whisper-1"
+    },
+    {
+      "key": "あ、あるわ。もうかわいてる。",
+      "card": "story-housework-10",
+      "message_id": "housework-message-10",
+      "display": "あ、あるわ。もう乾(かわ)いてる。",
+      "speaker": "健太(けんた)",
+      "input": "あ、あるわ。もうかわいてる。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual household conversation between Yuna and Kenta and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "あるわ ends with わ sentence-final particle; 乾いてる かわいてる means already dry, contracted form.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two household members in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: あるわ ends with わ sentence-final particle; 乾いてる かわいてる means already dry, contracted form.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-9248a4fbc5b50e8c0f40.mp3",
+      "file_duration_seconds": 3.12,
+      "automated_transcript": "あ、あるわ。もう乾いてる。",
+      "automated_transcript_review": "Compared all transcripts with supplied household conversation. Regenerated lines 4–9, 22 and 23 after unclear/missing/changed wording. Final line 9 gpt-4o-transcribe substitutes 片付けて, but independent whisper-1 without expected text recognizes かかってない. Line 22 primary ASR omits initial うん; independent whisper-1 retains it but inserts an object particle in its transcript. Both raw results retained; no claim of listening confirmation. Casual ありがと/じゃ are normalized to ありがとう/じゃあ in primary ASR. Other differences are ordinary script/punctuation variation.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "じゃあ、それとりこんで、ソファにおいといて。あとでたたむから。",
+      "card": "story-housework-10",
+      "message_id": "housework-message-11",
+      "display": "じゃあ、それ取(と)り込(こ)んで、ソファに置(お)いといて。あとで畳(たた)むから。",
+      "speaker": "由奈(ゆな)",
+      "input": "じゃあ、それとりこんで、そふぁにおいといて。あとでたたむから。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual household conversation between Yuna and Kenta and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "取り込んで とりこんで bringing dry laundry inside; ソファ そふぁ; 置いといて おいといて contraction retained; 畳む たたむ folding clothes.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two household members in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 取り込んで とりこんで bringing dry laundry inside; ソファ そふぁ; 置いといて おいといて contraction retained; 畳む たたむ folding clothes.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-d4582e20e62409f529bd.mp3",
+      "file_duration_seconds": 5.616,
+      "automated_transcript": "じゃあ、それ取り込んでソファに置いといて、後で畳むから。",
+      "automated_transcript_review": "Compared all transcripts with supplied household conversation. Regenerated lines 4–9, 22 and 23 after unclear/missing/changed wording. Final line 9 gpt-4o-transcribe substitutes 片付けて, but independent whisper-1 without expected text recognizes かかってない. Line 22 primary ASR omits initial うん; independent whisper-1 retains it but inserts an object particle in its transcript. Both raw results retained; no claim of listening confirmation. Casual ありがと/じゃ are normalized to ありがとう/じゃあ in primary ASR. Other differences are ordinary script/punctuation variation.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "いや、おれやっとくよ。さきにこっちほすね。",
+      "card": "story-housework-10",
+      "message_id": "housework-message-12",
+      "display": "いや、俺(おれ)やっとくよ。先(さき)にこっち干(ほ)すね。",
+      "speaker": "健太(けんた)",
+      "input": "いや、おれやっとくよ。さきにこっちほすね。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual household conversation between Yuna and Kenta and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "俺 おれ; やっとく doubled consonant and contraction; 先 さき; 干す ほす; こっち doubled consonant. Offers to fold after hanging wet clothes.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "俺",
+          "reading": "おれ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L27611"
+        },
+        {
+          "form": "先",
+          "reading": "さき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L76363"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two household members in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 俺 おれ; やっとく doubled consonant and contraction; 先 さき; 干す ほす; こっち doubled consonant. Offers to fold after hanging wet clothes. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 俺 (おれ) 0; 先 (さき) 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-bb472b830eb1121dd2fe.mp3",
+      "file_duration_seconds": 3.648,
+      "automated_transcript": "いや、俺やっとくよ。先にこっち干すね。",
+      "automated_transcript_review": "Compared all transcripts with supplied household conversation. Regenerated lines 4–9, 22 and 23 after unclear/missing/changed wording. Final line 9 gpt-4o-transcribe substitutes 片付けて, but independent whisper-1 without expected text recognizes かかってない. Line 22 primary ASR omits initial うん; independent whisper-1 retains it but inserts an object particle in its transcript. Both raw results retained; no claim of listening confirmation. Casual ありがと/じゃ are normalized to ありがとう/じゃあ in primary ASR. Other differences are ordinary script/punctuation variation.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "ありがと。たすかる。",
+      "card": "story-housework-10",
+      "message_id": "housework-message-13",
+      "display": "ありがと。助(たす)かる。",
+      "speaker": "由奈(ゆな)",
+      "input": "ありがと。たすかる。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual household conversation between Yuna and Kenta and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "ありがと short casual thanks, do not add う; 助かる たすかる.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two household members in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: ありがと short casual thanks, do not add う; 助かる たすかる.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-35d2c69028db31f3cb7b.mp3",
+      "file_duration_seconds": 2.016,
+      "automated_transcript": "ありがとう、助かる。",
+      "automated_transcript_review": "Compared all transcripts with supplied household conversation. Regenerated lines 4–9, 22 and 23 after unclear/missing/changed wording. Final line 9 gpt-4o-transcribe substitutes 片付けて, but independent whisper-1 without expected text recognizes かかってない. Line 22 primary ASR omits initial うん; independent whisper-1 retains it but inserts an object particle in its transcript. Both raw results retained; no claim of listening confirmation. Casual ありがと/じゃ are normalized to ありがとう/じゃあ in primary ASR. Other differences are ordinary script/punctuation variation.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "きょう、ごみのひだっけ？",
+      "card": "story-housework-10",
+      "message_id": "housework-message-14",
+      "display": "今日(きょう)、ごみの日(ひ)だっけ？",
+      "speaker": "健太(けんた)",
+      "input": "きょう、ごみのひだっけ？",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual household conversation between Yuna and Kenta and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "今日 きょう; 日 ひ refers to rubbish collection day; だっけ doubled consonant.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "今日",
+          "reading": "きょう",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52255"
+        },
+        {
+          "form": "日",
+          "reading": "ひ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L95191"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two household members in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 今日 きょう; 日 ひ refers to rubbish collection day; だっけ doubled consonant. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 今日 (きょう) 1; 日 (ひ) 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-4ab02139be12168c7549.mp3",
+      "file_duration_seconds": 2.76,
+      "automated_transcript": "今日、ゴミの日だっけ?",
+      "automated_transcript_review": "Compared all transcripts with supplied household conversation. Regenerated lines 4–9, 22 and 23 after unclear/missing/changed wording. Final line 9 gpt-4o-transcribe substitutes 片付けて, but independent whisper-1 without expected text recognizes かかってない. Line 22 primary ASR omits initial うん; independent whisper-1 retains it but inserts an object particle in its transcript. Both raw results retained; no claim of listening confirmation. Casual ありがと/じゃ are normalized to ありがとう/じゃあ in primary ASR. Other differences are ordinary script/punctuation variation.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "あした。もえるごみ。",
+      "card": "story-housework-10",
+      "message_id": "housework-message-15",
+      "display": "明日(あした)。燃(も)えるごみ。",
+      "speaker": "由奈(ゆな)",
+      "input": "あした。もえるごみ。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual household conversation between Yuna and Kenta and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "明日 あした supplied reading, not あす; 燃える もえる burnable rubbish.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "明日",
+          "reading": "あした",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L110628"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two household members in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 明日 あした supplied reading, not あす; 燃える もえる burnable rubbish. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 明日 (あした) 3.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-10ccf3113a23eb82232a.mp3",
+      "file_duration_seconds": 2.4,
+      "automated_transcript": "明日燃えるゴミ",
+      "automated_transcript_review": "Compared all transcripts with supplied household conversation. Regenerated lines 4–9, 22 and 23 after unclear/missing/changed wording. Final line 9 gpt-4o-transcribe substitutes 片付けて, but independent whisper-1 without expected text recognizes かかってない. Line 22 primary ASR omits initial うん; independent whisper-1 retains it but inserts an object particle in its transcript. Both raw results retained; no claim of listening confirmation. Casual ありがと/じゃ are normalized to ありがとう/じゃあ in primary ASR. Other differences are ordinary script/punctuation variation.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "じゃ、あとでまとめとく。キッチンのもいっしょでいい？",
+      "card": "story-housework-10",
+      "message_id": "housework-message-16",
+      "display": "じゃ、あとでまとめとく。キッチンのも一緒(いっしょ)でいい？",
+      "speaker": "健太(けんた)",
+      "input": "じゃ、あとでまとめとく。きっちんのもいっしょでいい？",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual household conversation between Yuna and Kenta and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "まとめとく contracted form; キッチン きっちん and 一緒 いっしょ doubled consonants; asking about kitchen rubbish too.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "一緒",
+          "reading": "いっしょ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L23274"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two household members in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: まとめとく contracted form; キッチン きっちん and 一緒 いっしょ doubled consonants; asking about kitchen rubbish too. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 一緒 (いっしょ) 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-e042a7170902aa8751df.mp3",
+      "file_duration_seconds": 4.968,
+      "automated_transcript": "じゃあ、後でまとめとく。キッチンのも一緒でいい?",
+      "automated_transcript_review": "Compared all transcripts with supplied household conversation. Regenerated lines 4–9, 22 and 23 after unclear/missing/changed wording. Final line 9 gpt-4o-transcribe substitutes 片付けて, but independent whisper-1 without expected text recognizes かかってない. Line 22 primary ASR omits initial うん; independent whisper-1 retains it but inserts an object particle in its transcript. Both raw results retained; no claim of listening confirmation. Casual ありがと/じゃ are normalized to ありがとう/じゃあ in primary ASR. Other differences are ordinary script/punctuation variation.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "うん。でも、まだやさいのかわとかでるから、ごはんのあとでいいよ。",
+      "card": "story-housework-10",
+      "message_id": "housework-message-17",
+      "display": "うん。でも、まだ野菜(やさい)の皮(かわ)とか出(で)るから、ご飯(はん)のあとでいいよ。",
+      "speaker": "由奈(ゆな)",
+      "input": "うん。でも、まだやさいのかわとかでるから、ごはんのあとでいいよ。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual household conversation between Yuna and Kenta and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "野菜 やさい; 皮 かわ vegetable peels; 出る でる; ご飯 ごはん lexical は. Wait until after meal to gather rubbish.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "野菜",
+          "reading": "やさい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L112171"
+        },
+        {
+          "form": "皮",
+          "reading": "かわ",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100084"
+        },
+        {
+          "form": "出",
+          "reading": "で",
+          "accent_variants": [
+            0,
+            1
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L63782"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two household members in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 野菜 やさい; 皮 かわ vegetable peels; 出る でる; ご飯 ごはん lexical は. Wait until after meal to gather rubbish. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 野菜 (やさい) 0; 皮 (かわ) 2; 出 (で) 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-e879162a91b9280eed44.mp3",
+      "file_duration_seconds": 5.712,
+      "automated_transcript": "うん、でもまだ野菜の皮とか出るから、ご飯のあとでいいよ。",
+      "automated_transcript_review": "Compared all transcripts with supplied household conversation. Regenerated lines 4–9, 22 and 23 after unclear/missing/changed wording. Final line 9 gpt-4o-transcribe substitutes 片付けて, but independent whisper-1 without expected text recognizes かかってない. Line 22 primary ASR omits initial うん; independent whisper-1 retains it but inserts an object particle in its transcript. Both raw results retained; no claim of listening confirmation. Casual ありがと/じゃ are normalized to ありがとう/じゃあ in primary ASR. Other differences are ordinary script/punctuation variation.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "わかった。……てか、このくつした、かたほうしかないんだけど。",
+      "card": "story-housework-10",
+      "message_id": "housework-message-18",
+      "display": "わかった。……てか、この靴下(くつした)、片方(かたほう)しかないんだけど。",
+      "speaker": "健太(けんた)",
+      "input": "わかった。……てか、このくつした、かたほうしかないんだけど。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual household conversation between Yuna and Kenta and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "靴下 くつした; 片方 かたほう long vowel, one sock missing; わかった doubled consonant; colloquial てか retained.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "靴下",
+          "reading": "くつした",
+          "accent_variants": [
+            2,
+            4
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L41982"
+        },
+        {
+          "form": "片方",
+          "reading": "かたほう",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L105988"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two household members in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 靴下 くつした; 片方 かたほう long vowel, one sock missing; わかった doubled consonant; colloquial てか retained. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 靴下 (くつした) 2; 片方 (かたほう) 2.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-0e11a33af5e2904337e0.mp3",
+      "file_duration_seconds": 5.616,
+      "automated_transcript": "わかった。てか、この靴下片方しかないんだけど。",
+      "automated_transcript_review": "Compared all transcripts with supplied household conversation. Regenerated lines 4–9, 22 and 23 after unclear/missing/changed wording. Final line 9 gpt-4o-transcribe substitutes 片付けて, but independent whisper-1 without expected text recognizes かかってない. Line 22 primary ASR omits initial うん; independent whisper-1 retains it but inserts an object particle in its transcript. Both raw results retained; no claim of listening confirmation. Casual ありがと/じゃ are normalized to ありがとう/じゃあ in primary ASR. Other differences are ordinary script/punctuation variation.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "また？せんたくきのなかは？",
+      "card": "story-housework-10",
+      "message_id": "housework-message-19",
+      "display": "また？洗濯機(せんたくき)の中(なか)は？",
+      "speaker": "由奈(ゆな)",
+      "input": "また？せんたくきのなかわ？",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual household conversation between Yuna and Kenta and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "洗濯機 せんたくき; 中 なか topic わ; asks whether missing sock is inside washer.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "洗濯機",
+          "reading": "せんたくき",
+          "accent_variants": [
+            4,
+            3
+          ],
+          "selected_accent": 4,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L77099"
+        },
+        {
+          "form": "中",
+          "reading": "なか",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L85770"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two household members in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 洗濯機 せんたくき; 中 なか topic わ; asks whether missing sock is inside washer. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 洗濯機 (せんたくき) 4; 中 (なか) 1.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-44481416e37fed071745.mp3",
+      "file_duration_seconds": 3.12,
+      "automated_transcript": "また、洗濯機の中は?",
+      "automated_transcript_review": "Compared all transcripts with supplied household conversation. Regenerated lines 4–9, 22 and 23 after unclear/missing/changed wording. Final line 9 gpt-4o-transcribe substitutes 片付けて, but independent whisper-1 without expected text recognizes かかってない. Line 22 primary ASR omits initial うん; independent whisper-1 retains it but inserts an object particle in its transcript. Both raw results retained; no claim of listening confirmation. Casual ありがと/じゃ are normalized to ありがとう/じゃあ in primary ASR. Other differences are ordinary script/punctuation variation.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "ない。あ、あった。タオルにくっついてた。",
+      "card": "story-housework-10",
+      "message_id": "housework-message-20",
+      "display": "ない。あ、あった。タオルにくっついてた。",
+      "speaker": "健太(けんた)",
+      "input": "ない。あ、あった。たおるにくっついてた。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual household conversation between Yuna and Kenta and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "あった doubled consonant; タオル たおる; くっついてた doubled consonant and contracted form, sock stuck to towel.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two household members in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: あった doubled consonant; タオル たおる; くっついてた doubled consonant and contracted form, sock stuck to towel.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-533c7d1d16661008725d.mp3",
+      "file_duration_seconds": 3.816,
+      "automated_transcript": "ない、あ、あった、タオルにくっついてた。",
+      "automated_transcript_review": "Compared all transcripts with supplied household conversation. Regenerated lines 4–9, 22 and 23 after unclear/missing/changed wording. Final line 9 gpt-4o-transcribe substitutes 片付けて, but independent whisper-1 without expected text recognizes かかってない. Line 22 primary ASR omits initial うん; independent whisper-1 retains it but inserts an object particle in its transcript. Both raw results retained; no claim of listening confirmation. Casual ありがと/じゃ are normalized to ありがとう/じゃあ in primary ASR. Other differences are ordinary script/punctuation variation.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "よかった。せんたくものおわったら、テーブルのうえもかたづけてくれる？もうすぐできるから。",
+      "card": "story-housework-10",
+      "message_id": "housework-message-21",
+      "display": "よかった。洗濯物(せんたくもの)終(お)わったら、テーブルの上(うえ)も片付(かたづ)けてくれる？もうすぐできるから。",
+      "speaker": "由奈(ゆな)",
+      "input": "よかった。せんたくものおわったら、てーぶるのうえもかたづけてくれる？もうすぐできるから。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual household conversation between Yuna and Kenta and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "洗濯物 せんたくもの; 終わったら おわったら doubled consonant; テーブル てーぶる long vowel; 上 うえ; 片付けて かたづけて, preserve づ; all clauses retained.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "洗濯物",
+          "reading": "せんたくもの",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L77104"
+        },
+        {
+          "form": "上",
+          "reading": "うえ",
+          "accent_variants": [
+            0,
+            2
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67322"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two household members in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: 洗濯物 せんたくもの; 終わったら おわったら doubled consonant; テーブル てーぶる long vowel; 上 うえ; 片付けて かたづけて, preserve づ; all clauses retained. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 洗濯物 (せんたくもの) 0; 上 (うえ) 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-70707270e1f3569cf1d9.mp3",
+      "file_duration_seconds": 7.608,
+      "automated_transcript": "よかった。洗濯物終わったらテーブルの上も片付けてくれる?もうすぐできるから。",
+      "automated_transcript_review": "Compared all transcripts with supplied household conversation. Regenerated lines 4–9, 22 and 23 after unclear/missing/changed wording. Final line 9 gpt-4o-transcribe substitutes 片付けて, but independent whisper-1 without expected text recognizes かかってない. Line 22 primary ASR omits initial うん; independent whisper-1 retains it but inserts an object particle in its transcript. Both raw results retained; no claim of listening confirmation. Casual ありがと/じゃ are normalized to ありがとう/じゃあ in primary ASR. Other differences are ordinary script/punctuation variation.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "うん。このゆうびん、どこおけばいい？",
+      "card": "story-housework-10",
+      "message_id": "housework-message-22",
+      "display": "うん。この郵便(ゆうびん)、どこ置(お)けばいい？",
+      "speaker": "健太(けんた)",
+      "input": "うん。このゆうびん、どこおけばいい？",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual household conversation between Yuna and Kenta and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "郵便 ゆうびん long vowel; 置けば おけば. Asking where to put mail.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "郵便",
+          "reading": "ゆうびん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L113421"
+        }
+      ],
+      "pronunciation_guidance": "指定されたひらがな全文を一度だけ、自然な東京の日本語で、家での会話のように滑らかに読んでください。語句を省略せず、書き換えず、言葉を足さないでください。長母音と促音を保ちます。最初の「うん」は肯定の返事です。短く一回発音して、郵便についての質問につなげてください。 文全体のアクセントは暫定的な自然な東京方言です。確認した語彙アクセント：郵便（ゆうびん）0型。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-10b99b28ac9593a8185c.mp3",
+      "file_duration_seconds": 4.2,
+      "automated_transcript": "この郵便、どこ置けばいい?",
+      "automated_transcript_review": "Compared all transcripts with supplied household conversation. Regenerated lines 4–9, 22 and 23 after unclear/missing/changed wording. Final line 9 gpt-4o-transcribe substitutes 片付けて, but independent whisper-1 without expected text recognizes かかってない. Line 22 primary ASR omits initial うん; independent whisper-1 retains it but inserts an object particle in its transcript. Both raw results retained; no claim of listening confirmation. Casual ありがと/じゃ are normalized to ありがとう/じゃあ in primary ASR. Other differences are ordinary script/punctuation variation.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified.",
+      "secondary_automated_transcript": "うん この郵便どこを置けばいい",
+      "secondary_transcription_model": "whisper-1"
+    },
+    {
+      "key": "たなのうえでいいよ。あ、それはすてないでね。まだみてないから。",
+      "card": "story-housework-10",
+      "message_id": "housework-message-23",
+      "display": "棚(たな)の上(うえ)でいいよ。あ、それは捨(す)てないでね。まだ見(み)てないから。",
+      "speaker": "由奈(ゆな)",
+      "input": "たなのうえでいいよ。あ、それわすてないでね。まだみてないから。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual household conversation between Yuna and Kenta and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "棚 たな; 上 うえ; それは topic それわ; 捨てない すてない; 見て みて. Do not throw away unread mail.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "棚",
+          "reading": "たな",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L83816"
+        },
+        {
+          "form": "上",
+          "reading": "うえ",
+          "accent_variants": [
+            0,
+            2
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67322"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once, as smooth casual Tokyo Japanese conversation at normal speed. Preserve long vowels and doubled consonants; light pauses only at punctuation. Do not omit or add any words. Read all three sentences, including the final まだみてないから. She says to put it on the shelf and not throw it away because she has not read it. Whole-sentence pitch provisional. Checked lexical accent targets: 棚 たな type 0; 上 うえ type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-1a653edd1da028e78c74.mp3",
+      "file_duration_seconds": 6.216,
+      "automated_transcript": "棚の上でいいよ。あ、それは捨てないでね。まだ見てないから。",
+      "automated_transcript_review": "Compared all transcripts with supplied household conversation. Regenerated lines 4–9, 22 and 23 after unclear/missing/changed wording. Final line 9 gpt-4o-transcribe substitutes 片付けて, but independent whisper-1 without expected text recognizes かかってない. Line 22 primary ASR omits initial うん; independent whisper-1 retains it but inserts an object particle in its transcript. Both raw results retained; no claim of listening confirmation. Casual ありがと/じゃ are normalized to ありがとう/じゃあ in primary ASR. Other differences are ordinary script/punctuation variation.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
+    },
+    {
+      "key": "はいはい。……はしもだしとくね。",
+      "card": "story-housework-10",
+      "message_id": "housework-message-24",
+      "display": "はいはい。……箸(はし)も出(だ)しとくね。",
+      "speaker": "健太(けんた)",
+      "input": "はいはい。……はしもだしとくね。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "User-supplied explicit furigana checked line by line against intended casual household conversation between Yuna and Kenta and inflections; pinned Kanjium exact reading matches where available. Lexical kana and contextual particles independently reviewed.",
+      "context_review": "はいはい lexical はい repeated, not わい; 箸 はし means chopsticks, not bridge or edge; 出しとく だしとく contracted form. Checked intended 箸 lexical accent when available, provisional sentence intonation.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned Kanjium exact lexical reading matches below; full-sentence intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "箸",
+          "reading": "はし",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L98507"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once as smooth, connected casual conversation between two household members in natural Tokyo Japanese. Keep particles attached to preceding phrases, preserve long vowels and doubled consonants. Light pauses only at punctuation; no syllable-by-syllable delivery or speaker names. Whole-sentence intonation is provisional. Context: はいはい lexical はい repeated, not わい; 箸 はし means chopsticks, not bridge or edge; 出しとく だしとく contracted form. Checked intended 箸 lexical accent when available, provisional sentence intonation. Checked dictionary lexical accents (apply naturally in context; 0 means heiban, other numbers are drop-after-mora): 箸 (はし) 1.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-cards/marin-c6bd235c0ae1c9add8b8.mp3",
+      "file_duration_seconds": 3.048,
+      "automated_transcript": "はいはい。箸も出しとくね。",
+      "automated_transcript_review": "Compared all transcripts with supplied household conversation. Regenerated lines 4–9, 22 and 23 after unclear/missing/changed wording. Final line 9 gpt-4o-transcribe substitutes 片付けて, but independent whisper-1 without expected text recognizes かかってない. Line 22 primary ASR omits initial うん; independent whisper-1 retains it but inserts an object particle in its transcript. Both raw results retained; no claim of listening confirmation. Casual ありがと/じゃ are normalized to ありがとう/じゃあ in primary ASR. Other differences are ordinary script/punctuation variation.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; automated transcripts and low-energy gap measurements reviewed. Audible pitch, naturalness and smoothness are not listening-verified."
     }
   ]
 }

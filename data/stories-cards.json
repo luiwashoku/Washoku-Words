@@ -1044,6 +1044,324 @@
           "japanese": "あ、本当(ほんとう)だ。そっちのも違(ちが)いますね。"
         }
       ]
+    },
+    {
+      "id": "story-new-restaurant-09",
+      "step": 9,
+      "kanji": "駅前(えきまえ)の新(あたら)しいお店(みせ)",
+      "japanese": "駅前(えきまえ)の新(あたら)しいお店(みせ)",
+      "english": "The new restaurant by the station · 美咲 & 結衣",
+      "messages": [
+        {
+          "id": "new-restaurant-message-01",
+          "speaker": "美咲(みさき)",
+          "side": "left",
+          "japanese": "ねえ、駅前(えきまえ)に新(あたら)しくできたお店(みせ)、もう行(い)った？"
+        },
+        {
+          "id": "new-restaurant-message-02",
+          "speaker": "結衣(ゆい)",
+          "side": "right",
+          "japanese": "あ、ガラス張(ば)りのとこ？まだ。あそこ、何(なん)のお店(みせ)なの？"
+        },
+        {
+          "id": "new-restaurant-message-03",
+          "speaker": "美咲(みさき)",
+          "side": "left",
+          "japanese": "パスタとか出(だ)してるみたい。昼(ひる)はランチもあるんだって。"
+        },
+        {
+          "id": "new-restaurant-message-04",
+          "speaker": "結衣(ゆい)",
+          "side": "right",
+          "japanese": "へえ。気(き)にはなってたんだけど、外(そと)から中(なか)が丸見(まるみ)えじゃん。なんか落(お)ち着(つ)かなそうで。"
+        },
+        {
+          "id": "new-restaurant-message-05",
+          "speaker": "美咲(みさき)",
+          "side": "left",
+          "japanese": "わかる。でも奥(おく)にも席(せき)あるっぽいよ。"
+        },
+        {
+          "id": "new-restaurant-message-06",
+          "speaker": "結衣(ゆい)",
+          "side": "right",
+          "japanese": "あ、そうなんだ。美咲(みさき)はもう行(い)ったの？"
+        },
+        {
+          "id": "new-restaurant-message-07",
+          "speaker": "美咲(みさき)",
+          "side": "left",
+          "japanese": "昨日(きのう)、妹(いもうと)と行(い)ってきた。"
+        },
+        {
+          "id": "new-restaurant-message-08",
+          "speaker": "結衣(ゆい)",
+          "side": "right",
+          "japanese": "え、どうだった？"
+        },
+        {
+          "id": "new-restaurant-message-09",
+          "speaker": "美咲(みさき)",
+          "side": "left",
+          "japanese": "パスタ、普通(ふつう)においしかった。あと、パンがめっちゃおいしくて。"
+        },
+        {
+          "id": "new-restaurant-message-10",
+          "speaker": "結衣(ゆい)",
+          "side": "right",
+          "japanese": "へえ、パンもつくんだ。"
+        },
+        {
+          "id": "new-restaurant-message-11",
+          "speaker": "美咲(みさき)",
+          "side": "left",
+          "japanese": "そう。温(あった)かいの出(だ)してくれるの。"
+        },
+        {
+          "id": "new-restaurant-message-12",
+          "speaker": "結衣(ゆい)",
+          "side": "right",
+          "japanese": "いいね。量(りょう)は？写真(しゃしん)だとちょっと少(すく)なそうだったけど。"
+        },
+        {
+          "id": "new-restaurant-message-13",
+          "speaker": "美咲(みさき)",
+          "side": "left",
+          "japanese": "私(わたし)はちょうどよかった。妹(いもうと)は足(た)りないって言(い)って、デザートも頼(たの)んでたけど。"
+        },
+        {
+          "id": "new-restaurant-message-14",
+          "speaker": "結衣(ゆい)",
+          "side": "right",
+          "japanese": "それ、ただデザート食(た)べたかっただけじゃない？"
+        },
+        {
+          "id": "new-restaurant-message-15",
+          "speaker": "美咲(みさき)",
+          "side": "left",
+          "japanese": "たぶんね。私(わたし)のも半分(はんぶん)食(た)べてたし。"
+        },
+        {
+          "id": "new-restaurant-message-16",
+          "speaker": "結衣(ゆい)",
+          "side": "right",
+          "japanese": "え、美咲(みさき)も頼(たの)んだんじゃん。"
+        },
+        {
+          "id": "new-restaurant-message-17",
+          "speaker": "美咲(みさき)",
+          "side": "left",
+          "japanese": "だって、プリン見(み)たら食(た)べたくなっちゃって。"
+        },
+        {
+          "id": "new-restaurant-message-18",
+          "speaker": "結衣(ゆい)",
+          "side": "right",
+          "japanese": "写真(しゃしん)ないの？"
+        },
+        {
+          "id": "new-restaurant-message-19",
+          "speaker": "美咲(みさき)",
+          "side": "left",
+          "japanese": "あるよ。ちょっと待(ま)って。……これ。"
+        },
+        {
+          "id": "new-restaurant-message-20",
+          "speaker": "結衣(ゆい)",
+          "side": "right",
+          "japanese": "あー、こういう固(かた)めのやつ、好(す)き。"
+        },
+        {
+          "id": "new-restaurant-message-21",
+          "speaker": "美咲(みさき)",
+          "side": "left",
+          "japanese": "じゃあ、今度(こんど)一緒(いっしょ)に行(い)こうよ。"
+        },
+        {
+          "id": "new-restaurant-message-22",
+          "speaker": "結衣(ゆい)",
+          "side": "right",
+          "japanese": "行(い)きたい。土曜(どよう)とか空(あ)いてる？"
+        },
+        {
+          "id": "new-restaurant-message-23",
+          "speaker": "美咲(みさき)",
+          "side": "left",
+          "japanese": "空(あ)いてるよ。ただ、お昼(ひる)はけっこう混(こ)んでたんだよね。"
+        },
+        {
+          "id": "new-restaurant-message-24",
+          "speaker": "結衣(ゆい)",
+          "side": "right",
+          "japanese": "じゃ、ちょっと早(はや)めに行(い)く？開店(かいてん)って何時(なんじ)？"
+        },
+        {
+          "id": "new-restaurant-message-25",
+          "speaker": "美咲(みさき)",
+          "side": "left",
+          "japanese": "何時(なんじ)だっけ。あとで調(しら)べて送(おく)るね。"
+        },
+        {
+          "id": "new-restaurant-message-26",
+          "speaker": "結衣(ゆい)",
+          "side": "right",
+          "japanese": "お願(ねが)い。奥(おく)の席(せき)、座(すわ)れるといいね。"
+        }
+      ]
+    },
+    {
+      "id": "story-housework-10",
+      "step": 10,
+      "kanji": "夕飯(ゆうはん)の前(まえ)の家事(かじ)",
+      "japanese": "夕飯(ゆうはん)の前(まえ)の家事(かじ)",
+      "english": "Chores before dinner · 由奈 & 健太",
+      "messages": [
+        {
+          "id": "housework-message-01",
+          "speaker": "由奈(ゆな)",
+          "side": "left",
+          "japanese": "ねえ、洗濯機(せんたくき)、もう終(お)わった？"
+        },
+        {
+          "id": "housework-message-02",
+          "speaker": "健太(けんた)",
+          "side": "right",
+          "japanese": "あ、さっき鳴(な)ってた。まだ出(だ)してない。"
+        },
+        {
+          "id": "housework-message-03",
+          "speaker": "由奈(ゆな)",
+          "side": "left",
+          "japanese": "私(わたし)、今(いま)ご飯(はん)作(つく)ってるから、干(ほ)してくれない？"
+        },
+        {
+          "id": "housework-message-04",
+          "speaker": "健太(けんた)",
+          "side": "right",
+          "japanese": "いいよ。これ、全部(ぜんぶ)ハンガーでいいんだっけ？"
+        },
+        {
+          "id": "housework-message-05",
+          "speaker": "由奈(ゆな)",
+          "side": "left",
+          "japanese": "うん。あ、私(わたし)の白(しろ)いニットだけ、平(たい)らに干(ほ)してほしい。"
+        },
+        {
+          "id": "housework-message-06",
+          "speaker": "健太(けんた)",
+          "side": "right",
+          "japanese": "あのネットに入(はい)ってるやつ？"
+        },
+        {
+          "id": "housework-message-07",
+          "speaker": "由奈(ゆな)",
+          "side": "left",
+          "japanese": "そう。それ、つるすと伸(の)びちゃうんだよね。"
+        },
+        {
+          "id": "housework-message-08",
+          "speaker": "健太(けんた)",
+          "side": "right",
+          "japanese": "了解(りょうかい)。……あれ、ハンガー足(た)りないんだけど。"
+        },
+        {
+          "id": "housework-message-09",
+          "speaker": "由奈(ゆな)",
+          "side": "left",
+          "japanese": "昨日(きのう)の洗濯物(せんたくもの)、まだ掛(か)かってない？"
+        },
+        {
+          "id": "housework-message-10",
+          "speaker": "健太(けんた)",
+          "side": "right",
+          "japanese": "あ、あるわ。もう乾(かわ)いてる。"
+        },
+        {
+          "id": "housework-message-11",
+          "speaker": "由奈(ゆな)",
+          "side": "left",
+          "japanese": "じゃあ、それ取(と)り込(こ)んで、ソファに置(お)いといて。あとで畳(たた)むから。"
+        },
+        {
+          "id": "housework-message-12",
+          "speaker": "健太(けんた)",
+          "side": "right",
+          "japanese": "いや、俺(おれ)やっとくよ。先(さき)にこっち干(ほ)すね。"
+        },
+        {
+          "id": "housework-message-13",
+          "speaker": "由奈(ゆな)",
+          "side": "left",
+          "japanese": "ありがと。助(たす)かる。"
+        },
+        {
+          "id": "housework-message-14",
+          "speaker": "健太(けんた)",
+          "side": "right",
+          "japanese": "今日(きょう)、ごみの日(ひ)だっけ？"
+        },
+        {
+          "id": "housework-message-15",
+          "speaker": "由奈(ゆな)",
+          "side": "left",
+          "japanese": "明日(あした)。燃(も)えるごみ。"
+        },
+        {
+          "id": "housework-message-16",
+          "speaker": "健太(けんた)",
+          "side": "right",
+          "japanese": "じゃ、あとでまとめとく。キッチンのも一緒(いっしょ)でいい？"
+        },
+        {
+          "id": "housework-message-17",
+          "speaker": "由奈(ゆな)",
+          "side": "left",
+          "japanese": "うん。でも、まだ野菜(やさい)の皮(かわ)とか出(で)るから、ご飯(はん)のあとでいいよ。"
+        },
+        {
+          "id": "housework-message-18",
+          "speaker": "健太(けんた)",
+          "side": "right",
+          "japanese": "わかった。……てか、この靴下(くつした)、片方(かたほう)しかないんだけど。"
+        },
+        {
+          "id": "housework-message-19",
+          "speaker": "由奈(ゆな)",
+          "side": "left",
+          "japanese": "また？洗濯機(せんたくき)の中(なか)は？"
+        },
+        {
+          "id": "housework-message-20",
+          "speaker": "健太(けんた)",
+          "side": "right",
+          "japanese": "ない。あ、あった。タオルにくっついてた。"
+        },
+        {
+          "id": "housework-message-21",
+          "speaker": "由奈(ゆな)",
+          "side": "left",
+          "japanese": "よかった。洗濯物(せんたくもの)終(お)わったら、テーブルの上(うえ)も片付(かたづ)けてくれる？もうすぐできるから。"
+        },
+        {
+          "id": "housework-message-22",
+          "speaker": "健太(けんた)",
+          "side": "right",
+          "japanese": "うん。この郵便(ゆうびん)、どこ置(お)けばいい？"
+        },
+        {
+          "id": "housework-message-23",
+          "speaker": "由奈(ゆな)",
+          "side": "left",
+          "japanese": "棚(たな)の上(うえ)でいいよ。あ、それは捨(す)てないでね。まだ見(み)てないから。"
+        },
+        {
+          "id": "housework-message-24",
+          "speaker": "健太(けんた)",
+          "side": "right",
+          "japanese": "はいはい。……箸(はし)も出(だ)しとくね。"
+        }
+      ]
     }
   ]
 }

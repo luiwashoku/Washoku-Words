@@ -1,4 +1,4 @@
-const SHELL = 'washoku-shell-v395';
+const SHELL = 'washoku-shell-v399';
 // Keep previously downloaded pages working after the source-file reorganization.
 const LEGACY_PATHS = {
   'app.js': 'js/app.js',
