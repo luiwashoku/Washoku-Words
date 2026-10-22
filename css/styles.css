@@ -7,6 +7,7 @@
   /* SVG strokes: 6 units scaled from 166 units to 100px. */
   --line-weight: 3.614px;
   --canvas: #FFB8DE;
+  --story-bubble-blue: #B8DEFF;
   --horizon: #8980FF;
   --yellow: rgb(255, 220, 0);
   --bee-yellow: var(--yellow);
@@ -2532,7 +2533,7 @@ body.no-furigana rt {
 .story-message--right { align-self: flex-end; }
 .story-speaker { display: block; margin: 0 10px 6px; font-size: 14px; font-weight: 700; }
 .story-message--right .story-speaker { text-align: right; }
-.story-bubble { display: flex; align-items: flex-end; gap: 10px; padding: 14px 16px; border: var(--line-weight) solid var(--ink); border-radius: 18px 18px 18px 3px; background: var(--canvas); box-shadow: 3px 3px 0 var(--ink); }
+.story-bubble { display: flex; align-items: flex-end; gap: 10px; padding: 14px 16px; border: var(--line-weight) solid var(--ink); border-radius: 18px 18px 18px 3px; background: var(--story-bubble-blue); box-shadow: 3px 3px 0 var(--ink); }
 .story-message--right .story-bubble { border-radius: 18px 18px 3px 18px; background: var(--horizon); }
 .story-bubble p { flex: 1; min-width: 0; margin: 0; font-size: 18px; line-height: 2; overflow-wrap: anywhere; }
 .story-bubble > button { flex: 0 0 40px; width: 40px; height: 40px; aspect-ratio: 1; padding: 0; margin: 0; display: inline-grid; place-items: center; }
