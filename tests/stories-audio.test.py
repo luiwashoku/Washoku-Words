@@ -33,7 +33,7 @@ for story in data['entries']:
         assert audit[key]['sha256'] == hashlib.sha256(path.read_bytes()).hexdigest()
         assert audit[key]['rms'] > 20 and audit[key]['clipped_sample_fraction'] == 0
         assert audit[key].get('transcript') and entry.get('automated_transcript_review')
-assert ready == 212
+assert ready == 238
 assert all(not message.get('audioPending') for story in data['entries'] for message in story['messages'])
 assert len(data['entries'][5]['messages']) == 23
 assert all(not message.get('audioPending') for message in data['entries'][5]['messages'])
@@ -45,5 +45,7 @@ assert len(data['entries'][8]['messages']) == 26
 assert all(not message.get('audioPending') for message in data['entries'][8]['messages'])
 assert len(data['entries'][9]['messages']) == 24
 assert all(not message.get('audioPending') for message in data['entries'][9]['messages'])
+assert len(data['entries'][10]['messages']) == 26
+assert all(not message.get('audioPending') for message in data['entries'][10]['messages'])
 assert len(manifest) == len(entries) == ready
-print('PASS: 212 reviewed Marin 1.0 Story 1–10 recordings, matching files/audits and unchanged display text; all ten stories enabled.')
+print('PASS: 238 reviewed Marin 1.0 Story 1–11 recordings, matching files/audits and unchanged display text; all eleven stories enabled.')

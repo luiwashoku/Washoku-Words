@@ -1,6 +1,6 @@
 # Stories audio
 
-Stories 1–10 have audio: 212 messages, using Marin at generation speed 1.0.
+Stories 1–11 have audio: 238 messages, using Marin at generation speed 1.0.
 
 ## Story 1 — Making shio koji
 
@@ -71,3 +71,7 @@ All 26 messages enabled with Marin (`gpt-4o-mini-tts`) at generation speed 1.0, 
 ## Story 10 — Chores before dinner
 
 All 24 messages enabled with Marin (`gpt-4o-mini-tts`) at generation speed 1.0, including Play all. Reviewed supplied furigana, contextual particles, casual contractions, long vowels, doubled consonants and phrase boundaries before rendering. Preserved lexical は in ご飯/ハンガー/入ってる/箸, 片付ける かたづける, and 明日 あした. Exact lexical dictionary accent matches retained, including 箸 in the chopsticks sense; whole-sentence intonation provisional. Lines 4–9, 22 and 23 regenerated after unclear or omitted wording. Primary ASR still substitutes 片付けて on line 9, while independent whisper-1 without expected-text prompting recognizes かかってない. Line 22 primary ASR omits うん; secondary recognizes it but inserts an object particle in its transcript. Both raw results retained as recognition disagreements. Casual ありがと/じゃ expand to ありがとう/じゃあ in primary ASR. All clips decode as non-silent PCM with zero measured clipping. Audible pitch and smoothness have not been listening-verified.
+
+## Story 11 — Husbands and birthday plans
+
+All 26 messages enabled with Marin (`gpt-4o-mini-tts`) at generation speed 1.0, including Play all. Reviewed user furigana, contextual particles, contractions, phrase boundaries, long vowels and doubled consonants before rendering. Preserved 香織 かおり, negative ううん versus affirmative うん, 四つ よっつ, 二人 ふたり, 一人二個 ひとりにこ and 今日中 きょうじゅう. Exact lexical dictionary accent matches and variants retained; full-sentence intonation provisional. Lines 5, 8, 14, 15 and 24 regenerated after unclear or missing wording. Independent whisper-1 without expected-text prompting retains the initial うん in lines 5 and 8 omitted by primary ASR; both results recorded. Primary ASR normalizes line 9 そっか to そうか. Non-silent PCM and zero measured clipping for every clip. Audible pitch and smoothness have not been listening-verified.

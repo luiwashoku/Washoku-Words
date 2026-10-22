@@ -1362,6 +1362,171 @@
           "japanese": "はいはい。……箸(はし)も出(だ)しとくね。"
         }
       ]
+    },
+    {
+      "id": "story-birthday-plans-11",
+      "step": 11,
+      "kanji": "夫(おっと)の話(はなし)と誕生日(たんじょうび)の予定(よてい)",
+      "japanese": "夫(おっと)の話(はなし)と誕生日(たんじょうび)の予定(よてい)",
+      "english": "Husbands and birthday plans · 美咲 & 香織",
+      "messages": [
+        {
+          "id": "birthday-plans-message-01",
+          "speaker": "美咲(みさき)",
+          "side": "left",
+          "japanese": "ごめん、待(ま)った？"
+        },
+        {
+          "id": "birthday-plans-message-02",
+          "speaker": "香織(かおり)",
+          "side": "right",
+          "japanese": "ううん、私(わたし)も今(いま)来(き)たとこ。今日(きょう)、旦那(だんな)さんは？"
+        },
+        {
+          "id": "birthday-plans-message-03",
+          "speaker": "美咲(みさき)",
+          "side": "left",
+          "japanese": "家(いえ)にいるよ。今日(きょう)は休(やす)みなんだ。"
+        },
+        {
+          "id": "birthday-plans-message-04",
+          "speaker": "香織(かおり)",
+          "side": "right",
+          "japanese": "そうなんだ。お昼(ひる)は別々(べつべつ)？"
+        },
+        {
+          "id": "birthday-plans-message-05",
+          "speaker": "美咲(みさき)",
+          "side": "left",
+          "japanese": "うん。「冷蔵庫(れいぞうこ)に昨日(きのう)のカレーあるよ」って言(い)ってきた。"
+        },
+        {
+          "id": "birthday-plans-message-06",
+          "speaker": "香織(かおり)",
+          "side": "right",
+          "japanese": "じゃあ、こっちはゆっくりできるね。"
+        },
+        {
+          "id": "birthday-plans-message-07",
+          "speaker": "美咲(みさき)",
+          "side": "left",
+          "japanese": "そうそう。香織(かおり)の旦那(だんな)さん、最近(さいきん)どう？まだ忙(いそが)しいの？"
+        },
+        {
+          "id": "birthday-plans-message-08",
+          "speaker": "香織(かおり)",
+          "side": "right",
+          "japanese": "うん。うちの人(ひと)、今週(こんしゅう)ずっと帰(かえ)りが遅(おそ)くてさ。"
+        },
+        {
+          "id": "birthday-plans-message-09",
+          "speaker": "美咲(みさき)",
+          "side": "left",
+          "japanese": "そっか。じゃあ、夜(よる)は一緒(いっしょ)に食(た)べてないんだ。"
+        },
+        {
+          "id": "birthday-plans-message-10",
+          "speaker": "香織(かおり)",
+          "side": "right",
+          "japanese": "うん。先(さき)に食(た)べてる。待(ま)ってるとお腹(なか)すいちゃうし。"
+        },
+        {
+          "id": "birthday-plans-message-11",
+          "speaker": "美咲(みさき)",
+          "side": "left",
+          "japanese": "そうだよね。"
+        },
+        {
+          "id": "birthday-plans-message-12",
+          "speaker": "香織(かおり)",
+          "side": "right",
+          "japanese": "でも、昨日(きのう)は帰(かえ)りにプリン買(か)ってきてくれた。"
+        },
+        {
+          "id": "birthday-plans-message-13",
+          "speaker": "美咲(みさき)",
+          "side": "left",
+          "japanese": "え、いいな。やさしいじゃん。"
+        },
+        {
+          "id": "birthday-plans-message-14",
+          "speaker": "香織(かおり)",
+          "side": "right",
+          "japanese": "自分(じぶん)が食(た)べたかっただけだと思(おも)うけどね。四(よっ)つも買(か)ってきたんだよ。"
+        },
+        {
+          "id": "birthday-plans-message-15",
+          "speaker": "美咲(みさき)",
+          "side": "left",
+          "japanese": "二人(ふたり)で四(よっ)つ？一人(ひとり)二個(にこ)じゃん。"
+        },
+        {
+          "id": "birthday-plans-message-16",
+          "speaker": "香織(かおり)",
+          "side": "right",
+          "japanese": "そう。なのに「今日中(きょうじゅう)に食(た)べてね」って。"
+        },
+        {
+          "id": "birthday-plans-message-17",
+          "speaker": "美咲(みさき)",
+          "side": "left",
+          "japanese": "それは買(か)いすぎでしょ。"
+        },
+        {
+          "id": "birthday-plans-message-18",
+          "speaker": "香織(かおり)",
+          "side": "right",
+          "japanese": "でしょ？……あ、そうだ。美咲(みさき)、来週(らいしゅう)、誕生日(たんじょうび)だよね。何(なに)かするの？"
+        },
+        {
+          "id": "birthday-plans-message-19",
+          "speaker": "美咲(みさき)",
+          "side": "left",
+          "japanese": "まだ決(き)めてない。夫(おっと)は「どこか食(た)べに行(い)こう」って言(い)ってるんだけど。"
+        },
+        {
+          "id": "birthday-plans-message-20",
+          "speaker": "香織(かおり)",
+          "side": "right",
+          "japanese": "いいじゃん。行(い)きたいお店(みせ)ないの？"
+        },
+        {
+          "id": "birthday-plans-message-21",
+          "speaker": "美咲(みさき)",
+          "side": "left",
+          "japanese": "あるけど、予約(よやく)が取(と)れるかどうか。あとで聞(き)いてみる。"
+        },
+        {
+          "id": "birthday-plans-message-22",
+          "speaker": "香織(かおり)",
+          "side": "right",
+          "japanese": "旦那(だんな)さんも、ああいうお店(みせ)好(す)きなの？"
+        },
+        {
+          "id": "birthday-plans-message-23",
+          "speaker": "美咲(みさき)",
+          "side": "left",
+          "japanese": "うん。私(わたし)より詳(くわ)しいよ。いつもお店(みせ)探(さが)してる。"
+        },
+        {
+          "id": "birthday-plans-message-24",
+          "speaker": "香織(かおり)",
+          "side": "right",
+          "japanese": "じゃあ、任(まか)せちゃえば？"
+        },
+        {
+          "id": "birthday-plans-message-25",
+          "speaker": "美咲(みさき)",
+          "side": "left",
+          "japanese": "でも、任(まか)せると焼肉(やきにく)になるんだよね。"
+        },
+        {
+          "id": "birthday-plans-message-26",
+          "speaker": "香織(かおり)",
+          "side": "right",
+          "japanese": "あはは。自分(じぶん)の誕生日(たんじょうび)じゃないのにね。"
+        }
+      ]
     }
   ]
 }

@@ -180,9 +180,30 @@
  }
  assert(tenthQueue.paused&&tenthPlayAll.getAttribute('aria-pressed')==='false','Story 10 queue completes');
  tenthPlayAll.click();lastAudio=plays.at(-1);
+ q('#vocabularyCardNavigation button:last-child').click();assert(lastAudio.paused,'Story 10 queue stops on navigation');
+ const eleventhBubbles=[...d.querySelectorAll('.story-message')];
+ assert(eleventhBubbles.length===26,'All 26 Story 11 messages');
+ assert(eleventhBubbles[0].querySelector('.story-speaker').textContent.includes('美咲'),'Misaki opens');
+ assert(eleventhBubbles[1].querySelector('.story-speaker').textContent.includes('香織'),'Kaori replies');
+ for(const [i,bubble] of eleventhBubbles.entries()){
+  const audio=bubble.querySelector('button');assert(audio&&!audio.disabled,'Story 11 ready '+i);
+  const count=plays.length;audio.click();await until(()=>plays.length>count);
+  const message=data.entries[10].messages[i];
+  const expected=w.lessonAudioFiles['stories-cards'][w.getJapaneseSpeechText(message.speech||message.japanese)];
+  assert(plays.at(-1).src===expected&&plays.at(-1).playbackRate===1,'Story 11 matching recording '+i);
+ }
+ const eleventhPlayAll=q('.story-play-all');assert(!eleventhPlayAll.disabled,'Story 11 Play all enabled');
+ eleventhPlayAll.click();const eleventhQueue=plays.at(-1);
+ for(const message of data.entries[10].messages){
+  const expected=w.lessonAudioFiles['stories-cards'][w.getJapaneseSpeechText(message.speech||message.japanese)];
+  assert(eleventhQueue.src===expected,'Story 11 queue order');
+  eleventhQueue.dispatchEvent(new w.Event('ended'));
+ }
+ assert(eleventhQueue.paused&&eleventhPlayAll.getAttribute('aria-pressed')==='false','Story 11 queue completes');
+ eleventhPlayAll.click();lastAudio=plays.at(-1);
  assert(q('#vocabularyCardNavigation button:last-child').disabled,'Final story disables next');
- q('#backFromExplosion').click();assert(lastAudio.paused,'Story 10 playback stops on exit');assert(!q('#pageScreen').classList.contains('hidden')&&q('#pageTitle').textContent==='Stories','Back to Stories category');
- result.textContent='PASS: black-dot Stories category, ten Stories with 212 reviewed message recordings at 1x, sequential Play all and stop/error cleanup, furigana, phone layout and return navigation.';
+ q('#backFromExplosion').click();assert(lastAudio.paused,'Story 11 playback stops on exit');assert(!q('#pageScreen').classList.contains('hidden')&&q('#pageTitle').textContent==='Stories','Back to Stories category');
+ result.textContent='PASS: black-dot Stories category, eleven Stories with 238 reviewed message recordings at 1x, sequential Play all and stop/error cleanup, furigana, phone layout and return navigation.';
  }catch(e){result.textContent='FAIL: '+e.stack}
 })();
 </script>
