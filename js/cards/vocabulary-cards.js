@@ -10,6 +10,70 @@
     let gesture = null;
     let furiganaVisible = false;
     let allDialog = null;
+    let storyAudio = null;
+    let storyPlayAllButton = null;
+    let storyQueue = [];
+    let storyQueueIndex = 0;
+    let storyPlaybackVersion = 0;
+
+    function stopStoryPlayback() {
+      storyPlaybackVersion++;
+      if (storyAudio) {
+        storyAudio.pause();
+        storyAudio.removeAttribute("src");
+        storyAudio.load();
+        storyAudio = null;
+      }
+      storyQueue = [];
+      if (storyPlayAllButton) {
+        storyPlayAllButton.textContent = "▶ Play all";
+        storyPlayAllButton.setAttribute("aria-pressed", "false");
+        storyPlayAllButton.setAttribute("aria-label", "Play entire conversation");
+      }
+      card.querySelectorAll(".story-message--playing").forEach(item => item.classList.remove("story-message--playing"));
+    }
+
+    function startStoryPlayback(messages) {
+      stopStoryPlayback();
+      stopSpeech();
+      wordPlayer.stop();
+      const files = messages.map(message => message.audioPending ? null : getRecordedJapaneseFile(message.speech || message.japanese));
+      if (!files.length || files.some(file => !file)) return;
+      storyQueue = files;
+      const version = storyPlaybackVersion;
+      const audio = new window.Audio();
+      storyAudio = audio;
+      audio.playbackRate = 1;
+      storyPlayAllButton.textContent = "■ Stop";
+      storyPlayAllButton.setAttribute("aria-pressed", "true");
+      storyPlayAllButton.setAttribute("aria-label", "Stop conversation playback");
+      status.textContent = "";
+      const fail = () => {
+        if (version !== storyPlaybackVersion || !alive) return;
+        stopStoryPlayback();
+        status.textContent = "Could not play the conversation. Tap Play all to try again.";
+      };
+      const playNext = () => {
+        if (version !== storyPlaybackVersion || !alive) return;
+        if (storyQueueIndex >= storyQueue.length) {
+          stopStoryPlayback();
+          return;
+        }
+        card.querySelectorAll(".story-message").forEach((item, i) => item.classList.toggle("story-message--playing", i === storyQueueIndex));
+        audio.src = storyQueue[storyQueueIndex];
+        // Reuse the element unlocked by the initial tap for subsequent mobile playback.
+        audio.play().catch(fail);
+      };
+      storyQueueIndex = 0;
+      audio.addEventListener("ended", () => {
+        if (version !== storyPlaybackVersion || !alive) return;
+        storyQueueIndex++;
+        playNext();
+      }, { signal });
+      audio.addEventListener("error", fail, { signal });
+      playNext();
+    }
+
     if (lesson.recordedAudioOnly) {
       const makeSpeechButton = createExampleSpeechButton;
       createExampleSpeechButton = (text, label, onPlay) => {
@@ -23,6 +87,7 @@
     }
     const screen = container.closest("#wordExplosionScreen");
     screen.classList.add("study-cards-screen");
+    if (lesson.storyCards) screen.classList.add("stories-screen");
     document.documentElement.classList.add("vocabulary-cards-open");
     container.replaceChildren();
     container.classList.add("vocabulary-cards");
@@ -163,6 +228,7 @@
     if (lesson.grammarCards) card.classList.add("vocabulary-study-card--grammar");
     if (lesson.sentenceCards) card.classList.add("vocabulary-study-card--sentence");
     if (lesson.readingCards) card.classList.add("vocabulary-study-card--reading");
+    if (lesson.storyCards) card.classList.add("vocabulary-study-card--stories");
     card.setAttribute("aria-labelledby", "studyCardWord");
     navigation.replaceChildren();
     const previous = document.createElement("button");
@@ -362,6 +428,57 @@
         counter.textContent = `${index + 1} / ${entries.length}`;
         previous.disabled = index === 0;
         next.disabled = index === entries.length - 1;
+        return;
+      }
+      if (lesson.storyCards) {
+        const header = document.createElement("header");
+        header.className = "reading-card-header";
+        const titles = document.createElement("div");
+        const title = document.createElement("h3");
+        title.id = "studyCardWord";
+        setJapaneseText(title, `${index + 1}. ${word.kanji || word.japanese}`);
+        const subtitle = document.createElement("p");
+        subtitle.className = "vocabulary-card-translation";
+        subtitle.textContent = word.english;
+        titles.append(title, subtitle); header.append(titles);
+        storyPlayAllButton = document.createElement("button");
+        storyPlayAllButton.type = "button";
+        storyPlayAllButton.className = "story-play-all";
+        storyPlayAllButton.textContent = "▶ Play all";
+        storyPlayAllButton.setAttribute("aria-label", "Play entire conversation");
+        storyPlayAllButton.setAttribute("aria-pressed", "false");
+        storyPlayAllButton.disabled = !word.messages?.length || word.messages.some(message => message.audioPending || !getRecordedJapaneseFile(message.speech || message.japanese));
+        if (storyPlayAllButton.disabled) storyPlayAllButton.title = "Conversation audio coming later";
+        storyPlayAllButton.addEventListener("click", () => {
+          if (storyAudio) stopStoryPlayback();
+          else startStoryPlayback(word.messages);
+        }, { signal });
+        header.append(storyPlayAllButton);
+        const conversation = document.createElement("ol");
+        conversation.className = "story-messages";
+        conversation.setAttribute("aria-label", "SMS conversation");
+        (word.messages || []).forEach((message, messageIndex) => {
+          const item = document.createElement("li");
+          item.className = `story-message story-message--${message.side === "right" ? "right" : "left"}`;
+          const speaker = document.createElement("span");
+          speaker.className = "story-speaker";
+          setJapaneseText(speaker, message.speaker);
+          const bubble = document.createElement("div");
+          bubble.className = "story-bubble";
+          const text = document.createElement("p"); text.lang = "ja";
+          setJapaneseText(text, message.japanese);
+          const audio = createExampleSpeechButton(message.speech || message.japanese, `Read message ${messageIndex + 1}`);
+          audio.addEventListener("click", () => { stopStoryPlayback(); wordPlayer.stop(); }, { capture: true, signal });
+          if (message.audioPending) {
+            audio.disabled = true;
+            audio.title = "Audio coming later";
+            audio.setAttribute("aria-label", `Message ${messageIndex + 1}: audio coming later`);
+          }
+          bubble.append(text, audio); item.append(speaker, bubble); conversation.append(item);
+        });
+        card.replaceChildren(header, conversation);
+        counter.textContent = `${index + 1} / ${entries.length}`;
+        previous.disabled = index === 0; next.disabled = index === entries.length - 1;
         return;
       }
       if (lesson.readingCards) {
@@ -646,6 +763,7 @@
       if (!alive || !entries.length) return;
       const target = index + direction;
       if (target < 0 || target >= entries.length) return;
+      stopStoryPlayback();
       stopSpeech();
       wordPlayer.stop();
       index = target;
@@ -718,11 +836,12 @@
 
     return () => {
       alive = false;
+      stopStoryPlayback();
       controller.abort();
       wordPlayer.stop();
       stopSpeech();
       container.classList.remove("vocabulary-cards", "furigana-hidden");
-      screen.classList.remove("study-cards-screen");
+      screen.classList.remove("study-cards-screen", "stories-screen");
       document.documentElement.classList.remove("vocabulary-cards-open");
       toolbar.classList.add("hidden");
       toolbar.replaceChildren();

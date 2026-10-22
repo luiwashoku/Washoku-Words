@@ -1457,5 +1457,20 @@
     "homeOnly": true,
     "questionCount": 3,
     "audioSupplementFor": "topic-vocabulary-cards"
+  },
+  {
+    "id": "stories-cards",
+    "category": "stories",
+    "page": "Stories",
+    "sortOrder": 1,
+    "title": "Stories",
+    "menuColor": "bee-yellow",
+    "gameMode": "vocabulary-cards",
+    "storyCards": true,
+    "ordered": true,
+    "titleAudioDisabled": true,
+    "recordedAudioOnly": true,
+    "file": "data/stories-cards.json",
+    "questionCount": 8
   }
 ]

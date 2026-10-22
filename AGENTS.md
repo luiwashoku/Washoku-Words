@@ -80,3 +80,9 @@ For 食材カード under 食材の基本, the original supplied list ends at pa
 Original source pages 27 and 28 remain skipped. The user subsequently authorized
 five new flour/preparation pages, appended page by page as deck pages 27–31:
 小麦粉; 衣・とろみ用の粉; 和菓子用の粉; その他の粉・ミックス; 使い方.
+
+# Story content before audio
+
+Always add new story content first, with audio pending and sound buttons disabled.
+Generate story audio only after the user explicitly requests it in a later step.
+Adding a story does not authorize generating its sound.

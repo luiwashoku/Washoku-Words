@@ -1,0 +1,146 @@
+<!doctype html><meta charset="utf-8"><title>Stories checks</title>
+<pre id="result">RUNNING</pre><iframe src="../index.html" style="width:360px;height:850px" title="App"></iframe>
+<script>
+(async()=>{
+ const frame=document.querySelector('iframe'),result=document.querySelector('#result'),assert=(v,m)=>{if(!v)throw Error(m)};
+ const until=async fn=>{for(let i=0;i<400;i++){if(fn())return;await new Promise(r=>setTimeout(r,25))}throw Error('Timed out')};
+ try{
+ await until(()=>frame.contentDocument.querySelector('#openSearch')?.disabled===false);
+ const w=frame.contentWindow,d=frame.contentDocument,q=s=>d.querySelector(s),plays=[];
+ w.Audio=class extends w.EventTarget{constructor(src){super();this.src=src;this.paused=true;this.currentTime=0;this.playbackRate=1}getAttribute(name){return name==='src'?this.src:null}play(){this.paused=false;plays.push(this);return Promise.resolve()}pause(){this.paused=true}removeAttribute(name){if(name==='src')this.src=''}load(){}};
+ const data=await fetch('../data/stories-cards.json').then(r=>r.json());
+ const category=q('[aria-label="Open Stories"]');assert(category,'Stories category exists');assert(category.style.getPropertyValue('--category-art').includes('category-stories.svg'),'Black dot artwork');category.click();
+ assert(q('#pageSubtitle').textContent.includes(`${data.entries.length} stories`),'Stories category count');q('#lessonList button').click();
+ await until(()=>q('.story-messages'));
+ const messages=data.entries[0].messages;
+ const bubbles=[...d.querySelectorAll('.story-message')];assert(bubbles.length===16&&messages.length===16,'All 16 supplied turns');
+ assert(plays.length===0,'No title autoplay');
+ const playAll=q('.story-play-all');assert(playAll&&!playAll.disabled,'Play all available');
+ playAll.click();await until(()=>plays.length>0);
+ const queueAudio=plays.at(-1);
+ for(const [i,message] of messages.entries()){
+  const expected=w.lessonAudioFiles['stories-cards'][w.getJapaneseSpeechText(message.speech||message.japanese)];
+  assert(queueAudio.src===expected,'Play all order '+i);
+  assert(queueAudio===plays.at(-1)&&queueAudio.playbackRate===1,'Reused mobile audio element at 1x');
+  assert(d.querySelectorAll('.story-message--playing').length===1,'One active bubble');
+  queueAudio.dispatchEvent(new w.Event('ended'));
+ }
+ assert(playAll.getAttribute('aria-pressed')==='false'&&queueAudio.paused,'Queue completes and resets');
+ playAll.click();const stopped=plays.at(-1);playAll.click();assert(stopped.paused,'Stop button stops queue');
+ const stoppedCount=plays.length;stopped.dispatchEvent(new w.Event('ended'));assert(plays.length===stoppedCount,'Stopped queue cannot restart');
+ playAll.click();const interrupted=plays.at(-1);
+ const beforeStale=interrupted.src;stopped.dispatchEvent(new w.Event('ended'));assert(interrupted.src===beforeStale,'Old queue cannot skip active message');
+ bubbles[0].querySelector('button').click();assert(interrupted.paused,'Individual message stops queue');
+ playAll.click();const failed=plays.at(-1);failed.dispatchEvent(new w.Event('error'));
+ assert(failed.paused&&playAll.getAttribute('aria-pressed')==='false','Playback error resets queue');
+
+ for(const [i,bubble] of bubbles.entries()){
+ assert(bubble.classList.contains(i%2?'story-message--right':'story-message--left'),'Alternating sides '+i);
+ assert(bubble.querySelector('.story-speaker').textContent.includes(i%2?'ルイ':'先生'),'Speaker '+i);
+ const audio=bubble.querySelector('button');assert(audio,'Speaker button '+i);
+ assert(audio.disabled===!!messages[i].audioPending,'Reviewed audio readiness '+i);
+ if(!audio.disabled){
+  const count=plays.length;audio.click();await until(()=>plays.length>count);
+  const expected=w.lessonAudioFiles['stories-cards'][w.getJapaneseSpeechText(messages[i].speech||messages[i].japanese)];
+  assert(plays.at(-1).src===expected,'Matching reviewed recording '+i);
+  assert(plays.at(-1).playbackRate===1,'Native playback speed '+i);
+ }
+ const bounds=audio.getBoundingClientRect();assert(Math.abs(bounds.width-bounds.height)<1,'Round sound button '+i);
+ assert(bubble.querySelector('p[lang="ja"]'),'Japanese message '+i);
+ }
+ assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Fits mobile width');
+ const left=bubbles[0].getBoundingClientRect(),right=bubbles[1].getBoundingClientRect();assert(left.left<right.left&&left.right<right.right,'SMS alignment');
+ q('#vocabularyCardFurigana').click();assert(w.getComputedStyle(q('.story-messages .furiganaReading')).display!=='none','Furigana available');
+ let lastAudio=plays.at(-1);
+ q('#vocabularyCardNavigation button:last-child').click();
+ assert(lastAudio?.paused,'Navigation stops playing recording');
+ const secondMessages=data.entries[1].messages;
+ const secondBubbles=[...d.querySelectorAll('.story-message')];
+ assert(secondBubbles.length===21,'All 21 Story 2 messages');
+ for (const [i,bubble] of secondBubbles.entries()) {
+  const audio=bubble.querySelector('button');assert(audio&&!audio.disabled,'Story 2 ready '+i);
+  const count=plays.length;audio.click();await until(()=>plays.length>count);
+  const expected=w.lessonAudioFiles['stories-cards'][w.getJapaneseSpeechText(secondMessages[i].speech||secondMessages[i].japanese)];
+  assert(plays.at(-1).src===expected && plays.at(-1).playbackRate===1,'Story 2 matching Marin recording '+i);
+ }
+ assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Story 2 phone fit');
+ lastAudio=plays.at(-1);q('#vocabularyCardNavigation button:last-child').click();
+ assert(lastAudio.paused,'Story 2 playback stops on navigation');
+ const thirdMessages=data.entries[2].messages;
+ const thirdBubbles=[...d.querySelectorAll('.story-message')];assert(thirdBubbles.length===22,'All 22 Story 3 messages');
+ for(const [i,bubble] of thirdBubbles.entries()){
+  const audio=bubble.querySelector('button');assert(audio&&!audio.disabled,'Story 3 ready '+i);
+  const count=plays.length;audio.click();await until(()=>plays.length>count);
+  const expected=w.lessonAudioFiles['stories-cards'][w.getJapaneseSpeechText(thirdMessages[i].speech||thirdMessages[i].japanese)];
+  assert(plays.at(-1).src===expected&&plays.at(-1).playbackRate===1,'Story 3 matching recording '+i);
+ }
+ assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Story 3 phone fit');
+ lastAudio=plays.at(-1);q('#vocabularyCardNavigation button:last-child').click();
+ assert(lastAudio.paused,'Story 3 audio stops on navigation');
+ const fourthMessages=data.entries[3].messages;
+ const fourthBubbles=[...d.querySelectorAll('.story-message')];assert(fourthBubbles.length===18,'All 18 Story 4 messages');
+ for(const [i,bubble] of fourthBubbles.entries()){
+  const audio=bubble.querySelector('button');assert(audio&&!audio.disabled,'Story 4 ready '+i);
+  const count=plays.length;audio.click();await until(()=>plays.length>count);
+  const expected=w.lessonAudioFiles['stories-cards'][w.getJapaneseSpeechText(fourthMessages[i].speech||fourthMessages[i].japanese)];
+  assert(plays.at(-1).src===expected&&plays.at(-1).playbackRate===1,'Story 4 matching recording '+i);
+ }
+ assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Story 4 phone fit');
+ lastAudio=plays.at(-1);q('#vocabularyCardNavigation button:last-child').click();
+ assert(lastAudio.paused,'Story 4 audio stops on navigation');
+ const fifthMessages=data.entries[4].messages;
+ const fifthBubbles=[...d.querySelectorAll('.story-message')];assert(fifthBubbles.length===20,'All 20 Story 5 messages');
+ for(const [i,bubble] of fifthBubbles.entries()){
+  const audio=bubble.querySelector('button');assert(audio&&!audio.disabled,'Story 5 ready '+i);
+  const count=plays.length;audio.click();await until(()=>plays.length>count);
+  const expected=w.lessonAudioFiles['stories-cards'][w.getJapaneseSpeechText(fifthMessages[i].speech||fifthMessages[i].japanese)];
+  assert(plays.at(-1).src===expected&&plays.at(-1).playbackRate===1,'Story 5 matching recording '+i);
+ }
+ assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Story 5 phone fit');
+ lastAudio=plays.at(-1);
+ q('#vocabularyCardNavigation button:last-child').click();
+ assert(lastAudio.paused,'Story 5 audio stops on navigation');
+ const sixthBubbles=[...d.querySelectorAll('.story-message')];
+ assert(sixthBubbles.length===23,'All 23 Story 6 messages');
+ assert(sixthBubbles[0].classList.contains('story-message--right'),'Lui opens on the right');
+ for(const [i,bubble] of sixthBubbles.entries()){
+  const audio=bubble.querySelector('button');assert(audio&&!audio.disabled,'Story 6 ready '+i);
+  const count=plays.length;audio.click();await until(()=>plays.length>count);
+  const message=data.entries[5].messages[i];
+  const expected=w.lessonAudioFiles['stories-cards'][w.getJapaneseSpeechText(message.speech||message.japanese)];
+  assert(plays.at(-1).src===expected&&plays.at(-1).playbackRate===1,'Story 6 matching recording '+i);
+ }
+ lastAudio=plays.at(-1);
+ q('#vocabularyCardNavigation button:last-child').click();
+ assert(lastAudio.paused,'Story 6 audio stops on navigation');
+ const seventhBubbles=[...d.querySelectorAll('.story-message')];
+ assert(seventhBubbles.length===20,'All 20 Story 7 messages');
+ assert(seventhBubbles[0].classList.contains('story-message--left'),'Teacher opens on left');
+ for(const [i,bubble] of seventhBubbles.entries()){
+  const audio=bubble.querySelector('button');assert(audio&&!audio.disabled,'Story 7 ready '+i);
+  const count=plays.length;audio.click();await until(()=>plays.length>count);
+  const message=data.entries[6].messages[i];
+  const expected=w.lessonAudioFiles['stories-cards'][w.getJapaneseSpeechText(message.speech||message.japanese)];
+  assert(plays.at(-1).src===expected&&plays.at(-1).playbackRate===1,'Story 7 matching recording '+i);
+ }
+ lastAudio=plays.at(-1);
+ q('#vocabularyCardNavigation button:last-child').click();
+ assert(lastAudio.paused,'Story 7 audio stops on navigation');
+ const eighthBubbles=[...d.querySelectorAll('.story-message')];
+ assert(eighthBubbles.length===22,'All 22 Story 8 messages');
+ assert(eighthBubbles[0].classList.contains('story-message--left'),'Staff opens on left');
+ for(const [i,bubble] of eighthBubbles.entries()){
+  const audio=bubble.querySelector('button');assert(audio&&!audio.disabled,'Story 8 ready '+i);
+  const count=plays.length;audio.click();await until(()=>plays.length>count);
+  const message=data.entries[7].messages[i];
+  const expected=w.lessonAudioFiles['stories-cards'][w.getJapaneseSpeechText(message.speech||message.japanese)];
+  assert(plays.at(-1).src===expected&&plays.at(-1).playbackRate===1,'Story 8 matching recording '+i);
+ }
+ lastAudio=plays.at(-1);
+ assert(q('#vocabularyCardNavigation button:last-child').disabled,'Final story disables next');
+ q('.story-play-all').click();lastAudio=plays.at(-1);assert(!lastAudio.paused,'Final story queue starts');
+ q('#backFromExplosion').click();assert(lastAudio.paused,'Story 8 playback stops on exit');assert(!q('#pageScreen').classList.contains('hidden')&&q('#pageTitle').textContent==='Stories','Back to Stories category');
+ result.textContent='PASS: black-dot Stories category, eight Stories with 162 reviewed message recordings at 1x, sequential Play all and stop/error cleanup, furigana, phone layout and return navigation.';
+ }catch(e){result.textContent='FAIL: '+e.stack}
+})();
+</script>

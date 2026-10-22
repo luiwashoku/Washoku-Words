@@ -50,7 +50,8 @@
       pageRange: "Pages 72–84",
       color: "var(--horizon)",
       canvas: "var(--pulse)"
-    }
+    },
+    { id: "stories", title: "Stories", pageRange: "Conversations", color: "var(--bee-yellow)", canvas: "var(--bee-yellow)" }
   ];
 
   const STORAGE_KEYS = {
@@ -1210,8 +1211,7 @@
           </strong>
 
           <span>
-            ${lessons.length} lessons<br>
-            ${questionCount} questions
+            ${category.id === "stories" ? `${lessons.length} deck<br>${questionCount} ${questionCount === 1 ? "story" : "stories"}` : `${lessons.length} lessons<br>${questionCount} questions`}
           </span>
         `;
 
@@ -1339,9 +1339,9 @@
         0
       );
 
-    elements.pageSubtitle.textContent =
-      `${lessons.length} lessons · ` +
-      `${totalQuestions} questions`;
+    elements.pageSubtitle.textContent = category.id === "stories"
+      ? `${lessons.length} deck · ${totalQuestions} ${totalQuestions === 1 ? "story" : "stories"}`
+      : `${lessons.length} lessons · ${totalQuestions} questions`;
 
     renderLessonList(lessons);
     showScreen("pages");
@@ -1392,8 +1392,8 @@
       button.className =
         "lesson-card";
 
-      const menuColor = lesson.gameMode === "vocabulary-cards" ? "purple" : lesson.menuColor;
-      if (["yellow", "green", "purple"].includes(menuColor)) {
+      const menuColor = lesson.storyCards ? lesson.menuColor : lesson.gameMode === "vocabulary-cards" ? "purple" : lesson.menuColor;
+      if (["yellow", "green", "purple", "bee-yellow"].includes(menuColor)) {
         button.classList.add(
           `lesson-card--${menuColor}`
         );
@@ -1408,7 +1408,7 @@
           </strong>
 
           <span>
-            ${menuColor === "purple"
+            ${lesson.gameMode === "vocabulary-cards" || menuColor === "purple"
               ? "Flashcards"
               : menuColor === "green"
               ? "Game"
