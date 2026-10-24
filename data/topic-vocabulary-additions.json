@@ -6988,6 +6988,404 @@
           }
         }
       ]
+    },
+    {
+      "id": "beauty",
+      "japanese": "美容・スキンケア",
+      "english": "Beauty and skincare",
+      "pageSize": 20,
+      "vocabulary": [
+        {
+          "sourceKey": "ひやけどめ|日焼け止め|美容",
+          "display": "日焼け止め",
+          "japanese": "日焼(ひや)け止(ど)め",
+          "reading": "ひやけどめ",
+          "english": "Sunscreen",
+          "speech": "ひやけどめ|日焼け止め|美容",
+          "example": {
+            "japanese": "曇(くも)りの日(ひ)でも、毎日(まいにち)日焼(ひや)け止(ど)めを塗(ぬ)っています。",
+            "english": "I wear sunscreen every day, even on cloudy days.",
+            "speech": "くもりのひでも、まいにちひやけどめをぬっています。"
+          }
+        },
+        {
+          "sourceKey": "けしょうすい|化粧水|美容",
+          "display": "化粧水",
+          "japanese": "化粧水(けしょうすい)",
+          "reading": "けしょうすい",
+          "english": "Toner",
+          "speech": "けしょうすい|化粧水|美容",
+          "example": {
+            "japanese": "顔(かお)を洗(あら)った後(あと)、化粧水(けしょうすい)をつけます。",
+            "english": "I apply toner after washing my face.",
+            "speech": "かおをあらったあと、けしょうすいをつけます。"
+          }
+        },
+        {
+          "sourceKey": "にゅうえき|乳液|美容",
+          "display": "乳液",
+          "japanese": "乳液(にゅうえき)",
+          "reading": "にゅうえき",
+          "english": "Moisturizing emulsion",
+          "speech": "にゅうえき|乳液|美容",
+          "example": {
+            "japanese": "化粧水(けしょうすい)の後(あと)に乳液(にゅうえき)をつけます。",
+            "english": "I apply emulsion after toner.",
+            "speech": "けしょうすいのあとににゅうえきをつけます。"
+          }
+        },
+        {
+          "sourceKey": "びようえき|美容液|美容",
+          "display": "美容液",
+          "japanese": "美容液(びようえき)",
+          "reading": "びようえき",
+          "english": "Serum",
+          "speech": "びようえき|美容液|美容",
+          "example": {
+            "japanese": "最近(さいきん)、新(あたら)しい美容液(びようえき)を使(つか)い始(はじ)めました。",
+            "english": "I recently started using a new serum.",
+            "speech": "さいきん、あたらしいびようえきをつかいはじめました。"
+          }
+        },
+        {
+          "sourceKey": "ほしつくりーむ|保湿クリーム|美容",
+          "display": "保湿クリーム",
+          "japanese": "保湿(ほしつ)クリーム",
+          "reading": "ほしつくりーむ",
+          "english": "Moisturizer",
+          "speech": "ほしつくりーむ|保湿クリーム|美容",
+          "example": {
+            "japanese": "冬(ふゆ)は保湿(ほしつ)クリームを多(おお)めに塗(ぬ)ります。",
+            "english": "I apply extra moisturizer in winter.",
+            "speech": "ふゆはほしつクリームをおおめにぬります。"
+          }
+        },
+        {
+          "sourceKey": "せんがんりょう|洗顔料|美容",
+          "display": "洗顔料",
+          "japanese": "洗顔料(せんがんりょう)",
+          "reading": "せんがんりょう",
+          "english": "Facial cleanser",
+          "speech": "せんがんりょう|洗顔料|美容",
+          "example": {
+            "japanese": "この洗顔料(せんがんりょう)は肌(はだ)に優(やさ)しいです。",
+            "english": "This facial cleanser is gentle on the skin.",
+            "speech": "このせんがんりょうははだにやさしいです。"
+          }
+        },
+        {
+          "sourceKey": "くれんじんぐおいる|クレンジングオイル|美容",
+          "display": "クレンジングオイル",
+          "japanese": "クレンジングオイル",
+          "reading": "くれんじんぐおいる",
+          "english": "Cleansing oil",
+          "speech": "くれんじんぐおいる|クレンジングオイル|美容",
+          "example": {
+            "japanese": "クレンジングオイルでメイクを落(お)とします。",
+            "english": "I remove makeup with cleansing oil.",
+            "speech": "クレンジングオイルでメイクをおとします。"
+          }
+        },
+        {
+          "sourceKey": "ふぇいすぱっく|フェイスパック|美容",
+          "display": "フェイスパック",
+          "japanese": "フェイスパック",
+          "reading": "ふぇいすぱっく",
+          "english": "Face mask",
+          "speech": "ふぇいすぱっく|フェイスパック|美容",
+          "example": {
+            "japanese": "週(しゅう)に一回(いっかい)、フェイスパックをしています。",
+            "english": "I use a face mask once a week.",
+            "speech": "しゅうにいっかい、フェイスパックをしています。"
+          }
+        },
+        {
+          "sourceKey": "りっぷくりーむ|リップクリーム|美容",
+          "display": "リップクリーム",
+          "japanese": "リップクリーム",
+          "reading": "りっぷくりーむ",
+          "english": "Lip balm",
+          "speech": "りっぷくりーむ|リップクリーム|美容",
+          "example": {
+            "japanese": "唇(くちびる)が乾燥(かんそう)したら、リップクリームを塗(ぬ)ります。",
+            "english": "I apply lip balm when my lips get dry.",
+            "speech": "くちびるがかんそうしたら、リップクリームをぬります。"
+          }
+        },
+        {
+          "sourceKey": "せんがんする|洗顔する|美容",
+          "display": "洗顔する",
+          "japanese": "洗顔(せんがん)する",
+          "reading": "せんがんする",
+          "english": "Wash one's face",
+          "speech": "せんがんする|洗顔する|美容",
+          "example": {
+            "japanese": "朝(あさ)はぬるま湯(ゆ)で洗顔(せんがん)します。",
+            "english": "I wash my face with lukewarm water in the morning.",
+            "speech": "あさはぬるまゆでせんがんします。"
+          }
+        },
+        {
+          "sourceKey": "ほしつする|保湿する|美容",
+          "display": "保湿する",
+          "japanese": "保湿(ほしつ)する",
+          "reading": "ほしつする",
+          "english": "Moisturize",
+          "speech": "ほしつする|保湿する|美容",
+          "example": {
+            "japanese": "シャワーの後(あと)は、しっかり保湿(ほしつ)したほうがいいです。",
+            "english": "You should moisturize well after showering.",
+            "speech": "シャワーのあとは、しっかりほしつしたほうがいいです。"
+          }
+        },
+        {
+          "sourceKey": "ぬりなおす|塗り直す|美容",
+          "display": "塗り直す",
+          "japanese": "塗(ぬ)り直(なお)す",
+          "reading": "ぬりなおす",
+          "english": "Reapply",
+          "speech": "ぬりなおす|塗り直す|美容",
+          "example": {
+            "japanese": "外(そと)にいるときは、日焼(ひや)け止(ど)めを塗(ぬ)り直(なお)します。",
+            "english": "I reapply sunscreen when I'm outdoors.",
+            "speech": "そとにいるときは、ひやけどめをぬりなおします。"
+          }
+        },
+        {
+          "sourceKey": "はだにあう|肌に合う|美容",
+          "display": "肌に合う",
+          "japanese": "肌(はだ)に合(あ)う",
+          "reading": "はだにあう",
+          "english": "Suit one's skin",
+          "speech": "はだにあう|肌に合う|美容",
+          "example": {
+            "japanese": "このクリームは私(わたし)の肌(はだ)に合(あ)っています。",
+            "english": "This cream suits my skin.",
+            "speech": "このクリームはわたしのはだにあっています。"
+          }
+        },
+        {
+          "sourceKey": "はだがあれる|肌が荒れる|美容",
+          "display": "肌が荒れる",
+          "japanese": "肌(はだ)が荒(あ)れる",
+          "reading": "はだがあれる",
+          "english": "Skin gets irritated",
+          "speech": "はだがあれる|肌が荒れる|美容",
+          "example": {
+            "japanese": "最近(さいきん)、肌(はだ)が荒(あ)れやすくなりました。",
+            "english": "My skin has become more easily irritated lately.",
+            "speech": "さいきん、はだがあれやすくなりました。"
+          }
+        },
+        {
+          "sourceKey": "かんそうはだ|乾燥肌|美容",
+          "display": "乾燥肌",
+          "japanese": "乾燥肌(かんそうはだ)",
+          "reading": "かんそうはだ",
+          "english": "Dry skin",
+          "speech": "かんそうはだ|乾燥肌|美容",
+          "example": {
+            "japanese": "乾燥肌(かんそうはだ)なので、冬(ふゆ)は特(とく)に気(き)をつけています。",
+            "english": "I have dry skin, so I'm especially careful in winter.",
+            "speech": "かんそうはだなので、ふゆはとくにきをつけています。"
+          }
+        },
+        {
+          "sourceKey": "びんかんはだ|敏感肌|美容",
+          "display": "敏感肌",
+          "japanese": "敏感肌(びんかんはだ)",
+          "reading": "びんかんはだ",
+          "english": "Sensitive skin",
+          "speech": "びんかんはだ|敏感肌|美容",
+          "example": {
+            "japanese": "敏感肌(びんかんはだ)なので、香料(こうりょう)の少(すく)ないものを選(えら)んでいます。",
+            "english": "I have sensitive skin, so I choose products with little fragrance.",
+            "speech": "びんかんはだなので、こうりょうのすくないものをえらんでいます。"
+          }
+        },
+        {
+          "sourceKey": "にきび|ニキビ|美容",
+          "display": "ニキビ",
+          "japanese": "ニキビ",
+          "reading": "にきび",
+          "english": "Pimple / acne",
+          "speech": "にきび|ニキビ|美容",
+          "example": {
+            "japanese": "最近(さいきん)、あごにニキビができました。",
+            "english": "I recently got a pimple on my chin.",
+            "speech": "さいきん、あごにニキビができました。"
+          }
+        },
+        {
+          "sourceKey": "しみ|シミ|美容",
+          "display": "シミ",
+          "japanese": "シミ",
+          "reading": "しみ",
+          "english": "Dark spot",
+          "speech": "しみ|シミ|美容",
+          "example": {
+            "japanese": "最近(さいきん)、顔(かお)のシミが気(き)になります。",
+            "english": "I've been concerned about dark spots on my face lately.",
+            "speech": "さいきん、かおのシミがきになります。"
+          }
+        },
+        {
+          "sourceKey": "しわ|シワ|美容",
+          "display": "シワ",
+          "japanese": "シワ",
+          "reading": "しわ",
+          "english": "Wrinkle",
+          "speech": "しわ|シワ|美容",
+          "example": {
+            "japanese": "目(め)の周(まわ)りにシワが増(ふ)えてきました。",
+            "english": "I've started getting more wrinkles around my eyes.",
+            "speech": "めのまわりにシワがふえてきました。"
+          }
+        },
+        {
+          "sourceKey": "けあな|毛穴|美容",
+          "display": "毛穴",
+          "japanese": "毛穴(けあな)",
+          "reading": "けあな",
+          "english": "Pores",
+          "speech": "けあな|毛穴|美容",
+          "example": {
+            "japanese": "鼻(はな)の毛穴(けあな)が気(き)になります。",
+            "english": "I'm concerned about the pores on my nose.",
+            "speech": "はなのけあながきになります。"
+          }
+        },
+        {
+          "sourceKey": "むくみ|むくみ|美容",
+          "display": "むくみ",
+          "japanese": "むくみ",
+          "reading": "むくみ",
+          "english": "Puffiness",
+          "speech": "むくみ|むくみ|美容",
+          "example": {
+            "japanese": "朝(あさ)は顔(かお)がむくみやすいです。",
+            "english": "My face tends to get puffy in the morning.",
+            "speech": "あさはかおがむくみやすいです。"
+          }
+        },
+        {
+          "sourceKey": "けしょうする|化粧する|美容",
+          "display": "化粧する",
+          "japanese": "化粧(けしょう)する",
+          "reading": "けしょうする",
+          "english": "Put on makeup",
+          "speech": "けしょうする|化粧する|美容",
+          "example": {
+            "japanese": "休(やす)みの日(ひ)はあまり化粧(けしょう)しません。",
+            "english": "I don't wear much makeup on my days off.",
+            "speech": "やすみのひはあまりけしょうしません。"
+          }
+        },
+        {
+          "sourceKey": "ふぁんでーしょん|ファンデーション|美容",
+          "display": "ファンデーション",
+          "japanese": "ファンデーション",
+          "reading": "ふぁんでーしょん",
+          "english": "Foundation",
+          "speech": "ふぁんでーしょん|ファンデーション|美容",
+          "example": {
+            "japanese": "このファンデーションは軽(かる)くて使(つか)いやすいです。",
+            "english": "This foundation feels light and is easy to use.",
+            "speech": "このファンデーションはかるくてつかいやすいです。"
+          }
+        },
+        {
+          "sourceKey": "こんしーらー|コンシーラー|美容",
+          "display": "コンシーラー",
+          "japanese": "コンシーラー",
+          "reading": "こんしーらー",
+          "english": "Concealer",
+          "speech": "こんしーらー|コンシーラー|美容",
+          "example": {
+            "japanese": "コンシーラーで目(め)の下(した)のクマを隠(かく)します。",
+            "english": "I hide my dark circles with concealer.",
+            "speech": "コンシーラーでめのしたのクマをかくします。"
+          }
+        },
+        {
+          "sourceKey": "くちべに|口紅|美容",
+          "display": "口紅",
+          "japanese": "口紅(くちべに)",
+          "reading": "くちべに",
+          "english": "Lipstick",
+          "speech": "くちべに|口紅|美容",
+          "example": {
+            "japanese": "この口紅(くちべに)は食(た)べても落(お)ちにくいです。",
+            "english": "This lipstick doesn't come off easily when eating.",
+            "speech": "このくちべにはたべてもおちにくいです。"
+          }
+        },
+        {
+          "sourceKey": "まゆげをかく|眉毛を描く|美容",
+          "display": "眉毛を描く",
+          "japanese": "眉毛(まゆげ)を描(か)く",
+          "reading": "まゆげをかく",
+          "english": "Fill in eyebrows",
+          "speech": "まゆげをかく|眉毛を描く|美容",
+          "example": {
+            "japanese": "毎朝(まいあさ)、眉毛(まゆげ)を描(か)いています。",
+            "english": "I fill in my eyebrows every morning.",
+            "speech": "まいあさ、まゆげをかいています。"
+          }
+        },
+        {
+          "sourceKey": "めいくをなおす|メイクを直す|美容",
+          "display": "メイクを直す",
+          "japanese": "メイクを直(なお)す",
+          "reading": "めいくをなおす",
+          "english": "Touch up makeup",
+          "speech": "めいくをなおす|メイクを直す|美容",
+          "example": {
+            "japanese": "出(で)かける前(まえ)にメイクを直(なお)しました。",
+            "english": "I touched up my makeup before going out.",
+            "speech": "でかけるまえにメイクをなおしました。"
+          }
+        },
+        {
+          "sourceKey": "かみをかわかす|髪を乾かす|美容",
+          "display": "髪を乾かす",
+          "japanese": "髪(かみ)を乾(かわ)かす",
+          "reading": "かみをかわかす",
+          "english": "Dry one's hair",
+          "speech": "かみをかわかす|髪を乾かす|美容",
+          "example": {
+            "japanese": "シャワーの後(あと)、ドライヤーで髪(かみ)を乾(かわ)かします。",
+            "english": "I dry my hair with a hairdryer after showering.",
+            "speech": "シャワーのあと、ドライヤーでかみをかわかします。"
+          }
+        },
+        {
+          "sourceKey": "かみをむすぶ|髪を結ぶ|美容",
+          "display": "髪を結ぶ",
+          "japanese": "髪(かみ)を結(むす)ぶ",
+          "reading": "かみをむすぶ",
+          "english": "Tie one's hair",
+          "speech": "かみをむすぶ|髪を結ぶ|美容",
+          "example": {
+            "japanese": "料理(りょうり)するときは、髪(かみ)を結(むす)びます。",
+            "english": "I tie my hair up when cooking.",
+            "speech": "りょうりするときは、かみをむすびます。"
+          }
+        },
+        {
+          "sourceKey": "つめをきる|爪を切る|美容",
+          "display": "爪を切る",
+          "japanese": "爪(つめ)を切(き)る",
+          "reading": "つめをきる",
+          "english": "Cut one's nails",
+          "speech": "つめをきる|爪を切る|美容",
+          "example": {
+            "japanese": "爪(つめ)が伸(の)びたので、切(き)らないといけません。",
+            "english": "My nails have grown long, so I need to cut them.",
+            "speech": "つめがのびたので、きらないといけません。"
+          }
+        }
+      ]
     }
   ],
   "meaningUpdates": {

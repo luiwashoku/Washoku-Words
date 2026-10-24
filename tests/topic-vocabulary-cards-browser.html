@@ -67,7 +67,7 @@
       }
       const rows = [...d.querySelectorAll('.food-reference-table tbody tr')];
       const pairs = card.blocks.flatMap(block => block.pairs);
-      assert(rows.length === pairs.length && rows.length <= (card.topicId === 'material-manipulation' ? 20 : 12), 'Small pages retain all rows');
+      assert(rows.length === pairs.length && rows.length <= (['material-manipulation', 'beauty'].includes(card.topicId) ? 20 : 12), 'Small pages retain all rows');
       for (const [n, row] of rows.entries()) {
         const pair = pairs[n];
         if (supplemental.has(pair.sourceKey)) {
