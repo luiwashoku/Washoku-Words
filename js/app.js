@@ -52,7 +52,7 @@
       canvas: "var(--pulse)"
     },
     { id: "stories", title: "Stories", pageRange: "Conversations", color: "var(--bee-yellow)", canvas: "var(--bee-yellow)" },
-    { id: "fermentation-notes", title: "発酵ノート", pageRange: "Fermentation notes", art: "fermentation", color: "var(--paper)", canvas: "var(--paper)" }
+    { id: "fermentation-notes", title: "発酵ノート", pageRange: "Fermentation notes", art: "fermentation", color: "var(--ember)", canvas: "var(--paper)" }
   ];
 
   const STORAGE_KEYS = {
