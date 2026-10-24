@@ -1,0 +1,2234 @@
+{
+  "lesson": "fermentation-notes-amazake",
+  "reviewed": true,
+  "voice": "marin",
+  "model": "gpt-4o-mini-tts",
+  "speed": 1.0,
+  "accent_dictionary": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt",
+  "accent_dictionary_sha256": "8bd0dd127dab32ceec94cb03ab1ba6b68858ea73421dfa1731af2f373deb4f20",
+  "notes": "Two batches: 1–10, 11–19. Preserve original wording and numeric quantities, including supplied grammatical typos. Read headings, numbered steps, ratios, temperatures and parenthetical explanations; do not narrate diagram. No factual editing or listening verification implied. Batch-2 requests for chunks 11, 12 and 18 stalled and resumed using shorter guidance and cached clips. Targeted transcript-based retries for chunks 15–17 and 19; final chunk 17 has all three steps. Independent ASR retained for chunk 15 temperature ambiguity.",
+  "entries": [
+    {
+      "key": "甘酒には2種類ある 甘酒の製法には、 麹を発酵させて作る方法と、酒粕を溶かし砂糖を加えた方法の2種類があります。 当然出来上がった甘酒は全く違うものです。",
+      "card": "aged-amazake",
+      "message_id": "amazake-chunk-01",
+      "batch": 1,
+      "display": "\n(1)甘酒には2種類ある\n\n甘酒の製法には、\n\n麹を発酵させて作る方法と、酒粕を溶かし砂糖を加えた方法の2種類があります。\n\n当然出来上がった甘酒は全く違うものです。\n\n",
+      "input": "いち、あまざけにわにしゅるいある。あまざけのせいほうにわ、こうじおはっこうさせてつくるほうほうと、さけかすおとかしさとうおくわえたほうほうの、にしゅるいがあります。とうぜんできあがったあまざけわ、まったくちがうものです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied article and reviewed article furigana; pinned exact lexical dictionary readings checked against intended culinary, enzyme and numeric context. All readings checked separately from raw display and lookup keys.",
+      "context_review": "甘酒 あまざけ; 酒粕 さけかす; 製法 せいほう. Distinguish koji-fermented method and sake-lees/sugar method. Contextual は→わ, を→お; lexical は in ご飯/ハサミ/働く retained. Source wraps joined and clause boundaries reviewed for speech only.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical spelling/reading references; full-passage and unconfirmed compound targets provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "発酵",
+          "reading": "はっこう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L98799"
+        },
+        {
+          "form": "麹",
+          "reading": "こうじ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L51348"
+        },
+        {
+          "form": "糖",
+          "reading": "とう",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L92221"
+        },
+        {
+          "form": "出来",
+          "reading": "でき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L64102"
+        },
+        {
+          "form": "種類",
+          "reading": "しゅるい",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61820"
+        },
+        {
+          "form": "全く",
+          "reading": "まったく",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L77989"
+        },
+        {
+          "form": "甘酒",
+          "reading": "あまざけ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34477"
+        },
+        {
+          "form": "類",
+          "reading": "るい",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L117274"
+        },
+        {
+          "form": "上",
+          "reading": "うえ",
+          "accent_variants": [
+            0,
+            2
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67322"
+        },
+        {
+          "form": "製法",
+          "reading": "せいほう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L74425"
+        },
+        {
+          "form": "方法",
+          "reading": "ほうほう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L107156"
+        },
+        {
+          "form": "酒粕",
+          "reading": "さけかす",
+          "accent_variants": [
+            0,
+            3
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61911"
+        },
+        {
+          "form": "砂糖",
+          "reading": "さとう",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52883"
+        },
+        {
+          "form": "当然",
+          "reading": "とうぜん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L92119"
+        }
+      ],
+      "pronunciation_guidance": "入力のひらがな全文だけを一度、普段のMarinの声で、自然な東京の日本語として滑らかに朗読してください。語句を省略、追加、言い換えせず、長母音と促音を保ちます。助詞を前の句につなげ、句読点で軽く区切ります。単語ごとの間や声色の演出は避けます。甘酒についての教材です。全文と未確認の複合語のイントネーションは暫定的です。 確認した語彙アクセント（0は平板、数字は下がり目の拍）：発酵 はっこう 0; 麹 こうじ 0; 糖 とう 1; 出来 でき 0; 種類 しゅるい 1; 全く まったく 0; 甘酒 あまざけ 0; 類 るい 1; 上 うえ 0; 製法 せいほう 0; 方法 ほうほう 0; 酒粕 さけかす 0; 砂糖 さとう 2; 当然 とうぜん 0。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-amazake/marin-636017127d999b7e8998.mp3",
+      "file_duration_seconds": 17.352,
+      "automated_transcript": "1.甘酒には二種類ある。甘酒の製法には、麹を発酵させて作る方法と酒粕を溶かし砂糖を加えた方法の二種類があります。当然出来上がった甘酒は全く違うものです。",
+      "automated_transcript_review": "Compared final unprompted transcripts with source article and reviewed speech input. Two batches: 1–10 and 11–19. Numeric temperatures, ingredient ratio, quantities, durations, storage periods and numbered steps checked. Primary ASR normalizes supplied grammatical typos 含まれいます/加熱処理されいる; reviewed input retains original wording. Other differences are script/punctuation, heading formatting or homophone normalization. Automated transcription is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; transcript content and low-energy gap measurements reviewed. Audible pitch, voice quality and smoothness not listening-verified."
+    },
+    {
+      "key": "今回お教えする甘酒は、通常スーパーなどで売られている清涼飲料水の甘酒とは違います。 料理にも使いやすい麹を発酵させた甘酒です。",
+      "card": "aged-amazake",
+      "message_id": "amazake-chunk-02",
+      "batch": 1,
+      "display": "今回お教えする甘酒は、通常スーパーなどで売られている清涼飲料水の甘酒とは違います。\n\n料理にも使いやすい麹を発酵させた甘酒(甘麹)です。\n\n",
+      "input": "こんかいおおしえするあまざけわ、つうじょうすーぱーなどでうられている、せいりょういんりょうすいのあまざけとわちがいます。りょうりにもつかいやすい、こうじおはっこうさせたあまざけ、あまこうじです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied article and reviewed article furigana; pinned exact lexical dictionary readings checked against intended culinary, enzyme and numeric context. All readings checked separately from raw display and lookup keys.",
+      "context_review": "清涼飲料水 せいりょういんりょうすい; 甘麹 あまこうじ. Parenthetical alternate name spoken once. Contextual は→わ, を→お; lexical は in ご飯/ハサミ/働く retained. Source wraps joined and clause boundaries reviewed for speech only.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical spelling/reading references; full-passage and unconfirmed compound targets provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "発酵",
+          "reading": "はっこう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L98799"
+        },
+        {
+          "form": "麹",
+          "reading": "こうじ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L51348"
+        },
+        {
+          "form": "常",
+          "reading": "つね",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67904"
+        },
+        {
+          "form": "水",
+          "reading": "みず",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L71812"
+        },
+        {
+          "form": "甘酒",
+          "reading": "あまざけ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34477"
+        },
+        {
+          "form": "今回",
+          "reading": "こんかい",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52216"
+        },
+        {
+          "form": "通常",
+          "reading": "つうじょう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L88275"
+        },
+        {
+          "form": "清涼飲料水",
+          "reading": "せいりょういんりょうすい",
+          "accent_variants": [
+            7
+          ],
+          "selected_accent": 7,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L73605"
+        },
+        {
+          "form": "料理",
+          "reading": "りょうり",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L116664"
+        }
+      ],
+      "pronunciation_guidance": "入力のひらがな全文だけを一度、普段のMarinの声で、自然な東京の日本語として滑らかに朗読してください。語句を省略、追加、言い換えせず、長母音と促音を保ちます。助詞を前の句につなげ、句読点で軽く区切ります。単語ごとの間や声色の演出は避けます。甘酒についての教材です。全文と未確認の複合語のイントネーションは暫定的です。 確認した語彙アクセント（0は平板、数字は下がり目の拍）：発酵 はっこう 0; 麹 こうじ 0; 常 つね 1; 水 みず 0; 甘酒 あまざけ 0; 今回 こんかい 1; 通常 つうじょう 0; 清涼飲料水 せいりょういんりょうすい 7; 料理 りょうり 1。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-amazake/marin-aec93d1f9838d10c292f.mp3",
+      "file_duration_seconds": 16.56,
+      "automated_transcript": "今回お教えする甘酒は、通常スーパーなどで売られている清涼飲料水の甘酒とは違います。料理にも使いやすい麹を発酵させた甘酒、甘麹です。",
+      "automated_transcript_review": "Compared final unprompted transcripts with source article and reviewed speech input. Two batches: 1–10 and 11–19. Numeric temperatures, ingredient ratio, quantities, durations, storage periods and numbered steps checked. Primary ASR normalizes supplied grammatical typos 含まれいます/加熱処理されいる; reviewed input retains original wording. Other differences are script/punctuation, heading formatting or homophone normalization. Automated transcription is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; transcript content and low-energy gap measurements reviewed. Audible pitch, voice quality and smoothness not listening-verified."
+    },
+    {
+      "key": "一般には、調理用に水分を少ない状態のものを『甘麹』 水分の多いものを『甘酒』と呼び名を変えている事もあります。",
+      "card": "aged-amazake",
+      "message_id": "amazake-chunk-03",
+      "batch": 1,
+      "display": "一般には、調理用に水分を少ない状態のものを『甘麹』\n\n水分の多いものを『甘酒』と呼び名を変えている事もあります。\n\n",
+      "input": "いっぱんにわ、ちょうりようにすいぶんおすくないじょうたいのものお、あまこうじ。すいぶんのおおいものお、あまざけと、よびなおかえていることもあります。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied article and reviewed article furigana; pinned exact lexical dictionary readings checked against intended culinary, enzyme and numeric context. All readings checked separately from raw display and lookup keys.",
+      "context_review": "Read 水分を少ない状態 exactly as source: すいぶんおすくないじょうたい, without silently changing を to が. 甘麹 あまこうじ; 呼び名 よびな. Contextual は→わ, を→お; lexical は in ご飯/ハサミ/働く retained. Source wraps joined and clause boundaries reviewed for speech only.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical spelling/reading references; full-passage and unconfirmed compound targets provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "麹",
+          "reading": "こうじ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L51348"
+        },
+        {
+          "form": "事",
+          "reading": "こと",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L57947"
+        },
+        {
+          "form": "水",
+          "reading": "みず",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L71812"
+        },
+        {
+          "form": "甘酒",
+          "reading": "あまざけ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34477"
+        },
+        {
+          "form": "一般",
+          "reading": "いっぱん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L23606"
+        },
+        {
+          "form": "水分",
+          "reading": "すいぶん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L72162"
+        },
+        {
+          "form": "状態",
+          "reading": "じょうたい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68152"
+        },
+        {
+          "form": "呼び名",
+          "reading": "よびな",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L46478"
+        }
+      ],
+      "pronunciation_guidance": "入力のひらがな全文だけを一度、普段のMarinの声で、自然な東京の日本語として滑らかに朗読してください。語句を省略、追加、言い換えせず、長母音と促音を保ちます。助詞を前の句につなげ、句読点で軽く区切ります。単語ごとの間や声色の演出は避けます。甘酒についての教材です。全文と未確認の複合語のイントネーションは暫定的です。 確認した語彙アクセント（0は平板、数字は下がり目の拍）：麹 こうじ 0; 事 こと 2; 水 みず 0; 甘酒 あまざけ 0; 一般 いっぱん 0; 水分 すいぶん 1; 状態 じょうたい 0; 呼び名 よびな 0。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-amazake/marin-9cabfc902f87472af7d6.mp3",
+      "file_duration_seconds": 11.76,
+      "automated_transcript": "一般には調理用に水分を少ない状態のものを甘麹、水分の多いものを甘酒と呼び名を変えていることもあります。",
+      "automated_transcript_review": "Compared final unprompted transcripts with source article and reviewed speech input. Two batches: 1–10 and 11–19. Numeric temperatures, ingredient ratio, quantities, durations, storage periods and numbered steps checked. Primary ASR normalizes supplied grammatical typos 含まれいます/加熱処理されいる; reviewed input retains original wording. Other differences are script/punctuation, heading formatting or homophone normalization. Automated transcription is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; transcript content and low-energy gap measurements reviewed. Audible pitch, voice quality and smoothness not listening-verified."
+    },
+    {
+      "key": "甘酒が甘い訳 甘酒の原料はご飯と麹と水ですが、砂糖も使わないのに何故甘くなるのでしょうか？ それは麹に含まれる酵素の作用によるものです。",
+      "card": "aged-amazake",
+      "message_id": "amazake-chunk-04",
+      "batch": 1,
+      "display": "(2)甘酒が甘い訳\n\n甘酒の原料はご飯と麹と水ですが、砂糖も使わないのに何故甘くなるのでしょうか？\n\nそれは麹に含まれる酵素の作用によるものです。\n\n",
+      "input": "に、あまざけがあまいわけ。あまざけのげんりょうわ、ごはんとこうじとみずですが、さとうもつかわないのに、なぜあまくなるのでしょうか？それわ、こうじにふくまれるこうそのさようによるものです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied article and reviewed article furigana; pinned exact lexical dictionary readings checked against intended culinary, enzyme and numeric context. All readings checked separately from raw display and lookup keys.",
+      "context_review": "何故 なぜ; ご飯 ごはん lexical は; 麹 こうじ; 作用 さよう. Contextual は→わ, を→お; lexical は in ご飯/ハサミ/働く retained. Source wraps joined and clause boundaries reviewed for speech only.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical spelling/reading references; full-passage and unconfirmed compound targets provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "何",
+          "reading": "なに",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L28460"
+        },
+        {
+          "form": "麹",
+          "reading": "こうじ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L51348"
+        },
+        {
+          "form": "糖",
+          "reading": "とう",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L92221"
+        },
+        {
+          "form": "訳",
+          "reading": "わけ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L112510"
+        },
+        {
+          "form": "水",
+          "reading": "みず",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L71812"
+        },
+        {
+          "form": "甘酒",
+          "reading": "あまざけ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34477"
+        },
+        {
+          "form": "酵素",
+          "reading": "こうそ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50572"
+        },
+        {
+          "form": "砂糖",
+          "reading": "さとう",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52883"
+        },
+        {
+          "form": "原料",
+          "reading": "げんりょう",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L45519"
+        },
+        {
+          "form": "ご飯",
+          "reading": "ごはん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L2149"
+        },
+        {
+          "form": "何故",
+          "reading": "なぜ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L28559"
+        },
+        {
+          "form": "作用",
+          "reading": "さよう",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L54015"
+        }
+      ],
+      "pronunciation_guidance": "入力のひらがな全文だけを一度、普段のMarinの声で、自然な東京の日本語として滑らかに朗読してください。語句を省略、追加、言い換えせず、長母音と促音を保ちます。助詞を前の句につなげ、句読点で軽く区切ります。単語ごとの間や声色の演出は避けます。甘酒についての教材です。全文と未確認の複合語のイントネーションは暫定的です。 確認した語彙アクセント（0は平板、数字は下がり目の拍）：何 なに 1; 麹 こうじ 0; 糖 とう 1; 訳 わけ 1; 水 みず 0; 甘酒 あまざけ 0; 酵素 こうそ 1; 砂糖 さとう 2; 原料 げんりょう 3; ご飯 ごはん 1; 何故 なぜ 1; 作用 さよう 1。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-amazake/marin-94eec092aabbe78cd778.mp3",
+      "file_duration_seconds": 15.264,
+      "automated_transcript": "2.甘酒が甘いわけ 甘酒の原料はご飯と麹と水ですが、砂糖も使わないのに、なぜ甘くなるのでしょうか。それは麹に含まれる酵素の作用によるものです。",
+      "automated_transcript_review": "Compared final unprompted transcripts with source article and reviewed speech input. Two batches: 1–10 and 11–19. Numeric temperatures, ingredient ratio, quantities, durations, storage periods and numbered steps checked. Primary ASR normalizes supplied grammatical typos 含まれいます/加熱処理されいる; reviewed input retains original wording. Other differences are script/punctuation, heading formatting or homophone normalization. Automated transcription is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; transcript content and low-energy gap measurements reviewed. Audible pitch, voice quality and smoothness not listening-verified."
+    },
+    {
+      "key": "前ページに記述したように、麹には3種類の酵素が豊富に含まれいます ①アミラーゼ ②プロテアーゼ ③リパーゼ",
+      "card": "aged-amazake",
+      "message_id": "amazake-chunk-05",
+      "batch": 1,
+      "display": "前ページに記述したように、麹には3種類の酵素が豊富に含まれいます\n\n①アミラーゼ(でんぷん分解酵素)\n\n②プロテアーゼ(タンパク質分解酵素)\n\n③リパーゼ(脂肪分解酵素)\n\n",
+      "input": "まえぺーじにきじゅつしたように、こうじにわさんしゅるいのこうそがほうふにふくまれいます。いち、あみらーぜ、でんぷんぶんかいこうそ。に、ぷろてあーぜ、たんぱくしつぶんかいこうそ。さん、りぱーぜ、しぼうぶんかいこうそ。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied article and reviewed article furigana; pinned exact lexical dictionary readings checked against intended culinary, enzyme and numeric context. All readings checked separately from raw display and lookup keys.",
+      "context_review": "Source 含まれいます read ふくまれいます without silently adding て. Three numbered enzymes: あみらーぜ, ぷろてあーぜ, りぱーぜ; parenthetical explanations spoken. Image not narrated. Contextual は→わ, を→お; lexical は in ご飯/ハサミ/働く retained. Source wraps joined and clause boundaries reviewed for speech only.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical spelling/reading references; full-passage and unconfirmed compound targets provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "麹",
+          "reading": "こうじ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L51348"
+        },
+        {
+          "form": "分解",
+          "reading": "ぶんかい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L104380"
+        },
+        {
+          "form": "質",
+          "reading": "しつ",
+          "accent_variants": [
+            0,
+            2
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L59534"
+        },
+        {
+          "form": "種類",
+          "reading": "しゅるい",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61820"
+        },
+        {
+          "form": "酵素",
+          "reading": "こうそ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50572"
+        },
+        {
+          "form": "豊富",
+          "reading": "ほうふ",
+          "accent_variants": [
+            0,
+            1
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L107537"
+        },
+        {
+          "form": "類",
+          "reading": "るい",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L117274"
+        },
+        {
+          "form": "脂肪",
+          "reading": "しぼう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L57548"
+        },
+        {
+          "form": "前",
+          "reading": "まえ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L77633"
+        },
+        {
+          "form": "記述",
+          "reading": "きじゅつ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L36683"
+        }
+      ],
+      "pronunciation_guidance": "入力のひらがな全文だけを一度、普段のMarinの声で、自然な東京の日本語として滑らかに朗読してください。語句を省略、追加、言い換えせず、長母音と促音を保ちます。助詞を前の句につなげ、句読点で軽く区切ります。単語ごとの間や声色の演出は避けます。甘酒についての教材です。全文と未確認の複合語のイントネーションは暫定的です。 確認した語彙アクセント（0は平板、数字は下がり目の拍）：麹 こうじ 0; 分解 ぶんかい 0; 質 しつ 0; 種類 しゅるい 1; 酵素 こうそ 1; 豊富 ほうふ 0; 類 るい 1; 脂肪 しぼう 0; 前 まえ 1; 記述 きじゅつ 0。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-amazake/marin-cba4bbb530cac309072c.mp3",
+      "file_duration_seconds": 18.312,
+      "automated_transcript": "前ページに記述したように、麹には三種類の酵素が豊富に含まれています。1. アミラーゼ（でんぷん分解酵素）2. プロテアーゼ（タンパク質分解酵素）3. リパーゼ（脂肪分解酵素）",
+      "automated_transcript_review": "Compared final unprompted transcripts with source article and reviewed speech input. Two batches: 1–10 and 11–19. Numeric temperatures, ingredient ratio, quantities, durations, storage periods and numbered steps checked. Primary ASR normalizes supplied grammatical typos 含まれいます/加熱処理されいる; reviewed input retains original wording. Other differences are script/punctuation, heading formatting or homophone normalization. Automated transcription is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; transcript content and low-energy gap measurements reviewed. Audible pitch, voice quality and smoothness not listening-verified."
+    },
+    {
+      "key": "酵素は簡単にいうとハサミのようなもので ダンゴ状に繋がった形のでんぷんやタンパク質の繋がりを 細かく切り刻んで最小単位のブドウ糖やアミノ酸にしてくれるのです。",
+      "card": "aged-amazake",
+      "message_id": "amazake-chunk-06",
+      "batch": 1,
+      "display": "酵素は簡単にいうとハサミのようなもので\n\nダンゴ状に繋がった形のでんぷんやタンパク質の繋がりを\n\n細かく切り刻んで最小単位のブドウ糖(甘味)やアミノ酸(旨味)にしてくれるのです。\n\n",
+      "input": "こうそわかんたんにいうとはさみのようなもので、だんごじょうにつながったかたちのでんぷんや、たんぱくしつのつながりお、こまかくきりきざんで、さいしょうたんいのぶどうとう、あまみや、あみのさん、うまみにしてくれるのです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied article and reviewed article furigana; pinned exact lexical dictionary readings checked against intended culinary, enzyme and numeric context. All readings checked separately from raw display and lookup keys.",
+      "context_review": "ハサミ はさみ lexical は; ダンゴ状 だんごじょう; 繋がり つながり; 最小単位 さいしょうたんい; 甘味 あまみ and 旨味 うまみ are explanatory parentheses and are spoken. Contextual は→わ, を→お; lexical は in ご飯/ハサミ/働く retained. Source wraps joined and clause boundaries reviewed for speech only.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical spelling/reading references; full-passage and unconfirmed compound targets provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "糖",
+          "reading": "とう",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L92221"
+        },
+        {
+          "form": "質",
+          "reading": "しつ",
+          "accent_variants": [
+            0,
+            2
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L59534"
+        },
+        {
+          "form": "甘味",
+          "reading": "あまみ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34500"
+        },
+        {
+          "form": "旨味",
+          "reading": "うまみ",
+          "accent_variants": [
+            0,
+            3
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L56998"
+        },
+        {
+          "form": "味",
+          "reading": "あじ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L109314"
+        },
+        {
+          "form": "酵素",
+          "reading": "こうそ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50572"
+        },
+        {
+          "form": "簡単",
+          "reading": "かんたん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34631"
+        },
+        {
+          "form": "形",
+          "reading": "かたち",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L42609"
+        }
+      ],
+      "pronunciation_guidance": "入力のひらがな全文だけを一度、普段のMarinの声で、自然な東京の日本語として滑らかに朗読してください。語句を省略、追加、言い換えせず、長母音と促音を保ちます。助詞を前の句につなげ、句読点で軽く区切ります。単語ごとの間や声色の演出は避けます。甘酒についての教材です。全文と未確認の複合語のイントネーションは暫定的です。 確認した語彙アクセント（0は平板、数字は下がり目の拍）：糖 とう 1; 質 しつ 0; 甘味 あまみ 0; 旨味 うまみ 0; 味 あじ 0; 酵素 こうそ 1; 簡単 かんたん 0; 形 かたち 0。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-amazake/marin-a7954284862a0a611c85.mp3",
+      "file_duration_seconds": 19.464,
+      "automated_transcript": "酵素は簡単に言うとはさみのようなもので、団子状につながった形のデンプンやタンパク質のつながりを細かく切り刻んで、最小単位のブドウ糖、甘みやアミノ酸、うまみにしてくれるのです。",
+      "automated_transcript_review": "Compared final unprompted transcripts with source article and reviewed speech input. Two batches: 1–10 and 11–19. Numeric temperatures, ingredient ratio, quantities, durations, storage periods and numbered steps checked. Primary ASR normalizes supplied grammatical typos 含まれいます/加熱処理されいる; reviewed input retains original wording. Other differences are script/punctuation, heading formatting or homophone normalization. Automated transcription is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; transcript content and low-energy gap measurements reviewed. Audible pitch, voice quality and smoothness not listening-verified."
+    },
+    {
+      "key": "ブドウ糖までの最小単位に変えてくれる事により、口に入れた瞬間に甘味を感じる事が出来るの です。",
+      "card": "aged-amazake",
+      "message_id": "amazake-chunk-07",
+      "batch": 1,
+      "display": "ブドウ糖までの最小単位に変えてくれる事により、口に入れた瞬間に甘味を感じる事が出来るの\n\nです。\n\n",
+      "input": "ぶどうとうまでのさいしょうたんいにかえてくれることにより、くちにいれたしゅんかんに、あまみおかんじることができるのです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied article and reviewed article furigana; pinned exact lexical dictionary readings checked against intended culinary, enzyme and numeric context. All readings checked separately from raw display and lookup keys.",
+      "context_review": "瞬間 しゅんかん; 甘味 あまみ; 口に入れた くちにいれた. Contextual は→わ, を→お; lexical は in ご飯/ハサミ/働く retained. Source wraps joined and clause boundaries reviewed for speech only.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical spelling/reading references; full-passage and unconfirmed compound targets provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "事",
+          "reading": "こと",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L57947"
+        },
+        {
+          "form": "糖",
+          "reading": "とう",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L92221"
+        },
+        {
+          "form": "甘味",
+          "reading": "あまみ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34500"
+        },
+        {
+          "form": "出来",
+          "reading": "でき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L64102"
+        },
+        {
+          "form": "味",
+          "reading": "あじ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L109314"
+        },
+        {
+          "form": "間",
+          "reading": "あいだ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34867"
+        },
+        {
+          "form": "口",
+          "reading": "くち",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L48778"
+        },
+        {
+          "form": "瞬間",
+          "reading": "しゅんかん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L64294"
+        },
+        {
+          "form": "感",
+          "reading": "かん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34148"
+        }
+      ],
+      "pronunciation_guidance": "入力のひらがな全文だけを一度、普段のMarinの声で、自然な東京の日本語として滑らかに朗読してください。語句を省略、追加、言い換えせず、長母音と促音を保ちます。助詞を前の句につなげ、句読点で軽く区切ります。単語ごとの間や声色の演出は避けます。甘酒についての教材です。全文と未確認の複合語のイントネーションは暫定的です。 確認した語彙アクセント（0は平板、数字は下がり目の拍）：事 こと 2; 糖 とう 1; 甘味 あまみ 0; 出来 でき 0; 味 あじ 0; 間 あいだ 0; 口 くち 0; 瞬間 しゅんかん 0; 感 かん 1。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-amazake/marin-0d388d507963f915c22b.mp3",
+      "file_duration_seconds": 9.72,
+      "automated_transcript": "ブドウ糖までの最小単位に変えてくれることにより、口に入れた瞬間に甘味を感じることができるのです。",
+      "automated_transcript_review": "Compared final unprompted transcripts with source article and reviewed speech input. Two batches: 1–10 and 11–19. Numeric temperatures, ingredient ratio, quantities, durations, storage periods and numbered steps checked. Primary ASR normalizes supplied grammatical typos 含まれいます/加熱処理されいる; reviewed input retains original wording. Other differences are script/punctuation, heading formatting or homophone normalization. Automated transcription is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; transcript content and low-energy gap measurements reviewed. Audible pitch, voice quality and smoothness not listening-verified."
+    },
+    {
+      "key": "甘酒の栄養素 甘酒にはビタミンB1、ビタミンB2、ビタミンB6、葉酸、食物繊維、オリゴ糖、システイン アルギニン、グルタミンなどのアミノ酸、大量のブドウ糖と酵素などが含まれます。",
+      "card": "aged-amazake",
+      "message_id": "amazake-chunk-08",
+      "batch": 1,
+      "display": "(3)甘酒の栄養素\n\n甘酒にはビタミンB1、ビタミンB2、ビタミンB6、葉酸、食物繊維、オリゴ糖、システイン\n\nアルギニン、グルタミンなどのアミノ酸、大量のブドウ糖と酵素などが含まれます。\n\n",
+      "input": "さん、あまざけのえいようそ。あまざけにわ、びたみんびーわん、びたみんびーつー、びたみんびーしっくす、ようさん、しょくもつせんい、おりごとう、しすていん、あるぎにん、ぐるたみんなどのあみのさん、たいりょうのぶどうとうとこうそなどがふくまれます。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied article and reviewed article furigana; pinned exact lexical dictionary readings checked against intended culinary, enzyme and numeric context. All readings checked separately from raw display and lookup keys.",
+      "context_review": "Vitamin B1/B2/B6 read びたみんびーわん/びーつー/びーしっくす, as article furigana. 葉酸 ようさん; 食物繊維 しょくもつせんい; システイン しすていん; アルギニン あるぎにん; グルタミン ぐるたみん. Preserve full nutrient list. Contextual は→わ, を→お; lexical は in ご飯/ハサミ/働く retained. Source wraps joined and clause boundaries reviewed for speech only.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical spelling/reading references; full-passage and unconfirmed compound targets provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "食物",
+          "reading": "しょくもつ",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68828"
+        },
+        {
+          "form": "糖",
+          "reading": "とう",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L92221"
+        },
+        {
+          "form": "栄養素",
+          "reading": "えいようそ",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L25630"
+        },
+        {
+          "form": "物",
+          "reading": "もの",
+          "accent_variants": [
+            2,
+            0
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L104149"
+        },
+        {
+          "form": "甘酒",
+          "reading": "あまざけ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34477"
+        },
+        {
+          "form": "大量",
+          "reading": "たいりょう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L83318"
+        },
+        {
+          "form": "酵素",
+          "reading": "こうそ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50572"
+        },
+        {
+          "form": "葉酸",
+          "reading": "ようさん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L114300"
+        },
+        {
+          "form": "食物繊維",
+          "reading": "しょくもつせんい",
+          "accent_variants": [
+            5
+          ],
+          "selected_accent": 5,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68829"
+        }
+      ],
+      "pronunciation_guidance": "入力のひらがな全文だけを一度、普段のMarinの声で、自然な東京の日本語として滑らかに朗読してください。語句を省略、追加、言い換えせず、長母音と促音を保ちます。助詞を前の句につなげ、句読点で軽く区切ります。単語ごとの間や声色の演出は避けます。甘酒についての教材です。全文と未確認の複合語のイントネーションは暫定的です。 確認した語彙アクセント（0は平板、数字は下がり目の拍）：食物 しょくもつ 2; 糖 とう 1; 栄養素 えいようそ 3; 物 もの 2; 甘酒 あまざけ 0; 大量 たいりょう 0; 酵素 こうそ 1; 葉酸 ようさん 0; 食物繊維 しょくもつせんい 5。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-amazake/marin-b200f77b1c92769ec75f.mp3",
+      "file_duration_seconds": 20.904,
+      "automated_transcript": "3.甘酒の栄養素 甘酒にはビタミンB1、ビタミンB2、ビタミンB6、葉酸、食物繊維、オリゴ糖、システイン、アルギニン、グルタミンなどのアミノ酸、大量のブドウ糖と酵素などが含まれます。",
+      "automated_transcript_review": "Compared final unprompted transcripts with source article and reviewed speech input. Two batches: 1–10 and 11–19. Numeric temperatures, ingredient ratio, quantities, durations, storage periods and numbered steps checked. Primary ASR normalizes supplied grammatical typos 含まれいます/加熱処理されいる; reviewed input retains original wording. Other differences are script/punctuation, heading formatting or homophone normalization. Automated transcription is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; transcript content and low-energy gap measurements reviewed. Audible pitch, voice quality and smoothness not listening-verified."
+    },
+    {
+      "key": "これらの栄養素は栄養剤として使われている点滴の栄養素とほぼ同一の内容であることから、 飲む点滴と呼ばれています。 しかし通常流通している甘酒は、80℃以上加熱処理されいる為、ビタミンや酵素などは破壊され ているのです。",
+      "card": "aged-amazake",
+      "message_id": "amazake-chunk-09",
+      "batch": 1,
+      "display": "これらの栄養素は栄養剤として使われている点滴の栄養素とほぼ同一の内容であることから、\n\n飲む点滴と呼ばれています。\n\nしかし通常流通している甘酒は、80℃以上加熱処理されいる為、ビタミンや酵素などは破壊され\n\nているのです。\n\n",
+      "input": "これらのえいようそわ、えいようざいとしてつかわれているてんてきのえいようそと、ほぼどういつのないようであることから、のむてんてきとよばれています。しかしつうじょうりゅうつうしているあまざけわ、はちじゅうどいじょうかねつしょりされいるため、びたみんやこうそなどわはかいされているのです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied article and reviewed article furigana; pinned exact lexical dictionary readings checked against intended culinary, enzyme and numeric context. All readings checked separately from raw display and lookup keys.",
+      "context_review": "栄養剤 えいようざい; 点滴 てんてき; 同一 どういつ; 80℃以上 はちじゅうどいじょう. Preserve source typo 加熱処理されいる as かねつしょりされいる, not されている. Read source claims without factual editing. Contextual は→わ, を→お; lexical は in ご飯/ハサミ/働く retained. Source wraps joined and clause boundaries reviewed for speech only.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical spelling/reading references; full-passage and unconfirmed compound targets provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "為",
+          "reading": "ため",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L22222"
+        },
+        {
+          "form": "栄養素",
+          "reading": "えいようそ",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L25630"
+        },
+        {
+          "form": "常",
+          "reading": "つね",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67904"
+        },
+        {
+          "form": "甘酒",
+          "reading": "あまざけ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34477"
+        },
+        {
+          "form": "酵素",
+          "reading": "こうそ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50572"
+        },
+        {
+          "form": "熱",
+          "reading": "ねつ",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L96021"
+        },
+        {
+          "form": "上",
+          "reading": "うえ",
+          "accent_variants": [
+            0,
+            2
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67322"
+        },
+        {
+          "form": "通常",
+          "reading": "つうじょう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L88275"
+        },
+        {
+          "form": "点滴",
+          "reading": "てんてき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L90276"
+        },
+        {
+          "form": "同一",
+          "reading": "どういつ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L92790"
+        },
+        {
+          "form": "内容",
+          "reading": "ないよう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L94393"
+        },
+        {
+          "form": "流通",
+          "reading": "りゅうつう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L116166"
+        },
+        {
+          "form": "破壊",
+          "reading": "はかい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L96811"
+        }
+      ],
+      "pronunciation_guidance": "入力のひらがな全文だけを一度、普段のMarinの声で、自然な東京の日本語として滑らかに朗読してください。語句を省略、追加、言い換えせず、長母音と促音を保ちます。助詞を前の句につなげ、句読点で軽く区切ります。単語ごとの間や声色の演出は避けます。甘酒についての教材です。全文と未確認の複合語のイントネーションは暫定的です。 確認した語彙アクセント（0は平板、数字は下がり目の拍）：為 ため 2; 栄養素 えいようそ 3; 常 つね 1; 甘酒 あまざけ 0; 酵素 こうそ 1; 熱 ねつ 2; 上 うえ 0; 通常 つうじょう 0; 点滴 てんてき 0; 同一 どういつ 0; 内容 ないよう 0; 流通 りゅうつう 0; 破壊 はかい 0。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-amazake/marin-2046b91fc84c1be30fc1.mp3",
+      "file_duration_seconds": 20.856,
+      "automated_transcript": "これらの栄養素は、栄養剤として使われている点滴の栄養素とほぼ同一の内容であることから、「飲む点滴」と呼ばれています。しかし、通常流通している甘酒は、80度以上加熱処理されるため、ビタミンや酵素などは破壊されているのです。",
+      "automated_transcript_review": "Compared final unprompted transcripts with source article and reviewed speech input. Two batches: 1–10 and 11–19. Numeric temperatures, ingredient ratio, quantities, durations, storage periods and numbered steps checked. Primary ASR normalizes supplied grammatical typos 含まれいます/加熱処理されいる; reviewed input retains original wording. Other differences are script/punctuation, heading formatting or homophone normalization. Automated transcription is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; transcript content and low-energy gap measurements reviewed. Audible pitch, voice quality and smoothness not listening-verified."
+    },
+    {
+      "key": "熟成甘酒の作り方 ①甘酒を作る最適な保温温度 100℃でほぼ失活 40℃ - 65℃ 3大消化酵素 アミラーゼ プロテアーゼ リパーゼ",
+      "card": "aged-amazake",
+      "message_id": "amazake-chunk-10",
+      "batch": 1,
+      "display": "(4)熟成甘酒の作り方\n\n①甘酒を作る最適な保温温度\n\n100℃でほぼ失活\n\n40℃ - 65℃ 3大消化酵素\n\nアミラーゼ（デンプンを糖分に分解）\n\nプロテアーゼ（たんぱく質をアミノ酸に分解）\n\nリパーゼ（脂肪を分解）\n",
+      "input": "よん、じゅくせいあまざけのつくりかた。いち、あまざけおつくるさいてきなほおんおんど。ひゃくどでほぼしっかつ。よんじゅうどからろくじゅうごど、さんだいしょうかこうそ。あみらーぜ、でんぷんおとうぶんにぶんかい。ぷろてあーぜ、たんぱくしつおあみのさんにぶんかい。りぱーぜ、しぼうおぶんかい。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied article and reviewed article furigana; pinned exact lexical dictionary readings checked against intended culinary, enzyme and numeric context. All readings checked separately from raw display and lookup keys.",
+      "context_review": "熟成甘酒 じゅくせいあまざけ; 保温 ほおん with two お morae; 失活 しっかつ doubled consonant; 100℃ ひゃくど; 40℃–65℃ よんじゅうどからろくじゅうごど; 3大 さんだい. All three enzyme list entries and headings spoken. Contextual は→わ, を→お; lexical は in ご飯/ハサミ/働く retained. Source wraps joined and clause boundaries reviewed for speech only.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical spelling/reading references; full-passage and unconfirmed compound targets provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "分解",
+          "reading": "ぶんかい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L104380"
+        },
+        {
+          "form": "糖",
+          "reading": "とう",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L92221"
+        },
+        {
+          "form": "質",
+          "reading": "しつ",
+          "accent_variants": [
+            0,
+            2
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L59534"
+        },
+        {
+          "form": "消化",
+          "reading": "しょうか",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L66663"
+        },
+        {
+          "form": "温度",
+          "reading": "おんど",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L27746"
+        },
+        {
+          "form": "甘酒",
+          "reading": "あまざけ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34477"
+        },
+        {
+          "form": "消化酵素",
+          "reading": "しょうかこうそ",
+          "accent_variants": [
+            4
+          ],
+          "selected_accent": 4,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L66667"
+        },
+        {
+          "form": "酵素",
+          "reading": "こうそ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50572"
+        },
+        {
+          "form": "脂肪",
+          "reading": "しぼう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L57548"
+        },
+        {
+          "form": "作り方",
+          "reading": "つくりかた",
+          "accent_variants": [
+            4,
+            5
+          ],
+          "selected_accent": 4,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L53956"
+        },
+        {
+          "form": "最適",
+          "reading": "さいてき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L53283"
+        },
+        {
+          "form": "失活",
+          "reading": "しっかつ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L59389"
+        },
+        {
+          "form": "糖分",
+          "reading": "とうぶん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L92231"
+        },
+        {
+          "form": "保温",
+          "reading": "ほおん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106274"
+        }
+      ],
+      "pronunciation_guidance": "入力のひらがな全文だけを一度、普段のMarinの声で、自然な東京の日本語として滑らかに朗読してください。語句を省略、追加、言い換えせず、長母音と促音を保ちます。助詞を前の句につなげ、句読点で軽く区切ります。単語ごとの間や声色の演出は避けます。甘酒についての教材です。全文と未確認の複合語のイントネーションは暫定的です。 確認した語彙アクセント（0は平板、数字は下がり目の拍）：分解 ぶんかい 0; 糖 とう 1; 質 しつ 0; 消化 しょうか 0; 温度 おんど 1; 甘酒 あまざけ 0; 消化酵素 しょうかこうそ 4; 酵素 こうそ 1; 脂肪 しぼう 0; 作り方 つくりかた 4; 最適 さいてき 0; 失活 しっかつ 0; 糖分 とうぶん 1; 保温 ほおん 0。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-amazake/marin-87e5ababb3ec72159373.mp3",
+      "file_duration_seconds": 24.456,
+      "automated_transcript": "4.熟成甘酒の作り方。1.甘酒を作る最適な保温温度。100度でほぼ失活。40度から65度。3大消化酵素。アミラーゼ、澱粉を糖分に分解。プロテアーゼ、タンパク質をアミノ酸に分解。リパーゼ、脂肪を分解。",
+      "automated_transcript_review": "Compared final unprompted transcripts with source article and reviewed speech input. Two batches: 1–10 and 11–19. Numeric temperatures, ingredient ratio, quantities, durations, storage periods and numbered steps checked. Primary ASR normalizes supplied grammatical typos 含まれいます/加熱処理されいる; reviewed input retains original wording. Other differences are script/punctuation, heading formatting or homophone normalization. Automated transcription is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; transcript content and low-energy gap measurements reviewed. Audible pitch, voice quality and smoothness not listening-verified."
+    },
+    {
+      "key": "麹に含まれる消化酵素は、熱に弱く温めていくと、リパーゼ、プロテアーゼ、アミラーゼの順に徐々に失活していきます。",
+      "card": "aged-amazake",
+      "message_id": "amazake-chunk-11",
+      "batch": 2,
+      "display": "\n麹に含まれる消化酵素は、熱に弱く温めていくと、リパーゼ、プロテアーゼ、アミラーゼの順に徐々に失活（壊れる）していきます。\n\n",
+      "input": "こうじにふくまれるしょうかこうそわ、ねつによわくあたためていくと、りぱーぜ、ぷろてあーぜ、あみらーぜのじゅんに、じょじょにしっかつ、こわれる、していきます。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied article and reviewed article furigana; pinned exact lexical dictionary readings checked against intended culinary, enzyme and numeric context. All readings checked separately from raw display and lookup keys.",
+      "context_review": "失活 しっかつ, not source-previous article 死活 しかつ. Parenthetical 壊れる こわれる spoken, preserve source order リパーゼ→プロテアーゼ→アミラーゼ. Contextual は→わ, を→お; lexical は in ご飯/ハサミ/働く retained. Source wraps joined and clause boundaries reviewed for speech only.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical spelling/reading references; full-passage and unconfirmed compound targets provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "麹",
+          "reading": "こうじ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L51348"
+        },
+        {
+          "form": "消化",
+          "reading": "しょうか",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L66663"
+        },
+        {
+          "form": "消化酵素",
+          "reading": "しょうかこうそ",
+          "accent_variants": [
+            4
+          ],
+          "selected_accent": 4,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L66667"
+        },
+        {
+          "form": "酵素",
+          "reading": "こうそ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50572"
+        },
+        {
+          "form": "熱",
+          "reading": "ねつ",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L96021"
+        },
+        {
+          "form": "徐々",
+          "reading": "じょじょ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L65416"
+        },
+        {
+          "form": "失活",
+          "reading": "しっかつ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L59389"
+        },
+        {
+          "form": "順",
+          "reading": "じゅん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L64488"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once, as smooth natural Tokyo Japanese narration in the normal Marin voice. No omitted, added or changed words. Preserve long vowels and doubled consonants. Light clause pauses at punctuation only; attach particles to the preceding phrase. Narrate the enzyme inactivation order: lipase, protease, amylase. Preserve the parenthetical こわれる. Whole-passage and unconfirmed compound pitch provisional. Checked lexical accents, applied naturally (0 heiban; other numbers drop after that mora): 麹 こうじ type 0; 消化 しょうか type 0; 消化酵素 しょうかこうそ type 4; 酵素 こうそ type 1; 熱 ねつ type 2; 徐々 じょじょ type 1; 失活 しっかつ type 0; 順 じゅん type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-amazake/marin-1cb2dc74a635b5377d15.mp3",
+      "file_duration_seconds": 12.504,
+      "automated_transcript": "麹に含まれる消化酵素は熱に弱く温めていくと、リパーゼ、プロテアーゼ、アミラーゼの順に徐々に失活、壊れるしていきます。",
+      "automated_transcript_review": "Compared final unprompted transcripts with source article and reviewed speech input. Two batches: 1–10 and 11–19. Numeric temperatures, ingredient ratio, quantities, durations, storage periods and numbered steps checked. Primary ASR normalizes supplied grammatical typos 含まれいます/加熱処理されいる; reviewed input retains original wording. Other differences are script/punctuation, heading formatting or homophone normalization. Automated transcription is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; transcript content and low-energy gap measurements reviewed. Audible pitch, voice quality and smoothness not listening-verified."
+    },
+    {
+      "key": "麹が含んでいる様々な消化酵素をまんべんなく働かせるには 55℃～60℃で保温して甘酒を造ります。",
+      "card": "aged-amazake",
+      "message_id": "amazake-chunk-12",
+      "batch": 2,
+      "display": "麹が含んでいる様々な消化酵素をまんべんなく働かせるには\n\n55℃～60℃で保温して甘酒を造ります。\n\n",
+      "input": "こうじがふくんでいるさまざまなしょうかこうそお、まんべんなくはたらかせるにわ、ごじゅうごどからろくじゅうどでほおんして、あまざけおつくります。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied article and reviewed article furigana; pinned exact lexical dictionary readings checked against intended culinary, enzyme and numeric context. All readings checked separately from raw display and lookup keys.",
+      "context_review": "55℃～60℃ ごじゅうごどからろくじゅうど; 保温 ほおん; 造ります つくります. Contextual は→わ, を→お; lexical は in ご飯/ハサミ/働く retained. Source wraps joined and clause boundaries reviewed for speech only.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical spelling/reading references; full-passage and unconfirmed compound targets provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "麹",
+          "reading": "こうじ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L51348"
+        },
+        {
+          "form": "消化",
+          "reading": "しょうか",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L66663"
+        },
+        {
+          "form": "甘酒",
+          "reading": "あまざけ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34477"
+        },
+        {
+          "form": "消化酵素",
+          "reading": "しょうかこうそ",
+          "accent_variants": [
+            4
+          ],
+          "selected_accent": 4,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L66667"
+        },
+        {
+          "form": "酵素",
+          "reading": "こうそ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50572"
+        },
+        {
+          "form": "様々",
+          "reading": "さまざま",
+          "accent_variants": [
+            2,
+            3
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L114056"
+        },
+        {
+          "form": "保温",
+          "reading": "ほおん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106274"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once, as smooth natural Tokyo Japanese narration in the normal Marin voice. No omitted, added or changed words. Preserve long vowels and doubled consonants. Light clause pauses at punctuation only; attach particles to the preceding phrase. The holding temperature is ごじゅうごどからろくじゅうど, 55 to 60 degrees Celsius. Whole-passage and unconfirmed compound pitch provisional. Checked lexical accents, applied naturally (0 heiban; other numbers drop after that mora): 麹 こうじ type 0; 消化 しょうか type 0; 甘酒 あまざけ type 0; 消化酵素 しょうかこうそ type 4; 酵素 こうそ type 1; 様々 さまざま type 2; 保温 ほおん type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-amazake/marin-a20b68938ad7c7c6dfed.mp3",
+      "file_duration_seconds": 12.168,
+      "automated_transcript": "麹が含んでいる様々な消化酵素を満遍なく働かせるには、五十五度から六十度で保温して甘酒を作ります。",
+      "automated_transcript_review": "Compared final unprompted transcripts with source article and reviewed speech input. Two batches: 1–10 and 11–19. Numeric temperatures, ingredient ratio, quantities, durations, storage periods and numbered steps checked. Primary ASR normalizes supplied grammatical typos 含まれいます/加熱処理されいる; reviewed input retains original wording. Other differences are script/punctuation, heading formatting or homophone normalization. Automated transcription is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; transcript content and low-energy gap measurements reviewed. Audible pitch, voice quality and smoothness not listening-verified."
+    },
+    {
+      "key": "一般に家庭で甘酒を作る方法は炊飯器や土鍋などを使い作る方法がYouTubeなどに あげられていますが、この方法で作ると保温温度が曖昧で尚且つ温度を一定に保つ事が 出来ません。その為出来上がった甘酒の品質がその都度バラバラで なかなか毎回美味しくまた栄養価のあるものは作れません。",
+      "card": "aged-amazake",
+      "message_id": "amazake-chunk-13",
+      "batch": 2,
+      "display": "一般に家庭で甘酒を作る方法は炊飯器や土鍋などを使い作る方法がYouTubeなどに\n\nあげられていますが、この方法で作ると保温温度が曖昧で尚且つ温度を一定に保つ事が\n\n出来ません。その為出来上がった甘酒の品質がその都度バラバラで\n\nなかなか毎回美味しくまた栄養価のあるものは作れません。\n\n",
+      "input": "いっぱんにかていであまざけおつくるほうほうわ、すいはんきやどなべなどおつかいつくるほうほうが、ゆーちゅーぶなどにあげられていますが、このほうほうでつくると、ほおんおんどがあいまいで、なおかつおんどおいっていにたもつことができません。そのためできあがったあまざけのひんしつが、そのつどばらばらで、なかなかまいかいおいしく、またえいようかのあるものわつくれません。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied article and reviewed article furigana; pinned exact lexical dictionary readings checked against intended culinary, enzyme and numeric context. All readings checked separately from raw display and lookup keys.",
+      "context_review": "炊飯器 すいはんき; 土鍋 どなべ; YouTube ゆーちゅーぶ; 曖昧 あいまい; 尚且つ なおかつ; 一定 いってい; 都度 つど; 栄養価 えいようか. All source clauses retained. Contextual は→わ, を→お; lexical は in ご飯/ハサミ/働く retained. Source wraps joined and clause boundaries reviewed for speech only.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical spelling/reading references; full-passage and unconfirmed compound targets provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "事",
+          "reading": "こと",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L57947"
+        },
+        {
+          "form": "質",
+          "reading": "しつ",
+          "accent_variants": [
+            0,
+            2
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L59534"
+        },
+        {
+          "form": "為",
+          "reading": "ため",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L22222"
+        },
+        {
+          "form": "栄養価",
+          "reading": "えいようか",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L25623"
+        },
+        {
+          "form": "出来",
+          "reading": "でき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L64102"
+        },
+        {
+          "form": "家",
+          "reading": "いえ",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L28971"
+        },
+        {
+          "form": "味",
+          "reading": "あじ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L109314"
+        },
+        {
+          "form": "温度",
+          "reading": "おんど",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L27746"
+        },
+        {
+          "form": "甘酒",
+          "reading": "あまざけ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34477"
+        },
+        {
+          "form": "上",
+          "reading": "うえ",
+          "accent_variants": [
+            0,
+            2
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67322"
+        },
+        {
+          "form": "方法",
+          "reading": "ほうほう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L107156"
+        },
+        {
+          "form": "一般",
+          "reading": "いっぱん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L23606"
+        },
+        {
+          "form": "保温",
+          "reading": "ほおん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106274"
+        },
+        {
+          "form": "家庭",
+          "reading": "かてい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L29062"
+        },
+        {
+          "form": "炊飯器",
+          "reading": "すいはんき",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L72290"
+        },
+        {
+          "form": "土鍋",
+          "reading": "どなべ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L91224"
+        },
+        {
+          "form": "曖昧",
+          "reading": "あいまい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L120566"
+        },
+        {
+          "form": "一定",
+          "reading": "いってい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L23495"
+        },
+        {
+          "form": "品質",
+          "reading": "ひんしつ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L101698"
+        },
+        {
+          "form": "都度",
+          "reading": "つど",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L91080"
+        },
+        {
+          "form": "毎回",
+          "reading": "まいかい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L108827"
+        }
+      ],
+      "pronunciation_guidance": "入力のひらがな全文だけを一度、普段のMarinの声で、自然な東京の日本語として滑らかに朗読してください。語句を省略、追加、言い換えせず、長母音と促音を保ちます。助詞を前の句につなげ、句読点で軽く区切ります。単語ごとの間や声色の演出は避けます。甘酒についての教材です。全文と未確認の複合語のイントネーションは暫定的です。 確認した語彙アクセント（0は平板、数字は下がり目の拍）：事 こと 2; 質 しつ 0; 為 ため 2; 栄養価 えいようか 3; 出来 でき 0; 家 いえ 2; 味 あじ 0; 温度 おんど 1; 甘酒 あまざけ 0; 上 うえ 0; 方法 ほうほう 0; 一般 いっぱん 0; 保温 ほおん 0; 家庭 かてい 0; 炊飯器 すいはんき 3; 土鍋 どなべ 0; 曖昧 あいまい 0; 一定 いってい 0; 品質 ひんしつ 0; 都度 つど 1; 毎回 まいかい 0。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-amazake/marin-4f4cb3644c4162875bfc.mp3",
+      "file_duration_seconds": 27.456,
+      "automated_transcript": "一般家庭で甘酒を作る方法は、炊飯器や土鍋などを使い作る方法がYouTubeなどに挙げられていますが、この方法で作ると保温温度が曖昧で、なおかつ温度を一定に保つことができません。そのため出来上がった甘酒の品質がその都度バラバラで、なかなか毎回美味しく、また栄養価のあるものは作れません。",
+      "automated_transcript_review": "Compared final unprompted transcripts with source article and reviewed speech input. Two batches: 1–10 and 11–19. Numeric temperatures, ingredient ratio, quantities, durations, storage periods and numbered steps checked. Primary ASR normalizes supplied grammatical typos 含まれいます/加熱処理されいる; reviewed input retains original wording. Other differences are script/punctuation, heading formatting or homophone normalization. Automated transcription is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; transcript content and low-energy gap measurements reviewed. Audible pitch, voice quality and smoothness not listening-verified."
+    },
+    {
+      "key": "炊飯器は70℃を超えます 土鍋保温ポットは温度を保てません",
+      "card": "aged-amazake",
+      "message_id": "amazake-chunk-14",
+      "batch": 2,
+      "display": "炊飯器は70℃を超えます\n\n土鍋保温ポットは温度を保てません\n\n",
+      "input": "すいはんきわななじゅうどおこえます。どなべほおんぽっとわ、おんどおたもてません。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied article and reviewed article furigana; pinned exact lexical dictionary readings checked against intended culinary, enzyme and numeric context. All readings checked separately from raw display and lookup keys.",
+      "context_review": "70℃ ななじゅうど; 土鍋保温ポット どなべほおんぽっと; 超えます こえます. Contextual は→わ, を→お; lexical は in ご飯/ハサミ/働く retained. Source wraps joined and clause boundaries reviewed for speech only.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical spelling/reading references; full-passage and unconfirmed compound targets provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "温度",
+          "reading": "おんど",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L27746"
+        },
+        {
+          "form": "保温",
+          "reading": "ほおん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106274"
+        },
+        {
+          "form": "炊飯器",
+          "reading": "すいはんき",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L72290"
+        },
+        {
+          "form": "土鍋",
+          "reading": "どなべ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L91224"
+        }
+      ],
+      "pronunciation_guidance": "入力のひらがな全文だけを一度、普段のMarinの声で、自然な東京の日本語として滑らかに朗読してください。語句を省略、追加、言い換えせず、長母音と促音を保ちます。助詞を前の句につなげ、句読点で軽く区切ります。単語ごとの間や声色の演出は避けます。甘酒についての教材です。全文と未確認の複合語のイントネーションは暫定的です。 確認した語彙アクセント（0は平板、数字は下がり目の拍）：温度 おんど 1; 保温 ほおん 0; 炊飯器 すいはんき 3; 土鍋 どなべ 0。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-amazake/marin-04706ab1a9381018d049.mp3",
+      "file_duration_seconds": 7.656,
+      "automated_transcript": "炊飯器は70度を超えます。土鍋保温ポットは温度を保てません。",
+      "automated_transcript_review": "Compared final unprompted transcripts with source article and reviewed speech input. Two batches: 1–10 and 11–19. Numeric temperatures, ingredient ratio, quantities, durations, storage periods and numbered steps checked. Primary ASR normalizes supplied grammatical typos 含まれいます/加熱処理されいる; reviewed input retains original wording. Other differences are script/punctuation, heading formatting or homophone normalization. Automated transcription is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; transcript content and low-energy gap measurements reviewed. Audible pitch, voice quality and smoothness not listening-verified."
+    },
+    {
+      "key": "◎温度と時間の設定可能な保温器 30℃～65℃の温度設定 48時間位の発酵時間の可能なもの ◎低温調理器や保温のみのタイプ",
+      "card": "aged-amazake",
+      "message_id": "amazake-chunk-15",
+      "batch": 2,
+      "display": "◎温度と時間の設定可能な保温器\n\n30℃～65℃の温度設定\n\n48時間位の発酵時間の可能なもの\n\n◎低温調理器や保温のみのタイプ\n\n",
+      "input": "おんどとじかんのせっていかのうなほおんき。さんじゅうどから、ろくじゅうごどのおんどせってい。よんじゅうはちじかんくらいの、はっこうじかんのかのうなもの。ていおんちょうりきや、ほおんのみのたいぷ。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied article and reviewed article furigana; pinned exact lexical dictionary readings checked against intended culinary, enzyme and numeric context. All readings checked separately from raw display and lookup keys.",
+      "context_review": "30℃～65℃ さんじゅうどからろくじゅうごど; 48時間位 よんじゅうはちじかんくらい; 低温調理器 ていおんちょうりき. Bullet glyph silent, each item lightly separated. Contextual は→わ, を→お; lexical は in ご飯/ハサミ/働く retained. Source wraps joined and clause boundaries reviewed for speech only.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical spelling/reading references; full-passage and unconfirmed compound targets provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "発酵",
+          "reading": "はっこう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L98799"
+        },
+        {
+          "form": "時",
+          "reading": "とき",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L58330"
+        },
+        {
+          "form": "温度",
+          "reading": "おんど",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L27746"
+        },
+        {
+          "form": "間",
+          "reading": "あいだ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34867"
+        },
+        {
+          "form": "保温",
+          "reading": "ほおん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106274"
+        },
+        {
+          "form": "時間",
+          "reading": "じかん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L58356"
+        },
+        {
+          "form": "可能",
+          "reading": "かのう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L28844"
+        }
+      ],
+      "pronunciation_guidance": "指定されたひらがな全文だけを一度、通常のMarinの声で、自然な東京の日本語として滑らかに朗読してください。省略、言い換え、追加をせず、長母音と促音を保ち、助詞を前の句につなげます。句読点で軽く区切り、数字の一つ一つの音を正確に読みます。温度設定は「さんじゅうどから、ろくじゅうごど」です。65度の「ご」を省略せず読みます。 全文と未確認の複合語のイントネーションは暫定的です。確認した語彙アクセント：発酵 はっこう 0型; 時 とき 2型; 温度 おんど 1型; 間 あいだ 0型; 保温 ほおん 0型; 時間 じかん 0型; 可能 かのう 0型。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-amazake/marin-af014215cb6c37e86722.mp3",
+      "file_duration_seconds": 16.008,
+      "automated_transcript": "温度と時間の設定可能な保温器。30度から60度の温度設定、48時間くらいの発酵時間の可能なもの。低温調理器や保温のみのタイプ。",
+      "automated_transcript_review": "Compared final unprompted transcripts with source article and reviewed speech input. Two batches: 1–10 and 11–19. Numeric temperatures, ingredient ratio, quantities, durations, storage periods and numbered steps checked. Primary ASR normalizes supplied grammatical typos 含まれいます/加熱処理されいる; reviewed input retains original wording. Other differences are script/punctuation, heading formatting or homophone normalization. Automated transcription is not listening or audible-pitch verification. Primary ASR writes 60℃; independent whisper-1 without expected-text prompting retains 65℃ but writes 高温器 for 保温器. Both raw recognition results saved; input remains ろくじゅうごど/ほおんき. No audible confirmation claimed.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; transcript content and low-energy gap measurements reviewed. Audible pitch, voice quality and smoothness not listening-verified.",
+      "secondary_automated_transcript": "温度と時間の設定可能な高温器 30度から65度の温度設定 48時間くらいの発酵時間の可能なもの 低温調理器や保温のみのタイプ",
+      "secondary_transcription_model": "whisper-1"
+    },
+    {
+      "key": "②甘酒の配合と保温温度 基本の配合 麹 1.5：ミネラルウォーター1～1.2 55℃ 保温時間 8時間～10時間 出来上がりは急冷すると甘味が増します 冷蔵保存で1ヶ月 冷凍保存で半年",
+      "card": "aged-amazake",
+      "message_id": "amazake-chunk-16",
+      "batch": 2,
+      "display": "②甘酒の配合と保温温度\n\n基本の配合\n\nご飯1：麹 1.5：ミネラルウォーター1～1.2\n\n保温温度：55℃　保温時間 8時間～10時間\n\n出来上がりは急冷すると甘味が増します\n\n冷蔵保存で1ヶ月\n\n冷凍保存で半年\n\n",
+      "input": "に、あまざけのはいごうとほおんおんど。きほんのはいごう。ごはんいち、たい、こうじいってんご、たい、みねらるうぉーたーいちからいってんに。ほおんおんど、ごじゅうごど。ほおんじかん、はちじかんからじゅうじかん。できあがりわ、きゅうれいするとあまみがまします。れいぞうほぞんでいっかげつ。れいとうほぞんではんとし。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied article and reviewed article furigana; pinned exact lexical dictionary readings checked against intended culinary, enzyme and numeric context. All readings checked separately from raw display and lookup keys.",
+      "context_review": "Recipe ratio ご飯1：麹1.5：水1～1.2 read ごはんいち、たい、こうじいってんご、たい、みねらるうぉーたーいちからいってんに. 55℃ ごじゅうごど; 8–10時間 はちじかんからじゅうじかん; 急冷 きゅうれい; 1ヶ月 いっかげつ; 半年 はんとし. Retain source quantities and storage durations without changing them. Contextual は→わ, を→お; lexical は in ご飯/ハサミ/働く retained. Source wraps joined and clause boundaries reviewed for speech only.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical spelling/reading references; full-passage and unconfirmed compound targets provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "基本",
+          "reading": "きほん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L35697"
+        },
+        {
+          "form": "麹",
+          "reading": "こうじ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L51348"
+        },
+        {
+          "form": "甘味",
+          "reading": "あまみ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34500"
+        },
+        {
+          "form": "出来",
+          "reading": "でき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L64102"
+        },
+        {
+          "form": "時",
+          "reading": "とき",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L58330"
+        },
+        {
+          "form": "味",
+          "reading": "あじ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L109314"
+        },
+        {
+          "form": "保存",
+          "reading": "ほぞん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106354"
+        },
+        {
+          "form": "温度",
+          "reading": "おんど",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L27746"
+        },
+        {
+          "form": "間",
+          "reading": "あいだ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34867"
+        },
+        {
+          "form": "甘酒",
+          "reading": "あまざけ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34477"
+        },
+        {
+          "form": "上",
+          "reading": "うえ",
+          "accent_variants": [
+            0,
+            2
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67322"
+        },
+        {
+          "form": "ご飯",
+          "reading": "ごはん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L2149"
+        },
+        {
+          "form": "保温",
+          "reading": "ほおん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106274"
+        },
+        {
+          "form": "時間",
+          "reading": "じかん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L58356"
+        },
+        {
+          "form": "配合",
+          "reading": "はいごう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L97361"
+        },
+        {
+          "form": "急冷",
+          "reading": "きゅうれい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L38003"
+        },
+        {
+          "form": "半年",
+          "reading": "はんとし",
+          "accent_variants": [
+            4
+          ],
+          "selected_accent": 4,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L99229"
+        },
+        {
+          "form": "冷凍",
+          "reading": "れいとう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L117469"
+        }
+      ],
+      "pronunciation_guidance": "指定されたひらがな全文だけを一度、通常のMarinの声で、自然な東京の日本語として滑らかに朗読してください。省略、言い換え、追加をせず、長母音と促音を保ち、助詞を前の句につなげます。句読点で軽く区切り、数字の一つ一つの音を正確に読みます。配合は「ごはんいち、たい、こうじいってんご、たい、みねらるうぉーたーいちからいってんに」です。保温温度は「ごじゅうごど」。最後の「れいとうほぞんではんとし」も省略せず読みます。 全文と未確認の複合語のイントネーションは暫定的です。確認した語彙アクセント：基本 きほん 0型; 麹 こうじ 0型; 甘味 あまみ 0型; 出来 でき 0型; 時 とき 2型; 味 あじ 0型; 保存 ほぞん 0型; 温度 おんど 1型; 間 あいだ 0型; 甘酒 あまざけ 0型; 上 うえ 0型; ご飯 ごはん 1型; 保温 ほおん 0型; 時間 じかん 0型; 配合 はいごう 0型; 急冷 きゅうれい 0型; 半年 はんとし 4型; 冷凍 れいとう 0型。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-amazake/marin-a353242c4b8cf2048a13.mp3",
+      "file_duration_seconds": 26.16,
+      "automated_transcript": "2.甘酒の配合と保温温度。基本の配合、ご飯1対麹1.5対ミネラルウォーター1から1.2。保温温度55度。保温時間8時間から10時間。出来上がりは、急冷すると甘みが増します。冷蔵保存で1ヶ月。冷凍保存で半年。",
+      "automated_transcript_review": "Compared final unprompted transcripts with source article and reviewed speech input. Two batches: 1–10 and 11–19. Numeric temperatures, ingredient ratio, quantities, durations, storage periods and numbered steps checked. Primary ASR normalizes supplied grammatical typos 含まれいます/加熱処理されいる; reviewed input retains original wording. Other differences are script/punctuation, heading formatting or homophone normalization. Automated transcription is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; transcript content and low-energy gap measurements reviewed. Audible pitch, voice quality and smoothness not listening-verified."
+    },
+    {
+      "key": "①ご飯を200gポットに入れます。炊き立てでも冷凍ご飯でも良いです。 ②ご飯と同量の水をポットに入れます ③良く混ぜ合わせます",
+      "card": "aged-amazake",
+      "message_id": "amazake-chunk-17",
+      "batch": 2,
+      "display": "①ご飯を200gポットに入れます。炊き立てでも冷凍ご飯でも良いです。\n\n②ご飯と同量の水をポットに入れます\n\n③良く混ぜ合わせます \n\n",
+      "input": "いち、ごはんおにひゃくぐらむ、ぽっとにいれます、たきたてでもれいとうごはんでもよいです。に、ごはんとどうりょうのみずおぽっとにいれます、さん、よくまぜあわせます。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied article and reviewed article furigana; pinned exact lexical dictionary readings checked against intended culinary, enzyme and numeric context. All readings checked separately from raw display and lookup keys.",
+      "context_review": "Steps 1–3 spoken; 200g にひゃくぐらむ; 炊き立て たきたて; 冷凍 れいとう; 同量 どうりょう; 良く よく; 混ぜ合わせ まぜあわせ. Contextual は→わ, を→お; lexical は in ご飯/ハサミ/働く retained. Source wraps joined and clause boundaries reviewed for speech only.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical spelling/reading references; full-passage and unconfirmed compound targets provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "水",
+          "reading": "みず",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L71812"
+        },
+        {
+          "form": "ご飯",
+          "reading": "ごはん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L2149"
+        },
+        {
+          "form": "冷凍",
+          "reading": "れいとう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L117469"
+        },
+        {
+          "form": "同量",
+          "reading": "どうりょう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L92977"
+        },
+        {
+          "form": "良く",
+          "reading": "よく",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L116746"
+        }
+      ],
+      "pronunciation_guidance": "入力の全文を一度だけ、普段のMarinの声で自然な東京の日本語として読みます。料理手順の朗読です。最後の「さん、よくまぜあわせます」まで一続きに読み終えてください。句読点で短く自然に区切り、長母音と促音を保ちます。全文のイントネーションは暫定的です。確認した語彙アクセント：水 みず 0型; ご飯 ごはん 1型; 冷凍 れいとう 0型; 同量 どうりょう 0型; 良く よく 1型。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-amazake/marin-3fcfb03f4b5c32101b31.mp3",
+      "file_duration_seconds": 13.32,
+      "automated_transcript": "1.ご飯を200グラム、ポットに入れます。炊きたてでも冷凍ご飯でもよいです。2.ご飯と同量の水をポットに入れます。3.よく混ぜ合わせます。",
+      "automated_transcript_review": "Compared final unprompted transcripts with source article and reviewed speech input. Two batches: 1–10 and 11–19. Numeric temperatures, ingredient ratio, quantities, durations, storage periods and numbered steps checked. Primary ASR normalizes supplied grammatical typos 含まれいます/加熱処理されいる; reviewed input retains original wording. Other differences are script/punctuation, heading formatting or homophone normalization. Automated transcription is not listening or audible-pitch verification. Earlier clips omitted step 3 in both full-clip and tail transcription. Re-recorded with connected clause phrasing; final transcript retains all three steps including よく混ぜ合わせます.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; transcript content and low-energy gap measurements reviewed. Audible pitch, voice quality and smoothness not listening-verified."
+    },
+    {
+      "key": "④麹を入れます ⑤麹をほぐしてスプーンでご飯と麹を混ぜ合わせます",
+      "card": "aged-amazake",
+      "message_id": "amazake-chunk-18",
+      "batch": 2,
+      "display": "④麹(300g)を入れます\n\n⑤麹をほぐしてスプーンでご飯と麹を混ぜ合わせます \n\n",
+      "input": "よん、こうじ、さんびゃくぐらむおいれます。ご、こうじおほぐしてすぷーんで、ごはんとこうじおまぜあわせます。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied article and reviewed article furigana; pinned exact lexical dictionary readings checked against intended culinary, enzyme and numeric context. All readings checked separately from raw display and lookup keys.",
+      "context_review": "Steps 4–5 spoken; 300g さんびゃくぐらむ; スプーン すぷーん long vowel; ほぐす; ご飯 ごはん lexical は. Contextual は→わ, を→お; lexical は in ご飯/ハサミ/働く retained. Source wraps joined and clause boundaries reviewed for speech only.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical spelling/reading references; full-passage and unconfirmed compound targets provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "麹",
+          "reading": "こうじ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L51348"
+        },
+        {
+          "form": "ご飯",
+          "reading": "ごはん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L2149"
+        }
+      ],
+      "pronunciation_guidance": "Read only the supplied hiragana once, as smooth natural Tokyo Japanese narration in the normal Marin voice. No omitted, added or changed words. Preserve long vowels and doubled consonants. Light clause pauses at punctuation only; attach particles to the preceding phrase. Read both recipe steps, including さんびゃくぐらむ, 300 grams. Whole-passage and unconfirmed compound pitch provisional. Checked lexical accents, applied naturally (0 heiban; other numbers drop after that mora): 麹 こうじ type 0; ご飯 ごはん type 1.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-amazake/marin-30f980849e12fc2e09ad.mp3",
+      "file_duration_seconds": 10.104,
+      "automated_transcript": "4.麹300gを入れます。5.麹をほぐしてスプーンでご飯と麹を混ぜ合わせます。",
+      "automated_transcript_review": "Compared final unprompted transcripts with source article and reviewed speech input. Two batches: 1–10 and 11–19. Numeric temperatures, ingredient ratio, quantities, durations, storage periods and numbered steps checked. Primary ASR normalizes supplied grammatical typos 含まれいます/加熱処理されいる; reviewed input retains original wording. Other differences are script/punctuation, heading formatting or homophone normalization. Automated transcription is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; transcript content and low-energy gap measurements reviewed. Audible pitch, voice quality and smoothness not listening-verified."
+    },
+    {
+      "key": "⑥約55℃で8時間保温します ⑦途中1、2回混ぜます ⑧甘酒が出来上がります",
+      "card": "aged-amazake",
+      "message_id": "amazake-chunk-19",
+      "batch": 2,
+      "display": "⑥約55℃で8時間保温します\n\n⑦途中1、2回混ぜます \n\n⑧甘酒が出来上がります\n",
+      "input": "ろく、やく、ごじゅうごどで、はちじかんほおんします。なな、とちゅういち、にかいまぜます。はち、あまざけができあがります。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied article and reviewed article furigana; pinned exact lexical dictionary readings checked against intended culinary, enzyme and numeric context. All readings checked separately from raw display and lookup keys.",
+      "context_review": "Steps 6–8 spoken; 約55℃ やくごじゅうごど; 8時間 はちじかん; 途中 とちゅう; 1、2回 いち、にかい. Preserve final completion sentence. Contextual は→わ, を→お; lexical は in ご飯/ハサミ/働く retained. Source wraps joined and clause boundaries reviewed for speech only.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical spelling/reading references; full-passage and unconfirmed compound targets provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "中",
+          "reading": "なか",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L85770"
+        },
+        {
+          "form": "出来",
+          "reading": "でき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L64102"
+        },
+        {
+          "form": "時",
+          "reading": "とき",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L58330"
+        },
+        {
+          "form": "間",
+          "reading": "あいだ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34867"
+        },
+        {
+          "form": "甘酒",
+          "reading": "あまざけ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34477"
+        },
+        {
+          "form": "上",
+          "reading": "うえ",
+          "accent_variants": [
+            0,
+            2
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67322"
+        },
+        {
+          "form": "保温",
+          "reading": "ほおん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106274"
+        },
+        {
+          "form": "時間",
+          "reading": "じかん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L58356"
+        },
+        {
+          "form": "約",
+          "reading": "やく",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L112414"
+        },
+        {
+          "form": "途中",
+          "reading": "とちゅう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L91032"
+        }
+      ],
+      "pronunciation_guidance": "指定されたひらがな全文だけを一度、通常のMarinの声で、自然な東京の日本語として滑らかに朗読してください。省略、言い換え、追加をせず、長母音と促音を保ち、助詞を前の句につなげます。句読点で軽く区切り、数字の一つ一つの音を正確に読みます。最初は「ろく、やくごじゅうごどで、はちじかんほおんします」。温度は約55度です。最後の「あまざけができあがります」まで全文を読みます。 全文と未確認の複合語のイントネーションは暫定的です。確認した語彙アクセント：中 なか 1型; 出来 でき 0型; 時 とき 2型; 間 あいだ 0型; 甘酒 あまざけ 0型; 上 うえ 0型; 保温 ほおん 0型; 時間 じかん 0型; 約 やく 1型; 途中 とちゅう 0型。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-amazake/marin-69d7ebb957564f22ee21.mp3",
+      "file_duration_seconds": 11.616,
+      "automated_transcript": "6.約55度で8時間保温します。7.途中1、2回混ぜます。8.甘酒が出来上がります。",
+      "automated_transcript_review": "Compared final unprompted transcripts with source article and reviewed speech input. Two batches: 1–10 and 11–19. Numeric temperatures, ingredient ratio, quantities, durations, storage periods and numbered steps checked. Primary ASR normalizes supplied grammatical typos 含まれいます/加熱処理されいる; reviewed input retains original wording. Other differences are script/punctuation, heading formatting or homophone normalization. Automated transcription is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM, zero measured clipping; transcript content and low-energy gap measurements reviewed. Audible pitch, voice quality and smoothness not listening-verified."
+    }
+  ]
+}

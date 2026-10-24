@@ -86,3 +86,16 @@ five new flour/preparation pages, appended page by page as deck pages 27–31:
 Always add new story content first, with audio pending and sound buttons disabled.
 Generate story audio only after the user explicitly requests it in a later step.
 Adding a story does not authorize generating its sound.
+
+# Fermentation notes subdecks
+
+For 発酵ノート reading subdecks, preserve the supplied Japanese wording and keep
+a verbatim source file. Split into short, coherent recording-sized passages.
+Use a clear title/heading hierarchy, readable timelines, flows and plain lists with solid bullet
+points and no purple backgrounds; remove source wrapping and unnecessary indentation only in the display.
+Provide reviewed furigana controlled by the existing ふり toggle, a sound button
+per passage, an 英 toggle beneath it that replaces/restores the passage with its
+English translation, and Read all at the top. Japanese audio must stay unchanged
+when translating or changing the reading display. Insert supplied diagrams after
+the relevant passage and keep them visible in both languages without translating
+the diagram. Prepare content first; generate audio only on explicit later request.

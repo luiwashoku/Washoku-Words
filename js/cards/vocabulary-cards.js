@@ -26,9 +26,9 @@
       }
       storyQueue = [];
       if (storyPlayAllButton) {
-        storyPlayAllButton.textContent = "▶ Play all";
+        storyPlayAllButton.textContent = lesson.articleCards ? "▶ Read all" : "▶ Play all";
         storyPlayAllButton.setAttribute("aria-pressed", "false");
-        storyPlayAllButton.setAttribute("aria-label", "Play entire conversation");
+        storyPlayAllButton.setAttribute("aria-label", lesson.articleCards ? "Read entire article" : "Play entire conversation");
       }
       card.querySelectorAll(".story-message--playing").forEach(item => item.classList.remove("story-message--playing"));
     }
@@ -46,7 +46,7 @@
       audio.playbackRate = 1;
       storyPlayAllButton.textContent = "■ Stop";
       storyPlayAllButton.setAttribute("aria-pressed", "true");
-      storyPlayAllButton.setAttribute("aria-label", "Stop conversation playback");
+      storyPlayAllButton.setAttribute("aria-label", lesson.articleCards ? "Stop reading" : "Stop conversation playback");
       status.textContent = "";
       const fail = () => {
         if (version !== storyPlaybackVersion || !alive) return;
@@ -59,7 +59,7 @@
           stopStoryPlayback();
           return;
         }
-        card.querySelectorAll(".story-message").forEach((item, i) => item.classList.toggle("story-message--playing", i === storyQueueIndex));
+        card.querySelectorAll(".story-message, .article-chunk").forEach((item, i) => item.classList.toggle("story-message--playing", i === storyQueueIndex));
         audio.src = storyQueue[storyQueueIndex];
         // Reuse the element unlocked by the initial tap for subsequent mobile playback.
         audio.play().catch(fail);
@@ -88,6 +88,7 @@
     const screen = container.closest("#wordExplosionScreen");
     screen.classList.add("study-cards-screen");
     if (lesson.storyCards) screen.classList.add("stories-screen");
+    if (lesson.articleCards) screen.classList.add("article-screen");
     document.documentElement.classList.add("vocabulary-cards-open");
     container.replaceChildren();
     container.classList.add("vocabulary-cards");
@@ -430,13 +431,64 @@
         next.disabled = index === entries.length - 1;
         return;
       }
-      if (lesson.storyCards) {
+      if (lesson.storyCards || lesson.articleCards) {
         const header = document.createElement("header");
         header.className = "reading-card-header";
         const titles = document.createElement("div");
+        function appendArticleLine(node, line) {
+          const markers = { "🟡": "yellow", "⚫": "black", "⚪": "white", "🟤": "brown", "🔴": "red" };
+          const marker = Object.keys(markers).find(symbol => line.startsWith(symbol));
+          if (marker) {
+            const dot = document.createElement("span");
+            dot.className = `article-color-dot article-color-dot--${markers[marker]}`;
+            dot.setAttribute("role", "img");
+            dot.setAttribute("aria-label", `${markers[marker]} circle`);
+            node.append(dot, document.createTextNode(line.slice(marker.length).trimStart()));
+          } else node.append(document.createTextNode(line));
+        }
+        function addArticleFurigana(root) {
+          const readings = word.furigana || {};
+          const forms = Object.keys(readings).sort((a, b) => b.length - a.length);
+          if (!forms.length) return;
+          // Match literal article text, without treating existing parentheses as readings.
+          const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+          const nodes = [];
+          while (walker.nextNode()) nodes.push(walker.currentNode);
+          nodes.forEach(node => {
+            const value = node.textContent;
+            const fragment = document.createDocumentFragment();
+            let position = 0;
+            let plain = "";
+            while (position < value.length) {
+              const form = forms.find(candidate => value.startsWith(candidate, position));
+              if (!form) { plain += value[position++]; continue; }
+              if (plain) { fragment.append(document.createTextNode(plain)); plain = ""; }
+              fragment.append(document.createTextNode(form));
+              const reading = document.createElement("span");
+              reading.className = "furiganaReading";
+              reading.textContent = `(${readings[form]})`;
+              fragment.append(reading);
+              position += form.length;
+            }
+            if (plain) fragment.append(document.createTextNode(plain));
+            node.replaceWith(fragment);
+          });
+        }
         const title = document.createElement("h3");
         title.id = "studyCardWord";
-        setJapaneseText(title, `${index + 1}. ${word.kanji || word.japanese}`);
+        if (lesson.articleCards) {
+          const fullTitle = (word.displayTitle || word.kanji || word.japanese).trim();
+          const split = fullTitle.indexOf("　　");
+          if (split >= 0) {
+            title.append(document.createTextNode(fullTitle.slice(0, split)));
+            const detail = document.createElement("span");
+            detail.className = "article-title-detail";
+            detail.textContent = fullTitle.slice(split).trimStart();
+            title.append(detail);
+          } else title.textContent = fullTitle;
+        }
+        else setJapaneseText(title, `${index + 1}. ${word.kanji || word.japanese}`);
+        if (lesson.articleCards) addArticleFurigana(title);
         const subtitle = document.createElement("p");
         subtitle.className = "vocabulary-card-translation";
         subtitle.textContent = word.english;
@@ -444,37 +496,155 @@
         storyPlayAllButton = document.createElement("button");
         storyPlayAllButton.type = "button";
         storyPlayAllButton.className = "story-play-all";
-        storyPlayAllButton.textContent = "▶ Play all";
-        storyPlayAllButton.setAttribute("aria-label", "Play entire conversation");
+        storyPlayAllButton.textContent = lesson.articleCards ? "▶ Read all" : "▶ Play all";
+        storyPlayAllButton.setAttribute("aria-label", lesson.articleCards ? "Read entire article" : "Play entire conversation");
         storyPlayAllButton.setAttribute("aria-pressed", "false");
         storyPlayAllButton.disabled = !word.messages?.length || word.messages.some(message => message.audioPending || !getRecordedJapaneseFile(message.speech || message.japanese));
-        if (storyPlayAllButton.disabled) storyPlayAllButton.title = "Conversation audio coming later";
+        if (storyPlayAllButton.disabled) storyPlayAllButton.title = lesson.articleCards ? "Article audio coming later" : "Conversation audio coming later";
         storyPlayAllButton.addEventListener("click", () => {
           if (storyAudio) stopStoryPlayback();
           else startStoryPlayback(word.messages);
         }, { signal });
         header.append(storyPlayAllButton);
         const conversation = document.createElement("ol");
-        conversation.className = "story-messages";
-        conversation.setAttribute("aria-label", "SMS conversation");
+        conversation.className = lesson.articleCards ? "article-chunks" : "story-messages";
+        conversation.setAttribute("aria-label", lesson.articleCards ? "Reading passages" : "SMS conversation");
         (word.messages || []).forEach((message, messageIndex) => {
           const item = document.createElement("li");
-          item.className = `story-message story-message--${message.side === "right" ? "right" : "left"}`;
+          item.className = lesson.articleCards ? "article-chunk" : `story-message story-message--${message.side === "right" ? "right" : "left"}`;
           const speaker = document.createElement("span");
           speaker.className = "story-speaker";
-          setJapaneseText(speaker, message.speaker);
+          setJapaneseText(speaker, message.speaker || "");
           const bubble = document.createElement("div");
-          bubble.className = "story-bubble";
-          const text = document.createElement("p"); text.lang = "ja";
-          setJapaneseText(text, message.japanese);
-          const audio = createExampleSpeechButton(message.speech || message.japanese, `Read message ${messageIndex + 1}`);
+          bubble.className = lesson.articleCards ? "article-chunk-content" : "story-bubble";
+          const text = document.createElement(lesson.articleCards ? "div" : "p"); text.lang = "ja";
+          if (lesson.articleCards) {
+            text.className = "article-passage-text";
+            // Source wraps are retained in data/audio keys; join them only for reading display.
+            const isStructure = line => /^\d+、|^\(\d+\)|^第\d+期|^体内酵素|^【|^[①-⑳◎]|^\d+℃|^\d+時間|^保温温度|^冷蔵保存|^冷凍保存|^基本の配合|^ご飯1|^(?:アミラーゼ|プロテアーゼ|リパーゼ)[（(]|^→|^[　 \t]*(?:カビ|酵母|細菌)…|^[　 \t]*[🟡⚫⚪🟤🔴⭐]|^[　 \t]*日本酒＝|^[　 \t]*麹菌＋|^[　 \t]*(日本|中国)→/u.test(line);
+            const lines = message.japanese.split("\n").flatMap(line => line.split(/(?=⚪︎)/u)).map(line => line.trimStart()).filter(line => line.trim()).reduce((result, line) => {
+              const previous = result[result.length - 1];
+              if (previous && line.trim() && !isStructure(previous) && !isStructure(line) &&
+                  !/[。！？?!]\s*$/.test(previous)) {
+                result[result.length - 1] += line;
+              } else result.push(line);
+              return result;
+            }, []);
+            let list = null;
+            let paragraph = null;
+            lines.forEach((line, lineIndex) => {
+              if (/^[　 \t]*(カビ|酵母|細菌)…|^[⚪]︎/.test(line)) {
+                paragraph = null;
+                if (!list) {
+                  list = document.createElement("ul");
+                  list.className = "article-microbe-list";
+                  text.append(list);
+                }
+                const entry = document.createElement("li");
+                const content = line.trimStart().replace(/^⚪︎/, "");
+                const split = content.indexOf("…");
+                const label = document.createElement("strong");
+                if (split >= 0) {
+                  label.textContent = content.slice(0, split);
+                  entry.append(label, document.createTextNode(content.slice(split)));
+                } else entry.textContent = content;
+                list.append(entry);
+                if (lineIndex < lines.length - 1) list.append(document.createTextNode("\n"));
+              } else {
+                list = null;
+                const section = /^\d+、|^【/.test(line);
+                const subsection = /^\(\d+\)|^第\d+期|^体内酵素|^→|^⭐|^[①②]甘酒|^基本の配合/.test(line) || word.questionHeadingLines?.includes(line);
+                if (section || subsection) {
+                  paragraph = null;
+                  const heading = document.createElement(section ? "h4" : "h5");
+                  heading.textContent = line;
+                  text.append(heading);
+                } else {
+                  if (/^[①-⑳◎]|^\d+℃|^\d+時間|^保温温度|^冷蔵保存|^冷凍保存|^ご飯1|^(?:アミラーゼ|プロテアーゼ|リパーゼ)[（(]/.test(line)) paragraph = null;
+                  if (!paragraph) {
+                    paragraph = document.createElement("p");
+                    text.append(paragraph);
+                  }
+                  if (/^[🟡⚫⚪🟤🔴]/u.test(line)) {
+                    paragraph.classList.add("article-species");
+                  }
+                  if (/^(日本酒＝|麹菌＋|(日本|中国)→)/.test(line)) paragraph.classList.add("article-flow");
+                  if (/^[①-⑳◎]/.test(line)) paragraph.classList.add("article-step");
+                  appendArticleLine(paragraph, line);
+                }
+                if (lineIndex < lines.length - 1) {
+                  (paragraph || text).append(document.createTextNode("\n"));
+                }
+              }
+            });
+            addArticleFurigana(text);
+          } else setJapaneseText(text, message.japanese);
+          const audio = createExampleSpeechButton(message.speech || message.japanese, `${lesson.articleCards ? "Read passage" : "Read message"} ${messageIndex + 1}`);
           audio.addEventListener("click", () => { stopStoryPlayback(); wordPlayer.stop(); }, { capture: true, signal });
           if (message.audioPending) {
             audio.disabled = true;
             audio.title = "Audio coming later";
-            audio.setAttribute("aria-label", `Message ${messageIndex + 1}: audio coming later`);
+            audio.setAttribute("aria-label", `${lesson.articleCards ? "Passage" : "Message"} ${messageIndex + 1}: audio coming later`);
           }
-          bubble.append(text, audio); item.append(speaker, bubble); conversation.append(item);
+          if (lesson.articleCards && message.english) {
+            const controls = document.createElement("div");
+            controls.className = "article-chunk-controls";
+            const translation = document.createElement("button");
+            translation.type = "button";
+            translation.className = "icon-button article-english-toggle";
+            translation.textContent = "英";
+            translation.setAttribute("aria-label", `Show English translation for passage ${messageIndex + 1}`);
+            translation.setAttribute("aria-pressed", "false");
+            text.id = `${message.id}-text`;
+            translation.setAttribute("aria-controls", text.id);
+            const japaneseNodes = [...text.childNodes];
+            let englishVisible = false;
+            translation.addEventListener("click", () => {
+              englishVisible = !englishVisible;
+              translation.setAttribute("aria-pressed", String(englishVisible));
+              translation.setAttribute("aria-label", `${englishVisible ? "Show Japanese" : "Show English translation"} for passage ${messageIndex + 1}`);
+              text.lang = englishVisible ? "en" : "ja";
+              if (!englishVisible) text.replaceChildren(...japaneseNodes);
+              else {
+                text.replaceChildren();
+                let list = null;
+                message.english.split("\n").forEach(line => {
+                  if (line.startsWith("• ")) {
+                    if (!list) {
+                      list = document.createElement("ul");
+                      list.className = "article-microbe-list";
+                      text.append(list);
+                    }
+                    const li = document.createElement("li");
+                    li.textContent = line.slice(2);
+                    list.append(li);
+                  } else {
+                    list = null;
+                    const node = document.createElement(/^\d+\. /.test(line) ? "h4" : /^\(\d+\)|^Phase \d+:|^Enzymes in the body|^→|^⭐|^① The best|^② Ingredient/.test(line) || word.englishHeadingLines?.includes(line) ? "h5" : "p");
+                    appendArticleLine(node, line);
+                    text.append(node);
+                  }
+                });
+              }
+            }, { signal });
+            controls.append(audio, translation);
+            bubble.append(text, controls);
+          } else bubble.append(text, audio);
+          if (!lesson.articleCards) item.append(speaker);
+          item.append(bubble);
+          if (lesson.articleCards && message.image) {
+            const figure = document.createElement("figure");
+            figure.className = "article-diagram";
+            const diagram = document.createElement("img");
+            diagram.src = message.image.src;
+            diagram.alt = message.image.alt || "Article diagram";
+            diagram.width = message.image.width;
+            diagram.height = message.image.height;
+            diagram.loading = "lazy";
+            figure.append(diagram);
+            item.append(figure);
+          }
+          conversation.append(item);
         });
         card.replaceChildren(header, conversation);
         counter.textContent = `${index + 1} / ${entries.length}`;
@@ -841,7 +1011,7 @@
       wordPlayer.stop();
       stopSpeech();
       container.classList.remove("vocabulary-cards", "furigana-hidden");
-      screen.classList.remove("study-cards-screen", "stories-screen");
+      screen.classList.remove("study-cards-screen", "stories-screen", "article-screen");
       document.documentElement.classList.remove("vocabulary-cards-open");
       toolbar.classList.add("hidden");
       toolbar.replaceChildren();

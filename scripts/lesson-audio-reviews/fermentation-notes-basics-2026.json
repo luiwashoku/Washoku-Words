@@ -1,0 +1,1407 @@
+{
+  "lesson": "fermentation-notes-basics-2026",
+  "reviewed": true,
+  "voice": "marin",
+  "model": "gpt-4o-mini-tts",
+  "speed": 1.0,
+  "reading_sources": [
+    "Pinned Kanjium exact spelling/reading matches, checked against intended fermentation meaning and inflections.",
+    "https://www.kanjipedia.jp/kotoba/0002984100",
+    "https://www.nta.go.jp/taxes/sake/hambai/moderutekisuto/pdf/r03_04_10.pdf",
+    "https://kotobank.jp/word/甘味-471521",
+    "https://imidas.jp/kojiten/detail/W-03-0-468-06.html"
+  ],
+  "accent_dictionary": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt",
+  "accent_dictionary_sha256": "8bd0dd127dab32ceec94cb03ab1ba6b68858ea73421dfa1731af2f373deb4f20",
+  "notes": "20 verbatim article passages. Separate reviewed speech input with context-sensitive particles, joined source line wraps, spoken headings/list items and parentheses. No listening or audible-pitch verification.",
+  "entries": [
+    {
+      "key": "1、発酵とは 発酵とはどういう事か 発酵とは、微生物の働きによって食物などの成分が分解され、人間にとって有益な働きが成される 事を「発酵」、逆に人間にとって害になる働きを「腐敗」と呼びます。 発酵と腐敗は菌の活動としては同じこと、人が食べられるか否かで言葉の表現が決まるのです。",
+      "card": "fermentation-basics-2026",
+      "message_id": "fermentation-basics-chunk-01",
+      "display": "1、発酵とは\n(1)発酵とはどういう事か\n発酵とは、微生物の働きによって食物などの成分が分解され、人間にとって有益な働きが成される\n事を「発酵」、逆に人間にとって害になる働きを「腐敗」と呼びます。\n発酵と腐敗は菌の活動としては同じこと、人が食べられるか否かで言葉の表現が決まるのです。\n",
+      "input": "いち、はっこうとわ。いち、はっこうとわどういうことか。はっこうとわ、びせいぶつのはたらきによってしょくもつなどのせいぶんがぶんかいされ、にんげんにとってゆうえきなはたらきがなされることお、はっこう。ぎゃくににんげんにとってがいになるはたらきお、ふはいとよびます。はっこうとふはいわ、きんのかつどうとしてわおなじこと、ひとがたべられるかいなかで、ことばのひょうげんがきまるのです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": [
+        "Pinned Kanjium exact spelling/reading matches, checked against intended fermentation meaning and inflections.",
+        "https://www.kanjipedia.jp/kotoba/0002984100",
+        "https://www.nta.go.jp/taxes/sake/hambai/moderutekisuto/pdf/r03_04_10.pdf",
+        "https://kotobank.jp/word/甘味-471521",
+        "https://imidas.jp/kojiten/detail/W-03-0-468-06.html"
+      ],
+      "context_review": "Fermentation article, verbatim wording. Reviewed all kanji readings, inflections and contextual particles; source line wraps joined in speech only. は topic→わ, を→お, directional へ→え. Lexical は retained in はっこう/はたらき/はっせい/はじめ/はいしゅつ/はんのう/はえる. 食物 is しょくもつ; 甘味/旨味 are あまみ/うまみ; 煮沸 しゃふつ; 蔵付き酵母 くらつきこうぼ; 埃 ほこり; 各家 かくいえ; ジプロック retains supplied じぷろっく without spelling correction. 20～100種類 is にじゅうからひゃくしゅるい. Parenthetical 分解 and 瓶やジプロックなど are spoken, not mistaken for furigana.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical references; full-passage and unconfirmed compound intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "発酵",
+          "reading": "はっこう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L98799"
+        },
+        {
+          "form": "微生物",
+          "reading": "びせいぶつ",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100700"
+        },
+        {
+          "form": "食物",
+          "reading": "しょくもつ",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68828"
+        },
+        {
+          "form": "成分",
+          "reading": "せいぶん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L73120"
+        },
+        {
+          "form": "分解",
+          "reading": "ぶんかい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L104380"
+        },
+        {
+          "form": "有益",
+          "reading": "ゆうえき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L113040"
+        },
+        {
+          "form": "腐敗",
+          "reading": "ふはい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L102993"
+        },
+        {
+          "form": "菌",
+          "reading": "きん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40551"
+        }
+      ],
+      "pronunciation_guidance": "指定されたひらがな全文だけを一度、自然な東京の日本語で滑らかに朗読してください。語句を省略、変更、追加せず、長母音と促音を保ちます。句読点で軽く区切り、単語ごとの不自然な間を作りません。冒頭の見出し「いち、はっこうとわ」と、小見出し「いち、はっこうとわどういうことか」も両方読みます。 全文のイントネーションは暫定的です。確認した語彙アクセント：発酵 はっこう 0型; 微生物 びせいぶつ 2型; 食物 しょくもつ 2型; 成分 せいぶん 1型; 分解 ぶんかい 0型; 有益 ゆうえき 0型; 腐敗 ふはい 0型; 菌 きん 1型。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-basics-2026/marin-04d6cc707cf7780f2b28.mp3",
+      "file_duration_seconds": 29.808,
+      "automated_transcript": "1.発光とはどういうことか。発光とは微生物の働きによって食物などの成分が分解され、人間にとって有益な働きがなされることを発光、逆に人間にとって害になる働きを腐敗と呼びます。発光と腐敗は菌の活動としては同じこと、人が食べられるか否かで言葉の表現が決まるのです。",
+      "automated_transcript_review": "Compared transcript with original article. Regenerated passages 1, 5, 7, 9, 16–19 after omitted/changed wording. Final ASR has homophonic spelling substitutions (発光/発行 for 発酵, 孔子 for 講師, 家出し込み for 家で仕込み), plus spoken-heading normalization. Secondary whisper-1 without expected-text prompt retains both opening headings missed/merged by primary ASR; both raw results retained. Source terms ジプロック and 講師 remain explicitly checked speech inputs. ASR normalizes some readings/spellings and is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM; zero measured clipping; content transcript and low-energy gap measurements reviewed. Audible pitch, phrasing and smoothness are not listening-verified.",
+      "secondary_automated_transcript": "1発行とは1発行とはどういうことか 発行とは微生物の働きによって 食物などの成分が分解され人間 にとって有益な働きがなされる ことを発行逆に人間にとって害になる 働きを腐敗と呼びます発行と腐敗 は菌の活動としては同じこと人が 食べられる貝中で言葉の表現が 気になるのです",
+      "secondary_transcription_model": "whisper-1"
+    },
+    {
+      "key": "微生物は、ただ増える事だけを目的として生きています。 菌が増えるためにはエネルギーが必要で、エネルギー源になる物質が糖やタンパク質です。その物 質を微生物は体が小さい為に、エネルギーを小さく分解して取り込もうとします。",
+      "card": "fermentation-basics-2026",
+      "message_id": "fermentation-basics-chunk-02",
+      "display": "微生物は、ただ増える事だけを目的として生きています。\n菌が増えるためにはエネルギーが必要で、エネルギー源になる物質が糖やタンパク質です。その物\n質を微生物は体が小さい為に、エネルギーを小さく分解して取り込もうとします。\n",
+      "input": "びせいぶつわ、ただふえることだけおもくてきとしていきています。きんがふえるためにわえねるぎーがひつようで、えねるぎーげんになるぶっしつが、とうやたんぱくしつです。そのぶっしつおびせいぶつわ、からだがちいさいために、えねるぎーおちいさくぶんかいしてとりこもうとします。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": [
+        "Pinned Kanjium exact spelling/reading matches, checked against intended fermentation meaning and inflections.",
+        "https://www.kanjipedia.jp/kotoba/0002984100",
+        "https://www.nta.go.jp/taxes/sake/hambai/moderutekisuto/pdf/r03_04_10.pdf",
+        "https://kotobank.jp/word/甘味-471521",
+        "https://imidas.jp/kojiten/detail/W-03-0-468-06.html"
+      ],
+      "context_review": "Fermentation article, verbatim wording. Reviewed all kanji readings, inflections and contextual particles; source line wraps joined in speech only. は topic→わ, を→お, directional へ→え. Lexical は retained in はっこう/はたらき/はっせい/はじめ/はいしゅつ/はんのう/はえる. 食物 is しょくもつ; 甘味/旨味 are あまみ/うまみ; 煮沸 しゃふつ; 蔵付き酵母 くらつきこうぼ; 埃 ほこり; 各家 かくいえ; ジプロック retains supplied じぷろっく without spelling correction. 20～100種類 is にじゅうからひゃくしゅるい. Parenthetical 分解 and 瓶やジプロックなど are spoken, not mistaken for furigana.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical references; full-passage and unconfirmed compound intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "微生物",
+          "reading": "びせいぶつ",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100700"
+        },
+        {
+          "form": "分解",
+          "reading": "ぶんかい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L104380"
+        },
+        {
+          "form": "菌",
+          "reading": "きん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40551"
+        },
+        {
+          "form": "糖",
+          "reading": "とう",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L92221"
+        }
+      ],
+      "pronunciation_guidance": "入力のひらがな全文だけを一度、自然な東京の日本語で、落ち着いた読み物の朗読として滑らかに読んでください。省略や言い換えをせず、説明を加えません。長母音と促音を保ち、助詞は直前の句につなげます。句読点で軽く区切り、音節や単語ごとの不自然な間を作らないでください。発酵の教材です。全文のイントネーションと未確認の専門複合語は暫定的な自然な東京方言です。 辞書で確認した語彙アクセント（文脈に自然に適用、0は平板、数字は下がり目の拍）：微生物（びせいぶつ）2; 分解（ぶんかい）0; 菌（きん）1; 糖（とう）1。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-basics-2026/marin-efd4ee05da7f17e28e6f.mp3",
+      "file_duration_seconds": 20.904,
+      "automated_transcript": "微生物は、ただ増えることだけを目的として生きています。菌が増えるためにはエネルギーが必要で、エネルギー源になる物質が糖やタンパク質です。その物質を微生物は、体が小さいためにエネルギーを小さく分解して取り込もうとします。",
+      "automated_transcript_review": "Compared transcript with original article. Regenerated passages 1, 5, 7, 9, 16–19 after omitted/changed wording. Final ASR has homophonic spelling substitutions (発光/発行 for 発酵, 孔子 for 講師, 家出し込み for 家で仕込み), plus spoken-heading normalization. Secondary whisper-1 without expected-text prompt retains both opening headings missed/merged by primary ASR; both raw results retained. Source terms ジプロック and 講師 remain explicitly checked speech inputs. ASR normalizes some readings/spellings and is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM; zero measured clipping; content transcript and low-energy gap measurements reviewed. Audible pitch, phrasing and smoothness are not listening-verified."
+    },
+    {
+      "key": "人間は食べてから体の中で食物を栄養源として消化しますが、微生物は体の外で小さくしてから 食べるのです。 微生物が食べ、排出したモノを美味しく食べるのが人間です。",
+      "card": "fermentation-basics-2026",
+      "message_id": "fermentation-basics-chunk-03",
+      "display": "人間は食べてから体の中で食物を栄養源として消化しますが、微生物は体の外で小さくしてから\n食べるのです。\n微生物が食べ、排出したモノを美味しく食べるのが人間です。\n",
+      "input": "にんげんわたべてから、からだのなかでしょくもつおえいようげんとしてしょうかしますが、びせいぶつわ、からだのそとでちいさくしてからたべるのです。びせいぶつがたべ、はいしゅつしたものお、おいしくたべるのがにんげんです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": [
+        "Pinned Kanjium exact spelling/reading matches, checked against intended fermentation meaning and inflections.",
+        "https://www.kanjipedia.jp/kotoba/0002984100",
+        "https://www.nta.go.jp/taxes/sake/hambai/moderutekisuto/pdf/r03_04_10.pdf",
+        "https://kotobank.jp/word/甘味-471521",
+        "https://imidas.jp/kojiten/detail/W-03-0-468-06.html"
+      ],
+      "context_review": "Fermentation article, verbatim wording. Reviewed all kanji readings, inflections and contextual particles; source line wraps joined in speech only. は topic→わ, を→お, directional へ→え. Lexical は retained in はっこう/はたらき/はっせい/はじめ/はいしゅつ/はんのう/はえる. 食物 is しょくもつ; 甘味/旨味 are あまみ/うまみ; 煮沸 しゃふつ; 蔵付き酵母 くらつきこうぼ; 埃 ほこり; 各家 かくいえ; ジプロック retains supplied じぷろっく without spelling correction. 20～100種類 is にじゅうからひゃくしゅるい. Parenthetical 分解 and 瓶やジプロックなど are spoken, not mistaken for furigana.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical references; full-passage and unconfirmed compound intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "微生物",
+          "reading": "びせいぶつ",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100700"
+        },
+        {
+          "form": "食物",
+          "reading": "しょくもつ",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68828"
+        },
+        {
+          "form": "栄養源",
+          "reading": "えいようげん",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L25626"
+        },
+        {
+          "form": "消化",
+          "reading": "しょうか",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L66663"
+        },
+        {
+          "form": "排出",
+          "reading": "はいしゅつ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L97149"
+        }
+      ],
+      "pronunciation_guidance": "入力のひらがな全文だけを一度、自然な東京の日本語で、落ち着いた読み物の朗読として滑らかに読んでください。省略や言い換えをせず、説明を加えません。長母音と促音を保ち、助詞は直前の句につなげます。句読点で軽く区切り、音節や単語ごとの不自然な間を作らないでください。発酵の教材です。全文のイントネーションと未確認の専門複合語は暫定的な自然な東京方言です。 辞書で確認した語彙アクセント（文脈に自然に適用、0は平板、数字は下がり目の拍）：微生物（びせいぶつ）2; 食物（しょくもつ）2; 栄養源（えいようげん）3; 消化（しょうか）0; 排出（はいしゅつ）0。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-basics-2026/marin-71b9a8116ffc0181885d.mp3",
+      "file_duration_seconds": 16.152,
+      "automated_transcript": "人間は食べてから体の中で食物を栄養源として消化しますが、微生物は体の外で小さくしてから食べるのです。微生物が食べ、排出したものをおいしく食べるのが人間です。",
+      "automated_transcript_review": "Compared transcript with original article. Regenerated passages 1, 5, 7, 9, 16–19 after omitted/changed wording. Final ASR has homophonic spelling substitutions (発光/発行 for 発酵, 孔子 for 講師, 家出し込み for 家で仕込み), plus spoken-heading normalization. Secondary whisper-1 without expected-text prompt retains both opening headings missed/merged by primary ASR; both raw results retained. Source terms ジプロック and 講師 remain explicitly checked speech inputs. ASR normalizes some readings/spellings and is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM; zero measured clipping; content transcript and low-energy gap measurements reviewed. Audible pitch, phrasing and smoothness are not listening-verified."
+    },
+    {
+      "key": "発酵は食物の甘味や旨味を生み出し、食物の栄養価を高め消化も助けてくれる その働きがあり私たちの内臓の消化負担を軽減してくれます。",
+      "card": "fermentation-basics-2026",
+      "message_id": "fermentation-basics-chunk-04",
+      "display": "発酵(分解)は食物の甘味や旨味を生み出し、食物の栄養価を高め消化も助けてくれる\nその働きがあり私たちの内臓の消化負担を軽減してくれます。\n",
+      "input": "はっこう、ぶんかいわ、しょくもつのあまみやうまみおうみだし、しょくもつのえいようかおたかめ、しょうかもたすけてくれる。そのはたらきがあり、わたしたちのないぞうのしょうかふたんおけいげんしてくれます。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": [
+        "Pinned Kanjium exact spelling/reading matches, checked against intended fermentation meaning and inflections.",
+        "https://www.kanjipedia.jp/kotoba/0002984100",
+        "https://www.nta.go.jp/taxes/sake/hambai/moderutekisuto/pdf/r03_04_10.pdf",
+        "https://kotobank.jp/word/甘味-471521",
+        "https://imidas.jp/kojiten/detail/W-03-0-468-06.html"
+      ],
+      "context_review": "Fermentation article, verbatim wording. Reviewed all kanji readings, inflections and contextual particles; source line wraps joined in speech only. は topic→わ, を→お, directional へ→え. Lexical は retained in はっこう/はたらき/はっせい/はじめ/はいしゅつ/はんのう/はえる. 食物 is しょくもつ; 甘味/旨味 are あまみ/うまみ; 煮沸 しゃふつ; 蔵付き酵母 くらつきこうぼ; 埃 ほこり; 各家 かくいえ; ジプロック retains supplied じぷろっく without spelling correction. 20～100種類 is にじゅうからひゃくしゅるい. Parenthetical 分解 and 瓶やジプロックなど are spoken, not mistaken for furigana.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical references; full-passage and unconfirmed compound intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "発酵",
+          "reading": "はっこう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L98799"
+        },
+        {
+          "form": "食物",
+          "reading": "しょくもつ",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68828"
+        },
+        {
+          "form": "分解",
+          "reading": "ぶんかい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L104380"
+        },
+        {
+          "form": "消化",
+          "reading": "しょうか",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L66663"
+        },
+        {
+          "form": "甘味",
+          "reading": "あまみ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34500"
+        },
+        {
+          "form": "旨味",
+          "reading": "うまみ",
+          "accent_variants": [
+            0,
+            3
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L56998"
+        },
+        {
+          "form": "内臓",
+          "reading": "ないぞう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L94295"
+        }
+      ],
+      "pronunciation_guidance": "入力のひらがなだけを一度、通常のMarinの声で、落ち着いた自然な東京の日本語として朗読してください。一定の自然な高さと安定した音量で、長母音と促音を保ち、句読点で軽く区切ります。声色の演出、ささやき、歌うような抑揚、単語ごとの不自然な間は避けます。助詞は前の句につなげ、全文を滑らかに読みます。発酵の説明文です。全文のイントネーションは暫定的です。辞書で確認した語彙アクセント：発酵（はっこう）0型; 食物（しょくもつ）2型; 分解（ぶんかい）0型; 消化（しょうか）0型; 甘味（あまみ）0型; 旨味（うまみ）0型; 内臓（ないぞう）0型。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-basics-2026/marin-b2631dd0ab73ae5c2f4f.mp3",
+      "file_duration_seconds": 15.504,
+      "automated_transcript": "発酵・分解は、食物の甘みや旨味を生み出し、食物の栄養価を高め、消化も助けてくれる。その働きなあり、私たちの内臓の消化負担を軽減してくれます。",
+      "automated_transcript_review": "Passage 04 replaced after user reported weird voice. Primary ASR substitutes な for が in その働きがあり; independent whisper-1 retains があり but writes 植物 for speech-input しょくもつ. Both raw transcripts retained as recognition disagreement. Input readings unchanged. Neither automated check proves audible quality or pitch.",
+      "audio_validation": "Replacement decoded non-silent PCM with zero measured clipping. Stable natural Marin guidance supplied at generation speed 1.0. Voice quality and pitch not listening-verified.",
+      "rerecording_reason": "User reported weird voice in passage 04; regenerate with simpler, stable natural Marin narration at 1.0.",
+      "secondary_automated_transcript": "発酵分解は植物の甘みや旨味を生み出し 植物の栄養価を高め消化も助けてくれる その働きがあり私たちの内臓の消化負担を軽減してくれます",
+      "secondary_transcription_model": "whisper-1"
+    },
+    {
+      "key": "また別の利点としては発酵によって食品の長期保存が出来る事です。 微生物が発酵により作り出す成分に、アルコール、乳酸、酢酸などがありますが これらは全て「天然食品保存料」であり栄養素の喪失や食品の腐敗を防ぐ効果があります。",
+      "card": "fermentation-basics-2026",
+      "message_id": "fermentation-basics-chunk-05",
+      "display": "また別の利点としては発酵によって食品の長期保存が出来る事です。\n微生物が発酵により作り出す成分に、アルコール、乳酸、酢酸などがありますが\nこれらは全て「天然食品保存料」であり栄養素の喪失や食品の腐敗を防ぐ効果があります。\n",
+      "input": "またべつのりてんとしてわ、はっこうによってしょくひんのちょうきほぞんができることです。びせいぶつがはっこうによりつくりだすせいぶんに、あるこーる、にゅうさん、さくさんなどがありますが、これらわすべて、てんねんしょくひんほぞんりょうであり、えいようそのそうしつや、しょくひんのふはいおふせぐこうかがあります。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": [
+        "Pinned Kanjium exact spelling/reading matches, checked against intended fermentation meaning and inflections.",
+        "https://www.kanjipedia.jp/kotoba/0002984100",
+        "https://www.nta.go.jp/taxes/sake/hambai/moderutekisuto/pdf/r03_04_10.pdf",
+        "https://kotobank.jp/word/甘味-471521",
+        "https://imidas.jp/kojiten/detail/W-03-0-468-06.html"
+      ],
+      "context_review": "Fermentation article, verbatim wording. Reviewed all kanji readings, inflections and contextual particles; source line wraps joined in speech only. は topic→わ, を→お, directional へ→え. Lexical は retained in はっこう/はたらき/はっせい/はじめ/はいしゅつ/はんのう/はえる. 食物 is しょくもつ; 甘味/旨味 are あまみ/うまみ; 煮沸 しゃふつ; 蔵付き酵母 くらつきこうぼ; 埃 ほこり; 各家 かくいえ; ジプロック retains supplied じぷろっく without spelling correction. 20～100種類 is にじゅうからひゃくしゅるい. Parenthetical 分解 and 瓶やジプロックなど are spoken, not mistaken for furigana.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical references; full-passage and unconfirmed compound intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "発酵",
+          "reading": "はっこう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L98799"
+        },
+        {
+          "form": "微生物",
+          "reading": "びせいぶつ",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100700"
+        },
+        {
+          "form": "成分",
+          "reading": "せいぶん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L73120"
+        },
+        {
+          "form": "腐敗",
+          "reading": "ふはい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L102993"
+        },
+        {
+          "form": "乳酸",
+          "reading": "にゅうさん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L95493"
+        },
+        {
+          "form": "酢酸",
+          "reading": "さくさん",
+          "accent_variants": [
+            0,
+            3
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L71528"
+        }
+      ],
+      "pronunciation_guidance": "指定されたひらがな全文だけを一度、自然な東京の日本語で滑らかに朗読してください。語句を省略、変更、追加せず、長母音と促音を保ちます。句読点で軽く区切り、単語ごとの不自然な間を作りません。成分の列挙は「あるこーる、にゅうさん、さくさん」です。乳酸と酢酸を区別して全部読みます。 全文のイントネーションは暫定的です。確認した語彙アクセント：発酵 はっこう 0型; 微生物 びせいぶつ 2型; 成分 せいぶん 1型; 腐敗 ふはい 0型; 乳酸 にゅうさん 0型; 酢酸 さくさん 0型。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-basics-2026/marin-17531f2a1c0829980813.mp3",
+      "file_duration_seconds": 21.72,
+      "automated_transcript": "また別の利点としては、発酵によって食品の長期保存ができることです。微生物が発酵により作り出す成分にアルコール、乳酸、酢酸などがありますが、これらはすべて天然食品保存料であり、栄養素の喪失や食品の腐敗を防ぐ効果があります。",
+      "automated_transcript_review": "Compared transcript with original article. Regenerated passages 1, 5, 7, 9, 16–19 after omitted/changed wording. Final ASR has homophonic spelling substitutions (発光/発行 for 発酵, 孔子 for 講師, 家出し込み for 家で仕込み), plus spoken-heading normalization. Secondary whisper-1 without expected-text prompt retains both opening headings missed/merged by primary ASR; both raw results retained. Source terms ジプロック and 講師 remain explicitly checked speech inputs. ASR normalizes some readings/spellings and is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM; zero measured clipping; content transcript and low-energy gap measurements reviewed. Audible pitch, phrasing and smoothness are not listening-verified."
+    },
+    {
+      "key": "菌は食べ物から発生するのでしょうか？ いえ、菌はそこら中の空気にいるのです。 そして、各酒蔵に長年棲みついた それぞれの蔵付き酵母がいるように 各家にもその家に棲みついた菌がいます。 また菌の種類も家によって違うのです。",
+      "card": "fermentation-basics-2026",
+      "message_id": "fermentation-basics-chunk-06",
+      "display": "菌は食べ物から発生するのでしょうか？　いえ、菌はそこら中の空気にいるのです。\nそして、各酒蔵に長年棲みついた それぞれの蔵付き酵母がいるように\n各家にもその家に棲みついた菌がいます。\nまた菌の種類も家によって違うのです。\n",
+      "input": "きんわたべものからはっせいするのでしょうか？いえ、きんわそこらじゅうのくうきにいるのです。そして、かくさかぐらにながねんすみついた、それぞれのくらつきこうぼがいるように、かくいえにもそのいえにすみついたきんがいます。また、きんのしゅるいもいえによってちがうのです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": [
+        "Pinned Kanjium exact spelling/reading matches, checked against intended fermentation meaning and inflections.",
+        "https://www.kanjipedia.jp/kotoba/0002984100",
+        "https://www.nta.go.jp/taxes/sake/hambai/moderutekisuto/pdf/r03_04_10.pdf",
+        "https://kotobank.jp/word/甘味-471521",
+        "https://imidas.jp/kojiten/detail/W-03-0-468-06.html"
+      ],
+      "context_review": "Fermentation article, verbatim wording. Reviewed all kanji readings, inflections and contextual particles; source line wraps joined in speech only. は topic→わ, を→お, directional へ→え. Lexical は retained in はっこう/はたらき/はっせい/はじめ/はいしゅつ/はんのう/はえる. 食物 is しょくもつ; 甘味/旨味 are あまみ/うまみ; 煮沸 しゃふつ; 蔵付き酵母 くらつきこうぼ; 埃 ほこり; 各家 かくいえ; ジプロック retains supplied じぷろっく without spelling correction. 20～100種類 is にじゅうからひゃくしゅるい. Parenthetical 分解 and 瓶やジプロックなど are spoken, not mistaken for furigana.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical references; full-passage and unconfirmed compound intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "菌",
+          "reading": "きん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40551"
+        },
+        {
+          "form": "酵母",
+          "reading": "こうぼ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50573"
+        },
+        {
+          "form": "酒蔵",
+          "reading": "さかぐら",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61888"
+        }
+      ],
+      "pronunciation_guidance": "入力のひらがな全文だけを一度、自然な東京の日本語で、落ち着いた読み物の朗読として滑らかに読んでください。省略や言い換えをせず、説明を加えません。長母音と促音を保ち、助詞は直前の句につなげます。句読点で軽く区切り、音節や単語ごとの不自然な間を作らないでください。発酵の教材です。全文のイントネーションと未確認の専門複合語は暫定的な自然な東京方言です。 辞書で確認した語彙アクセント（文脈に自然に適用、0は平板、数字は下がり目の拍）：菌（きん）1; 酵母（こうぼ）1; 酒蔵（さかぐら）0。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-basics-2026/marin-1992d9bb8558a6242e95.mp3",
+      "file_duration_seconds": 21.168,
+      "automated_transcript": "菌は食べ物から発生するのでしょうか。いいえ、菌はそこらじゅうの空気にいるのです。そして、各酒蔵に長年住み着いたそれぞれの蔵付き酵母がいるように、各家にもその家に住み着いた菌がいます。また、菌の種類も家によって違うのです。",
+      "automated_transcript_review": "Compared transcript with original article. Regenerated passages 1, 5, 7, 9, 16–19 after omitted/changed wording. Final ASR has homophonic spelling substitutions (発光/発行 for 発酵, 孔子 for 講師, 家出し込み for 家で仕込み), plus spoken-heading normalization. Secondary whisper-1 without expected-text prompt retains both opening headings missed/merged by primary ASR; both raw results retained. Source terms ジプロック and 講師 remain explicitly checked speech inputs. ASR normalizes some readings/spellings and is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM; zero measured clipping; content transcript and low-energy gap measurements reviewed. Audible pitch, phrasing and smoothness are not listening-verified."
+    },
+    {
+      "key": "家で仕込みをする時に家の菌が埃に付き降りてきて、食物に付着して発酵を始めます。",
+      "card": "fermentation-basics-2026",
+      "message_id": "fermentation-basics-chunk-07",
+      "display": "家で仕込みをする時に家の菌が埃に付き降りてきて、食物に付着して発酵を始めます。\n",
+      "input": "いえでしこみおするときに、いえのきんがほこりにつき、おりてきて、しょくもつにふちゃくしてはっこうおはじめます。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": [
+        "Pinned Kanjium exact spelling/reading matches, checked against intended fermentation meaning and inflections.",
+        "https://www.kanjipedia.jp/kotoba/0002984100",
+        "https://www.nta.go.jp/taxes/sake/hambai/moderutekisuto/pdf/r03_04_10.pdf",
+        "https://kotobank.jp/word/甘味-471521",
+        "https://imidas.jp/kojiten/detail/W-03-0-468-06.html"
+      ],
+      "context_review": "Fermentation article, verbatim wording. Reviewed all kanji readings, inflections and contextual particles; source line wraps joined in speech only. は topic→わ, を→お, directional へ→え. Lexical は retained in はっこう/はたらき/はっせい/はじめ/はいしゅつ/はんのう/はえる. 食物 is しょくもつ; 甘味/旨味 are あまみ/うまみ; 煮沸 しゃふつ; 蔵付き酵母 くらつきこうぼ; 埃 ほこり; 各家 かくいえ; ジプロック retains supplied じぷろっく without spelling correction. 20～100種類 is にじゅうからひゃくしゅるい. Parenthetical 分解 and 瓶やジプロックなど are spoken, not mistaken for furigana.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical references; full-passage and unconfirmed compound intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "発酵",
+          "reading": "はっこう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L98799"
+        },
+        {
+          "form": "食物",
+          "reading": "しょくもつ",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68828"
+        },
+        {
+          "form": "菌",
+          "reading": "きん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40551"
+        },
+        {
+          "form": "埃",
+          "reading": "ほこり",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L119671"
+        },
+        {
+          "form": "付着",
+          "reading": "ふちゃく",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L102494"
+        }
+      ],
+      "pronunciation_guidance": "指定されたひらがな全文だけを一度、自然な東京の日本語で滑らかに朗読してください。語句を省略、変更、追加せず、長母音と促音を保ちます。句読点で軽く区切り、単語ごとの不自然な間を作りません。「ほこりにつき、おりてきて」は埃に付いて降りてくるという意味です。降りてを、おちてに言い換えません。 全文のイントネーションは暫定的です。確認した語彙アクセント：発酵 はっこう 0型; 食物 しょくもつ 2型; 菌 きん 1型; 埃 ほこり 0型; 付着 ふちゃく 0型。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-basics-2026/marin-b02888cab256b086125a.mp3",
+      "file_duration_seconds": 10.104,
+      "automated_transcript": "家出し込みをするときに、家の菌がほこりにつき、降りてきて食物に付着して発酵を始めます。",
+      "automated_transcript_review": "Compared transcript with original article. Regenerated passages 1, 5, 7, 9, 16–19 after omitted/changed wording. Final ASR has homophonic spelling substitutions (発光/発行 for 発酵, 孔子 for 講師, 家出し込み for 家で仕込み), plus spoken-heading normalization. Secondary whisper-1 without expected-text prompt retains both opening headings missed/merged by primary ASR; both raw results retained. Source terms ジプロック and 講師 remain explicitly checked speech inputs. ASR normalizes some readings/spellings and is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM; zero measured clipping; content transcript and low-energy gap measurements reviewed. Audible pitch, phrasing and smoothness are not listening-verified."
+    },
+    {
+      "key": "麹を加え発酵させるのは、先に強い菌を付着させ悪い菌の侵入する隙をなるべく与えなくする為 でもあります。",
+      "card": "fermentation-basics-2026",
+      "message_id": "fermentation-basics-chunk-08",
+      "display": "麹を加え発酵させるのは、先に強い菌を付着させ悪い菌の侵入する隙をなるべく与えなくする為\nでもあります。\n",
+      "input": "こうじおくわえはっこうさせるのわ、さきにつよいきんおふちゃくさせ、わるいきんのしんにゅうするすきお、なるべくあたえなくするためでもあります。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": [
+        "Pinned Kanjium exact spelling/reading matches, checked against intended fermentation meaning and inflections.",
+        "https://www.kanjipedia.jp/kotoba/0002984100",
+        "https://www.nta.go.jp/taxes/sake/hambai/moderutekisuto/pdf/r03_04_10.pdf",
+        "https://kotobank.jp/word/甘味-471521",
+        "https://imidas.jp/kojiten/detail/W-03-0-468-06.html"
+      ],
+      "context_review": "Fermentation article, verbatim wording. Reviewed all kanji readings, inflections and contextual particles; source line wraps joined in speech only. は topic→わ, を→お, directional へ→え. Lexical は retained in はっこう/はたらき/はっせい/はじめ/はいしゅつ/はんのう/はえる. 食物 is しょくもつ; 甘味/旨味 are あまみ/うまみ; 煮沸 しゃふつ; 蔵付き酵母 くらつきこうぼ; 埃 ほこり; 各家 かくいえ; ジプロック retains supplied じぷろっく without spelling correction. 20～100種類 is にじゅうからひゃくしゅるい. Parenthetical 分解 and 瓶やジプロックなど are spoken, not mistaken for furigana.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical references; full-passage and unconfirmed compound intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "発酵",
+          "reading": "はっこう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L98799"
+        },
+        {
+          "form": "菌",
+          "reading": "きん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40551"
+        },
+        {
+          "form": "付着",
+          "reading": "ふちゃく",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L102494"
+        },
+        {
+          "form": "麹",
+          "reading": "こうじ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L51348"
+        },
+        {
+          "form": "隙",
+          "reading": "すき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L43512"
+        }
+      ],
+      "pronunciation_guidance": "入力のひらがな全文だけを一度、自然な東京の日本語で、落ち着いた読み物の朗読として滑らかに読んでください。省略や言い換えをせず、説明を加えません。長母音と促音を保ち、助詞は直前の句につなげます。句読点で軽く区切り、音節や単語ごとの不自然な間を作らないでください。発酵の教材です。全文のイントネーションと未確認の専門複合語は暫定的な自然な東京方言です。 辞書で確認した語彙アクセント（文脈に自然に適用、0は平板、数字は下がり目の拍）：発酵（はっこう）0; 菌（きん）1; 付着（ふちゃく）0; 麹（こうじ）0; 隙（すき）0。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-basics-2026/marin-ec3ffad82170921712b1.mp3",
+      "file_duration_seconds": 11.76,
+      "automated_transcript": "麹を加え発酵させるのは、先に強い菌を付着させ、悪い菌の侵入する隙をなるべく与えなくするためでもあります。",
+      "automated_transcript_review": "Compared transcript with original article. Regenerated passages 1, 5, 7, 9, 16–19 after omitted/changed wording. Final ASR has homophonic spelling substitutions (発光/発行 for 発酵, 孔子 for 講師, 家出し込み for 家で仕込み), plus spoken-heading normalization. Secondary whisper-1 without expected-text prompt retains both opening headings missed/merged by primary ASR; both raw results retained. Source terms ジプロック and 講師 remain explicitly checked speech inputs. ASR normalizes some readings/spellings and is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM; zero measured clipping; content transcript and low-energy gap measurements reviewed. Audible pitch, phrasing and smoothness are not listening-verified."
+    },
+    {
+      "key": "良い菌に守ってもらい、でもその家の菌も取り入れ、その家のオリジナルの味が出来上がるので す。仕込みが同じでも、出来上がりが各家で違うのはその為なのです。",
+      "card": "fermentation-basics-2026",
+      "message_id": "fermentation-basics-chunk-09",
+      "display": "良い菌に守ってもらい、でもその家の菌も取り入れ、その家のオリジナルの味が出来上がるので\nす。仕込みが同じでも、出来上がりが各家で違うのはその為なのです。\n",
+      "input": "よいきんにまもってもらい、でもそのいえのきんもとりいれ、そのいえのおりじなるのあじができあがるのです。しこみがおなじでも、できあがりがかくいえでちがうのわ、そのためなのです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": [
+        "Pinned Kanjium exact spelling/reading matches, checked against intended fermentation meaning and inflections.",
+        "https://www.kanjipedia.jp/kotoba/0002984100",
+        "https://www.nta.go.jp/taxes/sake/hambai/moderutekisuto/pdf/r03_04_10.pdf",
+        "https://kotobank.jp/word/甘味-471521",
+        "https://imidas.jp/kojiten/detail/W-03-0-468-06.html"
+      ],
+      "context_review": "Fermentation article, verbatim wording. Reviewed all kanji readings, inflections and contextual particles; source line wraps joined in speech only. は topic→わ, を→お, directional へ→え. Lexical は retained in はっこう/はたらき/はっせい/はじめ/はいしゅつ/はんのう/はえる. 食物 is しょくもつ; 甘味/旨味 are あまみ/うまみ; 煮沸 しゃふつ; 蔵付き酵母 くらつきこうぼ; 埃 ほこり; 各家 かくいえ; ジプロック retains supplied じぷろっく without spelling correction. 20～100種類 is にじゅうからひゃくしゅるい. Parenthetical 分解 and 瓶やジプロックなど are spoken, not mistaken for furigana.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical references; full-passage and unconfirmed compound intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "菌",
+          "reading": "きん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40551"
+        }
+      ],
+      "pronunciation_guidance": "指定されたひらがな全文だけを一度、自然な東京の日本語で滑らかに朗読してください。語句を省略、変更、追加せず、長母音と促音を保ちます。句読点で軽く区切り、単語ごとの不自然な間を作りません。最初は「よいきんにまもってもらい」です。良い菌という意味で、酵母菌には言い換えません。 全文のイントネーションは暫定的です。確認した語彙アクセント：菌 きん 1型。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-basics-2026/marin-3cff4d5921818c9e2357.mp3",
+      "file_duration_seconds": 14.4,
+      "automated_transcript": "良い菌に守ってもらい、でもその家の菌も取り入れ、その家のオリジナルの味が出来上がるのです。仕込みが同じでも、出来上がりが各家で違うのはそのためなのです。",
+      "automated_transcript_review": "Compared transcript with original article. Regenerated passages 1, 5, 7, 9, 16–19 after omitted/changed wording. Final ASR has homophonic spelling substitutions (発光/発行 for 発酵, 孔子 for 講師, 家出し込み for 家で仕込み), plus spoken-heading normalization. Secondary whisper-1 without expected-text prompt retains both opening headings missed/merged by primary ASR; both raw results retained. Source terms ジプロック and 講師 remain explicitly checked speech inputs. ASR normalizes some readings/spellings and is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM; zero measured clipping; content transcript and low-energy gap measurements reviewed. Audible pitch, phrasing and smoothness are not listening-verified."
+    },
+    {
+      "key": "また、空気中に浮遊している菌には、有害なカビや菌も存在します。 発酵物に有害な菌を発生させない為には、使用する器具や道具は常に清潔な物を使用し 保存する用具は煮沸、またはアルコール消毒をしたり、新品を使いましょう。",
+      "card": "fermentation-basics-2026",
+      "message_id": "fermentation-basics-chunk-10",
+      "display": "また、空気中に浮遊している菌には、有害なカビや菌も存在します。\n発酵物に有害な菌を発生させない為には、使用する器具や道具は常に清潔な物を使用し\n保存する用具(瓶やジプロックなど)は煮沸、またはアルコール消毒をしたり、新品を使いましょう。\n",
+      "input": "また、くうきちゅうにふゆうしているきんにわ、ゆうがいなかびやきんもそんざいします。はっこうぶつにゆうがいなきんおはっせいさせないためにわ、しようするきぐやどうぐわ、つねにせいけつなものおしようし、ほぞんするようぐ、びんやじぷろっくなどわ、しゃふつ、またわあるこーるしょうどくおしたり、しんぴんおつかいましょう。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": [
+        "Pinned Kanjium exact spelling/reading matches, checked against intended fermentation meaning and inflections.",
+        "https://www.kanjipedia.jp/kotoba/0002984100",
+        "https://www.nta.go.jp/taxes/sake/hambai/moderutekisuto/pdf/r03_04_10.pdf",
+        "https://kotobank.jp/word/甘味-471521",
+        "https://imidas.jp/kojiten/detail/W-03-0-468-06.html"
+      ],
+      "context_review": "Fermentation article, verbatim wording. Reviewed all kanji readings, inflections and contextual particles; source line wraps joined in speech only. は topic→わ, を→お, directional へ→え. Lexical は retained in はっこう/はたらき/はっせい/はじめ/はいしゅつ/はんのう/はえる. 食物 is しょくもつ; 甘味/旨味 are あまみ/うまみ; 煮沸 しゃふつ; 蔵付き酵母 くらつきこうぼ; 埃 ほこり; 各家 かくいえ; ジプロック retains supplied じぷろっく without spelling correction. 20～100種類 is にじゅうからひゃくしゅるい. Parenthetical 分解 and 瓶やジプロックなど are spoken, not mistaken for furigana.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical references; full-passage and unconfirmed compound intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "発酵",
+          "reading": "はっこう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L98799"
+        },
+        {
+          "form": "菌",
+          "reading": "きん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40551"
+        },
+        {
+          "form": "煮沸",
+          "reading": "しゃふつ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L60015"
+        },
+        {
+          "form": "浮遊",
+          "reading": "ふゆう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L102914"
+        }
+      ],
+      "pronunciation_guidance": "入力のひらがな全文だけを一度、自然な東京の日本語で、落ち着いた読み物の朗読として滑らかに読んでください。省略や言い換えをせず、説明を加えません。長母音と促音を保ち、助詞は直前の句につなげます。句読点で軽く区切り、音節や単語ごとの不自然な間を作らないでください。発酵の教材です。全文のイントネーションと未確認の専門複合語は暫定的な自然な東京方言です。 辞書で確認した語彙アクセント（文脈に自然に適用、0は平板、数字は下がり目の拍）：発酵（はっこう）0; 菌（きん）1; 煮沸（しゃふつ）0; 浮遊（ふゆう）0。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-basics-2026/marin-218ddb58785460376280.mp3",
+      "file_duration_seconds": 23.808,
+      "automated_transcript": "また、空気中に浮遊している菌には、有害なカビや菌も存在します。発酵物に有害な菌を発生させないためには、使用する器具や道具は常に清潔なものを使用し、保存する容具、瓶やジップロックなどは煮沸またはアルコール消毒をしたり新品を使いましょう。",
+      "automated_transcript_review": "Compared transcript with original article. Regenerated passages 1, 5, 7, 9, 16–19 after omitted/changed wording. Final ASR has homophonic spelling substitutions (発光/発行 for 発酵, 孔子 for 講師, 家出し込み for 家で仕込み), plus spoken-heading normalization. Secondary whisper-1 without expected-text prompt retains both opening headings missed/merged by primary ASR; both raw results retained. Source terms ジプロック and 講師 remain explicitly checked speech inputs. ASR normalizes some readings/spellings and is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM; zero measured clipping; content transcript and low-energy gap measurements reviewed. Audible pitch, phrasing and smoothness are not listening-verified."
+    },
+    {
+      "key": "発酵の種類 発酵は大きく3つに分類出来ます。 それは カビ、酵母、細菌などです。 カビ…麹カビ類、チーズの白カビ、青カビ、鰹節のカビなど 酵母…パン酵母、ワイン酵母など 細菌…乳酸菌、納豆菌、酢酸菌など",
+      "card": "fermentation-basics-2026",
+      "message_id": "fermentation-basics-chunk-11",
+      "display": "(2)発酵の種類\n発酵は大きく3つに分類出来ます。\nそれは カビ、酵母、細菌などです。\n　　\n　　　カビ…麹カビ類、チーズの白カビ、青カビ、鰹節のカビなど\n　　　酵母…パン酵母、ワイン酵母など\n　　　細菌…乳酸菌、納豆菌、酢酸菌など\n",
+      "input": "に、はっこうのしゅるい。はっこうわおおきくみっつにぶんるいできます。それわ、かび、こうぼ、さいきんなどです。かび、こうじかびるい、ちーずのしろかび、あおかび、かつおぶしのかびなど。こうぼ、ぱんこうぼ、わいんこうぼなど。さいきん、にゅうさんきん、なっとうきん、さくさんきんなど。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": [
+        "Pinned Kanjium exact spelling/reading matches, checked against intended fermentation meaning and inflections.",
+        "https://www.kanjipedia.jp/kotoba/0002984100",
+        "https://www.nta.go.jp/taxes/sake/hambai/moderutekisuto/pdf/r03_04_10.pdf",
+        "https://kotobank.jp/word/甘味-471521",
+        "https://imidas.jp/kojiten/detail/W-03-0-468-06.html"
+      ],
+      "context_review": "Fermentation article, verbatim wording. Reviewed all kanji readings, inflections and contextual particles; source line wraps joined in speech only. は topic→わ, を→お, directional へ→え. Lexical は retained in はっこう/はたらき/はっせい/はじめ/はいしゅつ/はんのう/はえる. 食物 is しょくもつ; 甘味/旨味 are あまみ/うまみ; 煮沸 しゃふつ; 蔵付き酵母 くらつきこうぼ; 埃 ほこり; 各家 かくいえ; ジプロック retains supplied じぷろっく without spelling correction. 20～100種類 is にじゅうからひゃくしゅるい. Parenthetical 分解 and 瓶やジプロックなど are spoken, not mistaken for furigana.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical references; full-passage and unconfirmed compound intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "発酵",
+          "reading": "はっこう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L98799"
+        },
+        {
+          "form": "菌",
+          "reading": "きん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40551"
+        },
+        {
+          "form": "乳酸",
+          "reading": "にゅうさん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L95493"
+        },
+        {
+          "form": "酢酸",
+          "reading": "さくさん",
+          "accent_variants": [
+            0,
+            3
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L71528"
+        },
+        {
+          "form": "酵母",
+          "reading": "こうぼ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50573"
+        },
+        {
+          "form": "麹",
+          "reading": "こうじ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L51348"
+        },
+        {
+          "form": "鰹節",
+          "reading": "かつおぶし",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L33217"
+        }
+      ],
+      "pronunciation_guidance": "入力のひらがな全文だけを一度、自然な東京の日本語で、落ち着いた読み物の朗読として滑らかに読んでください。省略や言い換えをせず、説明を加えません。長母音と促音を保ち、助詞は直前の句につなげます。句読点で軽く区切り、音節や単語ごとの不自然な間を作らないでください。発酵の教材です。全文のイントネーションと未確認の専門複合語は暫定的な自然な東京方言です。 辞書で確認した語彙アクセント（文脈に自然に適用、0は平板、数字は下がり目の拍）：発酵（はっこう）0; 菌（きん）1; 乳酸（にゅうさん）0; 酢酸（さくさん）0; 酵母（こうぼ）1; 麹（こうじ）0; 鰹節（かつおぶし）0。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-basics-2026/marin-4f7a2f575438bce51b57.mp3",
+      "file_duration_seconds": 24.768,
+      "automated_transcript": "2.発酵の種類 発酵は大きく三つに分類できます。それはカビ、酵母、細菌などです。カビ、麹カビ類、チーズの白カビ、青カビ、鰹節のカビなど、酵母、パン酵母、ワイン酵母など、細菌、乳酸菌、納豆菌、酢酸菌など。",
+      "automated_transcript_review": "Compared transcript with original article. Regenerated passages 1, 5, 7, 9, 16–19 after omitted/changed wording. Final ASR has homophonic spelling substitutions (発光/発行 for 発酵, 孔子 for 講師, 家出し込み for 家で仕込み), plus spoken-heading normalization. Secondary whisper-1 without expected-text prompt retains both opening headings missed/merged by primary ASR; both raw results retained. Source terms ジプロック and 講師 remain explicitly checked speech inputs. ASR normalizes some readings/spellings and is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM; zero measured clipping; content transcript and low-energy gap measurements reviewed. Audible pitch, phrasing and smoothness are not listening-verified."
+    },
+    {
+      "key": "カビは大きく、肉眼でも見えますが、細菌類は小さく 増えたとしても肉眼では見えにくいです。 細菌の大多数が分解力が強くはなく、例えばヨーグルトの 酸味1種類だけしか作れない乳酸菌もいるのです。",
+      "card": "fermentation-basics-2026",
+      "message_id": "fermentation-basics-chunk-12",
+      "display": "カビは大きく、肉眼でも見えますが、細菌類は小さく 増えたとしても肉眼では見えにくいです。\n細菌の大多数が分解力が強くはなく、例えばヨーグルトの\n酸味1種類だけしか作れない乳酸菌もいるのです。\n",
+      "input": "かびわおおきく、にくがんでもみえますが、さいきんるいわちいさく、ふえたとしてもにくがんでわみえにくいです。さいきんのだいたすうがぶんかいりょくがつよくわなく、たとえばよーぐるとのさんみいっしゅるいだけしかつくれないにゅうさんきんもいるのです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": [
+        "Pinned Kanjium exact spelling/reading matches, checked against intended fermentation meaning and inflections.",
+        "https://www.kanjipedia.jp/kotoba/0002984100",
+        "https://www.nta.go.jp/taxes/sake/hambai/moderutekisuto/pdf/r03_04_10.pdf",
+        "https://kotobank.jp/word/甘味-471521",
+        "https://imidas.jp/kojiten/detail/W-03-0-468-06.html"
+      ],
+      "context_review": "Fermentation article, verbatim wording. Reviewed all kanji readings, inflections and contextual particles; source line wraps joined in speech only. は topic→わ, を→お, directional へ→え. Lexical は retained in はっこう/はたらき/はっせい/はじめ/はいしゅつ/はんのう/はえる. 食物 is しょくもつ; 甘味/旨味 are あまみ/うまみ; 煮沸 しゃふつ; 蔵付き酵母 くらつきこうぼ; 埃 ほこり; 各家 かくいえ; ジプロック retains supplied じぷろっく without spelling correction. 20～100種類 is にじゅうからひゃくしゅるい. Parenthetical 分解 and 瓶やジプロックなど are spoken, not mistaken for furigana.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical references; full-passage and unconfirmed compound intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "分解",
+          "reading": "ぶんかい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L104380"
+        },
+        {
+          "form": "菌",
+          "reading": "きん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40551"
+        },
+        {
+          "form": "乳酸",
+          "reading": "にゅうさん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L95493"
+        },
+        {
+          "form": "肉眼",
+          "reading": "にくがん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L95112"
+        }
+      ],
+      "pronunciation_guidance": "Read the supplied hiragana once as smooth, connected Tokyo Japanese narration. Preserve every word, long vowel and doubled consonant. Use light clause pauses at punctuation only. This is a fermentation textbook passage; read all sentences without adding explanations. Whole-sentence intonation provisional. Checked component accents: 分解 ぶんかい type 0; 菌 きん type 1; 乳酸 にゅうさん type 0; 肉眼 にくがん type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-basics-2026/marin-59cc952236530dd79f28.mp3",
+      "file_duration_seconds": 21.72,
+      "automated_transcript": "カビは大きく肉眼でも見えますが、細菌類は小さく、増えたとしても肉眼では見えにくいです。細菌の大多数が分解力が強くはなく、例えばヨーグルトの酸味一種類だけしか作れない乳酸菌もいるのです。",
+      "automated_transcript_review": "Compared transcript with original article. Regenerated passages 1, 5, 7, 9, 16–19 after omitted/changed wording. Final ASR has homophonic spelling substitutions (発光/発行 for 発酵, 孔子 for 講師, 家出し込み for 家で仕込み), plus spoken-heading normalization. Secondary whisper-1 without expected-text prompt retains both opening headings missed/merged by primary ASR; both raw results retained. Source terms ジプロック and 講師 remain explicitly checked speech inputs. ASR normalizes some readings/spellings and is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM; zero measured clipping; content transcript and low-energy gap measurements reviewed. Audible pitch, phrasing and smoothness are not listening-verified."
+    },
+    {
+      "key": "それとは逆に麹カビは20～100種類の分解能力を持つと言われています。 それだけ色々な物質を作り出せるという事なのです。",
+      "card": "fermentation-basics-2026",
+      "message_id": "fermentation-basics-chunk-13",
+      "display": "それとは逆に麹カビは20～100種類の分解能力を持つと言われています。\nそれだけ色々な物質を作り出せるという事なのです。\n",
+      "input": "それとわぎゃくに、こうじかびわ、にじゅうからひゃくしゅるいのぶんかいのうりょくおもつといわれています。それだけいろいろなぶっしつおつくりだせるということなのです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": [
+        "Pinned Kanjium exact spelling/reading matches, checked against intended fermentation meaning and inflections.",
+        "https://www.kanjipedia.jp/kotoba/0002984100",
+        "https://www.nta.go.jp/taxes/sake/hambai/moderutekisuto/pdf/r03_04_10.pdf",
+        "https://kotobank.jp/word/甘味-471521",
+        "https://imidas.jp/kojiten/detail/W-03-0-468-06.html"
+      ],
+      "context_review": "Fermentation article, verbatim wording. Reviewed all kanji readings, inflections and contextual particles; source line wraps joined in speech only. は topic→わ, を→お, directional へ→え. Lexical は retained in はっこう/はたらき/はっせい/はじめ/はいしゅつ/はんのう/はえる. 食物 is しょくもつ; 甘味/旨味 are あまみ/うまみ; 煮沸 しゃふつ; 蔵付き酵母 くらつきこうぼ; 埃 ほこり; 各家 かくいえ; ジプロック retains supplied じぷろっく without spelling correction. 20～100種類 is にじゅうからひゃくしゅるい. Parenthetical 分解 and 瓶やジプロックなど are spoken, not mistaken for furigana.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical references; full-passage and unconfirmed compound intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "分解",
+          "reading": "ぶんかい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L104380"
+        },
+        {
+          "form": "麹",
+          "reading": "こうじ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L51348"
+        }
+      ],
+      "pronunciation_guidance": "入力のひらがな全文だけを一度、自然な東京の日本語で、落ち着いた読み物の朗読として滑らかに読んでください。省略や言い換えをせず、説明を加えません。長母音と促音を保ち、助詞は直前の句につなげます。句読点で軽く区切り、音節や単語ごとの不自然な間を作らないでください。発酵の教材です。全文のイントネーションと未確認の専門複合語は暫定的な自然な東京方言です。 辞書で確認した語彙アクセント（文脈に自然に適用、0は平板、数字は下がり目の拍）：分解（ぶんかい）0; 麹（こうじ）0。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-basics-2026/marin-71b28c09b5b304330cad.mp3",
+      "file_duration_seconds": 12.552,
+      "automated_transcript": "それとは逆に、コウジカビは20から100種類の分解能力を持つと言われています。それだけいろいろな物質を作り出せるということなのです。",
+      "automated_transcript_review": "Compared transcript with original article. Regenerated passages 1, 5, 7, 9, 16–19 after omitted/changed wording. Final ASR has homophonic spelling substitutions (発光/発行 for 発酵, 孔子 for 講師, 家出し込み for 家で仕込み), plus spoken-heading normalization. Secondary whisper-1 without expected-text prompt retains both opening headings missed/merged by primary ASR; both raw results retained. Source terms ジプロック and 講師 remain explicitly checked speech inputs. ASR normalizes some readings/spellings and is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM; zero measured clipping; content transcript and low-energy gap measurements reviewed. Audible pitch, phrasing and smoothness are not listening-verified."
+    },
+    {
+      "key": "味噌などは麹菌がたくさん持っている分解能力で、大豆から沢山の物質を作り 酵母や乳酸菌の餌になるのでヨーグルトに比べても味が複雑になるのです。",
+      "card": "fermentation-basics-2026",
+      "message_id": "fermentation-basics-chunk-14",
+      "display": "味噌などは麹菌がたくさん持っている分解能力で、大豆から沢山の物質を作り\n酵母や乳酸菌の餌になるのでヨーグルトに比べても味が複雑になるのです。\n",
+      "input": "みそなどわ、こうじきんがたくさんもっているぶんかいのうりょくで、だいずからたくさんのぶっしつおつくり、こうぼやにゅうさんきんのえさになるので、よーぐるとにくらべてもあじがふくざつになるのです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": [
+        "Pinned Kanjium exact spelling/reading matches, checked against intended fermentation meaning and inflections.",
+        "https://www.kanjipedia.jp/kotoba/0002984100",
+        "https://www.nta.go.jp/taxes/sake/hambai/moderutekisuto/pdf/r03_04_10.pdf",
+        "https://kotobank.jp/word/甘味-471521",
+        "https://imidas.jp/kojiten/detail/W-03-0-468-06.html"
+      ],
+      "context_review": "Fermentation article, verbatim wording. Reviewed all kanji readings, inflections and contextual particles; source line wraps joined in speech only. は topic→わ, を→お, directional へ→え. Lexical は retained in はっこう/はたらき/はっせい/はじめ/はいしゅつ/はんのう/はえる. 食物 is しょくもつ; 甘味/旨味 are あまみ/うまみ; 煮沸 しゃふつ; 蔵付き酵母 くらつきこうぼ; 埃 ほこり; 各家 かくいえ; ジプロック retains supplied じぷろっく without spelling correction. 20～100種類 is にじゅうからひゃくしゅるい. Parenthetical 分解 and 瓶やジプロックなど are spoken, not mistaken for furigana.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical references; full-passage and unconfirmed compound intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "分解",
+          "reading": "ぶんかい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L104380"
+        },
+        {
+          "form": "菌",
+          "reading": "きん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40551"
+        },
+        {
+          "form": "乳酸",
+          "reading": "にゅうさん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L95493"
+        },
+        {
+          "form": "酵母",
+          "reading": "こうぼ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50573"
+        },
+        {
+          "form": "麹",
+          "reading": "こうじ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L51348"
+        },
+        {
+          "form": "麹菌",
+          "reading": "こうじきん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L51349"
+        },
+        {
+          "form": "大豆",
+          "reading": "だいず",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L83129"
+        },
+        {
+          "form": "餌",
+          "reading": "えさ",
+          "accent_variants": [
+            2,
+            0
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L25485"
+        }
+      ],
+      "pronunciation_guidance": "入力のひらがな全文だけを一度、自然な東京の日本語で、落ち着いた読み物の朗読として滑らかに読んでください。省略や言い換えをせず、説明を加えません。長母音と促音を保ち、助詞は直前の句につなげます。句読点で軽く区切り、音節や単語ごとの不自然な間を作らないでください。発酵の教材です。全文のイントネーションと未確認の専門複合語は暫定的な自然な東京方言です。 辞書で確認した語彙アクセント（文脈に自然に適用、0は平板、数字は下がり目の拍）：分解（ぶんかい）0; 菌（きん）1; 乳酸（にゅうさん）0; 酵母（こうぼ）1; 麹（こうじ）0; 麹菌（こうじきん）0; 大豆（だいず）0; 餌（えさ）2。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-basics-2026/marin-2066bcba732921af2a50.mp3",
+      "file_duration_seconds": 15.552,
+      "automated_transcript": "味噌などは麹菌がたくさん持っている分解のう力で、大豆からたくさんの物質を作り、酵母や乳酸菌の餌になるので、ヨーグルトに比べても味が複雑になるのです。",
+      "automated_transcript_review": "Compared transcript with original article. Regenerated passages 1, 5, 7, 9, 16–19 after omitted/changed wording. Final ASR has homophonic spelling substitutions (発光/発行 for 発酵, 孔子 for 講師, 家出し込み for 家で仕込み), plus spoken-heading normalization. Secondary whisper-1 without expected-text prompt retains both opening headings missed/merged by primary ASR; both raw results retained. Source terms ジプロック and 講師 remain explicitly checked speech inputs. ASR normalizes some readings/spellings and is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM; zero measured clipping; content transcript and low-energy gap measurements reviewed. Audible pitch, phrasing and smoothness are not listening-verified."
+    },
+    {
+      "key": "発酵を始める生活へ 失敗を恐れずに作ってみる事が大切です。自分でやってみるのです。 発酵が作り出すものに同じものは１つもありません。",
+      "card": "fermentation-basics-2026",
+      "message_id": "fermentation-basics-chunk-15",
+      "display": "(3)発酵を始める生活へ\n失敗を恐れずに作ってみる事が大切です。自分でやってみるのです。\n発酵が作り出すものに同じものは１つもありません。\n",
+      "input": "さん、はっこうおはじめるせいかつえ。しっぱいおおそれずにつくってみることがたいせつです。じぶんでやってみるのです。はっこうがつくりだすものに、おなじものわひとつもありません。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": [
+        "Pinned Kanjium exact spelling/reading matches, checked against intended fermentation meaning and inflections.",
+        "https://www.kanjipedia.jp/kotoba/0002984100",
+        "https://www.nta.go.jp/taxes/sake/hambai/moderutekisuto/pdf/r03_04_10.pdf",
+        "https://kotobank.jp/word/甘味-471521",
+        "https://imidas.jp/kojiten/detail/W-03-0-468-06.html"
+      ],
+      "context_review": "Fermentation article, verbatim wording. Reviewed all kanji readings, inflections and contextual particles; source line wraps joined in speech only. は topic→わ, を→お, directional へ→え. Lexical は retained in はっこう/はたらき/はっせい/はじめ/はいしゅつ/はんのう/はえる. 食物 is しょくもつ; 甘味/旨味 are あまみ/うまみ; 煮沸 しゃふつ; 蔵付き酵母 くらつきこうぼ; 埃 ほこり; 各家 かくいえ; ジプロック retains supplied じぷろっく without spelling correction. 20～100種類 is にじゅうからひゃくしゅるい. Parenthetical 分解 and 瓶やジプロックなど are spoken, not mistaken for furigana.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical references; full-passage and unconfirmed compound intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "発酵",
+          "reading": "はっこう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L98799"
+        }
+      ],
+      "pronunciation_guidance": "入力のひらがな全文だけを一度、自然な東京の日本語で、落ち着いた読み物の朗読として滑らかに読んでください。省略や言い換えをせず、説明を加えません。長母音と促音を保ち、助詞は直前の句につなげます。句読点で軽く区切り、音節や単語ごとの不自然な間を作らないでください。発酵の教材です。全文のイントネーションと未確認の専門複合語は暫定的な自然な東京方言です。 辞書で確認した語彙アクセント（文脈に自然に適用、0は平板、数字は下がり目の拍）：発酵（はっこう）0。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-basics-2026/marin-8b1236d18e33eff23896.mp3",
+      "file_duration_seconds": 14.112,
+      "automated_transcript": "さあ、発酵を始める生活へ。失敗を恐れずに作ってみることが大切です。自分でやってみるのです。発酵が作り出すものに、同じものは一つもありません。",
+      "automated_transcript_review": "Compared transcript with original article. Regenerated passages 1, 5, 7, 9, 16–19 after omitted/changed wording. Final ASR has homophonic spelling substitutions (発光/発行 for 発酵, 孔子 for 講師, 家出し込み for 家で仕込み), plus spoken-heading normalization. Secondary whisper-1 without expected-text prompt retains both opening headings missed/merged by primary ASR; both raw results retained. Source terms ジプロック and 講師 remain explicitly checked speech inputs. ASR normalizes some readings/spellings and is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM; zero measured clipping; content transcript and low-energy gap measurements reviewed. Audible pitch, phrasing and smoothness are not listening-verified."
+    },
+    {
+      "key": "使う材料のみならず、周りの環境や季節、温度、湿度、その他いろいろな要素が 発酵の変化を引き起こす微生物の反応具合に影響します。",
+      "card": "fermentation-basics-2026",
+      "message_id": "fermentation-basics-chunk-16",
+      "display": "使う材料のみならず、周りの環境や季節、温度、湿度、その他いろいろな要素が\n発酵の変化を引き起こす微生物の反応具合に影響します。\n",
+      "input": "つかうざいりょうのみならず、まわりのかんきょうやきせつ、おんど、しつど、そのた、いろいろなようそが、はっこうのへんかおひきおこす、びせいぶつのはんのうぐあいにえいきょうします。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": [
+        "Pinned Kanjium exact spelling/reading matches, checked against intended fermentation meaning and inflections.",
+        "https://www.kanjipedia.jp/kotoba/0002984100",
+        "https://www.nta.go.jp/taxes/sake/hambai/moderutekisuto/pdf/r03_04_10.pdf",
+        "https://kotobank.jp/word/甘味-471521",
+        "https://imidas.jp/kojiten/detail/W-03-0-468-06.html"
+      ],
+      "context_review": "Fermentation article, verbatim wording. Reviewed all kanji readings, inflections and contextual particles; source line wraps joined in speech only. は topic→わ, を→お, directional へ→え. Lexical は retained in はっこう/はたらき/はっせい/はじめ/はいしゅつ/はんのう/はえる. 食物 is しょくもつ; 甘味/旨味 are あまみ/うまみ; 煮沸 しゃふつ; 蔵付き酵母 くらつきこうぼ; 埃 ほこり; 各家 かくいえ; ジプロック retains supplied じぷろっく without spelling correction. 20～100種類 is にじゅうからひゃくしゅるい. Parenthetical 分解 and 瓶やジプロックなど are spoken, not mistaken for furigana.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical references; full-passage and unconfirmed compound intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "発酵",
+          "reading": "はっこう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L98799"
+        },
+        {
+          "form": "微生物",
+          "reading": "びせいぶつ",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100700"
+        },
+        {
+          "form": "湿度",
+          "reading": "しつど",
+          "accent_variants": [
+            2,
+            1
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L59495"
+        }
+      ],
+      "pronunciation_guidance": "指定されたひらがな全文だけを一度、自然な東京の日本語で滑らかに朗読してください。語句を省略、変更、追加せず、長母音と促音を保ちます。句読点で軽く区切り、単語ごとの不自然な間を作りません。「そのた、いろいろなようそが」はその他いろいろな要素が、という意味です。全文そのまま読みます。 全文のイントネーションは暫定的です。確認した語彙アクセント：発酵 はっこう 0型; 微生物 びせいぶつ 2型; 湿度 しつど 2型。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-basics-2026/marin-a50f879d76a9894fec25.mp3",
+      "file_duration_seconds": 13.248,
+      "automated_transcript": "使う材料のみならず、周りの環境や季節、温度湿度、その他いろいろな要素が発酵の変化を引き起こす微生物の反応具合に影響します。",
+      "automated_transcript_review": "Compared transcript with original article. Regenerated passages 1, 5, 7, 9, 16–19 after omitted/changed wording. Final ASR has homophonic spelling substitutions (発光/発行 for 発酵, 孔子 for 講師, 家出し込み for 家で仕込み), plus spoken-heading normalization. Secondary whisper-1 without expected-text prompt retains both opening headings missed/merged by primary ASR; both raw results retained. Source terms ジプロック and 講師 remain explicitly checked speech inputs. ASR normalizes some readings/spellings and is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM; zero measured clipping; content transcript and low-energy gap measurements reviewed. Audible pitch, phrasing and smoothness are not listening-verified."
+    },
+    {
+      "key": "微生物たちが発酵活動をしている間、私たちは菌が寒過ぎる時は暖かくしてあげ 菌が息苦しくないように混ぜたりして、微生物たちが育ちやすいように手助けを しながら見守りましょう。",
+      "card": "fermentation-basics-2026",
+      "message_id": "fermentation-basics-chunk-17",
+      "display": "微生物たちが発酵活動をしている間、私たちは菌が寒過ぎる時は暖かくしてあげ\n菌が息苦しくないように混ぜたりして、微生物たちが育ちやすいように手助けを\nしながら見守りましょう。\n",
+      "input": "びせいぶつたちがはっこうかつどうおしているあいだ、わたしたちわ、きんがさむすぎるときわあたたかくしてあげ、きんがいきぐるしくないようにまぜたりして、びせいぶつたちがそだちやすいように、てだすけおしながらみまもりましょう。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": [
+        "Pinned Kanjium exact spelling/reading matches, checked against intended fermentation meaning and inflections.",
+        "https://www.kanjipedia.jp/kotoba/0002984100",
+        "https://www.nta.go.jp/taxes/sake/hambai/moderutekisuto/pdf/r03_04_10.pdf",
+        "https://kotobank.jp/word/甘味-471521",
+        "https://imidas.jp/kojiten/detail/W-03-0-468-06.html"
+      ],
+      "context_review": "Fermentation article, verbatim wording. Reviewed all kanji readings, inflections and contextual particles; source line wraps joined in speech only. は topic→わ, を→お, directional へ→え. Lexical は retained in はっこう/はたらき/はっせい/はじめ/はいしゅつ/はんのう/はえる. 食物 is しょくもつ; 甘味/旨味 are あまみ/うまみ; 煮沸 しゃふつ; 蔵付き酵母 くらつきこうぼ; 埃 ほこり; 各家 かくいえ; ジプロック retains supplied じぷろっく without spelling correction. 20～100種類 is にじゅうからひゃくしゅるい. Parenthetical 分解 and 瓶やジプロックなど are spoken, not mistaken for furigana.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical references; full-passage and unconfirmed compound intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "発酵",
+          "reading": "はっこう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L98799"
+        },
+        {
+          "form": "微生物",
+          "reading": "びせいぶつ",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100700"
+        },
+        {
+          "form": "菌",
+          "reading": "きん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40551"
+        }
+      ],
+      "pronunciation_guidance": "指定されたひらがな全文だけを一度、自然な東京の日本語で滑らかに朗読してください。語句を省略、変更、追加せず、長母音と促音を保ちます。句読点で軽く区切り、単語ごとの不自然な間を作りません。最初は「びせいぶつたちが」です。「が」は主格助詞です。 全文のイントネーションは暫定的です。確認した語彙アクセント：発酵 はっこう 0型; 微生物 びせいぶつ 2型; 菌 きん 1型。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-basics-2026/marin-bc0a4fb2d7f8a69c89ec.mp3",
+      "file_duration_seconds": 17.712,
+      "automated_transcript": "微生物たちが発酵活動をしている間、私たちは菌が寒すぎるときは温かくしてあげ、菌が息苦しくないように混ぜたりして、微生物たちが育ちやすいように手助けをしながら見守りましょう。",
+      "automated_transcript_review": "Compared transcript with original article. Regenerated passages 1, 5, 7, 9, 16–19 after omitted/changed wording. Final ASR has homophonic spelling substitutions (発光/発行 for 発酵, 孔子 for 講師, 家出し込み for 家で仕込み), plus spoken-heading normalization. Secondary whisper-1 without expected-text prompt retains both opening headings missed/merged by primary ASR; both raw results retained. Source terms ジプロック and 講師 remain explicitly checked speech inputs. ASR normalizes some readings/spellings and is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM; zero measured clipping; content transcript and low-energy gap measurements reviewed. Audible pitch, phrasing and smoothness are not listening-verified."
+    },
+    {
+      "key": "数時間で完成する発酵もあれば、完成までに何年もかかるモノもあります。 美味しくなるのを待ちながら私たちは菌たちが心地良く増殖する環境を作ってあげるのです。",
+      "card": "fermentation-basics-2026",
+      "message_id": "fermentation-basics-chunk-18",
+      "display": "数時間で完成する発酵もあれば、完成までに何年もかかるモノもあります。\n美味しくなるのを待ちながら私たちは菌たちが心地良く増殖する環境を作ってあげるのです。\n",
+      "input": "すうじかんでかんせいするはっこうもあれば、かんせいまでになんねんもかかるものもあります。おいしくなるのおまちながら、わたしたちわきんたちがここちよくぞうしょくするかんきょうお、つくってあげるのです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": [
+        "Pinned Kanjium exact spelling/reading matches, checked against intended fermentation meaning and inflections.",
+        "https://www.kanjipedia.jp/kotoba/0002984100",
+        "https://www.nta.go.jp/taxes/sake/hambai/moderutekisuto/pdf/r03_04_10.pdf",
+        "https://kotobank.jp/word/甘味-471521",
+        "https://imidas.jp/kojiten/detail/W-03-0-468-06.html"
+      ],
+      "context_review": "Fermentation article, verbatim wording. Reviewed all kanji readings, inflections and contextual particles; source line wraps joined in speech only. は topic→わ, を→お, directional へ→え. Lexical は retained in はっこう/はたらき/はっせい/はじめ/はいしゅつ/はんのう/はえる. 食物 is しょくもつ; 甘味/旨味 are あまみ/うまみ; 煮沸 しゃふつ; 蔵付き酵母 くらつきこうぼ; 埃 ほこり; 各家 かくいえ; ジプロック retains supplied じぷろっく without spelling correction. 20～100種類 is にじゅうからひゃくしゅるい. Parenthetical 分解 and 瓶やジプロックなど are spoken, not mistaken for furigana.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical references; full-passage and unconfirmed compound intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "発酵",
+          "reading": "はっこう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L98799"
+        },
+        {
+          "form": "菌",
+          "reading": "きん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40551"
+        },
+        {
+          "form": "増殖",
+          "reading": "ぞうしょく",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L80034"
+        }
+      ],
+      "pronunciation_guidance": "指定されたひらがな全文だけを一度、自然な東京の日本語で滑らかに朗読してください。語句を省略、変更、追加せず、長母音と促音を保ちます。句読点で軽く区切り、単語ごとの不自然な間を作りません。「わたしたちわ、きんたちが」は私たちは菌たちが、という二つの句です。酵母には言い換えません。 全文のイントネーションは暫定的です。確認した語彙アクセント：発酵 はっこう 0型; 菌 きん 1型; 増殖 ぞうしょく 0型。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-basics-2026/marin-1c283198fdb5a62c0101.mp3",
+      "file_duration_seconds": 16.656,
+      "automated_transcript": "数時間で完成する発酵もあれば、完成までに何年もかかるものもあります。おいしくなるのを待ちながら、私たちは菌たちが心地よく増殖する環境を作ってあげるのです。",
+      "automated_transcript_review": "Compared transcript with original article. Regenerated passages 1, 5, 7, 9, 16–19 after omitted/changed wording. Final ASR has homophonic spelling substitutions (発光/発行 for 発酵, 孔子 for 講師, 家出し込み for 家で仕込み), plus spoken-heading normalization. Secondary whisper-1 without expected-text prompt retains both opening headings missed/merged by primary ASR; both raw results retained. Source terms ジプロック and 講師 remain explicitly checked speech inputs. ASR normalizes some readings/spellings and is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM; zero measured clipping; content transcript and low-energy gap measurements reviewed. Audible pitch, phrasing and smoothness are not listening-verified."
+    },
+    {
+      "key": "カビが生えたからと言って作り手が下手な訳ではありません。 講師は現在でも失敗する事があります。",
+      "card": "fermentation-basics-2026",
+      "message_id": "fermentation-basics-chunk-19",
+      "display": "カビが生えたからと言って作り手が下手な訳ではありません。\n講師は現在でも失敗する事があります。\n",
+      "input": "かびがはえたからといって、つくりてがへたなわけでわありません。こうしわげんざいでもしっぱいすることがあります。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": [
+        "Pinned Kanjium exact spelling/reading matches, checked against intended fermentation meaning and inflections.",
+        "https://www.kanjipedia.jp/kotoba/0002984100",
+        "https://www.nta.go.jp/taxes/sake/hambai/moderutekisuto/pdf/r03_04_10.pdf",
+        "https://kotobank.jp/word/甘味-471521",
+        "https://imidas.jp/kojiten/detail/W-03-0-468-06.html"
+      ],
+      "context_review": "Fermentation article, verbatim wording. Reviewed all kanji readings, inflections and contextual particles; source line wraps joined in speech only. は topic→わ, を→お, directional へ→え. Lexical は retained in はっこう/はたらき/はっせい/はじめ/はいしゅつ/はんのう/はえる. 食物 is しょくもつ; 甘味/旨味 are あまみ/うまみ; 煮沸 しゃふつ; 蔵付き酵母 くらつきこうぼ; 埃 ほこり; 各家 かくいえ; ジプロック retains supplied じぷろっく without spelling correction. 20～100種類 is にじゅうからひゃくしゅるい. Parenthetical 分解 and 瓶やジプロックなど are spoken, not mistaken for furigana.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical references; full-passage and unconfirmed compound intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "講師",
+          "reading": "こうし",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50526"
+        },
+        {
+          "form": "下手",
+          "reading": "へた",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L28037"
+        }
+      ],
+      "pronunciation_guidance": "指定されたひらがな全文だけを一度、自然な東京の日本語で滑らかに朗読してください。語句を省略、変更、追加せず、長母音と促音を保ちます。句読点で軽く区切り、単語ごとの不自然な間を作りません。「こうし」は教える人、講師です。麹ではありません。「し」の音を明瞭に読みます。 全文のイントネーションは暫定的です。確認した語彙アクセント：講師 こうし 1型; 下手 へた 2型。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-basics-2026/marin-d1dd0f060d2cadd9b147.mp3",
+      "file_duration_seconds": 9.36,
+      "automated_transcript": "カビが生えたからといって、作り手が下手なわけではありません。孔子は現在でも失敗することがあります。",
+      "automated_transcript_review": "Compared transcript with original article. Regenerated passages 1, 5, 7, 9, 16–19 after omitted/changed wording. Final ASR has homophonic spelling substitutions (発光/発行 for 発酵, 孔子 for 講師, 家出し込み for 家で仕込み), plus spoken-heading normalization. Secondary whisper-1 without expected-text prompt retains both opening headings missed/merged by primary ASR; both raw results retained. Source terms ジプロック and 講師 remain explicitly checked speech inputs. ASR normalizes some readings/spellings and is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM; zero measured clipping; content transcript and low-energy gap measurements reviewed. Audible pitch, phrasing and smoothness are not listening-verified."
+    },
+    {
+      "key": "とにかく自分で作ってみる、やってみることが大切です。 発酵の基本を学びながら1年かけて頑張って発酵に慣れ、自分の食生活の欠かせないモノとしま しょう。",
+      "card": "fermentation-basics-2026",
+      "message_id": "fermentation-basics-chunk-20",
+      "display": "とにかく自分で作ってみる、やってみることが大切です。\n発酵の基本を学びながら1年かけて頑張って発酵に慣れ、自分の食生活の欠かせないモノとしま\nしょう。\n",
+      "input": "とにかくじぶんでつくってみる、やってみることがたいせつです。はっこうのきほんおまなびながら、いちねんかけてがんばってはっこうになれ、じぶんのしょくせいかつのかかせないものとしましょう。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": [
+        "Pinned Kanjium exact spelling/reading matches, checked against intended fermentation meaning and inflections.",
+        "https://www.kanjipedia.jp/kotoba/0002984100",
+        "https://www.nta.go.jp/taxes/sake/hambai/moderutekisuto/pdf/r03_04_10.pdf",
+        "https://kotobank.jp/word/甘味-471521",
+        "https://imidas.jp/kojiten/detail/W-03-0-468-06.html"
+      ],
+      "context_review": "Fermentation article, verbatim wording. Reviewed all kanji readings, inflections and contextual particles; source line wraps joined in speech only. は topic→わ, を→お, directional へ→え. Lexical は retained in はっこう/はたらき/はっせい/はじめ/はいしゅつ/はんのう/はえる. 食物 is しょくもつ; 甘味/旨味 are あまみ/うまみ; 煮沸 しゃふつ; 蔵付き酵母 くらつきこうぼ; 埃 ほこり; 各家 かくいえ; ジプロック retains supplied じぷろっく without spelling correction. 20～100種類 is にじゅうからひゃくしゅるい. Parenthetical 分解 and 瓶やジプロックなど are spoken, not mistaken for furigana.",
+      "accent_status": "provisional",
+      "accent_source": "Pinned exact lexical references; full-passage and unconfirmed compound intonation provisional under standing authorization.",
+      "accent_components": [
+        {
+          "form": "発酵",
+          "reading": "はっこう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L98799"
+        }
+      ],
+      "pronunciation_guidance": "入力のひらがな全文だけを一度、自然な東京の日本語で、落ち着いた読み物の朗読として滑らかに読んでください。省略や言い換えをせず、説明を加えません。長母音と促音を保ち、助詞は直前の句につなげます。句読点で軽く区切り、音節や単語ごとの不自然な間を作らないでください。発酵の教材です。全文のイントネーションと未確認の専門複合語は暫定的な自然な東京方言です。 辞書で確認した語彙アクセント（文脈に自然に適用、0は平板、数字は下がり目の拍）：発酵（はっこう）0。",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-basics-2026/marin-eda3dcc8db2beda4b8cc.mp3",
+      "file_duration_seconds": 15.312,
+      "automated_transcript": "とにかく自分で作ってみる、やってみることが大切です。発酵の基本を学びながら、一年かけて頑張って発酵に慣れ、自分の食生活の欠かせないものとしましょう。",
+      "automated_transcript_review": "Compared transcript with original article. Regenerated passages 1, 5, 7, 9, 16–19 after omitted/changed wording. Final ASR has homophonic spelling substitutions (発光/発行 for 発酵, 孔子 for 講師, 家出し込み for 家で仕込み), plus spoken-heading normalization. Secondary whisper-1 without expected-text prompt retains both opening headings missed/merged by primary ASR; both raw results retained. Source terms ジプロック and 講師 remain explicitly checked speech inputs. ASR normalizes some readings/spellings and is not listening or audible-pitch verification.",
+      "audio_validation": "Decoded non-silent PCM; zero measured clipping; content transcript and low-energy gap measurements reviewed. Audible pitch, phrasing and smoothness are not listening-verified."
+    }
+  ]
+}

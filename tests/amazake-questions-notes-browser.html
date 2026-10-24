@@ -1,0 +1,53 @@
+<!doctype html><meta charset="utf-8"><title>Amazake questions checks</title>
+<pre id="result">RUNNING</pre><iframe src="../index.html" style="width:360px;height:850px" title="App"></iframe>
+<script>
+(async()=>{
+ const frame=document.querySelector('iframe'),result=document.querySelector('#result');
+ const assert=(v,m)=>{if(!v)throw Error(m)};
+ const until=async fn=>{for(let i=0;i<400;i++){if(fn())return;await new Promise(r=>setTimeout(r,25))}throw Error('Timed out')};
+ try{
+  await until(()=>frame.contentDocument.querySelector('#openVocabularyCards:not(:disabled)'));
+  const d=frame.contentDocument,w=frame.contentWindow,q=s=>d.querySelector(s),plays=[];
+  w.Audio=class extends w.EventTarget{
+   constructor(src){super();this.src=src;this.paused=true;this.currentTime=0;this.playbackRate=1}
+   getAttribute(name){return name==='src'?this.src:null}
+   play(){this.paused=false;plays.push(this);return Promise.resolve()}
+   pause(){this.paused=true}removeAttribute(name){if(name==='src')this.src=''}load(){}
+  };
+  const expected=message=>w.lessonAudioFiles['fermentation-notes-amazake-questions'][w.getJapaneseSpeechText(message.speech||message.japanese)];
+  const data=await fetch('../data/fermentation-notes/amazake-questions.json').then(r=>r.json()),entry=data.entries[0];
+  const source=await fetch('../data/fermentation-notes/amazake-questions-source.txt').then(r=>r.text());
+  assert(entry.kanji+'\n'+entry.messages.map(m=>m.japanese).join('')===source,'Verbatim source');
+  q('[aria-label="Open 発酵ノート"]').click();[...d.querySelectorAll('#lessonList button')].find(b=>b.textContent.includes('甘酒作りの疑問に答える')).click();
+  await until(()=>q('.article-chunks'));
+  const chunks=[...d.querySelectorAll('.article-chunk')];assert(chunks.length===19,'19 passages');
+  const normalize=t=>t.replace(/[\s⚪︎]/gu,'');
+  for(const [i,chunk] of chunks.entries()){
+   const text=chunk.querySelector('.article-passage-text'),copy=text.cloneNode(true);copy.querySelectorAll('.furiganaReading').forEach(n=>n.remove());
+   assert(normalize(copy.textContent)===normalize(entry.messages[i].japanese),'All source text preserved '+i);
+   const audio=chunk.querySelector('button:not(.article-english-toggle)');assert(!audio.disabled,'Audio ready '+i);
+   const count=plays.length;audio.click();await until(()=>plays.length>count);
+   assert(plays.at(-1).src===expected(entry.messages[i])&&plays.at(-1).playbackRate===1,'Matching recording '+i);
+   const original=text.textContent,toggle=chunk.querySelector('.article-english-toggle');toggle.click();
+   assert(text.lang==='en'&&text.textContent.includes(entry.messages[i].english.split('\n')[0].replace(/^• /,'')),'English '+i);
+   toggle.click();assert(text.lang==='ja'&&text.textContent===original,'Japanese restored '+i);
+  }
+  const headingText=[...d.querySelectorAll('.article-passage-text h5')].map(n=>{const c=n.cloneNode(true);c.querySelectorAll('.furiganaReading').forEach(r=>r.remove());return c.textContent});
+  assert(entry.questionHeadingLines.every(line=>headingText.includes(line)),'All nine question headings');
+  assert(d.querySelectorAll('.article-microbe-list li').length===7,'Readable bullet lists');
+  const reading=q('.furiganaReading');q('#vocabularyCardFurigana').click();assert(w.getComputedStyle(reading).display!=='none','Furigana available');
+  const readAll=q('.story-play-all');assert(!readAll.disabled,'Read all ready');
+  readAll.click();const queue=plays.at(-1);
+  for(const message of entry.messages){
+   assert(queue.src===expected(message)&&queue.playbackRate===1,'Read all order');
+   queue.dispatchEvent(new w.Event('ended'));
+  }
+  assert(queue.paused&&readAll.getAttribute('aria-pressed')==='false','Read all completes');
+  readAll.click();const stopped=plays.at(-1);readAll.click();assert(stopped.paused,'Stop playback');
+  assert([...d.querySelectorAll('.article-microbe-list')].every(n=>w.getComputedStyle(n).backgroundColor==='rgba(0, 0, 0, 0)'&&w.getComputedStyle(n).listStyleType==='disc'),'Plain solid bullets');
+  assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Phone layout');
+  readAll.click();const exitAudio=plays.at(-1);q('#backFromExplosion').click();assert(exitAudio.paused,'Exit stops Read all');
+  result.textContent='PASS: verbatim source, 19 translated/furigana passages, nine headings, bullet lists, 19 matching Marin 1x recordings, Read all, stop/exit cleanup, plain solid bullets and phone fit';
+ }catch(e){result.textContent='FAIL: '+e.stack}
+})();
+</script>

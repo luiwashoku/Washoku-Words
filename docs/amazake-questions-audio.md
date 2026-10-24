@@ -1,0 +1,9 @@
+# Amazake questions audio
+
+`fermentation-notes-amazake-questions`: 19 passages, recorded in two batches (1–10 and 11–19) with Marin (`gpt-4o-mini-tts`) at generation speed 1.0 throughout. Individual sound buttons and Read all enabled. Original Japanese source, English, furigana, headings and plain solid bullets unchanged. No audio playback-rate adjustments.
+
+Exact readings, contextual particles, phrase boundaries, long vowels, gemination and numerical quantities reviewed in `scripts/lesson-audio-reviews/fermentation-notes-amazake-questions.json`. Pinned Kanjium lexical accent matches/variants/selected targets retained; whole-passage and unconfirmed specialist compounds provisional under standing authorization. 麹香 is the previously sourced こうじか; alternate こうじこう recorded in article reading notes. Quantities, ratios, spoon counters, temperatures, pH, salt and alcohol percentages checked against supplied text.
+
+Targeted transcription-based retries for chunks 1, 5, 8, 12, 15, 16 and 18 after particle grouping, missing storage/duration, counter or wording flags. Final chunk 12 retains one or two tablespoons with clear counter phrasing. Independent whisper-1 without expected-text prompting retains chunk 8 heading and phonetic こうじか as 麹果, while primary ASR writes 麹から; both results retained as spelling/recognition ambiguity. Primary ASR normalizes 別な菌 to 別の菌; speech input retains the source.
+
+`docs/amazake-questions-audio-audit.json`: decoded PCM, file hashes, durations, level/clipping/gap measurements and unprompted Japanese transcripts. All 19 final clips non-silent with zero measured clipping. These are automated checks, not listening verification. Audible pitch, voice quality and smoothness have not been listening-verified. This task is verbatim source narration, not independent safety/health guidance, factual verification or endorsement of the article’s claims.

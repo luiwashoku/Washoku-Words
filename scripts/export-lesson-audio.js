@@ -22,7 +22,7 @@ function run(args) {
     if (lesson.gameMode === 'vocabulary-cards') {
       data.entries.forEach(function(entry) {
         if (args[2] && entry.id !== args[2]) return;
-        if (lesson.storyCards) {
+        if (lesson.storyCards || lesson.articleCards) {
           (entry.messages || []).forEach(function(message) {
             rows.push({lesson: lessonId, card: entry.id, field: message.id, key: window.getJapaneseSpeechText(message.speech || message.japanese)});
           });

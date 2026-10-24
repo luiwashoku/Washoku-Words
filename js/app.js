@@ -51,7 +51,8 @@
       color: "var(--horizon)",
       canvas: "var(--pulse)"
     },
-    { id: "stories", title: "Stories", pageRange: "Conversations", color: "var(--bee-yellow)", canvas: "var(--bee-yellow)" }
+    { id: "stories", title: "Stories", pageRange: "Conversations", color: "var(--bee-yellow)", canvas: "var(--bee-yellow)" },
+    { id: "fermentation-notes", title: "発酵ノート", pageRange: "Fermentation notes", art: "fermentation", color: "var(--paper)", canvas: "var(--paper)" }
   ];
 
   const STORAGE_KEYS = {
@@ -1197,7 +1198,7 @@
           category.color;
         button.style.setProperty(
           "--category-art",
-          `url("${new URL(`assets/category-${category.id}.svg`, document.baseURI).href}")`
+          `url("${new URL(`assets/category-${category.art || category.id}.svg`, document.baseURI).href}")`
         );
 
         button.setAttribute(
@@ -1392,7 +1393,7 @@
       button.className =
         "lesson-card";
 
-      const menuColor = lesson.storyCards ? lesson.menuColor : lesson.gameMode === "vocabulary-cards" ? "purple" : lesson.menuColor;
+      const menuColor = lesson.storyCards || lesson.articleCards ? lesson.menuColor : lesson.gameMode === "vocabulary-cards" ? "purple" : lesson.menuColor;
       if (["yellow", "green", "purple", "bee-yellow"].includes(menuColor)) {
         button.classList.add(
           `lesson-card--${menuColor}`

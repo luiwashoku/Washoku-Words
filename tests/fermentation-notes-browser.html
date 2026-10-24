@@ -1,0 +1,72 @@
+<!doctype html><meta charset="utf-8"><title>Fermentation reading checks</title>
+<pre id="result">RUNNING</pre><iframe src="../index.html" style="width:360px;height:850px" title="App"></iframe>
+<script>
+(async()=>{
+ const frame=document.querySelector('iframe'),result=document.querySelector('#result');
+ const assert=(v,m)=>{if(!v)throw Error(m)};
+ const until=async fn=>{for(let i=0;i<400;i++){if(fn())return;await new Promise(r=>setTimeout(r,25))}throw Error('Timed out')};
+ try{
+  await until(()=>frame.contentDocument.querySelector('#openVocabularyCards:not(:disabled)'));
+  const d=frame.contentDocument,w=frame.contentWindow,q=s=>d.querySelector(s),plays=[];
+  w.Audio=class extends w.EventTarget{
+    constructor(src){super();this.src=src;this.paused=true;this.currentTime=0;this.playbackRate=1}
+    getAttribute(name){return name==='src'?this.src:null}
+    play(){this.paused=false;plays.push(this);return Promise.resolve()}
+    pause(){this.paused=true}
+    removeAttribute(name){if(name==='src')this.src=''}
+    load(){}
+  };
+  const data=await fetch('../data/fermentation-notes/basics-2026.json').then(r=>r.json());
+  const source=await fetch('../data/fermentation-notes/2026-basics-source.txt').then(r=>r.text());
+  const entry=data.entries[0];
+  assert(entry.kanji+'\n'+entry.messages.map(m=>m.japanese).join('')===source,'Exact source preserved');
+  q('[aria-label="Open 発酵ノート"]').click();q('#lessonList button').click();
+  await until(()=>q('.article-chunks'));
+  const passages=[...d.querySelectorAll('.article-passage-text')];
+  const withoutReadings=node=>{const copy=node.cloneNode(true);copy.querySelectorAll('.furiganaReading').forEach(n=>n.remove());return copy.textContent};
+  const reading=q('.article-passage-text .furiganaReading');assert(reading,'Passage readings exist');
+  assert(w.getComputedStyle(reading).display==='none','Furigana initially hidden');
+  q('#vocabularyCardFurigana').click();assert(w.getComputedStyle(reading).display!=='none','Furigana toggle shows readings');
+  q('#vocabularyCardFurigana').click();assert(w.getComputedStyle(reading).display==='none','Furigana toggle hides readings');
+  assert(passages.length===20,'20 short passages');
+  assert(withoutReadings(passages[0]).includes('成される事を「発酵」'),'Mid-sentence source wrap joined');
+  assert(withoutReadings(passages[1]).includes('その物質を'),'Split word joined');
+  assert(passages.every((p,i)=>withoutReadings(p).replace(/\s/g,'')===entry.messages[i].japanese.replace(/\s/g,'')),'All wording and parentheses displayed literally');
+  const buttons=[...d.querySelectorAll('.article-chunk button:not(.article-english-toggle)')];
+  assert(buttons.length===20&&buttons.every(b=>!b.disabled),'20 enabled sound buttons');
+  const expected=message=>w.lessonAudioFiles['fermentation-notes-basics-2026'][w.getJapaneseSpeechText(message.speech||message.japanese)];
+  for(const [i,button] of buttons.entries()){
+    const count=plays.length;button.click();await until(()=>plays.length>count);
+    assert(plays.at(-1).src===expected(entry.messages[i])&&plays.at(-1).playbackRate===1,'Matching passage at 1x '+i);
+  }
+  const translations=[...d.querySelectorAll('.article-english-toggle')];
+  assert(translations.length===20,'English toggle on every passage');
+  for(const [i,toggle] of translations.entries()){
+    const original=passages[i].textContent;
+    const playCount=plays.length;toggle.click();
+    assert(passages[i].lang==='en'&&passages[i].textContent.includes(entry.messages[i].english.split('\n')[0]),'English replaces Japanese '+i);
+    assert(toggle.getAttribute('aria-pressed')==='true'&&plays.length===playCount,'Toggle does not affect audio');
+    buttons[i].click();await until(()=>plays.length>playCount);
+    assert(plays.at(-1).src===expected(entry.messages[i]),'English view retains Japanese audio');
+    toggle.click();assert(passages[i].lang==='ja'&&passages[i].textContent===original,'Japanese restored exactly');
+  }
+  translations[0].click();
+  const readAll=q('.story-play-all');assert(!readAll.disabled&&readAll.textContent.includes('Read all'),'Read all ready');
+  readAll.click();const queue=plays.at(-1);
+  for(const message of entry.messages){
+    assert(queue.src===expected(message)&&queue.playbackRate===1,'Read all order');
+    assert(d.querySelectorAll('.article-chunk.story-message--playing').length===1,'One highlighted passage');
+    queue.dispatchEvent(new w.Event('ended'));
+  }
+  assert(queue.paused&&readAll.getAttribute('aria-pressed')==='false','Read all completes');
+  readAll.click();const stopped=plays.at(-1);readAll.click();assert(stopped.paused,'Stop reading');
+  readAll.click();const exitAudio=plays.at(-1);
+  assert(!q('.story-bubble'),'Reading layout');
+  assert(q('.article-title-detail')&&d.querySelectorAll('.article-passage-text h4, .article-passage-text h5').length===4,'Title break and section hierarchy');
+  assert(d.querySelectorAll('.article-microbe-list li').length===3,'Three microbe bullets');
+  assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Mobile width');
+  q('#backFromExplosion').click();assert(exitAudio.paused,'Exit stops Read all');assert(!q('#pageScreen').classList.contains('hidden')&&q('#pageTitle').textContent==='発酵ノート','Return to notes');
+  result.textContent='PASS: exact source and 20 passages, English toggles with unchanged Japanese recordings, 20 matching recordings at 1x, Read all order and stop/exit cleanup, mobile fit and return navigation';
+ }catch(e){result.textContent='FAIL: '+e.stack}
+})();
+</script>
