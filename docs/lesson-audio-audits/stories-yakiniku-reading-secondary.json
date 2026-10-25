@@ -1,0 +1,21 @@
+{
+  "method": "Independent Whisper transcription without expected-text prompt. Automated comparison, not listening or pitch verification.",
+  "entries": {
+    "yakiniku-reading-chunk-06": {
+      "number": 6,
+      "sha256": "6de460493f5979bb9f9be660293cddbbcfcdcc40bbd274820eff8ddf30672c92",
+      "audio": "audio/lessons/stories-yakiniku-reading/marin-21de224455f1accb7132.mp3",
+      "transcript": "味噌ベースは発酵によるコクとの濃厚な味わいが魅力です 特にホルモンや豚バラ肉など油の多い部位と相性が良いとされています",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "yakiniku-reading-chunk-08": {
+      "number": 8,
+      "sha256": "4cc63eae758c095bdd7710ff3f07bb1ecb8e5b0e7045a829bed36201aa61b04e",
+      "audio": "audio/lessons/stories-yakiniku-reading/marin-bf1e31c83ef4961a91f7.mp3",
+      "transcript": "2 タレのとろみで何が変わる 焼肉のタレを選ぶ際に注目したいのがとろみの強さです",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    }
+  }
+}

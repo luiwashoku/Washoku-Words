@@ -1,0 +1,45 @@
+{
+  "method": "Independent Whisper transcription without expected-text prompt. Automated comparison, not listening or pitch verification.",
+  "entries": {
+    "sugar-reading-chunk-08": {
+      "number": 8,
+      "sha256": "6d97a8c32e6f191d7770b85394d0cef93c6e12a9ecbec2f89102cf551db31d8a",
+      "audio": "audio/lessons/stories-sugar-reading/marin-c9c0e977fcc9f4b0fa30.mp3",
+      "transcript": "2 砂糖にはどんな種類がある黒糖 砂糖霧の絞り汁を煮詰めて作られる砂糖です 独特の香りとの濃厚なコクがあり沖縄のお菓子や 煮物などによく使われます",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "sugar-reading-chunk-14": {
+      "number": 14,
+      "sha256": "01b4d37cc56247721c05c88b74de0cd467a240925509d3eb4e9c59210ab994c5",
+      "audio": "audio/lessons/stories-sugar-reading/marin-0eafbe8b3651b66020c8.mp3",
+      "transcript": "ただし、GI値の食べる量や他の食品との組み合わせによっても影響を受けます。 また、黒糖やココナッツシュガーなども糖質多く含むため、食べ過ぎには注意が必要です。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "sugar-reading-chunk-17": {
+      "number": 17,
+      "sha256": "77a07e78f3bf9e8a62ede1fde56ef87ab05208a9097cb1b1cf6a2958173c0165",
+      "audio": "audio/lessons/stories-sugar-reading/marin-30e6d688e7fdffdbd126.mp3",
+      "transcript": "例えば黒糖豚の角煮に使うと、独特の黒糖、濃い色を加えることができます。 一方、白砂糖は癖が少ないため、素材本来の風味や色を生かしたい料理に向いています。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "sugar-reading-chunk-19": {
+      "number": 19,
+      "sha256": "35fa88f3d3b8d714a7638526c2d15b5b4d4eb7010fca29118b4ca88a8f849304",
+      "audio": "audio/lessons/stories-sugar-reading/marin-978bb8ffc7ad5d32768c.mp3",
+      "transcript": "カロリーを抑えるために、砂糖・オデツの甘味料に置き換える場合は、甘さだけでなく、加熱したときの性質にも注意しましょう。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "sugar-reading-chunk-22": {
+      "number": 22,
+      "sha256": "38f718d3d2eabb8addf1c10a3d7e54548754f62493cec79b765d38f7c4925b4e",
+      "audio": "audio/lessons/stories-sugar-reading/marin-d97082e4995397c2fbb4.mp3",
+      "transcript": "例えば、蜂蜜には独特の香りや風味がありますが、主な成分は糖類です。 また、アダデシロップは過糖を多く含むため、GI値が低いことだけで健康的だとは判断することはできません。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    }
+  }
+}

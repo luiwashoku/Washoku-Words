@@ -1,0 +1,35 @@
+<!doctype html><meta charset="utf-8"><title>Stories furikake reading checks</title>
+<pre id="result">RUNNING</pre><iframe src="../index.html" style="width:360px;height:850px" title="App"></iframe>
+<script>
+(async()=>{
+ const frame=document.querySelector('iframe'),result=document.querySelector('#result');
+ const assert=(v,m)=>{if(!v)throw Error(m)};
+ const until=async fn=>{for(let i=0;i<400;i++){if(fn())return;await new Promise(r=>setTimeout(r,25))}throw Error('Timed out')};
+ try {
+  await until(()=>frame.contentDocument.querySelector('#openVocabularyCards:not(:disabled)'));
+  const d=frame.contentDocument,w=frame.contentWindow,q=s=>d.querySelector(s);
+  const data=await fetch('../data/articles/furikake.json').then(r=>r.json()),entry=data.entries[0];
+  const source=await fetch('../data/articles/furikake-source.txt').then(r=>r.text());
+  assert(entry.japanese+'\n\n'+entry.messages.map(m=>m.japanese).join('')===source,'Exact source preserved');
+  q('[aria-label="Open Stories"]').click();
+  await until(()=>[...d.querySelectorAll('#lessonList .lesson-open')].some(b=>b.textContent.includes('ふりかけの種類と選び方')));
+  const buttons=[...d.querySelectorAll('#lessonList .lesson-open')];
+  assert(buttons.length===10&&buttons[0].textContent.includes('会話')&&buttons[1].textContent.includes('粗塩と精製塩')&&buttons[2].textContent.includes('甘酒とは？')&&buttons[3].textContent.includes('ふりかけの種類と選び方'),'Four subdecks in order');
+  assert(q('#pageSubtitle').textContent.includes('9 articles'),'Article count');buttons[3].click();
+  await until(()=>q('.article-chunks'));
+  const chunks=[...d.querySelectorAll('.article-chunk')];assert(chunks.length===27,'27 coherent passages');
+  for(const [i,chunk] of chunks.entries()){
+   const text=chunk.querySelector('.article-passage-text'),copy=text.cloneNode(true);copy.querySelectorAll('.furiganaReading').forEach(n=>n.remove());
+   const norm=t=>t.replace(/\s/g,'');assert(norm(copy.textContent)===norm(entry.messages[i].japanese),'Original wording '+i);
+   assert(!chunk.querySelector('button:not(.article-english-toggle)').disabled,'Audio ready '+i);
+   const original=text.textContent,toggle=chunk.querySelector('.article-english-toggle');toggle.click();
+   assert(text.lang==='en'&&text.textContent.length>20,'English '+i);toggle.click();assert(text.textContent===original,'Japanese restored '+i);
+  }
+  assert(d.querySelectorAll('.article-passage-text h5').length===6,'Six section headings');
+  const reading=q('.furiganaReading');q('#vocabularyCardFurigana').click();assert(w.getComputedStyle(reading).display!=='none','Furigana available');
+  assert(!q('.story-play-all').disabled,'Read all ready');
+  assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Phone fit');
+  result.textContent='PASS: fourth Stories subdeck, 27 exact translated/furigana passages, six section headings, audio ready and phone fit';
+ }catch(e){result.textContent='FAIL: '+e.stack}
+})();
+</script>

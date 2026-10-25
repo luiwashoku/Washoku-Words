@@ -1,0 +1,14 @@
+{
+  "method": "Generic hiragana transcription request; no expected words or quantities supplied. Automated comparison, not listening or pitch verification.",
+  "entries": {
+    "salt-types-chunk-13": {
+      "number": 13,
+      "sha256": "c0edfca63ee4b9bc6eb9964aaa045cfdc752d7b1cd2111495a234a88d0e2270e",
+      "audio": "audio/lessons/stories-salt-types/marin-bac0ec85c7c35ea8e5f1.mp3",
+      "transcript": "普段の調理には使いやすい塩、仕上げには食感や風味を楽しめる塩、選ぶなど目的に合わせて使い分けるのがおすすめです。",
+      "model": "gpt-4o-transcribe",
+      "expected_text_prompt": false,
+      "generic_phonetic_prompt": true
+    }
+  }
+}

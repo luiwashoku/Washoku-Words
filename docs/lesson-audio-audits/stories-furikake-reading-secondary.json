@@ -1,0 +1,29 @@
+{
+  "method": "Independent Whisper transcription without expected-text prompt. Automated comparison, not listening or pitch verification.",
+  "entries": {
+    "furikake-reading-chunk-04": {
+      "number": 4,
+      "sha256": "595e114e481afb3ef6dbc79909ee2214ed097646dbad5e36e73d28ee6ef45426",
+      "audio": "audio/lessons/stories-furikake-reading/marin-37674e0e6b370f8501f6.mp3",
+      "transcript": "①乾燥タイプとソフトタイプの違い ふりかけは大きく分けると乾燥タイプとソフトタイプの2種類であります。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "furikake-reading-chunk-10": {
+      "number": 10,
+      "sha256": "0ebf4875aec015e15a2718476ab61d82d046082caab76dd7ba9bab324b3b802a",
+      "audio": "audio/lessons/stories-furikake-reading/marin-07c08b133f87700c39a9.mp3",
+      "transcript": "卵と海苔を中心に、ごまや魚の削り節などを組み合わせたもので、ほんのり甘い味わいが特徴です。 子供から大人まで、幅広い世代に人気があります。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "furikake-reading-chunk-23": {
+      "number": 23,
+      "sha256": "3a805027caf356bd9feb8967c517feebb6d8c025960a6f8c90afc45e944f3e77",
+      "audio": "audio/lessons/stories-furikake-reading/marin-a8900e6c53478b60cf0a.mp3",
+      "transcript": "特に暖かいご飯の上で袋から直接振りかけると湯気が袋の中には入り 湿気る原因になることがあります",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    }
+  }
+}

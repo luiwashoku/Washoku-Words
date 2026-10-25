@@ -1,0 +1,2596 @@
+{
+  "lesson": "stories-furikake-reading",
+  "reviewed": true,
+  "voice": "marin",
+  "model": "gpt-4o-mini-tts",
+  "speed": 1.0,
+  "accent_dictionary": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt",
+  "accent_dictionary_sha256": "8bd0dd127dab32ceec94cb03ab1ba6b68858ea73421dfa1731af2f373deb4f20",
+  "notes": "Sequential small batches; spoken inputs and phrase boundaries manually reviewed. Natural Tokyo provisional intonation for unconfirmed whole phrases. Source narration is not independent factual endorsement. Actual audio checked separately by decoded-signal and unprompted transcription; no listening/pitch verification claimed.",
+  "entries": [
+    {
+      "key": "ご飯にかけるだけで、手軽に味や彩りを加えられる「ふりかけ」。日本の家庭では、お弁当やおにぎりなど、さまざまな場面で使われています。",
+      "card": "furikake-reading",
+      "message_id": "furikake-reading-chunk-01",
+      "batch": 1,
+      "display": "ご飯にかけるだけで、手軽に味や彩りを加えられる「ふりかけ」。日本の家庭では、お弁当やおにぎりなど、さまざまな場面で使われています。\n\n",
+      "input": "ごはんにかけるだけで、てがるにあじやいろどりおくわえられるふりかけ。にほんのかていでわ、おべんとうやおにぎりなど、さまざまなばめんでつかわれています。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "日本",
+          "reading": "にほん",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L95376"
+        },
+        {
+          "form": "ご飯",
+          "reading": "ごはん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L2149"
+        },
+        {
+          "form": "家庭",
+          "reading": "かてい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L29062"
+        },
+        {
+          "form": "手軽",
+          "reading": "てがる",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61361"
+        },
+        {
+          "form": "彩り",
+          "reading": "いろどり",
+          "accent_variants": [
+            0,
+            4
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L53331"
+        },
+        {
+          "form": "弁当",
+          "reading": "べんとう",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106225"
+        },
+        {
+          "form": "場面",
+          "reading": "ばめん",
+          "accent_variants": [
+            0,
+            1
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67896"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 日本 にほん type 2; ご飯 ごはん type 1; 家庭 かてい type 0; 手軽 てがる type 0; 彩り いろどり type 0; 弁当 べんとう type 3; 場面 ばめん type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-furikake-reading/marin-ed095c2ab3927659c667.mp3",
+      "audio_sha256": "67aa431f5d6d82b08801b4f6f8e1d1685dad7297323f0270b676d7c3ed7c977f",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-furikake-reading.json",
+          "sha256": "67aa431f5d6d82b08801b4f6f8e1d1685dad7297323f0270b676d7c3ed7c977f",
+          "model": "gpt-4o-transcribe",
+          "transcript": "ご飯にかけるだけで手軽に味や彩りを加えられるふりかけ。日本の家庭ではお弁当やおにぎりなど様々な場面で使われています。"
+        }
+      ]
+    },
+    {
+      "key": "最近では、定番ののりたまや鮭だけでなく、地域の特産品を使ったものや、素材の食感を楽しめる高級ふりかけも販売されています。",
+      "card": "furikake-reading",
+      "message_id": "furikake-reading-chunk-02",
+      "batch": 1,
+      "display": "最近では、定番ののりたまや鮭だけでなく、地域の特産品を使ったものや、素材の食感を楽しめる高級ふりかけも販売されています。\n\n",
+      "input": "さいきんでわ、ていばんののりたまやさけだけでなく、ちいきのとくさんひんおつかったものや、そざいのしょっかんおたのしめる、こうきゅうふりかけもはんばいされています。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "楽しめる",
+          "reading": "たのしめる",
+          "accent_variants": [
+            4
+          ],
+          "selected_accent": 4,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L32658"
+        },
+        {
+          "form": "高級",
+          "reading": "こうきゅう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50815"
+        },
+        {
+          "form": "地域",
+          "reading": "ちいき",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L84904"
+        },
+        {
+          "form": "素材",
+          "reading": "そざい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L78408"
+        },
+        {
+          "form": "最近",
+          "reading": "さいきん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L53204"
+        },
+        {
+          "form": "定番",
+          "reading": "ていばん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L88899"
+        },
+        {
+          "form": "特産品",
+          "reading": "とくさんひん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L93353"
+        },
+        {
+          "form": "販売",
+          "reading": "はんばい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L99631"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 楽しめる たのしめる type 4; 高級 こうきゅう type 0; 地域 ちいき type 1; 素材 そざい type 0; 最近 さいきん type 0; 定番 ていばん type 0; 特産品 とくさんひん type 0; 販売 はんばい type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-furikake-reading/marin-c4da74f31c251346cbc6.mp3",
+      "audio_sha256": "797634fc6acd38a37329a998df6e6d11542c97d5aaab48cdb4ff1b649488c2da",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-furikake-reading.json",
+          "sha256": "797634fc6acd38a37329a998df6e6d11542c97d5aaab48cdb4ff1b649488c2da",
+          "model": "gpt-4o-transcribe",
+          "transcript": "最近では、定番ののりたまやさけだけでなく、地域の特産品を使ったものや素材の食感を楽しめる高級ふりかけも販売されています。"
+        }
+      ]
+    },
+    {
+      "key": "今回は、ふりかけの種類や特徴、料理に合った選び方についてご紹介します。",
+      "card": "furikake-reading",
+      "message_id": "furikake-reading-chunk-03",
+      "batch": 1,
+      "display": "今回は、ふりかけの種類や特徴、料理に合った選び方についてご紹介します。\n\n",
+      "input": "こんかいわ、ふりかけのしゅるいやとくちょう、りょうりにあったえらびかたについてごしょうかいします。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "種類",
+          "reading": "しゅるい",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61820"
+        },
+        {
+          "form": "特徴",
+          "reading": "とくちょう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L93400"
+        },
+        {
+          "form": "料理",
+          "reading": "りょうり",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L116664"
+        },
+        {
+          "form": "今回",
+          "reading": "こんかい",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52216"
+        },
+        {
+          "form": "選び方",
+          "reading": "えらびかた",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L77498"
+        },
+        {
+          "form": "紹介",
+          "reading": "しょうかい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67112"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 種類 しゅるい type 1; 特徴 とくちょう type 0; 料理 りょうり type 1; 今回 こんかい type 1; 選び方 えらびかた type 0; 紹介 しょうかい type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-furikake-reading/marin-6f15d43e4c61d824baa1.mp3",
+      "audio_sha256": "1a9e48f47d6e9e85acbc7002c670e6c5aaf09f8f0cf7acb0c3184e24f0ed495c",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-furikake-reading.json",
+          "sha256": "1a9e48f47d6e9e85acbc7002c670e6c5aaf09f8f0cf7acb0c3184e24f0ed495c",
+          "model": "gpt-4o-transcribe",
+          "transcript": "今回は、ふりかけの種類や特徴、料理に合った選び方についてご紹介します。"
+        }
+      ]
+    },
+    {
+      "key": "① 乾燥タイプとソフトタイプの違い ふりかけは、大きく分けると「乾燥タイプ」と「ソフトタイプ」の2種類があります。",
+      "card": "furikake-reading",
+      "message_id": "furikake-reading-chunk-04",
+      "batch": 1,
+      "display": "① 乾燥タイプとソフトタイプの違い\n\nふりかけは、大きく分けると「乾燥タイプ」と「ソフトタイプ」の2種類があります。\n\n",
+      "input": "いち、かんそうたいぷとそふとたいぷのちがい。ふりかけわ、おおきくわけると、かんそうたいぷとそふとたいぷのにしゅるいが、あります。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "種類",
+          "reading": "しゅるい",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61820"
+        },
+        {
+          "form": "違い",
+          "reading": "ちがい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L22595"
+        },
+        {
+          "form": "大きく",
+          "reading": "おおきく",
+          "accent_variants": [
+            1,
+            3
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L82532"
+        },
+        {
+          "form": "分ける",
+          "reading": "わける",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L104350"
+        },
+        {
+          "form": "乾燥",
+          "reading": "かんそう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L33516"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 種類 しゅるい type 1; 違い ちがい type 0; 大きく おおきく type 1; 分ける わける type 2; 乾燥 かんそう type 0. Re-recording review: articulate every supplied kana, including short particles and the complete final sentence, without adding words or changing the text. Use smooth connected phrases at normal speed. Distinguish たまご (egg), にゅうさんきん (lactic acid bacteria), あみのさんえき (amino-acid liquid), りょうりしゅ (cooking sake) and かっぺん (browning) where present. Do not omit the ending.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "generation_history": [
+        {
+          "input": "いち、かんそうたいぷとそふとたいぷのちがい。ふりかけわ、おおきくわけると、かんそうたいぷとそふとたいぷのにしゅるいがあります。",
+          "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 種類 しゅるい type 1; 違い ちがい type 0; 大きく おおきく type 1; 分ける わける type 2; 乾燥 かんそう type 0.",
+          "audio": "audio/lessons/stories-furikake-reading/marin-37674e0e6b370f8501f6.mp3",
+          "sha256": "595e114e481afb3ef6dbc79909ee2214ed097646dbad5e36e73d28ee6ef45426",
+          "transcript": "1.乾燥タイプとソフトタイプの違い ふりかけは大きく分けると乾燥タイプとソフトタイプの2種類であります。",
+          "reason": "Transcript comparison flagged unclear grouping, omitted wording or source mismatch; regenerate whole connected passage."
+        }
+      ],
+      "audio": "audio/lessons/stories-furikake-reading/marin-9e26d6c62de5a5222554.mp3",
+      "audio_sha256": "1ed725407ba964354fa4ba0014ba0ff23d7e9e3bc591c14deb091d2fc8823f00",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-furikake-reading.json",
+          "sha256": "1ed725407ba964354fa4ba0014ba0ff23d7e9e3bc591c14deb091d2fc8823f00",
+          "model": "gpt-4o-transcribe",
+          "transcript": "1. 乾燥タイプとソフトタイプの違い ふりかけは大きく分けると乾燥タイプとソフトタイプの2種類があります。"
+        }
+      ]
+    },
+    {
+      "key": "乾燥タイプは、水分を少なくすることで保存性を高めたものです。のり、ごま、卵、魚の削り節などがよく使われ、サクサクとした食感が特徴です。",
+      "card": "furikake-reading",
+      "message_id": "furikake-reading-chunk-05",
+      "batch": 1,
+      "display": "乾燥タイプは、水分を少なくすることで保存性を高めたものです。のり、ごま、卵、魚の削り節などがよく使われ、サクサクとした食感が特徴です。\n\n",
+      "input": "かんそうたいぷわ、すいぶんおすくなくすることでほぞんせいおたかめたものです。のり、ごま、たまご、さかなのけずりぶしなどがよくつかわれ、さくさくとしたしょっかんがとくちょうです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "特徴",
+          "reading": "とくちょう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L93400"
+        },
+        {
+          "form": "水分",
+          "reading": "すいぶん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L72162"
+        },
+        {
+          "form": "保存",
+          "reading": "ほぞん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106354"
+        },
+        {
+          "form": "削り節",
+          "reading": "けずりぶし",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L54029"
+        },
+        {
+          "form": "乾燥",
+          "reading": "かんそう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L33516"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 特徴 とくちょう type 0; 水分 すいぶん type 1; 保存 ほぞん type 0; 削り節 けずりぶし type 0; 乾燥 かんそう type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-furikake-reading/marin-1487a4a123b84dd40470.mp3",
+      "audio_sha256": "8c8632e009661f6d29544f1c993eca31a2acc1ad84ef5157b9255ec7ce1f92c2",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-furikake-reading.json",
+          "sha256": "8c8632e009661f6d29544f1c993eca31a2acc1ad84ef5157b9255ec7ce1f92c2",
+          "model": "gpt-4o-transcribe",
+          "transcript": "乾燥タイプは、水分を少なくすることで保存性を高めたものです。海苔、ごま、卵、魚の削り節などがよく使われ、サクサクとした食感が特徴です。"
+        }
+      ]
+    },
+    {
+      "key": "水分が少ないため比較的保存しやすく、お弁当にも向いています。ただし、ふりかけを使えばご飯が傷まなくなるわけではないため、お弁当の温度管理には注意が必要です。",
+      "card": "furikake-reading",
+      "message_id": "furikake-reading-chunk-06",
+      "batch": 1,
+      "display": "水分が少ないため比較的保存しやすく、お弁当にも向いています。ただし、ふりかけを使えばご飯が傷まなくなるわけではないため、お弁当の温度管理には注意が必要です。\n\n",
+      "input": "すいぶんがすくないためひかくてきほぞんしやすく、おべんとうにもむいています。ただし、ふりかけおつかえばごはんがいたまなくなるわけでわないため、おべんとうのおんどかんりにわちゅういがひつようです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "必要",
+          "reading": "ひつよう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L101058"
+        },
+        {
+          "form": "温度",
+          "reading": "おんど",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L27746"
+        },
+        {
+          "form": "水分",
+          "reading": "すいぶん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L72162"
+        },
+        {
+          "form": "注意",
+          "reading": "ちゅうい",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L86318"
+        },
+        {
+          "form": "比較的",
+          "reading": "ひかくてき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100027"
+        },
+        {
+          "form": "保存",
+          "reading": "ほぞん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106354"
+        },
+        {
+          "form": "ご飯",
+          "reading": "ごはん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L2149"
+        },
+        {
+          "form": "少ない",
+          "reading": "すくない",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L66339"
+        },
+        {
+          "form": "弁当",
+          "reading": "べんとう",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106225"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 必要 ひつよう type 0; 温度 おんど type 1; 水分 すいぶん type 1; 注意 ちゅうい type 1; 比較的 ひかくてき type 0; 保存 ほぞん type 0; ご飯 ごはん type 1; 少ない すくない type 3; 弁当 べんとう type 3.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-furikake-reading/marin-a9fe803496ad43eab4d4.mp3",
+      "audio_sha256": "14f17abd9ca5b939c1467bff8dd6c8c1fa6a67233d8abe3d0aa8b736731000dc",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-furikake-reading.json",
+          "sha256": "14f17abd9ca5b939c1467bff8dd6c8c1fa6a67233d8abe3d0aa8b736731000dc",
+          "model": "gpt-4o-transcribe",
+          "transcript": "水分が少ないため比較的保存しやすく、お弁当にも向いています。ただし、ふりかけを使えばご飯が傷まなくなるわけではないため、お弁当の温度管理には注意が必要です。"
+        }
+      ]
+    },
+    {
+      "key": "一方、ソフトタイプは、しっとりとした食感が魅力です。鮭のほぐし身や昆布、鶏そぼろなど、素材の味や食感を楽しめる商品が多くあります。",
+      "card": "furikake-reading",
+      "message_id": "furikake-reading-chunk-07",
+      "batch": 1,
+      "display": "一方、ソフトタイプは、しっとりとした食感が魅力です。鮭のほぐし身や昆布、鶏そぼろなど、素材の味や食感を楽しめる商品が多くあります。\n\n",
+      "input": "いっぽう、そふとたいぷわ、しっとりとしたしょっかんがみりょくです。さけのほぐしみやこんぶ、とりそぼろなど、そざいのあじやしょっかんおたのしめるしょうひんがおおくあります。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "商品",
+          "reading": "しょうひん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L65730"
+        },
+        {
+          "form": "一方",
+          "reading": "いっぽう",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L23721"
+        },
+        {
+          "form": "多く",
+          "reading": "おおく",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L81059"
+        },
+        {
+          "form": "楽しめる",
+          "reading": "たのしめる",
+          "accent_variants": [
+            4
+          ],
+          "selected_accent": 4,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L32658"
+        },
+        {
+          "form": "昆布",
+          "reading": "こんぶ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52360"
+        },
+        {
+          "form": "素材",
+          "reading": "そざい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L78408"
+        },
+        {
+          "form": "魅力",
+          "reading": "みりょく",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L109467"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 商品 しょうひん type 1; 一方 いっぽう type 3; 多く おおく type 1; 楽しめる たのしめる type 4; 昆布 こんぶ type 1; 素材 そざい type 0; 魅力 みりょく type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-furikake-reading/marin-83bf862fcf60d40907de.mp3",
+      "audio_sha256": "2a6ffbc924d9f9abeb30fb3a546d7ebab3599670773317d67d1527af2ded1f59",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-furikake-reading.json",
+          "sha256": "2a6ffbc924d9f9abeb30fb3a546d7ebab3599670773317d67d1527af2ded1f59",
+          "model": "gpt-4o-transcribe",
+          "transcript": "一方、ソフトタイプはしっとりとした食感が魅力です。鮭のほぐし身や昆布、鶏そぼろなど素材の味や食感を楽しめる商品が多くあります。"
+        }
+      ]
+    },
+    {
+      "key": "乾燥タイプに比べて水分が多いものもあるため、開封後の保存方法や賞味期限を確認することが大切です。",
+      "card": "furikake-reading",
+      "message_id": "furikake-reading-chunk-08",
+      "batch": 1,
+      "display": "乾燥タイプに比べて水分が多いものもあるため、開封後の保存方法や賞味期限を確認することが大切です。\n\n",
+      "input": "かんそうたいぷにくらべてすいぶんがおおいものもあるため、かいふうごのほぞんほうほうやしょうみきげんお、かくにんすることがたいせつです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "方法",
+          "reading": "ほうほう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L107156"
+        },
+        {
+          "form": "水分",
+          "reading": "すいぶん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L72162"
+        },
+        {
+          "form": "確認",
+          "reading": "かくにん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L32311"
+        },
+        {
+          "form": "多い",
+          "reading": "おおい",
+          "accent_variants": [
+            1,
+            2
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L81057"
+        },
+        {
+          "form": "保存",
+          "reading": "ほぞん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106354"
+        },
+        {
+          "form": "大切",
+          "reading": "たいせつ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L83028"
+        },
+        {
+          "form": "乾燥",
+          "reading": "かんそう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L33516"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 方法 ほうほう type 0; 水分 すいぶん type 1; 確認 かくにん type 0; 多い おおい type 1; 保存 ほぞん type 0; 大切 たいせつ type 0; 乾燥 かんそう type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-furikake-reading/marin-663200ec2cecec82b669.mp3",
+      "audio_sha256": "ea43726f110335745b95630693fa41e52933b2ff5b3e9dd7e24442ab4a7a3111",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-furikake-reading.json",
+          "sha256": "ea43726f110335745b95630693fa41e52933b2ff5b3e9dd7e24442ab4a7a3111",
+          "model": "gpt-4o-transcribe",
+          "transcript": "乾燥タイプに比べて水分が多いものもあるため、開封後の保存方法や賞味期限を確認することが大切です。"
+        }
+      ]
+    },
+    {
+      "key": "② 人気のふりかけにはどんな種類がある？ 日本で長年親しまれているふりかけの一つが、丸美屋の「のりたま」です。",
+      "card": "furikake-reading",
+      "message_id": "furikake-reading-chunk-09",
+      "batch": 2,
+      "display": "② 人気のふりかけにはどんな種類がある？\n\n日本で長年親しまれているふりかけの一つが、丸美屋の「のりたま」です。\n\n",
+      "input": "に、にんきのふりかけにわどんなしゅるいがある？にほんでながねんしたしまれているふりかけのひとつが、まるみやののりたまです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries. Official company kana telephone mnemonic まるみや: https://www.marumiya.co.jp/contact/ .",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "種類",
+          "reading": "しゅるい",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61820"
+        },
+        {
+          "form": "日本",
+          "reading": "にほん",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L95376"
+        },
+        {
+          "form": "長年",
+          "reading": "ながねん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L87434"
+        },
+        {
+          "form": "人気",
+          "reading": "にんき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L71023"
+        },
+        {
+          "form": "一つ",
+          "reading": "ひとつ",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L22889"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 種類 しゅるい type 1; 日本 にほん type 2; 長年 ながねん type 0; 人気 にんき type 0; 一つ ひとつ type 2.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-furikake-reading/marin-ef7a96fe45edf6467ac2.mp3",
+      "audio_sha256": "f4448ded6dffae5bd6a353168191044881c218c80276be865227e6d89b68e43f",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-furikake-reading.json",
+          "sha256": "f4448ded6dffae5bd6a353168191044881c218c80276be865227e6d89b68e43f",
+          "model": "gpt-4o-transcribe",
+          "transcript": "2.人気のふりかけにはどんな種類がある？日本で長年親しまれているふりかけの一つが、丸美屋の「のりたま」です。"
+        }
+      ]
+    },
+    {
+      "key": "卵とのりを中心に、ごまや魚の削り節などを組み合わせたもので、ほんのり甘い味わいが特徴です。子どもから大人まで幅広い世代に人気があります。",
+      "card": "furikake-reading",
+      "message_id": "furikake-reading-chunk-10",
+      "batch": 2,
+      "display": "卵とのりを中心に、ごまや魚の削り節などを組み合わせたもので、ほんのり甘い味わいが特徴です。子どもから大人まで幅広い世代に人気があります。\n\n",
+      "input": "たまごと、のりおちゅうしんに、ごまやさかなのけずりぶしなどおくみあわせたもので、ほんのりあまいあじわいがとくちょうです。こどもからおとなまで、はばひろいせだいににんきがあります。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "特徴",
+          "reading": "とくちょう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L93400"
+        },
+        {
+          "form": "味わい",
+          "reading": "あじわい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L109319"
+        },
+        {
+          "form": "中心",
+          "reading": "ちゅうしん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L85961"
+        },
+        {
+          "form": "削り節",
+          "reading": "けずりぶし",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L54029"
+        },
+        {
+          "form": "人気",
+          "reading": "にんき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L71023"
+        },
+        {
+          "form": "甘い",
+          "reading": "あまい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34439"
+        },
+        {
+          "form": "子ども",
+          "reading": "こども",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L56368"
+        },
+        {
+          "form": "大人",
+          "reading": "おとな",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L82980"
+        },
+        {
+          "form": "幅広い",
+          "reading": "はばひろい",
+          "accent_variants": [
+            4
+          ],
+          "selected_accent": 4,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L103767"
+        },
+        {
+          "form": "世代",
+          "reading": "せだい",
+          "accent_variants": [
+            1,
+            0
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L72767"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 特徴 とくちょう type 0; 味わい あじわい type 0; 中心 ちゅうしん type 0; 削り節 けずりぶし type 0; 人気 にんき type 0; 甘い あまい type 0; 子ども こども type 0; 大人 おとな type 0; 幅広い はばひろい type 4; 世代 せだい type 1. Re-recording review: articulate every supplied kana, including short particles and the complete final sentence, without adding words or changing the text. Use smooth connected phrases at normal speed. Distinguish たまご (egg), にゅうさんきん (lactic acid bacteria), あみのさんえき (amino-acid liquid), りょうりしゅ (cooking sake) and かっぺん (browning) where present. Do not omit the ending.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "generation_history": [
+        {
+          "input": "たまごとのりおちゅうしんに、ごまやさかなのけずりぶしなどおくみあわせたもので、ほんのりあまいあじわいがとくちょうです。こどもからおとなまで、はばひろいせだいににんきがあります。",
+          "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 特徴 とくちょう type 0; 味わい あじわい type 0; 中心 ちゅうしん type 0; 削り節 けずりぶし type 0; 人気 にんき type 0; 甘い あまい type 0; 子ども こども type 0; 大人 おとな type 0; 幅広い はばひろい type 4; 世代 せだい type 1.",
+          "audio": "audio/lessons/stories-furikake-reading/marin-d32df7ecfa80e4ae186a.mp3",
+          "sha256": "42083fa2c23e0c63171ad1398f6503beaff87de5054ef4a453136477b15c4dbf",
+          "transcript": "ハマグリと海苔を中心に、ごまや魚の削り節などを組み合わせたもので、ほんのり甘い味わいが特徴です。子どもから大人まで、幅広い世代に人気があります。",
+          "reason": "Transcript comparison flagged unclear grouping, omitted wording or source mismatch; regenerate whole connected passage."
+        }
+      ],
+      "audio": "audio/lessons/stories-furikake-reading/marin-07c08b133f87700c39a9.mp3",
+      "audio_sha256": "0ebf4875aec015e15a2718476ab61d82d046082caab76dd7ba9bab324b3b802a",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-furikake-reading.json",
+          "sha256": "0ebf4875aec015e15a2718476ab61d82d046082caab76dd7ba9bab324b3b802a",
+          "model": "gpt-4o-transcribe",
+          "transcript": "かまぼと、海苔を中心に、ごまや魚の削り節などを組み合わせたもので、ほんのり甘い味わいが特徴です。子どもから大人まで、幅広い世代に人気があります。"
+        },
+        {
+          "report": "docs/lesson-audio-audits/stories-furikake-reading-secondary.json",
+          "sha256": "0ebf4875aec015e15a2718476ab61d82d046082caab76dd7ba9bab324b3b802a",
+          "model": "whisper-1",
+          "transcript": "卵と海苔を中心に、ごまや魚の削り節などを組み合わせたもので、ほんのり甘い味わいが特徴です。 子供から大人まで、幅広い世代に人気があります。"
+        }
+      ]
+    },
+    {
+      "key": "また、三島食品の「ゆかり」も定番商品の一つです。赤しそを使ったふりかけで、さわやかな香りとほどよい酸味が楽しめます。",
+      "card": "furikake-reading",
+      "message_id": "furikake-reading-chunk-11",
+      "batch": 2,
+      "display": "また、三島食品の「ゆかり」も定番商品の一つです。赤しそを使ったふりかけで、さわやかな香りとほどよい酸味が楽しめます。\n\n",
+      "input": "また、みしましょくひんのゆかりもていばんしょうひんのひとつです。あかしそおつかったふりかけで、さわやかなかおりとほどよいさんみがたのしめます。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries. Hiroshima City company directory explicitly supplies ミシマショクヒン: https://www.hitec.city.hiroshima.jp/EJ/ej00307.html",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround. 三島食品 みしましょくひん; のりたま and ゆかり remain lexical kana.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "商品",
+          "reading": "しょうひん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L65730"
+        },
+        {
+          "form": "食品",
+          "reading": "しょくひん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68821"
+        },
+        {
+          "form": "香り",
+          "reading": "かおり",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50713"
+        },
+        {
+          "form": "酸味",
+          "reading": "さんみ",
+          "accent_variants": [
+            3,
+            0
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L55618"
+        },
+        {
+          "form": "定番",
+          "reading": "ていばん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L88899"
+        },
+        {
+          "form": "一つ",
+          "reading": "ひとつ",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L22889"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 商品 しょうひん type 1; 食品 しょくひん type 0; 香り かおり type 0; 酸味 さんみ type 3; 定番 ていばん type 0; 一つ ひとつ type 2.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-furikake-reading/marin-b696cf8ca5ad3e26a431.mp3",
+      "audio_sha256": "de683d7c07c18328518a58cb054253ac46476433cd712e47f01d3efd36474a37",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-furikake-reading.json",
+          "sha256": "de683d7c07c18328518a58cb054253ac46476433cd712e47f01d3efd36474a37",
+          "model": "gpt-4o-transcribe",
+          "transcript": "また、三島食品の「ゆかり」も定番商品の一つです。赤しそを使ったふりかけで、さわやかな香りと程よい酸味が楽しめます。"
+        }
+      ]
+    },
+    {
+      "key": "ゆかりは白いご飯にかけるだけでなく、きゅうりの和え物やパスタなどにも使えます。",
+      "card": "furikake-reading",
+      "message_id": "furikake-reading-chunk-12",
+      "batch": 2,
+      "display": "ゆかりは白いご飯にかけるだけでなく、きゅうりの和え物やパスタなどにも使えます。\n\n",
+      "input": "ゆかりわしろいごはんにかけるだけでなく、きゅうりのあえものやぱすたなどにもつかえます。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "ご飯",
+          "reading": "ごはん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L2149"
+        },
+        {
+          "form": "白い",
+          "reading": "しろい",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L97880"
+        },
+        {
+          "form": "和え物",
+          "reading": "あえもの",
+          "accent_variants": [
+            2,
+            0
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L118735"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): ご飯 ごはん type 1; 白い しろい type 2; 和え物 あえもの type 2.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-furikake-reading/marin-838e610ae09923ea50e6.mp3",
+      "audio_sha256": "35b414aabf0a205a5349c9b3b03c86d49c739e1a09c2f3121e17af9578f0398f",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-furikake-reading.json",
+          "sha256": "35b414aabf0a205a5349c9b3b03c86d49c739e1a09c2f3121e17af9578f0398f",
+          "model": "gpt-4o-transcribe",
+          "transcript": "ゆかりは白いご飯にかけるだけでなく、きゅうりの和え物やパスタなどにも使えます。"
+        }
+      ]
+    },
+    {
+      "key": "そのほか、わさび味や明太子味、牛肉のすき焼き風味など、個性的な商品も増えています。",
+      "card": "furikake-reading",
+      "message_id": "furikake-reading-chunk-13",
+      "batch": 2,
+      "display": "そのほか、わさび味や明太子味、牛肉のすき焼き風味など、個性的な商品も増えています。\n\n",
+      "input": "そのほか、わさびあじやめんたいこあじ、ぎゅうにくのすきやきふうみなど、こせいてきなしょうひんもふえています。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "商品",
+          "reading": "しょうひん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L65730"
+        },
+        {
+          "form": "風味",
+          "reading": "ふうみ",
+          "accent_variants": [
+            1,
+            3
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L103579"
+        },
+        {
+          "form": "牛肉",
+          "reading": "ぎゅうにく",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L38451"
+        },
+        {
+          "form": "個性的",
+          "reading": "こせいてき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L46234"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 商品 しょうひん type 1; 風味 ふうみ type 1; 牛肉 ぎゅうにく type 0; 個性的 こせいてき type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-furikake-reading/marin-7753092f38f843ad89ef.mp3",
+      "audio_sha256": "5df775afd560a8b2dd41f6faff4ffd4264c4f0646fe63a10f15dda1ef70109b5",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-furikake-reading.json",
+          "sha256": "5df775afd560a8b2dd41f6faff4ffd4264c4f0646fe63a10f15dda1ef70109b5",
+          "model": "gpt-4o-transcribe",
+          "transcript": "そのほか、わさび味や明太子味、牛肉のすき焼き風味など個性的な商品も増えています。"
+        }
+      ]
+    },
+    {
+      "key": "③ ご当地ふりかけの魅力とは？ 日本各地には、その土地ならではの食材を使った「ご当地ふりかけ」があります。",
+      "card": "furikake-reading",
+      "message_id": "furikake-reading-chunk-14",
+      "batch": 2,
+      "display": "③ ご当地ふりかけの魅力とは？\n\n日本各地には、その土地ならではの食材を使った「ご当地ふりかけ」があります。\n\n",
+      "input": "さん、ごとうちふりかけのみりょくとわ？にほんかくちにわ、そのとちならでわのしょくざいおつかった、ごとうちふりかけがあります。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "日本",
+          "reading": "にほん",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L95376"
+        },
+        {
+          "form": "食材",
+          "reading": "しょくざい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68770"
+        },
+        {
+          "form": "魅力",
+          "reading": "みりょく",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L109467"
+        },
+        {
+          "form": "当地",
+          "reading": "とうち",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L92121"
+        },
+        {
+          "form": "土地",
+          "reading": "とち",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L91211"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 日本 にほん type 2; 食材 しょくざい type 0; 魅力 みりょく type 0; 当地 とうち type 1; 土地 とち type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-furikake-reading/marin-efe8092c94bad9945174.mp3",
+      "audio_sha256": "e7f209e6f849baaf6fce0e590e797533e56ef751f44caee25064dc6044000319",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-furikake-reading.json",
+          "sha256": "e7f209e6f849baaf6fce0e590e797533e56ef751f44caee25064dc6044000319",
+          "model": "gpt-4o-transcribe",
+          "transcript": "3.ご当地ふりかけの魅力とは？日本各地にはその土地ならではの食材を使ったご当地ふりかけがあります。"
+        }
+      ]
+    },
+    {
+      "key": "例えば、海産物が豊富な地域では、昆布やいか、ちりめんじゃこなどを使った商品が人気です。",
+      "card": "furikake-reading",
+      "message_id": "furikake-reading-chunk-15",
+      "batch": 2,
+      "display": "例えば、海産物が豊富な地域では、昆布やいか、ちりめんじゃこなどを使った商品が人気です。\n\n",
+      "input": "たとえば、かいさんぶつがほうふなちいきでわ、こんぶやいか、ちりめんじゃこなどおつかったしょうひんがにんきです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "商品",
+          "reading": "しょうひん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L65730"
+        },
+        {
+          "form": "例えば",
+          "reading": "たとえば",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L117349"
+        },
+        {
+          "form": "豊富",
+          "reading": "ほうふ",
+          "accent_variants": [
+            0,
+            1
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L107537"
+        },
+        {
+          "form": "地域",
+          "reading": "ちいき",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L84904"
+        },
+        {
+          "form": "昆布",
+          "reading": "こんぶ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52360"
+        },
+        {
+          "form": "人気",
+          "reading": "にんき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L71023"
+        },
+        {
+          "form": "海産物",
+          "reading": "かいさんぶつ",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L31127"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 商品 しょうひん type 1; 例えば たとえば type 2; 豊富 ほうふ type 0; 地域 ちいき type 1; 昆布 こんぶ type 1; 人気 にんき type 0; 海産物 かいさんぶつ type 3.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-furikake-reading/marin-6c797fca0d66d018cf0e.mp3",
+      "audio_sha256": "5e90f4618e14cba225b38d6fd83811050c9889a4d326c02c1400c54b936b3d19",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-furikake-reading.json",
+          "sha256": "5e90f4618e14cba225b38d6fd83811050c9889a4d326c02c1400c54b936b3d19",
+          "model": "gpt-4o-transcribe",
+          "transcript": "例えば、海産物が豊富な地域では、昆布やイカ、ちりめんじゃこなどを使った商品が人気です。"
+        }
+      ]
+    },
+    {
+      "key": "こうしたふりかけは、単にご飯に味をつけるだけでなく、地域の食文化を手軽に楽しめる点も魅力です。",
+      "card": "furikake-reading",
+      "message_id": "furikake-reading-chunk-16",
+      "batch": 2,
+      "display": "こうしたふりかけは、単にご飯に味をつけるだけでなく、地域の食文化を手軽に楽しめる点も魅力です。\n\n",
+      "input": "こうしたふりかけわ、たんにごはんにあじおつけるだけでなく、ちいきのしょくぶんかおてがるにたのしめるてんもみりょくです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "楽しめる",
+          "reading": "たのしめる",
+          "accent_variants": [
+            4
+          ],
+          "selected_accent": 4,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L32658"
+        },
+        {
+          "form": "ご飯",
+          "reading": "ごはん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L2149"
+        },
+        {
+          "form": "地域",
+          "reading": "ちいき",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L84904"
+        },
+        {
+          "form": "手軽",
+          "reading": "てがる",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61361"
+        },
+        {
+          "form": "魅力",
+          "reading": "みりょく",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L109467"
+        },
+        {
+          "form": "単に",
+          "reading": "たんに",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L83915"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 楽しめる たのしめる type 4; ご飯 ごはん type 1; 地域 ちいき type 1; 手軽 てがる type 0; 魅力 みりょく type 0; 単に たんに type 1.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-furikake-reading/marin-9a7ce5004032e175e403.mp3",
+      "audio_sha256": "278b02549a18c99a6b5e52794ecfd3f467164bda381ac783c22fc9dc90e2f8d6",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-furikake-reading.json",
+          "sha256": "278b02549a18c99a6b5e52794ecfd3f467164bda381ac783c22fc9dc90e2f8d6",
+          "model": "gpt-4o-transcribe",
+          "transcript": "こうしたふりかけは、単にご飯に味をつけるだけでなく、地域の食文化を手軽に楽しめる点も魅力です。"
+        }
+      ]
+    },
+    {
+      "key": "また、旅行先のお土産としても人気があり、軽くて持ち運びやすいことから、ちょっとした贈り物にも向いています。",
+      "card": "furikake-reading",
+      "message_id": "furikake-reading-chunk-17",
+      "batch": 3,
+      "display": "また、旅行先のお土産としても人気があり、軽くて持ち運びやすいことから、ちょっとした贈り物にも向いています。\n\n",
+      "input": "また、りょこうさきのおみやげとしてもにんきがあり、かるくてもちはこびやすいことから、ちょっとしたおくりものにもむいています。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "持ち",
+          "reading": "もち",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L58198"
+        },
+        {
+          "form": "人気",
+          "reading": "にんき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L71023"
+        },
+        {
+          "form": "旅行先",
+          "reading": "りょこうさき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L116447"
+        },
+        {
+          "form": "土産",
+          "reading": "みやげ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L91174"
+        },
+        {
+          "form": "贈り物",
+          "reading": "おくりもの",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L80108"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 持ち もち type 2; 人気 にんき type 0; 旅行先 りょこうさき type 0; 土産 みやげ type 0; 贈り物 おくりもの type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-furikake-reading/marin-b35594fcf371872c0f03.mp3",
+      "audio_sha256": "0c715da7c42fb38e9b8c42a79701f78a5d2bc0536e23b88a45bdbf53d0537a9d",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-furikake-reading.json",
+          "sha256": "0c715da7c42fb38e9b8c42a79701f78a5d2bc0536e23b88a45bdbf53d0537a9d",
+          "model": "gpt-4o-transcribe",
+          "transcript": "また、旅行先のお土産としても人気があり、軽くて持ち運びやすいことから、ちょっとした贈り物にも向いています。"
+        }
+      ]
+    },
+    {
+      "key": "④ ふりかけをご飯以外に使う方法 ふりかけは、ご飯以外の料理にも活用できる便利な調味料です。",
+      "card": "furikake-reading",
+      "message_id": "furikake-reading-chunk-18",
+      "batch": 3,
+      "display": "④ ふりかけをご飯以外に使う方法\n\nふりかけは、ご飯以外の料理にも活用できる便利な調味料です。\n\n",
+      "input": "よん、ふりかけおごはんいがいにつかうほうほう。ふりかけわ、ごはんいがいのりょうりにもかつようできる、べんりなちょうみりょうです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "料理",
+          "reading": "りょうり",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L116664"
+        },
+        {
+          "form": "調味料",
+          "reading": "ちょうみりょう",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L87129"
+        },
+        {
+          "form": "便利",
+          "reading": "べんり",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106161"
+        },
+        {
+          "form": "調味",
+          "reading": "ちょうみ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L87128"
+        },
+        {
+          "form": "使う",
+          "reading": "つかう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L55952"
+        },
+        {
+          "form": "方法",
+          "reading": "ほうほう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L107156"
+        },
+        {
+          "form": "活用",
+          "reading": "かつよう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L33108"
+        },
+        {
+          "form": "以外",
+          "reading": "いがい",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L21860"
+        },
+        {
+          "form": "ご飯",
+          "reading": "ごはん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L2149"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 料理 りょうり type 1; 調味料 ちょうみりょう type 3; 便利 べんり type 1; 調味 ちょうみ type 1; 使う つかう type 0; 方法 ほうほう type 0; 活用 かつよう type 0; 以外 いがい type 1; ご飯 ごはん type 1.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-furikake-reading/marin-7cae19ef98861af25bfa.mp3",
+      "audio_sha256": "990f71cf1f40f20873b93fd4262ec9dc6aee87b1a32ef13cedd16493ecc4555c",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-furikake-reading.json",
+          "sha256": "990f71cf1f40f20873b93fd4262ec9dc6aee87b1a32ef13cedd16493ecc4555c",
+          "model": "gpt-4o-transcribe",
+          "transcript": "4. ふりかけをご飯以外に使う方法 ふりかけは、ご飯以外の料理にも活用できる便利な調味料です。"
+        }
+      ]
+    },
+    {
+      "key": "例えば、ゆかりを蒸したじゃがいもに混ぜると、赤しその酸味がアクセントになります。また、のりやごまを使ったふりかけは、パスタや卵焼きに加えてもおいしく食べられます。",
+      "card": "furikake-reading",
+      "message_id": "furikake-reading-chunk-19",
+      "batch": 3,
+      "display": "例えば、ゆかりを蒸したじゃがいもに混ぜると、赤しその酸味がアクセントになります。また、のりやごまを使ったふりかけは、パスタや卵焼きに加えてもおいしく食べられます。\n\n",
+      "input": "たとえば、ゆかりおむしたじゃがいもにまぜると、あかしそのさんみがあくせんとになります。また、のりやごまおつかったふりかけわ、ぱすたやたまごやきにくわえても、おいしくたべられます。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "例えば",
+          "reading": "たとえば",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L117349"
+        },
+        {
+          "form": "酸味",
+          "reading": "さんみ",
+          "accent_variants": [
+            3,
+            0
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L55618"
+        },
+        {
+          "form": "混ぜる",
+          "reading": "まぜる",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52470"
+        },
+        {
+          "form": "卵焼き",
+          "reading": "たまごやき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L115126"
+        },
+        {
+          "form": "加えて",
+          "reading": "くわえて",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L28709"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 例えば たとえば type 2; 酸味 さんみ type 3; 混ぜる まぜる type 2; 卵焼き たまごやき type 0; 加えて くわえて type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-furikake-reading/marin-7da15c857d78ba219b5d.mp3",
+      "audio_sha256": "0436512bd5dd33d7c5b7cc3ed5278ee955bad7071bd6dd1094e84b4b1b86ca87",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-furikake-reading.json",
+          "sha256": "0436512bd5dd33d7c5b7cc3ed5278ee955bad7071bd6dd1094e84b4b1b86ca87",
+          "model": "gpt-4o-transcribe",
+          "transcript": "例えば、ゆかりを蒸したじゃがいもに混ぜると、赤しその酸味がアクセントになります。また、のりやごまを使ったふりかけは、パスタや卵焼きに加えてもおいしく食べられます。"
+        }
+      ]
+    },
+    {
+      "key": "野菜の和え物に使う場合は、ふりかけ自体に塩分が含まれているため、醤油や塩の量を控えめにするのがポイントです。",
+      "card": "furikake-reading",
+      "message_id": "furikake-reading-chunk-20",
+      "batch": 3,
+      "display": "野菜の和え物に使う場合は、ふりかけ自体に塩分が含まれているため、醤油や塩の量を控えめにするのがポイントです。\n\n",
+      "input": "やさいのあえものにつかうばあいわ、ふりかけじたいにえんぶんがふくまれているため、しょうゆやしおのりょうおひかえめにするのがぽいんとです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "場合",
+          "reading": "ばあい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67883"
+        },
+        {
+          "form": "野菜",
+          "reading": "やさい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L112171"
+        },
+        {
+          "form": "使う",
+          "reading": "つかう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L55952"
+        },
+        {
+          "form": "醤油",
+          "reading": "しょうゆ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67265"
+        },
+        {
+          "form": "塩分",
+          "reading": "えんぶん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L26680"
+        },
+        {
+          "form": "和え物",
+          "reading": "あえもの",
+          "accent_variants": [
+            2,
+            0
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L118735"
+        },
+        {
+          "form": "控えめ",
+          "reading": "ひかえめ",
+          "accent_variants": [
+            0,
+            4
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L49493"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 場合 ばあい type 0; 野菜 やさい type 0; 使う つかう type 0; 醤油 しょうゆ type 0; 塩分 えんぶん type 1; 和え物 あえもの type 2; 控えめ ひかえめ type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-furikake-reading/marin-2659d521e57f9932bf21.mp3",
+      "audio_sha256": "daa3b20b8ea5d9345ed29a37ca2799c4096ab6e5e0831ccbd8a5308123e5c1eb",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-furikake-reading.json",
+          "sha256": "daa3b20b8ea5d9345ed29a37ca2799c4096ab6e5e0831ccbd8a5308123e5c1eb",
+          "model": "gpt-4o-transcribe",
+          "transcript": "野菜の和え物に使う場合は、ふりかけ自体に塩分が含まれているため、醤油や塩の量を控えめにするのがポイントです。"
+        }
+      ]
+    },
+    {
+      "key": "さらに、乾燥タイプのふりかけは、水分を吸うと食感が変わります。サクサク感を残したい場合は、食べる直前に振りかけるとよいでしょう。",
+      "card": "furikake-reading",
+      "message_id": "furikake-reading-chunk-21",
+      "batch": 3,
+      "display": "さらに、乾燥タイプのふりかけは、水分を吸うと食感が変わります。サクサク感を残したい場合は、食べる直前に振りかけるとよいでしょう。\n\n",
+      "input": "さらに、かんそうたいぷのふりかけわ、すいぶんおすうとしょっかんがかわります。さくさくかんおのこしたいばあいわ、たべるちょくぜんにふりかけるとよいでしょう。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "場合",
+          "reading": "ばあい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67883"
+        },
+        {
+          "form": "水分",
+          "reading": "すいぶん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L72162"
+        },
+        {
+          "form": "変わり",
+          "reading": "かわり",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L105787"
+        },
+        {
+          "form": "乾燥",
+          "reading": "かんそう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L33516"
+        },
+        {
+          "form": "吸う",
+          "reading": "すう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L37806"
+        },
+        {
+          "form": "振りかける",
+          "reading": "ふりかける",
+          "accent_variants": [
+            4
+          ],
+          "selected_accent": 4,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L69420"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 場合 ばあい type 0; 水分 すいぶん type 1; 変わり かわり type 0; 乾燥 かんそう type 0; 吸う すう type 0; 振りかける ふりかける type 4.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-furikake-reading/marin-75c37951f73bdb0328a8.mp3",
+      "audio_sha256": "54cae7c536419a9a39d5f44da44343eabe66cac4c5fcea6a157c6e86dc49021e",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-furikake-reading.json",
+          "sha256": "54cae7c536419a9a39d5f44da44343eabe66cac4c5fcea6a157c6e86dc49021e",
+          "model": "gpt-4o-transcribe",
+          "transcript": "さらに、乾燥タイプのふりかけは、水分を吸うと食感が変わります。サクサク感を残したい場合は、食べる直前にふりかけるとよいでしょう。"
+        }
+      ]
+    },
+    {
+      "key": "⑤ おいしさを保つ保存方法 乾燥ふりかけは湿気に弱いため、開封後は袋のチャックをしっかり閉め、商品に表示された方法で保存しましょう。",
+      "card": "furikake-reading",
+      "message_id": "furikake-reading-chunk-22",
+      "batch": 3,
+      "display": "⑤ おいしさを保つ保存方法\n\n乾燥ふりかけは湿気に弱いため、開封後は袋のチャックをしっかり閉め、商品に表示された方法で保存しましょう。\n\n",
+      "input": "ご、おいしさおたもつほぞんほうほう。かんそうふりかけわしっけによわいため、かいふうごわふくろのちゃっくおしっかりしめ、しょうひんにひょうじされたほうほうでほぞんしましょう。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "商品",
+          "reading": "しょうひん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L65730"
+        },
+        {
+          "form": "方法",
+          "reading": "ほうほう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L107156"
+        },
+        {
+          "form": "保存",
+          "reading": "ほぞん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106354"
+        },
+        {
+          "form": "乾燥",
+          "reading": "かんそう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L33516"
+        },
+        {
+          "form": "保つ",
+          "reading": "たもつ",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106257"
+        },
+        {
+          "form": "湿気",
+          "reading": "しっけ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L59479"
+        },
+        {
+          "form": "弱い",
+          "reading": "よわい",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L60555"
+        },
+        {
+          "form": "表示",
+          "reading": "ひょうじ",
+          "accent_variants": [
+            0,
+            1
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L101487"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 商品 しょうひん type 1; 方法 ほうほう type 0; 保存 ほぞん type 0; 乾燥 かんそう type 0; 保つ たもつ type 2; 湿気 しっけ type 0; 弱い よわい type 2; 表示 ひょうじ type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-furikake-reading/marin-3157fe48c60d5d87f15d.mp3",
+      "audio_sha256": "3e8365f44a3cf281db8e5021c50a885e853b3d074fd525fec5b8f8b81fc19395",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-furikake-reading.json",
+          "sha256": "3e8365f44a3cf281db8e5021c50a885e853b3d074fd525fec5b8f8b81fc19395",
+          "model": "gpt-4o-transcribe",
+          "transcript": "5.おいしさを保つ保存方法 乾燥ふりかけは湿気に弱いため、開封後は袋のチャックをしっかり閉め、商品に表示された方法で保存しましょう。"
+        }
+      ]
+    },
+    {
+      "key": "特に、温かいご飯の上で袋から直接振りかけると、湯気が袋の中に入り、湿気る原因になることがあります。",
+      "card": "furikake-reading",
+      "message_id": "furikake-reading-chunk-23",
+      "batch": 3,
+      "display": "特に、温かいご飯の上で袋から直接振りかけると、湯気が袋の中に入り、湿気る原因になることがあります。\n\n",
+      "input": "とくに、あたたかいごはんのうえでふくろからちょくせつふりかけると、ゆげがふくろのなかに、はいり、しけるげんいんになることがあります。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "特に",
+          "reading": "とくに",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L93314"
+        },
+        {
+          "form": "ご飯",
+          "reading": "ごはん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L2149"
+        },
+        {
+          "form": "原因",
+          "reading": "げんいん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L45366"
+        },
+        {
+          "form": "温かい",
+          "reading": "あたたかい",
+          "accent_variants": [
+            4
+          ],
+          "selected_accent": 4,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L27681"
+        },
+        {
+          "form": "振りかける",
+          "reading": "ふりかける",
+          "accent_variants": [
+            4
+          ],
+          "selected_accent": 4,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L69420"
+        },
+        {
+          "form": "湿気る",
+          "reading": "しける",
+          "accent_variants": [
+            2,
+            0
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L59480"
+        },
+        {
+          "form": "湿気",
+          "reading": "しっけ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L59479"
+        },
+        {
+          "form": "直接",
+          "reading": "ちょくせつ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L87683"
+        },
+        {
+          "form": "湯気",
+          "reading": "ゆげ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L91923"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 特に とくに type 1; ご飯 ごはん type 1; 原因 げんいん type 0; 温かい あたたかい type 4; 振りかける ふりかける type 4; 湿気る しける type 2; 湿気 しっけ type 0; 直接 ちょくせつ type 0; 湯気 ゆげ type 1. Re-recording review: articulate every supplied kana, including short particles and the complete final sentence, without adding words or changing the text. Use smooth connected phrases at normal speed. Distinguish たまご (egg), にゅうさんきん (lactic acid bacteria), あみのさんえき (amino-acid liquid), りょうりしゅ (cooking sake) and かっぺん (browning) where present. Do not omit the ending.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "generation_history": [
+        {
+          "input": "とくに、あたたかいごはんのうえでふくろからちょくせつふりかけると、ゆげがふくろのなかにはいり、しけるげんいんになることがあります。",
+          "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 特に とくに type 1; ご飯 ごはん type 1; 原因 げんいん type 0; 温かい あたたかい type 4; 振りかける ふりかける type 4; 湿気る しける type 2; 湿気 しっけ type 0; 直接 ちょくせつ type 0; 湯気 ゆげ type 1.",
+          "audio": "audio/lessons/stories-furikake-reading/marin-a8900e6c53478b60cf0a.mp3",
+          "sha256": "3a805027caf356bd9feb8967c517feebb6d8c025960a6f8c90afc45e944f3e77",
+          "transcript": "特に、温かいご飯の上で袋から直接ふりかけると、湯気が袋の中には入り、しける原因になることがあります。",
+          "reason": "Transcript comparison flagged unclear grouping, omitted wording or source mismatch; regenerate whole connected passage."
+        }
+      ],
+      "audio": "audio/lessons/stories-furikake-reading/marin-bded51500581ee4937c3.mp3",
+      "audio_sha256": "7233e6e6a8567a4efdb0d5e1d04ab02d578bf12db23059e29c81be1bc8ea0038",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-furikake-reading.json",
+          "sha256": "7233e6e6a8567a4efdb0d5e1d04ab02d578bf12db23059e29c81be1bc8ea0038",
+          "model": "gpt-4o-transcribe",
+          "transcript": "特に温かいご飯の上で、袋から直接ふりかけると、湯気が袋の中に入り、湿気る原因になることがあります。"
+        }
+      ]
+    },
+    {
+      "key": "また、ソフトタイプは商品によって冷蔵保存が必要な場合もあります。開封後は表示を確認し、できるだけ早めに使い切ることが大切です。",
+      "card": "furikake-reading",
+      "message_id": "furikake-reading-chunk-24",
+      "batch": 3,
+      "display": "また、ソフトタイプは商品によって冷蔵保存が必要な場合もあります。開封後は表示を確認し、できるだけ早めに使い切ることが大切です。\n\n",
+      "input": "また、そふとたいぷわしょうひんによって、れいぞうほぞんがひつようなばあいもあります。かいふうごわひょうじおかくにんし、できるだけはやめにつかいきることがたいせつです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "場合",
+          "reading": "ばあい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67883"
+        },
+        {
+          "form": "商品",
+          "reading": "しょうひん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L65730"
+        },
+        {
+          "form": "必要",
+          "reading": "ひつよう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L101058"
+        },
+        {
+          "form": "確認",
+          "reading": "かくにん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L32311"
+        },
+        {
+          "form": "保存",
+          "reading": "ほぞん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106354"
+        },
+        {
+          "form": "大切",
+          "reading": "たいせつ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L83028"
+        },
+        {
+          "form": "冷蔵",
+          "reading": "れいぞう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L117462"
+        },
+        {
+          "form": "切る",
+          "reading": "きる",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L75599"
+        },
+        {
+          "form": "表示",
+          "reading": "ひょうじ",
+          "accent_variants": [
+            0,
+            1
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L101487"
+        },
+        {
+          "form": "早め",
+          "reading": "はやめ",
+          "accent_variants": [
+            0,
+            3
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L79098"
+        },
+        {
+          "form": "使い切る",
+          "reading": "つかいきる",
+          "accent_variants": [
+            4
+          ],
+          "selected_accent": 4,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L55938"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 場合 ばあい type 0; 商品 しょうひん type 1; 必要 ひつよう type 0; 確認 かくにん type 0; 保存 ほぞん type 0; 大切 たいせつ type 0; 冷蔵 れいぞう type 0; 切る きる type 1; 表示 ひょうじ type 0; 早め はやめ type 0; 使い切る つかいきる type 4.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-furikake-reading/marin-851127bb3f770e3ac64c.mp3",
+      "audio_sha256": "6c83add9fa6ac24a10f920cfe9a92a6ee4c3ee8cb6c445f28b9ae47e46344924",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-furikake-reading.json",
+          "sha256": "6c83add9fa6ac24a10f920cfe9a92a6ee4c3ee8cb6c445f28b9ae47e46344924",
+          "model": "gpt-4o-transcribe",
+          "transcript": "また、ソフトタイプは商品によって冷蔵保存が必要な場合もあります。開封後は表示を確認し、できるだけ早めに使い切ることが大切です。"
+        }
+      ]
+    },
+    {
+      "key": "まとめ ふりかけは、素材や製法によって味わいや食感が大きく異なります。",
+      "card": "furikake-reading",
+      "message_id": "furikake-reading-chunk-25",
+      "batch": 4,
+      "display": "まとめ\n\nふりかけは、素材や製法によって味わいや食感が大きく異なります。\n\n",
+      "input": "まとめ。ふりかけわ、そざいやせいほうによって、あじわいやしょっかんがおおきくことなります。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "製法",
+          "reading": "せいほう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L74425"
+        },
+        {
+          "form": "大きく",
+          "reading": "おおきく",
+          "accent_variants": [
+            1,
+            3
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L82532"
+        },
+        {
+          "form": "味わい",
+          "reading": "あじわい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L109319"
+        },
+        {
+          "form": "素材",
+          "reading": "そざい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L78408"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 製法 せいほう type 0; 大きく おおきく type 1; 味わい あじわい type 0; 素材 そざい type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-furikake-reading/marin-40cb089f220e2f03597a.mp3",
+      "audio_sha256": "5fa7a7f292b97dc3ba407e79eeaac154ed6c0bf42571f8dbb3925e60685d246f",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-furikake-reading.json",
+          "sha256": "5fa7a7f292b97dc3ba407e79eeaac154ed6c0bf42571f8dbb3925e60685d246f",
+          "model": "gpt-4o-transcribe",
+          "transcript": "まとめ。ふりかけは素材や製法によって、味わいや食感が大きく異なります。"
+        }
+      ]
+    },
+    {
+      "key": "サクサクした食感を楽しみたいなら乾燥タイプ、素材の風味をしっかり味わいたいならソフトタイプがおすすめです。",
+      "card": "furikake-reading",
+      "message_id": "furikake-reading-chunk-26",
+      "batch": 4,
+      "display": "サクサクした食感を楽しみたいなら乾燥タイプ、素材の風味をしっかり味わいたいならソフトタイプがおすすめです。\n\n",
+      "input": "さくさくしたしょっかんおたのしみたいならかんそうたいぷ、そざいのふうみおしっかりあじわいたいなら、そふとたいぷがおすすめです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "味わい",
+          "reading": "あじわい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L109319"
+        },
+        {
+          "form": "風味",
+          "reading": "ふうみ",
+          "accent_variants": [
+            1,
+            3
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L103579"
+        },
+        {
+          "form": "素材",
+          "reading": "そざい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L78408"
+        },
+        {
+          "form": "乾燥",
+          "reading": "かんそう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L33516"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 味わい あじわい type 0; 風味 ふうみ type 1; 素材 そざい type 0; 乾燥 かんそう type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-furikake-reading/marin-1d1d5179fc08dba1cad8.mp3",
+      "audio_sha256": "5beb0fad15257d5d1296fb2e4ddd91ed0293cd38984ea1f6960fbf1afb759110",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-furikake-reading.json",
+          "sha256": "5beb0fad15257d5d1296fb2e4ddd91ed0293cd38984ea1f6960fbf1afb759110",
+          "model": "gpt-4o-transcribe",
+          "transcript": "サクサクした食感を楽しみたいなら乾燥タイプ、素材の風味をしっかり味わいたいならソフトタイプがおすすめです。"
+        }
+      ]
+    },
+    {
+      "key": "ご飯だけでなく、野菜料理やパスタなどにも取り入れることで、普段の料理の幅を広げることができます。",
+      "card": "furikake-reading",
+      "message_id": "furikake-reading-chunk-27",
+      "batch": 4,
+      "display": "ご飯だけでなく、野菜料理やパスタなどにも取り入れることで、普段の料理の幅を広げることができます。\n\n",
+      "input": "ごはんだけでなく、やさいりょうりやぱすたなどにもとりいれることで、ふだんのりょうりのはばおひろげることができます。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "料理",
+          "reading": "りょうり",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L116664"
+        },
+        {
+          "form": "野菜",
+          "reading": "やさい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L112171"
+        },
+        {
+          "form": "取り入れ",
+          "reading": "とりいれ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L60953"
+        },
+        {
+          "form": "取り",
+          "reading": "とり",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L60808"
+        },
+        {
+          "form": "普段",
+          "reading": "ふだん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L102758"
+        },
+        {
+          "form": "ご飯",
+          "reading": "ごはん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L2149"
+        },
+        {
+          "form": "取り入れる",
+          "reading": "とりいれる",
+          "accent_variants": [
+            4,
+            0
+          ],
+          "selected_accent": 4,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L60954"
+        },
+        {
+          "form": "広げる",
+          "reading": "ひろげる",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L49344"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 料理 りょうり type 1; 野菜 やさい type 0; 取り入れ とりいれ type 0; 取り とり type 2; 普段 ふだん type 1; ご飯 ごはん type 1; 取り入れる とりいれる type 4; 広げる ひろげる type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-furikake-reading/marin-cd8d7c45be070b12018a.mp3",
+      "audio_sha256": "4b702fb2c0318b9cd873816d38ec725bdab435c4221d7358f3976fd4e6057ab5",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-furikake-reading.json",
+          "sha256": "4b702fb2c0318b9cd873816d38ec725bdab435c4221d7358f3976fd4e6057ab5",
+          "model": "gpt-4o-transcribe",
+          "transcript": "ご飯だけでなく、野菜料理やパスタなどにも取り入れることで、普段の料理の幅を広げることができます。"
+        }
+      ]
+    }
+  ]
+}

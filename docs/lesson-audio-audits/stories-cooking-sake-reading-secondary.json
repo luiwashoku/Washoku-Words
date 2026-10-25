@@ -1,0 +1,45 @@
+{
+  "method": "Independent Whisper transcription without expected-text prompt. Automated comparison, not listening or pitch verification.",
+  "entries": {
+    "cooking-sake-reading-chunk-03": {
+      "number": 3,
+      "sha256": "b6503d7227dab1e98ae587f30946abedcac8bb8ddf7b1bd9fcfe8ee451633873",
+      "audio": "audio/lessons/stories-cooking-sake-reading/marin-f860de06459d1ed9f0fc.mp3",
+      "transcript": "今回、料理酒の特徴や日本酒との違い、料理に合った使い方について解説します。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "cooking-sake-reading-chunk-07": {
+      "number": 7,
+      "sha256": "ed28c80d37819736b0a44fc8da8a8f44dfc648e746d24e1cee81971cff042df8",
+      "audio": "audio/lessons/stories-cooking-sake-reading/marin-e33095aa1120feaf50b3.mp3",
+      "transcript": "果たし、料理酒を加えれば、必ず食材が柔らかくなるわけではありません。 肉や魚の仕上がりは、加熱温度や調理時間にも大きく左右されます。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "cooking-sake-reading-chunk-21": {
+      "number": 21,
+      "sha256": "7c17933c0669aa008e36349ba3d4b21a3a6ec6172c7c7e8b13daf09195eca2d9",
+      "audio": "audio/lessons/stories-cooking-sake-reading/marin-b812abaec121c878cbb9.mp3",
+      "transcript": "料理、塩みりんの代わりに使う場合は、必要に応じて砂糖などで甘みを補います。 反対に、みりんを料理紙の代わりに使うと、料理が甘くなりすぎる場合があるため、注意しましょう。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "cooking-sake-reading-chunk-22": {
+      "number": 22,
+      "sha256": "5b6b7c07dc4bbed0cc310ca37321e2d2eb3355230270c6829d9415a3199373ba",
+      "audio": "audio/lessons/stories-cooking-sake-reading/marin-cf6e2edf70790a1d8cdf.mp3",
+      "transcript": "5.料理酒はいつ加えるのが効果的? 料理酒は加えるタイミングによっても働きが変わります。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "cooking-sake-reading-chunk-32": {
+      "number": 32,
+      "sha256": "1634d3ac0e0eda12b1c3243d81c0a07423a4ab5956762d9271095e45d1ab3c9f",
+      "audio": "audio/lessons/stories-cooking-sake-reading/marin-a5e65b0b4869dc438c9a.mp3",
+      "transcript": "料理入浴、種の働きを理解し、食材や調理方法に合わせて使うことで、いつもの料理をより美味しく仕上げることができるでしょう。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    }
+  }
+}

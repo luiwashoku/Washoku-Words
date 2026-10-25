@@ -1,0 +1,21 @@
+{
+  "method": "Independent Whisper transcription without expected-text prompt. Automated comparison, not listening or pitch verification.",
+  "entries": {
+    "amazake-reading-chunk-10": {
+      "number": 10,
+      "sha256": "fa28f0f80e31594fce884a961a69809c15935d6075cc2967965d67746f3f089d",
+      "audio": "audio/lessons/stories-amazake-reading/marin-692be772fe4dac281373.mp3",
+      "transcript": "3甘酒を選ぶときのポイント 市販の甘酒にはそのまま飲めるストレートタイプと水や牛乳などで薄めで使う濃縮タイプがあります",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "amazake-reading-chunk-17": {
+      "number": 17,
+      "sha256": "0fe31de3df52aefb2dd8e5168abb3b5ddcf8018575b8b632b8db1cc8b8a425e1",
+      "audio": "audio/lessons/stories-amazake-reading/marin-711c4735b706513acbbe.mp3",
+      "transcript": "まとめ 甘酒は原料や製法によって味わいや特徴が異なる",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    }
+  }
+}

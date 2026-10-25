@@ -1,0 +1,2156 @@
+{
+  "lesson": "fermentation-notes-shiokoji",
+  "reviewed": true,
+  "voice": "marin",
+  "model": "gpt-4o-mini-tts",
+  "speed": 1.0,
+  "accent_dictionary": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt",
+  "accent_dictionary_sha256": "8bd0dd127dab32ceec94cb03ab1ba6b68858ea73421dfa1731af2f373deb4f20",
+  "notes": "Sequential small batches; spoken inputs and phrase boundaries manually reviewed. Natural Tokyo provisional intonation for unconfirmed whole phrases. Source narration is not independent factual endorsement. Actual audio checked separately by decoded-signal and unprompted transcription; no listening/pitch verification claimed.",
+  "entries": [
+    {
+      "key": "麹に期待される効果 全ての人に同じ様に効果が出るとは言えませんが、研究発表されている効果です。 是非、麹を積極的に摂りましょう。",
+      "card": "shiokoji-variations",
+      "message_id": "shiokoji-chunk-01",
+      "batch": 1,
+      "display": "(1)麹に期待される効果\n全ての人に同じ様に効果が出るとは言えませんが、研究発表されている効果です。\n是非、麹を積極的に摂りましょう。\n",
+      "input": "いち、こうじにきたいされるこうか。すべてのひとにおなじようにこうかがでるとわいえませんが、けんきゅうはっぴょうされているこうかです。ぜひ、こうじおせっきょくてきにとりましょう。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). Specialist recipe contexts checked against https://miso.or.jp/museum/pdf/new_learn_about_miso.pdf and https://marukajozo-shop.jp/?mode=f1 for 蒸煮 じょうしゃ. No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Diagram arrows are verbal transitions and arithmetic has speech-only grouping. Do not narrate removed photo reference letters. Source stray x is a nonword layout typo, silent. Source 冷凍保温 is retained as れいとうほおん; do not silently change to 保存. Source 塩っぱくなり難くい is read with intended contextual しょっぱくなりにくい; display remains verbatim. 代わり がわり after ブイオン; 元来 がんらい; 食して しょくして; 正に まさに; 米油 こめあぶら.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "効果",
+          "reading": "こうか",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L48709"
+        },
+        {
+          "form": "期待",
+          "reading": "きたい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L36105"
+        },
+        {
+          "form": "是非",
+          "reading": "ぜひ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L72833"
+        },
+        {
+          "form": "積極的",
+          "reading": "せっきょくてき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L75149"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 効果 こうか type 1; 期待 きたい type 0; 是非 ぜひ type 1; 積極的 せっきょくてき type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-bca2e1f0db21319bedf7.mp3",
+      "audio_sha256": "343197cfe59e86c104e4551ae787d36d2947ef389c9017649b6e65eea427d9ac",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_model": "gpt-4o-transcribe",
+      "transcription_review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences."
+    },
+    {
+      "key": "1. 腸内環境改善 2. 免疫力アップ 3. アレルギー疾患の軽減 4.自己免疫疾患の抑制 5.便秘改善",
+      "card": "shiokoji-variations",
+      "message_id": "shiokoji-chunk-02",
+      "batch": 1,
+      "display": "　　1. 腸内環境改善(善玉菌の増加)\n　　2. 免疫力アップ\n　　3. アレルギー疾患の軽減\n　　4.自己免疫疾患の抑制\n　　5.便秘改善\n",
+      "input": "いち、ちょうないかんきょうかいぜん、ぜんだまきんのぞうか。に、めんえきりょくあっぷ。さん、あれるぎーしっかんのけいげん。よん、じこめんえきしっかんのよくせい。ご、べんぴかいぜん。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). Specialist recipe contexts checked against https://miso.or.jp/museum/pdf/new_learn_about_miso.pdf and https://marukajozo-shop.jp/?mode=f1 for 蒸煮 じょうしゃ. No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Diagram arrows are verbal transitions and arithmetic has speech-only grouping. Do not narrate removed photo reference letters. Source stray x is a nonword layout typo, silent. Source 冷凍保温 is retained as れいとうほおん; do not silently change to 保存. Source 塩っぱくなり難くい is read with intended contextual しょっぱくなりにくい; display remains verbatim. 代わり がわり after ブイオン; 元来 がんらい; 食して しょくして; 正に まさに; 米油 こめあぶら.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "軽減",
+          "reading": "けいげん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L43236"
+        },
+        {
+          "form": "環境",
+          "reading": "かんきょう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34415"
+        },
+        {
+          "form": "抑制",
+          "reading": "よくせい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L114507"
+        },
+        {
+          "form": "腸内",
+          "reading": "ちょうない",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L87044"
+        },
+        {
+          "form": "便秘",
+          "reading": "べんぴ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106155"
+        },
+        {
+          "form": "改善",
+          "reading": "かいぜん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L31030"
+        },
+        {
+          "form": "増加",
+          "reading": "ぞうか",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L80016"
+        },
+        {
+          "form": "自己免疫疾患",
+          "reading": "じこめんえきしっかん",
+          "accent_variants": [
+            7
+          ],
+          "selected_accent": 7,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L58793"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 軽減 けいげん type 0; 環境 かんきょう type 0; 抑制 よくせい type 0; 腸内 ちょうない type 1; 便秘 べんぴ type 0; 改善 かいぜん type 0; 増加 ぞうか type 0; 自己免疫疾患 じこめんえきしっかん type 7.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-e0a857c7e83d1def92b8.mp3",
+      "audio_sha256": "af98b42e312695147296d9e65b603c478c3b08d5af619d79c635c30f3c88a852",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_model": "gpt-4o-transcribe",
+      "transcription_review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences."
+    },
+    {
+      "key": "6.高血圧抑制効果 7.血糖値上昇抑制効果 8.消化促進効果 9.美白効果 10.コレステロール、中性脂肪抑制効果",
+      "card": "shiokoji-variations",
+      "message_id": "shiokoji-chunk-03",
+      "batch": 1,
+      "display": "　　6.高血圧抑制効果\n　　7.血糖値上昇抑制効果\n　　8.消化促進効果\n　　9.美白効果(シミの予防)\n　 10.コレステロール、中性脂肪抑制効果\n",
+      "input": "ろく、こうけつあつよくせいこうか。なな、けっとうちじょうしょうよくせいこうか。はち、しょうかそくしんこうか。きゅう、びはくこうか、しみのよぼう。じゅう、これすてろーる、ちゅうせいしぼうよくせいこうか。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). Specialist recipe contexts checked against https://miso.or.jp/museum/pdf/new_learn_about_miso.pdf and https://marukajozo-shop.jp/?mode=f1 for 蒸煮 じょうしゃ. No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Diagram arrows are verbal transitions and arithmetic has speech-only grouping. Do not narrate removed photo reference letters. Source stray x is a nonword layout typo, silent. Source 冷凍保温 is retained as れいとうほおん; do not silently change to 保存. Source 塩っぱくなり難くい is read with intended contextual しょっぱくなりにくい; display remains verbatim. 代わり がわり after ブイオン; 元来 がんらい; 食して しょくして; 正に まさに; 米油 こめあぶら.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "消化",
+          "reading": "しょうか",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L66663"
+        },
+        {
+          "form": "効果",
+          "reading": "こうか",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L48709"
+        },
+        {
+          "form": "抑制",
+          "reading": "よくせい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L114507"
+        },
+        {
+          "form": "脂肪",
+          "reading": "しぼう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L57548"
+        },
+        {
+          "form": "促進",
+          "reading": "そくしん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L80186"
+        },
+        {
+          "form": "予防",
+          "reading": "よぼう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L113638"
+        },
+        {
+          "form": "血糖値",
+          "reading": "けっとうち",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L43890"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 消化 しょうか type 0; 効果 こうか type 1; 抑制 よくせい type 0; 脂肪 しぼう type 0; 促進 そくしん type 0; 予防 よぼう type 0; 血糖値 けっとうち type 3.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-90af6de7e55d03131865.mp3",
+      "audio_sha256": "54915aca4392585903e60417b3cfd33dbb260458882e434a989d0efaa28a843d",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_model": "gpt-4o-transcribe",
+      "transcription_review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences."
+    },
+    {
+      "key": "いかに麹が調味料として優れているか。 代表的な調味料 甘味料…甘味を加えるもの 香辛料…香りや辛さを付けるもの 旨味調味料…旨味を与えるもの",
+      "card": "shiokoji-variations",
+      "message_id": "shiokoji-chunk-04",
+      "batch": 1,
+      "display": "(2)いかに麹が調味料として優れているか。\n代表的な調味料\n甘味料…甘味を加えるもの(砂糖、みりん、甘麹など)\n香辛料…香りや辛さを付けるもの(胡椒、七味唐辛子など)\n旨味調味料…旨味を与えるもの(出汁、グルタミン酸ナトリウムなど)\n",
+      "input": "に、いかにこうじがちょうみりょうとしてすぐれているか。だいひょうてきなちょうみりょう。かんみりょう、あまみおくわえるもの、さとう、みりん、あまこうじなど。こうしんりょう、かおりやからさおつけるもの、こしょう、しちみとうがらしなど。うまみちょうみりょう、うまみおあたえるもの、だし、ぐるたみんさんなとりうむなど。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). Specialist recipe contexts checked against https://miso.or.jp/museum/pdf/new_learn_about_miso.pdf and https://marukajozo-shop.jp/?mode=f1 for 蒸煮 じょうしゃ. No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Diagram arrows are verbal transitions and arithmetic has speech-only grouping. Do not narrate removed photo reference letters. Source stray x is a nonword layout typo, silent. Source 冷凍保温 is retained as れいとうほおん; do not silently change to 保存. Source 塩っぱくなり難くい is read with intended contextual しょっぱくなりにくい; display remains verbatim. 代わり がわり after ブイオン; 元来 がんらい; 食して しょくして; 正に まさに; 米油 こめあぶら.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "甘味",
+          "reading": "あまみ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34500"
+        },
+        {
+          "form": "旨味",
+          "reading": "うまみ",
+          "accent_variants": [
+            0,
+            3
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L56998"
+        },
+        {
+          "form": "代表的",
+          "reading": "だいひょうてき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L82433"
+        },
+        {
+          "form": "砂糖",
+          "reading": "さとう",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52883"
+        },
+        {
+          "form": "調味料",
+          "reading": "ちょうみりょう",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L87129"
+        },
+        {
+          "form": "甘味料",
+          "reading": "かんみりょう",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34504"
+        },
+        {
+          "form": "香辛料",
+          "reading": "こうしんりょう",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50733"
+        },
+        {
+          "form": "胡椒",
+          "reading": "こしょう",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L46850"
+        },
+        {
+          "form": "七味唐辛子",
+          "reading": "しちみとうがらし",
+          "accent_variants": [
+            6
+          ],
+          "selected_accent": 6,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L59328"
+        },
+        {
+          "form": "旨味調味料",
+          "reading": "うまみちょうみりょう",
+          "accent_variants": [
+            6
+          ],
+          "selected_accent": 6,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L56999"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 甘味 あまみ type 0; 旨味 うまみ type 0; 代表的 だいひょうてき type 0; 砂糖 さとう type 2; 調味料 ちょうみりょう type 3; 甘味料 かんみりょう type 3; 香辛料 こうしんりょう type 3; 胡椒 こしょう type 2; 七味唐辛子 しちみとうがらし type 6; 旨味調味料 うまみちょうみりょう type 6.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-b0e60a14c388ba810b36.mp3",
+      "audio_sha256": "e18e87b9180973145c3b63cdfd13f35be9a49594f75d6a99f2472503f0ecd16c",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_model": "gpt-4o-transcribe",
+      "transcription_review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences."
+    },
+    {
+      "key": "他には醤油、ケチャップ、マヨネーズなど挙げればキリがない程xさまざまな調味料があります。 これらと比べて『塩麹』は、そのものの塩味、甘味は当然有りますが、1番の調味料としての 特徴は『素材そのものの美味しさを引き出す』という事です。",
+      "card": "shiokoji-variations",
+      "message_id": "shiokoji-chunk-05",
+      "batch": 1,
+      "display": "他には醤油、ケチャップ、マヨネーズなど挙げればキリがない程xさまざまな調味料があります。\nこれらと比べて『塩麹』は、そのものの塩味、甘味は当然有りますが、1番の調味料としての\n特徴は『素材そのものの美味しさを引き出す』という事です。\n",
+      "input": "ほかにわしょうゆ、けちゃっぷ、まよねーずなど、あげればきりがないほど、さまざまなちょうみりょうがあります。これらとくらべて、しおこうじわ、そのもののしおあじ、あまみわとうぜんありますが、いちばんのちょうみりょうとしてのとくちょうわ、そざいそのもののおいしさおひきだす、ということです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). Specialist recipe contexts checked against https://miso.or.jp/museum/pdf/new_learn_about_miso.pdf and https://marukajozo-shop.jp/?mode=f1 for 蒸煮 じょうしゃ. No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Diagram arrows are verbal transitions and arithmetic has speech-only grouping. Do not narrate removed photo reference letters. Source stray x is a nonword layout typo, silent. Source 冷凍保温 is retained as れいとうほおん; do not silently change to 保存. Source 塩っぱくなり難くい is read with intended contextual しょっぱくなりにくい; display remains verbatim. 代わり がわり after ブイオン; 元来 がんらい; 食して しょくして; 正に まさに; 米油 こめあぶら. ASR comparison review: speech-only phrasing revised or final-phrase completeness emphasized; display and lookup key unchanged.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "甘味",
+          "reading": "あまみ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34500"
+        },
+        {
+          "form": "醤油",
+          "reading": "しょうゆ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67265"
+        },
+        {
+          "form": "特徴",
+          "reading": "とくちょう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L93400"
+        },
+        {
+          "form": "当然",
+          "reading": "とうぜん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L92119"
+        },
+        {
+          "form": "調味料",
+          "reading": "ちょうみりょう",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L87129"
+        },
+        {
+          "form": "塩味",
+          "reading": "しおあじ",
+          "accent_variants": [
+            2,
+            0
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L26681"
+        },
+        {
+          "form": "素材",
+          "reading": "そざい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L78408"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 甘味 あまみ type 0; 醤油 しょうゆ type 0; 特徴 とくちょう type 0; 当然 とうぜん type 0; 調味料 ちょうみりょう type 3; 塩味 しおあじ type 2; 素材 そざい type 0. Rerecording for completeness and clear words. Keep the ordinary Marin voice and connected sentence delivery. Do not stop before the complete final phrase: これらとくらべて、しおこうじわ、そのもののしおあじ、あまみわとうぜんありますが、いちばんのちょうみりょうとしてのとくちょうわ、そざいそのもののおいしさおひきだす、ということです。 Say it once, without added words. Ingredient names and quantities are separated by light pauses only; no syllable-by-syllable delivery. Preserve いちばん, and include ということです at the end.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-b1b7ae7ec5426d5e3c73.mp3",
+      "audio_sha256": "c2e606fa8d040975693f451d38d8c761dfb8ae7c6250c90b90f390c040fe01b8",
+      "signal_checked": true,
+      "generation_history": [
+        {
+          "audio": "audio/lessons/fermentation-notes-shiokoji/marin-aaac1541c83acc9d3385.mp3",
+          "sha256": "d7ff240e232e7b6b3d8fbbc8ea8347e21c76892304676ca8455d33170b40be0e",
+          "input": "ほかにわしょうゆ、けちゃっぷ、まよねーずなど、あげればきりがないほど、さまざまなちょうみりょうがあります。これらとくらべて、しおこうじわ、そのもののしおあじ、あまみわとうぜんありますが、いちばんのちょうみりょうとしてのとくちょうわ、そざいそのもののおいしさおひきだす、ということです。",
+          "transcript": "他に和醤油、ケチャップ、マヨネーズなど挙げればきりがないほど様々な調味料があります。これらと比べて塩麹はそのものの塩味、甘味は当然ありますが、一連の調味料としての特徴は素材そのもののおいしさを引き出す。",
+          "reason": "Unprompted primary/secondary transcription flagged possible omission or unclear number/word grouping; replaced conservatively, not claimed listening evidence."
+        }
+      ],
+      "transcription_reviewed": true,
+      "transcription_model": "gpt-4o-transcribe",
+      "transcription_review_note": "Rerecorded: restores 一番 and final ということです."
+    },
+    {
+      "key": "元来私たちが食してきた和食は、四季折々の新鮮で豊富な食材そのものが持つ味を生かして あまり味付けしないものです。 その和食に正にマッチした調味料が『塩麹』なのです。",
+      "card": "shiokoji-variations",
+      "message_id": "shiokoji-chunk-06",
+      "batch": 1,
+      "display": "元来私たちが食してきた和食は、四季折々の新鮮で豊富な食材そのものが持つ味を生かして\nあまり味付けしないものです。\nその和食に正にマッチした調味料が『塩麹』なのです。\n",
+      "input": "がんらいわたしたちがしょくしてきたわしょくわ、しきおりおりのしんせんでほうふなしょくざいそのものがもつあじおいかして、あまりあじつけしないものです。そのわしょくにまさにまっちしたちょうみりょうが、しおこうじなのです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). Specialist recipe contexts checked against https://miso.or.jp/museum/pdf/new_learn_about_miso.pdf and https://marukajozo-shop.jp/?mode=f1 for 蒸煮 じょうしゃ. No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Diagram arrows are verbal transitions and arithmetic has speech-only grouping. Do not narrate removed photo reference letters. Source stray x is a nonword layout typo, silent. Source 冷凍保温 is retained as れいとうほおん; do not silently change to 保存. Source 塩っぱくなり難くい is read with intended contextual しょっぱくなりにくい; display remains verbatim. 代わり がわり after ブイオン; 元来 がんらい; 食して しょくして; 正に まさに; 米油 こめあぶら.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "豊富",
+          "reading": "ほうふ",
+          "accent_variants": [
+            0,
+            1
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L107537"
+        },
+        {
+          "form": "調味料",
+          "reading": "ちょうみりょう",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L87129"
+        },
+        {
+          "form": "元来",
+          "reading": "がんらい",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L45352"
+        },
+        {
+          "form": "和食",
+          "reading": "わしょく",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L118807"
+        },
+        {
+          "form": "新鮮",
+          "reading": "しんせん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L69677"
+        },
+        {
+          "form": "食材",
+          "reading": "しょくざい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68770"
+        },
+        {
+          "form": "正に",
+          "reading": "まさに",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L73344"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 豊富 ほうふ type 0; 調味料 ちょうみりょう type 3; 元来 がんらい type 1; 和食 わしょく type 0; 新鮮 しんせん type 0; 食材 しょくざい type 0; 正に まさに type 1.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-511d79f4806914b8d164.mp3",
+      "audio_sha256": "a46ee7b24a1d0bf549d91970b63b5775697e7f6d343620e2fdd17a06f568b1fe",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_model": "gpt-4o-transcribe",
+      "transcription_review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences."
+    },
+    {
+      "key": "『塩麹』には麹から生成されたさまざまな酵素が豊富に含まれています。 アミラーゼによって食材のデンプンがブドウ糖に分解され優しい甘味を引き出します。 デンプン分解酵素",
+      "card": "shiokoji-variations",
+      "message_id": "shiokoji-chunk-07",
+      "batch": 1,
+      "display": "『塩麹』には麹から生成されたさまざまな酵素が豊富に含まれています。\nアミラーゼによって食材のデンプンがブドウ糖に分解され優しい甘味を引き出します。\n　デンプン分解酵素\n",
+      "input": "しおこうじにわ、こうじからせいせいされたさまざまなこうそが、ほうふにふくまれています。あみらーぜによって、しょくざいのでんぷんがぶどうとうにぶんかいされ、やさしいあまみおひきだします。でんぷんぶんかいこうそ。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). Specialist recipe contexts checked against https://miso.or.jp/museum/pdf/new_learn_about_miso.pdf and https://marukajozo-shop.jp/?mode=f1 for 蒸煮 じょうしゃ. No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Diagram arrows are verbal transitions and arithmetic has speech-only grouping. Do not narrate removed photo reference letters. Source stray x is a nonword layout typo, silent. Source 冷凍保温 is retained as れいとうほおん; do not silently change to 保存. Source 塩っぱくなり難くい is read with intended contextual しょっぱくなりにくい; display remains verbatim. 代わり がわり after ブイオン; 元来 がんらい; 食して しょくして; 正に まさに; 米油 こめあぶら.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "分解",
+          "reading": "ぶんかい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L104380"
+        },
+        {
+          "form": "甘味",
+          "reading": "あまみ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34500"
+        },
+        {
+          "form": "生成",
+          "reading": "せいせい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L73913"
+        },
+        {
+          "form": "酵素",
+          "reading": "こうそ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50572"
+        },
+        {
+          "form": "豊富",
+          "reading": "ほうふ",
+          "accent_variants": [
+            0,
+            1
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L107537"
+        },
+        {
+          "form": "食材",
+          "reading": "しょくざい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68770"
+        },
+        {
+          "form": "優しい",
+          "reading": "やさしい",
+          "accent_variants": [
+            0,
+            3
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L112756"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 分解 ぶんかい type 0; 甘味 あまみ type 0; 生成 せいせい type 0; 酵素 こうそ type 1; 豊富 ほうふ type 0; 食材 しょくざい type 0; 優しい やさしい type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-c5e9345cefffcd76f914.mp3",
+      "audio_sha256": "00d236f72e046a9f63eec0bc071a92b802a18e4c0d14c32e42b2a604e62ee2af",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_model": "gpt-4o-transcribe",
+      "transcription_review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences."
+    },
+    {
+      "key": "プロテアーゼによって食材のタンパク質がアミノ酸に分解され旨味を引き出します。 タンパク質分解酵素 リパーゼによって脂肪を分解し香りを引き立たせます。 脂肪分解酵素",
+      "card": "shiokoji-variations",
+      "message_id": "shiokoji-chunk-08",
+      "batch": 1,
+      "display": "プロテアーゼによって食材のタンパク質がアミノ酸に分解され旨味を引き出します。\n　タンパク質分解酵素\nリパーゼによって脂肪を分解し香りを引き立たせます。\n　脂肪分解酵素\n",
+      "input": "ぷろてあーぜによって、しょくざいのたんぱくしつがあみのさんにぶんかいされ、うまみおひきだします、たんぱくしつぶんかいこうそ、りぱーぜによってしぼうおぶんかいし、かおりおひきたたせます、しぼうぶんかいこうそ。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). Specialist recipe contexts checked against https://miso.or.jp/museum/pdf/new_learn_about_miso.pdf and https://marukajozo-shop.jp/?mode=f1 for 蒸煮 じょうしゃ. No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Diagram arrows are verbal transitions and arithmetic has speech-only grouping. Do not narrate removed photo reference letters. Source stray x is a nonword layout typo, silent. Source 冷凍保温 is retained as れいとうほおん; do not silently change to 保存. Source 塩っぱくなり難くい is read with intended contextual しょっぱくなりにくい; display remains verbatim. 代わり がわり after ブイオン; 元来 がんらい; 食して しょくして; 正に まさに; 米油 こめあぶら. ASR comparison review: speech-only phrasing revised or final-phrase completeness emphasized; display and lookup key unchanged. Second pass removes sentence-stop punctuation before final list item in speech only; no word changes.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "分解",
+          "reading": "ぶんかい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L104380"
+        },
+        {
+          "form": "旨味",
+          "reading": "うまみ",
+          "accent_variants": [
+            0,
+            3
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L56998"
+        },
+        {
+          "form": "酵素",
+          "reading": "こうそ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50572"
+        },
+        {
+          "form": "脂肪",
+          "reading": "しぼう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L57548"
+        },
+        {
+          "form": "食材",
+          "reading": "しょくざい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68770"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 分解 ぶんかい type 0; 旨味 うまみ type 0; 酵素 こうそ type 1; 脂肪 しぼう type 0; 食材 しょくざい type 0. Rerecording for completeness and clear words. Keep the ordinary Marin voice and connected sentence delivery. Do not stop before the complete final phrase: しぼうぶんかいこうそ。 Say it once, without added words. Ingredient names and quantities are separated by light pauses only; no syllable-by-syllable delivery. Final list-label repair: this is one complete list, not a sentence ending before the final item. Read every list item through the last item. Use a consistent ordinary Marin tone, light comma pauses only, without choppy delivery.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-2e64b9a0d1ec3c37ca4f.mp3",
+      "audio_sha256": "8c4f3ede0e21abbf3469c68dde9f17088d235026ba3e945255930bef98a23d8d",
+      "signal_checked": true,
+      "generation_history": [
+        {
+          "audio": "audio/lessons/fermentation-notes-shiokoji/marin-10acc20cbbdf0d45e4bc.mp3",
+          "sha256": "4a56a04edc6780926f11f1ec6e0ec671ffb842954e761c6129b6b0fca13443ad",
+          "input": "ぷろてあーぜによって、しょくざいのたんぱくしつがあみのさんにぶんかいされ、うまみおひきだします。たんぱくしつぶんかいこうそ。りぱーぜによってしぼうおぶんかいし、かおりおひきたたせます。しぼうぶんかいこうそ。",
+          "transcript": "プロテアーゼによって、食材のたんぱく質がアミノ酸に分解され、うま味を引き出します。たんぱく質分解酵素。リパーゼによって、脂肪を分解し香りを引き立てます。",
+          "reason": "Unprompted primary/secondary transcription flagged possible omission or unclear number/word grouping; replaced conservatively, not claimed listening evidence."
+        },
+        {
+          "audio": "audio/lessons/fermentation-notes-shiokoji/marin-5437767427a4a4ea5ac3.mp3",
+          "sha256": "0a948436a1f326ad8cef76703aec1f6e25edb7a8724a300679f2aee712674172",
+          "input": "ぷろてあーぜによって、しょくざいのたんぱくしつがあみのさんにぶんかいされ、うまみおひきだします。たんぱくしつぶんかいこうそ。りぱーぜによってしぼうおぶんかいし、かおりおひきたたせます。しぼうぶんかいこうそ。",
+          "transcript": "プロテアーゼによって食材のたんぱく質がアミノ酸に分解され、うま味を引き出します。たんぱく質分解酵素、リパーゼによって脂肪を分解し香りを引き立てます。",
+          "reason": "Final list label still absent in ASR; rephrased speech punctuation as one continuous list."
+        }
+      ],
+      "transcription_reviewed": true,
+      "transcription_model": "gpt-4o-transcribe",
+      "transcription_review_note": "Rerecorded twice: continuous-list punctuation restores final 脂肪分解酵素; primary transcript now includes it."
+    },
+    {
+      "key": "セルラーゼによって食感を滑らかにしてくれます。 細胞壁分解酵素 このように『塩麹』に含まれる酵素のさまざまな働きによって食材そのものの美味しさが 引き出されているのです。",
+      "card": "shiokoji-variations",
+      "message_id": "shiokoji-chunk-09",
+      "batch": 2,
+      "display": "セルラーゼによって食感を滑らかにしてくれます。\n　細胞壁分解酵素\nこのように『塩麹』に含まれる酵素のさまざまな働きによって食材そのものの美味しさが\n引き出されているのです。\n",
+      "input": "せるらーぜによって、しょっかんおなめらかにしてくれます。さいぼうへきぶんかいこうそ。このように、しおこうじにふくまれるこうそのさまざまなはたらきによって、しょくざいそのもののおいしさが、ひきだされているのです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). Specialist recipe contexts checked against https://miso.or.jp/museum/pdf/new_learn_about_miso.pdf and https://marukajozo-shop.jp/?mode=f1 for 蒸煮 じょうしゃ. No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Diagram arrows are verbal transitions and arithmetic has speech-only grouping. Do not narrate removed photo reference letters. Source stray x is a nonword layout typo, silent. Source 冷凍保温 is retained as れいとうほおん; do not silently change to 保存. Source 塩っぱくなり難くい is read with intended contextual しょっぱくなりにくい; display remains verbatim. 代わり がわり after ブイオン; 元来 がんらい; 食して しょくして; 正に まさに; 米油 こめあぶら.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "分解",
+          "reading": "ぶんかい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L104380"
+        },
+        {
+          "form": "酵素",
+          "reading": "こうそ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50572"
+        },
+        {
+          "form": "細胞",
+          "reading": "さいぼう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L53616"
+        },
+        {
+          "form": "食材",
+          "reading": "しょくざい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68770"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 分解 ぶんかい type 0; 酵素 こうそ type 1; 細胞 さいぼう type 0; 食材 しょくざい type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-f20f4269a1fbaf29445b.mp3",
+      "audio_sha256": "9a7c9b6103701c8b7ca7027821c7d9115b2f7f2568e87bd5c92d816e00d0be11",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_model": "gpt-4o-transcribe",
+      "transcription_review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences."
+    },
+    {
+      "key": "塩麹作り方 出来上がり～冷蔵庫 3ヶ月程 冷凍1年程 🔲 塩麹 □常温仕込み 塩麹は常温室温でゆっくり熟成させていけば、酵素の活力は完全に保たれるので 料理に使う時、効果的に働かせる事が出来ます。 米麹200g ＋ 塩 70g ＋ 水 270cc 常温 7日～10日 冬場は7日～14日位",
+      "card": "shiokoji-variations",
+      "message_id": "shiokoji-chunk-10",
+      "batch": 2,
+      "display": "(3)塩麹作り方　　出来上がり～冷蔵庫　3ヶ月程　冷凍1年程\n🔲 塩麹\n□常温仕込み\n塩麹は常温室温でゆっくり熟成(糖化)させていけば、酵素の活力は完全に保たれるので\n料理に使う時、効果的に働かせる事が出来ます。\n米麹200g ＋　塩　70g ＋　水　270cc\n常温　7日～10日　　冬場は7日～14日位\n",
+      "input": "さん、しおこうじつくりかた。できあがり、れいぞうこさんかげつほど、れいとういちねんほど。しおこうじ。じょうおんじこみ。しおこうじわ、じょうおんしつおんでゆっくりじゅくせい、とうかさせていけば、こうそのかつりょくわかんぜんにたもたれるので、りょうりにつかうとき、こうかてきにはたらかせることができます。こめこうじ、にひゃくぐらむ、ぷらす、しお、ななじゅうぐらむ、ぷらす、みず、にひゃくななじゅうしーしー。じょうおん、なのかからとおか。ふゆばわ、なのかからじゅうよっかくらい。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). Specialist recipe contexts checked against https://miso.or.jp/museum/pdf/new_learn_about_miso.pdf and https://marukajozo-shop.jp/?mode=f1 for 蒸煮 じょうしゃ. No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Diagram arrows are verbal transitions and arithmetic has speech-only grouping. Do not narrate removed photo reference letters. Source stray x is a nonword layout typo, silent. Source 冷凍保温 is retained as れいとうほおん; do not silently change to 保存. Source 塩っぱくなり難くい is read with intended contextual しょっぱくなりにくい; display remains verbatim. 代わり がわり after ブイオン; 元来 がんらい; 食して しょくして; 正に まさに; 米油 こめあぶら. ASR comparison review: speech-only phrasing revised or final-phrase completeness emphasized; display and lookup key unchanged.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "出来",
+          "reading": "でき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L64102"
+        },
+        {
+          "form": "効果",
+          "reading": "こうか",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L48709"
+        },
+        {
+          "form": "仕込み",
+          "reading": "しこみ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L55774"
+        },
+        {
+          "form": "酵素",
+          "reading": "こうそ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50572"
+        },
+        {
+          "form": "料理",
+          "reading": "りょうり",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L116664"
+        },
+        {
+          "form": "作り方",
+          "reading": "つくりかた",
+          "accent_variants": [
+            4,
+            5
+          ],
+          "selected_accent": 4,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L53956"
+        },
+        {
+          "form": "冷凍",
+          "reading": "れいとう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L117469"
+        },
+        {
+          "form": "冷蔵",
+          "reading": "れいぞう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L117462"
+        },
+        {
+          "form": "常温",
+          "reading": "じょうおん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67918"
+        },
+        {
+          "form": "糖化",
+          "reading": "とうか",
+          "accent_variants": [
+            0,
+            1
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L92224"
+        },
+        {
+          "form": "活力",
+          "reading": "かつりょく",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L33113"
+        },
+        {
+          "form": "完全",
+          "reading": "かんぜん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L33915"
+        },
+        {
+          "form": "効果的",
+          "reading": "こうかてき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L48711"
+        },
+        {
+          "form": "冬場",
+          "reading": "ふゆば",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L91423"
+        },
+        {
+          "form": "冷蔵庫",
+          "reading": "れいぞうこ",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L117463"
+        },
+        {
+          "form": "熟成",
+          "reading": "じゅくせい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L63766"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 出来 でき type 0; 効果 こうか type 1; 仕込み しこみ type 0; 酵素 こうそ type 1; 料理 りょうり type 1; 作り方 つくりかた type 4; 冷凍 れいとう type 0; 冷蔵 れいぞう type 0; 常温 じょうおん type 0; 糖化 とうか type 0; 活力 かつりょく type 2; 完全 かんぜん type 0; 効果的 こうかてき type 0; 冬場 ふゆば type 0; 冷蔵庫 れいぞうこ type 3; 熟成 じゅくせい type 0. Rerecording for completeness and clear words. Keep the ordinary Marin voice and connected sentence delivery. Do not stop before the complete final phrase: ふゆばわ、なのかからじゅうよっかくらい。 Say it once, without added words. Ingredient names and quantities are separated by light pauses only; no syllable-by-syllable delivery.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-8b8614c4abc1f18eb5fa.mp3",
+      "audio_sha256": "1e082fd3b66dc6b3b0104e36ff1158da41a6388968717eb70e0a23a3a39d6294",
+      "signal_checked": true,
+      "generation_history": [
+        {
+          "audio": "audio/lessons/fermentation-notes-shiokoji/marin-b56fdafea2853e74f0ee.mp3",
+          "sha256": "a40476929e57ac03001916acee575837a1cae61d8ad80ff2eab0cb422e006f67",
+          "input": "さん、しおこうじつくりかた。できあがり、れいぞうこさんかげつほど、れいとういちねんほど。しおこうじ。じょうおんじこみ。しおこうじわ、じょうおんしつおんでゆっくりじゅくせい、とうかさせていけば、こうそのかつりょくわかんぜんにたもたれるので、りょうりにつかうとき、こうかてきにはたらかせることができます。こめこうじにひゃくぐらむ、ぷらす、しおななじゅうぐらむ、ぷらす、みずにひゃくななじゅうしーしー。じょうおん、なのかからとおか。ふゆばわ、なのかからじゅうよっかくらい。",
+          "transcript": "3.塩麹作り方出来上がり冷蔵庫3ヶ月ほど冷凍1年ほど塩麹常温仕込み塩麹は常温室温でゆっくり熟成、糖化させていけば酵素の活力は何千に保たれるので料理に使うとき効果的に働かせることができます米麹に100gプラス塩70gプラス水に170cc常温7日から10日",
+          "reason": "Unprompted primary/secondary transcription flagged possible omission or unclear number/word grouping; replaced conservatively, not claimed listening evidence."
+        }
+      ],
+      "transcription_reviewed": true,
+      "transcription_model": "gpt-4o-transcribe",
+      "transcription_review_note": "Rerecorded: ingredient/quantity pauses distinguish 200g and 270cc; winter 7–14 day ending restored."
+    },
+    {
+      "key": "□早造り熟成塩麹 上記常温熟成でも美味しいですが、かなり時間をかけても塩麹そのものの熟成度を あげることは困難です。早造りは短期間に熟成させ、尚且つ酵素も壊さずに、塩麹を作る最適な 熟成温度があります。 米麹200g ＋塩 70g ＋ 水 270cc 発酵器 55℃ 約12時間",
+      "card": "shiokoji-variations",
+      "message_id": "shiokoji-chunk-11",
+      "batch": 2,
+      "display": "□早造り熟成塩麹\n上記常温熟成でも美味しいですが、かなり時間をかけても塩麹そのものの熟成度(旨味や甘味)を\nあげることは困難です。早造りは短期間に熟成させ、尚且つ酵素も壊さずに、塩麹を作る最適な\n熟成温度があります。\n米麹200g ＋塩　70g ＋　水　270cc\n発酵器　55℃ 約12時間\n",
+      "input": "はやづくりじゅくせいしおこうじ。じょうきじょうおんじゅくせいでもおいしいですが、かなりじかんおかけても、しおこうじそのもののじゅくせいど、うまみやあまみお、あげることわこんなんです。はやづくりわたんきかんにじゅくせいさせ、なおかつこうそもこわさずに、しおこうじおつくるさいてきなじゅくせいおんどがあります。こめこうじ、にひゃくぐらむ、ぷらす、しお、ななじゅうぐらむ、ぷらす、みず、にひゃくななじゅうしーしー。はっこうき、ごじゅうごど、やくじゅうにじかん。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). Specialist recipe contexts checked against https://miso.or.jp/museum/pdf/new_learn_about_miso.pdf and https://marukajozo-shop.jp/?mode=f1 for 蒸煮 じょうしゃ. No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Diagram arrows are verbal transitions and arithmetic has speech-only grouping. Do not narrate removed photo reference letters. Source stray x is a nonword layout typo, silent. Source 冷凍保温 is retained as れいとうほおん; do not silently change to 保存. Source 塩っぱくなり難くい is read with intended contextual しょっぱくなりにくい; display remains verbatim. 代わり がわり after ブイオン; 元来 がんらい; 食して しょくして; 正に まさに; 米油 こめあぶら. ASR comparison review: speech-only phrasing revised or final-phrase completeness emphasized; display and lookup key unchanged.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "発酵",
+          "reading": "はっこう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L98799"
+        },
+        {
+          "form": "甘味",
+          "reading": "あまみ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34500"
+        },
+        {
+          "form": "旨味",
+          "reading": "うまみ",
+          "accent_variants": [
+            0,
+            3
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L56998"
+        },
+        {
+          "form": "温度",
+          "reading": "おんど",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L27746"
+        },
+        {
+          "form": "酵素",
+          "reading": "こうそ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50572"
+        },
+        {
+          "form": "最適",
+          "reading": "さいてき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L53283"
+        },
+        {
+          "form": "時間",
+          "reading": "じかん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L58356"
+        },
+        {
+          "form": "常温",
+          "reading": "じょうおん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67918"
+        },
+        {
+          "form": "上記",
+          "reading": "じょうき",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67440"
+        },
+        {
+          "form": "困難",
+          "reading": "こんなん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52293"
+        },
+        {
+          "form": "短期間",
+          "reading": "たんきかん",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L84218"
+        },
+        {
+          "form": "熟成",
+          "reading": "じゅくせい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L63766"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 発酵 はっこう type 0; 甘味 あまみ type 0; 旨味 うまみ type 0; 温度 おんど type 1; 酵素 こうそ type 1; 最適 さいてき type 0; 時間 じかん type 0; 常温 じょうおん type 0; 上記 じょうき type 1; 困難 こんなん type 1; 短期間 たんきかん type 3; 熟成 じゅくせい type 0. Rerecording for completeness and clear words. Keep the ordinary Marin voice and connected sentence delivery. Do not stop before the complete final phrase: はっこうき、ごじゅうごど、やくじゅうにじかん。 Say it once, without added words. Ingredient names and quantities are separated by light pauses only; no syllable-by-syllable delivery.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-a1829fcce3b009a081d4.mp3",
+      "audio_sha256": "96243cbac7e27e74be818b78860c15ef980bd7e04ecfb8544d01548a52584f5f",
+      "signal_checked": true,
+      "generation_history": [
+        {
+          "audio": "audio/lessons/fermentation-notes-shiokoji/marin-37f7a8720d4ff833bae4.mp3",
+          "sha256": "f939ef30206d3a45f7e08c86f1b5180e8fda585fd7011b9862335a92e30f3a82",
+          "input": "はやづくりじゅくせいしおこうじ。じょうきじょうおんじゅくせいでもおいしいですが、かなりじかんおかけても、しおこうじそのもののじゅくせいど、うまみやあまみお、あげることわこんなんです。はやづくりわたんきかんにじゅくせいさせ、なおかつこうそもこわさずに、しおこうじおつくるさいてきなじゅくせいおんどがあります。こめこうじにひゃくぐらむ、ぷらす、しおななじゅうぐらむ、ぷらす、みずにひゃくななじゅうしーしー。はっこうき、ごじゅうごど、やくじゅうにじかん。",
+          "transcript": "早作り熟成塩麹蒸気常温熟成でも美味しいですが、かなり時間をかけても塩麹そのものの熟成度、旨味や甘味を上げることは困難です。早作りは短期間に熟成させ、なおかつ酵素も壊さずに塩麹を作る最適な熟成温度があります。米麹に100gプラス塩70gプラス水に170cc発酵器55度約12時間",
+          "reason": "Unprompted primary/secondary transcription flagged possible omission or unclear number/word grouping; replaced conservatively, not claimed listening evidence."
+        }
+      ],
+      "transcription_reviewed": true,
+      "transcription_model": "gpt-4o-transcribe",
+      "transcription_review_note": "Rerecorded quantity grouping: 200g/70g/270cc and 55°C/12h match. 上記/蒸気 are homophonic transcription spelling."
+    },
+    {
+      "key": "🔲 塩麹使い方例 《漬け床》 •肉、魚、野菜 何でも漬けられます。 3時間～ 漬けたまま冷凍保温しても良い。 ◯例 魚２切れに、塩麹大さじ2 魚や肉を良く洗い水気を拭き取り一晩ほど漬ける。",
+      "card": "shiokoji-variations",
+      "message_id": "shiokoji-chunk-12",
+      "batch": 2,
+      "display": "🔲 塩麹使い方例\n《漬け床》\n•肉、魚、野菜　何でも漬けられます。\n3時間～　　　　漬けたまま冷凍保温しても良い。\n◯例　　魚２切れ(200gくらい)に、塩麹大さじ2\n魚や肉を良く洗い水気を拭き取り一晩ほど漬ける。\n",
+      "input": "しおこうじつかいかたれい。つけどこ。にく、さかな、やさい、なんでもつけられます。さんじかんから。つけたままれいとうほおんしてもよい。れい、さかなふたきれ、にひゃくぐらむくらいに、しおこうじおおさじに。さかなやにくおよくあらい、みずけおふきとり、ひとばんほどつける。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). Specialist recipe contexts checked against https://miso.or.jp/museum/pdf/new_learn_about_miso.pdf and https://marukajozo-shop.jp/?mode=f1 for 蒸煮 じょうしゃ. No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Diagram arrows are verbal transitions and arithmetic has speech-only grouping. Do not narrate removed photo reference letters. Source stray x is a nonword layout typo, silent. Source 冷凍保温 is retained as れいとうほおん; do not silently change to 保存. Source 塩っぱくなり難くい is read with intended contextual しょっぱくなりにくい; display remains verbatim. 代わり がわり after ブイオン; 元来 がんらい; 食して しょくして; 正に まさに; 米油 こめあぶら.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "保温",
+          "reading": "ほおん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106274"
+        },
+        {
+          "form": "時間",
+          "reading": "じかん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L58356"
+        },
+        {
+          "form": "冷凍",
+          "reading": "れいとう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L117469"
+        },
+        {
+          "form": "良く",
+          "reading": "よく",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L116746"
+        },
+        {
+          "form": "大さじ",
+          "reading": "おおさじ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L82539"
+        },
+        {
+          "form": "野菜",
+          "reading": "やさい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L112171"
+        },
+        {
+          "form": "何でも",
+          "reading": "なんでも",
+          "accent_variants": [
+            0,
+            1
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L28490"
+        },
+        {
+          "form": "水気",
+          "reading": "みずけ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L71890"
+        },
+        {
+          "form": "一晩",
+          "reading": "ひとばん",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L23637"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 保温 ほおん type 0; 時間 じかん type 0; 冷凍 れいとう type 0; 良く よく type 1; 大さじ おおさじ type 0; 野菜 やさい type 0; 何でも なんでも type 0; 水気 みずけ type 0; 一晩 ひとばん type 2.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-783169bc21410d07327c.mp3",
+      "audio_sha256": "8157e39e63eb8f75a8c30f6e8a204c8f3befdb681a656864f17fee0dd59cf155",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_model": "gpt-4o-transcribe",
+      "transcription_review_note": "Secondary transcript retains original 冷凍保温; primary normalizes to 保存. Original source wording retained."
+    },
+    {
+      "key": "《炒め物の素》 素材に火が通ったら最後に麹調味料を入れる。 ＊素材に火が通る前に焦げやすいから。",
+      "card": "shiokoji-variations",
+      "message_id": "shiokoji-chunk-13",
+      "batch": 2,
+      "display": "《炒め物の素》\n素材に火が通ったら最後に麹調味料を入れる。\n＊素材に火が通る前に焦げやすいから。\n",
+      "input": "いためもののもと。そざいにひがとおったら、さいごにこうじちょうみりょうおいれる。そざいにひがとおるまえに、こげやすいから。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). Specialist recipe contexts checked against https://miso.or.jp/museum/pdf/new_learn_about_miso.pdf and https://marukajozo-shop.jp/?mode=f1 for 蒸煮 じょうしゃ. No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Diagram arrows are verbal transitions and arithmetic has speech-only grouping. Do not narrate removed photo reference letters. Source stray x is a nonword layout typo, silent. Source 冷凍保温 is retained as れいとうほおん; do not silently change to 保存. Source 塩っぱくなり難くい is read with intended contextual しょっぱくなりにくい; display remains verbatim. 代わり がわり after ブイオン; 元来 がんらい; 食して しょくして; 正に まさに; 米油 こめあぶら.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "調味料",
+          "reading": "ちょうみりょう",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L87129"
+        },
+        {
+          "form": "素材",
+          "reading": "そざい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L78408"
+        },
+        {
+          "form": "炒め物",
+          "reading": "いためもの",
+          "accent_variants": [
+            0,
+            5
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L121098"
+        },
+        {
+          "form": "最後",
+          "reading": "さいご",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L53209"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 調味料 ちょうみりょう type 3; 素材 そざい type 0; 炒め物 いためもの type 0; 最後 さいご type 1.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-f44752cc3b2f6f940ade.mp3",
+      "audio_sha256": "53cd1ce29452f92a26b98fd3334afb0652f1c81596e0566fe2f2f74061041e7b",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_model": "gpt-4o-transcribe",
+      "transcription_review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences."
+    },
+    {
+      "key": "《スープ、汁もの》 麹をお湯で溶く、塩と同様に使う ＊煮過ぎると濃厚な味になる。",
+      "card": "shiokoji-variations",
+      "message_id": "shiokoji-chunk-14",
+      "batch": 2,
+      "display": "《スープ、汁もの》\n麹をお湯で溶く、塩と同様に使う\n＊煮過ぎると濃厚な味になる。\n",
+      "input": "すーぷ、しるもの。こうじおおゆでとく、しおとどうようにつかう。にすぎるとのうこうなあじになる。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). Specialist recipe contexts checked against https://miso.or.jp/museum/pdf/new_learn_about_miso.pdf and https://marukajozo-shop.jp/?mode=f1 for 蒸煮 じょうしゃ. No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Diagram arrows are verbal transitions and arithmetic has speech-only grouping. Do not narrate removed photo reference letters. Source stray x is a nonword layout typo, silent. Source 冷凍保温 is retained as れいとうほおん; do not silently change to 保存. Source 塩っぱくなり難くい is read with intended contextual しょっぱくなりにくい; display remains verbatim. 代わり がわり after ブイオン; 元来 がんらい; 食して しょくして; 正に まさに; 米油 こめあぶら.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "同様",
+          "reading": "どうよう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L92972"
+        },
+        {
+          "form": "濃厚",
+          "reading": "のうこう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L96432"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 同様 どうよう type 0; 濃厚 のうこう type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-47f7a2bb0c204ef59a49.mp3",
+      "audio_sha256": "dda7c506d0ff7748d06acc5a917ee270e1fbe6e9e4b01112b3053db0b1be6349",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_model": "gpt-4o-transcribe",
+      "transcription_review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences."
+    },
+    {
+      "key": "《和え物》 基本分量 素材 250g～300gに対し 塩麹大さじ1",
+      "card": "shiokoji-variations",
+      "message_id": "shiokoji-chunk-15",
+      "batch": 2,
+      "display": "《和え物》\n基本分量　(あくまでも基本なので、ご自分の味にアレンジしてください)\n素材　250g～300gに対し　塩麹大さじ1\n",
+      "input": "あえもの。きほんぶんりょう、あくまでもきほんなので、ごじぶんのあじにあれんじしてください。そざい、にひゃくごじゅうぐらむからさんびゃくぐらむにたいし、しおこうじおおさじいち。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). Specialist recipe contexts checked against https://miso.or.jp/museum/pdf/new_learn_about_miso.pdf and https://marukajozo-shop.jp/?mode=f1 for 蒸煮 じょうしゃ. No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Diagram arrows are verbal transitions and arithmetic has speech-only grouping. Do not narrate removed photo reference letters. Source stray x is a nonword layout typo, silent. Source 冷凍保温 is retained as れいとうほおん; do not silently change to 保存. Source 塩っぱくなり難くい is read with intended contextual しょっぱくなりにくい; display remains verbatim. 代わり がわり after ブイオン; 元来 がんらい; 食して しょくして; 正に まさに; 米油 こめあぶら. ASR comparison review: speech-only phrasing revised or final-phrase completeness emphasized; display and lookup key unchanged.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "基本",
+          "reading": "きほん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L35697"
+        },
+        {
+          "form": "自分",
+          "reading": "じぶん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L59034"
+        },
+        {
+          "form": "大さじ",
+          "reading": "おおさじ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L82539"
+        },
+        {
+          "form": "素材",
+          "reading": "そざい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L78408"
+        },
+        {
+          "form": "和え物",
+          "reading": "あえもの",
+          "accent_variants": [
+            2,
+            0
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L118735"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 基本 きほん type 0; 自分 じぶん type 0; 大さじ おおさじ type 0; 素材 そざい type 0; 和え物 あえもの type 2. Rerecording for completeness and clear words. Keep the ordinary Marin voice and connected sentence delivery. Do not stop before the complete final phrase: そざい、にひゃくごじゅうぐらむからさんびゃくぐらむにたいし、しおこうじおおさじいち。 Say it once, without added words. Ingredient names and quantities are separated by light pauses only; no syllable-by-syllable delivery.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-3388385c04649771c975.mp3",
+      "audio_sha256": "6c52da3b1614b86856af89829b00be38b4652e6fd8f7ba295e212055bbd2758e",
+      "signal_checked": true,
+      "generation_history": [
+        {
+          "audio": "audio/lessons/fermentation-notes-shiokoji/marin-1a3f9d86fb0571a32a8e.mp3",
+          "sha256": "0fbcf0eed039c1f439d10f50b58abe496083e75aeb55724b7965c859401c24be",
+          "input": "あえもの。きほんぶんりょう、あくまでもきほんなので、ごじぶんのあじにあれんじしてください。そざいにひゃくごじゅうぐらむからさんびゃくぐらむにたいし、しおこうじおおさじいち。",
+          "transcript": "和え物。基本分量、あくまでも基本なので、ご自分の味にアレンジしてください。素材に150gから300gに対し、塩麹大さじ1。",
+          "reason": "Unprompted primary/secondary transcription flagged possible omission or unclear number/word grouping; replaced conservatively, not claimed listening evidence."
+        }
+      ],
+      "transcription_reviewed": true,
+      "transcription_model": "gpt-4o-transcribe",
+      "transcription_review_note": "Rerecorded: 250g–300g now unambiguous in transcript."
+    },
+    {
+      "key": "変わり塩麹作り方 🔲 玉ねぎ麹 出来上がり～冷蔵庫2ヶ月 冷凍半年程 玉ねぎ麹は初心者に使いやすい麹調味料です。玉ねぎの甘味があるので調理に使っても 塩っぱくなり難くいです。コンソメやブイオン代わりになります。",
+      "card": "shiokoji-variations",
+      "message_id": "shiokoji-chunk-16",
+      "batch": 2,
+      "display": "(4)変わり塩麹作り方\n🔲 玉ねぎ麹　　　出来上がり～冷蔵庫2ヶ月　　冷凍半年程\n玉ねぎ麹は初心者に使いやすい麹調味料です。玉ねぎの甘味があるので調理に使っても\n塩っぱくなり難くいです。コンソメやブイオン代わりになります。\n",
+      "input": "よん、かわりしおこうじつくりかた。たまねぎこうじ。できあがり、れいぞうこにかげつ、れいとうはんとしほど。たまねぎこうじわ、しょしんしゃにつかいやすいこうじちょうみりょうです。たまねぎのあまみがあるので、ちょうりにつかっても、しょっぱくなりにくいです。こんそめやぶいおんがわりになります。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). Specialist recipe contexts checked against https://miso.or.jp/museum/pdf/new_learn_about_miso.pdf and https://marukajozo-shop.jp/?mode=f1 for 蒸煮 じょうしゃ. No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Diagram arrows are verbal transitions and arithmetic has speech-only grouping. Do not narrate removed photo reference letters. Source stray x is a nonword layout typo, silent. Source 冷凍保温 is retained as れいとうほおん; do not silently change to 保存. Source 塩っぱくなり難くい is read with intended contextual しょっぱくなりにくい; display remains verbatim. 代わり がわり after ブイオン; 元来 がんらい; 食して しょくして; 正に まさに; 米油 こめあぶら.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "甘味",
+          "reading": "あまみ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34500"
+        },
+        {
+          "form": "出来",
+          "reading": "でき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L64102"
+        },
+        {
+          "form": "作り方",
+          "reading": "つくりかた",
+          "accent_variants": [
+            4,
+            5
+          ],
+          "selected_accent": 4,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L53956"
+        },
+        {
+          "form": "半年",
+          "reading": "はんとし",
+          "accent_variants": [
+            4
+          ],
+          "selected_accent": 4,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L99229"
+        },
+        {
+          "form": "冷凍",
+          "reading": "れいとう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L117469"
+        },
+        {
+          "form": "冷蔵",
+          "reading": "れいぞう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L117462"
+        },
+        {
+          "form": "変わり",
+          "reading": "かわり",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L105787"
+        },
+        {
+          "form": "調味料",
+          "reading": "ちょうみりょう",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L87129"
+        },
+        {
+          "form": "初心者",
+          "reading": "しょしんしゃ",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L64655"
+        },
+        {
+          "form": "冷蔵庫",
+          "reading": "れいぞうこ",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L117463"
+        },
+        {
+          "form": "玉ねぎ",
+          "reading": "たまねぎ",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40218"
+        },
+        {
+          "form": "調理",
+          "reading": "ちょうり",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L87131"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 甘味 あまみ type 0; 出来 でき type 0; 作り方 つくりかた type 4; 半年 はんとし type 4; 冷凍 れいとう type 0; 冷蔵 れいぞう type 0; 変わり かわり type 0; 調味料 ちょうみりょう type 3; 初心者 しょしんしゃ type 2; 冷蔵庫 れいぞうこ type 3; 玉ねぎ たまねぎ type 3; 調理 ちょうり type 1.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-2ad9c99db3fefef26ff7.mp3",
+      "audio_sha256": "7cde8694c91a4760b1666600cf29e8af6666045d3f296b3aa735b4ac94ab4dc2",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_model": "gpt-4o-transcribe",
+      "transcription_review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences."
+    },
+    {
+      "key": "〈材料〉 •玉ねぎ 300g •麹 100g •塩 30g",
+      "card": "shiokoji-variations",
+      "message_id": "shiokoji-chunk-17",
+      "batch": 3,
+      "display": "〈材料〉　　　　　　\n•玉ねぎ　　　　　　　　300g\n•麹　　　　　　　　　　100g\n•塩　　　　　　　　　　 30g\n",
+      "input": "ざいりょう。たまねぎさんびゃくぐらむ。こうじひゃくぐらむ。しおさんじゅうぐらむ。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). Specialist recipe contexts checked against https://miso.or.jp/museum/pdf/new_learn_about_miso.pdf and https://marukajozo-shop.jp/?mode=f1 for 蒸煮 じょうしゃ. No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Diagram arrows are verbal transitions and arithmetic has speech-only grouping. Do not narrate removed photo reference letters. Source stray x is a nonword layout typo, silent. Source 冷凍保温 is retained as れいとうほおん; do not silently change to 保存. Source 塩っぱくなり難くい is read with intended contextual しょっぱくなりにくい; display remains verbatim. 代わり がわり after ブイオン; 元来 がんらい; 食して しょくして; 正に まさに; 米油 こめあぶら.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "材料",
+          "reading": "ざいりょう",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L53810"
+        },
+        {
+          "form": "玉ねぎ",
+          "reading": "たまねぎ",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40218"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 材料 ざいりょう type 3; 玉ねぎ たまねぎ type 3.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-28a480a86c31854f340b.mp3",
+      "audio_sha256": "5debb666dc413823829f5363c9b57986fed9f8971e477533df13be6f84f0b0d5",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_model": "gpt-4o-transcribe",
+      "transcription_review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences."
+    },
+    {
+      "key": "〈作り方〉 ①麹はほぐし、塩を合わせ、ムラの出来ないように良く合わせておく",
+      "card": "shiokoji-variations",
+      "message_id": "shiokoji-chunk-18",
+      "batch": 3,
+      "display": "〈作り方〉\n①麹はほぐし、塩を合わせ、ムラの出来ないように良く合わせておく(塩切り)\n",
+      "input": "つくりかた。いち、こうじわほぐし、しおおあわせ、むらのできないように、よくあわせておく。しおきり。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). Specialist recipe contexts checked against https://miso.or.jp/museum/pdf/new_learn_about_miso.pdf and https://marukajozo-shop.jp/?mode=f1 for 蒸煮 じょうしゃ. No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Diagram arrows are verbal transitions and arithmetic has speech-only grouping. Do not narrate removed photo reference letters. Source stray x is a nonword layout typo, silent. Source 冷凍保温 is retained as れいとうほおん; do not silently change to 保存. Source 塩っぱくなり難くい is read with intended contextual しょっぱくなりにくい; display remains verbatim. 代わり がわり after ブイオン; 元来 がんらい; 食して しょくして; 正に まさに; 米油 こめあぶら.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "出来",
+          "reading": "でき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L64102"
+        },
+        {
+          "form": "作り方",
+          "reading": "つくりかた",
+          "accent_variants": [
+            4,
+            5
+          ],
+          "selected_accent": 4,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L53956"
+        },
+        {
+          "form": "良く",
+          "reading": "よく",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L116746"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 出来 でき type 0; 作り方 つくりかた type 4; 良く よく type 1.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-4caf0ee3a18273772cf1.mp3",
+      "audio_sha256": "91ddabba186a9f6a90a8e087fab498eb67b0e48532d4ff11943357cf70439fa1",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_model": "gpt-4o-transcribe",
+      "transcription_review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences."
+    },
+    {
+      "key": "②玉ねぎはすりおろす。①と②を合わせ、清潔な容器に入れて直射日光に当たらない場所で 常温発酵させる。 かき混ぜる時は清潔な器具を使う事。 【春、秋…5～7日 夏…3～5日 冬…7～10日】",
+      "card": "shiokoji-variations",
+      "message_id": "shiokoji-chunk-19",
+      "batch": 3,
+      "display": "②玉ねぎはすりおろす。①と②を合わせ、清潔な容器に入れて直射日光に当たらない場所で\n　常温発酵させる。　かき混ぜる時は清潔な器具を使う事。\n【春、秋…5～7日　　　夏…3～5日　　　冬…7～10日】\n",
+      "input": "に、たまねぎわすりおろす。いちとにおあわせ、せいけつなようきにいれて、ちょくしゃにっこうにあたらないばしょで、じょうおんはっこうさせる。かきまぜるときわ、せいけつなきぐおつかうこと。はる、あき、いつかからなのか。なつ、みっかからいつか。ふゆ、なのかからとおか。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). Specialist recipe contexts checked against https://miso.or.jp/museum/pdf/new_learn_about_miso.pdf and https://marukajozo-shop.jp/?mode=f1 for 蒸煮 じょうしゃ. No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Diagram arrows are verbal transitions and arithmetic has speech-only grouping. Do not narrate removed photo reference letters. Source stray x is a nonword layout typo, silent. Source 冷凍保温 is retained as れいとうほおん; do not silently change to 保存. Source 塩っぱくなり難くい is read with intended contextual しょっぱくなりにくい; display remains verbatim. 代わり がわり after ブイオン; 元来 がんらい; 食して しょくして; 正に まさに; 米油 こめあぶら.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "発酵",
+          "reading": "はっこう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L98799"
+        },
+        {
+          "form": "器具",
+          "reading": "きぐ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L35640"
+        },
+        {
+          "form": "清潔",
+          "reading": "せいけつ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L73557"
+        },
+        {
+          "form": "容器",
+          "reading": "ようき",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L113899"
+        },
+        {
+          "form": "常温",
+          "reading": "じょうおん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67918"
+        },
+        {
+          "form": "場所",
+          "reading": "ばしょ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67884"
+        },
+        {
+          "form": "玉ねぎ",
+          "reading": "たまねぎ",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40218"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 発酵 はっこう type 0; 器具 きぐ type 1; 清潔 せいけつ type 0; 容器 ようき type 1; 常温 じょうおん type 0; 場所 ばしょ type 0; 玉ねぎ たまねぎ type 3.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-db6baa6671f88f5463de.mp3",
+      "audio_sha256": "11bc3326aa68e0aec6cb1510f9a2b2856347e12b184eac669663035187abd20f",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_model": "gpt-4o-transcribe",
+      "transcription_review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences."
+    },
+    {
+      "key": "□熟成早造り玉ねぎ麹 発酵器 40℃ 8時間 旨味強い。 60℃ 6時間 甘味が強い。",
+      "card": "shiokoji-variations",
+      "message_id": "shiokoji-chunk-20",
+      "batch": 3,
+      "display": "□熟成早造り玉ねぎ麹\n発酵器　　　　40℃ 8時間　旨味強い。\n　　　　　　　60℃ 6時間　甘味が強い。\n",
+      "input": "じゅくせいはやづくりたまねぎこうじ。はっこうき、よんじゅうど、はちじかん、うまみつよい。ろくじゅうど、ろくじかん、あまみがつよい。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). Specialist recipe contexts checked against https://miso.or.jp/museum/pdf/new_learn_about_miso.pdf and https://marukajozo-shop.jp/?mode=f1 for 蒸煮 じょうしゃ. No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Diagram arrows are verbal transitions and arithmetic has speech-only grouping. Do not narrate removed photo reference letters. Source stray x is a nonword layout typo, silent. Source 冷凍保温 is retained as れいとうほおん; do not silently change to 保存. Source 塩っぱくなり難くい is read with intended contextual しょっぱくなりにくい; display remains verbatim. 代わり がわり after ブイオン; 元来 がんらい; 食して しょくして; 正に まさに; 米油 こめあぶら.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "発酵",
+          "reading": "はっこう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L98799"
+        },
+        {
+          "form": "甘味",
+          "reading": "あまみ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34500"
+        },
+        {
+          "form": "旨味",
+          "reading": "うまみ",
+          "accent_variants": [
+            0,
+            3
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L56998"
+        },
+        {
+          "form": "時間",
+          "reading": "じかん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L58356"
+        },
+        {
+          "form": "熟成",
+          "reading": "じゅくせい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L63766"
+        },
+        {
+          "form": "玉ねぎ",
+          "reading": "たまねぎ",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40218"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 発酵 はっこう type 0; 甘味 あまみ type 0; 旨味 うまみ type 0; 時間 じかん type 0; 熟成 じゅくせい type 0; 玉ねぎ たまねぎ type 3.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-da369cae444f9b703cf6.mp3",
+      "audio_sha256": "efad53ae64c89c00ecd70aea24dbb7a90611524fb64b56a620c30fdd2a702f53",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_model": "gpt-4o-transcribe",
+      "transcription_review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences."
+    },
+    {
+      "key": "🔲 玉ねぎ麹使い方例 《炒め物》 素材に火が通ったら、最後に玉ねぎ麹を加え軽く炒める。",
+      "card": "shiokoji-variations",
+      "message_id": "shiokoji-chunk-21",
+      "batch": 3,
+      "display": "🔲 玉ねぎ麹使い方例\n《炒め物》\n素材に火が通ったら、最後に玉ねぎ麹を加え軽く炒める。\n",
+      "input": "たまねぎこうじつかいかたれい。いためもの。そざいにひがとおったら、さいごにたまねぎこうじおくわえ、かるくいためる。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). Specialist recipe contexts checked against https://miso.or.jp/museum/pdf/new_learn_about_miso.pdf and https://marukajozo-shop.jp/?mode=f1 for 蒸煮 じょうしゃ. No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Diagram arrows are verbal transitions and arithmetic has speech-only grouping. Do not narrate removed photo reference letters. Source stray x is a nonword layout typo, silent. Source 冷凍保温 is retained as れいとうほおん; do not silently change to 保存. Source 塩っぱくなり難くい is read with intended contextual しょっぱくなりにくい; display remains verbatim. 代わり がわり after ブイオン; 元来 がんらい; 食して しょくして; 正に まさに; 米油 こめあぶら.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "素材",
+          "reading": "そざい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L78408"
+        },
+        {
+          "form": "炒め物",
+          "reading": "いためもの",
+          "accent_variants": [
+            0,
+            5
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L121098"
+        },
+        {
+          "form": "最後",
+          "reading": "さいご",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L53209"
+        },
+        {
+          "form": "玉ねぎ",
+          "reading": "たまねぎ",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40218"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 素材 そざい type 0; 炒め物 いためもの type 0; 最後 さいご type 1; 玉ねぎ たまねぎ type 3.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-657a7d0b4ba06dba4d18.mp3",
+      "audio_sha256": "b3314f419e7014b4c8a9d0aadea2e3f98a07fc57889ccfe98b3f713109aa5fa5",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_model": "gpt-4o-transcribe",
+      "transcription_review_note": "Secondary resolves 玉ねぎ against primary カマネギ spelling error."
+    },
+    {
+      "key": "《スープ》 例)ポタージュスープ 〈材料〉 •とうもろこし 200g •豆乳 200cc •玉ねぎ麹 大さじ1と1/2",
+      "card": "shiokoji-variations",
+      "message_id": "shiokoji-chunk-22",
+      "batch": 3,
+      "display": "《スープ》\n例)ポタージュスープ\n〈材料〉\n•とうもろこし(コーン缶無塩) 200g\n•豆乳(牛乳) 200cc\n•玉ねぎ麹　　　　　　　　　　　大さじ1と1/2\n",
+      "input": "すーぷ。れい。ぽたーじゅすーぷ。ざいりょう。とうもろこし、こーんかんむえん、にひゃくぐらむ。とうにゅう、ぎゅうにゅう、にひゃくしーしー。たまねぎこうじ、おおさじ、いちとにぶんのいち。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). Specialist recipe contexts checked against https://miso.or.jp/museum/pdf/new_learn_about_miso.pdf and https://marukajozo-shop.jp/?mode=f1 for 蒸煮 じょうしゃ. No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Diagram arrows are verbal transitions and arithmetic has speech-only grouping. Do not narrate removed photo reference letters. Source stray x is a nonword layout typo, silent. Source 冷凍保温 is retained as れいとうほおん; do not silently change to 保存. Source 塩っぱくなり難くい is read with intended contextual しょっぱくなりにくい; display remains verbatim. 代わり がわり after ブイオン; 元来 がんらい; 食して しょくして; 正に まさに; 米油 こめあぶら. ASR comparison review: speech-only phrasing revised or final-phrase completeness emphasized; display and lookup key unchanged.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "材料",
+          "reading": "ざいりょう",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L53810"
+        },
+        {
+          "form": "大さじ",
+          "reading": "おおさじ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L82539"
+        },
+        {
+          "form": "無塩",
+          "reading": "むえん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L109778"
+        },
+        {
+          "form": "豆乳",
+          "reading": "とうにゅう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L92355"
+        },
+        {
+          "form": "牛乳",
+          "reading": "ぎゅうにゅう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L38453"
+        },
+        {
+          "form": "玉ねぎ",
+          "reading": "たまねぎ",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40218"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 材料 ざいりょう type 3; 大さじ おおさじ type 0; 無塩 むえん type 0; 豆乳 とうにゅう type 0; 牛乳 ぎゅうにゅう type 0; 玉ねぎ たまねぎ type 3. Rerecording for completeness and clear words. Keep the ordinary Marin voice and connected sentence delivery. Do not stop before the complete final phrase: たまねぎこうじ、おおさじ、いちとにぶんのいち。 Say it once, without added words. Ingredient names and quantities are separated by light pauses only; no syllable-by-syllable delivery.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-a578234f973747c2f801.mp3",
+      "audio_sha256": "518cfb02bf90f88432a66ca2e3a92325e975ed26bed98e24171ed80b4e266448",
+      "signal_checked": true,
+      "generation_history": [
+        {
+          "audio": "audio/lessons/fermentation-notes-shiokoji/marin-2848a8590252bd8f0567.mp3",
+          "sha256": "20f8ab53dde928b83849dad23c18b3fa110d16e38dca23daa82c8271b29419f9",
+          "input": "すーぷ。れい、ぽたーじゅすーぷ。ざいりょう。とうもろこし、こーんかんむえん、にひゃくぐらむ。とうにゅう、ぎゅうにゅう、にひゃくしーしー。たまねぎこうじ、おおさじいちとにぶんのいち。",
+          "transcript": "スープ、冷製ポタージュスープ。材料、とうもろこしコーン缶無塩200g、豆乳・牛乳200cc、玉ねぎ麹大さじ1と1/2。",
+          "reason": "Unprompted primary/secondary transcription flagged possible omission or unclear number/word grouping; replaced conservatively, not claimed listening evidence."
+        }
+      ],
+      "transcription_reviewed": true,
+      "transcription_model": "gpt-4o-transcribe",
+      "transcription_review_note": "Rerecorded: secondary confirms 大さじ1と2分の1; レイ is spoken 例, not a new 冷製 instruction."
+    },
+    {
+      "key": "○とうもろこし、玉ねぎ麹、豆乳を合わせ、ブレンダーやジューサーにかける。",
+      "card": "shiokoji-variations",
+      "message_id": "shiokoji-chunk-23",
+      "batch": 3,
+      "display": "○とうもろこし、玉ねぎ麹、豆乳を合わせ、ブレンダーやジューサーにかける。\n",
+      "input": "とうもろこし、たまねぎこうじ、とうにゅうおあわせ、ぶれんだーやじゅーさーにかける。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). Specialist recipe contexts checked against https://miso.or.jp/museum/pdf/new_learn_about_miso.pdf and https://marukajozo-shop.jp/?mode=f1 for 蒸煮 じょうしゃ. No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Diagram arrows are verbal transitions and arithmetic has speech-only grouping. Do not narrate removed photo reference letters. Source stray x is a nonword layout typo, silent. Source 冷凍保温 is retained as れいとうほおん; do not silently change to 保存. Source 塩っぱくなり難くい is read with intended contextual しょっぱくなりにくい; display remains verbatim. 代わり がわり after ブイオン; 元来 がんらい; 食して しょくして; 正に まさに; 米油 こめあぶら. ASR comparison review: speech-only phrasing revised or final-phrase completeness emphasized; display and lookup key unchanged.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "豆乳",
+          "reading": "とうにゅう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L92355"
+        },
+        {
+          "form": "玉ねぎ",
+          "reading": "たまねぎ",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40218"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 豆乳 とうにゅう type 0; 玉ねぎ たまねぎ type 3. Rerecording for completeness and clear words. Keep the ordinary Marin voice and connected sentence delivery. Do not stop before the complete final phrase: とうもろこし、たまねぎこうじ、とうにゅうおあわせ、ぶれんだーやじゅーさーにかける。 Say it once, without added words. Ingredient names and quantities are separated by light pauses only; no syllable-by-syllable delivery. とうもろこし begins to-u (とう), not ko-u (こう). Preserve ブレンダー as ぶれんだー.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-23cf56e840d65fe18161.mp3",
+      "audio_sha256": "0c104507bc6f179a60547ed06c45cca537f333e90f297a4d9f7e2f2b7e997a7a",
+      "signal_checked": true,
+      "generation_history": [
+        {
+          "audio": "audio/lessons/fermentation-notes-shiokoji/marin-70635e57a2c424cfe807.mp3",
+          "sha256": "ddee9d2f7156962e5790b913ca2bad80597faf6346ff303eafbcd69f181a3abe",
+          "input": "とうもろこし、たまねぎこうじ、とうにゅうおあわせ、ぶれんだーやじゅーさーにかける。",
+          "transcript": "コーンもろこし、玉ねぎ麹、豆乳を合わせ、ブレンダーやジューサーにかける。",
+          "reason": "Unprompted primary/secondary transcription flagged possible omission or unclear number/word grouping; replaced conservatively, not claimed listening evidence."
+        }
+      ],
+      "transcription_reviewed": true,
+      "transcription_model": "gpt-4o-transcribe",
+      "transcription_review_note": "Rerecorded: primary now confirms とうもろこし and ブレンダー."
+    },
+    {
+      "key": "《ドレッシング》 例) 玉ねぎ麹ドレッシング 〈材料〉 •玉ねぎ麹 大さじ4 •米油 大さじ4 •酢 小さじ1～大さじ1/2",
+      "card": "shiokoji-variations",
+      "message_id": "shiokoji-chunk-24",
+      "batch": 3,
+      "display": "《ドレッシング》\n例) 玉ねぎ麹ドレッシング\n〈材料〉\n•玉ねぎ麹　　　　　　　　　　大さじ4\n•米油　　　　　　　　　　　　大さじ4\n•酢　　　　　　　　　　　小さじ1～大さじ1/2\n",
+      "input": "どれっしんぐ。れい、たまねぎこうじどれっしんぐ。ざいりょう。たまねぎこうじ、おおさじよん。こめあぶら、おおさじよん。す、こさじいちからおおさじにぶんのいち。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). Specialist recipe contexts checked against https://miso.or.jp/museum/pdf/new_learn_about_miso.pdf and https://marukajozo-shop.jp/?mode=f1 for 蒸煮 じょうしゃ. No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Diagram arrows are verbal transitions and arithmetic has speech-only grouping. Do not narrate removed photo reference letters. Source stray x is a nonword layout typo, silent. Source 冷凍保温 is retained as れいとうほおん; do not silently change to 保存. Source 塩っぱくなり難くい is read with intended contextual しょっぱくなりにくい; display remains verbatim. 代わり がわり after ブイオン; 元来 がんらい; 食して しょくして; 正に まさに; 米油 こめあぶら.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "材料",
+          "reading": "ざいりょう",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L53810"
+        },
+        {
+          "form": "大さじ",
+          "reading": "おおさじ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L82539"
+        },
+        {
+          "form": "米油",
+          "reading": "こめあぶら",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L105534"
+        },
+        {
+          "form": "小さじ",
+          "reading": "こさじ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L65820"
+        },
+        {
+          "form": "玉ねぎ",
+          "reading": "たまねぎ",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L40218"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 材料 ざいりょう type 3; 大さじ おおさじ type 0; 米油 こめあぶら type 3; 小さじ こさじ type 0; 玉ねぎ たまねぎ type 3.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-a9d209e424d288172878.mp3",
+      "audio_sha256": "a42e7b37e3085ddcb18e0ee5b7124a817f88fc760da4ef2461a0a627ab49121e",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_model": "gpt-4o-transcribe",
+      "transcription_review_note": "Secondary resolves 例 and quantity fraction."
+    }
+  ]
+}

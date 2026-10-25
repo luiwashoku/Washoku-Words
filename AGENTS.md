@@ -87,6 +87,11 @@ Always add new story content first, with audio pending and sound buttons disable
 Generate story audio only after the user explicitly requests it in a later step.
 Adding a story does not authorize generating its sound.
 
+For reading-article subdecks in Stories, use the fermentation-notes reading format:
+verbatim source text, coherent chunks, section headings, English toggles and furigana.
+Keep adding content first; audio is deferred until the user explicitly requests it
+after the subdecks have been prepared.
+
 # Fermentation notes subdecks
 
 For 発酵ノート reading subdecks, preserve the supplied Japanese wording and keep

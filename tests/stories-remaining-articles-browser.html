@@ -1,0 +1,46 @@
+<!doctype html><meta charset="utf-8"><title>Remaining Stories reading checks</title>
+<pre id="result">RUNNING</pre><iframe src="../index.html" style="width:360px;height:850px" title="App"></iframe>
+<script>
+(async()=>{
+ const frame=document.querySelector('iframe'),result=document.querySelector('#result');
+ const assert=(v,m)=>{if(!v)throw Error(m)};
+ const until=async fn=>{for(let i=0;i<500;i++){if(fn())return;await new Promise(r=>setTimeout(r,25))}throw Error('Timed out')};
+ try {
+  await until(()=>frame.contentDocument.querySelector('#openVocabularyCards:not(:disabled)'));
+  const d=frame.contentDocument,w=frame.contentWindow,q=s=>d.querySelector(s);
+  const specs=[['yakiniku','焼肉のたれの選び方',29,7],['versatile-seasonings','万能調味料とは？',34,7],['soy-sauce','醤油の種類と選び方',37,12],['cooking-sake','料理酒とは？',32,7],['miso-types','味噌の種類と選び方',41,11]];
+  q('[aria-label="Open Stories"]').click();
+  await until(()=>d.querySelectorAll('#lessonList .lesson-open').length===10);
+  assert(q('#pageSubtitle').textContent.includes('9 articles'),'Nine article subdecks');
+  const menu=[...d.querySelectorAll('#lessonList .lesson-open')];assert(menu[0].textContent.includes('会話'),'Conversations retained first');
+  for(const [i,spec]of specs.entries())assert(menu[i+5].textContent.includes(spec[1]),'Supplied order '+spec[0]);
+  let total=0;
+  for(const [slug,title,count,headings]of specs){
+   const data=await fetch('../data/articles/'+slug+'.json').then(r=>r.json()),entry=data.entries[0];
+   const source=await fetch('../'+data.sourceFile).then(r=>r.text());
+   assert(entry.japanese+'\n\n'+entry.messages.map(m=>m.japanese).join('')===source,'Exact source '+slug);
+   [...d.querySelectorAll('#lessonList .lesson-open')].find(b=>b.textContent.includes(title)).click();
+   await until(()=>q('.article-chunks'));
+   const chunks=[...d.querySelectorAll('.article-chunk')];assert(chunks.length===count,'Passage count '+slug);
+   for(const [i,chunk]of chunks.entries()){
+    const text=chunk.querySelector('.article-passage-text'),copy=text.cloneNode(true);copy.querySelectorAll('.furiganaReading').forEach(n=>n.remove());
+    const norm=t=>t.replace(/\s/g,'');assert(norm(copy.textContent)===norm(entry.messages[i].japanese),'Source display '+slug+'/'+i);
+    assert(!chunk.querySelector('button:not(.article-english-toggle)').disabled,'Audio enabled '+slug+'/'+i);
+    const original=text.textContent,toggle=chunk.querySelector('.article-english-toggle');toggle.click();
+    assert(text.lang==='en'&&text.textContent.length>15,'English '+slug+'/'+i);toggle.click();assert(text.textContent===original,'Japanese restored '+slug+'/'+i);
+    total++;
+   }
+   assert(d.querySelectorAll('.article-passage-text h5').length===headings,'Heading hierarchy '+slug);
+   const reading=q('.furiganaReading');q('#vocabularyCardFurigana').click();assert(w.getComputedStyle(reading).display!=='none','Furigana '+slug);
+   for(const heading of d.querySelectorAll('.article-passage-text h5')){
+    if(heading.textContent.includes('（'))assert(!heading.querySelector('.furiganaReading'),'Supplied kana not duplicated '+slug);
+   }
+   assert(!q('.story-play-all').disabled,'Read all ready '+slug);
+   assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Phone fit '+slug);
+   q('#backFromExplosion').click();await until(()=>d.querySelectorAll('#lessonList .lesson-open').length===10);
+  }
+  assert(total===173,'All 173 passages checked');
+  result.textContent='PASS: all five new subdecks in order, 173 exact translated/furigana passages, source readings retained, section/type headings, enabled audio and mobile navigation';
+ }catch(e){result.textContent='FAIL: '+e.stack}
+})();
+</script>

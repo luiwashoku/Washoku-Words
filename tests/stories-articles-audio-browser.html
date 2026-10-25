@@ -1,0 +1,44 @@
+<!doctype html><meta charset="utf-8"><title>Stories article audio checks</title>
+<pre id="result">RUNNING</pre><iframe src="../index.html" style="width:360px;height:850px" title="App"></iframe>
+<script>
+(async()=>{
+ const frame=document.querySelector('iframe'),result=document.querySelector('#result');
+ const assert=(v,m)=>{if(!v)throw Error(m)};
+ const until=async fn=>{for(let i=0;i<500;i++){if(fn())return;await new Promise(r=>setTimeout(r,25))}throw Error('Timed out')};
+ try {
+  await until(()=>frame.contentDocument.querySelector('#openVocabularyCards:not(:disabled)'));
+  const d=frame.contentDocument,w=frame.contentWindow,q=s=>d.querySelector(s),plays=[];
+  w.Audio=class extends w.EventTarget{
+   constructor(src){super();this.src=src;this.paused=true;this.currentTime=0;this.playbackRate=1}
+   getAttribute(name){return name==='src'?this.src:null}
+   play(){this.paused=false;plays.push(this);return Promise.resolve()}
+   pause(){this.paused=true}removeAttribute(name){if(name==='src')this.src=''}load(){}
+  };
+  q('[aria-label="Open Stories"]').click();await until(()=>d.querySelectorAll('#lessonList .lesson-open').length===10);
+  const catalog=await fetch('../data/catalog.json').then(r=>r.json());
+  const lessons=catalog.filter(x=>x.category==='stories'&&x.articleCards).sort((a,b)=>a.sortOrder-b.sortOrder);
+  let total=0;
+  for(const [i,lesson]of lessons.entries()){
+   const data=await fetch('../'+lesson.file).then(r=>r.json()),entry=data.entries[0];
+   d.querySelectorAll('#lessonList .lesson-open')[i+1].click();await until(()=>q('.article-chunks'));
+   const chunks=[...d.querySelectorAll('.article-chunk')];assert(chunks.length===entry.messages.length,'Passage count '+lesson.id);
+   const expected=m=>w.lessonAudioFiles[lesson.id][w.getJapaneseSpeechText(m.speech||m.japanese)];
+   for(const [j,chunk]of chunks.entries()){
+    const message=entry.messages[j],sound=chunk.querySelector('button:not(.article-english-toggle)');
+    assert(!sound.disabled,'Sound ready '+message.id);const count=plays.length;sound.click();await until(()=>plays.length>count);
+    assert(plays.at(-1).src===expected(message)&&plays.at(-1).playbackRate===1,'Exact MP3 and normal speed '+message.id);
+    const text=chunk.querySelector('.article-passage-text'),original=text.textContent,toggle=chunk.querySelector('.article-english-toggle');
+    toggle.click();assert(text.lang==='en','English '+message.id);toggle.click();assert(text.textContent===original,'Japanese restored '+message.id);total++;
+   }
+   const all=q('.story-play-all');assert(!all.disabled,'Read all ready');all.click();const queue=plays.at(-1);
+   for(const message of entry.messages){assert(queue.src===expected(message)&&queue.playbackRate===1,'Read all order '+message.id);queue.dispatchEvent(new w.Event('ended'));}
+   assert(queue.paused&&all.getAttribute('aria-pressed')==='false','Queue finishes');
+   all.click();const stopped=plays.at(-1);all.click();assert(stopped.paused,'Queue stops');
+   all.click();const leaving=plays.at(-1);q('#backFromExplosion').click();assert(leaving.paused,'Exit stops playback');
+   await until(()=>d.querySelectorAll('#lessonList .lesson-open').length===10);
+  }
+  assert(total===258,'All new passages covered');
+  result.textContent='PASS: all 258 passage buttons select their exact recordings at 1x; nine Read all queues play in order, finish, stop and stop on exit; translations retained.';
+ }catch(e){result.textContent='FAIL: '+e.stack}
+})();
+</script>

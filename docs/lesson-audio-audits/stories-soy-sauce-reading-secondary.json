@@ -1,0 +1,29 @@
+{
+  "method": "Independent Whisper transcription without expected-text prompt. Automated comparison, not listening or pitch verification.",
+  "entries": {
+    "soy-sauce-reading-chunk-14": {
+      "number": 14,
+      "sha256": "24b636f8075ecca55b0bda10eeda47865e82bfe24548cc804e44c220a1761fbd",
+      "audio": "audio/lessons/stories-soy-sauce-reading/marin-143f12367ead4b12474c.mp3",
+      "transcript": "さらにミルサンキーや酵母の働きによって酸味やアルコール 様々な香りの成分が生まれます",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "soy-sauce-reading-chunk-19": {
+      "number": 19,
+      "sha256": "37ae02f7bd6dc0748f9b3879c455c54a890f0936746525ea8b6b1357e684e82b",
+      "audio": "audio/lessons/stories-soy-sauce-reading/marin-e20228026f7640575633.mp3",
+      "transcript": "一方、混合醸造方式では、発酵途中のもろみに網の酸液などを加え、さらに熟成させます。 混合方式では、発酵、熟成させた醤油などに網の酸液などを加えます。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "soy-sauce-reading-chunk-37": {
+      "number": 37,
+      "sha256": "ee250f0709b34cf5f5b631247f7414af0bcb3df521da40e3e5479c050c020618",
+      "audio": "audio/lessons/stories-soy-sauce-reading/marin-9fdda443fec7883a0c6e.mp3",
+      "transcript": "また、醤油・沸か熱方法や加えるタイミングによっても風味が変わるため、料理に合わせて工夫すると、より幅広い味わいをお楽しめるでしょう。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    }
+  }
+}

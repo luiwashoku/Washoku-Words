@@ -1,0 +1,73 @@
+<!doctype html><meta charset="utf-8"><title>Miso PDF reading checks</title>
+<pre id="result">RUNNING</pre><iframe src="../index.html" style="width:360px;height:850px" title="App"></iframe>
+<script>
+(async()=>{
+ const frame=document.querySelector('iframe'),result=document.querySelector('#result');
+ const assert=(v,m)=>{if(!v)throw Error(m)};
+ const until=async fn=>{for(let i=0;i<400;i++){if(fn())return;await new Promise(r=>setTimeout(r,25))}throw Error('Timed out')};
+ try {
+  await until(()=>frame.contentDocument.querySelector('#openVocabularyCards:not(:disabled)'));
+  const d=frame.contentDocument,w=frame.contentWindow,q=s=>d.querySelector(s);
+  const plays=[];
+  w.Audio=class extends w.EventTarget{
+   constructor(src){super();this.src=src;this.paused=true;this.currentTime=0;this.playbackRate=1}
+   getAttribute(name){return name==='src'?this.src:null}
+   play(){this.paused=false;plays.push(this);return Promise.resolve()}
+   pause(){this.paused=true}removeAttribute(name){if(name==='src')this.src=''}load(){}
+  };
+  const expected=message=>w.lessonAudioFiles['fermentation-notes-miso'][w.getJapaneseSpeechText(message.speech||message.japanese)];
+  const data=await fetch('../data/fermentation-notes/miso.json').then(r=>r.json());
+  const source=await fetch('../data/fermentation-notes/miso-source.txt').then(r=>r.text());
+  assert(source.split('\f\n').length===10,'All ten source pages retained');
+  assert(data.entries.length===22,'22 ordered reading/recipe cards');
+  q('[aria-label="Open 発酵ノート"]').click();
+  [...d.querySelectorAll('#lessonList button')].find(b=>b.textContent.includes('味噌の事／味噌作り')).click();
+  await until(()=>q('.article-chunks'));
+  const norm=t=>t.replace(/[\s○◯•🔲□]/gu,'');
+  let imageCount=0,passageCount=0;
+  for (const [i,entry] of data.entries.entries()) {
+   const title=q('#studyCardWord').cloneNode(true);title.querySelectorAll('.furiganaReading').forEach(n=>n.remove());
+   assert(title.textContent===(entry.displayTitle||entry.kanji),'Ordered title '+i);
+   const chunks=[...d.querySelectorAll('.article-chunk')];assert(chunks.length===entry.messages.length,'Passages '+i);
+   assert(!q('.story-play-all').disabled,'Read all ready '+i);
+   for (const [j,chunk] of chunks.entries()) {
+    const message=entry.messages[j],text=chunk.querySelector('.article-passage-text');
+    const copy=text.cloneNode(true);copy.querySelectorAll('.furiganaReading').forEach(n=>n.remove());
+    assert(norm(copy.textContent)===norm(message.japanese),'Verbatim Japanese display '+i+'/'+j);
+    const sound=chunk.querySelector('button:not(.article-english-toggle)');assert(!sound.disabled,'Audio ready '+i+'/'+j);
+    const count=plays.length;sound.click();await until(()=>plays.length>count);
+    assert(plays.at(-1).src===expected(message)&&plays.at(-1).playbackRate===1,'Correct recording '+i+'/'+j);
+    const original=text.textContent,toggle=chunk.querySelector('.article-english-toggle');
+    assert(toggle,'English toggle '+i+'/'+j);toggle.click();
+    assert(text.lang==='en'&&text.textContent.length>10,'English available '+i+'/'+j);
+    assert(chunk.querySelectorAll('img').length===(message.images||[]).length,'Images remain in English');
+    toggle.click();assert(text.lang==='ja'&&text.textContent===original,'Exact Japanese restored '+i+'/'+j);
+    for(const img of chunk.querySelectorAll('img')) {
+     img.loading='eager';await until(()=>img.complete);assert(img.naturalWidth>0,'Extracted PDF image loads');
+     assert(img.closest('a').href===img.src,'Full-size illustration available');imageCount++;
+    }
+    passageCount++;
+   }
+   const readAll=q('.story-play-all');readAll.click();const queue=plays.at(-1);
+   for(const message of entry.messages){assert(queue.src===expected(message)&&queue.playbackRate===1,'Sequential Read all '+i);queue.dispatchEvent(new w.Event('ended'));}
+   assert(queue.paused&&readAll.getAttribute('aria-pressed')==='false','Read all ends '+i);
+   readAll.click();const stopped=plays.at(-1);readAll.click();assert(stopped.paused,'Read all stop '+i);
+   assert(d.documentElement.scrollWidth<=w.innerWidth+1,'No phone overflow '+i);
+   if(i===0){
+    assert(chunks[0].querySelector('img')&&chunks[1].textContent.includes('お味噌'),'Map text directly follows image');
+    assert(chunks.slice(1,9).every(c=>c.querySelector('.article-english-toggle')),'All eight map chunks have translations');
+    assert(!chunks[12].querySelector('img')&&chunks[12].querySelector('.article-passage-text').textContent.includes('蒸煮'),'Process diagram is readable text');
+    assert(!chunks[14].querySelector('img')&&chunks[14].querySelector('.article-passage-text').textContent.includes('(g)'),'Salt formula is readable text');
+    assert(q('.article-table').rows.length===7,'Ingredient ratio comparison retains six miso rows');
+    const reading=q('.furiganaReading');q('#vocabularyCardFurigana').click();
+    assert(w.getComputedStyle(reading).display!=='none','Furigana toggle works');
+    q('#vocabularyCardFurigana').click();
+   }
+   if(new URLSearchParams(location.search).get('preview')===String(i)){result.textContent='Preview';return;}
+   if(i<data.entries.length-1)q('[aria-label="Next card"]').click();
+  }
+  assert(imageCount===16,'16 map and preparation image groups placed');assert(passageCount===82,'82 coherent passages');
+  result.textContent='PASS: 22 ordered cards, 82 verbatim passages with English/furigana, 16 map and preparation image groups, matching Marin 1x audio, Read all, table and phone layout';
+ } catch(e) {result.textContent='FAIL: '+e.stack;}
+})();
+</script>

@@ -435,7 +435,67 @@
         const header = document.createElement("header");
         header.className = "reading-card-header";
         const titles = document.createElement("div");
+        function appendIngredientAmount(node, content, english = false) {
+          const match = english
+            ? content.match(/^(.+?:)\s+((?:[0-9]|one\b|two\b|three\b|four\b|half\b).*)$/i)
+            : content.match(/^(.+?)[ \t　]+((?:[0-9０-９]+[.0-9０-９]*\s*(?:g|kg|KG|cc|ml|mL|匹|個|枚|本|束|株|カップ)|[0-9０-９]+[／/][0-9０-９]+本|大さじ|小さじ|各|適量|少々).*)$/);
+          if (!match) { node.append(document.createTextNode(content)); return; }
+          node.append(document.createTextNode(match[1].trimEnd() + " "));
+          const amount = document.createElement("strong");
+          amount.className = "article-ingredient-amount";
+          const quantity = english ? match[2].match(/^([^;]+)(;.*)$/)
+            : match[2].match(/^([0-9０-９.]+\s*(?:g|kg|KG|cc|ml|mL|匹|個|枚|本|束|株|カップ))(.*)$/);
+          amount.textContent = quantity ? quantity[1] : match[2];
+          node.append(amount);
+          if (quantity?.[2]) node.append(document.createTextNode(quantity[2]));
+        }
+        // PDF passages keep their reading order explicitly (columns, tables and recipes).
+        function appendArticleBlocks(root, blocks, english = false) {
+          blocks.forEach(block => {
+            if (block.type === "table") {
+              const wrap = document.createElement("div");
+              wrap.className = "article-table-wrap";
+              wrap.tabIndex = 0;
+              wrap.setAttribute("role", "region");
+              wrap.setAttribute("aria-label", block.label || "Miso comparison");
+              const table = document.createElement("table");
+              table.className = "article-table";
+              if (block.headers) {
+                const head = table.createTHead().insertRow();
+                block.headers.forEach(value => {
+                  const cell = document.createElement("th"); cell.scope = "col";
+                  cell.textContent = value; head.append(cell);
+                });
+              }
+              const body = table.createTBody();
+              block.rows.forEach(row => {
+                const tr = body.insertRow();
+                row.forEach((value, i) => {
+                  const cell = document.createElement(i ? "td" : "th");
+                  if (!i) cell.scope = "row";
+                  cell.textContent = value; tr.append(cell);
+                });
+              });
+              wrap.append(table); root.append(wrap);
+            } else if (block.type === "list") {
+              const list = document.createElement("ul"); list.className = "article-microbe-list";
+              block.items.forEach(value => {
+                const item = document.createElement("li");
+                appendIngredientAmount(item, value.replace(/^[○◯•]\s*/u, ""), english);
+                list.append(item);
+              }); root.append(list);
+            } else {
+              const node = document.createElement(block.type === "heading" ? "h5" : "p");
+              if (block.type === "step") node.className = "article-step";
+              appendArticleLine(node, block.type === "flow" ? block.text : block.text.replace(/\n/g, english ? " " : "")); root.append(node);
+            }
+          });
+        }
         function appendArticleLine(node, line) {
+          if (/^[🔲□]/u.test(line)) {
+            node.append(document.createTextNode(line.replace(/^[🔲□]\s*/u, "")));
+            return;
+          }
           const markers = { "🟡": "yellow", "⚫": "black", "⚪": "white", "🟤": "brown", "🔴": "red" };
           const marker = Object.keys(markers).find(symbol => line.startsWith(symbol));
           if (marker) {
@@ -464,6 +524,11 @@
               if (!form) { plain += value[position++]; continue; }
               if (plain) { fragment.append(document.createTextNode(plain)); plain = ""; }
               fragment.append(document.createTextNode(form));
+              const following = value.slice(position + form.length);
+              if (following.startsWith(`（${readings[form]}）`) || following.startsWith(`(${readings[form]})`)) {
+                position += form.length;
+                continue;
+              }
               const reading = document.createElement("span");
               reading.className = "furiganaReading";
               reading.textContent = `(${readings[form]})`;
@@ -521,62 +586,65 @@
           if (lesson.articleCards) {
             text.className = "article-passage-text";
             // Source wraps are retained in data/audio keys; join them only for reading display.
-            const isStructure = line => /^\d+、|^\(\d+\)|^第\d+期|^体内酵素|^【|^[①-⑳◎]|^\d+℃|^\d+時間|^保温温度|^冷蔵保存|^冷凍保存|^基本の配合|^ご飯1|^(?:アミラーゼ|プロテアーゼ|リパーゼ)[（(]|^→|^[　 \t]*(?:カビ|酵母|細菌)…|^[　 \t]*[🟡⚫⚪🟤🔴⭐]|^[　 \t]*日本酒＝|^[　 \t]*麹菌＋|^[　 \t]*(日本|中国)→/u.test(line);
-            const lines = message.japanese.split("\n").flatMap(line => line.split(/(?=⚪︎)/u)).map(line => line.trimStart()).filter(line => line.trim()).reduce((result, line) => {
-              const previous = result[result.length - 1];
-              if (previous && line.trim() && !isStructure(previous) && !isStructure(line) &&
-                  !/[。！？?!]\s*$/.test(previous)) {
-                result[result.length - 1] += line;
-              } else result.push(line);
-              return result;
-            }, []);
-            let list = null;
-            let paragraph = null;
-            lines.forEach((line, lineIndex) => {
-              if (/^[　 \t]*(カビ|酵母|細菌)…|^[⚪]︎/.test(line)) {
-                paragraph = null;
-                if (!list) {
-                  list = document.createElement("ul");
-                  list.className = "article-microbe-list";
-                  text.append(list);
-                }
-                const entry = document.createElement("li");
-                const content = line.trimStart().replace(/^⚪︎/, "");
-                const split = content.indexOf("…");
-                const label = document.createElement("strong");
-                if (split >= 0) {
-                  label.textContent = content.slice(0, split);
-                  entry.append(label, document.createTextNode(content.slice(split)));
-                } else entry.textContent = content;
-                list.append(entry);
-                if (lineIndex < lines.length - 1) list.append(document.createTextNode("\n"));
-              } else {
-                list = null;
-                const section = /^\d+、|^【/.test(line);
-                const subsection = /^\(\d+\)|^第\d+期|^体内酵素|^→|^⭐|^[①②]甘酒|^基本の配合/.test(line) || word.questionHeadingLines?.includes(line);
-                if (section || subsection) {
+            if (message.blocks) appendArticleBlocks(text, message.blocks);
+            else {
+              const isStructure = line => /^\d+\.|^[•🔲□《〈◯○＊]|^\d+、|^\(\d+\)|^第\d+期|^体内酵素|^【|^[①-⑳◎]|^\d+℃|^\d+時間|^保温温度|^冷蔵保存|^冷凍保存|^基本の配合|^ご飯1|^(?:アミラーゼ|プロテアーゼ|リパーゼ)[（(]|^→|^[　 \t]*(?:カビ|酵母|細菌)…|^[　 \t]*[🟡⚫⚪🟤🔴⭐]|^[　 \t]*日本酒＝|^[　 \t]*麹菌＋|^[　 \t]*(日本|中国)→/u.test(line);
+              const lines = message.japanese.split("\n").flatMap(line => line.split(/(?=⚪︎)/u)).map(line => line.trimStart()).filter(line => line.trim()).reduce((result, line) => {
+                const previous = result[result.length - 1];
+                if (previous && line.trim() && !isStructure(previous) && !isStructure(line) &&
+                    !/[。！？?!]\s*$/.test(previous)) {
+                  result[result.length - 1] += line;
+                } else result.push(line);
+                return result;
+              }, []);
+              let list = null;
+              let paragraph = null;
+              lines.forEach((line, lineIndex) => {
+                if (/^[　 \t]*(カビ|酵母|細菌)…|^[⚪]︎|^•|^\d+\./.test(line)) {
                   paragraph = null;
-                  const heading = document.createElement(section ? "h4" : "h5");
-                  heading.textContent = line;
-                  text.append(heading);
+                  if (!list) {
+                    list = document.createElement("ul");
+                    list.className = "article-microbe-list";
+                    text.append(list);
+                  }
+                  const entry = document.createElement("li");
+                  const content = line.trimStart().replace(/^⚪︎|^•/, "");
+                  const split = content.indexOf("…");
+                  const label = document.createElement("strong");
+                  if (split >= 0) {
+                    label.textContent = content.slice(0, split);
+                    entry.append(label, document.createTextNode(content.slice(split)));
+                  } else appendIngredientAmount(entry, content);
+                  list.append(entry);
+                  if (lineIndex < lines.length - 1) list.append(document.createTextNode("\n"));
                 } else {
-                  if (/^[①-⑳◎]|^\d+℃|^\d+時間|^保温温度|^冷蔵保存|^冷凍保存|^ご飯1|^(?:アミラーゼ|プロテアーゼ|リパーゼ)[（(]/.test(line)) paragraph = null;
-                  if (!paragraph) {
-                    paragraph = document.createElement("p");
-                    text.append(paragraph);
+                  list = null;
+                  const section = /^\d+、|^【/.test(line);
+                  const subsection = /^\(\d+\)|^第\d+期|^体内酵素|^→|^⭐|^[①②]甘酒|^基本の配合/.test(line) || /^[🔲□《〈]/u.test(line) || word.questionHeadingLines?.includes(line);
+                  if (section || subsection) {
+                    paragraph = null;
+                    const heading = document.createElement(section ? "h4" : "h5");
+                    heading.textContent = line;
+                    text.append(heading);
+                  } else {
+                    if (/^[◯○＊]|^[①-⑳◎]|^\d+℃|^\d+時間|^保温温度|^冷蔵保存|^冷凍保存|^ご飯1|^(?:アミラーゼ|プロテアーゼ|リパーゼ)[（(]/.test(line)) paragraph = null;
+                    if (!paragraph) {
+                      paragraph = document.createElement("p");
+                      text.append(paragraph);
+                    }
+                    if (/^[🟡⚫⚪🟤🔴]/u.test(line)) {
+                      paragraph.classList.add("article-species");
+                    }
+                    if (/^(日本酒＝|麹菌＋|(日本|中国)→)/.test(line)) paragraph.classList.add("article-flow");
+                    if (/^[①-⑳◎]/.test(line)) paragraph.classList.add("article-step");
+                    appendArticleLine(paragraph, line);
                   }
-                  if (/^[🟡⚫⚪🟤🔴]/u.test(line)) {
-                    paragraph.classList.add("article-species");
+                  if (lineIndex < lines.length - 1) {
+                    (paragraph || text).append(document.createTextNode("\n"));
                   }
-                  if (/^(日本酒＝|麹菌＋|(日本|中国)→)/.test(line)) paragraph.classList.add("article-flow");
-                  if (/^[①-⑳◎]/.test(line)) paragraph.classList.add("article-step");
-                  appendArticleLine(paragraph, line);
                 }
-                if (lineIndex < lines.length - 1) {
-                  (paragraph || text).append(document.createTextNode("\n"));
-                }
-              }
-            });
+              });
+            }
             addArticleFurigana(text);
           } else setJapaneseText(text, message.japanese);
           const audio = createExampleSpeechButton(message.speech || message.japanese, `${lesson.articleCards ? "Read passage" : "Read message"} ${messageIndex + 1}`);
@@ -608,15 +676,16 @@
               else {
                 text.replaceChildren();
                 let list = null;
-                message.english.split("\n").forEach(line => {
-                  if (line.startsWith("• ")) {
+                if (message.englishBlocks) appendArticleBlocks(text, message.englishBlocks, true);
+                else message.english.split("\n").forEach(line => {
+                  if (line.startsWith("• ") || (word.numberedLists && /^\d+\./.test(line))) {
                     if (!list) {
                       list = document.createElement("ul");
                       list.className = "article-microbe-list";
                       text.append(list);
                     }
                     const li = document.createElement("li");
-                    li.textContent = line.slice(2);
+                    appendIngredientAmount(li, line.startsWith("• ") ? line.slice(2) : line, true);
                     list.append(li);
                   } else {
                     list = null;
@@ -632,18 +701,27 @@
           } else bubble.append(text, audio);
           if (!lesson.articleCards) item.append(speaker);
           item.append(bubble);
-          if (lesson.articleCards && message.image) {
+          if (lesson.articleCards) (message.images || (message.image ? [message.image] : [])).forEach(sourceImage => {
             const figure = document.createElement("figure");
             figure.className = "article-diagram";
             const diagram = document.createElement("img");
-            diagram.src = message.image.src;
-            diagram.alt = message.image.alt || "Article diagram";
-            diagram.width = message.image.width;
-            diagram.height = message.image.height;
+            diagram.src = sourceImage.src;
+            diagram.alt = sourceImage.alt || "Article diagram";
+            diagram.width = sourceImage.width;
+            diagram.height = sourceImage.height;
             diagram.loading = "lazy";
-            figure.append(diagram);
+            const fullSize = document.createElement("a");
+            fullSize.className = "article-diagram-link";
+            fullSize.href = sourceImage.src; fullSize.target = "_blank"; fullSize.rel = "noopener";
+            fullSize.setAttribute("aria-label", `Open full-size image: ${diagram.alt}`);
+            fullSize.title = "Open full-size image";
+            fullSize.append(diagram); figure.append(fullSize);
+            if (sourceImage.caption) {
+              const caption = document.createElement("figcaption");
+              caption.textContent = sourceImage.caption; figure.append(caption);
+            }
             item.append(figure);
-          }
+          });
           conversation.append(item);
         });
         card.replaceChildren(header, conversation);

@@ -1,0 +1,40 @@
+<!doctype html><meta charset="utf-8"><title>Stories salt reading checks</title>
+<pre id="result">RUNNING</pre><iframe src="../index.html" style="width:360px;height:850px" title="App"></iframe>
+<script>
+(async()=>{
+ const frame=document.querySelector('iframe'),result=document.querySelector('#result');
+ const assert=(v,m)=>{if(!v)throw Error(m)};
+ const until=async fn=>{for(let i=0;i<400;i++){if(fn())return;await new Promise(r=>setTimeout(r,25))}throw Error('Timed out')};
+ try {
+  await until(()=>frame.contentDocument.querySelector('#openVocabularyCards:not(:disabled)'));
+  const d=frame.contentDocument,w=frame.contentWindow,q=s=>d.querySelector(s);
+  const data=await fetch('../data/articles/salt-types.json').then(r=>r.json()),entry=data.entries[0];
+  const source=await fetch('../data/articles/salt-types-source.txt').then(r=>r.text());
+  assert(entry.japanese+'\n\n'+entry.messages.map(m=>m.japanese).join('')===source,'Exact source preserved');
+  q('[aria-label="Open Stories"]').click();
+  await until(()=>[...d.querySelectorAll('#lessonList button')].some(b=>b.textContent.includes('粗塩と精製塩')));
+  const lessonButtons=[...d.querySelectorAll('#lessonList button')].filter(b=>b.textContent.includes('会話')||b.textContent.includes('粗塩と精製塩'));
+  assert(lessonButtons[0].textContent.includes('会話')&&lessonButtons[1].textContent.includes('粗塩と精製塩'),'Two subdecks in requested order: '+lessonButtons.map(b=>b.textContent).join('|'));
+  assert(q('#pageSubtitle').textContent.includes('11 conversations')&&q('#pageSubtitle').textContent.includes('9 articles'),'Accurate deck counts');
+  lessonButtons[0].click();await until(()=>q('.story-messages'));
+  assert(!q('.story-play-all').disabled,'Existing conversation recordings retained');
+  q('#backFromExplosion').click();
+  await until(()=>[...d.querySelectorAll('#lessonList button')].some(b=>b.textContent.includes('粗塩と精製塩')));
+  [...d.querySelectorAll('#lessonList button')].find(b=>b.textContent.includes('粗塩と精製塩')).click();
+  await until(()=>q('.article-chunks'));
+  const chunks=[...d.querySelectorAll('.article-chunk')];assert(chunks.length===13,'13 coherent passages');
+  for(const [i,chunk] of chunks.entries()){
+   const text=chunk.querySelector('.article-passage-text'),copy=text.cloneNode(true);copy.querySelectorAll('.furiganaReading').forEach(n=>n.remove());
+   const norm=t=>t.replace(/\s/g,'');assert(norm(copy.textContent)===norm(entry.messages[i].japanese),'Original wording '+i);
+   assert(!chunk.querySelector('button:not(.article-english-toggle)').disabled,'Audio ready '+i);
+   const original=text.textContent,toggle=chunk.querySelector('.article-english-toggle');toggle.click();
+   assert(text.lang==='en'&&text.textContent.length>20,'English '+i);toggle.click();assert(text.textContent===original,'Japanese restored '+i);
+  }
+  assert(d.querySelectorAll('.article-passage-text h5').length===4,'Four section headings');
+  const reading=q('.furiganaReading');q('#vocabularyCardFurigana').click();assert(w.getComputedStyle(reading).display!=='none','Furigana available');
+  assert(!q('.story-play-all').disabled,'Read all ready');
+  assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Phone fit');
+  result.textContent='PASS: 会話 rename, existing story audio retained, second subdeck, 13 exact translated/furigana passages, heading hierarchy, ready audio and phone fit';
+ }catch(e){result.textContent='FAIL: '+e.stack}
+})();
+</script>

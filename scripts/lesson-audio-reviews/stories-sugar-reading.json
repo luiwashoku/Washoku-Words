@@ -1,0 +1,2903 @@
+{
+  "lesson": "stories-sugar-reading",
+  "reviewed": true,
+  "voice": "marin",
+  "model": "gpt-4o-mini-tts",
+  "speed": 1.0,
+  "accent_dictionary": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt",
+  "accent_dictionary_sha256": "8bd0dd127dab32ceec94cb03ab1ba6b68858ea73421dfa1731af2f373deb4f20",
+  "notes": "Sequential small batches; spoken inputs and phrase boundaries manually reviewed. Natural Tokyo provisional intonation for unconfirmed whole phrases. Source narration is not independent factual endorsement. Actual audio checked separately by decoded-signal and unprompted transcription; no listening/pitch verification claimed.",
+  "entries": [
+    {
+      "key": "スーパーには、白砂糖だけでなく、黒糖やきび砂糖、てんさい糖など、さまざまな種類の砂糖が並んでいます。",
+      "card": "sugar-reading",
+      "message_id": "sugar-reading-chunk-01",
+      "batch": 1,
+      "display": "スーパーには、白砂糖だけでなく、黒糖やきび砂糖、てんさい糖など、さまざまな種類の砂糖が並んでいます。\n",
+      "input": "すーぱーにわ、しろざとうだけでなく、こくとうやきびざとう、てんさいとうなど、さまざまなしゅるいのさとうがならんでいます。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "種類",
+          "reading": "しゅるい",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61820"
+        },
+        {
+          "form": "砂糖",
+          "reading": "さとう",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52883"
+        },
+        {
+          "form": "白砂糖",
+          "reading": "しろざとう",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L97984"
+        },
+        {
+          "form": "黒糖",
+          "reading": "こくとう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L51848"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 種類 しゅるい type 1; 砂糖 さとう type 2; 白砂糖 しろざとう type 3; 黒糖 こくとう type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-sugar-reading/marin-1bd1059b03a7debfccbd.mp3",
+      "audio_sha256": "3fb5079b0778907494a650eb5609f07f9ba0d3071d7ca22f20b352ad5c1db12a",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-sugar-reading.json",
+          "sha256": "3fb5079b0778907494a650eb5609f07f9ba0d3071d7ca22f20b352ad5c1db12a",
+          "model": "gpt-4o-transcribe",
+          "transcript": "スーパーには、白砂糖だけでなく、黒糖やきび砂糖、てんさい糖など様々な種類の砂糖が並んでいます。"
+        }
+      ]
+    },
+    {
+      "key": "「茶色い砂糖のほうが体にいい」と聞いたことがある人も多いのではないでしょうか。しかし、砂糖の色だけで健康への影響を判断することはできません。",
+      "card": "sugar-reading",
+      "message_id": "sugar-reading-chunk-02",
+      "batch": 1,
+      "display": "「茶色い砂糖のほうが体にいい」と聞いたことがある人も多いのではないでしょうか。しかし、砂糖の色だけで健康への影響を判断することはできません。\n",
+      "input": "ちゃいろいさとうのほうがからだにいいと、きいたことがあるひともおおいのでわないでしょうか。しかし、さとうのいろだけで、けんこうえのえいきょうおはんだんすることわできません。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "砂糖",
+          "reading": "さとう",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52883"
+        },
+        {
+          "form": "健康",
+          "reading": "けんこう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L44067"
+        },
+        {
+          "form": "影響",
+          "reading": "えいきょう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L25546"
+        },
+        {
+          "form": "多い",
+          "reading": "おおい",
+          "accent_variants": [
+            1,
+            2
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L81057"
+        },
+        {
+          "form": "茶色い",
+          "reading": "ちゃいろい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L85574"
+        },
+        {
+          "form": "判断",
+          "reading": "はんだん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L99081"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 砂糖 さとう type 2; 健康 けんこう type 0; 影響 えいきょう type 0; 多い おおい type 1; 茶色い ちゃいろい type 0; 判断 はんだん type 1.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-sugar-reading/marin-0bdb21e3634f6e7fa179.mp3",
+      "audio_sha256": "8df2bfe597a098908a8b62373d43be930545475168f9b96da70033b3eb47ba8a",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-sugar-reading.json",
+          "sha256": "8df2bfe597a098908a8b62373d43be930545475168f9b96da70033b3eb47ba8a",
+          "model": "gpt-4o-transcribe",
+          "transcript": "茶色い砂糖のほうが体にいいと聞いたことがある人も多いのではないでしょうか。しかし、砂糖の色だけで健康への影響を判断することはできません。"
+        }
+      ]
+    },
+    {
+      "key": "今回は、砂糖の種類や製法による違い、料理に合った選び方について解説します。",
+      "card": "sugar-reading",
+      "message_id": "sugar-reading-chunk-03",
+      "batch": 1,
+      "display": "今回は、砂糖の種類や製法による違い、料理に合った選び方について解説します。\n",
+      "input": "こんかいわ、さとうのしゅるいやせいほうによるちがい、りょうりにあったえらびかたについてかいせつします。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "種類",
+          "reading": "しゅるい",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61820"
+        },
+        {
+          "form": "製法",
+          "reading": "せいほう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L74425"
+        },
+        {
+          "form": "料理",
+          "reading": "りょうり",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L116664"
+        },
+        {
+          "form": "違い",
+          "reading": "ちがい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L22595"
+        },
+        {
+          "form": "解説",
+          "reading": "かいせつ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L30622"
+        },
+        {
+          "form": "砂糖",
+          "reading": "さとう",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52883"
+        },
+        {
+          "form": "今回",
+          "reading": "こんかい",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52216"
+        },
+        {
+          "form": "選び方",
+          "reading": "えらびかた",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L77498"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 種類 しゅるい type 1; 製法 せいほう type 0; 料理 りょうり type 1; 違い ちがい type 0; 解説 かいせつ type 0; 砂糖 さとう type 2; 今回 こんかい type 1; 選び方 えらびかた type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-sugar-reading/marin-94162c3b7f8b1c0706f9.mp3",
+      "audio_sha256": "eeedd9d7dc3738bbcb47d37ecd1a9ac5fa29eb3ddb321a1405752a5e3c3e61cf",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-sugar-reading.json",
+          "sha256": "eeedd9d7dc3738bbcb47d37ecd1a9ac5fa29eb3ddb321a1405752a5e3c3e61cf",
+          "model": "gpt-4o-transcribe",
+          "transcript": "今回は、砂糖の種類や製法による違い、料理に合った選び方について解説します。"
+        }
+      ]
+    },
+    {
+      "key": "① 白砂糖と茶色い砂糖は何が違う？ 白砂糖は、サトウキビやてん菜から取り出した糖分を精製して作られます。精製の過程で不純物やミネラルが取り除かれるため、主な成分はショ糖です。",
+      "card": "sugar-reading",
+      "message_id": "sugar-reading-chunk-04",
+      "batch": 1,
+      "display": "① 白砂糖と茶色い砂糖は何が違う？\n白砂糖は、サトウキビやてん菜から取り出した糖分を精製して作られます。精製の過程で不純物やミネラルが取り除かれるため、主な成分はショ糖です。\n",
+      "input": "いち、しろざとうとちゃいろいさとうわなにがちがう？しろざとうわ、さとうきびやてんさいからとりだしたとうぶんお、せいせいしてつくられます。せいせいのかていでふじゅんぶつやみねらるがとりのぞかれるため、おもなせいぶんわしょとうです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "成分",
+          "reading": "せいぶん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L73120"
+        },
+        {
+          "form": "砂糖",
+          "reading": "さとう",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52883"
+        },
+        {
+          "form": "取り",
+          "reading": "とり",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L60808"
+        },
+        {
+          "form": "過程",
+          "reading": "かてい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L30123"
+        },
+        {
+          "form": "糖分",
+          "reading": "とうぶん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L92231"
+        },
+        {
+          "form": "白砂糖",
+          "reading": "しろざとう",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L97984"
+        },
+        {
+          "form": "茶色い",
+          "reading": "ちゃいろい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L85574"
+        },
+        {
+          "form": "精製",
+          "reading": "せいせい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L74222"
+        },
+        {
+          "form": "不純物",
+          "reading": "ふじゅんぶつ",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L102020"
+        },
+        {
+          "form": "主な",
+          "reading": "おもな",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L60624"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 成分 せいぶん type 1; 砂糖 さとう type 2; 取り とり type 2; 過程 かてい type 0; 糖分 とうぶん type 1; 白砂糖 しろざとう type 3; 茶色い ちゃいろい type 0; 精製 せいせい type 0; 不純物 ふじゅんぶつ type 2; 主な おもな type 1.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-sugar-reading/marin-6ef3a3ef08dea920e7b1.mp3",
+      "audio_sha256": "61096e3e97521845f37a8afb16b804faf58671390d96fadcf2416d21d1e4641a",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-sugar-reading.json",
+          "sha256": "61096e3e97521845f37a8afb16b804faf58671390d96fadcf2416d21d1e4641a",
+          "model": "gpt-4o-transcribe",
+          "transcript": "1.白砂糖と茶色い砂糖は何が違う？白砂糖はサトウキビや甜菜から取り出した糖分を精製して作られます。精製の過程で不純物やミネラルが取り除かれるため、主な成分はショ糖です。"
+        }
+      ]
+    },
+    {
+      "key": "一方、黒糖などの精製度が低い砂糖には、原料に含まれるカリウムやカルシウム、鉄分などが残っています。",
+      "card": "sugar-reading",
+      "message_id": "sugar-reading-chunk-05",
+      "batch": 1,
+      "display": "一方、黒糖などの精製度が低い砂糖には、原料に含まれるカリウムやカルシウム、鉄分などが残っています。\n",
+      "input": "いっぽう、こくとうなどのせいせいどがひくいさとうにわ、げんりょうにふくまれるかりうむやかるしうむ、てつぶんなどがのこっています。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "原料",
+          "reading": "げんりょう",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L45519"
+        },
+        {
+          "form": "一方",
+          "reading": "いっぽう",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L23721"
+        },
+        {
+          "form": "砂糖",
+          "reading": "さとう",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52883"
+        },
+        {
+          "form": "含まれる",
+          "reading": "ふくまれる",
+          "accent_variants": [
+            4
+          ],
+          "selected_accent": 4,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L35213"
+        },
+        {
+          "form": "黒糖",
+          "reading": "こくとう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L51848"
+        },
+        {
+          "form": "精製",
+          "reading": "せいせい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L74222"
+        },
+        {
+          "form": "低い",
+          "reading": "ひくい",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L88668"
+        },
+        {
+          "form": "鉄分",
+          "reading": "てつぶん",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L89555"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 原料 げんりょう type 3; 一方 いっぽう type 3; 砂糖 さとう type 2; 含まれる ふくまれる type 4; 黒糖 こくとう type 0; 精製 せいせい type 0; 低い ひくい type 2; 鉄分 てつぶん type 2.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-sugar-reading/marin-65636bc3e25b5ee86562.mp3",
+      "audio_sha256": "9f510a19e982adc3fe3618aa05c1280e8a19847b0c7115636ef0f3904daf5615",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-sugar-reading.json",
+          "sha256": "9f510a19e982adc3fe3618aa05c1280e8a19847b0c7115636ef0f3904daf5615",
+          "model": "gpt-4o-transcribe",
+          "transcript": "一方、黒糖などの精製度が低い砂糖には、原料に含まれるカリウムやカルシウム、鉄分などが残っています。"
+        }
+      ]
+    },
+    {
+      "key": "ただし、ミネラルが含まれているからといって、必ずしも健康にいいとは限りません。砂糖から摂取できるミネラルの量は限られており、栄養補給のために砂糖を多く食べることはおすすめできません。",
+      "card": "sugar-reading",
+      "message_id": "sugar-reading-chunk-06",
+      "batch": 1,
+      "display": "ただし、ミネラルが含まれているからといって、必ずしも健康にいいとは限りません。砂糖から摂取できるミネラルの量は限られており、栄養補給のために砂糖を多く食べることはおすすめできません。\n",
+      "input": "ただし、みねらるがふくまれているからといって、かならずしもけんこうにいいとわかぎりません。さとうからせっしゅできるみねらるのりょうわかぎられており、えいようほきゅうのために、さとうおおおくたべることわおすすめできません。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "栄養",
+          "reading": "えいよう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L25621"
+        },
+        {
+          "form": "砂糖",
+          "reading": "さとう",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52883"
+        },
+        {
+          "form": "補給",
+          "reading": "ほきゅう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L106480"
+        },
+        {
+          "form": "健康",
+          "reading": "けんこう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L44067"
+        },
+        {
+          "form": "必ず",
+          "reading": "かならず",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L101023"
+        },
+        {
+          "form": "多く",
+          "reading": "おおく",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L81059"
+        },
+        {
+          "form": "摂取",
+          "reading": "せっしゅ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L75839"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 栄養 えいよう type 0; 砂糖 さとう type 2; 補給 ほきゅう type 0; 健康 けんこう type 0; 必ず かならず type 0; 多く おおく type 1; 摂取 せっしゅ type 1.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-sugar-reading/marin-c8f8669e8408f491391b.mp3",
+      "audio_sha256": "c6fe206416d9f64c86e2fb458140f47126dd532b7a0845bb83e9a04090397206",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-sugar-reading.json",
+          "sha256": "c6fe206416d9f64c86e2fb458140f47126dd532b7a0845bb83e9a04090397206",
+          "model": "gpt-4o-transcribe",
+          "transcript": "ただし、ミネラルが含まれているからといって、必ずしも健康にいいとは限りません。砂糖から摂取できるミネラルの量は限られており、栄養補給のために砂糖を多く食べることはおすすめできません。"
+        }
+      ]
+    },
+    {
+      "key": "また、茶色い砂糖の中には、精製した砂糖に糖蜜などを加えて色や風味をつけたものもあります。",
+      "card": "sugar-reading",
+      "message_id": "sugar-reading-chunk-07",
+      "batch": 1,
+      "display": "また、茶色い砂糖の中には、精製した砂糖に糖蜜などを加えて色や風味をつけたものもあります。\n",
+      "input": "また、ちゃいろいさとうのなかにわ、せいせいしたさとうにとうみつなどおくわえて、いろやふうみおつけたものもあります。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "砂糖",
+          "reading": "さとう",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52883"
+        },
+        {
+          "form": "風味",
+          "reading": "ふうみ",
+          "accent_variants": [
+            1,
+            3
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L103579"
+        },
+        {
+          "form": "加えて",
+          "reading": "くわえて",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L28709"
+        },
+        {
+          "form": "茶色い",
+          "reading": "ちゃいろい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L85574"
+        },
+        {
+          "form": "精製",
+          "reading": "せいせい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L74222"
+        },
+        {
+          "form": "糖蜜",
+          "reading": "とうみつ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L92232"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 砂糖 さとう type 2; 風味 ふうみ type 1; 加えて くわえて type 0; 茶色い ちゃいろい type 0; 精製 せいせい type 0; 糖蜜 とうみつ type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-sugar-reading/marin-cf4337a510239bdc4b85.mp3",
+      "audio_sha256": "35811cdfb1b12e0de09cbe106ff1a321c1832d75a38e9d0ef3180c7a20d4b4d7",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-sugar-reading.json",
+          "sha256": "35811cdfb1b12e0de09cbe106ff1a321c1832d75a38e9d0ef3180c7a20d4b4d7",
+          "model": "gpt-4o-transcribe",
+          "transcript": "また、「茶色い砂糖」の中には、精製した砂糖に糖蜜などを加えて、色や風味を付けたものもあります。"
+        }
+      ]
+    },
+    {
+      "key": "② 砂糖にはどんな種類がある？ こくとう サトウキビの搾り汁を煮詰めて作られる砂糖です。独特の香りと濃厚なコクがあり、沖縄のお菓子や煮物などによく使われます。",
+      "card": "sugar-reading",
+      "message_id": "sugar-reading-chunk-08",
+      "batch": 1,
+      "display": "② 砂糖にはどんな種類がある？\n黒糖（こくとう）\nサトウキビの搾り汁を煮詰めて作られる砂糖です。独特の香りと濃厚なコクがあり、沖縄のお菓子や煮物などによく使われます。\n",
+      "input": "に、さとうにわどんなしゅるいがある？こくとう。さとうきびのしぼりじるおにつめてつくられるさとうです。どくとくのかおりと、のうこうなこくがあり、おきなわのおかしやにものなどによくつかわれます。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "種類",
+          "reading": "しゅるい",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61820"
+        },
+        {
+          "form": "煮物",
+          "reading": "にもの",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L60016"
+        },
+        {
+          "form": "砂糖",
+          "reading": "さとう",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52883"
+        },
+        {
+          "form": "香り",
+          "reading": "かおり",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50713"
+        },
+        {
+          "form": "沖縄",
+          "reading": "おきなわ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L27501"
+        },
+        {
+          "form": "独特",
+          "reading": "どくとく",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L93656"
+        },
+        {
+          "form": "濃厚",
+          "reading": "のうこう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L96432"
+        },
+        {
+          "form": "黒糖",
+          "reading": "こくとう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L51848"
+        },
+        {
+          "form": "搾り汁",
+          "reading": "しぼりじる",
+          "accent_variants": [
+            4
+          ],
+          "selected_accent": 4,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L54047"
+        },
+        {
+          "form": "菓子",
+          "reading": "かし",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L29974"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 種類 しゅるい type 1; 煮物 にもの type 0; 砂糖 さとう type 2; 香り かおり type 0; 沖縄 おきなわ type 0; 独特 どくとく type 0; 濃厚 のうこう type 0; 黒糖 こくとう type 0; 搾り汁 しぼりじる type 4; 菓子 かし type 1. Re-recording review: articulate every supplied kana, including short particles and the complete final sentence, without adding words or changing the text. Use smooth connected phrases at normal speed. Distinguish たまご (egg), にゅうさんきん (lactic acid bacteria), あみのさんえき (amino-acid liquid), りょうりしゅ (cooking sake) and かっぺん (browning) where present. Do not omit the ending.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "generation_history": [
+        {
+          "input": "に、さとうにわどんなしゅるいがある？こくとう。さとうきびのしぼりじるおにつめてつくられるさとうです。どくとくのかおりとのうこうなこくがあり、おきなわのおかしやにものなどによくつかわれます。",
+          "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 種類 しゅるい type 1; 煮物 にもの type 0; 砂糖 さとう type 2; 香り かおり type 0; 沖縄 おきなわ type 0; 独特 どくとく type 0; 濃厚 のうこう type 0; 黒糖 こくとう type 0; 搾り汁 しぼりじる type 4; 菓子 かし type 1.",
+          "audio": "audio/lessons/stories-sugar-reading/marin-c9c0e977fcc9f4b0fa30.mp3",
+          "sha256": "6d97a8c32e6f191d7770b85394d0cef93c6e12a9ecbec2f89102cf551db31d8a",
+          "transcript": "2.砂糖にはどんな種類がある?黒糖。サトウキビの搾り汁を煮詰めて作られる砂糖です。独特の香りとの重厚なコクがあり、沖縄のお菓子や煮物などによく使われます。",
+          "reason": "Transcript comparison flagged unclear grouping, omitted wording or source mismatch; regenerate whole connected passage."
+        }
+      ],
+      "audio": "audio/lessons/stories-sugar-reading/marin-4fc56faa7b753dcdeb4a.mp3",
+      "audio_sha256": "fd9c7707913b0bdadad9bbedb087beb5a29d49a99a88b9f29a3fd6cda2391633",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-sugar-reading.json",
+          "sha256": "fd9c7707913b0bdadad9bbedb087beb5a29d49a99a88b9f29a3fd6cda2391633",
+          "model": "gpt-4o-transcribe",
+          "transcript": "2.砂糖にはどんな種類がある?黒糖。サトウキビの絞り汁を煮詰めて作られる砂糖です。独特の香りと濃厚なコクがあり、沖縄のお菓子や煮物などによく使われます。"
+        }
+      ]
+    },
+    {
+      "key": "きび砂糖 サトウキビを原料とした砂糖で、黒糖よりもクセが少なく、まろやかな甘みが特徴です。普段の料理にも使いやすく、白砂糖の代わりとして利用できます。",
+      "card": "sugar-reading",
+      "message_id": "sugar-reading-chunk-09",
+      "batch": 2,
+      "display": "きび砂糖\nサトウキビを原料とした砂糖で、黒糖よりもクセが少なく、まろやかな甘みが特徴です。普段の料理にも使いやすく、白砂糖の代わりとして利用できます。\n",
+      "input": "きびざとう。さとうきびおげんりょうとしたさとうで、こくとうよりもくせがすくなく、まろやかなあまみがとくちょうです。ふだんのりょうりにもつかいやすく、しろざとうのかわりとしてりようできます。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "特徴",
+          "reading": "とくちょう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L93400"
+        },
+        {
+          "form": "料理",
+          "reading": "りょうり",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L116664"
+        },
+        {
+          "form": "原料",
+          "reading": "げんりょう",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L45519"
+        },
+        {
+          "form": "砂糖",
+          "reading": "さとう",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52883"
+        },
+        {
+          "form": "甘み",
+          "reading": "あまみ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34451"
+        },
+        {
+          "form": "代わり",
+          "reading": "かわり",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L82345"
+        },
+        {
+          "form": "普段",
+          "reading": "ふだん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L102758"
+        },
+        {
+          "form": "利用",
+          "reading": "りよう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L115298"
+        },
+        {
+          "form": "白砂糖",
+          "reading": "しろざとう",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L97984"
+        },
+        {
+          "form": "黒糖",
+          "reading": "こくとう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L51848"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 特徴 とくちょう type 0; 料理 りょうり type 1; 原料 げんりょう type 3; 砂糖 さとう type 2; 甘み あまみ type 0; 代わり かわり type 0; 普段 ふだん type 1; 利用 りよう type 0; 白砂糖 しろざとう type 3; 黒糖 こくとう type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-sugar-reading/marin-331d638a4928f69eafa0.mp3",
+      "audio_sha256": "a8b0927bc72cd8a053d54c1a8008f00c1d3bb25a641cc2a4066e3c53e89b0bf2",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-sugar-reading.json",
+          "sha256": "a8b0927bc72cd8a053d54c1a8008f00c1d3bb25a641cc2a4066e3c53e89b0bf2",
+          "model": "gpt-4o-transcribe",
+          "transcript": "きび砂糖。サトウキビを原料とした砂糖で、黒糖よりも癖が少なく、まろやかな甘みが特徴です。普段の料理にも使いやすく、白砂糖の代わりとして利用できます。"
+        }
+      ]
+    },
+    {
+      "key": "てんさい糖 てん菜という根菜から作られる砂糖です。北海道などの寒い地域で栽培されており、商品によってはオリゴ糖が含まれています。比較的やさしい風味で、飲み物やお菓子作りにも向いています。",
+      "card": "sugar-reading",
+      "message_id": "sugar-reading-chunk-10",
+      "batch": 2,
+      "display": "てんさい糖\nてん菜という根菜から作られる砂糖です。北海道などの寒い地域で栽培されており、商品によってはオリゴ糖が含まれています。比較的やさしい風味で、飲み物やお菓子作りにも向いています。\n",
+      "input": "てんさいとう。てんさいというこんさいからつくられるさとうです。ほっかいどうなどのさむいちいきでさいばいされており、しょうひんによってわおりごとうがふくまれています。ひかくてきやさしいふうみで、のみものやおかしづくりにもむいています。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "商品",
+          "reading": "しょうひん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L65730"
+        },
+        {
+          "form": "砂糖",
+          "reading": "さとう",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52883"
+        },
+        {
+          "form": "飲み物",
+          "reading": "のみもの",
+          "accent_variants": [
+            3,
+            2
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L24582"
+        },
+        {
+          "form": "風味",
+          "reading": "ふうみ",
+          "accent_variants": [
+            1,
+            3
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L103579"
+        },
+        {
+          "form": "比較的",
+          "reading": "ひかくてき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100027"
+        },
+        {
+          "form": "地域",
+          "reading": "ちいき",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L84904"
+        },
+        {
+          "form": "寒い",
+          "reading": "さむい",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L33603"
+        },
+        {
+          "form": "根菜",
+          "reading": "こんさい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52406"
+        },
+        {
+          "form": "北海道",
+          "reading": "ほっかいどう",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L108106"
+        },
+        {
+          "form": "栽培",
+          "reading": "さいばい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L53416"
+        },
+        {
+          "form": "菓子",
+          "reading": "かし",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L29974"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 商品 しょうひん type 1; 砂糖 さとう type 2; 飲み物 のみもの type 3; 風味 ふうみ type 1; 比較的 ひかくてき type 0; 地域 ちいき type 1; 寒い さむい type 2; 根菜 こんさい type 0; 北海道 ほっかいどう type 3; 栽培 さいばい type 0; 菓子 かし type 1.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-sugar-reading/marin-cacf8fbcbb5be73df114.mp3",
+      "audio_sha256": "62e469ef56110376b13bf790f7d47edc56be8b9ceba2b622769f8cbcaca0330a",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-sugar-reading.json",
+          "sha256": "62e469ef56110376b13bf790f7d47edc56be8b9ceba2b622769f8cbcaca0330a",
+          "model": "gpt-4o-transcribe",
+          "transcript": "甜菜糖。甜菜という根菜から作られる砂糖です。北海道などの寒い地域で栽培されており、商品によってはオリゴ糖が含まれています。比較的優しい風味で、飲み物やお菓子作りにも向いています。"
+        }
+      ]
+    },
+    {
+      "key": "ココナッツシュガー ココヤシの花の樹液から作られる砂糖です。キャラメルのような香ばしい風味があり、焼き菓子やコーヒーなどによく合います。",
+      "card": "sugar-reading",
+      "message_id": "sugar-reading-chunk-11",
+      "batch": 2,
+      "display": "ココナッツシュガー\nココヤシの花の樹液から作られる砂糖です。キャラメルのような香ばしい風味があり、焼き菓子やコーヒーなどによく合います。\n",
+      "input": "ここなっつしゅがー。ここやしのはなのじゅえきからつくられるさとうです。きゃらめるのようなこうばしいふうみがあり、やきがしやこーひーなどによくあいます。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "砂糖",
+          "reading": "さとう",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52883"
+        },
+        {
+          "form": "風味",
+          "reading": "ふうみ",
+          "accent_variants": [
+            1,
+            3
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L103579"
+        },
+        {
+          "form": "樹液",
+          "reading": "じゅえき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L62219"
+        },
+        {
+          "form": "香ばしい",
+          "reading": "こうばしい",
+          "accent_variants": [
+            4,
+            0
+          ],
+          "selected_accent": 4,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50712"
+        },
+        {
+          "form": "焼き菓子",
+          "reading": "やきがし",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L66765"
+        },
+        {
+          "form": "菓子",
+          "reading": "かし",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L29974"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 砂糖 さとう type 2; 風味 ふうみ type 1; 樹液 じゅえき type 0; 香ばしい こうばしい type 4; 焼き菓子 やきがし type 3; 菓子 かし type 1.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-sugar-reading/marin-802f55d4196acd88038c.mp3",
+      "audio_sha256": "28c3f0a553d7448c1d1fb2e4675828829265e027034a1579ff302d2481536beb",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-sugar-reading.json",
+          "sha256": "28c3f0a553d7448c1d1fb2e4675828829265e027034a1579ff302d2481536beb",
+          "model": "gpt-4o-transcribe",
+          "transcript": "ココナッツシュガー。ココヤシの花の樹液から作られる砂糖です。キャラメルのような香ばしい風味があり、焼き菓子やコーヒーなどによく合います。"
+        }
+      ]
+    },
+    {
+      "key": "③ 血糖値が気になる場合は？ 砂糖を選ぶときに注目される指標の一つが「GI値」です。これは、食品を食べた後に血糖値がどのくらい上がるかを示す数値です。",
+      "card": "sugar-reading",
+      "message_id": "sugar-reading-chunk-12",
+      "batch": 2,
+      "display": "③ 血糖値が気になる場合は？\n砂糖を選ぶときに注目される指標の一つが「GI値」です。これは、食品を食べた後に血糖値がどのくらい上がるかを示す数値です。\n",
+      "input": "さん、けっとうちがきになるばあいわ？さとうおえらぶときにちゅうもくされるしひょうのひとつが、じーあいちです。これわ、しょくひんおたべたあとに、けっとうちがどのくらいあがるかおしめすすうちです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "場合",
+          "reading": "ばあい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67883"
+        },
+        {
+          "form": "選ぶ",
+          "reading": "えらぶ",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L77499"
+        },
+        {
+          "form": "食品",
+          "reading": "しょくひん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68821"
+        },
+        {
+          "form": "砂糖",
+          "reading": "さとう",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52883"
+        },
+        {
+          "form": "注目",
+          "reading": "ちゅうもく",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L86347"
+        },
+        {
+          "form": "一つ",
+          "reading": "ひとつ",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L22889"
+        },
+        {
+          "form": "血糖値",
+          "reading": "けっとうち",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L43890"
+        },
+        {
+          "form": "指標",
+          "reading": "しひょう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L56852"
+        },
+        {
+          "form": "上がる",
+          "reading": "あがる",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67348"
+        },
+        {
+          "form": "示す",
+          "reading": "しめす",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L58601"
+        },
+        {
+          "form": "数値",
+          "reading": "すうち",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L72513"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 場合 ばあい type 0; 選ぶ えらぶ type 2; 食品 しょくひん type 0; 砂糖 さとう type 2; 注目 ちゅうもく type 0; 一つ ひとつ type 2; 血糖値 けっとうち type 3; 指標 しひょう type 0; 上がる あがる type 0; 示す しめす type 2; 数値 すうち type 1.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-sugar-reading/marin-6f616ddf8beb5ec9d597.mp3",
+      "audio_sha256": "9d156f92cb4b47cce77824c22a0cddaee04be39f0d62327b155140b06463d2f4",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-sugar-reading.json",
+          "sha256": "9d156f92cb4b47cce77824c22a0cddaee04be39f0d62327b155140b06463d2f4",
+          "model": "gpt-4o-transcribe",
+          "transcript": "3.血糖値が気になる場合は?砂糖を選ぶときに注目される指標の一つがGI値です。これは、食品を食べた後に血糖値がどのくらい上がるかを示す数値です。"
+        }
+      ]
+    },
+    {
+      "key": "一般的にGI値が低い食品は、血糖値の上昇が比較的緩やかだとされています。",
+      "card": "sugar-reading",
+      "message_id": "sugar-reading-chunk-13",
+      "batch": 2,
+      "display": "一般的にGI値が低い食品は、血糖値の上昇が比較的緩やかだとされています。\n",
+      "input": "いっぱんてきにじーあいちがひくいしょくひんわ、けっとうちのじょうしょうが、ひかくてきゆるやかだとされています。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "食品",
+          "reading": "しょくひん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68821"
+        },
+        {
+          "form": "一般",
+          "reading": "いっぱん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L23606"
+        },
+        {
+          "form": "一般的",
+          "reading": "いっぱんてき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L23633"
+        },
+        {
+          "form": "比較的",
+          "reading": "ひかくてき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L100027"
+        },
+        {
+          "form": "血糖値",
+          "reading": "けっとうち",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L43890"
+        },
+        {
+          "form": "低い",
+          "reading": "ひくい",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L88668"
+        },
+        {
+          "form": "上昇",
+          "reading": "じょうしょう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67515"
+        },
+        {
+          "form": "緩やか",
+          "reading": "ゆるやか",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34647"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 食品 しょくひん type 0; 一般 いっぱん type 0; 一般的 いっぱんてき type 0; 比較的 ひかくてき type 0; 血糖値 けっとうち type 3; 低い ひくい type 2; 上昇 じょうしょう type 0; 緩やか ゆるやか type 2.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-sugar-reading/marin-05a6c2eba56687a387f4.mp3",
+      "audio_sha256": "35c05346965aee68bd4adee8a0895e1a4c613eae30588ea111f7330c2721e476",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-sugar-reading.json",
+          "sha256": "35c05346965aee68bd4adee8a0895e1a4c613eae30588ea111f7330c2721e476",
+          "model": "gpt-4o-transcribe",
+          "transcript": "一般的にGI値が低い食品は血糖値の上昇が比較的緩やかだとされています。"
+        }
+      ]
+    },
+    {
+      "key": "ただし、GI値は食べる量や、ほかの食品との組み合わせによっても影響を受けます。また、黒糖やココナッツシュガーなども糖質を多く含むため、食べすぎには注意が必要です。",
+      "card": "sugar-reading",
+      "message_id": "sugar-reading-chunk-14",
+      "batch": 2,
+      "display": "ただし、GI値は食べる量や、ほかの食品との組み合わせによっても影響を受けます。また、黒糖やココナッツシュガーなども糖質を多く含むため、食べすぎには注意が必要です。\n",
+      "input": "ただし、じーあいちわ、たべるりょうや、ほかのしょくひんとのくみあわせによってもえいきょうおうけます。また、こくとうやここなっつしゅがーなども、とうしつお、おおくふくむため、たべすぎにわちゅういがひつようです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "必要",
+          "reading": "ひつよう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L101058"
+        },
+        {
+          "form": "食品",
+          "reading": "しょくひん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L68821"
+        },
+        {
+          "form": "糖質",
+          "reading": "とうしつ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L92226"
+        },
+        {
+          "form": "注意",
+          "reading": "ちゅうい",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L86318"
+        },
+        {
+          "form": "影響",
+          "reading": "えいきょう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L25546"
+        },
+        {
+          "form": "含む",
+          "reading": "ふくむ",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L35219"
+        },
+        {
+          "form": "多く",
+          "reading": "おおく",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L81059"
+        },
+        {
+          "form": "黒糖",
+          "reading": "こくとう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L51848"
+        },
+        {
+          "form": "組み合わせ",
+          "reading": "くみあわせ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L78505"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 必要 ひつよう type 0; 食品 しょくひん type 0; 糖質 とうしつ type 0; 注意 ちゅうい type 1; 影響 えいきょう type 0; 含む ふくむ type 2; 多く おおく type 1; 黒糖 こくとう type 0; 組み合わせ くみあわせ type 0. Re-recording review: articulate every supplied kana, including short particles and the complete final sentence, without adding words or changing the text. Use smooth connected phrases at normal speed. Distinguish たまご (egg), にゅうさんきん (lactic acid bacteria), あみのさんえき (amino-acid liquid), りょうりしゅ (cooking sake) and かっぺん (browning) where present. Do not omit the ending.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "generation_history": [
+        {
+          "input": "ただし、じーあいちわたべるりょうや、ほかのしょくひんとのくみあわせによってもえいきょうおうけます。また、こくとうやここなっつしゅがーなども、とうしつおおおくふくむため、たべすぎにわちゅういがひつようです。",
+          "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 必要 ひつよう type 0; 食品 しょくひん type 0; 糖質 とうしつ type 0; 注意 ちゅうい type 1; 影響 えいきょう type 0; 含む ふくむ type 2; 多く おおく type 1; 黒糖 こくとう type 0; 組み合わせ くみあわせ type 0.",
+          "audio": "audio/lessons/stories-sugar-reading/marin-0eafbe8b3651b66020c8.mp3",
+          "sha256": "01b4d37cc56247721c05c88b74de0cd467a240925509d3eb4e9c59210ab994c5",
+          "transcript": "ただし、GI値の食べる量や他の食品との組み合わせによっても影響を受けます。また、黒糖やココナッツシュガーなども糖質多く含むため、食べ過ぎには注意が必要です。",
+          "reason": "Transcript comparison flagged unclear grouping, omitted wording or source mismatch; regenerate whole connected passage."
+        }
+      ],
+      "audio": "audio/lessons/stories-sugar-reading/marin-1ae3e373c8819112cd08.mp3",
+      "audio_sha256": "d2fda665cd0a6f1ae1d0478b8a1aae8e442e9225a8d58807441cb99da3418497",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-sugar-reading.json",
+          "sha256": "d2fda665cd0a6f1ae1d0478b8a1aae8e442e9225a8d58807441cb99da3418497",
+          "model": "gpt-4o-transcribe",
+          "transcript": "ただし、GI値は食べる量や他の食品との組み合わせによっても影響を受けます。また、黒糖やココナッツシュガーなども糖質を多く含むため、食べ過ぎには注意が必要です。"
+        }
+      ]
+    },
+    {
+      "key": "血糖値が気になる場合は、砂糖の種類だけでなく、使用する量にも目を向けることが大切です。",
+      "card": "sugar-reading",
+      "message_id": "sugar-reading-chunk-15",
+      "batch": 2,
+      "display": "血糖値が気になる場合は、砂糖の種類だけでなく、使用する量にも目を向けることが大切です。\n",
+      "input": "けっとうちがきになるばあいわ、さとうのしゅるいだけでなく、しようするりょうにもめおむけることがたいせつです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "種類",
+          "reading": "しゅるい",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61820"
+        },
+        {
+          "form": "場合",
+          "reading": "ばあい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67883"
+        },
+        {
+          "form": "砂糖",
+          "reading": "さとう",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52883"
+        },
+        {
+          "form": "大切",
+          "reading": "たいせつ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L83028"
+        },
+        {
+          "form": "使用",
+          "reading": "しよう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L55969"
+        },
+        {
+          "form": "血糖値",
+          "reading": "けっとうち",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L43890"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 種類 しゅるい type 1; 場合 ばあい type 0; 砂糖 さとう type 2; 大切 たいせつ type 0; 使用 しよう type 0; 血糖値 けっとうち type 3.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-sugar-reading/marin-73e26cf22b22f7ea11b2.mp3",
+      "audio_sha256": "01e8c413ce4f018d59e8db910627adbeef2acbe2a575adf8c48ddac461c0e5ea",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-sugar-reading.json",
+          "sha256": "01e8c413ce4f018d59e8db910627adbeef2acbe2a575adf8c48ddac461c0e5ea",
+          "model": "gpt-4o-transcribe",
+          "transcript": "血糖値が気になる場合は、砂糖の種類だけでなく、使用する量にも目を向けることが大切です。"
+        }
+      ]
+    },
+    {
+      "key": "④ 料理によって砂糖を使い分けよう 砂糖は甘みをつけるだけでなく、料理の色や香り、食感にも影響を与えます。",
+      "card": "sugar-reading",
+      "message_id": "sugar-reading-chunk-16",
+      "batch": 2,
+      "display": "④ 料理によって砂糖を使い分けよう\n砂糖は甘みをつけるだけでなく、料理の色や香り、食感にも影響を与えます。\n",
+      "input": "よん、りょうりによってさとうおつかいわけよう。さとうわあまみおつけるだけでなく、りょうりのいろやかおり、しょっかんにもえいきょうおあたえます。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "料理",
+          "reading": "りょうり",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L116664"
+        },
+        {
+          "form": "砂糖",
+          "reading": "さとう",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52883"
+        },
+        {
+          "form": "香り",
+          "reading": "かおり",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50713"
+        },
+        {
+          "form": "甘み",
+          "reading": "あまみ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34451"
+        },
+        {
+          "form": "影響",
+          "reading": "えいきょう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L25546"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 料理 りょうり type 1; 砂糖 さとう type 2; 香り かおり type 0; 甘み あまみ type 0; 影響 えいきょう type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-sugar-reading/marin-1c0564fffc59f3ce1a90.mp3",
+      "audio_sha256": "6b8eebea6781a60e50f933a60fe8f16041a1f0dc1ad4f00b493e4d58befb850c",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-sugar-reading.json",
+          "sha256": "6b8eebea6781a60e50f933a60fe8f16041a1f0dc1ad4f00b493e4d58befb850c",
+          "model": "gpt-4o-transcribe",
+          "transcript": "4.料理によって砂糖を使い分けよう。砂糖は甘みをつけるだけでなく、料理の色や香り、食感にも影響を与えます。"
+        }
+      ]
+    },
+    {
+      "key": "例えば、黒糖を豚の角煮に使うと、独特のコクと濃い色を加えることができます。一方、白砂糖はクセが少ないため、素材本来の風味や色を生かしたい料理に向いています。",
+      "card": "sugar-reading",
+      "message_id": "sugar-reading-chunk-17",
+      "batch": 3,
+      "display": "例えば、黒糖を豚の角煮に使うと、独特のコクと濃い色を加えることができます。一方、白砂糖はクセが少ないため、素材本来の風味や色を生かしたい料理に向いています。\n",
+      "input": "たとえば、こくとうお、ぶたのかくににつかうと、どくとくのこくと、こいいろおくわえることができます。いっぽう、しろざとうわくせがすくないため、そざいほんらいのふうみやいろおいかしたいりょうりにむいています。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "料理",
+          "reading": "りょうり",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L116664"
+        },
+        {
+          "form": "一方",
+          "reading": "いっぽう",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L23721"
+        },
+        {
+          "form": "例えば",
+          "reading": "たとえば",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L117349"
+        },
+        {
+          "form": "使う",
+          "reading": "つかう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L55952"
+        },
+        {
+          "form": "砂糖",
+          "reading": "さとう",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52883"
+        },
+        {
+          "form": "加える",
+          "reading": "くわえる",
+          "accent_variants": [
+            0,
+            3
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L28710"
+        },
+        {
+          "form": "風味",
+          "reading": "ふうみ",
+          "accent_variants": [
+            1,
+            3
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L103579"
+        },
+        {
+          "form": "少ない",
+          "reading": "すくない",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L66339"
+        },
+        {
+          "form": "素材",
+          "reading": "そざい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L78408"
+        },
+        {
+          "form": "独特",
+          "reading": "どくとく",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L93656"
+        },
+        {
+          "form": "白砂糖",
+          "reading": "しろざとう",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L97984"
+        },
+        {
+          "form": "黒糖",
+          "reading": "こくとう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L51848"
+        },
+        {
+          "form": "濃い",
+          "reading": "こい",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L96424"
+        },
+        {
+          "form": "本来",
+          "reading": "ほんらい",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L108549"
+        }
+      ],
+      "pronunciation_guidance": "Read only the hiragana input, smoothly in natural Tokyo Japanese at generation speed 1.0. Preserve all particles and complete sentences. Context for disambiguation, do not read twice: 例えば、黒糖を豚の角煮に使うと、独特のコクと濃い色を加えることができます。一方、白砂糖はクセが少ないため、素材本来の風味や色を生かしたい料理に向いています。 黒糖を＝こくとうお; コクと＝こくと (three short mora, no extra う). 濃い色＝こいいろ. Read コクと濃い色 exactly, not 黒糖. Keep the object particle after 黒糖. Whole-passage pitch remains provisional; do not exaggerate pitch or slow down.  (0 heiban; other numbers drop after that mora): 料理 りょうり type 1; 一方 いっぽう type 3; 例えば たとえば type 2; 使う つかう type 0; 砂糖 さとう type 2; 加える くわえる type 0; 風味 ふうみ type 1; 少ない すくない type 3; 素材 そざい type 0; 独特 どくとく type 0; 白砂糖 しろざとう type 3; 黒糖 こくとう type 0; 濃い こい type 1; 本来 ほんらい type 1. ",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "generation_history": [
+        {
+          "input": "たとえば、こくとうおぶたのかくににつかうと、どくとくのこくとこいいろおくわえることができます。いっぽう、しろざとうわくせがすくないため、そざいほんらいのふうみやいろおいかしたいりょうりにむいています。",
+          "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 料理 りょうり type 1; 一方 いっぽう type 3; 例えば たとえば type 2; 使う つかう type 0; 砂糖 さとう type 2; 加える くわえる type 0; 風味 ふうみ type 1; 少ない すくない type 3; 素材 そざい type 0; 独特 どくとく type 0; 白砂糖 しろざとう type 3; 黒糖 こくとう type 0; 濃い こい type 1; 本来 ほんらい type 1.",
+          "audio": "audio/lessons/stories-sugar-reading/marin-dd3bf9751ee3659aaf79.mp3",
+          "sha256": "9409abb50a4ac44a29b624c29b67af6f71ac573c688e690dc0f6a8e0079d5c01",
+          "transcript": "例えば、黒糖を豚の角煮に使うと独特の黒褐色を加えることができます。一方、白砂糖は癖が少ないため、素材本来の風味や色を生かしたい料理に向いています。",
+          "reason": "Transcript comparison flagged unclear grouping, omitted wording or source mismatch; regenerate whole connected passage."
+        },
+        {
+          "input": "たとえば、こくとうおぶたのかくににつかうと、どくとくのこくと、こいいろおくわえることができます。いっぽう、しろざとうわくせがすくないため、そざいほんらいのふうみやいろおいかしたいりょうりにむいています。",
+          "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 料理 りょうり type 1; 一方 いっぽう type 3; 例えば たとえば type 2; 使う つかう type 0; 砂糖 さとう type 2; 加える くわえる type 0; 風味 ふうみ type 1; 少ない すくない type 3; 素材 そざい type 0; 独特 どくとく type 0; 白砂糖 しろざとう type 3; 黒糖 こくとう type 0; 濃い こい type 1; 本来 ほんらい type 1. Re-recording review: articulate every supplied kana, including short particles and the complete final sentence, without adding words or changing the text. Use smooth connected phrases at normal speed. Distinguish たまご (egg), にゅうさんきん (lactic acid bacteria), あみのさんえき (amino-acid liquid), りょうりしゅ (cooking sake) and かっぺん (browning) where present. Do not omit the ending.",
+          "audio": "audio/lessons/stories-sugar-reading/marin-30e6d688e7fdffdbd126.mp3",
+          "sha256": "77a07e78f3bf9e8a62ede1fde56ef87ab05208a9097cb1b1cf6a2958173c0165",
+          "transcript": "例えば黒糖豚の角煮に使うと、独特の黒糖・濃い色を加えることができます。一方、白砂糖は癖が少ないため、素材本来の風味や色を生かしたい料理に向いています。",
+          "reason": "Independent ASR still flags swallowed particles or homophone/compound articulation; whole passage regenerated with explicit semantic context."
+        }
+      ],
+      "audio": "audio/lessons/stories-sugar-reading/marin-aa5e289b8125c5a85cfa.mp3",
+      "audio_sha256": "f1f0500949f1bffd72bfb23f20b8eb5f837c756d6a4653ebffd51d4bb90b7917",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-sugar-reading.json",
+          "sha256": "f1f0500949f1bffd72bfb23f20b8eb5f837c756d6a4653ebffd51d4bb90b7917",
+          "model": "gpt-4o-transcribe",
+          "transcript": "例えば黒糖を豚の角煮に使うと、独特のコクと濃い色を加えることができます。一方、白砂糖は癖が少ないため、素材本来の風味や色を生かしたい料理に向いています。"
+        }
+      ]
+    },
+    {
+      "key": "また、お菓子作りでは砂糖の種類によって仕上がりが変わることがあります。砂糖は焼き色をつけたり、生地の水分を保ったりする働きもあるためです。",
+      "card": "sugar-reading",
+      "message_id": "sugar-reading-chunk-18",
+      "batch": 3,
+      "display": "また、お菓子作りでは砂糖の種類によって仕上がりが変わることがあります。砂糖は焼き色をつけたり、生地の水分を保ったりする働きもあるためです。\n",
+      "input": "また、おかしづくりでわ、さとうのしゅるいによってしあがりがかわることがあります。さとうわやきいろおつけたり、きじのすいぶんおたもったりするはたらきもあるためです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "種類",
+          "reading": "しゅるい",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61820"
+        },
+        {
+          "form": "砂糖",
+          "reading": "さとう",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52883"
+        },
+        {
+          "form": "水分",
+          "reading": "すいぶん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L72162"
+        },
+        {
+          "form": "働き",
+          "reading": "はたらき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L92678"
+        },
+        {
+          "form": "仕上がり",
+          "reading": "しあがり",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L55808"
+        },
+        {
+          "form": "変わる",
+          "reading": "かわる",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L105798"
+        },
+        {
+          "form": "生地",
+          "reading": "きじ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L73949"
+        },
+        {
+          "form": "菓子",
+          "reading": "かし",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L29974"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 種類 しゅるい type 1; 砂糖 さとう type 2; 水分 すいぶん type 1; 働き はたらき type 0; 仕上がり しあがり type 0; 変わる かわる type 0; 生地 きじ type 1; 菓子 かし type 1.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-sugar-reading/marin-8d37d147e6abe2917fe9.mp3",
+      "audio_sha256": "19ee4f55db62f590e1b55ece5415dac1d87d389bb35594bc691503ab17002f96",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-sugar-reading.json",
+          "sha256": "19ee4f55db62f590e1b55ece5415dac1d87d389bb35594bc691503ab17002f96",
+          "model": "gpt-4o-transcribe",
+          "transcript": "また、お菓子作りでは、砂糖の種類によって仕上がりが変わることがあります。砂糖は焼き色を付けたり、生地の水分を保ったりする働きもあるためです。"
+        }
+      ]
+    },
+    {
+      "key": "カロリーを抑えるために砂糖を別の甘味料に置き換える場合は、甘さだけでなく、加熱したときの性質にも注意しましょう。",
+      "card": "sugar-reading",
+      "message_id": "sugar-reading-chunk-19",
+      "batch": 3,
+      "display": "カロリーを抑えるために砂糖を別の甘味料に置き換える場合は、甘さだけでなく、加熱したときの性質にも注意しましょう。\n",
+      "input": "かろりーおおさえるために、さとうお、べつのかんみりょうにおきかえるばあいわ、あまさだけでなく、かねつしたときのせいしつにもちゅういしましょう。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "場合",
+          "reading": "ばあい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L67883"
+        },
+        {
+          "form": "砂糖",
+          "reading": "さとう",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52883"
+        },
+        {
+          "form": "注意",
+          "reading": "ちゅうい",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L86318"
+        },
+        {
+          "form": "甘味",
+          "reading": "あまみ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34500"
+        },
+        {
+          "form": "抑える",
+          "reading": "おさえる",
+          "accent_variants": [
+            3,
+            2
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L114500"
+        },
+        {
+          "form": "加熱",
+          "reading": "かねつ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L28772"
+        },
+        {
+          "form": "抑え",
+          "reading": "おさえ",
+          "accent_variants": [
+            3,
+            2
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L114499"
+        },
+        {
+          "form": "甘味料",
+          "reading": "かんみりょう",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34504"
+        },
+        {
+          "form": "置き換える",
+          "reading": "おきかえる",
+          "accent_variants": [
+            4,
+            3
+          ],
+          "selected_accent": 4,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L85281"
+        },
+        {
+          "form": "性質",
+          "reading": "せいしつ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L72982"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 場合 ばあい type 0; 砂糖 さとう type 2; 注意 ちゅうい type 1; 甘味 あまみ type 0; 抑える おさえる type 3; 加熱 かねつ type 0; 抑え おさえ type 3; 甘味料 かんみりょう type 3; 置き換える おきかえる type 4; 性質 せいしつ type 0. Re-recording review: articulate every supplied kana, including short particles and the complete final sentence, without adding words or changing the text. Use smooth connected phrases at normal speed. Distinguish たまご (egg), にゅうさんきん (lactic acid bacteria), あみのさんえき (amino-acid liquid), りょうりしゅ (cooking sake) and かっぺん (browning) where present. Do not omit the ending.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "generation_history": [
+        {
+          "input": "かろりーおおさえるために、さとうおべつのかんみりょうにおきかえるばあいわ、あまさだけでなく、かねつしたときのせいしつにもちゅういしましょう。",
+          "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 場合 ばあい type 0; 砂糖 さとう type 2; 注意 ちゅうい type 1; 甘味 あまみ type 0; 抑える おさえる type 3; 加熱 かねつ type 0; 抑え おさえ type 3; 甘味料 かんみりょう type 3; 置き換える おきかえる type 4; 性質 せいしつ type 0.",
+          "audio": "audio/lessons/stories-sugar-reading/marin-978bb8ffc7ad5d32768c.mp3",
+          "sha256": "35fa88f3d3b8d714a7638526c2d15b5b4d4eb7010fca29118b4ca88a8f849304",
+          "transcript": "カロリーを抑えるために砂糖をおでつの甘味料に置き換える場合は、甘さだけでなく、加熱したときの性質にも注意しましょう。",
+          "reason": "Transcript comparison flagged unclear grouping, omitted wording or source mismatch; regenerate whole connected passage."
+        }
+      ],
+      "audio": "audio/lessons/stories-sugar-reading/marin-615b8f74455e381a6e40.mp3",
+      "audio_sha256": "42dbd6cd49e8f76c57f5d66cc35dc5fbbdc631ad5afd8c8fe5dc7cf5d09c948f",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-sugar-reading.json",
+          "sha256": "42dbd6cd49e8f76c57f5d66cc35dc5fbbdc631ad5afd8c8fe5dc7cf5d09c948f",
+          "model": "gpt-4o-transcribe",
+          "transcript": "カロリーを抑えるために砂糖を別の甘味料に置き換える場合は、甘さだけでなく、加熱したときの性質にも注意しましょう。"
+        }
+      ]
+    },
+    {
+      "key": "⑤ 「自然な砂糖」なら安心？ はちみつやメープルシロップ、アガベシロップなどは、自然由来の甘味料として人気があります。",
+      "card": "sugar-reading",
+      "message_id": "sugar-reading-chunk-20",
+      "batch": 3,
+      "display": "⑤ 「自然な砂糖」なら安心？\nはちみつやメープルシロップ、アガベシロップなどは、自然由来の甘味料として人気があります。\n",
+      "input": "ご、しぜんなさとうならあんしん？はちみつやめーぷるしろっぷ、あがべしろっぷなどわ、しぜんゆらいのかんみりょうとしてにんきがあります。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "自然",
+          "reading": "しぜん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L58891"
+        },
+        {
+          "form": "砂糖",
+          "reading": "さとう",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52883"
+        },
+        {
+          "form": "人気",
+          "reading": "にんき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L71023"
+        },
+        {
+          "form": "甘味",
+          "reading": "あまみ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34500"
+        },
+        {
+          "form": "甘味料",
+          "reading": "かんみりょう",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34504"
+        },
+        {
+          "form": "安心",
+          "reading": "あんしん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L21587"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 自然 しぜん type 0; 砂糖 さとう type 2; 人気 にんき type 0; 甘味 あまみ type 0; 甘味料 かんみりょう type 3; 安心 あんしん type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-sugar-reading/marin-1043c630a1d8f7bc982e.mp3",
+      "audio_sha256": "6b1438dc280290e5f5ce5a53f9134b5079bfbf364cd70deebd8e7824bf81042c",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-sugar-reading.json",
+          "sha256": "6b1438dc280290e5f5ce5a53f9134b5079bfbf364cd70deebd8e7824bf81042c",
+          "model": "gpt-4o-transcribe",
+          "transcript": "5.自然な砂糖なら安心?はちみつやメープルシロップ、アガベシロップなどは自然由来の甘味料として人気があります。"
+        }
+      ]
+    },
+    {
+      "key": "しかし、自然由来だからといって、糖質やカロリーが少ないわけではありません。",
+      "card": "sugar-reading",
+      "message_id": "sugar-reading-chunk-21",
+      "batch": 3,
+      "display": "しかし、自然由来だからといって、糖質やカロリーが少ないわけではありません。\n",
+      "input": "しかし、しぜんゆらいだからといって、とうしつやかろりーがすくないわけでわありません。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "自然",
+          "reading": "しぜん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L58891"
+        },
+        {
+          "form": "糖質",
+          "reading": "とうしつ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L92226"
+        },
+        {
+          "form": "少ない",
+          "reading": "すくない",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L66339"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 自然 しぜん type 0; 糖質 とうしつ type 0; 少ない すくない type 3.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-sugar-reading/marin-19b4eac37e8e669b2ee2.mp3",
+      "audio_sha256": "080bedbb3985f5e95e293434edddfe0256b4bf756c2aee566d9b99679df633b2",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-sugar-reading.json",
+          "sha256": "080bedbb3985f5e95e293434edddfe0256b4bf756c2aee566d9b99679df633b2",
+          "model": "gpt-4o-transcribe",
+          "transcript": "しかし、自然由来だからといって、糖質やカロリーが少ないわけではありません。"
+        }
+      ]
+    },
+    {
+      "key": "例えば、はちみつには独特の香りや風味がありますが、主な成分は糖類です。また、アガベシロップは果糖を多く含むため、GI値が低いことだけで健康的だと判断することはできません。",
+      "card": "sugar-reading",
+      "message_id": "sugar-reading-chunk-22",
+      "batch": 3,
+      "display": "例えば、はちみつには独特の香りや風味がありますが、主な成分は糖類です。また、アガベシロップは果糖を多く含むため、GI値が低いことだけで健康的だと判断することはできません。\n",
+      "input": "たとえば、はちみつにわどくとくのかおりやふうみがありますが、おもなせいぶんわとうるいです。また、あがべしろっぷわかとうお、おおくふくむため、じーあいちがひくいことだけで、けんこうてきだと、はんだんすることわできません。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "成分",
+          "reading": "せいぶん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L73120"
+        },
+        {
+          "form": "例えば",
+          "reading": "たとえば",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L117349"
+        },
+        {
+          "form": "香り",
+          "reading": "かおり",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50713"
+        },
+        {
+          "form": "健康",
+          "reading": "けんこう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L44067"
+        },
+        {
+          "form": "風味",
+          "reading": "ふうみ",
+          "accent_variants": [
+            1,
+            3
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L103579"
+        },
+        {
+          "form": "含む",
+          "reading": "ふくむ",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L35219"
+        },
+        {
+          "form": "多く",
+          "reading": "おおく",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L81059"
+        },
+        {
+          "form": "独特",
+          "reading": "どくとく",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L93656"
+        },
+        {
+          "form": "判断",
+          "reading": "はんだん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L99081"
+        },
+        {
+          "form": "主な",
+          "reading": "おもな",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L60624"
+        },
+        {
+          "form": "低い",
+          "reading": "ひくい",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L88668"
+        },
+        {
+          "form": "糖類",
+          "reading": "とうるい",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L92233"
+        },
+        {
+          "form": "果糖",
+          "reading": "かとう",
+          "accent_variants": [
+            0,
+            2
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L29219"
+        },
+        {
+          "form": "健康的",
+          "reading": "けんこうてき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L44072"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 成分 せいぶん type 1; 例えば たとえば type 2; 香り かおり type 0; 健康 けんこう type 0; 風味 ふうみ type 1; 含む ふくむ type 2; 多く おおく type 1; 独特 どくとく type 0; 判断 はんだん type 1; 主な おもな type 1; 低い ひくい type 2; 糖類 とうるい type 1; 果糖 かとう type 0; 健康的 けんこうてき type 0. Re-recording review: articulate every supplied kana, including short particles and the complete final sentence, without adding words or changing the text. Use smooth connected phrases at normal speed. Distinguish たまご (egg), にゅうさんきん (lactic acid bacteria), あみのさんえき (amino-acid liquid), りょうりしゅ (cooking sake) and かっぺん (browning) where present. Do not omit the ending.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "generation_history": [
+        {
+          "input": "たとえば、はちみつにわどくとくのかおりやふうみがありますが、おもなせいぶんわとうるいです。また、あがべしろっぷわかとうおおおくふくむため、じーあいちがひくいことだけで、けんこうてきだとはんだんすることわできません。",
+          "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 成分 せいぶん type 1; 例えば たとえば type 2; 香り かおり type 0; 健康 けんこう type 0; 風味 ふうみ type 1; 含む ふくむ type 2; 多く おおく type 1; 独特 どくとく type 0; 判断 はんだん type 1; 主な おもな type 1; 低い ひくい type 2; 糖類 とうるい type 1; 果糖 かとう type 0; 健康的 けんこうてき type 0.",
+          "audio": "audio/lessons/stories-sugar-reading/marin-d97082e4995397c2fbb4.mp3",
+          "sha256": "38f718d3d2eabb8addf1c10a3d7e54548754f62493cec79b765d38f7c4925b4e",
+          "transcript": "例えば、ハチミツには独特の香りや風味がありますが、主な成分は糖類です。また、アガベシロップは果糖を多く含むため、GI値が低いことだけで健康的だとは判断することはできません。",
+          "reason": "Transcript comparison flagged unclear grouping, omitted wording or source mismatch; regenerate whole connected passage."
+        }
+      ],
+      "audio": "audio/lessons/stories-sugar-reading/marin-c488b29d963730cd5a77.mp3",
+      "audio_sha256": "30c9d1d50b929ad62efdaea054656306f62d4c279abad61067a06366a65799b5",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-sugar-reading.json",
+          "sha256": "30c9d1d50b929ad62efdaea054656306f62d4c279abad61067a06366a65799b5",
+          "model": "gpt-4o-transcribe",
+          "transcript": "例えば、ハチミツには独特の香りや風味がありますが、主な成分は糖類です。また、アガベシロップは果糖を多く含むため、GI値が低いことだけで健康的だとは判断することはできません。"
+        }
+      ]
+    },
+    {
+      "key": "甘味料を選ぶ際は、「天然」「無添加」といった表示だけでなく、成分や使用量を確認することが重要です。",
+      "card": "sugar-reading",
+      "message_id": "sugar-reading-chunk-23",
+      "batch": 3,
+      "display": "甘味料を選ぶ際は、「天然」「無添加」といった表示だけでなく、成分や使用量を確認することが重要です。\n",
+      "input": "かんみりょうおえらぶさいわ、てんねん、むてんかといったひょうじだけでなく、せいぶんやしようりょうおかくにんすることがじゅうようです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "成分",
+          "reading": "せいぶん",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L73120"
+        },
+        {
+          "form": "重要",
+          "reading": "じゅうよう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L63504"
+        },
+        {
+          "form": "選ぶ",
+          "reading": "えらぶ",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L77499"
+        },
+        {
+          "form": "確認",
+          "reading": "かくにん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L32311"
+        },
+        {
+          "form": "表示",
+          "reading": "ひょうじ",
+          "accent_variants": [
+            0,
+            1
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L101487"
+        },
+        {
+          "form": "甘味",
+          "reading": "あまみ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34500"
+        },
+        {
+          "form": "天然",
+          "reading": "てんねん",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L89833"
+        },
+        {
+          "form": "使用",
+          "reading": "しよう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L55969"
+        },
+        {
+          "form": "添加",
+          "reading": "てんか",
+          "accent_variants": [
+            0,
+            1
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L90056"
+        },
+        {
+          "form": "甘味料",
+          "reading": "かんみりょう",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L34504"
+        },
+        {
+          "form": "無添加",
+          "reading": "むてんか",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L110086"
+        },
+        {
+          "form": "使用量",
+          "reading": "しようりょう",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L55977"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 成分 せいぶん type 1; 重要 じゅうよう type 0; 選ぶ えらぶ type 2; 確認 かくにん type 0; 表示 ひょうじ type 0; 甘味 あまみ type 0; 天然 てんねん type 0; 使用 しよう type 0; 添加 てんか type 0; 甘味料 かんみりょう type 3; 無添加 むてんか type 2; 使用量 しようりょう type 2.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-sugar-reading/marin-3f13ccfdcbff9b78d58d.mp3",
+      "audio_sha256": "581ebeb00155d14d6289b926d0106a4a00abbf521e93ba98ac9bd9bb76cb4529",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-sugar-reading.json",
+          "sha256": "581ebeb00155d14d6289b926d0106a4a00abbf521e93ba98ac9bd9bb76cb4529",
+          "model": "gpt-4o-transcribe",
+          "transcript": "甘味料を選ぶ際は、天然、無添加といった表示だけでなく、成分や使用量を確認することが重要です。"
+        }
+      ]
+    },
+    {
+      "key": "まとめ 砂糖にはさまざまな種類があり、原料や製法によって味や香り、料理への使いやすさが異なります。",
+      "card": "sugar-reading",
+      "message_id": "sugar-reading-chunk-24",
+      "batch": 3,
+      "display": "まとめ\n砂糖にはさまざまな種類があり、原料や製法によって味や香り、料理への使いやすさが異なります。\n",
+      "input": "まとめ。さとうにわさまざまなしゅるいがあり、げんりょうやせいほうによって、あじやかおり、りょうりえのつかいやすさがことなります。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "種類",
+          "reading": "しゅるい",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L61820"
+        },
+        {
+          "form": "製法",
+          "reading": "せいほう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L74425"
+        },
+        {
+          "form": "料理",
+          "reading": "りょうり",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L116664"
+        },
+        {
+          "form": "原料",
+          "reading": "げんりょう",
+          "accent_variants": [
+            3
+          ],
+          "selected_accent": 3,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L45519"
+        },
+        {
+          "form": "砂糖",
+          "reading": "さとう",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52883"
+        },
+        {
+          "form": "香り",
+          "reading": "かおり",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L50713"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 種類 しゅるい type 1; 製法 せいほう type 0; 料理 りょうり type 1; 原料 げんりょう type 3; 砂糖 さとう type 2; 香り かおり type 0.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-sugar-reading/marin-61375d55f52860b24970.mp3",
+      "audio_sha256": "6a6a4752b1e3390b3ff69ddc2db69373e4be6fcf656a82e8fdb877b932a5e900",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-sugar-reading.json",
+          "sha256": "6a6a4752b1e3390b3ff69ddc2db69373e4be6fcf656a82e8fdb877b932a5e900",
+          "model": "gpt-4o-transcribe",
+          "transcript": "まとめ、砂糖にはさまざまな種類があり、原料や製法によって、味や香り、料理への使いやすさが異なります。"
+        }
+      ]
+    },
+    {
+      "key": "健康のために特定の砂糖を選ぶことよりも、砂糖の摂取量を意識することが大切です。",
+      "card": "sugar-reading",
+      "message_id": "sugar-reading-chunk-25",
+      "batch": 4,
+      "display": "健康のために特定の砂糖を選ぶことよりも、砂糖の摂取量を意識することが大切です。\n",
+      "input": "けんこうのためにとくていのさとうおえらぶことよりも、さとうのせっしゅりょうおいしきすることがたいせつです。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "選ぶ",
+          "reading": "えらぶ",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L77499"
+        },
+        {
+          "form": "砂糖",
+          "reading": "さとう",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L52883"
+        },
+        {
+          "form": "健康",
+          "reading": "けんこう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L44067"
+        },
+        {
+          "form": "大切",
+          "reading": "たいせつ",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L83028"
+        },
+        {
+          "form": "摂取",
+          "reading": "せっしゅ",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L75839"
+        },
+        {
+          "form": "特定",
+          "reading": "とくてい",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L93405"
+        },
+        {
+          "form": "意識",
+          "reading": "いしき",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L22126"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 選ぶ えらぶ type 2; 砂糖 さとう type 2; 健康 けんこう type 0; 大切 たいせつ type 0; 摂取 せっしゅ type 1; 特定 とくてい type 0; 意識 いしき type 1.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-sugar-reading/marin-0a2cf35f87e0c0656cff.mp3",
+      "audio_sha256": "8156b621d25fd8bde7589987702aacb06f2ee5c098cf5609b768ccaf00ed5a05",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-sugar-reading.json",
+          "sha256": "8156b621d25fd8bde7589987702aacb06f2ee5c098cf5609b768ccaf00ed5a05",
+          "model": "gpt-4o-transcribe",
+          "transcript": "健康のために特定の砂糖を選ぶことよりも、砂糖の摂取量を意識することが大切です。"
+        }
+      ]
+    },
+    {
+      "key": "それぞれの特徴を理解し、料理の目的に合わせて使い分けるとよいでしょう。",
+      "card": "sugar-reading",
+      "message_id": "sugar-reading-chunk-26",
+      "batch": 4,
+      "display": "それぞれの特徴を理解し、料理の目的に合わせて使い分けるとよいでしょう。\n",
+      "input": "それぞれのとくちょうおりかいし、りょうりのもくてきにあわせてつかいわけるとよいでしょう。",
+      "voice": "marin",
+      "model": "gpt-4o-mini-tts",
+      "speed": 1.0,
+      "hiragana_reviewed": true,
+      "phrase_reviewed": true,
+      "reading_source": "Supplied source text and individually reviewed contextual article furigana; pinned Kanjium lexical reading/accent dictionary (checksum below). No whole-compound pitch verification inferred from component entries.",
+      "context_review": "Manual sentence-by-sentence review against original supplied Japanese, reviewed contextual furigana and pinned lexical reading dictionary; topic は→わ, directional へ→え, object を→お only in context. Preserve lexical は in はっこう/はたらき/はい etc. Numeric quantities, dates, counters, clause grouping and complete endings checked. Each supplied heading is spoken once with its following paragraph; original display text and lookup key unchanged. No audio playback-rate workaround.",
+      "accent_status": "provisional",
+      "accent_source": "Exact spelling/reading lexical matches below, reviewed for intended meaning; unconfirmed whole phrases/compounds provisional.",
+      "accent_components": [
+        {
+          "form": "特徴",
+          "reading": "とくちょう",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L93400"
+        },
+        {
+          "form": "料理",
+          "reading": "りょうり",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L116664"
+        },
+        {
+          "form": "理解",
+          "reading": "りかい",
+          "accent_variants": [
+            1
+          ],
+          "selected_accent": 1,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L115348"
+        },
+        {
+          "form": "目的",
+          "reading": "もくてき",
+          "accent_variants": [
+            0
+          ],
+          "selected_accent": 0,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L111711"
+        },
+        {
+          "form": "分ける",
+          "reading": "わける",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L104350"
+        },
+        {
+          "form": "合わせて",
+          "reading": "あわせて",
+          "accent_variants": [
+            2
+          ],
+          "selected_accent": 2,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L51136"
+        },
+        {
+          "form": "使い分ける",
+          "reading": "つかいわける",
+          "accent_variants": [
+            5
+          ],
+          "selected_accent": 5,
+          "source": "https://raw.githubusercontent.com/mifunetoshiro/kanjium/9ebca4589565c696e7c39e089e2e928ad65f678c/data/source_files/raw/accents.txt#L55947"
+        }
+      ],
+      "pronunciation_guidance": "Read the complete supplied hiragana once as smooth, connected Tokyo Japanese narration in the normal Marin voice, at the requested generation speed 1.0. Light pauses after complete clauses and list entries only; particles stay with the preceding phrase. Do not pause before わ/え/お particles, spell kana, omit words, add corrections or paraphrase. Preserve long vowels and doubled consonants. Whole-passage and specialist compound intonation provisional under standing authorization. Context-checked lexical Tokyo accent targets (0 heiban; other numbers drop after that mora): 特徴 とくちょう type 0; 料理 りょうり type 1; 理解 りかい type 1; 目的 もくてき type 0; 分ける わける type 2; 合わせて あわせて type 2; 使い分ける つかいわける type 5.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "audio": "audio/lessons/stories-sugar-reading/marin-0bce912239ff0c7f7304.mp3",
+      "audio_sha256": "bed95b27ddde15e49a480ee886198538f078ff04ca3b2fdcd74664ee3b5ef430",
+      "signal_checked": true,
+      "transcription_reviewed": true,
+      "transcription_review_note": "Compared recorded-word transcription against original display and checked hiragana; unclear words/omissions were independently checked and whole passages re-recorded where needed. ASR punctuation, numeral formatting and homophone kanji differences are not listening or pitch verification.",
+      "transcription_evidence": [
+        {
+          "report": "docs/lesson-audio-audits/stories-sugar-reading.json",
+          "sha256": "bed95b27ddde15e49a480ee886198538f078ff04ca3b2fdcd74664ee3b5ef430",
+          "model": "gpt-4o-transcribe",
+          "transcript": "それぞれの特徴を理解し、料理の目的に合わせて使い分けるとよいでしょう。"
+        }
+      ]
+    }
+  ]
+}

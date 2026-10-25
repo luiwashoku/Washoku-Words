@@ -1,0 +1,14 @@
+{
+  "method": "Generic hiragana transcription request; no expected words or quantities supplied. Automated comparison, not listening or pitch verification.",
+  "entries": {
+    "sugar-reading-chunk-17": {
+      "number": 17,
+      "sha256": "77a07e78f3bf9e8a62ede1fde56ef87ab05208a9097cb1b1cf6a2958173c0165",
+      "audio": "audio/lessons/stories-sugar-reading/marin-30e6d688e7fdffdbd126.mp3",
+      "transcript": "例えば黒糖豚の角煮に使うと独特の黒糖、濃い色を加えることができます。一方、白砂糖は癖が少ないため、素材本来の風味や色を生かしたい料理に向いています。",
+      "model": "gpt-4o-transcribe",
+      "expected_text_prompt": false,
+      "generic_phonetic_prompt": true
+    }
+  }
+}

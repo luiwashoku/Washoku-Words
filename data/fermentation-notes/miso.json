@@ -1,0 +1,3589 @@
+{
+  "title": "味噌の事／味噌作り",
+  "sourceFile": "data/fermentation-notes/miso-source.txt",
+  "sourceDocument": "🔵基本　味噌-1.pdf",
+  "sourcePageCount": 10,
+  "sourceNotes": [
+    "PDF text extraction is retained verbatim with form-feed page separators. Column reading order is restored in individual recipe cards. Photo reference labels are preserved in passage text and figure captions; standalone duplicated image labels are not separate reading passages. The identical afterword on pages 8 and 10 is displayed once. Original wording, including apparent source typos, is retained.",
+    "At the user’s request, redundant photo-reference letters have been removed from reading passages, English translations and figure captions. The original PDF transcription is unchanged."
+  ],
+  "entries": [
+    {
+      "id": "miso-basics",
+      "step": 1,
+      "kanji": "味噌の事／味噌作り",
+      "japanese": "味噌の事／味噌作り",
+      "english": "",
+      "sourcePages": [
+        1,
+        2
+      ],
+      "furigana": {
+        "発酵": "はっこう",
+        "麹": "こうじ",
+        "成": "な",
+        "事": "こと",
+        "同": "おな",
+        "食": "た",
+        "決": "き",
+        "糖": "とう",
+        "中": "なか",
+        "旨味": "うまみ",
+        "高": "たか",
+        "出来": "でき",
+        "作": "つく",
+        "出": "だ",
+        "種類": "しゅるい",
+        "違": "ちが",
+        "時": "とき",
+        "加": "くわ",
+        "味": "あじ",
+        "常": "つね",
+        "大": "おお",
+        "味噌": "みそ",
+        "大豆": "だいず",
+        "材料": "ざいりょう",
+        "変化": "へんか",
+        "起": "お",
+        "間": "あいだ",
+        "混": "ま",
+        "米": "こめ",
+        "米麹": "こめこうじ",
+        "水": "みず",
+        "蒸": "むし",
+        "含": "ふく",
+        "アミノ酸": "あみのさん",
+        "類": "るい",
+        "分": "ぶん",
+        "製法": "せいほう",
+        "今回": "こんかい",
+        "通常": "つうじょう",
+        "変": "か",
+        "甘": "あま",
+        "原料": "げんりょう",
+        "口": "くち",
+        "時間": "じかん",
+        "手": "て",
+        "原因": "げんいん",
+        "酸": "さん",
+        "量": "りょう",
+        "倍": "ばい",
+        "塩分": "えんぶん",
+        "辛": "から",
+        "出汁": "だし",
+        "塩": "しお",
+        "漬": "つ",
+        "通": "とお",
+        "汁": "しる",
+        "煮": "に",
+        "熟成": "じゅくせい",
+        "合": "あ",
+        "包": "つつ",
+        "回": "かい",
+        "後": "あと",
+        "歩": "ぶ",
+        "要": "い",
+        "進": "すす",
+        "麹歩合": "こうじぶあい",
+        "米味噌": "こめみそ",
+        "麦味噌": "むぎみそ",
+        "豆味噌": "まめみそ",
+        "調合味噌": "ちょうごうみそ",
+        "麦麹": "むぎこうじ",
+        "大豆麹": "だいずこうじ",
+        "仙台": "せんだい",
+        "越後": "えちご",
+        "信州": "しんしゅう",
+        "江戸": "えど",
+        "西京": "さいきょう",
+        "ハ丁": "はっちょう",
+        "含量": "がんりょう",
+        "濃淡": "のうたん",
+        "褐色": "かっしょく",
+        "浸漬": "しんせき",
+        "蒸煮": "じょうしゃ",
+        "冷却": "れいきゃく",
+        "堀だし": "ほりだし",
+        "天地返し": "てんちがえし",
+        "調合": "ちょうごう",
+        "包装": "ほうそう",
+        "種水": "たねみず",
+        "塩きり麹": "しおきりこうじ",
+        "辛口": "からくち",
+        "甘口": "あまくち",
+        "歩合": "ぶあい",
+        "塩分量": "えんぶんりょう",
+        "食塩": "しょくえん",
+        "決め手": "きめて",
+        "煮大豆": "にだいず",
+        "割合": "わりあい",
+        "高級": "こうきゅう",
+        "最高級": "さいこうきゅう",
+        "反応": "はんのう",
+        "講座": "こうざ",
+        "混合": "こんごう",
+        "色": "いろ",
+        "違い": "ちがい",
+        "差": "さ",
+        "進む": "すすむ",
+        "商品": "しょうひん",
+        "経つ": "たつ",
+        "濃く": "こく",
+        "返し": "かえし",
+        "加え": "くわえ",
+        "割": "わり",
+        "塩きり": "しおきり",
+        "塩分控えめ": "えんぶんひかえめ",
+        "分ける": "わける",
+        "2つ": "ふたつ",
+        "3種類": "さんしゅるい",
+        "10歩": "じゅうぶ",
+        "長野": "ながの",
+        "全国": "ぜんこく",
+        "生産量": "せいさんりょう",
+        "占める": "しめる",
+        "淡色": "たんしょく",
+        "代表格": "だいひょうかく",
+        "酸味": "さんみ",
+        "芳香": "ほうこう",
+        "持ち": "もち",
+        "今や": "いまや",
+        "全国的": "ぜんこくてき",
+        "生産": "せいさん",
+        "津軽": "つがる",
+        "青森": "あおもり",
+        "長期熟成型": "ちょうきじゅくせいがた",
+        "赤色": "あかいろ",
+        "中辛": "ちゅうから",
+        "低く": "ひくく",
+        "十分": "じゅうぶん",
+        "独特": "どくとく",
+        "関西地方": "かんさいちほう",
+        "関西": "かんさい",
+        "白みそ": "しろみそ",
+        "甘みそ": "あまみそ",
+        "強い": "つよい",
+        "着色": "ちゃくしょく",
+        "抑える": "おさえる",
+        "精米度": "せいまいど",
+        "脱皮": "だっぴ",
+        "用い": "もちい",
+        "蒸さず": "むさず",
+        "短期熟成型": "たんきじゅくせいがた",
+        "長期保存": "ちょうきほぞん",
+        "向かない": "むかない",
+        "江戸甘みそ": "えどあまみそ",
+        "東京": "とうきょう",
+        "避ける": "さける",
+        "蒸した": "むした",
+        "赤褐色": "せっかっしょく",
+        "使用": "しよう",
+        "濃厚": "のうこう",
+        "光沢": "こうたく",
+        "香り": "かおり",
+        "有する": "ゆうする",
+        "東海": "とうかい",
+        "豆みそ": "まめみそ",
+        "愛知": "あいち",
+        "三重": "みえ",
+        "岐阜": "ぎふ",
+        "名古屋": "なごや",
+        "三州": "さんしゅう",
+        "三河": "みかわ",
+        "八丁": "はっちょう",
+        "呼称": "こしょう",
+        "銘柄名": "めいがらめい",
+        "呼ばれる": "よばれる",
+        "中京地方": "ちゅうきょうちほう",
+        "総称": "そうしょう",
+        "渋み": "しぶみ",
+        "若干": "じゃっかん",
+        "苦味": "にがみ",
+        "赤だし": "あかだし",
+        "原型": "げんけい",
+        "現在": "げんざい",
+        "調味料": "ちょうみりょう",
+        "配合": "はいごう",
+        "多い": "おおい",
+        "九州": "きゅうしゅう",
+        "北九州地方": "きたきゅうしゅうちほう",
+        "南九州地方": "みなみきゅうしゅうちほう",
+        "造った": "つくった",
+        "北部": "ほくぶ",
+        "麦": "むぎ",
+        "近年": "きんねん",
+        "見られる": "みられる",
+        "凡例": "はんれい",
+        "米みそ圏": "こめみそけん",
+        "豆みそ圏": "まめみそけん",
+        "麦みそ圏": "むぎみそけん",
+        "表して": "あらわして",
+        "持つ": "もつ",
+        "約": "やく"
+      },
+      "messages": [
+        {
+          "id": "miso-basics-chunk-01",
+          "japanese": "(1)味噌の種類と麹歩合\n麹の原料から味噌は米味噌、麦味噌、豆味噌の3種類とこれらを混合した調合味噌に分ける事が\n出来ます。",
+          "english": "(1) Types of miso and the koji ratio\nBy the ingredient used for the koji, miso is divided into three types—rice miso, barley miso and soybean miso—and blended miso made by combining them.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "(1)味噌の種類と麹歩合"
+            },
+            {
+              "type": "paragraph",
+              "text": "麹の原料から味噌は米味噌、麦味噌、豆味噌の3種類とこれらを混合した調合味噌に分ける事が\n出来ます。"
+            }
+          ],
+          "sourcePages": [
+            1
+          ],
+          "images": [
+            {
+              "src": "assets/fermentation-notes/miso/miso-map.jpg",
+              "alt": "Regional miso map from the PDF",
+              "width": 1701,
+              "height": 1281,
+              "sourcePage": 1
+            }
+          ]
+        },
+        {
+          "id": "miso-map-chunk-01",
+          "japanese": "お味噌マップ\n信州みそ（長野）\n全国の生産量の約40％を占める淡色辛口みその代表格。やや酸味のある芳香を持ち、今や全国的に生産されている。",
+          "english": "Miso map\nShinshu miso (Nagano)\nA leading example of pale, savory miso, accounting for around 40% of national production. It has a fragrant aroma with a slight acidity and is now produced throughout Japan.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "お味噌マップ"
+            },
+            {
+              "type": "heading",
+              "text": "信州みそ（長野）"
+            },
+            {
+              "type": "paragraph",
+              "text": "全国の生産量の約40％を占める淡色辛口みその代表格。やや酸味のある芳香を持ち、今や全国的に生産されている。"
+            }
+          ],
+          "sourceFile": "data/fermentation-notes/miso-map-source.txt"
+        },
+        {
+          "id": "miso-map-chunk-02",
+          "japanese": "津軽みそ（青森）\n米みその中でも、長期熟成型の赤色中辛みそ。麹の割合が低く塩分も高いが十分に塩がこなれ、独特の旨味になっている。",
+          "english": "Tsugaru miso (Aomori)\nA long-matured, red, moderately savory rice miso. Its koji proportion is low and its salt content high, but the salt becomes well integrated, creating a distinctive umami.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "津軽みそ（青森）"
+            },
+            {
+              "type": "paragraph",
+              "text": "米みその中でも、長期熟成型の赤色中辛みそ。麹の割合が低く塩分も高いが十分に塩がこなれ、独特の旨味になっている。"
+            }
+          ],
+          "sourceFile": "data/fermentation-notes/miso-map-source.txt"
+        },
+        {
+          "id": "miso-map-chunk-03",
+          "japanese": "関西白みそ（関西地方）\n関西地方で生産されている甘みそ。米麹の割合が高く甘味が強い。着色を抑えるため、精米度を高くし、大豆は脱皮したものを用い、蒸さずに煮る。短期熟成型のみそで長期保存には向かない。",
+          "english": "Kansai white miso (Kansai region)\nA sweet miso produced in Kansai. Its high proportion of rice koji gives it strong sweetness. To limit browning, highly polished rice and dehulled soybeans are used, and the soybeans are boiled rather than steamed. It matures quickly and is unsuitable for long storage.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "関西白みそ（関西地方）"
+            },
+            {
+              "type": "paragraph",
+              "text": "関西地方で生産されている甘みそ。米麹の割合が高く甘味が強い。着色を抑えるため、精米度を高くし、大豆は脱皮したものを用い、蒸さずに煮る。短期熟成型のみそで長期保存には向かない。"
+            }
+          ],
+          "sourceFile": "data/fermentation-notes/miso-map-source.txt"
+        },
+        {
+          "id": "miso-map-chunk-04",
+          "japanese": "江戸甘みそ（東京）\n白みそが着色を避けるために大豆を煮るのと違い、蒸した大豆を用いるため、色は赤褐色。米麹をたっぷり使用しているため濃厚な甘味と独特の光沢、香りを有する。",
+          "english": "Edo sweet miso (Tokyo)\nUnlike white miso, which uses boiled soybeans to avoid browning, this miso uses steamed soybeans and is reddish brown. Generous amounts of rice koji give it a rich sweetness and a distinctive sheen and aroma.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "江戸甘みそ（東京）"
+            },
+            {
+              "type": "paragraph",
+              "text": "白みそが着色を避けるために大豆を煮るのと違い、蒸した大豆を用いるため、色は赤褐色。米麹をたっぷり使用しているため濃厚な甘味と独特の光沢、香りを有する。"
+            }
+          ],
+          "sourceFile": "data/fermentation-notes/miso-map-source.txt"
+        },
+        {
+          "id": "miso-map-chunk-05",
+          "japanese": "東海豆みそ（愛知、三重、岐阜）\n名古屋みそ、三州みそ、三河みそ、八丁みそなどいろいろな呼称、銘柄名で呼ばれる中京地方の豆みその総称。濃厚なうま味と渋み、若干の苦味を持つ。「赤だし」の原型だが、現在は豆みそに米みそや調味料を配合したものが「赤だし」と呼ばれることが多い。",
+          "english": "Tokai soybean miso (Aichi, Mie, Gifu)\nA collective name for soybean miso from the Chukyo region, known by names and brands such as Nagoya, Sanshu, Mikawa and Hatcho miso. It has rich umami, astringency and a slight bitterness. It is the original form of “akadashi,” although today that name often refers to soybean miso blended with rice miso or seasonings.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "東海豆みそ（愛知、三重、岐阜）"
+            },
+            {
+              "type": "paragraph",
+              "text": "名古屋みそ、三州みそ、三河みそ、八丁みそなどいろいろな呼称、銘柄名で呼ばれる中京地方の豆みその総称。濃厚なうま味と渋み、若干の苦味を持つ。「赤だし」の原型だが、現在は豆みそに米みそや調味料を配合したものが「赤だし」と呼ばれることが多い。"
+            }
+          ],
+          "sourceFile": "data/fermentation-notes/miso-map-source.txt"
+        },
+        {
+          "id": "miso-map-chunk-06",
+          "japanese": "九州あわせ味噌（北九州地方）\n米麹と麦麹をあわせて造ったもの。",
+          "english": "Kyushu blended miso (northern Kyushu)\nMade by combining rice koji and barley koji.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "九州あわせ味噌（北九州地方）"
+            },
+            {
+              "type": "paragraph",
+              "text": "米麹と麦麹をあわせて造ったもの。"
+            }
+          ],
+          "sourceFile": "data/fermentation-notes/miso-map-source.txt"
+        },
+        {
+          "id": "miso-map-chunk-07",
+          "japanese": "九州麦みそ（南九州地方）\n麦麹の割合が高く甘口のものが多いが、北部では麦独特の芳香を有する辛口も多い。近年では麦麹に米麹を混ぜた「合わせみそ」も見られる。",
+          "english": "Kyushu barley miso (southern Kyushu)\nMany varieties are sweet, with a high proportion of barley koji. In the north, savory varieties with barley’s distinctive aroma are also common. More recently, blended miso combining barley koji with rice koji can also be found.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "九州麦みそ（南九州地方）"
+            },
+            {
+              "type": "paragraph",
+              "text": "麦麹の割合が高く甘口のものが多いが、北部では麦独特の芳香を有する辛口も多い。近年では麦麹に米麹を混ぜた「合わせみそ」も見られる。"
+            }
+          ],
+          "sourceFile": "data/fermentation-notes/miso-map-source.txt"
+        },
+        {
+          "id": "miso-map-chunk-08",
+          "japanese": "凡例\nは米みそ圏\nは豆みそ圏\nは麦みそ圏\nを表しています。",
+          "english": "Legend\n• Rice miso region\n• Soybean miso region\n• Barley miso region\nThese are the regions indicated on the map.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "凡例"
+            },
+            {
+              "type": "list",
+              "items": [
+                "は米みそ圏",
+                "は豆みそ圏",
+                "は麦みそ圏"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "を表しています。"
+            }
+          ],
+          "sourceFile": "data/fermentation-notes/miso-map-source.txt"
+        },
+        {
+          "id": "miso-basics-chunk-02",
+          "japanese": " 大豆含量 麹含量 塩分 \n仙台味噌 10 6 18% \n越後味噌 10 7 13% \n信州味噌 10 8 ⇩ \n江戸味噌 10 10 ⇩ \n西京味噌 10 20 7% 出汁要らず\nハ丁味噌  大豆麹のみ 12% ",
+          "english": "Soybean content / koji content / salt\n• Sendai miso: 10 / 6 / 18%\n• Echigo miso: 10 / 7 / 13%\n• Shinshu miso: 10 / 8 / ↓\n• Edo miso: 10 / 10 / ↓\n• Saikyo miso: 10 / 20 / 7%; no dashi needed\n• Hatcho miso: soybean koji only / 12%",
+          "blocks": [
+            {
+              "type": "table",
+              "label": "味噌の麹歩合と塩分",
+              "headers": [
+                "",
+                "大豆含量",
+                "麹含量",
+                "塩分",
+                ""
+              ],
+              "rows": [
+                [
+                  "仙台味噌",
+                  "10",
+                  "6",
+                  "18%",
+                  ""
+                ],
+                [
+                  "越後味噌",
+                  "10",
+                  "7",
+                  "13%",
+                  ""
+                ],
+                [
+                  "信州味噌",
+                  "10",
+                  "8",
+                  "⇩",
+                  ""
+                ],
+                [
+                  "江戸味噌",
+                  "10",
+                  "10",
+                  "⇩",
+                  ""
+                ],
+                [
+                  "西京味噌",
+                  "10",
+                  "20",
+                  "7%",
+                  "出汁要らず"
+                ],
+                [
+                  "ハ丁味噌",
+                  "",
+                  "大豆麹のみ",
+                  "12%",
+                  ""
+                ]
+              ]
+            }
+          ],
+          "sourcePages": [
+            1
+          ]
+        },
+        {
+          "id": "miso-basics-chunk-03",
+          "japanese": "米味噌は大豆に米麹、麦味噌は大豆に麦麹、合わせ味噌は大豆に米麹と麦麹を加えたもの、\n豆味噌は大豆に大豆麹を合わせて作ります。",
+          "english": "Rice miso is made by adding rice koji to soybeans; barley miso uses barley koji with soybeans. Blended miso adds both rice and barley koji to soybeans, while soybean miso combines soybeans with soybean koji.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "米味噌は大豆に米麹、麦味噌は大豆に麦麹、合わせ味噌は大豆に米麹と麦麹を加えたもの、\n豆味噌は大豆に大豆麹を合わせて作ります。"
+            }
+          ],
+          "sourcePages": [
+            1
+          ]
+        },
+        {
+          "id": "miso-basics-chunk-04",
+          "japanese": "味噌の色の違い、濃淡の差が出るのは、発酵熟成中に起こるメイラード反応が原因です。\nメイラード反応とは原料である大豆などのアミノ酸が糖と反応して褐色に変化する事。\n商品になっても熟成は進むので時間が経つと色が濃くなっていきます。",
+          "english": "The differences in miso’s color and depth of color are caused by the Maillard reaction during fermentation and maturation.\nThis is the reaction of amino acids in ingredients such as soybeans with sugars, producing a brown color.\nMaturation continues even after the miso becomes a commercial product, so its color deepens over time.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "味噌の色の違い、濃淡の差が出るのは、発酵熟成中に起こるメイラード反応が原因です。"
+            },
+            {
+              "type": "paragraph",
+              "text": "メイラード反応とは原料である大豆などのアミノ酸が糖と反応して褐色に変化する事。"
+            },
+            {
+              "type": "paragraph",
+              "text": "商品になっても熟成は進むので時間が経つと色が濃くなっていきます。"
+            }
+          ],
+          "sourcePages": [
+            1
+          ]
+        },
+        {
+          "id": "miso-basics-chunk-05",
+          "japanese": "(2)味噌の製法\n食塩 ＋ 麹 (塩きり麹)\n⬇\n大豆̶浸漬̶蒸煮̶冷却̶蒸煮大豆̶混合̶発酵•熟成̶堀だし•天地返し̶調合̶包装\n⬆\n種水",
+          "english": "(2) How miso is made\nSalt + koji (salt-mixed koji)\nSoybeans → soaking → steaming or boiling → cooling → cooked soybeans → mixing → fermentation and maturation → removing and turning → blending → packaging.\nThe salt-mixed koji and starter liquid are added during the process.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "(2)味噌の製法"
+            },
+            {
+              "type": "flow",
+              "text": "食塩 ＋ 麹 (塩きり麹)\n⬇\n大豆̶浸漬̶蒸煮̶冷却̶蒸煮大豆̶混合̶発酵•熟成̶堀だし•天地返し̶調合̶包装\n⬆\n種水"
+            }
+          ],
+          "sourcePages": [
+            2
+          ]
+        },
+        {
+          "id": "miso-basics-chunk-06",
+          "japanese": "お味噌の味の決め手は2つあります。\n麹歩合\n◯麹と大豆の割合のこと\n◯麹の割合が高いほど旨味があり甘く高級なお味噌\n＊今回の講座の味噌は30歩合味噌。麹が大豆の3倍の量なので旨味のある最高級のお味噌が出来ま\nす。\n⬇\n通常の辛口味噌 5～10歩合 (10歩とは大豆と麹の量が同じ)\n通常の甘口味噌 15～20歩合",
+          "english": "Two factors determine the taste of miso.\nKoji ratio\n• This is the ratio of koji to soybeans.\n• A higher proportion of koji gives a sweeter, more umami-rich and higher-grade miso.\nThe miso in this course has a koji ratio of 30: the amount of koji is three times the soybeans, producing a top-grade miso rich in umami.\nTypical savory miso: a ratio of 5–10 (10 means equal amounts of soybeans and koji).\nTypical sweet miso: a ratio of 15–20.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "お味噌の味の決め手は2つあります。"
+            },
+            {
+              "type": "heading",
+              "text": "麹歩合"
+            },
+            {
+              "type": "list",
+              "items": [
+                "◯麹と大豆の割合のこと",
+                "◯麹の割合が高いほど旨味があり甘く高級なお味噌"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "＊今回の講座の味噌は30歩合味噌。麹が大豆の3倍の量なので旨味のある最高級のお味噌が出来ま\nす。"
+            },
+            {
+              "type": "paragraph",
+              "text": "⬇"
+            },
+            {
+              "type": "paragraph",
+              "text": "通常の辛口味噌 5～10歩合 (10歩とは大豆と麹の量が同じ)"
+            },
+            {
+              "type": "paragraph",
+              "text": "通常の甘口味噌 15～20歩合"
+            }
+          ],
+          "sourcePages": [
+            2
+          ]
+        },
+        {
+          "id": "miso-basics-chunk-07",
+          "japanese": "塩分量\n通常の辛口味噌塩分量 11～13%\n通常の甘口味噌塩分量 7～11%\n⬇\n＊今回の講座の味噌は10%の塩分量なので塩分控えめです。\n塩分量(%) 🟰 塩(g) ×100\n塩＋材料(麹＋大豆)\nMemo",
+          "english": "Salt content\nTypical savory miso: 11–13% salt.\nTypical sweet miso: 7–11% salt.\nThe miso in this course contains 10% salt, so it is relatively low in salt.\nSalt percentage = salt ÷ [salt + ingredients (koji + soybeans)] × 100.\nMemo",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "塩分量"
+            },
+            {
+              "type": "paragraph",
+              "text": "通常の辛口味噌塩分量 11～13%"
+            },
+            {
+              "type": "paragraph",
+              "text": "通常の甘口味噌塩分量 7～11%"
+            },
+            {
+              "type": "paragraph",
+              "text": "⬇"
+            },
+            {
+              "type": "paragraph",
+              "text": "＊今回の講座の味噌は10%の塩分量なので塩分控えめです。"
+            },
+            {
+              "type": "paragraph",
+              "text": "塩分量(%) 🟰 塩(g) ×100\n塩＋材料(麹＋大豆)"
+            },
+            {
+              "type": "paragraph",
+              "text": "Memo"
+            }
+          ],
+          "sourcePages": [
+            2
+          ]
+        }
+      ],
+      "englishHeadingLines": [
+        "Ingredients",
+        "Preparation on the day",
+        "Salt content",
+        "Koji ratio",
+        "Preparation the day before",
+        "Meat",
+        "Fish and vegetables",
+        "Storage",
+        "Precautions",
+        "When to start eating it",
+        "Characteristics",
+        "White miso",
+        "Fermentation location and precautions",
+        "Shinshu miso (Nagano)",
+        "Tsugaru miso (Aomori)",
+        "Kansai white miso (Kansai region)",
+        "Edo sweet miso (Tokyo)",
+        "Tokai soybean miso (Aichi, Mie, Gifu)",
+        "Kyushu blended miso (northern Kyushu)",
+        "Kyushu barley miso (southern Kyushu)",
+        "Miso map",
+        "Legend"
+      ]
+    },
+    {
+      "id": "miso-rice",
+      "step": 2,
+      "kanji": "(3)米味噌造り",
+      "japanese": "(3)米味噌造り",
+      "english": "",
+      "sourcePages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "furigana": {
+        "発酵": "はっこう",
+        "基本": "きほん",
+        "麹": "こうじ",
+        "成": "な",
+        "逆": "ぎゃく",
+        "菌": "きん",
+        "食": "た",
+        "生": "い",
+        "為": "ため",
+        "取": "と",
+        "込": "こ",
+        "美味": "おい",
+        "出来": "でき",
+        "出": "だ",
+        "天然": "てんねん",
+        "空気": "くうき",
+        "家": "いえ",
+        "種類": "しゅるい",
+        "仕込み": "しこみ",
+        "時": "とき",
+        "始": "はじ",
+        "加": "くわ",
+        "良": "よ",
+        "味": "あじ",
+        "出来上": "できあ",
+        "常": "つね",
+        "保存": "ほぞん",
+        "瓶": "びん",
+        "消毒": "しょうどく",
+        "大": "おお",
+        "味噌": "みそ",
+        "大豆": "だいず",
+        "材料": "ざいりょう",
+        "周": "まわ",
+        "間": "あいだ",
+        "混": "ま",
+        "完成": "かんせい",
+        "心地良": "ここちよ",
+        "呼": "よ",
+        "利用": "りよう",
+        "米": "こめ",
+        "米麹": "こめこうじ",
+        "水": "みず",
+        "醤油": "しょうゆ",
+        "固": "かた",
+        "毒": "どく",
+        "弱": "じゃく",
+        "製造": "せいぞう",
+        "新": "あら",
+        "アミノ酸": "あみのさん",
+        "類": "るい",
+        "分": "ぶん",
+        "好": "この",
+        "力": "ちから",
+        "上": "うえ",
+        "方法": "ほうほう",
+        "水分": "すいぶん",
+        "少": "すく",
+        "前": "まえ",
+        "入": "い",
+        "温": "あたた",
+        "造": "つく",
+        "保": "たも",
+        "都度": "つど",
+        "超": "こ",
+        "時間": "じかん",
+        "8時間": "はちじかん",
+        "良く": "よく",
+        "混ぜ合": "まぜあ",
+        "約": "やく",
+        "手": "て",
+        "仕込": "しこ",
+        "原因": "げんいん",
+        "酸": "さん",
+        "思": "おも",
+        "洗": "あら",
+        "容器": "ようき",
+        "冷蔵": "れいぞう",
+        "止": "と",
+        "大丈夫": "だいじょうぶ",
+        "毎日": "まいにち",
+        "位": "くらい",
+        "量": "りょう",
+        "消": "き",
+        "場合": "ばあい",
+        "上が": "あが",
+        "倍": "ばい",
+        "取り除": "とりのぞ",
+        "以上": "いじょう",
+        "方": "かた",
+        "続": "つづ",
+        "切": "き",
+        "程": "ほど",
+        "塩": "しお",
+        "火": "ひ",
+        "汁": "しる",
+        "煮": "に",
+        "塩切り": "しおきり",
+        "直射日光": "ちょくしゃにっこう",
+        "当": "あ",
+        "場所": "ばしょ",
+        "春": "はる",
+        "夏": "なつ",
+        "軽く": "かるく",
+        "冷蔵庫": "れいぞうこ",
+        "熟成": "じゅくせい",
+        "合": "あ",
+        "便利": "べんり",
+        "又": "また",
+        "回": "かい",
+        "後": "あと",
+        "折": "お",
+        "押": "お",
+        "接": "せっ",
+        "書": "か",
+        "替": "か",
+        "異": "こと",
+        "白": "しろ",
+        "等": "など",
+        "終": "お",
+        "袋": "ふくろ",
+        "進": "すす",
+        "重": "おも",
+        "除": "のぞ",
+        "米味噌": "こめみそ",
+        "塩切り麹": "しおきりこうじ",
+        "生大豆": "なまだいず",
+        "煮大豆": "にだいず",
+        "煮汁": "にじる",
+        "天然水": "てんねんすい",
+        "前日": "ぜんじつ",
+        "当日": "とうじつ",
+        "圧力鍋": "あつりょくなべ",
+        "加圧": "かあつ",
+        "弱火": "よわび",
+        "煮上がった": "にあがった",
+        "硬さ": "かたさ",
+        "潰": "つぶ",
+        "温かい": "あたたかい",
+        "専用容器": "せんようようき",
+        "内側": "うちがわ",
+        "縁": "ふち",
+        "塊": "かたまり",
+        "発麹": "はっこう",
+        "上手く": "うまく",
+        "耳たぶ": "みみたぶ",
+        "団子": "だんご",
+        "継ぎ目": "つぎめ",
+        "片方": "かたほう",
+        "製造日": "せいぞうび",
+        "自家製": "じかせい",
+        "斑点": "はんてん",
+        "稀": "まれ",
+        "殺菌": "さっきん",
+        "発酵場所": "はっこうばしょ",
+        "気に留め": "きにとめ",
+        "常時": "じょうじ",
+        "上下左右": "じょうげさゆう",
+        "保存方法": "ほぞんほうほう",
+        "適量": "てきりょう",
+        "溜まっ": "たまっ",
+        "緑": "みどり",
+        "赤色": "あかいろ",
+        "空調": "くうちょう",
+        "仕上": "しあ",
+        "表面": "ひょうめん",
+        "出来上がり": "できあがり",
+        "内": "うち",
+        "逆さ": "さかさ",
+        "完了": "かんりょう",
+        "捨て": "すて",
+        "好み": "このみ",
+        "指": "ゆび",
+        "色": "いろ",
+        "造り": "づくり",
+        "味噌造り": "みそづくり",
+        "準備": "じゅんび",
+        "保存用": "ほぞんよう",
+        "仕込み前日": "しこみぜんじつ",
+        "煮る": "にる",
+        "鍋": "なべ",
+        "程度": "ていど",
+        "硬": "かた",
+        "混ぜ合わせ": "まぜあわせ",
+        "固ければ": "かたければ",
+        "柔らかさ": "やわらかさ",
+        "状": "じょう",
+        "数回": "すうかい",
+        "残": "のこ",
+        "丁寧": "ていねい",
+        "閉め": "しめ",
+        "閉じ": "とじ",
+        "抜": "ぬ",
+        "白い": "しろい",
+        "部分": "ぶぶん",
+        "周り": "まわり",
+        "続け": "つづけ",
+        "注意点": "ちゅういてん",
+        "避け": "さけ",
+        "寒い": "さむい",
+        "暑い": "あつい",
+        "春夏": "はるなつ",
+        "週": "しゅう",
+        "返し": "かえし",
+        "地域": "ちいき",
+        "元": "もと",
+        "膨れ": "ふくれ",
+        "本": "ほん",
+        "片": "かけ",
+        "度": "ど",
+        "ヶ月": "かげつ",
+        "月": "がつ",
+        "日": "にち",
+        "混ぜ": "まぜ",
+        "取り": "とり",
+        "止め": "とめ",
+        "美味しさ": "おいしさ",
+        "基本的": "きほんてき",
+        "声": "こえ",
+        "気": "き",
+        "留め": "とめ",
+        "心地良い": "ここちよい",
+        "超える": "こえる",
+        "当たる": "あたる",
+        "時期": "じき",
+        "食べ始める": "たべはじめる",
+        "美味しい": "おいしい",
+        "浸け": "つけ",
+        "塩切り麹に": "しおきりこうじに",
+        "混ぜ合わせて": "まぜあわせて",
+        "混ぜ合わせます": "まぜあわせます",
+        "手や瓶": "てやびん",
+        "良い": "よい",
+        "20分": "にじゅっぷん",
+        "60回": "ろくじゅっかい",
+        "6~9月": "ろくがつからくがつ"
+      },
+      "messages": [
+        {
+          "id": "miso-rice-chunk-01",
+          "japanese": "🔲 【材料】 出来上がり味噌 2KG\n○米麹 900g\n○生大豆 300g 約800gの煮大豆になります。大豆の種類や大きさによって異なります\n○塩 200g\n○煮汁または天然水 適量\n○保存用ビニール袋 (ラミジﾂプ LZー20)",
+          "english": "Ingredients — makes 2 kg of miso\n• Rice koji: 900 g\n• Raw soybeans: 300 g; yields about 800 g of cooked soybeans, depending on their variety and size\n• Salt: 200 g\n• Cooking liquid or natural mineral water: as needed\n• Plastic storage bag (Lamizip LZ-20)",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "🔲 【材料】 出来上がり味噌 2KG"
+            },
+            {
+              "type": "list",
+              "items": [
+                "○米麹 900g",
+                "○生大豆 300g 約800gの煮大豆になります。大豆の種類や大きさによって異なります",
+                "○塩 200g",
+                "○煮汁または天然水 適量",
+                "○保存用ビニール袋 (ラミジﾂプ LZー20)"
+              ]
+            }
+          ],
+          "sourcePages": [
+            3
+          ]
+        },
+        {
+          "id": "miso-rice-chunk-02",
+          "japanese": "🔲 仕込み前日の準備\n○大豆を良く洗う\n○大豆の3倍の量の水に浸ける\n○18時間以上水に浸ける。2.2倍の重さになる。",
+          "english": "Preparation the day before\n• Wash the soybeans well.\n• Soak in three times their volume of water.\n• Soak for at least 18 hours. Their weight increases to 2.2 times the original.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "🔲 仕込み前日の準備"
+            },
+            {
+              "type": "list",
+              "items": [
+                "○大豆を良く洗う",
+                "○大豆の3倍の量の水に浸ける",
+                "○18時間以上水に浸ける。2.2倍の重さになる。"
+              ]
+            }
+          ],
+          "sourcePages": [
+            3
+          ],
+          "images": [
+            {
+              "src": "assets/fermentation-notes/miso/miso-soak.jpg",
+              "alt": "Miso preparation photographs from the PDF: soak",
+              "width": 357,
+              "height": 267,
+              "sourcePage": 3
+            }
+          ]
+        },
+        {
+          "id": "miso-rice-chunk-03",
+          "japanese": "🔲 当日の準備\n①大豆を煮る\n前日から水に浸けていた大豆を鍋か圧力鍋で煮ます。\n水は新しく入れ替えてひたひたになる程度の量です。\n•圧力鍋の場合 加圧約20分\n•鍋の場合 4時間程度 弱火",
+          "english": "Preparation on the day\n① Cook the soybeans.\nCook the soybeans soaked since the previous day in a saucepan or pressure cooker. Replace the soaking water with fresh water, just enough to cover them.\n• Pressure cooker: about 20 minutes under pressure\n• Saucepan: about 4 hours over low heat",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "🔲 当日の準備"
+            },
+            {
+              "type": "step",
+              "text": "①大豆を煮る"
+            },
+            {
+              "type": "paragraph",
+              "text": "前日から水に浸けていた大豆を鍋か圧力鍋で煮ます。"
+            },
+            {
+              "type": "paragraph",
+              "text": "水は新しく入れ替えてひたひたになる程度の量です。"
+            },
+            {
+              "type": "list",
+              "items": [
+                "•圧力鍋の場合 加圧約20分",
+                "•鍋の場合 4時間程度 弱火"
+              ]
+            }
+          ],
+          "sourcePages": [
+            3
+          ],
+          "images": [
+            {
+              "src": "assets/fermentation-notes/miso/miso-boil.jpg",
+              "alt": "Miso preparation photographs from the PDF: boil",
+              "width": 331,
+              "height": 249,
+              "sourcePage": 3
+            }
+          ]
+        },
+        {
+          "id": "miso-rice-chunk-04",
+          "japanese": "煮上がった大豆は指で軽く潰せる硬さがベストです。",
+          "english": "The cooked soybeans should be soft enough to crush easily between your fingers.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "煮上がった大豆は指で軽く潰せる硬さがベストです。"
+            }
+          ],
+          "sourcePages": [
+            3
+          ],
+          "images": [
+            {
+              "src": "assets/fermentation-notes/miso/miso-softness.jpg",
+              "alt": "Miso preparation photographs from the PDF: softness",
+              "width": 331,
+              "height": 247,
+              "sourcePage": 3
+            }
+          ]
+        },
+        {
+          "id": "miso-rice-chunk-05",
+          "japanese": "②温かいうちに大豆を潰します。ビニールに入れて手や瓶で潰していきます。\nハンドミキサーがあれば便利です。潰した大豆が約800g出来上がります。",
+          "english": "② Mash the soybeans while warm. Put them in a plastic bag and crush them with your hands or a bottle.\nA hand mixer is useful if you have one. This yields about 800 g of mashed soybeans.",
+          "blocks": [
+            {
+              "type": "step",
+              "text": "②温かいうちに大豆を潰します。ビニールに入れて手や瓶で潰していきます。"
+            },
+            {
+              "type": "paragraph",
+              "text": "ハンドミキサーがあれば便利です。潰した大豆が約800g出来上がります。"
+            }
+          ],
+          "sourcePages": [
+            3
+          ],
+          "images": [
+            {
+              "src": "assets/fermentation-notes/miso/miso-mash.jpg",
+              "alt": "Miso preparation photographs from the PDF: mash",
+              "width": 1339,
+              "height": 301,
+              "sourcePage": 3
+            }
+          ]
+        },
+        {
+          "id": "miso-rice-chunk-06",
+          "japanese": "③専用容器の内側をアルコール消毒し、縁を7cmほど折り返しておきます。",
+          "english": "③ Sanitize the inside of the designated container with alcohol and fold its rim down about 7 cm.",
+          "blocks": [
+            {
+              "type": "step",
+              "text": "③専用容器の内側をアルコール消毒し、縁を7cmほど折り返しておきます。"
+            }
+          ],
+          "sourcePages": [
+            4
+          ],
+          "images": [
+            {
+              "src": "assets/fermentation-notes/miso/miso-bag.jpg",
+              "alt": "Miso preparation photographs from the PDF: bag",
+              "width": 341,
+              "height": 297,
+              "sourcePage": 3
+            }
+          ]
+        },
+        {
+          "id": "miso-rice-chunk-07",
+          "japanese": "米麹はあらかじめ塊を良くほぐします。",
+          "english": "Break up the clumps of rice koji thoroughly beforehand.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "米麹はあらかじめ塊を良くほぐします。"
+            }
+          ],
+          "sourcePages": [
+            4
+          ],
+          "images": [
+            {
+              "src": "assets/fermentation-notes/miso/miso-loosen-koji.jpg",
+              "alt": "Miso preparation photographs from the PDF: loosen-koji",
+              "width": 821,
+              "height": 297,
+              "sourcePage": 3
+            }
+          ]
+        },
+        {
+          "id": "miso-rice-chunk-08",
+          "japanese": "④麹をほぐした後、塩を混ぜ合わせます(塩切り麹)。\n塩切り麹に潰した大豆を混ぜ合わせていきます。",
+          "english": "④ After loosening the koji, mix in the salt to make salt-mixed koji.\nMix the mashed soybeans into the salt-mixed koji.",
+          "blocks": [
+            {
+              "type": "step",
+              "text": "④麹をほぐした後、塩を混ぜ合わせます(塩切り麹)。"
+            },
+            {
+              "type": "paragraph",
+              "text": "塩切り麹に潰した大豆を混ぜ合わせていきます。"
+            }
+          ],
+          "sourcePages": [
+            4
+          ],
+          "images": [
+            {
+              "src": "assets/fermentation-notes/miso/miso-combine.jpg",
+              "alt": "Miso preparation photographs from the PDF: combine",
+              "width": 1241,
+              "height": 281,
+              "sourcePage": 4
+            }
+          ]
+        },
+        {
+          "id": "miso-rice-chunk-09",
+          "japanese": "ここで良く混ぜないと発麹が上手くいかず、美味しい味噌が出来ません。しっかり60回以上。\nもし固ければ煮汁又はミネラルウオーターを入れて、耳たぶ位の柔らかさで仕上げます。",
+          "english": "If you do not mix thoroughly here, fermentation will not go well and the miso will not turn out delicious. Mix firmly at least 60 times.\nIf it is too firm, add cooking liquid or mineral water until it is about as soft as an earlobe.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "ここで良く混ぜないと発麹が上手くいかず、美味しい味噌が出来ません。しっかり60回以上。"
+            },
+            {
+              "type": "paragraph",
+              "text": "もし固ければ煮汁又はミネラルウオーターを入れて、耳たぶ位の柔らかさで仕上げます。"
+            }
+          ],
+          "sourcePages": [
+            4
+          ],
+          "images": [
+            {
+              "src": "assets/fermentation-notes/miso/miso-mix.jpg",
+              "alt": "Miso preparation photographs from the PDF: mix",
+              "width": 1221,
+              "height": 271,
+              "sourcePage": 4
+            }
+          ]
+        },
+        {
+          "id": "miso-rice-chunk-10",
+          "japanese": "混ぜ 合わせた味噌を団子\n状にします。容器に空気が入らないように入れていく為です。",
+          "english": "Shape the mixed miso into balls. This helps you pack it into the container without trapping air.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "混ぜ 合わせた味噌を団子\n状にします。容器に空気が入らないように入れていく為です。"
+            }
+          ],
+          "sourcePages": [
+            4
+          ],
+          "images": [
+            {
+              "src": "assets/fermentation-notes/miso/miso-balls.jpg",
+              "alt": "Miso preparation photographs from the PDF: balls",
+              "width": 1249,
+              "height": 291,
+              "sourcePage": 4
+            }
+          ]
+        },
+        {
+          "id": "miso-rice-chunk-11",
+          "japanese": "ビニール袋に数回に分けて団子を容器に入れていきます。\n味噌の間に空気が残ってしまうとカビの原因になります。",
+          "english": "Put the balls into the plastic bag in several batches.\nAir trapped between the miso can cause mold.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "ビニール袋に数回に分けて団子を容器に入れていきます。"
+            },
+            {
+              "type": "paragraph",
+              "text": "味噌の間に空気が残ってしまうとカビの原因になります。"
+            }
+          ],
+          "sourcePages": [
+            4
+          ],
+          "images": [
+            {
+              "src": "assets/fermentation-notes/miso/miso-pack.jpg",
+              "alt": "Miso preparation photographs from the PDF: pack",
+              "width": 1263,
+              "height": 294,
+              "sourcePage": 4
+            }
+          ]
+        },
+        {
+          "id": "miso-rice-chunk-12",
+          "japanese": "団子と団子の継ぎ目に空気が残らないように丁寧に入れていきます。\n入れ終わったら容器のチャックを閉めます。",
+          "english": "Pack carefully so no air remains between the balls.\nWhen finished, close the container’s zip seal.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "団子と団子の継ぎ目に空気が残らないように丁寧に入れていきます。"
+            },
+            {
+              "type": "paragraph",
+              "text": "入れ終わったら容器のチャックを閉めます。"
+            }
+          ],
+          "sourcePages": [
+            4
+          ],
+          "images": [
+            {
+              "src": "assets/fermentation-notes/miso/miso-close.jpg",
+              "alt": "Miso preparation photographs from the PDF: close",
+              "width": 1229,
+              "height": 251,
+              "sourcePage": 4
+            }
+          ]
+        },
+        {
+          "id": "miso-rice-chunk-13",
+          "japanese": "容器を逆さにして空気が残らないよう手で押さえながら出来るだけ空気を抜いていきます。\n容器のチャックを片方から閉じます。製造日を書いたら仕込みは完了です。",
+          "english": "Turn the container upside down and press it with your hands to remove as much air as possible.\nClose the zip seal from one side. Write the production date on it, and the preparation is complete.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "容器を逆さにして空気が残らないよう手で押さえながら出来るだけ空気を抜いていきます。"
+            },
+            {
+              "type": "paragraph",
+              "text": "容器のチャックを片方から閉じます。製造日を書いたら仕込みは完了です。"
+            }
+          ],
+          "sourcePages": [
+            5
+          ],
+          "images": [
+            {
+              "src": "assets/fermentation-notes/miso/miso-seal.jpg",
+              "alt": "Miso preparation photographs from the PDF: seal",
+              "width": 1401,
+              "height": 301,
+              "sourcePage": 5
+            }
+          ]
+        },
+        {
+          "id": "miso-rice-chunk-14",
+          "japanese": "約3ヶ月で自家製味噌が完成します。",
+          "english": "The homemade miso will be ready in about three months.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "約3ヶ月で自家製味噌が完成します。"
+            }
+          ],
+          "sourcePages": [
+            5
+          ],
+          "images": [
+            {
+              "src": "assets/fermentation-notes/miso/miso-aged.jpg",
+              "alt": "Miso preparation photographs from the PDF: aged",
+              "width": 791,
+              "height": 467,
+              "sourcePage": 5
+            }
+          ]
+        },
+        {
+          "id": "miso-rice-chunk-15",
+          "japanese": "発麹が進んでくると容器にガスが溜まってきますが\nその都度抜いてください。\n表面に白い斑点が出てきますがチロシン(アミノ酸)です。カビで\nはない為、取り除かなくても大丈夫です。",
+          "english": "As fermentation progresses, gas builds up in the container. Release it whenever this happens.\nWhite spots may appear on the surface; these are tyrosine, an amino acid. They are not mold and do not need to be removed.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "発麹が進んでくると容器にガスが溜まってきますが\nその都度抜いてください。"
+            },
+            {
+              "type": "paragraph",
+              "text": "表面に白い斑点が出てきますがチロシン(アミノ酸)です。カビで\nはない為、取り除かなくても大丈夫です。"
+            }
+          ],
+          "sourcePages": [
+            5
+          ],
+          "images": [
+            {
+              "src": "assets/fermentation-notes/miso/miso-tyrosine.jpg",
+              "alt": "Miso preparation photographs from the PDF: tyrosine",
+              "width": 577,
+              "height": 461,
+              "sourcePage": 5
+            }
+          ]
+        },
+        {
+          "id": "miso-rice-chunk-16",
+          "japanese": "稀に空気に接した部分に緑や赤色のカビが出る場合がありますが、\nスプーンでカビの周り5mm位を取り除き、除いた後はアルコールで容器の内側を殺菌して\n空気をしっかり抜いて熟成を続けてください。",
+          "english": "Occasionally, green or red mold may appear where the miso is exposed to air. Remove about 5 mm around it with a spoon, sanitize the inside of the container with alcohol, remove the air thoroughly and continue maturation.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "稀に空気に接した部分に緑や赤色のカビが出る場合がありますが、\nスプーンでカビの周り5mm位を取り除き、除いた後はアルコールで容器の内側を殺菌して\n空気をしっかり抜いて熟成を続けてください。"
+            }
+          ],
+          "sourcePages": [
+            5
+          ],
+          "images": [
+            {
+              "src": "assets/fermentation-notes/miso/miso-mould.jpg",
+              "alt": "Miso preparation photographs from the PDF: mould",
+              "width": 1453,
+              "height": 421,
+              "sourcePage": 5
+            }
+          ]
+        },
+        {
+          "id": "miso-rice-chunk-17",
+          "japanese": "🔲 発酵場所、注意点\n発酵場所 基本的にはリビング等で発酵、熟成させましょう。\n毎日声をかけるくらい気に留めてあげてください。\n気にかけるほど美味しいお味噌が出来上がります。\n暑い時期(6~9月)も空調のある場所が味噌が心地良いと思います。\n常時35℃を超える場所や直射日光が当たる場所は避けてください。",
+          "english": "Fermentation location and precautions\nFerment and mature the miso in a living room or a similar place. Pay enough attention to it to greet it every day. The more care you give it, the better it will taste.\nDuring hot months (June–September), an air-conditioned location is considered comfortable for the miso too. Avoid places consistently above 35°C or exposed to direct sunlight.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "🔲 発酵場所、注意点"
+            },
+            {
+              "type": "paragraph",
+              "text": "発酵場所 基本的にはリビング等で発酵、熟成させましょう。"
+            },
+            {
+              "type": "paragraph",
+              "text": "毎日声をかけるくらい気に留めてあげてください。"
+            },
+            {
+              "type": "paragraph",
+              "text": "気にかけるほど美味しいお味噌が出来上がります。"
+            },
+            {
+              "type": "paragraph",
+              "text": "暑い時期(6~9月)も空調のある場所が味噌が心地良いと思います。"
+            },
+            {
+              "type": "paragraph",
+              "text": "常時35℃を超える場所や直射日光が当たる場所は避けてください。"
+            }
+          ],
+          "sourcePages": [
+            6
+          ]
+        },
+        {
+          "id": "miso-rice-chunk-18",
+          "japanese": "食べ始める時期\n寒い時期 3~8ヶ月 春夏3ヶ月～6ヶ月\n暑い時期 2~4ヶ月",
+          "english": "When to start eating it\nCold season: 3–8 months. Spring and summer: 3–6 months.\nHot season: 2–4 months.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "食べ始める時期"
+            },
+            {
+              "type": "paragraph",
+              "text": "寒い時期 3~8ヶ月 春夏3ヶ月～6ヶ月"
+            },
+            {
+              "type": "paragraph",
+              "text": "暑い時期 2~4ヶ月"
+            }
+          ],
+          "sourcePages": [
+            6
+          ]
+        },
+        {
+          "id": "miso-rice-chunk-19",
+          "japanese": "注意点\n週に1度はビニール容器を上下左右に返して出てくる水分を回します。\nこの水分は『たまり』と呼ばれ醤油として利用する地域もあります。\n美味しさの元です、捨てないでください。\n発酵によりビニールが少しずつ膨れてくることがあります。\nその場合はこまめに空気抜きをしてあげてください。\n保存方法\n好みの味に仕上がったら冷蔵庫で保存して発酵を止めても良いです。",
+          "english": "Precautions\nAt least once a week, turn the plastic container upside down and side to side to circulate the liquid that emerges.\nThis liquid is called “tamari” and is used as soy sauce in some regions. It is a source of flavor, so do not discard it.\nThe plastic bag may gradually swell during fermentation. Release the air frequently if that happens.\nStorage\nOnce the miso reaches your preferred flavor, you may refrigerate it to stop fermentation.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "注意点"
+            },
+            {
+              "type": "paragraph",
+              "text": "週に1度はビニール容器を上下左右に返して出てくる水分を回します。"
+            },
+            {
+              "type": "paragraph",
+              "text": "この水分は『たまり』と呼ばれ醤油として利用する地域もあります。"
+            },
+            {
+              "type": "paragraph",
+              "text": "美味しさの元です、捨てないでください。"
+            },
+            {
+              "type": "paragraph",
+              "text": "発酵によりビニールが少しずつ膨れてくることがあります。"
+            },
+            {
+              "type": "paragraph",
+              "text": "その場合はこまめに空気抜きをしてあげてください。"
+            },
+            {
+              "type": "heading",
+              "text": "保存方法"
+            },
+            {
+              "type": "paragraph",
+              "text": "好みの味に仕上がったら冷蔵庫で保存して発酵を止めても良いです。"
+            }
+          ],
+          "sourcePages": [
+            6
+          ]
+        }
+      ],
+      "displayTitle": "米味噌造り",
+      "englishHeadingLines": [
+        "Ingredients",
+        "Preparation on the day",
+        "Salt content",
+        "Koji ratio",
+        "Preparation the day before",
+        "Meat",
+        "Fish and vegetables",
+        "Storage",
+        "Precautions",
+        "When to start eating it",
+        "Characteristics",
+        "White miso",
+        "Fermentation location and precautions"
+      ]
+    },
+    {
+      "id": "miso-white",
+      "step": 3,
+      "kanji": "白味噌",
+      "japanese": "白味噌",
+      "english": "",
+      "sourcePages": [
+        6
+      ],
+      "furigana": {
+        "発酵": "はっこう",
+        "麹": "こうじ",
+        "働": "はたら",
+        "同": "おな",
+        "糖": "とう",
+        "質": "しつ",
+        "込": "こ",
+        "中": "なか",
+        "甘味": "あまみ",
+        "旨味": "うまみ",
+        "出来": "でき",
+        "作": "つく",
+        "出": "だ",
+        "種類": "しゅるい",
+        "違": "ちが",
+        "時": "とき",
+        "強": "きょう",
+        "味": "あじ",
+        "出来上": "できあ",
+        "大": "おお",
+        "持": "も",
+        "味噌": "みそ",
+        "大豆": "だいず",
+        "比": "くら",
+        "材料": "ざいりょう",
+        "温度": "おんど",
+        "引": "ひ",
+        "間": "あいだ",
+        "混": "ま",
+        "米": "こめ",
+        "米麹": "こめこうじ",
+        "甘酒": "あまざけ",
+        "特徴": "とくちょう",
+        "酵素": "こうそ",
+        "類": "るい",
+        "分": "ぶん",
+        "下記": "かき",
+        "多": "おお",
+        "熱": "ねつ",
+        "1番": "いちばん",
+        "上": "うえ",
+        "変": "か",
+        "甘": "あま",
+        "前": "まえ",
+        "作り方": "つくりかた",
+        "温": "あたた",
+        "時間": "じかん",
+        "発酵時間": "はっこうじかん",
+        "半年": "はんとし",
+        "冷凍": "れいとう",
+        "短": "みじか",
+        "仕込": "しこ",
+        "考": "かんが",
+        "冷蔵": "れいぞう",
+        "60度": "ろくじゅうど",
+        "醸": "かも",
+        "量": "りょう",
+        "消": "き",
+        "上が": "あが",
+        "塩分濃度": "えんぶんのうど",
+        "塩分": "えんぶん",
+        "低": "ひく",
+        "方": "かた",
+        "変わり": "かわり",
+        "糖化": "とうか",
+        "塩": "しお",
+        "素": "もと",
+        "冷蔵庫": "れいぞうこ",
+        "発酵器": "はっこうき",
+        "似": "に",
+        "後": "あと",
+        "明": "あか",
+        "様": "よう",
+        "特": "とく",
+        "白": "しろ",
+        "買": "か",
+        "選": "えら",
+        "黄色": "きいろ",
+        "信州": "しんしゅう",
+        "白味噌": "しろみそ",
+        "関西": "かんさい",
+        "甘味噌": "あまみそ",
+        "原材料": "げんざいりょう",
+        "表記": "ひょうき",
+        "記載": "きさい",
+        "糖化酵素": "とうかこうそ",
+        "消費期限": "しょうひきげん",
+        "赤味噌": "あかみそ",
+        "醸す": "かもす",
+        "比率": "ひりつ",
+        "前後": "ぜんご",
+        "強い": "つよい",
+        "色": "いろ",
+        "違い": "ちがい",
+        "週": "しゅう",
+        "参考": "さんこう",
+        "総量": "そうりょう",
+        "短い": "みじかい",
+        "熱い": "あつい",
+        "同時": "どうじ",
+        "酒": "さけ",
+        "半": "はん",
+        "度": "ど",
+        "年": "ねん",
+        "混ぜ": "まぜ",
+        "最初": "さいしょ",
+        "冷凍庫": "れいとうこ",
+        "甘さ": "あまさ"
+      },
+      "messages": [
+        {
+          "id": "miso-white-chunk-01",
+          "japanese": "🔲 白味噌\n白味噌には大きく分けて2種類の味噌、関西白味噌(甘味噌)と、信州白味噌があります。\n下記白味噌を買う時に選ぶ参考としてください。\n◉それぞれの特徴\n•関西白味噌\n塩分5%前後\n原材料は米が1番最初に表記\n•信州白味噌\n塩分１０%前後\n原材料は大豆が1番記載\n✳信州白味噌は甘味噌ではありません。",
+          "english": "White miso\nWhite miso broadly falls into two types: Kansai white miso (sweet miso) and Shinshu white miso. Use these differences as a guide when buying it.\nCharacteristics\nKansai white miso: around 5% salt; rice is listed first in the ingredients.\nShinshu white miso: around 10% salt; soybeans are listed first.\nShinshu white miso is not sweet miso.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "🔲 白味噌"
+            },
+            {
+              "type": "paragraph",
+              "text": "白味噌には大きく分けて2種類の味噌、関西白味噌(甘味噌)と、信州白味噌があります。"
+            },
+            {
+              "type": "paragraph",
+              "text": "下記白味噌を買う時に選ぶ参考としてください。"
+            },
+            {
+              "type": "heading",
+              "text": "◉それぞれの特徴"
+            },
+            {
+              "type": "heading",
+              "text": "•関西白味噌"
+            },
+            {
+              "type": "paragraph",
+              "text": "塩分5%前後"
+            },
+            {
+              "type": "paragraph",
+              "text": "原材料は米が1番最初に表記"
+            },
+            {
+              "type": "heading",
+              "text": "•信州白味噌"
+            },
+            {
+              "type": "paragraph",
+              "text": "塩分１０%前後"
+            },
+            {
+              "type": "paragraph",
+              "text": "原材料は大豆が1番記載"
+            },
+            {
+              "type": "paragraph",
+              "text": "✳信州白味噌は甘味噌ではありません。"
+            }
+          ],
+          "sourcePages": [
+            6
+          ]
+        },
+        {
+          "id": "miso-white-chunk-02",
+          "japanese": "白味噌の特徴は、出来上がった味噌の総量の中で、大豆より米麹の比率が多く、\n発酵時間が短いのが特徴。\n白味噌の作り方は米麹による糖化酵素による甘さを持ち、甘酒の作り方に似ていています。\n明るい黄色と白混ぜた様なカスタードクリーム色が特徴です。\n塩分濃度が低いので、赤味噌と違い消費期限が短いです。\n○冷蔵庫2週間 冷凍庫半年。",
+          "english": "White miso contains a higher proportion of rice koji than soybeans and has a short fermentation time.\nIts sweetness comes from the saccharifying enzymes of rice koji, and its production resembles that of amazake. It has a custard-cream color, like bright yellow mixed with white.\nIts low salt concentration gives it a shorter shelf life than red miso.\n• Refrigerated: 2 weeks. Frozen: 6 months.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "白味噌の特徴は、出来上がった味噌の総量の中で、大豆より米麹の比率が多く、\n発酵時間が短いのが特徴。"
+            },
+            {
+              "type": "paragraph",
+              "text": "白味噌の作り方は米麹による糖化酵素による甘さを持ち、甘酒の作り方に似ていています。"
+            },
+            {
+              "type": "paragraph",
+              "text": "明るい黄色と白混ぜた様なカスタードクリーム色が特徴です。"
+            },
+            {
+              "type": "paragraph",
+              "text": "塩分濃度が低いので、赤味噌と違い消費期限が短いです。"
+            },
+            {
+              "type": "list",
+              "items": [
+                "○冷蔵庫2週間 冷凍庫半年。"
+              ]
+            }
+          ],
+          "sourcePages": [
+            6
+          ]
+        },
+        {
+          "id": "miso-white-chunk-03",
+          "japanese": "白味噌は、熱い温度で仕込むと、米のでんぷんが糖に変わりやすくなり\n麹の働きによって、大豆の甘味が引き出され、それが白味噌の甘味となり\n同時に大豆のタンパク質が旨味に変わります。\nなので発酵器で醸す温度も55～60度で発酵させると甘味の強い白味噌となります。",
+          "english": "When white miso is prepared at a warm temperature, rice starch converts to sugar more readily. Koji draws out the sweetness of the soybeans, giving white miso its sweet taste, while soybean protein becomes umami.\nFermenting at 55–60°C in a fermentation appliance therefore produces strongly sweet white miso.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "白味噌は、熱い温度で仕込むと、米のでんぷんが糖に変わりやすくなり\n麹の働きによって、大豆の甘味が引き出され、それが白味噌の甘味となり\n同時に大豆のタンパク質が旨味に変わります。"
+            },
+            {
+              "type": "paragraph",
+              "text": "なので発酵器で醸す温度も55～60度で発酵させると甘味の強い白味噌となります。"
+            }
+          ],
+          "sourcePages": [
+            6
+          ]
+        }
+      ],
+      "englishHeadingLines": [
+        "Ingredients",
+        "Preparation on the day",
+        "Salt content",
+        "Koji ratio",
+        "Preparation the day before",
+        "Meat",
+        "Fish and vegetables",
+        "Storage",
+        "Precautions",
+        "When to start eating it",
+        "Characteristics",
+        "White miso",
+        "Fermentation location and precautions"
+      ]
+    },
+    {
+      "id": "miso-marinade",
+      "step": 4,
+      "kanji": "味噌漬け",
+      "japanese": "味噌漬け",
+      "english": "",
+      "sourcePages": [
+        7
+      ],
+      "furigana": {
+        "味": "あじ",
+        "味噌": "みそ",
+        "水": "みず",
+        "味醂": "みりん",
+        "分": "ぶん",
+        "洗": "あら",
+        "切": "き",
+        "程": "ほど",
+        "塩": "しお",
+        "肉": "にく",
+        "魚": "さかな",
+        "野菜": "やさい",
+        "漬": "つ",
+        "水気": "みずけ",
+        "拭": "ふ",
+        "軽く": "かるく",
+        "置": "お",
+        "切り身": "きりみ",
+        "味噌漬け": "みそづけ",
+        "置く": "おく",
+        "酒": "さけ",
+        "日": "にち",
+        "洗い": "あらい",
+        "水洗い": "みずあらい",
+        "気": "き",
+        "30分": "さんじゅっぷん",
+        "2日": "ふつか"
+      },
+      "messages": [
+        {
+          "id": "miso-marinade-chunk-01",
+          "japanese": "味噌10 : 酒１：味醂1",
+          "english": "Miso 10 : sake 1 : mirin 1",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "味噌10 : 酒１：味醂1"
+            }
+          ],
+          "sourcePages": [
+            7
+          ]
+        },
+        {
+          "id": "miso-marinade-chunk-02",
+          "japanese": "🔲 野菜、切り身の魚\n軽く塩→30分置く→水洗いし水気を拭く→2日程漬ける\n🔲 肉\n2日程漬ける",
+          "english": "Vegetables and fish fillets\nSalt lightly → leave for 30 minutes → rinse and wipe dry → marinate for about 2 days.\nMeat\nMarinate for about 2 days.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "🔲 野菜、切り身の魚"
+            },
+            {
+              "type": "paragraph",
+              "text": "軽く塩→30分置く→水洗いし水気を拭く→2日程漬ける"
+            },
+            {
+              "type": "paragraph",
+              "text": "🔲 肉"
+            },
+            {
+              "type": "paragraph",
+              "text": "2日程漬ける"
+            }
+          ],
+          "sourcePages": [
+            7
+          ]
+        }
+      ],
+      "englishHeadingLines": [
+        "Ingredients",
+        "Preparation on the day",
+        "Salt content",
+        "Koji ratio",
+        "Preparation the day before",
+        "Meat",
+        "Fish and vegetables",
+        "Storage",
+        "Precautions",
+        "When to start eating it",
+        "Characteristics",
+        "White miso",
+        "Fermentation location and precautions"
+      ]
+    },
+    {
+      "id": "miso-cod-soup",
+      "step": 5,
+      "kanji": "タラ汁",
+      "japanese": "タラ汁",
+      "english": "",
+      "sourcePages": [
+        7
+      ],
+      "furigana": {
+        "人": "ひと",
+        "取": "と",
+        "作": "つく",
+        "降": "お",
+        "良": "よ",
+        "味": "あじ",
+        "味噌": "みそ",
+        "材料": "ざいりょう",
+        "水": "みず",
+        "分": "ぶん",
+        "熱": "ねつ",
+        "入": "い",
+        "作り方": "つくりかた",
+        "良く": "よく",
+        "湯": "ゆ",
+        "洗": "あら",
+        "止": "と",
+        "位": "くらい",
+        "量": "りょう",
+        "取り除": "とりのぞ",
+        "方": "かた",
+        "切": "き",
+        "塩": "しお",
+        "火": "ひ",
+        "通": "とお",
+        "汁": "しる",
+        "煮": "に",
+        "振": "ふ",
+        "置": "お",
+        "除": "のぞ",
+        "タラ汁": "たらじる",
+        "鱈": "たら",
+        "腹ワタ": "はらわた",
+        "霜降り": "しもふり",
+        "灰汁": "あく",
+        "熱湯": "ねっとう",
+        "斜め": "ななめ",
+        "適量": "てきりょう",
+        "煮立": "にた",
+        "蓋": "ふた",
+        "煮る": "にる",
+        "鍋": "なべ",
+        "残": "のこ",
+        "匹": "ひき",
+        "洗い": "あらい",
+        "切る": "きる",
+        "取り": "とり",
+        "止め": "とめ",
+        "4人分": "よにんぶん",
+        "10分": "じゅっぷん",
+        "2匹": "にひき"
+      },
+      "messages": [
+        {
+          "id": "miso-cod-soup-chunk-01",
+          "japanese": "4人分\n〈材料〉\n鱈 2匹\nごぼう 適量\nネギ 適量\n水 4カップ\n味噌 80g",
+          "english": "Serves 4\nIngredients\n• Cod: 2 fish\n• Burdock: as needed\n• Japanese leek: as needed\n• Water: 4 cups\n• Miso: 80 g",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "4人分"
+            },
+            {
+              "type": "heading",
+              "text": "〈材料〉"
+            },
+            {
+              "type": "list",
+              "items": [
+                "鱈 2匹",
+                "ごぼう 適量",
+                "ネギ 適量",
+                "水 4カップ",
+                "味噌 80g"
+              ]
+            }
+          ],
+          "sourcePages": [
+            7
+          ]
+        },
+        {
+          "id": "miso-cod-soup-chunk-02",
+          "japanese": "〈作り方〉\n①鱈は洗い、ワタを取り除良く洗う。腹ワタは取っておく。\n鱈に塩を振り10分ほど置き、熱湯をかけ霜降りする。\nごぼうはささがきにし、水でさらす。ネギは斜め1センチ位に切る。",
+          "english": "① Wash and gut the cod, then wash it well. Reserve the innards. Salt the cod and leave for about 10 minutes, then pour boiling water over it to blanch the surface. Shave the burdock and soak in water. Cut the leek diagonally into pieces about 1 cm long.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "〈作り方〉"
+            },
+            {
+              "type": "step",
+              "text": "①鱈は洗い、ワタを取り除良く洗う。腹ワタは取っておく。\n鱈に塩を振り10分ほど置き、熱湯をかけ霜降りする。\nごぼうはささがきにし、水でさらす。ネギは斜め1センチ位に切る。"
+            }
+          ],
+          "sourcePages": [
+            7
+          ]
+        },
+        {
+          "id": "miso-cod-soup-chunk-03",
+          "japanese": "②鍋に水を入れ煮立たせ味噌を2/3入れ、鱈と腹ワタを入れる。",
+          "english": "② Bring the water to a boil in a saucepan. Add two-thirds of the miso, then the cod and its innards.",
+          "blocks": [
+            {
+              "type": "step",
+              "text": "②鍋に水を入れ煮立たせ味噌を2/3入れ、鱈と腹ワタを入れる。"
+            }
+          ],
+          "sourcePages": [
+            7
+          ]
+        },
+        {
+          "id": "miso-cod-soup-chunk-04",
+          "japanese": "③煮立ったら灰汁を取りながら煮る。",
+          "english": "③ Once it boils, simmer while skimming off the scum.",
+          "blocks": [
+            {
+              "type": "step",
+              "text": "③煮立ったら灰汁を取りながら煮る。"
+            }
+          ],
+          "sourcePages": [
+            7
+          ]
+        },
+        {
+          "id": "miso-cod-soup-chunk-05",
+          "japanese": "④鱈に火が通ったら、ごぼう、ネギ、残りの味噌を入れ鍋の蓋をし、火を止める。",
+          "english": "④ When the cod is cooked, add the burdock, leek and remaining miso. Cover the saucepan and turn off the heat.",
+          "blocks": [
+            {
+              "type": "step",
+              "text": "④鱈に火が通ったら、ごぼう、ネギ、残りの味噌を入れ鍋の蓋をし、火を止める。"
+            }
+          ],
+          "sourcePages": [
+            7
+          ]
+        }
+      ],
+      "englishHeadingLines": [
+        "Ingredients",
+        "Preparation on the day",
+        "Salt content",
+        "Koji ratio",
+        "Preparation the day before",
+        "Meat",
+        "Fish and vegetables",
+        "Storage",
+        "Precautions",
+        "When to start eating it",
+        "Characteristics",
+        "White miso",
+        "Fermentation location and precautions"
+      ]
+    },
+    {
+      "id": "miso-yogurt-marinade",
+      "step": 6,
+      "kanji": "味噌ヨーグルト漬け",
+      "japanese": "味噌ヨーグルト漬け",
+      "english": "",
+      "sourcePages": [
+        7
+      ],
+      "furigana": {
+        "時": "とき",
+        "良": "よ",
+        "味": "あじ",
+        "味噌": "みそ",
+        "間": "あいだ",
+        "水": "みず",
+        "分": "ぶん",
+        "時間": "じかん",
+        "良く": "よく",
+        "洗": "あら",
+        "塩": "しお",
+        "漬け床": "つけどこ",
+        "野菜": "やさい",
+        "漬": "つ",
+        "3時間": "さんじかん",
+        "汁": "しる",
+        "合": "あ",
+        "置": "お",
+        "洗い": "あらい",
+        "水洗い": "みずあらい",
+        "味噌汁": "みそしる",
+        "10～15分": "じゅっぷんからじゅうごふん"
+      },
+      "messages": [
+        {
+          "id": "miso-yogurt-marinade-chunk-01",
+          "japanese": "味噌3 :ヨーグルト1",
+          "english": "Miso 3 : yogurt 1",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "味噌3 :ヨーグルト1"
+            }
+          ],
+          "sourcePages": [
+            7
+          ]
+        },
+        {
+          "id": "miso-yogurt-marinade-chunk-02",
+          "japanese": "①味噌とヨーグルトは合わせておく。",
+          "english": "① Mix the miso and yogurt in advance.",
+          "blocks": [
+            {
+              "type": "step",
+              "text": "①味噌とヨーグルトは合わせておく。"
+            }
+          ],
+          "sourcePages": [
+            7
+          ]
+        },
+        {
+          "id": "miso-yogurt-marinade-chunk-03",
+          "japanese": "②野菜は塩をし10～15分置いてから良く水洗いをする。",
+          "english": "② Salt the vegetables, leave for 10–15 minutes, then rinse thoroughly.",
+          "blocks": [
+            {
+              "type": "step",
+              "text": "②野菜は塩をし10～15分置いてから良く水洗いをする。"
+            }
+          ],
+          "sourcePages": [
+            7
+          ]
+        },
+        {
+          "id": "miso-yogurt-marinade-chunk-04",
+          "japanese": "③ ①と②を合わせ3時間ほど漬ける。",
+          "english": "③ Combine the mixtures from steps ① and ② and marinate for about 3 hours.",
+          "blocks": [
+            {
+              "type": "step",
+              "text": "③ ①と②を合わせ3時間ほど漬ける。"
+            }
+          ],
+          "sourcePages": [
+            7
+          ]
+        },
+        {
+          "id": "miso-yogurt-marinade-chunk-05",
+          "japanese": "漬け床は味噌汁に。",
+          "english": "Use the remaining marinade in miso soup.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "漬け床は味噌汁に。"
+            }
+          ],
+          "sourcePages": [
+            7
+          ]
+        }
+      ],
+      "englishHeadingLines": [
+        "Ingredients",
+        "Preparation on the day",
+        "Salt content",
+        "Koji ratio",
+        "Preparation the day before",
+        "Meat",
+        "Fish and vegetables",
+        "Storage",
+        "Precautions",
+        "When to start eating it",
+        "Characteristics",
+        "White miso",
+        "Fermentation location and precautions"
+      ]
+    },
+    {
+      "id": "miso-nanohana",
+      "step": 7,
+      "kanji": "菜の花の昆布締め",
+      "japanese": "菜の花の昆布締め",
+      "english": "",
+      "sourcePages": [
+        7
+      ],
+      "furigana": {
+        "食": "た",
+        "作": "つく",
+        "良": "よ",
+        "材料": "ざいりょう",
+        "水": "みず",
+        "上": "うえ",
+        "入": "い",
+        "作り方": "つくりかた",
+        "良く": "よく",
+        "湯": "ゆ",
+        "1日": "いちにち",
+        "方": "かた",
+        "切": "き",
+        "塩": "しお",
+        "水気": "みずけ",
+        "拭": "ふ",
+        "乗": "の",
+        "包": "つつ",
+        "締": "し",
+        "茹": "ゆ",
+        "重": "おも",
+        "昆布締め": "こぶじめ",
+        "菜の花": "なのはな",
+        "昆布": "こんぶ",
+        "表面": "ひょうめん",
+        "冷水": "れいすい",
+        "重なら": "かさなら",
+        "束": "たば",
+        "日": "にち",
+        "切る": "きる",
+        "気": "き",
+        "3～1日": "さんにちからいちにち",
+        "1束": "ひとたば"
+      },
+      "messages": [
+        {
+          "id": "miso-nanohana-chunk-01",
+          "japanese": "〈材料〉\n菜の花 1束\n昆布",
+          "english": "Ingredients\n• Rapeseed greens: 1 bunch\n• Kombu",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "〈材料〉"
+            },
+            {
+              "type": "list",
+              "items": [
+                "菜の花 1束",
+                "昆布"
+              ]
+            }
+          ],
+          "sourcePages": [
+            7
+          ]
+        },
+        {
+          "id": "miso-nanohana-chunk-02",
+          "japanese": "〈作り方〉\n①菜の花を塩を入れた湯で茹で冷水につけ、良く水気を切る。",
+          "english": "① Boil the greens in salted water, transfer to cold water and drain thoroughly.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "〈作り方〉"
+            },
+            {
+              "type": "step",
+              "text": "①菜の花を塩を入れた湯で茹で冷水につけ、良く水気を切る。"
+            }
+          ],
+          "sourcePages": [
+            7
+          ]
+        },
+        {
+          "id": "miso-nanohana-chunk-03",
+          "japanese": "②昆布は表面を拭き、菜の花を重ならないように上に乗せ、昆布を乗せて\nサンドしラップで包んで3～1日締めて食べる。",
+          "english": "② Wipe the surface of the kombu. Arrange the greens on it without overlapping, place another piece of kombu on top, wrap in plastic wrap and cure for 3–1 days before eating.",
+          "blocks": [
+            {
+              "type": "step",
+              "text": "②昆布は表面を拭き、菜の花を重ならないように上に乗せ、昆布を乗せて\nサンドしラップで包んで3～1日締めて食べる。"
+            }
+          ],
+          "sourcePages": [
+            7
+          ]
+        }
+      ],
+      "englishHeadingLines": [
+        "Ingredients",
+        "Preparation on the day",
+        "Salt content",
+        "Koji ratio",
+        "Preparation the day before",
+        "Meat",
+        "Fish and vegetables",
+        "Storage",
+        "Precautions",
+        "When to start eating it",
+        "Characteristics",
+        "White miso",
+        "Fermentation location and precautions"
+      ]
+    },
+    {
+      "id": "miso-tama",
+      "step": 8,
+      "kanji": "玉みそ",
+      "japanese": "玉みそ",
+      "english": "",
+      "sourcePages": [
+        8
+      ],
+      "furigana": {
+        "糖": "とう",
+        "作": "つく",
+        "全": "すべ",
+        "良": "よ",
+        "味": "あじ",
+        "物": "もの",
+        "保存": "ほぞん",
+        "大": "おお",
+        "味噌": "みそ",
+        "材料": "ざいりょう",
+        "混": "ま",
+        "味醂": "みりん",
+        "弱": "じゃく",
+        "分": "ぶん",
+        "楽": "らく",
+        "砂糖": "さとう",
+        "入": "い",
+        "作り方": "つくりかた",
+        "保": "たも",
+        "良く": "よく",
+        "容器": "ようき",
+        "冷蔵": "れいぞう",
+        "大さじ": "おおさじ",
+        "方": "かた",
+        "肉": "にく",
+        "魚": "さかな",
+        "炒め物": "いためもの",
+        "火": "ひ",
+        "酢": "す",
+        "冷蔵庫": "れいぞうこ",
+        "炒": "いた",
+        "焼": "や",
+        "弱火": "よわび",
+        "玉みそ": "たまみそ",
+        "卵黄": "らんおう",
+        "味噌田楽": "みそでんがく",
+        "胡麻": "ごま",
+        "柚": "ゆず",
+        "挽肉": "ひきにく",
+        "卵": "たまご",
+        "鍋": "なべ",
+        "酒": "さけ",
+        "個": "こ",
+        "カ月": "かげつ",
+        "月": "がつ",
+        "炒め": "いため",
+        "混ぜ": "まぜ",
+        "移し": "うつし",
+        "全て": "すべて",
+        "味噌焼き": "みそやき",
+        "2分": "にふん",
+        "1個": "いっこ"
+      },
+      "messages": [
+        {
+          "id": "miso-tama-chunk-01",
+          "japanese": "冷蔵1カ月\n〈材料〉\n味噌 200g\n卵黄 1個\n砂糖 大さじ6\n味醂 大さじ2\n酒 大さじ2",
+          "english": "Refrigerate for 1 month\nIngredients\n• Miso: 200 g\n• Egg yolk: 1\n• Sugar: 6 tablespoons\n• Mirin: 2 tablespoons\n• Sake: 2 tablespoons",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "冷蔵1カ月"
+            },
+            {
+              "type": "heading",
+              "text": "〈材料〉"
+            },
+            {
+              "type": "list",
+              "items": [
+                "味噌 200g",
+                "卵黄 1個",
+                "砂糖 大さじ6",
+                "味醂 大さじ2",
+                "酒 大さじ2"
+              ]
+            }
+          ],
+          "sourcePages": [
+            8
+          ]
+        },
+        {
+          "id": "miso-tama-chunk-02",
+          "japanese": "〈作り方〉\n①鍋に全ての材料を入れ，ゴムベラで良くかき混ぜる。",
+          "english": "① Put all ingredients in a saucepan and mix thoroughly with a rubber spatula.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "〈作り方〉"
+            },
+            {
+              "type": "step",
+              "text": "①鍋に全ての材料を入れ，ゴムベラで良くかき混ぜる。"
+            }
+          ],
+          "sourcePages": [
+            8
+          ]
+        },
+        {
+          "id": "miso-tama-chunk-03",
+          "japanese": "② ①弱火にかけ、かき混ぜながら2分ほどねる。容器に移して冷蔵庫で保存。",
+          "english": "② Put the mixture from ① over low heat and stir to a paste for about 2 minutes. Transfer to a container and refrigerate.",
+          "blocks": [
+            {
+              "type": "step",
+              "text": "② ①弱火にかけ、かき混ぜながら2分ほどねる。容器に移して冷蔵庫で保存。"
+            }
+          ],
+          "sourcePages": [
+            8
+          ]
+        },
+        {
+          "id": "miso-tama-chunk-04",
+          "japanese": "味噌田楽、魚味噌焼き、炒め物。\n＋酢 酢味噌\n＋ピーナッツ ピーナッツ味噌\n＋胡麻 胡麻味噌\n＋柚 柚味噌\n＋挽肉 肉味噌",
+          "english": "Use for miso dengaku, miso-grilled fish and stir-fries.\n+ vinegar → vinegared miso\n+ peanuts → peanut miso\n+ sesame → sesame miso\n+ yuzu → yuzu miso\n+ minced meat → meat miso",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "味噌田楽、魚味噌焼き、炒め物。"
+            },
+            {
+              "type": "paragraph",
+              "text": "＋酢 酢味噌"
+            },
+            {
+              "type": "paragraph",
+              "text": "＋ピーナッツ ピーナッツ味噌"
+            },
+            {
+              "type": "paragraph",
+              "text": "＋胡麻 胡麻味噌"
+            },
+            {
+              "type": "paragraph",
+              "text": "＋柚 柚味噌"
+            },
+            {
+              "type": "paragraph",
+              "text": "＋挽肉 肉味噌"
+            }
+          ],
+          "sourcePages": [
+            8
+          ]
+        }
+      ],
+      "englishHeadingLines": [
+        "Ingredients",
+        "Preparation on the day",
+        "Salt content",
+        "Koji ratio",
+        "Preparation the day before",
+        "Meat",
+        "Fish and vegetables",
+        "Storage",
+        "Precautions",
+        "When to start eating it",
+        "Characteristics",
+        "White miso",
+        "Fermentation location and precautions"
+      ]
+    },
+    {
+      "id": "miso-shinshu-sauce",
+      "step": 9,
+      "kanji": "□信州味噌タレ",
+      "japanese": "□信州味噌タレ",
+      "english": "",
+      "sourcePages": [
+        9
+      ],
+      "furigana": {
+        "糖": "とう",
+        "味": "あじ",
+        "大": "おお",
+        "味噌": "みそ",
+        "味醂": "みりん",
+        "砂糖": "さとう",
+        "大さじ": "おおさじ",
+        "信州": "しんしゅう",
+        "酒": "さけ",
+        "味噌タレ": "みそタレ"
+      },
+      "messages": [
+        {
+          "id": "miso-shinshu-sauce-chunk-01",
+          "japanese": "味噌 100g\n砂糖 大さじ3\n味醂 大さじ1\n酒 大さじ1",
+          "english": "Ingredients\n• Miso: 100 g\n• Sugar: 3 tablespoons\n• Mirin: 1 tablespoon\n• Sake: 1 tablespoon",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "味噌 100g",
+                "砂糖 大さじ3",
+                "味醂 大さじ1",
+                "酒 大さじ1"
+              ]
+            }
+          ],
+          "sourcePages": [
+            9
+          ]
+        }
+      ],
+      "displayTitle": "信州味噌タレ",
+      "englishHeadingLines": [
+        "Ingredients",
+        "Preparation on the day",
+        "Salt content",
+        "Koji ratio",
+        "Preparation the day before",
+        "Meat",
+        "Fish and vegetables",
+        "Storage",
+        "Precautions",
+        "When to start eating it",
+        "Characteristics",
+        "White miso",
+        "Fermentation location and precautions"
+      ]
+    },
+    {
+      "id": "miso-hatcho-sauce",
+      "step": 10,
+      "kanji": "□八丁味噌タレ",
+      "japanese": "□八丁味噌タレ",
+      "english": "",
+      "sourcePages": [
+        9
+      ],
+      "furigana": {
+        "糖": "とう",
+        "味": "あじ",
+        "大": "おお",
+        "味噌": "みそ",
+        "味醂": "みりん",
+        "砂糖": "さとう",
+        "大さじ": "おおさじ",
+        "八丁": "はっちょう",
+        "酒": "さけ",
+        "味噌タレ": "みそタレ"
+      },
+      "messages": [
+        {
+          "id": "miso-hatcho-sauce-chunk-01",
+          "japanese": "味噌 100g\n砂糖 大さじ4\n味醂 大さじ1\n酒 大さじ1",
+          "english": "Ingredients\n• Miso: 100 g\n• Sugar: 4 tablespoons\n• Mirin: 1 tablespoon\n• Sake: 1 tablespoon",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "味噌 100g",
+                "砂糖 大さじ4",
+                "味醂 大さじ1",
+                "酒 大さじ1"
+              ]
+            }
+          ],
+          "sourcePages": [
+            9
+          ]
+        }
+      ],
+      "displayTitle": "八丁味噌タレ",
+      "englishHeadingLines": [
+        "Ingredients",
+        "Preparation on the day",
+        "Salt content",
+        "Koji ratio",
+        "Preparation the day before",
+        "Meat",
+        "Fish and vegetables",
+        "Storage",
+        "Precautions",
+        "When to start eating it",
+        "Characteristics",
+        "White miso",
+        "Fermentation location and precautions"
+      ]
+    },
+    {
+      "id": "miso-saikyo-sauce",
+      "step": 11,
+      "kanji": "□西京味噌タレ",
+      "japanese": "□西京味噌タレ",
+      "english": "",
+      "sourcePages": [
+        9
+      ],
+      "furigana": {
+        "味": "あじ",
+        "大": "おお",
+        "味噌": "みそ",
+        "味醂": "みりん",
+        "大さじ": "おおさじ",
+        "西京": "さいきょう",
+        "酒": "さけ",
+        "味噌タレ": "みそタレ"
+      },
+      "messages": [
+        {
+          "id": "miso-saikyo-sauce-chunk-01",
+          "japanese": "味噌 100g\n味醂 大さじ1\n酒 大さじ1",
+          "english": "Ingredients\n• Miso: 100 g\n• Mirin: 1 tablespoon\n• Sake: 1 tablespoon",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "味噌 100g",
+                "味醂 大さじ1",
+                "酒 大さじ1"
+              ]
+            }
+          ],
+          "sourcePages": [
+            9
+          ]
+        }
+      ],
+      "displayTitle": "西京味噌タレ",
+      "englishHeadingLines": [
+        "Ingredients",
+        "Preparation on the day",
+        "Salt content",
+        "Koji ratio",
+        "Preparation the day before",
+        "Meat",
+        "Fish and vegetables",
+        "Storage",
+        "Precautions",
+        "When to start eating it",
+        "Characteristics",
+        "White miso",
+        "Fermentation location and precautions"
+      ]
+    },
+    {
+      "id": "miso-burdock-sauce",
+      "step": 12,
+      "kanji": "□牛蒡味噌タレ",
+      "japanese": "□牛蒡味噌タレ",
+      "english": "",
+      "sourcePages": [
+        9
+      ],
+      "furigana": {
+        "糖": "とう",
+        "味": "あじ",
+        "味噌": "みそ",
+        "水": "みず",
+        "砂糖": "さとう",
+        "火": "ひ",
+        "合": "あ",
+        "信州": "しんしゅう",
+        "牛蒡": "ごぼう",
+        "酒": "さけ",
+        "練る": "ねる",
+        "掛け": "かけ",
+        "練": "ね",
+        "味噌タレ": "みそタレ",
+        "火に掛け": "ひにかけ"
+      },
+      "messages": [
+        {
+          "id": "miso-burdock-sauce-chunk-01",
+          "japanese": "信州味噌 100g\nおろし牛蒡 50g\n砂糖 25g\n酒 30cc\n水 50cc",
+          "english": "Ingredients\n• Shinshu miso: 100 g\n• Grated burdock: 50 g\n• Sugar: 25 g\n• Sake: 30 ml\n• Water: 50 ml",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "信州味噌 100g",
+                "おろし牛蒡 50g",
+                "砂糖 25g",
+                "酒 30cc",
+                "水 50cc"
+              ]
+            }
+          ],
+          "sourcePages": [
+            9
+          ]
+        },
+        {
+          "id": "miso-burdock-sauce-chunk-02",
+          "japanese": "＊合わせ火に掛け練る",
+          "english": "Combine, place over heat and stir to a paste.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "＊合わせ火に掛け練る"
+            }
+          ],
+          "sourcePages": [
+            9
+          ]
+        }
+      ],
+      "displayTitle": "牛蒡味噌タレ",
+      "englishHeadingLines": [
+        "Ingredients",
+        "Preparation on the day",
+        "Salt content",
+        "Koji ratio",
+        "Preparation the day before",
+        "Meat",
+        "Fish and vegetables",
+        "Storage",
+        "Precautions",
+        "When to start eating it",
+        "Characteristics",
+        "White miso",
+        "Fermentation location and precautions"
+      ]
+    },
+    {
+      "id": "miso-chicken-sauce",
+      "step": 13,
+      "kanji": "□鶏味噌タレ",
+      "japanese": "□鶏味噌タレ",
+      "english": "",
+      "sourcePages": [
+        9
+      ],
+      "furigana": {
+        "生": "い",
+        "糖": "とう",
+        "味": "あじ",
+        "味噌": "みそ",
+        "味醂": "みりん",
+        "砂糖": "さとう",
+        "少": "すく",
+        "肉": "にく",
+        "火": "ひ",
+        "合": "あ",
+        "信州": "しんしゅう",
+        "鶏": "とり",
+        "辣油": "らーゆ",
+        "生姜": "しょうが",
+        "少々": "しょうしょう",
+        "酒": "さけ",
+        "練る": "ねる",
+        "掛け": "かけ",
+        "練": "ね",
+        "味噌タレ": "みそタレ",
+        "火に掛け": "ひにかけ"
+      },
+      "messages": [
+        {
+          "id": "miso-chicken-sauce-chunk-01",
+          "japanese": "信州味噌 100g\n鶏ひき肉 100g\nすり生姜 20g\n砂糖 20g\n味醂 10cc\n酒 5cc\n辣油 少々\n生姜やセロリすりおろし 少々",
+          "english": "Ingredients\n• Shinshu miso: 100 g\n• Minced chicken: 100 g\n• Grated ginger: 20 g\n• Sugar: 20 g\n• Mirin: 10 ml\n• Sake: 5 ml\n• Chili oil: a little\n• Grated ginger or celery: a little",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "信州味噌 100g",
+                "鶏ひき肉 100g",
+                "すり生姜 20g",
+                "砂糖 20g",
+                "味醂 10cc",
+                "酒 5cc",
+                "辣油 少々",
+                "生姜やセロリすりおろし 少々"
+              ]
+            }
+          ],
+          "sourcePages": [
+            9
+          ]
+        },
+        {
+          "id": "miso-chicken-sauce-chunk-02",
+          "japanese": "＊合わせて火に掛け練る",
+          "english": "Combine, place over heat and stir to a paste.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "＊合わせて火に掛け練る"
+            }
+          ],
+          "sourcePages": [
+            9
+          ]
+        }
+      ],
+      "displayTitle": "鶏味噌タレ",
+      "englishHeadingLines": [
+        "Ingredients",
+        "Preparation on the day",
+        "Salt content",
+        "Koji ratio",
+        "Preparation the day before",
+        "Meat",
+        "Fish and vegetables",
+        "Storage",
+        "Precautions",
+        "When to start eating it",
+        "Characteristics",
+        "White miso",
+        "Fermentation location and precautions"
+      ]
+    },
+    {
+      "id": "miso-pork-sauce",
+      "step": 14,
+      "kanji": "□豚味噌タレ",
+      "japanese": "□豚味噌タレ",
+      "english": "",
+      "sourcePages": [
+        9
+      ],
+      "furigana": {
+        "人": "ひと",
+        "生": "い",
+        "糖": "とう",
+        "小": "ちい",
+        "出来": "でき",
+        "出": "だ",
+        "加": "くわ",
+        "強": "きょう",
+        "味": "あじ",
+        "大": "おお",
+        "味噌": "みそ",
+        "水": "みず",
+        "飛": "と",
+        "分": "ぶん",
+        "砂糖": "さとう",
+        "水分": "すいぶん",
+        "大さじ": "おおさじ",
+        "切": "き",
+        "調味料": "ちょうみりょう",
+        "香": "かお",
+        "辛": "から",
+        "肉": "にく",
+        "野菜": "やさい",
+        "小さじ": "こさじ",
+        "玉ねぎ": "たまねぎ",
+        "炒": "いた",
+        "各": "かく",
+        "信州": "しんしゅう",
+        "挽肉": "ひきにく",
+        "豚": "ぶた",
+        "粉唐辛子": "こなとうがらし",
+        "香味野菜": "こうみやさい",
+        "生姜": "しょうが",
+        "人参": "にんじん",
+        "酒": "さけ",
+        "片": "かけ",
+        "個": "こ",
+        "炒め": "いため",
+        "加え": "くわえ",
+        "味噌タレ": "みそタレ",
+        "調味": "ちょうみ",
+        "1片": "ひとかけ",
+        "1／8個分": "はちぶんのいっこぶん"
+      },
+      "messages": [
+        {
+          "id": "miso-pork-sauce-chunk-01",
+          "japanese": "信州味噌 100g\n玉ねぎ、人参みじん切り 各1／8個分\nニンニク、生姜みじん切り 各1片分\n豚挽肉 100g\n酒 大さじ1\n砂糖 大さじ3強\n粉唐辛子 小さじ1",
+          "english": "Ingredients\n• Shinshu miso: 100 g\n• Finely chopped onion and carrot: 1/8 of each\n• Finely chopped garlic and ginger: 1 clove/piece of each\n• Minced pork: 100 g\n• Sake: 1 tablespoon\n• Sugar: slightly more than 3 tablespoons\n• Ground chili: 1 teaspoon",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "信州味噌 100g",
+                "玉ねぎ、人参みじん切り 各1／8個分",
+                "ニンニク、生姜みじん切り 各1片分",
+                "豚挽肉 100g",
+                "酒 大さじ1",
+                "砂糖 大さじ3強",
+                "粉唐辛子 小さじ1"
+              ]
+            }
+          ],
+          "sourcePages": [
+            9
+          ]
+        },
+        {
+          "id": "miso-pork-sauce-chunk-02",
+          "japanese": "＊香味野菜と挽肉をよく炒め野菜がしんなりした\nら調味料を加え、水分を飛ばして出来あがり。",
+          "english": "Stir-fry the aromatic vegetables and minced meat thoroughly. Once the vegetables soften, add the seasonings and cook off the liquid to finish.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "＊香味野菜と挽肉をよく炒め野菜がしんなりした\nら調味料を加え、水分を飛ばして出来あがり。"
+            }
+          ],
+          "sourcePages": [
+            9
+          ]
+        }
+      ],
+      "displayTitle": "豚味噌タレ",
+      "englishHeadingLines": [
+        "Ingredients",
+        "Preparation on the day",
+        "Salt content",
+        "Koji ratio",
+        "Preparation the day before",
+        "Meat",
+        "Fish and vegetables",
+        "Storage",
+        "Precautions",
+        "When to start eating it",
+        "Characteristics",
+        "White miso",
+        "Fermentation location and precautions"
+      ]
+    },
+    {
+      "id": "miso-cheese",
+      "step": 15,
+      "kanji": "□チーズ味噌",
+      "japanese": "□チーズ味噌",
+      "english": "",
+      "sourcePages": [
+        9
+      ],
+      "furigana": {
+        "味": "あじ",
+        "大": "おお",
+        "味噌": "みそ",
+        "味醂": "みりん",
+        "長": "なが",
+        "火": "ひ",
+        "合": "あ",
+        "刻": "きざ",
+        "葉": "は",
+        "信州": "しんしゅう",
+        "長ネギ": "ながねぎ",
+        "大葉": "おおば",
+        "粉チーズ": "こなチーズ",
+        "卵": "たまご",
+        "個": "こ",
+        "練る": "ねる",
+        "掛け": "かけ",
+        "練": "ね",
+        "火に掛け": "ひにかけ",
+        "1個": "いっこ"
+      },
+      "messages": [
+        {
+          "id": "miso-cheese-chunk-01",
+          "japanese": "信州味噌 100g\n粉チーズ 30g\n卵 1個\n長ネギ刻み 30g.\n大葉刻み 30g\n味醂 60cc",
+          "english": "Ingredients\n• Shinshu miso: 100 g\n• Grated cheese: 30 g\n• Egg: 1\n• Chopped Japanese leek: 30 g\n• Chopped shiso leaves: 30 g\n• Mirin: 60 ml",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "信州味噌 100g",
+                "粉チーズ 30g",
+                "卵 1個",
+                "長ネギ刻み 30g.",
+                "大葉刻み 30g",
+                "味醂 60cc"
+              ]
+            }
+          ],
+          "sourcePages": [
+            9
+          ]
+        },
+        {
+          "id": "miso-cheese-chunk-02",
+          "japanese": "＊合わせ火に掛け練る",
+          "english": "Combine, place over heat and stir to a paste.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "＊合わせ火に掛け練る"
+            }
+          ],
+          "sourcePages": [
+            9
+          ]
+        }
+      ],
+      "displayTitle": "チーズ味噌",
+      "englishHeadingLines": [
+        "Ingredients",
+        "Preparation on the day",
+        "Salt content",
+        "Koji ratio",
+        "Preparation the day before",
+        "Meat",
+        "Fish and vegetables",
+        "Storage",
+        "Precautions",
+        "When to start eating it",
+        "Characteristics",
+        "White miso",
+        "Fermentation location and precautions"
+      ]
+    },
+    {
+      "id": "miso-ginger",
+      "step": 16,
+      "kanji": "□生姜味噌",
+      "japanese": "□生姜味噌",
+      "english": "",
+      "sourcePages": [
+        9
+      ],
+      "furigana": {
+        "生": "い",
+        "味": "あじ",
+        "味噌": "みそ",
+        "味醂": "みりん",
+        "火": "ひ",
+        "合": "あ",
+        "信州": "しんしゅう",
+        "生姜": "しょうが",
+        "練る": "ねる",
+        "掛け": "かけ",
+        "練": "ね",
+        "火に掛け": "ひにかけ"
+      },
+      "messages": [
+        {
+          "id": "miso-ginger-chunk-01",
+          "japanese": "信州味噌 100g\nすり生姜 20g\n味醂 30cc",
+          "english": "Ingredients\n• Shinshu miso: 100 g\n• Grated ginger: 20 g\n• Mirin: 30 ml",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "信州味噌 100g",
+                "すり生姜 20g",
+                "味醂 30cc"
+              ]
+            }
+          ],
+          "sourcePages": [
+            9
+          ]
+        },
+        {
+          "id": "miso-ginger-chunk-02",
+          "japanese": "＊合わせて火に掛け練る",
+          "english": "Combine, place over heat and stir to a paste.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "＊合わせて火に掛け練る"
+            }
+          ],
+          "sourcePages": [
+            9
+          ]
+        }
+      ],
+      "displayTitle": "生姜味噌",
+      "englishHeadingLines": [
+        "Ingredients",
+        "Preparation on the day",
+        "Salt content",
+        "Koji ratio",
+        "Preparation the day before",
+        "Meat",
+        "Fish and vegetables",
+        "Storage",
+        "Precautions",
+        "When to start eating it",
+        "Characteristics",
+        "White miso",
+        "Fermentation location and precautions"
+      ]
+    },
+    {
+      "id": "miso-soy-milk-soup",
+      "step": 17,
+      "kanji": "□豆乳(牛乳)味噌汁",
+      "japanese": "□豆乳(牛乳)味噌汁",
+      "english": "",
+      "sourcePages": [
+        9
+      ],
+      "furigana": {
+        "成分": "せいぶん",
+        "成": "な",
+        "味": "あじ",
+        "大": "おお",
+        "味噌": "みそ",
+        "草": "くさ",
+        "水": "みず",
+        "分": "ぶん",
+        "無": "な",
+        "大さじ": "おおさじ",
+        "長": "なが",
+        "汁": "しる",
+        "豆乳": "とうにゅう",
+        "牛乳": "ぎゅうにゅう",
+        "長ネギ": "ながねぎ",
+        "青菜": "あおな",
+        "椎茸": "しいたけ",
+        "成分無調整": "せいぶんむちょうせい",
+        "無調整": "むちょうせい",
+        "本": "ほん",
+        "枚": "まい",
+        "株": "かぶ",
+        "味噌汁": "みそしる",
+        "2株": "ふたかぶ",
+        "2枚": "にまい",
+        "1／2本": "にぶんのいっぽん"
+      },
+      "messages": [
+        {
+          "id": "miso-soy-milk-soup-chunk-01",
+          "japanese": "きのこ(椎茸) 2枚\n青菜(ほうれん草) 2株\n長ネギ 1／2本\n豆乳(成分無調整) 50cc\n水 250cc\n味噌 大さじ1",
+          "english": "Ingredients\n• Mushrooms (shiitake): 2\n• Leafy greens (spinach): 2 plants\n• Japanese leek: 1/2 stalk\n• Unsweetened, unadjusted soy milk: 50 ml\n• Water: 250 ml\n• Miso: 1 tablespoon",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "きのこ(椎茸) 2枚",
+                "青菜(ほうれん草) 2株",
+                "長ネギ 1／2本",
+                "豆乳(成分無調整) 50cc",
+                "水 250cc",
+                "味噌 大さじ1"
+              ]
+            }
+          ],
+          "sourcePages": [
+            9
+          ]
+        }
+      ],
+      "displayTitle": "豆乳(牛乳)味噌汁",
+      "englishHeadingLines": [
+        "Ingredients",
+        "Preparation on the day",
+        "Salt content",
+        "Koji ratio",
+        "Preparation the day before",
+        "Meat",
+        "Fish and vegetables",
+        "Storage",
+        "Precautions",
+        "When to start eating it",
+        "Characteristics",
+        "White miso",
+        "Fermentation location and precautions"
+      ]
+    },
+    {
+      "id": "miso-tomato-soup",
+      "step": 18,
+      "kanji": "□トマト味噌汁",
+      "japanese": "□トマト味噌汁",
+      "english": "",
+      "sourcePages": [
+        9
+      ],
+      "furigana": {
+        "付": "つ",
+        "味": "あじ",
+        "大": "おお",
+        "味噌": "みそ",
+        "水": "みず",
+        "弱": "じゃく",
+        "大さじ": "おおさじ",
+        "有": "あ",
+        "塩": "しお",
+        "汁": "しる",
+        "葉": "は",
+        "茄子": "なす",
+        "蕪": "かぶ",
+        "本": "ほん",
+        "個": "こ",
+        "味噌汁": "みそしる",
+        "２弱": "にじゃく",
+        "1本": "いっぽん",
+        "2個": "にこ"
+      },
+      "messages": [
+        {
+          "id": "miso-tomato-soup-chunk-01",
+          "japanese": "茄子 1本\n蕪(葉付き) 2個\nトマトジュース(有塩) 100cc\n水 200cc\n味噌 大さじ２弱",
+          "english": "Ingredients\n• Eggplant: 1\n• Turnips with leaves: 2\n• Salted tomato juice: 100 ml\n• Water: 200 ml\n• Miso: slightly less than 2 tablespoons",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "茄子 1本",
+                "蕪(葉付き) 2個",
+                "トマトジュース(有塩) 100cc",
+                "水 200cc",
+                "味噌 大さじ２弱"
+              ]
+            }
+          ],
+          "sourcePages": [
+            9
+          ]
+        }
+      ],
+      "displayTitle": "トマト味噌汁",
+      "englishHeadingLines": [
+        "Ingredients",
+        "Preparation on the day",
+        "Salt content",
+        "Koji ratio",
+        "Preparation the day before",
+        "Meat",
+        "Fish and vegetables",
+        "Storage",
+        "Precautions",
+        "When to start eating it",
+        "Characteristics",
+        "White miso",
+        "Fermentation location and precautions"
+      ]
+    },
+    {
+      "id": "miso-pickles",
+      "step": 19,
+      "kanji": "□漬け物",
+      "japanese": "□漬け物",
+      "english": "",
+      "sourcePages": [
+        10
+      ],
+      "furigana": {
+        "食": "た",
+        "外": "そと",
+        "空気": "くうき",
+        "時": "とき",
+        "味": "あじ",
+        "使用": "しよう",
+        "物": "もの",
+        "保存": "ほぞん",
+        "使": "つか",
+        "味噌": "みそ",
+        "間": "あいだ",
+        "好": "この",
+        "口": "くち",
+        "入": "い",
+        "保": "たも",
+        "時間": "じかん",
+        "洗": "あら",
+        "冷蔵": "れいぞう",
+        "量": "りょう",
+        "切": "き",
+        "塩": "しお",
+        "漬け床": "つけどこ",
+        "野菜": "やさい",
+        "漬": "つ",
+        "汁": "しる",
+        "軽く": "かるく",
+        "冷蔵庫": "れいぞうこ",
+        "合": "あ",
+        "回": "かい",
+        "振": "ふ",
+        "盛": "も",
+        "繰": "く",
+        "袋": "ふくろ",
+        "漬け物": "つけもの",
+        "揉む": "もむ",
+        "適量": "てきりょう",
+        "好み": "このみ",
+        "保存袋": "ほぞんぶくろ",
+        "閉じ": "とじ",
+        "抜": "ぬ",
+        "返し": "かえし",
+        "度": "ど",
+        "揉": "も",
+        "洗い": "あらい",
+        "味噌汁": "みそしる",
+        "気": "き",
+        "1回": "いっかい"
+      },
+      "messages": [
+        {
+          "id": "miso-pickles-chunk-01",
+          "japanese": "プレーンヨーグルト 1 : 味噌 3\n好みの野菜 適量\nプレーンヨーグルト 50g\n味噌 150g\n塩 適量",
+          "english": "Plain yogurt 1 : miso 3\nIngredients\n• Vegetables of your choice: as needed\n• Plain yogurt: 50 g\n• Miso: 150 g\n• Salt: as needed",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "プレーンヨーグルト 1 : 味噌 3"
+            },
+            {
+              "type": "list",
+              "items": [
+                "好みの野菜 適量",
+                "プレーンヨーグルト 50g",
+                "味噌 150g",
+                "塩 適量"
+              ]
+            }
+          ],
+          "sourcePages": [
+            10
+          ]
+        },
+        {
+          "id": "miso-pickles-chunk-02",
+          "japanese": "①野菜に塩を振る。",
+          "english": "① Sprinkle salt on the vegetables.",
+          "blocks": [
+            {
+              "type": "step",
+              "text": "①野菜に塩を振る。"
+            }
+          ],
+          "sourcePages": [
+            10
+          ]
+        },
+        {
+          "id": "miso-pickles-chunk-03",
+          "japanese": "②ヨーグルトと味噌を合わせ保存袋に入れ、野菜を入れて袋の外から軽く揉む。",
+          "english": "② Mix the yogurt and miso in a storage bag, add the vegetables and massage gently from outside the bag.",
+          "blocks": [
+            {
+              "type": "step",
+              "text": "②ヨーグルトと味噌を合わせ保存袋に入れ、野菜を入れて袋の外から軽く揉む。"
+            }
+          ],
+          "sourcePages": [
+            10
+          ]
+        },
+        {
+          "id": "miso-pickles-chunk-04",
+          "japanese": "③保存袋の空気を抜いて口を閉じ、冷蔵庫で4時間ほど漬ける。",
+          "english": "③ Remove the air, seal the bag and refrigerate to pickle for about 4 hours.",
+          "blocks": [
+            {
+              "type": "step",
+              "text": "③保存袋の空気を抜いて口を閉じ、冷蔵庫で4時間ほど漬ける。"
+            }
+          ],
+          "sourcePages": [
+            10
+          ]
+        },
+        {
+          "id": "miso-pickles-chunk-05",
+          "japanese": "漬け床を軽く洗い、食べやすく切りカットして盛る。\n＊3度ほど繰り返し使える。1回使用くらいなら味噌汁にして使う。",
+          "english": "Rinse off the pickling mixture lightly, cut into bite-sized pieces and serve.\nThe pickling mixture can be reused about three times. After just one use, it can be used in miso soup.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "漬け床を軽く洗い、食べやすく切りカットして盛る。"
+            },
+            {
+              "type": "paragraph",
+              "text": "＊3度ほど繰り返し使える。1回使用くらいなら味噌汁にして使う。"
+            }
+          ],
+          "sourcePages": [
+            10
+          ]
+        }
+      ],
+      "displayTitle": "漬け物",
+      "englishHeadingLines": [
+        "Ingredients",
+        "Preparation on the day",
+        "Salt content",
+        "Koji ratio",
+        "Preparation the day before",
+        "Meat",
+        "Fish and vegetables",
+        "Storage",
+        "Precautions",
+        "When to start eating it",
+        "Characteristics",
+        "White miso",
+        "Fermentation location and precautions"
+      ]
+    },
+    {
+      "id": "miso-instant-soup",
+      "step": 20,
+      "kanji": "□即席味噌汁",
+      "japanese": "□即席味噌汁",
+      "english": "",
+      "sourcePages": [
+        10
+      ],
+      "furigana": {
+        "味": "あじ",
+        "大": "おお",
+        "味噌": "みそ",
+        "節": "ぶし",
+        "湯": "ゆ",
+        "量": "りょう",
+        "大さじ": "おおさじ",
+        "汁": "しる",
+        "即席": "そくせき",
+        "削り節": "けずりぶし",
+        "麩": "ふ",
+        "適量": "てきりょう",
+        "味噌汁": "みそしる"
+      },
+      "messages": [
+        {
+          "id": "miso-instant-soup-chunk-01",
+          "japanese": "味噌 大さじ1､5\n削り節 大さじ1\nカットワカメ、麩 適量\n湯 カップ1",
+          "english": "Ingredients\n• Miso: 1.5 tablespoons\n• Bonito flakes: 1 tablespoon\n• Cut wakame and wheat gluten: as needed\n• Hot water: 1 cup",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "味噌 大さじ1､5",
+                "削り節 大さじ1",
+                "カットワカメ、麩 適量",
+                "湯 カップ1"
+              ]
+            }
+          ],
+          "sourcePages": [
+            10
+          ]
+        }
+      ],
+      "displayTitle": "即席味噌汁",
+      "englishHeadingLines": [
+        "Ingredients",
+        "Preparation on the day",
+        "Salt content",
+        "Koji ratio",
+        "Preparation the day before",
+        "Meat",
+        "Fish and vegetables",
+        "Storage",
+        "Precautions",
+        "When to start eating it",
+        "Characteristics",
+        "White miso",
+        "Fermentation location and precautions"
+      ]
+    },
+    {
+      "id": "miso-marinade-extra",
+      "step": 21,
+      "kanji": "□味噌漬け",
+      "japanese": "□味噌漬け",
+      "english": "",
+      "sourcePages": [
+        10
+      ],
+      "furigana": {
+        "甘味": "あまみ",
+        "味": "あじ",
+        "味噌": "みそ",
+        "水": "みず",
+        "固": "かた",
+        "味醂": "みりん",
+        "分": "ぶん",
+        "酒粕": "さけかす",
+        "水分": "すいぶん",
+        "少": "すく",
+        "甘": "あま",
+        "前": "まえ",
+        "洗": "あら",
+        "方": "かた",
+        "塩": "しお",
+        "肉": "にく",
+        "魚": "さかな",
+        "野菜": "やさい",
+        "漬": "つ",
+        "拭": "ふ",
+        "乗": "の",
+        "向": "む",
+        "後": "あと",
+        "振": "ふ",
+        "焼": "や",
+        "甘味噌": "あまみそ",
+        "味噌漬け": "みそづけ",
+        "酒": "さけ",
+        "日": "にち",
+        "洗い": "あらい",
+        "水洗い": "みずあらい",
+        "少ない": "すくない",
+        "30分": "さんじゅっぷん",
+        "2日": "ふつか"
+      },
+      "messages": [
+        {
+          "id": "miso-marinade-extra-chunk-01",
+          "japanese": "肉\n肉に塩を振り水分を拭いた後、焼く前に味噌を乗せて焼くと肉は固くならない。\n魚、野菜\n少ない塩を振り30分、水洗いして水分を拭くとり2日ほど漬ける。\n味噌(酒粕) 10 : 酒 1 : 味醂\n＊味噌は甘味噌の方が向いている。",
+          "english": "Meat\nSalt the meat and wipe off the moisture. Spreading miso on it just before grilling keeps it from becoming tough.\nFish and vegetables\nSprinkle with a little salt, leave for 30 minutes, rinse, wipe dry and marinate for about 2 days.\nMiso (sake lees) 10 : sake 1 : mirin.\nSweet miso is better suited to this.",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "肉"
+            },
+            {
+              "type": "paragraph",
+              "text": "肉に塩を振り水分を拭いた後、焼く前に味噌を乗せて焼くと肉は固くならない。"
+            },
+            {
+              "type": "heading",
+              "text": "魚、野菜"
+            },
+            {
+              "type": "paragraph",
+              "text": "少ない塩を振り30分、水洗いして水分を拭くとり2日ほど漬ける。"
+            },
+            {
+              "type": "paragraph",
+              "text": "味噌(酒粕) 10 : 酒 1 : 味醂"
+            },
+            {
+              "type": "paragraph",
+              "text": "＊味噌は甘味噌の方が向いている。"
+            }
+          ],
+          "sourcePages": [
+            10
+          ]
+        }
+      ],
+      "displayTitle": "味噌漬け",
+      "englishHeadingLines": [
+        "Ingredients",
+        "Preparation on the day",
+        "Salt content",
+        "Koji ratio",
+        "Preparation the day before",
+        "Meat",
+        "Fish and vegetables",
+        "Storage",
+        "Precautions",
+        "When to start eating it",
+        "Characteristics",
+        "White miso",
+        "Fermentation location and precautions"
+      ]
+    },
+    {
+      "id": "miso-afterword",
+      "step": 22,
+      "kanji": "あとがき",
+      "japanese": "あとがき",
+      "english": "",
+      "sourcePages": [
+        8,
+        10
+      ],
+      "furigana": {
+        "発酵": "はっこう",
+        "麹": "こうじ",
+        "微生物": "びせいぶつ",
+        "成": "な",
+        "菌": "きん",
+        "食": "た",
+        "生": "い",
+        "必要": "ひつよう",
+        "為": "ため",
+        "取": "と",
+        "中": "なか",
+        "美味": "おい",
+        "食品": "しょくひん",
+        "作": "つく",
+        "時": "とき",
+        "加": "くわ",
+        "良": "よ",
+        "味": "あじ",
+        "物": "もの",
+        "大": "おお",
+        "酵母": "こうぼ",
+        "味噌": "みそ",
+        "大豆": "だいず",
+        "間": "あいだ",
+        "完成": "かんせい",
+        "現在": "げんざい",
+        "1年": "いちねん",
+        "日本": "にほん",
+        "自然": "しぜん",
+        "水": "みず",
+        "蒸": "むし",
+        "力": "ちから",
+        "熱": "ねつ",
+        "上": "うえ",
+        "方法": "ほうほう",
+        "今回": "こんかい",
+        "変": "か",
+        "形": "かたち",
+        "時間": "じかん",
+        "発酵時間": "はっこうじかん",
+        "半年": "はんとし",
+        "短": "みじか",
+        "思": "おも",
+        "容器": "ようき",
+        "加熱": "かねつ",
+        "生きた": "いきた",
+        "止": "と",
+        "粒々": "つぶつぶ",
+        "位": "くらい",
+        "現": "あらわ",
+        "早": "はや",
+        "生物": "せいぶつ",
+        "方": "かた",
+        "続": "つづ",
+        "是非": "ぜひ",
+        "調味料": "ちょうみりょう",
+        "優": "すぐ",
+        "熟成": "じゅくせい",
+        "合": "あ",
+        "回": "かい",
+        "特": "とく",
+        "要": "い",
+        "風味": "ふうみ",
+        "種水": "たねみず",
+        "殺菌": "さっきん",
+        "兼ね備え": "かねそなえ",
+        "蒸大豆": "むしだいず",
+        "回転数": "かいてんすう",
+        "酒精": "しゅせい",
+        "加熱殺菌": "かねつさっきん",
+        "最短": "さいたん",
+        "本物": "ほんもの",
+        "あとがき": "あとがき",
+        "添加物": "てんかぶつ",
+        "添加": "てんか",
+        "促す": "うながす",
+        "兼": "か",
+        "残": "のこ",
+        "続け": "つづけ",
+        "酒": "さけ",
+        "半": "はん",
+        "本": "ほん",
+        "ヶ月": "かげつ",
+        "年": "ねん",
+        "月": "がつ",
+        "日": "にち",
+        "加え": "くわえ",
+        "借り": "かり",
+        "生産": "せいさん",
+        "抑え": "おさえ",
+        "止め": "とめ",
+        "美味しさ": "おいしさ",
+        "兼ね": "かね",
+        "上げる": "あげる",
+        "調味": "ちょうみ",
+        "良い": "よい"
+      },
+      "messages": [
+        {
+          "id": "miso-afterword-chunk-01",
+          "japanese": "味噌はコク、うまみ、風味を兼ね備えた、日本の調味料の中でも特に優れたものです。\nそれは味噌がさまざまな菌や微生物など、自然の力を借りて作られる発酵食品であるからです。",
+          "english": "Miso combines richness, umami and aroma, making it one of Japan’s finest seasonings.\nThis is because it is a fermented food made with the help of natural forces, including many kinds of microbes.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "味噌はコク、うまみ、風味を兼ね備えた、日本の調味料の中でも特に優れたものです。\nそれは味噌がさまざまな菌や微生物など、自然の力を借りて作られる発酵食品であるからです。"
+            }
+          ],
+          "sourcePages": [
+            8,
+            10
+          ]
+        },
+        {
+          "id": "miso-afterword-chunk-02",
+          "japanese": "味噌は麹と蒸大豆を合わせて半年から1年ほど発酵•熟成させたのですが、現在はこの発酵時間を\n短くしようと味噌の発酵に必要な菌を添加した種水を加えて発酵を促す方法が、生産の回転数を\n上げる為に取られているものもあります。",
+          "english": "Miso was made by combining koji and steamed soybeans, then fermenting and maturing them for six months to a year. Today, some producers shorten this period by adding starter liquid containing microbes needed for fermentation, speeding production turnover.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "味噌は麹と蒸大豆を合わせて半年から1年ほど発酵•熟成させたのですが、現在はこの発酵時間を\n短くしようと味噌の発酵に必要な菌を添加した種水を加えて発酵を促す方法が、生産の回転数を\n上げる為に取られているものもあります。"
+            }
+          ],
+          "sourcePages": [
+            8,
+            10
+          ]
+        },
+        {
+          "id": "miso-afterword-chunk-03",
+          "japanese": "また発酵食品の生きた味噌のように酵母によって容器がパンパンにならないように、酒精という\n添加物を加えたり加熱殺菌をしたりして、発酵を抑えたり止めたりしたものもあります。\n熟成を止めるので味が変わらないのが良いのでしょうが、生きた味噌の美味しさにはかないませ\nん。",
+          "english": "Some miso also has added alcohol or is heat-sterilized to suppress or stop fermentation, so its yeast does not cause the container to swell.\nStopping maturation may keep its flavor consistent, but it cannot match the deliciousness of living miso.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "また発酵食品の生きた味噌のように酵母によって容器がパンパンにならないように、酒精という\n添加物を加えたり加熱殺菌をしたりして、発酵を抑えたり止めたりしたものもあります。\n熟成を止めるので味が変わらないのが良いのでしょうが、生きた味噌の美味しさにはかないませ\nん。"
+            }
+          ],
+          "sourcePages": [
+            8,
+            10
+          ]
+        },
+        {
+          "id": "miso-afterword-chunk-04",
+          "japanese": "今回の味噌は麹の力で発酵を早める味噌なので、最短で3ヶ月～5ヶ月で完成します。\n2kg～4kg位なら作りやすいと思いますので大豆の粒々の形の残った菌の生きた本物の味噌を\n是非作り続けてください。",
+          "english": "The miso in this course uses the power of koji to speed fermentation and can be ready in as little as 3–5 months. Batches of about 2–4 kg are manageable. Please keep making authentic, living miso that retains the texture of soybean pieces.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "今回の味噌は麹の力で発酵を早める味噌なので、最短で3ヶ月～5ヶ月で完成します。\n2kg～4kg位なら作りやすいと思いますので大豆の粒々の形の残った菌の生きた本物の味噌を\n是非作り続けてください。"
+            }
+          ],
+          "sourcePages": [
+            8,
+            10
+          ]
+        }
+      ],
+      "sourceNote": "Identical afterword occurs on pages 8 and 10; shown once.",
+      "englishHeadingLines": [
+        "Ingredients",
+        "Preparation on the day",
+        "Salt content",
+        "Koji ratio",
+        "Preparation the day before",
+        "Meat",
+        "Fish and vegetables",
+        "Storage",
+        "Precautions",
+        "When to start eating it",
+        "Characteristics",
+        "White miso",
+        "Fermentation location and precautions"
+      ]
+    }
+  ],
+  "additionalSourceFiles": [
+    "data/fermentation-notes/miso-map-source.txt"
+  ]
+}

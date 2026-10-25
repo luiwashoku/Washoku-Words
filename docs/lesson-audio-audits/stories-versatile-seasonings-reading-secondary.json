@@ -1,0 +1,53 @@
+{
+  "method": "Independent Whisper transcription without expected-text prompt. Automated comparison, not listening or pitch verification.",
+  "entries": {
+    "versatile-seasonings-reading-chunk-02": {
+      "number": 2,
+      "sha256": "04d5fa1e8f10a9e6f271db5052b5cc592d66953a2f538f6d0d2058b35a3713ad",
+      "audio": "audio/lessons/stories-versatile-seasonings-reading/marin-70eab13a9f283458aff4.mp3",
+      "transcript": "そんな時に便利なのが、様々な調味料を組み合わせて作られた万能調味料です。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "versatile-seasonings-reading-chunk-05": {
+      "number": 5,
+      "sha256": "9629c3d2635e297441bf4cbeb70b3094841e292c71c0aa587418eb2ae751a8f4",
+      "audio": "audio/lessons/stories-versatile-seasonings-reading/marin-6eedd7d728a7585e4bb0.mp3",
+      "transcript": "①万能調味料とは、 万能調味料とは、 醤油、だし、香辛料、香味野菜などを あらかじめ組み合わせた調味料のことです。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "versatile-seasonings-reading-chunk-07": {
+      "number": 7,
+      "sha256": "1adebcda224e2371040d5bbb814c64b610c2ea46fd68a17895b659cdaa0b15e5",
+      "audio": "audio/lessons/stories-versatile-seasonings-reading/marin-641056ef026f233e307e.mp3",
+      "transcript": "また、ニンニクやハーブを加えたスパイスミックスや肉や野菜にふりかけるだけで、香り豊かな一品に仕上げることができます。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "versatile-seasonings-reading-chunk-11": {
+      "number": 11,
+      "sha256": "9c5eda257812c98d15ed79380ca593725ce42e932387d7e5f2396f412aab6cf8",
+      "audio": "audio/lessons/stories-versatile-seasonings-reading/marin-7ed06bf6eab54f1b04a2.mp3",
+      "transcript": "液体タイプにだし醤油や焼肉のタレなどがあります 食材に馴染みやすく煮物や炒め物など幅広い料理に使えます",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "versatile-seasonings-reading-chunk-23": {
+      "number": 23,
+      "sha256": "79faa2ccdf7908cf97546540ee26532bf02166b5314480edf02608f637767192",
+      "audio": "audio/lessons/stories-versatile-seasonings-reading/marin-87f41acde27f8ff2eff3.mp3",
+      "transcript": "ただし、万能調味料にはすでに塩分が含まれているものが多いため、使う菜和塩や醤油の量を調整しましょう。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "versatile-seasonings-reading-chunk-31": {
+      "number": 31,
+      "sha256": "05199deb6877d98a288caa5aa3a627ed168dada6b5686d2e3f32c5970c2a09c7",
+      "audio": "audio/lessons/stories-versatile-seasonings-reading/marin-228d2cbee9ba7402e201.mp3",
+      "transcript": "保存方法も、商品によって異なります。 特に、液体やペーストタイプは、 開封後に冷蔵保存が必要な場合が多いため、 パッケージの表示に従いましょう。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    }
+  }
+}

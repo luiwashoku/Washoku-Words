@@ -1,0 +1,23 @@
+{
+  "method": "Generic hiragana transcription request; no expected words or quantities supplied. Automated comparison, not listening or pitch verification.",
+  "entries": {
+    "miso-types-reading-chunk-19": {
+      "number": 19,
+      "sha256": "d966ab564903f8c1adcc7fad83a9434ad9d660cd8dec988944821b7e7ef5a13b",
+      "audio": "audio/lessons/stories-miso-types-reading/marin-276188b412c7a9acdceb.mp3",
+      "transcript": "ただし、実際の味は熟成期間や発酵条件によっても変わるため、麹由来だけで判断することはできません。",
+      "model": "gpt-4o-transcribe",
+      "expected_text_prompt": false,
+      "generic_phonetic_prompt": true
+    },
+    "miso-types-reading-chunk-36": {
+      "number": 36,
+      "sha256": "cea7af20bbb6819958433f4fe2d5c02fb254725c313c8f383de736fc73be63d7",
+      "audio": "audio/lessons/stories-miso-types-reading/marin-a910e186c07dc07de1f4.mp3",
+      "transcript": "特に、温度が高い場所では、カッペンが進みやすく、色が濃くなることがあります。",
+      "model": "gpt-4o-transcribe",
+      "expected_text_prompt": false,
+      "generic_phonetic_prompt": true
+    }
+  }
+}

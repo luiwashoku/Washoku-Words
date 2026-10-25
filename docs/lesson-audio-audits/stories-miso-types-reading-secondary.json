@@ -1,0 +1,77 @@
+{
+  "method": "Independent Whisper transcription without expected-text prompt. Automated comparison, not listening or pitch verification.",
+  "entries": {
+    "miso-types-reading-chunk-11": {
+      "number": 11,
+      "sha256": "a3e063f5e068afca22d7c1d087e97b9dd03034017b5fd655475768cc409cf8ea",
+      "audio": "audio/lessons/stories-miso-types-reading/marin-149360f09eb5a728b344.mp3",
+      "transcript": "一方赤みそは比較的な外域間熟成させるものが多く 濃い色と深い極が特徴です",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-types-reading-chunk-14": {
+      "number": 14,
+      "sha256": "924b8fed0946cccf7c36e599123aaed64223ee8189f7d1da11671034545fcd20",
+      "audio": "audio/lessons/stories-miso-types-reading/marin-bb653f3cf84392f49b4c.mp3",
+      "transcript": "3 麹具合が高いと味はどう変わる 味噌の味を決める重要な要素で一つが麹具合です",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-types-reading-chunk-15": {
+      "number": 15,
+      "sha256": "bcd62db0038a7715db1129ceaf2e265c7620f51d4abe00a6cce8b8a7ece1b992",
+      "audio": "audio/lessons/stories-miso-types-reading/marin-53267a77048372948b65.mp3",
+      "transcript": "工事部合とは、原料の大豆に対する米や麦の工事の割合を表したものです。 例えば、10割工事は大豆と工事が同じ重量、 20割工事は大豆の2倍の工事を使うことをEにします。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-types-reading-chunk-19": {
+      "number": 19,
+      "sha256": "d966ab564903f8c1adcc7fad83a9434ad9d660cd8dec988944821b7e7ef5a13b",
+      "audio": "audio/lessons/stories-miso-types-reading/marin-276188b412c7a9acdceb.mp3",
+      "transcript": "ただし、実際の味は熟成期間や発酵条件によっても変わるため、 麹具合だけで判断することはできません。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-types-reading-chunk-23": {
+      "number": 23,
+      "sha256": "0cbb8453bc4a3b6ce50b6b68bb68f32756c867f66d5f6b38e4b8700be8d11fac",
+      "audio": "audio/lessons/stories-miso-types-reading/marin-63b74de9992e4c052231.mp3",
+      "transcript": "はだし、生味噌だから必ず味が良いというわけではありません。 また、味噌汁に使う場合、若熱するため、生味噌に含まれる微生物や酵素の働きが弱くなることがあります。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-types-reading-chunk-31": {
+      "number": 31,
+      "sha256": "942306ab0a2bf7f7d9cd2d9d960371457c1317307cb1d243678413f08083eda6",
+      "audio": "audio/lessons/stories-miso-types-reading/marin-ee10c774ba6b2525eddd.mp3",
+      "transcript": "これらの中に、加熱によって失われやすいものもあります。 そのため、味噌汁を作る際は、 火を弱めてから味噌を溶き入れると、香りを残しやすくなります。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-types-reading-chunk-32": {
+      "number": 32,
+      "sha256": "6f862c23a000a722aa3345d67c1ea0aa08bc65e0bd478e1f85efd7325cfedb8b",
+      "audio": "audio/lessons/stories-miso-types-reading/marin-b72765ceddb99bf200e2.mp3",
+      "transcript": "一方、味噌を焼いたり炒めたりすると、加熱によって香ばしい風味が生まれます。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-types-reading-chunk-36": {
+      "number": 36,
+      "sha256": "cea7af20bbb6819958433f4fe2d5c02fb254725c313c8f383de736fc73be63d7",
+      "audio": "audio/lessons/stories-miso-types-reading/marin-a910e186c07dc07de1f4.mp3",
+      "transcript": "特に温度が高い場所では、カッペンが進みやすく、色が濃くなることがあります。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-types-reading-chunk-40": {
+      "number": 40,
+      "sha256": "287ed7ed124bc33d54e92cd66f905821192963ecc0dad624e1cb9cfdb449e940",
+      "audio": "audio/lessons/stories-miso-types-reading/marin-551bbb4c171722e25515.mp3",
+      "transcript": "甘みの強い白味噌、香り豊かな麦味噌、濃厚なコクのある豆味噌など、それぞれの特徴を折りたいすることで、料理に合わせた使い分けができます。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    }
+  }
+}

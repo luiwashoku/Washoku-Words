@@ -1,0 +1,85 @@
+{
+  "method": "Independent Whisper transcription without expected-text prompt. Automated comparison, not listening or pitch verification.",
+  "entries": {
+    "shiokoji-chunk-05": {
+      "number": 5,
+      "sha256": "d7ff240e232e7b6b3d8fbbc8ea8347e21c76892304676ca8455d33170b40be0e",
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-aaac1541c83acc9d3385.mp3",
+      "transcript": "他には醤油、ケチャップ、マヨネーズなど 揚げればキリがないほど様々な調味料があります これらと比べて塩麹はそのものの塩味、甘味は当然ありますが 一覧の調味料としての特徴は素材そのものの美味しさを引き出す",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "shiokoji-chunk-08": {
+      "number": 8,
+      "sha256": "0a948436a1f326ad8cef76703aec1f6e25edb7a8724a300679f2aee712674172",
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-5437767427a4a4ea5ac3.mp3",
+      "transcript": "フロテアーゼによって食材のタンパク質がアミノ酸に分解され 旨味を引き出します タンパク質分解酵素リパーゼによって脂肪を分解し 香りを引き立たせます",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "shiokoji-chunk-10": {
+      "number": 10,
+      "sha256": "a40476929e57ac03001916acee575837a1cae61d8ad80ff2eab0cb422e006f67",
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-b56fdafea2853e74f0ee.mp3",
+      "transcript": "3.塩麹作り方 出来上がり、冷蔵庫3ヶ月ほど、冷凍1年ほど。塩麹、常温仕込み。 塩麹は常温室温でゆっくり熟成、凍化させていけば、酵素の活力は何千に保たれるので、料理に使うとき、効果的に働かせることができます。 米麹に100gプラス塩70gプラス水に170cc。常温7日から10日。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "shiokoji-chunk-11": {
+      "number": 11,
+      "sha256": "96243cbac7e27e74be818b78860c15ef980bd7e04ecfb8544d01548a52584f5f",
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-a1829fcce3b009a081d4.mp3",
+      "transcript": "早作り熟成塩麹 蒸気常温熟成でも美味しいですが、かなり時間をかけても、 塩麹そのものの熟成度、旨味や甘みを上げることは困難です。 早作りは短期間に熟成させ、なおかつ酵素も壊さずに、 塩麹を作る最適な熟成温度があります。 米麹200gプラス塩70gプラス水270cc 発酵器55度約12時間",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "shiokoji-chunk-12": {
+      "number": 12,
+      "sha256": "8157e39e63eb8f75a8c30f6e8a204c8f3befdb681a656864f17fee0dd59cf155",
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-783169bc21410d07327c.mp3",
+      "transcript": "塩麹使い方例、漬け床。肉、魚、野菜、何でも漬けられます。 3時間から漬けたまま冷凍保温しても良い。 冷魚2切れ200gくらいに塩麹大さじ2。 魚や肉をよく洗い、水気を拭き取り一晩ほど漬ける。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "shiokoji-chunk-15": {
+      "number": 15,
+      "sha256": "0fbcf0eed039c1f439d10f50b58abe496083e75aeb55724b7965c859401c24be",
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-1a3f9d86fb0571a32a8e.mp3",
+      "transcript": "和物 基本分量あくまでも基本なのでご自分の味にアレンジしてください 素材に150gから300gに対し塩麹大さじ1",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "shiokoji-chunk-21": {
+      "number": 21,
+      "sha256": "b3314f419e7014b4c8a9d0aadea2e3f98a07fc57889ccfe98b3f713109aa5fa5",
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-657a7d0b4ba06dba4d18.mp3",
+      "transcript": "玉ねぎ麹使い方例 炒め物 素材に糸が通ったら最後に玉ねぎ麹を加え軽く炒める",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "shiokoji-chunk-22": {
+      "number": 22,
+      "sha256": "518cfb02bf90f88432a66ca2e3a92325e975ed26bed98e24171ed80b4e266448",
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-a578234f973747c2f801.mp3",
+      "transcript": "スープレイポタージュスープ材料 トウモロコシ高温寒無煙200g 豆乳牛乳200cc 玉ねぎ麹大さじ1と2分の1",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "shiokoji-chunk-23": {
+      "number": 23,
+      "sha256": "ddee9d2f7156962e5790b913ca2bad80597faf6346ff303eafbcd69f181a3abe",
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-70635e57a2c424cfe807.mp3",
+      "transcript": "コウモロコシ、タマネギ麹、豆乳を合わせ、ブレンバーやジューサーにかける。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "shiokoji-chunk-24": {
+      "number": 24,
+      "sha256": "a42e7b37e3085ddcb18e0ee5b7124a817f88fc760da4ef2461a0a627ab49121e",
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-a9d209e424d288172878.mp3",
+      "transcript": "ドレッシング 例 玉ねぎ麹ドレッシング 材料 玉ねぎ麹大さじ4 米油大さじ4 酢小さじ1から大さじ2分の1",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    }
+  }
+}

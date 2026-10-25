@@ -51,7 +51,7 @@
       color: "var(--horizon)",
       canvas: "var(--pulse)"
     },
-    { id: "stories", title: "Stories", pageRange: "Conversations", color: "var(--bee-yellow)", canvas: "var(--bee-yellow)" },
+    { id: "stories", title: "Stories", pageRange: "Conversations & articles", color: "var(--bee-yellow)", canvas: "var(--bee-yellow)" },
     { id: "fermentation-notes", title: "発酵ノート", pageRange: "Fermentation notes", art: "fermentation", color: "var(--ember)", canvas: "var(--paper)" }
   ];
 
@@ -1340,9 +1340,14 @@
         0
       );
 
-    elements.pageSubtitle.textContent = category.id === "stories"
-      ? `${lessons.length} deck · ${totalQuestions} ${totalQuestions === 1 ? "story" : "stories"}`
-      : `${lessons.length} lessons · ${totalQuestions} questions`;
+    if (category.id === "stories") {
+      const conversations = lessons.filter(lesson => lesson.storyCards)
+        .reduce((total, lesson) => total + getDeclaredQuestionCount(lesson), 0);
+      const articles = lessons.filter(lesson => lesson.articleCards)
+        .reduce((total, lesson) => total + getDeclaredQuestionCount(lesson), 0);
+      elements.pageSubtitle.textContent = `${lessons.length} ${lessons.length === 1 ? "deck" : "decks"} · ${conversations} ${conversations === 1 ? "conversation" : "conversations"}` +
+        (articles ? ` · ${articles} ${articles === 1 ? "article" : "articles"}` : "");
+    } else elements.pageSubtitle.textContent = `${lessons.length} lessons · ${totalQuestions} questions`;
 
     renderLessonList(lessons);
     showScreen("pages");

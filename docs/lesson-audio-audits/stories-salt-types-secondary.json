@@ -1,0 +1,29 @@
+{
+  "method": "Independent Whisper transcription without expected-text prompt. Automated comparison, not listening or pitch verification.",
+  "entries": {
+    "salt-types-chunk-03": {
+      "number": 3,
+      "sha256": "d99c6e81e2bb5039568a566a3c55f1216f295c6c9565253481ab81f154870bf9",
+      "audio": "audio/lessons/stories-salt-types/marin-846f9ede134b678813d5.mp3",
+      "transcript": "アラジオとセーセーンは何が違う アラジオは一般的に粒が比較的に大きくしっとりしたものが多い塩です 海水を原料とする商品が多く塩化ナトリウム 以外のミネラルが含まれていることもあります",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "salt-types-chunk-05": {
+      "number": 5,
+      "sha256": "63cd785b0aa1a9838b584196ae964db12222634155d21caa94c902f9e5618d80",
+      "audio": "audio/lessons/stories-salt-types/marin-f8366135519a6781060f.mp3",
+      "transcript": "はだし、アラジオには厳密な定義があるわけではなく、商品によって製法や成分が異なります。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "salt-types-chunk-13": {
+      "number": 13,
+      "sha256": "02fc97cd2cb4e68b3fd6ef445dccea70082d9f31c83b8759fb60a6ee58ea01e9",
+      "audio": "audio/lessons/stories-salt-types/marin-0426338086296fcff482.mp3",
+      "transcript": "普段の調理には使いやすい塩、仕上げには食感や風味を楽しめる塩を選ぶなど、目的に合わせて使い分けるのがおすすめです。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    }
+  }
+}

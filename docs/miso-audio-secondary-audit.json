@@ -1,0 +1,269 @@
+{
+  "method": "Independent Whisper transcription without expected-text prompt. Automated comparison, not listening or pitch verification.",
+  "entries": {
+    "miso-basics-chunk-02": {
+      "number": 10,
+      "sha256": "a0c0545cad80ccdc6b8f2eed80a5aca65d284a16724f62299a3dc10b662c5028",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-c33572430f2012e806fd.mp3",
+      "transcript": "大豆含量 麹含量 塩分 仙台味噌 大豆含量10 麹含量6 塩分18% えちぼ味噌 大豆含量10 麹含量7 塩分13% しんしゅう味噌 大豆含量10 麹含量8 塩分 和下向き味 えど味噌 大豆含量10 麹含量10 塩分 和下向き味噌 最強味噌 大豆含量10 麹含量20 塩分7% だしいらず 八丁味噌 大豆麹のみ 塩分12%",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-basics-chunk-05": {
+      "number": 13,
+      "sha256": "77b11d36a91172d56db260db5a7a528cb4e430bb2b2bcdd0985b26d58783ca0e",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-838058b449ed9b3ca03c.mp3",
+      "transcript": "2 味噌の製法 食塩プラス麹 塩切り麹 大豆新石 乗車冷却 乗車大豆 梱包 発酵 熟成 掘り出し 天地返し 調包 包装",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-basics-chunk-06": {
+      "number": 14,
+      "sha256": "46a525922ab052e78bfa2a646fc89a9c2ed4ed8863a869c208817712a20f6675",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-e5290a84e438af6af114.mp3",
+      "transcript": "お味噌の味の決め手は2つあります 麹部合麹と大酢の割合のこと 麹の割合が高いほど旨味があり 甘く高級なお味噌 今回の口座の味噌は三重部合味噌 麹が大酢の3倍の量なので旨味 のある最高級のお味噌ができます 通常の辛口味噌5から10部合 十部とは大酢と麹の量が同じ 通常の甘口味噌15から20部合",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-basics-chunk-07": {
+      "number": 15,
+      "sha256": "6fe8c92b06265c75f9a961a28854b83296d6cf00c566e36f736b436a2dd84b54",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-9c48a6297f7f6c600634.mp3",
+      "transcript": "塩分量通常の辛口味噌塩分量11から13% 通常の甘口味噌塩分量7から11% 今回の口座の味噌は10%の塩分量なので塩分控えめです 塩分量%イコール塩グラム割塩プラス材料 麹プラス大豆かける尺",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-rice-chunk-01": {
+      "number": 16,
+      "sha256": "4b3faea4ca842f29adefffe6105da28a83cda42bd31dcef7b283101159b28af5",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-f9c81b73e35746a746de.mp3",
+      "transcript": "材料、出来上がり味噌2kg、米麹900g、生大豆300g、約800gの煮大豆になります。大豆の種類や大きさによって異なります。 塩200g、煮汁または懸念水、適量。保存用備にニール袋、ラミジップ、LZ20。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-rice-chunk-06": {
+      "number": 21,
+      "sha256": "3eb5cbe39afa295b21ff825b612dd4c24912c1581bf59f94d63ac4ed74fa7e62",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-b0836de46ebe55c62a45.mp3",
+      "transcript": "3.専用容器の内側をアルコール消毒し、縁を7センチメートルほど折り返しておきます。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-rice-chunk-09": {
+      "number": 24,
+      "sha256": "b57779c44e662166ce694cfce157db525b1d7ed3c7b3cb5ab13c4d6b2b822767",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-570f4647cea1494fcd88.mp3",
+      "transcript": "ここでよく混ぜないと、発酵がうまくいかず、おいしい味噌ができません。 しっかり60回以上。 もし固ければ、煮汁またはミネラルウォーターを入れて、 耳たぶくらいの柔らかさで仕上げます。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-rice-chunk-11": {
+      "number": 26,
+      "sha256": "81aa534cd36d3015c4c83ba32dc8aa85f42d994706e4b0264429827ad730b922",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-f158eb956468f892b250.mp3",
+      "transcript": "ビニール袋に数回に分けて 団子を容器に入れていきます 味噌の間に空気が残ってしまうとカビの原因になります",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-rice-chunk-15": {
+      "number": 30,
+      "sha256": "c14096d49a991e7bb063f2892cea169a131d865ca9de91fdb835279b545f9425",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-de688362ed4f7c8cc2dd.mp3",
+      "transcript": "発酵が進んでくると容器にガスが溜まってきますがその都度抜いてください 正面に白い反転が出てきますが 白芯兄のさんです カビではないため取り除かなくても大丈夫です",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-rice-chunk-16": {
+      "number": 31,
+      "sha256": "3138e0e94b901ce8aaefcd19f22ec3e1de7696496c75da96d1b47c75c541e8b2",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-d37e89bd786dc24b8209.mp3",
+      "transcript": "割に空気に接した部分に緑や赤色のカビが出る場合がありますが、スプーンでカビの周り5ミリメートルくらいを取り除き、 除いた後は、あるコールで容器の内側を殺菌して、空気をしっかり抜いて熟成を続けてください。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-rice-chunk-17": {
+      "number": 32,
+      "sha256": "150b0087231b1fe7fe334add627988770ad5b35dcea470830bc066ba6be29677",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-320eb282217f207c7f74.mp3",
+      "transcript": "発酵場所注意点 発酵場所基本的にはリビングなどで発酵熟成させましょう 毎日声をかけるくらい気に留めてあげてください 気にかけるほど美味しいお味噌が出来上がります 暑い時期6月から9月も空調のある場所が味噌が心地よいと思います 常時35度を超える場所や直射日光が当たる場所は避けてください",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-rice-chunk-18": {
+      "number": 33,
+      "sha256": "b982c97b1643d3847a943e21648a0a0603e38dad58a83d28deff7505be5a1deb",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-c17f12e17e6e1add5498.mp3",
+      "transcript": "食べ始める時期 寒い時期3から8ヶ月 春夏3ヶ月から6ヶ月 暑い時期2から4ヶ月",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-white-chunk-01": {
+      "number": 35,
+      "sha256": "41f3bcd7cbfba18b1087e2d63ffaeba337891fa335563701abddb44b952d81e0",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-381d301c517f1d709ca9.mp3",
+      "transcript": "白味噌、白味噌には大きく分けて2種類の味噌、関西白味噌、甘味噌と、新種白味噌があります。 かき白味噌を買うときに選ぶ参考としてください。 それぞれの特徴。 関西白味噌、塩分5%前後、原材料は米が一番最初に表記。 新種白味噌、塩分10%前後、原材料は大豆が一番記載。 新種白味噌は甘味噌ではありません。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-white-chunk-02": {
+      "number": 36,
+      "sha256": "d8f954cc925f62f60e22dd5da4f4865be443d1a3f5444997a30595167f7e6069",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-5c35fcfbe2cd8adbd09e.mp3",
+      "transcript": "白味噌の特徴は、出来上がった味噌の総量の中で、大豆より米麹の比率が多く、発酵時間が短いのが特徴。 白味噌の作り方は、米麹による糖化酵素による甘さを持ち、甘酒の作り方に似ていています。 明るい黄色と白混ぜたようなカスタードクリーム色が特徴です。 塩分のうどが低いので、赤味噌と違い、消費期限が短いです。 冷蔵庫2週間、冷凍庫半年。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-marinade-chunk-01": {
+      "number": 38,
+      "sha256": "a8e783940540c48f39ea6292197d2ea9728cac21f1b02ac629f34a9c0c863cbe",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-519f16fa5b5104787fd0.mp3",
+      "transcript": "みそじゅう、かい、さけいち、たい、みりんいち",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-cod-soup-chunk-01": {
+      "number": 40,
+      "sha256": "e20e58144106d4dfcdd264a7871743969ac9b0383f43a10ed2370bc577f2174a",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-6e670970e07f2e1c3408.mp3",
+      "transcript": "4人分 材料 唐煮汁 ごぼう適量 ネギ適量 水4カップ 味噌80グラム",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-cod-soup-chunk-03": {
+      "number": 42,
+      "sha256": "18e2dac1e5df473ee3283915b44bbe83f5f7b5c5fa852a86bd5bd788a87bafad",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-72e68a7c2c4ad616659a.mp3",
+      "transcript": "2.鍋に水を入れ、煮立たせ、味噌を3分の2入れ、タラとハラワタを入れる。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-cod-soup-chunk-04": {
+      "number": 43,
+      "sha256": "6c8eab0752e3170fa7a86891269d1e2cf8d2e92e2d7537644ba155513ee75778",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-f6bcbb54ab4184149f4a.mp3",
+      "transcript": "3 に立ったら悪をとりながら煮る",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-yogurt-marinade-chunk-04": {
+      "number": 48,
+      "sha256": "7c2a59a3ee27d5f03724953b876cbcfbb3d0d128844634b4584002847a5699a6",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-f5677ce84028e5a612a1.mp3",
+      "transcript": "3 1と2を合わせ3時間ほどつける",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-yogurt-marinade-chunk-05": {
+      "number": 49,
+      "sha256": "c0ede0c29d6758cf78c4268045466299dffd8230520cf0dd8095152af37c7fd8",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-88a6978257055ba87cd6.mp3",
+      "transcript": "透け床は味噌汁に",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-nanohana-chunk-01": {
+      "number": 50,
+      "sha256": "074258161a69db7db3735a9c0354cb8668e94536c8d4298614d0fb0f4c4aeaa1",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-f6c8c88efb1944b786d0.mp3",
+      "transcript": "材料 菜の花一束",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-tama-chunk-04": {
+      "number": 56,
+      "sha256": "015ee7772c87c4820a3b695c6309f029bee441577cd3b1fc8441b8f0a163ea05",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-f174d4ffee4d78d3c765.mp3",
+      "transcript": "味噌伝学魚味噌焼き炒め物プラスすすみそプラスピーナッツピーナッツ味噌プラスごまごま味噌プラスゆずゆず味噌プラスひき肉肉味噌",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-shinshu-sauce-chunk-01": {
+      "number": 57,
+      "sha256": "35f547b0acb89b31629e997497352b68a34591d76420d4b5a86ec0357391a1f1",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-031fc8d466ff0cdcbcab.mp3",
+      "transcript": "味噌100g、砂糖大さじ3、みりん大さじ1",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-burdock-sauce-chunk-02": {
+      "number": 61,
+      "sha256": "0cbe76434414ff0b33e921004cd38e2da280c9ac3ba8fe6eefc711e123cdb20c",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-8cfc8c5e7d92bb6e98a5.mp3",
+      "transcript": "あわせひみ かけねる",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-chicken-sauce-chunk-02": {
+      "number": 63,
+      "sha256": "6fb13ef3b8889a6205e0dfb1768d8cde0276c5a7de564f037fdf14fd78a0e2c7",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-f0304f53354a6d840cac.mp3",
+      "transcript": "あわせてひにかけねる",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-cheese-chunk-01": {
+      "number": 66,
+      "sha256": "eef31f2537c60f23078572a02fa13bce6146ab9cefa0abb2fdc282c35f1f773f",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-5a5069488486d6f219c6.mp3",
+      "transcript": "新鮮味噌100g 粉チーズ30g 卵1個 長ネギ刻み30g 大葉刻み30g みりん60cc",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-soy-milk-soup-chunk-01": {
+      "number": 70,
+      "sha256": "5b701d9a15b8df3341d64d6389b9930f1e4c1e7c3b210329a107088c60683586",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-59ed364dbeb75725b23d.mp3",
+      "transcript": "きのこ、椎茸2枚、青菜、ほうれん草2株、長ネギ2分の1本、豆乳、成分無調整50cc、水煮150cc",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-tomato-soup-chunk-01": {
+      "number": 71,
+      "sha256": "c56862d112691c9dd07b2ef30768707687a240f54d3f124cde974e9bbf0f3d61",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-6590b086039401a2789f.mp3",
+      "transcript": "ナス1本、株、はつき2個、トマトジュース、油塩100cc、水200cc、味噌大さじ2弱。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-pickles-chunk-04": {
+      "number": 75,
+      "sha256": "1c626b0d871895e9f744a6eb0525048a48ff04784c43dbad2de252e6a5aaa8d9",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-5dbc8e7b9196bd394196.mp3",
+      "transcript": "3 保存袋の空気を抜いて口を閉じ冷蔵庫で4時間保存つける",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-instant-soup-chunk-01": {
+      "number": 77,
+      "sha256": "ea530ee3d7758ebadb4758788a4887c7b096ead71290a0f3b2f111b2600527d7",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-4930b289b7324deb77be.mp3",
+      "transcript": "味噌大さじ1.5 削り節大さじ1 カットわかめ 不適量",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-marinade-extra-chunk-01": {
+      "number": 78,
+      "sha256": "51c933e906c98ae4e841d8c62c32696e6b8be2ebe374473f8242bd5e0927f0ac",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-6ee6aafaaa607c86b8d1.mp3",
+      "transcript": "肉 肉に塩を振り水分を拭いた後焼く前に味噌を乗せて焼くと肉は硬くならない 魚野菜 少ない塩を振り30分水洗いして水分を拭くとり2日ほどつける 味噌酒かす10対酒1対みりん 味噌はあまりその方が向いている",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-afterword-chunk-02": {
+      "number": 80,
+      "sha256": "901935386bcbcfab5aec83b940df7755da6dec341d115697c5c3e51358b36491",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-6e95ba4bb337017c9ba5.mp3",
+      "transcript": "味噌は麹と蒸し大豆を合わせて半年から1年ほど発酵・熟成させたのですが、 現在はこの発酵時間を短くしようと、味噌の発酵に必要な菌を添加した種水を加えて発酵をおならす方法が生産の回転数を上げるために取られているものもあります。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "miso-afterword-chunk-03": {
+      "number": 81,
+      "sha256": "feb13dc7381140bc099025a594c5531071441a65a02dcf98a3d60afc8784f9a0",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-6e7f3d80f16189f9208d.mp3",
+      "transcript": "また、発酵食品の生田味噌のように、酵母によって容器がパンパンにならないように、 酒精という添加物を加えたり、加熱殺菌をしたりして、発酵を抑えたり止めたりしたものもあります。 熟成を止めるので、味が変わらないのが良いのでしょうが、生田味噌の美味しさに沸かないません。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    }
+  }
+}

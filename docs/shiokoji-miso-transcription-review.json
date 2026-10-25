@@ -1,0 +1,908 @@
+{
+  "method": "Human text comparison of unprompted gpt-4o-transcribe results against the reviewed narration scripts; targeted independent Whisper and generic phonetic transcripts resolve ambiguous recognition. Generated MP3s decoded locally. This is automated transcription evidence, not listening or audible-pitch verification.",
+  "reading_source_display_unchanged": true,
+  "entries": {
+    "shiokoji/shiokoji-chunk-01": {
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-bca2e1f0db21319bedf7.mp3",
+      "sha256": "343197cfe59e86c104e4551ae787d36d2947ef389c9017649b6e65eea427d9ac",
+      "transcript": "1.麹に期待される効果すべての人に同じように効果が出るとは言えませんが、研究発表されている効果です。ぜひ麹を積極的に摂りましょう。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "shiokoji/shiokoji-chunk-02": {
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-e0a857c7e83d1def92b8.mp3",
+      "sha256": "af98b42e312695147296d9e65b603c478c3b08d5af619d79c635c30f3c88a852",
+      "transcript": "1.腸内環境改善、善玉菌の増加 2.免疫力アップ 3.アレルギー疾患の軽減 4.自己免疫疾患の抑制 5.便秘改善",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "shiokoji/shiokoji-chunk-03": {
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-90af6de7e55d03131865.mp3",
+      "sha256": "54915aca4392585903e60417b3cfd33dbb260458882e434a989d0efaa28a843d",
+      "transcript": "6.高血圧抑制効果 7.血糖値上昇抑制効果 8.消化促進効果 9.美白効果・シミの予防 10.コレステロール・中性脂肪抑制効果",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "shiokoji/shiokoji-chunk-04": {
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-b0e60a14c388ba810b36.mp3",
+      "sha256": "e18e87b9180973145c3b63cdfd13f35be9a49594f75d6a99f2472503f0ecd16c",
+      "transcript": "2.いかに麹が調味料として優れているか代表的な調味料、甘味料、甘みを加えるもの、砂糖、みりん、甘麹など香辛料、香りや辛さをつけるもの、胡椒、七味唐辛子など旨味調味料、旨味を与えるもの、だし、グルタミン酸ナトリウムなど",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "shiokoji/shiokoji-chunk-05": {
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-b1b7ae7ec5426d5e3c73.mp3",
+      "sha256": "c2e606fa8d040975693f451d38d8c761dfb8ae7c6250c90b90f390c040fe01b8",
+      "transcript": "他には、醤油、ケチャップ、マヨネーズなど挙げればきりがないほど様々な調味料があります。これらと比べて塩麹はそのものの塩味、甘みは当然ありますが、一番の調味料としての特徴は素材そのもののおいしさを引き出すということです。",
+      "review_note": "Rerecorded: restores 一番 and final ということです.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "shiokoji/shiokoji-chunk-06": {
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-511d79f4806914b8d164.mp3",
+      "sha256": "a46ee7b24a1d0bf549d91970b63b5775697e7f6d343620e2fdd17a06f568b1fe",
+      "transcript": "元来私たちが食してきた和食は、四季折々の新鮮で豊富な食材そのものが持つ味を生かして、あまり味付けしないものです。その和食にまさにマッチした調味料が塩麹なのです。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "shiokoji/shiokoji-chunk-07": {
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-c5e9345cefffcd76f914.mp3",
+      "sha256": "00d236f72e046a9f63eec0bc071a92b802a18e4c0d14c32e42b2a604e62ee2af",
+      "transcript": "塩麹には麹から生成されたさまざまな酵素が豊富に含まれています。アミラーゼによって食材のデンプンがブドウ糖に分解され、優しい甘みを引き出します。デンプン分解酵素。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "shiokoji/shiokoji-chunk-08": {
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-2e64b9a0d1ec3c37ca4f.mp3",
+      "sha256": "8c4f3ede0e21abbf3469c68dde9f17088d235026ba3e945255930bef98a23d8d",
+      "transcript": "プロテアーゼによって食材のたんぱく質がアミノ酸に分解され、うま味を引き出します。たんぱく質分解酵素。リパーゼによって脂肪を分解し香りを引き立たせます。脂肪分解酵素。",
+      "review_note": "Rerecorded twice: continuous-list punctuation restores final 脂肪分解酵素; primary transcript now includes it.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "shiokoji/shiokoji-chunk-09": {
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-f20f4269a1fbaf29445b.mp3",
+      "sha256": "9a7c9b6103701c8b7ca7027821c7d9115b2f7f2568e87bd5c92d816e00d0be11",
+      "transcript": "セルラーゼによって食感をなめらかにしてくれます。細胞壁分解酵素。このように塩麹に含まれる酵素の様々な働きによって、食材そのもののおいしさが引き出されているのです。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "shiokoji/shiokoji-chunk-10": {
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-8b8614c4abc1f18eb5fa.mp3",
+      "sha256": "1e082fd3b66dc6b3b0104e36ff1158da41a6388968717eb70e0a23a3a39d6294",
+      "transcript": "塩麹作り方。出来上がり、冷蔵庫3ヶ月ほど、冷凍1年ほど。塩麹、常温仕込み。塩麹は常温室温でゆっくり熟成、糖化させていけば酵素の活力は完全に保たれるので、料理に使うとき効果的に働かせることができます。米麹200g、プラス塩70g、プラス水270cc。常温7日から10日、冬場は7日から14日くらい。",
+      "review_note": "Rerecorded: ingredient/quantity pauses distinguish 200g and 270cc; winter 7–14 day ending restored.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "shiokoji/shiokoji-chunk-11": {
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-a1829fcce3b009a081d4.mp3",
+      "sha256": "96243cbac7e27e74be818b78860c15ef980bd7e04ecfb8544d01548a52584f5f",
+      "transcript": "早作り熟成塩麹。蒸気常温熟成でも美味しいですが、かなり時間をかけても塩麹そのものの熟成度、旨味や甘みを上げることは困難です。早作りは短期間に熟成させ、なおかつ酵素も壊さずに塩麹を作る最適な熟成温度があります。米麹200gプラス塩70gプラス水270cc、発酵器55度約12時間。",
+      "review_note": "Rerecorded quantity grouping: 200g/70g/270cc and 55°C/12h match. 上記/蒸気 are homophonic transcription spelling.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "secondary_transcript": "早作り熟成塩麹 蒸気常温熟成でも美味しいですが、かなり時間をかけても、 塩麹そのものの熟成度、旨味や甘みを上げることは困難です。 早作りは短期間に熟成させ、なおかつ酵素も壊さずに、 塩麹を作る最適な熟成温度があります。 米麹200gプラス塩70gプラス水270cc 発酵器55度約12時間",
+      "secondary_model": "whisper-1"
+    },
+    "shiokoji/shiokoji-chunk-12": {
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-783169bc21410d07327c.mp3",
+      "sha256": "8157e39e63eb8f75a8c30f6e8a204c8f3befdb681a656864f17fee0dd59cf155",
+      "transcript": "塩麹使い方例。漬け床。肉、魚、野菜、何でも漬けられます。3時間から漬けたまま冷凍保存してもよい。例、魚2切れ200gくらいに、塩麹大さじ2。魚や肉をよく洗い、水気を拭き取り、一晩ほど漬ける。",
+      "review_note": "Secondary transcript retains original 冷凍保温; primary normalizes to 保存. Original source wording retained.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "secondary_transcript": "塩麹使い方例、漬け床。肉、魚、野菜、何でも漬けられます。 3時間から漬けたまま冷凍保温しても良い。 冷魚2切れ200gくらいに塩麹大さじ2。 魚や肉をよく洗い、水気を拭き取り一晩ほど漬ける。",
+      "secondary_model": "whisper-1"
+    },
+    "shiokoji/shiokoji-chunk-13": {
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-f44752cc3b2f6f940ade.mp3",
+      "sha256": "53cd1ce29452f92a26b98fd3334afb0652f1c81596e0566fe2f2f74061041e7b",
+      "transcript": "炒め物の素。素材に火が通ったら、最後に麹調味料を入れる。素材に火が通る前に焦げやすいから。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "shiokoji/shiokoji-chunk-14": {
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-47f7a2bb0c204ef59a49.mp3",
+      "sha256": "dda7c506d0ff7748d06acc5a917ee270e1fbe6e9e4b01112b3053db0b1be6349",
+      "transcript": "スープ、汁物、麹をお湯で溶く、塩と同様に使う。煮すぎると濃厚な味になる。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "shiokoji/shiokoji-chunk-15": {
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-3388385c04649771c975.mp3",
+      "sha256": "6c52da3b1614b86856af89829b00be38b4652e6fd8f7ba295e212055bbd2758e",
+      "transcript": "和え物。基本分量あくまでも基本なので、ご自分の味にアレンジしてください。素材250グラムから300グラムに対し塩麹大さじ1。",
+      "review_note": "Rerecorded: 250g–300g now unambiguous in transcript.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "shiokoji/shiokoji-chunk-16": {
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-2ad9c99db3fefef26ff7.mp3",
+      "sha256": "7cde8694c91a4760b1666600cf29e8af6666045d3f296b3aa735b4ac94ab4dc2",
+      "transcript": "4.かわり塩麹作り方 玉ねぎ麹 出来上がり冷蔵庫2ヶ月、冷凍半年ほど 玉ねぎ麹は初心者に使いやすい麹調味料です。玉ねぎの甘みがあるので、調理に使ってもしょっぱくなりにくいです。コンソメやブイヨン代わりになります。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "shiokoji/shiokoji-chunk-17": {
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-28a480a86c31854f340b.mp3",
+      "sha256": "5debb666dc413823829f5363c9b57986fed9f8971e477533df13be6f84f0b0d5",
+      "transcript": "材料、玉ねぎ300グラム、麹100グラム、塩30グラム。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "shiokoji/shiokoji-chunk-18": {
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-4caf0ee3a18273772cf1.mp3",
+      "sha256": "91ddabba186a9f6a90a8e087fab498eb67b0e48532d4ff11943357cf70439fa1",
+      "transcript": "作り方1、麹はほぐし、塩を合わせ、ムラのできないようによく合わせておく。塩切り。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "shiokoji/shiokoji-chunk-19": {
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-db6baa6671f88f5463de.mp3",
+      "sha256": "11bc3326aa68e0aec6cb1510f9a2b2856347e12b184eac669663035187abd20f",
+      "transcript": "2.タマネギはすりおろす。1と2を合わせ、清潔な容器に入れて直射日光に当たらない場所で常温発酵させる。かき混ぜるときは清潔な器具を使うこと。春・秋5日から7日、夏3日から5日、冬7日から10日。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "shiokoji/shiokoji-chunk-20": {
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-da369cae444f9b703cf6.mp3",
+      "sha256": "efad53ae64c89c00ecd70aea24dbb7a90611524fb64b56a620c30fdd2a702f53",
+      "transcript": "熟成は早作り玉ねぎ麹。発酵器40度8時間うま味強い。60度6時間甘みが強い。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "shiokoji/shiokoji-chunk-21": {
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-657a7d0b4ba06dba4d18.mp3",
+      "sha256": "b3314f419e7014b4c8a9d0aadea2e3f98a07fc57889ccfe98b3f713109aa5fa5",
+      "transcript": "カマネギ麹使い方例：炒め物。素材に火が通ったら最後にカマネギ麹を加え、軽く炒める。",
+      "review_note": "Secondary resolves 玉ねぎ against primary カマネギ spelling error.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "secondary_transcript": "玉ねぎ麹使い方例 炒め物 素材に糸が通ったら最後に玉ねぎ麹を加え軽く炒める",
+      "secondary_model": "whisper-1"
+    },
+    "shiokoji/shiokoji-chunk-22": {
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-a578234f973747c2f801.mp3",
+      "sha256": "518cfb02bf90f88432a66ca2e3a92325e975ed26bed98e24171ed80b4e266448",
+      "transcript": "スープ、冷ポタージュスープ、材料、とうもろこしコーン缶無塩200g、豆乳(牛乳)200cc、玉ねぎこうじ大さじ1と1/2。",
+      "review_note": "Rerecorded: secondary confirms 大さじ1と2分の1; レイ is spoken 例, not a new 冷製 instruction.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "secondary_transcript": "スープレイポタージュスープ材料 トウモロコシ高温寒無煙200g 豆乳牛乳200cc 玉ねぎ麹大さじ1と2分の1",
+      "secondary_model": "whisper-1"
+    },
+    "shiokoji/shiokoji-chunk-23": {
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-23cf56e840d65fe18161.mp3",
+      "sha256": "0c104507bc6f179a60547ed06c45cca537f333e90f297a4d9f7e2f2b7e997a7a",
+      "transcript": "とうもろこし、玉ねぎ麹、豆乳を合わせ、ブレンダーやジューサーにかける。",
+      "review_note": "Rerecorded: primary now confirms とうもろこし and ブレンダー.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "shiokoji/shiokoji-chunk-24": {
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-a9d209e424d288172878.mp3",
+      "sha256": "a42e7b37e3085ddcb18e0ee5b7124a817f88fc760da4ef2461a0a627ab49121e",
+      "transcript": "ドレッシングA玉ねぎ麹ドレッシング。材料、玉ねぎ麹大さじ4、米油大さじ4、酢小さじ1から大さじ1/2。",
+      "review_note": "Secondary resolves 例 and quantity fraction.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "secondary_transcript": "ドレッシング 例 玉ねぎ麹ドレッシング 材料 玉ねぎ麹大さじ4 米油大さじ4 酢小さじ1から大さじ2分の1",
+      "secondary_model": "whisper-1"
+    },
+    "miso/miso-basics-chunk-01": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-6bc51b1f28c25cf1aae2.mp3",
+      "sha256": "f324e15a525b7e3548c9d96baea0023f55b43c2097184f76587eb68e4e59544e",
+      "transcript": "1.味噌の種類と麹歩合 麹の原料から味噌は米味噌、麦味噌、豆味噌の3種類とこれらを混合した調合味噌に分けることができます。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-map-chunk-01": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-743f5e660522756c5893.mp3",
+      "sha256": "10454a633d4c19d84fc23f2a4dcb207c7cd9f4f2403584885cd05c7f37544809",
+      "transcript": "おみそマップ、信州みそ（長野）。全国の生産量の約40%を占める淡色辛口みその代表格。やや酸味のある芳香を持ち、今や全国的に生産されている。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-map-chunk-02": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-32b0ad15d9beaef81b5e.mp3",
+      "sha256": "ee7756ccce3ea0990676b4816907d8329b3a4f2f23c5672959767490e01c6c28",
+      "transcript": "津軽味噌（青森）米味噌の中でも長期熟成型の赤色中辛味噌。糀の割合が低く塩分も高いが、十分に塩がこなれ独特の旨味になっている。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-map-chunk-03": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-e12f9caaa03b72dc64b3.mp3",
+      "sha256": "4152c771a04f577173ff33171d5cbcf00723ca22e38b06c5e879f278fc78313e",
+      "transcript": "関西白味噌、関西地方、関西地方で生産されている甘味噌。米麹の割合が高く甘みが強い。着色を抑えるため、精米度を高くし、大豆は脱皮したものを用い蒸さずに煮る。短期熟成型の味噌で長期保存には向かない。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-map-chunk-04": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-c771bd19901c15bf710d.mp3",
+      "sha256": "13cf4f90ccee116088722b00ce113045ae2307818fcd518e7e63faee1ee27a8b",
+      "transcript": "江戸甘味噌、東京。白味噌が着色を避けるために大豆を煮るのと違い、蒸した大豆を用いるため色は赤褐色。米麹をたっぷり使用しているため濃厚な甘味と独特の光沢・香りを有する。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-map-chunk-05": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-d1b2cf345891cbdf7bab.mp3",
+      "sha256": "5d387be1ecc31ee14425130bf55a8403304554b81934d220c9c5f5e9a0c9e349",
+      "transcript": "東海豆味噌、愛知、三重、岐阜、名古屋味噌、三州味噌、三河味噌、八丁味噌など、いろいろな故障・銘柄名で呼ばれる中京地方の豆味噌の総称。濃厚な旨味と渋み、若干の苦味を持つ。赤だしの原型だが、現在は豆味噌に米味噌や調味料を配合したものが赤だしと呼ばれることが多い。",
+      "review_note": "故障 vs 呼称 is homophonic ASR spelling, not evidence of a reading change.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-map-chunk-06": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-89e7322e912555076c27.mp3",
+      "sha256": "c9849cd31708e66da5e531233c6f0646837a3875c68941482c51ecbcc2d830be",
+      "transcript": "九州合わせ味噌、北九州地方、米麹と麦麹を合わせて作ったもの。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-map-chunk-07": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-0b5fbcd4172edb474874.mp3",
+      "sha256": "acbb174e771466f90b58954ad494196b082ae65cb1f5c0ebfed82021edfc64d7",
+      "transcript": "九州麦味噌 南九州地方。麦麹の割合が高く、甘口のものが多いが、北部では麦独特の芳香を有する辛口も多い。近年では麦麹に米麹を混ぜた合わせ味噌も見られる。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-map-chunk-08": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-b030b23b845b504eb757.mp3",
+      "sha256": "71bb1ab631b6390b765527464deedea63f6b062fc781cc5fdfbab25e98176869",
+      "transcript": "判例、米味噌圏、豆味噌圏、麦味噌圏を表しています。",
+      "review_note": "判例 vs 凡例 is homophonic ASR spelling. Legend swatch fragments narrated as a grammatical list.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-basics-chunk-02": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-c33572430f2012e806fd.mp3",
+      "sha256": "a0c0545cad80ccdc6b8f2eed80a5aca65d284a16724f62299a3dc10b662c5028",
+      "transcript": "大豆含量、麹含量、塩分、仙台味噌、大豆含量10、麹含量6、塩分18%、越後味噌、大豆含量10、麹含量7、塩分13%、新州味噌、大豆含量10、麹含量8、塩分わしたむき味印、江戸味噌、大豆含量10、麹含量10、塩分わしたむき味印、最強味噌、大豆含量10、麹含量20、塩分7%、だし入らず、八丁味噌、大豆麹の実、塩分12%。",
+      "review_note": "Rerecorded table with repeated column labels in speech only. Every numeric cell matches; no salt value invented for downward arrows. Rare arrow-label spelling remains ASR-ambiguous, not claimed listening-verified.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "secondary_transcript": "大豆含量 麹含量 塩分 仙台味噌 大豆含量10 麹含量6 塩分18% えちぼ味噌 大豆含量10 麹含量7 塩分13% しんしゅう味噌 大豆含量10 麹含量8 塩分 和下向き味 えど味噌 大豆含量10 麹含量10 塩分 和下向き味噌 最強味噌 大豆含量10 麹含量20 塩分7% だしいらず 八丁味噌 大豆麹のみ 塩分12%",
+      "secondary_model": "whisper-1"
+    },
+    "miso/miso-basics-chunk-03": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-ef22fdc6bc057c7382c9.mp3",
+      "sha256": "ded8199d5bc400580238aa6dcffca52f0f371e6c99db71d04e9de9312a7e14eb",
+      "transcript": "米みそは大豆に米こうじ、麦みそは大豆に麦こうじ、合わせみそは大豆に米こうじと麦こうじを加えたもの、豆みそは大豆に大豆こうじを合わせて作ります。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-basics-chunk-04": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-637b8192674dea88f667.mp3",
+      "sha256": "57a37f89c6e73abff0b8d5ae48524d57faeea1da6604e6ba030acf0526ced9aa",
+      "transcript": "味噌の色の違い、濃淡の差が出るのは発酵熟成中に起こるメイラード反応が原因です。メイラード反応とは、原料である大豆などのアミノ酸が糖と反応して褐色に変化すること。商品になっても熟成は進むので、時間が経つと色が濃くなっていきます。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-basics-chunk-05": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-0973a08c6062cf1f2885.mp3",
+      "sha256": "0ec67db427c67baa5a3735683c972948d191c22388e3efba4ea60c85a1a51da2",
+      "transcript": "2.味噌の製法、食塩プラス麹、塩切り麹、大豆、浸漬、蒸煮、冷却、蒸煮大豆、混合、発酵、熟成、掘り出し、天地返し、調合、包装、種水",
+      "review_note": "Rerecorded twice: continuous list now includes final 種水.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-basics-chunk-06": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-e5290a84e438af6af114.mp3",
+      "sha256": "46a525922ab052e78bfa2a646fc89a9c2ed4ed8863a869c208817712a20f6675",
+      "transcript": "お味噌の味の決め手は二つあります。麹ぶ合い。麹と大豆の割合のこと。麹の割合が高いほど旨味があり、甘く高級なお味噌。今回の講座の味噌は三重ぶ合い味噌。麹が大豆の3倍の量なので、旨味のある最高級のお味噌ができます。通常の辛口味噌5から10ぶ合い。10ぶとは大豆と麹の量が同じ。通常の甘口味噌15から20ぶ合い。",
+      "review_note": "Rerecorded: 15–20 ratio now recognized by both systems. 三重/30 and 部合/歩合 are recognition spellings of the contextual pronunciation.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "secondary_transcript": "お味噌の味の決め手は2つあります 麹部合麹と大酢の割合のこと 麹の割合が高いほど旨味があり 甘く高級なお味噌 今回の口座の味噌は三重部合味噌 麹が大酢の3倍の量なので旨味 のある最高級のお味噌ができます 通常の辛口味噌5から10部合 十部とは大酢と麹の量が同じ 通常の甘口味噌15から20部合",
+      "secondary_model": "whisper-1"
+    },
+    "miso/miso-basics-chunk-07": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-7d906e9e7a04a6f8b412.mp3",
+      "sha256": "9ac91d5ccb0b11f9a9a8154d79f71c513fbc9201f951dd1516002fff2958267f",
+      "transcript": "塩分量、通常の辛口味噌塩分量11から13%、通常の甘口味噌塩分量7から11%。今回の講座の味噌は10%の塩分量なので塩分控えめです。塩分量%イコール塩グラム割る塩プラス材料、麹プラス大豆かける100。",
+      "review_note": "Rerecorded: all percent ranges and multiplier100 present. Blank worksheet Memo footer is not instructional narration content; recognizer omits it.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-rice-chunk-01": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-f9c81b73e35746a746de.mp3",
+      "sha256": "4b3faea4ca842f29adefffe6105da28a83cda42bd31dcef7b283101159b28af5",
+      "transcript": "材料、出来上がり味噌2kg、米麹900g、生大豆300g、約800gの煮大豆になります。大豆の種類や大きさによって異なります。塩200g、煮汁または天然水適量、保存容器にニール袋、ラミジップLZ20。",
+      "review_note": "Rerecorded: または and all quantities present. Product code LZ20 resolved by secondary; ビニール spelling remains recognition-dependent.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "secondary_transcript": "材料、出来上がり味噌2kg、米麹900g、生大豆300g、約800gの煮大豆になります。大豆の種類や大きさによって異なります。 塩200g、煮汁または懸念水、適量。保存用備にニール袋、ラミジップ、LZ20。",
+      "secondary_model": "whisper-1"
+    },
+    "miso/miso-rice-chunk-02": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-5d5933d98ae8ee9ffb4f.mp3",
+      "sha256": "baec70a0979e6e9e57cec1f54162bbc43880741b7686c2bb27ab7a92f7f4a72f",
+      "transcript": "仕込み前日の準備。大豆をよく洗う。大豆の3倍の量の水に浸ける。18時間以上水に浸ける。2.2倍の重さになる。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-rice-chunk-03": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-ff7bbe5452dc8c681adb.mp3",
+      "sha256": "1862b9082e41aa0476ff7f0dfb56d9ef264ecef77cba559c71ba235aa07f9823",
+      "transcript": "当日の準備1.大豆を煮る。前日から水に漬けていた大豆を、鍋か圧力鍋で煮ます。水は新しく入れ替えて、ひたひたになる程度の量です。圧力鍋の場合加圧約20分、鍋の場合4時間程度弱火。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-rice-chunk-04": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-ff7a1ceaf88d0916406f.mp3",
+      "sha256": "ef796d4b116150fa05aad2180fa2fc78b00c663c5fbb5d9c7f443c57d3daf5b4",
+      "transcript": "煮上がった大豆は、指で軽くつぶせる硬さがベストです。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-rice-chunk-05": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-6888dc74c4c137943024.mp3",
+      "sha256": "c61be996522a0118b451a120a8138f54d96538ac8313ecba050a2a2150d63218",
+      "transcript": "2.温かいうちに大豆をつぶします。ビニールに入れて手や瓶でつぶしていきます。ハンドミキサーがあれば便利です。つぶした大豆が約800gできあがります。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-rice-chunk-06": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-b0836de46ebe55c62a45.mp3",
+      "sha256": "3eb5cbe39afa295b21ff825b612dd4c24912c1581bf59f94d63ac4ed74fa7e62",
+      "transcript": "専用容器の内側をアルコール消毒し、縁を7センチメートルほど折り返しておきます。",
+      "review_note": "Secondary confirms step number3.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "secondary_transcript": "3.専用容器の内側をアルコール消毒し、縁を7センチメートルほど折り返しておきます。",
+      "secondary_model": "whisper-1"
+    },
+    "miso/miso-rice-chunk-07": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-b5bab80b2ccd89e6514b.mp3",
+      "sha256": "4df5820a5237086fa2c7634c91d3f9672fa8728affcbd05a2ec55b5fbeac4b82",
+      "transcript": "米麹は、あらかじめ固まりをよくほぐします。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-rice-chunk-08": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-2eaf6f3d1542830d4c99.mp3",
+      "sha256": "281a3f40b4893e5bad06533d90253601083d0c38dc1468556b343bdfe04b2d90",
+      "transcript": "4.麹をほぐしたあと、塩を混ぜ合わせます。塩切り麹。塩切り麹に潰した大豆を混ぜ合わせていきます。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-rice-chunk-09": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-570f4647cea1494fcd88.mp3",
+      "sha256": "b57779c44e662166ce694cfce157db525b1d7ed3c7b3cb5ab13c4d6b2b822767",
+      "transcript": "ここでよく混ぜないと発酵がうまくいかず、おいしい味噌ができません。しっかり60回以上、もし硬ければ煮汁またはミネラルウォーターを入れてミニタブくらいの柔らかさで仕上げます。",
+      "review_note": "Secondary resolves 耳たぶ.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "secondary_transcript": "ここでよく混ぜないと、発酵がうまくいかず、おいしい味噌ができません。 しっかり60回以上。 もし固ければ、煮汁またはミネラルウォーターを入れて、 耳たぶくらいの柔らかさで仕上げます。",
+      "secondary_model": "whisper-1"
+    },
+    "miso/miso-rice-chunk-10": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-a0fe259f0ab3640de333.mp3",
+      "sha256": "eaa2fe267ab6495a95bd51cb91f8475abfa14b40df018787192b234c7ee38cd9",
+      "transcript": "混ぜ合わせた味噌を団子状にします。容器に空気が入らないように入れていくためです。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-rice-chunk-11": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-f158eb956468f892b250.mp3",
+      "sha256": "81aa534cd36d3015c4c83ba32dc8aa85f42d994706e4b0264429827ad730b922",
+      "transcript": "ビニール袋に数回に分けて、暖房容器に入れていきます。味噌の間に空気が残ってしまうとカビの原因になります。",
+      "review_note": "Secondary resolves 団子を容器.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "secondary_transcript": "ビニール袋に数回に分けて 団子を容器に入れていきます 味噌の間に空気が残ってしまうとカビの原因になります",
+      "secondary_model": "whisper-1"
+    },
+    "miso/miso-rice-chunk-12": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-f8e8d03898b20ca937bd.mp3",
+      "sha256": "4ad25f98187c6451dc7b20e28f78194439dfb279da305e25d136157071122bf4",
+      "transcript": "団子と団子の継ぎ目に空気が残らないように丁寧に入れていきます。入れ終わったら容器のチャックを閉めます。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-rice-chunk-13": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-5c988848c976aa8babcb.mp3",
+      "sha256": "5fe0a104c02f6420b0cf3079c8c071d8171f2457a1c878e3309dd74a2d444636",
+      "transcript": "容器を逆さにして空気が残らないよう手で押さえながら、できるだけ空気を抜いていきます。容器のチャックを片方から閉じます。製造日を書いたら仕込みは完了です。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-rice-chunk-14": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-409dc6a369363a8a4b41.mp3",
+      "sha256": "cc48d09c629084ac79bc8f2d55880d6c91896a6f1fa16111a771a4f51d5261a6",
+      "transcript": "約3か月で自家製味噌が完成します。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-rice-chunk-15": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-e109606bcbddc6a6ed9d.mp3",
+      "sha256": "cdb5c57400331f5f93598e606f0e5f7cfcc5d54c47418e378355ba8358314f3e",
+      "transcript": "発酵が進んでくると容器にガスがたまってきますが、その都度抜いてください。表面に白い斑点が出てきますが、チロシン、アミノ酸です。カビではないため、取り除かなくても大丈夫です。",
+      "review_note": "Rerecorded: チロシン and アミノ酸 now recognized.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-rice-chunk-16": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-d37e89bd786dc24b8209.mp3",
+      "sha256": "3138e0e94b901ce8aaefcd19f22ec3e1de7696496c75da96d1b47c75c541e8b2",
+      "transcript": "周りに、空気に接した部分に緑や赤色のカビが出る場合がありますが、スプーンでカビの周り5ミリメートルくらいを取り除き、除いた後はアルコールで容器の内側を殺菌して、空気をしっかり抜いて熟成を続けてください。",
+      "review_note": "Rare 稀に spelling differs across recognizers; source reading まれに retained.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "secondary_transcript": "割に空気に接した部分に緑や赤色のカビが出る場合がありますが、スプーンでカビの周り5ミリメートルくらいを取り除き、 除いた後は、あるコールで容器の内側を殺菌して、空気をしっかり抜いて熟成を続けてください。",
+      "secondary_model": "whisper-1"
+    },
+    "miso/miso-rice-chunk-17": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-320eb282217f207c7f74.mp3",
+      "sha256": "150b0087231b1fe7fe334add627988770ad5b35dcea470830bc066ba6be29677",
+      "transcript": "発酵場所、注意点。発酵場所、基本的に割りビングなどで発酵、熟成させましょう。毎日声をかけるくらい気に留めてあげてください。気にかけるほど美味しいお味噌が出来上がります。暑い時期、6月から9月も空調のある場所が味噌が心地よいと思います。常時30度を超える場所や直射日光の当たる場所は避けてください。",
+      "review_note": "Secondary confirms 35°C, resolving primary 30°C.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "secondary_transcript": "発酵場所注意点 発酵場所基本的にはリビングなどで発酵熟成させましょう 毎日声をかけるくらい気に留めてあげてください 気にかけるほど美味しいお味噌が出来上がります 暑い時期6月から9月も空調のある場所が味噌が心地よいと思います 常時35度を超える場所や直射日光が当たる場所は避けてください",
+      "secondary_model": "whisper-1"
+    },
+    "miso/miso-rice-chunk-18": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-c17f12e17e6e1add5498.mp3",
+      "sha256": "b982c97b1643d3847a943e21648a0a0603e38dad58a83d28deff7505be5a1deb",
+      "transcript": "派手始める時期、寒い時期、3から8か月、春夏、3か月から6か月、暑い時期、2から4か月。",
+      "review_note": "Secondary resolves 食べ始める.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "secondary_transcript": "食べ始める時期 寒い時期3から8ヶ月 春夏3ヶ月から6ヶ月 暑い時期2から4ヶ月",
+      "secondary_model": "whisper-1"
+    },
+    "miso/miso-rice-chunk-19": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-64c4531194cf8f38d8fa.mp3",
+      "sha256": "98775461491686ccad6d36a2217815ec15d4e331c0a971ab25857d0af3669932",
+      "transcript": "注意点。週に一度はビニール容器を上下左右に返して出てくる水分をお回します。この水分はたまりと呼ばれ、醤油として利用する地域もあります。美味しさのもとです。捨てないでください。発酵によりビニールが少しずつ膨れてくることがあります。その場合はこまめに空気抜きをしてあげてください。保存方法。好みの味に仕上がったら冷蔵庫で保存して発酵を止めても良いです。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-white-chunk-01": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-381d301c517f1d709ca9.mp3",
+      "sha256": "41f3bcd7cbfba18b1087e2d63ffaeba337891fa335563701abddb44b952d81e0",
+      "transcript": "白味噌。白味噌には大きく分けて2種類の味噌、関西白味噌、甘味噌と新州白味噌があります。柿白味噌を買うときに選ぶ参考としてください。それぞれの特徴。関西白味噌、塩分5%前後、原材料は米が一番最初に蒸気。新州白味噌、塩分10%前後、原材料は大豆が一番臭い。新州白味噌は甘味噌ではありません。",
+      "review_note": "Secondary confirms 表記/記載, correcting primary recognition spellings.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "secondary_transcript": "白味噌、白味噌には大きく分けて2種類の味噌、関西白味噌、甘味噌と、新種白味噌があります。 かき白味噌を買うときに選ぶ参考としてください。 それぞれの特徴。 関西白味噌、塩分5%前後、原材料は米が一番最初に表記。 新種白味噌、塩分10%前後、原材料は大豆が一番記載。 新種白味噌は甘味噌ではありません。",
+      "secondary_model": "whisper-1"
+    },
+    "miso/miso-white-chunk-02": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-5c35fcfbe2cd8adbd09e.mp3",
+      "sha256": "d8f954cc925f62f60e22dd5da4f4865be443d1a3f5444997a30595167f7e6069",
+      "transcript": "白味噌の特徴は、出来上がった味噌の総量の中で大豆より米麹の比率が多く、発酵時間が短いのが特徴。白味噌の作り方は米麹による糖化酵素による甘さを持ち、甘酒の作り方に似ています。明るい黄色と白混ぜたようなカスタードクリーム色が特徴です。塩分のうどが低いので、赤味噌と違い消費期限が短いです。冷蔵庫2週間、冷凍庫半年。",
+      "review_note": "Rerecorded: 2週間 clear. Secondary preserves original malformed 似ていています. Source wording unchanged.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "secondary_transcript": "白味噌の特徴は、出来上がった味噌の総量の中で、大豆より米麹の比率が多く、発酵時間が短いのが特徴。 白味噌の作り方は、米麹による糖化酵素による甘さを持ち、甘酒の作り方に似ていています。 明るい黄色と白混ぜたようなカスタードクリーム色が特徴です。 塩分のうどが低いので、赤味噌と違い、消費期限が短いです。 冷蔵庫2週間、冷凍庫半年。",
+      "secondary_model": "whisper-1"
+    },
+    "miso/miso-white-chunk-03": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-de9af02c9630a885ad7a.mp3",
+      "sha256": "9bbb69b39875257520078a1cfdd64d61b3907cd73be55ea46b285938b24a01dc",
+      "transcript": "白味噌は、熱い温度で仕込むと米のでんぷんが糖に変わりやすくなり、麹の働きによって大豆の甘みが引き出され、それが白味噌の甘みとなり、同時に大豆のタンパク質がうま味に変わります。なので、発酵器で醸す温度も55度から60度で発酵させると甘みの強い白味噌となります。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-marinade-chunk-01": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-4346a43277adfe71f598.mp3",
+      "sha256": "1a32d383b77484569dd7d69a2eb3a0b38031c972517ba8a36d0f63e5102d064d",
+      "transcript": "味噌10対酒1対みりん1",
+      "review_note": "Rerecorded: 10:1:1 now recognized.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-marinade-chunk-02": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-511b891aa025933f6b8f.mp3",
+      "sha256": "680d352bd8a0ccc4528178972031c9b640548e5563f53f561eabe1fa86551dbb",
+      "transcript": "野菜、切り身の魚、軽く塩30分置く、水洗いし水気を拭く、二日ほど漬ける。肉、二日ほど漬ける。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-cod-soup-chunk-01": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-6e670970e07f2e1c3408.mp3",
+      "sha256": "e20e58144106d4dfcdd264a7871743969ac9b0383f43a10ed2370bc577f2174a",
+      "transcript": "4人分。材料、鶏2匹。ごぼう適量。ネギ適量。水4カップ。味噌80グラム。",
+      "review_note": "Rerecorded: all amounts and final miso80g retained. Generic phonetic prompt (no expected words) confirms 鱈2匹, resolving primary 鶏 and secondary 唐煮汁.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "secondary_transcript": "4人分 材料 唐煮汁 ごぼう適量 ネギ適量 水4カップ 味噌80グラム",
+      "secondary_model": "whisper-1"
+    },
+    "miso/miso-cod-soup-chunk-02": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-875bcfca0390bfc66b44.mp3",
+      "sha256": "328d0268138a075e93f0d2c8f2e424c37f2922fc9305957c1a05182539c13dd2",
+      "transcript": "作り方1.タラは洗い、わたを取り除き、よく洗う。はらわたは取っておく。タラに塩をふり、10分ほどおき、熱湯をかけ霜降りする。ごぼうはささがきにし、水でさらす。ねぎは斜め1センチくらいに切る。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-cod-soup-chunk-03": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-72e68a7c2c4ad616659a.mp3",
+      "sha256": "18e2dac1e5df473ee3283915b44bbe83f5f7b5c5fa852a86bd5bd788a87bafad",
+      "transcript": "2.鍋に水を入れ、煮立たせ、味噌を半分の2入れ、タラとハラワタを入れる。",
+      "review_note": "Secondary confirms 3分の2 fraction.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "secondary_transcript": "2.鍋に水を入れ、煮立たせ、味噌を3分の2入れ、タラとハラワタを入れる。",
+      "secondary_model": "whisper-1"
+    },
+    "miso/miso-cod-soup-chunk-04": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-f6bcbb54ab4184149f4a.mp3",
+      "sha256": "6c8eab0752e3170fa7a86891269d1e2cf8d2e92e2d7537644ba155513ee75778",
+      "transcript": "煮立ったら、アクを取りながら煮る。",
+      "review_note": "Secondary retains step3.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "secondary_transcript": "3 に立ったら悪をとりながら煮る",
+      "secondary_model": "whisper-1"
+    },
+    "miso/miso-cod-soup-chunk-05": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-e8033ab73282cd6695ff.mp3",
+      "sha256": "cf463d0489772e8652d1ef72b95fe1abb4e794090d0211be0f07eb46fbeffccd",
+      "transcript": "4.たらに火が通ったら、ごぼう、ねぎ、残りの味噌を入れ、鍋のふたをし、火を止める。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-yogurt-marinade-chunk-01": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-17403061eb6cc3975858.mp3",
+      "sha256": "edaf144116d3236402d2b3335cc7abcdde22ce4d5f49d73506faafff437295a4",
+      "transcript": "みそ3、対、ヨーグルト1。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-yogurt-marinade-chunk-02": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-b4e0cc67df4a8936da0b.mp3",
+      "sha256": "864d15f5f3ccec9cd9e071d0c2be539cc9708ebbc80792b742cf9805e788783d",
+      "transcript": "1.みそとヨーグルトは合わせておく。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-yogurt-marinade-chunk-03": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-bb0ff4ef99d407efa0b5.mp3",
+      "sha256": "0a650420cde2e149a03837df01771feb26e5baee2a191936086a1cb003baf3a0",
+      "transcript": "2.野菜は塩をし、10分から15分置いてからよく水洗いをする。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-yogurt-marinade-chunk-04": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-f5677ce84028e5a612a1.mp3",
+      "sha256": "7c2a59a3ee27d5f03724953b876cbcfbb3d0d128844634b4584002847a5699a6",
+      "transcript": "3、一度におわせ、3時間ほど漬ける。",
+      "review_note": "Secondary resolves ①と②.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "secondary_transcript": "3 1と2を合わせ3時間ほどつける",
+      "secondary_model": "whisper-1"
+    },
+    "miso/miso-yogurt-marinade-chunk-05": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-954df065b4e35a20ecff.mp3",
+      "sha256": "e7ce13edcfa5627ef89972a11312eb5fad0d873c06984cb4f86a7c24749c911a",
+      "transcript": "漬け床は味噌汁に。",
+      "review_note": "Rerecorded: 漬け床は味噌汁に now recognized.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-nanohana-chunk-01": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-ab314c6533b32723706b.mp3",
+      "sha256": "6fa7f2912bd76d6be8dec38876994bec3a8aa5735682a4d548eb25c27f9bd288",
+      "transcript": "材料 菜の花一束 昆布",
+      "review_note": "Rerecorded: final 昆布 restored.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-nanohana-chunk-02": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-31f3b889385732bcf551.mp3",
+      "sha256": "11f3c8d873be85b6b8615da7c6316481a73abca62f5d8b7002b654df91638ed4",
+      "transcript": "作り方1、菜の花を塩を入れた湯でゆで、冷水につけ、よく水気を切る。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-nanohana-chunk-03": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-c899f25dc108a4bd92d0.mp3",
+      "sha256": "11d59a8f1f55933b3f73ebe7e2101b0da9300dbba463611604a5d5acbcff1de9",
+      "transcript": "2.昆布は表面を拭き、菜の花を重ならないように上にのせ、昆布をのせてサンドし、ラップで包んで3日から1日しめて食べる。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-tama-chunk-01": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-ecc167b47a6578bc3223.mp3",
+      "sha256": "3dd216e1358e2b99eca7b7a01e85197727bd9e2e375e92f79938c08edc1ff40a",
+      "transcript": "冷蔵1カ月、材料、みそ200グラム、卵黄1個、砂糖大さじ6、みりん大さじ2、酒大さじ2。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-tama-chunk-02": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-43a909f52fa5c3cbb2ef.mp3",
+      "sha256": "0d5690be5341add499c76da2d423c8d5eef2dd6f9679284118bd5f8113eea846",
+      "transcript": "作り方①鍋にすべての材料を入れ、ゴムベラでよくかき混ぜる。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-tama-chunk-03": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-abda120a992a7e80c415.mp3",
+      "sha256": "b47b7b1c89253f7d441a3d42d2c92a329d9bdcfd8e842091bf0aeae606df84e5",
+      "transcript": "2.1.弱火にかけ、かき混ぜながら2分ほど練る。容器に移して冷蔵庫で保存。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-tama-chunk-04": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-f174d4ffee4d78d3c765.mp3",
+      "sha256": "015ee7772c87c4820a3b695c6309f029bee441577cd3b1fc8441b8f0a163ea05",
+      "transcript": "味噌田楽、魚味噌焼き、炒め物、プラス酢味噌、プラスピーナッツピーナッツ味噌、プラスごまごま味噌、プラス柚子柚子味噌、プラス挽肉肉味噌。",
+      "review_note": "Secondary retains +酢 酢味噌; orthography simplified in primary.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "secondary_transcript": "味噌伝学魚味噌焼き炒め物プラスすすみそプラスピーナッツピーナッツ味噌プラスごまごま味噌プラスゆずゆず味噌プラスひき肉肉味噌",
+      "secondary_model": "whisper-1"
+    },
+    "miso/miso-shinshu-sauce-chunk-01": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-7ecf920995567dd4c719.mp3",
+      "sha256": "998019182804cc8a3f2dcad4f6fa42a164601ddfb5ddb54f050fde4be3fc674c",
+      "transcript": "みそ100グラム、砂糖大さじ3、みりん大さじ1、酒大さじ1。",
+      "review_note": "Rerecorded twice: final 酒大さじ1 now recognized.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-hatcho-sauce-chunk-01": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-ed8b08e23ec167b8e975.mp3",
+      "sha256": "60b5b17d9792931b5735152af931f926805e102dcf753319c9a70f25f72572bc",
+      "transcript": "みそ100グラム、砂糖大さじ4、みりん大さじ1、酒大さじ1。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-saikyo-sauce-chunk-01": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-7361b7f52379d4bc072d.mp3",
+      "sha256": "e10939435e93cdf21e3ea742f24e5c9eff577c9b16dc9a7341e7e013c87d16e0",
+      "transcript": "みそ100グラム、みりん大さじ1、酒大さじ1。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-burdock-sauce-chunk-01": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-3243e585872fa3f0d16e.mp3",
+      "sha256": "96112ab5f19dfd14d1d6dcc3e15c8e6c5f308ed40573cfebf8e72a705ff6c8a3",
+      "transcript": "信州みそ100グラム、おろしごぼう50グラム、砂糖25グラム、酒30cc、水50cc",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-burdock-sauce-chunk-02": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-aed1f7c62cf9887915e3.mp3",
+      "sha256": "c228c03690a1f008fa88c2323c8afaca7d0e7bc142d26b2c4e7cabdaa6ba1dae",
+      "transcript": "合わせ、火にかけ練る。",
+      "review_note": "Rerecorded: 火に掛け練る now recognized. Same source key also serves cheese recipe.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-chicken-sauce-chunk-01": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-3d507f81cfca7cb5c39b.mp3",
+      "sha256": "406c8d1b08b4cc67140f83184d3a751ff92ad38fb21e71210067df97726551bc",
+      "transcript": "信州みそ100g、鶏ひき肉100g、すりしょうが20g、砂糖20g、みりん10cc、酒5cc、ラー油少々、しょうがやせろりすりおろし少々。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-chicken-sauce-chunk-02": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-f0304f53354a6d840cac.mp3",
+      "sha256": "6fb13ef3b8889a6205e0dfb1768d8cde0276c5a7de564f037fdf14fd78a0e2c7",
+      "transcript": "あわせて日に陰寝る。",
+      "review_note": "Secondary resolves the complete short instruction.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "secondary_transcript": "あわせてひにかけねる",
+      "secondary_model": "whisper-1"
+    },
+    "miso/miso-pork-sauce-chunk-01": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-5771579b7e1c91252324.mp3",
+      "sha256": "462ddb3d89dfdcfad2974d92b111211999854821d50c128b803f76b69de1d16a",
+      "transcript": "信州みそ100グラム、玉ねぎ、にんじんみじん切り各8分の1個分、にんにく、しょうがみじん切り各1かけ分、豚ひき肉100グラム、酒大さじ1、砂糖大さじ3強、粉とうがらし小さじ1。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-pork-sauce-chunk-02": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-1ead487418938c0ebfd9.mp3",
+      "sha256": "2e86310f5c10170da0c5216440f62bd9074f4fbd91e3871a7d05a6b003385a38",
+      "transcript": "香味野菜とひき肉をよく炒め、野菜がしんなりしたら調味料を加え、水分を飛ばして出来上がり。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-cheese-chunk-01": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-5a5069488486d6f219c6.mp3",
+      "sha256": "eef31f2537c60f23078572a02fa13bce6146ab9cefa0abb2fdc282c35f1f773f",
+      "transcript": "信州みそ100g、粉チーズ30g、卵1個、長ねぎ刻み30g、大葉刻み30g、みりん60cc。",
+      "review_note": "Rerecorded: 卵1個 and both chopped ingredients recognized.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "secondary_transcript": "新鮮味噌100g 粉チーズ30g 卵1個 長ネギ刻み30g 大葉刻み30g みりん60cc",
+      "secondary_model": "whisper-1"
+    },
+    "miso/miso-cheese-chunk-02": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-aed1f7c62cf9887915e3.mp3",
+      "sha256": "c228c03690a1f008fa88c2323c8afaca7d0e7bc142d26b2c4e7cabdaa6ba1dae",
+      "transcript": "合わせ、火にかけ練る。",
+      "review_note": "Uses revised identical 火に掛け練る speech key.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-ginger-chunk-01": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-75aaa2d62abbbc2a9ef6.mp3",
+      "sha256": "e1fde13381713fb8eabb2363fefbdc9e1c23aacfa8c4edfc21e16340f5a2f875",
+      "transcript": "信州みそ100g、すりしょうが20g、みりん30cc。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-ginger-chunk-02": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-f0304f53354a6d840cac.mp3",
+      "sha256": "6fb13ef3b8889a6205e0dfb1768d8cde0276c5a7de564f037fdf14fd78a0e2c7",
+      "transcript": "あわせて日に陰寝る。",
+      "review_note": "Same confirmed short instruction key as chicken recipe.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-soy-milk-soup-chunk-01": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-d28ea6c6e587aec114bb.mp3",
+      "sha256": "f6fced5cb361116a483f7cb842b0cf206dd90f19841df555050fae86418ff030",
+      "transcript": "きのこ（しいたけ）2枚、青菜（ほうれん草）2株、長ねぎ1/2本、豆乳（成分無調整）50cc、水250cc、味噌大さじ1。",
+      "review_note": "Rerecorded: 1/2 leek, water250cc, and final miso1tbsp present.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-tomato-soup-chunk-01": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-6590b086039401a2789f.mp3",
+      "sha256": "c56862d112691c9dd07b2ef30768707687a240f54d3f124cde974e9bbf0f3d61",
+      "transcript": "なす1本、株20個、トマトジュース100cc、水200cc、味噌大さじ2弱。",
+      "review_note": "Rerecorded: water200cc now correct. Secondary confirms 葉付き2個; 株/蕪 and 油塩/有塩 are homophonic orthography.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "secondary_transcript": "ナス1本、株、はつき2個、トマトジュース、油塩100cc、水200cc、味噌大さじ2弱。",
+      "secondary_model": "whisper-1"
+    },
+    "miso/miso-pickles-chunk-01": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-1605b5ff7ea6f563c36d.mp3",
+      "sha256": "4faf752e1ee661f4c97f6411be88c8d70cb20eef21b10f1af05d4b982de46398",
+      "transcript": "プレーンヨーグルト1対味噌3、好みの野菜適量、プレーンヨーグルト50g、味噌150g、塩適量。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-pickles-chunk-02": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-7db8a14ea2061a60877d.mp3",
+      "sha256": "3c7a509139fb20568b4e863e5f197908c33ad60688d3ba652fd3fec7eef58c27",
+      "transcript": "1. 野菜に塩を振る。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-pickles-chunk-03": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-e572dd5fa13f2c7ed97c.mp3",
+      "sha256": "81b1fc737c843b9aaa041e6332bc632dff7a0ffb7cd6cc2a6d62880356b35757",
+      "transcript": "2.ヨーグルトと味噌を合わせ、保存袋に入れ、野菜を入れて袋の外から軽くもむ。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-pickles-chunk-04": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-bb59899eddf79130b183.mp3",
+      "sha256": "7396a9664ab4253917faa1a1889db7785b689a7759f4b0f5b247e4e10cf09c1c",
+      "transcript": "3.保存袋の空気を抜いて口を閉じ、冷蔵庫で4時間ほど漬ける。",
+      "review_note": "Rerecorded: 4時間ほど now clear.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-pickles-chunk-05": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-1d59a5571d899ec3d858.mp3",
+      "sha256": "f125775ba3fac1d36840a127c98e84c78ed2f110215ad7abe3ac235c56b44b04",
+      "transcript": "漬け床を軽く洗い、食べやすく切りカットして盛る。三度ほど繰り返し使える。一回使用くらいなら味噌汁にして使う。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-instant-soup-chunk-01": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-343a9a52e38e8496b530.mp3",
+      "sha256": "0d2fdcb7a55a941fd9267528a24c45c6129e7406fed33fd8d0dd4499f46b9199",
+      "transcript": "みそ大さじ1.5、削り節大さじ1、カットわかめ、麩適量、湯カップ1。",
+      "review_note": "Rerecorded twice: final 湯カップ1 restored.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-marinade-extra-chunk-01": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-6ee6aafaaa607c86b8d1.mp3",
+      "sha256": "51c933e906c98ae4e841d8c62c32696e6b8be2ebe374473f8242bd5e0927f0ac",
+      "transcript": "肉。肉に塩を振り、水分を拭いたあと焼く前に味噌をのせて焼くと、肉は硬くならない。魚、野菜。少ない塩を振り、30分水洗いして水分を拭き取り、二日ほど漬ける。味噌、酒かす、十、たい、酒一、たい、みりん。味噌は甘味噌の方が向いている。",
+      "review_note": "Source malformed 拭くとり and missing mirin amount preserved; secondary retains supplied sound sequence.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "secondary_transcript": "肉 肉に塩を振り水分を拭いた後焼く前に味噌を乗せて焼くと肉は硬くならない 魚野菜 少ない塩を振り30分水洗いして水分を拭くとり2日ほどつける 味噌酒かす10対酒1対みりん 味噌はあまりその方が向いている",
+      "secondary_model": "whisper-1"
+    },
+    "miso/miso-afterword-chunk-01": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-25c0e7857b7b705ff67e.mp3",
+      "sha256": "85122902a9bd50b858237090fcf83ef53be6191cf13d778437be9baa98ebbc6a",
+      "transcript": "みそはコク、うま味、風味を兼ね備えた日本の調味料の中でも特に優れたものです。それは、みそがさまざまな菌や微生物など自然の力を借りて作られる発酵食品であるからです。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    },
+    "miso/miso-afterword-chunk-02": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-6e95ba4bb337017c9ba5.mp3",
+      "sha256": "901935386bcbcfab5aec83b940df7755da6dec341d115697c5c3e51358b36491",
+      "transcript": "味噌は麹と蒸し大豆を合わせて半年から1年ほど発酵・熟成させたのですが、現在はこの発酵時間を短くしようと味噌の発酵に必要な菌を添加した種味噌を加えて発酵を促す方法が生産の回転数を上げるために取られているものもあります。",
+      "review_note": "Secondary confirms 種水; primary confirms 促す. No source change.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "secondary_transcript": "味噌は麹と蒸し大豆を合わせて半年から1年ほど発酵・熟成させたのですが、 現在はこの発酵時間を短くしようと、味噌の発酵に必要な菌を添加した種水を加えて発酵をおならす方法が生産の回転数を上げるために取られているものもあります。",
+      "secondary_model": "whisper-1"
+    },
+    "miso/miso-afterword-chunk-03": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-6e7f3d80f16189f9208d.mp3",
+      "sha256": "feb13dc7381140bc099025a594c5531071441a65a02dcf98a3d60afc8784f9a0",
+      "transcript": "また、発酵食品の生きた味噌のように、酵母によって容器がパンパンにならないように酒精という添加物を加えたり、加熱殺菌をしたりして発酵を抑えたり止めたりしたものもあります。熟成を止めるので味が変わらないのが良いのでしょうが、生きた味噌の美味しさに敵いません。",
+      "review_note": "Secondary preserves the full final negative phrase; primary normalizes its spelling.",
+      "listening_verified": false,
+      "audible_pitch_verified": false,
+      "secondary_transcript": "また、発酵食品の生田味噌のように、酵母によって容器がパンパンにならないように、 酒精という添加物を加えたり、加熱殺菌をしたりして、発酵を抑えたり止めたりしたものもあります。 熟成を止めるので、味が変わらないのが良いのでしょうが、生田味噌の美味しさに沸かないません。",
+      "secondary_model": "whisper-1"
+    },
+    "miso/miso-afterword-chunk-04": {
+      "audio": "audio/lessons/fermentation-notes-miso/marin-96e20ef072288f37f9ba.mp3",
+      "sha256": "1ea18cfaaa44b3087d9a07fdad808a692e5e39afb360d05d4ce900e74cf17348",
+      "transcript": "今回の味噌は麹の力で発酵を早める味噌なので、最短で3ヶ月から5ヶ月で完成します。2kgから4kgくらいなら作りやすいと思いますので、大豆のつぶつぶの形の残った菌の生きた本物の味噌をぜひ作り続けてください。",
+      "review_note": "Primary transcript covers the supplied narration; punctuation, kana/kanji and number-format variants are normal transcription differences.",
+      "listening_verified": false,
+      "audible_pitch_verified": false
+    }
+  }
+}

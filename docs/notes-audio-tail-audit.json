@@ -1,0 +1,13 @@
+{
+  "method": "Last 10 seconds independently transcribed without expected-text prompting; source MP3 unchanged. Not listening/pitch verification.",
+  "entries": {
+    "shiokoji/shiokoji-chunk-08": {
+      "audio": "audio/lessons/fermentation-notes-shiokoji/marin-5437767427a4a4ea5ac3.mp3",
+      "sha256": "0a948436a1f326ad8cef76703aec1f6e25edb7a8724a300679f2aee712674172",
+      "model": "whisper-1",
+      "tail_seconds": 10,
+      "expected_text_prompt": false,
+      "transcript": "旨味を引き出します。 タンパク質分解酵素、リバーゼによって脂肪を分解し、香りを引き立たせます。"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "Generic hiragana transcription request; no expected words or quantities supplied. Automated comparison, not listening or pitch verification.",
+  "entries": {
+    "miso-cod-soup-chunk-01": {
+      "number": 40,
+      "sha256": "e20e58144106d4dfcdd264a7871743969ac9b0383f43a10ed2370bc577f2174a",
+      "audio": "audio/lessons/fermentation-notes-miso/marin-6e670970e07f2e1c3408.mp3",
+      "transcript": "4人分、材料、鱈2匹、ごぼう適量、ねぎ適量、水4カップ、味噌80グラム。",
+      "model": "gpt-4o-transcribe",
+      "expected_text_prompt": false,
+      "generic_phonetic_prompt": true
+    }
+  }
+}
