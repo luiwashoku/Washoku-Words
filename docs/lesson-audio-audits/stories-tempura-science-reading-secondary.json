@@ -1,0 +1,69 @@
+{
+  "method": "Independent Whisper transcription without expected-text prompt. Automated comparison, not listening or pitch verification.",
+  "entries": {
+    "tempura-science-reading-chunk-05": {
+      "number": 5,
+      "sha256": "597264f51fabd1002c4233dc89b2e4bdd89ecbe4c0b6fb45bcce10bb030418d5",
+      "audio": "audio/lessons/stories-tempura-science-reading/marin-a7dd6926c1c94d1ea535.mp3",
+      "transcript": "衣の表面では水分が蒸発し だんだん乾燥してサクサクした食感が生まれます 一方衣の内側では食材に含まれる水分によって 蒸すように火が通ります",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "tempura-science-reading-chunk-08": {
+      "number": 8,
+      "sha256": "5244d705c53939b4e830d2df92f618a9545cb321cddca9d60b82d8655db4987f",
+      "audio": "audio/lessons/stories-tempura-science-reading/marin-ecdde864680d424a0069.mp3",
+      "transcript": "2.なぜ衣には冷たい水を使うの? 天ぷらの衣は、一般的に小麦粉、卵、水などを使って作ります。 ここで大切なのが、水の温度と混ぜ方です。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "tempura-science-reading-chunk-11": {
+      "number": 11,
+      "sha256": "88ffd3f3e64484c8ea5e6a757415c01844d491a8689ab4e3921da134a6782ebb",
+      "audio": "audio/lessons/stories-tempura-science-reading/marin-d294efe1a55e3390370e.mp3",
+      "transcript": "グルテンが発達しすぎると衣が粘りやすくなり、厚くて硬い食感になることがあります。 そのため、天ぷらの衣は粘りやすくなり、あまり混ぜすぎないようにするんです。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "tempura-science-reading-chunk-14": {
+      "number": 14,
+      "sha256": "a4e5b6278ca856fe4e8502777f53f8eded91f3500049ab2750f89a4cccf1ef48",
+      "audio": "audio/lessons/stories-tempura-science-reading/marin-8fea86872b232a064b89.mp3",
+      "transcript": "3衣がサクサクになる仕組み 衣を熱い油に入れるとまず小麦粉の澱粉が水分と熱によって固化します",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "tempura-science-reading-chunk-20": {
+      "number": 20,
+      "sha256": "476feaa658e86e2885b0c524d25402a85e90e179c6a762529b82fee3071cb863",
+      "audio": "audio/lessons/stories-tempura-science-reading/marin-d4ff8a21cc95a1102b3d.mp3",
+      "transcript": "例えば薄い葉物野菜は短時間で上がりますが、厚く切ったさつまいもは中まで火を通すのに時間がかかります。 油の温度が低すぎると衣の水分が抜けるのに時間がかかり、ベタッとした仕上がりになることがあります。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "tempura-science-reading-chunk-24": {
+      "number": 24,
+      "sha256": "c0008b7aedabc878e153a75981c68bdc70171e9fc68fa04f9f0e3b4a6cfc962b",
+      "audio": "audio/lessons/stories-tempura-science-reading/marin-039feb8760b1fe895daf.mp3",
+      "transcript": "揚げているうちに水分が減ると泡の出方や音が変わってきます ただし泡の大きさだけで火の通り具合を正確には判断できるわけではありません",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "tempura-science-reading-chunk-26": {
+      "number": 26,
+      "sha256": "9cc492e39236659efd84b071aaeff8254fe65067389820f1b3fc6b1149e01403",
+      "audio": "audio/lessons/stories-tempura-science-reading/marin-be45489c38e0942d7718.mp3",
+      "transcript": "6.野菜と魚介類で揚げ方が違う 天ぷらでは、素材によって下ごしらえや揚げ方を変えます 例えば、茄子は水分を多く含んでいるので、切り方や揚げ時間によって食感が大きく変わります",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "tempura-science-reading-chunk-30": {
+      "number": 30,
+      "sha256": "ad1d7acc0fe242bdb2bd9ce72102410c47825d0a6eff48593021d3f7a1e4078f",
+      "audio": "audio/lessons/stories-tempura-science-reading/marin-aa2043f6cb724dcaf5ae.mp3",
+      "transcript": "コクに油から取り出した後、衣が冷めていく間にも油が吸収されることがあります。 油っぽさを減らすためには、衣を適切な厚さにし、油の温度を管理することが重要です。",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    }
+  }
+}

@@ -1398,8 +1398,10 @@
       button.className =
         "lesson-card";
 
+      const readingMenu = ["stories", "fermentation-notes"].includes(lesson.category);
       const menuColor = lesson.storyCards || lesson.articleCards ? lesson.menuColor : lesson.gameMode === "vocabulary-cards" ? "purple" : lesson.menuColor;
-      if (["yellow", "green", "purple", "bee-yellow"].includes(menuColor)) {
+      if (readingMenu) button.classList.add("lesson-card--white");
+      else if (["yellow", "green", "purple", "bee-yellow"].includes(menuColor)) {
         button.classList.add(
           `lesson-card--${menuColor}`
         );
@@ -1413,13 +1415,13 @@
               : ""}${escapeHtml(lesson.title)}
           </strong>
 
-          <span>
+          ${readingMenu ? "" : `<span>
             ${lesson.gameMode === "vocabulary-cards" || menuColor === "purple"
               ? "Flashcards"
               : menuColor === "green"
               ? "Game"
               : `Quiz ${count} ${count === 1 ? "Question" : "Questions"}`}
-          </span>
+          </span>`}
         </span>
 
         <span

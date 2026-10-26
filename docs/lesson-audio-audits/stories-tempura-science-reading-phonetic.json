@@ -1,0 +1,23 @@
+{
+  "method": "Generic hiragana transcription request; no expected words or quantities supplied. Automated comparison, not listening or pitch verification.",
+  "entries": {
+    "tempura-science-reading-chunk-20": {
+      "number": 20,
+      "sha256": "476feaa658e86e2885b0c524d25402a85e90e179c6a762529b82fee3071cb863",
+      "audio": "audio/lessons/stories-tempura-science-reading/marin-d4ff8a21cc95a1102b3d.mp3",
+      "transcript": "例えば、薄い刃物野菜は短時間であだりますが、厚く切ったさつまいもは中まで火を通すのに時間がかかります。油の温度が低すぎると衣の水分が抜けるのに時間がかかり、ベタッとした仕上がりになることがあります。",
+      "model": "gpt-4o-transcribe",
+      "expected_text_prompt": false,
+      "generic_phonetic_prompt": true
+    },
+    "tempura-science-reading-chunk-24": {
+      "number": 24,
+      "sha256": "c0008b7aedabc878e153a75981c68bdc70171e9fc68fa04f9f0e3b4a6cfc962b",
+      "audio": "audio/lessons/stories-tempura-science-reading/marin-039feb8760b1fe895daf.mp3",
+      "transcript": "揚げているうちに水分が減ると、泡の出方や音が変わってきます。ただし、泡の大きさだけで火の通り具合を正確には判断できるわけではありません。",
+      "model": "gpt-4o-transcribe",
+      "expected_text_prompt": false,
+      "generic_phonetic_prompt": true
+    }
+  }
+}

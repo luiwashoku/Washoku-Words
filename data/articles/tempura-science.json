@@ -1,0 +1,890 @@
+{
+  "title": "天ぷらの科学（てんぷらのかがく）",
+  "sourceFile": "data/articles/tempura-science-source.txt",
+  "entries": [
+    {
+      "id": "tempura-science-reading",
+      "step": 1,
+      "kanji": "天ぷらの科学（てんぷらのかがく）",
+      "japanese": "天ぷらの科学（てんぷらのかがく）",
+      "english": "",
+      "furigana": {
+        "成": "な",
+        "食": "た",
+        "生": "い",
+        "高": "たか",
+        "作": "つく",
+        "種類": "しゅるい",
+        "違": "ちが",
+        "味": "あじ",
+        "物": "もの",
+        "使": "つか",
+        "大": "おお",
+        "例": "たと",
+        "水": "みず",
+        "特徴": "とくちょう",
+        "含": "ふく",
+        "重要": "じゅうよう",
+        "類": "るい",
+        "分": "わ",
+        "楽": "らく",
+        "料理": "りょうり",
+        "量": "りょう",
+        "場合": "ばあい",
+        "方": "かた",
+        "野菜": "やさい",
+        "合": "あ",
+        "要": "い",
+        "違い": "ちがい",
+        "重": "おも",
+        "度": "ど",
+        "気": "き",
+        "特": "とく",
+        "大きく": "おおきく",
+        "含まれて": "ふくまれて",
+        "一方": "いっぽう",
+        "例えば": "たとえば",
+        "生まれます": "うまれます",
+        "作る": "つくる",
+        "使う": "つかう",
+        "同": "おな",
+        "必要": "ひつよう",
+        "質": "しつ",
+        "取": "と",
+        "出": "だ",
+        "加": "くわ",
+        "見": "み",
+        "言": "い",
+        "温度": "おんど",
+        "学": "まな",
+        "日本": "にほん",
+        "科学的": "かがくてき",
+        "関係": "かんけい",
+        "水分": "すいぶん",
+        "少": "すく",
+        "甘": "あま",
+        "入": "い",
+        "温": "あたた",
+        "造": "つく",
+        "加え": "くわえ",
+        "十分": "じゅうぶん",
+        "香り": "かおり",
+        "内": "うち",
+        "残": "のこ",
+        "本": "ほん",
+        "日": "にち",
+        "取り": "とり",
+        "低": "ひく",
+        "素": "もと",
+        "香": "かお",
+        "葉": "は",
+        "実は": "じつは",
+        "主に": "おもに",
+        "使って": "つかって",
+        "甘み": "あまみ",
+        "残って": "のこって",
+        "特に": "とくに",
+        "同じ": "おなじ",
+        "濃さ": "こさ",
+        "調整": "ちょうせい",
+        "出す": "だす",
+        "水分量": "すいぶんりょう",
+        "少しずつ": "すこしずつ",
+        "低すぎる": "ひくすぎる",
+        "高すぎる": "たかすぎる",
+        "小": "ちい",
+        "込": "こ",
+        "中": "なか",
+        "空気": "くうき",
+        "強": "つよ",
+        "比": "くら",
+        "影響": "えいきょう",
+        "混": "ま",
+        "小麦": "こむぎ",
+        "蒸": "む",
+        "多": "おお",
+        "熱": "ねつ",
+        "上": "うえ",
+        "一般": "いっぱん",
+        "変": "か",
+        "塩": "しお",
+        "通": "とお",
+        "回": "かい",
+        "後": "あと",
+        "色": "いろ",
+        "麦": "むぎ",
+        "上が": "あが",
+        "以上": "いじょう",
+        "火": "ひ",
+        "白": "しろ",
+        "仕上": "しあ",
+        "指": "ゆび",
+        "魚": "さかな",
+        "加熱": "かねつ",
+        "入り": "はいり",
+        "素材": "そざい",
+        "合わせて": "あわせて",
+        "一般的": "いっぱんてき",
+        "比較的": "ひかくてき",
+        "多く": "おおく",
+        "使われ": "つかわれ",
+        "加えて": "くわえて",
+        "組み合わせ": "くみあわせ",
+        "仕上がり": "しあがり",
+        "変わる": "かわる",
+        "大きな": "おおきな",
+        "軽い": "かるい",
+        "目指す": "めざす",
+        "白身魚": "しろみざかな",
+        "薄い": "うすい",
+        "時": "とき",
+        "付": "つ",
+        "大切": "たいせつ",
+        "間": "あいだ",
+        "形": "かたち",
+        "感": "かん",
+        "時間": "じかん",
+        "切": "き",
+        "表面": "ひょうめん",
+        "状": "じょう",
+        "混ぜ": "まぜ",
+        "考": "かんが",
+        "変わり": "かわり",
+        "卵": "たまご",
+        "長": "なが",
+        "食材": "しょくざい",
+        "含まれる": "ふくまれる",
+        "必ず": "かならず",
+        "少なく": "すくなく",
+        "変わります": "かわります",
+        "乾燥": "かんそう",
+        "強く": "つよく",
+        "日本料理": "にほんりょうり",
+        "食感": "しょっかん",
+        "人": "ひと",
+        "置": "お",
+        "判断": "はんだん",
+        "取り出した": "とりだした",
+        "生地": "きじ",
+        "性質": "せいしつ",
+        "全": "すべ",
+        "有": "あ",
+        "減": "へ",
+        "蒸発": "じょうはつ",
+        "特有": "とくゆう",
+        "反対": "はんたい",
+        "蒸気": "じょうき",
+        "外": "そと",
+        "大きさ": "おおきさ",
+        "安定": "あんてい",
+        "力": "ちから",
+        "白い": "しろい",
+        "魅力": "みりょく",
+        "生まれ": "うまれ",
+        "魚介類": "ぎょかいるい",
+        "職人": "しょくにん",
+        "場": "ば",
+        "下ごしらえ": "したごしらえ",
+        "面白い": "おもしろい",
+        "引き出す": "ひきだす",
+        "余分": "よぶん",
+        "抜け": "ぬけ",
+        "分かる": "わかる",
+        "硬く": "かたく",
+        "発達": "はったつ",
+        "状態": "じょうたい",
+        "一番": "いちばん",
+        "知識": "ちしき",
+        "技術": "ぎじゅつ",
+        "短": "みじか",
+        "混ぜる": "まぜる",
+        "先": "さき",
+        "切る": "きる",
+        "早": "はや",
+        "単に": "たんに",
+        "吸う": "すう",
+        "細": "こま",
+        "置く": "おく",
+        "短時間": "たんじかん",
+        "天ぷら": "てんぷら",
+        "科学": "かがく",
+        "衣": "ころも",
+        "秘密": "ひみつ",
+        "薄すぎたり": "うすすぎたり",
+        "油": "あぶら",
+        "揚げる": "あげる",
+        "揚げ": "あげ",
+        "揚がり": "あがり",
+        "揚がります": "あがります",
+        "一見": "いっけん",
+        "考える": "かんがえる",
+        "外側": "そとがわ",
+        "仕組み": "しくみ",
+        "蒸して": "むして",
+        "熱い": "あつい",
+        "温められ": "あたためられ",
+        "水蒸気": "すいじょうき",
+        "泡": "あわ",
+        "発生": "はっせい",
+        "聞こえる": "きこえる",
+        "音": "おと",
+        "内側": "うちがわ",
+        "蒸す": "むす",
+        "通ります": "とおります",
+        "言える": "いえる",
+        "長く": "ながく",
+        "失われ": "うしなわれ",
+        "適度": "てきど",
+        "残す": "のこす",
+        "冷たい": "つめたい",
+        "小麦粉": "こむぎこ",
+        "混ぜ方": "まぜかた",
+        "結びつき": "むすびつき",
+        "弾力": "だんりょく",
+        "構造": "こうぞう",
+        "粘り": "ねばり",
+        "厚く": "あつく",
+        "硬い": "かたい",
+        "形成": "けいせい",
+        "回数": "かいすう",
+        "防ぎ": "ふせぎ",
+        "粉": "こな",
+        "必ずしも": "かならずしも",
+        "問題": "もんだい",
+        "扱い方": "あつかいかた",
+        "糊化": "こか",
+        "吸って": "すって",
+        "小さな": "ちいさな",
+        "空洞": "くうどう",
+        "乾いた": "かわいた",
+        "生み出す": "うみだす",
+        "置いて": "おいて",
+        "内部": "ないぶ",
+        "周り": "まわり",
+        "移動": "いどう",
+        "乾いて": "かわいて",
+        "厚さ": "あつさ",
+        "適切": "てきせつ",
+        "葉物野菜": "はものやさい",
+        "切った": "きった",
+        "通す": "とおす",
+        "逆に": "ぎゃくに",
+        "先に": "さきに",
+        "色づいて": "いろづいて",
+        "一度": "いちど",
+        "急に": "きゅうに",
+        "下がって": "さがって",
+        "温度計": "おんどけい",
+        "観察": "かんさつ",
+        "直後": "ちょくご",
+        "勢い": "いきおい",
+        "減る": "へる",
+        "出方": "でかた",
+        "通り具合": "とおりぐあい",
+        "正確": "せいかく",
+        "経験": "けいけん",
+        "動き": "うごき",
+        "揚げ方": "あげかた",
+        "切り方": "きりかた",
+        "揚げ時間": "あげじかん",
+        "収縮": "しゅうしゅく",
+        "安全": "あんぜん",
+        "必要以上": "ひつよういじょう",
+        "同時": "どうじ",
+        "入り込む": "はいりこむ",
+        "冷めて": "さめて",
+        "吸収": "きゅうしゅう",
+        "減らす": "へらす",
+        "管理": "かんり",
+        "網": "あみ",
+        "重ねて": "かさねて",
+        "早く": "はやく",
+        "理想的": "りそうてき",
+        "繊細": "せんさい",
+        "分かり": "わかり",
+        "付いて": "ついて",
+        "天つゆ": "てんつゆ",
+        "感じ": "かんじ",
+        "具合": "ぐあい",
+        "引き出される": "ひきだされる",
+        "厚すぎる": "あつすぎる"
+      },
+      "englishHeadingLines": [
+        "The secrets of crisp batter and delicious ingredients",
+        "1. Does tempura steam while it fries in oil?",
+        "2. Why use cold water for the batter?",
+        "3. How the batter becomes crisp",
+        "4. Why is oil temperature important?",
+        "5. Can bubble size tell you when tempura is done?",
+        "6. Vegetables and seafood need different frying methods",
+        "7. How can you keep tempura from becoming oily?",
+        "8. Tempura and the flavor of its ingredients"
+      ],
+      "messages": [
+        {
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "サクサクの衣と、素材のおいしさの秘密"
+            },
+            {
+              "type": "paragraph",
+              "text": "天ぷらは、魚介類や野菜に薄い衣をつけて、油で揚げる日本料理です。"
+            },
+            {
+              "type": "paragraph",
+              "text": "一見すると、とてもシンプルな料理ですが、おいしい天ぷらを作るには、温度、水分、衣の状態など、さまざまなことを考える必要があります。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-01",
+          "japanese": "サクサクの衣と、素材のおいしさの秘密\n\n天ぷらは、魚介類や野菜に薄い衣をつけて、油で揚げる日本料理です。\n\n一見すると、とてもシンプルな料理ですが、おいしい天ぷらを作るには、温度、水分、衣の状態など、さまざまなことを考える必要があります。\n\n",
+          "english": "The secrets of crisp batter and delicious ingredients\nTempura is a Japanese dish made by coating seafood or vegetables in a thin batter and deep-frying them in oil.\nAt first glance it looks very simple, but making delicious tempura requires considering temperature, moisture, the condition of the batter and many other factors."
+        },
+        {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "おいしい天ぷらの特徴は、外側がサクサクしていて、中の素材はやわらかく、みずみずしいことです。"
+            },
+            {
+              "type": "paragraph",
+              "text": "実は、この食感を作るためには、いくつかの科学的な仕組みが関係しているんです。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-02",
+          "japanese": "おいしい天ぷらの特徴は、外側がサクサクしていて、中の素材はやわらかく、みずみずしいことです。\n\n実は、この食感を作るためには、いくつかの科学的な仕組みが関係しているんです。\n\n",
+          "english": "Good tempura is crisp on the outside, while the ingredients inside remain tender and juicy.\nSeveral scientific mechanisms are actually involved in creating this texture."
+        },
+        {
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "1. 天ぷらは油で揚げながら、蒸している？"
+            },
+            {
+              "type": "paragraph",
+              "text": "天ぷらを熱い油に入れると、衣や食材に含まれる水分が温められ、水蒸気（すいじょうき）になります。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-03",
+          "japanese": "1. 天ぷらは油で揚げながら、蒸している？\n\n天ぷらを熱い油に入れると、衣や食材に含まれる水分が温められ、水蒸気（すいじょうき）になります。\n\n",
+          "english": "1. Does tempura steam while it fries in oil?\nWhen tempura enters hot oil, the moisture in the batter and ingredients heats up and becomes water vapor."
+        },
+        {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "この水蒸気が外に出ようとするため、油の中でたくさんの泡が発生するんです。"
+            },
+            {
+              "type": "paragraph",
+              "text": "揚げているときに聞こえる「ジュワー」という音は、主に水分が水蒸気になって外へ出ていくときの音です。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-04",
+          "japanese": "この水蒸気が外に出ようとするため、油の中でたくさんの泡が発生するんです。\n\n揚げているときに聞こえる「ジュワー」という音は、主に水分が水蒸気になって外へ出ていくときの音です。\n\n",
+          "english": "As this vapor tries to escape, it produces many bubbles in the oil.\nThe sizzling sound you hear during frying mainly comes from moisture turning into vapor and escaping."
+        },
+        {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "衣の表面では水分が蒸発し、だんだん乾燥して、サクサクした食感が生まれます。"
+            },
+            {
+              "type": "paragraph",
+              "text": "一方、衣の内側では、食材に含まれる水分によって、蒸すように火が通ります。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-05",
+          "japanese": "衣の表面では水分が蒸発し、だんだん乾燥して、サクサクした食感が生まれます。\n\n一方、衣の内側では、食材に含まれる水分によって、蒸すように火が通ります。\n\n",
+          "english": "Moisture evaporates from the batter’s surface, which gradually dries and becomes crisp.\nMeanwhile, inside the coating, moisture in the ingredients cooks them in a way similar to steaming."
+        },
+        {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "つまり、天ぷらは外側をカリッと揚げながら、中の素材を蒸すように加熱する料理とも言えるんです。"
+            },
+            {
+              "type": "paragraph",
+              "text": "ただし、長く揚げすぎると、食材の水分まで失われてしまいます。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-06",
+          "japanese": "つまり、天ぷらは外側をカリッと揚げながら、中の素材を蒸すように加熱する料理とも言えるんです。\n\nただし、長く揚げすぎると、食材の水分まで失われてしまいます。\n\n",
+          "english": "In other words, tempura can be described as a dish that crisps the outside through frying while heating the ingredients inside as if steaming them.\nHowever, frying for too long also removes moisture from the ingredients."
+        },
+        {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "そのため、衣をサクサクにしながら、素材の水分を適度に残すことが大切です。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-07",
+          "japanese": "そのため、衣をサクサクにしながら、素材の水分を適度に残すことが大切です。\n\n",
+          "english": "It is therefore important to crisp the batter while retaining an appropriate amount of moisture in the ingredients."
+        },
+        {
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "2. なぜ衣には冷たい水を使うの？"
+            },
+            {
+              "type": "paragraph",
+              "text": "天ぷらの衣は、一般的に小麦粉、卵、水などを使って作ります。"
+            },
+            {
+              "type": "paragraph",
+              "text": "ここで大切なのが、水の温度と混ぜ方です。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-08",
+          "japanese": "2. なぜ衣には冷たい水を使うの？\n\n天ぷらの衣は、一般的に小麦粉、卵、水などを使って作ります。\n\nここで大切なのが、水の温度と混ぜ方です。\n\n",
+          "english": "2. Why use cold water for the batter?\nTempura batter is generally made with wheat flour, eggs, water and other ingredients.\nThe important points here are the water temperature and how the batter is mixed."
+        },
+        {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "小麦粉には、グルテニンとグリアジンというタンパク質が含まれています。"
+            },
+            {
+              "type": "paragraph",
+              "text": "小麦粉に水を加えて混ぜると、これらのタンパク質が結びつき、グルテンという弾力のある構造ができます。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-09",
+          "japanese": "小麦粉には、グルテニンとグリアジンというタンパク質が含まれています。\n\n小麦粉に水を加えて混ぜると、これらのタンパク質が結びつき、グルテンという弾力のある構造ができます。\n\n",
+          "english": "Wheat flour contains proteins called glutenin and gliadin.\nWhen water is added to flour and mixed, these proteins join together to form an elastic structure called gluten."
+        },
+        {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "パンを作るときには、このグルテンがとても重要です。生地に弾力が生まれ、ふくらみやすくなるからです。"
+            },
+            {
+              "type": "paragraph",
+              "text": "でも、天ぷらの場合は少し違います。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-10",
+          "japanese": "パンを作るときには、このグルテンがとても重要です。生地に弾力が生まれ、ふくらみやすくなるからです。\n\nでも、天ぷらの場合は少し違います。\n\n",
+          "english": "Gluten is very important in bread making because it gives the dough elasticity and helps it rise.\nTempura, however, is a little different."
+        },
+        {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "グルテンが発達しすぎると、衣が粘りやすくなり、厚くて硬い食感になることがあります。"
+            },
+            {
+              "type": "paragraph",
+              "text": "そのため、天ぷらの衣は冷たい水を使い、あまり混ぜすぎないようにするんです。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-11",
+          "japanese": "グルテンが発達しすぎると、衣が粘りやすくなり、厚くて硬い食感になることがあります。\n\nそのため、天ぷらの衣は冷たい水を使い、あまり混ぜすぎないようにするんです。\n\n",
+          "english": "If too much gluten develops, the batter can become sticky and produce a thick, hard texture.\nThat is why tempura batter is made with cold water and mixed without overworking it."
+        },
+        {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "冷たい水を使うと、グルテンの形成をゆるやかにできます。また、混ぜる回数を少なくすることで、粘りが出すぎるのを防ぎます。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-12",
+          "japanese": "冷たい水を使うと、グルテンの形成をゆるやかにできます。また、混ぜる回数を少なくすることで、粘りが出すぎるのを防ぎます。\n\n",
+          "english": "Cold water slows gluten formation. Mixing fewer times also prevents excessive stickiness."
+        },
+        {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "衣に少し粉のかたまりが残っていても、必ずしも問題ではありません。"
+            },
+            {
+              "type": "paragraph",
+              "text": "パンはよくこねる。天ぷらは混ぜすぎない。"
+            },
+            {
+              "type": "paragraph",
+              "text": "同じ小麦粉でも、作りたい食感によって扱い方が変わるのは面白いですね。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-13",
+          "japanese": "衣に少し粉のかたまりが残っていても、必ずしも問題ではありません。\n\nパンはよくこねる。天ぷらは混ぜすぎない。\n\n同じ小麦粉でも、作りたい食感によって扱い方が変わるのは面白いですね。\n\n",
+          "english": "A few lumps of flour remaining in the batter are not necessarily a problem.\nKnead bread well. Do not overmix tempura batter.\nIt is interesting how the same flour is handled differently depending on the texture you want."
+        },
+        {
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "3. 衣がサクサクになる仕組み"
+            },
+            {
+              "type": "paragraph",
+              "text": "衣を熱い油に入れると、まず小麦粉のでんぷんが水分と熱によって糊化（こか）します。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-14",
+          "japanese": "3. 衣がサクサクになる仕組み\n\n衣を熱い油に入れると、まず小麦粉のでんぷんが水分と熱によって糊化（こか）します。\n\n",
+          "english": "3. How the batter becomes crisp\nWhen the batter enters hot oil, the flour’s starch first gelatinizes through the action of moisture and heat."
+        },
+        {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "糊化とは、でんぷんが水を吸ってふくらみ、性質が変わることです。"
+            },
+            {
+              "type": "paragraph",
+              "text": "そのあと、衣の水分がどんどん蒸発していきます。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-15",
+          "japanese": "糊化とは、でんぷんが水を吸ってふくらみ、性質が変わることです。\n\nそのあと、衣の水分がどんどん蒸発していきます。\n\n",
+          "english": "Gelatinization means that starch absorbs water, swells and changes its properties.\nThe moisture in the batter then continues to evaporate."
+        },
+        {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "水分が抜けると、衣の中に小さな空洞ができ、乾いた軽い構造になります。"
+            },
+            {
+              "type": "paragraph",
+              "text": "この構造が、天ぷら特有のサクサクした食感を生み出すんです。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-16",
+          "japanese": "水分が抜けると、衣の中に小さな空洞ができ、乾いた軽い構造になります。\n\nこの構造が、天ぷら特有のサクサクした食感を生み出すんです。\n\n",
+          "english": "As water leaves, small cavities form in the coating, creating a dry, light structure.\nThis structure produces tempura’s characteristic crisp texture."
+        },
+        {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "しかし、揚げた天ぷらを長く置いておくと、だんだん衣がしんなりしてきます。"
+            },
+            {
+              "type": "paragraph",
+              "text": "これは、食材の内部や周りの空気から、衣に水分が移動するためです。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-17",
+          "japanese": "しかし、揚げた天ぷらを長く置いておくと、だんだん衣がしんなりしてきます。\n\nこれは、食材の内部や周りの空気から、衣に水分が移動するためです。\n\n",
+          "english": "However, when fried tempura is left sitting for a long time, its coating gradually becomes soft.\nThis happens because moisture moves into the coating from inside the ingredients and from the surrounding air."
+        },
+        {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "乾いていた衣が水分を吸うと、サクサクした構造がやわらかくなってしまいます。"
+            },
+            {
+              "type": "paragraph",
+              "text": "だから、天ぷらは揚げたてが一番おいしいと言われるんですね。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-18",
+          "japanese": "乾いていた衣が水分を吸うと、サクサクした構造がやわらかくなってしまいます。\n\nだから、天ぷらは揚げたてが一番おいしいと言われるんですね。\n\n",
+          "english": "When the dry coating absorbs moisture, its crisp structure softens.\nThat is why tempura is said to taste best freshly fried."
+        },
+        {
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "4. 油の温度はなぜ大切なの？"
+            },
+            {
+              "type": "paragraph",
+              "text": "天ぷらでは、食材によって油の温度を変えます。"
+            },
+            {
+              "type": "paragraph",
+              "text": "一般的には160〜180℃くらいがよく使われますが、素材の厚さや水分量、目指す仕上がりによって適切な温度は変わります。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-19",
+          "japanese": "4. 油の温度はなぜ大切なの？\n\n天ぷらでは、食材によって油の温度を変えます。\n\n一般的には160〜180℃くらいがよく使われますが、素材の厚さや水分量、目指す仕上がりによって適切な温度は変わります。\n\n",
+          "english": "4. Why is oil temperature important?\nThe oil temperature used for tempura varies according to the ingredient.\nTemperatures around 160–180°C are common, but the right temperature depends on the ingredient’s thickness and moisture content, and the desired result."
+        },
+        {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "例えば、薄い葉物野菜は短時間で揚がりますが、厚く切ったサツマイモは中まで火を通すのに時間がかかります。"
+            },
+            {
+              "type": "paragraph",
+              "text": "油の温度が低すぎると、衣の水分が抜けるのに時間がかかり、べたっとした仕上がりになることがあります。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-20",
+          "japanese": "例えば、薄い葉物野菜は短時間で揚がりますが、厚く切ったサツマイモは中まで火を通すのに時間がかかります。\n\n油の温度が低すぎると、衣の水分が抜けるのに時間がかかり、べたっとした仕上がりになることがあります。\n\n",
+          "english": "For example, thin leafy vegetables fry quickly, while thick slices of sweet potato take time to cook through.\nIf the oil is too cool, water takes longer to leave the coating, potentially resulting in a greasy, soggy finish."
+        },
+        {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "逆に温度が高すぎると、衣だけが先に色づいて、中の食材には十分に火が通らないことがあります。"
+            },
+            {
+              "type": "paragraph",
+              "text": "また、一度にたくさんの食材を入れると、油の温度が急に下がってしまいます。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-21",
+          "japanese": "逆に温度が高すぎると、衣だけが先に色づいて、中の食材には十分に火が通らないことがあります。\n\nまた、一度にたくさんの食材を入れると、油の温度が急に下がってしまいます。\n\n",
+          "english": "If the oil is too hot, the coating may color before the food inside is sufficiently cooked.\nAdding many ingredients at once also causes the oil temperature to drop suddenly."
+        },
+        {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "そのため、食材を少しずつ入れ、油の温度を安定させることが大切なんです。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-22",
+          "japanese": "そのため、食材を少しずつ入れ、油の温度を安定させることが大切なんです。\n\n",
+          "english": "It is therefore important to add ingredients a little at a time and keep the oil temperature stable."
+        },
+        {
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "5. 泡の大きさで揚がり具合が分かる？"
+            },
+            {
+              "type": "paragraph",
+              "text": "天ぷら職人は、温度計だけではなく、泡の状態や音も観察しています。"
+            },
+            {
+              "type": "paragraph",
+              "text": "食材を油に入れた直後は、水分が勢いよく蒸発するので、大きな泡がたくさん出ることがあります。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-23",
+          "japanese": "5. 泡の大きさで揚がり具合が分かる？\n\n天ぷら職人は、温度計だけではなく、泡の状態や音も観察しています。\n\n食材を油に入れた直後は、水分が勢いよく蒸発するので、大きな泡がたくさん出ることがあります。\n\n",
+          "english": "5. Can bubble size tell you when tempura is done?\nTempura chefs observe not just a thermometer but also the bubbles and sounds.\nImmediately after an ingredient enters the oil, moisture evaporates vigorously and may produce many large bubbles."
+        },
+        {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "揚げているうちに水分が減ると、泡の出方や音が変わってきます。"
+            },
+            {
+              "type": "paragraph",
+              "text": "ただし、泡の大きさだけで火の通り具合を正確に判断できるわけではありません。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-24",
+          "japanese": "揚げているうちに水分が減ると、泡の出方や音が変わってきます。\n\nただし、泡の大きさだけで火の通り具合を正確に判断できるわけではありません。\n\n",
+          "english": "As moisture decreases during frying, the bubbles and sounds change.\nHowever, bubble size alone cannot accurately tell you whether the food is cooked through."
+        },
+        {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "食材の種類や大きさ、衣の厚さによっても泡の状態は変わります。"
+            },
+            {
+              "type": "paragraph",
+              "text": "経験のある職人は、泡、音、色、食材の動きなどを組み合わせて判断しているんです。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-25",
+          "japanese": "食材の種類や大きさ、衣の厚さによっても泡の状態は変わります。\n\n経験のある職人は、泡、音、色、食材の動きなどを組み合わせて判断しているんです。\n\n",
+          "english": "The ingredient’s type and size, and the thickness of its coating, also affect the bubbles.\nExperienced chefs judge doneness by combining observations of bubbles, sound, color, the movement of the ingredients and other factors."
+        },
+        {
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "6. 野菜と魚介類では揚げ方が違う"
+            },
+            {
+              "type": "paragraph",
+              "text": "天ぷらでは、素材によって下ごしらえや揚げ方を変えます。"
+            },
+            {
+              "type": "paragraph",
+              "text": "例えば、ナスは水分を多く含んでいるので、切り方や揚げ時間によって食感が大きく変わります。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-26",
+          "japanese": "6. 野菜と魚介類では揚げ方が違う\n\n天ぷらでは、素材によって下ごしらえや揚げ方を変えます。\n\n例えば、ナスは水分を多く含んでいるので、切り方や揚げ時間によって食感が大きく変わります。\n\n",
+          "english": "6. Vegetables and seafood need different frying methods\nTempura preparation and frying methods change according to the ingredient.\nFor example, eggplant contains a lot of water, so its texture changes greatly depending on how it is cut and how long it is fried."
+        },
+        {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "サツマイモはでんぷんを多く含んでいるため、比較的ゆっくり加熱すると、甘みが引き出されることがあります。"
+            },
+            {
+              "type": "paragraph",
+              "text": "一方、エビや白身魚などは、加熱しすぎるとタンパク質が収縮して、水分が失われ、硬くなってしまいます。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-27",
+          "japanese": "サツマイモはでんぷんを多く含んでいるため、比較的ゆっくり加熱すると、甘みが引き出されることがあります。\n\n一方、エビや白身魚などは、加熱しすぎるとタンパク質が収縮して、水分が失われ、硬くなってしまいます。\n\n",
+          "english": "Sweet potatoes contain plenty of starch, and relatively slow heating can bring out their sweetness.\nBy contrast, overheating shrimp or white fish causes their proteins to contract, moisture to escape and the flesh to become tough."
+        },
+        {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "そのため、魚介類は中まで安全に火を通しながら、必要以上に加熱しないことが大切です。"
+            },
+            {
+              "type": "paragraph",
+              "text": "天ぷらは、すべての食材を同じ温度、同じ時間で揚げればいいという料理ではないんですね。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-28",
+          "japanese": "そのため、魚介類は中まで安全に火を通しながら、必要以上に加熱しないことが大切です。\n\n天ぷらは、すべての食材を同じ温度、同じ時間で揚げればいいという料理ではないんですね。\n\n",
+          "english": "Seafood should therefore be cooked safely all the way through without being heated more than necessary.\nTempura is not a dish in which every ingredient should be fried at the same temperature for the same length of time."
+        },
+        {
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "7. 油っぽくならないためには？"
+            },
+            {
+              "type": "paragraph",
+              "text": "天ぷらを揚げるとき、衣の水分は外へ出ていきますが、同時に油も衣の中へ入り込むことがあります。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-29",
+          "japanese": "7. 油っぽくならないためには？\n\n天ぷらを揚げるとき、衣の水分は外へ出ていきますが、同時に油も衣の中へ入り込むことがあります。\n\n",
+          "english": "7. How can you keep tempura from becoming oily?\nWhen tempura fries, moisture leaves the batter, but oil can also enter it at the same time."
+        },
+        {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "特に、油から取り出したあと、衣が冷めていく間にも油が吸収されることがあります。"
+            },
+            {
+              "type": "paragraph",
+              "text": "油っぽさを減らすためには、衣を適切な厚さにし、油の温度を管理することが重要です。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-30",
+          "japanese": "特に、油から取り出したあと、衣が冷めていく間にも油が吸収されることがあります。\n\n油っぽさを減らすためには、衣を適切な厚さにし、油の温度を管理することが重要です。\n\n",
+          "english": "Oil may also be absorbed as the coating cools after being removed from the oil.\nTo reduce oiliness, it is important to use an appropriate coating thickness and control the oil temperature."
+        },
+        {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "また、揚げたあとに網などにのせて、余分な油を切ることも大切です。"
+            },
+            {
+              "type": "paragraph",
+              "text": "天ぷらを重ねて置くと、蒸気がこもり、衣がしんなりしやすくなります。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-31",
+          "japanese": "また、揚げたあとに網などにのせて、余分な油を切ることも大切です。\n\n天ぷらを重ねて置くと、蒸気がこもり、衣がしんなりしやすくなります。\n\n",
+          "english": "It also matters to drain excess oil after frying, for example by placing the tempura on a rack.\nStacking tempura traps steam, making the coating more likely to soften."
+        },
+        {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "だから、揚げたてをなるべく早く食べるのが理想的なんです。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-32",
+          "japanese": "だから、揚げたてをなるべく早く食べるのが理想的なんです。\n\n",
+          "english": "That is why eating it as soon as possible after frying is ideal."
+        },
+        {
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "8. 天ぷらと素材の味"
+            },
+            {
+              "type": "paragraph",
+              "text": "天ぷらは、衣の食感だけを楽しむ料理ではありません。"
+            },
+            {
+              "type": "paragraph",
+              "text": "大切なのは、衣と素材のバランスです。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-33",
+          "japanese": "8. 天ぷらと素材の味\n\n天ぷらは、衣の食感だけを楽しむ料理ではありません。\n\n大切なのは、衣と素材のバランスです。\n\n",
+          "english": "8. Tempura and the flavor of its ingredients\nTempura is not only about enjoying the texture of the coating.\nWhat matters is the balance between coating and ingredient."
+        },
+        {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "衣が厚すぎると、小麦粉や油の味が強くなり、素材の繊細な味が分かりにくくなります。"
+            },
+            {
+              "type": "paragraph",
+              "text": "反対に、衣が薄すぎたり、うまく付いていなかったりすると、素材の水分が失われやすくなることもあります。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-34",
+          "japanese": "衣が厚すぎると、小麦粉や油の味が強くなり、素材の繊細な味が分かりにくくなります。\n\n反対に、衣が薄すぎたり、うまく付いていなかったりすると、素材の水分が失われやすくなることもあります。\n\n",
+          "english": "If the coating is too thick, the flavors of flour and oil become stronger, making the ingredient’s delicate flavor harder to appreciate.\nConversely, if the coating is too thin or does not adhere well, moisture can escape more easily from the ingredient."
+        },
+        {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "職人は、食材の特徴に合わせて衣の濃さや厚さ、油の温度、揚げ時間を調整します。"
+            },
+            {
+              "type": "paragraph",
+              "text": "そして、天つゆだけではなく、塩で食べることもあります。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-35",
+          "japanese": "職人は、食材の特徴に合わせて衣の濃さや厚さ、油の温度、揚げ時間を調整します。\n\nそして、天つゆだけではなく、塩で食べることもあります。\n\n",
+          "english": "Chefs adjust the batter’s concentration and thickness, oil temperature and frying time to suit each ingredient’s characteristics.\nTempura is sometimes eaten with salt rather than only with tempura dipping sauce."
+        },
+        {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "塩で食べると、素材そのものの甘みや香りを感じやすくなる場合があります。"
+            },
+            {
+              "type": "paragraph",
+              "text": "天ぷらの魅力は、単に食材を油で揚げることではなく、熱と水分をコントロールして、素材のおいしさを引き出すことにあるんです。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-36",
+          "japanese": "塩で食べると、素材そのものの甘みや香りを感じやすくなる場合があります。\n\n天ぷらの魅力は、単に食材を油で揚げることではなく、熱と水分をコントロールして、素材のおいしさを引き出すことにあるんです。\n\n",
+          "english": "Eating it with salt can make the ingredient’s own sweetness and aroma easier to appreciate.\nTempura’s appeal lies not simply in frying ingredients in oil, but in controlling heat and moisture to bring out their deliciousness."
+        },
+        {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "シンプルな料理だからこそ、職人の知識と技術が仕上がりに大きく影響するんですね。"
+            }
+          ],
+          "id": "tempura-science-reading-chunk-37",
+          "japanese": "シンプルな料理だからこそ、職人の知識と技術が仕上がりに大きく影響するんですね。\n",
+          "english": "Precisely because it is a simple dish, the chef’s knowledge and skill greatly influence the result."
+        }
+      ]
+    }
+  ]
+}

@@ -1170,5 +1170,37 @@
     "transcriptionCheckedRecordings": 41,
     "listeningVerifiedRecordings": 0,
     "completedCards": 1
+  },
+  {
+    "batch": 123,
+    "lesson": "stories-edomae-sushi-reading",
+    "title": "江戸前寿司とは？",
+    "status": "generated",
+    "voice": "marin",
+    "model": "gpt-4o-mini-tts",
+    "speed": 1.0,
+    "speechKeys": 40,
+    "recordings": 40,
+    "recordedPassages": 40,
+    "signalCheckedRecordings": 40,
+    "transcriptionCheckedRecordings": 40,
+    "listeningVerifiedRecordings": 0,
+    "completedCards": 1
+  },
+  {
+    "batch": 124,
+    "lesson": "stories-tempura-science-reading",
+    "title": "天ぷらの科学",
+    "status": "generated",
+    "voice": "marin",
+    "model": "gpt-4o-mini-tts",
+    "speed": 1.0,
+    "speechKeys": 37,
+    "recordings": 37,
+    "recordedPassages": 37,
+    "signalCheckedRecordings": 37,
+    "transcriptionCheckedRecordings": 37,
+    "listeningVerifiedRecordings": 0,
+    "completedCards": 1
   }
 ]

@@ -1,0 +1,53 @@
+{
+  "method": "Independent Whisper transcription without expected-text prompt. Automated comparison, not listening or pitch verification.",
+  "entries": {
+    "edomae-sushi-reading-chunk-01": {
+      "number": 1,
+      "sha256": "618fea8c4aa6b81d260dcf06204dfdc9b4e8c40e10d54a0b290ee0a05da85ec2",
+      "audio": "audio/lessons/stories-edomae-sushi-reading/marin-5cba6357ac151e6d868f.mp3",
+      "transcript": "江戸の食文化から生まれた寿司 江戸前寿司は江戸時代の終わり頃に 江戸今の東京で発展したお寿司です 今では日本を代表する料理の一つ ですがもともと和庶民が気軽に 食べられる食べ物でした",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "edomae-sushi-reading-chunk-04": {
+      "number": 4,
+      "sha256": "600fd4b029592acae3da30d429eb545a33cd9c9da0ae6b4ffbf08b6ea817c127",
+      "audio": "audio/lessons/stories-edomae-sushi-reading/marin-95bb2b5f4017d6de3566.mp3",
+      "transcript": "江戸前寿司もその一つです 職人が屋台ですしおにぎりお客さんはその場で食べていました 今のように高級な料理というより気軽に楽しめるファストフードに近い存在だったんです",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "edomae-sushi-reading-chunk-24": {
+      "number": 24,
+      "sha256": "294e421e0a6bdd7d73822a4bdee278e7f8b35c352de43f86e626e1211709a4de",
+      "audio": "audio/lessons/stories-edomae-sushi-reading/marin-d1c1012d35eacb664003.mp3",
+      "transcript": "寿司店によって使う米安味付け は違います例えば赤酢を使う 店もあります",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "edomae-sushi-reading-chunk-25": {
+      "number": 25,
+      "sha256": "5357c5c952c21f7a05a77a3cae3ea45c9f3fe76ecf91becb212cace87cc0e705",
+      "audio": "audio/lessons/stories-edomae-sushi-reading/marin-8bef938c203a5ffc4cab.mp3",
+      "transcript": "赤酢は主に酒粕を原料にして作られるお酢で 独特の香りと深い味わいな特徴です",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "edomae-sushi-reading-chunk-33": {
+      "number": 33,
+      "sha256": "75b7668f4ae1c1872cddedd4a17d16ebdf3648a9f58653fb95483ec365bc7f24",
+      "audio": "audio/lessons/stories-edomae-sushi-reading/marin-ab94b4c191be2284af34.mp3",
+      "transcript": "魚の状態を見ながら使用する時間 巣で締める時間日の入れ方 シャリとのバランスなどを考えて一番 美味しい状態に仕上げる料理なんです",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    },
+    "edomae-sushi-reading-chunk-38": {
+      "number": 38,
+      "sha256": "d0e58351d4307342e42b51e860d3a9877116fefccb2fbec33ec62100d79f4c05",
+      "audio": "audio/lessons/stories-edomae-sushi-reading/marin-a3d12e68a971e62f801f.mp3",
+      "transcript": "江戸前寿司には季節の大切にする考え方や 素材の特徴を生かす工夫がたくさん詰まっています",
+      "model": "whisper-1",
+      "expected_text_prompt": false
+    }
+  }
+}

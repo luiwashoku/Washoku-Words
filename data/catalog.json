@@ -1697,5 +1697,35 @@
     "recordedAudioOnly": true,
     "file": "data/articles/miso-types.json",
     "questionCount": 1
+  },
+  {
+    "id": "stories-edomae-sushi-reading",
+    "category": "stories",
+    "title": "江戸前寿司とは？",
+    "page": "江戸の食文化・職人の仕事・シャリ",
+    "sortOrder": 11,
+    "menuColor": "bee-yellow",
+    "gameMode": "vocabulary-cards",
+    "articleCards": true,
+    "ordered": true,
+    "titleAudioDisabled": true,
+    "recordedAudioOnly": true,
+    "file": "data/articles/edomae-sushi.json",
+    "questionCount": 1
+  },
+  {
+    "id": "stories-tempura-science-reading",
+    "category": "stories",
+    "title": "天ぷらの科学",
+    "page": "衣・水分・油の温度・素材の味",
+    "sortOrder": 12,
+    "menuColor": "bee-yellow",
+    "gameMode": "vocabulary-cards",
+    "articleCards": true,
+    "ordered": true,
+    "titleAudioDisabled": true,
+    "recordedAudioOnly": true,
+    "file": "data/articles/tempura-science.json",
+    "questionCount": 1
   }
 ]

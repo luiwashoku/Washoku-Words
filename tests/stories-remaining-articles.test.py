@@ -8,7 +8,7 @@ class RemainingArticles(unittest.TestCase):
     def test_content_and_catalog(self):
         catalog=json.loads((ROOT/'data/catalog.json').read_text())
         stories=[x for x in catalog if x.get('category')=='stories']
-        self.assertEqual(len(stories),10)
+        self.assertEqual(len(stories),12)
         self.assertEqual(stories[0]['title'],'会話')
         ids=set()
         for order,(slug,count,headings) in enumerate(EXPECTED,6):

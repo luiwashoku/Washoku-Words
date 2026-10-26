@@ -5,7 +5,9 @@ ROOT=Path(__file__).resolve().parents[1]
 catalog=json.loads((ROOT/'data/catalog.json').read_text())
 combined=json.loads((ROOT/'audio/lessons/manifest.json').read_text())
 lessons=[x for x in catalog if x.get('category')=='stories' and x.get('articleCards')]
-assert len(lessons)==9
+assert len(lessons)==11
+lessons=[x for x in lessons if x["id"] in combined]
+assert len(lessons)==11
 total=0
 for lesson in lessons:
  lid=lesson['id'];data=json.loads((ROOT/lesson['file']).read_text());entry=data['entries'][0]
@@ -30,5 +32,5 @@ for lesson in lessons:
   assert e['listening_verified'] is False and e['audible_pitch_verified'] is False
   total+=1
  print('PASS:',lid,len(entry['messages']),'recorded passages')
-assert total==258
-print('PASS: 258 Marin 1.0 passages; exact source, hashes, PCM and transcript checks.')
+assert total==335
+print('PASS: 335 Marin 1.0 passages; exact source, hashes, PCM and transcript checks.')

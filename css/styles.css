@@ -361,6 +361,10 @@ button:focus-visible {
   background: var(--pulse);
 }
 
+.lesson-card--white {
+  background: var(--paper);
+}
+
 .lesson-card--bee-yellow {
   background: var(--bee-yellow);
 }

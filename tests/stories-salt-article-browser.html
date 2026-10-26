@@ -15,7 +15,7 @@
   await until(()=>[...d.querySelectorAll('#lessonList button')].some(b=>b.textContent.includes('粗塩と精製塩')));
   const lessonButtons=[...d.querySelectorAll('#lessonList button')].filter(b=>b.textContent.includes('会話')||b.textContent.includes('粗塩と精製塩'));
   assert(lessonButtons[0].textContent.includes('会話')&&lessonButtons[1].textContent.includes('粗塩と精製塩'),'Two subdecks in requested order: '+lessonButtons.map(b=>b.textContent).join('|'));
-  assert(q('#pageSubtitle').textContent.includes('11 conversations')&&q('#pageSubtitle').textContent.includes('9 articles'),'Accurate deck counts');
+  assert(q('#pageSubtitle').textContent.includes('11 conversations')&&q('#pageSubtitle').textContent.includes('11 articles'),'Accurate deck counts');
   lessonButtons[0].click();await until(()=>q('.story-messages'));
   assert(!q('.story-play-all').disabled,'Existing conversation recordings retained');
   q('#backFromExplosion').click();

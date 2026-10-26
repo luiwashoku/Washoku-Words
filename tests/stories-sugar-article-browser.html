@@ -14,8 +14,8 @@
   q('[aria-label="Open Stories"]').click();
   await until(()=>[...d.querySelectorAll('#lessonList .lesson-open')].some(b=>b.textContent.includes('体にいい砂糖とは？')));
   const buttons=[...d.querySelectorAll('#lessonList .lesson-open')];
-  assert(buttons.length===10&&buttons[0].textContent.includes('会話')&&buttons[1].textContent.includes('粗塩と精製塩')&&buttons[2].textContent.includes('甘酒とは？')&&buttons[3].textContent.includes('ふりかけの種類と選び方')&&buttons[4].textContent.includes('体にいい砂糖とは？'),'Five subdecks in order');
-  assert(q('#pageSubtitle').textContent.includes('9 articles'),'Article count');buttons[4].click();
+  assert(buttons.length===12&&buttons[0].textContent.includes('会話')&&buttons[1].textContent.includes('粗塩と精製塩')&&buttons[2].textContent.includes('甘酒とは？')&&buttons[3].textContent.includes('ふりかけの種類と選び方')&&buttons[4].textContent.includes('体にいい砂糖とは？'),'Five subdecks in order');
+  assert(q('#pageSubtitle').textContent.includes('11 articles'),'Article count');buttons[4].click();
   await until(()=>q('.article-chunks'));
   const chunks=[...d.querySelectorAll('.article-chunk')];assert(chunks.length===26,'26 coherent passages');
   for(const [i,chunk] of chunks.entries()){
@@ -25,7 +25,7 @@
    const original=text.textContent,toggle=chunk.querySelector('.article-english-toggle');toggle.click();
    assert(text.lang==='en'&&text.textContent.length>20,'English '+i);toggle.click();assert(text.textContent===original,'Japanese restored '+i);
   }
-  assert(d.querySelectorAll('.article-passage-text h5').length===10,'Six sections and four sugar labels');
+  assert(d.querySelectorAll('.article-passage-text h5').length===12,'Six sections and four sugar labels');
   const kokuto=[...d.querySelectorAll('.article-passage-text h5')].find(n=>n.textContent.startsWith('黒糖'));
   assert(kokuto.textContent==='黒糖（こくとう）','Existing source reading is not duplicated');
   const reading=q('.furiganaReading');q('#vocabularyCardFurigana').click();assert(w.getComputedStyle(reading).display!=='none','Furigana available');

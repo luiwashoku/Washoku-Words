@@ -14,9 +14,9 @@
    play(){this.paused=false;plays.push(this);return Promise.resolve()}
    pause(){this.paused=true}removeAttribute(name){if(name==='src')this.src=''}load(){}
   };
-  q('[aria-label="Open Stories"]').click();await until(()=>d.querySelectorAll('#lessonList .lesson-open').length===10);
+  q('[aria-label="Open Stories"]').click();await until(()=>d.querySelectorAll('#lessonList .lesson-open').length===12);
   const catalog=await fetch('../data/catalog.json').then(r=>r.json());
-  const lessons=catalog.filter(x=>x.category==='stories'&&x.articleCards).sort((a,b)=>a.sortOrder-b.sortOrder);
+  const lessons=catalog.filter(x=>x.category==='stories'&&x.articleCards&&w.lessonAudioFiles[x.id]).sort((a,b)=>a.sortOrder-b.sortOrder);
   let total=0;
   for(const [i,lesson]of lessons.entries()){
    const data=await fetch('../'+lesson.file).then(r=>r.json()),entry=data.entries[0];
@@ -35,10 +35,10 @@
    assert(queue.paused&&all.getAttribute('aria-pressed')==='false','Queue finishes');
    all.click();const stopped=plays.at(-1);all.click();assert(stopped.paused,'Queue stops');
    all.click();const leaving=plays.at(-1);q('#backFromExplosion').click();assert(leaving.paused,'Exit stops playback');
-   await until(()=>d.querySelectorAll('#lessonList .lesson-open').length===10);
+   await until(()=>d.querySelectorAll('#lessonList .lesson-open').length===12);
   }
-  assert(total===258,'All new passages covered');
-  result.textContent='PASS: all 258 passage buttons select their exact recordings at 1x; nine Read all queues play in order, finish, stop and stop on exit; translations retained.';
+  assert(total===335,'All new passages covered');
+  result.textContent='PASS: all 335 passage buttons select their exact recordings at 1x; eleven Read all queues play in order, finish, stop and stop on exit; translations retained.';
  }catch(e){result.textContent='FAIL: '+e.stack}
 })();
 </script>

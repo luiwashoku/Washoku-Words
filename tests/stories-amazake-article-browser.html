@@ -14,8 +14,8 @@
   q('[aria-label="Open Stories"]').click();
   await until(()=>[...d.querySelectorAll('#lessonList .lesson-open')].some(b=>b.textContent.includes('甘酒とは？')));
   const buttons=[...d.querySelectorAll('#lessonList .lesson-open')];
-  assert(buttons.length===10&&buttons[0].textContent.includes('会話')&&buttons[1].textContent.includes('粗塩と精製塩')&&buttons[2].textContent.includes('甘酒とは？'),'First three subdecks remain in order');
-  assert(q('#pageSubtitle').textContent.includes('9 articles'),'Article count');buttons[2].click();
+  assert(buttons.length===12&&buttons[0].textContent.includes('会話')&&buttons[1].textContent.includes('粗塩と精製塩')&&buttons[2].textContent.includes('甘酒とは？'),'First three subdecks remain in order');
+  assert(q('#pageSubtitle').textContent.includes('11 articles'),'Article count');buttons[2].click();
   await until(()=>q('.article-chunks'));
   const chunks=[...d.querySelectorAll('.article-chunk')];assert(chunks.length===19,'19 coherent passages');
   for(const [i,chunk] of chunks.entries()){

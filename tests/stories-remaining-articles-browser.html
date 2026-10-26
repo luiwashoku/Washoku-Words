@@ -10,8 +10,8 @@
   const d=frame.contentDocument,w=frame.contentWindow,q=s=>d.querySelector(s);
   const specs=[['yakiniku','焼肉のたれの選び方',29,7],['versatile-seasonings','万能調味料とは？',34,7],['soy-sauce','醤油の種類と選び方',37,12],['cooking-sake','料理酒とは？',32,7],['miso-types','味噌の種類と選び方',41,11]];
   q('[aria-label="Open Stories"]').click();
-  await until(()=>d.querySelectorAll('#lessonList .lesson-open').length===10);
-  assert(q('#pageSubtitle').textContent.includes('9 articles'),'Nine article subdecks');
+  await until(()=>d.querySelectorAll('#lessonList .lesson-open').length===12);
+  assert(q('#pageSubtitle').textContent.includes('11 articles'),'Nine article subdecks');
   const menu=[...d.querySelectorAll('#lessonList .lesson-open')];assert(menu[0].textContent.includes('会話'),'Conversations retained first');
   for(const [i,spec]of specs.entries())assert(menu[i+5].textContent.includes(spec[1]),'Supplied order '+spec[0]);
   let total=0;
@@ -37,7 +37,7 @@
    }
    assert(!q('.story-play-all').disabled,'Read all ready '+slug);
    assert(d.documentElement.scrollWidth<=w.innerWidth+1,'Phone fit '+slug);
-   q('#backFromExplosion').click();await until(()=>d.querySelectorAll('#lessonList .lesson-open').length===10);
+   q('#backFromExplosion').click();await until(()=>d.querySelectorAll('#lessonList .lesson-open').length===12);
   }
   assert(total===173,'All 173 passages checked');
   result.textContent='PASS: all five new subdecks in order, 173 exact translated/furigana passages, source readings retained, section/type headings, enabled audio and mobile navigation';
